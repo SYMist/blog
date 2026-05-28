@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="80" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="800" fill="#F59E0B">개인회생·개인파산 절차 흐름 비교</text>
+  <rect x="60" y="110" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- 개인회생 흐름 (왼쪽) -->
+  <text x="290" y="165" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#FFF">개인회생</text>
+
+  <rect x="80" y="190" width="420" height="70" rx="14" fill="rgba(232,240,255,0.1)"/>
+  <text x="290" y="233" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">① 개시 신청 (법원)</text>
+  <text x="290" y="290" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" fill="#E8F0FF">▼</text>
+  <rect x="80" y="310" width="420" height="70" rx="14" fill="rgba(232,240,255,0.08)"/>
+  <text x="290" y="353" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">② 개시결정 (1~2주) · 추심중지</text>
+  <text x="290" y="410" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" fill="#E8F0FF">▼</text>
+  <rect x="80" y="430" width="420" height="70" rx="14" fill="rgba(232,240,255,0.1)"/>
+  <text x="290" y="473" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">③ 변제계획 인가 (3~6개월)</text>
+  <text x="290" y="530" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" fill="#E8F0FF">▼</text>
+  <rect x="80" y="550" width="420" height="90" rx="14" fill="rgba(232,240,255,0.08)"/>
+  <text x="290" y="590" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">④ 변제 수행 (3~5년)</text>
+  <text x="290" y="620" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">재산 유지 · 소득으로 분할 상환</text>
+  <text x="290" y="670" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" fill="#E8F0FF">▼</text>
+  <rect x="80" y="690" width="420" height="70" rx="14" fill="rgba(34,197,94,0.15)"/>
+  <text x="290" y="733" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#22C55E">⑤ 면책 — 잔여 채무 탕감</text>
+
+  <!-- 개인파산 흐름 (오른쪽) -->
+  <text x="790" y="165" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#FFF">개인파산</text>
+
+  <rect x="580" y="190" width="420" height="70" rx="14" fill="rgba(245,158,11,0.1)"/>
+  <text x="790" y="233" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">① 파산·면책 신청 (법원)</text>
+  <text x="790" y="290" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" fill="#F59E0B">▼</text>
+  <rect x="580" y="310" width="420" height="70" rx="14" fill="rgba(245,158,11,0.08)"/>
+  <text x="790" y="353" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">② 파산선고 · 관재인 선임</text>
+  <text x="790" y="410" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" fill="#F59E0B">▼</text>
+  <rect x="580" y="430" width="420" height="90" rx="14" fill="rgba(245,158,11,0.1)"/>
+  <text x="790" y="470" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">③ 재산 매각 · 배당</text>
+  <text x="790" y="500" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">관리·처분권 상실 · 재산 처분</text>
+  <text x="790" y="550" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" fill="#F59E0B">▼</text>
+  <rect x="580" y="570" width="420" height="70" rx="14" fill="rgba(245,158,11,0.08)"/>
+  <text x="790" y="613" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">④ 면책 심리</text>
+  <text x="790" y="670" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" fill="#F59E0B">▼</text>
+  <rect x="580" y="690" width="420" height="70" rx="14" fill="rgba(245,158,11,0.15)"/>
+  <text x="790" y="733" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#F59E0B">⑤ 면책 — 잔여 채무 면제</text>
+
+  <!-- 하단 비교 -->
+  <rect x="60" y="810" width="460" height="80" rx="16" fill="rgba(232,240,255,0.08)"/>
+  <text x="290" y="858" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">총 소요: 3~5년</text>
+  <rect x="560" y="810" width="460" height="80" rx="16" fill="rgba(245,158,11,0.1)"/>
+  <text x="790" y="858" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">총 소요: 6개월~1년</text>
+
+  <rect x="60" y="940" width="960" height="60" rx="12" fill="rgba(255,255,255,0.06)"/>
+  <text x="540" y="978" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">비면책채권(세금·벌금·양육비)은 두 제도 모두 면제되지 않습니다</text>
+
+  <rect x="60" y="1030" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

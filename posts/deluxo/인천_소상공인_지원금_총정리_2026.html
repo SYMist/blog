@@ -1,0 +1,424 @@
+<!-- tistory_policy_template.html 기반 -->
+<!-- ✅ 티스토리 HTML 모드에서만 붙여넣기 — 기본모드 전환 절대 금지 -->
+
+<!-- ✅ Schema.org 구조화 데이터 -->
+<div style="display:none">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "인천 소상공인 지원금 최대 2억 신청법 — 경영안정자금·밸류업·e음 총정리 (2026)",
+      "description": "인천 소상공인 경영안정자금 5,000만 원, 밸류업 특별보증 최대 2억, 인천e음 캐시백 월 7.5만 원 — 2026년 인천 소상공인 지원사업 신청 조건·방법·서류 총정리",
+      "datePublished": "2026-04-28",
+      "dateModified": "2026-04-28",
+      "author": {"@type": "Person", "name": "deluxo"},
+      "publisher": {"@type": "Organization", "name": "deluxo"}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "인천 소상공인 경영안정자금 한도는 얼마인가요?", "acceptedAnswer": {"@type": "Answer", "text": "업체당 최대 5,000만 원입니다. 2026년 기존 3,000만 원에서 67% 확대됐으며, 첫 1년 2.0%, 이후 2년 1.5% 이자를 인천시가 지원합니다."}},
+        {"@type": "Question", "name": "밸류업 특별보증은 얼마까지 받을 수 있나요?", "acceptedAnswer": {"@type": "Answer", "text": "창업 1년 미만은 1억 원, 창업 1~3년(도약기)은 1.5억 원, 창업 3년 이상(성장기)은 2억 원까지 지원합니다."}},
+        {"@type": "Question", "name": "경영안정자금과 밸류업 동시 신청이 가능한가요?", "acceptedAnswer": {"@type": "Answer", "text": "가능합니다. 두 사업은 재원이 별도이므로 한도 여유가 있으면 중복 신청을 검토할 수 있습니다. 인천신보에서 통합 상담을 받는 것이 가장 빠릅니다."}},
+        {"@type": "Question", "name": "인천e음 캐시백은 얼마나 받을 수 있나요?", "acceptedAnswer": {"@type": "Answer", "text": "인천 내륙 8개 자치구는 월 최대 5만 원, 강화군·옹진군은 월 최대 7만 5,000원 캐시백을 받을 수 있습니다. 연매출 30억 원 이하 가맹점에서 인천e음 카드로 결제 시 적용됩니다."}},
+        {"@type": "Question", "name": "보증드림 앱으로 신청하면 얼마나 걸리나요?", "acceptedAnswer": {"@type": "Answer", "text": "비대면 자동심사 도입으로 약 12주 내 결과가 통보됩니다. 심사 완료 후 협약 은행에서 대출 약정을 체결하면 실행됩니다."}}
+      ]
+    }
+  ]
+}
+</script>
+</div>
+
+<style>
+  :root{
+    --blue:#1D4ED8; --blue2:#1E40AF;
+    --white:#FFFFFF; --text:#111827;
+    --muted:#4B5563; --border:#E5E7EB;
+    --bg:#F9FAFB; --blueLight:#E8F0FF;
+  }
+  .wrap{max-width:860px;margin:0 auto;line-height:1.8;color:var(--text);}
+  .meta{color:var(--muted);font-size:.95rem;margin:6px 0 18px;}
+  .badge{display:inline-block;background:var(--blueLight);border:1px solid var(--border);padding:3px 10px;border-radius:999px;font-size:.85rem;margin-right:8px;}
+  .notice{background:#fff7ed;border:1px solid #fed7aa;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .lead{background:#f8fafc;border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .keysum{background:#fefce8;border:1px solid #fde68a;padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .summary{background:#eff6ff;border:1px solid #bfdbfe;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .toc{background:var(--bg);border:1px solid var(--border);padding:14px 16px;border-radius:12px;margin:16px 0 22px;}
+  .toc a{text-decoration:none;color:var(--blue);}
+  .toc ul{margin:8px 0 0 18px;}
+
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 6px;}
+  .wrap a.btn,.wrap a.btn:link,.wrap a.btn:visited{
+    display:inline-flex;align-items:center;justify-content:center;
+    padding:10px 14px;border-radius:10px;border:1px solid var(--blue);
+    background:var(--blue) !important;color:var(--white) !important;
+    text-decoration:none !important;font-weight:800;
+  }
+  .wrap a.btn:hover,.wrap a.btn:active,.wrap a.btn:focus{
+    background:var(--blue2) !important;border-color:var(--blue2) !important;color:var(--white) !important;
+  }
+  .wrap a.btn.secondary,.wrap a.btn.secondary:link,.wrap a.btn.secondary:visited{
+    background:var(--white) !important;color:var(--blue) !important;border-color:var(--blue) !important;
+  }
+  .wrap a.btn.secondary:hover,.wrap a.btn.secondary:active,.wrap a.btn.secondary:focus{
+    background:var(--bg) !important;color:var(--blue2) !important;border-color:var(--blue2) !important;
+  }
+  .wrap a.btn.gray,.wrap a.btn.gray:link,.wrap a.btn.gray:visited{
+    background:#111827 !important;border-color:#111827 !important;color:var(--white) !important;
+  }
+  .wrap a.btn.gray:hover,.wrap a.btn.gray:active,.wrap a.btn.gray:focus{
+    background:#0b1220 !important;border-color:#0b1220 !important;color:var(--white) !important;
+  }
+
+  table{width:100%;border-collapse:collapse;margin:14px 0 10px;}
+  th,td{border:1px solid var(--border);padding:10px;vertical-align:top;}
+  th{background:#F3F4F6;text-align:left;}
+  .small{font-size:.95rem;color:var(--muted);}
+  h1{margin:0 0 8px;line-height:1.25;}
+  h2{margin-top:30px;padding-top:8px;border-top:1px solid var(--border);}
+  h3{margin-top:16px;}
+  .q{font-weight:900;margin:14px 0 6px;}
+  .a{margin:0 0 10px;}
+  .tips{background:#f0fdf4;border:1px solid #bbf7d0;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .urgency{background:#fef2f2;border:1px solid #fca5a5;padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .target{background:#f0fdf4;border:1px solid #86efac;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .target ul{margin:8px 0 0 18px;}
+  .disclaimer{background:#f1f5f9;border:1px solid #cbd5e1;padding:12px 14px;border-radius:12px;margin:12px 0 14px;font-size:.93rem;color:var(--muted);}
+  .footer{margin-top:26px;padding-top:14px;border-top:1px solid var(--border);color:var(--muted);font-size:.95rem;}
+</style>
+
+<div class="wrap">
+  <h1>인천 소상공인 지원금 최대 2억 신청법 — 경영안정자금·밸류업·e음 총정리 (2026)</h1>
+  <div class="meta">
+    <span class="badge">키워드: 인천 소상공인 지원금</span>
+    <span class="badge">업데이트: 2026-04-28</span>
+  </div>
+
+  <div class="notice">
+    <strong>먼저 확인!</strong><br/>
+    인천 소상공인 지원사업은 예산 소진 시 조기 마감됩니다. 신청 전 인천신용보증재단 공식 홈페이지 또는 보증드림 앱에서 현재 모집 여부를 반드시 확인하세요. 자치구별 추가 지원은 각 구청 경제정책과 공고를 별도로 확인해야 합니다.
+  </div>
+
+  <p class="small">
+    2026년 인천광역시 소상공인 지원 예산은 총 2,196억 원으로 확대됐습니다. 경영안정자금(업체당 최대 5,000만 원), 밸류업 특별보증(최대 2억 원), 인천e음 캐시백(월 최대 7.5만 원)까지 — 인천에서 사업하는 소상공인이 받을 수 있는 지원금을 한 번에 정리했습니다.
+  </p>
+
+  <div class="lead">
+    인천 소상공인이라면 전국 공통 정책자금과 별도로 인천시 단독 지원사업을 추가로 활용할 수 있습니다. 2026년 가장 큰 변화는 경영안정자금 한도가 3,000만 원에서 5,000만 원으로 67% 올랐고, 비대면 자동심사 도입으로 처리 기간도 대폭 단축됐다는 점입니다. 어떤 지원을 어떻게 신청해야 할지 조건부터 서류까지 모두 정리했습니다.
+  </div>
+
+  <div class="urgency">
+    <strong>지금 서두르지 않으면 놓칩니다</strong><br/>
+    1단계 경영안정자금(1,000억)은 2026년 1월 28일 시작 후 선착순으로 소진 중입니다. 2단계(1,145억)도 3월 30일부터 접수가 시작됐지만, 4만 5,000여 업체가 대상이어서 조기 마감이 현실적입니다. 미신청 시 업체당 연간 최대 5,000만 원 저금리 자금을 그냥 놓치게 됩니다. 지금 바로 보증드림 앱에서 자격 조회를 시작하세요.
+  </div>
+
+  <div class="keysum">
+    <strong>핵심 요약 3줄</strong><br/>
+    인천 소상공인 전체 지원 예산 2,196억 원 — 경영안정자금·보증·e음·교육 종합 지원<br/>
+    업체당 최대 2억 원(밸류업 성장기업) + 경영안정자금 5,000만 원 병행 신청 가능<br/>
+    보증드림 앱 비대면 신청, 약 12주 내 처리 — 지금 바로 자격 조회부터 시작하세요
+  </div>
+
+  <div class="summary" id="top">
+    <h2 style="border-top:none;margin-top:0;">✅ 5줄 요약(결론)</h2>
+    <ul>
+      <li><strong>경영안정자금</strong>: 1·2단계 합산 2,145억, 업체당 최대 5,000만 원 — 2026.1.28 시작, 선착순 소진</li>
+      <li><strong>밸류업 특별보증</strong>: 창업기 1억 / 도약기 1.5억 / 성장기 2억 — 성장 단계별 신청</li>
+      <li><strong>인천e음</strong>: 월 최대 7만 5,000원 캐시백(강화·옹진 우대), 연매출 30억 이하 가맹점 적용</li>
+      <li><strong>무료 지원</strong>: 재도약 컨설팅(경영·세무·마케팅) + e-캠퍼스(온라인 교육) 100% 무료</li>
+      <li><strong>주의</strong>: 자금 소진 시 조기 마감 — 신청 전 공식 공고 확인 필수</li>
+    </ul>
+
+    <div class="btns">
+      <a class="btn" href="https://www.icsinbo.or.kr" target="_blank" rel="noopener">인천신보 공식 홈페이지</a>
+      <a class="btn gray" href="https://bizok.incheon.go.kr" target="_blank" rel="noopener">인천 비즈OK 기업지원</a>
+      <a class="btn secondary" href="https://www.insupport.or.kr" target="_blank" rel="noopener">인천소상공인종합지원센터</a>
+    </div>
+    <p class="small">※ 신청 전 공식 공고/FAQ 확인 필수. 예산 소진 시 조기 마감.</p>
+  </div>
+
+  <div class="target">
+    <strong>이런 상황이라면 지금 바로 신청하세요</strong>
+    <ul>
+      <li>운영자금이 부족해 당장 다음 달 임대료·인건비가 걱정되는 인천 소상공인이라면 → 경영안정자금 5,000만 원</li>
+      <li>창업 1~3년차인데 사업을 확장하거나 인테리어 투자를 계획하고 있다면 → 밸류업 도약기업 1.5억</li>
+      <li>매장에 인천e음 가맹점 등록을 아직 안 했다면 → 매달 최대 7.5만 원 캐시백 유입 놓치는 중</li>
+      <li>골목 상권에서 신규 창업을 준비 중인데 인허가 비용이 부담스럽다면 → 골목창업 첫걸음 최대 40만 원</li>
+      <li>경영이 어렵지만 컨설팅 비용이 없어서 망설이고 있다면 → 재도약 컨설팅 100% 무료</li>
+    </ul>
+  </div>
+
+  <div class="toc">
+    <strong>목차</strong>
+    <ul>
+      <li><a href="#table">1) 한눈에 표(사업별 비교)</a></li>
+      <li><a href="#quick">→ 나는 어디? 경영안정자금 vs 밸류업 10초 판단</a></li>
+      <li><a href="#detail">2) 주요 사업 상세 안내</a></li>
+      <li><a href="#how">3) 신청 방법(경영안정자금 기준)</a></li>
+      <li><a href="#docs">4) 서류 체크리스트</a></li>
+      <li><a href="#case">5) 경험/사례</a></li>
+      <li><a href="#faq">6) FAQ(탈락 사유 포함)</a></li>
+      <li><a href="#check">7) 신청 전 1분 체크리스트</a></li>
+      <li><a href="#update">업데이트 로그</a></li>
+    </ul>
+  </div>
+
+  <h2 id="table">1) 한눈에 표 (사업별 비교)</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>구분</th><th>사업명</th><th>한도/혜택</th><th>대상</th><th>신청처</th><th>기간</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>자금(1단계)</strong></td>
+        <td>희망인천 경영안정자금</td>
+        <td>최대 5,000만 원<br/>금리 2.0%→1.5% 지원</td>
+        <td>인천 소상공인</td>
+        <td>보증드림 앱 / 협약 7개 은행</td>
+        <td>2026.1.28~<br/>소진 시까지</td>
+      </tr>
+      <tr>
+        <td><strong>자금(2단계)</strong></td>
+        <td>희망인천 경영안정자금</td>
+        <td>최대 5,000만 원<br/>동일 조건</td>
+        <td>인천 소상공인</td>
+        <td>보증드림 앱 / 협약 은행</td>
+        <td>2026.3.30~<br/>소진 시까지</td>
+      </tr>
+      <tr>
+        <td><strong>보증</strong></td>
+        <td>밸류업 특별보증</td>
+        <td>창업기 1억<br/>도약기 1.5억<br/>성장기 2억</td>
+        <td>창업~성장기 기업</td>
+        <td>인천신용보증재단<br/>(1577-3790)</td>
+        <td>2026 상시</td>
+      </tr>
+      <tr>
+        <td><strong>캐시백</strong></td>
+        <td>인천e음 상품권</td>
+        <td>월 최대 5만 원<br/>(강화·옹진 7.5만)</td>
+        <td>연매출 30억↓ 가맹점 소비자</td>
+        <td>인천e음 앱/카드</td>
+        <td>상시</td>
+      </tr>
+      <tr>
+        <td><strong>창업지원</strong></td>
+        <td>골목창업 첫걸음</td>
+        <td>최대 40만 원<br/>(인허가 비용)</td>
+        <td>신규 창업 250개 업체</td>
+        <td>인천소상공인종합지원센터</td>
+        <td>2026 선착순</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- ✅ 인아티클 광고 (한눈에 표 직후) -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5716436301710258"
+       crossorigin="anonymous"></script>
+  <ins class="adsbygoogle"
+       style="display:block; text-align:center;"
+       data-ad-layout="in-article"
+       data-ad-format="fluid"
+       data-ad-client="ca-pub-5716436301710258"
+       data-ad-slot="7020031076"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+  <h3 id="quick">나는 어디? 경영안정자금 vs 밸류업 10초 판단</h3>
+  <table>
+    <thead>
+      <tr><th></th><th>경영안정자금</th><th>밸류업 특별보증</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>핵심 성격</strong></td><td>저금리 운전·경영 안정 자금</td><td>성장 단계별 맞춤 보증</td></tr>
+      <tr><td><strong>한도</strong></td><td>최대 5,000만 원</td><td>창업기 1억 / 도약기 1.5억 / 성장기 2억</td></tr>
+      <tr><td><strong>금리/보증료</strong></td><td>첫 1년 2.0%, 이후 2년 1.5% 이자 지원 + 보증료 0.8%</td><td>보증 제공 (금리는 협약 은행 적용)</td></tr>
+      <tr><td><strong>이런 분께</strong></td><td>지금 당장 운전자금이 급한 분</td><td>사업 확장·시설 투자·점포 추가 계획 있는 분</td></tr>
+    </tbody>
+  </table>
+  <p class="small">※ 두 사업 동시 신청 가능 — 인천신보(1577-3790)에서 통합 상담 권장</p>
+
+  <!-- ✅ 이미지 1: 요약표 카드 -->
+  <img src="summary_card_1080_incheon_small_business_2026.png" alt="인천 소상공인 지원금 신청 조건 서류 요약" style="width:100%;max-width:600px;display:block;margin:16px auto;" />
+
+  <!-- ✅ 이미지 2: 빠른 판단 가이드 -->
+  <img src="quick_guide_1080_incheon_small_business_2026.png" alt="인천 소상공인 지원금 빠른 판단 가이드" style="width:100%;max-width:600px;display:block;margin:16px auto;" />
+
+  <h2 id="detail">2) 주요 사업 상세 안내</h2>
+
+  <h3>① 희망인천 소상공인 경영안정자금 (1·2단계)</h3>
+  <p>2026년 인천시의 핵심 자금 지원사업입니다. 1단계(1,000억 원)는 1월 28일 개시됐고, 2단계(1,145억 원)는 3월 30일부터 접수를 받고 있습니다. 재원 구조가 다를 뿐 대출 조건과 한도는 동일합니다.</p>
+  <ul>
+    <li>업체당 최대 <strong>5,000만 원</strong> (2025년 3,000만 원에서 67% 확대)</li>
+    <li>이자 지원: 첫 1년 <strong>연 2.0%</strong>, 이후 2년 <strong>연 1.5%</strong> (인천시 직접 지원)</li>
+    <li>보증료: <strong>연 0.8%</strong> (5,000만 원 기준 연간 약 40만 원)</li>
+    <li>협약 은행: 신한·NH농협·하나·KB국민·우리·카카오뱅크·케이뱅크</li>
+    <li>비대면 자동심사 → 약 <strong>12주</strong> 내 결과 통보</li>
+  </ul>
+
+  <h3>② 인천신보 밸류업 특별보증</h3>
+  <p>창업 초기부터 성장 단계에 이르기까지 단계별로 보증 한도가 늘어나는 맞춤형 사업입니다. 총 규모 1,245억 원으로, 신규 투자나 확장 자금을 계획하는 소상공인에게 특히 유리합니다.</p>
+  <table>
+    <thead>
+      <tr><th>단계</th><th>대상</th><th>한도</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>창업기</strong></td><td>창업 후 1년 미만</td><td>1억 원 이내</td></tr>
+      <tr><td><strong>도약기</strong></td><td>창업 1~3년</td><td>1.5억 원 이내</td></tr>
+      <tr><td><strong>성장기</strong></td><td>창업 3년 이상</td><td>2억 원 이내</td></tr>
+    </tbody>
+  </table>
+
+  <h3>③ 인천e음(인천사랑상품권)</h3>
+  <p>인천 전역 약 12만 개 가맹점에서 사용 가능한 지역사랑상품권입니다. 소비자가 인천e음 카드로 결제하면 캐시백이 적립되고, 가맹점으로 등록된 소상공인은 매출 증가 효과를 누릴 수 있습니다. 상생가맹점 등록 시 기본 캐시백 외에 1~5% 추가 캐시백도 지급돼 집객력이 높아집니다.</p>
+
+  <h3>④ 골목창업 첫걸음 (2026 신규)</h3>
+  <p>인천에서 새로 창업하는 소상공인 250개 업체에 인허가 비용을 최대 40만 원까지 지원하는 신규 사업입니다. 본인이 직접 서류를 준비하면 최대 10만 원, 행정사에 대행을 맡기면 최대 40만 원을 지원합니다.</p>
+
+  <h3>⑤ 재도약 컨설팅 + 소상공인 e-캠퍼스</h3>
+  <p>전문 컨설턴트가 사업장에 직접 방문해 경영·세무·마케팅·상권 분석을 100% 무료로 진단합니다. 온라인 교육 플랫폼 e-캠퍼스(2026 신규)에서는 창업 기초, SNS 마케팅, 디지털 전환, AI 활용 등의 강좌를 24시간 무료로 수강할 수 있습니다.</p>
+
+  <!-- ✅ 이미지 3: 정책 비교·변화 카드 -->
+  <img src="compare_card_1080_incheon_small_business_2026.png" alt="인천 소상공인 지원금 정책 비교" style="width:100%;max-width:600px;display:block;margin:16px auto;" />
+
+  <h2 id="how">3) 신청 방법 (경영안정자금 기준)</h2>
+  <ol>
+    <li><strong>사전 준비</strong>: 인천신보 '보증드림' 앱 설치 후 회원가입. 사업자등록증·매출 증빙(부가세 신고서 또는 카드매출 내역)·신분증 스캔본 준비</li>
+    <li><strong>비대면 신청</strong>: 보증드림 앱에서 사업장 정보·자금 용도 입력 후 서류 업로드. 디지털 소외계층은 인천신보 지점(부평·남동·서구 등) 직접 방문 가능</li>
+    <li><strong>자동심사</strong>: 신용평가·사업장 실사 자동 진행, 약 12주 내 결과 문자 통보</li>
+    <li><strong>협약 은행 약정</strong>: 결과 통보 후 신한·농협·하나·국민·우리·카카오·케이뱅크 중 선택해 대출 약정 체결</li>
+    <li><strong>대출 실행</strong>: 약정 완료 후 지정 계좌로 자금 실행. 이자 지원은 인천시가 은행에 직접 납부하는 방식으로 적용</li>
+  </ol>
+
+  <div class="tips">
+    <strong>밸류업 특별보증 신청</strong><br/>
+    경영안정자금과 달리 밸류업은 인천신용보증재단 직접 방문 또는 1577-3790 전화 상담이 필요합니다. 창업 연차(1년/3년 기준)를 먼저 확인한 뒤 해당 단계에 맞는 보증서를 신청하세요.
+  </div>
+
+  <h2 id="docs">4) 서류 체크리스트</h2>
+  <h3>기본 서류 (경영안정자금)</h3>
+  <ul>
+    <li>사업자등록증 사본</li>
+    <li>대표자 신분증</li>
+    <li>매출 증빙: 부가가치세 신고서 또는 카드매출 내역서</li>
+    <li>사업장 임대차계약서 (임차 사업장의 경우)</li>
+    <li>인천 소재 사업장 확인 서류</li>
+  </ul>
+  <h3>상황별 추가 서류</h3>
+  <ul>
+    <li>창업 1년 미만인 경우: 사업계획서 또는 초기 매출 증빙</li>
+    <li>기존 대출·보증이 있는 경우: 기존 대출 잔액 확인서</li>
+    <li>밸류업 보증 추가 신청 시: 사업 성장 계획서, 투자 용도 증빙</li>
+    <li>골목창업 첫걸음: 인허가 비용 영수증, 행정사 대행 계약서(대행 시)</li>
+  </ul>
+  <p class="small">※ 신청 방법에 따라 추가 서류를 요구할 수 있으니 보증드림 앱 또는 인천신보 상담 창구에서 사전 확인하세요.</p>
+
+  <h2 id="case">5) 경험/사례</h2>
+
+  <p>2026년 2월, 인천 남동구에서 카페를 운영하는 이 씨는 경영안정자금 1단계를 보증드림 앱으로 신청했다. 앱 설치부터 서류 업로드까지 30분이 채 걸리지 않았는데, 가장 헷갈렸던 부분은 매출 증빙 서류 선택이었다. 부가세 신고서가 없는 간이과세자여서 직전 3개월치 카드매출 내역서를 대신 제출했고, 그걸로도 문제없이 심사가 진행됐다고 한다. 자동심사 완료 문자는 신청 후 약 10주 뒤에 도착했고, 통보 다음 날 협약 은행 창구에서 대출 약정을 체결했다.</p>
+
+  <p>가장 많이 헷갈리는 포인트는 '이자 지원 방식'이다. 금리 2.0%를 지원받는다고 해서 이자가 없거나 2%로 빌리는 게 아니다. 은행 기준 대출금리에서 2.0%포인트를 인천시가 대신 납부해주는 구조다. 예를 들어 은행 기준금리가 4.5%라면 실제 부담 금리는 2.5%가 된다. 신청 전에 협약 은행 창구에서 현재 적용 금리를 먼저 확인하는 것이 가장 좋다.</p>
+
+  <p>인천신보 고객센터(1577-3790)에 문의하면 경영안정자금과 밸류업 동시 신청 가능 여부, 현재 잔여 한도, 자치구 추가 지원 여부를 한 번에 안내받을 수 있다. 신청 전 전화 상담 한 번으로 불필요한 서류 준비를 줄일 수 있으니 상담을 먼저 받는 것을 권장한다.</p>
+
+  <!-- ✅ 이미지 4: 탈락 사유 TOP 5 카드 -->
+  <img src="rejection_card_1080_incheon_small_business_2026.png" alt="인천 소상공인 지원금 탈락 사유 TOP 5" style="width:100%;max-width:600px;display:block;margin:16px auto;" />
+
+  <h2 id="faq">6) FAQ</h2>
+
+  <h3>탈락 사유 TOP 5</h3>
+  <ol>
+    <li><strong>인천 소재 사업장 미등록</strong>: 사업자등록증 주소가 인천이 아닌 경우 신청 자체가 불가합니다. 인천 내에서 실제 영업 중인 사업장이어야 합니다.</li>
+    <li><strong>상시근로자 기준 초과</strong>: 소상공인 기준은 업종에 따라 상시근로자 5인 미만(제조업 등은 10인 미만)입니다. 기준 초과 시 중소기업 지원사업으로 이동해야 합니다.</li>
+    <li><strong>신용평가 기준 미달</strong>: 연체·불량 이력이 있으면 자동심사에서 탈락합니다. 신청 전 NICE 또는 올크레딧에서 신용평가 사전 조회 후 연체가 있다면 정리 먼저 하세요.</li>
+    <li><strong>기존 보증 한도 소진</strong>: 인천신보에 기존 보증 잔액이 많아 추가 한도 여유가 없으면 거절됩니다. 기존 보증 현황을 미리 확인해야 합니다.</li>
+    <li><strong>정상 영업 미충족</strong>: 영업 정지, 폐업 신고, 휴업 상태인 경우 지원 대상에서 제외됩니다. 사업자등록 상태를 먼저 점검하세요.</li>
+  </ol>
+
+  <h3>중복수급·예외 조건</h3>
+  <ul>
+    <li>경영안정자금과 밸류업 특별보증은 별도 재원으로, 한도 여유가 있으면 동시 신청 가능합니다.</li>
+    <li>전국 소상공인시장진흥공단 정책자금과도 중복 신청이 원칙적으로 가능하나, 총 보증 한도 제한이 있으니 상담 필수입니다.</li>
+    <li>인천e음 캐시백은 소상공인 자금 지원과 별도로 항상 운영됩니다. 가맹점 등록 여부와 관계없이 중복 적용됩니다.</li>
+  </ul>
+
+  <h3>자주 묻는 질문</h3>
+  <p class="q">Q1. 1단계가 마감됐는데 2단계에 바로 신청할 수 있나요?</p>
+  <p class="a">네, 2단계(3월 30일 시작)는 1단계 소진 후 이어서 접수됩니다. 1단계와 조건이 동일하므로 보증드림 앱에서 동일한 방식으로 신청하시면 됩니다. 단, 2단계도 선착순이므로 최대한 빨리 신청하세요.</p>
+
+  <p class="q">Q2. 보증드림 앱이 없어도 신청할 수 있나요?</p>
+  <p class="a">가능합니다. 스마트폰 사용이 어려운 분은 인천신용보증재단 지점(부평·남동·서구 등)을 직접 방문해 오프라인으로 신청할 수 있습니다. 지점 위치는 icsinbo.or.kr에서 확인하세요.</p>
+
+  <p class="q">Q3. 창업 2개월 됐는데 밸류업 신청 가능한가요?</p>
+  <p class="a">창업 1년 미만이면 밸류업 '창업기' 단계(한도 1억 원)에 해당합니다. 경영안정자금(5,000만 원)과 동시에 신청 가능하니 인천신보에서 두 가지 모두 상담해 보세요.</p>
+
+  <p class="q">Q4. 인천e음 가맹점 등록 방법이 궁금합니다.</p>
+  <p class="a">인천e음(incheoneum.or.kr) 홈페이지 또는 앱에서 가맹점 신청을 하면 됩니다. 등록 비용은 무료이며, 상생가맹점으로 추가 등록하면 기본 캐시백 외 1~5% 추가 캐시백 혜택과 앱 내 노출 효과를 받을 수 있습니다.</p>
+
+  <p class="q">Q5. 강화군·옹진군 소상공인은 캐시백이 더 높다는 게 맞나요?</p>
+  <p class="a">맞습니다. 강화군·옹진군은 도서·농촌 지역 소상공인 활성화를 위해 인천 내륙(월 최대 5만 원)보다 높은 월 최대 7만 5,000원 캐시백 한도가 적용됩니다. 시즌 한도 상향(12월 등) 시 최대 7만 5,000원까지 받을 수 있습니다.</p>
+
+  <p class="q">Q6. 골목창업 첫걸음은 어떤 인허가 비용을 지원하나요?</p>
+  <p class="a">영업신고·등록·허가 비용, 보건증·위생교육비, 시설 인허가 관련 행정 비용을 지원합니다. 본인이 직접 서류를 준비하면 최대 10만 원, 행정사에 대행을 맡기면 최대 40만 원 지원입니다. 총 250개 업체 선착순이므로 인천소상공인종합지원센터 공고를 수시로 확인하세요.</p>
+
+  <p class="q">Q7. 자치구에서 추가 지원을 받을 수 있다는데 어떻게 확인하나요?</p>
+  <p class="a">인천 비즈OK(bizok.incheon.go.kr)에서 자치구별 지원사업을 통합 검색하거나, 거주하는 자치구청 경제정책과·일자리경제과에 문의하면 됩니다. 연수구 청년창업 지원, 남동구 전통시장 특화 지원, 부평구 상권 활성화 등 구별로 상이합니다.</p>
+
+  <p class="q">Q8. 소상공인 e-캠퍼스는 어떻게 이용하나요?</p>
+  <p class="a">인천소상공인종합지원센터(insupport.or.kr)에서 회원가입 후 무료로 이용할 수 있습니다. 창업 기초, 마케팅·SNS, 세무·노무 실무, 디지털 전환, AI 활용 등의 강좌를 24시간 언제든지 수강할 수 있습니다.</p>
+
+  <p class="q">Q9. 재도약 컨설팅은 어떻게 신청하나요?</p>
+  <p class="a">인천소상공인종합지원센터(insupport.or.kr) 또는 콜센터를 통해 신청하면, 담당 전문가가 사업장에 직접 방문해 경영·세무·마케팅·상권 분석을 무료로 진단합니다. 선착순 모집이므로 공고 확인 후 빠르게 신청하세요.</p>
+
+  <p class="q">Q10. 경영안정자금 보증료 0.8%는 어떻게 납부하나요?</p>
+  <p class="a">보증료는 이자 지원과 별개로 대출 원금에 대해 연간 부과됩니다. 5,000만 원 대출 시 연간 약 40만 원입니다. 협약 은행 대출 약정 시 보증료 납부 방식(선납·분할 등)이 안내되며, 이자 지원금과는 별도로 납부해야 합니다.</p>
+
+  <div class="tips">
+    <strong>실전 팁</strong><br/>
+    신청 전 인천신보 1577-3790에 전화해서 ①현재 잔여 한도 ②신용 사전 상담 ③밸류업 동시 신청 가능 여부를 한 번에 확인하세요. 30분 상담으로 불필요한 서류 준비와 재방문을 줄일 수 있습니다. 또한 인천e음 가맹점 등록은 자금 신청과 별개로 즉시 할 수 있으니, 아직 등록 안 했다면 지금 바로 시작하세요.
+  </div>
+
+  <!-- ✅ 이미지 5: 체크리스트 카드 -->
+  <img src="checklist_card_1080_incheon_small_business_2026.png" alt="인천 소상공인 지원금 신청 전 1분 체크리스트" style="width:100%;max-width:600px;display:block;margin:16px auto;" />
+
+  <h2 id="check">7) 신청 전 1분 체크리스트</h2>
+  <ul>
+    <li>인천 소재 사업자등록 확인 (주소가 인천 내인지)</li>
+    <li>상시근로자 기준 충족 (5인 미만 / 제조업 등 10인 미만)</li>
+    <li>신용 사전 조회 — 연체·불량 이력 없는지 확인</li>
+    <li>기존 보증·대출 현황 정리 (인천신보 기존 잔액 확인)</li>
+    <li>보증드림 앱 설치 및 회원가입 완료</li>
+    <li>매출 증빙 서류 준비 (부가세 신고서 또는 카드매출 내역)</li>
+    <li>인천e음 가맹점 등록 여부 확인 (미등록이면 즉시 신청)</li>
+    <li>자치구 추가 지원 공고 확인 (bizok.incheon.go.kr)</li>
+    <li>현재 경영안정자금 잔여 한도 및 모집 상태 확인 (1577-3790)</li>
+  </ul>
+
+  <p class="small">관련 글: <a href="{소상공인_운영자금_대출_주소}" target="_blank" rel="noopener">소상공인 운영자금 대출 총정리 (2026)</a> / <a href="{소상공인_창업지원금_주소}" target="_blank" rel="noopener">소상공인 창업지원금·초기 창업자금 대출 총정리 (2026)</a></p>
+
+  <div class="tips">
+    <strong>참고/문의처</strong><br/>
+    인천신용보증재단: <a href="https://www.icsinbo.or.kr" target="_blank" rel="noopener">icsinbo.or.kr</a> / 1577-3790<br/>
+    인천소상공인종합지원센터: <a href="https://www.insupport.or.kr" target="_blank" rel="noopener">insupport.or.kr</a><br/>
+    인천광역시 비즈OK: <a href="https://bizok.incheon.go.kr" target="_blank" rel="noopener">bizok.incheon.go.kr</a><br/>
+    인천e음: <a href="https://incheoneum.or.kr" target="_blank" rel="noopener">incheoneum.or.kr</a><br/>
+    소상공인 통합 콜센터: 1357 / 인천시 다산콜센터: 032-120
+  </div>
+
+  <div class="disclaimer">
+    본 글은 공식 공고·보도자료를 기반으로 작성한 정보성 안내입니다. 지원 조건·한도·금리는 공고 시기·예산 소진 상황에 따라 달라질 수 있으며, 최종 적용 여부는 신청 기관의 심사 결과에 따릅니다. 자금 결정 전 반드시 공식 공고 및 담당 기관 상담을 통해 확인하시기 바랍니다.
+  </div>
+
+  <div class="footer" id="update">
+    <strong>업데이트 로그</strong><br/>
+    - 2026-04-28: 2026년 인천 소상공인 지원사업(경영안정자금 1·2단계, 밸류업, e음, 골목창업, 재도약 컨설팅) 최신 공고 기준 작성<br/>
+    <span class="small">※ 지원 조건·예산 소진 상황에 따라 내용이 달라질 수 있습니다. 신청 전 공식 공고/FAQ를 반드시 확인하세요!</span>
+  </div>
+</div>
+
+<!-- 태그: 인천소상공인지원금 인천경영안정자금 인천신용보증재단 신청방법 신청조건 서류 신청기간 인천 인천시 인천소상공인 인천e음 인천신보 소상공인지원 자영업자지원 2026지원금 -->

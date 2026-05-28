@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <text x="540" y="130" font-family="'Pretendard', sans-serif" font-size="46" font-weight="900" fill="#F59E0B" text-anchor="middle">금융리스 vs 운용리스 vs 장기렌트</text>
+  <text x="540" y="200" font-family="'Pretendard', sans-serif" font-size="40" font-weight="900" fill="#FFFFFF" text-anchor="middle">핵심 5가지 차이</text>
+
+  <rect x="60" y="240" width="960" height="140" rx="20" fill="#1A3270"/>
+  <text x="100" y="290" font-family="'Pretendard', sans-serif" font-size="30" font-weight="900" fill="#F59E0B">① 부가세 환급</text>
+  <text x="100" y="335" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">리스 ✕ (면세) · 장기렌트 ○ (과세 10%)</text>
+  <text x="100" y="370" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF">9인승·경차·화물·영업용만 환급 가능</text>
+
+  <rect x="60" y="400" width="960" height="140" rx="20" fill="#1A3270"/>
+  <text x="100" y="450" font-family="'Pretendard', sans-serif" font-size="30" font-weight="900" fill="#F59E0B">② 보험·정비</text>
+  <text x="100" y="495" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">리스 별도 / 옵션 · 장기렌트 패키지 포함</text>
+  <text x="100" y="530" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF">렌트는 단체보험 무사고 적립 제한</text>
+
+  <rect x="60" y="560" width="960" height="140" rx="20" fill="#1A3270"/>
+  <text x="100" y="610" font-family="'Pretendard', sans-serif" font-size="30" font-weight="900" fill="#F59E0B">③ 신용·재무 영향</text>
+  <text x="100" y="655" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">금융리스 부채 인식 · 장기렌트 영향 거의 없음</text>
+  <text x="100" y="690" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF">DSR·추가 대출 한도 고려 시 장기렌트 유리</text>
+
+  <rect x="60" y="720" width="960" height="140" rx="20" fill="#1A3270"/>
+  <text x="100" y="770" font-family="'Pretendard', sans-serif" font-size="30" font-weight="900" fill="#F59E0B">④ 번호판</text>
+  <text x="100" y="815" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">리스 일반(흰색) · 장기렌트 영업용(허·하·호)</text>
+  <text x="100" y="850" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF">고객 응대·이미지 중요하면 리스 우위</text>
+
+  <rect x="60" y="880" width="960" height="160" rx="20" fill="#F59E0B"/>
+  <text x="100" y="930" font-family="'Pretendard', sans-serif" font-size="30" font-weight="900" fill="#0B1F3B">⑤ 만기 처리</text>
+  <text x="100" y="975" font-family="'Pretendard', sans-serif" font-size="26" font-weight="800" fill="#0B1F3B">금융리스 인수 일반 · 운용/렌트 반납·재계약·인수</text>
+  <text x="100" y="1010" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#0B1F3B">시세 > 인수가면 인수 후 매도로 차익 가능</text>
+</svg>

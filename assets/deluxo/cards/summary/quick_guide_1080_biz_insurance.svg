@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="40" y="36" width="280" height="44" rx="22" fill="#F59E0B"/>
+  <text x="180" y="65" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#0B1F3B">빠른 판단 가이드</text>
+  <text x="40" y="130" font-family="'Pretendard',sans-serif" font-size="44" font-weight="900" fill="#FFFFFF">나는 어떤 유형?</text>
+  <text x="40" y="182" font-family="'Pretendard',sans-serif" font-size="44" font-weight="900" fill="#FFFFFF">4대보험 절감 전략</text>
+  <rect x="40" y="210" width="120" height="4" rx="2" fill="#F59E0B"/>
+  <rect x="40" y="240" width="310" height="420" rx="20" fill="rgba(255,255,255,0.08)" stroke="rgba(245,158,11,0.4)" stroke-width="2"/>
+  <text x="195" y="285" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#F59E0B">1인 자영업자</text>
+  <rect x="60" y="305" width="270" height="2" fill="rgba(255,255,255,0.15)"/>
+  <text x="70" y="340" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">✓ 건강보험 재산 공제 확인</text>
+  <text x="70" y="372" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">✓ 국민연금 50% 지원 신청</text>
+  <text x="70" y="404" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">✓ 고용보험 임의가입</text>
+  <text x="70" y="436" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">✓ 산재보험 임의가입</text>
+  <rect x="60" y="460" width="270" height="2" fill="rgba(255,255,255,0.15)"/>
+  <text x="195" y="495" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" font-weight="700" fill="#F59E0B">핵심 절감</text>
+  <text x="195" y="525" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">건보 월 2.5만↓</text>
+  <text x="195" y="553" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">연금 연 55.6만↓</text>
+  <text x="195" y="581" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">고용 80% 환급</text>
+  <text x="195" y="630" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" font-weight="600" fill="#EAF2FF">소상공인24에서 신청</text>
+  <rect x="385" y="240" width="310" height="420" rx="20" fill="rgba(255,255,255,0.08)" stroke="rgba(245,158,11,0.4)" stroke-width="2"/>
+  <text x="540" y="285" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#F59E0B">직원 고용 사업주</text>
+  <rect x="405" y="305" width="270" height="2" fill="rgba(255,255,255,0.15)"/>
+  <text x="415" y="340" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">✓ 두루누리 80% 지원</text>
+  <text x="415" y="372" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">✓ 적용제외 기준 확인</text>
+  <text x="415" y="404" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">✓ 본인 국민연금 지원</text>
+  <text x="415" y="436" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">✓ 산재보험 필수 가입</text>
+  <rect x="405" y="460" width="270" height="2" fill="rgba(255,255,255,0.15)"/>
+  <text x="540" y="495" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" font-weight="700" fill="#F59E0B">핵심 절감</text>
+  <text x="540" y="525" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">두루누리 연 120만+</text>
+  <text x="540" y="553" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">본인+근로자 각각</text>
+  <text x="540" y="581" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">월 60시간 미만=제외</text>
+  <text x="540" y="630" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" font-weight="600" fill="#EAF2FF">10인 미만·270만 미만</text>
+  <rect x="730" y="240" width="310" height="420" rx="20" fill="rgba(255,255,255,0.08)" stroke="rgba(245,158,11,0.4)" stroke-width="2"/>
+  <text x="885" y="285" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#F59E0B">가족 경영</text>
+  <rect x="750" y="305" width="270" height="2" fill="rgba(255,255,255,0.15)"/>
+  <text x="760" y="340" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">✓ 피부양자 자격 확인</text>
+  <text x="760" y="372" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">✓ 사업자등록 임계점</text>
+  <text x="760" y="404" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">✓ 동거 친족 가입 기준</text>
+  <text x="760" y="436" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">✓ 법인 전환 검토</text>
+  <rect x="750" y="460" width="270" height="2" fill="rgba(255,255,255,0.15)"/>
+  <text x="885" y="495" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" font-weight="700" fill="#F59E0B">핵심 주의</text>
+  <text x="885" y="525" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">소득 1원=피부양자 탈락</text>
+  <text x="885" y="553" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">(사업자등록 시)</text>
+  <text x="885" y="581" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">재산과표 9억=무조건 제외</text>
+  <text x="885" y="630" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" font-weight="600" fill="#EAF2FF">등록 전 소득 시뮬레이션 필수</text>
+  <rect x="40" y="700" width="1000" height="70" rx="16" fill="rgba(245,158,11,0.12)"/>
+  <text x="540" y="742" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">모르면 매달 수만 원씩 손해 — 내 유형에 맞는 전략을 확인하세요</text>
+  <rect x="40" y="800" width="140" height="38" rx="19" fill="#E8F0FF"/>
+  <text x="110" y="825" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#1D4ED8">빠른 판단</text>
+  <rect x="195" y="800" width="100" height="38" rx="19" fill="#E8F0FF"/>
+  <text x="245" y="825" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#1D4ED8">절감</text>
+  <rect x="310" y="800" width="100" height="38" rx="19" fill="#E8F0FF"/>
+  <text x="360" y="825" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#1D4ED8">2026</text>
+</svg>

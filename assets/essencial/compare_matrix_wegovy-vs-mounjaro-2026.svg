@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0F766E"/>
+      <stop offset="100%" stop-color="#065F46"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="url(#bg2)" rx="24"/>
+
+  <!-- Badge -->
+  <rect x="40" y="40" width="160" height="44" rx="22" fill="#EF4444"/>
+  <text x="120" y="68" text-anchor="middle" fill="#FFFFFF" font-family="sans-serif" font-size="20" font-weight="700">비교분석</text>
+
+  <!-- Title -->
+  <text x="540" y="130" text-anchor="middle" fill="#FFFFFF" font-family="sans-serif" font-size="40" font-weight="800">위고비 vs 마운자로 항목별 비교</text>
+
+  <!-- Table Header -->
+  <rect x="60" y="170" width="300" height="56" rx="12" fill="#FFFFFF" fill-opacity="0.1"/>
+  <rect x="380" y="170" width="320" height="56" rx="12" fill="#FFFFFF" fill-opacity="0.15"/>
+  <rect x="720" y="170" width="300" height="56" rx="12" fill="#FFFFFF" fill-opacity="0.15"/>
+
+  <text x="210" y="205" text-anchor="middle" fill="#99F6E4" font-family="sans-serif" font-size="22" font-weight="700">비교 항목</text>
+  <text x="540" y="205" text-anchor="middle" fill="#FFFFFF" font-family="sans-serif" font-size="22" font-weight="700">위고비</text>
+  <text x="870" y="205" text-anchor="middle" fill="#FFFFFF" font-family="sans-serif" font-size="22" font-weight="700">마운자로</text>
+
+  <!-- Row 1: 성분 -->
+  <rect x="60" y="240" width="960" height="80" rx="12" fill="#FFFFFF" fill-opacity="0.05"/>
+  <text x="100" y="285" fill="#99F6E4" font-family="sans-serif" font-size="20" font-weight="700">성분</text>
+  <text x="400" y="275" fill="#FFFFFF" font-family="sans-serif" font-size="19">세마글루티드</text>
+  <text x="400" y="300" fill="#E2E8F0" font-family="sans-serif" font-size="16">GLP-1 단일 작용</text>
+  <text x="740" y="275" fill="#FFFFFF" font-family="sans-serif" font-size="19">티르제파타이드</text>
+  <text x="740" y="300" fill="#E2E8F0" font-family="sans-serif" font-size="16">GIP + GLP-1 이중 작용</text>
+
+  <!-- Row 2: 감량 효과 -->
+  <rect x="60" y="334" width="960" height="80" rx="12" fill="#FFFFFF" fill-opacity="0.08"/>
+  <text x="100" y="379" fill="#99F6E4" font-family="sans-serif" font-size="20" font-weight="700">평균 감량률</text>
+  <text x="400" y="379" fill="#FFFFFF" font-family="sans-serif" font-size="26" font-weight="800">14.9%</text>
+  <text x="510" y="379" fill="#E2E8F0" font-family="sans-serif" font-size="16">(68주)</text>
+  <text x="740" y="379" fill="#FFFFFF" font-family="sans-serif" font-size="26" font-weight="800">22.5%</text>
+  <text x="850" y="379" fill="#E2E8F0" font-family="sans-serif" font-size="16">(72주)</text>
+
+  <!-- Row 3: 20%+ 감량 비율 -->
+  <rect x="60" y="428" width="960" height="80" rx="12" fill="#FFFFFF" fill-opacity="0.05"/>
+  <text x="100" y="473" fill="#99F6E4" font-family="sans-serif" font-size="20" font-weight="700">20%+ 감량</text>
+  <text x="400" y="473" fill="#FFFFFF" font-family="sans-serif" font-size="24" font-weight="700">32%</text>
+  <text x="740" y="473" fill="#FFFFFF" font-family="sans-serif" font-size="24" font-weight="700">50~57%</text>
+
+  <!-- Row 4: 초기 비용 -->
+  <rect x="60" y="522" width="960" height="80" rx="12" fill="#FFFFFF" fill-opacity="0.08"/>
+  <text x="100" y="567" fill="#99F6E4" font-family="sans-serif" font-size="20" font-weight="700">초기 월 비용</text>
+  <text x="400" y="567" fill="#FFFFFF" font-family="sans-serif" font-size="24" font-weight="700">22만~25만 원</text>
+  <text x="740" y="567" fill="#FFFFFF" font-family="sans-serif" font-size="24" font-weight="700">30만~35만 원</text>
+
+  <!-- Row 5: 유지 비용 -->
+  <rect x="60" y="616" width="960" height="80" rx="12" fill="#FFFFFF" fill-opacity="0.05"/>
+  <text x="100" y="661" fill="#99F6E4" font-family="sans-serif" font-size="20" font-weight="700">유지 월 비용</text>
+  <text x="400" y="661" fill="#FFFFFF" font-family="sans-serif" font-size="24" font-weight="700">38만~42만 원</text>
+  <text x="740" y="661" fill="#FFFFFF" font-family="sans-serif" font-size="24" font-weight="700">55만~65만 원</text>
+
+  <!-- Row 6: 건강보험 -->
+  <rect x="60" y="710" width="960" height="80" rx="12" fill="#FFFFFF" fill-opacity="0.08"/>
+  <text x="100" y="755" fill="#99F6E4" font-family="sans-serif" font-size="20" font-weight="700">건강보험</text>
+  <text x="400" y="755" fill="#FECACA" font-family="sans-serif" font-size="22" font-weight="700">비급여</text>
+  <text x="740" y="745" fill="#FEF3C7" font-family="sans-serif" font-size="20" font-weight="700">당뇨 급여 예정</text>
+  <text x="740" y="772" fill="#E2E8F0" font-family="sans-serif" font-size="16">(2026 상반기)</text>
+
+  <!-- Row 7: 심혈관 -->
+  <rect x="60" y="804" width="960" height="80" rx="12" fill="#FFFFFF" fill-opacity="0.05"/>
+  <text x="100" y="849" fill="#99F6E4" font-family="sans-serif" font-size="20" font-weight="700">심혈관 혜택</text>
+  <text x="400" y="849" fill="#A7F3D0" font-family="sans-serif" font-size="22" font-weight="700">위험 20% 감소</text>
+  <text x="740" y="849" fill="#E2E8F0" font-family="sans-serif" font-size="20">대사 지표 개선</text>
+
+  <!-- Footer -->
+  <text x="540" y="950" text-anchor="middle" fill="#E2E8F0" font-family="sans-serif" font-size="18">2026년 3월 기준 · 비급여 · 개인차 있음</text>
+
+  <!-- Watermark -->
+  <text x="540" y="1040" text-anchor="middle" fill="#FFFFFF" fill-opacity="0.4" font-family="sans-serif" font-size="16">essencial</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1200" height="630" rx="24" fill="url(#bg)"/>
+
+  <rect x="60" y="50" width="240" height="44" rx="22" fill="rgba(245,158,11,0.2)"/>
+  <text x="180" y="80" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#F59E0B">2026 최신판</text>
+
+  <text x="60" y="175" font-family="'Pretendard',sans-serif" font-size="68" font-weight="900" fill="#FFFFFF">다자녀(2자녀) 혜택</text>
+  <text x="60" y="240" font-family="'Pretendard',sans-serif" font-size="40" font-weight="600" fill="#EAF2FF">교육·주거·세금 감면 받는 법 총정리</text>
+
+  <rect x="60" y="270" width="180" height="44" rx="22" fill="#E8F0FF"/>
+  <text x="150" y="300" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#1D4ED8">2자녀</text>
+
+  <rect x="260" y="270" width="160" height="44" rx="22" fill="#E8F0FF"/>
+  <text x="340" y="300" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#1D4ED8">주거</text>
+
+  <rect x="440" y="270" width="160" height="44" rx="22" fill="#E8F0FF"/>
+  <text x="520" y="300" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#1D4ED8">세금</text>
+
+  <rect x="800" y="80" width="360" height="500" rx="20" fill="rgba(245,158,11,0.08)"/>
+
+  <text x="980" y="170" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="52" font-weight="900" fill="#FFF">25점</text>
+  <text x="980" y="205" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="600" fill="#F59E0B">특별공급 가점</text>
+
+  <text x="980" y="300" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="48" font-weight="900" fill="#FFF">610만 원</text>
+  <text x="980" y="335" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="600" fill="#F59E0B">장학금/년 (1~3구간)</text>
+
+  <text x="980" y="420" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="52" font-weight="900" fill="#FFF">50%</text>
+  <text x="980" y="455" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="600" fill="#F59E0B">취득세 감면(7인승+)</text>
+
+  <text x="980" y="530" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">디딤돌 대출 0.5%p 우대</text>
+  <text x="980" y="560" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">K-패스 30% 환급</text>
+
+  <text x="60" y="400" font-family="'Pretendard',sans-serif" font-size="30" font-weight="700" fill="#EAF2FF">디딤돌 한도 3.2억 · 대상 주택 6억↓</text>
+  <text x="60" y="445" font-family="'Pretendard',sans-serif" font-size="30" font-weight="700" fill="#EAF2FF">보육수당 인당 월 20만 원 비과세</text>
+  <text x="60" y="490" font-family="'Pretendard',sans-serif" font-size="30" font-weight="700" fill="#EAF2FF">인천 1억+ 아이드림 통합 지원</text>
+
+  <text x="60" y="570" font-family="'Pretendard',sans-serif" font-size="24" font-weight="600" fill="#F59E0B">2자녀 = 다자녀 전환 · 신청주의 — 모르면 못 받습니다</text>
+</svg>

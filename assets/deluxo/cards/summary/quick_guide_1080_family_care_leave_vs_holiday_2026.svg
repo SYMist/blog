@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- 상단 레이블 -->
+  <rect x="60" y="52" width="240" height="44" rx="22" fill="#34D399" opacity="0.18"/>
+  <text x="180" y="80" font-family="-apple-system,sans-serif" font-size="22" font-weight="700" fill="#34D399" text-anchor="middle">빠른 판단 가이드</text>
+
+  <!-- 제목 -->
+  <text x="540" y="158" font-family="-apple-system,sans-serif" font-size="50" font-weight="900" fill="#FFFFFF" text-anchor="middle">나는 어느 제도를 써야 할까?</text>
+  <text x="540" y="210" font-family="-apple-system,sans-serif" font-size="32" font-weight="600" fill="#A0B4D0" text-anchor="middle">10초 자가 판단 가이드 (2026)</text>
+
+  <line x1="60" y1="236" x2="1020" y2="236" stroke="#1A3270" stroke-width="2"/>
+
+  <!-- 상황 1: 장기 돌봄 -->
+  <rect x="60" y="256" width="445" height="340" rx="18" fill="#0D2347"/>
+  <rect x="60" y="256" width="445" height="6" rx="3" fill="#34D399"/>
+  <text x="282" y="310" font-family="-apple-system,sans-serif" font-size="28" font-weight="900" fill="#34D399" text-anchor="middle">가족돌봄휴직</text>
+  <text x="282" y="346" font-family="-apple-system,sans-serif" font-size="20" fill="#A0B4D0" text-anchor="middle">남녀고용평등법 제22조의2</text>
+  <line x1="80" y1="360" x2="485" y2="360" stroke="#1A3270" stroke-width="1"/>
+  <text x="80" y="396" font-family="-apple-system,sans-serif" font-size="21" fill="#FFFFFF">✅ 1개월 이상 장기 간병 필요</text>
+  <text x="80" y="432" font-family="-apple-system,sans-serif" font-size="21" fill="#FFFFFF">✅ 질병·사고·노령 사유</text>
+  <text x="80" y="468" font-family="-apple-system,sans-serif" font-size="21" fill="#FFFFFF">✅ 근속 6개월 이상</text>
+  <text x="80" y="504" font-family="-apple-system,sans-serif" font-size="21" fill="#EF4444">❌ 자녀 양육 불가</text>
+  <text x="80" y="540" font-family="-apple-system,sans-serif" font-size="21" fill="#EF4444">❌ 30일 이상만 사용 가능</text>
+  <rect x="80" y="556" width="385" height="28" rx="14" fill="#34D399" opacity="0.15"/>
+  <text x="282" y="575" font-family="-apple-system,sans-serif" font-size="20" font-weight="700" fill="#34D399" text-anchor="middle">최대 90일 · 30일 전 서면 신청</text>
+
+  <!-- VS -->
+  <text x="540" y="446" font-family="-apple-system,sans-serif" font-size="36" font-weight="900" fill="#A0B4D0" text-anchor="middle">VS</text>
+
+  <!-- 상황 2: 단기 긴급 -->
+  <rect x="575" y="256" width="445" height="340" rx="18" fill="#0D2347"/>
+  <rect x="575" y="256" width="445" height="6" rx="3" fill="#F59E0B"/>
+  <text x="797" y="310" font-family="-apple-system,sans-serif" font-size="28" font-weight="900" fill="#F59E0B" text-anchor="middle">가족돌봄휴가</text>
+  <text x="797" y="346" font-family="-apple-system,sans-serif" font-size="20" fill="#A0B4D0" text-anchor="middle">남녀고용평등법 제22조의3</text>
+  <line x1="595" y1="360" x2="1000" y2="360" stroke="#1A3270" stroke-width="1"/>
+  <text x="595" y="396" font-family="-apple-system,sans-serif" font-size="21" fill="#FFFFFF">✅ 하루~며칠 긴급 돌봄</text>
+  <text x="595" y="432" font-family="-apple-system,sans-serif" font-size="21" fill="#FFFFFF">✅ 자녀 양육도 가능</text>
+  <text x="595" y="468" font-family="-apple-system,sans-serif" font-size="21" fill="#FFFFFF">✅ 근속 요건 없음</text>
+  <text x="595" y="504" font-family="-apple-system,sans-serif" font-size="21" fill="#FFFFFF">✅ 긴급 시 당일 신청 가능</text>
+  <text x="595" y="540" font-family="-apple-system,sans-serif" font-size="21" fill="#EF4444">❌ 연간 최대 10일만</text>
+  <rect x="595" y="556" width="385" height="28" rx="14" fill="#F59E0B" opacity="0.15"/>
+  <text x="797" y="575" font-family="-apple-system,sans-serif" font-size="20" font-weight="700" fill="#F59E0B" text-anchor="middle">최대 10일 · 일단위 분할 사용</text>
+
+  <!-- 전략 섹션 -->
+  <rect x="60" y="618" width="960" height="110" rx="14" fill="#1A3270"/>
+  <text x="540" y="658" font-family="-apple-system,sans-serif" font-size="26" font-weight="900" fill="#FFFFFF" text-anchor="middle">💡 실전 전략: 긴급 상황 발생 시</text>
+  <text x="540" y="694" font-family="-apple-system,sans-serif" font-size="23" fill="#A0B4D0" text-anchor="middle">① 먼저 가족돌봄휴가(최대 10일) 즉시 사용</text>
+  <text x="540" y="718" font-family="-apple-system,sans-serif" font-size="23" fill="#A0B4D0" text-anchor="middle">② 장기 돌봄 필요 시 가족돌봄휴직으로 전환 (30일 전 신청)</text>
+
+  <!-- 핵심 경고 -->
+  <rect x="60" y="748" width="960" height="80" rx="14" fill="#F59E0B" opacity="0.12"/>
+  <rect x="60" y="748" width="4" height="80" rx="2" fill="#F59E0B"/>
+  <text x="540" y="784" font-family="-apple-system,sans-serif" font-size="26" font-weight="900" fill="#F59E0B" text-anchor="middle">⚠ 두 제도 합산 한도: 연간 90일 (100일 아님)</text>
+  <text x="540" y="816" font-family="-apple-system,sans-serif" font-size="22" fill="#FFFFFF" text-anchor="middle">휴가 10일을 쓰면 → 휴직 가용 일수 80일로 감소</text>
+
+  <!-- 서류 -->
+  <rect x="60" y="848" width="960" height="110" rx="14" fill="#0D2347"/>
+  <text x="540" y="886" font-family="-apple-system,sans-serif" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">공통 준비 서류</text>
+  <text x="540" y="918" font-family="-apple-system,sans-serif" font-size="21" fill="#A0B4D0" text-anchor="middle">가족관계증명서 + 돌봄 신청서(자유 서면) + 진단서/소견서</text>
+  <text x="540" y="948" font-family="-apple-system,sans-serif" font-size="21" fill="#A0B4D0" text-anchor="middle">문의: 고용노동부 고객상담센터 ☎ 1350</text>
+
+  <text x="540" y="1036" font-family="-apple-system,sans-serif" font-size="20" fill="#4B6080" text-anchor="middle">남녀고용평등법 기준 | 2026.05 기준</text>
+</svg>

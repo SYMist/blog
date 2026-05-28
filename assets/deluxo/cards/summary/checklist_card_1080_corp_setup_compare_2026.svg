@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="540" y="85" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="38" font-weight="800" fill="#34D399" text-anchor="middle">법인 전환 결정 전</text>
+  <text x="540" y="140" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="50" font-weight="900" fill="#FFFFFF" text-anchor="middle">1분 체크리스트</text>
+  <line x1="80" y1="165" x2="1000" y2="165" stroke="#1A3270" stroke-width="2"/>
+
+  <!-- Checklist items -->
+  <!-- Item 1 -->
+  <rect x="80" y="185" width="920" height="100" rx="10" fill="#0D2347"/>
+  <rect x="80" y="205" width="50" height="60" rx="8" fill="#34D399" fill-opacity="0.2"/>
+  <text x="105" y="245" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="30" font-weight="900" fill="#34D399" text-anchor="middle">✓</text>
+  <text x="150" y="228" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">순이익 연 2억원 이상 여부 확인</text>
+  <text x="150" y="265" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#A0B4D0">미만이면 유지비 대비 효과 검토 필요</text>
+
+  <!-- Item 2 -->
+  <rect x="80" y="300" width="920" height="100" rx="10" fill="#102A56"/>
+  <rect x="80" y="320" width="50" height="60" rx="8" fill="#34D399" fill-opacity="0.2"/>
+  <text x="105" y="360" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="30" font-weight="900" fill="#34D399" text-anchor="middle">✓</text>
+  <text x="150" y="343" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">법인 유지비 월 20~40만원 감당 가능 여부</text>
+  <text x="150" y="380" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#A0B4D0">세무사 기장료 + 4대보험 + 기타 고정비 포함</text>
+
+  <!-- Item 3 -->
+  <rect x="80" y="415" width="920" height="100" rx="10" fill="#0D2347"/>
+  <rect x="80" y="435" width="50" height="60" rx="8" fill="#34D399" fill-opacity="0.2"/>
+  <text x="105" y="475" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="30" font-weight="900" fill="#34D399" text-anchor="middle">✓</text>
+  <text x="150" y="458" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">설립 예정지 과밀억제권역 여부 확인</text>
+  <text x="150" y="495" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#A0B4D0">서울 전역 / 인천 일부 / 경기 일부 → 등록면허세 3배 중과</text>
+
+  <!-- Item 4 -->
+  <rect x="80" y="530" width="920" height="100" rx="10" fill="#102A56"/>
+  <rect x="80" y="550" width="50" height="60" rx="8" fill="#34D399" fill-opacity="0.2"/>
+  <text x="105" y="590" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="30" font-weight="900" fill="#34D399" text-anchor="middle">✓</text>
+  <text x="150" y="573" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">자본금 규모 결정 (500만원 이상 권장)</text>
+  <text x="150" y="610" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#A0B4D0">너무 낮으면 법인 통장 개설 거절 사례 있음</text>
+
+  <!-- Item 5 -->
+  <rect x="80" y="645" width="920" height="100" rx="10" fill="#0D2347"/>
+  <rect x="80" y="665" width="50" height="60" rx="8" fill="#34D399" fill-opacity="0.2"/>
+  <text x="105" y="705" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="30" font-weight="900" fill="#34D399" text-anchor="middle">✓</text>
+  <text x="150" y="688" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">세무사 급여 시뮬레이션 요청</text>
+  <text x="150" y="725" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#A0B4D0">법인세 + 대표이사 종소세 합산 최적 급여 수준 산출</text>
+
+  <!-- Item 6 -->
+  <rect x="80" y="760" width="920" height="100" rx="10" fill="#102A56"/>
+  <rect x="80" y="780" width="50" height="60" rx="8" fill="#34D399" fill-opacity="0.2"/>
+  <text x="105" y="820" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="30" font-weight="900" fill="#34D399" text-anchor="middle">✓</text>
+  <text x="150" y="803" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">가족법인이라면 가족 업무 참여 증빙 준비</text>
+  <text x="150" y="840" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#A0B4D0">급여 적정성 증빙 없으면 부당행위계산 부인 리스크</text>
+
+  <!-- Bottom note -->
+  <rect x="80" y="880" width="920" height="80" rx="12" fill="#F59E0B" fill-opacity="0.15" stroke="#F59E0B" stroke-width="1"/>
+  <text x="540" y="920" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="700" fill="#F59E0B" text-anchor="middle">6개 항목 모두 확인 후 법인 전환 결정하세요</text>
+  <text x="540" y="950" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#FFFFFF" text-anchor="middle">준비 없는 전환은 오히려 비용 증가로 이어질 수 있습니다</text>
+
+  <text x="540" y="1020" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#4B6A9A" text-anchor="middle">startbiz.go.kr | hometax.go.kr | nts.go.kr</text>
+  <text x="540" y="1055" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" fill="#2D4A7A" text-anchor="middle">2026년 법인세율·설립 비용 기준</text>
+</svg>

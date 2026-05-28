@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="700" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="540" y="46" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">50대 상황별 추천 시나리오</text>
+  <text x="540" y="70" text-anchor="middle" fill="#A78BFA" font-size="13" font-family="sans-serif">종신보험 vs 정기보험 · 5가지 상황 · 2026.05 기준</text>
+
+  <!-- Scenario 1 -->
+  <rect x="40" y="90" width="480" height="116" rx="10" fill="#134e4a" fill-opacity="0.6" stroke="#0F766E" stroke-width="1.5"/>
+  <rect x="40" y="90" width="480" height="36" rx="10" fill="#0F766E"/>
+  <rect x="40" y="112" width="480" height="14" fill="#0F766E"/>
+  <text x="60" y="114" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">① 미성년 자녀 있는 50대 가장</text>
+  <text x="60" y="148" fill="#6EE7B7" font-size="13" font-weight="700" font-family="sans-serif">→ 정기보험 (자녀 독립 시점까지)</text>
+  <text x="60" y="170" fill="#CBD5E1" font-size="12" font-family="sans-serif">자녀가 독립할 때까지 15~20년 보장. 월 4만~7만원으로 1억원 사망보장</text>
+  <text x="60" y="192" fill="#CBD5E1" font-size="12" font-family="sans-serif">만기를 자녀 독립 시점보다 5년 여유 있게 설정 권장</text>
+
+  <!-- Scenario 2 -->
+  <rect x="560" y="90" width="480" height="116" rx="10" fill="#3b0764" fill-opacity="0.6" stroke="#7C3AED" stroke-width="1.5"/>
+  <rect x="560" y="90" width="480" height="36" rx="10" fill="#7C3AED"/>
+  <rect x="560" y="112" width="480" height="14" fill="#7C3AED"/>
+  <text x="580" y="114" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">② 상속·자산 이전이 목적인 경우</text>
+  <text x="580" y="148" fill="#C4B5FD" font-size="13" font-weight="700" font-family="sans-serif">→ 종신보험 (소액, 3천만원 수준)</text>
+  <text x="580" y="170" fill="#CBD5E1" font-size="12" font-family="sans-serif">사후 유동 자산 마련 목적. 장례비·상속용 소액 가입이 효율적</text>
+  <text x="580" y="192" fill="#CBD5E1" font-size="12" font-family="sans-serif">고액 종신보험은 50대에 보험료 부담이 과도 → 소액만 유지</text>
+
+  <!-- Scenario 3 -->
+  <rect x="40" y="226" width="480" height="116" rx="10" fill="#134e4a" fill-opacity="0.6" stroke="#0F766E" stroke-width="1.5"/>
+  <rect x="40" y="226" width="480" height="36" rx="10" fill="#0F766E"/>
+  <rect x="40" y="248" width="480" height="14" fill="#0F766E"/>
+  <text x="60" y="250" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">③ 주택담보대출 잔존 중인 경우</text>
+  <text x="60" y="284" fill="#6EE7B7" font-size="13" font-weight="700" font-family="sans-serif">→ 정기보험 (대출 완납 시점까지)</text>
+  <text x="60" y="306" fill="#CBD5E1" font-size="12" font-family="sans-serif">대출 잔액만큼 사망보험금 설정. 부채 완납 시점에 맞춰 보험기간 설정</text>
+  <text x="60" y="328" fill="#CBD5E1" font-size="12" font-family="sans-serif">완납 후 사망 보장 필요 없다면 해지 → 보험료 절약</text>
+
+  <!-- Scenario 4 -->
+  <rect x="560" y="226" width="480" height="116" rx="10" fill="#422006" fill-opacity="0.6" stroke="#D97706" stroke-width="1.5"/>
+  <rect x="560" y="226" width="480" height="36" rx="10" fill="#D97706"/>
+  <rect x="560" y="248" width="480" height="14" fill="#D97706"/>
+  <text x="580" y="250" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">④ 자녀 독립 완료, 배우자만 있는 경우</text>
+  <text x="580" y="284" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">→ 재검토 (필요성 재평가)</text>
+  <text x="580" y="306" fill="#CBD5E1" font-size="12" font-family="sans-serif">배우자 연금·자산 여부 확인 후 필요 최소 기간만 유지</text>
+  <text x="580" y="328" fill="#CBD5E1" font-size="12" font-family="sans-serif">불필요하다면 정기보험 해지 → 노후 생활비로 전환</text>
+
+  <!-- Scenario 5 (full width) -->
+  <rect x="40" y="362" width="1000" height="116" rx="10" fill="#1e1b4b" fill-opacity="0.6" stroke="#4F46E5" stroke-width="1.5"/>
+  <rect x="40" y="362" width="1000" height="36" rx="10" fill="#4F46E5"/>
+  <rect x="40" y="384" width="1000" height="14" fill="#4F46E5"/>
+  <text x="60" y="386" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">⑤ 보험료 최소화 + 피부양자·장례비 모두 대비 (복합 전략)</text>
+  <text x="60" y="420" fill="#A5B4FC" font-size="13" font-weight="700" font-family="sans-serif">→ 종신보험 3천만(장례비) + 정기보험 7천만(생활비) 조합</text>
+  <text x="60" y="442" fill="#CBD5E1" font-size="12" font-family="sans-serif">1억원 종신보험 단독 가입보다 보험료를 30~50% 절감 가능. 목적별 분리로 관리도 쉬워짐</text>
+  <text x="60" y="464" fill="#CBD5E1" font-size="12" font-family="sans-serif">자녀 독립 후 정기보험만 해지 → 종신보험(장례비)만 남겨 노후 보험료 부담 최소화</text>
+
+  <!-- Summary box -->
+  <rect x="40" y="496" width="1000" height="176" rx="10" fill="#1e293b" fill-opacity="0.8"/>
+  <text x="540" y="528" text-anchor="middle" fill="#F8FAFC" font-size="14" font-weight="800" font-family="sans-serif">핵심 결론 3줄 요약</text>
+  <text x="80" y="562" fill="#6EE7B7" font-size="13" font-weight="700" font-family="sans-serif">피부양자·부채</text>
+  <text x="220" y="562" fill="#FFFFFF" font-size="13" font-family="sans-serif">→ 정기보험 (자녀 독립·부채 완납 시점까지)</text>
+  <text x="80" y="594" fill="#C4B5FD" font-size="13" font-weight="700" font-family="sans-serif">상속·장례비</text>
+  <text x="220" y="594" fill="#FFFFFF" font-size="13" font-family="sans-serif">→ 종신보험 소액 (3천만원) + 정기보험 고액 (7천만원) 병행</text>
+  <text x="80" y="626" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">50대 후반 신규</text>
+  <text x="220" y="626" fill="#FFFFFF" font-size="13" font-family="sans-serif">→ 정기보험 우선 (종신보험 신규 가입 시 보험료 실익 주의)</text>
+  <text x="80" y="654" fill="#94A3B8" font-size="12" font-family="sans-serif">※ 종신·정기 모두 가입 전 약관 확인 필수 · 개인 상황에 따라 다름</text>
+
+  <text x="40" y="686" fill="#64748B" font-size="12" font-family="sans-serif">essencial | 보험 비교 · 2026.05 기준 · 개인 상황에 따라 다를 수 있으며 가입 전 약관 확인 필요</text>
+</svg>

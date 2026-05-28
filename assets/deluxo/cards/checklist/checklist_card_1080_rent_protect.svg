@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- 배지 -->
+  <rect x="60" y="50" width="280" height="44" rx="22" fill="#F59E0B"/>
+  <text x="200" y="79" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#0B1F3B">신청 전 체크리스트</text>
+
+  <!-- 메인 제목 -->
+  <text x="60" y="150" font-family="'Pretendard',sans-serif" font-size="48" font-weight="900" fill="#FFFFFF">소상공인 임대료 지원</text>
+  <text x="60" y="210" font-family="'Pretendard',sans-serif" font-size="48" font-weight="900" fill="#FFFFFF">확인하셨나요?</text>
+
+  <!-- 구분선 -->
+  <rect x="60" y="240" width="120" height="4" rx="2" fill="#F59E0B"/>
+
+  <!-- Item 1 -->
+  <rect x="60" y="280" width="960" height="85" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <rect x="80" y="300" width="44" height="44" rx="10" fill="#10B981"/>
+  <text x="102" y="332" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="900" fill="#FFFFFF">&#10003;</text>
+  <text x="145" y="332" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">소상공인 확인서 발급 완료</text>
+
+  <!-- Item 2 -->
+  <rect x="60" y="385" width="960" height="85" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <rect x="80" y="405" width="44" height="44" rx="10" fill="#10B981"/>
+  <text x="102" y="437" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="900" fill="#FFFFFF">&#10003;</text>
+  <text x="145" y="437" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">경영안정 바우처 신청 여부 확인</text>
+
+  <!-- Item 3 -->
+  <rect x="60" y="490" width="960" height="85" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <rect x="80" y="510" width="44" height="44" rx="10" fill="#10B981"/>
+  <text x="102" y="542" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="900" fill="#FFFFFF">&#10003;</text>
+  <text x="145" y="542" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">임대차 계약서 관리비 항목 확인</text>
+
+  <!-- Item 4 -->
+  <rect x="60" y="595" width="960" height="85" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <rect x="80" y="615" width="44" height="44" rx="10" fill="#10B981"/>
+  <text x="102" y="647" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="900" fill="#FFFFFF">&#10003;</text>
+  <text x="145" y="647" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">관리비 공개 요구권 (5/12~) 행사 준비</text>
+
+  <!-- Item 5 -->
+  <rect x="60" y="700" width="960" height="85" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <rect x="80" y="720" width="44" height="44" rx="10" fill="#10B981"/>
+  <text x="102" y="752" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="900" fill="#FFFFFF">&#10003;</text>
+  <text x="145" y="752" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">착한 임대인 세액공제 임대인 안내</text>
+
+  <!-- Item 6 -->
+  <rect x="60" y="805" width="960" height="85" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <rect x="80" y="825" width="44" height="44" rx="10" fill="#10B981"/>
+  <text x="102" y="857" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="900" fill="#FFFFFF">&#10003;</text>
+  <text x="145" y="857" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">정책자금·대환대출 대상 확인</text>
+
+  <!-- Item 7 -->
+  <rect x="60" y="910" width="960" height="85" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <rect x="80" y="930" width="44" height="44" rx="10" fill="#F59E0B"/>
+  <text x="102" y="962" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="900" fill="#0B1F3B">&#10003;</text>
+  <text x="145" y="957" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#F59E0B">폐업 시 → 희망리턴 사전 상담 먼저</text>
+
+  <!-- 칩 -->
+  <rect x="60" y="1020" width="160" height="40" rx="20" fill="#E8F0FF"/>
+  <text x="140" y="1047" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#1D4ED8">체크리스트</text>
+  <rect x="240" y="1020" width="100" height="40" rx="20" fill="#E8F0FF"/>
+  <text x="290" y="1047" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#1D4ED8">저장</text>
+  <rect x="360" y="1020" width="100" height="40" rx="20" fill="#E8F0FF"/>
+  <text x="410" y="1047" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#1D4ED8">2026</text>
+</svg>

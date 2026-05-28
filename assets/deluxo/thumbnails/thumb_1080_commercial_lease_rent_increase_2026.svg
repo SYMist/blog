@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- 장식 -->
+  <circle cx="900" cy="200" r="280" fill="#1A3270" opacity="0.4"/>
+  <circle cx="150" cy="880" r="200" fill="#0D2347" opacity="0.5"/>
+
+  <!-- 배지 -->
+  <rect x="60" y="60" width="180" height="52" rx="26" fill="#F59E0B"/>
+  <text x="150" y="93" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="28" font-weight="800" fill="#0B1F3B" text-anchor="middle">2026 최신</text>
+
+  <!-- 메인 제목 -->
+  <text x="60" y="196" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="72" font-weight="900" fill="#FFFFFF">상가임대차</text>
+  <text x="60" y="282" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="72" font-weight="900" fill="#34D399">임대료 인상</text>
+  <text x="60" y="368" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="72" font-weight="900" fill="#FFFFFF">한도 총정리</text>
+
+  <!-- 서브 텍스트 -->
+  <text x="60" y="452" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="36" fill="#EAF2FF">5% 상한 · 갱신청구권 10년</text>
+  <text x="60" y="496" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="36" fill="#EAF2FF">권리금 보호 · 대응 방법까지</text>
+
+  <!-- 구분선 -->
+  <rect x="60" y="528" width="560" height="4" rx="2" fill="#34D399"/>
+
+  <!-- 핵심 포인트 카드 -->
+  <rect x="60" y="558" width="960" height="210" rx="20" fill="#0D2347"/>
+
+  <!-- 포인트 1 -->
+  <text x="290" y="606" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">임대료 상한</text>
+  <text x="290" y="638" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="34" font-weight="900" fill="#34D399">연 5% 이내</text>
+  <text x="290" y="668" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#A0B4D0">서울 환산보증금 9억원 이하</text>
+
+  <rect x="80" y="688" width="440" height="2" fill="#1A3270"/>
+
+  <text x="290" y="722" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">갱신청구권</text>
+  <text x="290" y="752" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="34" font-weight="900" fill="#34D399">최대 10년</text>
+
+  <!-- 수직 구분선 -->
+  <rect x="540" y="578" width="2" height="170" fill="#1A3270"/>
+
+  <!-- 포인트 2 -->
+  <text x="790" y="606" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">갱신 요구 기한</text>
+  <text x="790" y="636" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="700" fill="#F59E0B">만료 1개월 전까지</text>
+  <text x="790" y="666" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#A0B4D0">1일 초과 시 청구권 소멸</text>
+
+  <rect x="560" y="688" width="440" height="2" fill="#1A3270"/>
+
+  <text x="790" y="722" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">권리금 보호</text>
+  <text x="790" y="752" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="700" fill="#34D399">임대인 방해 금지</text>
+
+  <!-- 하단 칩 -->
+  <rect x="60" y="790" width="188" height="52" rx="26" fill="#E8F0FF"/>
+  <text x="154" y="823" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="700" fill="#1D4ED8" text-anchor="middle">임대료 5% 상한</text>
+
+  <rect x="264" y="790" width="188" height="52" rx="26" fill="#E8F0FF"/>
+  <text x="358" y="823" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="700" fill="#1D4ED8" text-anchor="middle">갱신청구권 10년</text>
+
+  <rect x="468" y="790" width="188" height="52" rx="26" fill="#E8F0FF"/>
+  <text x="562" y="823" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="700" fill="#1D4ED8" text-anchor="middle">권리금 보호</text>
+
+  <!-- 출처 -->
+  <text x="540" y="996" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#4A6080" text-anchor="middle">deluxo · 상가건물 임대차보호법 · 2026년 5월 기준</text>
+</svg>

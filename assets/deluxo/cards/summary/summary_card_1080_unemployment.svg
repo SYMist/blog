@@ -1,0 +1,40 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect width="1080" height="1080" fill="#F8FAFC"/>
+  <g filter="url(#shadow)">
+    <rect x="70" y="70" width="940" height="940" rx="24" fill="#FFFFFF" stroke="#E5E7EB"/>
+  </g>
+  <text x="120" y="165" font-size="48" fill="#111827" font-weight="800" font-family="Pretendard, 'Noto Sans KR', sans-serif">실업급여 수급 요건 요약표</text>
+  <text x="120" y="225" font-size="28" fill="#6B7280" font-weight="600" font-family="Pretendard, 'Noto Sans KR', sans-serif">2026년 급여액·지급일수·유형별 기준</text>
+  <line x1="120" y1="265" x2="960" y2="265" stroke="#E5E7EB"/>
+  <g font-family="Pretendard, 'Noto Sans KR', sans-serif">
+    <text x="120" y="335" font-size="28" fill="#111827" font-weight="700">급여 산식</text>
+    <text x="340" y="335" font-size="26" fill="#374151">이직 전 3개월 평균임금 × 60%</text>
+    <line x1="120" y1="370" x2="960" y2="370" stroke="#F1F5F9"/>
+    <text x="120" y="430" font-size="28" fill="#111827" font-weight="700">일 상한액</text>
+    <text x="340" y="430" font-size="26" fill="#374151">68,100원 (월 약 204만원)</text>
+    <line x1="120" y1="465" x2="960" y2="465" stroke="#F1F5F9"/>
+    <text x="120" y="525" font-size="28" fill="#111827" font-weight="700">일 하한액</text>
+    <text x="340" y="525" font-size="26" fill="#374151">66,048원 (월 약 198만원)</text>
+    <line x1="120" y1="560" x2="960" y2="560" stroke="#F1F5F9"/>
+    <text x="120" y="620" font-size="28" fill="#111827" font-weight="700">지급일수</text>
+    <text x="340" y="620" font-size="26" fill="#374151">120~270일 (나이·가입기간별)</text>
+    <line x1="120" y1="655" x2="960" y2="655" stroke="#F1F5F9"/>
+    <text x="120" y="715" font-size="28" fill="#111827" font-weight="700">가입 요건</text>
+    <text x="340" y="715" font-size="26" fill="#374151">상용 180일 / 일용 180일 / 특고 12개월</text>
+    <line x1="120" y1="750" x2="960" y2="750" stroke="#F1F5F9"/>
+    <text x="120" y="810" font-size="28" fill="#111827" font-weight="700">청구 기한</text>
+    <text x="340" y="810" font-size="26" fill="#374151">이직일 다음 날부터 12개월 이내</text>
+    <line x1="120" y1="845" x2="960" y2="845" stroke="#F1F5F9"/>
+    <text x="120" y="905" font-size="28" fill="#111827" font-weight="700">조기재취업수당</text>
+    <text x="340" y="905" font-size="26" fill="#374151">잔여일수 50%+ 남기고 취업 시 50% 일시금</text>
+  </g>
+  <rect x="120" y="940" width="840" height="50" rx="12" fill="#F1F5F9"/>
+  <text x="150" y="972" font-size="22" fill="#4B5563" font-family="Pretendard, 'Noto Sans KR', sans-serif">
+    2026년 고용보험법 시행령 기준 · 고용센터 ☎1350
+  </text>
+</svg>

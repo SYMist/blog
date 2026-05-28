@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#F59E0B">2026 4분기 소상공인 정책자금 한눈에 비교표</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- Header -->
+  <rect x="60" y="120" width="200" height="50" fill="rgba(245,158,11,0.25)"/>
+  <rect x="260" y="120" width="240" height="50" fill="rgba(245,158,11,0.25)"/>
+  <rect x="500" y="120" width="180" height="50" fill="rgba(245,158,11,0.25)"/>
+  <rect x="680" y="120" width="170" height="50" fill="rgba(245,158,11,0.25)"/>
+  <rect x="850" y="120" width="170" height="50" fill="rgba(245,158,11,0.25)"/>
+  <text x="160" y="152" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#F59E0B">자금 유형</text>
+  <text x="380" y="152" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#F59E0B">대상</text>
+  <text x="590" y="152" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#F59E0B">한도</text>
+  <text x="765" y="152" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#F59E0B">금리(연)</text>
+  <text x="935" y="152" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#F59E0B">상환</text>
+
+  <!-- Row 1 -->
+  <rect x="60" y="170" width="960" height="75" fill="rgba(59,130,246,0.1)"/>
+  <text x="160" y="215" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="19" font-weight="700" fill="#FFF">일반경영안정</text>
+  <text x="380" y="215" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#EAF2FF">업력 1년+ 소상공인</text>
+  <text x="590" y="215" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#FFF">7,000만</text>
+  <text x="765" y="215" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">3.58%</text>
+  <text x="935" y="215" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#EAF2FF">5년(2년거치)</text>
+
+  <!-- Row 2 -->
+  <rect x="60" y="245" width="960" height="75" fill="rgba(255,255,255,0.04)"/>
+  <text x="160" y="280" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="19" font-weight="700" fill="#FFF">성장기반</text>
+  <text x="160" y="305" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" font-weight="600" fill="#EAF2FF">(일반)</text>
+  <text x="380" y="290" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#EAF2FF">성장 잠재력 높은</text>
+  <text x="590" y="290" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#FFF">5억</text>
+  <text x="765" y="290" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">3.58%</text>
+  <text x="935" y="290" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#EAF2FF">10년(3년거치)</text>
+
+  <!-- Row 3 -->
+  <rect x="60" y="320" width="960" height="75" fill="rgba(59,130,246,0.1)"/>
+  <text x="160" y="355" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="19" font-weight="700" fill="#FFF">성장기반</text>
+  <text x="160" y="380" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" font-weight="600" fill="#EAF2FF">(스마트제조)</text>
+  <text x="380" y="365" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#EAF2FF">자동화 도입 소공인</text>
+  <text x="590" y="365" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="900" fill="#FFF">10억</text>
+  <text x="765" y="365" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#22C55E">3.08%</text>
+  <text x="935" y="365" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#EAF2FF">10년(3년거치)</text>
+
+  <!-- Row 4 -->
+  <rect x="60" y="395" width="960" height="75" fill="rgba(255,255,255,0.04)"/>
+  <text x="160" y="440" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="19" font-weight="700" fill="#FFF">대환대출</text>
+  <text x="380" y="440" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#EAF2FF">7%+ 고금리 상환자</text>
+  <text x="590" y="440" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#FFF">7,000만</text>
+  <text x="765" y="440" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#22C55E">4.5%고정</text>
+  <text x="935" y="440" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#EAF2FF">최대 10년</text>
+
+  <!-- Row 5 -->
+  <rect x="60" y="470" width="960" height="75" fill="rgba(59,130,246,0.1)"/>
+  <text x="160" y="515" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="19" font-weight="700" fill="#FFF">특별경영안정</text>
+  <text x="380" y="515" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#EAF2FF">NICE 839↓ 저신용</text>
+  <text x="590" y="515" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#FFF">5,000만</text>
+  <text x="765" y="515" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">4.58%</text>
+  <text x="935" y="515" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#EAF2FF">5년(2년거치)</text>
+
+  <!-- Row 6 -->
+  <rect x="60" y="545" width="960" height="75" fill="rgba(255,255,255,0.04)"/>
+  <text x="160" y="590" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="19" font-weight="700" fill="#FFF">재도전특별</text>
+  <text x="380" y="590" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#EAF2FF">폐업 후 재창업</text>
+  <text x="590" y="590" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="900" fill="#FFF">1억</text>
+  <text x="765" y="590" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">3.58%</text>
+  <text x="935" y="590" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#EAF2FF">5년(2년거치)</text>
+
+  <!-- Bottom highlight -->
+  <rect x="60" y="660" width="960" height="200" rx="24" fill="rgba(245,158,11,0.08)"/>
+  <text x="540" y="710" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#F59E0B">금리 산출 공식</text>
+  <text x="540" y="760" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">기준금리 2.98% + 가산(0.6~1.6%p) - 우대(최대 0.4%p)</text>
+  <text x="540" y="800" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="600" fill="#EAF2FF">= 최종 금리 연 2.8% ~ 4.2% (시중 6~9%의 절반 이하)</text>
+  <text x="540" y="840" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#F59E0B">기준금리 확정: 10월 10일 소진공 공시</text>
+
+  <!-- Footer -->
+  <rect x="60" y="900" width="960" height="60" rx="16" fill="rgba(245,158,11,0.15)"/>
+  <text x="540" y="938" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">소상공인24(sbiz.or.kr) · 소진공(semas.or.kr) · 콜센터 1357</text>
+
+  <rect x="60" y="1050" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

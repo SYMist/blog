@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- Header -->
+  <rect x="60" y="60" width="960" height="110" rx="16" fill="#0D2347"/>
+  <text x="540" y="108" font-family="-apple-system, sans-serif" font-size="38" font-weight="700" fill="#ffffff" text-anchor="middle">증여재산공제 한도 비교</text>
+  <text x="540" y="148" font-family="-apple-system, sans-serif" font-size="26" fill="#A0B4D0" text-anchor="middle">일반 vs 혼인·출산 추가공제 적용 시 차이</text>
+
+  <!-- Comparison: General vs Marriage -->
+  <!-- Left: 일반 -->
+  <rect x="60" y="200" width="450" height="360" rx="16" fill="#0D2347"/>
+  <text x="285" y="252" font-family="-apple-system, sans-serif" font-size="28" font-weight="700" fill="#60A5FA" text-anchor="middle">일반 공제</text>
+  <text x="285" y="295" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">직계존속 → 성인 자녀</text>
+  <text x="285" y="355" font-family="-apple-system, sans-serif" font-size="56" font-weight="700" fill="#ffffff" text-anchor="middle">5,000</text>
+  <text x="285" y="400" font-family="-apple-system, sans-serif" font-size="32" fill="#A0B4D0" text-anchor="middle">만원</text>
+  <line x1="100" y1="430" x2="470" y2="430" stroke="#1A3270" stroke-width="2"/>
+  <text x="285" y="472" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">10년간 부모 양쪽 합산</text>
+  <text x="285" y="506" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">미성년: 2,000만원</text>
+  <text x="285" y="540" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">적용 케이스: 일반 증여</text>
+
+  <!-- Plus Sign -->
+  <text x="540" y="400" font-family="-apple-system, sans-serif" font-size="60" font-weight="700" fill="#F59E0B" text-anchor="middle">+</text>
+
+  <!-- Right: 혼인·출산 추가 -->
+  <rect x="570" y="200" width="450" height="360" rx="16" fill="#1A3270"/>
+  <rect x="570" y="200" width="450" height="4" rx="2" fill="#F59E0B"/>
+  <text x="795" y="252" font-family="-apple-system, sans-serif" font-size="28" font-weight="700" fill="#F59E0B" text-anchor="middle">혼인·출산 추가공제</text>
+  <text x="795" y="295" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">2024년 신설, 2026년 유지</text>
+  <text x="795" y="355" font-family="-apple-system, sans-serif" font-size="56" font-weight="700" fill="#F59E0B" text-anchor="middle">+1억</text>
+  <text x="795" y="400" font-family="-apple-system, sans-serif" font-size="32" fill="#A0B4D0" text-anchor="middle">원 추가</text>
+  <line x1="610" y1="430" x2="980" y2="430" stroke="#0D2347" stroke-width="2"/>
+  <text x="795" y="472" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">혼인 전후 2년 이내 또는</text>
+  <text x="795" y="506" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">출산·입양 후 2년 이내</text>
+  <text x="795" y="540" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">기존 5,000만원과 별도 합산</text>
+
+  <!-- Result -->
+  <rect x="60" y="590" width="960" height="130" rx="16" fill="#F59E0B"/>
+  <text x="540" y="638" font-family="-apple-system, sans-serif" font-size="30" font-weight="700" fill="#0B1F3B" text-anchor="middle">혼인·출산 공제 적용 시 최대 비과세 한도</text>
+  <text x="540" y="692" font-family="-apple-system, sans-serif" font-size="50" font-weight="700" fill="#0B1F3B" text-anchor="middle">1억 5,000만원</text>
+
+  <!-- Bonus note -->
+  <rect x="60" y="742" width="960" height="90" rx="12" fill="#0D2347"/>
+  <text x="540" y="782" font-family="-apple-system, sans-serif" font-size="26" font-weight="700" fill="#34D399" text-anchor="middle">결혼 시 양쪽 가족 합산 최대 3억원 비과세 이전 가능</text>
+  <text x="540" y="816" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">신랑 측 1.5억 + 신부 측 1.5억 각각 적용</text>
+
+  <!-- Tax rate reminder -->
+  <rect x="60" y="854" width="960" height="66" rx="12" fill="#1A3270"/>
+  <text x="540" y="882" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">증여세율: 1억 이하 10% / 1억~5억 20%(누진공제 1,000만) / 5억~10억 30%</text>
+  <text x="540" y="908" font-family="-apple-system, sans-serif" font-size="20" fill="#A0B4D0" text-anchor="middle">출처: 국세청 nts.go.kr (2026년 기준)</text>
+
+  <!-- Footer -->
+  <text x="540" y="980" font-family="-apple-system, sans-serif" font-size="26" font-weight="700" fill="#F59E0B" text-anchor="middle">deluxo.co.kr</text>
+  <text x="540" y="1016" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">증여재산공제 한도 비교 | 2026년 최신</text>
+</svg>

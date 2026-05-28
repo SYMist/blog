@@ -1,0 +1,453 @@
+<!-- essencial E-37 | 보험 silo | 4세대 실손 전환 vs 유지 손익분기 계산 (2026) -->
+
+<!-- ✅ Schema.org 구조화 데이터 -->
+<div style="display:none">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "4세대 실손 전환 vs 유지 손익분기 계산 (2026)",
+      "description": "1·2·3세대 실손보험 보유자가 4세대로 전환해야 할지 판단하는 손익분기점 계산법. 40세 남성 기준 손익분기 비급여 의료비, 시나리오 6종 시뮬레이션, 차등제 할증·5세대 변수까지 정리했습니다.",
+      "datePublished": "2026-04-28",
+      "dateModified": "2026-04-28",
+      "author": {"@type": "Person", "name": "essencial"},
+      "publisher": {"@type": "Organization", "name": "essencial"}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "4세대 실손으로 전환하면 다시 돌아올 수 있나요?", "acceptedAnswer": {"@type": "Answer", "text": "불가능합니다. 4세대로 전환하면 기존 1·2·3세대로 복귀가 불가능한 일방통행입니다. 전환 전에 반드시 손익분기점을 계산하고 신중히 결정해야 합니다."}},
+        {"@type": "Question", "name": "1세대 실손의 4세대 전환 손익분기점은 얼마인가요?", "acceptedAnswer": {"@type": "Answer", "text": "40세 남성 기준, 연간 비급여 의료비 약 147만 원이 손익분기점입니다. 연 비급여 147만 원 미만이면 4세대 전환이 유리하고, 초과하면 1세대 유지가 유리합니다. 단, 4세대 차등제 할증을 고려하면 실질 손익분기점은 더 낮아집니다."}},
+        {"@type": "Question", "name": "4세대 실손 보험료 차등제는 어떻게 작동하나요?", "acceptedAnswer": {"@type": "Answer", "text": "직전 1년간 비급여 보험금 수령액 기준으로 5등급을 부여해 다음 갱신 시 보험료를 조정합니다. 1등급(미사용) 5% 할인, 2등급(100만 미만) 변동 없음, 3등급(100~150만) 100% 할증, 4등급(150~300만) 200% 할증, 5등급(300만 이상) 300% 할증입니다."}},
+        {"@type": "Question", "name": "3세대 실손은 4세대로 전환하는 게 유리한가요?", "acceptedAnswer": {"@type": "Answer", "text": "3세대와 4세대의 자기부담 차이는 10%p(20% vs 30%), 보험료 차이도 연 약 1.4만 원으로 작습니다. 손익분기 비급여 의료비가 연 14만 원에 불과해 의료이용이 아주 적지 않으면 4세대 전환 효과가 미미합니다. 일반적으로 유지가 합리적입니다."}},
+        {"@type": "Question", "name": "2026년 5월 5세대 실손 출시 후 어떻게 해야 하나요?", "acceptedAnswer": {"@type": "Answer", "text": "1·2세대 보유자는 5세대 출시 후 비교 결정을 권장합니다. 1·2세대 대상 3년간 50% 할인 인센티브가 검토 중으로, 확정 시 보험료 절감 효과가 큽니다. 다만 5세대는 보장이 크게 축소(비급여 한도 1,000만, 도수치료 자기부담 95%)되므로 의료이용 패턴을 반드시 고려해야 합니다."}}
+      ]
+    }
+  ]
+}
+</script>
+</div>
+
+<style>
+  :root{
+    --pri:#7C3AED; --pri2:#6D28D9;
+    --white:#FFFFFF; --text:#111827;
+    --muted:#4B5563; --border:#E5E7EB;
+    --bg:#F9FAFB; --accent:#F5F3FF;
+  }
+  .wrap{max-width:860px;margin:0 auto;line-height:1.8;color:var(--text);}
+  .meta{color:var(--muted);font-size:.95rem;margin:6px 0 18px;}
+  .badge{display:inline-block;background:var(--accent);border:1px solid #DDD6FE;padding:3px 10px;border-radius:999px;font-size:.85rem;margin-right:8px;}
+  .notice{background:#FFF7ED;border:1px solid #FED7AA;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .conclusion{background:#F5F3FF;border:1px solid #DDD6FE;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .toc{background:var(--bg);border:1px solid var(--border);padding:14px 16px;border-radius:12px;margin:16px 0 22px;}
+  .toc a{text-decoration:none;color:var(--pri);}
+  .toc ul{margin:8px 0 0 18px;}
+
+  .wrap a.btn,.wrap a.btn:link,.wrap a.btn:visited{
+    display:inline-flex;align-items:center;justify-content:center;
+    padding:10px 14px;border-radius:10px;border:1px solid var(--pri);
+    background:var(--pri) !important;color:var(--white) !important;
+    text-decoration:none !important;font-weight:800;
+  }
+  .wrap a.btn:hover{background:var(--pri2) !important;}
+  .wrap a.btn.secondary,.wrap a.btn.secondary:link,.wrap a.btn.secondary:visited{
+    background:var(--white) !important;color:var(--pri) !important;border-color:var(--pri) !important;
+  }
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 6px;}
+
+  table{width:100%;border-collapse:collapse;margin:14px 0 10px;}
+  th,td{border:1px solid var(--border);padding:10px;vertical-align:top;}
+  th{background:#F3F4F6;text-align:left;}
+  .small{font-size:.95rem;color:var(--muted);}
+  h1{margin:0 0 8px;line-height:1.25;}
+  h2{margin-top:30px;padding-top:8px;border-top:1px solid var(--border);}
+  h3{margin-top:16px;}
+  .q{font-weight:900;margin:14px 0 6px;}
+  .a{margin:0 0 10px;}
+  .highlight{background:#F0FDF4;border:1px solid #BBF7D0;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .warning{background:#FEF2F2;border:1px solid #FECACA;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .scenario{background:#FEFCE8;border:1px solid #FDE68A;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .scope{background:#F8FAFC;border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .scope ul{margin:4px 0 0 18px;}
+  .action-steps{background:#F5F3FF;border:1px solid #DDD6FE;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .action-steps ol{margin:8px 0 0 18px;}
+  .sources{background:var(--bg);border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:14px 0;font-size:.9rem;}
+  .sources ul{margin:4px 0 0 18px;}
+  .footer{margin-top:26px;padding-top:14px;border-top:1px solid var(--border);color:var(--muted);font-size:.95rem;}
+  .disclaimer{background:#F9FAFB;border:1px solid var(--border);padding:10px 14px;border-radius:10px;margin:14px 0;font-size:.9rem;color:var(--muted);}
+</style>
+
+<div class="wrap">
+  <h1>4세대 실손 전환 vs 유지 손익분기 계산: 내 세대는 바꿔야 할까? (2026)</h1>
+  <div class="meta">
+    <span class="badge">보험 비교</span>
+    <span class="badge">업데이트: 2026-04-28</span>
+  </div>
+
+  <div class="notice">
+    <strong>먼저 확인!</strong><br/>
+    실손보험 4세대 전환은 <strong>일방통행</strong>입니다. 한 번 전환하면 1·2·3세대로 복귀가 불가능하므로, 본인의 의료이용 패턴·연령·가계 재무를 반드시 점검한 뒤 결정하세요. 본 글의 금액은 40세 남성 기준 추정치이며 개인별 차이가 있습니다.
+  </div>
+
+  <p class="small">
+    1·2·3세대 실손 보유자라면 매년 오르는 보험료에 "4세대로 갈아탈까?" 고민이 생깁니다. 핵심은 <strong>손익분기 비급여 의료비</strong>입니다. 1세대→4세대는 연 147만 원, 2세대 선택형→4세대는 연 65만 원이 기준선입니다. 아래 6가지 시나리오로 내 케이스를 대입해 보세요.
+  </p>
+
+  <!-- 이 글의 범위 -->
+  <div class="scope">
+    <strong>이 글에서 다루는 것</strong>
+    <ul>
+      <li>1·2·3세대 vs 4세대 보험료·자기부담금·차등제 구조 비교</li>
+      <li>세대별 손익분기점 계산 공식과 시나리오 6종 시뮬레이션</li>
+      <li>연령·의료이용 패턴별 전환 권장 여부 가이드</li>
+      <li>2026년 5월 5세대 출시 변수 및 대기 전략</li>
+    </ul>
+    <strong>다루지 않는 것</strong>
+    <ul>
+      <li>특정 보험사 상품 추천 및 개인별 설계 상담 (보험설계사 상담 권장)</li>
+      <li>단체실손·특정 질환 특약 세부 설계</li>
+    </ul>
+  </div>
+
+  <!-- 결론 먼저 -->
+  <div class="conclusion" id="top">
+    <h2 style="border-top:none;margin-top:0;">✅ 결론 먼저: 이런 분은 이걸 선택하세요</h2>
+    <ul>
+      <li><strong>4세대 전환이 유리한 사람</strong>: 20~40대, 연 비급여 의료비 147만 원 미만(1세대 기준)/65만 원 미만(2세대 선택형 기준), 보험료 부담이 커서 줄이고 싶은 경우</li>
+      <li><strong>기존 세대 유지가 유리한 사람</strong>: 50대 이상, 만성질환 보유, 도수치료·MRI 정기 이용자, 연 비급여 150만 원 이상 사용하는 경우</li>
+      <li><strong>2026.5 5세대 출시 후 비교 권장</strong>: 1·2세대 보유자는 50% 할인 인센티브 확정 발표 후 전환 결정이 유리할 수 있습니다</li>
+    </ul>
+  </div>
+
+  <!-- 이미지 1: 비교 요약 카드 -->
+  <p><img src="https://cdn.essencial.kr/assets/compare_summary_4th-gen-insurance-breakeven-2026.png" alt="4세대 실손 전환 vs 유지 손익분기 비교 요약" width="860"/></p>
+
+  <div class="toc">
+    <strong>목차</strong>
+    <ul>
+      <li><a href="#matrix">1) 핵심 비교 매트릭스: 세대별 구조</a></li>
+      <li><a href="#detail">2) 항목별 상세 비교</a></li>
+      <li><a href="#premium">3) 2026년 세대별 보험료 비교</a></li>
+      <li><a href="#scenario">4) 시나리오별 손익 시뮬레이션 (6종)</a></li>
+      <li><a href="#trap">5) 전환 전 반드시 확인할 함정</a></li>
+      <li><a href="#faq">6) FAQ</a></li>
+      <li><a href="#update">업데이트 로그</a></li>
+    </ul>
+  </div>
+
+  <!-- 섹션 1: 핵심 비교 매트릭스 -->
+  <h2 id="matrix">1) 핵심 비교 매트릭스: 세대별 구조</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>비교 항목</th>
+        <th>1세대 (2009 이전)</th>
+        <th>2세대 (2009~2017)</th>
+        <th>3세대 (2017~2021)</th>
+        <th>4세대 (2021~)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>자기부담금 (비급여)</strong></td>
+        <td>0~10% (약관마다 다름)</td>
+        <td>표준 20% / 선택 10%</td>
+        <td>20%</td>
+        <td><strong>30%</strong></td>
+      </tr>
+      <tr>
+        <td><strong>자기부담금 (급여)</strong></td>
+        <td>0~20%</td>
+        <td>20%</td>
+        <td>10~20%</td>
+        <td><strong>20%</strong></td>
+      </tr>
+      <tr>
+        <td><strong>월 보험료 (40세 남·2026)</strong></td>
+        <td>약 4만 3,741원</td>
+        <td>약 2만 3,891원</td>
+        <td>약 1만 4,133원</td>
+        <td><strong>약 1만 3,052원</strong></td>
+      </tr>
+      <tr>
+        <td><strong>2026 인상률</strong></td>
+        <td>+3%</td>
+        <td>+5%</td>
+        <td>+16%</td>
+        <td>+20%</td>
+      </tr>
+      <tr>
+        <td><strong>갱신 주기</strong></td>
+        <td>3년 또는 5년</td>
+        <td>1년(표준) / 3년(선택)</td>
+        <td>1년</td>
+        <td>1년</td>
+      </tr>
+      <tr>
+        <td><strong>재가입 주기</strong></td>
+        <td>없음 (평생)</td>
+        <td>15년</td>
+        <td>15년</td>
+        <td><strong>5년</strong></td>
+      </tr>
+      <tr>
+        <td><strong>비급여 차등제</strong></td>
+        <td>없음</td>
+        <td>없음</td>
+        <td>없음</td>
+        <td><strong>5등급 (최대 300% 할증)</strong></td>
+      </tr>
+      <tr>
+        <td><strong>핵심 장점</strong></td>
+        <td>가장 넓은 보장, 자기부담 최소</td>
+        <td>보장 우수, 갱신 안정적</td>
+        <td>보험료 합리적</td>
+        <td>보험료 저렴</td>
+      </tr>
+      <tr>
+        <td><strong>핵심 단점</strong></td>
+        <td>보험료 폭등 지속</td>
+        <td>보험료 인상 부담</td>
+        <td>비급여 보장 약화</td>
+        <td>자기부담 최대·차등제 부담</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="small">※ 2026년 4월 기준, 40세 남성 추정치. 가입 시기·보험사·약관에 따라 다릅니다.</p>
+
+  <!-- 이미지 2: 비교 매트릭스 카드 -->
+  <p><img src="https://cdn.essencial.kr/assets/compare_matrix_4th-gen-insurance-breakeven-2026.png" alt="4세대 실손 전환 vs 유지 항목별 비교 매트릭스" width="860"/></p>
+
+  <!-- 섹션 2: 항목별 상세 비교 -->
+  <h2 id="detail">2) 항목별 상세 비교</h2>
+
+  <h3>자기부담금 구조 차이: 비급여가 결정적</h3>
+  <p>전환 여부를 가르는 핵심은 <strong>비급여 자기부담률</strong>입니다. 1세대가 0~10%인 반면 4세대는 30%로, 연 100만 원 비급여를 사용하면 1세대는 5만 원, 4세대는 30만 원을 자비로 냅니다. 급여 항목에서의 차이는 상대적으로 작지만, 도수치료·MRI·비급여 주사처럼 비급여 비중이 높은 의료이용자에게 이 차이가 수십만 원으로 벌어집니다.</p>
+
+  <h3>보험료 갱신 추이: 4세대가 역전될 수 있다</h3>
+  <p>2026년 기준 1세대 인상률은 3%인 반면 4세대는 20%입니다. 4세대의 손해율(147.9%)이 1세대(113.2%)보다 높아 구조적으로 더 가파른 인상 압력을 받고 있습니다. <strong>누적 5~10년이면 4세대 보험료가 2세대 수준을 추월할 수 있습니다.</strong> 반면 1세대·2세대의 폐쇄형 풀 특성상 인상 속도는 점진적으로 낮아지는 경향이 있습니다.</p>
+
+  <h3>차등제: 4세대만의 추가 변수</h3>
+  <p>4세대에만 적용되는 <strong>비급여 보험료 차등제</strong>는 전환 손익을 크게 흔드는 요소입니다. 직전 1년 비급여 수령액이 100~150만 원이면 다음 해 비급여 보험료가 2배, 150~300만 원이면 3배, 300만 원 이상이면 4배로 올라갑니다. 이 차등 할증은 손익분기 계산 시 반드시 포함해야 하며, 포함 시 실질 손익분기 의료비는 낮아집니다.</p>
+
+  <h3>재가입 주기: 4세대는 5년마다 재심사</h3>
+  <p>1·2세대는 가입 당시 약관을 거의 평생 유지하지만, 4세대는 <strong>5년마다 재가입 심사</strong>가 있습니다. 갱신 시점에 건강 상태 악화로 재가입이 거절되거나 보험료가 크게 오를 리스크가 있습니다. 만성질환 발생 가능성이 높은 연령대일수록 이 점을 고려해야 합니다.</p>
+
+  <!-- 섹션 3: 보험료 비교 -->
+  <h2 id="premium">3) 2026년 세대별 보험료 비교</h2>
+  <table>
+    <thead>
+      <tr><th>세대</th><th>월 보험료 (2026)</th><th>연 보험료</th><th>4세대와의 연 차이</th><th>5년 차이 누적</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>1세대</strong></td><td>약 4만 3,741원</td><td>약 52만 5천 원</td><td><strong>+36만 8천 원</strong></td><td>약 184만 원</td></tr>
+      <tr><td><strong>2세대 (선택형 10%)</strong></td><td>약 2만 3,891원</td><td>약 28만 7천 원</td><td><strong>+13만 원</strong></td><td>약 65만 원</td></tr>
+      <tr><td><strong>3세대</strong></td><td>약 1만 4,133원</td><td>약 17만 원</td><td><strong>+1만 4천 원</strong></td><td>약 7만 원</td></tr>
+      <tr><td><strong>4세대</strong></td><td>약 1만 3,052원</td><td>약 15만 7천 원</td><td>—</td><td>—</td></tr>
+    </tbody>
+  </table>
+  <p class="small">※ 40세 남성·비흡연·표준체 기준 추정치. 50대 이상이면 1세대 월 7~10만 원대까지 상승, 연 차이 60~80만 원 이상 가능합니다.</p>
+
+  <div class="highlight">
+    <strong>손익분기점 공식</strong><br/>
+    손익분기 비급여 의료비 = (기존 세대 연 보험료 − 4세대 연 보험료) ÷ (4세대 자기부담률 − 기존 세대 자기부담률)<br/><br/>
+    · 1세대→4세대: 36만 8천 ÷ 25%p = <strong>연 147만 원</strong><br/>
+    · 2세대 선택형→4세대: 13만 ÷ 20%p = <strong>연 65만 원</strong><br/>
+    · 3세대→4세대: 1.4만 ÷ 10%p = <strong>연 14만 원</strong>
+  </div>
+
+  <!-- 섹션 4: 시나리오별 시뮬레이션 -->
+  <h2 id="scenario">4) 시나리오별 손익 시뮬레이션 (6종)</h2>
+  <p class="small">※ 1세대 보유자 기준 (40세 남성). 차등제는 당해 연도 미적용, 이듬해부터 반영.</p>
+
+  <div class="scenario">
+    <h3>내 상황에 맞는 결과는?</h3>
+    <table>
+      <thead>
+        <tr><th>시나리오</th><th>연 비급여 의료비</th><th>1세대 유지 연 부담</th><th>4세대 전환 연 부담</th><th>결론</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>A. 이용 없음</strong></td>
+          <td>0원</td>
+          <td>52만 5천 원</td>
+          <td>15만 7천 원</td>
+          <td><strong>4세대 36.8만 유리</strong></td>
+        </tr>
+        <tr>
+          <td><strong>B. 가벼운 이용</strong></td>
+          <td>50만 원</td>
+          <td>55만 원</td>
+          <td>30만 7천 원</td>
+          <td><strong>4세대 24.3만 유리</strong></td>
+        </tr>
+        <tr>
+          <td><strong>C. 중간 이용</strong></td>
+          <td>100만 원</td>
+          <td>57만 5천 원</td>
+          <td>45만 7천 원 (+차등 할증)</td>
+          <td><strong>4세대 약간 유리, 차등 반영 시 동등</strong></td>
+        </tr>
+        <tr>
+          <td><strong>D. 활발한 이용</strong></td>
+          <td>150만 원</td>
+          <td>60만 원</td>
+          <td>60만 7천 원 (+4등급 할증)</td>
+          <td><strong>1세대 약간 유리 (차등 반영 시 큰 차이)</strong></td>
+        </tr>
+        <tr>
+          <td><strong>E. 고이용</strong></td>
+          <td>300만 원</td>
+          <td>67만 5천 원</td>
+          <td>105만 7천 원 (+5등급 할증)</td>
+          <td><strong>1세대 38만+ 유리 (차등 반영 시 60만+)</strong></td>
+        </tr>
+        <tr>
+          <td><strong>F. 만성질환 (도수+MRI+주사)</strong></td>
+          <td>150만 원</td>
+          <td>60만 원</td>
+          <td>60만 7천 원 + 차등 가중</td>
+          <td><strong>1세대 유지 권장</strong></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>연령·건강 상태별 결론</h3>
+  <table>
+    <thead>
+      <tr><th>대상</th><th>추천</th><th>이유</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>20~30대, 건강, 이용 거의 없음</td>
+        <td><strong>4세대 전환 고려</strong></td>
+        <td>보험료 절감 효과 크고, 손익분기 미달 가능성 높음</td>
+      </tr>
+      <tr>
+        <td>40대, 정기 검진 수준 (연 비급여 50만 이하)</td>
+        <td><strong>4세대 전환 유리 가능</strong></td>
+        <td>손익분기 미달이면 보험료 절감 우위</td>
+      </tr>
+      <tr>
+        <td>40대 이상, 도수·MRI 정기 이용</td>
+        <td><strong>기존 세대 유지</strong></td>
+        <td>차등제 할증 + 자기부담 증가로 누적 비용 역전</td>
+      </tr>
+      <tr>
+        <td>50대 이상, 만성질환 보유</td>
+        <td><strong>기존 세대 유지</strong></td>
+        <td>비급여 이용 증가 + 보험료 1세대·2세대 인상 폭 상대적 작음</td>
+      </tr>
+      <tr>
+        <td>1·2세대 보유자 (2026.5 전)</td>
+        <td><strong>5세대 출시 후 비교 권장</strong></td>
+        <td>50% 할인 인센티브 확정 후 비교가 유리할 수 있음</td>
+      </tr>
+      <tr>
+        <td>직장 단체실손 가입자</td>
+        <td><strong>4세대 전환 검토</strong></td>
+        <td>단체실손 우선 청구로 개인 실손 이용 적어 자기부담 영향 제한</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- 이미지 3: 시나리오 추천 카드 -->
+  <p><img src="https://cdn.essencial.kr/assets/scenario_4th-gen-insurance-breakeven-2026.png" alt="4세대 실손 전환 vs 유지 시나리오별 추천 가이드" width="860"/></p>
+
+  <!-- 지금 바로 확인하는 순서 -->
+  <div class="action-steps">
+    <strong>지금 바로 손익분기 계산하는 순서</strong>
+    <ol>
+      <li><strong>본인 보유 세대 확인</strong>: 가입 시기(~2009 / 2009~2017 / 2017~2021 / 2021~)와 약관으로 세대·자기부담률 파악</li>
+      <li><strong>최근 3년 비급여 의료비 합산</strong>: 도수치료·MRI·비급여 주사·비급여 검사 등 항목별 합산 (보험사 앱에서 청구 내역 확인)</li>
+      <li><strong>손익분기점 계산</strong>: (현재 세대 연 보험료 − 4세대 연 보험료) ÷ (30% − 현재 자기부담률) = 손익분기 비급여 의료비</li>
+      <li><strong>본인 평균 비급여 의료비 vs 손익분기점 비교</strong>: 초과 → 유지, 미달 → 전환 고려</li>
+      <li><strong>차등제 시뮬레이션</strong>: 비급여 100만 이상이라면 다음 해 차등 할증 반영 후 재계산</li>
+      <li><strong>5세대 출시(2026.5) 후 인센티브 확인</strong>: 1·2세대 보유자는 50% 할인 확정 여부 체크 후 결정</li>
+    </ol>
+  </div>
+
+  <!-- ✅ 인아티클 광고 (시나리오 추천 직후 — CPC 최고 지점) -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5716436301710258"
+       crossorigin="anonymous"></script>
+  <ins class="adsbygoogle"
+       style="display:block; text-align:center;"
+       data-ad-layout="in-article"
+       data-ad-format="fluid"
+       data-ad-client="ca-pub-5716436301710258"
+       data-ad-slot="2039167138"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+  <!-- 섹션 5: 전환 전 확인할 함정 -->
+  <h2 id="trap">5) 전환 전 반드시 확인할 함정 4가지</h2>
+  <div class="warning">
+    <ol>
+      <li><strong>일방통행 — 복귀 절대 불가</strong>: 4세대 전환 후 건강 악화·비급여 이용 증가가 예상되어도 1·2·3세대로 돌아갈 수 없습니다. 전환 전 충분히 신중하게 결정하세요.</li>
+      <li><strong>차등제 2년차 함정</strong>: 1년차는 차등 미적용이지만 2년차부터 직전 1년 비급여 수령액 기준으로 등급이 부여됩니다. 비급여 100만 원 초과 시 보험료가 2~4배 폭등할 수 있어 단순 보험료 비교만으로 판단하면 안 됩니다.</li>
+      <li><strong>5세대 대기 전략의 함정</strong>: 5세대는 보험료가 저렴하지만 비급여 한도가 5,000만 → 1,000만 원으로 축소되고, 도수치료 자기부담이 최대 95%까지 올라갑니다. 의료이용이 많은 분은 저렴한 보험료 대신 보장 축소 손실이 더 클 수 있습니다.</li>
+      <li><strong>"비급여 청구 안 하면 등급 안 오른다"는 착각</strong>: 맞지만, 자비로 부담하면 실질 의료비는 증가합니다. 등급 관리를 위해 청구를 포기하면 4세대의 장점이 사라지고 오히려 손해가 커집니다.</li>
+    </ol>
+  </div>
+
+  <div class="btns">
+    <a class="btn" href="https://e-insmarket.or.kr/m/mins/minsInsCal.knia" target="_blank" rel="noopener">보험다모아 실손 간편 계산기</a>
+    <a class="btn secondary" href="https://www.fss.or.kr" target="_blank" rel="noopener">금융감독원 보험 공시</a>
+  </div>
+
+  <!-- 섹션 6: FAQ -->
+  <h2 id="faq">6) FAQ</h2>
+
+  <p class="q">Q1. 4세대로 전환하면 다시 1·2세대로 돌아올 수 있나요?</p>
+  <p class="a">불가능합니다. 실손보험 세대 전환은 일방통행으로, 4세대로 전환하면 기존 세대로 복귀할 수 없습니다. 전환 후 건강 상태가 악화되거나 비급여 이용이 늘어도 원상복귀가 안 됩니다. 5세대 출시 후에도 역시 순방향 전환만 가능합니다.</p>
+
+  <p class="q">Q2. 1세대 실손의 손익분기점 비급여 의료비는 정확히 얼마인가요?</p>
+  <p class="a">40세 남성 기준 2026년 연 보험료 차이 약 36만 8천 원, 자기부담률 차이 25%p(4세대 30% − 1세대 5%)를 적용하면 <strong>연 147만 원</strong>이 손익분기점입니다. 연 비급여 의료비 147만 원 미만이면 4세대 전환이 유리하고, 초과하면 1세대 유지가 유리합니다. 50대 이상은 보험료 차이가 더 커 손익분기점도 높아집니다.</p>
+
+  <p class="q">Q3. 4세대 차등제 3등급이 되면 보험료가 얼마나 오르나요?</p>
+  <p class="a">직전 1년 비급여 수령액 100~150만 원이면 3등급으로 다음 갱신 시 비급여 보험료가 100% 할증됩니다. 예: 비급여 보험료 월 1만 원 → 2만 원. 급여 보험료는 변동 없습니다. 150~300만 원(4등급)이면 200%, 300만 원 이상(5등급)이면 300% 할증됩니다.</p>
+
+  <p class="q">Q4. 3세대 실손은 4세대로 전환하는 게 유리한가요?</p>
+  <p class="a">3세대와 4세대의 자기부담 차이는 10%p(3세대 20% → 4세대 30%), 2026년 보험료 차이도 연 약 1.4만 원에 불과합니다. 손익분기 비급여 의료비가 연 14만 원으로 매우 낮아, 의료이용이 아주 적지 않으면 4세대 전환 효과가 미미합니다. 일반적으로 3세대는 유지가 합리적입니다.</p>
+
+  <p class="q">Q5. 5세대 실손이 출시되면 4세대로 먼저 전환해야 하나요?</p>
+  <p class="a">서두를 필요가 없습니다. 1·2세대 보유자는 5세대 출시(2026.5 예정) 이후 3년간 50% 할인 인센티브 조건을 확인한 뒤 결정하는 것이 유리할 수 있습니다. 단, 5세대는 비급여 보장 한도가 1,000만 원으로 대폭 축소되고 도수치료 자기부담이 최대 95%까지 올라가므로 의료이용이 많은 분은 신중히 비교해야 합니다.</p>
+
+  <p class="q">Q6. 직장 단체실손이 있으면 개인 실손을 4세대로 바꾸는 게 낫나요?</p>
+  <p class="a">단체실손 가입자는 비급여 청구 시 단체실손을 우선 사용하기 때문에 개인 실손의 비급여 청구가 줄어듭니다. 이 경우 4세대의 자기부담 증가 영향이 제한적이므로 보험료 절감을 위해 4세대 전환을 검토해볼 수 있습니다. 단, 퇴직·이직으로 단체실손이 종료되는 시점을 고려해야 합니다.</p>
+
+  <!-- 참고자료 / 출처 -->
+  <div class="sources">
+    <strong>참고자료 / 출처</strong>
+    <ul>
+      <li>금융위원회 — 실손의료보험 세대별 개편 현황: https://www.fsc.go.kr</li>
+      <li>금융감독원 — 보험다모아 실손 간편계산기: https://e-insmarket.or.kr</li>
+      <li>보험개발원 — 2025년 3분기 실손 손해율 공시: https://www.kidi.or.kr</li>
+      <li>손해보험협회 통합공시: https://kpub.knia.or.kr</li>
+      <li>한국일보·보험저널 "2026년 실손보험료 평균 7.8% 인상" (2026.01)</li>
+      <li>디지털타임스·경향신문 "5세대 실손 2026.5 출시·도수치료 95% 자기부담" (2026.03)</li>
+    </ul>
+  </div>
+
+  <div class="btns">
+    <a class="btn" href="https://e-insmarket.or.kr/m/mins/minsInsCal.knia" target="_blank" rel="noopener">보험료 간편 계산기</a>
+    <a class="btn secondary" href="https://kpub.knia.or.kr" target="_blank" rel="noopener">보험사별 비교 공시</a>
+  </div>
+
+  <div class="disclaimer">
+    <strong>면책 안내</strong>: 본 글은 일반적인 정보 제공 목적이며, 특정 보험 상품을 추천하는 것이 아닙니다. 실손보험 전환은 일방통행이므로 반드시 본인의 의료이용 패턴·연령·건강상태·가계 재무를 종합 검토한 뒤 보험설계사·전문가 상담을 거쳐 결정하시기 바랍니다. 5세대 실손 출시 일정·인센티브 조건은 2026.5 금융당국 공식 발표를 통해 최종 확인이 필요합니다. 본 글의 보험료·손익 수치는 40세 남성 기준 추정치이며 개인별 차이가 있습니다.
+  </div>
+
+  <p class="small">관련 글: <a href="#" target="_blank" rel="noopener">위고비 vs 삭센다 vs 큐시미아 가격·효과 3종 비교 (2026)</a> / <a href="#" target="_blank" rel="noopener">하이브리드 vs 디젤 5년 유지비 총비용 비교 (2026)</a></p>
+
+  <div class="footer" id="update">
+    <strong>업데이트 로그</strong><br/>
+    - 2026-04-28: 최초 발행 (2026년 인상률·5세대 출시 변수 반영)<br/>
+    <span class="small">※ 실손보험 보험료·약관은 수시로 변동됩니다. 가입·전환 전 최신 약관과 금융감독원 공시를 반드시 확인하세요.</span>
+  </div>
+</div>

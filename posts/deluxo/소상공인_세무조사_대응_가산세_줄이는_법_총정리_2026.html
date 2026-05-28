@@ -1,0 +1,442 @@
+<!-- 소상공인 세무조사 대응·가산세 줄이는 법 총정리 (2026) -->
+<!-- slug: tax_audit -->
+<!-- Silo: 문제해결형 + 소상공인 확장 -->
+<!-- 내부링크: #24(종소세), #44(부가세), #49(4대보험) -->
+
+<!-- ✅ Schema.org 구조화 데이터 -->
+<div style="display:none">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "소상공인 세무조사 대응 가산세 줄이는 법 총정리 2026",
+      "description": "2026년 매출 10억 미만 세무조사 유예, 가산세 체계(무신고 20%·과소신고 10%), 수정신고 감면(1개월 90%), AI 세무검증 대응법까지 소상공인 세무조사 대응 전략을 총정리합니다.",
+      "datePublished": "2026-04-14",
+      "dateModified": "2026-04-14",
+      "author": {"@type": "Person", "name": "deluxo"},
+      "publisher": {"@type": "Organization", "name": "tistory.deluxo"}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "2026년 소상공인 세무조사 유예 대상은?", "acceptedAnswer": {"@type": "Answer", "text": "연 매출 10억 원 미만 개인·법인 사업자 약 124만 명이 2026년 상반기까지 정기 세무조사 유예 대상입니다. 단, 명백한 탈루 혐의나 부과제척기간 만료 임박 건은 예외입니다."}},
+        {"@type": "Question", "name": "수정신고하면 가산세를 얼마나 줄일 수 있나요?", "acceptedAnswer": {"@type": "Answer", "text": "신고 기한 경과 후 1개월 이내 수정신고 시 과소신고 가산세의 90%가 감면됩니다. 3개월 이내 75%, 6개월 이내 50%로 빨리 할수록 유리합니다."}},
+        {"@type": "Question", "name": "가산세 종류별 세율은 어떻게 되나요?", "acceptedAnswer": {"@type": "Answer", "text": "무신고 가산세 일반 20%(부정 40%), 과소신고 가산세 일반 10%(부정 40%), 납부지연 가산세 일 0.022%(연 8.03%)입니다. 적격증빙불비 2%, 현금영수증 미발급 20%도 있습니다."}},
+        {"@type": "Question", "name": "세무조사 사전통지를 받으면 어떻게 해야 하나요?", "acceptedAnswer": {"@type": "Answer", "text": "2026년부터 사전통지 기간이 20일로 확대되었습니다. 통지서의 조사 세목·기간·사유를 확인하고, 부득이한 사유가 있으면 조사 개시 3일 전까지 연기 신청이 가능합니다."}},
+        {"@type": "Question", "name": "폐업 소상공인의 체납 세금은 면제받을 수 있나요?", "acceptedAnswer": {"@type": "Answer", "text": "2025년 1월 1일 이전 발생한 종소세·부가세 합계 체납액이 8,000만 원 이하(기존 5,000만 원에서 상향)인 무재산 폐업자는 체납액 납부의무 소멸을 신청할 수 있습니다."}}
+      ]
+    }
+  ]
+}
+</script>
+</div>
+
+<style>
+  :root{
+    --blue:#1D4ED8; --blue2:#1E40AF;
+    --white:#FFFFFF; --text:#111827;
+    --muted:#4B5563; --border:#E5E7EB;
+    --bg:#F9FAFB; --blueLight:#E8F0FF;
+  }
+  .wrap{max-width:860px;margin:0 auto;line-height:1.8;color:var(--text);}
+  .meta{color:var(--muted);font-size:.95rem;margin:6px 0 18px;}
+  .badge{display:inline-block;background:var(--blueLight);border:1px solid var(--border);padding:3px 10px;border-radius:999px;font-size:.85rem;margin-right:8px;}
+  .notice{background:#fff7ed;border:1px solid #fed7aa;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .lead{background:#f8fafc;border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .keysum{background:#fefce8;border:1px solid #fde68a;padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .summary{background:#eff6ff;border:1px solid #bfdbfe;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .toc{background:var(--bg);border:1px solid var(--border);padding:14px 16px;border-radius:12px;margin:16px 0 22px;}
+  .toc a{text-decoration:none;color:var(--blue);}
+  .toc ul{margin:8px 0 0 18px;}
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 6px;}
+  .wrap a.btn,.wrap a.btn:link,.wrap a.btn:visited{
+    display:inline-flex;align-items:center;justify-content:center;
+    padding:10px 14px;border-radius:10px;border:1px solid var(--blue);
+    background:var(--blue) !important;color:var(--white) !important;
+    text-decoration:none !important;font-weight:800;
+  }
+  .wrap a.btn:hover,.wrap a.btn:active,.wrap a.btn:focus{
+    background:var(--blue2) !important;border-color:var(--blue2) !important;color:var(--white) !important;
+  }
+  .wrap a.btn.secondary,.wrap a.btn.secondary:link,.wrap a.btn.secondary:visited{
+    background:var(--white) !important;color:var(--blue) !important;border-color:var(--blue) !important;
+  }
+  .wrap a.btn.secondary:hover,.wrap a.btn.secondary:active,.wrap a.btn.secondary:focus{
+    background:var(--bg) !important;color:var(--blue2) !important;border-color:var(--blue2) !important;
+  }
+  .wrap a.btn.gray,.wrap a.btn.gray:link,.wrap a.btn.gray:visited{
+    background:#111827 !important;border-color:#111827 !important;color:var(--white) !important;
+  }
+  .wrap a.btn.gray:hover,.wrap a.btn.gray:active,.wrap a.btn.gray:focus{
+    background:#0b1220 !important;border-color:#0b1220 !important;color:var(--white) !important;
+  }
+  table{width:100%;border-collapse:collapse;margin:14px 0 10px;}
+  th,td{border:1px solid var(--border);padding:10px;vertical-align:top;}
+  th{background:#F3F4F6;text-align:left;}
+  .small{font-size:.95rem;color:var(--muted);}
+  h1{margin:0 0 8px;line-height:1.25;}
+  h2{margin-top:30px;padding-top:8px;border-top:1px solid var(--border);}
+  h3{margin-top:16px;}
+  .q{font-weight:900;margin:14px 0 6px;}
+  .a{margin:0 0 10px;}
+  .tips{background:#f0fdf4;border:1px solid #bbf7d0;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .urgency{background:#fef2f2;border:1px solid #fca5a5;padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .target{background:#f0fdf4;border:1px solid #86efac;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .target ul{margin:8px 0 0 18px;}
+  .ad{background:#f9fafb;border:1px dashed var(--border);padding:10px 12px;border-radius:10px;margin:12px 0;}
+  .footer{margin-top:26px;padding-top:14px;border-top:1px solid var(--border);color:var(--muted);font-size:.95rem;}
+  .disclaimer{background:#fef2f2;border:1px solid #fca5a5;padding:12px 14px;border-radius:12px;margin:14px 0;font-size:.93rem;color:#991b1b;}
+</style>
+
+<div class="wrap">
+  <h1>소상공인 세무조사 대응·가산세 줄이는 법 총정리 (2026 최신)</h1>
+  <div class="meta">
+    <span class="badge">키워드: 소상공인 세무조사</span>
+    <span class="badge">업데이트: 2026-04-14</span>
+  </div>
+
+  <div class="notice">
+    <strong>먼저 확인!</strong><br/>
+    이 글은 2026년 국세청 운영 방침과 국세기본법·소득세법 기준으로 정리했습니다. 개별 사안은 관할 세무서 또는 세무대리인에게 반드시 확인하세요.
+  </div>
+
+  <div class="disclaimer">
+    <strong>면책 안내</strong><br/>
+    본 글은 정보 제공 목적이며 세무·법률 자문이 아닙니다. 구체적인 세무 처리는 반드시 세무사·회계사 등 전문가와 상담하시기 바랍니다. 가산세율·감면율 등은 관련 법령 개정에 따라 변경될 수 있습니다.
+  </div>
+
+  <p class="small">
+    2026년 소상공인 세무조사 유예 대상·가산세 체계·수정신고 감면·AI 세무검증 대응법까지, 세무조사 대비 전략을 한 번에 정리합니다.
+  </p>
+
+  <div class="lead">
+    "세무조사 통지서 받으면 어떡하지?" — 소상공인이 가장 두려워하는 순간입니다. 하지만 2026년에는 매출 10억 미만 사업자 124만 명의 정기 세무조사가 유예되었고, 실수를 빨리 바로잡으면 가산세의 90%까지 깎아주는 제도가 있습니다. 알고 대응하면 가산세는 줄이고, 사업은 지킬 수 있습니다.
+  </div>
+
+  <div class="urgency">
+    <strong>왜 지금 확인해야 할까?</strong><br/>
+    2026년 상반기 세무조사 유예 기간은 6월 30일까지입니다. 이 '골든 타임' 안에 수정신고를 하면 가산세 90% 감면 — 유예 기간이 끝나면 정기 조사 대상에 다시 포함됩니다. 지금이 장부를 정비하고 실수를 바로잡을 마지막 기회입니다.
+  </div>
+
+  <div class="keysum">
+    <strong>핵심 요약 3줄</strong><br/>
+    ① 매출 10억 미만 소상공인 → 2026년 상반기 정기 세무조사 유예 (약 124만 명)<br/>
+    ② 수정신고 1개월 이내 시 과소신고 가산세 90% 감면 — 빠를수록 유리<br/>
+    ③ AI 세무검증 전면 도입 — 사업용·개인 계좌 분리가 최우선 방어 전략
+  </div>
+
+  <div class="summary" id="top">
+    <h2 style="border-top:none;margin-top:0;">✅ 5줄 요약(결론)</h2>
+    <ul>
+      <li><strong>조사 유예</strong>: 매출 10억 미만 개인·법인 → 2026년 상반기 정기 세무조사 유예 (124만 명)</li>
+      <li><strong>가산세 체계</strong>: 무신고 20%(부정 40%), 과소신고 10%(부정 40%), 납부지연 일 0.022%(연 8.03%)</li>
+      <li><strong>수정신고 감면</strong>: 1개월 이내 90%, 3개월 75%, 6개월 50% — 세무조사 전 자진 수정이 최대 절세</li>
+      <li><strong>AI 대응</strong>: 사업용 계좌 분리·홈택스 신고도움서비스 활용·증빙 5년 보관이 핵심</li>
+      <li><strong>재기 지원</strong>: 폐업 소상공인 체납액 소멸 기준 8,000만 원으로 상향, 납세담보 면제 1억</li>
+    </ul>
+
+    <div class="btns">
+      <a class="btn" href="https://www.hometax.go.kr" target="_blank" rel="noopener">국세청 홈택스</a>
+      <a class="btn gray" href="https://www.nts.go.kr" target="_blank" rel="noopener">국세청 공식 사이트</a>
+      <a class="btn secondary" href="https://www.gov.kr" target="_blank" rel="noopener">정부24 세무 민원</a>
+    </div>
+    <p class="small">※ 개별 사안은 관할 세무서 또는 세무대리인에게 반드시 확인하세요.</p>
+  </div>
+
+  <!-- ✅ 이미지 1: 요약표 카드 -->
+  <img src="summary_card_1080_tax_audit.png" alt="소상공인 세무조사 대응 가산세 핵심 요약 카드" />
+
+  <div class="target">
+    <strong>이런 상황이라면 지금 바로 점검하세요</strong>
+    <ul>
+      <li>종합소득세 신고 때 매출 일부를 빠뜨린 것 같은데, 아직 수정신고를 안 했다면</li>
+      <li>사업용 카드로 가족 생활비나 개인 쇼핑을 결제한 적이 있다면</li>
+      <li>3만 원 넘는 거래인데 세금계산서·카드 영수증 없이 현금으로 처리한 건이 있다면</li>
+      <li>직원 인건비를 현금으로 지급하면서 원천세 신고를 누락했다면</li>
+      <li>홈택스 신고도움서비스에서 "동종업 대비 신용카드 매출 비중 낮음" 안내를 받았다면</li>
+    </ul>
+  </div>
+
+  <div class="toc">
+    <strong>목차</strong>
+    <ul>
+      <li><a href="#table">1) 한눈에 표 — 가산세 체계·감면율 총정리</a></li>
+      <li><a href="#exempt">2) 세무조사 유예·검증 제외 기준</a></li>
+      <li><a href="#penalty">3) 가산세 종류별 세율과 계산법</a></li>
+      <li><a href="#reduce">4) 가산세 줄이는 법 — 수정신고·기한후신고</a></li>
+      <li><a href="#ai">5) AI 세무검증 대응 전략</a></li>
+      <li><a href="#notice">6) 세무조사 통지 시 단계별 방어</a></li>
+      <li><a href="#restart">7) 폐업·재기 지원 — 체납 소멸·담보 면제</a></li>
+      <li><a href="#case">8) 경험/사례</a></li>
+      <li><a href="#faq">9) FAQ</a></li>
+      <li><a href="#check">10) 1분 체크리스트</a></li>
+      <li><a href="#update">업데이트 로그</a></li>
+    </ul>
+  </div>
+
+  <h2 id="table">1) 한눈에 표 — 가산세 체계·감면율 총정리</h2>
+
+  <h3>가산세 종류별 세율 (2026년 기준)</h3>
+  <table>
+    <thead>
+      <tr><th>가산세 유형</th><th>일반(착오 등)</th><th>부정(고의 탈루)</th><th>비고</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>무신고</strong></td><td>산출세액의 20%</td><td>산출세액의 40%</td><td>역외거래 60%</td></tr>
+      <tr><td><strong>과소신고</strong></td><td>과소신고세액의 10%</td><td>부정과소세액의 40%</td><td>역외거래 60%</td></tr>
+      <tr><td><strong>납부지연</strong></td><td colspan="2">미납세액 × 미납일수 × 0.022%(일)</td><td>연 약 8.03%</td></tr>
+      <tr><td><strong>적격증빙불비</strong></td><td colspan="2">미수취 금액의 2%</td><td>세금계산서·카드영수증 미수취</td></tr>
+      <tr><td><strong>현금영수증 미발급</strong></td><td colspan="2">미발급 금액의 20%</td><td>10일 이내 자진발급 시 10%</td></tr>
+      <tr><td><strong>지급명세서 미제출</strong></td><td colspan="2">미제출 금액의 1%</td><td>인건비 관련</td></tr>
+    </tbody>
+  </table>
+
+  <h3>수정신고 시점별 가산세 감면율</h3>
+  <table>
+    <thead>
+      <tr><th>수정신고 시점</th><th>감면율</th><th>실질 가산세율 (10% 기준)</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>1개월 이내</strong></td><td>90%</td><td>1%</td></tr>
+      <tr><td>1~3개월</td><td>75%</td><td>2.5%</td></tr>
+      <tr><td>3~6개월</td><td>50%</td><td>5%</td></tr>
+      <tr><td>6개월~1년</td><td>30%</td><td>7%</td></tr>
+      <tr><td>1년~1년 6개월</td><td>20%</td><td>8%</td></tr>
+      <tr><td>1년 6개월~2년</td><td>10%</td><td>9%</td></tr>
+    </tbody>
+  </table>
+
+  <div class="ad">광고 위치 1</div>
+
+  <!-- ✅ 이미지 2: 빠른 판단 가이드 -->
+  <img src="quick_guide_1080_tax_audit.png" alt="소상공인 세무조사 가산세 감면 빠른 판단 가이드" />
+
+  <h2 id="exempt">2) 세무조사 유예·검증 제외 기준</h2>
+
+  <h3>정기 세무조사 유예</h3>
+  <table>
+    <thead>
+      <tr><th>구분</th><th>내용</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>유예 대상</strong></td><td>연 매출(수입금액) 10억 원 미만 개인·법인 사업자</td></tr>
+      <tr><td><strong>적용 기간</strong></td><td>2026년 1월 1일 ~ 6월 30일 (상반기)</td></tr>
+      <tr><td><strong>수혜 규모</strong></td><td>약 124만 명</td></tr>
+      <tr><td><strong>예외</strong></td><td>부과제척기간 만료 임박, 명백한 탈루·가공거래 혐의</td></tr>
+    </tbody>
+  </table>
+
+  <h3>신고내용확인(서면검증) 제외 — 업종별 기준</h3>
+  <table>
+    <thead>
+      <tr><th>업종</th><th>검증 제외 기준</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>도매·소매업</strong></td><td>연 매출 6억 원 미만</td></tr>
+      <tr><td><strong>제조·음식·숙박·건설</strong></td><td>연 매출 3억 원 미만</td></tr>
+      <tr><td><strong>부동산임대·서비스·전문직</strong></td><td>연 매출 7,500만 원 미만</td></tr>
+    </tbody>
+  </table>
+  <p class="small">※ 성실 신고 전제 — 매출 누락·가공 세금계산서·부당 환급 등 탈루 정황 시 기준과 무관하게 검증 대상 포함</p>
+
+  <h2 id="penalty">3) 가산세 종류별 세율과 계산법</h2>
+
+  <h3>신고불성실 가산세</h3>
+  <p>신고 기한을 놓치거나(무신고), 적게 신고하면(과소신고) 부과됩니다. 단순 실수로 1,000만 원을 과소 신고하면 100만 원의 가산세지만, 장부 조작이 적발되면 400만 원으로 4배 뜁니다. 사업용 카드로 사적 지출을 비용 처리하면 '부정 과소신고'로 40% 세율이 적용될 수 있으니 주의하세요.</p>
+
+  <h3>납부지연 가산세</h3>
+  <p>미납세액 × 미납일수 × 0.022%(일)로 계산하며, 연 환산 약 8.03%에 해당합니다. 고지서 발송 후에도 미납하면 3% 추가 가산세가 붙습니다. 신고는 늦더라도 <strong>납부는 최대한 빨리</strong> 하는 것이 경제적입니다.</p>
+
+  <h3>증빙 관련 가산세 — 소상공인이 가장 많이 놓치는 부분</h3>
+  <ul>
+    <li><strong>적격증빙불비</strong>: 세금계산서·카드 영수증 미수취 금액의 2%</li>
+    <li><strong>현금영수증 미발급</strong>: 의무발행업종, 20만 원 이상 미발급 시 금액의 20% (10일 이내 자진발급 시 10%)</li>
+    <li><strong>지급명세서 미제출</strong>: 인건비 관련 미제출 금액의 1%</li>
+  </ul>
+
+  <!-- ✅ 이미지 3: 정책 비교·변화 카드 -->
+  <img src="compare_card_1080_tax_audit.png" alt="소상공인 세무조사 가산세 정책 비교 변화 카드" />
+
+  <h2 id="reduce">4) 가산세 줄이는 법 — 수정신고·기한후신고</h2>
+
+  <h3>수정신고 — 1개월 이내면 가산세 90% 감면</h3>
+  <p>기한 내 신고는 했지만 세액을 적게 냈다면 '수정신고'로 바로잡을 수 있습니다. 핵심은 <strong>빠르게 움직이는 것</strong>입니다.</p>
+  <ul>
+    <li>1개월 이내: 가산세 90% 감면 → 실질 1%만 부담</li>
+    <li>3개월 이내: 75% 감면 → 실질 2.5%</li>
+    <li>6개월 이내: 50% 감면 → 실질 5%</li>
+    <li>1년 이내: 30% 감면 → 실질 7%</li>
+  </ul>
+  <p>세무조사에서 적발되면 10~40%를 고스란히 내야 합니다. 정기 결산이나 세무대리인 검토를 통해 오류를 발견하는 즉시 수정신고하는 것이 최선입니다.</p>
+
+  <h3>기한후신고 — 신고 기한을 아예 놓쳤을 때</h3>
+  <p>신고 기한이 하루만 지나도 무신고 가산세 20% + 납부지연 가산세가 동시에 발생합니다. 하지만 세무서 결정 통지 전에 자진 기한후신고를 하면 감면됩니다.</p>
+  <table>
+    <thead>
+      <tr><th>기한후신고 시점</th><th>무신고 가산세 감면율</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>1개월 이내</strong></td><td>50%</td></tr>
+      <tr><td>1~3개월</td><td>30%</td></tr>
+      <tr><td>3~6개월</td><td>20%</td></tr>
+    </tbody>
+  </table>
+  <p class="small">※ 기한후신고 시 납부도 동시에 해야 합니다. 신고만 하고 납부하지 않으면 납부지연 가산세가 계속 누적됩니다.</p>
+
+  <div class="ad">광고 위치 2</div>
+
+  <h2 id="ai">5) AI 세무검증 대응 전략</h2>
+
+  <h3>AI가 감시하는 주요 리스크 요인</h3>
+  <p>2026년 국세청은 AI·빅데이터를 활용한 세무검증 시스템을 본격 가동하고 있습니다. 단순히 장부 숫자만 보는 것이 아니라, 생활 패턴과 자산 변동까지 입체적으로 분석합니다.</p>
+  <ul>
+    <li><strong>지출 패턴</strong>: 소득 신고액 대비 과도한 해외여행·고가 차량·사치품 소비 → '소득 누락' 혐의</li>
+    <li><strong>동종 업종 비교</strong>: 지역·업종 평균 매입/매출 비율을 크게 벗어나면 '이상치'로 추출</li>
+    <li><strong>계좌 분석</strong>: 대표자·친인척 개인 계좌로 매출금 입금 → AI가 가장 쉽게 잡아내는 패턴</li>
+    <li><strong>가상자산·외환</strong>: 가상자산 재산 은닉, 비정상 해외 송금도 실시간 모니터링 대상</li>
+  </ul>
+
+  <h3>소상공인 필수 대응법</h3>
+  <ul>
+    <li><strong>사업용·개인 계좌 완벽 분리</strong>: 사업 관련 모든 수입·지출은 사업용 계좌로만 처리. 사적 용도로 사업용 카드를 쓰는 습관이 가장 위험합니다.</li>
+    <li><strong>홈택스 신고도움서비스 확인</strong>: AI가 분석한 '취약점'이 미리 안내됩니다. "인근 업종 대비 신용카드 매출 비중 낮음" 등의 문구가 있으면 이미 감시망에 올랐다는 신호 — 소명 자료를 미리 준비하세요.</li>
+    <li><strong>5년분 증빙 정리</strong>: ①기본 증빙 수집·스캔(열공지 영수증 변색 대비) → ②업종별 특화 서류 확보 → ③자산·부채 명세서 작성</li>
+  </ul>
+
+  <h2 id="notice">6) 세무조사 통지 시 단계별 방어</h2>
+
+  <h3>1단계: 통지서 분석 (사전통지 20일)</h3>
+  <p>2026년부터 사전통지 기간이 15일 → <strong>20일</strong>로 확대되었습니다. 이 3주 동안 반드시 확인할 3가지:</p>
+  <ul>
+    <li><strong>조사 세목</strong>: 부가세만인지, 소득세·법인세 포함 통합 조사인지</li>
+    <li><strong>조사 기간</strong>: 통상 최근 3년, 탈루 혐의 시 5년까지 확대 가능</li>
+    <li><strong>조사 사유</strong>: '정기 선정'인지 '비정기 선정'인지 — 비정기는 이미 증거 확보 후 들어오는 경우가 많음</li>
+  </ul>
+
+  <h3>2단계: 연기·중지 신청</h3>
+  <p>천재지변·질병·장기 출장·장부 압수 등 부득이한 사유가 있으면 <strong>조사 개시 3일 전까지</strong> 연기 신청이 가능합니다. 납세자보호관이 7일 이내에 결정합니다.</p>
+
+  <h3>3단계: 납세소통전담반·납세자보호관 활용</h3>
+  <p>2026년 전국 세무서에 <strong>납세소통전담반</strong>이 신설되었습니다. 조사 과정에서 무리한 장부 영치, 조사 범위 임의 확대, 금품 요구 등 권리 침해가 있으면 즉시 납세자보호담당관에게 '권리 보호 요청'을 하세요. 납세자보호위원회 심의를 거쳐 조사 중지·조사반 교체가 이루어질 수 있습니다.</p>
+
+  <h2 id="restart">7) 폐업·재기 지원 — 체납 소멸·담보 면제</h2>
+
+  <table>
+    <thead>
+      <tr><th>지원 제도</th><th>내용</th><th>2026년 변경사항</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>체납액 납부의무 소멸</strong></td>
+        <td>2025.1.1 이전 발생 종소세·부가세 합계 체납액 → 무재산 폐업자 면제</td>
+        <td>기준 5,000만→<strong>8,000만 원</strong>으로 상향</td>
+      </tr>
+      <tr>
+        <td><strong>납세담보 면제</strong></td>
+        <td>납세 유예 시 담보 제출 면제</td>
+        <td>7,000만→<strong>1억 원</strong>으로 상향</td>
+      </tr>
+      <tr>
+        <td><strong>환급금 조기 지급</strong></td>
+        <td>부가세 등 환급금 법정 기한 앞당겨 지급</td>
+        <td>경영난 소상공인 우선 적용</td>
+      </tr>
+      <tr>
+        <td><strong>구직지원금 원천세 환급</strong></td>
+        <td>폐업 소상공인 구직지원금에 과거 원천징수된 세금 전액 환급</td>
+        <td>시행 중</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2 id="case">8) 경험/사례</h2>
+
+  <p>음식점을 운영하는 A씨는 종합소득세 신고 때 카드 매출과 배달앱 매출을 이중으로 집계하면서 약 800만 원을 과소 신고한 사실을 뒤늦게 발견했습니다. 처음에는 "세무서에서 연락 올 때까지 기다려볼까" 생각했지만, 세무대리인의 조언으로 신고 기한 경과 25일 만에 수정신고를 진행했습니다. 과소신고 가산세 80만 원(10%)에서 90% 감면을 받아 8만 원만 납부하고 마무리되었습니다.</p>
+
+  <p>소매업을 하는 B씨는 홈택스 신고도움서비스에서 "동종업 대비 현금 매출 비중이 높습니다"라는 안내를 받았습니다. 처음에는 무시했는데, 같은 상가의 다른 사업자가 세무조사를 받았다는 소식에 불안해져 세무사에게 의뢰했습니다. 확인해보니 카드 단말기 고장으로 2개월간 현금 매출 비중이 비정상적으로 높았던 것이 원인이었고, 단말기 수리 이력과 매출 대조 자료를 미리 정리해두어 별도 조사 없이 넘어갔습니다.</p>
+
+  <p>폐업 후 재기를 준비하던 C씨는 체납 세금 4,200만 원이 발목을 잡고 있었습니다. 2026년 체납액 소멸 기준이 5,000만 원에서 8,000만 원으로 상향된 것을 알게 되어 국세체납정리위원회에 소멸 신청을 했고, 약 4개월 만에 체납 의무가 소멸되어 사업자등록을 다시 낼 수 있게 되었습니다.</p>
+
+  <!-- ✅ 이미지 4: 탈락 사유 TOP 5 카드 -->
+  <img src="rejection_card_1080_tax_audit.png" alt="소상공인 세무조사 가산세 실수 TOP 5 카드" />
+
+  <h2 id="faq">9) FAQ</h2>
+
+  <h3>소상공인이 가장 많이 하는 세무 실수 TOP 5</h3>
+  <ol>
+    <li>사업용 카드로 가족 생활비·개인 쇼핑 결제 후 사업 비용 처리 → 부정 과소신고 40%</li>
+    <li>3만 원 초과 현금 거래에서 세금계산서·카드 영수증 미수취 → 적격증빙불비 2%</li>
+    <li>직원 인건비 현금 지급 후 원천세 신고 누락 → 지급명세서 미제출 1%</li>
+    <li>배달앱·카드 매출 이중 집계 또는 누락 → 과소신고 10%</li>
+    <li>현금영수증 의무발행업종인데 20만 원 이상 거래 미발급 → 미발급 가산세 20%</li>
+  </ol>
+
+  <h3>자주 묻는 질문</h3>
+  <p class="q">Q1. 매출 10억 미만이면 세무조사를 절대 안 받나요?</p>
+  <p class="a">아닙니다. 2026년 상반기 '정기' 세무조사만 유예됩니다. 명백한 탈루 혐의, 가공거래 혐의, 부과제척기간 만료 임박 건은 매출 규모와 관계없이 조사 대상이 될 수 있습니다.</p>
+
+  <p class="q">Q2. 수정신고하면 세무조사 대상에서 빠지나요?</p>
+  <p class="a">수정신고 자체가 조사 제외를 보장하지는 않습니다. 다만 자진 수정은 국세청이 '성실 의지'로 평가하는 요소이며, 가산세 감면 혜택이 확실하므로 발견 즉시 수정하는 것이 유리합니다.</p>
+
+  <p class="q">Q3. 기한후신고와 수정신고의 차이가 뭔가요?</p>
+  <p class="a">수정신고는 기한 내 신고를 했지만 세액이 부족한 경우, 기한후신고는 신고 기한 자체를 놓친 경우입니다. 기한후신고는 무신고 가산세(20%) 감면, 수정신고는 과소신고 가산세(10%) 감면 대상입니다.</p>
+
+  <p class="q">Q4. 납부지연 가산세는 얼마나 쌓이나요?</p>
+  <p class="a">미납세액 × 미납일수 × 0.022%입니다. 예를 들어 1,000만 원을 100일 미납하면 22만 원(1,000만 × 100 × 0.00022), 1년이면 약 80만 원(연 8.03%)입니다. 고지서 발송 후 미납 시 3% 추가 부과됩니다.</p>
+
+  <p class="q">Q5. 현금영수증 의무발행 업종은 어떤 건가요?</p>
+  <p class="a">음식점, 학원, 병원, 변호사, 미용실, 자동차 수리 등 소비자 대면 업종 대부분이 해당됩니다. 건당 20만 원(일부 10만 원) 이상 현금 거래 시 소비자가 요청하지 않아도 발급해야 합니다.</p>
+
+  <p class="q">Q6. AI 세무검증에 걸리면 바로 세무조사를 받나요?</p>
+  <p class="a">AI 분석 결과는 '리스크 스코어'로 관리되며, 바로 세무조사가 아닌 신고내용확인(서면검증) 단계를 먼저 거칩니다. 다만 리스크 스코어가 높으면 정기·비정기 조사 선정 확률이 크게 올라갑니다.</p>
+
+  <p class="q">Q7. 사전통지 없이 갑자기 세무조사가 올 수 있나요?</p>
+  <p class="a">원칙적으로 조사 개시 20일 전 사전통지를 해야 합니다. 다만 증거 인멸 우려, 탈세 정보 제보 등 긴급한 경우에는 사전통지 없이 현장 조사가 가능합니다.</p>
+
+  <p class="q">Q8. 세무조사 연기는 몇 번까지 가능한가요?</p>
+  <p class="a">법적 횟수 제한은 없으나, 사유가 합리적이어야 합니다. 납세자보호관이 사유를 검토하여 7일 이내에 승인 여부를 결정합니다. 무리한 반복 연기는 거부될 수 있습니다.</p>
+
+  <p class="q">Q9. 체납액 소멸 신청 후 얼마나 걸리나요?</p>
+  <p class="a">국세체납정리위원회 심의를 거쳐 신청 후 약 6개월 이내에 결정됩니다. 노령·장애 등으로 직접 신청이 어려운 경우 세무서에서 직권 신청해주기도 합니다.</p>
+
+  <p class="q">Q10. 종합소득세·부가세 외에 다른 세금도 유예 대상인가요?</p>
+  <p class="a">2026년 상반기 유예는 '정기 세무조사' 전반에 해당하므로 종소세·부가세·법인세 등 조사 대상 세목 모두 포함됩니다. 다만 원천세·지방세 등은 별도 관할이므로 개별 확인이 필요합니다.</p>
+
+  <div class="tips">
+    <strong>실전 팁</strong><br/>
+    분기마다 홈택스에서 최근 3년 신고서를 출력해 실제 통장 내역과 대조해보세요. 가족 명의 휴대폰 요금·보험료·사적 쇼핑 결제가 사업 비용에 섞여 있지 않은지, 3만 원 초과 현금 거래 중 증빙 없는 건이 없는지, 인건비 누락 직원이 없는지 — 이 4가지만 분기별로 체크하면 세무조사 리스크의 80%는 차단됩니다.
+  </div>
+
+  <!-- ✅ 이미지 5: 체크리스트 카드 -->
+  <img src="checklist_card_1080_tax_audit.png" alt="소상공인 세무조사 대비 1분 체크리스트 카드" />
+
+  <h2 id="check">10) 신청 전 1분 체크리스트</h2>
+  <ul>
+    <li>사업용 계좌와 개인 계좌가 완전히 분리되어 있는가?</li>
+    <li>3만 원 초과 거래 중 세금계산서·카드 영수증이 없는 건은 없는가?</li>
+    <li>홈택스 신고도움서비스에서 이상 안내를 받은 적이 없는가?</li>
+    <li>최근 3년 신고 매출액과 실제 통장 입금액이 일치하는가?</li>
+    <li>인건비를 현금 지급하면서 원천세 신고를 누락한 직원이 없는가?</li>
+    <li>5년분 거래 증빙(세금계산서·영수증·통장 내역)이 정리되어 있는가?</li>
+    <li>수정신고가 필요한 오류를 발견했다면 즉시 진행했는가?</li>
+  </ul>
+  <p class="small">관련 글: <a href="#">종합소득세 신고 가이드 (2026)</a> / <a href="#">부가가치세 절세 전략 총정리</a> / <a href="#">4대보험 절감 방법</a></p>
+
+  <div class="ad">광고 위치 3</div>
+
+  <div class="tips">
+    <strong>참고/문의처</strong><br/>
+    국세청 홈택스: <a href="https://www.hometax.go.kr" target="_blank" rel="noopener">hometax.go.kr</a><br/>
+    국세청 공식 사이트: <a href="https://www.nts.go.kr" target="_blank" rel="noopener">nts.go.kr</a><br/>
+    국세 상담센터: 126 (평일 09:00~18:00)<br/>
+    납세자보호관: 관할 세무서 납세자보호담당관실
+  </div>
+
+  <div class="footer" id="update">
+    <strong>업데이트 로그</strong><br/>
+    - 2026-04-14: 최초 발행 — 2026년 세무조사 유예·가산세 체계·수정신고 감면·AI 검증·재기지원 총정리<br/>
+    <span class="small">※ 세법·국세청 운영 방침은 수시로 변경될 수 있습니다. 적용 전 반드시 공식 공고 및 전문가 상담을 확인하세요.</span>
+  </div>
+</div>

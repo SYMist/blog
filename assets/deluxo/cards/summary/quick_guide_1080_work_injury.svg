@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <rect x="80" y="72" width="160" height="48" rx="24" fill="#F59E0B"/>
+  <text x="160" y="103" font-family="'Pretendard', sans-serif" font-size="22" font-weight="700" fill="#0B1F3B" text-anchor="middle">빠른 판단</text>
+
+  <text x="540" y="185" font-family="'Pretendard', sans-serif" font-size="40" font-weight="800" fill="#FFFFFF" text-anchor="middle">근로자 vs 플랫폼 종사자</text>
+  <rect x="480" y="210" width="120" height="4" rx="2" fill="#F59E0B"/>
+
+  <!-- Left: 일반 근로자 -->
+  <rect x="60" y="260" width="460" height="620" rx="20" fill="rgba(245,158,11,0.08)" stroke="#F59E0B" stroke-width="1.5"/>
+  <text x="290" y="310" font-family="'Pretendard', sans-serif" font-size="30" font-weight="800" fill="#F59E0B" text-anchor="middle">일반 근로자</text>
+
+  <text x="100" y="370" font-family="'Pretendard', sans-serif" font-size="20" font-weight="600" fill="#F59E0B">가입 경로</text>
+  <text x="100" y="400" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.9">사업주 자동 가입 (당연)</text>
+  <text x="100" y="430" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.9">본인 부담 0원</text>
+
+  <rect x="90" y="460" width="400" height="2" rx="1" fill="rgba(255,255,255,0.1)"/>
+
+  <text x="100" y="500" font-family="'Pretendard', sans-serif" font-size="20" font-weight="600" fill="#F59E0B">급여 기준</text>
+  <text x="100" y="535" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#F59E0B">평균임금 × 70%</text>
+  <text x="100" y="570" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.8">최근 3개월 임금 기준</text>
+
+  <rect x="90" y="600" width="400" height="2" rx="1" fill="rgba(255,255,255,0.1)"/>
+
+  <text x="100" y="640" font-family="'Pretendard', sans-serif" font-size="20" font-weight="600" fill="#F59E0B">청구 포인트</text>
+  <text x="100" y="675" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.8">사업주 날인 없이 청구</text>
+  <text x="100" y="710" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.8">출퇴근 재해 인정</text>
+  <text x="100" y="745" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.8">소멸시효 3년</text>
+
+  <text x="290" y="830" font-family="'Pretendard', sans-serif" font-size="20" font-weight="700" fill="#F59E0B" text-anchor="middle" opacity="0.9">전액 회사 부담 + 자동 가입</text>
+
+  <!-- Right: 플랫폼 종사자 -->
+  <rect x="560" y="260" width="460" height="620" rx="20" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="790" y="310" font-family="'Pretendard', sans-serif" font-size="30" font-weight="800" fill="#FFFFFF" text-anchor="middle">플랫폼 종사자</text>
+
+  <text x="600" y="370" font-family="'Pretendard', sans-serif" font-size="20" font-weight="600" fill="#F59E0B">가입 경로</text>
+  <text x="600" y="400" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.9">노무제공자 당연가입</text>
+  <text x="600" y="430" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.9">전속성 폐지 (2023.7~)</text>
+
+  <rect x="590" y="460" width="400" height="2" rx="1" fill="rgba(255,255,255,0.1)"/>
+
+  <text x="600" y="500" font-family="'Pretendard', sans-serif" font-size="20" font-weight="600" fill="#F59E0B">급여 기준</text>
+  <text x="600" y="535" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">기준보수 × 70%</text>
+  <text x="600" y="570" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.8">직종별 고시 금액</text>
+
+  <rect x="590" y="600" width="400" height="2" rx="1" fill="rgba(255,255,255,0.1)"/>
+
+  <text x="600" y="640" font-family="'Pretendard', sans-serif" font-size="20" font-weight="600" fill="#F59E0B">대상 직종</text>
+  <text x="600" y="675" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.8">배달·대리·퀵·탁송</text>
+  <text x="600" y="710" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.8">화물·학습지 등 확대</text>
+  <text x="600" y="745" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.8">한 건이라도 적용</text>
+
+  <text x="790" y="830" font-family="'Pretendard', sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle" opacity="0.7">전속성 요건 없이 적용</text>
+
+  <!-- Bottom -->
+  <rect x="150" y="920" width="780" height="60" rx="16" fill="rgba(245,158,11,0.15)" stroke="#F59E0B" stroke-width="1"/>
+  <text x="540" y="958" font-family="'Pretendard', sans-serif" font-size="24" font-weight="800" fill="#F59E0B" text-anchor="middle">자영업자는 임의가입 — 지자체 보험료 지원 활용</text>
+</svg>

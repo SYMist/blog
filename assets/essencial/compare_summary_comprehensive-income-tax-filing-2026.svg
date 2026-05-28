@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1500" fill="url(#bg)"/>
+
+  <rect x="60" y="50" width="300" height="40" rx="20" fill="#B45309"/>
+  <text x="210" y="77" text-anchor="middle" fill="#FFFFFF" font-size="17" font-weight="800" font-family="sans-serif">2026 종합소득세 신고·환급 전략</text>
+
+  <text x="60" y="155" fill="#FFFFFF" font-size="44" font-weight="800" font-family="sans-serif">사업자 vs 근로자 vs 투잡</text>
+  <text x="60" y="200" fill="#FCD34D" font-size="22" font-weight="600" font-family="sans-serif">5.1 ~ 6.1 신고 · 공제 레버 총합 최대 2,500만 원</text>
+
+  <!-- 4 key cards -->
+  <rect x="60" y="240" width="260" height="180" rx="16" fill="url(#card)" stroke="#B45309" stroke-width="2"/>
+  <text x="190" y="285" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="700" font-family="sans-serif">신고 기간</text>
+  <text x="190" y="340" text-anchor="middle" fill="#FFFFFF" font-size="34" font-weight="800" font-family="sans-serif">5.1 ~ 6.1</text>
+  <text x="190" y="370" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="600" font-family="sans-serif">성실신고: 6.30까지</text>
+  <text x="190" y="395" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">무신고 가산세 20%</text>
+
+  <rect x="340" y="240" width="260" height="180" rx="16" fill="url(#card)" stroke="#B45309" stroke-width="2"/>
+  <text x="470" y="285" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="700" font-family="sans-serif">연금저축+IRP 세액공제</text>
+  <text x="470" y="340" text-anchor="middle" fill="#FFFFFF" font-size="34" font-weight="800" font-family="sans-serif">최대 148.5만</text>
+  <text x="470" y="370" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="600" font-family="sans-serif">900만 한도 × 16.5%</text>
+  <text x="470" y="395" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">5,500만 이하 · 최대 효율</text>
+
+  <rect x="620" y="240" width="260" height="180" rx="16" fill="url(#card)" stroke="#B45309" stroke-width="2"/>
+  <text x="750" y="285" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="700" font-family="sans-serif">노란우산 소득공제</text>
+  <text x="750" y="340" text-anchor="middle" fill="#FFFFFF" font-size="34" font-weight="800" font-family="sans-serif">최대 500만</text>
+  <text x="750" y="370" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="600" font-family="sans-serif">50개월 한도 폐지 (2026)</text>
+  <text x="750" y="395" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">사업자 전용 레버</text>
+
+  <rect x="900" y="240" width="240" height="180" rx="16" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="1020" y="285" text-anchor="middle" fill="#86EFAC" font-size="15" font-weight="700" font-family="sans-serif">종합소득세율</text>
+  <text x="1020" y="340" text-anchor="middle" fill="#FFFFFF" font-size="40" font-weight="800" font-family="sans-serif">6 ~ 45%</text>
+  <text x="1020" y="370" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="600" font-family="sans-serif">과표 8구간</text>
+  <text x="1020" y="395" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">지방세 별도 10%</text>
+
+  <!-- 공제·환급 레버 바 차트 -->
+  <text x="60" y="475" fill="#FFFFFF" font-size="26" font-weight="800" font-family="sans-serif">공제·세액공제 레버별 최대 효과 (환급 기준)</text>
+  <text x="60" y="503" fill="#94A3B8" font-size="14" font-family="sans-serif">공제 한도를 체계적으로 채우면 과표 1억 기준 400~600만 원 절세 가능</text>
+
+  <g font-family="sans-serif">
+    <text x="60" y="545" fill="#FFFFFF" font-size="16" font-weight="700">연금저축+IRP</text>
+    <rect x="240" y="528" width="310" height="22" rx="4" fill="#86EFAC"/>
+    <text x="560" y="545" fill="#86EFAC" font-size="15" font-weight="700">최대 148.5만 (세액공제)</text>
+
+    <text x="60" y="585" fill="#FFFFFF" font-size="16" font-weight="700">노란우산</text>
+    <rect x="240" y="568" width="260" height="22" rx="4" fill="#86EFAC"/>
+    <text x="510" y="585" fill="#86EFAC" font-size="15" font-weight="700">최대 500만 (소득공제)</text>
+
+    <text x="60" y="625" fill="#FFFFFF" font-size="16" font-weight="700">월세 세액공제</text>
+    <rect x="240" y="608" width="220" height="22" rx="4" fill="#FCD34D"/>
+    <text x="470" y="625" fill="#FCD34D" font-size="15" font-weight="700">2,000만 × 15~17%</text>
+
+    <text x="60" y="665" fill="#FFFFFF" font-size="16" font-weight="700">자녀 세액공제</text>
+    <rect x="240" y="648" width="180" height="22" rx="4" fill="#FCD34D"/>
+    <text x="430" y="665" fill="#FCD34D" font-size="15" font-weight="700">1명 25 · 2명 55 · 3명+ 95만</text>
+
+    <text x="60" y="705" fill="#FFFFFF" font-size="16" font-weight="700">결혼 세액공제 (신설)</text>
+    <rect x="240" y="688" width="120" height="22" rx="4" fill="#F59E0B"/>
+    <text x="370" y="705" fill="#FCD34D" font-size="15" font-weight="700">100만 (2024~2026 혼인)</text>
+
+    <text x="60" y="745" fill="#FFFFFF" font-size="16" font-weight="700">체육시설 (신설)</text>
+    <rect x="240" y="728" width="140" height="22" rx="4" fill="#F59E0B"/>
+    <text x="390" y="745" fill="#FCD34D" font-size="15" font-weight="700">300만 × 30%</text>
+
+    <text x="60" y="785" fill="#FCD34D" font-size="14" font-weight="700">※ 본인 · 배우자 · 자녀 조건 별도 · 소득 구간에 따라 공제율 달라짐</text>
+  </g>
+
+  <!-- 사업자 vs 근로자 상세 카드 -->
+  <rect x="60" y="820" width="540" height="310" rx="16" fill="url(#card)" stroke="#B45309" stroke-width="2"/>
+  <text x="80" y="860" fill="#FCD34D" font-size="22" font-weight="800" font-family="sans-serif">개인사업자 · 프리랜서</text>
+
+  <g font-family="sans-serif">
+    <text x="80" y="900" fill="#CBD5E1" font-size="14">신고 의무</text>
+    <text x="580" y="900" text-anchor="end" fill="#FFFFFF" font-size="15" font-weight="700">전원 확정신고 필수</text>
+
+    <text x="80" y="930" fill="#CBD5E1" font-size="14">주요 경비 레버</text>
+    <text x="580" y="930" text-anchor="end" fill="#86EFAC" font-size="15" font-weight="700">기장경비 · 단순/기준경비율</text>
+
+    <text x="80" y="960" fill="#CBD5E1" font-size="14">전용 공제</text>
+    <text x="580" y="960" text-anchor="end" fill="#FFFFFF" font-size="16" font-weight="800">노란우산 (최대 500만)</text>
+
+    <text x="80" y="990" fill="#CBD5E1" font-size="14">환급 가능성</text>
+    <text x="580" y="990" text-anchor="end" fill="#86EFAC" font-size="16" font-weight="800">원천징수 3.3% · 全액 대상</text>
+
+    <text x="80" y="1020" fill="#CBD5E1" font-size="14">성실신고</text>
+    <text x="580" y="1020" text-anchor="end" fill="#FCA5A5" font-size="14">업종별 수입 초과 시 확인</text>
+
+    <text x="80" y="1050" fill="#CBD5E1" font-size="14">핵심 감면</text>
+    <text x="580" y="1050" text-anchor="end" fill="#FFFFFF" font-size="14">창업중기 50~100% (최대 5년)</text>
+  </g>
+  <text x="80" y="1110" fill="#FCA5A5" font-size="14" font-weight="700" font-family="sans-serif">⚠ 무신고 20% + 무기장 20% 중복 가산 가능 — 기한 엄수</text>
+
+  <rect x="620" y="820" width="520" height="310" rx="16" fill="url(#card)" stroke="#D97706" stroke-width="2"/>
+  <text x="640" y="860" fill="#D97706" font-size="22" font-weight="800" font-family="sans-serif">근로자 (연말정산 후)</text>
+
+  <g font-family="sans-serif">
+    <text x="640" y="900" fill="#CBD5E1" font-size="14">신고 의무</text>
+    <text x="1120" y="900" text-anchor="end" fill="#FFFFFF" font-size="15" font-weight="700">단일 근로 시 원칙 不필요</text>
+
+    <text x="640" y="930" fill="#CBD5E1" font-size="14">경정청구 기한</text>
+    <text x="1120" y="930" text-anchor="end" fill="#86EFAC" font-size="15" font-weight="700">5년 (2021~2025 귀속)</text>
+
+    <text x="640" y="960" fill="#CBD5E1" font-size="14">주요 누락 공제</text>
+    <text x="1120" y="960" text-anchor="end" fill="#FFFFFF" font-size="16" font-weight="800">월세·의료비·기부금·자녀</text>
+
+    <text x="640" y="990" fill="#CBD5E1" font-size="14">환급 가능성</text>
+    <text x="1120" y="990" text-anchor="end" fill="#86EFAC" font-size="16" font-weight="800">경정청구로 최대 수십만</text>
+
+    <text x="640" y="1020" fill="#CBD5E1" font-size="14">투잡·부업 소득</text>
+    <text x="1120" y="1020" text-anchor="end" fill="#FCA5A5" font-size="14">합산 종합소득세 확정 필수</text>
+
+    <text x="640" y="1050" fill="#CBD5E1" font-size="14">원천징수 세액</text>
+    <text x="1120" y="1050" text-anchor="end" fill="#FFFFFF" font-size="14">3.3% · 기타소득 22%</text>
+  </g>
+  <text x="640" y="1110" fill="#FCA5A5" font-size="14" font-weight="700" font-family="sans-serif">⚠ 투잡·프리랜서 부수입자는 5월 합산신고 미이행 시 가산세</text>
+
+  <!-- 2026 개정 요약 -->
+  <rect x="60" y="1160" width="1080" height="200" rx="16" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="80" y="1200" fill="#86EFAC" font-size="22" font-weight="800" font-family="sans-serif">2026년 귀속 주요 개정 (체크포인트)</text>
+
+  <g font-family="sans-serif">
+    <text x="80" y="1240" fill="#FFFFFF" font-size="16" font-weight="700">결혼 세액공제 신설</text>
+    <text x="570" y="1240" text-anchor="end" fill="#86EFAC" font-size="18" font-weight="800">부부 합산 100만 원</text>
+
+    <text x="80" y="1275" fill="#FFFFFF" font-size="16" font-weight="700">월세 세액공제 한도</text>
+    <text x="570" y="1275" text-anchor="end" fill="#86EFAC" font-size="18" font-weight="800">750만 → 2,000만</text>
+
+    <text x="600" y="1240" fill="#FFFFFF" font-size="16" font-weight="700">체육시설 이용료 공제 신설</text>
+    <text x="1120" y="1240" text-anchor="end" fill="#FCD34D" font-size="16" font-weight="800">300만 × 30%</text>
+
+    <text x="600" y="1275" fill="#FFFFFF" font-size="16" font-weight="700">노란우산 50개월 한도 폐지</text>
+    <text x="1120" y="1275" text-anchor="end" fill="#86EFAC" font-size="16" font-weight="800">기간 제한 → 완전 철폐</text>
+
+    <text x="80" y="1325" fill="#FCD34D" font-size="14" font-weight="700">→ 홈택스 모두채움 대상자 700만 명 · 단, 공제 레버 수동 추가로 환급 극대화</text>
+  </g>
+
+  <text x="60" y="1420" fill="#64748B" font-size="14" font-family="sans-serif">essencial | 대출·금융 silo · 자료: 국세청·기획재정부·조세특례제한법 (2026.04 기준)</text>
+</svg>

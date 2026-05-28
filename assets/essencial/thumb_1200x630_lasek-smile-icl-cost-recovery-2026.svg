@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#15803D"/>
+      <stop offset="100%" stop-color="#14532d"/>
+    </linearGradient>
+    <linearGradient id="tealGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0F766E"/>
+      <stop offset="100%" stop-color="#134E4A"/>
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#4c1d95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <circle cx="1080" cy="100" r="200" fill="#0F766E" fill-opacity="0.07"/>
+  <circle cx="120" cy="540" r="160" fill="#7C3AED" fill-opacity="0.07"/>
+
+  <!-- Chips -->
+  <rect x="40" y="36" width="120" height="32" rx="16" fill="#0F766E" fill-opacity="0.3" stroke="#0F766E" stroke-width="1.5"/>
+  <text x="100" y="57" text-anchor="middle" fill="#99F6E4" font-size="14" font-weight="700" font-family="sans-serif">건강·의료</text>
+
+  <rect x="176" y="36" width="140" height="32" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="246" y="57" text-anchor="middle" fill="#94A3B8" font-size="14" font-family="sans-serif">2026.05 기준</text>
+
+  <rect x="332" y="36" width="160" height="32" rx="16" fill="#14532d" stroke="#15803D" stroke-width="1.5"/>
+  <text x="412" y="57" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">3종 시력교정</text>
+
+  <!-- Title -->
+  <text x="600" y="130" text-anchor="middle" fill="#FFFFFF" font-size="40" font-weight="800" font-family="sans-serif">라섹 vs 스마일라식 vs ICL</text>
+  <text x="600" y="178" text-anchor="middle" fill="#99F6E4" font-size="26" font-weight="700" font-family="sans-serif">3종 비용·회복기간 비교 (2026)</text>
+
+  <!-- Key stat bar -->
+  <rect x="200" y="198" width="800" height="62" rx="12" fill="#1e293b" fill-opacity="0.9" stroke="#334155" stroke-width="1.5"/>
+  <text x="600" y="226" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">비용 vs 회복기간 트레이드오프</text>
+  <text x="600" y="250" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">최대 6배 가격차 · 라섹 1~2주 vs ICL 즉시</text>
+
+  <rect x="200" y="274" width="800" height="2" rx="1" fill="#0F766E" fill-opacity="0.4"/>
+
+  <!-- 3 cards horizontal -->
+  <rect x="40" y="284" width="370" height="300" rx="16" fill="url(#greenGrad)" fill-opacity="0.85" stroke="#15803D" stroke-width="2"/>
+  <text x="225" y="324" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">라섹 (가성비)</text>
+  <text x="225" y="350" text-anchor="middle" fill="#86EFAC" font-size="13" font-family="sans-serif">상피 제거 + 레이저</text>
+  <line x1="70" y1="368" x2="380" y2="368" stroke="#14532d" stroke-width="1.5"/>
+  <text x="225" y="408" text-anchor="middle" fill="#86EFAC" font-size="22" font-weight="800" font-family="sans-serif">100~200만</text>
+  <text x="225" y="436" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">회복 3~7일 + 1~2개월</text>
+  <line x1="70" y1="456" x2="380" y2="456" stroke="#14532d" stroke-width="1.5"/>
+  <text x="70" y="484" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">✅ 가성비 최고</text>
+  <text x="70" y="508" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">❌ 통증·휴가 1~2주</text>
+  <text x="70" y="532" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">❌ 시력 안정 1~2개월</text>
+  <rect x="70" y="552" width="310" height="22" rx="6" fill="#15803D" fill-opacity="0.4"/>
+  <text x="225" y="568" text-anchor="middle" fill="#86EFAC" font-size="12" font-weight="700" font-family="sans-serif">예산 200만·휴가 1주+</text>
+
+  <rect x="420" y="284" width="370" height="300" rx="16" fill="url(#tealGrad)" fill-opacity="0.85" stroke="#0F766E" stroke-width="2"/>
+  <text x="605" y="324" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">스마일라식 (균형)</text>
+  <text x="605" y="350" text-anchor="middle" fill="#99F6E4" font-size="13" font-family="sans-serif">각막 안 렌티큘 제거</text>
+  <line x1="450" y1="368" x2="760" y2="368" stroke="#134E4A" stroke-width="1.5"/>
+  <text x="605" y="408" text-anchor="middle" fill="#99F6E4" font-size="22" font-weight="800" font-family="sans-serif">200~350만</text>
+  <text x="605" y="436" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">회복 1~3일</text>
+  <line x1="450" y1="456" x2="760" y2="456" stroke="#134E4A" stroke-width="1.5"/>
+  <text x="450" y="484" fill="#99F6E4" font-size="13" font-weight="700" font-family="sans-serif">✅ 통증 적음·회복 빠름</text>
+  <text x="450" y="508" fill="#99F6E4" font-size="13" font-weight="700" font-family="sans-serif">✅ 직장인 휴가 3~5일</text>
+  <text x="450" y="532" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">❌ 가격 라섹의 1.5배</text>
+  <rect x="450" y="552" width="310" height="22" rx="6" fill="#0F766E" fill-opacity="0.4"/>
+  <text x="605" y="568" text-anchor="middle" fill="#99F6E4" font-size="12" font-weight="700" font-family="sans-serif">200~400만·휴가 3~5일</text>
+
+  <rect x="800" y="284" width="370" height="300" rx="16" fill="url(#purpleGrad)" fill-opacity="0.85" stroke="#7C3AED" stroke-width="2"/>
+  <text x="985" y="324" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">ICL (각막 보존)</text>
+  <text x="985" y="350" text-anchor="middle" fill="#DDD6FE" font-size="13" font-family="sans-serif">각막 보존 + 렌즈 삽입</text>
+  <line x1="830" y1="368" x2="1140" y2="368" stroke="#4c1d95" stroke-width="1.5"/>
+  <text x="985" y="408" text-anchor="middle" fill="#DDD6FE" font-size="22" font-weight="800" font-family="sans-serif">470~600만</text>
+  <text x="985" y="436" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">회복 즉시~1일</text>
+  <line x1="830" y1="456" x2="1140" y2="456" stroke="#4c1d95" stroke-width="1.5"/>
+  <text x="830" y="484" fill="#DDD6FE" font-size="13" font-weight="700" font-family="sans-serif">✅ 각막 보존·고도근시</text>
+  <text x="830" y="508" fill="#DDD6FE" font-size="13" font-weight="700" font-family="sans-serif">✅ 가역성 (렌즈 제거)</text>
+  <text x="830" y="532" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">❌ 평생 6개월 검진</text>
+  <rect x="830" y="552" width="310" height="22" rx="6" fill="#7C3AED" fill-opacity="0.4"/>
+  <text x="985" y="568" text-anchor="middle" fill="#DDD6FE" font-size="12" font-weight="700" font-family="sans-serif">-8D+·각막 480μm 이하</text>
+
+  <text x="40" y="610" fill="#64748B" font-size="13" font-family="sans-serif">essencial | 건강·의료 · 2026.05 기준 · 안과 정밀검사 + 3곳 견적 비교 권장 · 시력교정술은 의료행위</text>
+</svg>

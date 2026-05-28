@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#15803D"/>
+      <stop offset="100%" stop-color="#14532d"/>
+    </linearGradient>
+    <linearGradient id="redGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#DC2626"/>
+      <stop offset="100%" stop-color="#7f1d1d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <circle cx="1080" cy="100" r="200" fill="#1E40AF" fill-opacity="0.07"/>
+  <circle cx="120" cy="540" r="160" fill="#15803D" fill-opacity="0.07"/>
+
+  <!-- Chips -->
+  <rect x="40" y="36" width="90" height="32" rx="16" fill="#1E40AF" fill-opacity="0.35" stroke="#1E40AF" stroke-width="1.5"/>
+  <text x="85" y="57" text-anchor="middle" fill="#BFDBFE" font-size="14" font-weight="700" font-family="sans-serif">자동차</text>
+
+  <rect x="146" y="36" width="140" height="32" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="216" y="57" text-anchor="middle" fill="#94A3B8" font-size="14" font-family="sans-serif">2026.05 기준</text>
+
+  <rect x="302" y="36" width="160" height="32" rx="16" fill="#14532d" stroke="#15803D" stroke-width="1.5"/>
+  <text x="382" y="57" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">5종 충전 비교</text>
+
+  <!-- Title -->
+  <text x="600" y="130" text-anchor="middle" fill="#FFFFFF" font-size="42" font-weight="800" font-family="sans-serif">전기차 가정·공공·급속 충전 비용</text>
+  <text x="600" y="178" text-anchor="middle" fill="#93C5FD" font-size="26" font-weight="700" font-family="sans-serif">5년 누적 시뮬레이션 (2026)</text>
+
+  <!-- Key stat bar -->
+  <rect x="200" y="198" width="800" height="62" rx="12" fill="#1e293b" fill-opacity="0.9" stroke="#334155" stroke-width="1.5"/>
+  <text x="600" y="226" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">단가 격차 · 5년 누적</text>
+  <text x="600" y="250" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">최대 6.7배 차이 · 5년 격차 약 546만원</text>
+
+  <rect x="200" y="274" width="800" height="2" rx="1" fill="#1E40AF" fill-opacity="0.4"/>
+
+  <!-- Two cards -->
+  <rect x="40" y="284" width="555" height="300" rx="16" fill="url(#greenGrad)" fill-opacity="0.8" stroke="#15803D" stroke-width="2"/>
+  <text x="317" y="324" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">가정 심야 (BEST · 70원/kWh)</text>
+  <line x1="70" y1="338" x2="565" y2="338" stroke="#14532d" stroke-width="1.5"/>
+  <text x="317" y="378" text-anchor="middle" fill="#86EFAC" font-size="26" font-weight="800" font-family="sans-serif">5년 약 95만원</text>
+  <text x="317" y="406" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="700" font-family="sans-serif">월 약 1만 6천원 · 가솔린 대비 968만원 절감</text>
+  <line x1="70" y1="426" x2="565" y2="426" stroke="#14532d" stroke-width="1.5"/>
+  <text x="70" y="454" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">✅ 한전 별도 계량기 + 23~9시</text>
+  <text x="70" y="480" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">✅ 충전기 설치 회수 2~3년 (보조금)</text>
+  <text x="70" y="506" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">✅ 5년 약 195만원 추가 절감</text>
+  <rect x="70" y="526" width="465" height="36" rx="8" fill="#15803D" fill-opacity="0.4"/>
+  <text x="302" y="550" text-anchor="middle" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">아파트 전용·단독·빌라 거주자 추천</text>
+
+  <rect x="605" y="284" width="555" height="300" rx="16" fill="url(#redGrad)" fill-opacity="0.8" stroke="#DC2626" stroke-width="2"/>
+  <text x="882" y="324" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">민간 비회원 (WORST · 470원/kWh)</text>
+  <line x1="635" y1="338" x2="1130" y2="338" stroke="#7f1d1d" stroke-width="1.5"/>
+  <text x="882" y="378" text-anchor="middle" fill="#FCA5A5" font-size="26" font-weight="800" font-family="sans-serif">5년 약 641만원</text>
+  <text x="882" y="406" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="700" font-family="sans-serif">월 약 10만 7천원 · 가솔린 대비 422만원 절감</text>
+  <line x1="635" y1="426" x2="1130" y2="426" stroke="#7f1d1d" stroke-width="1.5"/>
+  <text x="635" y="454" fill="#FECACA" font-size="14" font-weight="700" font-family="sans-serif">❌ GS차지비·차지비·티맵EV 비회원 단가</text>
+  <text x="635" y="480" fill="#FECACA" font-size="14" font-weight="700" font-family="sans-serif">❌ 회원 가입 시 30~40% 인하 가능</text>
+  <text x="635" y="506" fill="#FECACA" font-size="14" font-weight="700" font-family="sans-serif">❌ 출장·여행 시 어쩔 수 없는 선택</text>
+  <rect x="635" y="526" width="465" height="36" rx="8" fill="#DC2626" fill-opacity="0.4"/>
+  <text x="867" y="550" text-anchor="middle" fill="#FECACA" font-size="13" font-weight="700" font-family="sans-serif">최소 회원 가입 1~2곳 필수</text>
+
+  <text x="40" y="610" fill="#64748B" font-size="13" font-family="sans-serif">essencial | 자동차 · 2026.05 환경부·한전 공시 · 전비 5.5km/kWh · 연 1만 5천km · 실제 비용은 차종·운전 패턴에 따라 다릅니다</text>
+</svg>

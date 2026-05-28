@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <rect x="60" y="50" width="340" height="44" rx="22" fill="#0F766E"/>
+  <text x="230" y="80" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">2026 백내장 렌즈 비용·실비 적용 비교</text>
+
+  <text x="60" y="175" fill="#FFFFFF" font-size="60" font-weight="800" font-family="sans-serif">다초점 vs 단초점,</text>
+  <text x="60" y="248" fill="#2DD4BF" font-size="60" font-weight="800" font-family="sans-serif">실제 부담 얼마?</text>
+
+  <text x="60" y="310" fill="#94A3B8" font-size="22" font-weight="600" font-family="sans-serif">단초점 40~240만(급여) · 다초점 500~1,200만(비급여) · 실손 세대별 보장 천차만별</text>
+
+  <!-- 3 key cards -->
+  <rect x="60" y="358" width="320" height="188" rx="16" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="220" y="398" text-anchor="middle" fill="#86EFAC" font-size="16" font-weight="700" font-family="sans-serif">단초점 실질 부담</text>
+  <text x="220" y="453" text-anchor="middle" fill="#FFFFFF" font-size="40" font-weight="800" font-family="sans-serif">10만~</text>
+  <text x="220" y="490" text-anchor="middle" fill="#86EFAC" font-size="15" font-weight="600" font-family="sans-serif">2세대+입원 인정 시</text>
+  <text x="220" y="518" text-anchor="middle" fill="#CBD5E1" font-size="14" font-family="sans-serif">DRG 급여 + 실손 + 특약</text>
+
+  <rect x="400" y="358" width="320" height="188" rx="16" fill="url(#card)" stroke="#FCA5A5" stroke-width="2"/>
+  <text x="560" y="398" text-anchor="middle" fill="#FCA5A5" font-size="16" font-weight="700" font-family="sans-serif">다초점 4세대 실손</text>
+  <text x="560" y="453" text-anchor="middle" fill="#FFFFFF" font-size="40" font-weight="800" font-family="sans-serif">700만+</text>
+  <text x="560" y="490" text-anchor="middle" fill="#FCA5A5" font-size="15" font-weight="600" font-family="sans-serif">비급여 미보장</text>
+  <text x="560" y="518" text-anchor="middle" fill="#CBD5E1" font-size="14" font-family="sans-serif">수술비특약 100만만 회수</text>
+
+  <rect x="740" y="358" width="400" height="188" rx="16" fill="url(#card)" stroke="#0F766E" stroke-width="2"/>
+  <text x="940" y="398" text-anchor="middle" fill="#2DD4BF" font-size="16" font-weight="700" font-family="sans-serif">핵심 체크포인트</text>
+  <text x="940" y="443" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">실손 세대 확인</text>
+  <text x="940" y="472" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">입원 처리 여부</text>
+  <text x="940" y="501" text-anchor="middle" fill="#FCD34D" font-size="18" font-weight="700" font-family="sans-serif">수술비 특약 활용</text>
+  <text x="940" y="528" text-anchor="middle" fill="#CBD5E1" font-size="14" font-family="sans-serif">동일 렌즈 최대 27배 가격 차이</text>
+
+  <text x="60" y="592" fill="#64748B" font-size="14" font-family="sans-serif">essencial | 의료 silo · 심평원·금융위·대법원 판례 (2026.04 기준)</text>
+</svg>

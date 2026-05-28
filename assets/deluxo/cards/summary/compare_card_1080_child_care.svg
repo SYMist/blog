@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#F59E0B">2026 아이돌봄서비스 핵심 변화</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- 변화 1 -->
+  <rect x="60" y="120" width="960" height="170" rx="20" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="136" width="200" height="36" rx="18" fill="#1D4ED8"/>
+  <text x="180" y="162" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#FFF">지원 대상 확대</text>
+  <text x="80" y="205" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#EAF2FF">기존</text>
+  <text x="200" y="205" font-family="'Pretendard',sans-serif" font-size="26" font-weight="900" fill="#EF4444">중위소득 200%</text>
+  <text x="80" y="250" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#EAF2FF">2026</text>
+  <text x="200" y="250" font-family="'Pretendard',sans-serif" font-size="30" font-weight="900" fill="#F59E0B">중위소득 250%까지</text>
+  <text x="600" y="250" font-family="'Pretendard',sans-serif" font-size="18" fill="#F59E0B">고소득 맞벌이도 라형 진입</text>
+
+  <!-- 변화 2 -->
+  <rect x="60" y="306" width="960" height="170" rx="20" fill="rgba(245,158,11,0.08)"/>
+  <rect x="80" y="322" width="200" height="36" rx="18" fill="#F59E0B"/>
+  <text x="180" y="348" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#0B1F3B">국가자격제 시행</text>
+  <text x="80" y="390" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#EAF2FF">시행일</text>
+  <text x="230" y="390" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#F59E0B">2026년 4월 23일</text>
+  <text x="80" y="430" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">국가 표준 교육 이수 + 자격증 취득 → 돌보미 전문성 보증</text>
+  <text x="80" y="460" font-family="'Pretendard',sans-serif" font-size="18" fill="#F59E0B">민간 제공기관 등록제도 동시 시행</text>
+
+  <!-- 변화 3 -->
+  <rect x="60" y="492" width="960" height="150" rx="20" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="508" width="240" height="36" rx="18" fill="#1D4ED8"/>
+  <text x="200" y="534" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#FFF">긴급돌봄 대폭 완화</text>
+  <text x="80" y="575" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#EAF2FF">기존</text>
+  <text x="200" y="575" font-family="'Pretendard',sans-serif" font-size="24" font-weight="900" fill="#EF4444">4시간 전 신청</text>
+  <text x="500" y="575" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#EAF2FF">→ 2026</text>
+  <text x="650" y="575" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#F59E0B">2시간 전 신청 OK</text>
+  <text x="80" y="615" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">건당 3,000원 긴급 호출 수수료 추가</text>
+
+  <!-- 변화 4 -->
+  <rect x="60" y="658" width="960" height="150" rx="20" fill="rgba(245,158,11,0.08)"/>
+  <rect x="80" y="674" width="240" height="36" rx="18" fill="#F59E0B"/>
+  <text x="200" y="700" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#0B1F3B">서비스 단가 인상</text>
+  <text x="80" y="740" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#EAF2FF">일반형</text>
+  <text x="250" y="740" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#F59E0B">12,790원/시간</text>
+  <text x="540" y="740" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#EAF2FF">종합형</text>
+  <text x="700" y="740" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#F59E0B">16,620원/시간</text>
+  <text x="80" y="785" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">2025년 대비 인상 (고물가 반영)</text>
+
+  <!-- 지역별 -->
+  <rect x="60" y="824" width="960" height="200" rx="20" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="840" width="260" height="36" rx="18" fill="#1D4ED8"/>
+  <text x="210" y="866" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#FFF">지역별 추가 지원</text>
+
+  <text x="80" y="910" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">인천</text>
+  <text x="200" y="910" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">가형 100% · 나형 50% · 다형 20% 환급</text>
+
+  <text x="80" y="950" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">경남 고성</text>
+  <text x="260" y="950" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">둘째 50% · 셋째+ 100% 군비 지원</text>
+
+  <text x="80" y="990" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">인천e지갑 앱 간편 신청 · 지자체별 사업 확인 필수</text>
+
+  <rect x="60" y="1050" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

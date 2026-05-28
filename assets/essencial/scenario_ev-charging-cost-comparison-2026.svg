@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="700" fill="url(#bg)"/>
+
+  <text x="540" y="46" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">전기차 충전 거주형태·운전패턴별 추천 시나리오</text>
+  <text x="540" y="70" text-anchor="middle" fill="#93C5FD" font-size="13" font-family="sans-serif">5년 절감 · 충전기 설치 회수 · 2026.05 기준</text>
+
+  <!-- Scenario 1 -->
+  <rect x="40" y="90" width="480" height="116" rx="10" fill="#14532d" fill-opacity="0.6" stroke="#15803D" stroke-width="1.5"/>
+  <rect x="40" y="90" width="480" height="36" rx="10" fill="#15803D"/>
+  <rect x="40" y="112" width="480" height="14" fill="#15803D"/>
+  <text x="60" y="114" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">① 아파트 전용 구역·단독·빌라 (가정 충전기 가능)</text>
+  <text x="60" y="148" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">→ 가정 심야 충전 (5년 95만원, 968만원 절감)</text>
+  <text x="60" y="170" fill="#CBD5E1" font-size="12" font-family="sans-serif">한전 별도 계량기 신청 + 7kW 벽걸이 설치 (보조금 후 70~100만원)</text>
+  <text x="60" y="192" fill="#CBD5E1" font-size="12" font-family="sans-serif">설치비 회수 약 2~3년 → 5년 약 195만원 추가 절감</text>
+
+  <!-- Scenario 2 -->
+  <rect x="560" y="90" width="480" height="116" rx="10" fill="#1e3a8a" fill-opacity="0.6" stroke="#1E40AF" stroke-width="1.5"/>
+  <rect x="560" y="90" width="480" height="36" rx="10" fill="#1E40AF"/>
+  <rect x="560" y="112" width="480" height="14" fill="#1E40AF"/>
+  <text x="580" y="114" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">② 아파트 공용 충전만 가능</text>
+  <text x="580" y="148" fill="#BFDBFE" font-size="13" font-weight="700" font-family="sans-serif">→ 공공 완속 + 야간 거치 (5년 약 442만원)</text>
+  <text x="580" y="170" fill="#CBD5E1" font-size="12" font-family="sans-serif">단지 충전기 야간 시간대 활용으로 단가 인하 가능</text>
+  <text x="580" y="192" fill="#CBD5E1" font-size="12" font-family="sans-serif">가솔린 대비 약 621만원 절감 — 충전기 가능 여부 확인 우선</text>
+
+  <!-- Scenario 3 -->
+  <rect x="40" y="226" width="480" height="116" rx="10" fill="#14532d" fill-opacity="0.6" stroke="#15803D" stroke-width="1.5"/>
+  <rect x="40" y="226" width="480" height="36" rx="10" fill="#15803D"/>
+  <rect x="40" y="248" width="480" height="14" fill="#15803D"/>
+  <text x="60" y="250" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">③ 장거리 출퇴근 (편도 50km+)</text>
+  <text x="60" y="284" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">→ 가정 충전기 설치 필수 (회수 1~2년)</text>
+  <text x="60" y="306" fill="#CBD5E1" font-size="12" font-family="sans-serif">연 충전량 4,500kWh+ → 절감 효과 비례 확대</text>
+  <text x="60" y="328" fill="#CBD5E1" font-size="12" font-family="sans-serif">5년 누적 절감액 약 1,500만원 이상 가능</text>
+
+  <!-- Scenario 4 -->
+  <rect x="560" y="226" width="480" height="116" rx="10" fill="#422006" fill-opacity="0.6" stroke="#D97706" stroke-width="1.5"/>
+  <rect x="560" y="226" width="480" height="36" rx="10" fill="#D97706"/>
+  <rect x="560" y="248" width="480" height="14" fill="#D97706"/>
+  <text x="580" y="250" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">④ 도심 단거리 + 출장 잦음</text>
+  <text x="580" y="284" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">→ 민간 사업자 1~2곳 회원 가입</text>
+  <text x="580" y="306" fill="#CBD5E1" font-size="12" font-family="sans-serif">비회원 470원 → 회원 335원 = 30~40% 인하 효과</text>
+  <text x="580" y="328" fill="#CBD5E1" font-size="12" font-family="sans-serif">SK일렉링크 구독제(월 19,900원 + 295원/kWh)도 검토</text>
+
+  <!-- Scenario 5 (full width) -->
+  <rect x="40" y="362" width="1000" height="116" rx="10" fill="#7f1d1d" fill-opacity="0.5" stroke="#DC2626" stroke-width="1.5"/>
+  <rect x="40" y="362" width="1000" height="36" rx="10" fill="#DC2626"/>
+  <rect x="40" y="384" width="1000" height="14" fill="#DC2626"/>
+  <text x="60" y="386" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">⑤ 주말만 운전 (연 5,000km 이하 단거리)</text>
+  <text x="60" y="420" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">→ 가솔린차 TCO 유사 가능 — 충전기 설치 회수 어려움</text>
+  <text x="60" y="442" fill="#CBD5E1" font-size="12" font-family="sans-serif">연 충전량 약 900kWh → 절대 절감액 작아 충전기 설치비 회수에 5년+ 필요</text>
+  <text x="60" y="464" fill="#CBD5E1" font-size="12" font-family="sans-serif">가솔린 동급 5년 비교 시 차량 가격 + TCO 종합 검토 권장 (E-22 참조)</text>
+
+  <!-- Summary box -->
+  <rect x="40" y="496" width="1000" height="176" rx="10" fill="#1e293b" fill-opacity="0.8"/>
+  <text x="540" y="528" text-anchor="middle" fill="#F8FAFC" font-size="14" font-weight="800" font-family="sans-serif">핵심 결론 3줄 요약</text>
+  <text x="80" y="562" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">5년 충전비 격차</text>
+  <text x="250" y="562" fill="#FFFFFF" font-size="13" font-family="sans-serif">→ 가정 심야 95만원 vs 민간 비회원 641만원 = 546만원 차이</text>
+  <text x="80" y="594" fill="#BFDBFE" font-size="13" font-weight="700" font-family="sans-serif">가솔린 대비 절감</text>
+  <text x="250" y="594" fill="#FFFFFF" font-size="13" font-family="sans-serif">→ 어떤 방식이든 422만원+ 절감 (5년) · 가정 심야는 968만원</text>
+  <text x="80" y="626" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">충전기 설치 회수</text>
+  <text x="250" y="626" fill="#FFFFFF" font-size="13" font-family="sans-serif">→ 보조금 적용 시 2~3년 (벽걸이형) · 단독·아파트 전용은 무조건 설치</text>
+  <text x="80" y="654" fill="#94A3B8" font-size="12" font-family="sans-serif">※ 본 시뮬레이션 기준: 전비 5.5km/kWh · 연 1만 5천km · 휘발유 1,700원/L · 환경부·한전 2026.05 공시</text>
+
+  <text x="40" y="686" fill="#64748B" font-size="12" font-family="sans-serif">essencial | 자동차 · 2026.05 기준 · 추정치이며 실제 비용은 차종·운전 패턴·계절에 따라 다를 수 있습니다</text>
+</svg>

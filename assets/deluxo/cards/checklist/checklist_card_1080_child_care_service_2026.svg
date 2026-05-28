@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <text x="540" y="130" font-family="'Pretendard', sans-serif" font-size="46" font-weight="900" fill="#F59E0B" text-anchor="middle">신청 전 1분 체크리스트</text>
+  <text x="540" y="210" font-family="'Pretendard', sans-serif" font-size="54" font-weight="900" fill="#FFFFFF" text-anchor="middle">아이돌봄 8점검</text>
+
+  <g font-family="'Pretendard', sans-serif" font-size="28" font-weight="700" fill="#EAF2FF">
+    <rect x="60" y="280" width="44" height="44" rx="10" fill="#10B981"/>
+    <text x="82" y="312" fill="#FFFFFF" font-weight="900" text-anchor="middle">✓</text>
+    <text x="130" y="312">만 12세 이하 자녀 + 양육공백 사유 확인</text>
+
+    <rect x="60" y="355" width="44" height="44" rx="10" fill="#10B981"/>
+    <text x="82" y="387" fill="#FFFFFF" font-weight="900" text-anchor="middle">✓</text>
+    <text x="130" y="387">중위소득 250% 이하 (가형~라형) 자가 점검</text>
+
+    <rect x="60" y="430" width="44" height="44" rx="10" fill="#10B981"/>
+    <text x="82" y="462" fill="#FFFFFF" font-weight="900" text-anchor="middle">✓</text>
+    <text x="130" y="462">복지로·주민센터 자격 신청 (14일 심사)</text>
+
+    <rect x="60" y="505" width="44" height="44" rx="10" fill="#10B981"/>
+    <text x="82" y="537" fill="#FFFFFF" font-weight="900" text-anchor="middle">✓</text>
+    <text x="130" y="537">국민행복카드 발급 (BC·삼성·롯데·KB·신한)</text>
+
+    <rect x="60" y="580" width="44" height="44" rx="10" fill="#10B981"/>
+    <text x="82" y="612" fill="#FFFFFF" font-weight="900" text-anchor="middle">✓</text>
+    <text x="130" y="612">idolbom.go.kr 회원가입·돌봄 신청서 제출</text>
+
+    <rect x="60" y="655" width="44" height="44" rx="10" fill="#10B981"/>
+    <text x="82" y="687" fill="#FFFFFF" font-weight="900" text-anchor="middle">✓</text>
+    <text x="130" y="687">다자녀 10%·인구감소 5% 자동 적용 확인</text>
+
+    <rect x="60" y="730" width="44" height="44" rx="10" fill="#10B981"/>
+    <text x="82" y="762" fill="#FFFFFF" font-weight="900" text-anchor="middle">✓</text>
+    <text x="130" y="762">2026.1 소득재판정 신청 (기존 이용자)</text>
+
+    <rect x="60" y="805" width="44" height="44" rx="10" fill="#10B981"/>
+    <text x="82" y="837" fill="#FFFFFF" font-weight="900" text-anchor="middle">✓</text>
+    <text x="130" y="837">야간·휴일 50% 가산 단가 사전 인지</text>
+  </g>
+
+  <rect x="60" y="900" width="960" height="140" rx="20" fill="#F59E0B"/>
+  <text x="540" y="955" font-family="'Pretendard', sans-serif" font-size="32" font-weight="900" fill="#0B1F3B" text-anchor="middle">8개 모두 ✓면 신청·매칭 준비 완료</text>
+  <text x="540" y="1005" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#0B1F3B" text-anchor="middle">아이돌봄 콜센터 1577-2514 · idolbom.go.kr</text>
+</svg>

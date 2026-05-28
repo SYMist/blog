@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 640">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#15803D"/>
+      <stop offset="100%" stop-color="#14532d"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E40AF"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="640" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="540" y="58" text-anchor="middle" fill="#FFFFFF" font-size="30" font-weight="800" font-family="sans-serif">수입차 vs 국산차 5년 유지비 총비용</text>
+  <text x="540" y="92" text-anchor="middle" fill="#93C5FD" font-size="16" font-family="sans-serif">중형 세단 2.0L · 5년 7만 5천km · 2026.05 기준 시뮬레이션</text>
+
+  <!-- Key stat -->
+  <rect x="180" y="116" width="720" height="76" rx="14" fill="#1e293b" fill-opacity="0.9" stroke="#334155" stroke-width="1.5"/>
+  <text x="540" y="148" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="700" font-family="sans-serif">5년 TCO 격차</text>
+  <text x="540" y="180" text-anchor="middle" fill="#FFFFFF" font-size="26" font-weight="800" font-family="sans-serif">약 3,254만원 차이 · 월 약 54만원</text>
+
+  <!-- Two cards -->
+  <rect x="40" y="216" width="495" height="370" rx="18" fill="url(#greenGrad)" fill-opacity="0.9" stroke="#15803D" stroke-width="2"/>
+  <text x="288" y="262" text-anchor="middle" fill="#FFFFFF" font-size="26" font-weight="800" font-family="sans-serif">국산 중형 (쏘나타 2.0급)</text>
+  <text x="288" y="290" text-anchor="middle" fill="#86EFAC" font-size="15" font-family="sans-serif">3,300만원 · 1,999cc · 12km/L</text>
+  <line x1="70" y1="312" x2="505" y2="312" stroke="#14532d" stroke-width="1.5"/>
+  <text x="288" y="354" text-anchor="middle" fill="#86EFAC" font-size="30" font-weight="800" font-family="sans-serif">5년 TCO 약 3,776만원</text>
+  <text x="288" y="384" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="700" font-family="sans-serif">월 약 63만원</text>
+  <line x1="70" y1="406" x2="505" y2="406" stroke="#14532d" stroke-width="1.5"/>
+  <text x="80" y="438" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">✅ 보험료 연 약 70만원 (모델등급 16)</text>
+  <text x="80" y="464" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">✅ 5년 정비비 약 280만원</text>
+  <text x="80" y="490" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">✅ 5년 후 잔존 50% (약 1,650만원)</text>
+  <text x="80" y="516" fill="#FFFFFF" font-size="14" font-family="sans-serif">— 절대 감가 약 1,650만원</text>
+  <rect x="80" y="538" width="416" height="32" rx="8" fill="#15803D" fill-opacity="0.4"/>
+  <text x="288" y="560" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">총비용 절감 우선이면 국산차</text>
+
+  <rect x="545" y="216" width="495" height="370" rx="18" fill="url(#blueGrad)" fill-opacity="0.9" stroke="#3B82F6" stroke-width="2"/>
+  <text x="793" y="262" text-anchor="middle" fill="#FFFFFF" font-size="26" font-weight="800" font-family="sans-serif">수입 중형 (BMW 320i급)</text>
+  <text x="793" y="290" text-anchor="middle" fill="#BFDBFE" font-size="15" font-family="sans-serif">6,200만원 · 1,998cc · 11km/L</text>
+  <line x1="575" y1="312" x2="1010" y2="312" stroke="#1e3a8a" stroke-width="1.5"/>
+  <text x="793" y="354" text-anchor="middle" fill="#BFDBFE" font-size="30" font-weight="800" font-family="sans-serif">5년 TCO 약 7,030만원</text>
+  <text x="793" y="384" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="700" font-family="sans-serif">월 약 117만원</text>
+  <line x1="575" y1="406" x2="1010" y2="406" stroke="#1e3a8a" stroke-width="1.5"/>
+  <text x="585" y="438" fill="#FCA5A5" font-size="14" font-weight="700" font-family="sans-serif">❌ 보험료 연 약 160만원 (모델등급 6)</text>
+  <text x="585" y="464" fill="#FCA5A5" font-size="14" font-weight="700" font-family="sans-serif">❌ 5년 정비비 약 700만원 (공임 2배)</text>
+  <text x="585" y="490" fill="#FCA5A5" font-size="14" font-weight="700" font-family="sans-serif">❌ 5년 후 잔존 40% (약 2,480만원)</text>
+  <text x="585" y="516" fill="#FFFFFF" font-size="14" font-family="sans-serif">— 절대 감가 약 3,720만원 (2.3배)</text>
+  <rect x="585" y="538" width="416" height="32" rx="8" fill="#1E40AF" fill-opacity="0.4"/>
+  <text x="793" y="560" text-anchor="middle" fill="#BFDBFE" font-size="14" font-weight="700" font-family="sans-serif">사업자·장기 보유·일본 브랜드면 고려</text>
+
+  <text x="40" y="618" fill="#64748B" font-size="13" font-family="sans-serif">essencial | 자동차 · 2026.05 기준 · 보험료·정비비·감가는 모델·운전이력에 따라 다릅니다</text>
+</svg>

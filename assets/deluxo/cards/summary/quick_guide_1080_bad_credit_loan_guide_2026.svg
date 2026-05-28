@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="8" fill="#F59E0B"/>
+
+  <!-- Title -->
+  <text x="540" y="66" font-family="-apple-system, sans-serif" font-size="34" font-weight="900" fill="#F59E0B" text-anchor="middle">나는 어디? — 경로 빠른 판단 가이드</text>
+  <text x="540" y="104" font-family="-apple-system, sans-serif" font-size="20" font-weight="700" fill="#A0B4D0" text-anchor="middle">내 상황에 맞는 경로를 10초 만에 선택하세요</text>
+
+  <!-- Header -->
+  <rect x="40" y="128" width="1000" height="48" rx="8" fill="#1A3270"/>
+  <text x="220" y="159" font-family="-apple-system, sans-serif" font-size="15" font-weight="800" fill="#F59E0B" text-anchor="middle">내 상황</text>
+  <text x="560" y="159" font-family="-apple-system, sans-serif" font-size="15" font-weight="800" fill="#F59E0B" text-anchor="middle">추천 경로</text>
+  <text x="880" y="159" font-family="-apple-system, sans-serif" font-size="15" font-weight="800" fill="#F59E0B" text-anchor="middle">이유</text>
+
+  <!-- Row 1 -->
+  <rect x="40" y="180" width="1000" height="80" rx="6" fill="#0D2347"/>
+  <rect x="40" y="180" width="6" height="80" rx="3" fill="#34D399"/>
+  <text x="220" y="216" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">당장 소액 생활비 필요</text>
+  <text x="220" y="244" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">소득 없음·무직 포함</text>
+  <text x="560" y="226" font-family="-apple-system, sans-serif" font-size="18" font-weight="900" fill="#34D399" text-anchor="middle">불법사금융예방대출</text>
+  <text x="880" y="226" font-family="-apple-system, sans-serif" font-size="15" fill="#EAF2FF" text-anchor="middle">무직자 가능, 100만원 신속 승인</text>
+
+  <!-- Row 2 -->
+  <rect x="40" y="264" width="1000" height="80" rx="6" fill="#1A3270"/>
+  <rect x="40" y="264" width="6" height="80" rx="3" fill="#34D399"/>
+  <text x="220" y="300" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">저신용, 소득 있음</text>
+  <text x="220" y="328" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">소액 필요 (1,000만원↓)</text>
+  <text x="560" y="314" font-family="-apple-system, sans-serif" font-size="18" font-weight="900" fill="#34D399" text-anchor="middle">햇살론 특례보증</text>
+  <text x="880" y="314" font-family="-apple-system, sans-serif" font-size="15" fill="#EAF2FF" text-anchor="middle">최대 1,000만원, 3~5년 상환</text>
+
+  <!-- Row 3 -->
+  <rect x="40" y="348" width="1000" height="80" rx="6" fill="#0D2347"/>
+  <rect x="40" y="348" width="6" height="80" rx="3" fill="#F59E0B"/>
+  <text x="220" y="384" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">신용 조금 더 나음</text>
+  <text x="220" y="412" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">연소득 3,500~4,500만원</text>
+  <text x="560" y="398" font-family="-apple-system, sans-serif" font-size="18" font-weight="900" fill="#F59E0B" text-anchor="middle">햇살론 일반보증</text>
+  <text x="880" y="398" font-family="-apple-system, sans-serif" font-size="15" fill="#EAF2FF" text-anchor="middle">최대 1,500만원, 금리 10%↓</text>
+
+  <!-- Row 4 -->
+  <rect x="40" y="432" width="1000" height="80" rx="6" fill="#1A3270"/>
+  <rect x="40" y="432" width="6" height="80" rx="3" fill="#EF4444"/>
+  <text x="220" y="468" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">90일+ 연체 중</text>
+  <text x="220" y="496" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">채무 과다, 상환 어려움</text>
+  <text x="560" y="468" font-family="-apple-system, sans-serif" font-size="18" font-weight="900" fill="#EF4444" text-anchor="middle">개인워크아웃</text>
+  <text x="560" y="496" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">(신용회복위원회)</text>
+  <text x="880" y="482" font-family="-apple-system, sans-serif" font-size="15" fill="#EAF2FF" text-anchor="middle">원금 감면, 1년 후 기록 해제</text>
+
+  <!-- Row 5 -->
+  <rect x="40" y="516" width="1000" height="80" rx="6" fill="#0D2347"/>
+  <rect x="40" y="516" width="6" height="80" rx="3" fill="#EF4444"/>
+  <text x="220" y="552" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">정기소득 있고 채무 큼</text>
+  <text x="220" y="580" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">무담보 10억↓</text>
+  <text x="560" y="560" font-family="-apple-system, sans-serif" font-size="18" font-weight="900" fill="#EF4444" text-anchor="middle">개인회생 (법원)</text>
+  <text x="880" y="560" font-family="-apple-system, sans-serif" font-size="15" fill="#EAF2FF" text-anchor="middle">더 많은 원금 감면, 직업 제한 없음</text>
+
+  <!-- Row 6 -->
+  <rect x="40" y="600" width="1000" height="80" rx="6" fill="#1A3270"/>
+  <rect x="40" y="600" width="6" height="80" rx="3" fill="#A0B4D0"/>
+  <text x="220" y="636" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">소득 없고 상환 완전 불가</text>
+  <text x="560" y="636" font-family="-apple-system, sans-serif" font-size="18" font-weight="900" fill="#A0B4D0" text-anchor="middle">개인파산 (법원)</text>
+  <text x="880" y="636" font-family="-apple-system, sans-serif" font-size="15" fill="#EAF2FF" text-anchor="middle">면책 시 채무 전액 소멸</text>
+
+  <!-- Key note -->
+  <rect x="40" y="706" width="1000" height="72" rx="12" fill="#2A1818"/>
+  <rect x="40" y="706" width="1000" height="72" rx="12" fill="none" stroke="#EF4444" stroke-width="2"/>
+  <text x="540" y="738" font-family="-apple-system, sans-serif" font-size="17" font-weight="700" fill="#EF4444" text-anchor="middle">연체 중에는 대출 상품 신청 불가 — 연체 해소 or 채무조정 중 하나 선택</text>
+  <text x="540" y="766" font-family="-apple-system, sans-serif" font-size="15" fill="#EAF2FF" text-anchor="middle">경로가 헷갈리면 ☎1397(서민금융) 또는 ☎1600-5500(신용회복위원회) 무료 상담 먼저</text>
+
+  <!-- Timeline boxes -->
+  <rect x="40" y="802" width="306" height="148" rx="16" fill="#0D2347"/>
+  <text x="193" y="848" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#34D399" text-anchor="middle">대출 승인</text>
+  <text x="193" y="892" font-family="-apple-system, sans-serif" font-size="38" font-weight="900" fill="#FFFFFF" text-anchor="middle">2~7일</text>
+  <text x="193" y="930" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">햇살론·소액생계비</text>
+
+  <rect x="387" y="802" width="306" height="148" rx="16" fill="#0D2347"/>
+  <text x="540" y="848" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#F59E0B" text-anchor="middle">워크아웃 확정</text>
+  <text x="540" y="892" font-family="-apple-system, sans-serif" font-size="38" font-weight="900" fill="#FFFFFF" text-anchor="middle">약 1개월</text>
+  <text x="540" y="930" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">신청 즉시 추심 중단</text>
+
+  <rect x="734" y="802" width="306" height="148" rx="16" fill="#0D2347"/>
+  <text x="887" y="848" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#EF4444" text-anchor="middle">개인회생 인가</text>
+  <text x="887" y="892" font-family="-apple-system, sans-serif" font-size="38" font-weight="900" fill="#FFFFFF" text-anchor="middle">4~8개월</text>
+  <text x="887" y="930" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">인가 즉시 연체정보 해제</text>
+
+  <text x="540" y="980" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준 | 개인 상황에 따라 상이 | 신청 전 공식 기관 무료 상담 권장</text>
+  <rect x="0" y="1072" width="1080" height="8" fill="#F59E0B"/>
+</svg>

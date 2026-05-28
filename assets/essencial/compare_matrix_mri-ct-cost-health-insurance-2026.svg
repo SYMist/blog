@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1700" fill="url(#bg)"/>
+
+  <text x="60" y="80" fill="#FFFFFF" font-size="36" font-weight="800" font-family="sans-serif">MRI vs CT — 항목별 비교 매트릭스</text>
+  <text x="60" y="115" fill="#5EEAD4" font-size="18" font-weight="600" font-family="sans-serif">기술·비용·건강보험 기준·실손까지</text>
+
+  <!-- Table 1: Tech comparison -->
+  <rect x="60" y="140" width="1080" height="50" rx="8" fill="#0F766E"/>
+  <text x="180" y="172" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="800" font-family="sans-serif">비교 항목</text>
+  <text x="555" y="172" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="800" font-family="sans-serif">CT</text>
+  <text x="930" y="172" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="800" font-family="sans-serif">MRI</text>
+
+  <g font-family="sans-serif">
+    <rect x="60" y="195" width="1080" height="55" fill="#1e293b" opacity="0.7"/>
+    <text x="180" y="230" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700">물리적 원리</text>
+    <text x="555" y="230" text-anchor="middle" fill="#FFFFFF" font-size="14">X선(이온화 방사선)</text>
+    <text x="930" y="230" text-anchor="middle" fill="#FFFFFF" font-size="14">자기장 + 무선 주파수</text>
+
+    <rect x="60" y="255" width="1080" height="55" fill="#1e293b" opacity="0.5"/>
+    <text x="180" y="290" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700">방사선 피폭</text>
+    <text x="555" y="290" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="700">있음 (반복 주의)</text>
+    <text x="930" y="290" text-anchor="middle" fill="#2DD4BF" font-size="14" font-weight="700">없음 (소아·임산부 안전)</text>
+
+    <rect x="60" y="315" width="1080" height="55" fill="#1e293b" opacity="0.7"/>
+    <text x="180" y="350" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700">촬영 시간</text>
+    <text x="555" y="350" text-anchor="middle" fill="#2DD4BF" font-size="14" font-weight="700">약 2~10분</text>
+    <text x="930" y="350" text-anchor="middle" fill="#FCD34D" font-size="14">약 20~60분</text>
+
+    <rect x="60" y="375" width="1080" height="55" fill="#1e293b" opacity="0.5"/>
+    <text x="180" y="410" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700">강점 영역</text>
+    <text x="555" y="405" text-anchor="middle" fill="#FFFFFF" font-size="14">폐·뼈·급성 뇌출혈</text>
+    <text x="555" y="423" text-anchor="middle" fill="#CBD5E1" font-size="13">석회화·외상</text>
+    <text x="930" y="405" text-anchor="middle" fill="#FFFFFF" font-size="14">뇌·신경·디스크·관절</text>
+    <text x="930" y="423" text-anchor="middle" fill="#CBD5E1" font-size="13">연부조직·종양</text>
+
+    <rect x="60" y="435" width="1080" height="55" fill="#1e293b" opacity="0.7"/>
+    <text x="180" y="470" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700">급여 시 평균 비용</text>
+    <text x="555" y="470" text-anchor="middle" fill="#2DD4BF" font-size="15" font-weight="800">3~10만 원대</text>
+    <text x="930" y="470" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="800">10~40만 원대</text>
+
+    <rect x="60" y="495" width="1080" height="55" fill="#1e293b" opacity="0.5"/>
+    <text x="180" y="530" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700">비급여 시 가격대</text>
+    <text x="555" y="530" text-anchor="middle" fill="#FFFFFF" font-size="14">4~15만 원대</text>
+    <text x="930" y="530" text-anchor="middle" fill="#F87171" font-size="14" font-weight="700">9만~114만 원(편차)</text>
+
+    <rect x="60" y="555" width="1080" height="55" fill="#1e293b" opacity="0.7"/>
+    <text x="180" y="590" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700">5세대 실손 자부담</text>
+    <text x="555" y="585" text-anchor="middle" fill="#FFFFFF" font-size="14">급여 20% · 비급여 50%</text>
+    <text x="555" y="603" text-anchor="middle" fill="#CBD5E1" font-size="13">(MRI·CT 동일)</text>
+    <text x="930" y="585" text-anchor="middle" fill="#FFFFFF" font-size="14">급여 20% · 비급여 50%</text>
+    <text x="930" y="603" text-anchor="middle" fill="#CBD5E1" font-size="13">(4세대 30%에서 상향)</text>
+
+    <rect x="60" y="615" width="1080" height="55" fill="#1e293b" opacity="0.5"/>
+    <text x="180" y="650" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700">주요 제약</text>
+    <text x="555" y="650" text-anchor="middle" fill="#FCA5A5" font-size="14">피폭 누적·조영제 부작용</text>
+    <text x="930" y="650" text-anchor="middle" fill="#FCA5A5" font-size="14">금속·심박조율기 금기</text>
+  </g>
+
+  <!-- 건강보험 급여 조건 -->
+  <text x="60" y="730" fill="#FFFFFF" font-size="28" font-weight="800" font-family="sans-serif">2026 건강보험 급여 조건 — 부위별</text>
+
+  <rect x="60" y="760" width="1080" height="50" rx="8" fill="#0F766E"/>
+  <text x="145" y="792" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="800" font-family="sans-serif">촬영 부위</text>
+  <text x="520" y="792" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="800" font-family="sans-serif">급여 ✅</text>
+  <text x="930" y="792" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="800" font-family="sans-serif">비급여/선별급여 ❌</text>
+
+  <g font-family="sans-serif">
+    <rect x="60" y="815" width="1080" height="70" fill="#1e293b" opacity="0.7"/>
+    <text x="145" y="845" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700">뇌·두경부</text>
+    <text x="520" y="840" text-anchor="middle" fill="#2DD4BF" font-size="13">뇌졸중·뇌종양·희귀난치 확진</text>
+    <text x="520" y="860" text-anchor="middle" fill="#CBD5E1" font-size="12">벼락·군발·조짐 편두통</text>
+    <text x="930" y="840" text-anchor="middle" fill="#FCA5A5" font-size="13">단순 두통·어지럼증</text>
+    <text x="930" y="860" text-anchor="middle" fill="#CBD5E1" font-size="12">선별급여 80% 부담</text>
+
+    <rect x="60" y="890" width="1080" height="70" fill="#1e293b" opacity="0.5"/>
+    <text x="145" y="920" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700">척추</text>
+    <text x="520" y="915" text-anchor="middle" fill="#2DD4BF" font-size="13">암·척수손상·척추골절·감염성</text>
+    <text x="520" y="935" text-anchor="middle" fill="#CBD5E1" font-size="12">퇴행성 중증 시 진단 1회만</text>
+    <text x="930" y="915" text-anchor="middle" fill="#FCA5A5" font-size="13">경미한 퇴행성 질환</text>
+    <text x="930" y="935" text-anchor="middle" fill="#CBD5E1" font-size="12">반복 촬영(2회째~)</text>
+
+    <rect x="60" y="965" width="1080" height="70" fill="#1e293b" opacity="0.7"/>
+    <text x="145" y="995" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700">관절</text>
+    <text x="520" y="990" text-anchor="middle" fill="#2DD4BF" font-size="13">무릎 급성 외상성 인대 손상</text>
+    <text x="520" y="1010" text-anchor="middle" fill="#CBD5E1" font-size="12">(한정 적용)</text>
+    <text x="930" y="990" text-anchor="middle" fill="#FCA5A5" font-size="13">어깨·발목·퇴행성 관절염</text>
+
+    <rect x="60" y="1040" width="1080" height="70" fill="#1e293b" opacity="0.5"/>
+    <text x="145" y="1070" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700">복부·흉부</text>
+    <text x="520" y="1065" text-anchor="middle" fill="#2DD4BF" font-size="13">암·간담석·심부전·백혈병 등</text>
+    <text x="520" y="1085" text-anchor="middle" fill="#CBD5E1" font-size="12">선행 검사 후 정밀 진단</text>
+    <text x="930" y="1065" text-anchor="middle" fill="#FCA5A5" font-size="13">검진용 촬영</text>
+    <text x="930" y="1085" text-anchor="middle" fill="#CBD5E1" font-size="12">선행 검사 미시행</text>
+  </g>
+
+  <!-- 비급여 가격 편차 -->
+  <text x="60" y="1160" fill="#FFFFFF" font-size="28" font-weight="800" font-family="sans-serif">비급여 가격 편차 — 심평원 공시</text>
+
+  <rect x="60" y="1190" width="1080" height="50" rx="8" fill="#0F766E"/>
+  <text x="180" y="1222" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="800" font-family="sans-serif">지역·종별</text>
+  <text x="500" y="1222" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="800" font-family="sans-serif">검사</text>
+  <text x="750" y="1222" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="800" font-family="sans-serif">최저가</text>
+  <text x="990" y="1222" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="800" font-family="sans-serif">최고가</text>
+
+  <g font-family="sans-serif">
+    <rect x="60" y="1245" width="1080" height="50" fill="#1e293b" opacity="0.7"/>
+    <text x="180" y="1275" text-anchor="middle" fill="#FFFFFF" font-size="14">전북 의원급</text>
+    <text x="500" y="1275" text-anchor="middle" fill="#FFFFFF" font-size="14">뇌 MRI</text>
+    <text x="750" y="1275" text-anchor="middle" fill="#2DD4BF" font-size="14" font-weight="700">91,270원</text>
+    <text x="990" y="1275" text-anchor="middle" fill="#FFFFFF" font-size="14">100,000원</text>
+
+    <rect x="60" y="1300" width="1080" height="50" fill="#1e293b" opacity="0.5"/>
+    <text x="180" y="1330" text-anchor="middle" fill="#FFFFFF" font-size="14">서울 전문병원</text>
+    <text x="500" y="1330" text-anchor="middle" fill="#FFFFFF" font-size="14">뇌 MRI</text>
+    <text x="750" y="1330" text-anchor="middle" fill="#FFFFFF" font-size="14">200,000원</text>
+    <text x="990" y="1330" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700">500,000원</text>
+
+    <rect x="60" y="1355" width="1080" height="50" fill="#1e293b" opacity="0.7"/>
+    <text x="180" y="1385" text-anchor="middle" fill="#FFFFFF" font-size="14">부산 종합병원</text>
+    <text x="500" y="1385" text-anchor="middle" fill="#FFFFFF" font-size="14">뇌 MRI</text>
+    <text x="750" y="1385" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700">450,000원</text>
+    <text x="990" y="1385" text-anchor="middle" fill="#CBD5E1" font-size="14">—</text>
+
+    <rect x="60" y="1410" width="1080" height="50" fill="#1e293b" opacity="0.5"/>
+    <text x="180" y="1440" text-anchor="middle" fill="#FFFFFF" font-size="14">대학병원(상급)</text>
+    <text x="500" y="1440" text-anchor="middle" fill="#FFFFFF" font-size="14">전신 MRI</text>
+    <text x="750" y="1440" text-anchor="middle" fill="#FFFFFF" font-size="14">175,000원</text>
+    <text x="990" y="1440" text-anchor="middle" fill="#F87171" font-size="14" font-weight="700">1,143,940원</text>
+
+    <rect x="60" y="1465" width="1080" height="50" fill="#1e293b" opacity="0.7"/>
+    <text x="180" y="1495" text-anchor="middle" fill="#FFFFFF" font-size="14">부산 일부</text>
+    <text x="500" y="1495" text-anchor="middle" fill="#FFFFFF" font-size="14">뇌 CT</text>
+    <text x="750" y="1495" text-anchor="middle" fill="#2DD4BF" font-size="14" font-weight="700">39,000원대</text>
+    <text x="990" y="1495" text-anchor="middle" fill="#CBD5E1" font-size="14">—</text>
+
+    <rect x="60" y="1520" width="1080" height="50" fill="#1e293b" opacity="0.5"/>
+    <text x="180" y="1550" text-anchor="middle" fill="#FFFFFF" font-size="14">서울 평균</text>
+    <text x="500" y="1550" text-anchor="middle" fill="#FFFFFF" font-size="14">뇌 CT</text>
+    <text x="750" y="1550" text-anchor="middle" fill="#FFFFFF" font-size="14">100,000원</text>
+    <text x="990" y="1550" text-anchor="middle" fill="#FFFFFF" font-size="14">150,000원</text>
+  </g>
+
+  <text x="60" y="1620" fill="#64748B" font-size="14" font-family="sans-serif">essencial | 건강·의료 silo · 출처: 건강보험심사평가원(2026.04) · 조영제·고사양 장비에 따라 변동</text>
+</svg>

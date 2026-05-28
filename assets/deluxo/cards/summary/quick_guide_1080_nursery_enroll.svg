@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <rect x="80" y="72" width="160" height="48" rx="24" fill="#F59E0B"/>
+  <text x="160" y="103" font-family="'Pretendard', sans-serif" font-size="22" font-weight="700" fill="#0B1F3B" text-anchor="middle">빠른 판단</text>
+
+  <text x="540" y="185" font-family="'Pretendard', sans-serif" font-size="40" font-weight="800" fill="#FFFFFF" text-anchor="middle">부모급여 vs 양육수당 빠른 비교</text>
+  <rect x="480" y="210" width="120" height="4" rx="2" fill="#F59E0B"/>
+
+  <!-- Left: 부모급여 -->
+  <rect x="60" y="260" width="460" height="620" rx="20" fill="rgba(245,158,11,0.08)" stroke="#F59E0B" stroke-width="1.5"/>
+  <text x="290" y="310" font-family="'Pretendard', sans-serif" font-size="32" font-weight="800" fill="#F59E0B" text-anchor="middle">부모급여</text>
+
+  <text x="100" y="370" font-family="'Pretendard', sans-serif" font-size="20" font-weight="600" fill="#F59E0B">대상</text>
+  <text x="100" y="400" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.9">만 0세: 월 100만 원</text>
+  <text x="100" y="430" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.9">만 1세: 월 50만 원</text>
+
+  <rect x="90" y="460" width="400" height="2" rx="1" fill="rgba(255,255,255,0.1)"/>
+
+  <text x="100" y="500" font-family="'Pretendard', sans-serif" font-size="20" font-weight="600" fill="#F59E0B">어린이집 이용 시</text>
+  <text x="100" y="535" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#F59E0B">보육료 차감 후 현금 지급</text>
+  <text x="100" y="570" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.8">0세: 100만−58.4만 = 41.6만</text>
+  <text x="100" y="600" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.8">1세: 보육료 초과 → 추가 없음</text>
+
+  <rect x="90" y="635" width="400" height="2" rx="1" fill="rgba(255,255,255,0.1)"/>
+
+  <text x="100" y="675" font-family="'Pretendard', sans-serif" font-size="20" font-weight="600" fill="#F59E0B">미이용 시</text>
+  <text x="100" y="710" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.8">전액 현금 지급</text>
+  <text x="100" y="740" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.8">(0세 100만 / 1세 50만)</text>
+
+  <text x="290" y="830" font-family="'Pretendard', sans-serif" font-size="20" font-weight="700" fill="#F59E0B" text-anchor="middle" opacity="0.9">0~1세 전용, 소득 무관</text>
+
+  <!-- Right: 양육수당 -->
+  <rect x="560" y="260" width="460" height="620" rx="20" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="790" y="310" font-family="'Pretendard', sans-serif" font-size="32" font-weight="800" fill="#FFFFFF" text-anchor="middle">양육수당</text>
+
+  <text x="600" y="370" font-family="'Pretendard', sans-serif" font-size="20" font-weight="600" fill="#F59E0B">대상</text>
+  <text x="600" y="400" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.9">24개월~86개월 미만</text>
+  <text x="600" y="430" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.9">어린이집 미이용 아동</text>
+
+  <rect x="590" y="460" width="400" height="2" rx="1" fill="rgba(255,255,255,0.1)"/>
+
+  <text x="600" y="500" font-family="'Pretendard', sans-serif" font-size="20" font-weight="600" fill="#F59E0B">지원 금액</text>
+  <text x="600" y="535" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">월 10만 원 고정</text>
+  <text x="600" y="570" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.8">부모급여 종료 후 전환</text>
+
+  <rect x="590" y="600" width="400" height="2" rx="1" fill="rgba(255,255,255,0.1)"/>
+
+  <text x="600" y="640" font-family="'Pretendard', sans-serif" font-size="20" font-weight="600" fill="#F59E0B">조건</text>
+  <text x="600" y="675" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.8">어린이집·유치원·종일제</text>
+  <text x="600" y="710" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.8">아이돌봄 미이용자만</text>
+
+  <rect x="590" y="745" width="400" height="2" rx="1" fill="rgba(255,255,255,0.1)"/>
+
+  <text x="790" y="830" font-family="'Pretendard', sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle" opacity="0.7">시설 미이용 시 신청 가능</text>
+
+  <!-- Bottom -->
+  <rect x="200" y="920" width="680" height="60" rx="16" fill="rgba(245,158,11,0.15)" stroke="#F59E0B" stroke-width="1"/>
+  <text x="540" y="958" font-family="'Pretendard', sans-serif" font-size="24" font-weight="800" fill="#F59E0B" text-anchor="middle">부모급여 → 양육수당 15일 이내 자격 전환!</text>
+</svg>

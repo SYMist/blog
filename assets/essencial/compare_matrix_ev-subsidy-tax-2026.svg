@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <!-- Title -->
+  <text x="540" y="55" text-anchor="middle" fill="#FFFFFF" font-size="34" font-weight="900" font-family="Pretendard,sans-serif">전기차 보조금·세금 혜택 비교 매트릭스</text>
+  <text x="540" y="88" text-anchor="middle" fill="#94A3B8" font-size="18" font-family="Pretendard,sans-serif">2026년 4월 기준 — 서울특별시 일반 개인</text>
+
+  <!-- Table Header -->
+  <rect x="30" y="110" width="1020" height="44" rx="10" fill="#1E40AF"/>
+  <text x="110" y="138" text-anchor="middle" fill="#FFF" font-size="14" font-weight="800" font-family="Pretendard,sans-serif">모델</text>
+  <text x="240" y="138" text-anchor="middle" fill="#FFF" font-size="14" font-weight="800" font-family="Pretendard,sans-serif">판매가</text>
+  <text x="350" y="138" text-anchor="middle" fill="#FFF" font-size="14" font-weight="800" font-family="Pretendard,sans-serif">국비</text>
+  <text x="450" y="138" text-anchor="middle" fill="#FFF" font-size="14" font-weight="800" font-family="Pretendard,sans-serif">서울시</text>
+  <text x="550" y="138" text-anchor="middle" fill="#FFF" font-size="14" font-weight="800" font-family="Pretendard,sans-serif">세제감면</text>
+  <text x="660" y="138" text-anchor="middle" fill="#FFF" font-size="14" font-weight="800" font-family="Pretendard,sans-serif">실구매가</text>
+  <text x="780" y="138" text-anchor="middle" fill="#FFF" font-size="14" font-weight="800" font-family="Pretendard,sans-serif">배터리</text>
+  <text x="900" y="138" text-anchor="middle" fill="#FFF" font-size="14" font-weight="800" font-family="Pretendard,sans-serif">보조금100%</text>
+
+  <!-- Row 1: 캐스퍼 -->
+  <rect x="30" y="158" width="1020" height="44" fill="#1E293B"/>
+  <text x="110" y="186" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700" font-family="Pretendard,sans-serif">캐스퍼EV</text>
+  <text x="240" y="186" text-anchor="middle" fill="#94A3B8" font-size="15" font-weight="600" font-family="Pretendard,sans-serif">3,137만</text>
+  <text x="350" y="186" text-anchor="middle" fill="#86EFAC" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">530만</text>
+  <text x="450" y="186" text-anchor="middle" fill="#93C5FD" font-size="15" font-weight="700" font-family="Pretendard,sans-serif">150만</text>
+  <text x="550" y="186" text-anchor="middle" fill="#FDE68A" font-size="15" font-weight="700" font-family="Pretendard,sans-serif">~430만</text>
+  <rect x="615" y="172" width="90" height="26" rx="13" fill="#22C55E"/>
+  <text x="660" y="190" text-anchor="middle" fill="#FFF" font-size="14" font-weight="800" font-family="Pretendard,sans-serif">2,450만</text>
+  <text x="780" y="186" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="Pretendard,sans-serif">NCM</text>
+  <text x="900" y="186" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="800" font-family="Pretendard,sans-serif">O</text>
+
+  <!-- Row 2: EV3 -->
+  <rect x="30" y="206" width="1020" height="44" fill="#0F172A"/>
+  <text x="110" y="234" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700" font-family="Pretendard,sans-serif">기아 EV3</text>
+  <text x="240" y="234" text-anchor="middle" fill="#94A3B8" font-size="15" font-weight="600" font-family="Pretendard,sans-serif">4,200만</text>
+  <text x="350" y="234" text-anchor="middle" fill="#86EFAC" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">530만</text>
+  <text x="450" y="234" text-anchor="middle" fill="#93C5FD" font-size="15" font-weight="700" font-family="Pretendard,sans-serif">150만</text>
+  <text x="550" y="234" text-anchor="middle" fill="#FDE68A" font-size="15" font-weight="700" font-family="Pretendard,sans-serif">~430만</text>
+  <rect x="615" y="220" width="90" height="26" rx="13" fill="#22C55E"/>
+  <text x="660" y="238" text-anchor="middle" fill="#FFF" font-size="14" font-weight="800" font-family="Pretendard,sans-serif">3,520만</text>
+  <text x="780" y="234" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="Pretendard,sans-serif">NCM</text>
+  <text x="900" y="234" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="800" font-family="Pretendard,sans-serif">O</text>
+
+  <!-- Row 3: 아이오닉 5 -->
+  <rect x="30" y="254" width="1020" height="44" fill="#1E293B"/>
+  <text x="110" y="282" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700" font-family="Pretendard,sans-serif">아이오닉5</text>
+  <text x="240" y="282" text-anchor="middle" fill="#94A3B8" font-size="15" font-weight="600" font-family="Pretendard,sans-serif">5,200만</text>
+  <text x="350" y="282" text-anchor="middle" fill="#86EFAC" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">650만</text>
+  <text x="450" y="282" text-anchor="middle" fill="#93C5FD" font-size="15" font-weight="700" font-family="Pretendard,sans-serif">200만</text>
+  <text x="550" y="282" text-anchor="middle" fill="#FDE68A" font-size="15" font-weight="700" font-family="Pretendard,sans-serif">~430만</text>
+  <text x="660" y="282" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">4,350만</text>
+  <text x="780" y="282" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="Pretendard,sans-serif">NCM</text>
+  <text x="900" y="282" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="800" font-family="Pretendard,sans-serif">O</text>
+
+  <!-- Row 4: EV6 -->
+  <rect x="30" y="302" width="1020" height="44" fill="#0F172A"/>
+  <text x="110" y="330" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700" font-family="Pretendard,sans-serif">기아 EV6</text>
+  <text x="240" y="330" text-anchor="middle" fill="#94A3B8" font-size="15" font-weight="600" font-family="Pretendard,sans-serif">5,500만</text>
+  <text x="350" y="330" text-anchor="middle" fill="#86EFAC" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">570만</text>
+  <text x="450" y="330" text-anchor="middle" fill="#93C5FD" font-size="15" font-weight="700" font-family="Pretendard,sans-serif">190만</text>
+  <text x="550" y="330" text-anchor="middle" fill="#FDE68A" font-size="15" font-weight="700" font-family="Pretendard,sans-serif">~430만</text>
+  <text x="660" y="330" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">4,740만</text>
+  <text x="780" y="330" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="Pretendard,sans-serif">NCM</text>
+  <text x="900" y="330" text-anchor="middle" fill="#FDE68A" font-size="14" font-weight="800" font-family="Pretendard,sans-serif">50%</text>
+
+  <!-- Row 5: 아이오닉 6 -->
+  <rect x="30" y="350" width="1020" height="44" fill="#1E293B"/>
+  <text x="110" y="378" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700" font-family="Pretendard,sans-serif">아이오닉6</text>
+  <text x="240" y="378" text-anchor="middle" fill="#94A3B8" font-size="15" font-weight="600" font-family="Pretendard,sans-serif">5,800만</text>
+  <text x="350" y="378" text-anchor="middle" fill="#86EFAC" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">570만</text>
+  <text x="450" y="378" text-anchor="middle" fill="#93C5FD" font-size="15" font-weight="700" font-family="Pretendard,sans-serif">180만</text>
+  <text x="550" y="378" text-anchor="middle" fill="#FDE68A" font-size="15" font-weight="700" font-family="Pretendard,sans-serif">~430만</text>
+  <text x="660" y="378" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">5,040만</text>
+  <text x="780" y="378" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="Pretendard,sans-serif">NCM</text>
+  <text x="900" y="378" text-anchor="middle" fill="#FDE68A" font-size="14" font-weight="800" font-family="Pretendard,sans-serif">50%</text>
+
+  <!-- Row 6: 모델 3 -->
+  <rect x="30" y="398" width="1020" height="44" fill="#0F172A"/>
+  <text x="110" y="426" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700" font-family="Pretendard,sans-serif">모델3 LR</text>
+  <text x="240" y="426" text-anchor="middle" fill="#94A3B8" font-size="15" font-weight="600" font-family="Pretendard,sans-serif">5,999만</text>
+  <text x="350" y="426" text-anchor="middle" fill="#FDE68A" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">420만</text>
+  <text x="450" y="426" text-anchor="middle" fill="#93C5FD" font-size="15" font-weight="700" font-family="Pretendard,sans-serif">130만</text>
+  <text x="550" y="426" text-anchor="middle" fill="#FDE68A" font-size="15" font-weight="700" font-family="Pretendard,sans-serif">~430만</text>
+  <text x="660" y="426" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">5,449만</text>
+  <text x="780" y="426" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="Pretendard,sans-serif">NCM</text>
+  <text x="900" y="426" text-anchor="middle" fill="#FDE68A" font-size="14" font-weight="800" font-family="Pretendard,sans-serif">50%</text>
+
+  <!-- Row 7: 모델 Y -->
+  <rect x="30" y="446" width="1020" height="44" fill="#1E293B"/>
+  <text x="110" y="474" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700" font-family="Pretendard,sans-serif">모델Y RWD</text>
+  <text x="240" y="474" text-anchor="middle" fill="#94A3B8" font-size="15" font-weight="600" font-family="Pretendard,sans-serif">5,499만</text>
+  <text x="350" y="474" text-anchor="middle" fill="#F87171" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">252만</text>
+  <text x="450" y="474" text-anchor="middle" fill="#93C5FD" font-size="15" font-weight="700" font-family="Pretendard,sans-serif">80만</text>
+  <text x="550" y="474" text-anchor="middle" fill="#FDE68A" font-size="15" font-weight="700" font-family="Pretendard,sans-serif">~430만</text>
+  <text x="660" y="474" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">5,167만</text>
+  <rect x="742" y="460" width="76" height="26" rx="13" fill="#EF4444"/>
+  <text x="780" y="478" text-anchor="middle" fill="#FFF" font-size="13" font-weight="800" font-family="Pretendard,sans-serif">LFP</text>
+  <text x="900" y="474" text-anchor="middle" fill="#FDE68A" font-size="14" font-weight="800" font-family="Pretendard,sans-serif">50%</text>
+
+  <!-- 세제 감면 상세 -->
+  <text x="540" y="540" text-anchor="middle" fill="#93C5FD" font-size="22" font-weight="800" font-family="Pretendard,sans-serif">세제 감면 내역 (최대 기준)</text>
+
+  <rect x="30" y="560" width="240" height="110" rx="14" fill="#1E293B" stroke="#1D4ED8" stroke-width="1.5"/>
+  <text x="150" y="590" text-anchor="middle" fill="#93C5FD" font-size="16" font-weight="700" font-family="Pretendard,sans-serif">개별소비세</text>
+  <text x="150" y="625" text-anchor="middle" fill="#FFFFFF" font-size="28" font-weight="900" font-family="Pretendard,sans-serif">-300만</text>
+  <text x="150" y="655" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="Pretendard,sans-serif">차량가격 5% 중 감면</text>
+
+  <rect x="290" y="560" width="200" height="110" rx="14" fill="#1E293B" stroke="#1D4ED8" stroke-width="1.5"/>
+  <text x="390" y="590" text-anchor="middle" fill="#93C5FD" font-size="16" font-weight="700" font-family="Pretendard,sans-serif">교육세</text>
+  <text x="390" y="625" text-anchor="middle" fill="#FFFFFF" font-size="28" font-weight="900" font-family="Pretendard,sans-serif">-90만</text>
+  <text x="390" y="655" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="Pretendard,sans-serif">개소세 30% 연동</text>
+
+  <rect x="510" y="560" width="200" height="110" rx="14" fill="#1E293B" stroke="#22C55E" stroke-width="1.5"/>
+  <text x="610" y="590" text-anchor="middle" fill="#86EFAC" font-size="16" font-weight="700" font-family="Pretendard,sans-serif">취득세</text>
+  <text x="610" y="625" text-anchor="middle" fill="#FFFFFF" font-size="28" font-weight="900" font-family="Pretendard,sans-serif">-140만</text>
+  <text x="610" y="655" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="Pretendard,sans-serif">가액 7% 중 감면</text>
+
+  <rect x="730" y="560" width="320" height="110" rx="14" fill="#1E293B" stroke="#F59E0B" stroke-width="1.5"/>
+  <text x="890" y="590" text-anchor="middle" fill="#FDE68A" font-size="16" font-weight="700" font-family="Pretendard,sans-serif">공채 면제 + 부가세</text>
+  <text x="890" y="625" text-anchor="middle" fill="#FFFFFF" font-size="28" font-weight="900" font-family="Pretendard,sans-serif">-250만+a</text>
+  <text x="890" y="655" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="Pretendard,sans-serif">도시철도채권 면제 + 부가세 연쇄</text>
+
+  <!-- 추가 인센티브 -->
+  <text x="540" y="720" text-anchor="middle" fill="#93C5FD" font-size="22" font-weight="800" font-family="Pretendard,sans-serif">추가 인센티브</text>
+
+  <rect x="30" y="740" width="330" height="80" rx="12" fill="#1E293B" stroke="#F59E0B" stroke-width="1.5"/>
+  <text x="195" y="770" text-anchor="middle" fill="#FDE68A" font-size="16" font-weight="700" font-family="Pretendard,sans-serif">내연차 전환</text>
+  <text x="195" y="800" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800" font-family="Pretendard,sans-serif">최대 130만 원 추가</text>
+
+  <rect x="380" y="740" width="310" height="80" rx="12" fill="#1E293B" stroke="#8B5CF6" stroke-width="1.5"/>
+  <text x="535" y="770" text-anchor="middle" fill="#C4B5FD" font-size="16" font-weight="700" font-family="Pretendard,sans-serif">청년 (19~34세 첫 차)</text>
+  <text x="535" y="800" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800" font-family="Pretendard,sans-serif">국비의 20% 추가</text>
+
+  <rect x="710" y="740" width="340" height="80" rx="12" fill="#1E293B" stroke="#22C55E" stroke-width="1.5"/>
+  <text x="880" y="770" text-anchor="middle" fill="#86EFAC" font-size="16" font-weight="700" font-family="Pretendard,sans-serif">다자녀 (2~4자녀+)</text>
+  <text x="880" y="800" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800" font-family="Pretendard,sans-serif">100~300만 원 추가</text>
+
+  <!-- Insight -->
+  <rect x="30" y="850" width="1020" height="65" rx="14" fill="#1E40AF" opacity="0.15"/>
+  <rect x="30" y="850" width="1020" height="65" rx="14" stroke="#1D4ED8" stroke-width="2" fill="none"/>
+  <text x="540" y="890" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800" font-family="Pretendard,sans-serif">NCM 배터리 + 5,300만 미만 + 전환 지원금 = 보조금 극대화 조합</text>
+
+  <!-- Legend -->
+  <circle cx="300" cy="955" r="7" fill="#86EFAC"/>
+  <text x="316" y="960" fill="#94A3B8" font-size="14" font-family="Pretendard,sans-serif">100% 보조금</text>
+  <circle cx="430" cy="955" r="7" fill="#FDE68A"/>
+  <text x="446" y="960" fill="#94A3B8" font-size="14" font-family="Pretendard,sans-serif">50% 보조금</text>
+  <circle cx="560" cy="955" r="7" fill="#F87171"/>
+  <text x="576" y="960" fill="#94A3B8" font-size="14" font-family="Pretendard,sans-serif">LFP 불리</text>
+
+  <!-- Footer -->
+  <text x="540" y="1055" text-anchor="middle" fill="#64748B" font-size="15" font-family="Pretendard,sans-serif">essencial | 2026년 4월 기준 기후에너지환경부·서울시 공고 반영</text>
+</svg>

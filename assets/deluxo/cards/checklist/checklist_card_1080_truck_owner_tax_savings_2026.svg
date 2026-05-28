@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="8" fill="#F59E0B"/>
+
+  <!-- Title -->
+  <text x="540" y="68" font-family="-apple-system, sans-serif" font-size="34" font-weight="900" fill="#FFFFFF" text-anchor="middle">신청 전 1분 체크리스트</text>
+  <text x="540" y="106" font-family="-apple-system, sans-serif" font-size="21" font-weight="600" fill="#F59E0B" text-anchor="middle">화물차 사업자 세금 절감 (2026)</text>
+
+  <!-- Item 1 -->
+  <rect x="40" y="140" width="1000" height="120" rx="12" fill="#1A3270"/>
+  <rect x="40" y="140" width="8" height="120" rx="4" fill="#34D399"/>
+  <rect x="66" y="166" width="48" height="48" rx="8" fill="#34D399" opacity="0.2"/>
+  <rect x="66" y="166" width="48" height="48" rx="8" fill="none" stroke="#34D399" stroke-width="2"/>
+  <text x="90" y="198" font-family="-apple-system, sans-serif" font-size="26" font-weight="900" fill="#34D399" text-anchor="middle">✓</text>
+  <text x="140" y="188" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">번호판 종류 확인 (노란색 = 영업용)</text>
+  <text x="140" y="216" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">유가보조금·자동차세 혜택 적용 여부 결정 — 영업용 화물차(노란 번호판)만 해당</text>
+
+  <!-- Item 2 -->
+  <rect x="40" y="272" width="1000" height="120" rx="12" fill="#102A56"/>
+  <rect x="40" y="272" width="8" height="120" rx="4" fill="#34D399"/>
+  <rect x="66" y="298" width="48" height="48" rx="8" fill="#34D399" opacity="0.2"/>
+  <rect x="66" y="298" width="48" height="48" rx="8" fill="none" stroke="#34D399" stroke-width="2"/>
+  <text x="90" y="330" font-family="-apple-system, sans-serif" font-size="26" font-weight="900" fill="#34D399" text-anchor="middle">✓</text>
+  <text x="140" y="320" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">배출가스 등급 확인 (mecar.or.kr)</text>
+  <text x="140" y="348" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">4등급 → 조기폐차 최대 800만원 / 5등급 → 2026년 마감 300만원</text>
+
+  <!-- Item 3 -->
+  <rect x="40" y="404" width="1000" height="120" rx="12" fill="#1A3270"/>
+  <rect x="40" y="404" width="8" height="120" rx="4" fill="#34D399"/>
+  <rect x="66" y="430" width="48" height="48" rx="8" fill="#34D399" opacity="0.2"/>
+  <rect x="66" y="430" width="48" height="48" rx="8" fill="none" stroke="#34D399" stroke-width="2"/>
+  <text x="90" y="462" font-family="-apple-system, sans-serif" font-size="26" font-weight="900" fill="#34D399" text-anchor="middle">✓</text>
+  <text x="140" y="452" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">전기화물차 보조금 사전 조회 (ev.or.kr)</text>
+  <text x="140" y="480" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">차종·지역 입력 후 국비+지자체 합산 금액 확인 — 예산 조기 소진 주의</text>
+
+  <!-- Item 4 -->
+  <rect x="40" y="536" width="1000" height="120" rx="12" fill="#102A56"/>
+  <rect x="40" y="536" width="8" height="120" rx="4" fill="#34D399"/>
+  <rect x="66" y="562" width="48" height="48" rx="8" fill="#34D399" opacity="0.2"/>
+  <rect x="66" y="562" width="48" height="48" rx="8" fill="none" stroke="#34D399" stroke-width="2"/>
+  <text x="90" y="594" font-family="-apple-system, sans-serif" font-size="26" font-weight="900" fill="#34D399" text-anchor="middle">✓</text>
+  <text x="140" y="584" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">유가보조금 미신청이면 카드사 즉시 신청</text>
+  <text x="140" y="612" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">사업자등록증 + 자동차등록증 + 화물운송 자격증 3종 준비 → 카드사 제출</text>
+
+  <!-- Item 5 -->
+  <rect x="40" y="668" width="1000" height="120" rx="12" fill="#1A3270"/>
+  <rect x="40" y="668" width="8" height="120" rx="4" fill="#34D399"/>
+  <rect x="66" y="694" width="48" height="48" rx="8" fill="#34D399" opacity="0.2"/>
+  <rect x="66" y="694" width="48" height="48" rx="8" fill="none" stroke="#34D399" stroke-width="2"/>
+  <text x="90" y="726" font-family="-apple-system, sans-serif" font-size="26" font-weight="900" fill="#34D399" text-anchor="middle">✓</text>
+  <text x="140" y="716" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">5등급 보유자: 2026년 10월 전 신청 시작</text>
+  <text x="140" y="744" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">처리까지 3~6주 소요 — 11월 이후엔 연내 완료 어려울 수 있음</text>
+
+  <!-- Item 6 -->
+  <rect x="40" y="800" width="1000" height="120" rx="12" fill="#102A56"/>
+  <rect x="40" y="800" width="8" height="120" rx="4" fill="#34D399"/>
+  <rect x="66" y="826" width="48" height="48" rx="8" fill="#34D399" opacity="0.2"/>
+  <rect x="66" y="826" width="48" height="48" rx="8" fill="none" stroke="#34D399" stroke-width="2"/>
+  <text x="90" y="858" font-family="-apple-system, sans-serif" font-size="26" font-weight="900" fill="#34D399" text-anchor="middle">✓</text>
+  <text x="140" y="848" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">의무운행 기간 숙지 (2~5년)</text>
+  <text x="140" y="876" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">전기화물차 보조금 수령 후 기간 내 매각 시 환수 가능 — 사업계획 반영</text>
+
+  <!-- Footer -->
+  <text x="540" y="966" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0" text-anchor="middle">6개 항목 모두 확인 완료 → 혜택 신청 준비 완료!</text>
+  <text x="540" y="994" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">유가보조금 ☎ 1588-8713 | 조기폐차 ☎ 1577-7121</text>
+  <text x="540" y="1020" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준</text>
+
+  <rect x="0" y="1072" width="1080" height="8" fill="#F59E0B"/>
+</svg>

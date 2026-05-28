@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <text x="540" y="130" font-family="'Pretendard', sans-serif" font-size="46" font-weight="900" fill="#F59E0B" text-anchor="middle">신청 전 1분 체크리스트</text>
+  <text x="540" y="210" font-family="'Pretendard', sans-serif" font-size="54" font-weight="900" fill="#FFFFFF" text-anchor="middle">월세·주택자금 8점검</text>
+
+  <g font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#EAF2FF">
+    <rect x="60" y="280" width="44" height="44" rx="10" fill="#10B981"/>
+    <text x="82" y="312" fill="#FFFFFF" font-weight="900" text-anchor="middle">✓</text>
+    <text x="130" y="312">임대차계약서 주소 = 등본 주소 (전입신고 완료)</text>
+
+    <rect x="60" y="355" width="44" height="44" rx="10" fill="#10B981"/>
+    <text x="82" y="387" fill="#FFFFFF" font-weight="900" text-anchor="middle">✓</text>
+    <text x="130" y="387">월세 본인 계좌 → 임대인 계좌 자동이체 설정</text>
+
+    <rect x="60" y="430" width="44" height="44" rx="10" fill="#10B981"/>
+    <text x="82" y="462" fill="#FFFFFF" font-weight="900" text-anchor="middle">✓</text>
+    <text x="130" y="462">총급여 5,500만/8,000만 구간 확인 (17%·15%)</text>
+
+    <rect x="60" y="505" width="44" height="44" rx="10" fill="#10B981"/>
+    <text x="82" y="537" fill="#FFFFFF" font-weight="900" text-anchor="middle">✓</text>
+    <text x="130" y="537">전세대출 차주 = 본인 + 임대인 계좌 직접 입금</text>
+
+    <rect x="60" y="580" width="44" height="44" rx="10" fill="#10B981"/>
+    <text x="82" y="612" fill="#FFFFFF" font-weight="900" text-anchor="middle">✓</text>
+    <text x="130" y="612">주담대 취득 + 3개월 이내 차입 + 본인 명의</text>
+
+    <rect x="60" y="655" width="44" height="44" rx="10" fill="#10B981"/>
+    <text x="82" y="687" fill="#FFFFFF" font-weight="900" text-anchor="middle">✓</text>
+    <text x="130" y="687">청약통장 월 25만 자동이체 (연 300만 활용)</text>
+
+    <rect x="60" y="730" width="44" height="44" rx="10" fill="#10B981"/>
+    <text x="82" y="762" fill="#FFFFFF" font-weight="900" text-anchor="middle">✓</text>
+    <text x="130" y="762">5년 누락분 홈택스 경정청구 검토 (가산금 3.1%)</text>
+
+    <rect x="60" y="805" width="44" height="44" rx="10" fill="#10B981"/>
+    <text x="82" y="837" fill="#FFFFFF" font-weight="900" text-anchor="middle">✓</text>
+    <text x="130" y="837">1.15부터 간소화 자료 + 월세 증빙 별도 첨부</text>
+  </g>
+
+  <rect x="60" y="900" width="960" height="140" rx="20" fill="#F59E0B"/>
+  <text x="540" y="955" font-family="'Pretendard', sans-serif" font-size="32" font-weight="900" fill="#0B1F3B" text-anchor="middle">8개 모두 ✓면 환급 준비 완료</text>
+  <text x="540" y="1005" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#0B1F3B" text-anchor="middle">홈택스 hometax.go.kr · 국세상담센터 126</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <text x="540" y="130" font-family="'Pretendard', sans-serif" font-size="46" font-weight="900" fill="#F59E0B" text-anchor="middle">2026 개인회생 4대 변화</text>
+  <text x="540" y="210" font-family="'Pretendard', sans-serif" font-size="54" font-weight="900" fill="#FFFFFF" text-anchor="middle">한눈에 비교</text>
+
+  <rect x="60" y="270" width="960" height="170" rx="24" fill="#1A3270"/>
+  <text x="100" y="325" font-family="'Pretendard', sans-serif" font-size="32" font-weight="900" fill="#F59E0B">① 최저생계비 7.2%↑</text>
+  <text x="100" y="375" font-family="'Pretendard', sans-serif" font-size="30" font-weight="800" fill="#FFFFFF">1인 가구 1,538,543원</text>
+  <text x="100" y="415" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF">36개월 기준 약 360만 원 변제금 절감</text>
+
+  <rect x="60" y="460" width="960" height="170" rx="24" fill="#1A3270"/>
+  <text x="100" y="515" font-family="'Pretendard', sans-serif" font-size="32" font-weight="900" fill="#F59E0B">② 전국 회생법원 시대</text>
+  <text x="100" y="565" font-family="'Pretendard', sans-serif" font-size="30" font-weight="800" fill="#FFFFFF">서울·부산·수원·대전 등 개막</text>
+  <text x="100" y="605" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF">전문 판사 배치 · 표준 준칙 정교화</text>
+
+  <rect x="60" y="650" width="960" height="170" rx="24" fill="#1A3270"/>
+  <text x="100" y="705" font-family="'Pretendard', sans-serif" font-size="32" font-weight="900" fill="#F59E0B">③ 주식·코인 청산가치 제외</text>
+  <text x="100" y="755" font-family="'Pretendard', sans-serif" font-size="30" font-weight="800" fill="#FFFFFF">투자 손실금 변제 금액에서 빠짐</text>
+  <text x="100" y="795" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF">단, 마이데이터로 사치성 지출 정밀 심사</text>
+
+  <rect x="60" y="840" width="960" height="170" rx="24" fill="#F59E0B"/>
+  <text x="100" y="895" font-family="'Pretendard', sans-serif" font-size="32" font-weight="900" fill="#0B1F3B">④ 압류금지 185→250만 원</text>
+  <text x="100" y="945" font-family="'Pretendard', sans-serif" font-size="30" font-weight="800" fill="#0B1F3B">2026.02.01 민사집행법 시행령 개정</text>
+  <text x="100" y="985" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#0B1F3B">개인회생 진행 중 생계 보호 강화</text>
+</svg>

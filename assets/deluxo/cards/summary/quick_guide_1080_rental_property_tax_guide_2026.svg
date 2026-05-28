@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="8" fill="#F59E0B"/>
+
+  <!-- Title -->
+  <text x="540" y="70" font-family="-apple-system, sans-serif" font-size="36" font-weight="900" fill="#F59E0B" text-anchor="middle">분리과세 vs 종합과세</text>
+  <text x="540" y="110" font-family="-apple-system, sans-serif" font-size="24" font-weight="700" fill="#A0B4D0" text-anchor="middle">내 상황에 맞는 임대소득 과세 방식 10초 판단</text>
+
+  <!-- Column headers -->
+  <rect x="60" y="140" width="460" height="56" rx="10" fill="#1D4ED8"/>
+  <text x="290" y="175" font-family="-apple-system, sans-serif" font-size="24" font-weight="900" fill="#FFFFFF" text-anchor="middle">분리과세 (14%)</text>
+
+  <rect x="560" y="140" width="460" height="56" rx="10" fill="#1A3270"/>
+  <text x="790" y="175" font-family="-apple-system, sans-serif" font-size="24" font-weight="900" fill="#FFFFFF" text-anchor="middle">종합과세 (6~45%)</text>
+
+  <!-- Row 1 -->
+  <rect x="60" y="212" width="460" height="84" rx="8" fill="#102A56"/>
+  <text x="290" y="246" font-family="-apple-system, sans-serif" font-size="17" font-weight="700" fill="#A0B4D0" text-anchor="middle">적용 대상</text>
+  <text x="290" y="278" font-family="-apple-system, sans-serif" font-size="19" font-weight="900" fill="#FFFFFF" text-anchor="middle">임대수입 연 2,000만원 이하</text>
+
+  <rect x="560" y="212" width="460" height="84" rx="8" fill="#0D2347"/>
+  <text x="790" y="246" font-family="-apple-system, sans-serif" font-size="17" font-weight="700" fill="#A0B4D0" text-anchor="middle">적용 대상</text>
+  <text x="790" y="278" font-family="-apple-system, sans-serif" font-size="19" font-weight="900" fill="#FFFFFF" text-anchor="middle">임대수입 전체 (의무)</text>
+
+  <!-- Row 2 -->
+  <rect x="60" y="308" width="460" height="84" rx="8" fill="#0D2347"/>
+  <text x="290" y="342" font-family="-apple-system, sans-serif" font-size="17" font-weight="700" fill="#A0B4D0" text-anchor="middle">세율</text>
+  <text x="290" y="374" font-family="-apple-system, sans-serif" font-size="28" font-weight="900" fill="#34D399" text-anchor="middle">14% 고정</text>
+
+  <rect x="560" y="308" width="460" height="84" rx="8" fill="#102A56"/>
+  <text x="790" y="342" font-family="-apple-system, sans-serif" font-size="17" font-weight="700" fill="#A0B4D0" text-anchor="middle">세율</text>
+  <text x="790" y="374" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="middle">6~45% 누진</text>
+
+  <!-- Row 3 -->
+  <rect x="60" y="404" width="460" height="84" rx="8" fill="#102A56"/>
+  <text x="290" y="438" font-family="-apple-system, sans-serif" font-size="17" font-weight="700" fill="#A0B4D0" text-anchor="middle">타 소득 합산</text>
+  <text x="290" y="470" font-family="-apple-system, sans-serif" font-size="24" font-weight="900" fill="#34D399" text-anchor="middle">❌ 분리</text>
+
+  <rect x="560" y="404" width="460" height="84" rx="8" fill="#0D2347"/>
+  <text x="790" y="438" font-family="-apple-system, sans-serif" font-size="17" font-weight="700" fill="#A0B4D0" text-anchor="middle">타 소득 합산</text>
+  <text x="790" y="470" font-family="-apple-system, sans-serif" font-size="24" font-weight="900" fill="#F59E0B" text-anchor="middle">✅ 합산 후 누진</text>
+
+  <!-- Row 4 -->
+  <rect x="60" y="500" width="460" height="84" rx="8" fill="#0D2347"/>
+  <text x="290" y="534" font-family="-apple-system, sans-serif" font-size="17" font-weight="700" fill="#A0B4D0" text-anchor="middle">유리한 경우</text>
+  <text x="290" y="566" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF" text-anchor="middle">타 소득 많을 때</text>
+
+  <rect x="560" y="500" width="460" height="84" rx="8" fill="#102A56"/>
+  <text x="790" y="534" font-family="-apple-system, sans-serif" font-size="17" font-weight="700" fill="#A0B4D0" text-anchor="middle">유리한 경우</text>
+  <text x="790" y="566" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF" text-anchor="middle">임대소득만 있을 때</text>
+
+  <!-- Row 5: 추천 대상 -->
+  <rect x="60" y="596" width="460" height="84" rx="8" fill="#1D4ED8" opacity="0.3"/>
+  <rect x="60" y="596" width="460" height="84" rx="8" fill="none" stroke="#1D4ED8" stroke-width="2"/>
+  <text x="290" y="630" font-family="-apple-system, sans-serif" font-size="17" font-weight="700" fill="#A0B4D0" text-anchor="middle">추천 대상</text>
+  <text x="290" y="662" font-family="-apple-system, sans-serif" font-size="17" font-weight="800" fill="#EAF2FF" text-anchor="middle">직장인·자영업자 부업 임대인</text>
+
+  <rect x="560" y="596" width="460" height="84" rx="8" fill="#1A3270" opacity="0.5"/>
+  <rect x="560" y="596" width="460" height="84" rx="8" fill="none" stroke="#1A3270" stroke-width="2"/>
+  <text x="790" y="630" font-family="-apple-system, sans-serif" font-size="17" font-weight="700" fill="#A0B4D0" text-anchor="middle">추천 대상</text>
+  <text x="790" y="662" font-family="-apple-system, sans-serif" font-size="17" font-weight="800" fill="#EAF2FF" text-anchor="middle">임대소득이 유일한 소득원</text>
+
+  <!-- VS divider -->
+  <circle cx="540" cy="450" r="32" fill="#F59E0B"/>
+  <text x="540" y="458" font-family="-apple-system, sans-serif" font-size="20" font-weight="900" fill="#0B1F3B" text-anchor="middle">VS</text>
+
+  <!-- Tip box -->
+  <rect x="60" y="706" width="960" height="110" rx="12" fill="#1A3270"/>
+  <text x="540" y="742" font-family="-apple-system, sans-serif" font-size="20" font-weight="700" fill="#F59E0B" text-anchor="middle">홈택스 모의 계산으로 두 방식 비교 후 유리한 방식으로 신고 선택 가능</text>
+  <text x="540" y="774" font-family="-apple-system, sans-serif" font-size="18" fill="#EAF2FF" text-anchor="middle">매년 신고 시 선택 가능 — 소득 변동에 따라 매년 변경 신청 OK</text>
+  <text x="540" y="802" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">임대소득 신고 기간: 매년 5월 1일~31일 | hometax.go.kr</text>
+
+  <!-- Bottom note -->
+  <text x="540" y="960" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준 | 개인 상황에 따라 달라질 수 있으니 세무 전문가 확인 권장</text>
+  <rect x="0" y="1072" width="1080" height="8" fill="#F59E0B"/>
+</svg>

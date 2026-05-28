@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 660">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="660" fill="url(#bg)"/>
+
+  <text x="540" y="48" text-anchor="middle" fill="#FFFFFF" font-size="24" font-weight="800" font-family="sans-serif">LPG · 가솔린 · 디젤 · 하이브리드 5년 TCO 매트릭스</text>
+  <text x="540" y="74" text-anchor="middle" fill="#93C5FD" font-size="14" font-family="sans-serif">동급 중형 SUV · 연 1만 5천km · 5년 7만 5천km · 2026.05 기준</text>
+
+  <!-- Table header -->
+  <rect x="40" y="98" width="1000" height="44" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="120" y="126" text-anchor="middle" fill="#F8FAFC" font-size="14" font-weight="800" font-family="sans-serif">구분</text>
+  <text x="300" y="126" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="800" font-family="sans-serif">LPG</text>
+  <text x="480" y="126" text-anchor="middle" fill="#67E8F9" font-size="14" font-weight="800" font-family="sans-serif">가솔린</text>
+  <text x="660" y="126" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="800" font-family="sans-serif">디젤</text>
+  <text x="850" y="126" text-anchor="middle" fill="#BFDBFE" font-size="14" font-weight="800" font-family="sans-serif">하이브리드</text>
+  <text x="990" y="126" text-anchor="middle" fill="#F8FAFC" font-size="14" font-weight="800" font-family="sans-serif">최저</text>
+
+  <!-- Row 1: 연료 단가 -->
+  <rect x="40" y="146" width="1000" height="40" fill="#0f172a" fill-opacity="0.5"/>
+  <text x="55" y="172" fill="#F1F5F9" font-size="13" font-family="sans-serif">연료 단가 (원/L)</text>
+  <text x="300" y="172" text-anchor="middle" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">1,100원</text>
+  <text x="480" y="172" text-anchor="middle" fill="#67E8F9" font-size="13" font-weight="700" font-family="sans-serif">1,800원</text>
+  <text x="660" y="172" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">1,650원</text>
+  <text x="850" y="172" text-anchor="middle" fill="#BFDBFE" font-size="13" font-weight="700" font-family="sans-serif">1,800원</text>
+  <text x="990" y="172" text-anchor="middle" fill="#86EFAC" font-size="13" font-weight="800" font-family="sans-serif">LPG</text>
+
+  <!-- Row 2: 복합 연비 -->
+  <rect x="40" y="190" width="1000" height="40" fill="#1e293b" fill-opacity="0.4"/>
+  <text x="55" y="216" fill="#F1F5F9" font-size="13" font-family="sans-serif">복합 연비 (km/L)</text>
+  <text x="300" y="216" text-anchor="middle" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">8</text>
+  <text x="480" y="216" text-anchor="middle" fill="#67E8F9" font-size="13" font-weight="700" font-family="sans-serif">12</text>
+  <text x="660" y="216" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">15</text>
+  <text x="850" y="216" text-anchor="middle" fill="#BFDBFE" font-size="13" font-weight="700" font-family="sans-serif">18</text>
+  <text x="990" y="216" text-anchor="middle" fill="#BFDBFE" font-size="13" font-weight="800" font-family="sans-serif">HEV</text>
+
+  <!-- Row 3: 신차가 -->
+  <rect x="40" y="234" width="1000" height="40" fill="#0f172a" fill-opacity="0.5"/>
+  <text x="55" y="260" fill="#F1F5F9" font-size="13" font-family="sans-serif">신차가 (추정)</text>
+  <text x="300" y="260" text-anchor="middle" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">3,000만</text>
+  <text x="480" y="260" text-anchor="middle" fill="#67E8F9" font-size="13" font-weight="700" font-family="sans-serif">3,200만</text>
+  <text x="660" y="260" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">3,500만</text>
+  <text x="850" y="260" text-anchor="middle" fill="#BFDBFE" font-size="13" font-weight="700" font-family="sans-serif">3,800만</text>
+  <text x="990" y="260" text-anchor="middle" fill="#86EFAC" font-size="13" font-weight="800" font-family="sans-serif">LPG</text>
+
+  <!-- Row 4: 5년 연료비 -->
+  <rect x="40" y="278" width="1000" height="40" fill="#1e293b" fill-opacity="0.4"/>
+  <text x="55" y="304" fill="#F1F5F9" font-size="13" font-family="sans-serif">5년 연료비</text>
+  <text x="300" y="304" text-anchor="middle" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">1,031만</text>
+  <text x="480" y="304" text-anchor="middle" fill="#67E8F9" font-size="13" font-weight="700" font-family="sans-serif">1,125만</text>
+  <text x="660" y="304" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">825만</text>
+  <text x="850" y="304" text-anchor="middle" fill="#BFDBFE" font-size="13" font-weight="700" font-family="sans-serif">750만</text>
+  <text x="990" y="304" text-anchor="middle" fill="#BFDBFE" font-size="13" font-weight="800" font-family="sans-serif">HEV</text>
+
+  <!-- Row 5: 5년 자동차세 -->
+  <rect x="40" y="322" width="1000" height="40" fill="#0f172a" fill-opacity="0.5"/>
+  <text x="55" y="348" fill="#F1F5F9" font-size="13" font-family="sans-serif">5년 자동차세 (1,999cc)</text>
+  <text x="300" y="348" text-anchor="middle" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">185만</text>
+  <text x="480" y="348" text-anchor="middle" fill="#67E8F9" font-size="13" font-weight="700" font-family="sans-serif">185만</text>
+  <text x="660" y="348" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">185만</text>
+  <text x="850" y="348" text-anchor="middle" fill="#BFDBFE" font-size="13" font-weight="700" font-family="sans-serif">185만</text>
+  <text x="990" y="348" text-anchor="middle" fill="#F1F5F9" font-size="13" font-weight="700" font-family="sans-serif">동일</text>
+
+  <!-- Row 6: 환경부담금 -->
+  <rect x="40" y="366" width="1000" height="40" fill="#1e293b" fill-opacity="0.4"/>
+  <text x="55" y="392" fill="#F1F5F9" font-size="13" font-family="sans-serif">환경개선부담금 (5년)</text>
+  <text x="300" y="392" text-anchor="middle" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">—</text>
+  <text x="480" y="392" text-anchor="middle" fill="#67E8F9" font-size="13" font-weight="700" font-family="sans-serif">—</text>
+  <text x="660" y="392" text-anchor="middle" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">+35만</text>
+  <text x="850" y="392" text-anchor="middle" fill="#BFDBFE" font-size="13" font-weight="700" font-family="sans-serif">—</text>
+  <text x="990" y="392" text-anchor="middle" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">디젤만</text>
+
+  <!-- Row 7: 친환경 혜택 -->
+  <rect x="40" y="410" width="1000" height="40" fill="#0f172a" fill-opacity="0.5"/>
+  <text x="55" y="436" fill="#F1F5F9" font-size="13" font-family="sans-serif">친환경차 혜택</text>
+  <text x="300" y="436" text-anchor="middle" fill="#86EFAC" font-size="12" font-family="sans-serif">없음</text>
+  <text x="480" y="436" text-anchor="middle" fill="#67E8F9" font-size="12" font-family="sans-serif">없음</text>
+  <text x="660" y="436" text-anchor="middle" fill="#FCD34D" font-size="12" font-family="sans-serif">없음</text>
+  <text x="850" y="436" text-anchor="middle" fill="#BFDBFE" font-size="12" font-weight="700" font-family="sans-serif">취득세·주차·통행료</text>
+  <text x="990" y="436" text-anchor="middle" fill="#BFDBFE" font-size="13" font-weight="800" font-family="sans-serif">HEV</text>
+
+  <!-- Row 8: 5년 TCO -->
+  <rect x="40" y="454" width="1000" height="46" fill="#15803D" fill-opacity="0.3" stroke="#15803D" stroke-width="2"/>
+  <text x="55" y="484" fill="#FCD34D" font-size="14" font-weight="800" font-family="sans-serif">5년 TCO 추정</text>
+  <text x="300" y="484" text-anchor="middle" fill="#86EFAC" font-size="15" font-weight="800" font-family="sans-serif">4,216만</text>
+  <text x="480" y="484" text-anchor="middle" fill="#67E8F9" font-size="15" font-weight="800" font-family="sans-serif">4,510만</text>
+  <text x="660" y="484" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="800" font-family="sans-serif">4,545만</text>
+  <text x="850" y="484" text-anchor="middle" fill="#BFDBFE" font-size="15" font-weight="800" font-family="sans-serif">4,735만</text>
+  <text x="990" y="484" text-anchor="middle" fill="#86EFAC" font-size="13" font-weight="800" font-family="sans-serif">LPG</text>
+
+  <!-- Note box -->
+  <rect x="40" y="516" width="1000" height="100" rx="10" fill="#1e293b" fill-opacity="0.6" stroke="#334155" stroke-width="1.5"/>
+  <text x="60" y="544" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">핵심 포인트</text>
+  <text x="60" y="566" fill="#CBD5E1" font-size="12" font-family="sans-serif">연료비만 보면 하이브리드 1위 (5년 750만원) — 그러나 구매가 800만원 비싸 5년 TCO는 4위.</text>
+  <text x="60" y="586" fill="#CBD5E1" font-size="12" font-family="sans-serif">LPG는 연비 낮지만 단가·구매가 모두 저렴 → 5년 TCO 1위 (가솔린 대비 294만원 절감).</text>
+  <text x="60" y="606" fill="#CBD5E1" font-size="12" font-family="sans-serif">하이브리드 vs 디젤 손익분기점: 약 9년 보유 시점에 따라잡음.</text>
+
+  <text x="40" y="650" fill="#64748B" font-size="12" font-family="sans-serif">essencial | 2026.05 기준 · 보험료·정비비·감가 제외 · 차종·트림에 따라 실제 수치 다름</text>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+    <linearGradient id="rowBg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.06)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0.02)"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <rect x="80" y="72" width="160" height="48" rx="24" fill="#F59E0B"/>
+  <text x="160" y="103" font-family="'Pretendard', sans-serif" font-size="22" font-weight="700" fill="#0B1F3B" text-anchor="middle">주의 필수</text>
+
+  <text x="80" y="185" font-family="'Pretendard', sans-serif" font-size="44" font-weight="800" fill="#FFFFFF">보육료 신청 실수 TOP 5</text>
+  <rect x="80" y="215" width="120" height="4" rx="2" fill="#F59E0B"/>
+
+  <!-- Row 1 -->
+  <rect x="60" y="270" width="960" height="130" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <circle cx="120" cy="335" r="30" fill="#F59E0B"/>
+  <text x="120" y="345" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#0B1F3B" text-anchor="middle">1</text>
+  <text x="175" y="315" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">출생 60일 넘겨 신청</text>
+  <text x="175" y="355" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.7">→ 소급 불가, 초기 수백만 원 손실</text>
+
+  <!-- Row 2 -->
+  <rect x="60" y="420" width="960" height="130" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <circle cx="120" cy="485" r="30" fill="#F59E0B"/>
+  <text x="120" y="495" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#0B1F3B" text-anchor="middle">2</text>
+  <text x="175" y="465" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">15일 이후 자격 전환 신청</text>
+  <text x="175" y="505" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.7">→ 해당 월 보육료 미적용, 1개월 공백</text>
+
+  <!-- Row 3 -->
+  <rect x="60" y="570" width="960" height="130" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <circle cx="120" cy="635" r="30" fill="#F59E0B"/>
+  <text x="120" y="645" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#0B1F3B" text-anchor="middle">3</text>
+  <text x="175" y="615" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">입소 대기 중 다른 시설 이용</text>
+  <text x="175" y="655" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.7">→ 대기 순번 자동 취소</text>
+
+  <!-- Row 4 -->
+  <rect x="60" y="720" width="960" height="130" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <circle cx="120" cy="785" r="30" fill="#F59E0B"/>
+  <text x="120" y="795" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#0B1F3B" text-anchor="middle">4</text>
+  <text x="175" y="765" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">아이사랑카드 미발급 후 입소</text>
+  <text x="175" y="805" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.7">→ 보육료 결제 불가, 전액 본인 부담</text>
+
+  <!-- Row 5 -->
+  <rect x="60" y="870" width="960" height="130" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <circle cx="120" cy="935" r="30" fill="#F59E0B"/>
+  <text x="120" y="945" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#0B1F3B" text-anchor="middle">5</text>
+  <text x="175" y="915" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">필요경비 수납한도 미확인</text>
+  <text x="175" y="955" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.7">→ 기본보육료 외 추가비용 과다 청구 피해</text>
+</svg>

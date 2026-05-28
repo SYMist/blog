@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#F59E0B">전세사기 피해 지원 신청 전 체크리스트</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <rect x="60" y="120" width="960" height="100" rx="16" fill="rgba(239,68,68,0.08)"/>
+  <rect x="80" y="148" width="40" height="40" rx="8" fill="rgba(239,68,68,0.3)" stroke="#EF4444" stroke-width="2"/>
+  <text x="100" y="176" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#EF4444">!</text>
+  <text x="140" y="168" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">4대 요건 확인: 대항력 + 보증금 5억 이하</text>
+  <text x="140" y="198" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#94A3B8">+ 사기 의도 + 다수 피해 발생</text>
+
+  <rect x="60" y="232" width="960" height="90" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="260" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="288" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="288" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">보증보험 가입 여부 확인 (전액 회수 시 제외)</text>
+
+  <rect x="60" y="334" width="960" height="90" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="362" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="390" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="390" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">임대차계약서 + 등기부등본(말소사항 포함) 준비</text>
+
+  <rect x="60" y="436" width="960" height="90" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="464" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="492" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="492" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">보증금 이체 내역 + 전입세대열람 확보</text>
+
+  <rect x="60" y="538" width="960" height="90" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="566" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="594" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="594" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">경매 진행 시 배당요구신청 완료 확인</text>
+
+  <rect x="60" y="640" width="960" height="90" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="668" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="696" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="696" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">우선매수권 행사 vs LH 양도 비교 검토</text>
+
+  <rect x="60" y="742" width="960" height="90" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="770" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="798" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="798" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">인천 거주 시 7대 사업 동시 신청 확인</text>
+
+  <rect x="60" y="844" width="960" height="90" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="872" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="900" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="900" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">세제 감면 기한 확인 (취득세·등록면허세 ~26.12.31)</text>
+
+  <rect x="60" y="946" width="960" height="100" rx="16" fill="rgba(239,68,68,0.08)"/>
+  <rect x="80" y="974" width="40" height="40" rx="8" fill="rgba(239,68,68,0.3)" stroke="#EF4444" stroke-width="2"/>
+  <text x="100" y="1002" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#EF4444">!</text>
+  <text x="140" y="994" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">피해자 결정일로부터 3년 이내 신청 필수</text>
+  <text x="140" y="1024" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#EF4444">기한 초과 시 지원 불가</text>
+</svg>

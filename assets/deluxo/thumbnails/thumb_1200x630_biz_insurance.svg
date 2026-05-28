@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="380" y="60" width="440" height="48" rx="24" fill="#F59E0B"/>
+  <text x="600" y="93" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#0B1F3B">2026 최신 · 자동차 부과 폐지</text>
+  <text x="600" y="210" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="68" font-weight="900" fill="#FFFFFF">자영업자 4대보험</text>
+  <text x="600" y="290" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="68" font-weight="900" fill="#FFFFFF">절감·적용제외</text>
+  <text x="600" y="365" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="40" font-weight="600" fill="#EAF2FF">보험료 줄이는 법 + 적용 제외 기준 총정리</text>
+  <rect x="210" y="410" width="140" height="44" rx="22" fill="#E8F0FF"/>
+  <text x="280" y="439" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#1D4ED8">건강보험</text>
+  <rect x="370" y="410" width="140" height="44" rx="22" fill="#E8F0FF"/>
+  <text x="440" y="439" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#1D4ED8">국민연금</text>
+  <rect x="530" y="410" width="140" height="44" rx="22" fill="#E8F0FF"/>
+  <text x="600" y="439" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#1D4ED8">고용보험</text>
+  <rect x="690" y="410" width="160" height="44" rx="22" fill="#E8F0FF"/>
+  <text x="770" y="439" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#1D4ED8">두루누리</text>
+  <rect x="250" y="500" width="700" height="64" rx="14" fill="rgba(245,158,11,0.15)"/>
+  <text x="600" y="542" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="32" font-weight="700" fill="#F59E0B">모르면 연간 수백만 원 손해 — 지금 확인하세요</text>
+</svg>

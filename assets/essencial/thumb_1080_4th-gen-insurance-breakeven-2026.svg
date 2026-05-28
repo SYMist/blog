@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <rect x="60" y="60" width="320" height="44" rx="22" fill="#7C3AED"/>
+  <text x="220" y="90" text-anchor="middle" fill="#FFFFFF" font-size="19" font-weight="800" font-family="sans-serif">2026 실손 전환 vs 유지 손익분기</text>
+
+  <text x="60" y="210" fill="#FFFFFF" font-size="62" font-weight="800" font-family="sans-serif">4세대 전환,</text>
+  <text x="60" y="288" fill="#A78BFA" font-size="66" font-weight="800" font-family="sans-serif">나는 유리한가?</text>
+  <text x="60" y="350" fill="#FFFFFF" font-size="30" font-weight="600" font-family="sans-serif">연 비급여 147만 원이 기준선</text>
+
+  <!-- 3 key cards -->
+  <rect x="60" y="400" width="960" height="175" rx="16" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="90" y="445" fill="#86EFAC" font-size="17" font-weight="700" font-family="sans-serif">1세대 → 4세대 손익분기 (40세 남)</text>
+  <text x="90" y="510" fill="#FFFFFF" font-size="50" font-weight="800" font-family="sans-serif">연 147만 원</text>
+  <text x="990" y="445" text-anchor="end" fill="#86EFAC" font-size="16" font-weight="600" font-family="sans-serif">보험료 절감 36.8만/년</text>
+  <text x="990" y="510" text-anchor="end" fill="#CBD5E1" font-size="18" font-family="sans-serif">비급여 147만 미달 시 전환 유리</text>
+  <text x="90" y="552" fill="#86EFAC" font-size="15" font-weight="700" font-family="sans-serif">20~40대 · 이용 적음 · 보험료 부담 큰 경우</text>
+
+  <rect x="60" y="595" width="960" height="175" rx="16" fill="url(#card)" stroke="#FCA5A5" stroke-width="2"/>
+  <text x="90" y="640" fill="#FCA5A5" font-size="17" font-weight="700" font-family="sans-serif">차등제 폭탄 — 2년차부터 적용</text>
+  <text x="90" y="705" fill="#FFFFFF" font-size="50" font-weight="800" font-family="sans-serif">최대 300% 할증</text>
+  <text x="990" y="640" text-anchor="end" fill="#FCA5A5" font-size="16" font-weight="600" font-family="sans-serif">비급여 300만+ 시</text>
+  <text x="990" y="705" text-anchor="end" fill="#CBD5E1" font-size="18" font-family="sans-serif">비급여 보험료 4배</text>
+  <text x="90" y="747" fill="#FCA5A5" font-size="15" font-weight="700" font-family="sans-serif">도수·MRI 정기 이용 → 1세대 유지 강력 권장</text>
+
+  <rect x="60" y="790" width="960" height="175" rx="16" fill="url(#card)" stroke="#A78BFA" stroke-width="2"/>
+  <text x="90" y="835" fill="#A78BFA" font-size="17" font-weight="700" font-family="sans-serif">5세대 실손 2026.5 출시 예정</text>
+  <text x="90" y="900" fill="#FFFFFF" font-size="50" font-weight="800" font-family="sans-serif">3년 50% 할인 검토</text>
+  <text x="990" y="835" text-anchor="end" fill="#A78BFA" font-size="16" font-weight="600" font-family="sans-serif">1·2세대 대상</text>
+  <text x="990" y="900" text-anchor="end" fill="#CBD5E1" font-size="18" font-family="sans-serif">보장 한도 1,000만으로 축소</text>
+  <text x="90" y="942" fill="#A78BFA" font-size="15" font-weight="700" font-family="sans-serif">1·2세대: 5세대 출시 후 인센티브 확인 후 결정 권장</text>
+
+  <text x="60" y="1042" fill="#64748B" font-size="15" font-family="sans-serif">essencial | 보험 silo · 2026.04 기준</text>
+</svg>

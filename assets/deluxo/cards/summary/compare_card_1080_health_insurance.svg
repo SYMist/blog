@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="80" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="800" fill="#F59E0B">경감 유형별 조건·경감률 비교</text>
+  <rect x="60" y="110" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- Header -->
+  <rect x="60" y="130" width="960" height="55" rx="0" fill="rgba(59,130,246,0.2)"/>
+  <text x="200" y="165" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#FFF">경감 유형</text>
+  <text x="440" y="165" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#FFF">경감률</text>
+  <text x="680" y="165" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#FFF">핵심 조건</text>
+  <text x="920" y="165" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#FFF">적용 방식</text>
+
+  <!-- Rows -->
+  <rect x="60" y="190" width="960" height="85" rx="0" fill="rgba(255,255,255,0.06)"/>
+  <text x="200" y="235" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">도서·벽지</text>
+  <text x="440" y="235" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#10B981">50%</text>
+  <text x="680" y="235" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#FFF">해당 지역 거주/근무</text>
+  <text x="920" y="235" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#EAF2FF">직권/신청</text>
+
+  <rect x="60" y="280" width="960" height="85" rx="0" fill="rgba(255,255,255,0.04)"/>
+  <text x="200" y="325" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">농어촌</text>
+  <text x="440" y="325" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#10B981">22%</text>
+  <text x="680" y="325" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#FFF">사업소득 500만↓</text>
+  <text x="920" y="325" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#EAF2FF">신청</text>
+
+  <rect x="60" y="370" width="960" height="85" rx="0" fill="rgba(255,255,255,0.06)"/>
+  <text x="200" y="415" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">군인(고시지역)</text>
+  <text x="440" y="415" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#10B981">20%</text>
+  <text x="680" y="415" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#FFF">고시 지역 근무</text>
+  <text x="920" y="415" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#EAF2FF">직권</text>
+
+  <rect x="60" y="460" width="960" height="85" rx="0" fill="rgba(255,255,255,0.04)"/>
+  <text x="200" y="505" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">65세+/장애인/한부모</text>
+  <text x="440" y="505" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#10B981">10~30%</text>
+  <text x="680" y="505" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#FFF">소득·재산 기준</text>
+  <text x="920" y="505" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#EAF2FF">직권/신청</text>
+
+  <rect x="60" y="550" width="960" height="85" rx="0" fill="rgba(255,255,255,0.06)"/>
+  <text x="200" y="595" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">무보수 휴직</text>
+  <text x="440" y="595" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#10B981">50%</text>
+  <text x="680" y="595" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#FFF">1개월 이상 휴직</text>
+  <text x="920" y="595" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#EAF2FF">사업장 확인</text>
+
+  <rect x="60" y="640" width="960" height="85" rx="0" fill="rgba(255,255,255,0.04)"/>
+  <text x="200" y="685" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">육아휴직</text>
+  <text x="440" y="685" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#10B981">하한액 수준</text>
+  <text x="680" y="685" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#FFF">월 20,160원</text>
+  <text x="920" y="685" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#EAF2FF">자동</text>
+
+  <rect x="60" y="730" width="960" height="85" rx="0" fill="rgba(255,255,255,0.06)"/>
+  <text x="200" y="775" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">해외 근무</text>
+  <text x="440" y="775" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#10B981">50~100%</text>
+  <text x="680" y="775" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#FFF">피부양자 유무</text>
+  <text x="920" y="775" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#EAF2FF">신청</text>
+
+  <rect x="60" y="820" width="960" height="85" rx="0" fill="rgba(255,255,255,0.04)"/>
+  <text x="200" y="865" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">장기요양(장애인)</text>
+  <text x="440" y="865" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#10B981">30%</text>
+  <text x="680" y="865" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#FFF">등록장애인</text>
+  <text x="920" y="865" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#EAF2FF">자동(DB연계)</text>
+
+  <!-- 피부양자 -->
+  <rect x="60" y="930" width="960" height="105" rx="20" fill="rgba(239,68,68,0.1)"/>
+  <text x="540" y="975" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#EF4444">피부양자 자격 강화 (2026)</text>
+  <text x="540" y="1015" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">연소득 2,000만 초과 or 재산과표 9억 초과 → 자격 상실</text>
+
+  <rect x="60" y="1045" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

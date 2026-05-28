@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <circle cx="950" cy="180" r="200" fill="#1A3270" opacity="0.3"/>
+
+  <!-- 제목 -->
+  <text x="60" y="90" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="44" font-weight="900" fill="#EF4444">사업주 위반 사례 TOP 5</text>
+  <text x="60" y="136" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="30" fill="#A0B4D0">가족돌봄휴직 처리 실수 유형과 제재</text>
+  <rect x="60" y="154" width="760" height="3" rx="2" fill="#EF4444"/>
+
+  <!-- 사례 1 -->
+  <rect x="60" y="174" width="960" height="100" rx="12" fill="#1A0F2E"/>
+  <rect x="60" y="174" width="8" height="100" rx="4" fill="#EF4444"/>
+  <text x="88" y="210" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="800" fill="#EF4444">① 구인 노력 없이 즉시 거부</text>
+  <text x="88" y="244" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#FFFFFF">"대체인력 없다"는 이유로 고용센터 구인 신청 없이 바로 거부</text>
+  <text x="88" y="264" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" fill="#F59E0B">→ 과태료 500만 원 이하</text>
+
+  <!-- 사례 2 -->
+  <rect x="60" y="286" width="960" height="100" rx="12" fill="#1A0F2E"/>
+  <rect x="60" y="286" width="8" height="100" rx="4" fill="#EF4444"/>
+  <text x="88" y="322" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="800" fill="#EF4444">② 휴직 중 해고 통보</text>
+  <text x="88" y="356" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#FFFFFF">"업무 공백이 심하다"며 휴직 중 해고 또는 권고사직 압박</text>
+  <text x="88" y="376" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" fill="#F59E0B">→ 3년 이하 징역 또는 3천만 원 이하 벌금</text>
+
+  <!-- 사례 3 -->
+  <rect x="60" y="398" width="960" height="100" rx="12" fill="#1A0F2E"/>
+  <rect x="60" y="398" width="8" height="100" rx="4" fill="#EF4444"/>
+  <text x="88" y="434" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="800" fill="#EF4444">③ 거부 사유 서면 통보 누락</text>
+  <text x="88" y="468" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#FFFFFF">구두로만 "안 된다"고 전달, 서면 거부 통보서 미발부</text>
+  <text x="88" y="488" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" fill="#F59E0B">→ 법적 분쟁 시 사업주에게 불리한 증거 자료 공백</text>
+
+  <!-- 사례 4 -->
+  <rect x="60" y="510" width="960" height="100" rx="12" fill="#1A0F2E"/>
+  <rect x="60" y="510" width="8" height="100" rx="4" fill="#EF4444"/>
+  <text x="88" y="546" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="800" fill="#EF4444">④ 복귀 후 하향 업무 배치</text>
+  <text x="88" y="580" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#FFFFFF">복귀 직원을 청소·단순 업무로 배치, 직위·임금 저하</text>
+  <text x="88" y="600" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" fill="#F59E0B">→ 불리한 처우로 3년 이하 징역 또는 3천만 원 이하 벌금</text>
+
+  <!-- 사례 5 -->
+  <rect x="60" y="622" width="960" height="100" rx="12" fill="#1A0F2E"/>
+  <rect x="60" y="622" width="8" height="100" rx="4" fill="#EF4444"/>
+  <text x="88" y="658" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="800" fill="#EF4444">⑤ 취업규칙 미비로 절차 불이행</text>
+  <text x="88" y="692" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#FFFFFF">관련 조항 없어 신청·통보 절차 임의로 처리</text>
+  <text x="88" y="712" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" fill="#F59E0B">→ 노동청 진정 시 사업주 불리 / 시정명령 대상</text>
+
+  <!-- 구분선 -->
+  <rect x="60" y="736" width="960" height="2" fill="#1A3270"/>
+
+  <!-- 예방법 -->
+  <rect x="60" y="752" width="960" height="110" rx="14" fill="#0D2347"/>
+  <text x="540" y="790" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="800" fill="#34D399" text-anchor="middle">예방법 한 줄 요약</text>
+  <text x="540" y="822" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#FFFFFF" text-anchor="middle">신청서 접수 즉시 서면 처리, 거부 시 고용센터 구인 기록 보관,</text>
+  <text x="540" y="850" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#FFFFFF" text-anchor="middle">취업규칙에 절차 명시 → 분쟁 90% 예방</text>
+
+  <!-- 문의 -->
+  <rect x="60" y="876" width="460" height="80" rx="12" fill="#102A56"/>
+  <text x="290" y="910" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="700" fill="#34D399" text-anchor="middle">고용노동부 상담</text>
+  <text x="290" y="940" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#FFFFFF" text-anchor="middle">고객상담센터 ☎ 1350</text>
+
+  <rect x="540" y="876" width="480" height="80" rx="12" fill="#102A56"/>
+  <text x="780" y="910" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="700" fill="#34D399" text-anchor="middle">법령 확인</text>
+  <text x="780" y="940" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#FFFFFF" text-anchor="middle">easylaw.go.kr 가족돌봄</text>
+
+  <!-- 출처 -->
+  <text x="540" y="1034" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" fill="#4A6080" text-anchor="middle">deluxo · 남녀고용평등과 일·가정 양립 지원에 관한 법률 · 2026년 5월 기준</text>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <text x="540" y="78" font-family="'Pretendard', sans-serif" font-size="40" font-weight="900" fill="#F59E0B" text-anchor="middle">ISA 계좌 가입 전 체크리스트</text>
+  <text x="540" y="126" font-family="'Pretendard', sans-serif" font-size="22" font-weight="700" fill="#EAF2FF" text-anchor="middle">이 8가지만 확인하면 절세 실수 없다</text>
+
+  <!-- Item 1 -->
+  <rect x="60" y="148" width="960" height="106" rx="16" fill="#1A3270"/>
+  <text x="106" y="196" font-family="'Pretendard', sans-serif" font-size="32" font-weight="900" fill="#F59E0B">☐</text>
+  <text x="158" y="196" font-family="'Pretendard', sans-serif" font-size="24" font-weight="900" fill="#FFFFFF">소득 수준 확인 → ISA 유형 결정</text>
+  <text x="158" y="234" font-family="'Pretendard', sans-serif" font-size="19" font-weight="600" fill="#A0B4D0">총급여 5,000만↓ 서민형 / 만 19~34세·7,500만↓ 청년형 / 나머지 일반형</text>
+
+  <!-- Item 2 -->
+  <rect x="60" y="264" width="960" height="106" rx="16" fill="#162C5A"/>
+  <text x="106" y="312" font-family="'Pretendard', sans-serif" font-size="32" font-weight="900" fill="#F59E0B">☐</text>
+  <text x="158" y="312" font-family="'Pretendard', sans-serif" font-size="24" font-weight="900" fill="#FFFFFF">서민형·청년형 대상이면 소득확인증명서 발급</text>
+  <text x="158" y="350" font-family="'Pretendard', sans-serif" font-size="19" font-weight="600" fill="#A0B4D0">홈택스 '소득확인증명서(ISA 가입용)' 출력 → 금융기관 제출</text>
+
+  <!-- Item 3 -->
+  <rect x="60" y="380" width="960" height="106" rx="16" fill="#1A3270"/>
+  <text x="106" y="428" font-family="'Pretendard', sans-serif" font-size="32" font-weight="900" fill="#EF4444">☐</text>
+  <text x="158" y="428" font-family="'Pretendard', sans-serif" font-size="24" font-weight="900" fill="#FFFFFF">금융소득종합과세 해당 여부 확인</text>
+  <text x="158" y="466" font-family="'Pretendard', sans-serif" font-size="19" font-weight="600" fill="#A0B4D0">직전 3개년 중 1회라도 해당 시 → 국내투자형만 가입 가능</text>
+
+  <!-- Item 4 -->
+  <rect x="60" y="496" width="960" height="106" rx="16" fill="#162C5A"/>
+  <text x="106" y="544" font-family="'Pretendard', sans-serif" font-size="32" font-weight="900" fill="#F59E0B">☐</text>
+  <text x="158" y="544" font-family="'Pretendard', sans-serif" font-size="24" font-weight="900" fill="#FFFFFF">기존 ISA 계좌 유무 확인 (1인 1계좌 원칙)</text>
+  <text x="158" y="582" font-family="'Pretendard', sans-serif" font-size="19" font-weight="600" fill="#A0B4D0">동일 유형 2계좌 불가 — 기존 계좌는 타 기관 이전만 허용</text>
+
+  <!-- Item 5 -->
+  <rect x="60" y="612" width="960" height="106" rx="16" fill="#1A3270"/>
+  <text x="106" y="660" font-family="'Pretendard', sans-serif" font-size="32" font-weight="900" fill="#F59E0B">☐</text>
+  <text x="158" y="660" font-family="'Pretendard', sans-serif" font-size="24" font-weight="900" fill="#FFFFFF">운용 방식 결정 (예적금형·일임형·신탁형)</text>
+  <text x="158" y="698" font-family="'Pretendard', sans-serif" font-size="19" font-weight="600" fill="#A0B4D0">안정형 → 예적금형 / 성장형 → 일임·신탁형 (국내 ETF·주식 포함)</text>
+
+  <!-- Item 6 -->
+  <rect x="60" y="728" width="960" height="106" rx="16" fill="#162C5A"/>
+  <text x="106" y="776" font-family="'Pretendard', sans-serif" font-size="32" font-weight="900" fill="#F59E0B">☐</text>
+  <text x="158" y="776" font-family="'Pretendard', sans-serif" font-size="24" font-weight="900" fill="#FFFFFF">만기 전략 사전 결정 (A 출금·B 롤링·C 연금이전)</text>
+  <text x="158" y="814" font-family="'Pretendard', sans-serif" font-size="19" font-weight="600" fill="#A0B4D0">은퇴 자산 적립 중이면 C 전략(연금이전) 가장 유리</text>
+
+  <!-- Item 7 -->
+  <rect x="60" y="844" width="960" height="106" rx="16" fill="#1A3270"/>
+  <text x="106" y="892" font-family="'Pretendard', sans-serif" font-size="32" font-weight="900" fill="#F59E0B">☐</text>
+  <text x="158" y="892" font-family="'Pretendard', sans-serif" font-size="24" font-weight="900" fill="#FFFFFF">연금이전 예정이면 IRP·연금저축계좌 미리 개설</text>
+  <text x="158" y="930" font-family="'Pretendard', sans-serif" font-size="19" font-weight="600" fill="#A0B4D0">ISA 만기 후 60일 이내 이전 — 계좌 없으면 기한 내 개설 불가</text>
+
+  <!-- Item 8 -->
+  <rect x="60" y="960" width="960" height="106" rx="16" fill="#EF4444"/>
+  <text x="106" y="1008" font-family="'Pretendard', sans-serif" font-size="32" font-weight="900" fill="#FFFFFF">☐</text>
+  <text x="158" y="1008" font-family="'Pretendard', sans-serif" font-size="24" font-weight="900" fill="#FFFFFF">만기일로부터 60일을 캘린더에 즉시 등록</text>
+  <text x="158" y="1046" font-family="'Pretendard', sans-serif" font-size="19" font-weight="700" fill="#FFD6D6">하루라도 초과 시 추가 세액공제 300만원 전액 소멸 ✕</text>
+</svg>

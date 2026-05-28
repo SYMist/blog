@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="8" fill="#EF4444"/>
+
+  <!-- Title -->
+  <text x="540" y="66" font-family="-apple-system, sans-serif" font-size="32" font-weight="900" fill="#FFFFFF" text-anchor="middle">가족법인 탈락·문제 발생 사유 TOP 5</text>
+  <text x="540" y="100" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0" text-anchor="middle">설립 신청 보완 요청 및 운영 후 세무 리스크 사례</text>
+  <line x1="60" y1="122" x2="1020" y2="122" stroke="#1A3270" stroke-width="2"/>
+
+  <!-- Item 1 -->
+  <rect x="60" y="146" width="960" height="120" rx="12" fill="#0D2347"/>
+  <rect x="60" y="146" width="6" height="120" rx="3" fill="#EF4444"/>
+  <text x="110" y="196" font-family="-apple-system, sans-serif" font-size="44" font-weight="900" fill="#EF4444">01</text>
+  <text x="210" y="192" font-family="-apple-system, sans-serif" font-size="21" font-weight="800" fill="#FFFFFF">정관 사업 목적 누락·오류</text>
+  <text x="210" y="220" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0">인터넷 무료 정관을 그대로 사용하면 사업 목적 누락 또는 퇴직금 규정 미비</text>
+  <text x="210" y="248" font-family="-apple-system, sans-serif" font-size="14" fill="#34D399">→ 전문가 작성 강력 권장 | 정관 변경 등기는 추가 비용 발생</text>
+
+  <!-- Item 2 -->
+  <rect x="60" y="284" width="960" height="120" rx="12" fill="#0D2347"/>
+  <rect x="60" y="284" width="6" height="120" rx="3" fill="#EF4444"/>
+  <text x="110" y="334" font-family="-apple-system, sans-serif" font-size="44" font-weight="900" fill="#EF4444">02</text>
+  <text x="210" y="330" font-family="-apple-system, sans-serif" font-size="21" font-weight="800" fill="#FFFFFF">동일·유사 상호 충돌</text>
+  <text x="210" y="358" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0">관할 등기소 내 동일하거나 유사한 상호가 이미 존재하면 등기 거절</text>
+  <text x="210" y="386" font-family="-apple-system, sans-serif" font-size="14" fill="#34D399">→ 인터넷 등기소(iros.go.kr)에서 사전 상호 검색 필수</text>
+
+  <!-- Item 3 -->
+  <rect x="60" y="422" width="960" height="120" rx="12" fill="#0D2347"/>
+  <rect x="60" y="422" width="6" height="120" rx="3" fill="#F59E0B"/>
+  <text x="110" y="472" font-family="-apple-system, sans-serif" font-size="44" font-weight="900" fill="#F59E0B">03</text>
+  <text x="210" y="468" font-family="-apple-system, sans-serif" font-size="21" font-weight="800" fill="#FFFFFF">자본금 잔액증명서 불일치</text>
+  <text x="210" y="496" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0">발기인 통장 명의와 잔액증명서 명의 불일치, 금액 차이가 있으면 보완 요청</text>
+  <text x="210" y="524" font-family="-apple-system, sans-serif" font-size="14" fill="#34D399">→ 자본금 납입 즉시 잔액증명서 발급 후 금액 재확인</text>
+
+  <!-- Item 4 -->
+  <rect x="60" y="560" width="960" height="120" rx="12" fill="#0D2347"/>
+  <rect x="60" y="560" width="6" height="120" rx="3" fill="#F59E0B"/>
+  <text x="110" y="610" font-family="-apple-system, sans-serif" font-size="44" font-weight="900" fill="#F59E0B">04</text>
+  <text x="210" y="606" font-family="-apple-system, sans-serif" font-size="21" font-weight="800" fill="#FFFFFF">가지급금 발생 — 법인 자금 사적 사용</text>
+  <text x="210" y="634" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0">법인 자금을 개인적으로 사용하면 가지급금 처리 → 인정이자(4.6%) 과세</text>
+  <text x="210" y="662" font-family="-apple-system, sans-serif" font-size="14" fill="#34D399">→ 법인 통장과 개인 통장 완전 분리 | 모든 거래는 법인 통장으로</text>
+
+  <!-- Item 5 -->
+  <rect x="60" y="698" width="960" height="120" rx="12" fill="#0D2347"/>
+  <rect x="60" y="698" width="6" height="120" rx="3" fill="#A0B4D0"/>
+  <text x="110" y="748" font-family="-apple-system, sans-serif" font-size="44" font-weight="900" fill="#A0B4D0">05</text>
+  <text x="210" y="744" font-family="-apple-system, sans-serif" font-size="21" font-weight="800" fill="#FFFFFF">형식적 운영 — 세무조사 위험</text>
+  <text x="210" y="772" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0">실질 사업 없이 절세만을 목적으로 운영 시 국세청 세무조사 대상 가능</text>
+  <text x="210" y="800" font-family="-apple-system, sans-serif" font-size="14" fill="#34D399">→ 실제 매출·거래 기록 체계적 관리 | 가족 간 거래는 시가 기준 필수</text>
+
+  <!-- Bottom tip -->
+  <rect x="60" y="848" width="960" height="72" rx="10" fill="#1A3270"/>
+  <rect x="60" y="848" width="960" height="72" rx="10" fill="none" stroke="#34D399" stroke-width="1.5"/>
+  <text x="540" y="874" font-family="-apple-system, sans-serif" font-size="15" font-weight="800" fill="#34D399" text-anchor="middle">리스크 최소화 핵심</text>
+  <text x="540" y="900" font-family="-apple-system, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">설립 전 세무사 상담 + 전문가 정관 작성 + 법인·개인 통장 분리 — 이 3가지가 핵심</text>
+
+  <!-- Footer -->
+  <text x="540" y="974" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준 | 인터넷 등기소 iros.go.kr | 홈택스 hometax.go.kr</text>
+  <rect x="0" y="1072" width="1080" height="8" fill="#EF4444"/>
+</svg>

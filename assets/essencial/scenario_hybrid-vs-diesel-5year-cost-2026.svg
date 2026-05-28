@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1700" fill="url(#bg)"/>
+
+  <rect x="60" y="50" width="320" height="40" rx="20" fill="#1E40AF"/>
+  <text x="220" y="77" text-anchor="middle" fill="#FFFFFF" font-size="17" font-weight="800" font-family="sans-serif">주행 패턴별 시나리오·체크리스트</text>
+
+  <text x="60" y="155" fill="#FFFFFF" font-size="40" font-weight="800" font-family="sans-serif">내 사용 패턴별 추천</text>
+  <text x="60" y="195" fill="#93C5FD" font-size="20" font-weight="600" font-family="sans-serif">주행 시나리오 5종 · 의사결정 가이드 6단계</text>
+
+  <!-- 5개 시나리오 -->
+  <text x="60" y="250" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">5가지 주행 패턴별 추천</text>
+
+  <!-- S1 -->
+  <rect x="60" y="280" width="540" height="200" rx="12" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="80" y="320" fill="#86EFAC" font-size="17" font-weight="800" font-family="sans-serif">S1 · 도심 단거리 (연 1만 km)</text>
+  <text x="80" y="350" fill="#CBD5E1" font-size="13" font-family="sans-serif">평균 속도 20km/h · 회생제동 활용</text>
+  <text x="80" y="385" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">▸ HEV: EV 모드 · 도심 17~20km/L</text>
+  <text x="80" y="410" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">▸ 디젤: DPF 재생 부진 · 정비 빈발</text>
+  <text x="80" y="445" fill="#86EFAC" font-size="16" font-weight="800" font-family="sans-serif">→ 하이브리드 압도적 우위</text>
+
+  <!-- S2 -->
+  <rect x="620" y="280" width="520" height="200" rx="12" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="640" y="320" fill="#86EFAC" font-size="17" font-weight="800" font-family="sans-serif">S2 · 도시간 출퇴근 (연 2만 km)</text>
+  <text x="640" y="350" fill="#CBD5E1" font-size="13" font-family="sans-serif">고속 50% + 도심 50% 혼합</text>
+  <text x="640" y="385" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">▸ HEV: 균형 우위 (도심+고속 무난)</text>
+  <text x="640" y="410" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">▸ 디젤: 도심에서 손해</text>
+  <text x="640" y="445" fill="#86EFAC" font-size="16" font-weight="800" font-family="sans-serif">→ 하이브리드 약간 우위</text>
+
+  <!-- S3 -->
+  <rect x="60" y="500" width="540" height="200" rx="12" fill="url(#card)" stroke="#FCA5A5" stroke-width="2"/>
+  <text x="80" y="540" fill="#FCA5A5" font-size="17" font-weight="800" font-family="sans-serif">S3 · 장거리 영업 (연 3만 km+)</text>
+  <text x="80" y="570" fill="#CBD5E1" font-size="13" font-family="sans-serif">고속도로 70% 이상 · 토크 필요</text>
+  <text x="80" y="605" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">▸ 디젤: 18km/L+ 가능 · 토크 우위</text>
+  <text x="80" y="630" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">▸ HEV: 고속에서 효율 차이 좁혀짐</text>
+  <text x="80" y="665" fill="#FCA5A5" font-size="16" font-weight="800" font-family="sans-serif">→ 디젤 검토 (정비비 부담 감안)</text>
+
+  <!-- S4 -->
+  <rect x="620" y="500" width="520" height="200" rx="12" fill="url(#card)" stroke="#FCA5A5" stroke-width="2"/>
+  <text x="640" y="540" fill="#FCA5A5" font-size="17" font-weight="800" font-family="sans-serif">S4 · 견인·캠핑·험로</text>
+  <text x="640" y="570" fill="#CBD5E1" font-size="13" font-family="sans-serif">캠핑카·트레일러·산악</text>
+  <text x="640" y="605" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">▸ 디젤: 토크 우위 · 견인 적합</text>
+  <text x="640" y="630" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">▸ HEV: 견인 능력 일부 모델만</text>
+  <text x="640" y="665" fill="#FCA5A5" font-size="16" font-weight="800" font-family="sans-serif">→ 디젤 적합 (용도 의존)</text>
+
+  <!-- S5 -->
+  <rect x="60" y="720" width="1080" height="180" rx="12" fill="url(#card)" stroke="#86EFAC" stroke-width="3"/>
+  <text x="80" y="760" fill="#86EFAC" font-size="20" font-weight="800" font-family="sans-serif">S5 · 단기 보유 (3년 이내 매각)</text>
+  <text x="80" y="790" fill="#CBD5E1" font-size="14" font-family="sans-serif">법인 차량 교체·라이프스타일 변화 예정</text>
+  <text x="80" y="830" fill="#FFFFFF" font-size="15" font-weight="700" font-family="sans-serif">▸ 하이브리드 잔존율 55%+ · 인기 모델 60%+ (쏘렌토 HEV·그랜저 HEV)</text>
+  <text x="80" y="857" fill="#FFFFFF" font-size="15" font-weight="700" font-family="sans-serif">▸ 디젤 잔존율 40~50% · 시장 축소 + 환경 규제 영향</text>
+  <text x="80" y="890" fill="#86EFAC" font-size="18" font-weight="800" font-family="sans-serif">→ 하이브리드 압도적 우위 (5년 시점 매각가 차이 +400만)</text>
+
+  <!-- 의사결정 6단계 -->
+  <text x="60" y="970" fill="#FFFFFF" font-size="24" font-weight="800" font-family="sans-serif">의사결정 6단계 가이드</text>
+
+  <rect x="60" y="995" width="1080" height="450" rx="16" fill="url(#card)" stroke="#1E40AF" stroke-width="2"/>
+
+  <g font-family="sans-serif">
+    <circle cx="100" cy="1050" r="22" fill="#1E40AF"/>
+    <text x="100" y="1058" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800">1</text>
+    <text x="140" y="1045" fill="#FFFFFF" font-size="17" font-weight="700">[연 주행거리·패턴 파악] 도심 vs 고속, 단거리 vs 장거리</text>
+    <text x="140" y="1068" fill="#CBD5E1" font-size="14">1.5만 km 이하 도심 → HEV / 3만 km+ 고속 → 디젤 검토</text>
+
+    <circle cx="100" cy="1115" r="22" fill="#1E40AF"/>
+    <text x="100" y="1123" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800">2</text>
+    <text x="140" y="1110" fill="#FFFFFF" font-size="17" font-weight="700">[보유 기간 결정] 3년 / 5년 / 7년+ 각각 유리한 차종 다름</text>
+    <text x="140" y="1133" fill="#CBD5E1" font-size="14">단기일수록 HEV 잔존가치 우위 · 장기일수록 정비비 영향 누적</text>
+
+    <circle cx="100" cy="1180" r="22" fill="#1E40AF"/>
+    <text x="100" y="1188" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800">3</text>
+    <text x="140" y="1175" fill="#FFFFFF" font-size="17" font-weight="700">[친환경 세제 활용 여부] 2026.12.31 일몰 임박</text>
+    <text x="140" y="1198" fill="#CBD5E1" font-size="14">HEV 약 130~140만 감면 + 통행료 30% 할인 (2026)</text>
+
+    <circle cx="100" cy="1245" r="22" fill="#1E40AF"/>
+    <text x="100" y="1253" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800">4</text>
+    <text x="140" y="1240" fill="#FFFFFF" font-size="17" font-weight="700">[5년 TCO 시뮬레이션] 본 글 표에 본인 주행거리·유가 대입</text>
+    <text x="140" y="1263" fill="#CBD5E1" font-size="14">7개 항목별 차이 합산 → 1,000만 원 차이가 본인 케이스에서도 유효한지 확인</text>
+
+    <circle cx="100" cy="1310" r="22" fill="#1E40AF"/>
+    <text x="100" y="1318" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800">5</text>
+    <text x="140" y="1305" fill="#FFFFFF" font-size="17" font-weight="700">[자동차365·다나와에서 실거래 시세·잔존가치 점검]</text>
+    <text x="140" y="1328" fill="#CBD5E1" font-size="14">동급 모델 5년 후 실제 시세 조회 → 잔존율 가정 검증</text>
+
+    <circle cx="100" cy="1375" r="22" fill="#1E40AF"/>
+    <text x="100" y="1383" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800">6</text>
+    <text x="140" y="1370" fill="#FFFFFF" font-size="17" font-weight="700">[딜러 견적 + 세제 적용 후 실구매가 확인]</text>
+    <text x="140" y="1393" fill="#CBD5E1" font-size="14">친환경차 등록 처리·할인·옵션 패키지 등 최종 견적 비교</text>
+  </g>
+
+  <!-- 2026 정책 일몰 캘린더 -->
+  <rect x="60" y="1480" width="1080" height="160" rx="12" fill="url(#card)" stroke="#FCD34D" stroke-width="2"/>
+  <text x="80" y="1520" fill="#FCD34D" font-size="20" font-weight="800" font-family="sans-serif">⚠ 2026~2027 친환경 혜택 일몰 캘린더</text>
+
+  <g font-family="sans-serif">
+    <text x="80" y="1555" fill="#FFFFFF" font-size="15" font-weight="700">2026.12.31</text>
+    <text x="280" y="1555" fill="#FCA5A5" font-size="15" font-weight="700">하이브리드 개소세·취득세 감면 일몰</text>
+
+    <text x="80" y="1585" fill="#FFFFFF" font-size="15" font-weight="700">2026년</text>
+    <text x="280" y="1585" fill="#FCD34D" font-size="15" font-weight="700">통행료 할인 30% (5등급 디젤 조기폐차 마지막)</text>
+
+    <text x="80" y="1615" fill="#FFFFFF" font-size="15" font-weight="700">2027년~</text>
+    <text x="280" y="1615" fill="#FCA5A5" font-size="15" font-weight="700">통행료 할인 20% / 친환경 세제 축소·폐지 가능</text>
+  </g>
+
+  <text x="60" y="1675" fill="#64748B" font-size="14" font-family="sans-serif">essencial | 자동차 silo · 자료: 한국에너지공단·환경부·자동차365 (2026.04 기준)</text>
+</svg>

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="700" fill="url(#bg)"/>
+
+  <text x="540" y="46" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">5가지 사고 시나리오별 처리 추천</text>
+  <text x="540" y="70" text-anchor="middle" fill="#93C5FD" font-size="13" font-family="sans-serif">자차 · 상대 · 자비 3종 · 연 보험료 70만원 기준 · 2026.05</text>
+
+  <!-- Scenario A: 소액 본인 과실 → 자비 -->
+  <rect x="40" y="90" width="480" height="116" rx="10" fill="#422006" fill-opacity="0.6" stroke="#D97706" stroke-width="1.5"/>
+  <rect x="40" y="90" width="480" height="36" rx="10" fill="#D97706"/>
+  <rect x="40" y="112" width="480" height="14" fill="#D97706"/>
+  <text x="60" y="114" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">시나리오 A: 본인 과실 100% · 수리비 50만원</text>
+  <text x="60" y="148" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">→ 자비수리 (50만원)</text>
+  <text x="60" y="170" fill="#CBD5E1" font-size="12" font-family="sans-serif">자차 처리 시 62만원 (부담금 20 + 할증 42) → 자비가 12만 저렴</text>
+  <text x="60" y="192" fill="#CBD5E1" font-size="12" font-family="sans-serif">무사고 할인 유지 효과까지 포함하면 자비 압도적</text>
+
+  <!-- Scenario B: 중액 본인 과실 → 자차 -->
+  <rect x="560" y="90" width="480" height="116" rx="10" fill="#1e3a8a" fill-opacity="0.6" stroke="#1E40AF" stroke-width="1.5"/>
+  <rect x="560" y="90" width="480" height="36" rx="10" fill="#1E40AF"/>
+  <rect x="560" y="112" width="480" height="14" fill="#1E40AF"/>
+  <text x="580" y="114" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">시나리오 B: 본인 과실 100% · 수리비 200만원</text>
+  <text x="580" y="148" fill="#67E8F9" font-size="13" font-weight="700" font-family="sans-serif">→ 자차보험 (82만원)</text>
+  <text x="580" y="170" fill="#CBD5E1" font-size="12" font-family="sans-serif">자기부담금 40만 + 5년 할증 42만 = 82만원</text>
+  <text x="580" y="192" fill="#CBD5E1" font-size="12" font-family="sans-serif">자비 200만 대비 118만 절약 (손익분기 62만 크게 초과)</text>
+
+  <!-- Scenario C: 피해 추돌 → 상대보험 -->
+  <rect x="40" y="226" width="480" height="116" rx="10" fill="#14532d" fill-opacity="0.6" stroke="#15803D" stroke-width="1.5"/>
+  <rect x="40" y="226" width="480" height="36" rx="10" fill="#15803D"/>
+  <rect x="40" y="248" width="480" height="14" fill="#15803D"/>
+  <text x="60" y="250" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">시나리오 C: 상대 과실 100% · 수리비 300만원</text>
+  <text x="60" y="284" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">→ 상대보험 (본인 0원 · 기록 없음)</text>
+  <text x="60" y="306" fill="#CBD5E1" font-size="12" font-family="sans-serif">자차 처리 시 92만 (부담 50 + 할증 42) 손해</text>
+  <text x="60" y="328" fill="#CBD5E1" font-size="12" font-family="sans-serif">즉시 상대 보험사 연락 + 과실비율 확인이 핵심</text>
+
+  <!-- Scenario D: 50:50 -->
+  <rect x="560" y="226" width="480" height="116" rx="10" fill="#7C2D12" fill-opacity="0.5" stroke="#EA580C" stroke-width="1.5"/>
+  <rect x="560" y="226" width="480" height="36" rx="10" fill="#EA580C"/>
+  <rect x="560" y="248" width="480" height="14" fill="#EA580C"/>
+  <text x="580" y="250" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">시나리오 D: 과실 50:50 · 본인 수리비 100만원</text>
+  <text x="580" y="284" fill="#FDBA74" font-size="13" font-weight="700" font-family="sans-serif">→ 양측 자비 합의 시도 (50만) 또는 양측 자차 (62만)</text>
+  <text x="580" y="306" fill="#CBD5E1" font-size="12" font-family="sans-serif">양측 자비 합의 시 12만 절약 + 양쪽 기록 없음</text>
+  <text x="580" y="328" fill="#CBD5E1" font-size="12" font-family="sans-serif">합의 어려우면 양측 자차 처리가 표준 (서면 합의 권장)</text>
+
+  <!-- Scenario E: 70:30 혼합 -->
+  <rect x="40" y="362" width="1000" height="116" rx="10" fill="#1e1b4b" fill-opacity="0.6" stroke="#4F46E5" stroke-width="1.5"/>
+  <rect x="40" y="362" width="1000" height="36" rx="10" fill="#4F46E5"/>
+  <rect x="40" y="384" width="1000" height="14" fill="#4F46E5"/>
+  <text x="60" y="386" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">시나리오 E: 본인 70% · 상대 30% · 본인 수리비 150만원 (혼합)</text>
+  <text x="60" y="420" fill="#A5B4FC" font-size="13" font-weight="700" font-family="sans-serif">→ 자차 + 상대(30%) 혼합 (27만원)</text>
+  <text x="60" y="442" fill="#CBD5E1" font-size="12" font-family="sans-serif">자기부담금 30만 + 할증 42만 - 상대보상 45만 = 27만원 (자비 105만 대비 78만 절약)</text>
+  <text x="60" y="464" fill="#CBD5E1" font-size="12" font-family="sans-serif">본인 과실 있어도 상대 과실분만큼은 상대 보험사 청구가 표준 처리</text>
+
+  <!-- Summary box -->
+  <rect x="40" y="496" width="1000" height="176" rx="10" fill="#1e293b" fill-opacity="0.8"/>
+  <text x="540" y="528" text-anchor="middle" fill="#F8FAFC" font-size="14" font-weight="800" font-family="sans-serif">핵심 결론 3줄 요약</text>
+  <text x="80" y="562" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">상대 과실 100%</text>
+  <text x="250" y="562" fill="#FFFFFF" font-size="13" font-family="sans-serif">→ 상대보험 압도적 (본인 0원 + 기록·할증 없음)</text>
+  <text x="80" y="594" fill="#67E8F9" font-size="13" font-weight="700" font-family="sans-serif">본인 과실 · 수리비 큼</text>
+  <text x="250" y="594" fill="#FFFFFF" font-size="13" font-family="sans-serif">→ 자차보험 (자기부담금 + 할증 &lt; 수리비, 손익분기 62만)</text>
+  <text x="80" y="626" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">본인 과실 · 수리비 작음</text>
+  <text x="250" y="626" fill="#FFFFFF" font-size="13" font-family="sans-serif">→ 자비수리 (무사고 할인 유지 + 손익분기 이하 시 자비가 저렴)</text>
+  <text x="80" y="654" fill="#94A3B8" font-size="12" font-family="sans-serif">※ 손익분기점은 본인 연 보험료에 따라 다름 (연 40만→44만, 연 70만→62만, 연 100만→80만)</text>
+
+  <text x="40" y="686" fill="#64748B" font-size="12" font-family="sans-serif">essencial | 자동차 · 2026.05 기준 · 추정치이며 실제 부담은 보험사·계약 조건에 따라 다를 수 있습니다</text>
+</svg>

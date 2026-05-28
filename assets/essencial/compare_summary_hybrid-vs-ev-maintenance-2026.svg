@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <!-- Title -->
+  <text x="540" y="68" text-anchor="middle" fill="#E2E8F0" font-size="26" font-weight="700" font-family="sans-serif">하이브리드 vs 전기차 — 5년 유지비 핵심 비교</text>
+  <rect x="300" y="82" width="480" height="3" rx="2" fill="#3B82F6" opacity="0.6"/>
+
+  <!-- 4 Key Number Cards -->
+  <g transform="translate(40,100)">
+    <rect x="0" y="0" width="240" height="120" rx="14" fill="#1e293b"/>
+    <rect x="0" y="0" width="240" height="5" rx="3" fill="#3B82F6"/>
+    <text x="120" y="35" text-anchor="middle" fill="#93C5FD" font-size="14" font-weight="600" font-family="sans-serif">1km당 연료비</text>
+    <text x="50" y="72" fill="#60A5FA" font-size="13" font-family="sans-serif">HEV</text>
+    <text x="120" y="72" fill="#FFFFFF" font-size="26" font-weight="800" font-family="sans-serif">105원</text>
+    <text x="50" y="100" fill="#34D399" font-size="13" font-family="sans-serif">EV</text>
+    <text x="120" y="100" fill="#FFFFFF" font-size="26" font-weight="800" font-family="sans-serif">63원</text>
+
+    <rect x="260" y="0" width="240" height="120" rx="14" fill="#1e293b"/>
+    <rect x="260" y="0" width="240" height="5" rx="3" fill="#10B981"/>
+    <text x="380" y="35" text-anchor="middle" fill="#6EE7B7" font-size="14" font-weight="600" font-family="sans-serif">5년 연료비 절감</text>
+    <text x="380" y="80" text-anchor="middle" fill="#FFFFFF" font-size="38" font-weight="800" font-family="sans-serif">▼419만</text>
+    <text x="380" y="108" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">전기차 기준 (10만km)</text>
+
+    <rect x="520" y="0" width="240" height="120" rx="14" fill="#1e293b"/>
+    <rect x="520" y="0" width="240" height="5" rx="3" fill="#F59E0B"/>
+    <text x="640" y="35" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="600" font-family="sans-serif">세제 혜택 격차</text>
+    <text x="640" y="80" text-anchor="middle" fill="#FFFFFF" font-size="38" font-weight="800" font-family="sans-serif">+469만</text>
+    <text x="640" y="108" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">EV 569만 vs HEV 100만</text>
+
+    <rect x="780" y="0" width="220" height="120" rx="14" fill="#1e293b"/>
+    <rect x="780" y="0" width="220" height="5" rx="3" fill="#EF4444"/>
+    <text x="890" y="35" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="600" font-family="sans-serif">잔가율 격차 (5년)</text>
+    <text x="830" y="72" fill="#34D399" font-size="13" font-family="sans-serif">HEV</text>
+    <text x="895" y="72" fill="#FFFFFF" font-size="24" font-weight="800" font-family="sans-serif">60%</text>
+    <text x="830" y="100" fill="#F87171" font-size="13" font-family="sans-serif">EV</text>
+    <text x="895" y="100" fill="#FFFFFF" font-size="24" font-weight="800" font-family="sans-serif">40%</text>
+  </g>
+
+  <!-- TCO 시뮬레이션 -->
+  <text x="540" y="270" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="700" font-family="sans-serif">5년 TCO 시뮬레이션 (그랜저 HEV vs 아이오닉 6)</text>
+
+  <g transform="translate(60,290)">
+    <rect x="0" y="0" width="960" height="36" rx="8" fill="#334155"/>
+    <text x="200" y="25" text-anchor="middle" fill="#93C5FD" font-size="14" font-weight="700" font-family="sans-serif">항목</text>
+    <text x="500" y="25" text-anchor="middle" fill="#60A5FA" font-size="14" font-weight="700" font-family="sans-serif">그랜저 HEV</text>
+    <text x="730" y="25" text-anchor="middle" fill="#34D399" font-size="14" font-weight="700" font-family="sans-serif">아이오닉 6</text>
+    <text x="900" y="25" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">차이</text>
+
+    <rect x="0" y="42" width="960" height="34" rx="4" fill="#1e293b"/>
+    <text x="200" y="65" text-anchor="middle" fill="#E2E8F0" font-size="13" font-family="sans-serif">실구매가</text>
+    <text x="500" y="65" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">4,400만</text>
+    <text x="730" y="65" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">4,600만</text>
+    <text x="900" y="65" text-anchor="middle" fill="#FCA5A5" font-size="13" font-family="sans-serif">EV +200만</text>
+
+    <rect x="0" y="80" width="960" height="34" rx="4" fill="#0f172a"/>
+    <text x="200" y="103" text-anchor="middle" fill="#E2E8F0" font-size="13" font-family="sans-serif">5년 연료비</text>
+    <text x="500" y="103" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">1,050만</text>
+    <text x="730" y="103" text-anchor="middle" fill="#34D399" font-size="13" font-weight="600" font-family="sans-serif">631만</text>
+    <text x="900" y="103" text-anchor="middle" fill="#34D399" font-size="13" font-weight="600" font-family="sans-serif">EV ▼419만</text>
+
+    <rect x="0" y="118" width="960" height="34" rx="4" fill="#1e293b"/>
+    <text x="200" y="141" text-anchor="middle" fill="#E2E8F0" font-size="13" font-family="sans-serif">5년 자동차세</text>
+    <text x="500" y="141" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">145만</text>
+    <text x="730" y="141" text-anchor="middle" fill="#34D399" font-size="13" font-weight="600" font-family="sans-serif">65만</text>
+    <text x="900" y="141" text-anchor="middle" fill="#34D399" font-size="13" font-family="sans-serif">EV ▼80만</text>
+
+    <rect x="0" y="156" width="960" height="34" rx="4" fill="#0f172a"/>
+    <text x="200" y="179" text-anchor="middle" fill="#E2E8F0" font-size="13" font-family="sans-serif">5년 보험+정비</text>
+    <text x="500" y="179" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">550만</text>
+    <text x="730" y="179" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">600만</text>
+    <text x="900" y="179" text-anchor="middle" fill="#FCA5A5" font-size="13" font-family="sans-serif">EV +50만</text>
+
+    <rect x="0" y="194" width="960" height="34" rx="4" fill="#1e293b"/>
+    <text x="200" y="217" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="600" font-family="sans-serif">운영비 소계</text>
+    <text x="500" y="217" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">1,745만</text>
+    <text x="730" y="217" text-anchor="middle" fill="#34D399" font-size="14" font-weight="700" font-family="sans-serif">1,296만</text>
+    <text x="900" y="217" text-anchor="middle" fill="#34D399" font-size="14" font-weight="700" font-family="sans-serif">EV ▼449만</text>
+
+    <rect x="0" y="234" width="960" height="34" rx="4" fill="#0f172a"/>
+    <text x="200" y="257" text-anchor="middle" fill="#E2E8F0" font-size="13" font-family="sans-serif">5년 후 잔존가치</text>
+    <text x="500" y="257" text-anchor="middle" fill="#60A5FA" font-size="13" font-weight="600" font-family="sans-serif">2,640만 (60%)</text>
+    <text x="730" y="257" text-anchor="middle" fill="#F87171" font-size="13" font-family="sans-serif">1,840만 (40%)</text>
+    <text x="900" y="257" text-anchor="middle" fill="#60A5FA" font-size="13" font-weight="600" font-family="sans-serif">HEV +800만</text>
+
+    <rect x="0" y="276" width="960" height="42" rx="8" fill="#1E40AF" opacity="0.3"/>
+    <text x="200" y="303" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700" font-family="sans-serif">순수 TCO</text>
+    <text x="500" y="303" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800" font-family="sans-serif">3,505만</text>
+    <text x="730" y="303" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800" font-family="sans-serif">4,056만</text>
+    <text x="900" y="303" text-anchor="middle" fill="#60A5FA" font-size="15" font-weight="700" font-family="sans-serif">HEV ▼551만</text>
+  </g>
+
+  <!-- Visual Bar: 운영비 vs TCO -->
+  <text x="540" y="665" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="700" font-family="sans-serif">운영비 vs 잔가 포함 TCO — 결론이 뒤집힌다</text>
+
+  <g transform="translate(60,685)">
+    <!-- 운영비 bar -->
+    <text x="0" y="20" fill="#6EE7B7" font-size="14" font-weight="600" font-family="sans-serif">운영비만</text>
+    <rect x="120" y="4" width="380" height="24" rx="6" fill="#60A5FA" opacity="0.5"/>
+    <text x="510" y="22" fill="#93C5FD" font-size="13" font-family="sans-serif">HEV 1,745만</text>
+    <rect x="120" y="34" width="280" height="24" rx="6" fill="#34D399" opacity="0.7"/>
+    <text x="410" y="52" fill="#6EE7B7" font-size="13" font-weight="600" font-family="sans-serif">EV 1,296만 ✅ 유리</text>
+
+    <!-- TCO bar -->
+    <text x="0" y="95" fill="#FCD34D" font-size="14" font-weight="600" font-family="sans-serif">TCO (잔가 포함)</text>
+    <rect x="120" y="79" width="360" height="24" rx="6" fill="#60A5FA" opacity="0.7"/>
+    <text x="490" y="97" fill="#93C5FD" font-size="13" font-weight="600" font-family="sans-serif">HEV 3,505만 ✅ 유리</text>
+    <rect x="120" y="109" width="420" height="24" rx="6" fill="#F87171" opacity="0.5"/>
+    <text x="550" y="127" fill="#FCA5A5" font-size="13" font-family="sans-serif">EV 4,056만</text>
+  </g>
+
+  <!-- 분기점 -->
+  <rect x="60" y="830" width="960" height="50" rx="12" fill="#1E40AF" opacity="0.3"/>
+  <text x="540" y="862" text-anchor="middle" fill="#FFFFFF" font-size="17" font-weight="700" font-family="sans-serif">분기점: 7~10년 이상 보유 시 전기차의 연료비 절감이 감가 차이를 상쇄</text>
+
+  <!-- 세제 혜택 비교 -->
+  <g transform="translate(60,900)">
+    <rect x="0" y="0" width="460" height="90" rx="14" fill="#1e293b"/>
+    <rect x="0" y="0" width="5" height="90" rx="3" fill="#34D399"/>
+    <text x="25" y="28" fill="#34D399" font-size="15" font-weight="700" font-family="sans-serif">전기차 세제 혜택</text>
+    <text x="25" y="52" fill="#CBD5E1" font-size="13" font-family="sans-serif">개소세 300 + 교육세 90 + 부가세 39 + 취득세 140</text>
+    <text x="25" y="76" fill="#FFFFFF" font-size="18" font-weight="800" font-family="sans-serif">= 최대 569만 원</text>
+
+    <rect x="500" y="0" width="460" height="90" rx="14" fill="#1e293b"/>
+    <rect x="500" y="0" width="5" height="90" rx="3" fill="#60A5FA"/>
+    <text x="525" y="28" fill="#93C5FD" font-size="15" font-weight="700" font-family="sans-serif">하이브리드 세제 혜택</text>
+    <text x="525" y="52" fill="#CBD5E1" font-size="13" font-family="sans-serif">개소세 70 + 교육세 21 + 부가세 9 (취득세 종료)</text>
+    <text x="525" y="76" fill="#FFFFFF" font-size="18" font-weight="800" font-family="sans-serif">= 약 100만 원</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="540" y="1030" text-anchor="middle" fill="#64748B" font-size="13" font-family="sans-serif">2026년 4월 기준 | 연 2만km·5년 보유·급속 충전 기준 | essencial</text>
+  <rect x="60" y="1045" width="960" height="2" rx="1" fill="#334155"/>
+  <text x="540" y="1068" text-anchor="middle" fill="#475569" font-size="12" font-family="sans-serif">※ 유지비는 개인 주행 패턴·충전 환경에 따라 달라질 수 있습니다</text>
+</svg>

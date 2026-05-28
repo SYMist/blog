@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="8" fill="#EF4444"/>
+
+  <!-- Title -->
+  <text x="540" y="68" font-family="-apple-system, sans-serif" font-size="34" font-weight="900" fill="#FFFFFF" text-anchor="middle">혜택 신청 실패·탈락 주요 사유 TOP 5</text>
+  <text x="540" y="106" font-family="-apple-system, sans-serif" font-size="21" font-weight="600" fill="#EF4444" text-anchor="middle">이 실수만 피하면 수천만 원을 지킬 수 있습니다</text>
+
+  <!-- Item 1 -->
+  <rect x="40" y="136" width="1000" height="148" rx="12" fill="#1A3270"/>
+  <rect x="40" y="136" width="8" height="148" rx="4" fill="#EF4444"/>
+  <text x="88" y="192" font-family="-apple-system, sans-serif" font-size="44" font-weight="900" fill="#EF4444">01</text>
+  <text x="170" y="192" font-family="-apple-system, sans-serif" font-size="22" font-weight="800" fill="#FFFFFF">비영업용(흰색 번호판)으로 유가보조금 신청</text>
+  <text x="170" y="220" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0">유가보조금은 화물자동차 운수사업법 허가를 받은 영업용(노란 번호판)만 대상</text>
+  <text x="170" y="246" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0">자가용·비영업용 화물차는 신청 자체가 불가 — 번호판 종류 먼저 확인</text>
+
+  <!-- Item 2 -->
+  <rect x="40" y="296" width="1000" height="148" rx="12" fill="#102A56"/>
+  <rect x="40" y="296" width="8" height="148" rx="4" fill="#F59E0B"/>
+  <text x="88" y="352" font-family="-apple-system, sans-serif" font-size="44" font-weight="900" fill="#F59E0B">02</text>
+  <text x="170" y="352" font-family="-apple-system, sans-serif" font-size="22" font-weight="800" fill="#FFFFFF">보조금 받은 전기화물차 의무운행 기간 내 매각</text>
+  <text x="170" y="380" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0">2~5년 의무운행 기간 내 매각·폐차 시 지원금 전액 또는 일부 환수됨</text>
+  <text x="170" y="406" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0">사업 양도 시에도 의무운행 기간 승계 — 구매 전 계약 조건 반드시 확인</text>
+
+  <!-- Item 3 -->
+  <rect x="40" y="456" width="1000" height="148" rx="12" fill="#1A3270"/>
+  <rect x="40" y="456" width="8" height="148" rx="4" fill="#34D399"/>
+  <text x="88" y="512" font-family="-apple-system, sans-serif" font-size="44" font-weight="900" fill="#34D399">03</text>
+  <text x="170" y="512" font-family="-apple-system, sans-serif" font-size="22" font-weight="800" fill="#FFFFFF">조기폐차 신청 시 소유 기간 6개월 미충족</text>
+  <text x="170" y="540" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0">조기폐차 지원은 해당 차량을 6개월 이상 소유한 경우에만 가능</text>
+  <text x="170" y="566" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0">최근 취득 차량은 소유 기간 충족 후 신청 — 자동차등록증 등록일 확인</text>
+
+  <!-- Item 4 -->
+  <rect x="40" y="616" width="1000" height="148" rx="12" fill="#102A56"/>
+  <rect x="40" y="616" width="8" height="148" rx="4" fill="#60A5FA"/>
+  <text x="88" y="672" font-family="-apple-system, sans-serif" font-size="44" font-weight="900" fill="#60A5FA">04</text>
+  <text x="170" y="672" font-family="-apple-system, sans-serif" font-size="22" font-weight="800" fill="#FFFFFF">5등급 조기폐차 2026년 종료 후 신청 시도</text>
+  <text x="170" y="700" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0">5등급 차량 조기폐차 지원은 2026년이 마지막 — 2027년에는 지원 없음</text>
+  <text x="170" y="726" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0">늦어도 2026년 10월 전에 mecar.or.kr에서 신청 시작 권장</text>
+
+  <!-- Item 5 -->
+  <rect x="40" y="776" width="1000" height="148" rx="12" fill="#1A3270"/>
+  <rect x="40" y="776" width="8" height="148" rx="4" fill="#A78BFA"/>
+  <text x="88" y="832" font-family="-apple-system, sans-serif" font-size="44" font-weight="900" fill="#A78BFA">05</text>
+  <text x="170" y="832" font-family="-apple-system, sans-serif" font-size="22" font-weight="800" fill="#FFFFFF">유가보조금 신청 시 화물운송 자격증 미제출</text>
+  <text x="170" y="860" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0">카드사 심사에서 화물운송 종사자 자격증 미제출로 반려되는 경우가 많음</text>
+  <text x="170" y="886" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0">사업자등록증 + 자동차등록증 + 화물운송 자격증 3종 동시 제출 필수</text>
+
+  <!-- Footer -->
+  <text x="540" y="966" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0" text-anchor="middle">유가보조금 ☎ 1588-8713 | 조기폐차 ☎ 1577-7121</text>
+  <text x="540" y="992" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준</text>
+
+  <rect x="0" y="1072" width="1080" height="8" fill="#EF4444"/>
+</svg>

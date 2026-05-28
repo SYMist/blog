@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="amberGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D97706"/>
+      <stop offset="100%" stop-color="#7C2D12"/>
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#4c1d95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <circle cx="1080" cy="100" r="200" fill="#D97706" fill-opacity="0.07"/>
+  <circle cx="120" cy="540" r="160" fill="#7C3AED" fill-opacity="0.07"/>
+
+  <!-- Chips -->
+  <rect x="40" y="36" width="120" height="32" rx="16" fill="#B45309" fill-opacity="0.4" stroke="#D97706" stroke-width="1.5"/>
+  <text x="100" y="57" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">대출·금융</text>
+
+  <rect x="176" y="36" width="140" height="32" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="246" y="57" text-anchor="middle" fill="#94A3B8" font-size="14" font-family="sans-serif">2026.05 기준</text>
+
+  <rect x="332" y="36" width="170" height="32" rx="16" fill="#14532d" stroke="#15803D" stroke-width="1.5"/>
+  <text x="417" y="57" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">임대 절세 5종 시뮬</text>
+
+  <!-- Title -->
+  <text x="600" y="130" text-anchor="middle" fill="#FFFFFF" font-size="40" font-weight="800" font-family="sans-serif">주택임대소득세 분리 vs 종합과세</text>
+  <text x="600" y="178" text-anchor="middle" fill="#FCD34D" font-size="26" font-weight="700" font-family="sans-serif">임대료별 손익 비교 (2026)</text>
+
+  <!-- Key stat bar -->
+  <rect x="200" y="198" width="800" height="62" rx="12" fill="#1e293b" fill-opacity="0.9" stroke="#334155" stroke-width="1.5"/>
+  <text x="600" y="226" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">손익분기점 (임대료 1,500만 기준)</text>
+  <text x="600" y="250" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">다른 종합소득 약 3,000만원 · 이하 종합 / 이상 분리</text>
+
+  <rect x="200" y="274" width="800" height="2" rx="1" fill="#D97706" fill-opacity="0.4"/>
+
+  <!-- Two cards -->
+  <rect x="40" y="284" width="555" height="300" rx="16" fill="url(#amberGrad)" fill-opacity="0.8" stroke="#D97706" stroke-width="2"/>
+  <text x="317" y="324" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">분리과세 (14% 정율)</text>
+  <line x1="70" y1="338" x2="565" y2="338" stroke="#7C2D12" stroke-width="1.5"/>
+  <text x="317" y="382" text-anchor="middle" fill="#FCD34D" font-size="28" font-weight="800" font-family="sans-serif">약 77만원</text>
+  <text x="317" y="410" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="700" font-family="sans-serif">임대료 1,500만 · 미등록 기준</text>
+  <line x1="70" y1="430" x2="565" y2="430" stroke="#7C2D12" stroke-width="1.5"/>
+  <text x="70" y="458" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">✅ 다른 소득과 분리 (누진 회피)</text>
+  <text x="70" y="484" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">✅ 14% 정율 · 등록 시 28만원 절감</text>
+  <text x="70" y="510" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">❌ 임대료 2천만 이하만 선택 가능</text>
+  <rect x="70" y="530" width="465" height="36" rx="8" fill="#D97706" fill-opacity="0.4"/>
+  <text x="302" y="554" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">근로 5천만+·다른 소득 큰 임대인 선택</text>
+
+  <rect x="605" y="284" width="555" height="300" rx="16" fill="url(#purpleGrad)" fill-opacity="0.8" stroke="#7C3AED" stroke-width="2"/>
+  <text x="882" y="324" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">종합과세 (누진 6~45%)</text>
+  <line x1="635" y1="338" x2="1130" y2="338" stroke="#4c1d95" stroke-width="1.5"/>
+  <text x="882" y="382" text-anchor="middle" fill="#DDD6FE" font-size="28" font-weight="800" font-family="sans-serif">30만 ~ 263만</text>
+  <text x="882" y="410" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="700" font-family="sans-serif">다른 소득 0~1억 따라 변동</text>
+  <line x1="635" y1="430" x2="1130" y2="430" stroke="#4c1d95" stroke-width="1.5"/>
+  <text x="635" y="458" fill="#DDD6FE" font-size="14" font-weight="700" font-family="sans-serif">✅ 저소득 누진 6% 저구간 적용</text>
+  <text x="635" y="484" fill="#FCA5A5" font-size="14" font-weight="700" font-family="sans-serif">❌ 고소득 35~45% 누진 부담</text>
+  <text x="635" y="510" fill="#FCA5A5" font-size="14" font-weight="700" font-family="sans-serif">❌ 임대료 2천만+ 의무 (분리 불가)</text>
+  <rect x="635" y="530" width="465" height="36" rx="8" fill="#7C3AED" fill-opacity="0.4"/>
+  <text x="867" y="554" text-anchor="middle" fill="#DDD6FE" font-size="13" font-weight="700" font-family="sans-serif">전업 임대·저소득 임대인 선택</text>
+
+  <text x="40" y="610" fill="#64748B" font-size="13" font-family="sans-serif">essencial | 대출·금융 · 2026.05 기준 · 등록임대사업자 필요경비 60% + 공제 400만 · 의무임대 4~10년</text>
+</svg>

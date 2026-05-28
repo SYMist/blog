@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="720" fill="url(#bg)"/>
+
+  <text x="540" y="48" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">비만약 4종 효과·가격·부작용 매트릭스</text>
+  <text x="540" y="74" text-anchor="middle" fill="#99F6E4" font-size="13" font-family="sans-serif">위고비·삭센다·마운자로·큐시미아 · 2026.05 기준</text>
+
+  <rect x="40" y="96" width="1000" height="44" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="150" y="124" text-anchor="middle" fill="#F8FAFC" font-size="13" font-weight="800" font-family="sans-serif">비교 항목</text>
+  <text x="370" y="124" text-anchor="middle" fill="#DDD6FE" font-size="13" font-weight="800" font-family="sans-serif">마운자로</text>
+  <text x="580" y="124" text-anchor="middle" fill="#99F6E4" font-size="13" font-weight="800" font-family="sans-serif">위고비</text>
+  <text x="780" y="124" text-anchor="middle" fill="#86EFAC" font-size="13" font-weight="800" font-family="sans-serif">큐시미아</text>
+  <text x="970" y="124" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="800" font-family="sans-serif">삭센다</text>
+
+  <rect x="40" y="144" width="1000" height="46" fill="#0f172a" fill-opacity="0.5"/>
+  <text x="55" y="172" fill="#F1F5F9" font-size="12" font-weight="700" font-family="sans-serif">성분</text>
+  <text x="370" y="172" text-anchor="middle" fill="#DDD6FE" font-size="12" font-weight="700" font-family="sans-serif">티르제파타이드</text>
+  <text x="580" y="172" text-anchor="middle" fill="#99F6E4" font-size="12" font-weight="700" font-family="sans-serif">세마글루타이드</text>
+  <text x="780" y="172" text-anchor="middle" fill="#86EFAC" font-size="12" font-weight="700" font-family="sans-serif">펜터민+토피라메이트</text>
+  <text x="970" y="172" text-anchor="middle" fill="#FCD34D" font-size="12" font-weight="700" font-family="sans-serif">리라글루타이드</text>
+
+  <rect x="40" y="190" width="1000" height="46" fill="#1e293b" fill-opacity="0.4"/>
+  <text x="55" y="218" fill="#F1F5F9" font-size="12" font-weight="700" font-family="sans-serif">작용 기전</text>
+  <text x="370" y="218" text-anchor="middle" fill="#DDD6FE" font-size="12" font-weight="700" font-family="sans-serif">GLP-1 + GIP 이중</text>
+  <text x="580" y="218" text-anchor="middle" fill="#99F6E4" font-size="12" font-weight="700" font-family="sans-serif">GLP-1 단독</text>
+  <text x="780" y="218" text-anchor="middle" fill="#86EFAC" font-size="12" font-weight="700" font-family="sans-serif">식욕억제+신경조절</text>
+  <text x="970" y="218" text-anchor="middle" fill="#FCD34D" font-size="12" font-weight="700" font-family="sans-serif">GLP-1 단독</text>
+
+  <rect x="40" y="236" width="1000" height="46" fill="#0f172a" fill-opacity="0.5"/>
+  <text x="55" y="264" fill="#F1F5F9" font-size="12" font-weight="700" font-family="sans-serif">제형 · 주기</text>
+  <text x="370" y="264" text-anchor="middle" fill="#DDD6FE" font-size="13" font-weight="700" font-family="sans-serif">주사 · 주 1회</text>
+  <text x="580" y="264" text-anchor="middle" fill="#99F6E4" font-size="13" font-weight="700" font-family="sans-serif">주사 · 주 1회</text>
+  <text x="780" y="264" text-anchor="middle" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">경구 · 매일</text>
+  <text x="970" y="264" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">주사 · 매일</text>
+
+  <rect x="40" y="282" width="1000" height="46" fill="#1e293b" fill-opacity="0.4"/>
+  <text x="55" y="310" fill="#F1F5F9" font-size="12" font-weight="700" font-family="sans-serif">평균 감량</text>
+  <text x="370" y="310" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="800" font-family="sans-serif">-20.2%</text>
+  <text x="580" y="310" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">-14.9%</text>
+  <text x="780" y="310" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">-14.4%</text>
+  <text x="970" y="310" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">-7.5%</text>
+
+  <rect x="40" y="328" width="1000" height="46" fill="#0f172a" fill-opacity="0.5"/>
+  <text x="55" y="356" fill="#F1F5F9" font-size="12" font-weight="700" font-family="sans-serif">월 가격</text>
+  <text x="370" y="356" text-anchor="middle" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">28~80만원</text>
+  <text x="580" y="356" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">23~39만원</text>
+  <text x="780" y="356" text-anchor="middle" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">약 15만원</text>
+  <text x="970" y="356" text-anchor="middle" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">7~15만원</text>
+
+  <rect x="40" y="374" width="1000" height="46" fill="#1e293b" fill-opacity="0.4"/>
+  <text x="55" y="402" fill="#F1F5F9" font-size="12" font-weight="700" font-family="sans-serif">위장관 부작용</text>
+  <text x="370" y="402" text-anchor="middle" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">18% (적음)</text>
+  <text x="580" y="402" text-anchor="middle" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">44% (높음)</text>
+  <text x="780" y="402" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">입마름·감각이상</text>
+  <text x="970" y="402" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">위고비 유사</text>
+
+  <rect x="40" y="420" width="1000" height="46" fill="#0f172a" fill-opacity="0.5"/>
+  <text x="55" y="448" fill="#F1F5F9" font-size="12" font-weight="700" font-family="sans-serif">처방 조건</text>
+  <text x="370" y="448" text-anchor="middle" fill="#DDD6FE" font-size="12" font-weight="700" font-family="sans-serif">BMI 30+/27+ 동반</text>
+  <text x="580" y="448" text-anchor="middle" fill="#99F6E4" font-size="12" font-weight="700" font-family="sans-serif">BMI 30+/27+ 동반</text>
+  <text x="780" y="448" text-anchor="middle" fill="#86EFAC" font-size="12" font-weight="700" font-family="sans-serif">BMI 30+/27+ 동반</text>
+  <text x="970" y="448" text-anchor="middle" fill="#FCD34D" font-size="12" font-weight="700" font-family="sans-serif">BMI 30+/27+ 동반</text>
+
+  <rect x="40" y="466" width="1000" height="46" fill="#1e293b" fill-opacity="0.4"/>
+  <text x="55" y="494" fill="#F1F5F9" font-size="12" font-weight="700" font-family="sans-serif">비대면 처방</text>
+  <text x="370" y="494" text-anchor="middle" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">불가 (2024.12~)</text>
+  <text x="580" y="494" text-anchor="middle" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">불가 (2024.12~)</text>
+  <text x="780" y="494" text-anchor="middle" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">불가 (향정신성)</text>
+  <text x="970" y="494" text-anchor="middle" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">불가 (2024.12~)</text>
+
+  <rect x="40" y="512" width="1000" height="46" fill="#0f172a" fill-opacity="0.5"/>
+  <text x="55" y="540" fill="#F1F5F9" font-size="12" font-weight="700" font-family="sans-serif">보험</text>
+  <text x="370" y="540" text-anchor="middle" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">비급여</text>
+  <text x="580" y="540" text-anchor="middle" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">비급여</text>
+  <text x="780" y="540" text-anchor="middle" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">비급여</text>
+  <text x="970" y="540" text-anchor="middle" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">비급여</text>
+
+  <rect x="40" y="572" width="1000" height="100" rx="10" fill="#1e293b" fill-opacity="0.6" stroke="#334155" stroke-width="1.5"/>
+  <text x="60" y="598" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">의사결정 핵심 변수 4가지</text>
+  <text x="60" y="620" fill="#CBD5E1" font-size="12" font-family="sans-serif">① BMI 35+ 고도비만 → 마운자로 / BMI 30~35 → 위고비 / BMI 27~30 → 삭센다·큐시미아</text>
+  <text x="60" y="640" fill="#CBD5E1" font-size="12" font-family="sans-serif">② 예산: 7~15만(삭센다) / 15만(큐시미아) / 23~39만(위고비) / 28~80만(마운자로)</text>
+  <text x="60" y="660" fill="#CBD5E1" font-size="12" font-family="sans-serif">③ 주사 거부 → 큐시미아 경구 / ④ 4종 모두 비대면 처방 불가 — 병원 직접 방문 필수</text>
+
+  <text x="40" y="708" fill="#64748B" font-size="12" font-family="sans-serif">essencial | 2026.05 기준 · 임상 결과·시장 평균 · 비급여 전문의약품 · 의사 처방 필수 · 의료 자문 아님</text>
+</svg>

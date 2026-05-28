@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1700" fill="url(#bg)"/>
+
+  <rect x="60" y="50" width="300" height="40" rx="20" fill="#7C3AED"/>
+  <text x="210" y="77" text-anchor="middle" fill="#FFFFFF" font-size="17" font-weight="800" font-family="sans-serif">의료이용 패턴별 시나리오·의사결정 가이드</text>
+
+  <text x="60" y="155" fill="#FFFFFF" font-size="40" font-weight="800" font-family="sans-serif">내 의료이용 패턴으로</text>
+  <text x="60" y="200" fill="#A78BFA" font-size="40" font-weight="800" font-family="sans-serif">전환 vs 유지 판단하기</text>
+  <text x="60" y="243" fill="#94A3B8" font-size="20" font-weight="600" font-family="sans-serif">6가지 시나리오 시뮬레이션 · 1세대 보유자 기준 (40세 남성)</text>
+
+  <!-- 시나리오 섹션 제목 -->
+  <text x="60" y="295" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">시나리오별 연간 비용 비교 (1세대 기준)</text>
+
+  <!-- S-A -->
+  <rect x="60" y="315" width="540" height="185" rx="12" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="80" y="355" fill="#86EFAC" font-size="17" font-weight="800" font-family="sans-serif">A · 의료이용 없음 (비급여 0원)</text>
+  <text x="80" y="383" fill="#CBD5E1" font-size="13" font-family="sans-serif">건강한 20~30대, 거의 병원 안 가는 경우</text>
+  <text x="80" y="418" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">▸ 1세대 유지: 52만 5천 원</text>
+  <text x="80" y="443" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">▸ 4세대 전환: 15만 7천 원</text>
+  <text x="80" y="480" fill="#86EFAC" font-size="16" font-weight="800" font-family="sans-serif">→ 4세대 36.8만 원 유리</text>
+
+  <!-- S-B -->
+  <rect x="620" y="315" width="520" height="185" rx="12" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="640" y="355" fill="#86EFAC" font-size="17" font-weight="800" font-family="sans-serif">B · 가벼운 이용 (비급여 50만 원)</text>
+  <text x="640" y="383" fill="#CBD5E1" font-size="13" font-family="sans-serif">정기 검진·가벼운 진료 수준</text>
+  <text x="640" y="418" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">▸ 1세대 유지: 55만 원</text>
+  <text x="640" y="443" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">▸ 4세대 전환: 30만 7천 원</text>
+  <text x="640" y="480" fill="#86EFAC" font-size="16" font-weight="800" font-family="sans-serif">→ 4세대 24.3만 원 유리</text>
+
+  <!-- S-C -->
+  <rect x="60" y="520" width="540" height="185" rx="12" fill="url(#card)" stroke="#FCD34D" stroke-width="2"/>
+  <text x="80" y="560" fill="#FCD34D" font-size="17" font-weight="800" font-family="sans-serif">C · 중간 이용 (비급여 100만 원)</text>
+  <text x="80" y="588" fill="#CBD5E1" font-size="13" font-family="sans-serif">비급여 검사·치료 산발적 이용</text>
+  <text x="80" y="623" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">▸ 1세대 유지: 57만 5천 원</text>
+  <text x="80" y="648" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">▸ 4세대 전환: 45만 7천 원 (+차등 2년차)</text>
+  <text x="80" y="685" fill="#FCD34D" font-size="16" font-weight="800" font-family="sans-serif">→ 4세대 약간 유리 (차등 반영 시 동등)</text>
+
+  <!-- S-D -->
+  <rect x="620" y="520" width="520" height="185" rx="12" fill="url(#card)" stroke="#FCA5A5" stroke-width="2"/>
+  <text x="640" y="560" fill="#FCA5A5" font-size="17" font-weight="800" font-family="sans-serif">D · 활발한 이용 (비급여 150만 원)</text>
+  <text x="640" y="588" fill="#CBD5E1" font-size="13" font-family="sans-serif">도수·MRI 병행, 손익분기점 근처</text>
+  <text x="640" y="623" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">▸ 1세대 유지: 60만 원</text>
+  <text x="640" y="648" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">▸ 4세대 전환: 60만 7천 원 (+4등급 할증)</text>
+  <text x="640" y="685" fill="#FCA5A5" font-size="16" font-weight="800" font-family="sans-serif">→ 1세대 약간 유리 (차등 반영 시 큰 차이)</text>
+
+  <!-- S-E -->
+  <rect x="60" y="725" width="540" height="185" rx="12" fill="url(#card)" stroke="#FCA5A5" stroke-width="2"/>
+  <text x="80" y="765" fill="#FCA5A5" font-size="17" font-weight="800" font-family="sans-serif">E · 고이용 (비급여 300만 원)</text>
+  <text x="80" y="793" fill="#CBD5E1" font-size="13" font-family="sans-serif">만성질환·수술·고빈도 비급여</text>
+  <text x="80" y="828" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">▸ 1세대 유지: 67만 5천 원</text>
+  <text x="80" y="853" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">▸ 4세대 전환: 105만 7천 원 (+5등급 할증)</text>
+  <text x="80" y="890" fill="#FCA5A5" font-size="16" font-weight="800" font-family="sans-serif">→ 1세대 38만+ 유리 (차등 반영 60만+)</text>
+
+  <!-- S-F -->
+  <rect x="620" y="725" width="520" height="185" rx="12" fill="url(#card)" stroke="#FCA5A5" stroke-width="2"/>
+  <text x="640" y="765" fill="#FCA5A5" font-size="17" font-weight="800" font-family="sans-serif">F · 만성질환 복합 (도수+MRI+주사)</text>
+  <text x="640" y="793" fill="#CBD5E1" font-size="13" font-family="sans-serif">도수 50만 + MRI 30만 + 주사 70만 = 150만</text>
+  <text x="640" y="828" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">▸ 1세대 유지: 60만 원</text>
+  <text x="640" y="853" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">▸ 4세대 전환: 60만 7천 원 + 차등 가중</text>
+  <text x="640" y="890" fill="#FCA5A5" font-size="16" font-weight="800" font-family="sans-serif">→ 1세대 유지 강력 권장</text>
+
+  <!-- 의사결정 6단계 -->
+  <text x="60" y="980" fill="#FFFFFF" font-size="24" font-weight="800" font-family="sans-serif">손익분기 계산 6단계 가이드</text>
+
+  <rect x="60" y="1005" width="1080" height="490" rx="16" fill="url(#card)" stroke="#7C3AED" stroke-width="2"/>
+
+  <g font-family="sans-serif">
+    <circle cx="100" cy="1062" r="22" fill="#7C3AED"/>
+    <text x="100" y="1070" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800">1</text>
+    <text x="140" y="1057" fill="#FFFFFF" font-size="17" font-weight="700">[보유 세대·자기부담률 확인] 가입 시기로 세대 파악</text>
+    <text x="140" y="1080" fill="#CBD5E1" font-size="14">~2009: 1세대 / 2009~2017: 2세대 / 2017~2021: 3세대 / 2021~: 4세대</text>
+
+    <circle cx="100" cy="1130" r="22" fill="#7C3AED"/>
+    <text x="100" y="1138" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800">2</text>
+    <text x="140" y="1125" fill="#FFFFFF" font-size="17" font-weight="700">[최근 3~5년 비급여 의료비 합산] 보험사 앱 청구 내역 확인</text>
+    <text x="140" y="1148" fill="#CBD5E1" font-size="14">도수치료·MRI·비급여 주사·비급여 검사 항목별 합산</text>
+
+    <circle cx="100" cy="1198" r="22" fill="#7C3AED"/>
+    <text x="100" y="1206" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800">3</text>
+    <text x="140" y="1193" fill="#FFFFFF" font-size="17" font-weight="700">[손익분기점 계산] (현재 연 보험료 − 4세대 연 보험료) ÷ 자기부담 차이%</text>
+    <text x="140" y="1216" fill="#CBD5E1" font-size="14">1세대: 36.8만 ÷ 25% = 147만 / 2세대 선택: 13만 ÷ 20% = 65만</text>
+
+    <circle cx="100" cy="1266" r="22" fill="#7C3AED"/>
+    <text x="100" y="1274" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800">4</text>
+    <text x="140" y="1261" fill="#FFFFFF" font-size="17" font-weight="700">[실제 비급여 vs 손익분기 비교] 초과 → 유지, 미달 → 전환 고려</text>
+    <text x="140" y="1284" fill="#CBD5E1" font-size="14">연평균 의료비가 손익분기점을 매년 초과할 가능성이 높으면 유지</text>
+
+    <circle cx="100" cy="1334" r="22" fill="#7C3AED"/>
+    <text x="100" y="1342" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800">5</text>
+    <text x="140" y="1329" fill="#FFFFFF" font-size="17" font-weight="700">[차등제 시뮬레이션] 비급여 100만 이상이면 2년차 할증 반영 재계산</text>
+    <text x="140" y="1352" fill="#CBD5E1" font-size="14">100~150만: 비급여 보험료 2배 / 150~300만: 3배 / 300만+: 4배</text>
+
+    <circle cx="100" cy="1402" r="22" fill="#7C3AED"/>
+    <text x="100" y="1410" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800">6</text>
+    <text x="140" y="1397" fill="#FFFFFF" font-size="17" font-weight="700">[5세대 변수 확인] 1·2세대: 2026.5 출시 후 인센티브 확인 후 결정</text>
+    <text x="140" y="1420" fill="#CBD5E1" font-size="14">3년 50% 할인 인센티브 확정 시 5세대 직행이 유리할 수 있음</text>
+  </g>
+
+  <!-- 경고 박스 -->
+  <rect x="60" y="1515" width="1080" height="120" rx="12" fill="url(#card)" stroke="#FCA5A5" stroke-width="2"/>
+  <text x="80" y="1555" fill="#FCA5A5" font-size="20" font-weight="800" font-family="sans-serif">⚠ 반드시 기억할 것: 전환은 일방통행</text>
+  <text x="80" y="1590" fill="#FFFFFF" font-size="15" font-weight="700" font-family="sans-serif">4세대로 전환하면 1·2·3세대로 복귀 절대 불가 · 전환 후 건강 악화·비급여 증가 시에도 원상복귀 없음</text>
+  <text x="80" y="1618" fill="#FCA5A5" font-size="15" font-weight="700" font-family="sans-serif">반드시 본인 의료이용 패턴·차등제·5세대 변수를 모두 반영한 후 결정하세요</text>
+
+  <text x="60" y="1672" fill="#64748B" font-size="14" font-family="sans-serif">essencial | 보험 silo · 금융감독원·금융위원회·보험개발원 (2026.04 기준)</text>
+</svg>

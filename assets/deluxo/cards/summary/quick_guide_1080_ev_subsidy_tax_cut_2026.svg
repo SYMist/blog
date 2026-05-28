@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- Header -->
+  <rect x="60" y="60" width="960" height="110" rx="16" fill="#0D2347"/>
+  <text x="540" y="106" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="34" font-weight="800" fill="#FFFFFF" text-anchor="middle">전기차 vs 하이브리드</text>
+  <text x="540" y="150" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="26" font-weight="600" fill="#A0B4D0" text-anchor="middle">10초 판단 — 내 차 유형별 지원 비교</text>
+
+  <!-- Column Headers -->
+  <rect x="60" y="196" width="460" height="70" rx="12" fill="#34D399" fill-opacity="0.2"/>
+  <rect x="60" y="196" width="460" height="4" rx="2" fill="#34D399"/>
+  <text x="290" y="238" font-family="-apple-system, sans-serif" font-size="30" font-weight="900" fill="#34D399" text-anchor="middle">전기차 (BEV)</text>
+
+  <rect x="560" y="196" width="460" height="70" rx="12" fill="#EF4444" fill-opacity="0.1"/>
+  <rect x="560" y="196" width="460" height="4" rx="2" fill="#EF4444"/>
+  <text x="790" y="238" font-family="-apple-system, sans-serif" font-size="30" font-weight="900" fill="#EF4444" text-anchor="middle">하이브리드 (HEV/PHEV)</text>
+
+  <!-- Row 1: 국비보조금 -->
+  <rect x="60" y="282" width="960" height="100" rx="0" fill="#0D2347"/>
+  <text x="540" y="304" font-family="-apple-system, sans-serif" font-size="20" fill="#A0B4D0" text-anchor="middle">국비보조금</text>
+  <text x="290" y="350" font-family="-apple-system, sans-serif" font-size="32" font-weight="900" fill="#34D399" text-anchor="middle">최대 580만원 ✅</text>
+  <text x="790" y="350" font-family="-apple-system, sans-serif" font-size="32" font-weight="900" fill="#EF4444" text-anchor="middle">해당 없음 ❌</text>
+
+  <!-- Row 2: 지방보조금 -->
+  <rect x="60" y="382" width="960" height="100" rx="0" fill="#1A3270"/>
+  <text x="540" y="404" font-family="-apple-system, sans-serif" font-size="20" fill="#A0B4D0" text-anchor="middle">지방보조금</text>
+  <text x="290" y="452" font-family="-apple-system, sans-serif" font-size="28" font-weight="800" fill="#FFFFFF" text-anchor="middle">최대 1,100만원 ✅</text>
+  <text x="790" y="452" font-family="-apple-system, sans-serif" font-size="28" font-weight="800" fill="#EF4444" text-anchor="middle">해당 없음 ❌</text>
+
+  <!-- Row 3: 취득세 -->
+  <rect x="60" y="482" width="960" height="100" rx="0" fill="#0D2347"/>
+  <text x="540" y="504" font-family="-apple-system, sans-serif" font-size="20" fill="#A0B4D0" text-anchor="middle">취득세 감면</text>
+  <text x="290" y="552" font-family="-apple-system, sans-serif" font-size="28" font-weight="800" fill="#34D399" text-anchor="middle">최대 140만원 ✅</text>
+  <text x="790" y="552" font-family="-apple-system, sans-serif" font-size="28" font-weight="800" fill="#EF4444" text-anchor="middle">2024년 종료 ❌</text>
+
+  <!-- Row 4: 개소세 -->
+  <rect x="60" y="582" width="960" height="100" rx="0" fill="#1A3270"/>
+  <text x="540" y="604" font-family="-apple-system, sans-serif" font-size="20" fill="#A0B4D0" text-anchor="middle">개소세 감면</text>
+  <text x="290" y="652" font-family="-apple-system, sans-serif" font-size="28" font-weight="800" fill="#34D399" text-anchor="middle">최대 300만원 ✅</text>
+  <text x="790" y="652" font-family="-apple-system, sans-serif" font-size="28" font-weight="800" fill="#F59E0B" text-anchor="middle">최대 70만원 ⚠️</text>
+
+  <!-- Row 5: 전환지원금 -->
+  <rect x="60" y="682" width="960" height="100" rx="0" fill="#0D2347"/>
+  <text x="540" y="704" font-family="-apple-system, sans-serif" font-size="20" fill="#A0B4D0" text-anchor="middle">내연차 전환지원금</text>
+  <text x="290" y="752" font-family="-apple-system, sans-serif" font-size="28" font-weight="800" fill="#34D399" text-anchor="middle">+100만원 ✅</text>
+  <text x="790" y="752" font-family="-apple-system, sans-serif" font-size="28" font-weight="800" fill="#EF4444" text-anchor="middle">해당 없음 ❌</text>
+
+  <!-- Total comparison -->
+  <rect x="60" y="798" width="460" height="120" rx="14" fill="#34D399" fill-opacity="0.15"/>
+  <rect x="60" y="798" width="460" height="4" rx="2" fill="#34D399"/>
+  <text x="290" y="838" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">총 최대 혜택</text>
+  <text x="290" y="886" font-family="-apple-system, sans-serif" font-size="40" font-weight="900" fill="#34D399" text-anchor="middle">~1,200만원+</text>
+
+  <rect x="560" y="798" width="460" height="120" rx="14" fill="#EF4444" fill-opacity="0.1"/>
+  <rect x="560" y="798" width="460" height="4" rx="2" fill="#EF4444"/>
+  <text x="790" y="838" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">총 최대 혜택</text>
+  <text x="790" y="886" font-family="-apple-system, sans-serif" font-size="40" font-weight="900" fill="#EF4444" text-anchor="middle">~70만원</text>
+
+  <!-- divider -->
+  <line x1="540" y1="196" x2="540" y2="918" stroke="#A0B4D0" stroke-width="1" stroke-dasharray="6,4"/>
+
+  <!-- Note -->
+  <rect x="60" y="932" width="960" height="80" rx="12" fill="#1A3270"/>
+  <text x="540" y="968" font-family="-apple-system, sans-serif" font-size="22" font-weight="700" fill="#F59E0B" text-anchor="middle">지방보조금은 지역별 공고 필수 확인 — 예산 소진 시 조기 마감</text>
+  <text x="540" y="1000" font-family="-apple-system, sans-serif" font-size="20" fill="#A0B4D0" text-anchor="middle">deluxo | 2026년 기준 참고용 정보</text>
+</svg>

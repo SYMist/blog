@@ -1,0 +1,39 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="#F8FAFC"/>
+
+  <!-- Card -->
+  <g filter="url(#shadow)">
+    <rect x="70" y="70" width="940" height="940" rx="24" fill="#FFFFFF" stroke="#E5E7EB"/>
+  </g>
+
+  <!-- Header -->
+  <text x="120" y="170" font-size="48" fill="#111827" font-weight="800" font-family="Pretendard, 'Noto Sans KR', sans-serif">바우처 체크리스트</text>
+  <text x="120" y="230" font-size="28" fill="#6B7280" font-weight="600" font-family="Pretendard, 'Noto Sans KR', sans-serif">경영안정 바우처 신청 전</text>
+
+  <!-- Divider -->
+  <line x1="120" y1="270" x2="960" y2="270" stroke="#E5E7EB"/>
+
+  <!-- Checklist Items -->
+  <g font-family="Pretendard, 'Noto Sans KR', sans-serif" fill="#111827" font-size="30">
+    <text x="170" y="360">□ 2025.12.31 이전 개업</text>
+    <text x="170" y="430">□ 2025 매출 0원 초과~1억 400만원 미만</text>
+    <text x="170" y="500">□ 신청일 기준 영업 중</text>
+    <text x="170" y="570">□ 1인 1사업체 신청(공동대표 주대표)</text>
+    <text x="170" y="640">□ 카드사 9개 중 선택 준비</text>
+    <text x="170" y="710">□ 신청일(2/9~) 홀짝제 일정 확인</text>
+    <text x="170" y="780">□ 사용처(공과금/보험/연료비/화재공제료) 확인</text>
+  </g>
+
+  <!-- Footer Note -->
+  <rect x="120" y="840" width="840" height="90" rx="12" fill="#F1F5F9"/>
+  <text x="150" y="895" font-size="24" fill="#4B5563" font-family="Pretendard, 'Noto Sans KR', sans-serif">
+    홀짝제 시작일에 맞춰 접수하면 유리
+  </text>
+</svg>

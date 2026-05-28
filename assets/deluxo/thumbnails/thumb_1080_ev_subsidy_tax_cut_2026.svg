@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- Accent lines -->
+  <rect x="0" y="0" width="1080" height="8" fill="#34D399"/>
+  <rect x="0" y="1072" width="1080" height="8" fill="#34D399"/>
+
+  <!-- Badge: 2026 최신 -->
+  <rect x="60" y="60" width="180" height="52" rx="10" fill="#F59E0B"/>
+  <text x="150" y="95" font-family="-apple-system, sans-serif" font-size="26" font-weight="900" fill="#0B1F3B" text-anchor="middle">2026 최신</text>
+
+  <!-- Main title -->
+  <text x="60" y="220" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="82" font-weight="900" fill="#FFFFFF">전기차</text>
+  <text x="60" y="316" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="82" font-weight="900" fill="#FFFFFF">보조금·세제혜택</text>
+  <text x="60" y="412" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="72" font-weight="900" fill="#34D399">총정리</text>
+
+  <!-- Subtitle -->
+  <text x="60" y="490" font-family="-apple-system, sans-serif" font-size="36" font-weight="600" fill="#EAF2FF">개인 구매 신청 조건·금액·절차</text>
+
+  <!-- Divider -->
+  <rect x="60" y="530" width="200" height="4" rx="2" fill="#34D399"/>
+
+  <!-- Key numbers -->
+  <rect x="60" y="560" width="940" height="300" rx="20" fill="#0D2347" fill-opacity="0.8"/>
+
+  <text x="280" y="640" font-family="-apple-system, sans-serif" font-size="24" fill="#A0B4D0" text-anchor="middle">국비보조금 최대</text>
+  <text x="280" y="698" font-family="-apple-system, sans-serif" font-size="58" font-weight="900" fill="#34D399" text-anchor="middle">680만원</text>
+  <text x="280" y="736" font-family="-apple-system, sans-serif" font-size="20" fill="#A0B4D0" text-anchor="middle">전환지원금 포함</text>
+
+  <line x1="530" y1="580" x2="530" y2="840" stroke="#1A3270" stroke-width="2"/>
+
+  <text x="760" y="640" font-family="-apple-system, sans-serif" font-size="24" fill="#A0B4D0" text-anchor="middle">세제혜택 합계</text>
+  <text x="760" y="698" font-family="-apple-system, sans-serif" font-size="58" font-weight="900" fill="#FFFFFF" text-anchor="middle">569만원</text>
+  <text x="760" y="736" font-family="-apple-system, sans-serif" font-size="20" fill="#A0B4D0" text-anchor="middle">~2026.12.31</text>
+
+  <!-- Chips row -->
+  <!-- Chip 1: 국비 최대 680만원 -->
+  <rect x="60" y="886" width="310" height="56" rx="28" fill="#34D399"/>
+  <text x="215" y="921" font-family="-apple-system, sans-serif" font-size="26" font-weight="800" fill="#0B1F3B" text-anchor="middle">국비 최대 680만원</text>
+
+  <!-- Chip 2: 취득세 140만 감면 -->
+  <rect x="390" y="886" width="310" height="56" rx="28" fill="#EF4444"/>
+  <text x="545" y="921" font-family="-apple-system, sans-serif" font-size="26" font-weight="800" fill="#FFFFFF" text-anchor="middle">취득세 140만 감면</text>
+
+  <!-- Chip 3: 개소세 300만 감면 -->
+  <rect x="720" y="886" width="300" height="56" rx="28" fill="#1A3270"/>
+  <text x="870" y="921" font-family="-apple-system, sans-serif" font-size="26" font-weight="800" fill="#FFFFFF" text-anchor="middle">개소세 300만 감면</text>
+
+  <!-- Footer -->
+  <text x="540" y="1002" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">※ 지방보조금 별도 — 지역별 예산 소진 시 조기 마감</text>
+  <text x="540" y="1040" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">deluxo | 2026년 기준 참고 정보</text>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#EF4444">금리 불리해지는 실수 TOP 5</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#EF4444"/>
+
+  <rect x="60" y="130" width="960" height="160" rx="20" fill="rgba(239,68,68,0.08)"/>
+  <rect x="80" y="155" width="56" height="56" rx="28" fill="rgba(239,68,68,0.3)"/>
+  <text x="108" y="192" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="900" fill="#EF4444">1</text>
+  <text x="155" y="185" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">미사용 마이너스 통장 방치</text>
+  <text x="155" y="225" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#94A3B8">약정 한도 전체가 DSR에 잡혀 신규 대출 한도를 소진</text>
+  <text x="155" y="260" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">해결: 사용 안 하는 마이너스 통장 즉시 해지</text>
+
+  <rect x="60" y="308" width="960" height="160" rx="20" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="333" width="56" height="56" rx="28" fill="rgba(239,68,68,0.3)"/>
+  <text x="108" y="370" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="900" fill="#EF4444">2</text>
+  <text x="155" y="363" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">대환 시 중도상환수수료 미확인</text>
+  <text x="155" y="403" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#94A3B8">시중은행 수수료 0.02→0.18%로 상향 — 갈아타기 손익분기점 변화</text>
+  <text x="155" y="438" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">해결: 금리차 0.5%p↑이면 유리, 인터넷은행은 수수료 0원</text>
+
+  <rect x="60" y="486" width="960" height="160" rx="20" fill="rgba(239,68,68,0.08)"/>
+  <rect x="80" y="511" width="56" height="56" rx="28" fill="rgba(239,68,68,0.3)"/>
+  <text x="108" y="548" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="900" fill="#EF4444">3</text>
+  <text x="155" y="541" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">변동금리만 고집</text>
+  <text x="155" y="581" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#94A3B8">스트레스 DSR 3단계에서 한도가 가장 크게 감소하는 유형</text>
+  <text x="155" y="616" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">해결: 주기형 대출 선택 시 한도 최대 8,400만 원 추가 확보</text>
+
+  <rect x="60" y="664" width="960" height="160" rx="20" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="689" width="56" height="56" rx="28" fill="rgba(239,68,68,0.3)"/>
+  <text x="108" y="726" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="900" fill="#EF4444">4</text>
+  <text x="155" y="719" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">금리인하요구권 미행사</text>
+  <text x="155" y="759" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#94A3B8">신용점수 상승·연봉 인상 시 즉시 신청해야 금리 인하 가능</text>
+  <text x="155" y="794" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">해결: AI 금리인하 서비스 등록 → 자동 신청 (128.5만 명 등록)</text>
+
+  <rect x="60" y="842" width="960" height="160" rx="20" fill="rgba(239,68,68,0.08)"/>
+  <rect x="80" y="867" width="56" height="56" rx="28" fill="rgba(239,68,68,0.3)"/>
+  <text x="108" y="904" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="900" fill="#EF4444">5</text>
+  <text x="155" y="897" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">소득 증빙 서류 미비</text>
+  <text x="155" y="937" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#94A3B8">소득 증빙 누락 시 한도 축소·금리 불리 — 비금융 자산도 활용 가능</text>
+  <text x="155" y="972" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">해결: 마이데이터·뱅샐스코어로 공공요금 납부 실적까지 반영</text>
+
+  <rect x="60" y="1030" width="960" height="6" rx="3" fill="#EF4444"/>
+</svg>

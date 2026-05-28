@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <text x="540" y="130" font-family="'Pretendard', sans-serif" font-size="46" font-weight="900" fill="#EF4444" text-anchor="middle">⚠ 월세·주택자금 거절 사유 TOP 5</text>
+  <text x="540" y="210" font-family="'Pretendard', sans-serif" font-size="54" font-weight="900" fill="#FFFFFF" text-anchor="middle">이것만은 피하세요</text>
+
+  <rect x="60" y="270" width="960" height="140" rx="20" fill="#1A3270"/>
+  <text x="100" y="325" font-family="'Pretendard', sans-serif" font-size="30" font-weight="900" fill="#EF4444">① 전입신고 누락</text>
+  <text x="100" y="375" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF">계약 주소 ≠ 등본 주소 → 그 기간 공제 ✕</text>
+
+  <rect x="60" y="430" width="960" height="140" rx="20" fill="#1A3270"/>
+  <text x="100" y="485" font-family="'Pretendard', sans-serif" font-size="30" font-weight="900" fill="#EF4444">② 가족 명의 입금</text>
+  <text x="100" y="535" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF">본인 외 계좌 송금 → 본인 명의 입금 증빙 부족</text>
+
+  <rect x="60" y="590" width="960" height="140" rx="20" fill="#1A3270"/>
+  <text x="100" y="645" font-family="'Pretendard', sans-serif" font-size="30" font-weight="900" fill="#EF4444">③ 임차차입금 임대인 미입금</text>
+  <text x="100" y="695" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF">본인 계좌 경유 후 송금 → 직접 입금 요건 ✕</text>
+
+  <rect x="60" y="750" width="960" height="140" rx="20" fill="#1A3270"/>
+  <text x="100" y="805" font-family="'Pretendard', sans-serif" font-size="30" font-weight="900" fill="#EF4444">④ 12.31 기준 1주택자</text>
+  <text x="100" y="855" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF">연중 주택 취득 → 무주택 공제 전부 거절</text>
+
+  <rect x="60" y="910" width="960" height="140" rx="20" fill="#F59E0B"/>
+  <text x="100" y="965" font-family="'Pretendard', sans-serif" font-size="30" font-weight="900" fill="#0B1F3B">⑤ 주담대 차입 시기 위반</text>
+  <text x="100" y="1015" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#0B1F3B">취득일 + 3개월 초과 차입 → 장기주택저당 ✕</text>
+</svg>

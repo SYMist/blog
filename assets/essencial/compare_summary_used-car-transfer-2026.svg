@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EFF6FF"/>
+      <stop offset="100%" stop-color="#F0F9FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg1)"/>
+
+  <text x="540" y="70" font-family="sans-serif" font-size="36" font-weight="900" fill="#111827" text-anchor="middle">중고차 이전등록 셀프 vs 대행 비용 비교</text>
+  <text x="540" y="110" font-family="sans-serif" font-size="20" fill="#6B7280" text-anchor="middle">2026년 3월 기준 | 비영업용 승용차(7%) 기준</text>
+
+  <!-- 셀프 카드 -->
+  <rect x="50" y="150" width="470" height="460" rx="24" fill="#FFF" stroke="#BFDBFE" stroke-width="2"/>
+  <rect x="50" y="150" width="470" height="70" rx="24" fill="#1E40AF"/>
+  <rect x="50" y="196" width="470" height="24" fill="#1E40AF"/>
+  <text x="285" y="196" font-family="sans-serif" font-size="30" font-weight="900" fill="#FFF" text-anchor="middle">셀프 등록</text>
+
+  <text x="80" y="270" font-family="sans-serif" font-size="22" fill="#111827"><tspan font-weight="700">취득세</tspan></text>
+  <text x="480" y="270" font-family="sans-serif" font-size="22" fill="#111827" text-anchor="end">차량가액 x 7%</text>
+  <line x1="80" y1="290" x2="480" y2="290" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="80" y="320" font-family="sans-serif" font-size="22" fill="#111827"><tspan font-weight="700">공채 할인비</tspan></text>
+  <text x="480" y="320" font-family="sans-serif" font-size="22" fill="#111827" text-anchor="end">지역별 상이</text>
+  <line x1="80" y1="340" x2="480" y2="340" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="80" y="370" font-family="sans-serif" font-size="22" fill="#111827"><tspan font-weight="700">수수료</tspan></text>
+  <text x="480" y="370" font-family="sans-serif" font-size="22" fill="#111827" text-anchor="end">4,500원</text>
+  <line x1="80" y1="390" x2="480" y2="390" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="80" y="420" font-family="sans-serif" font-size="22" fill="#111827"><tspan font-weight="700">대행 수수료</tspan></text>
+  <text x="480" y="420" font-family="sans-serif" font-size="24" font-weight="900" fill="#059669" text-anchor="end">0원</text>
+  <line x1="80" y1="440" x2="480" y2="440" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="80" y="470" font-family="sans-serif" font-size="22" fill="#111827"><tspan font-weight="700">매도비</tspan></text>
+  <text x="480" y="470" font-family="sans-serif" font-size="24" font-weight="900" fill="#059669" text-anchor="end">0원</text>
+  <line x1="80" y1="490" x2="480" y2="490" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="80" y="530" font-family="sans-serif" font-size="20" fill="#6B7280">소요 시간: 반나절~1일</text>
+  <rect x="80" y="550" width="400" height="40" rx="12" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1"/>
+  <text x="280" y="577" font-family="sans-serif" font-size="18" font-weight="700" fill="#065F46" text-anchor="middle">33~50만 원 절약 가능</text>
+
+  <!-- 대행 카드 -->
+  <rect x="560" y="150" width="470" height="460" rx="24" fill="#FFF" stroke="#FED7AA" stroke-width="2"/>
+  <rect x="560" y="150" width="470" height="70" rx="24" fill="#EA580C"/>
+  <rect x="560" y="196" width="470" height="24" fill="#EA580C"/>
+  <text x="795" y="196" font-family="sans-serif" font-size="30" font-weight="900" fill="#FFF" text-anchor="middle">대행 서비스</text>
+
+  <text x="590" y="270" font-family="sans-serif" font-size="22" fill="#111827"><tspan font-weight="700">취득세</tspan></text>
+  <text x="990" y="270" font-family="sans-serif" font-size="22" fill="#111827" text-anchor="end">차량가액 x 7%</text>
+  <line x1="590" y1="290" x2="990" y2="290" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="590" y="320" font-family="sans-serif" font-size="22" fill="#111827"><tspan font-weight="700">공채 할인비</tspan></text>
+  <text x="990" y="320" font-family="sans-serif" font-size="22" fill="#111827" text-anchor="end">지역별 상이</text>
+  <line x1="590" y1="340" x2="990" y2="340" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="590" y="370" font-family="sans-serif" font-size="22" fill="#111827"><tspan font-weight="700">수수료</tspan></text>
+  <text x="990" y="370" font-family="sans-serif" font-size="22" fill="#111827" text-anchor="end">4,500원</text>
+  <line x1="590" y1="390" x2="990" y2="390" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="590" y="420" font-family="sans-serif" font-size="22" fill="#111827"><tspan font-weight="700">대행 수수료</tspan></text>
+  <text x="990" y="420" font-family="sans-serif" font-size="24" font-weight="900" fill="#DC2626" text-anchor="end">3~5만 원</text>
+  <line x1="590" y1="440" x2="990" y2="440" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="590" y="470" font-family="sans-serif" font-size="22" fill="#111827"><tspan font-weight="700">매도비 (상사)</tspan></text>
+  <text x="990" y="470" font-family="sans-serif" font-size="24" font-weight="900" fill="#DC2626" text-anchor="end">30~45만 원</text>
+  <line x1="590" y1="490" x2="990" y2="490" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="590" y="530" font-family="sans-serif" font-size="20" fill="#6B7280">소요 시간: 1~3일</text>
+  <rect x="590" y="550" width="400" height="40" rx="12" fill="#FEF2F2" stroke="#FECACA" stroke-width="1"/>
+  <text x="790" y="577" font-family="sans-serif" font-size="18" font-weight="700" fill="#991B1B" text-anchor="middle">추가 비용 33~50만 원</text>
+
+  <!-- 하단 시뮬레이션 -->
+  <rect x="50" y="650" width="980" height="140" rx="20" fill="#FFF" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="540" y="690" font-family="sans-serif" font-size="24" font-weight="800" fill="#1E40AF" text-anchor="middle">2,000만 원 중형 세단 비용 시뮬레이션</text>
+  <text x="285" y="730" font-family="sans-serif" font-size="20" fill="#111827" text-anchor="middle">셀프: 취득세 140만 + 공채 ~3만 + 수수료 0.45만</text>
+  <text x="285" y="765" font-family="sans-serif" font-size="26" font-weight="900" fill="#1E40AF" text-anchor="middle">= 약 143만 원</text>
+  <text x="795" y="730" font-family="sans-serif" font-size="20" fill="#111827" text-anchor="middle">대행: 143만 + 대행료 5만 + 매도비 45만</text>
+  <text x="795" y="765" font-family="sans-serif" font-size="26" font-weight="900" fill="#EA580C" text-anchor="middle">= 약 193만 원</text>
+
+  <!-- 하단 감면 정보 -->
+  <rect x="50" y="820" width="310" height="100" rx="16" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1"/>
+  <text x="205" y="860" font-family="sans-serif" font-size="20" font-weight="800" fill="#065F46" text-anchor="middle">전기차 감면</text>
+  <text x="205" y="895" font-family="sans-serif" font-size="24" font-weight="900" fill="#059669" text-anchor="middle">최대 140만 원</text>
+
+  <rect x="385" y="820" width="310" height="100" rx="16" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1"/>
+  <text x="540" y="860" font-family="sans-serif" font-size="20" font-weight="800" fill="#065F46" text-anchor="middle">경차 감면</text>
+  <text x="540" y="895" font-family="sans-serif" font-size="24" font-weight="900" fill="#059669" text-anchor="middle">최대 75만 원</text>
+
+  <rect x="720" y="820" width="310" height="100" rx="16" fill="#FEF2F2" stroke="#FECACA" stroke-width="1"/>
+  <text x="875" y="860" font-family="sans-serif" font-size="20" font-weight="800" fill="#991B1B" text-anchor="middle">기한 초과 범칙금</text>
+  <text x="875" y="895" font-family="sans-serif" font-size="24" font-weight="900" fill="#DC2626" text-anchor="middle">최대 50만 원</text>
+
+  <text x="540" y="970" font-family="sans-serif" font-size="16" fill="#9CA3AF" text-anchor="middle">2026년 3월 기준 | 비영업용 승용차 취득세율 7% 적용</text>
+  <text x="540" y="1000" font-family="sans-serif" font-size="16" fill="#9CA3AF" text-anchor="middle">공채·감면 혜택은 지역·차종에 따라 달라질 수 있습니다</text>
+</svg>

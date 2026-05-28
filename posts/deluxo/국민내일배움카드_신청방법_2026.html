@@ -1,0 +1,338 @@
+<style>
+  :root{
+    --blue:#1D4ED8; --blue2:#1E40AF;
+    --white:#FFFFFF; --text:#111827;
+    --muted:#4B5563; --border:#E5E7EB;
+    --bg:#F9FAFB; --blueLight:#E8F0FF;
+  }
+  .wrap{max-width:860px;margin:0 auto;line-height:1.8;color:var(--text);}
+  .meta{color:var(--muted);font-size:.95rem;margin:6px 0 18px;}
+  .badge{display:inline-block;background:var(--blueLight);border:1px solid var(--border);padding:3px 10px;border-radius:999px;font-size:.85rem;margin-right:8px;}
+  .notice{background:#fff7ed;border:1px solid #fed7aa;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .lead{background:#f8fafc;border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .keysum{background:#fefce8;border:1px solid #fde68a;padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .summary{background:#eff6ff;border:1px solid #bfdbfe;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .toc{background:var(--bg);border:1px solid var(--border);padding:14px 16px;border-radius:12px;margin:16px 0 22px;}
+  .toc a{text-decoration:none;color:var(--blue);}
+  .toc ul{margin:8px 0 0 18px;}
+
+  /* ✅ 버튼(스킨 링크 색 덮어쓰기 방지) */
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 6px;}
+  .wrap a.btn,.wrap a.btn:link,.wrap a.btn:visited{
+    display:inline-flex;align-items:center;justify-content:center;
+    padding:10px 14px;border-radius:10px;border:1px solid var(--blue);
+    background:var(--blue) !important;color:var(--white) !important;
+    text-decoration:none !important;font-weight:800;
+  }
+  .wrap a.btn:hover,.wrap a.btn:active,.wrap a.btn:focus{
+    background:var(--blue2) !important;border-color:var(--blue2) !important;color:var(--white) !important;
+  }
+  .wrap a.btn.secondary,.wrap a.btn.secondary:link,.wrap a.btn.secondary:visited{
+    background:var(--white) !important;color:var(--blue) !important;border-color:var(--blue) !important;
+  }
+  .wrap a.btn.secondary:hover,.wrap a.btn.secondary:active,.wrap a.btn.secondary:focus{
+    background:var(--bg) !important;color:var(--blue2) !important;border-color:var(--blue2) !important;
+  }
+  .wrap a.btn.gray,.wrap a.btn.gray:link,.wrap a.btn.gray:visited{
+    background:#111827 !important;border-color:#111827 !important;color:var(--white) !important;
+  }
+  .wrap a.btn.gray:hover,.wrap a.btn.gray:active,.wrap a.btn.gray:focus{
+    background:#0b1220 !important;border-color:#0b1220 !important;color:var(--white) !important;
+  }
+
+  table{width:100%;border-collapse:collapse;margin:14px 0 10px;}
+  th,td{border:1px solid var(--border);padding:10px;vertical-align:top;}
+  th{background:#F3F4F6;text-align:left;}
+  .small{font-size:.95rem;color:var(--muted);}
+  h1{margin:0 0 8px;line-height:1.25;}
+  h2{margin-top:30px;padding-top:8px;border-top:1px solid var(--border);}
+  h3{margin-top:16px;}
+  .q{font-weight:900;margin:14px 0 6px;}
+  .a{margin:0 0 10px;}
+  .tips{background:#f0fdf4;border:1px solid #bbf7d0;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .ad{background:#f9fafb;border:1px dashed var(--border);padding:10px 12px;border-radius:10px;margin:12px 0;}
+  .footer{margin-top:26px;padding-top:14px;border-top:1px solid var(--border);color:var(--muted);font-size:.95rem;}
+</style>
+
+<div class="wrap">
+  <h1>국민내일배움카드 신청하세요: 최대 500만원 훈련비 지원 (2026)</h1>
+  <div class="meta">
+    <span class="badge">키워드: 국민내일배움카드</span>
+    <span class="badge">업데이트: 2026-02-10</span>
+  </div>
+
+  <div class="notice">
+    <strong>먼저 확인!</strong><br/>
+    2026년부터 K-디지털 트레이닝 등 특화과정에 자부담금이 새로 도입됩니다. 신청 전 HRD-Net에서 최신 공고를 반드시 확인하세요.
+  </div>
+
+  <p class="small">
+    국민내일배움카드는 구직자·재직자·자영업자 등 대부분의 국민에게 최대 500만원의 직업훈련비를 지원하는 고용노동부 제도입니다. 신청 대상, 자부담률, 훈련과정 유형, 장려금까지 2026년 기준으로 정리했습니다.
+  </p>
+
+  <div class="lead">
+    "이직 준비 중인데 학원비가 부담돼요." "자격증 따고 싶은데 비용이 만만치 않아요." 직업훈련을 받고 싶지만 비용 때문에 망설이는 분들이 많습니다. 국민내일배움카드를 활용하면 5년간 최대 500만원까지 훈련비를 지원받을 수 있어요.
+  </div>
+
+  <div class="keysum">
+    <strong>핵심 요약 3줄</strong><br/>
+    1. 15세 이상 국민 대부분 신청 가능, 기본 300만원·취약계층 최대 500만원 지원<br/>
+    2. 자부담률 15~55% (특화과정은 전액지원, 단 2026년 일부 자부담 도입 예정)<br/>
+    3. 훈련장려금 월 최대 11만 6천원 + K-디지털 트레이닝 참여 시 월 20만원 추가 수당
+  </div>
+
+  <div class="summary" id="top">
+    <h2 style="border-top:none;margin-top:0;">5줄 요약(결론)</h2>
+    <ul>
+      <li><strong>대상</strong>: 구직자·재직자·자영업자·대학 졸업예정자 등 대부분 국민 (공무원·사학연금 대상자·75세 이상 등 제외)</li>
+      <li><strong>지원금</strong>: 기본 300만원, 취약계층 추가 100~200만원으로 최대 500만원 (5년간 사용)</li>
+      <li><strong>신청 흐름</strong>: HRD-Net 회원가입 → 카드 발급 신청 → 훈련과정 검색·수강신청 → 수강·수료</li>
+      <li><strong>핵심 체크</strong>: 제외대상 여부 확인, 자부담률(15~55%), 출석률 80% 이상 유지 필수</li>
+      <li><strong>주의</strong>: 2026년 특화훈련 자부담금 신설 예정이므로, 수강 전 HRD-Net에서 최신 공고를 확인하세요</li>
+    </ul>
+
+    <div class="btns">
+      <a class="btn" href="https://www.hrd.go.kr" target="_blank" rel="noopener">HRD-Net 훈련과정 검색</a>
+      <a class="btn gray" href="https://www.work24.go.kr" target="_blank" rel="noopener">고용24 카드 발급 신청</a>
+      <a class="btn secondary" href="https://www.moel.go.kr" target="_blank" rel="noopener">고용노동부 공식 안내</a>
+    </div>
+    <p class="small">※ 신청 전 공식 공고/FAQ 확인 필수</p>
+  </div>
+
+  <div class="toc">
+    <strong>목차</strong>
+    <ul>
+      <li><a href="#table">1) 한눈에 표 (과정 유형별 비교)</a></li>
+      <li><a href="#who">2) 대상·제외대상</a></li>
+      <li><a href="#how">3) 신청 방법 (5단계)</a></li>
+      <li><a href="#docs">4) 서류 체크리스트</a></li>
+      <li><a href="#money">5) 훈련장려금·특별수당</a></li>
+      <li><a href="#change">6) 2026년 달라지는 점</a></li>
+      <li><a href="#faq">7) FAQ</a></li>
+      <li><a href="#check">8) 1분 체크리스트</a></li>
+      <li><a href="#update">업데이트 로그</a></li>
+    </ul>
+  </div>
+
+  <h2 id="table">1) 한눈에 표 (과정 유형별 비교)</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>과정 유형</th><th>대표 분야</th><th>자부담률</th><th>지원 방식</th><th>장려금/수당</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>일반직종 훈련</strong></td>
+        <td>사무·회계·요리·미용·바리스타·제과제빵 등</td>
+        <td>15~55% (일부 분야 +5%p 추가)</td>
+        <td>계좌 한도 내 지원</td>
+        <td>월 최대 11.6만원</td>
+      </tr>
+      <tr>
+        <td><strong>국가기간·전략산업직종</strong></td>
+        <td>제조·용접·자동차정비 등 국가 지정 분야</td>
+        <td>전액지원 (2026년 10% 자부담 도입 예정)</td>
+        <td>별도 한도 지원</td>
+        <td>월 최대 11.6만원</td>
+      </tr>
+      <tr>
+        <td><strong>K-디지털 트레이닝</strong></td>
+        <td>AI·클라우드·반도체 등 첨단 부트캠프</td>
+        <td>전액지원 (2026년 자부담 도입 예정)</td>
+        <td>별도 한도 지원</td>
+        <td>월 최대 11.6만원 + 특별수당 월 20만원</td>
+      </tr>
+      <tr>
+        <td><strong>K-디지털 기초역량</strong></td>
+        <td>파이썬·데이터분석·AI 기초 등 단기과정</td>
+        <td>자부담 없음</td>
+        <td>계좌 한도 내 지원</td>
+        <td>월 최대 11.6만원</td>
+      </tr>
+      <tr>
+        <td><strong>과정평가형 자격</strong></td>
+        <td>국가기술자격 취득 과정</td>
+        <td>전액지원</td>
+        <td>별도 한도 지원</td>
+        <td>월 최대 11.6만원</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="small">※ 2026년 개편안 기준이며, 세부 사항은 공고에 따라 달라질 수 있습니다.</p>
+
+  <div class="ad"><!-- 광고 위치 1: 한눈에 표 아래 --></div>
+
+  <h2 id="who">2) 대상·제외대상</h2>
+  <h3>신청 가능한 사람</h3>
+  <p>직업훈련이 필요한 <strong>15세 이상 국민이라면 대부분 신청 가능</strong>합니다. 구직자, 재직자, 자영업자, 특수형태근로종사자, 대학 졸업예정자(졸업까지 수업연한 2년 이내) 모두 대상이에요. 지역 제한 없이 전국 어디서나 신청할 수 있습니다.</p>
+
+  <h3>제외대상 (신청 불가)</h3>
+  <table>
+    <thead>
+      <tr><th>제외대상</th><th>사유</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>공무원·사립학교 교직원 (사학연금 대상자)</td><td>공공부문 임직원 지원 제외</td></tr>
+      <tr><td>75세 이상</td><td>재취업 가능성 기준 제외</td></tr>
+      <tr><td>대기업 재직자 중 만 45세 미만 + 월 임금 300만원 이상</td><td>고소득·고용안정층 제외</td></tr>
+      <tr><td>프리랜서·특수형태근로자 중 월 소득 500만원 이상</td><td>고소득자 제외</td></tr>
+      <tr><td>연 매출 1.5억원 이상 자영업자</td><td>고소득 자영업자 제외</td></tr>
+      <tr><td>졸업까지 2년 이상 남은 대학생, 고교 1·2학년</td><td>학업 우선 대상</td></tr>
+      <tr><td>타 부처/지자체 동일 훈련비 수혜자, 부정수급자</td><td>중복지원 방지</td></tr>
+    </tbody>
+  </table>
+
+  <h2 id="how">3) 신청 방법 (5단계)</h2>
+  <ol>
+    <li><strong>HRD-Net 회원가입</strong>: <a href="https://www.hrd.go.kr" target="_blank" rel="noopener">HRD-Net(직업훈련포털)</a>에 접속해 회원가입 후 본인 정보를 등록합니다. 오프라인은 관할 고용센터에서도 가능합니다.</li>
+    <li><strong>카드 발급 신청</strong>: HRD-Net에서 국민내일배움카드 발급을 신청합니다. 카드는 신한카드 또는 NH카드로 발급되며, 약 2~3주 후 수령할 수 있어요.</li>
+    <li><strong>훈련과정 검색·수강신청</strong>: HRD-Net에서 원하는 훈련과정을 검색하고 수강신청합니다. 140시간 미만 과정은 바로 신청 가능하고, 140시간 이상 과정은 고용센터 상담 후 신청해야 합니다. 140시간 이상 과정은 HRD-Net과 훈련기관 홈페이지 양쪽에서 신청을 완료해야 해요.</li>
+    <li><strong>수강·출석 관리</strong>: 출석률 80% 이상을 유지해야 수료 인정과 훈련장려금 지급이 가능합니다. 자부담이 있는 과정은 수강신청 시 내일배움카드로 결제합니다.</li>
+    <li><strong>수료·만족도 조사</strong>: 교육 종료 후 30일 이내에 HRD-Net에서 만족도 조사를 완료해야 마지막 달 훈련장려금이 정상 지급됩니다.</li>
+  </ol>
+
+  <div class="ad"><!-- 광고 위치 2: 신청 방법 끝 --></div>
+
+  <h2 id="docs">4) 서류 체크리스트</h2>
+  <h3>기본 서류</h3>
+  <ul>
+    <li>신분증 (주민등록증·운전면허증·여권 중 택1)</li>
+    <li>직업능력개발계좌 발급 신청서 (오프라인 신청 시)</li>
+    <li>통장 사본 (훈련장려금 수령용)</li>
+  </ul>
+  <h3>상황별 추가 서류</h3>
+  <ul>
+    <li><strong>재직자</strong>: 건강보험자격득실확인서 또는 재직증명서</li>
+    <li><strong>자영업자</strong>: 사업자등록증 사본, 부가가치세 과세표준증명원</li>
+    <li><strong>대학 졸업예정자</strong>: 재학증명서 (졸업예정 표기 포함)</li>
+    <li><strong>특수형태근로종사자</strong>: 위촉계약서 또는 소득금액증명원</li>
+    <li><strong>취약계층 추가지원 신청 시</strong>: 해당 증빙서류 (기초생활수급자 증명서, 장애인등록증 등)</li>
+  </ul>
+
+  <h2 id="money">5) 훈련장려금·특별수당</h2>
+  <h3>훈련장려금</h3>
+  <p>140시간 이상 훈련과정을 수강하는 <strong>실업자, 주 15시간 미만 근로자, 근로장려금(EITC) 수급자, 국민취업지원제도 참여자</strong> 등이 대상입니다. 출석률 80% 이상을 충족하면 <strong>월 최대 11만 6천원</strong>을 받을 수 있어요.</p>
+  <ul>
+    <li>1일 5시간 이상 훈련 기준이며, 출석일수에 따라 금액이 달라집니다</li>
+    <li>실업급여 수급 기간에는 훈련장려금이 지급되지 않습니다</li>
+  </ul>
+
+  <h3>K-디지털 트레이닝 특별수당</h3>
+  <p>AI·클라우드·반도체 등 K-디지털 트레이닝(부트캠프) 과정 참여자에게는 훈련장려금과 별도로 <strong>월 최대 20만원</strong>의 특별수당이 추가 지급됩니다.</p>
+
+  <div class="notice">
+    <strong>오해 주의!</strong><br/>
+    일부 매체에서 "2026년 훈련장려금이 월 20만원으로 인상"이라고 소개하고 있으나, 확인된 공식 자료 기준으로 일반 훈련장려금은 월 최대 11만 6천원이 유지됩니다. 월 20만원은 K-디지털 트레이닝 참여자에게만 적용되는 특별수당이에요.
+  </div>
+
+  <h3>국민취업지원제도 연계 수당</h3>
+  <p>국민취업지원제도에 참여 중인 분은 유형에 따라 별도 특별훈련수당이 추가될 수 있습니다. (1유형 최대 50만원, 2유형 28.4만원)</p>
+
+  <h2 id="change">6) 2026년 달라지는 점</h2>
+  <table>
+    <thead>
+      <tr><th>변화 사항</th><th>내용</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>특화훈련 자부담 도입</strong></td>
+        <td>K-디지털 트레이닝·국가기간전략산업직종·산대특 등 기존 전액지원 과정에 자부담금 신설. 훈련비 300만원 이하 → 30만원(10%), 600만원 이하 → 30만원(5%), 1,200만원 초과 → 60만원(3%) 등 구간별 차등 부과 예정</td>
+      </tr>
+      <tr>
+        <td><strong>취약계층 추가지원 확대</strong></td>
+        <td>계좌 한도(300만원)를 소진한 취약계층에게 기존 100만원이 아닌 200만원을 추가 지원</td>
+      </tr>
+      <tr>
+        <td><strong>가정 밖 청소년 자부담 완화</strong></td>
+        <td>자부담률 15~55% → 0~20%로 인하, 한도 소진 시 200만원 추가 지원</td>
+      </tr>
+      <tr>
+        <td><strong>원격훈련 규정 완화</strong></td>
+        <td>구직자도 일부 재직자 원격훈련 과정 참여 가능, 597개 과정 추가</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="small">※ 위 내용은 2026년 개편안 보도 기준이며, 세부 사항은 확정 공고에 따라 달라질 수 있습니다.</p>
+
+  <h2 id="faq">7) FAQ</h2>
+  <h3>탈락·거절 사유 TOP5</h3>
+  <ol>
+    <li><strong>제외대상 해당</strong>: 공무원·사학연금 대상자·75세 이상 등은 발급 자체가 불가합니다</li>
+    <li><strong>출석률 80% 미달</strong>: 출석률이 부족하면 수료 불인정 + 훈련장려금 미지급됩니다</li>
+    <li><strong>동일 과정 재수강</strong>: 이미 수료한 과정과 동일한 과정은 재수강이 제한됩니다</li>
+    <li><strong>연간 수강 횟수 초과</strong>: 1년 최대 5개 과정, 동일 직종은 연 3회까지만 가능합니다</li>
+    <li><strong>중복 지원</strong>: 다른 부처·지자체에서 동일 훈련비를 이미 지원받는 경우 제외됩니다</li>
+  </ol>
+
+  <h3>수강 제한·중복수급·예외 조건</h3>
+  <ul>
+    <li><strong>수강 횟수</strong>: 1년에 최대 5개 과정, 동일 직종은 연 3회까지 수강 가능</li>
+    <li><strong>중복수급</strong>: 타 부처·지자체의 동일 훈련비 지원과 중복 불가. 단, 국민취업지원제도 참여와는 연계 가능</li>
+    <li><strong>저소득층·장애인 등 자부담 면제</strong>: 국민취업지원제도 참여자·EITC 수급자·장애인 등은 자부담이 없거나 크게 감소</li>
+  </ul>
+
+  <h3>자주 묻는 질문</h3>
+  <p class="q">Q1. 재직자도 국민내일배움카드를 신청할 수 있나요?</p>
+  <p class="a">네, 가능합니다. 단 대기업 재직자 중 만 45세 미만이면서 월 임금 300만원 이상이면 제외됩니다. 중소기업 재직자, 비정규직, 파트타임 근로자 등은 대부분 신청할 수 있어요.</p>
+
+  <p class="q">Q2. 대학생도 신청할 수 있나요?</p>
+  <p class="a">졸업까지 수업연한이 2년 이내인 졸업예정자라면 가능합니다. 예를 들어 4년제 대학 3학년 이상, 2년제 대학 1학년 이상이면 신청할 수 있어요. 고교 1·2학년은 제외됩니다.</p>
+
+  <p class="q">Q3. 자부담은 정확히 얼마인가요?</p>
+  <p class="a">과정의 취업률 등에 따라 훈련비의 15~55%를 본인이 부담합니다. 취업률이 높은 과정은 자부담이 낮고(15% 내외), 요양보호사·바리스타·미용 등 일부 분야는 5%p가 추가 부과됩니다. 국가기간전략산업직종·K-디지털 트레이닝 등 특화과정은 기본적으로 전액지원이지만 2026년부터 일부 자부담이 생길 수 있어요.</p>
+
+  <p class="q">Q4. 카드 유효기간은 얼마인가요?</p>
+  <p class="a">카드 발급일로부터 5년간 사용할 수 있습니다. 5년이 지나면 잔액이 남아 있어도 소멸되므로 계획적으로 사용하는 것이 좋아요.</p>
+
+  <p class="q">Q5. 실업급여를 받으면서 훈련도 받을 수 있나요?</p>
+  <p class="a">실업급여 수급 중에도 내일배움카드로 훈련을 받을 수 있습니다. 다만 실업급여 수급 기간에는 훈련장려금이 지급되지 않아요. 실업급여가 종료된 후부터 훈련장려금을 받을 수 있습니다.</p>
+
+  <p class="q">Q6. 온라인 과정도 지원되나요?</p>
+  <p class="a">네, HRD-Net에 등록된 원격(온라인) 훈련과정도 지원됩니다. 2026년부터는 구직자도 일부 재직자 원격훈련에 참여할 수 있도록 규정이 완화되어, 597개 과정이 추가될 예정이에요.</p>
+
+  <p class="q">Q7. 140시간 이상 과정은 왜 상담이 필요한가요?</p>
+  <p class="a">장기 훈련과정의 경우 적합성과 취업 연계를 확인하기 위해 고용센터에서 훈련 진단 상담을 받아야 합니다. 상담 후 HRD-Net과 훈련기관 홈페이지 양쪽에서 수강신청을 완료해야 해요.</p>
+
+  <p class="q">Q8. 수료 후 반드시 해야 할 것이 있나요?</p>
+  <p class="a">교육 종료 후 30일 이내에 HRD-Net에서 만족도 조사를 완료해야 합니다. 이를 놓치면 마지막 달 훈련장려금이 지급되지 않으니 꼭 잊지 마세요.</p>
+
+  <p class="q">Q9. 카드 결제가 안 될 때는 어떻게 하나요?</p>
+  <p class="a">국민내일배움카드는 신한카드 또는 NH카드로 발급됩니다. 결제 장애가 발생하면 해당 카드사 고객센터(신한카드 1544-7000, NH카드 1644-4000)에 문의하세요.</p>
+
+  <p class="q">Q10. K-디지털 트레이닝 수당 20만원은 누구나 받을 수 있나요?</p>
+  <p class="a">K-디지털 트레이닝(부트캠프) 과정에 참여하는 훈련생에게만 지급되는 특별수당입니다. 일반 훈련과정 수강자에게는 해당하지 않으며, 일반 훈련장려금(월 최대 11.6만원)과는 별도로 지급됩니다.</p>
+
+  <div class="tips">
+    <strong>실전 팁</strong><br/>
+    - 140시간 이상 과정은 상담 예약이 밀릴 수 있으니, 수강 시작 최소 3~4주 전에 고용센터 상담을 예약하세요.<br/>
+    - 출석 인정은 훈련기관마다 방식이 다릅니다(지문·카드·앱). 첫 날 반드시 출석 방법을 확인하세요.<br/>
+    - HRD-Net 만족도 조사를 놓치는 분들이 많아요. 수료 직후 바로 완료하는 습관을 들이세요.<br/>
+    - 한도를 다 썼더라도 취약계층이라면 추가 200만원 지원이 가능하니, 고용센터에 문의해보세요.
+  </div>
+
+  <h2 id="check">8) 신청 전 1분 체크리스트</h2>
+  <ul>
+    <li>제외대상(공무원·사학연금·75세 이상 등)에 해당하지 않는지 확인</li>
+    <li>HRD-Net 회원가입 및 본인 정보 등록 완료</li>
+    <li>원하는 훈련과정의 자부담률·수강시간 확인</li>
+    <li>140시간 이상 과정이면 고용센터 상담 예약</li>
+    <li>신분증·통장사본 등 기본 서류 준비</li>
+  </ul>
+  <p class="small">관련 글: 국민취업지원제도 신청 방법 / 중장년 재취업 지원금 신청 방법</p>
+
+  <div class="ad"><!-- 광고 위치 3: 글 하단 --></div>
+
+  <div class="tips">
+    <strong>참고/문의처</strong><br/>
+    공식 훈련과정 검색: <a href="https://www.hrd.go.kr" target="_blank" rel="noopener">HRD-Net (직업훈련포털)</a><br/>
+    카드 발급·고용서비스: <a href="https://www.work24.go.kr" target="_blank" rel="noopener">고용24</a><br/>
+    문의 전화: 고용노동부 고객상담센터 1350
+  </div>
+
+  <div class="footer" id="update">
+    <strong>업데이트 로그</strong><br/>
+    - 2026-02-10: 2026년 개편안(특화훈련 자부담 도입, 취약계층 추가지원 확대 등) 반영하여 최초 작성<br/>
+    <span class="small">※ 공고에 따라 세부 조건이 변동될 수 있어요. 신청 전 HRD-Net 공식 공고를 꼭 확인하세요!</span>
+  </div>
+</div>

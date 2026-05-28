@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Decorative circle -->
+  <circle cx="1080" cy="120" r="160" fill="#34D399" opacity="0.04"/>
+
+  <!-- Top bar -->
+  <rect x="0" y="0" width="1200" height="8" fill="#34D399"/>
+
+  <!-- Chips -->
+  <rect x="60" y="42" width="148" height="38" rx="19" fill="#F59E0B"/>
+  <text x="134" y="67" font-family="-apple-system, sans-serif" font-size="17" font-weight="800" fill="#0B1F3B" text-anchor="middle">2026 최신</text>
+
+  <rect x="222" y="42" width="240" height="38" rx="19" fill="#1A3270"/>
+  <rect x="222" y="42" width="240" height="38" rx="19" fill="none" stroke="#34D399" stroke-width="1.5"/>
+  <text x="342" y="67" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#34D399" text-anchor="middle">최대 2,600만원</text>
+
+  <rect x="476" y="42" width="268" height="38" rx="19" fill="#1A3270"/>
+  <rect x="476" y="42" width="268" height="38" rx="19" fill="none" stroke="#EF4444" stroke-width="1.5"/>
+  <text x="610" y="67" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#EF4444" text-anchor="middle">재도전자금 7,000만</text>
+
+  <!-- Main title -->
+  <text x="60" y="156" font-family="-apple-system, sans-serif" font-size="50" font-weight="900" fill="#FFFFFF">소상공인 폐업 후 재창업 지원금 총정리</text>
+  <text x="60" y="206" font-family="-apple-system, sans-serif" font-size="20" font-weight="700" fill="#A0B4D0">2026년 기준 | 희망리턴패키지 · 재도전특별자금 · 특화취업지원</text>
+
+  <!-- Divider -->
+  <line x1="60" y1="228" x2="1140" y2="228" stroke="#1A3270" stroke-width="2"/>
+
+  <!-- 3 boxes -->
+  <rect x="60" y="246" width="220" height="190" rx="14" fill="#0D2347"/>
+  <text x="170" y="284" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#F59E0B" text-anchor="middle">재기사업화</text>
+  <text x="170" y="316" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#34D399" text-anchor="middle">최대 2,600만</text>
+  <text x="170" y="346" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">사업화 2,000만원</text>
+  <text x="170" y="366" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">+ 철거비 600만원</text>
+  <text x="170" y="392" font-family="-apple-system, sans-serif" font-size="12" fill="#EF4444" text-anchor="middle">자부담 50% 필요</text>
+  <text x="170" y="412" font-family="-apple-system, sans-serif" font-size="11" fill="#A0B4D0" text-anchor="middle">sbiz24.kr 신청</text>
+
+  <rect x="296" y="246" width="220" height="190" rx="14" fill="#0D2347"/>
+  <text x="406" y="284" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#F59E0B" text-anchor="middle">재도전특별자금</text>
+  <text x="406" y="316" font-family="-apple-system, sans-serif" font-size="28" font-weight="900" fill="#EF4444" text-anchor="middle">최대 7,000만</text>
+  <text x="406" y="350" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">금리 약 3% 내외</text>
+  <text x="406" y="370" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">폐업 후 5년 이내</text>
+  <text x="406" y="394" font-family="-apple-system, sans-serif" font-size="12" fill="#EF4444" text-anchor="middle">교육 10h 이수 필수</text>
+  <text x="406" y="412" font-family="-apple-system, sans-serif" font-size="11" fill="#A0B4D0" text-anchor="middle">kosmes.or.kr 신청</text>
+
+  <text x="570" y="346" font-family="-apple-system, sans-serif" font-size="36" font-weight="900" fill="#EF4444" text-anchor="middle">+</text>
+
+  <rect x="612" y="246" width="528" height="190" rx="14" fill="#1A3270"/>
+  <rect x="612" y="246" width="528" height="190" rx="14" fill="none" stroke="#34D399" stroke-width="2"/>
+  <text x="876" y="284" font-family="-apple-system, sans-serif" font-size="14" font-weight="700" fill="#34D399" text-anchor="middle">병행 활용 시뮬레이션</text>
+  <text x="876" y="318" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">재기사업화 2,000만원 (보조)</text>
+  <text x="876" y="348" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#F59E0B" text-anchor="middle">+ 재도전자금 7,000만원</text>
+  <text x="876" y="382" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF" text-anchor="middle">총 9,000만원+ 재도전 기반</text>
+  <text x="876" y="414" font-family="-apple-system, sans-serif" font-size="13" fill="#34D399" text-anchor="middle">현금 자부담 약 600만원 | 주관 기관 달라 병행 가능</text>
+
+  <!-- Bottom note -->
+  <text x="600" y="590" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준 | 지원 조건·금액은 공고에 따라 변동 | 신청 전 최신 공고 확인 | sbiz24.kr</text>
+  <rect x="0" y="622" width="1200" height="8" fill="#34D399"/>
+</svg>

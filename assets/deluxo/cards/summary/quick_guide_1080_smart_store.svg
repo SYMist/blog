@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="80" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="800" fill="#F59E0B">내 상황에 맞는 스마트 기술은?</text>
+  <rect x="60" y="110" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <rect x="60" y="140" width="960" height="110" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <text x="100" y="180" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#3B82F6">1인 음식점</text>
+  <text x="100" y="218" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">→ 키오스크+테이블오더 (자부담 210만 / 우대 140만)</text>
+
+  <rect x="60" y="260" width="960" height="110" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="300" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#3B82F6">인건비 부담</text>
+  <text x="100" y="338" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">→ 서빙로봇 렌탈 (연 105만 · 국비 70%)</text>
+
+  <rect x="60" y="380" width="960" height="110" rx="16" fill="rgba(245,158,11,0.12)"/>
+  <text x="100" y="420" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#F59E0B">고령 고객 많은 매장</text>
+  <text x="100" y="458" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">→ 배리어프리 키오스크 (큰 화면·음성 안내·한도 700만)</text>
+
+  <rect x="60" y="500" width="960" height="110" rx="16" fill="rgba(16,185,129,0.12)"/>
+  <text x="100" y="540" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#10B981">매출 분석 필요</text>
+  <text x="100" y="578" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">→ S/W 구독 (자부담 0원! 국비 100%)</text>
+
+  <rect x="60" y="620" width="960" height="110" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="660" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#8B5CF6">AI 마케팅·제품 개발</text>
+  <text x="100" y="698" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">→ AI 활용 지원 (최대 2,000만 · 자부담 50%)</text>
+
+  <rect x="60" y="740" width="960" height="110" rx="16" fill="rgba(239,68,68,0.12)"/>
+  <text x="100" y="780" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#EF4444">매장 안전</text>
+  <text x="100" y="818" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">→ AI CCTV (이상행동 감지 · 구입형 700만 한도)</text>
+
+  <rect x="60" y="860" width="960" height="110" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="900" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#EAF2FF">디지털 전환 처음</text>
+  <text x="100" y="938" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">→ S/W부터 시작(무료) → 키오스크 → 로봇 단계적 확대</text>
+
+  <rect x="60" y="990" width="960" height="55" rx="16" fill="rgba(59,130,246,0.15)"/>
+  <text x="540" y="1025" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#3B82F6">소상공인진흥공단 1357 · sbiz.or.kr</text>
+
+  <rect x="60" y="1050" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="8" fill="#34D399"/>
+
+  <!-- Title -->
+  <text x="60" y="72" font-family="-apple-system, sans-serif" font-size="30" font-weight="900" fill="#FFFFFF">가족법인 설립 비용 · 절세 효과 요약</text>
+  <text x="60" y="106" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0">2026년 기준 | 주식회사 기준 | 자본금 2,800만원 이하 기준</text>
+  <line x1="60" y1="126" x2="1020" y2="126" stroke="#1A3270" stroke-width="2"/>
+
+  <!-- 설립 비용 표 제목 -->
+  <text x="60" y="162" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#F59E0B">설립 비용 (공과금 기준)</text>
+
+  <!-- Table header -->
+  <rect x="60" y="174" width="960" height="46" rx="8" fill="#1A3270"/>
+  <text x="220" y="203" font-family="-apple-system, sans-serif" font-size="14" font-weight="700" fill="#34D399" text-anchor="middle">항목</text>
+  <text x="520" y="203" font-family="-apple-system, sans-serif" font-size="14" font-weight="700" fill="#34D399" text-anchor="middle">비과밀억제권역 (지방)</text>
+  <text x="840" y="203" font-family="-apple-system, sans-serif" font-size="14" font-weight="700" fill="#EF4444" text-anchor="middle">과밀억제권역 (서울 등)</text>
+
+  <!-- Rows -->
+  <rect x="60" y="220" width="960" height="52" rx="0" fill="#0D2347"/>
+  <text x="220" y="252" font-family="-apple-system, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">등록면허세</text>
+  <text x="520" y="252" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">112,500원</text>
+  <text x="840" y="246" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#EF4444" text-anchor="middle">337,500원</text>
+  <text x="840" y="264" font-family="-apple-system, sans-serif" font-size="12" fill="#EF4444" text-anchor="middle">(3배 중과)</text>
+
+  <rect x="60" y="272" width="960" height="52" rx="0" fill="#102A56"/>
+  <text x="220" y="304" font-family="-apple-system, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">지방교육세</text>
+  <text x="520" y="304" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">22,500원</text>
+  <text x="840" y="304" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#EF4444" text-anchor="middle">67,500원</text>
+
+  <rect x="60" y="324" width="960" height="52" rx="0" fill="#0D2347"/>
+  <text x="220" y="356" font-family="-apple-system, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">등기신청수수료</text>
+  <text x="520" y="356" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">20,000원</text>
+  <text x="840" y="356" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">20,000원</text>
+
+  <rect x="60" y="376" width="960" height="56" rx="0" fill="#1A3270"/>
+  <rect x="60" y="376" width="960" height="56" fill="none" stroke="#34D399" stroke-width="1.5"/>
+  <text x="220" y="411" font-family="-apple-system, sans-serif" font-size="15" font-weight="800" fill="#34D399" text-anchor="middle">공과금 합계</text>
+  <text x="520" y="405" font-family="-apple-system, sans-serif" font-size="20" font-weight="900" fill="#34D399" text-anchor="middle">약 15.5만원</text>
+  <text x="840" y="405" font-family="-apple-system, sans-serif" font-size="20" font-weight="900" fill="#EF4444" text-anchor="middle">약 42.5만원</text>
+
+  <rect x="60" y="432" width="960" height="52" rx="0" fill="#0D2347"/>
+  <text x="220" y="464" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">법무사 대행 시 추가</text>
+  <text x="520" y="464" font-family="-apple-system, sans-serif" font-size="15" fill="#F59E0B" text-anchor="middle">+15~50만원</text>
+  <text x="840" y="464" font-family="-apple-system, sans-serif" font-size="15" fill="#F59E0B" text-anchor="middle">+15~50만원</text>
+
+  <!-- 법인세율 섹션 -->
+  <line x1="60" y1="510" x2="1020" y2="510" stroke="#1A3270" stroke-width="2"/>
+  <text x="60" y="546" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#F59E0B">법인세율 vs 소득세율 비교 (2026년)</text>
+
+  <rect x="60" y="562" width="450" height="180" rx="12" fill="#0D2347"/>
+  <text x="285" y="600" font-family="-apple-system, sans-serif" font-size="15" font-weight="700" fill="#EF4444" text-anchor="middle">개인사업자 (소득세)</text>
+  <text x="285" y="638" font-family="-apple-system, sans-serif" font-size="40" font-weight="900" fill="#FFFFFF" text-anchor="middle">최고 45%</text>
+  <text x="285" y="676" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">10억원 초과 구간</text>
+  <text x="285" y="720" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">종합소득세 누진 적용</text>
+
+  <text x="540" y="660" font-family="-apple-system, sans-serif" font-size="44" font-weight="900" fill="#34D399" text-anchor="middle">→</text>
+
+  <rect x="570" y="562" width="450" height="180" rx="12" fill="#1A3270"/>
+  <rect x="570" y="562" width="450" height="180" rx="12" fill="none" stroke="#34D399" stroke-width="2"/>
+  <text x="795" y="600" font-family="-apple-system, sans-serif" font-size="15" font-weight="700" fill="#34D399" text-anchor="middle">법인 (법인세)</text>
+  <text x="795" y="638" font-family="-apple-system, sans-serif" font-size="40" font-weight="900" fill="#FFFFFF" text-anchor="middle">최고 25%</text>
+  <text x="795" y="676" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">3,000억원 초과 구간</text>
+  <text x="795" y="720" font-family="-apple-system, sans-serif" font-size="13" fill="#34D399" text-anchor="middle">2억원 이하는 10%</text>
+
+  <!-- Saving stat boxes -->
+  <rect x="60" y="768" width="290" height="110" rx="14" fill="#0D2347"/>
+  <text x="205" y="808" font-family="-apple-system, sans-serif" font-size="14" font-weight="700" fill="#34D399" text-anchor="middle">절세 손익분기점</text>
+  <text x="205" y="844" font-family="-apple-system, sans-serif" font-size="28" font-weight="900" fill="#FFFFFF" text-anchor="middle">순이익 5천만원</text>
+  <text x="205" y="868" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">이상부터 효과 발생</text>
+
+  <rect x="394" y="768" width="292" height="110" rx="14" fill="#0D2347"/>
+  <text x="540" y="808" font-family="-apple-system, sans-serif" font-size="14" font-weight="700" fill="#F59E0B" text-anchor="middle">1억원 기준 절감</text>
+  <text x="540" y="844" font-family="-apple-system, sans-serif" font-size="28" font-weight="900" fill="#FFFFFF" text-anchor="middle">연 약 1,281만원</text>
+  <text x="540" y="868" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">5년 누적 6,400만원+</text>
+
+  <rect x="730" y="768" width="290" height="110" rx="14" fill="#0D2347"/>
+  <text x="875" y="808" font-family="-apple-system, sans-serif" font-size="14" font-weight="700" fill="#EF4444" text-anchor="middle">설립 소요기간</text>
+  <text x="875" y="844" font-family="-apple-system, sans-serif" font-size="28" font-weight="900" fill="#FFFFFF" text-anchor="middle">약 2~4주</text>
+  <text x="875" y="868" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">서류 완비 기준</text>
+
+  <!-- Footer -->
+  <text x="540" y="974" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준 | 자본금 2,800만원 이하 기준 | 세무사 상담 후 진행 권장</text>
+  <rect x="0" y="1072" width="1080" height="8" fill="#34D399"/>
+</svg>

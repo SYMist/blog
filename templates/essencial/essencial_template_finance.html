@@ -1,0 +1,400 @@
+<!-- essencial_template_finance.html -->
+<!-- ✅ 대출·금융 비교형 콘텐츠 템플릿 (자격요건 + 금리 + 상품 비교) -->
+<!-- 티스토리 HTML 모드: 통째로 붙여넣고 { }만 수정 -->
+
+<!-- ✅ Schema.org 구조화 데이터 -->
+<div style="display:none">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "{제목: 대출/금융 비교 30자 이내}",
+      "description": "{meta description: 비교 결론 포함 150자 이내}",
+      "datePublished": "{YYYY-MM-DD}",
+      "dateModified": "{YYYY-MM-DD}",
+      "author": {"@type": "Person", "name": "{블로그 운영자명}"},
+      "publisher": {"@type": "Organization", "name": "{블로그명}"}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "{Q1}", "acceptedAnswer": {"@type": "Answer", "text": "{A1}"}},
+        {"@type": "Question", "name": "{Q2}", "acceptedAnswer": {"@type": "Answer", "text": "{A2}"}},
+        {"@type": "Question", "name": "{Q3}", "acceptedAnswer": {"@type": "Answer", "text": "{A3}"}},
+        {"@type": "Question", "name": "{Q4}", "acceptedAnswer": {"@type": "Answer", "text": "{A4}"}},
+        {"@type": "Question", "name": "{Q5}", "acceptedAnswer": {"@type": "Answer", "text": "{A5}"}}
+      ]
+    }
+  ]
+}
+</script>
+</div>
+
+<style>
+  :root{
+    --pri:#B45309; --pri2:#D97706;
+    --white:#FFFFFF; --text:#111827;
+    --muted:#4B5563; --border:#E5E7EB;
+    --bg:#F9FAFB; --accent:#FFFBEB;
+  }
+  .wrap{max-width:860px;margin:0 auto;line-height:1.8;color:var(--text);}
+  .meta{color:var(--muted);font-size:.95rem;margin:6px 0 18px;}
+  .badge{display:inline-block;background:var(--accent);border:1px solid #FDE68A;padding:3px 10px;border-radius:999px;font-size:.85rem;margin-right:8px;}
+  .notice{background:#FFF7ED;border:1px solid #FED7AA;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .conclusion{background:#FFFBEB;border:1px solid #FDE68A;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .toc{background:var(--bg);border:1px solid var(--border);padding:14px 16px;border-radius:12px;margin:16px 0 22px;}
+  .toc a{text-decoration:none;color:var(--pri);}
+  .toc ul{margin:8px 0 0 18px;}
+
+  .wrap a.btn,.wrap a.btn:link,.wrap a.btn:visited{
+    display:inline-flex;align-items:center;justify-content:center;
+    padding:10px 14px;border-radius:10px;border:1px solid var(--pri);
+    background:var(--pri) !important;color:var(--white) !important;
+    text-decoration:none !important;font-weight:800;
+  }
+  .wrap a.btn:hover{background:var(--pri2) !important;}
+  .wrap a.btn.secondary,.wrap a.btn.secondary:link,.wrap a.btn.secondary:visited{
+    background:var(--white) !important;color:var(--pri) !important;border-color:var(--pri) !important;
+  }
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 6px;}
+
+  table{width:100%;border-collapse:collapse;margin:14px 0 10px;}
+  th,td{border:1px solid var(--border);padding:10px;vertical-align:top;}
+  th{background:#F3F4F6;text-align:left;}
+  .small{font-size:.95rem;color:var(--muted);}
+  h1{margin:0 0 8px;line-height:1.25;}
+  h2{margin-top:30px;padding-top:8px;border-top:1px solid var(--border);}
+  h3{margin-top:16px;}
+  .q{font-weight:900;margin:14px 0 6px;}
+  .a{margin:0 0 10px;}
+  .highlight{background:#F0FDF4;border:1px solid #BBF7D0;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .warning{background:#FEF2F2;border:1px solid #FECACA;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .selfcheck{background:#EFF6FF;border:1px solid #BFDBFE;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .scenario{background:#FEFCE8;border:1px solid #FDE68A;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .scope{background:#F8FAFC;border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .scope ul{margin:4px 0 0 18px;}
+  .action-steps{background:#FFFBEB;border:1px solid #FDE68A;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .action-steps ol{margin:8px 0 0 18px;}
+  .sources{background:var(--bg);border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:14px 0;font-size:.9rem;}
+  .sources ul{margin:4px 0 0 18px;}
+  .ad{background:#F9FAFB;border:1px dashed var(--border);padding:10px 12px;border-radius:10px;margin:12px 0;}
+  .footer{margin-top:26px;padding-top:14px;border-top:1px solid var(--border);color:var(--muted);font-size:.95rem;}
+  .disclaimer{background:#F9FAFB;border:1px solid var(--border);padding:10px 14px;border-radius:10px;margin:14px 0;font-size:.9rem;color:var(--muted);}
+</style>
+
+<div class="wrap">
+  <h1>{대출/금융 상품} 비교: {은행A} vs {은행B} vs {은행C} ({연도})</h1>
+  <div class="meta">
+    <span class="badge">대출·금융</span>
+    <span class="badge">업데이트: {YYYY-MM-DD}</span>
+  </div>
+
+  <div class="notice">
+    <strong>먼저 확인!</strong><br/>
+    {주의: 금리는 개인 신용등급·소득·담보에 따라 달라지며, 본 글은 공시 기준 비교입니다.}
+  </div>
+
+  <p class="small">
+    {meta description: 비교 대상, 금리 범위, 핵심 차이 요약 150자 이내}
+  </p>
+
+  <!-- ✅ 이 글의 범위 (스코핑) -->
+  <div class="scope">
+    <strong>이 글에서 다루는 것</strong>
+    <ul>
+      <li>{다루는 내용 1: 예: 3개 상품의 금리·한도·조건 비교}</li>
+      <li>{다루는 내용 2: 예: 상황별 추천과 신청 절차}</li>
+    </ul>
+    <strong>다루지 않는 것</strong>
+    <ul>
+      <li>{미포함 1: 예: 특정 금융기관 추천이나 개인 신용 상담}</li>
+    </ul>
+  </div>
+
+  <!-- ✅ 섹션 1: 결론 먼저 -->
+  <div class="conclusion" id="top">
+    <h2 style="border-top:none;margin-top:0;">✅ 결론 먼저: 상황별 추천</h2>
+    <ul>
+      <li><strong>{상황A: 예: 신용점수 700 이상 + 빠른 실행}</strong> → <strong>{추천 상품}</strong> (금리 {범위})</li>
+      <li><strong>{상황B: 예: 자영업자 + 소득증빙 어려움}</strong> → <strong>{추천 상품}</strong> (금리 {범위})</li>
+      <li><strong>{상황C: 예: 소액 + 단기 필요}</strong> → <strong>{추천 상품}</strong> (금리 {범위})</li>
+    </ul>
+  </div>
+
+  <!-- ✅ 이미지 1: 비교 요약 카드 (결론 요약 아래) -->
+  <p><img src="compare_summary_{slug}.svg" alt="{A vs B 비교 요약}" width="860"/></p>
+
+  <div class="toc">
+    <strong>목차</strong>
+    <ul>
+      <li><a href="#selfcheck">1) 자격 자가진단</a></li>
+      <li><a href="#compare">2) 상품 비교표</a></li>
+      <li><a href="#detail">3) 항목별 상세 비교</a></li>
+      <li><a href="#scenario">4) 시나리오별 추천</a></li>
+      <li><a href="#process">5) 신청 프로세스</a></li>
+      <li><a href="#trap">6) 주의사항·숨겨진 비용</a></li>
+      <li><a href="#experience">자주 놓치는 포인트와 실수 사례</a></li>
+      <li><a href="#faq">7) FAQ</a></li>
+      <li><a href="#update">업데이트 로그</a></li>
+    </ul>
+  </div>
+
+  <!-- ✅ 섹션 2: 자격 자가진단 -->
+  <h2 id="selfcheck">1) 자격 자가진단</h2>
+  <div class="selfcheck">
+    <strong>아래 항목을 체크해보세요</strong>
+    <table>
+      <thead>
+        <tr><th>확인 항목</th><th>기준</th><th>해당 여부</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>신용점수</strong></td>
+          <td>{기준: 예: 600점 이상}</td>
+          <td>✅ / ❌</td>
+        </tr>
+        <tr>
+          <td><strong>소득</strong></td>
+          <td>{기준: 예: 연소득 2,000만원 이상}</td>
+          <td>✅ / ❌</td>
+        </tr>
+        <tr>
+          <td><strong>기존 대출</strong></td>
+          <td>{기준: 예: DSR 40% 이내}</td>
+          <td>✅ / ❌</td>
+        </tr>
+        <tr>
+          <td><strong>재직/사업 기간</strong></td>
+          <td>{기준: 예: 6개월 이상}</td>
+          <td>✅ / ❌</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="small">※ 위 조건은 일반적 기준이며, 상품별로 세부 요건이 다릅니다.</p>
+  </div>
+
+  <!-- ✅ 섹션 3: 상품 비교표 -->
+  <h2 id="compare">2) 상품 비교표</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>비교 항목</th>
+        <th>{상품A}</th>
+        <th>{상품B}</th>
+        <th>{상품C}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>금리 (연)</strong></td>
+        <td>{금리A}</td>
+        <td>{금리B}</td>
+        <td>{금리C}</td>
+      </tr>
+      <tr>
+        <td><strong>한도</strong></td>
+        <td>{한도A}</td>
+        <td>{한도B}</td>
+        <td>{한도C}</td>
+      </tr>
+      <tr>
+        <td><strong>상환 방식</strong></td>
+        <td>{방식A}</td>
+        <td>{방식B}</td>
+        <td>{방식C}</td>
+      </tr>
+      <tr>
+        <td><strong>중도상환 수수료</strong></td>
+        <td>{수수료A}</td>
+        <td>{수수료B}</td>
+        <td>{수수료C}</td>
+      </tr>
+      <tr>
+        <td><strong>실행 속도</strong></td>
+        <td>{속도A}</td>
+        <td>{속도B}</td>
+        <td>{속도C}</td>
+      </tr>
+      <tr>
+        <td><strong>필요 서류</strong></td>
+        <td>{서류A}</td>
+        <td>{서류B}</td>
+        <td>{서류C}</td>
+      </tr>
+      <tr>
+        <td><strong>우대 금리 조건</strong></td>
+        <td>{우대A}</td>
+        <td>{우대B}</td>
+        <td>{우대C}</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="small">※ {연도}년 {월}월 기준 공시금리. 개인 신용등급에 따라 실제 적용 금리가 달라집니다.</p>
+
+  <!-- ✅ 이미지 2: 비교 매트릭스 카드 (비교표 아래) -->
+  <p><img src="compare_matrix_{slug}.svg" alt="{키워드} 항목별 비교표" width="860"/></p>
+
+  <!-- ✅ 섹션 4: 항목별 상세 비교 -->
+  <h2 id="detail">3) 항목별 상세 비교</h2>
+
+  <h3>{비교 항목 1: 예: 금리 구조 (고정 vs 변동)}</h3>
+  <p>{각 상품의 금리 구조 차이와 장기적 유불리를 서술}</p>
+
+  <h3>{비교 항목 2: 예: 중도상환 조건}</h3>
+  <p>{중도상환 수수료·면제 조건 비교}</p>
+
+  <h3>{비교 항목 3: 예: 우대금리 받는 방법}</h3>
+  <p>{각 상품별 우대금리 조건과 실제 적용 가능성}</p>
+
+  <!-- ✅ 섹션 5: 시나리오별 추천 (의사결정 핵심) -->
+  <h2 id="scenario">4) 시나리오별 추천</h2>
+  <div class="scenario">
+    <h3>🔍 당신의 상황에 맞는 상품은?</h3>
+    <table>
+      <thead>
+        <tr><th>당신의 상황</th><th>추천 상품</th><th>이유</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>{상황1: 예: "직장인, 신용 750+, 1,000만원 필요"}</td>
+          <td><strong>{추천}</strong></td>
+          <td>{이유}</td>
+        </tr>
+        <tr>
+          <td>{상황2: 예: "자영업자, 소득증빙 어려움, 급하게 필요"}</td>
+          <td><strong>{추천}</strong></td>
+          <td>{이유}</td>
+        </tr>
+        <tr>
+          <td>{상황3: 예: "소액 200만원, 1~2개월 단기"}</td>
+          <td><strong>{추천}</strong></td>
+          <td>{이유}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- ✅ 이미지 3: 시나리오 추천 카드 (시나리오 추천 아래) -->
+  <p><img src="scenario_{slug}.svg" alt="{키워드} 상황별 추천 가이드" width="860"/></p>
+
+  <!-- ✅ 지금 바로 확인하는 순서 -->
+  <div class="action-steps">
+    <strong>지금 바로 확인하는 순서</strong>
+    <ol>
+      <li>{단계1: 예: 신용점수 무료 조회 (올크레딧/나이스)}</li>
+      <li>{단계2: 예: 위 자가진단표로 자격 요건 확인}</li>
+      <li>{단계3: 예: 비교표에서 본인 조건에 맞는 상품 선택}</li>
+      <li>{단계4: 예: 사전 한도 조회 (신용 영향 없는 방법)}</li>
+    </ol>
+  </div>
+
+  <!-- ✅ 인아티클 광고 (시나리오 추천 직후 — CPC 최고 지점) -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5716436301710258"
+       crossorigin="anonymous"></script>
+  <ins class="adsbygoogle"
+       style="display:block; text-align:center;"
+       data-ad-layout="in-article"
+       data-ad-format="fluid"
+       data-ad-client="ca-pub-5716436301710258"
+       data-ad-slot="2039167138"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+  <!-- ✅ 섹션 6: 신청 프로세스 -->
+  <h2 id="process">5) 신청 프로세스</h2>
+  <ol>
+    <li><strong>사전 조회</strong>: {신용점수 확인 + 한도 조회 (신용 영향 없는 방법)}</li>
+    <li><strong>서류 준비</strong>: {필요 서류 목록}</li>
+    <li><strong>신청</strong>: {앱/웹/영업점 + 소요 시간}</li>
+    <li><strong>심사</strong>: {심사 기간 + 추가 서류 요청 가능성}</li>
+    <li><strong>실행</strong>: {입금까지 소요 시간}</li>
+  </ol>
+
+  <!-- ✅ 섹션 7: 주의사항·숨겨진 비용 -->
+  <h2 id="trap">6) 주의사항·숨겨진 비용</h2>
+  <div class="warning">
+    <ol>
+      <li><strong>{주의1: 예: 금리 인하 요구권}</strong>: {설명 — 신용등급 상승 시 금리 인하 요청 가능}</li>
+      <li><strong>{주의2: 예: 중도상환 수수료 함정}</strong>: {설명}</li>
+      <li><strong>{주의3: 예: 대출 비교 조회 시 신용점수 영향}</strong>: {설명}</li>
+      <li><strong>{주의4: 예: DSR 규제로 추가 대출 제한}</strong>: {설명}</li>
+    </ol>
+  </div>
+
+  <div class="btns">
+    <a class="btn" href="{금감원 금융상품 비교 등}" target="_blank" rel="noopener">{금리 비교 조회}</a>
+    <a class="btn secondary" href="{관련 링크}" target="_blank" rel="noopener">{신용점수 무료 조회}</a>
+  </div>
+
+  <!-- ✅ 자주 놓치는 포인트와 실수 사례 (금융사 공식 사이트에 없는 정보) — 가이드라인 §11 DO-6 #5 참조 -->
+  <!-- 톤: 3인칭 일반화 ("차주들이 자주 ~", "상담 안내에서 자주 발견되는 ~"). 사용자 직접 경험 있는 글에만 1인칭으로 손봄 -->
+  <h2 id="experience">자주 놓치는 포인트와 실수 사례</h2>
+  <p>{사례 1: 신청·심사·실행 시 자주 혼동되는 항목을 객관 톤으로 서술. 예: "한도 조회 시 신용점수에 영향이 없는 사전 조회 방식이 별도 존재함에도, 일반 한도 조회와 동일하게 인식되어 비교 기회를 놓치는 사례가 잦다."}</p>
+  <p>{사례 2: 상담 안내·약관에서 자주 발견되는 디테일. 예: "금리 인하 요구권은 신용등급 상승 시 자동 적용되지 않고, 차주가 직접 신청해야 적용된다."}</p>
+  <p>{사례 3: 차주들이 사후 후회하는 결정 또는 자주 추천되지 않는 옵션}</p>
+  <p class="small">※ AI 초안에 없는 사례·디테일을 2~3개 채우면 색인 평가가 달라집니다. **사용자 직접 경험이 있을 경우** H2 제목을 "본인 경험"으로 바꿔 1인칭 톤 사용 가능.</p>
+
+  <!-- ✅ 갈아타기 ROI 계산 (선택: 대출이동·리파이낸싱 비교 글에서만 주석 해제) — 가이드라인 §11 DO-6 #4 참조 -->
+  <!--
+  <h2 id="roi">갈아타기 ROI 계산 — 손익분기점은 언제?</h2>
+  <table>
+    <thead>
+      <tr><th>구분</th><th>현재 유지</th><th>갈아탄 후</th><th>차이</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>중도상환 수수료</td><td>—</td><td>{}</td><td>{}</td></tr>
+      <tr><td>1년차 이자 누적</td><td>{현재 금리 기준}</td><td>{신규 금리 기준}</td><td>{}</td></tr>
+      <tr><td>3년차 누적</td><td>{}</td><td>{}</td><td>{}</td></tr>
+      <tr><td>5년차 누적</td><td>{}</td><td>{}</td><td>{}</td></tr>
+      <tr><td>잔여 만기 누적</td><td>{}</td><td>{}</td><td>{}</td></tr>
+      <tr><td><strong>손익분기 시점</strong></td><td colspan="3"><strong>{N개월차에 갈아타기 비용 회수}</strong></td></tr>
+    </tbody>
+  </table>
+  <p class="small">※ {기준일} 공시 기준 추정치. 개인 신용·소득·담보에 따라 실제 적용 금리 차이 발생</p>
+  -->
+
+  <!-- ✅ 섹션 8: FAQ -->
+  <h2 id="faq">7) FAQ</h2>
+  <p class="q">Q1. {질문: 예: 대출 비교 조회하면 신용점수 떨어지나요?}</p>
+  <p class="a">{답변}</p>
+  <p class="q">Q2. {질문: 예: 금리 인하 요구권은 어떻게 사용하나요?}</p>
+  <p class="a">{답변}</p>
+  <p class="q">Q3. {질문}</p>
+  <p class="a">{답변}</p>
+  <p class="q">Q4. {질문}</p>
+  <p class="a">{답변}</p>
+  <p class="q">Q5. {질문}</p>
+  <p class="a">{답변}</p>
+  <p class="q">Q6. {질문}</p>
+  <p class="a">{답변}</p>
+
+  <!-- ✅ 참고자료 / 출처 -->
+  <div class="sources">
+    <strong>참고자료 / 출처</strong>
+    <ul>
+      <li>{출처1: 예: 금융감독원 — 금융상품 한눈에}</li>
+      <li>{출처2: 예: 한국은행 — 기준금리 공시}</li>
+      <li>{출처3: 예: 각 은행 공식 홈페이지 — 상품 안내}</li>
+    </ul>
+  </div>
+
+  <div class="btns">
+    <a class="btn" href="{금융상품 비교 사이트2}" target="_blank" rel="noopener">{버튼3: 예: 대출 한도 조회}</a>
+    <a class="btn secondary" href="{관련 링크2}" target="_blank" rel="noopener">{버튼4: 예: 금리 인하 요구권 안내}</a>
+  </div>
+
+  <div class="disclaimer">
+    <strong>면책 안내</strong>: 본 글은 일반적인 금융 정보 제공 목적이며, 특정 대출 상품을 추천·권유하는 것이 아닙니다. 대출 실행 전 반드시 상품설명서와 약관을 확인하고, 본인의 상환 능력을 고려하시기 바랍니다. 과도한 대출은 개인 신용등급 하락 및 채무불이행의 원인이 될 수 있습니다.
+  </div>
+
+  <p class="small">관련 글: <a href="{내부링크1 주소}" target="_blank" rel="noopener">{내부링크1 문서 제목 — 같은 Silo 내 글}</a> / <a href="{내부링크2 주소}" target="_blank" rel="noopener">{내부링크2 문서 제목}</a></p>
+
+  <div class="footer" id="update">
+    <strong>업데이트 로그</strong><br/>
+    - {YYYY-MM-DD}: {변경 내용}<br/>
+    <span class="small">※ 금리·한도·우대조건은 수시로 변동됩니다. 신청 전 해당 금융기관에 확인하세요.</span>
+  </div>
+</div>

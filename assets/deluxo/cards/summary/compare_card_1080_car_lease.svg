@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#F59E0B">DSR·부가세·비용 처리 비교</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- DSR 비교 -->
+  <rect x="60" y="120" width="960" height="240" rx="20" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="132" width="200" height="34" rx="17" fill="#1D4ED8"/>
+  <text x="180" y="156" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="800" fill="#FFF">DSR 부채 인식</text>
+
+  <rect x="80" y="178" width="290" height="80" rx="14" fill="rgba(245,158,11,0.15)"/>
+  <text x="225" y="210" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#F59E0B">장기 렌트</text>
+  <text x="225" y="240" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">미인식 ✓ (서비스)</text>
+
+  <rect x="390" y="178" width="290" height="80" rx="14" fill="rgba(255,255,255,0.06)"/>
+  <text x="535" y="210" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#FFF">운용 리스</text>
+  <text x="535" y="240" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">금융리스 시 포함 우려</text>
+
+  <rect x="700" y="178" width="300" height="80" rx="14" fill="rgba(239,68,68,0.1)"/>
+  <text x="850" y="210" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#EF4444">할부 구매</text>
+  <text x="850" y="240" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">부채 인식 (한도↓1.2억)</text>
+
+  <text x="540" y="330" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#F59E0B">대출 필요한 사업자 → 장기 렌트가 재무적으로 가장 안전</text>
+
+  <!-- 부가세 비교 -->
+  <rect x="60" y="380" width="960" height="220" rx="20" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="392" width="200" height="34" rx="17" fill="#1D4ED8"/>
+  <text x="180" y="416" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="800" fill="#FFF">부가세 환급 가능?</text>
+
+  <rect x="80" y="440" width="290" height="60" rx="14" fill="rgba(245,158,11,0.12)"/>
+  <text x="225" y="478" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="19" font-weight="700" fill="#F59E0B">렌트: 가능 ○</text>
+
+  <rect x="390" y="440" width="290" height="60" rx="14" fill="rgba(239,68,68,0.1)"/>
+  <text x="535" y="478" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="19" font-weight="700" fill="#EF4444">리스: 불가 ✕</text>
+
+  <rect x="700" y="440" width="300" height="60" rx="14" fill="rgba(245,158,11,0.12)"/>
+  <text x="850" y="478" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="19" font-weight="700" fill="#F59E0B">할부: 가능 ○</text>
+
+  <text x="540" y="540" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#EAF2FF">※ 경차·9인승+·화물차만 해당 | 리스는 면세 계산서 → 환급 불가</text>
+  <text x="540" y="572" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" font-weight="700" fill="#F59E0B">경차/승합/화물 = 렌트 또는 할부 선택!</text>
+
+  <!-- 비용 처리 비교 -->
+  <rect x="60" y="620" width="960" height="200" rx="20" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="632" width="240" height="34" rx="17" fill="#1D4ED8"/>
+  <text x="200" y="656" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="800" fill="#FFF">비용 인정 비율 비교</text>
+
+  <rect x="80" y="680" width="290" height="80" rx="14" fill="rgba(255,255,255,0.06)"/>
+  <text x="225" y="712" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#FFF">렌트</text>
+  <text x="225" y="742" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="900" fill="#F59E0B">렌탈료의 70%</text>
+
+  <rect x="390" y="680" width="290" height="80" rx="14" fill="rgba(245,158,11,0.15)"/>
+  <text x="535" y="712" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#FFF">리스</text>
+  <text x="535" y="742" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="900" fill="#F59E0B">리스료의 93%</text>
+
+  <rect x="700" y="680" width="300" height="80" rx="14" fill="rgba(255,255,255,0.06)"/>
+  <text x="850" y="712" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#FFF">할부</text>
+  <text x="850" y="742" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="900" fill="#EAF2FF">감가상각비 직접</text>
+
+  <text x="540" y="800" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" font-weight="700" fill="#F59E0B">같은 금액이면 리스의 비용 인정 비율이 더 높음</text>
+
+  <!-- 전기차 보조금 -->
+  <rect x="60" y="840" width="960" height="180" rx="20" fill="rgba(245,158,11,0.08)"/>
+  <text x="540" y="880" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#F59E0B">전기차 보조금 (2026)</text>
+
+  <text x="200" y="930" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#EAF2FF">인천</text>
+  <text x="200" y="960" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#FFF">1,200만</text>
+
+  <text x="440" y="930" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#EAF2FF">경기</text>
+  <text x="440" y="960" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#FFF">830만</text>
+
+  <text x="660" y="930" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#EAF2FF">서울</text>
+  <text x="660" y="960" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#FFF">754만</text>
+
+  <text x="880" y="930" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#EAF2FF">취득세 감면</text>
+  <text x="880" y="960" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#F59E0B">140만</text>
+
+  <rect x="100" y="986" width="860" height="24" rx="12" fill="rgba(245,158,11,0.15)"/>
+  <text x="540" y="1004" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="15" font-weight="700" fill="#F59E0B">전기차 + 렌트/리스 = 배터리 감가 리스크 렌트사·리스사 부담</text>
+
+  <rect x="60" y="1050" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

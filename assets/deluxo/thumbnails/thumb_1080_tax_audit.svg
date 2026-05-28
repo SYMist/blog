@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <!-- Badge -->
+  <rect x="410" y="200" width="260" height="56" rx="28" fill="#F59E0B"/>
+  <text x="540" y="236" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#0B1F3B" text-anchor="middle">2026 최신</text>
+
+  <!-- Main text -->
+  <text x="540" y="430" font-family="'Pretendard', sans-serif" font-size="82" font-weight="900" fill="#FFFFFF" text-anchor="middle">세무조사 대응법</text>
+
+  <!-- Sub text -->
+  <text x="540" y="540" font-family="'Pretendard', sans-serif" font-size="52" font-weight="600" fill="#EAF2FF" text-anchor="middle">소상공인 가산세</text>
+  <text x="540" y="610" font-family="'Pretendard', sans-serif" font-size="52" font-weight="600" fill="#EAF2FF" text-anchor="middle">줄이는 법 총정리</text>
+
+  <!-- Chips -->
+  <rect x="195" y="760" width="180" height="60" rx="32" fill="#E8F0FF"/>
+  <text x="285" y="799" font-family="'Pretendard', sans-serif" font-size="30" font-weight="700" fill="#1D4ED8" text-anchor="middle">가산세</text>
+
+  <rect x="415" y="760" width="220" height="60" rx="32" fill="#E8F0FF"/>
+  <text x="525" y="799" font-family="'Pretendard', sans-serif" font-size="30" font-weight="700" fill="#1D4ED8" text-anchor="middle">수정신고</text>
+
+  <rect x="675" y="760" width="200" height="60" rx="32" fill="#E8F0FF"/>
+  <text x="775" y="799" font-family="'Pretendard', sans-serif" font-size="30" font-weight="700" fill="#1D4ED8" text-anchor="middle">AI검증</text>
+</svg>

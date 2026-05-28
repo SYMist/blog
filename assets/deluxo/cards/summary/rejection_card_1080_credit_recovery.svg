@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#F59E0B">신용회복 실수 TOP 5</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- 실수 1 -->
+  <rect x="60" y="120" width="960" height="160" rx="16" fill="rgba(239,68,68,0.1)"/>
+  <rect x="80" y="140" width="50" height="50" rx="25" fill="#EF4444"/>
+  <text x="105" y="174" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">1</text>
+  <text x="150" y="168" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#FFF">공공기록 삭제 전에 카드 신청</text>
+  <text x="150" y="200" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">기록 남아 있으면 100% 거절 → 1년 성실 상환 후 삭제 확인 먼저</text>
+  <rect x="150" y="216" width="200" height="30" rx="15" fill="rgba(245,158,11,0.2)"/>
+  <text x="250" y="237" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="15" font-weight="700" fill="#F59E0B">크레디트포유에서 확인</text>
+  <text x="150" y="264" font-family="'Pretendard',sans-serif" font-size="16" fill="#F59E0B">✓ 대안: 삭제 확인 → 햇살론 카드부터 시작</text>
+
+  <!-- 실수 2 -->
+  <rect x="60" y="296" width="960" height="160" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="316" width="50" height="50" rx="25" fill="#EF4444"/>
+  <text x="105" y="350" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">2</text>
+  <text x="150" y="344" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#FFF">카드 한도 100% 사용 (풀 리볼빙)</text>
+  <text x="150" y="376" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">이용률 높으면 KCB 점수 급락 → 한도의 30% 이내만 사용</text>
+  <rect x="150" y="392" width="240" height="30" rx="15" fill="rgba(245,158,11,0.2)"/>
+  <text x="270" y="413" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="15" font-weight="700" fill="#F59E0B">리볼빙 이자 연 15~24%</text>
+  <text x="150" y="440" font-family="'Pretendard',sans-serif" font-size="16" fill="#F59E0B">✓ 대안: 한도 30% 이내 + 일시불 결제만</text>
+
+  <!-- 실수 3 -->
+  <rect x="60" y="472" width="960" height="160" rx="16" fill="rgba(239,68,68,0.1)"/>
+  <rect x="80" y="492" width="50" height="50" rx="25" fill="#EF4444"/>
+  <text x="105" y="526" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">3</text>
+  <text x="150" y="520" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#FFF">여러 카드 동시 신청 (단기 다건 조회)</text>
+  <text x="150" y="552" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">신용조회 이력 과다 → 점수 하락 → 한 달에 카드 1장만 신청</text>
+  <rect x="150" y="568" width="240" height="30" rx="15" fill="rgba(245,158,11,0.2)"/>
+  <text x="270" y="589" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="15" font-weight="700" fill="#F59E0B">조회 1건당 -1~3점</text>
+  <text x="150" y="616" font-family="'Pretendard',sans-serif" font-size="16" fill="#F59E0B">✓ 대안: 사전 한도 조회(점수 영향 없음) 활용</text>
+
+  <!-- 실수 4 -->
+  <rect x="60" y="648" width="960" height="160" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="668" width="50" height="50" rx="25" fill="#EF4444"/>
+  <text x="105" y="702" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">4</text>
+  <text x="150" y="696" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#FFF">마이데이터 연결 안 하고 방치</text>
+  <text x="150" y="728" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">통신비 납부만 연결해도 10~20점 가점 → 놓치면 손해</text>
+  <rect x="150" y="744" width="260" height="30" rx="15" fill="rgba(245,158,11,0.2)"/>
+  <text x="280" y="765" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="15" font-weight="700" fill="#F59E0B">연결자 70% 점수 상승 확인</text>
+  <text x="150" y="792" font-family="'Pretendard',sans-serif" font-size="16" fill="#F59E0B">✓ 대안: 통신비·건강보험·국민연금·소득 모두 연결</text>
+
+  <!-- 실수 5 -->
+  <rect x="60" y="824" width="960" height="160" rx="16" fill="rgba(239,68,68,0.1)"/>
+  <rect x="80" y="844" width="50" height="50" rx="25" fill="#EF4444"/>
+  <text x="105" y="878" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">5</text>
+  <text x="150" y="872" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#FFF">신용점수 회복 안 됐는데 2금융 대출</text>
+  <text x="150" y="904" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">고금리 대출 이력 = 점수 하락 → 햇살론·미소금융으로 대환 먼저</text>
+  <rect x="150" y="920" width="260" height="30" rx="15" fill="rgba(245,158,11,0.2)"/>
+  <text x="280" y="941" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="15" font-weight="700" fill="#F59E0B">2금융 이자 연 20%+ 주의</text>
+  <text x="150" y="968" font-family="'Pretendard',sans-serif" font-size="16" fill="#F59E0B">✓ 대안: 서민금융진흥원 1397 상담 → 대환대출 연 4.5%</text>
+
+  <rect x="60" y="1050" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

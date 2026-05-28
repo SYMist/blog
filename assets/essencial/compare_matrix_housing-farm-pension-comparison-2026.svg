@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 820">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="820" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="540" y="50" text-anchor="middle" fill="#FFFFFF" font-size="24" font-weight="800" font-family="sans-serif">주택연금 vs 농지연금 상세 비교표</text>
+  <text x="540" y="76" text-anchor="middle" fill="#D97706" font-size="14" font-family="sans-serif">2026.05 기준 · 한국주택금융공사 · 한국농어촌공사</text>
+
+  <!-- Header row -->
+  <rect x="40" y="96" width="1000" height="48" rx="8" fill="#1e293b"/>
+  <text x="190" y="126" text-anchor="middle" fill="#94A3B8" font-size="14" font-weight="600" font-family="sans-serif">항목</text>
+  <text x="560" y="126" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="800" font-family="sans-serif">주택연금</text>
+  <text x="860" y="126" text-anchor="middle" fill="#6EE7B7" font-size="15" font-weight="800" font-family="sans-serif">농지연금</text>
+
+  <!-- Vertical dividers -->
+  <line x1="330" y1="96" x2="330" y2="820" stroke="#334155" stroke-width="1"/>
+  <line x1="700" y1="96" x2="700" y2="820" stroke="#334155" stroke-width="1"/>
+
+  <!-- Row 1: 관리 기관 -->
+  <rect x="40" y="144" width="1000" height="52" fill="#1e293b" fill-opacity="0.5"/>
+  <text x="190" y="175" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">관리 기관</text>
+  <text x="515" y="175" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="sans-serif">한국주택금융공사 (HF)</text>
+  <text x="860" y="175" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="sans-serif">한국농어촌공사</text>
+
+  <!-- Row 2: 가입 연령 -->
+  <rect x="40" y="196" width="1000" height="52" fill="#0f172a" fill-opacity="0.8"/>
+  <text x="190" y="227" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">가입 연령</text>
+  <text x="515" y="219" text-anchor="middle" fill="#4ADE80" font-size="14" font-weight="700" font-family="sans-serif">부부 중 1명 만 55세+</text>
+  <text x="515" y="239" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">수령액은 연소자 기준</text>
+  <text x="860" y="219" text-anchor="middle" fill="#4ADE80" font-size="14" font-weight="700" font-family="sans-serif">만 60세+ (2026 하향)</text>
+  <text x="860" y="239" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">기존 65세 → 5년 앞당겨짐</text>
+
+  <!-- Row 3: 담보 자산 -->
+  <rect x="40" y="248" width="1000" height="52" fill="#1e293b" fill-opacity="0.5"/>
+  <text x="190" y="279" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">담보 자산</text>
+  <text x="515" y="271" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="sans-serif">공시가 12억↓ 주택·오피스텔</text>
+  <text x="515" y="291" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">다주택 합산 12억↓ 가능</text>
+  <text x="860" y="271" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="sans-serif">논·밭·과수원 (본인 명의)</text>
+  <text x="860" y="291" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">영농경력 5년+ 필수</text>
+
+  <!-- Row 4: 최대 수령액 -->
+  <rect x="40" y="300" width="1000" height="60" fill="#0f172a" fill-opacity="0.8"/>
+  <text x="190" y="335" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">최대 수령액</text>
+  <text x="515" y="327" text-anchor="middle" fill="#4ADE80" font-size="22" font-weight="800" font-family="sans-serif">제한 없음</text>
+  <text x="515" y="351" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">5억·75세 기준 190.6만원/월</text>
+  <text x="860" y="327" text-anchor="middle" fill="#FCA5A5" font-size="22" font-weight="800" font-family="sans-serif">월 300만원 상한</text>
+  <text x="860" y="351" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">고가 농지도 초과 불가</text>
+
+  <!-- Row 5: 초기보증료 -->
+  <rect x="40" y="360" width="1000" height="52" fill="#1e293b" fill-opacity="0.5"/>
+  <text x="190" y="391" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">초기보증료</text>
+  <text x="515" y="383" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="sans-serif">담보 인정가격의 1.0%</text>
+  <text x="515" y="403" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">3억→300만원 / 기존 1.5%에서 인하</text>
+  <text x="860" y="391" text-anchor="middle" fill="#6EE7B7" font-size="14" font-weight="700" font-family="sans-serif">없음</text>
+
+  <!-- Row 6: 연 보증료 -->
+  <rect x="40" y="412" width="1000" height="52" fill="#0f172a" fill-opacity="0.8"/>
+  <text x="190" y="443" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">연 보증료</text>
+  <text x="515" y="435" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="sans-serif">연 0.5%</text>
+  <text x="515" y="455" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">(수령액에서 차감)</text>
+  <text x="860" y="435" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="sans-serif">연 1.0%</text>
+  <text x="860" y="455" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">(수령액에서 차감)</text>
+
+  <!-- Row 7: 연금 유형 -->
+  <rect x="40" y="464" width="1000" height="60" fill="#1e293b" fill-opacity="0.5"/>
+  <text x="190" y="499" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">연금 유형</text>
+  <text x="515" y="487" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="sans-serif">종신형 / 기간형(10~30년) / 혼합형</text>
+  <text x="515" y="507" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">혼합형: 일부 일시금 + 평생 연금</text>
+  <text x="860" y="487" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="sans-serif">종신형 / 기간형(10·20년) / 전후후박형</text>
+  <text x="860" y="507" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">전후후박형: 초기 고수령 → 점차 감소</text>
+
+  <!-- Row 8: 수령액 산정 기준 -->
+  <rect x="40" y="524" width="1000" height="60" fill="#0f172a" fill-opacity="0.8"/>
+  <text x="190" y="559" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">수령액 산정</text>
+  <text x="515" y="547" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="sans-serif">연령 + 주택 공시가격</text>
+  <text x="515" y="567" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">연소자 기준 / 나이 높을수록 증가</text>
+  <text x="860" y="547" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="sans-serif">연령 + 농지 평가액</text>
+  <text x="860" y="567" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">공시지가 100% 또는 감정평가액 90% 선택</text>
+
+  <!-- Row 9: 동시 가입 -->
+  <rect x="40" y="584" width="1000" height="52" fill="#1e293b" fill-opacity="0.5"/>
+  <text x="190" y="615" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">동시 가입</text>
+  <text x="680" y="607" text-anchor="middle" fill="#4ADE80" font-size="15" font-weight="700" font-family="sans-serif">주택연금 + 농지연금 동시 가입 가능</text>
+  <text x="680" y="627" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">담보 자산이 달라 중복 적용 없음 — 총 수령액 극대화 전략</text>
+
+  <!-- Footer -->
+  <rect x="40" y="650" width="1000" height="2" fill="#334155"/>
+  <text x="540" y="680" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">주택연금: 상한 없는 자산 비례 | 농지연금: 월 300만원 한도 · 초기보증료 없음</text>
+  <text x="540" y="704" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">도시 주택 보유자 → 주택연금 | 농업인 → 농지연금 | 두 자산 모두 → 동시 가입</text>
+
+  <text x="40" y="802" fill="#64748B" font-size="12" font-family="sans-serif">essencial | 대출·금융 silo · 2026.05 기준</text>
+</svg>

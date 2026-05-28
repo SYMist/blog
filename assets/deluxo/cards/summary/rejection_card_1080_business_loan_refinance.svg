@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <rect x="60" y="60" width="280" height="60" rx="30" fill="#DC2626"/>
+  <text x="200" y="101" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF" text-anchor="middle">탈락 사유 TOP 5</text>
+
+  <text x="540" y="200" font-family="'Pretendard', sans-serif" font-size="58" font-weight="900" fill="#FFFFFF" text-anchor="middle">이것부터 확인하세요</text>
+
+  <rect x="60" y="270" width="960" height="130" rx="20" fill="#1A3270"/>
+  <rect x="60" y="270" width="80" height="130" rx="20" fill="#DC2626"/>
+  <text x="100" y="350" font-family="'Pretendard', sans-serif" font-size="40" font-weight="900" fill="#FFFFFF" text-anchor="middle">1</text>
+  <text x="170" y="320" font-family="'Pretendard', sans-serif" font-size="30" font-weight="800" fill="#F59E0B">최근 3개월 연체 이력</text>
+  <text x="170" y="370" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF">→ 30일 1회 또는 10일 4회 이상 시 자격 상실</text>
+
+  <rect x="60" y="420" width="960" height="130" rx="20" fill="#1A3270"/>
+  <rect x="60" y="420" width="80" height="130" rx="20" fill="#DC2626"/>
+  <text x="100" y="500" font-family="'Pretendard', sans-serif" font-size="40" font-weight="900" fill="#FFFFFF" text-anchor="middle">2</text>
+  <text x="170" y="470" font-family="'Pretendard', sans-serif" font-size="30" font-weight="800" fill="#F59E0B">2025.07.01 이후 신규 대출</text>
+  <text x="170" y="520" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF">→ 대상 채무 시점(2025.06.30 이전) 미충족</text>
+
+  <rect x="60" y="570" width="960" height="130" rx="20" fill="#1A3270"/>
+  <rect x="60" y="570" width="80" height="130" rx="20" fill="#DC2626"/>
+  <text x="100" y="650" font-family="'Pretendard', sans-serif" font-size="40" font-weight="900" fill="#FFFFFF" text-anchor="middle">3</text>
+  <text x="170" y="620" font-family="'Pretendard', sans-serif" font-size="30" font-weight="800" fill="#F59E0B">사업용 가계대출 증빙 미흡</text>
+  <text x="170" y="670" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF">→ 임대료·인건비·원자재 증빙 부족</text>
+
+  <rect x="60" y="720" width="960" height="130" rx="20" fill="#1A3270"/>
+  <rect x="60" y="720" width="80" height="130" rx="20" fill="#DC2626"/>
+  <text x="100" y="800" font-family="'Pretendard', sans-serif" font-size="40" font-weight="900" fill="#FFFFFF" text-anchor="middle">4</text>
+  <text x="170" y="770" font-family="'Pretendard', sans-serif" font-size="30" font-weight="800" fill="#F59E0B">휴·폐업 사업자</text>
+  <text x="170" y="820" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF">→ 정상 영업 필수 (폐업자는 새출발기금으로)</text>
+
+  <rect x="60" y="870" width="960" height="130" rx="20" fill="#1A3270"/>
+  <rect x="60" y="870" width="80" height="130" rx="20" fill="#DC2626"/>
+  <text x="100" y="950" font-family="'Pretendard', sans-serif" font-size="40" font-weight="900" fill="#FFFFFF" text-anchor="middle">5</text>
+  <text x="170" y="920" font-family="'Pretendard', sans-serif" font-size="30" font-weight="800" fill="#F59E0B">중복 지원 한도 초과</text>
+  <text x="170" y="970" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF">→ 기존 정책자금 수혜가 5,000만 초과</text>
+</svg>

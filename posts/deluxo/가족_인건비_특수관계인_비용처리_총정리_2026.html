@@ -1,0 +1,374 @@
+<!-- tistory_policy_template.html — Post #76 -->
+<!-- ✅ 티스토리 HTML 모드: 통째로 붙여넣고 발행 -->
+
+<!-- ✅ Schema.org 구조화 데이터 -->
+<div style="display:none">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "가족 인건비 비용처리 총정리 — 특수관계인 인정 요건·4대보험 절세 (2026)",
+      "description": "자영업자·소상공인이 가족을 직원으로 채용할 때 인건비 비용처리 요건, 4대보험 가입 의무, 원천세 신고 기한, 세무조사 실수 TOP5를 2026년 기준으로 정리했습니다.",
+      "datePublished": "2026-05-01",
+      "dateModified": "2026-05-01",
+      "author": {"@type": "Person", "name": "deluxo"},
+      "publisher": {"@type": "Organization", "name": "tistory.deluxo"}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "가족을 직원으로 채용하면 인건비를 비용처리할 수 있나요?", "acceptedAnswer": {"@type": "Answer", "text": "실제 근로를 수행하고, 원천세를 신고하며, 근로계약서·출근부·급여이체 내역 등 증빙을 갖추면 비용처리가 가능합니다. 단, 사업주 본인의 급여는 개인사업자의 경우 어떤 상황에서도 비용처리할 수 없습니다."}},
+        {"@type": "Question", "name": "배우자는 고용보험에 가입할 수 있나요?", "acceptedAnswer": {"@type": "Answer", "text": "배우자는 동거 여부와 관계없이 고용보험 및 산재보험 가입이 원칙적으로 불가합니다. 국민연금과 건강보험은 의무 가입 대상입니다."}},
+        {"@type": "Question", "name": "사업주 본인 급여도 비용처리할 수 있나요?", "acceptedAnswer": {"@type": "Answer", "text": "개인사업자의 경우 본인 급여는 필요경비로 인정되지 않습니다. 법인사업자로 전환하면 대표이사 급여를 비용처리할 수 있습니다."}},
+        {"@type": "Question", "name": "원천세를 매달 신고해야 하나요?", "acceptedAnswer": {"@type": "Answer", "text": "원칙적으로 급여 지급 다음 달 10일까지 신고해야 합니다. 단, 상시근로자 20명 이하 사업자는 반기 신고 특례를 적용해 1~6월 급여를 7월 10일, 7~12월 급여를 다음 연도 1월 10일까지 신고할 수 있습니다."}},
+        {"@type": "Question", "name": "가족 직원을 허위로 등록했다가 세무조사에서 적발되면?", "acceptedAnswer": {"@type": "Answer", "text": "해당 인건비 전액이 필요경비에서 제외되고, 일반 과소신고 가산세 10%, 부정 행위 시 40%가 추가됩니다. 형사처벌 대상이 될 수 있습니다."}
+        }
+      ]
+    }
+  ]
+}
+</script>
+</div>
+
+<style>
+  :root{
+    --blue:#1D4ED8; --blue2:#1E40AF;
+    --white:#FFFFFF; --text:#111827;
+    --muted:#4B5563; --border:#E5E7EB;
+    --bg:#F9FAFB; --blueLight:#E8F0FF;
+  }
+  .wrap{max-width:860px;margin:0 auto;line-height:1.8;color:var(--text);}
+  .meta{color:var(--muted);font-size:.95rem;margin:6px 0 18px;}
+  .badge{display:inline-block;background:var(--blueLight);border:1px solid var(--border);padding:3px 10px;border-radius:999px;font-size:.85rem;margin-right:8px;}
+  .notice{background:#fff7ed;border:1px solid #fed7aa;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .lead{background:#f8fafc;border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .keysum{background:#fefce8;border:1px solid #fde68a;padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .summary{background:#eff6ff;border:1px solid #bfdbfe;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .toc{background:var(--bg);border:1px solid var(--border);padding:14px 16px;border-radius:12px;margin:16px 0 22px;}
+  .toc a{text-decoration:none;color:var(--blue);}
+  .toc ul{margin:8px 0 0 18px;}
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 6px;}
+  .wrap a.btn,.wrap a.btn:link,.wrap a.btn:visited{
+    display:inline-flex;align-items:center;justify-content:center;
+    padding:10px 14px;border-radius:10px;border:1px solid var(--blue);
+    background:var(--blue) !important;color:var(--white) !important;
+    text-decoration:none !important;font-weight:800;
+  }
+  .wrap a.btn:hover,.wrap a.btn:active,.wrap a.btn:focus{
+    background:var(--blue2) !important;border-color:var(--blue2) !important;color:var(--white) !important;
+  }
+  .wrap a.btn.secondary,.wrap a.btn.secondary:link,.wrap a.btn.secondary:visited{
+    background:var(--white) !important;color:var(--blue) !important;border-color:var(--blue) !important;
+  }
+  .wrap a.btn.secondary:hover,.wrap a.btn.secondary:active,.wrap a.btn.secondary:focus{
+    background:var(--bg) !important;color:var(--blue2) !important;border-color:var(--blue2) !important;
+  }
+  .wrap a.btn.gray,.wrap a.btn.gray:link,.wrap a.btn.gray:visited{
+    background:#111827 !important;border-color:#111827 !important;color:var(--white) !important;
+  }
+  .wrap a.btn.gray:hover,.wrap a.btn.gray:active,.wrap a.btn.gray:focus{
+    background:#0b1220 !important;border-color:#0b1220 !important;color:var(--white) !important;
+  }
+  table{width:100%;border-collapse:collapse;margin:14px 0 10px;}
+  th,td{border:1px solid var(--border);padding:10px;vertical-align:top;}
+  th{background:#F3F4F6;text-align:left;}
+  .small{font-size:.95rem;color:var(--muted);}
+  h1{margin:0 0 8px;line-height:1.25;}
+  h2{margin-top:30px;padding-top:8px;border-top:1px solid var(--border);}
+  h3{margin-top:16px;}
+  .q{font-weight:900;margin:14px 0 6px;}
+  .a{margin:0 0 10px;}
+  .tips{background:#f0fdf4;border:1px solid #bbf7d0;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .urgency{background:#fef2f2;border:1px solid #fca5a5;padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .target{background:#f0fdf4;border:1px solid #86efac;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .target ul{margin:8px 0 0 18px;}
+  .disclaimer{background:#f8fafc;border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:16px 0 14px;font-size:.92rem;color:var(--muted);}
+  .footer{margin-top:26px;padding-top:14px;border-top:1px solid var(--border);color:var(--muted);font-size:.95rem;}
+</style>
+
+<div class="wrap">
+  <h1>가족 인건비 비용처리 총정리 — 특수관계인 인정 요건·4대보험 절세 (2026)</h1>
+  <div class="meta">
+    <span class="badge">키워드: 가족 인건비</span>
+    <span class="badge">업데이트: 2026-05-01</span>
+  </div>
+
+  <div class="notice">
+    <strong>먼저 확인!</strong><br/>
+    이 글은 <strong>개인사업자·소상공인</strong> 기준으로 작성되었습니다. 법인사업자는 일부 규정이 다르므로 별도 확인이 필요합니다. 특수관계인 범위는 <strong>2023년 2월 개정 이후</strong> 4촌 이내 혈족·3촌 이내 인척으로 축소되었습니다.
+  </div>
+
+  <p class="small">
+    자영업자·소상공인이 가족을 직원으로 채용할 때 인건비 비용처리 요건, 4대보험 가입 의무, 원천세 신고 기한, 세무조사 실수 TOP5를 2026년 기준으로 정리했습니다.
+  </p>
+
+  <div class="lead">
+    가족이 가게를 도와주는 게 당연한 소상공인 현장에서 인건비 처리를 제대로 못 해 손해 보는 경우가 많습니다. "가족 급여는 비용처리가 안 된다"는 오해, 사업주 본인 급여를 경비로 넣었다가 세무조사에서 지적받는 실수, 배우자를 고용보험에 가입했다가 환급 요청을 받는 상황까지 — 정확한 기준을 알면 합법적으로 최대한 절세할 수 있습니다.
+  </div>
+
+  <div class="urgency">
+    <strong>왜 지금 확인해야 할까?</strong><br/>
+    종합소득세 신고 기간(5월)을 앞두고 지난 1년간의 가족 인건비 처리가 적법했는지 점검해야 합니다. <strong>원천세 미신고 가산세 10~20%</strong>, 지급명세서 미제출 <strong>1% 가산세</strong>는 모두 지금 확인해서 자진 수정하면 절반으로 줄일 수 있습니다. 세무조사에서 허위 인건비가 적발되면 <strong>부정 행위 가산세 40%</strong>까지 부과됩니다.
+  </div>
+
+  <div class="keysum">
+    <strong>핵심 요약 3줄</strong><br/>
+    가족 직원 인건비: <strong>실제 근로 + 원천세 신고 + 계좌이체 + 증빙</strong> 갖추면 비용처리 가능<br/>
+    4대보험: 국민연금·건강보험 <strong>전원 의무</strong> / 배우자·동거 가족은 고용·산재 <strong>가입 불가</strong><br/>
+    개인사업자 본인 급여: 어떤 상황에서도 <strong>비용처리 불가</strong> — 가장 흔한 실수
+  </div>
+
+  <div class="summary" id="top">
+    <h2 style="border-top:none;margin-top:0;">✅ 5줄 요약(결론)</h2>
+    <ul>
+      <li><strong>비용처리 가능 조건</strong>: 실제 근로 수행 + 적정 수준 급여 + 원천세 신고 + 근로계약서·출근부·이체내역 유지</li>
+      <li><strong>특수관계인 범위</strong>: 4촌 이내 혈족, 3촌 이내 인척, 배우자(사실혼 포함) — 2023년 2월 개정으로 축소됨</li>
+      <li><strong>4대보험 구분</strong>: 국민연금·건강보험 전원 의무 / 고용·산재는 배우자·동거 직계가족 원칙 가입 불가</li>
+      <li><strong>절대 불가</strong>: 개인사업자 본인 급여 비용처리 불가 / 일하지 않는 가족 등록 불가 (허위 인건비)</li>
+      <li><strong>주의</strong>: 과도한 가족 급여 → 부당행위계산부인 / 원천세 미신고 → 가산세 10~20%</li>
+    </ul>
+
+    <div class="btns">
+      <a class="btn" href="https://www.hometax.go.kr" target="_blank" rel="noopener">홈택스 원천세 신고</a>
+      <a class="btn gray" href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=12242&cntntsId=8631" target="_blank" rel="noopener">국세청 지급명세서 안내</a>
+      <a class="btn secondary" href="https://www.4insure.or.kr" target="_blank" rel="noopener">4대사회보험포털</a>
+    </div>
+    <p class="small">※ 개별 상황은 세무서(☎ 126) 또는 세무사에게 확인하세요.</p>
+  </div>
+
+  <div class="target">
+    <strong>이런 상황이라면 지금 바로 점검하세요</strong>
+    <ul>
+      <li>배우자 또는 자녀가 가게 일을 도와주는데 아직 직원으로 등록하지 않았다면</li>
+      <li>가족 직원의 원천세를 신고하지 않은 달이 있다면</li>
+      <li>배우자를 고용보험·산재보험에 가입시켰다면 — 환급 문제 발생 가능</li>
+      <li>사업주 본인 급여를 경비 항목에 넣고 종합소득세를 신고했다면</li>
+      <li>가족에게 시중보다 훨씬 높은 급여를 지급하고 비용처리했다면</li>
+    </ul>
+  </div>
+
+  <div class="toc">
+    <strong>목차</strong>
+    <ul>
+      <li><a href="#table">1) 가족 유형별 4대보험·비용처리 한눈에 표</a></li>
+      <li><a href="#quick">→ 나는 어떤 상황? 10초 판단</a></li>
+      <li><a href="#how">2) 가족 직원 등록 절차 (5단계)</a></li>
+      <li><a href="#docs">3) 서류 체크리스트</a></li>
+      <li><a href="#case">4) 경험/사례</a></li>
+      <li><a href="#faq">5) 실수 TOP5 &amp; FAQ</a></li>
+      <li><a href="#check">6) 1분 체크리스트</a></li>
+      <li><a href="#update">업데이트 로그</a></li>
+    </ul>
+  </div>
+
+  <h2 id="table">1) 가족 유형별 4대보험·비용처리 한눈에 표</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>가족 유형</th><th>국민연금·건강보험</th><th>고용·산재보험</th><th>인건비 비용처리</th><th>주요 주의사항</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>배우자</strong></td>
+        <td>✅ 의무 가입</td>
+        <td>❌ 원칙 불가</td>
+        <td>✅ 가능 (실근로·증빙 필요)</td>
+        <td>고용·산재 가입하면 환급 문제</td>
+      </tr>
+      <tr>
+        <td><strong>동거 직계가족</strong><br/><span class="small">(자녀·부모 등)</span></td>
+        <td>✅ 의무 가입</td>
+        <td>❌ 원칙 불가</td>
+        <td>✅ 가능 (실근로·증빙 필요)</td>
+        <td>동거 확인 → 고용·산재 납부 시 환급 요청 받을 수 있음</td>
+      </tr>
+      <tr>
+        <td><strong>비동거 직계가족·친족</strong><br/><span class="small">(4촌 이내 혈족, 3촌 이내 인척)</span></td>
+        <td>✅ 의무 가입</td>
+        <td>✅ 가입 가능</td>
+        <td>✅ 가능</td>
+        <td>일반 직원과 동일하게 처리</td>
+      </tr>
+      <tr>
+        <td><strong>사업주 본인</strong></td>
+        <td>지역가입자로 별도 납부</td>
+        <td>해당 없음</td>
+        <td>❌ 절대 불가</td>
+        <td>개인사업자 가장 흔한 실수</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="small">※ 2026년 현행 기준. 동거 여부 판단은 주민등록상 주소지 기준. 세부 사항은 관할 세무서 또는 4대사회보험포털에서 확인하세요.</p>
+
+  <!-- ✅ 인아티클 광고 (한눈에 표 직후) -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5716436301710258"
+       crossorigin="anonymous"></script>
+  <ins class="adsbygoogle"
+       style="display:block; text-align:center;"
+       data-ad-layout="in-article"
+       data-ad-format="fluid"
+       data-ad-client="ca-pub-5716436301710258"
+       data-ad-slot="7020031076"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+  <h3 id="quick">나는 어떤 상황? 10초 판단</h3>
+  <table>
+    <thead>
+      <tr><th>상황</th><th>처리 방법</th><th>핵심 주의</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>배우자가 매장에서 매일 일함</td>
+        <td>국민연금·건강보험 가입 + 원천세 신고 + 비용처리 가능</td>
+        <td>고용·산재보험은 가입 불가</td>
+      </tr>
+      <tr>
+        <td>자녀(대학생)가 방학 동안 알바</td>
+        <td>국민연금·건강보험 + 원천세 신고. 근로계약서·출근부 필수</td>
+        <td>동거 시 고용·산재 불가. 용돈 형식은 증빙 없으면 부인 위험</td>
+      </tr>
+      <tr>
+        <td>형제·자매가 직원으로 근무 (비동거)</td>
+        <td>4대보험 모두 가입 가능. 일반 직원과 동일하게 처리</td>
+        <td>급여가 시장 수준 대비 과도하면 부당행위계산부인 위험</td>
+      </tr>
+      <tr>
+        <td>사업주 본인이 급여를 받고 싶다</td>
+        <td>개인사업자는 불가. 법인 전환 후 대표이사 급여로 처리 고려</td>
+        <td>소득세법 제33조 — 개인사업자 본인 급여 필요경비 불산입</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="small">※ 정확한 판단은 관할 세무서 또는 세무사에게 확인하세요.</p>
+
+  <!-- ✅ 이미지 1: 요약표 카드 -->
+  <img src="summary_card_1080_family_payroll_2026.png" alt="가족 인건비 비용처리 특수관계인 요건 요약" style="width:100%;margin:16px 0;" />
+
+  <!-- ✅ 이미지 2: 빠른 판단 가이드 카드 -->
+  <img src="quick_guide_1080_family_payroll_2026.png" alt="가족 인건비 빠른 판단 가이드" style="width:100%;margin:16px 0;" />
+
+  <h2 id="how">2) 가족 직원 등록 절차 (5단계)</h2>
+  <ol>
+    <li><strong>근로계약서 작성</strong>: 업무 내용·근무 요일·근무 시간·급여 금액을 구체적으로 명시한 서면 근로계약서 작성. 구두 약속은 세무조사 시 인건비 부인 사유가 됩니다.</li>
+    <li><strong>4대보험 취득 신고</strong>: 입사일로부터 14일 이내 국민건강보험공단 또는 <a href="https://www.4insure.or.kr" target="_blank" rel="noopener">4대사회보험포털</a>에 직원 취득 신고. 배우자·동거 가족은 고용·산재 미가입, 국민연금·건강보험만 신고.</li>
+    <li><strong>급여 계좌이체로 지급</strong>: 반드시 사업주 계좌 → 가족 계좌로 이체. 현금 지급은 이체내역이 없어 실근로 입증이 어렵습니다. 급여 지급일을 고정(예: 매월 25일)하는 것이 좋습니다.</li>
+    <li><strong>원천세 신고·납부</strong>: 급여 지급 다음 달 10일까지 홈택스에서 원천세 신고·납부. 상시근로자 20명 이하이면 반기(7월 10일, 1월 10일) 신고 특례 적용 가능.</li>
+    <li><strong>지급명세서 제출</strong>: 홈택스에서 다음 연도 3월 10일까지 근로소득 지급명세서 제출. 근로소득 간이지급명세서는 반기별(7월 말, 1월 말) 또는 2026년부터 매월 다음 달 말일까지 제출.</li>
+  </ol>
+
+  <!-- ✅ 이미지 3: 정책 비교·변화 카드 -->
+  <img src="compare_card_1080_family_payroll_2026.png" alt="2026년 4대보험 요율 변경 및 가족 직원 비교" style="width:100%;margin:16px 0;" />
+
+  <h2 id="docs">3) 서류 체크리스트</h2>
+  <h3>기본 서류 (모든 가족 직원 공통)</h3>
+  <ul>
+    <li>서면 근로계약서 (업무내용·근무일·급여 명시, 양측 서명)</li>
+    <li>출근부 또는 근태 기록 (매일 서명 또는 전자 기록)</li>
+    <li>급여 이체 내역 (통장 거래내역 또는 계좌이체 확인증)</li>
+    <li>원천세 신고 접수증 (홈택스 신고 완료 화면 캡처)</li>
+    <li>4대보험 취득 신고 확인서</li>
+  </ul>
+  <h3>상황별 추가 서류</h3>
+  <ul>
+    <li><strong>실근로 증빙 강화 필요 시</strong>: 업무일지, 거래처 연락 이메일·문자, CCTV 출입 기록, 카드 단말기 조작 기록</li>
+    <li><strong>배우자·자녀 고용·산재 면제 서류</strong>: 주민등록등본 (동거 사실 확인용) — 요청 시 공단에 제출</li>
+    <li><strong>비동거 친족</strong>: 각각의 주민등록등본 (비동거 사실 확인용)</li>
+    <li><strong>일용직(단기 알바)으로 채용 시</strong>: 일용근로소득 지급명세서 (지급 다음달 말일까지 별도 제출)</li>
+    <li><strong>세무조사 대비 추가</strong>: 급여 산정 근거 서류 (동종 업종 시급·월급 자료), 업무 분장 내역</li>
+  </ul>
+
+  <h2 id="case">4) 경험/사례</h2>
+  <p>경기도 수원에서 치킨집을 운영하는 40대 자영업자 A씨는 배우자가 매일 주방 보조와 배달 수령 업무를 맡고 있어 월 150만 원을 급여로 지급해왔습니다. 그런데 세무조사에서 출근부와 업무일지가 없다는 이유로 인건비 2년 치가 일부 부인됐습니다. 이후 A씨는 매일 출근 서명부를 만들고 업무 내용을 메모장에 기록하는 방식으로 전환했습니다. 세무사는 "근로계약서는 있지만 실근로 증빙이 빠지면 세무조사에서 항상 문제가 된다"고 조언했습니다.</p>
+  <p>서울 마포구에서 편의점을 운영하는 30대 사장 B씨는 대학생 아들이 방학 동안 카운터를 맡기로 하고, 시급 10,500원으로 주 25시간 근무하는 근로계약서를 작성했습니다. 홈택스에서 원천세를 다음 달 10일에 신고하고, 급여는 통장 이체로 지급했습니다. 동거 자녀라 고용보험·산재보험은 가입하지 않고 국민연금과 건강보험만 신고했습니다. 방학 두 달간 약 210만 원을 비용처리해 종합소득세 신고 시 세금을 약 40만 원 줄일 수 있었습니다.</p>
+  <p>인천에서 꽃집을 운영하는 50대 자영업자 C씨는 어머니를 직원으로 채용하고 월 100만 원을 지급하려 했습니다. 처음에는 어머니와 같은 주소지에 살고 있어 4대보험 처리 방법에 혼란이 있었습니다. 공단에 문의하자 동거 직계가족은 고용·산재보험이 원칙적으로 불가하지만, 주민등록상 주소가 다른 경우 일반 직원과 동일하게 처리할 수 있다는 안내를 받았습니다. 어머니 주소지를 실제 거주지로 정정한 뒤 4대보험 취득 신고를 완료했습니다.</p>
+
+  <!-- ✅ 이미지 4: 탈락 사유 TOP 5 카드 -->
+  <img src="rejection_card_1080_family_payroll_2026.png" alt="가족 인건비 세무조사 실수 TOP5" style="width:100%;margin:16px 0;" />
+
+  <h2 id="faq">5) 실수 TOP5 &amp; FAQ</h2>
+  <h3>세무조사 실수 TOP5</h3>
+  <ol>
+    <li><strong>일하지 않는 가족을 직원으로 등록</strong>: 허위 인건비는 세무조사에서 전액 부인 + 부정 행위 가산세 40% 부과 대상. 실근로가 없으면 절대 등록하면 안 됩니다.</li>
+    <li><strong>사업주 본인 급여를 비용처리</strong>: 개인사업자의 경우 본인 급여는 소득세법 제33조에 의해 필요경비로 인정되지 않습니다. 법인 전환을 고려하세요.</li>
+    <li><strong>과도한 급여로 부당행위계산부인</strong>: 동종 업종·동일 직급 대비 현저히 높은 급여는 조세 부담을 부당하게 줄이는 행위로 판단됩니다. 유사 직종의 시중 급여 수준에 맞추세요.</li>
+    <li><strong>원천세 신고 누락</strong>: 원천세 신고를 하지 않으면 미납 세액에 10~20% 가산세가 붙습니다. 홈택스에서 자진 수정 신고하면 가산세를 최대 75%까지 경감받을 수 있습니다.</li>
+    <li><strong>배우자·동거 자녀를 고용보험에 가입</strong>: 원칙적으로 불가능한 가입을 하면 추후 환급 요청을 받거나 부당 수급 문제가 발생합니다. 가입 전 4대사회보험포털에서 확인하세요.</li>
+  </ol>
+
+  <h3>시간 인정/중복/예외 조건</h3>
+  <ul>
+    <li><strong>반기 원천세 신고 특례</strong>: 상시근로자 20명 이하이면 1~6월분을 7월 10일까지, 7~12월분을 다음 연도 1월 10일까지 한꺼번에 신고 가능</li>
+    <li><strong>일용근로소득 처리 예외</strong>: 단기 알바(하루 이틀씩 일하는 가족)는 일용근로소득으로 처리 — 지급 다음달 말일까지 일용근로소득 지급명세서 별도 제출</li>
+    <li><strong>동거 가족 고용·산재 예외</strong>: 동거 직계가족이라도 근로복지공단 승인을 받으면 예외적으로 산재보험 가입이 가능한 경우 있음 — 사전 확인 필수</li>
+  </ul>
+
+  <h3>자주 묻는 질문</h3>
+  <p class="q">Q1. 배우자 외에 부모님도 직원으로 등록할 수 있나요?</p>
+  <p class="a">네, 가능합니다. 부모님이 실제로 사업에 종사하고 적정 수준의 급여를 지급하면 비용처리할 수 있습니다. 동거 부모님이면 고용·산재는 불가이고, 비동거라면 일반 직원과 동일하게 처리하면 됩니다.</p>
+  <p class="q">Q2. 가족 직원에게 최저임금보다 낮게 지급해도 되나요?</p>
+  <p class="a">안 됩니다. 최저임금법은 가족 직원에게도 동일하게 적용됩니다. 2026년 최저임금은 시간당 10,030원입니다 (고용노동부 확인 필요). 최저임금 위반은 3년 이하 징역 또는 2천만 원 이하 벌금 대상입니다.</p>
+  <p class="q">Q3. 법인사업자도 배우자를 고용보험에 가입할 수 없나요?</p>
+  <p class="a">법인사업자도 동거 배우자의 고용보험·산재보험 가입은 원칙적으로 불가합니다. 단, 근로복지공단에 사전 확인을 받은 경우 예외 적용이 가능할 수 있습니다.</p>
+  <p class="q">Q4. 원천세를 늦게 납부하면 어떤 불이익이 있나요?</p>
+  <p class="a">미납 기간에 따라 납부지연 가산세(일 0.022%)가 붙습니다. 또한 신고 자체를 하지 않으면 무신고 가산세 20%(부정 행위 40%)가 추가됩니다. 홈택스에서 자진 수정신고하면 가산세를 경감받을 수 있습니다.</p>
+  <p class="q">Q5. 가족 직원 급여에서 소득세를 떼지 않아도 되나요?</p>
+  <p class="a">급여 수준에 따라 간이세액표를 적용해 원천징수해야 합니다. 월 급여가 소액(비과세 한도 이하)이면 원천징수 세액이 0원일 수 있지만, 신고 자체는 해야 합니다.</p>
+  <p class="q">Q6. 가족 직원 연말정산은 어떻게 하나요?</p>
+  <p class="a">가족 직원도 일반 직원과 동일하게 연말정산을 진행합니다. 근로소득 간이지급명세서 제출 → 다음 연도 2월 연말정산 → 3월 10일까지 지급명세서 제출 순서로 처리합니다.</p>
+  <p class="q">Q7. 특수관계인 범위가 2023년에 바뀌었다고 하는데, 어떻게 달라졌나요?</p>
+  <p class="a">개정 전에는 6촌 이내 혈족, 4촌 이내 인척이 특수관계인이었으나, 2023년 2월 이후 4촌 이내 혈족, 3촌 이내 인척으로 축소되었습니다. 5·6촌 혈족이나 4촌 인척은 더 이상 특수관계인이 아니므로 일반 직원과 동일하게 처리됩니다.</p>
+  <p class="q">Q8. 가족 직원 4대보험료는 누가 부담하나요?</p>
+  <p class="a">2026년 기준 국민연금(9.5%)과 건강보험(7.19%)은 사업자와 근로자가 각 절반씩 부담합니다. 고용보험은 사업자가 약 1.15%, 근로자가 0.9% 부담합니다. 산재보험은 사업자가 전액 부담합니다.</p>
+  <p class="q">Q9. 가족 직원의 급여를 갑자기 올리면 세무 문제가 생기나요?</p>
+  <p class="a">급여 인상 자체는 문제가 없지만, 인상 폭이 동종 업종 대비 현저히 크거나 합리적 이유가 없다면 부당행위계산부인 대상이 될 수 있습니다. 인상 사유(업무 확대, 경력 증가 등)를 기록해두는 것이 좋습니다.</p>
+  <p class="q">Q10. 세무사 없이 가족 인건비 처리를 직접 해도 되나요?</p>
+  <p class="a">홈택스를 이용하면 원천세 신고·지급명세서 제출을 직접 할 수 있습니다. 단, 처음 등록 시 4대보험 가입 방법, 급여 수준 적정성 판단 등은 세무사·노무사 초기 1회 상담을 받는 것을 권장합니다. 초기에 잘못 설계하면 나중에 수정 비용이 더 클 수 있습니다.</p>
+
+  <div class="tips">
+    <strong>실전 팁</strong><br/>
+    가족 직원을 처음 등록할 때는 <strong>세무서 방문 전 홈택스에서 원천세 신고 방법을 미리 확인</strong>하세요. 원천세 신고는 매달 10일이 기한이지만, 반기 특례를 신청하면 1년에 두 번만 신고하면 됩니다. 또한 국세청 126 상담센터(무료)에서 가족 인건비 처리 방법을 구체적으로 안내받을 수 있습니다.
+  </div>
+
+  <!-- ✅ 이미지 5: 체크리스트 카드 -->
+  <img src="checklist_card_1080_family_payroll_2026.png" alt="가족 직원 등록 1분 체크리스트" style="width:100%;margin:16px 0;" />
+
+  <h2 id="check">6) 가족 직원 등록 1분 체크리스트</h2>
+  <ul>
+    <li>☐ 서면 근로계약서 작성 완료 (업무내용·근무시간·급여 명시)</li>
+    <li>☐ 4대보험 취득 신고 완료 (입사 14일 이내)</li>
+    <li>☐ 배우자·동거 가족이면 고용·산재 미가입 확인</li>
+    <li>☐ 급여를 계좌이체로 지급 (현금 지급 X)</li>
+    <li>☐ 출근부 또는 업무일지 매일 기록</li>
+    <li>☐ 원천세 신고 (매월 10일 또는 반기 특례 신청)</li>
+    <li>☐ 급여 수준이 동종 업종 시중 수준과 유사한지 확인</li>
+    <li>☐ 지급명세서 제출 기한 캘린더 등록 (다음 연도 3월 10일)</li>
+  </ul>
+  <p class="small">관련 글: <a href="{주소}" target="_blank" rel="noopener">소상공인 세무조사 대응·가산세 줄이는 법 총정리 (2026)</a> / <a href="{주소}" target="_blank" rel="noopener">2026 종합소득세 신고 방법·절세 전략 (프리랜서·자영업)</a></p>
+
+  <div class="tips">
+    <strong>참고/문의처</strong><br/>
+    홈택스 원천세 신고: <a href="https://www.hometax.go.kr" target="_blank" rel="noopener">국세청 홈택스(hometax.go.kr)</a><br/>
+    지급명세서 안내: <a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=12242&cntntsId=8631" target="_blank" rel="noopener">국세청 지급명세서 제출 안내</a><br/>
+    4대보험 신고: <a href="https://www.4insure.or.kr" target="_blank" rel="noopener">4대사회보험포털(4insure.or.kr)</a><br/>
+    문의 전화: 국세청 ☎ 126 / 국민건강보험공단 ☎ 1577-1000 / 근로복지공단 ☎ 1588-0075
+  </div>
+
+  <div class="disclaimer">
+    ※ 이 글은 가족 인건비 및 세금 관련 법령 정보를 일반적으로 안내하는 목적으로 작성되었습니다. 개인의 구체적인 세금 신고·납부 방법과 4대보험 가입 여부는 관할 세무서, 국세청(☎ 126), 세무사 또는 노무사에게 직접 확인하시기 바랍니다. 세법은 개정에 따라 변동될 수 있으므로 신고 전 최신 규정을 반드시 재확인하세요.
+  </div>
+
+  <div class="footer" id="update">
+    <strong>업데이트 로그</strong><br/>
+    - 2026-05-01: 2026년 현행 기준 최초 작성 (4대보험 요율 2026 반영, 특수관계인 범위 2023년 개정 반영, 간이지급명세서 2026년 매월 제출 기한 반영)<br/>
+    <span class="small">※ 세법·4대보험 요율은 매년 변동될 수 있습니다. 신고 전 국세청 공식 안내 확인!</span>
+  </div>
+
+  <p class="small" style="margin-top:12px;">
+    태그: 가족인건비, 특수관계인, 비용처리, 소상공인절세, 개인사업자, 원천세신고, 4대보험가입, 가족직원, 배우자직원, 종합소득세, 세무조사, 부당행위계산부인, 지급명세서, 인건비세금, 2026세금
+  </p>
+</div>

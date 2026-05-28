@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ECFDF5"/>
+      <stop offset="100%" stop-color="#F0FDFA"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg3)"/>
+
+  <text x="540" y="62" font-family="sans-serif" font-size="34" font-weight="900" fill="#111827" text-anchor="middle">🔍 상황별 크라운 추천 가이드</text>
+  <text x="540" y="97" font-family="sans-serif" font-size="20" fill="#6B7280" text-anchor="middle">해당하는 상황을 찾아 추천 재료를 확인하세요</text>
+
+  <!-- 시나리오 1 -->
+  <rect x="50" y="130" width="980" height="130" rx="20" fill="#FFF" stroke="#99F6E4" stroke-width="1.5"/>
+  <rect x="50" y="130" width="980" height="46" rx="20" fill="#0F766E"/>
+  <rect x="50" y="156" width="980" height="20" fill="#0F766E"/>
+  <text x="80" y="160" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFF">어금니·앞니 모두 · 심미성+내구성 중요</text>
+  <text x="80" y="205" font-family="sans-serif" font-size="20" fill="#111827">→ <tspan font-weight="800">지르코니아</tspan> (45~60만 원) — 2026년 표준 선택</text>
+  <text x="80" y="238" font-family="sans-serif" font-size="17" fill="#6B7280">강도 1,000MPa+ · 자연치 색상 재현 · 5년 생존율 95%+</text>
+
+  <!-- 시나리오 2 -->
+  <rect x="50" y="280" width="980" height="130" rx="20" fill="#FFF" stroke="#FDE68A" stroke-width="1.5"/>
+  <rect x="50" y="280" width="980" height="46" rx="20" fill="#F59E0B"/>
+  <rect x="50" y="306" width="980" height="20" fill="#F59E0B"/>
+  <text x="80" y="310" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFF">이갈이 심함 · 대합치 보호 최우선</text>
+  <text x="80" y="355" font-family="sans-serif" font-size="20" fill="#111827">→ <tspan font-weight="800">금(골드)</tspan> + 나이트가드 (60~90만 원+)</text>
+  <text x="80" y="388" font-family="sans-serif" font-size="17" fill="#6B7280">대합치 마모 최소 · 교합 자가 적응 · 수명 15~20년+</text>
+
+  <!-- 시나리오 3 -->
+  <rect x="50" y="430" width="980" height="130" rx="20" fill="#FFF" stroke="#FDE68A" stroke-width="1.5"/>
+  <rect x="50" y="430" width="980" height="46" rx="20" fill="#D97706"/>
+  <rect x="50" y="456" width="980" height="20" fill="#D97706"/>
+  <text x="80" y="460" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFF">치관 높이 짧음 · 삭제 최소화 필수</text>
+  <text x="80" y="505" font-family="sans-serif" font-size="20" fill="#111827">→ <tspan font-weight="800">금(골드)</tspan> (60~90만 원+)</text>
+  <text x="80" y="538" font-family="sans-serif" font-size="17" fill="#6B7280">삭제량 0.3~0.5mm로 모든 재료 중 치질 보존 최고</text>
+
+  <!-- 시나리오 4 -->
+  <rect x="50" y="580" width="980" height="130" rx="20" fill="#FFF" stroke="#D1D5DB" stroke-width="1.5"/>
+  <rect x="50" y="580" width="980" height="46" rx="20" fill="#6B7280"/>
+  <rect x="50" y="606" width="980" height="20" fill="#6B7280"/>
+  <text x="80" y="610" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFF">여러 개 동시 치료 · 예산 한정</text>
+  <text x="80" y="655" font-family="sans-serif" font-size="20" fill="#111827">→ <tspan font-weight="800">PFM</tspan> (35~45만 원) — 단기 가성비</text>
+  <text x="80" y="688" font-family="sans-serif" font-size="17" fill="#6B7280">치핑 20%·잇몸 변색 주의 · 10년+ 사용 계획이면 지르코니아 고려</text>
+
+  <!-- 시나리오 5 -->
+  <rect x="50" y="730" width="980" height="130" rx="20" fill="#FFF" stroke="#A7F3D0" stroke-width="1.5"/>
+  <rect x="50" y="730" width="980" height="46" rx="20" fill="#10B981"/>
+  <rect x="50" y="756" width="980" height="20" fill="#10B981"/>
+  <text x="80" y="760" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFF">만 65세 이상 · 임플란트</text>
+  <text x="80" y="805" font-family="sans-serif" font-size="20" fill="#111827">→ <tspan font-weight="800">지르코니아 보험 적용</tspan> (본인부담 30~40만 원)</text>
+  <text x="80" y="838" font-family="sans-serif" font-size="17" fill="#6B7280">추가 비용 없이 PFM 대신 지르코니아 선택 가능 (2025.02~)</text>
+
+  <!-- 하단 팁 -->
+  <rect x="50" y="890" width="980" height="60" rx="16" fill="#FEF3C7" stroke="#FDE68A" stroke-width="1"/>
+  <text x="540" y="927" font-family="sans-serif" font-size="18" font-weight="700" fill="#92400E" text-anchor="middle">💡 금을 선택하면 임플란트 보험 혜택이 전체 소멸됩니다 — 신중하게 비교하세요</text>
+
+  <text x="540" y="1010" font-family="sans-serif" font-size="15" fill="#9CA3AF" text-anchor="middle">2026년 3월 기준 | 개인 구강 상태에 따라 적합한 재료가 다릅니다</text>
+  <text x="540" y="1040" font-family="sans-serif" font-size="15" fill="#9CA3AF" text-anchor="middle">반드시 치과 전문의 상담 후 결정하세요</text>
+</svg>

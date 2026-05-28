@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1200" height="630" rx="24" fill="url(#bg)"/>
+
+  <rect x="60" y="50" width="240" height="44" rx="22" fill="rgba(245,158,11,0.2)"/>
+  <text x="180" y="80" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#F59E0B">2026 최신</text>
+
+  <text x="60" y="175" font-family="'Pretendard',sans-serif" font-size="68" font-weight="900" fill="#FFFFFF">육아휴직 급여 계산</text>
+  <text x="60" y="240" font-family="'Pretendard',sans-serif" font-size="40" font-weight="600" fill="#EAF2FF">실수령액·복직 후 유의사항 총정리</text>
+
+  <rect x="60" y="270" width="160" height="44" rx="22" fill="#E8F0FF"/>
+  <text x="140" y="300" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#1D4ED8">상한액</text>
+
+  <rect x="240" y="270" width="180" height="44" rx="22" fill="#E8F0FF"/>
+  <text x="330" y="300" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#1D4ED8">6+6 특례</text>
+
+  <rect x="440" y="270" width="160" height="44" rx="22" fill="#E8F0FF"/>
+  <text x="520" y="300" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#1D4ED8">비과세</text>
+
+  <rect x="800" y="80" width="360" height="500" rx="20" fill="rgba(245,158,11,0.08)"/>
+
+  <text x="980" y="170" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="48" font-weight="900" fill="#FFF">250만</text>
+  <text x="980" y="205" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="600" fill="#F59E0B">초기 3개월 상한</text>
+
+  <text x="980" y="295" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="48" font-weight="900" fill="#FFF">900만</text>
+  <text x="980" y="330" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="600" fill="#F59E0B">6+6 합산 최대</text>
+
+  <text x="980" y="415" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="48" font-weight="900" fill="#FFF">0원</text>
+  <text x="980" y="450" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="600" fill="#F59E0B">소득세 비과세</text>
+
+  <text x="980" y="530" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">사후지급금 폐지</text>
+  <text x="980" y="560" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">건보 월 20,160원</text>
+
+  <text x="60" y="400" font-family="'Pretendard',sans-serif" font-size="30" font-weight="700" fill="#EAF2FF">250→200→160만 원 계단식 상한</text>
+  <text x="60" y="445" font-family="'Pretendard',sans-serif" font-size="30" font-weight="700" fill="#EAF2FF">6+6 부모 합산 최대 월 900만 원</text>
+  <text x="60" y="490" font-family="'Pretendard',sans-serif" font-size="30" font-weight="700" fill="#EAF2FF">복직 후 건보료 정산·연차·퇴직금 보호</text>
+
+  <text x="60" y="570" font-family="'Pretendard',sans-serif" font-size="24" font-weight="600" fill="#F59E0B">통상임금 300만 기준 12개월 총 2,310만 원 (비과세 전액 수령)</text>
+</svg>

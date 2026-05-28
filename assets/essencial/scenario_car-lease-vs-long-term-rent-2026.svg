@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <!-- Title -->
+  <text x="540" y="65" text-anchor="middle" fill="#E2E8F0" font-size="26" font-weight="700" font-family="sans-serif">당신의 상황에 맞는 선택은?</text>
+  <rect x="340" y="80" width="400" height="3" rx="2" fill="#3B82F6" opacity="0.6"/>
+
+  <!-- Scenario 1 -->
+  <g transform="translate(60,100)">
+    <rect x="0" y="0" width="460" height="140" rx="16" fill="#1e293b"/>
+    <rect x="0" y="0" width="460" height="5" rx="3" fill="#34D399"/>
+    <circle cx="30" cy="35" r="18" fill="#065F46"/>
+    <text x="30" y="41" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="800" font-family="sans-serif">1</text>
+    <text x="58" y="40" fill="#6EE7B7" font-size="15" font-weight="700" font-family="sans-serif">개인사업자 + 건보료 부담 큰 경우</text>
+    <text x="30" y="70" fill="#CBD5E1" font-size="13" font-family="sans-serif">지역가입자로 4,000만 원+ 차량 이용 시</text>
+    <text x="30" y="92" fill="#CBD5E1" font-size="13" font-family="sans-serif">건보료 인상 차단 + 업무전용보험 자동 관리</text>
+    <rect x="30" y="108" width="120" height="26" rx="8" fill="#065F46"/>
+    <text x="90" y="126" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700" font-family="sans-serif">→ 장기렌트</text>
+  </g>
+
+  <!-- Scenario 2 -->
+  <g transform="translate(560,100)">
+    <rect x="0" y="0" width="460" height="140" rx="16" fill="#1e293b"/>
+    <rect x="0" y="0" width="460" height="5" rx="3" fill="#34D399"/>
+    <circle cx="30" cy="35" r="18" fill="#065F46"/>
+    <text x="30" y="41" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="800" font-family="sans-serif">2</text>
+    <text x="58" y="40" fill="#6EE7B7" font-size="15" font-weight="700" font-family="sans-serif">신규 대출 · 주담대 계획 있는 경우</text>
+    <text x="30" y="70" fill="#CBD5E1" font-size="13" font-family="sans-serif">부채 비율에 영향 없는 임대차 구조</text>
+    <text x="30" y="92" fill="#CBD5E1" font-size="13" font-family="sans-serif">신용 점수 유지 + 추가 대출 한도 보존</text>
+    <rect x="30" y="108" width="120" height="26" rx="8" fill="#065F46"/>
+    <text x="90" y="126" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700" font-family="sans-serif">→ 장기렌트</text>
+  </g>
+
+  <!-- Scenario 3 -->
+  <g transform="translate(60,260)">
+    <rect x="0" y="0" width="460" height="140" rx="16" fill="#1e293b"/>
+    <rect x="0" y="0" width="460" height="5" rx="3" fill="#34D399"/>
+    <circle cx="30" cy="35" r="18" fill="#065F46"/>
+    <text x="30" y="41" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="800" font-family="sans-serif">3</text>
+    <text x="58" y="40" fill="#6EE7B7" font-size="15" font-weight="700" font-family="sans-serif">경차 · 9인승 승합차 사업자</text>
+    <text x="30" y="70" fill="#CBD5E1" font-size="13" font-family="sans-serif">부가세 10% 매입세액공제 가능</text>
+    <text x="30" y="92" fill="#CBD5E1" font-size="13" font-family="sans-serif">모닝, 레이, 카니발 9인승 등</text>
+    <rect x="30" y="108" width="120" height="26" rx="8" fill="#065F46"/>
+    <text x="90" y="126" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700" font-family="sans-serif">→ 장기렌트</text>
+  </g>
+
+  <!-- Scenario 4 -->
+  <g transform="translate(560,260)">
+    <rect x="0" y="0" width="460" height="140" rx="16" fill="#1e293b"/>
+    <rect x="0" y="0" width="460" height="5" rx="3" fill="#34D399"/>
+    <circle cx="30" cy="35" r="18" fill="#065F46"/>
+    <text x="30" y="41" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="800" font-family="sans-serif">4</text>
+    <text x="58" y="40" fill="#6EE7B7" font-size="15" font-weight="700" font-family="sans-serif">법인 + 8,000만 원대 + 번호판 관리</text>
+    <text x="30" y="70" fill="#CBD5E1" font-size="13" font-family="sans-serif">면세가 적용 → 소비자가 ~8,400만 일반 번호판</text>
+    <text x="30" y="92" fill="#CBD5E1" font-size="13" font-family="sans-serif">연두색 번호판 없이 프리미엄 세단 운영</text>
+    <rect x="30" y="108" width="120" height="26" rx="8" fill="#065F46"/>
+    <text x="90" y="126" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700" font-family="sans-serif">→ 장기렌트</text>
+  </g>
+
+  <!-- Scenario 5 - Lease -->
+  <g transform="translate(60,420)">
+    <rect x="0" y="0" width="460" height="140" rx="16" fill="#1e293b"/>
+    <rect x="0" y="0" width="460" height="5" rx="3" fill="#3B82F6"/>
+    <circle cx="30" cy="35" r="18" fill="#1E40AF"/>
+    <text x="30" y="41" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="800" font-family="sans-serif">5</text>
+    <text x="58" y="40" fill="#93C5FD" font-size="15" font-weight="700" font-family="sans-serif">전문직 + 무사고 + 일반 번호판 필요</text>
+    <text x="30" y="70" fill="#CBD5E1" font-size="13" font-family="sans-serif">본인 보험 요율이 매우 낮은 숙련 운전자</text>
+    <text x="30" y="92" fill="#CBD5E1" font-size="13" font-family="sans-serif">하·호·배 대신 일반 번호판 → 대외 이미지</text>
+    <rect x="30" y="108" width="120" height="26" rx="8" fill="#1E40AF"/>
+    <text x="90" y="126" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700" font-family="sans-serif">→ 자동차 리스</text>
+  </g>
+
+  <!-- Scenario 6 - Lease -->
+  <g transform="translate(560,420)">
+    <rect x="0" y="0" width="460" height="140" rx="16" fill="#1e293b"/>
+    <rect x="0" y="0" width="460" height="5" rx="3" fill="#3B82F6"/>
+    <circle cx="30" cy="35" r="18" fill="#1E40AF"/>
+    <text x="30" y="41" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="800" font-family="sans-serif">6</text>
+    <text x="58" y="40" fill="#93C5FD" font-size="15" font-weight="700" font-family="sans-serif">월 현금 흐름 최소화가 최우선</text>
+    <text x="30" y="70" fill="#CBD5E1" font-size="13" font-family="sans-serif">세금·보험 별도 감당 가능한 상황</text>
+    <text x="30" y="92" fill="#CBD5E1" font-size="13" font-family="sans-serif">리스가 월 3~5만 원 저렴 (세금·보험 제외)</text>
+    <rect x="30" y="108" width="120" height="26" rx="8" fill="#1E40AF"/>
+    <text x="90" y="126" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700" font-family="sans-serif">→ 자동차 리스</text>
+  </g>
+
+  <!-- Scenario 7 - EV -->
+  <g transform="translate(60,580)">
+    <rect x="0" y="0" width="960" height="100" rx="16" fill="#1e293b"/>
+    <rect x="0" y="0" width="960" height="5" rx="3" fill="#A78BFA"/>
+    <circle cx="30" cy="35" r="18" fill="#5B21B6"/>
+    <text x="30" y="41" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="800" font-family="sans-serif">7</text>
+    <text x="58" y="40" fill="#C4B5FD" font-size="15" font-weight="700" font-family="sans-serif">전기차 이용자</text>
+    <text x="58" y="68" fill="#CBD5E1" font-size="13" font-family="sans-serif">반납 예정 → 장기렌트 (감가 위험 렌트사 부담)  |  인수 예정 → 리스 (월 납입금 절감)</text>
+    <text x="58" y="90" fill="#94A3B8" font-size="12" font-family="sans-serif">전기차는 잔존가치 변동이 커서 반납/인수 계획에 따라 결정</text>
+  </g>
+
+  <!-- Action Checklist -->
+  <text x="540" y="730" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="700" font-family="sans-serif">지금 바로 확인하는 5단계</text>
+
+  <g transform="translate(60,750)">
+    <!-- Step 1 -->
+    <rect x="0" y="0" width="185" height="100" rx="12" fill="#1e293b"/>
+    <circle cx="92" cy="28" r="16" fill="#1E40AF"/>
+    <text x="92" y="34" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">1</text>
+    <text x="92" y="58" text-anchor="middle" fill="#E2E8F0" font-size="12" font-weight="600" font-family="sans-serif">사업자 유형</text>
+    <text x="92" y="78" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="sans-serif">개인/법인/직장인</text>
+    <text x="92" y="94" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="sans-serif">세금 처리 방식 결정</text>
+
+    <!-- Step 2 -->
+    <rect x="197" y="0" width="185" height="100" rx="12" fill="#1e293b"/>
+    <circle cx="289" cy="28" r="16" fill="#1E40AF"/>
+    <text x="289" y="34" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">2</text>
+    <text x="289" y="58" text-anchor="middle" fill="#E2E8F0" font-size="12" font-weight="600" font-family="sans-serif">신용·대출 점검</text>
+    <text x="289" y="78" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="sans-serif">추가 대출 계획 →</text>
+    <text x="289" y="94" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="sans-serif">렌트 우선 검토</text>
+
+    <!-- Step 3 -->
+    <rect x="394" y="0" width="185" height="100" rx="12" fill="#1e293b"/>
+    <circle cx="486" cy="28" r="16" fill="#1E40AF"/>
+    <text x="486" y="34" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">3</text>
+    <text x="486" y="58" text-anchor="middle" fill="#E2E8F0" font-size="12" font-weight="600" font-family="sans-serif">차종 결정</text>
+    <text x="486" y="78" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="sans-serif">경차·9인승 →</text>
+    <text x="486" y="94" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="sans-serif">렌트 부가세 공제</text>
+
+    <!-- Step 4 -->
+    <rect x="591" y="0" width="185" height="100" rx="12" fill="#1e293b"/>
+    <circle cx="683" cy="28" r="16" fill="#1E40AF"/>
+    <text x="683" y="34" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">4</text>
+    <text x="683" y="58" text-anchor="middle" fill="#E2E8F0" font-size="12" font-weight="600" font-family="sans-serif">복수 견적 비교</text>
+    <text x="683" y="78" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="sans-serif">리스 2곳 +</text>
+    <text x="683" y="94" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="sans-serif">렌트 2곳 이상</text>
+
+    <!-- Step 5 -->
+    <rect x="788" y="0" width="172" height="100" rx="12" fill="#1e293b"/>
+    <circle cx="874" cy="28" r="16" fill="#1E40AF"/>
+    <text x="874" y="34" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">5</text>
+    <text x="874" y="58" text-anchor="middle" fill="#E2E8F0" font-size="12" font-weight="600" font-family="sans-serif">TCO 계산</text>
+    <text x="874" y="78" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="sans-serif">세금·보험·건보료</text>
+    <text x="874" y="94" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="sans-serif">포함 총비용 비교</text>
+  </g>
+
+  <!-- 승계 팁 -->
+  <rect x="60" y="870" width="960" height="80" rx="14" fill="#1e293b"/>
+  <rect x="60" y="870" width="960" height="5" rx="3" fill="#F59E0B"/>
+  <text x="90" y="905" fill="#FCD34D" font-size="16" font-weight="700" font-family="sans-serif">중도 해지 위약금 방어 TIP: 승계 활용</text>
+  <text x="90" y="930" fill="#CBD5E1" font-size="13" font-family="sans-serif">위약금 15~40% → 승계 시 0원 | 승계 수수료: 잔여 금액 1~3% 또는 정액 ~40만 원 | 승계자 신용심사 필요</text>
+
+  <!-- Footer -->
+  <text x="540" y="990" text-anchor="middle" fill="#64748B" font-size="13" font-family="sans-serif">2026년 4월 기준 | essencial</text>
+  <rect x="60" y="1005" width="960" height="2" rx="1" fill="#334155"/>
+  <text x="540" y="1040" text-anchor="middle" fill="#475569" font-size="12" font-family="sans-serif">※ 개인의 재무·세무 상황에 따라 유불리가 달라질 수 있습니다. 반드시 복수 견적 비교 후 계약하세요.</text>
+</svg>

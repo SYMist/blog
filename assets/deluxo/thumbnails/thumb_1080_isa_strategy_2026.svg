@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#FBBF24"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)" rx="0"/>
+
+  <!-- Decorative bar -->
+  <rect x="0" y="0" width="1080" height="12" fill="url(#accent)"/>
+
+  <!-- Chip: 2026 최신 -->
+  <rect x="60" y="140" width="178" height="54" rx="27" fill="#1D4ED8"/>
+  <text x="149" y="174" font-family="'Pretendard', sans-serif" font-size="22" font-weight="800" fill="#E8F0FF" text-anchor="middle">2026 최신</text>
+
+  <!-- Chip: 비과세 400만 -->
+  <rect x="254" y="140" width="210" height="54" rx="27" fill="#1D4ED8"/>
+  <text x="359" y="174" font-family="'Pretendard', sans-serif" font-size="22" font-weight="800" fill="#E8F0FF" text-anchor="middle">비과세 400만</text>
+
+  <!-- Chip: 연금공제 300만 -->
+  <rect x="480" y="140" width="240" height="54" rx="27" fill="#F59E0B"/>
+  <text x="600" y="174" font-family="'Pretendard', sans-serif" font-size="22" font-weight="800" fill="#0B1F3B" text-anchor="middle">연금공제 300만</text>
+
+  <!-- Main title -->
+  <text x="60" y="330" font-family="'Pretendard', sans-serif" font-size="70" font-weight="900" fill="#FFFFFF">ISA 계좌</text>
+  <text x="60" y="420" font-family="'Pretendard', sans-serif" font-size="70" font-weight="900" fill="#FFFFFF">절세 전략</text>
+  <text x="60" y="510" font-family="'Pretendard', sans-serif" font-size="70" font-weight="900" fill="#F59E0B">총정리</text>
+
+  <!-- Subtitle -->
+  <text x="60" y="600" font-family="'Pretendard', sans-serif" font-size="34" font-weight="700" fill="#EAF2FF">비과세·분리과세·연금 세액공제</text>
+  <text x="60" y="648" font-family="'Pretendard', sans-serif" font-size="34" font-weight="700" fill="#EAF2FF">만기 출금 3가지 전략 완벽 가이드</text>
+
+  <!-- Divider -->
+  <rect x="60" y="690" width="960" height="4" fill="#F59E0B" rx="2"/>
+
+  <!-- Key facts row -->
+  <rect x="60" y="722" width="290" height="140" rx="20" fill="#1A3270"/>
+  <text x="205" y="782" font-family="'Pretendard', sans-serif" font-size="18" font-weight="700" fill="#F59E0B" text-anchor="middle">서민형 비과세</text>
+  <text x="205" y="830" font-family="'Pretendard', sans-serif" font-size="36" font-weight="900" fill="#FFFFFF" text-anchor="middle">400만원</text>
+
+  <rect x="395" y="722" width="290" height="140" rx="20" fill="#1A3270"/>
+  <text x="540" y="782" font-family="'Pretendard', sans-serif" font-size="18" font-weight="700" fill="#F59E0B" text-anchor="middle">분리과세율</text>
+  <text x="540" y="830" font-family="'Pretendard', sans-serif" font-size="36" font-weight="900" fill="#FFFFFF" text-anchor="middle">9.9%</text>
+
+  <rect x="730" y="722" width="290" height="140" rx="20" fill="#F59E0B"/>
+  <text x="875" y="782" font-family="'Pretendard', sans-serif" font-size="18" font-weight="700" fill="#0B1F3B" text-anchor="middle">연금이전 공제</text>
+  <text x="875" y="830" font-family="'Pretendard', sans-serif" font-size="36" font-weight="900" fill="#0B1F3B" text-anchor="middle">최대 300만</text>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="920" width="1080" height="160" fill="#0A1A35"/>
+  <text x="540" y="990" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#EAF2FF" text-anchor="middle">2026년 현행 기준 · 의무기간 3년 · 손익통산 과세</text>
+  <text x="540" y="1040" font-family="'Pretendard', sans-serif" font-size="22" font-weight="600" fill="#F59E0B" text-anchor="middle">한도 확대안(연 4,000만·총 2억)은 국회 통과 후 시행</text>
+
+  <!-- Decorative bottom bar -->
+  <rect x="0" y="1068" width="1080" height="12" fill="url(#accent)"/>
+</svg>

@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <!-- Title -->
+  <text x="540" y="75" text-anchor="middle" fill="#FFFFFF" font-size="40" font-weight="900" font-family="Pretendard,sans-serif">업권별 금리 비교 매트릭스</text>
+  <text x="540" y="115" text-anchor="middle" fill="#94A3B8" font-size="22" font-family="Pretendard,sans-serif">신용점수 800점대 vs 700점대 — 2026년 4월 기준</text>
+
+  <!-- Table Header -->
+  <rect x="60" y="150" width="960" height="56" rx="12" fill="#B45309"/>
+  <text x="260" y="186" text-anchor="middle" fill="#FFF" font-size="20" font-weight="800" font-family="Pretendard,sans-serif">금융기관</text>
+  <text x="530" y="186" text-anchor="middle" fill="#FFF" font-size="20" font-weight="800" font-family="Pretendard,sans-serif">800점대</text>
+  <text x="740" y="186" text-anchor="middle" fill="#FFF" font-size="20" font-weight="800" font-family="Pretendard,sans-serif">700점대</text>
+  <text x="920" y="186" text-anchor="middle" fill="#FFF" font-size="20" font-weight="800" font-family="Pretendard,sans-serif">격차</text>
+
+  <!-- Section: 인터넷은행 -->
+  <rect x="60" y="220" width="960" height="36" rx="0" fill="#D97706" opacity="0.2"/>
+  <text x="540" y="245" text-anchor="middle" fill="#FDE68A" font-size="18" font-weight="700" font-family="Pretendard,sans-serif">인터넷은행</text>
+
+  <!-- Row 1 -->
+  <rect x="60" y="266" width="960" height="52" rx="0" fill="#1E293B"/>
+  <text x="260" y="298" text-anchor="middle" fill="#E2E8F0" font-size="18" font-weight="600" font-family="Pretendard,sans-serif">카카오뱅크 (일반)</text>
+  <text x="530" y="298" text-anchor="middle" fill="#86EFAC" font-size="20" font-weight="800" font-family="Pretendard,sans-serif">5.74%</text>
+  <text x="740" y="298" text-anchor="middle" fill="#FDE68A" font-size="20" font-weight="800" font-family="Pretendard,sans-serif">6.20%</text>
+  <text x="920" y="298" text-anchor="middle" fill="#F87171" font-size="20" font-weight="800" font-family="Pretendard,sans-serif">0.46%p</text>
+
+  <!-- Row 2 -->
+  <rect x="60" y="326" width="960" height="52" rx="0" fill="#0F172A"/>
+  <text x="260" y="358" text-anchor="middle" fill="#E2E8F0" font-size="18" font-weight="600" font-family="Pretendard,sans-serif">카카오뱅크 (중신용)</text>
+  <text x="530" y="358" text-anchor="middle" fill="#86EFAC" font-size="20" font-weight="800" font-family="Pretendard,sans-serif">7.36%</text>
+  <text x="740" y="358" text-anchor="middle" fill="#FDE68A" font-size="20" font-weight="800" font-family="Pretendard,sans-serif">7.80%</text>
+  <text x="920" y="358" text-anchor="middle" fill="#F87171" font-size="20" font-weight="800" font-family="Pretendard,sans-serif">0.44%p</text>
+
+  <!-- Row 3 -->
+  <rect x="60" y="386" width="960" height="52" rx="0" fill="#1E293B"/>
+  <text x="260" y="418" text-anchor="middle" fill="#E2E8F0" font-size="18" font-weight="600" font-family="Pretendard,sans-serif">토스뱅크</text>
+  <text x="530" y="418" text-anchor="middle" fill="#86EFAC" font-size="20" font-weight="800" font-family="Pretendard,sans-serif">5.48~8.50%</text>
+  <text x="740" y="418" text-anchor="middle" fill="#FDE68A" font-size="20" font-weight="800" font-family="Pretendard,sans-serif">7.79~11.24%</text>
+  <text x="920" y="418" text-anchor="middle" fill="#F87171" font-size="20" font-weight="800" font-family="Pretendard,sans-serif">2.31~2.74%p</text>
+
+  <!-- Row 4 -->
+  <rect x="60" y="446" width="960" height="52" rx="0" fill="#0F172A"/>
+  <text x="260" y="478" text-anchor="middle" fill="#E2E8F0" font-size="18" font-weight="600" font-family="Pretendard,sans-serif">케이뱅크</text>
+  <text x="530" y="478" text-anchor="middle" fill="#86EFAC" font-size="20" font-weight="800" font-family="Pretendard,sans-serif">4.25~6.50%</text>
+  <text x="740" y="478" text-anchor="middle" fill="#FDE68A" font-size="20" font-weight="800" font-family="Pretendard,sans-serif">6.80~9.50%</text>
+  <text x="920" y="478" text-anchor="middle" fill="#F87171" font-size="20" font-weight="800" font-family="Pretendard,sans-serif">2.55~3.00%p</text>
+
+  <!-- Section: 2금융권 -->
+  <rect x="60" y="512" width="960" height="36" rx="0" fill="#D97706" opacity="0.2"/>
+  <text x="540" y="537" text-anchor="middle" fill="#FDE68A" font-size="18" font-weight="700" font-family="Pretendard,sans-serif">2금융권 · 상호금융</text>
+
+  <!-- Row 5 -->
+  <rect x="60" y="558" width="960" height="52" rx="0" fill="#1E293B"/>
+  <text x="260" y="590" text-anchor="middle" fill="#E2E8F0" font-size="18" font-weight="600" font-family="Pretendard,sans-serif">NH직장인스마트론</text>
+  <text x="530" y="590" text-anchor="middle" fill="#86EFAC" font-size="20" font-weight="800" font-family="Pretendard,sans-serif">5.69%</text>
+  <text x="740" y="590" text-anchor="middle" fill="#FDE68A" font-size="20" font-weight="800" font-family="Pretendard,sans-serif">5.81%</text>
+  <text x="920" y="590" text-anchor="middle" fill="#94A3B8" font-size="20" font-weight="800" font-family="Pretendard,sans-serif">0.12%p</text>
+
+  <!-- Row 6 -->
+  <rect x="60" y="618" width="960" height="52" rx="0" fill="#0F172A"/>
+  <text x="260" y="650" text-anchor="middle" fill="#E2E8F0" font-size="18" font-weight="600" font-family="Pretendard,sans-serif">신협 815 해방대출</text>
+  <text x="530" y="650" text-anchor="middle" fill="#86EFAC" font-size="20" font-weight="800" font-family="Pretendard,sans-serif">6.63%</text>
+  <text x="740" y="650" text-anchor="middle" fill="#FDE68A" font-size="20" font-weight="800" font-family="Pretendard,sans-serif">7.60%</text>
+  <text x="920" y="650" text-anchor="middle" fill="#F87171" font-size="20" font-weight="800" font-family="Pretendard,sans-serif">0.97%p</text>
+
+  <!-- Row 7 -->
+  <rect x="60" y="678" width="960" height="52" rx="0" fill="#1E293B"/>
+  <text x="260" y="710" text-anchor="middle" fill="#E2E8F0" font-size="18" font-weight="600" font-family="Pretendard,sans-serif">KB 이지대환 (카드)</text>
+  <text x="530" y="710" text-anchor="middle" fill="#86EFAC" font-size="20" font-weight="800" font-family="Pretendard,sans-serif">11.89%</text>
+  <text x="740" y="710" text-anchor="middle" fill="#FDE68A" font-size="20" font-weight="800" font-family="Pretendard,sans-serif">14.17%</text>
+  <text x="920" y="710" text-anchor="middle" fill="#F87171" font-size="20" font-weight="800" font-family="Pretendard,sans-serif">2.28%p</text>
+
+  <!-- Row 8 -->
+  <rect x="60" y="738" width="960" height="52" rx="0" fill="#0F172A"/>
+  <text x="260" y="770" text-anchor="middle" fill="#E2E8F0" font-size="18" font-weight="600" font-family="Pretendard,sans-serif">다올저축 Fi직장인</text>
+  <text x="530" y="770" text-anchor="middle" fill="#86EFAC" font-size="20" font-weight="800" font-family="Pretendard,sans-serif">16.83%</text>
+  <text x="740" y="770" text-anchor="middle" fill="#FDE68A" font-size="20" font-weight="800" font-family="Pretendard,sans-serif">18.67%</text>
+  <text x="920" y="770" text-anchor="middle" fill="#F87171" font-size="20" font-weight="800" font-family="Pretendard,sans-serif">1.84%p</text>
+
+  <!-- Bottom Insight -->
+  <rect x="60" y="830" width="960" height="100" rx="16" fill="#B45309" opacity="0.15"/>
+  <rect x="60" y="830" width="960" height="100" rx="16" stroke="#D97706" stroke-width="2" fill="none"/>
+  <text x="540" y="870" text-anchor="middle" fill="#FDE68A" font-size="22" font-weight="800" font-family="Pretendard,sans-serif">핵심 인사이트</text>
+  <text x="540" y="910" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="600" font-family="Pretendard,sans-serif">상호금융은 격차 작지만, 카드사·저축은행으로 가면 2%p 이상 벌어진다</text>
+
+  <!-- Legend -->
+  <circle cx="340" cy="975" r="8" fill="#86EFAC"/>
+  <text x="360" y="981" fill="#94A3B8" font-size="17" font-family="Pretendard,sans-serif">800점대</text>
+  <circle cx="480" cy="975" r="8" fill="#FDE68A"/>
+  <text x="500" y="981" fill="#94A3B8" font-size="17" font-family="Pretendard,sans-serif">700점대</text>
+  <circle cx="620" cy="975" r="8" fill="#F87171"/>
+  <text x="640" y="981" fill="#94A3B8" font-size="17" font-family="Pretendard,sans-serif">격차 1%p 이상</text>
+
+  <!-- Footer -->
+  <text x="540" y="1050" text-anchor="middle" fill="#64748B" font-size="16" font-family="Pretendard,sans-serif">essencial | 2026년 4월 기준 공시금리</text>
+</svg>

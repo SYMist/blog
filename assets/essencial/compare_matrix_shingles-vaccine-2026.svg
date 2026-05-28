@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#F0FDFA"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg2)"/>
+
+  <!-- 제목 -->
+  <text x="540" y="70" font-family="sans-serif" font-size="36" font-weight="900" fill="#111827" text-anchor="middle">대상포진 백신 종류별 비교 매트릭스</text>
+  <text x="540" y="108" font-family="sans-serif" font-size="20" fill="#6B7280" text-anchor="middle">싱그릭스 vs 조스타박스 vs 스카이조스터 | 2026년 3월 기준</text>
+
+  <!-- 테이블 헤더 -->
+  <rect x="40" y="145" width="1000" height="56" rx="12" fill="#0F766E"/>
+  <text x="180" y="180" font-family="sans-serif" font-size="19" font-weight="700" fill="#FFF" text-anchor="middle">비교 항목</text>
+  <text x="450" y="180" font-family="sans-serif" font-size="19" font-weight="700" fill="#FFF" text-anchor="middle">싱그릭스 (사백신)</text>
+  <text x="720" y="180" font-family="sans-serif" font-size="19" font-weight="700" fill="#FFF" text-anchor="middle">조스타박스 (생백신)</text>
+  <text x="940" y="180" font-family="sans-serif" font-size="19" font-weight="700" fill="#FFF" text-anchor="middle">스카이조스터</text>
+
+  <!-- Row 1 -->
+  <rect x="40" y="205" width="1000" height="68" fill="#FFF"/>
+  <line x1="40" y1="273" x2="1040" y2="273" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="70" y="245" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827">접종 횟수</text>
+  <text x="450" y="245" font-family="sans-serif" font-size="19" font-weight="700" fill="#0F766E" text-anchor="middle">2회 (2~6개월)</text>
+  <text x="720" y="245" font-family="sans-serif" font-size="19" fill="#4B5563" text-anchor="middle">1회</text>
+  <text x="940" y="245" font-family="sans-serif" font-size="19" fill="#4B5563" text-anchor="middle">1회</text>
+
+  <!-- Row 2 -->
+  <rect x="40" y="273" width="1000" height="68" fill="#F9FAFB"/>
+  <line x1="40" y1="341" x2="1040" y2="341" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="70" y="313" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827">총비용</text>
+  <text x="450" y="313" font-family="sans-serif" font-size="19" font-weight="800" fill="#0F766E" text-anchor="middle">40~60만 원</text>
+  <text x="720" y="313" font-family="sans-serif" font-size="19" fill="#4B5563" text-anchor="middle">17~24만 원</text>
+  <text x="940" y="313" font-family="sans-serif" font-size="19" fill="#4B5563" text-anchor="middle">10~16만 원</text>
+
+  <!-- Row 3 -->
+  <rect x="40" y="341" width="1000" height="68" fill="#FFF"/>
+  <line x1="40" y1="409" x2="1040" y2="409" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="70" y="381" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827">예방률 (50세+)</text>
+  <text x="450" y="381" font-family="sans-serif" font-size="20" font-weight="900" fill="#0F766E" text-anchor="middle">97.2%</text>
+  <text x="720" y="381" font-family="sans-serif" font-size="19" fill="#4B5563" text-anchor="middle">51~70%</text>
+  <text x="940" y="381" font-family="sans-serif" font-size="19" fill="#4B5563" text-anchor="middle">51~70%</text>
+
+  <!-- Row 4 -->
+  <rect x="40" y="409" width="1000" height="68" fill="#F9FAFB"/>
+  <line x1="40" y1="477" x2="1040" y2="477" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="70" y="449" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827">예방률 (70세+)</text>
+  <text x="450" y="449" font-family="sans-serif" font-size="19" font-weight="700" fill="#0F766E" text-anchor="middle">91% 이상</text>
+  <text x="720" y="449" font-family="sans-serif" font-size="19" fill="#EF4444" text-anchor="middle">21%로 감소</text>
+  <text x="940" y="449" font-family="sans-serif" font-size="19" fill="#EF4444" text-anchor="middle">21%로 감소</text>
+
+  <!-- Row 5 -->
+  <rect x="40" y="477" width="1000" height="68" fill="#FFF"/>
+  <line x1="40" y1="545" x2="1040" y2="545" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="70" y="517" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827">면역 지속</text>
+  <text x="450" y="517" font-family="sans-serif" font-size="19" font-weight="700" fill="#0F766E" text-anchor="middle">10년+ (장기 유지)</text>
+  <text x="720" y="517" font-family="sans-serif" font-size="19" fill="#4B5563" text-anchor="middle">7~11년 후 급감</text>
+  <text x="940" y="517" font-family="sans-serif" font-size="19" fill="#4B5563" text-anchor="middle">7~11년 후 급감</text>
+
+  <!-- Row 6 -->
+  <rect x="40" y="545" width="1000" height="68" fill="#F9FAFB"/>
+  <line x1="40" y1="613" x2="1040" y2="613" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="70" y="585" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827">면역저하자</text>
+  <text x="450" y="585" font-family="sans-serif" font-size="20" fill="#10B981" text-anchor="middle">✅ 가능</text>
+  <text x="720" y="585" font-family="sans-serif" font-size="20" fill="#EF4444" text-anchor="middle">❌ 불가</text>
+  <text x="940" y="585" font-family="sans-serif" font-size="20" fill="#EF4444" text-anchor="middle">❌ 불가</text>
+
+  <!-- Row 7 -->
+  <rect x="40" y="613" width="1000" height="68" fill="#FFF"/>
+  <line x1="40" y1="681" x2="1040" y2="681" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="70" y="653" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827">무료 접종</text>
+  <text x="450" y="653" font-family="sans-serif" font-size="20" fill="#EF4444" text-anchor="middle">❌ 대부분 자비</text>
+  <text x="720" y="653" font-family="sans-serif" font-size="20" fill="#10B981" text-anchor="middle">✅ 일부 지자체</text>
+  <text x="940" y="653" font-family="sans-serif" font-size="20" fill="#10B981" text-anchor="middle">✅ 일부 지자체</text>
+
+  <!-- Row 8 -->
+  <rect x="40" y="681" width="1000" height="68" fill="#F9FAFB"/>
+  <text x="70" y="721" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827">접종 방법</text>
+  <text x="450" y="721" font-family="sans-serif" font-size="19" fill="#4B5563" text-anchor="middle">근육주사 (IM)</text>
+  <text x="720" y="721" font-family="sans-serif" font-size="19" fill="#4B5563" text-anchor="middle">피하주사 (SC)</text>
+  <text x="940" y="721" font-family="sans-serif" font-size="19" fill="#4B5563" text-anchor="middle">피하주사 (SC)</text>
+
+  <!-- 범례 -->
+  <rect x="40" y="790" width="1000" height="90" rx="16" fill="#F0FDFA" stroke="#99F6E4" stroke-width="1"/>
+  <text x="540" y="828" font-family="sans-serif" font-size="19" font-weight="700" fill="#0F766E" text-anchor="middle">핵심 포인트</text>
+  <text x="540" y="860" font-family="sans-serif" font-size="17" fill="#4B5563" text-anchor="middle">예방률·면역 지속·안전성 → 싱그릭스 우위 | 비용·편의성 → 생백신 우위 | 면역저하자 → 싱그릭스만 가능</text>
+
+  <!-- 하단 -->
+  <text x="540" y="940" font-family="sans-serif" font-size="15" fill="#9CA3AF" text-anchor="middle">2026년 3월 기준 | 의료기관별 가격 차이 있음</text>
+  <text x="540" y="970" font-family="sans-serif" font-size="15" fill="#9CA3AF" text-anchor="middle">접종 전 전문의 상담 권장 | 심평원 비급여 정보에서 가격 비교</text>
+</svg>

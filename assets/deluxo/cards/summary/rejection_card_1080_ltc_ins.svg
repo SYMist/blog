@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+    <linearGradient id="rowBg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.06)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0.02)"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <rect x="80" y="72" width="160" height="48" rx="24" fill="#F59E0B"/>
+  <text x="160" y="103" font-family="'Pretendard', sans-serif" font-size="22" font-weight="700" fill="#0B1F3B" text-anchor="middle">주의 필수</text>
+
+  <text x="80" y="185" font-family="'Pretendard', sans-serif" font-size="44" font-weight="800" fill="#FFFFFF">등급 판정 실수 TOP 5</text>
+  <rect x="80" y="215" width="120" height="4" rx="2" fill="#F59E0B"/>
+
+  <!-- Row 1 -->
+  <rect x="60" y="270" width="960" height="130" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <circle cx="120" cy="335" r="30" fill="#F59E0B"/>
+  <text x="120" y="345" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#0B1F3B" text-anchor="middle">1</text>
+  <text x="175" y="315" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">조사일 컨디션이 평소보다 좋았다</text>
+  <text x="175" y="355" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.7">→ 점수 낮게 산출, 행동 일지 필수</text>
+
+  <!-- Row 2 -->
+  <rect x="60" y="420" width="960" height="130" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <circle cx="120" cy="485" r="30" fill="#F59E0B"/>
+  <text x="120" y="495" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#0B1F3B" text-anchor="middle">2</text>
+  <text x="175" y="465" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">의사소견서 발급 순서 착오</text>
+  <text x="175" y="505" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.7">→ 신청 먼저 → 공단 안내서 → 병원 발급</text>
+
+  <!-- Row 3 -->
+  <rect x="60" y="570" width="960" height="130" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <circle cx="120" cy="635" r="30" fill="#F59E0B"/>
+  <text x="120" y="645" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#0B1F3B" text-anchor="middle">3</text>
+  <text x="175" y="615" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">보호자 미동석 — 경증 판정 위험</text>
+  <text x="175" y="655" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.7">→ 평소 행동 변화 구체적 전달 필수</text>
+
+  <!-- Row 4 -->
+  <rect x="60" y="720" width="960" height="130" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <circle cx="120" cy="785" r="30" fill="#F59E0B"/>
+  <text x="120" y="795" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#0B1F3B" text-anchor="middle">4</text>
+  <text x="175" y="765" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">노인성 질병 미해당 (65세 미만)</text>
+  <text x="175" y="805" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.7">→ 치매·뇌혈관·파킨슨 등만 신청 자격</text>
+
+  <!-- Row 5 -->
+  <rect x="60" y="870" width="960" height="130" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <circle cx="120" cy="935" r="30" fill="#F59E0B"/>
+  <text x="120" y="945" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#0B1F3B" text-anchor="middle">5</text>
+  <text x="175" y="915" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">유효기간 만료 전 갱신 미신청</text>
+  <text x="175" y="955" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.7">→ 등급 자동 소멸, 급여 즉시 중단</text>
+</svg>

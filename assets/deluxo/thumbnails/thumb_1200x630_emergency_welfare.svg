@@ -1,0 +1,20 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="80" y="100" width="180" height="50" rx="25" fill="#F59E0B"/>
+  <text x="170" y="133" font-size="28" fill="#0B1F3B" font-weight="700" font-family="Pretendard, 'Noto Sans KR', sans-serif" text-anchor="middle">2026 최신</text>
+  <text x="80" y="250" font-size="78" fill="#FFFFFF" font-weight="800" font-family="Pretendard, 'Noto Sans KR', sans-serif" letter-spacing="-1.5">긴급복지 지원금</text>
+  <text x="80" y="340" font-size="46" fill="#EAF2FF" font-weight="600" font-family="Pretendard, 'Noto Sans KR', sans-serif" letter-spacing="-0.5">생계비 최대 월 187만원</text>
+  <text x="80" y="410" font-size="46" fill="#EAF2FF" font-weight="600" font-family="Pretendard, 'Noto Sans KR', sans-serif" letter-spacing="-0.5">선 지원, 후 조사</text>
+  <rect x="80" y="480" width="140" height="48" rx="24" fill="#E8F0FF"/>
+  <text x="150" y="512" font-size="28" fill="#1D4ED8" font-weight="600" font-family="Pretendard, 'Noto Sans KR', sans-serif" text-anchor="middle">신청조건</text>
+  <rect x="240" y="480" width="120" height="48" rx="24" fill="#E8F0FF"/>
+  <text x="300" y="512" font-size="28" fill="#1D4ED8" font-weight="600" font-family="Pretendard, 'Noto Sans KR', sans-serif" text-anchor="middle">금액</text>
+  <rect x="380" y="480" width="120" height="48" rx="24" fill="#E8F0FF"/>
+  <text x="420" y="512" font-size="28" fill="#1D4ED8" font-weight="600" font-family="Pretendard, 'Noto Sans KR', sans-serif" text-anchor="middle">서류</text>
+</svg>

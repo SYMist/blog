@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <rect x="60" y="60" width="300" height="60" rx="30" fill="#F59E0B"/>
+  <text x="210" y="101" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#0B1F3B" text-anchor="middle">2026 지역별 지원금</text>
+
+  <text x="540" y="200" font-family="'Pretendard', sans-serif" font-size="60" font-weight="900" fill="#FFFFFF" text-anchor="middle">강원·제주·울산</text>
+  <text x="540" y="280" font-family="'Pretendard', sans-serif" font-size="42" font-weight="700" fill="#F59E0B" text-anchor="middle">핵심 한눈에 요약</text>
+
+  <rect x="60" y="340" width="960" height="120" rx="20" fill="#1A3270"/>
+  <text x="540" y="385" font-family="'Pretendard', sans-serif" font-size="32" font-weight="800" fill="#F59E0B" text-anchor="middle">강원 — 다자녀 연계 이차보전</text>
+  <text x="540" y="430" font-family="'Pretendard', sans-serif" font-size="28" font-weight="600" fill="#EAF2FF" text-anchor="middle">5,000만 · 최대 연 3.5%p 이차보전</text>
+
+  <rect x="60" y="490" width="960" height="120" rx="20" fill="#1A3270"/>
+  <text x="540" y="535" font-family="'Pretendard', sans-serif" font-size="32" font-weight="800" fill="#F59E0B" text-anchor="middle">제주 — 관광진흥기금 파격 금리</text>
+  <text x="540" y="580" font-family="'Pretendard', sans-serif" font-size="28" font-weight="600" fill="#EAF2FF" text-anchor="middle">개인 5억 · 실질 연 1.21% (2.21% - 1.0%)</text>
+
+  <rect x="60" y="640" width="960" height="120" rx="20" fill="#1A3270"/>
+  <text x="540" y="685" font-family="'Pretendard', sans-serif" font-size="32" font-weight="800" fill="#F59E0B" text-anchor="middle">울산 — 한도 최대 + 재기 지원</text>
+  <text x="540" y="730" font-family="'Pretendard', sans-serif" font-size="28" font-weight="600" fill="#EAF2FF" text-anchor="middle">업체당 8,000만 · 긴급 재기자금 50억</text>
+
+  <rect x="60" y="790" width="960" height="120" rx="20" fill="#1A3270"/>
+  <text x="540" y="835" font-family="'Pretendard', sans-serif" font-size="32" font-weight="800" fill="#F59E0B" text-anchor="middle">전국 공통 — 경영안정 바우처</text>
+  <text x="540" y="880" font-family="'Pretendard', sans-serif" font-size="28" font-weight="600" fill="#EAF2FF" text-anchor="middle">25만 원 · 연 매출 1.04억 미만 · 2.9~</text>
+
+  <rect x="60" y="940" width="960" height="100" rx="20" fill="#F59E0B"/>
+  <text x="540" y="1005" font-family="'Pretendard', sans-serif" font-size="34" font-weight="900" fill="#0B1F3B" text-anchor="middle">2026 소상공인 예산 5.4조 역대 최대</text>
+</svg>

@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="8" fill="#F59E0B"/>
+
+  <!-- Title -->
+  <text x="540" y="72" font-family="-apple-system, sans-serif" font-size="36" font-weight="900" fill="#F59E0B" text-anchor="middle">임대사업자 등록 세제혜택 비교</text>
+  <text x="540" y="112" font-family="-apple-system, sans-serif" font-size="24" font-weight="700" fill="#A0B4D0" text-anchor="middle">미등록 vs 6년 등록 vs 10년 등록 (2026년 기준)</text>
+
+  <!-- Table Header -->
+  <rect x="60" y="138" width="960" height="52" rx="8" fill="#1A3270"/>
+  <text x="180" y="170" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#F59E0B" text-anchor="middle">항목</text>
+  <text x="440" y="170" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#F59E0B" text-anchor="middle">미등록</text>
+  <text x="660" y="170" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#F59E0B" text-anchor="middle">6년 등록</text>
+  <text x="900" y="170" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#F59E0B" text-anchor="middle">10년 등록</text>
+
+  <!-- Row 1: 소득세 감면 -->
+  <rect x="60" y="196" width="960" height="66" rx="0" fill="#102A56"/>
+  <line x1="60" y1="262" x2="1020" y2="262" stroke="#1A3270" stroke-width="1"/>
+  <text x="180" y="235" font-family="-apple-system, sans-serif" font-size="19" font-weight="700" fill="#EAF2FF" text-anchor="middle">소득세 감면율</text>
+  <text x="440" y="235" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#9CA3AF" text-anchor="middle">0%</text>
+  <text x="660" y="235" font-family="-apple-system, sans-serif" font-size="26" font-weight="900" fill="#34D399" text-anchor="middle">30%</text>
+  <text x="900" y="235" font-family="-apple-system, sans-serif" font-size="26" font-weight="900" fill="#F59E0B" text-anchor="middle">75%</text>
+
+  <!-- Row 2: 필요경비율 -->
+  <rect x="60" y="262" width="960" height="66" fill="#0D2347"/>
+  <line x1="60" y1="328" x2="1020" y2="328" stroke="#1A3270" stroke-width="1"/>
+  <text x="180" y="301" font-family="-apple-system, sans-serif" font-size="19" font-weight="700" fill="#EAF2FF" text-anchor="middle">필요경비율</text>
+  <text x="440" y="301" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#9CA3AF" text-anchor="middle">50%</text>
+  <text x="660" y="301" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="middle">60%</text>
+  <text x="900" y="301" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="middle">60%</text>
+
+  <!-- Row 3: 기본공제 -->
+  <rect x="60" y="328" width="960" height="66" fill="#102A56"/>
+  <line x1="60" y1="394" x2="1020" y2="394" stroke="#1A3270" stroke-width="1"/>
+  <text x="180" y="367" font-family="-apple-system, sans-serif" font-size="19" font-weight="700" fill="#EAF2FF" text-anchor="middle">기본공제(분리과세)</text>
+  <text x="440" y="367" font-family="-apple-system, sans-serif" font-size="20" font-weight="900" fill="#9CA3AF" text-anchor="middle">200만원</text>
+  <text x="660" y="367" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="middle">400만원</text>
+  <text x="900" y="367" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="middle">400만원</text>
+
+  <!-- Row 4: 취득세 감면 -->
+  <rect x="60" y="394" width="960" height="66" fill="#0D2347"/>
+  <line x1="60" y1="460" x2="1020" y2="460" stroke="#1A3270" stroke-width="1"/>
+  <text x="180" y="433" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#EAF2FF" text-anchor="middle">취득세 감면(60㎡↓)</text>
+  <text x="440" y="433" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#9CA3AF" text-anchor="middle">0%</text>
+  <text x="660" y="433" font-family="-apple-system, sans-serif" font-size="26" font-weight="900" fill="#34D399" text-anchor="middle">85%</text>
+  <text x="900" y="433" font-family="-apple-system, sans-serif" font-size="26" font-weight="900" fill="#34D399" text-anchor="middle">85%</text>
+
+  <!-- Row 5: 종부세 합산배제 -->
+  <rect x="60" y="460" width="960" height="66" fill="#102A56"/>
+  <line x1="60" y1="526" x2="1020" y2="526" stroke="#1A3270" stroke-width="1"/>
+  <text x="180" y="499" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#EAF2FF" text-anchor="middle">종부세 합산배제</text>
+  <text x="440" y="499" font-family="-apple-system, sans-serif" font-size="26" font-weight="900" fill="#EF4444" text-anchor="middle">✕</text>
+  <text x="660" y="499" font-family="-apple-system, sans-serif" font-size="26" font-weight="900" fill="#34D399" text-anchor="middle">✓</text>
+  <text x="900" y="499" font-family="-apple-system, sans-serif" font-size="26" font-weight="900" fill="#34D399" text-anchor="middle">✓</text>
+
+  <!-- Row 6: 의무기간 -->
+  <rect x="60" y="526" width="960" height="66" fill="#0D2347"/>
+  <text x="180" y="565" font-family="-apple-system, sans-serif" font-size="19" font-weight="700" fill="#EAF2FF" text-anchor="middle">의무임대기간</text>
+  <text x="440" y="565" font-family="-apple-system, sans-serif" font-size="20" font-weight="900" fill="#9CA3AF" text-anchor="middle">없음</text>
+  <text x="660" y="565" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="middle">6년</text>
+  <text x="900" y="565" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="middle">10년</text>
+
+  <!-- Bottom border of table -->
+  <rect x="60" y="592" width="960" height="2" fill="#1A3270"/>
+
+  <!-- Vertical dividers -->
+  <line x1="310" y1="138" x2="310" y2="592" stroke="#1A3270" stroke-width="2"/>
+  <line x1="560" y1="138" x2="560" y2="592" stroke="#1A3270" stroke-width="2"/>
+  <line x1="790" y1="138" x2="790" y2="592" stroke="#1A3270" stroke-width="2"/>
+
+  <!-- Key stat section -->
+  <rect x="60" y="622" width="290" height="130" rx="16" fill="#1A3270"/>
+  <text x="205" y="666" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#F59E0B" text-anchor="middle">10년 등록 시 절세</text>
+  <text x="205" y="714" font-family="-apple-system, sans-serif" font-size="36" font-weight="900" fill="#FFFFFF" text-anchor="middle">연 98만원</text>
+  <text x="205" y="742" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">임대수입 2,000만원 기준</text>
+
+  <rect x="395" y="622" width="290" height="130" rx="16" fill="#1A3270"/>
+  <text x="540" y="666" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#F59E0B" text-anchor="middle">합산배제 조건</text>
+  <text x="540" y="706" font-family="-apple-system, sans-serif" font-size="20" font-weight="900" fill="#FFFFFF" text-anchor="middle">수도권 6억↓</text>
+  <text x="540" y="732" font-family="-apple-system, sans-serif" font-size="20" font-weight="900" fill="#FFFFFF" text-anchor="middle">비수도권 3억↓</text>
+  <text x="540" y="748" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">공시가격 기준</text>
+
+  <rect x="730" y="622" width="290" height="130" rx="16" fill="#1A3270"/>
+  <text x="875" y="666" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#F59E0B" text-anchor="middle">임대료 인상 상한</text>
+  <text x="875" y="714" font-family="-apple-system, sans-serif" font-size="36" font-weight="900" fill="#FFFFFF" text-anchor="middle">5%</text>
+  <text x="875" y="742" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">2년마다</text>
+
+  <!-- Notice -->
+  <rect x="60" y="782" width="960" height="78" rx="12" fill="#102A56"/>
+  <text x="540" y="816" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#F59E0B" text-anchor="middle">합산배제는 자동 적용 아님 — 매년 9월 홈택스에서 별도 신고 필수</text>
+  <text x="540" y="848" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">렌트홈 ☎ 1670-8004 | 국세청 ☎ 1330 | renthome.go.kr | hometax.go.kr</text>
+
+  <!-- Footer -->
+  <text x="540" y="960" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준 | 개인 상황에 따라 달라질 수 있으니 세무 전문가 확인 권장</text>
+  <rect x="0" y="1072" width="1080" height="8" fill="#F59E0B"/>
+</svg>

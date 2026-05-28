@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#F59E0B">나는 어디? 빠른 판단 가이드</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- 상황 1 -->
+  <rect x="60" y="120" width="960" height="112" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="134" width="34" height="34" rx="17" fill="#F59E0B"/>
+  <text x="97" y="158" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="800" fill="#0B1F3B">1</text>
+  <text x="130" y="158" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">개인회생 인가 직후 (점수 300점대)</text>
+  <text x="130" y="190" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">→ 마이데이터 연결 + 변제금 자동이체 + 통신비 납부 이력 등록</text>
+  <text x="130" y="216" font-family="'Pretendard',sans-serif" font-size="16" fill="#F59E0B">지금 당장 할 일: 크레디트포유에서 점수 확인 → 마이데이터 앱 연결</text>
+
+  <!-- 상황 2 -->
+  <rect x="60" y="244" width="960" height="112" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="258" width="34" height="34" rx="17" fill="#F59E0B"/>
+  <text x="97" y="282" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="800" fill="#0B1F3B">2</text>
+  <text x="130" y="282" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">1년 상환 완료, 공공기록 삭제 대기 중</text>
+  <text x="130" y="314" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">→ NICE·KCB에 삭제 여부 조회 → 삭제 확인 후 햇살론 카드 신청</text>
+  <text x="130" y="340" font-family="'Pretendard',sans-serif" font-size="16" fill="#F59E0B">예상 점수: 500~600점 급상승 → 700후반 가능</text>
+
+  <!-- 상황 3 -->
+  <rect x="60" y="368" width="960" height="112" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="382" width="34" height="34" rx="17" fill="#F59E0B"/>
+  <text x="97" y="406" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="800" fill="#0B1F3B">3</text>
+  <text x="130" y="406" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">햇살론 카드 사용 중 (700점대)</text>
+  <text x="130" y="438" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">→ 일시불 위주 + 한도 30% 이내 → 하이브리드 체크카드 병행</text>
+  <text x="130" y="464" font-family="'Pretendard',sans-serif" font-size="16" fill="#F59E0B">6개월 이상 사용 이력 쌓기 → NICE 사용 기간 점수↑</text>
+
+  <!-- 상황 4 -->
+  <rect x="60" y="492" width="960" height="112" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="506" width="34" height="34" rx="17" fill="#F59E0B"/>
+  <text x="97" y="530" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="800" fill="#0B1F3B">4</text>
+  <text x="130" y="530" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">790점 이상 도달 → 일반 신용카드 전환</text>
+  <text x="130" y="562" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">→ 주거래 은행에서 신용카드 신청 → 가족카드로 추가 이력 확보</text>
+  <text x="130" y="588" font-family="'Pretendard',sans-serif" font-size="16" fill="#F59E0B">한도 낮게 시작 → 6개월마다 한도 상향 요청</text>
+
+  <!-- 상황 5 -->
+  <rect x="60" y="616" width="960" height="112" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="630" width="34" height="34" rx="17" fill="#F59E0B"/>
+  <text x="97" y="654" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="800" fill="#0B1F3B">5</text>
+  <text x="130" y="654" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">고금리 대출 보유 → 대환 대출 검토</text>
+  <text x="130" y="686" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">→ 햇살론 대환 연 4.5% / 미소금융 725점 이상 / 중금리 889점+</text>
+  <text x="130" y="712" font-family="'Pretendard',sans-serif" font-size="16" fill="#F59E0B">서민금융진흥원 1397 상담 → 금리 비교 후 전환</text>
+
+  <!-- 상황 6 -->
+  <rect x="60" y="740" width="960" height="112" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="754" width="34" height="34" rx="17" fill="#F59E0B"/>
+  <text x="97" y="778" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="800" fill="#0B1F3B">6</text>
+  <text x="130" y="778" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">면책 완료 → 정상 금융 생활 복귀</text>
+  <text x="130" y="810" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">→ 1금융권 대출 가능 / 주거래 은행 집중 거래 → 우대 금리 적용</text>
+  <text x="130" y="836" font-family="'Pretendard',sans-serif" font-size="16" fill="#F59E0B">연 2회 신용점수 모니터링 → 이상 징후 즉시 대응</text>
+
+  <!-- 상황 7 -->
+  <rect x="60" y="864" width="960" height="112" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="878" width="34" height="34" rx="17" fill="#F59E0B"/>
+  <text x="97" y="902" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="800" fill="#0B1F3B">7</text>
+  <text x="130" y="902" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">NICE와 KCB 점수 차이가 50점 이상</text>
+  <text x="130" y="934" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">→ NICE: 카드 장기 사용 / KCB: 부채 비율 관리 → 일시불+한도 30% 이내</text>
+  <text x="130" y="960" font-family="'Pretendard',sans-serif" font-size="16" fill="#F59E0B">두 곳 동시 조회 → 낮은 쪽 집중 개선</text>
+
+  <rect x="60" y="1050" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

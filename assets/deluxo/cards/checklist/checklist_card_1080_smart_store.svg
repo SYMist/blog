@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="80" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="800" fill="#F59E0B">스마트상점 신청 전 체크리스트</text>
+  <rect x="60" y="110" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <rect x="60" y="140" width="960" height="100" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="191" font-family="'Pretendard',sans-serif" font-size="34" fill="#22C55E">☑</text>
+  <text x="150" y="185" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">소상공인확인서 발급 완료</text>
+  <text x="150" y="220" font-family="'Pretendard',sans-serif" font-size="19" fill="#EAF2FF">소상공인시장진흥공단에서 발급</text>
+
+  <rect x="60" y="250" width="960" height="100" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="301" font-family="'Pretendard',sans-serif" font-size="34" fill="#22C55E">☑</text>
+  <text x="150" y="295" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">국세·지방세 완납 확인</text>
+  <text x="150" y="330" font-family="'Pretendard',sans-serif" font-size="19" fill="#EAF2FF">국세완납증명서 + 지방세완납증명서 발급</text>
+
+  <rect x="60" y="360" width="960" height="100" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="411" font-family="'Pretendard',sans-serif" font-size="34" fill="#22C55E">☑</text>
+  <text x="150" y="405" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">내 매장에 필요한 기술 유형 결정</text>
+  <text x="150" y="440" font-family="'Pretendard',sans-serif" font-size="19" fill="#EAF2FF">구입형 / 렌탈형 / S/W 도입형 중 선택</text>
+
+  <rect x="60" y="470" width="960" height="100" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="521" font-family="'Pretendard',sans-serif" font-size="34" fill="#22C55E">☑</text>
+  <text x="150" y="515" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">우대 대상 해당 여부 확인</text>
+  <text x="150" y="550" font-family="'Pretendard',sans-serif" font-size="19" fill="#EAF2FF">장애인사업주 · 간이과세자 · 1인 소상공인</text>
+
+  <rect x="60" y="580" width="960" height="100" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="631" font-family="'Pretendard',sans-serif" font-size="34" fill="#22C55E">☑</text>
+  <text x="150" y="625" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">자부담 금액 준비 가능 여부 확인</text>
+  <text x="150" y="660" font-family="'Pretendard',sans-serif" font-size="19" fill="#EAF2FF">일반 30% · 우대 20% · S/W 자부담 없음</text>
+
+  <rect x="60" y="690" width="960" height="100" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="741" font-family="'Pretendard',sans-serif" font-size="34" fill="#22C55E">☑</text>
+  <text x="150" y="735" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">3월 중순 공고 알림 설정</text>
+  <text x="150" y="770" font-family="'Pretendard',sans-serif" font-size="19" fill="#EAF2FF">소상공인24에서 알림 설정 — 선착순 마감 주의</text>
+
+  <rect x="60" y="800" width="960" height="100" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="851" font-family="'Pretendard',sans-serif" font-size="34" fill="#22C55E">☑</text>
+  <text x="150" y="845" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">의무 사용 기간 충족 가능</text>
+  <text x="150" y="880" font-family="'Pretendard',sans-serif" font-size="19" fill="#EAF2FF">구입형 2년 · 렌탈형 1년 의무 사용</text>
+
+  <rect x="60" y="910" width="960" height="100" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="961" font-family="'Pretendard',sans-serif" font-size="34" fill="#22C55E">☑</text>
+  <text x="150" y="955" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">서류 유효기간 확인</text>
+  <text x="150" y="990" font-family="'Pretendard',sans-serif" font-size="19" fill="#EAF2FF">공고일 이후 1개월 이내 발급분만 유효</text>
+
+  <rect x="60" y="1020" width="960" height="50" rx="12" fill="rgba(59,130,246,0.15)"/>
+  <text x="100" y="1053" font-family="'Pretendard',sans-serif" font-size="28" fill="#3B82F6">🔗</text>
+  <text x="145" y="1053" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#3B82F6">소상공인24  sbiz24.kr  지금 확인!</text>
+
+  <rect x="60" y="1074" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

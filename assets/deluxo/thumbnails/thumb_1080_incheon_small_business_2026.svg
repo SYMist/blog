@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <!-- Chips -->
+  <g>
+    <rect x="80" y="90" width="240" height="56" rx="28" fill="#E8F0FF"/>
+    <text x="200" y="127" font-family="'Pretendard', sans-serif" font-size="26" font-weight="800" fill="#1D4ED8" text-anchor="middle">2026 최신</text>
+
+    <rect x="340" y="90" width="240" height="56" rx="28" fill="#E8F0FF"/>
+    <text x="460" y="127" font-family="'Pretendard', sans-serif" font-size="26" font-weight="800" fill="#1D4ED8" text-anchor="middle">최대 2억원</text>
+
+    <rect x="600" y="90" width="280" height="56" rx="28" fill="#E8F0FF"/>
+    <text x="740" y="127" font-family="'Pretendard', sans-serif" font-size="26" font-weight="800" fill="#1D4ED8" text-anchor="middle">경영안정자금</text>
+  </g>
+
+  <text x="540" y="270" font-family="'Pretendard', sans-serif" font-size="54" font-weight="900" fill="#F59E0B" text-anchor="middle">인천 소상공인 지원금</text>
+
+  <text x="540" y="370" font-family="'Pretendard', sans-serif" font-size="80" font-weight="900" fill="#FFFFFF" text-anchor="middle">단독 총정리</text>
+  <text x="540" y="470" font-family="'Pretendard', sans-serif" font-size="80" font-weight="900" fill="#FFFFFF" text-anchor="middle">2026</text>
+
+  <rect x="130" y="520" width="820" height="6" fill="#F59E0B"/>
+
+  <text x="540" y="610" font-family="'Pretendard', sans-serif" font-size="38" font-weight="800" fill="#EAF2FF" text-anchor="middle">경영안정자금·밸류업·e음 완벽 가이드</text>
+
+  <g>
+    <rect x="90" y="680" width="280" height="110" rx="20" fill="#1A3270"/>
+    <text x="230" y="730" font-family="'Pretendard', sans-serif" font-size="24" font-weight="800" fill="#F59E0B" text-anchor="middle">경영안정자금</text>
+    <text x="230" y="770" font-family="'Pretendard', sans-serif" font-size="30" font-weight="900" fill="#FFFFFF" text-anchor="middle">5,000만원</text>
+
+    <rect x="400" y="680" width="280" height="110" rx="20" fill="#1A3270"/>
+    <text x="540" y="730" font-family="'Pretendard', sans-serif" font-size="24" font-weight="800" fill="#F59E0B" text-anchor="middle">밸류업 보증</text>
+    <text x="540" y="770" font-family="'Pretendard', sans-serif" font-size="30" font-weight="900" fill="#FFFFFF" text-anchor="middle">최대 2억</text>
+
+    <rect x="710" y="680" width="280" height="110" rx="20" fill="#1A3270"/>
+    <text x="850" y="730" font-family="'Pretendard', sans-serif" font-size="24" font-weight="800" fill="#F59E0B" text-anchor="middle">e음 캐시백</text>
+    <text x="850" y="770" font-family="'Pretendard', sans-serif" font-size="30" font-weight="900" fill="#FFFFFF" text-anchor="middle">월 7.5만</text>
+  </g>
+
+  <rect x="60" y="830" width="960" height="190" rx="24" fill="#F59E0B"/>
+  <text x="540" y="896" font-family="'Pretendard', sans-serif" font-size="36" font-weight="900" fill="#0B1F3B" text-anchor="middle">총 예산 2,196억원 · 4.5만 업체 지원</text>
+  <text x="540" y="978" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#0B1F3B" text-anchor="middle">보증드림 앱 비대면 신청 · 인천신보 1577-3790</text>
+</svg>

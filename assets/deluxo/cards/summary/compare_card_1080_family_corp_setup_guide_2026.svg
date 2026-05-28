@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="8" fill="#34D399"/>
+
+  <!-- Title -->
+  <text x="540" y="66" font-family="-apple-system, sans-serif" font-size="30" font-weight="900" fill="#FFFFFF" text-anchor="middle">법인세율 구간 + 설립 절차 6단계</text>
+  <text x="540" y="100" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0" text-anchor="middle">2026년 1월 1일 이후 개시 사업연도 기준 (국세청 고시)</text>
+  <line x1="60" y1="122" x2="1020" y2="122" stroke="#1A3270" stroke-width="2"/>
+
+  <!-- 법인세율 표 -->
+  <text x="60" y="158" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#F59E0B">법인세율 (영리법인 기준)</text>
+
+  <rect x="60" y="170" width="960" height="46" rx="8" fill="#1A3270"/>
+  <text x="300" y="200" font-family="-apple-system, sans-serif" font-size="14" font-weight="700" fill="#34D399" text-anchor="middle">과세표준</text>
+  <text x="650" y="200" font-family="-apple-system, sans-serif" font-size="14" font-weight="700" fill="#34D399" text-anchor="middle">세율</text>
+  <text x="900" y="200" font-family="-apple-system, sans-serif" font-size="14" font-weight="700" fill="#34D399" text-anchor="middle">누진공제</text>
+
+  <rect x="60" y="216" width="960" height="56" rx="0" fill="#0D2347"/>
+  <rect x="60" y="216" width="6" height="56" fill="#34D399"/>
+  <text x="300" y="250" font-family="-apple-system, sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle">2억원 이하</text>
+  <text x="650" y="246" font-family="-apple-system, sans-serif" font-size="28" font-weight="900" fill="#34D399" text-anchor="middle">10%</text>
+  <text x="900" y="250" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">—</text>
+
+  <rect x="60" y="272" width="960" height="56" rx="0" fill="#102A56"/>
+  <rect x="60" y="272" width="6" height="56" fill="#F59E0B"/>
+  <text x="300" y="306" font-family="-apple-system, sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle">2억 ~ 200억원</text>
+  <text x="650" y="302" font-family="-apple-system, sans-serif" font-size="28" font-weight="900" fill="#F59E0B" text-anchor="middle">20%</text>
+  <text x="900" y="306" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">2,000만원</text>
+
+  <rect x="60" y="328" width="960" height="56" rx="0" fill="#0D2347"/>
+  <rect x="60" y="328" width="6" height="56" fill="#EF4444"/>
+  <text x="300" y="362" font-family="-apple-system, sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle">200억 ~ 3,000억원</text>
+  <text x="650" y="358" font-family="-apple-system, sans-serif" font-size="28" font-weight="900" fill="#EF4444" text-anchor="middle">22%</text>
+  <text x="900" y="362" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">4억2,000만원</text>
+
+  <rect x="60" y="384" width="960" height="56" rx="0" fill="#102A56"/>
+  <rect x="60" y="384" width="6" height="56" fill="#EF4444"/>
+  <text x="300" y="418" font-family="-apple-system, sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle">3,000억원 초과</text>
+  <text x="650" y="414" font-family="-apple-system, sans-serif" font-size="28" font-weight="900" fill="#EF4444" text-anchor="middle">25%</text>
+  <text x="900" y="418" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">9억4,200만원</text>
+
+  <rect x="60" y="440" width="960" height="46" rx="8" fill="#1A3270"/>
+  <text x="540" y="470" font-family="-apple-system, sans-serif" font-size="14" fill="#34D399" text-anchor="middle">vs 개인사업자 소득세 최고 45% → 가족법인이라면 최저 10%부터 시작</text>
+
+  <!-- 설립 절차 6단계 -->
+  <line x1="60" y1="510" x2="1020" y2="510" stroke="#1A3270" stroke-width="2"/>
+  <text x="60" y="546" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#F59E0B">설립 절차 6단계</text>
+
+  <!-- Step boxes: 2 rows x 3 cols -->
+  <rect x="60" y="562" width="290" height="110" rx="12" fill="#0D2347"/>
+  <text x="205" y="598" font-family="-apple-system, sans-serif" font-size="28" font-weight="900" fill="#34D399" text-anchor="middle">1</text>
+  <text x="205" y="630" font-family="-apple-system, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">상호 사전 확인</text>
+  <text x="205" y="652" font-family="-apple-system, sans-serif" font-size="12" fill="#A0B4D0" text-anchor="middle">인터넷 등기소 검색</text>
+
+  <rect x="394" y="562" width="292" height="110" rx="12" fill="#0D2347"/>
+  <text x="540" y="598" font-family="-apple-system, sans-serif" font-size="28" font-weight="900" fill="#34D399" text-anchor="middle">2</text>
+  <text x="540" y="630" font-family="-apple-system, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">정관 작성</text>
+  <text x="540" y="652" font-family="-apple-system, sans-serif" font-size="12" fill="#F59E0B" text-anchor="middle">전문가 작성 권장</text>
+
+  <rect x="730" y="562" width="290" height="110" rx="12" fill="#0D2347"/>
+  <text x="875" y="598" font-family="-apple-system, sans-serif" font-size="28" font-weight="900" fill="#34D399" text-anchor="middle">3</text>
+  <text x="875" y="630" font-family="-apple-system, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">자본금 납입</text>
+  <text x="875" y="652" font-family="-apple-system, sans-serif" font-size="12" fill="#A0B4D0" text-anchor="middle">잔액증명서 발급</text>
+
+  <rect x="60" y="688" width="290" height="110" rx="12" fill="#1A3270"/>
+  <text x="205" y="724" font-family="-apple-system, sans-serif" font-size="28" font-weight="900" fill="#F59E0B" text-anchor="middle">4</text>
+  <text x="205" y="756" font-family="-apple-system, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">법인 설립 등기</text>
+  <text x="205" y="778" font-family="-apple-system, sans-serif" font-size="12" fill="#34D399" text-anchor="middle">3~5일 소요</text>
+
+  <rect x="394" y="688" width="292" height="110" rx="12" fill="#1A3270"/>
+  <text x="540" y="724" font-family="-apple-system, sans-serif" font-size="28" font-weight="900" fill="#F59E0B" text-anchor="middle">5</text>
+  <text x="540" y="756" font-family="-apple-system, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">사업자등록</text>
+  <text x="540" y="778" font-family="-apple-system, sans-serif" font-size="12" fill="#34D399" text-anchor="middle">홈택스 / 세무서 3~7일</text>
+
+  <rect x="730" y="688" width="290" height="110" rx="12" fill="#1A3270"/>
+  <text x="875" y="724" font-family="-apple-system, sans-serif" font-size="28" font-weight="900" fill="#F59E0B" text-anchor="middle">6</text>
+  <text x="875" y="756" font-family="-apple-system, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">통장 개설 + 보험</text>
+  <text x="875" y="778" font-family="-apple-system, sans-serif" font-size="12" fill="#34D399" text-anchor="middle">4대보험 성립 신고</text>
+
+  <!-- Total time -->
+  <rect x="60" y="824" width="960" height="66" rx="12" fill="#0D2347"/>
+  <rect x="60" y="824" width="960" height="66" rx="12" fill="none" stroke="#34D399" stroke-width="2"/>
+  <text x="540" y="854" font-family="-apple-system, sans-serif" font-size="16" font-weight="800" fill="#34D399" text-anchor="middle">합계 소요 기간: 약 2~4주 (서류 완비 기준)</text>
+  <text x="540" y="878" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">정관 전문가 의뢰 + 등기 3~5일 + 사업자등록 3~7일 + 통장 개설 1~3일</text>
+
+  <!-- Footer -->
+  <text x="540" y="974" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준 | 국세청 법인세율 고시 기준 | 인터넷 등기소 iros.go.kr</text>
+  <rect x="0" y="1072" width="1080" height="8" fill="#34D399"/>
+</svg>

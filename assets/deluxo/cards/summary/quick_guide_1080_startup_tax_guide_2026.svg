@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="8" fill="#F59E0B"/>
+
+  <!-- Title -->
+  <text x="540" y="72" font-family="-apple-system, sans-serif" font-size="36" font-weight="900" fill="#F59E0B" text-anchor="middle">과세 유형 10초 판단 — 나는 어디?</text>
+  <text x="540" y="110" font-family="-apple-system, sans-serif" font-size="21" font-weight="700" fill="#A0B4D0" text-anchor="middle">일반과세 vs 간이과세 vs 면세 — 창업자 필독</text>
+
+  <!-- Column Headers -->
+  <rect x="40" y="138" width="310" height="56" rx="12" fill="#1A3270"/>
+  <text x="195" y="174" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="middle">일반과세자</text>
+
+  <!-- VS circles -->
+  <circle cx="395" cy="166" r="28" fill="#F59E0B"/>
+  <text x="395" y="173" font-family="-apple-system, sans-serif" font-size="16" font-weight="900" fill="#0B1F3B" text-anchor="middle">VS</text>
+
+  <rect x="430" y="138" width="310" height="56" rx="12" fill="#0D2347"/>
+  <text x="585" y="174" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="middle">간이과세자</text>
+
+  <!-- VS circles -->
+  <circle cx="785" cy="166" r="28" fill="#34D399"/>
+  <text x="785" y="173" font-family="-apple-system, sans-serif" font-size="16" font-weight="900" fill="#0B1F3B" text-anchor="middle">VS</text>
+
+  <rect x="820" y="138" width="220" height="56" rx="12" fill="#1A3270"/>
+  <text x="930" y="174" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#A0B4D0" text-anchor="middle">면세</text>
+
+  <!-- Row: 매출 기준 -->
+  <rect x="0" y="210" width="1080" height="36" fill="#1A3270" opacity="0.5"/>
+  <text x="540" y="234" font-family="-apple-system, sans-serif" font-size="16" font-weight="800" fill="#F59E0B" text-anchor="middle">매출 기준</text>
+
+  <text x="195" y="288" font-family="-apple-system, sans-serif" font-size="24" font-weight="900" fill="#FFFFFF" text-anchor="middle">연 1억 400만원↑</text>
+  <text x="585" y="288" font-family="-apple-system, sans-serif" font-size="24" font-weight="900" fill="#FFFFFF" text-anchor="middle">연 1억 400만원↓</text>
+  <text x="930" y="288" font-family="-apple-system, sans-serif" font-size="19" font-weight="700" fill="#A0B4D0" text-anchor="middle">업종 해당 시</text>
+
+  <!-- Row: 부가세율 -->
+  <rect x="0" y="310" width="1080" height="36" fill="#1A3270" opacity="0.5"/>
+  <text x="540" y="334" font-family="-apple-system, sans-serif" font-size="16" font-weight="800" fill="#F59E0B" text-anchor="middle">부가세율</text>
+
+  <text x="195" y="388" font-family="-apple-system, sans-serif" font-size="36" font-weight="900" fill="#FFFFFF" text-anchor="middle">10%</text>
+  <text x="195" y="416" font-family="-apple-system, sans-serif" font-size="15" fill="#34D399" text-anchor="middle">매입세액 전액 공제</text>
+  <text x="585" y="388" font-family="-apple-system, sans-serif" font-size="36" font-weight="900" fill="#FFFFFF" text-anchor="middle">1.5~4%</text>
+  <text x="585" y="416" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">매입액 × 0.5%만 공제</text>
+  <text x="930" y="392" font-family="-apple-system, sans-serif" font-size="28" font-weight="900" fill="#A0B4D0" text-anchor="middle">없음</text>
+
+  <!-- Row: 세금계산서 -->
+  <rect x="0" y="436" width="1080" height="36" fill="#1A3270" opacity="0.5"/>
+  <text x="540" y="460" font-family="-apple-system, sans-serif" font-size="16" font-weight="800" fill="#F59E0B" text-anchor="middle">세금계산서</text>
+
+  <text x="195" y="512" font-family="-apple-system, sans-serif" font-size="20" font-weight="700" fill="#34D399" text-anchor="middle">발급 의무</text>
+  <text x="585" y="504" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#EAF2FF" text-anchor="middle">4,800만원↑만 가능</text>
+  <text x="585" y="528" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">미만은 발급 불가</text>
+  <text x="930" y="512" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#A0B4D0" text-anchor="middle">계산서 발급</text>
+
+  <!-- Row: 신고 횟수 -->
+  <rect x="0" y="554" width="1080" height="36" fill="#1A3270" opacity="0.5"/>
+  <text x="540" y="578" font-family="-apple-system, sans-serif" font-size="16" font-weight="800" fill="#F59E0B" text-anchor="middle">신고 횟수</text>
+
+  <text x="195" y="632" font-family="-apple-system, sans-serif" font-size="28" font-weight="900" fill="#FFFFFF" text-anchor="middle">연 2회</text>
+  <text x="195" y="658" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">1월·7월</text>
+  <text x="585" y="632" font-family="-apple-system, sans-serif" font-size="28" font-weight="900" fill="#FFFFFF" text-anchor="middle">연 1회</text>
+  <text x="585" y="658" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">1월</text>
+  <text x="930" y="640" font-family="-apple-system, sans-serif" font-size="20" font-weight="700" fill="#A0B4D0" text-anchor="middle">현황신고 1회</text>
+
+  <!-- Row: 추천 상황 -->
+  <rect x="0" y="682" width="1080" height="36" fill="#1A3270" opacity="0.5"/>
+  <text x="540" y="706" font-family="-apple-system, sans-serif" font-size="16" font-weight="800" fill="#F59E0B" text-anchor="middle">추천 상황</text>
+
+  <text x="195" y="754" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#EAF2FF" text-anchor="middle">B2B 거래 많거나</text>
+  <text x="195" y="778" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#EAF2FF" text-anchor="middle">초기 설비투자 多</text>
+  <text x="585" y="754" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#EAF2FF" text-anchor="middle">소규모 B2C</text>
+  <text x="585" y="778" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#EAF2FF" text-anchor="middle">창업 초기 유리</text>
+  <text x="930" y="762" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#A0B4D0" text-anchor="middle">의료·교육·농수산</text>
+
+  <!-- Footer note -->
+  <rect x="40" y="834" width="1000" height="70" rx="12" fill="#1A3270"/>
+  <text x="540" y="865" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#F59E0B" text-anchor="middle">간이→일반 전환은 가능하지만 시기 제한 있음</text>
+  <text x="540" y="892" font-family="-apple-system, sans-serif" font-size="16" fill="#EAF2FF" text-anchor="middle">창업 시 업종·매출·거래 구조를 먼저 파악하고 과세 유형을 선택하세요</text>
+
+  <text x="540" y="970" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준 | hometax.go.kr | 국세청 ☎ 126</text>
+  <rect x="0" y="1072" width="1080" height="8" fill="#F59E0B"/>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- 타이틀 -->
+  <rect x="60" y="54" width="960" height="110" rx="16" fill="#1A0A0A" stroke="#EF4444" stroke-width="2"/>
+  <text x="540" y="100" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="34" font-weight="800" fill="#EF4444" text-anchor="middle">임차인 권리 침해</text>
+  <text x="540" y="146" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="34" font-weight="800" fill="#FFFFFF" text-anchor="middle">자주 발생하는 TOP 5 사례</text>
+
+  <!-- 사례 1 -->
+  <rect x="60" y="192" width="960" height="118" rx="14" fill="#0D2347"/>
+  <rect x="60" y="192" width="8" height="118" rx="4" fill="#EF4444"/>
+  <text x="120" y="238" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="52" font-weight="900" fill="#EF4444">01</text>
+  <text x="230" y="238" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF">환산보증금 계산 착오 → 5% 보호 포기</text>
+  <text x="230" y="290" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="23" fill="#A0B4D0">기준 초과라고 잘못 계산해 5% 초과 인상을 수용하는 사례</text>
+
+  <!-- 사례 2 -->
+  <rect x="60" y="326" width="960" height="118" rx="14" fill="#102A56"/>
+  <rect x="60" y="326" width="8" height="118" rx="4" fill="#EF4444"/>
+  <text x="120" y="372" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="52" font-weight="900" fill="#EF4444">02</text>
+  <text x="230" y="372" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF">갱신 요구 기한(만료 1개월 전) 1일 초과</text>
+  <text x="230" y="424" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="23" fill="#A0B4D0">하루 차이로 갱신청구권 소멸 — 달력에 미리 표시 필수</text>
+
+  <!-- 사례 3 -->
+  <rect x="60" y="460" width="960" height="118" rx="14" fill="#0D2347"/>
+  <rect x="60" y="460" width="8" height="118" rx="4" fill="#F59E0B"/>
+  <text x="120" y="506" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="52" font-weight="900" fill="#F59E0B">03</text>
+  <text x="230" y="506" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF">권리금 계약을 구두로만 진행</text>
+  <text x="230" y="558" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="23" fill="#A0B4D0">서면 계약 없어 손해배상 청구 근거 확보 실패 → 분쟁 취약</text>
+
+  <!-- 사례 4 -->
+  <rect x="60" y="594" width="960" height="118" rx="14" fill="#102A56"/>
+  <rect x="60" y="594" width="8" height="118" rx="4" fill="#F59E0B"/>
+  <text x="120" y="640" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="52" font-weight="900" fill="#F59E0B">04</text>
+  <text x="230" y="640" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF">묵시적 갱신 후 즉시 이사 가능 오해</text>
+  <text x="230" y="692" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="23" fill="#A0B4D0">3개월 구속 기간 모르고 임대료 이중 부담 발생</text>
+
+  <!-- 사례 5 -->
+  <rect x="60" y="728" width="960" height="118" rx="14" fill="#0D2347"/>
+  <rect x="60" y="728" width="8" height="118" rx="4" fill="#A0B4D0"/>
+  <text x="120" y="774" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="52" font-weight="900" fill="#A0B4D0">05</text>
+  <text x="230" y="774" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF">임대인 권리금 방해 행위 증거 없이 포기</text>
+  <text x="230" y="826" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="23" fill="#A0B4D0">손해배상 청구 기회 상실 — 소멸시효 임대차 종료 후 3년</text>
+
+  <!-- 하단 강조 -->
+  <rect x="60" y="872" width="960" height="80" rx="16" fill="#1A3270"/>
+  <text x="540" y="920" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="800" fill="#34D399" text-anchor="middle">분쟁 초기에 대한법률구조공단(132) 무료 상담 받으면 대부분 방향 잡힘</text>
+
+  <text x="540" y="990" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#4A6080" text-anchor="middle">상가건물 임대차보호법 · 2026년 5월 기준 · deluxo</text>
+</svg>

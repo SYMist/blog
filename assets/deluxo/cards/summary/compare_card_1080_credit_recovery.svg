@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#F59E0B">NICE vs KCB 신용평가 비교</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- 헤더 -->
+  <rect x="60" y="120" width="960" height="60" rx="16" fill="rgba(245,158,11,0.15)"/>
+  <text x="260" y="158" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">비교 항목</text>
+  <text x="590" y="158" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">NICE</text>
+  <text x="850" y="158" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">KCB</text>
+
+  <!-- 행 1: 핵심 가중치 -->
+  <rect x="60" y="192" width="960" height="80" rx="0" fill="rgba(59,130,246,0.12)"/>
+  <text x="100" y="240" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">핵심 가중치</text>
+  <text x="590" y="232" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="19" fill="#EAF2FF">신용카드</text>
+  <text x="590" y="258" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#F59E0B">사용 기간</text>
+  <text x="850" y="232" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="19" fill="#EAF2FF">부채</text>
+  <text x="850" y="258" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#F59E0B">규모·비율</text>
+
+  <!-- 행 2: 유리한 행동 -->
+  <rect x="60" y="282" width="960" height="80" rx="0" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="330" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">유리한 행동</text>
+  <text x="590" y="324" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">카드 해지 않고</text>
+  <text x="590" y="350" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">오래 유지</text>
+  <text x="850" y="324" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">할부 줄이기</text>
+  <text x="850" y="350" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">한도 30% 이내</text>
+
+  <!-- 행 3: 불리한 행동 -->
+  <rect x="60" y="372" width="960" height="80" rx="0" fill="rgba(59,130,246,0.12)"/>
+  <text x="100" y="420" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">불리한 행동</text>
+  <text x="590" y="414" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">카드 자주 해지·</text>
+  <text x="590" y="440" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">단기 발급 반복</text>
+  <text x="850" y="414" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">한도 초과 사용</text>
+  <text x="850" y="440" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">할부 과다</text>
+
+  <!-- 행 4: 마이데이터 반영 -->
+  <rect x="60" y="462" width="960" height="80" rx="0" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="510" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">마이데이터</text>
+  <text x="590" y="510" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">통신비·보험료 반영</text>
+  <text x="850" y="510" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">통신비·보험료 반영</text>
+
+  <!-- 행 5: 조회 방법 -->
+  <rect x="60" y="552" width="960" height="80" rx="0" fill="rgba(59,130,246,0.12)"/>
+  <text x="100" y="600" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">무료 조회</text>
+  <text x="590" y="600" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">크레디트포유</text>
+  <text x="850" y="600" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">올크레딧</text>
+
+  <!-- 공통 전략 -->
+  <rect x="60" y="660" width="960" height="340" rx="20" fill="rgba(245,158,11,0.08)"/>
+  <text x="540" y="700" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#F59E0B">두 곳 모두에 유리한 공통 전략</text>
+
+  <rect x="100" y="720" width="860" height="50" rx="12" fill="rgba(59,130,246,0.1)"/>
+  <text x="140" y="752" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">✓ 일시불 결제 위주 — 할부는 최소화</text>
+
+  <rect x="100" y="780" width="860" height="50" rx="12" fill="rgba(255,255,255,0.04)"/>
+  <text x="140" y="812" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">✓ 카드 한도 30% 이내 사용 — 이용률 관리</text>
+
+  <rect x="100" y="840" width="860" height="50" rx="12" fill="rgba(59,130,246,0.1)"/>
+  <text x="140" y="872" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">✓ 카드 해지 말고 장기 보유 — 사용 기간↑</text>
+
+  <rect x="100" y="900" width="860" height="50" rx="12" fill="rgba(255,255,255,0.04)"/>
+  <text x="140" y="932" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">✓ 연체 절대 금지 — 5영업일 이상 연체 = 점수 급락</text>
+
+  <rect x="100" y="960" width="860" height="30" rx="12" fill="rgba(245,158,11,0.15)"/>
+  <text x="540" y="982" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" font-weight="700" fill="#F59E0B">일시불 + 한도 30% + 장기 보유 = 양쪽 모두 점수↑</text>
+
+  <rect x="60" y="1050" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

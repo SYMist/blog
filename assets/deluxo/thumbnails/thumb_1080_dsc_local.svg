@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- Badge: 2026 최신 -->
+  <rect x="428" y="280" width="224" height="52" rx="26" fill="#F59E0B"/>
+  <text x="540" y="314" text-anchor="middle" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF">2026 최신</text>
+
+  <!-- Main text -->
+  <text x="540" y="440" text-anchor="middle" font-family="'Pretendard', sans-serif" font-size="82" font-weight="900" fill="#FFFFFF">대전·세종·충청</text>
+
+  <!-- Sub text line 1 -->
+  <text x="540" y="530" text-anchor="middle" font-family="'Pretendard', sans-serif" font-size="52" font-weight="600" fill="#EAF2FF">소상공인 지원금</text>
+
+  <!-- Sub text line 2 -->
+  <text x="540" y="600" text-anchor="middle" font-family="'Pretendard', sans-serif" font-size="52" font-weight="600" fill="#EAF2FF">지역별 총정리</text>
+
+  <!-- Chips row -->
+  <!-- Chip: 대전 -->
+  <rect x="218" y="700" width="130" height="56" rx="32" fill="#E8F0FF"/>
+  <text x="283" y="737" text-anchor="middle" font-family="'Pretendard', sans-serif" font-size="30" font-weight="700" fill="#1D4ED8">대전</text>
+
+  <!-- Chip: 세종 -->
+  <rect x="378" y="700" width="130" height="56" rx="32" fill="#E8F0FF"/>
+  <text x="443" y="737" text-anchor="middle" font-family="'Pretendard', sans-serif" font-size="30" font-weight="700" fill="#1D4ED8">세종</text>
+
+  <!-- Chip: 충남 -->
+  <rect x="538" y="700" width="130" height="56" rx="32" fill="#E8F0FF"/>
+  <text x="603" y="737" text-anchor="middle" font-family="'Pretendard', sans-serif" font-size="30" font-weight="700" fill="#1D4ED8">충남</text>
+
+  <!-- Chip: 충북 -->
+  <rect x="698" y="700" width="130" height="56" rx="32" fill="#E8F0FF"/>
+  <text x="763" y="737" text-anchor="middle" font-family="'Pretendard', sans-serif" font-size="30" font-weight="700" fill="#1D4ED8">충북</text>
+</svg>

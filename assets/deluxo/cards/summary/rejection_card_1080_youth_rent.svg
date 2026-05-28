@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+    <linearGradient id="rowBg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.06)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0.02)"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <!-- Badge -->
+  <rect x="80" y="72" width="120" height="48" rx="24" fill="#F59E0B"/>
+  <text x="140" y="103" font-family="'Pretendard', sans-serif" font-size="22" font-weight="700" fill="#0B1F3B" text-anchor="middle">주의</text>
+
+  <!-- Title -->
+  <text x="80" y="190" font-family="'Pretendard', sans-serif" font-size="44" font-weight="800" fill="#FFFFFF">탈락 사유 TOP 5</text>
+
+  <!-- Divider -->
+  <rect x="80" y="220" width="120" height="4" rx="2" fill="#F59E0B"/>
+
+  <!-- Item 1 -->
+  <rect x="60" y="280" width="960" height="130" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <circle cx="120" cy="345" r="28" fill="rgba(245,158,11,0.2)"/>
+  <text x="120" y="354" font-family="'Pretendard', sans-serif" font-size="26" font-weight="800" fill="#F59E0B" text-anchor="middle">1</text>
+  <text x="170" y="330" font-family="'Pretendard', sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">전입신고 미완료</text>
+  <text x="170" y="370" font-family="'Pretendard', sans-serif" font-size="22" fill="rgba(255,255,255,0.6)">거주지 불일치</text>
+
+  <!-- Item 2 -->
+  <rect x="60" y="425" width="960" height="130" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <circle cx="120" cy="490" r="28" fill="rgba(245,158,11,0.2)"/>
+  <text x="120" y="499" font-family="'Pretendard', sans-serif" font-size="26" font-weight="800" fill="#F59E0B" text-anchor="middle">2</text>
+  <text x="170" y="475" font-family="'Pretendard', sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">확정일자 누락</text>
+  <text x="170" y="515" font-family="'Pretendard', sans-serif" font-size="22" fill="rgba(255,255,255,0.6)">계약서 미비</text>
+
+  <!-- Item 3 -->
+  <rect x="60" y="570" width="960" height="130" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <circle cx="120" cy="635" r="28" fill="rgba(245,158,11,0.2)"/>
+  <text x="120" y="644" font-family="'Pretendard', sans-serif" font-size="26" font-weight="800" fill="#F59E0B" text-anchor="middle">3</text>
+  <text x="170" y="620" font-family="'Pretendard', sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">월세 이체 내역 불명확</text>
+  <text x="170" y="660" font-family="'Pretendard', sans-serif" font-size="22" fill="rgba(255,255,255,0.6)">현금 납부 / 제3자 이체</text>
+
+  <!-- Item 4 -->
+  <rect x="60" y="715" width="960" height="130" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <circle cx="120" cy="780" r="28" fill="rgba(245,158,11,0.2)"/>
+  <text x="120" y="789" font-family="'Pretendard', sans-serif" font-size="26" font-weight="800" fill="#F59E0B" text-anchor="middle">4</text>
+  <text x="170" y="765" font-family="'Pretendard', sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">원가구(부모) 소득·재산 초과</text>
+  <text x="170" y="805" font-family="'Pretendard', sans-serif" font-size="22" fill="rgba(255,255,255,0.6)">부모 소득도 심사 대상</text>
+
+  <!-- Item 5 -->
+  <rect x="60" y="860" width="960" height="130" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <circle cx="120" cy="925" r="28" fill="rgba(245,158,11,0.2)"/>
+  <text x="120" y="934" font-family="'Pretendard', sans-serif" font-size="26" font-weight="800" fill="#F59E0B" text-anchor="middle">5</text>
+  <text x="170" y="910" font-family="'Pretendard', sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">동일 성격 보조금 중복 수혜</text>
+  <text x="170" y="950" font-family="'Pretendard', sans-serif" font-size="22" fill="rgba(255,255,255,0.6)">타 주거보조금과 중복 불가</text>
+</svg>

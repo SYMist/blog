@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- Decorative circle -->
+  <circle cx="960" cy="200" r="220" fill="#34D399" opacity="0.04"/>
+
+  <!-- Top bar -->
+  <rect x="0" y="0" width="1080" height="8" fill="#34D399"/>
+
+  <!-- Chips -->
+  <rect x="60" y="44" width="148" height="40" rx="20" fill="#F59E0B"/>
+  <text x="134" y="70" font-family="-apple-system, sans-serif" font-size="17" font-weight="800" fill="#0B1F3B" text-anchor="middle">2026 최신</text>
+
+  <rect x="222" y="44" width="220" height="40" rx="20" fill="#1A3270"/>
+  <rect x="222" y="44" width="220" height="40" rx="20" fill="none" stroke="#34D399" stroke-width="1.5"/>
+  <text x="332" y="70" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#34D399" text-anchor="middle">법인세 최저 10%</text>
+
+  <rect x="456" y="44" width="224" height="40" rx="20" fill="#1A3270"/>
+  <rect x="456" y="44" width="224" height="40" rx="20" fill="none" stroke="#EF4444" stroke-width="1.5"/>
+  <text x="568" y="70" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#EF4444" text-anchor="middle">설립 15만원~</text>
+
+  <!-- Main title -->
+  <text x="60" y="168" font-family="-apple-system, sans-serif" font-size="50" font-weight="900" fill="#FFFFFF">가족법인 설립</text>
+  <text x="60" y="228" font-family="-apple-system, sans-serif" font-size="50" font-weight="900" fill="#FFFFFF">절차·비용·절세 효과</text>
+  <text x="60" y="284" font-family="-apple-system, sans-serif" font-size="22" font-weight="700" fill="#A0B4D0">2026년 완전 정리 | 시뮬레이션: 연 1,281만원 절감</text>
+
+  <!-- Divider -->
+  <line x1="60" y1="310" x2="1020" y2="310" stroke="#1A3270" stroke-width="2"/>
+
+  <!-- 3 key stat boxes -->
+  <rect x="60" y="330" width="290" height="220" rx="14" fill="#0D2347"/>
+  <text x="205" y="374" font-family="-apple-system, sans-serif" font-size="14" font-weight="700" fill="#F59E0B" text-anchor="middle">설립 비용</text>
+  <text x="205" y="416" font-family="-apple-system, sans-serif" font-size="28" font-weight="900" fill="#FFFFFF" text-anchor="middle">비과밀</text>
+  <text x="205" y="454" font-family="-apple-system, sans-serif" font-size="28" font-weight="900" fill="#34D399" text-anchor="middle">15~20만원</text>
+  <text x="205" y="490" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">서울 등 수도권</text>
+  <text x="205" y="510" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#EF4444" text-anchor="middle">43~50만원</text>
+  <text x="205" y="532" font-family="-apple-system, sans-serif" font-size="12" fill="#A0B4D0" text-anchor="middle">법무사 대행 +15~50만원</text>
+
+  <rect x="394" y="330" width="292" height="220" rx="14" fill="#0D2347"/>
+  <text x="540" y="374" font-family="-apple-system, sans-serif" font-size="14" font-weight="700" fill="#F59E0B" text-anchor="middle">법인세율 (2026)</text>
+  <text x="540" y="416" font-family="-apple-system, sans-serif" font-size="28" font-weight="900" fill="#FFFFFF" text-anchor="middle">2억 이하</text>
+  <text x="540" y="454" font-family="-apple-system, sans-serif" font-size="36" font-weight="900" fill="#34D399" text-anchor="middle">10%</text>
+  <text x="540" y="492" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">vs 소득세 최고 45%</text>
+  <text x="540" y="514" font-family="-apple-system, sans-serif" font-size="13" fill="#34D399" text-anchor="middle">최대 35%p 낮음</text>
+  <text x="540" y="536" font-family="-apple-system, sans-serif" font-size="12" fill="#A0B4D0" text-anchor="middle">국세청 고시 기준</text>
+
+  <rect x="730" y="330" width="290" height="220" rx="14" fill="#1A3270"/>
+  <rect x="730" y="330" width="290" height="220" rx="14" fill="none" stroke="#34D399" stroke-width="2"/>
+  <text x="875" y="374" font-family="-apple-system, sans-serif" font-size="14" font-weight="700" fill="#34D399" text-anchor="middle">절세 시뮬레이션</text>
+  <text x="875" y="412" font-family="-apple-system, sans-serif" font-size="17" font-weight="800" fill="#FFFFFF" text-anchor="middle">순이익 1억원 기준</text>
+  <text x="875" y="450" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#F59E0B" text-anchor="middle">연 약 1,281만원</text>
+  <text x="875" y="488" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">개인 2,211만 → 법인 930만</text>
+  <text x="875" y="510" font-family="-apple-system, sans-serif" font-size="14" font-weight="700" fill="#34D399" text-anchor="middle">5년 누적 6,400만원+</text>
+  <text x="875" y="532" font-family="-apple-system, sans-serif" font-size="11" fill="#A0B4D0" text-anchor="middle">대표 급여 4,000만원 설정 시</text>
+
+  <!-- 절차 요약 -->
+  <rect x="60" y="578" width="960" height="120" rx="12" fill="#0D2347"/>
+  <text x="540" y="614" font-family="-apple-system, sans-serif" font-size="15" font-weight="800" fill="#F59E0B" text-anchor="middle">설립 절차 6단계 · 총 소요기간 약 2~4주</text>
+  <text x="540" y="648" font-family="-apple-system, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">상호 확인 → 정관 작성 → 자본금 납입 → 법인 등기(3~5일)</text>
+  <text x="540" y="680" font-family="-apple-system, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">→ 사업자등록(3~7일) → 법인 통장 개설</text>
+
+  <!-- Timeline -->
+  <rect x="60" y="726" width="960" height="100" rx="12" fill="#1A3270"/>
+  <text x="540" y="762" font-family="-apple-system, sans-serif" font-size="15" font-weight="700" fill="#34D399" text-anchor="middle">절세 손익분기점: 순이익 연 5,000만원 이상</text>
+  <text x="270" y="800" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">개인 소득세 최고 45%</text>
+  <text x="540" y="800" font-family="-apple-system, sans-serif" font-size="13" fill="#34D399" text-anchor="middle">→ 법인 전환 검토</text>
+  <text x="810" y="800" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">법인세 2억 이하 10%</text>
+
+  <!-- Bottom note -->
+  <text x="540" y="884" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">절세 목적만 형식 운영 금지 | 가족 간 거래 시가 기준 | 세무사 상담 후 결정 권장</text>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="1072" width="1080" height="8" fill="#34D399"/>
+</svg>

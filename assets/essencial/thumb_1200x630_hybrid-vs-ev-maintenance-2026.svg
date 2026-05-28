@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <rect x="60" y="50" width="140" height="36" rx="18" fill="#EF4444"/>
+  <text x="130" y="74" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="800" font-family="sans-serif">2026 최신</text>
+
+  <text x="60" y="160" fill="#FFFFFF" font-size="50" font-weight="800" font-family="sans-serif">하이브리드 vs 전기차</text>
+  <text x="60" y="225" fill="#E2E8F0" font-size="34" font-weight="600" font-family="sans-serif">연료비·세금·보험료·감가 유지비 총정리</text>
+
+  <rect x="60" y="265" width="130" height="34" rx="17" fill="#FEF3C7"/>
+  <text x="125" y="288" text-anchor="middle" fill="#92400E" font-size="15" font-weight="700" font-family="sans-serif">5년 TCO</text>
+  <rect x="205" y="265" width="110" height="34" rx="17" fill="#FEF3C7"/>
+  <text x="260" y="288" text-anchor="middle" fill="#92400E" font-size="15" font-weight="700" font-family="sans-serif">연료비</text>
+  <rect x="330" y="265" width="110" height="34" rx="17" fill="#FEF3C7"/>
+  <text x="385" y="288" text-anchor="middle" fill="#92400E" font-size="15" font-weight="700" font-family="sans-serif">감가상각</text>
+
+  <rect x="60" y="335" width="500" height="3" rx="2" fill="#3B82F6" opacity="0.5"/>
+
+  <text x="60" y="390" fill="#93C5FD" font-size="20" font-weight="600" font-family="sans-serif">5년 운영비</text>
+  <text x="60" y="425" fill="#FFFFFF" font-size="28" font-weight="800" font-family="sans-serif">전기차 449만 원 저렴</text>
+
+  <text x="60" y="480" fill="#FCD34D" font-size="20" font-weight="600" font-family="sans-serif">잔가 포함 TCO</text>
+  <text x="60" y="515" fill="#FFFFFF" font-size="28" font-weight="800" font-family="sans-serif">하이브리드 551만 원 유리</text>
+
+  <!-- Right side -->
+  <rect x="850" y="100" width="280" height="430" rx="20" fill="#1e293b" opacity="0.8"/>
+  <text x="990" y="150" text-anchor="middle" fill="#34D399" font-size="18" font-weight="700" font-family="sans-serif">전기차</text>
+  <text x="990" y="180" text-anchor="middle" fill="#CBD5E1" font-size="14" font-family="sans-serif">1km = 63원</text>
+  <text x="990" y="205" text-anchor="middle" fill="#CBD5E1" font-size="14" font-family="sans-serif">세제 혜택 569만</text>
+  <text x="990" y="230" text-anchor="middle" fill="#F87171" font-size="14" font-family="sans-serif">잔가율 40%</text>
+
+  <rect x="870" y="260" width="240" height="2" rx="1" fill="#334155"/>
+  <text x="990" y="290" text-anchor="middle" fill="#FCD34D" font-size="16" font-weight="600" font-family="sans-serif">VS</text>
+  <rect x="870" y="305" width="240" height="2" rx="1" fill="#334155"/>
+
+  <text x="990" y="340" text-anchor="middle" fill="#60A5FA" font-size="18" font-weight="700" font-family="sans-serif">하이브리드</text>
+  <text x="990" y="370" text-anchor="middle" fill="#CBD5E1" font-size="14" font-family="sans-serif">1km = 105원</text>
+  <text x="990" y="395" text-anchor="middle" fill="#CBD5E1" font-size="14" font-family="sans-serif">세제 혜택 100만</text>
+  <text x="990" y="420" text-anchor="middle" fill="#34D399" font-size="14" font-family="sans-serif">잔가율 60%</text>
+  <text x="990" y="460" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="600" font-family="sans-serif">TCO 우위</text>
+
+  <text x="60" y="600" fill="#64748B" font-size="14" font-family="sans-serif">essencial | 비교형 콘텐츠</text>
+</svg>

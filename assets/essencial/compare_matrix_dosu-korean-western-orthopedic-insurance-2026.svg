@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="720" fill="url(#bg)"/>
+
+  <text x="540" y="48" text-anchor="middle" fill="#FFFFFF" font-size="24" font-weight="800" font-family="sans-serif">도수치료 3종 비용·보험·연 한도 매트릭스</text>
+  <text x="540" y="74" text-anchor="middle" fill="#99F6E4" font-size="14" font-family="sans-serif">정형외과·한방 추나요법·한방 비급여 약침 · 2026.05 기준</text>
+
+  <rect x="40" y="96" width="1000" height="44" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="170" y="124" text-anchor="middle" fill="#F8FAFC" font-size="14" font-weight="800" font-family="sans-serif">비교 항목</text>
+  <text x="410" y="124" text-anchor="middle" fill="#99F6E4" font-size="14" font-weight="800" font-family="sans-serif">정형외과 도수치료</text>
+  <text x="660" y="124" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="800" font-family="sans-serif">한방 추나요법</text>
+  <text x="920" y="124" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="800" font-family="sans-serif">한방 비급여 약침</text>
+
+  <rect x="40" y="144" width="1000" height="48" fill="#0f172a" fill-opacity="0.5"/>
+  <text x="55" y="174" fill="#F1F5F9" font-size="13" font-weight="700" font-family="sans-serif">분류</text>
+  <text x="410" y="174" text-anchor="middle" fill="#99F6E4" font-size="13" font-weight="700" font-family="sans-serif">비급여→관리급여(7월)</text>
+  <text x="660" y="174" text-anchor="middle" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">건보 급여 (2019.04~)</text>
+  <text x="920" y="174" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">비급여</text>
+
+  <rect x="40" y="196" width="1000" height="48" fill="#1e293b" fill-opacity="0.4"/>
+  <text x="55" y="226" fill="#F1F5F9" font-size="13" font-weight="700" font-family="sans-serif">시술자</text>
+  <text x="410" y="226" text-anchor="middle" fill="#99F6E4" font-size="14" font-weight="700" font-family="sans-serif">물리치료사</text>
+  <text x="660" y="226" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">한의사 직접</text>
+  <text x="920" y="226" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">한의사 직접</text>
+
+  <rect x="40" y="248" width="1000" height="48" fill="#0f172a" fill-opacity="0.5"/>
+  <text x="55" y="278" fill="#F1F5F9" font-size="13" font-weight="700" font-family="sans-serif">회당 가격</text>
+  <text x="410" y="278" text-anchor="middle" fill="#99F6E4" font-size="14" font-weight="700" font-family="sans-serif">평균 11만원</text>
+  <text x="660" y="278" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">1.5~3만원</text>
+  <text x="920" y="278" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">5~15만원</text>
+
+  <rect x="40" y="300" width="1000" height="48" fill="#1e293b" fill-opacity="0.4"/>
+  <text x="55" y="330" fill="#F1F5F9" font-size="13" font-weight="700" font-family="sans-serif">본인부담률</text>
+  <text x="410" y="330" text-anchor="middle" fill="#99F6E4" font-size="13" font-weight="700" font-family="sans-serif">30% (실손) / 95% (관리)</text>
+  <text x="660" y="330" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">건보 50% + 실손</text>
+  <text x="920" y="330" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="700" font-family="sans-serif">100% 자비</text>
+
+  <rect x="40" y="352" width="1000" height="48" fill="#0f172a" fill-opacity="0.5"/>
+  <text x="55" y="382" fill="#F1F5F9" font-size="13" font-weight="700" font-family="sans-serif">연 한도</text>
+  <text x="410" y="382" text-anchor="middle" fill="#99F6E4" font-size="13" font-weight="700" font-family="sans-serif">50회·350만(1~4세대)</text>
+  <text x="660" y="382" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">건보 20회</text>
+  <text x="920" y="382" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">제한 없음</text>
+
+  <rect x="40" y="404" width="1000" height="48" fill="#1e293b" fill-opacity="0.4"/>
+  <text x="55" y="434" fill="#F1F5F9" font-size="13" font-weight="700" font-family="sans-serif">실손 1~4세대</text>
+  <text x="410" y="434" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">보장 ✅</text>
+  <text x="660" y="434" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">자동 보장 ✅</text>
+  <text x="920" y="434" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="700" font-family="sans-serif">제한적 (1세대만)</text>
+
+  <rect x="40" y="456" width="1000" height="48" fill="#0f172a" fill-opacity="0.5"/>
+  <text x="55" y="486" fill="#F1F5F9" font-size="13" font-weight="700" font-family="sans-serif">실손 5세대 (2026.05~)</text>
+  <text x="410" y="486" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="700" font-family="sans-serif">보장 제외 ❌</text>
+  <text x="660" y="486" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">자동 보장 ✅</text>
+  <text x="920" y="486" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="700" font-family="sans-serif">불가</text>
+
+  <rect x="40" y="508" width="1000" height="48" fill="#1e293b" fill-opacity="0.4"/>
+  <text x="55" y="538" fill="#F1F5F9" font-size="13" font-weight="700" font-family="sans-serif">추가 서류 (10회+)</text>
+  <text x="410" y="538" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">의사소견서·기록지 필요</text>
+  <text x="660" y="538" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">불필요</text>
+  <text x="920" y="538" text-anchor="middle" fill="#94A3B8" font-size="14" font-weight="700" font-family="sans-serif">N/A</text>
+
+  <rect x="40" y="568" width="1000" height="104" rx="10" fill="#1e293b" fill-opacity="0.6" stroke="#334155" stroke-width="1.5"/>
+  <text x="60" y="594" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">의사결정 핵심 변수 4가지</text>
+  <text x="60" y="618" fill="#CBD5E1" font-size="12" font-family="sans-serif">① 실손 세대: 1~4세대 도수치료 보장 / 5세대는 한방 추나요법으로 대체</text>
+  <text x="60" y="638" fill="#CBD5E1" font-size="12" font-family="sans-serif">② 치료 빈도: 연 20회 이하면 추나요법 충분 / 50회 가까이면 도수치료 활용</text>
+  <text x="60" y="658" fill="#CBD5E1" font-size="12" font-family="sans-serif">③ 2026.07 관리급여 전환 / ④ 4세대 10회 이상 서류 미리 준비</text>
+
+  <text x="40" y="708" fill="#64748B" font-size="12" font-family="sans-serif">essencial | 2026.05 기준 · 보험사·약관별 차이 있음 · 추나요법은 의원/병원/종합병원 본인부담률 다름</text>
+</svg>

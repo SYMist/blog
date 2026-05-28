@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#F59E0B">신용점수 올리기·신용회복 로드맵 한눈에 보기</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- 3단계 로드맵 -->
+  <rect x="60" y="120" width="960" height="280" rx="20" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="132" width="200" height="34" rx="17" fill="#1D4ED8"/>
+  <text x="180" y="156" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="800" fill="#FFF">3단계 신용회복</text>
+
+  <!-- 1단계 -->
+  <rect x="80" y="178" width="290" height="100" rx="14" fill="rgba(245,158,11,0.12)"/>
+  <text x="225" y="204" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#F59E0B">1단계 성실 상환</text>
+  <text x="225" y="232" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#EAF2FF">인가 후 1~12개월</text>
+  <text x="225" y="260" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#EAF2FF">목표: 300~500점</text>
+
+  <!-- 화살표 -->
+  <text x="395" y="232" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" fill="#F59E0B">→</text>
+
+  <!-- 2단계 -->
+  <rect x="420" y="178" width="270" height="100" rx="14" fill="rgba(245,158,11,0.12)"/>
+  <text x="555" y="204" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#F59E0B">2단계 신용 보강</text>
+  <text x="555" y="232" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#EAF2FF">13~24개월</text>
+  <text x="555" y="260" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#EAF2FF">목표: 700후반~800중반</text>
+
+  <!-- 화살표 -->
+  <text x="715" y="232" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" fill="#F59E0B">→</text>
+
+  <!-- 3단계 -->
+  <rect x="740" y="178" width="260" height="100" rx="14" fill="rgba(245,158,11,0.12)"/>
+  <text x="870" y="204" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#F59E0B">3단계 정상화</text>
+  <text x="870" y="232" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#EAF2FF">면책 이후</text>
+  <text x="870" y="260" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#EAF2FF">목표: 800중반+</text>
+
+  <text x="540" y="370" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#F59E0B">1년 성실 상환 → 공공기록 자동 삭제 → 점수 500~600점 급상승</text>
+
+  <!-- 마이데이터 가점 -->
+  <rect x="60" y="410" width="960" height="100" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="422" width="180" height="34" rx="17" fill="#1D4ED8"/>
+  <text x="170" y="446" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="800" fill="#FFF">마이데이터 가점</text>
+  <text x="80" y="488" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">통신비 +10~20점 · 건강보험 · 국민연금 · 소득증명 → 연결자 70% 점수 상승</text>
+
+  <!-- 카드 전환 전략 -->
+  <rect x="60" y="522" width="960" height="100" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="534" width="200" height="34" rx="17" fill="#1D4ED8"/>
+  <text x="180" y="558" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="800" fill="#FFF">카드 단계별 전환</text>
+  <text x="80" y="600" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">햇살론카드(월200만) → 하이브리드체크 → 일반신용카드(790점+) → 가족카드</text>
+
+  <!-- 햇살론 금리 -->
+  <rect x="60" y="634" width="960" height="100" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="646" width="180" height="34" rx="17" fill="#1D4ED8"/>
+  <text x="170" y="670" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="800" fill="#FFF">햇살론 금리 인하</text>
+  <text x="80" y="712" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">일반 1,500만/10%</text>
+  <text x="340" y="712" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">· 특례 12.5%</text>
+  <text x="530" y="712" font-family="'Pretendard',sans-serif" font-size="16" fill="#F59E0B">(↓3.4%p)</text>
+  <text x="640" y="712" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">· 유스 3~4%</text>
+
+  <!-- NICE vs KCB -->
+  <rect x="60" y="746" width="960" height="100" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="758" width="200" height="34" rx="17" fill="#1D4ED8"/>
+  <text x="180" y="782" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="800" fill="#FFF">NICE vs KCB 차이</text>
+  <text x="80" y="824" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">NICE = 사용 기간 중시</text>
+  <text x="400" y="824" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">· KCB = 부채 규모 민감</text>
+  <text x="720" y="824" font-family="'Pretendard',sans-serif" font-size="18" fill="#F59E0B">→ 일시불+30% 이내</text>
+
+  <!-- 기준 점수 -->
+  <rect x="60" y="860" width="960" height="160" rx="20" fill="rgba(245,158,11,0.08)"/>
+  <text x="540" y="900" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#F59E0B">기준 점수표</text>
+  <text x="140" y="940" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#EAF2FF">카드 발급</text>
+  <text x="140" y="970" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#FFF">790점</text>
+  <text x="420" y="940" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#EAF2FF">중금리 대출</text>
+  <text x="420" y="970" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#FFF">889점</text>
+  <text x="700" y="940" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#EAF2FF">미소금융</text>
+  <text x="700" y="970" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#FFF">725점</text>
+
+  <rect x="60" y="1050" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

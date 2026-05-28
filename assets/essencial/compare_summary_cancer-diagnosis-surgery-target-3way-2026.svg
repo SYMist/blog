@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 660">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#4c1d95"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E40AF"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#15803D"/>
+      <stop offset="100%" stop-color="#14532d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="660" fill="url(#bg)"/>
+
+  <text x="540" y="58" text-anchor="middle" fill="#FFFFFF" font-size="28" font-weight="800" font-family="sans-serif">암진단비 · 암수술비 · 표적치료비 3종 비교</text>
+  <text x="540" y="92" text-anchor="middle" fill="#DDD6FE" font-size="16" font-family="sans-serif">진단비 5천만·수술비 회당 300만·표적치료비 연 3천만 가입 기준 · 2026.05</text>
+
+  <!-- Key stat -->
+  <rect x="160" y="116" width="760" height="76" rx="14" fill="#1e293b" fill-opacity="0.9" stroke="#334155" stroke-width="1.5"/>
+  <text x="540" y="148" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="700" font-family="sans-serif">암종별 총 보장 시뮬레이션</text>
+  <text x="540" y="180" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">갑상선암 1,060만 vs 폐암 4기 9,600만 · 격차 9배</text>
+
+  <!-- 3 cards horizontal -->
+  <rect x="40" y="216" width="325" height="390" rx="18" fill="url(#purpleGrad)" fill-opacity="0.9" stroke="#7C3AED" stroke-width="2"/>
+  <text x="202" y="262" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">⭐ 진단비 (1순위)</text>
+  <text x="202" y="288" text-anchor="middle" fill="#DDD6FE" font-size="13" font-family="sans-serif">확진 시 일시금 지급</text>
+  <line x1="65" y1="308" x2="345" y2="308" stroke="#4c1d95" stroke-width="1.5"/>
+  <text x="202" y="348" text-anchor="middle" fill="#DDD6FE" font-size="26" font-weight="800" font-family="sans-serif">5,000만원</text>
+  <text x="202" y="378" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">최초 1회 (소멸)</text>
+  <line x1="65" y1="398" x2="345" y2="398" stroke="#4c1d95" stroke-width="1.5"/>
+  <text x="75" y="428" fill="#DDD6FE" font-size="13" font-weight="700" font-family="sans-serif">✅ 초기 충격·생활비</text>
+  <text x="75" y="452" fill="#DDD6FE" font-size="13" font-weight="700" font-family="sans-serif">✅ 자녀 양육비 충당</text>
+  <text x="75" y="476" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">❌ 유사암 10~20%만</text>
+  <text x="75" y="500" fill="#FFFFFF" font-size="13" font-family="sans-serif">— 모든 가입자 필수</text>
+  <text x="75" y="524" fill="#FFFFFF" font-size="13" font-family="sans-serif">— 월 약 2~4만원 (40대)</text>
+  <rect x="65" y="546" width="280" height="44" rx="8" fill="#7C3AED" fill-opacity="0.4"/>
+  <text x="205" y="572" text-anchor="middle" fill="#DDD6FE" font-size="13" font-weight="700" font-family="sans-serif">모든 가입자 1순위 가입</text>
+
+  <rect x="378" y="216" width="325" height="390" rx="18" fill="url(#blueGrad)" fill-opacity="0.9" stroke="#3B82F6" stroke-width="2"/>
+  <text x="540" y="262" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">수술비 (3순위)</text>
+  <text x="540" y="288" text-anchor="middle" fill="#BFDBFE" font-size="13" font-family="sans-serif">수술 시마다 회당 지급</text>
+  <line x1="403" y1="308" x2="683" y2="308" stroke="#1e3a8a" stroke-width="1.5"/>
+  <text x="540" y="348" text-anchor="middle" fill="#BFDBFE" font-size="22" font-weight="800" font-family="sans-serif">회당 300만원</text>
+  <text x="540" y="378" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">수술 횟수 무제한</text>
+  <line x1="403" y1="398" x2="683" y2="398" stroke="#1e3a8a" stroke-width="1.5"/>
+  <text x="413" y="428" fill="#67E8F9" font-size="13" font-weight="700" font-family="sans-serif">✅ 수술 비용 충당</text>
+  <text x="413" y="452" fill="#67E8F9" font-size="13" font-weight="700" font-family="sans-serif">✅ 재수술도 보장</text>
+  <text x="413" y="476" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">❌ 유사암 별도 특약</text>
+  <text x="413" y="500" fill="#FFFFFF" font-size="13" font-family="sans-serif">— 일반암 수술 대비</text>
+  <text x="413" y="524" fill="#FFFFFF" font-size="13" font-family="sans-serif">— 월 약 1~2만원</text>
+  <rect x="403" y="546" width="280" height="44" rx="8" fill="#1E40AF" fill-opacity="0.4"/>
+  <text x="543" y="572" text-anchor="middle" fill="#BFDBFE" font-size="13" font-weight="700" font-family="sans-serif">보험료 여유 시 추가</text>
+
+  <rect x="716" y="216" width="325" height="390" rx="18" fill="url(#greenGrad)" fill-opacity="0.9" stroke="#15803D" stroke-width="2"/>
+  <text x="878" y="262" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">표적치료비 (2순위)</text>
+  <text x="878" y="288" text-anchor="middle" fill="#86EFAC" font-size="13" font-family="sans-serif">고가 치료 연간 한도</text>
+  <line x1="741" y1="308" x2="1021" y2="308" stroke="#14532d" stroke-width="1.5"/>
+  <text x="878" y="348" text-anchor="middle" fill="#86EFAC" font-size="22" font-weight="800" font-family="sans-serif">연 3,000만원</text>
+  <text x="878" y="378" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">다년 누적 가능</text>
+  <line x1="741" y1="398" x2="1021" y2="398" stroke="#14532d" stroke-width="1.5"/>
+  <text x="751" y="428" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">✅ 표적·면역항암제</text>
+  <text x="751" y="452" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">✅ 신기술 보장 추세</text>
+  <text x="751" y="476" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">❌ 약관 명시만 보장</text>
+  <text x="751" y="500" fill="#FFFFFF" font-size="13" font-family="sans-serif">— 폐·간·유방 대비</text>
+  <text x="751" y="524" fill="#FFFFFF" font-size="13" font-family="sans-serif">— 월 약 3~5만원</text>
+  <rect x="741" y="546" width="280" height="44" rx="8" fill="#15803D" fill-opacity="0.4"/>
+  <text x="881" y="572" text-anchor="middle" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">가족력 있으면 필수</text>
+
+  <text x="40" y="638" fill="#64748B" font-size="13" font-family="sans-serif">essencial | 보험 비교 · 2026.05 기준 · 권장 조합: 진단비 + 표적치료비 (월 5~9만, 폐암 4기 9,000만+ 보장)</text>
+</svg>

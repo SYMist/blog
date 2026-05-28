@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="80" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="800" fill="#F59E0B">건강보험료 환급·경감 한눈에 보기</text>
+  <rect x="60" y="110" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- 환급 -->
+  <rect x="60" y="140" width="960" height="250" rx="20" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="160" width="140" height="44" rx="22" fill="#3B82F6"/>
+  <text x="150" y="190" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#FFF">환급금</text>
+  <text x="240" y="190" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">미지급 1,200억+ (2025말 기준)</text>
+
+  <text x="100" y="240" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">과오납 환급</text>
+  <text x="100" y="272" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">퇴사·이중납부·피부양자 소급 등록·소득 소급 조정</text>
+
+  <text x="100" y="315" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">본인부담상한제</text>
+  <text x="100" y="347" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">연간 본인부담금 상한 초과 시 자동 환급</text>
+  <text x="100" y="375" font-family="'Pretendard',sans-serif" font-size="18" fill="#F59E0B">1분위 89만 ~ 10분위 826만 원 · 요양병원 120일+ 최대 1,014만</text>
+
+  <!-- 경감 -->
+  <rect x="60" y="410" width="960" height="370" rx="20" fill="rgba(255,255,255,0.06)"/>
+  <rect x="80" y="430" width="140" height="44" rx="22" fill="#10B981"/>
+  <text x="150" y="460" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#FFF">경감</text>
+
+  <text x="100" y="510" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">도서·벽지</text>
+  <text x="300" y="510" font-family="'Pretendard',sans-serif" font-size="22" fill="#FFF">50% 경감</text>
+
+  <text x="100" y="548" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">농어촌</text>
+  <text x="300" y="548" font-family="'Pretendard',sans-serif" font-size="22" fill="#FFF">22% 경감 (사업소득 500만↓)</text>
+
+  <text x="100" y="586" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#EAF2FF">65세+/장애인/한부모</text>
+  <text x="440" y="586" font-family="'Pretendard',sans-serif" font-size="22" fill="#FFF">10~30% 경감</text>
+
+  <text x="100" y="624" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#EAF2FF">무보수 휴직</text>
+  <text x="300" y="624" font-family="'Pretendard',sans-serif" font-size="22" fill="#FFF">50% 경감</text>
+
+  <text x="100" y="662" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#EAF2FF">육아휴직</text>
+  <text x="300" y="662" font-family="'Pretendard',sans-serif" font-size="22" fill="#FFF">하한액 수준 (월 20,160원)</text>
+
+  <text x="100" y="700" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#EAF2FF">해외 근무</text>
+  <text x="300" y="700" font-family="'Pretendard',sans-serif" font-size="22" fill="#FFF">50~100% 면제</text>
+
+  <text x="100" y="748" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#F59E0B">군인(고시지역) 20% · 장기요양보험 장애인 30% 경감</text>
+
+  <!-- 소득 정산 -->
+  <rect x="60" y="800" width="960" height="120" rx="20" fill="rgba(245,158,11,0.1)"/>
+  <text x="540" y="845" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#F59E0B">소득 정산 제도 (소후정산)</text>
+  <text x="100" y="890" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">소득 감소 → 감액 신청 → 잠정 납부 → 11월 확정 정산(환급/추가)</text>
+  <text x="100" y="915" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">6종 소득(이자·배당·사업·근로·연금·기타) 통합 정산</text>
+
+  <!-- 하단 -->
+  <rect x="60" y="940" width="960" height="95" rx="20" fill="rgba(239,68,68,0.1)"/>
+  <text x="100" y="980" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#EF4444">소멸시효 3년 주의!</text>
+  <text x="460" y="980" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">The건강보험 앱에서 지금 바로 조회하세요</text>
+  <text x="100" y="1015" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">지급동의계좌 등록 → 향후 환급금 자동 입금</text>
+
+  <rect x="60" y="1045" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="8" fill="#34D399"/>
+
+  <!-- Title -->
+  <text x="540" y="66" font-family="-apple-system, sans-serif" font-size="32" font-weight="900" fill="#FFFFFF" text-anchor="middle">가족법인 설립 전 1분 체크리스트</text>
+  <text x="540" y="100" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0" text-anchor="middle">설립 결정 전 아래 7가지를 먼저 확인하세요</text>
+  <line x1="60" y1="122" x2="1020" y2="122" stroke="#1A3270" stroke-width="2"/>
+
+  <!-- Check 1 -->
+  <rect x="60" y="146" width="960" height="96" rx="12" fill="#0D2347"/>
+  <rect x="60" y="146" width="6" height="96" rx="3" fill="#34D399"/>
+  <text x="118" y="200" font-family="-apple-system, sans-serif" font-size="34" font-weight="900" fill="#34D399">✓</text>
+  <text x="164" y="188" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">사업 순이익이 연 5,000만원 이상인가?</text>
+  <text x="164" y="216" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0">미만이면 법인 유지 비용(세무기장료·4대보험 등)이 절세액보다 클 수 있음</text>
+  <text x="164" y="234" font-family="-apple-system, sans-serif" font-size="13" fill="#34D399">→ 세무사와 절세 시뮬레이션 먼저 진행 권장</text>
+
+  <!-- Check 2 -->
+  <rect x="60" y="258" width="960" height="96" rx="12" fill="#0D2347"/>
+  <rect x="60" y="258" width="6" height="96" rx="3" fill="#34D399"/>
+  <text x="118" y="312" font-family="-apple-system, sans-serif" font-size="34" font-weight="900" fill="#34D399">✓</text>
+  <text x="164" y="300" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">상호 사전 확인 완료</text>
+  <text x="164" y="328" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0">관할 등기소 내 동일·유사 상호 존재 시 등기 거절됨</text>
+  <text x="164" y="346" font-family="-apple-system, sans-serif" font-size="13" fill="#34D399">→ 인터넷 등기소(iros.go.kr) 상호 검색 필수</text>
+
+  <!-- Check 3 -->
+  <rect x="60" y="370" width="960" height="96" rx="12" fill="#0D2347"/>
+  <rect x="60" y="370" width="6" height="96" rx="3" fill="#F59E0B"/>
+  <text x="118" y="424" font-family="-apple-system, sans-serif" font-size="34" font-weight="900" fill="#F59E0B">✓</text>
+  <text x="164" y="412" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">과밀억제권역 해당 여부 확인</text>
+  <text x="164" y="440" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0">서울 등 수도권 설립 시 등록면허세 3배 중과 (공과금 약 3배 증가)</text>
+  <text x="164" y="458" font-family="-apple-system, sans-serif" font-size="13" fill="#F59E0B">→ 비과밀권역 주소로 설립 시 절감 가능 여부 검토</text>
+
+  <!-- Check 4 -->
+  <rect x="60" y="482" width="960" height="96" rx="12" fill="#0D2347"/>
+  <rect x="60" y="482" width="6" height="96" rx="3" fill="#F59E0B"/>
+  <text x="118" y="536" font-family="-apple-system, sans-serif" font-size="34" font-weight="900" fill="#F59E0B">✓</text>
+  <text x="164" y="524" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">정관 작성 방식 결정</text>
+  <text x="164" y="552" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0">무료 정관 사용 시 임원 퇴직금 규정 누락 등 문제 발생 가능</text>
+  <text x="164" y="570" font-family="-apple-system, sans-serif" font-size="13" fill="#F59E0B">→ 전문가(법무사·세무사) 작성 강력 권장</text>
+
+  <!-- Check 5 -->
+  <rect x="60" y="594" width="960" height="96" rx="12" fill="#0D2347"/>
+  <rect x="60" y="594" width="6" height="96" rx="3" fill="#EF4444"/>
+  <text x="118" y="648" font-family="-apple-system, sans-serif" font-size="34" font-weight="900" fill="#EF4444">✓</text>
+  <text x="164" y="636" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">가족 구성원 임원 참여 가능 여부 확인</text>
+  <text x="164" y="664" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0">직장인은 겸직금지 조항 확인 | 공무원은 발기인 불가 | 미성년자 16세 이상 임원 가능</text>
+  <text x="164" y="682" font-family="-apple-system, sans-serif" font-size="13" fill="#EF4444">→ 각 구성원 상황별 법적 제한 먼저 확인</text>
+
+  <!-- Check 6 -->
+  <rect x="60" y="706" width="960" height="96" rx="12" fill="#0D2347"/>
+  <rect x="60" y="706" width="6" height="96" rx="3" fill="#EF4444"/>
+  <text x="118" y="760" font-family="-apple-system, sans-serif" font-size="34" font-weight="900" fill="#EF4444">✓</text>
+  <text x="164" y="748" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">자본금 납입 통장 및 법인 인감 준비</text>
+  <text x="164" y="776" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0">발기인 명의 통장 + 자본금 입금 + 잔액증명서 / 법인 인감도장 사전 제작</text>
+  <text x="164" y="794" font-family="-apple-system, sans-serif" font-size="13" fill="#EF4444">→ 등기 신청 전 준비 완료 필수</text>
+
+  <!-- Final action box -->
+  <rect x="60" y="830" width="960" height="84" rx="12" fill="#1A3270"/>
+  <rect x="60" y="830" width="960" height="84" rx="12" fill="none" stroke="#34D399" stroke-width="2"/>
+  <text x="540" y="862" font-family="-apple-system, sans-serif" font-size="16" font-weight="800" fill="#34D399" text-anchor="middle">모두 OK → 설립 진행</text>
+  <text x="540" y="890" font-family="-apple-system, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">인터넷 등기소(iros.go.kr) 또는 온라인 법인설립시스템(startbiz.go.kr)으로 신청</text>
+
+  <!-- Footer -->
+  <text x="540" y="974" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준 | 인터넷 등기소 iros.go.kr | 홈택스 hometax.go.kr</text>
+  <rect x="0" y="1072" width="1080" height="8" fill="#34D399"/>
+</svg>

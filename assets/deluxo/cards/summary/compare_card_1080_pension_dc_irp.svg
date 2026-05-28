@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <rect x="60" y="60" width="280" height="60" rx="30" fill="#F59E0B"/>
+  <text x="200" y="101" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#0B1F3B" text-anchor="middle">2026 제도 변화</text>
+
+  <text x="540" y="200" font-family="'Pretendard', sans-serif" font-size="58" font-weight="900" fill="#FFFFFF" text-anchor="middle">DB · DC · IRP 핵심 비교</text>
+
+  <rect x="60" y="270" width="320" height="710" rx="24" fill="#1A3270"/>
+  <rect x="60" y="270" width="320" height="80" rx="24" fill="#F59E0B"/>
+  <text x="220" y="322" font-family="'Pretendard', sans-serif" font-size="36" font-weight="900" fill="#0B1F3B" text-anchor="middle">DB</text>
+  <text x="220" y="395" font-family="'Pretendard', sans-serif" font-size="22" font-weight="700" fill="#A7C4FF" text-anchor="middle">확정급여형</text>
+  <text x="220" y="455" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF" text-anchor="middle">평균임금</text>
+  <text x="220" y="495" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF" text-anchor="middle">× 근속연수</text>
+  <text x="220" y="565" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF" text-anchor="middle">회사가 운용</text>
+  <text x="220" y="605" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF" text-anchor="middle">직원 위험 X</text>
+  <text x="220" y="675" font-family="'Pretendard', sans-serif" font-size="22" font-weight="600" fill="#A7C4FF" text-anchor="middle">장기근속</text>
+  <text x="220" y="715" font-family="'Pretendard', sans-serif" font-size="22" font-weight="600" fill="#A7C4FF" text-anchor="middle">임금상승률↑</text>
+  <text x="220" y="785" font-family="'Pretendard', sans-serif" font-size="22" font-weight="600" fill="#A7C4FF" text-anchor="middle">대기업 직원</text>
+
+  <rect x="400" y="270" width="280" height="710" rx="24" fill="#1A3270"/>
+  <rect x="400" y="270" width="280" height="80" rx="24" fill="#F59E0B"/>
+  <text x="540" y="322" font-family="'Pretendard', sans-serif" font-size="36" font-weight="900" fill="#0B1F3B" text-anchor="middle">DC</text>
+  <text x="540" y="395" font-family="'Pretendard', sans-serif" font-size="22" font-weight="700" fill="#A7C4FF" text-anchor="middle">확정기여형</text>
+  <text x="540" y="455" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF" text-anchor="middle">연봉 1/12</text>
+  <text x="540" y="495" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF" text-anchor="middle">매년 적립</text>
+  <text x="540" y="565" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF" text-anchor="middle">본인 운용</text>
+  <text x="540" y="605" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF" text-anchor="middle">수익=내 몫</text>
+  <text x="540" y="675" font-family="'Pretendard', sans-serif" font-size="22" font-weight="600" fill="#A7C4FF" text-anchor="middle">임금피크</text>
+  <text x="540" y="715" font-family="'Pretendard', sans-serif" font-size="22" font-weight="600" fill="#A7C4FF" text-anchor="middle">잦은 이직</text>
+  <text x="540" y="785" font-family="'Pretendard', sans-serif" font-size="22" font-weight="600" fill="#A7C4FF" text-anchor="middle">자율 운용</text>
+
+  <rect x="700" y="270" width="320" height="710" rx="24" fill="#1A3270"/>
+  <rect x="700" y="270" width="320" height="80" rx="24" fill="#F59E0B"/>
+  <text x="860" y="322" font-family="'Pretendard', sans-serif" font-size="36" font-weight="900" fill="#0B1F3B" text-anchor="middle">IRP</text>
+  <text x="860" y="395" font-family="'Pretendard', sans-serif" font-size="22" font-weight="700" fill="#A7C4FF" text-anchor="middle">개인형퇴직연금</text>
+  <text x="860" y="455" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF" text-anchor="middle">개인 추가</text>
+  <text x="860" y="495" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF" text-anchor="middle">최대 1,800만</text>
+  <text x="860" y="565" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF" text-anchor="middle">세액공제</text>
+  <text x="860" y="605" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF" text-anchor="middle">최대 148만</text>
+  <text x="860" y="675" font-family="'Pretendard', sans-serif" font-size="22" font-weight="600" fill="#A7C4FF" text-anchor="middle">전 국민</text>
+  <text x="860" y="715" font-family="'Pretendard', sans-serif" font-size="22" font-weight="600" fill="#A7C4FF" text-anchor="middle">절세 + 노후</text>
+  <text x="860" y="785" font-family="'Pretendard', sans-serif" font-size="22" font-weight="600" fill="#A7C4FF" text-anchor="middle">필수 가입</text>
+
+  <text x="540" y="855" font-family="'Pretendard', sans-serif" font-size="32" font-weight="800" fill="#F59E0B" text-anchor="middle">━━━━━━━━━━━━━━━━━━━</text>
+
+  <text x="220" y="900" font-family="'Pretendard', sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">유형</text>
+  <text x="540" y="900" font-family="'Pretendard', sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">수령액 결정</text>
+  <text x="860" y="900" font-family="'Pretendard', sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">활용 대상</text>
+
+  <text x="540" y="980" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#F59E0B" text-anchor="middle">DC+IRP가 2026 정석</text>
+  <text x="540" y="1030" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF" text-anchor="middle">적격 TDF·디폴트옵션 활용 필수</text>
+</svg>

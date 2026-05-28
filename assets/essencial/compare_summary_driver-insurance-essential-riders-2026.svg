@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1500" fill="url(#bg)"/>
+
+  <!-- Header -->
+  <rect x="60" y="50" width="200" height="40" rx="20" fill="#7C3AED"/>
+  <text x="160" y="77" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800" font-family="sans-serif">2026.01 개정 적용</text>
+  <text x="60" y="155" fill="#FFFFFF" font-size="44" font-weight="800" font-family="sans-serif">운전자보험 필수 특약 — 핵심 숫자 한눈에</text>
+  <text x="60" y="200" fill="#C4B5FD" font-size="22" font-weight="600" font-family="sans-serif">변호사비·벌금·형사합의금·8주 룰까지</text>
+
+  <!-- 4 Key Cards -->
+  <rect x="60" y="240" width="260" height="180" rx="16" fill="url(#card)" stroke="#7C3AED" stroke-width="2"/>
+  <text x="190" y="285" text-anchor="middle" fill="#C4B5FD" font-size="15" font-weight="700" font-family="sans-serif">변호사선임비</text>
+  <text x="190" y="340" text-anchor="middle" fill="#FFFFFF" font-size="42" font-weight="800" font-family="sans-serif">50%</text>
+  <text x="190" y="370" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="600" font-family="sans-serif">자기부담 의무</text>
+  <text x="190" y="395" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">2026.01 신계약</text>
+
+  <rect x="340" y="240" width="260" height="180" rx="16" fill="url(#card)" stroke="#7C3AED" stroke-width="2"/>
+  <text x="470" y="285" text-anchor="middle" fill="#C4B5FD" font-size="15" font-weight="700" font-family="sans-serif">심급별 한도</text>
+  <text x="470" y="340" text-anchor="middle" fill="#FFFFFF" font-size="40" font-weight="800" font-family="sans-serif">500만</text>
+  <text x="470" y="370" text-anchor="middle" fill="#34D399" font-size="14" font-weight="600" font-family="sans-serif">1·2·3심 각각</text>
+  <text x="470" y="395" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">기존 일괄 → 분할</text>
+
+  <rect x="620" y="240" width="260" height="180" rx="16" fill="url(#card)" stroke="#7C3AED" stroke-width="2"/>
+  <text x="750" y="285" text-anchor="middle" fill="#C4B5FD" font-size="15" font-weight="700" font-family="sans-serif">대인 벌금 표준</text>
+  <text x="750" y="340" text-anchor="middle" fill="#FFFFFF" font-size="40" font-weight="800" font-family="sans-serif">3,000만</text>
+  <text x="750" y="370" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="600" font-family="sans-serif">대물 500만</text>
+  <text x="750" y="395" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">중복 시 비례보상</text>
+
+  <rect x="900" y="240" width="240" height="180" rx="16" fill="url(#card)" stroke="#7C3AED" stroke-width="2"/>
+  <text x="1020" y="285" text-anchor="middle" fill="#C4B5FD" font-size="15" font-weight="700" font-family="sans-serif">합의금 최대</text>
+  <text x="1020" y="340" text-anchor="middle" fill="#FFFFFF" font-size="44" font-weight="800" font-family="sans-serif">2억</text>
+  <text x="1020" y="370" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="600" font-family="sans-serif">사망사고 기준</text>
+  <text x="1020" y="395" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">12대 중과실</text>
+
+  <!-- 6사 점유율 -->
+  <text x="60" y="475" fill="#FFFFFF" font-size="26" font-weight="800" font-family="sans-serif">6사 시장 점유율 — 2026 상반기</text>
+  <text x="60" y="503" fill="#94A3B8" font-size="14" font-family="sans-serif">운전자보험 신규 가입 기준 추정치</text>
+
+  <!-- Bars -->
+  <g font-family="sans-serif">
+    <text x="60" y="545" fill="#FFFFFF" font-size="16" font-weight="700">KB손보</text>
+    <rect x="180" y="528" width="544" height="22" rx="4" fill="#7C3AED"/>
+    <text x="740" y="545" fill="#C4B5FD" font-size="16" font-weight="700">16~17%</text>
+
+    <text x="60" y="585" fill="#FFFFFF" font-size="16" font-weight="700">DB손보</text>
+    <rect x="180" y="568" width="480" height="22" rx="4" fill="#A78BFA"/>
+    <text x="676" y="585" fill="#C4B5FD" font-size="16" font-weight="700">15% (538만 가입)</text>
+
+    <text x="60" y="625" fill="#FFFFFF" font-size="16" font-weight="700">메리츠</text>
+    <rect x="180" y="608" width="480" height="22" rx="4" fill="#A78BFA"/>
+    <text x="676" y="625" fill="#C4B5FD" font-size="16" font-weight="700">15%</text>
+
+    <text x="60" y="665" fill="#FFFFFF" font-size="16" font-weight="700">삼성화재</text>
+    <rect x="180" y="648" width="432" height="22" rx="4" fill="#C4B5FD"/>
+    <text x="628" y="665" fill="#C4B5FD" font-size="16" font-weight="700">13~14%</text>
+
+    <text x="60" y="705" fill="#FFFFFF" font-size="16" font-weight="700">현대해상</text>
+    <rect x="180" y="688" width="352" height="22" rx="4" fill="#DDD6FE"/>
+    <text x="548" y="705" fill="#C4B5FD" font-size="16" font-weight="700">11%</text>
+
+    <text x="60" y="745" fill="#FFFFFF" font-size="16" font-weight="700">한화손보</text>
+    <rect x="180" y="728" width="320" height="22" rx="4" fill="#DDD6FE"/>
+    <text x="516" y="745" fill="#C4B5FD" font-size="16" font-weight="700">10%</text>
+  </g>
+
+  <!-- 변호사비 개정 비교 -->
+  <rect x="60" y="800" width="540" height="280" rx="16" fill="url(#card)" stroke="#FCD34D" stroke-width="2"/>
+  <text x="80" y="840" fill="#FCD34D" font-size="20" font-weight="800" font-family="sans-serif">변호사비 보험금 — 개정 전후</text>
+
+  <text x="80" y="885" fill="#94A3B8" font-size="14" font-family="sans-serif">2021년 지급액</text>
+  <text x="80" y="918" fill="#FFFFFF" font-size="28" font-weight="800" font-family="sans-serif">145억 원</text>
+
+  <text x="80" y="965" fill="#94A3B8" font-size="14" font-family="sans-serif">2023년 지급액 (4.2배 폭증)</text>
+  <text x="80" y="998" fill="#F87171" font-size="28" font-weight="800" font-family="sans-serif">613억 원</text>
+
+  <rect x="380" y="870" width="200" height="180" rx="12" fill="#7C3AED" opacity="0.2"/>
+  <text x="480" y="905" text-anchor="middle" fill="#C4B5FD" font-size="14" font-weight="700" font-family="sans-serif">2026.01 적용</text>
+  <text x="480" y="945" text-anchor="middle" fill="#FFFFFF" font-size="24" font-weight="800" font-family="sans-serif">자기부담 50%</text>
+  <text x="480" y="980" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">+ 심급별 500만</text>
+  <text x="480" y="1020" text-anchor="middle" fill="#34D399" font-size="13" font-family="sans-serif">남용 차단·합리화</text>
+
+  <!-- 8주 룰 임팩트 -->
+  <rect x="620" y="800" width="520" height="280" rx="16" fill="url(#card)" stroke="#34D399" stroke-width="2"/>
+  <text x="640" y="840" fill="#34D399" font-size="20" font-weight="800" font-family="sans-serif">자부상 8주 룰 — 경상 합의금 변화</text>
+
+  <text x="640" y="885" fill="#94A3B8" font-size="14" font-family="sans-serif">기존 (12~14급 경상)</text>
+  <text x="640" y="920" fill="#FFFFFF" font-size="26" font-weight="800" font-family="sans-serif">100~400만 원</text>
+
+  <text x="640" y="970" fill="#94A3B8" font-size="14" font-family="sans-serif">2026 8주 룰 적용 후</text>
+  <text x="640" y="1005" fill="#34D399" font-size="26" font-weight="800" font-family="sans-serif">30~50만 원</text>
+
+  <rect x="940" y="900" width="180" height="100" rx="12" fill="#F87171" opacity="0.2"/>
+  <text x="1030" y="940" text-anchor="middle" fill="#FCA5A5" font-size="16" font-weight="700" font-family="sans-serif">감소율</text>
+  <text x="1030" y="980" text-anchor="middle" fill="#FFFFFF" font-size="32" font-weight="800" font-family="sans-serif">-80%</text>
+
+  <text x="640" y="1045" fill="#CBD5E1" font-size="13" font-family="sans-serif">8주 초과 치료 시 진료기록부·진단서 의무 제출</text>
+
+  <!-- 운전자보험 가입 추세 -->
+  <rect x="60" y="1100" width="1080" height="250" rx="16" fill="url(#card)" stroke="#7C3AED" stroke-width="2"/>
+  <text x="80" y="1140" fill="#C4B5FD" font-size="20" font-weight="800" font-family="sans-serif">2026 운전자보험 시장 흐름</text>
+
+  <g font-family="sans-serif">
+    <circle cx="120" cy="1185" r="6" fill="#7C3AED"/>
+    <text x="140" y="1192" fill="#FFFFFF" font-size="16" font-weight="600">규제 합리화 → 청구 절차 강화·서류 부담↑</text>
+  </g>
+  <g font-family="sans-serif">
+    <circle cx="120" cy="1225" r="6" fill="#7C3AED"/>
+    <text x="140" y="1232" fill="#FFFFFF" font-size="16" font-weight="600">신계약 변호사비 자기부담 50% — 기존 가입자 영향 없음</text>
+  </g>
+  <g font-family="sans-serif">
+    <circle cx="120" cy="1265" r="6" fill="#7C3AED"/>
+    <text x="140" y="1272" fill="#FFFFFF" font-size="16" font-weight="600">음주방지장치(2026.10) 의무 — 5년 내 2회 적발자, 자비 약 300만</text>
+  </g>
+  <g font-family="sans-serif">
+    <circle cx="120" cy="1305" r="6" fill="#7C3AED"/>
+    <text x="140" y="1312" fill="#FFFFFF" font-size="16" font-weight="600">약물운전 음주와 동일 격상 — 보험료 20% 할증</text>
+  </g>
+
+  <text x="60" y="1420" fill="#64748B" font-size="14" font-family="sans-serif">essencial | 보험 silo · 자료: 손보협회 / 금감원 (2026.04 기준 추정·평균)</text>
+</svg>

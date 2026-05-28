@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#F59E0B">육아휴직 신청 전 1분 체크리스트</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <rect x="60" y="120" width="960" height="95" rx="16" fill="rgba(239,68,68,0.08)"/>
+  <rect x="80" y="148" width="40" height="40" rx="8" fill="rgba(239,68,68,0.3)" stroke="#EF4444" stroke-width="2"/>
+  <text x="100" y="176" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#EF4444">!</text>
+  <text x="140" y="176" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">고용보험 피보험 단위기간 180일 이상 충족 확인</text>
+
+  <rect x="60" y="227" width="960" height="95" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="255" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="283" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="283" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">통상임금 확인 → 기간별 상한액(250/200/160만)과 비교</text>
+
+  <rect x="60" y="334" width="960" height="95" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="362" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="390" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="390" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">6+6 특례 대상: 자녀 18개월 + 배우자 고용보험 확인</text>
+
+  <rect x="60" y="441" width="960" height="95" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="469" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="497" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="497" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">사업주에게 휴직 30일 전 서면 신청 완료</text>
+
+  <rect x="60" y="548" width="960" height="95" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="576" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="604" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="604" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">고용보험 급여 신청 (휴직 1개월 경과 후 매월)</text>
+
+  <rect x="60" y="655" width="960" height="95" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="683" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="711" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="711" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">인천 거주 시 장려금 자격·1년 거주 요건 확인</text>
+
+  <rect x="60" y="762" width="960" height="95" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="790" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="818" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="818" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">국민연금 납부예외 자동 처리 확인 (추납 여부 검토)</text>
+
+  <rect x="60" y="869" width="960" height="95" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="897" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="925" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="925" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">복직 전 건보료 분납 신청 계획 수립 (최대 10회)</text>
+
+  <rect x="60" y="976" width="960" height="70" rx="16" fill="rgba(239,68,68,0.08)"/>
+  <rect x="80" y="993" width="40" height="40" rx="8" fill="rgba(239,68,68,0.3)" stroke="#EF4444" stroke-width="2"/>
+  <text x="100" y="1021" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#EF4444">!</text>
+  <text x="140" y="1021" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">급여 신청 12개월 경과 시 소멸 — 매월 신청 잊지 마세요</text>
+</svg>

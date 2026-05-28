@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1700" fill="url(#bg)"/>
+
+  <rect x="60" y="50" width="260" height="40" rx="20" fill="#B45309"/>
+  <text x="190" y="77" text-anchor="middle" fill="#FFFFFF" font-size="17" font-weight="800" font-family="sans-serif">사업자 유형별 의사결정 가이드</text>
+
+  <text x="60" y="150" fill="#FFFFFF" font-size="38" font-weight="800" font-family="sans-serif">나는 어떤 채널을 골라야 할까?</text>
+  <text x="60" y="192" fill="#FCD34D" font-size="20" font-weight="600" font-family="sans-serif">자금 목적·규모·자격·담보별 최적 전략 8가지</text>
+
+  <!-- Scenario 1: 인터넷은행 신용 -->
+  <rect x="60" y="230" width="540" height="200" rx="16" fill="url(#card)" stroke="#B45309" stroke-width="2"/>
+  <rect x="60" y="230" width="8" height="200" fill="#FCD34D"/>
+  <text x="88" y="268" fill="#FCD34D" font-size="15" font-weight="800" font-family="sans-serif">SCENARIO 1</text>
+  <text x="88" y="300" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">월 매출 변동 · 3천만 급전</text>
+  <text x="88" y="335" fill="#CBD5E1" font-size="14" font-family="sans-serif">1인 자영업 · 신용 700+ · 비대면 희망</text>
+  <rect x="88" y="355" width="484" height="2" fill="#334155"/>
+  <text x="88" y="385" fill="#FCD34D" font-size="18" font-weight="800" font-family="sans-serif">→ 인터넷은행 신용대출</text>
+  <text x="88" y="412" fill="#86EFAC" font-size="14" font-family="sans-serif">AI 평가 비대면 승인 · 1~3일 · 4%대 진입</text>
+
+  <!-- Scenario 2: 저금리 대환 -->
+  <rect x="620" y="230" width="520" height="200" rx="16" fill="url(#card)" stroke="#B45309" stroke-width="2"/>
+  <rect x="620" y="230" width="8" height="200" fill="#86EFAC"/>
+  <text x="648" y="268" fill="#86EFAC" font-size="15" font-weight="800" font-family="sans-serif">SCENARIO 2</text>
+  <text x="648" y="300" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">카드론·저축 7~10% 부채 5천만</text>
+  <text x="648" y="335" fill="#CBD5E1" font-size="14" font-family="sans-serif">NCB 919점 이하 (과거 4~5등급) 가능</text>
+  <rect x="648" y="355" width="464" height="2" fill="#334155"/>
+  <text x="648" y="385" fill="#86EFAC" font-size="18" font-weight="800" font-family="sans-serif">→ 소진공 저금리 대환</text>
+  <text x="648" y="412" fill="#86EFAC" font-size="14" font-family="sans-serif">4.5% 고정 5천만 · 연 250만 이상 절감</text>
+
+  <!-- Scenario 3: 일반경영안정 -->
+  <rect x="60" y="450" width="540" height="200" rx="16" fill="url(#card)" stroke="#B45309" stroke-width="2"/>
+  <rect x="60" y="450" width="8" height="200" fill="#86EFAC"/>
+  <text x="88" y="488" fill="#86EFAC" font-size="15" font-weight="800" font-family="sans-serif">SCENARIO 3</text>
+  <text x="88" y="520" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">안정 매출 · 운영자금 5~7천만</text>
+  <text x="88" y="555" fill="#CBD5E1" font-size="14" font-family="sans-serif">사업자 1년+ · 신용·매출 양호</text>
+  <rect x="88" y="575" width="484" height="2" fill="#334155"/>
+  <text x="88" y="605" fill="#86EFAC" font-size="18" font-weight="800" font-family="sans-serif">→ 일반경영안정자금</text>
+  <text x="88" y="632" fill="#86EFAC" font-size="14" font-family="sans-serif">3.5% 업체당 7천만 · 시중 6.5% 대비 −150만/년</text>
+
+  <!-- Scenario 4: 혁신성장 -->
+  <rect x="620" y="450" width="520" height="200" rx="16" fill="url(#card)" stroke="#B45309" stroke-width="2"/>
+  <rect x="620" y="450" width="8" height="200" fill="#FCD34D"/>
+  <text x="648" y="488" fill="#FCD34D" font-size="15" font-weight="800" font-family="sans-serif">SCENARIO 4</text>
+  <text x="648" y="520" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">제조 자영업 · 스마트 설비 3억</text>
+  <text x="648" y="555" fill="#CBD5E1" font-size="14" font-family="sans-serif">시설투자 필요 · 중진공 추천서 가능</text>
+  <rect x="648" y="575" width="464" height="2" fill="#334155"/>
+  <text x="648" y="605" fill="#FCD34D" font-size="18" font-weight="800" font-family="sans-serif">→ 혁신성장촉진자금</text>
+  <text x="648" y="632" fill="#86EFAC" font-size="14" font-family="sans-serif">최대 10억 · 8년 분할 · 정책 우대금리</text>
+
+  <!-- Scenario 5: 보증재단 -->
+  <rect x="60" y="670" width="540" height="200" rx="16" fill="url(#card)" stroke="#B45309" stroke-width="2"/>
+  <rect x="60" y="670" width="8" height="200" fill="#FCD34D"/>
+  <text x="88" y="708" fill="#FCD34D" font-size="15" font-weight="800" font-family="sans-serif">SCENARIO 5</text>
+  <text x="88" y="740" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">음식점 확장 1.5억 · 부동산 無</text>
+  <text x="88" y="775" fill="#CBD5E1" font-size="14" font-family="sans-serif">사업장 임차 · 담보 없지만 사업성 있음</text>
+  <rect x="88" y="795" width="484" height="2" fill="#334155"/>
+  <text x="88" y="825" fill="#FCD34D" font-size="18" font-weight="800" font-family="sans-serif">→ 지역 신보재단 보증서</text>
+  <text x="88" y="852" fill="#86EFAC" font-size="14" font-family="sans-serif">보증서+시중은행 4%대 · 부동산 없이 고액</text>
+
+  <!-- Scenario 6: 청년 -->
+  <rect x="620" y="670" width="520" height="200" rx="16" fill="url(#card)" stroke="#FCD34D" stroke-width="2"/>
+  <rect x="620" y="670" width="8" height="200" fill="#86EFAC"/>
+  <text x="648" y="708" fill="#86EFAC" font-size="15" font-weight="800" font-family="sans-serif">SCENARIO 6 · 최저금리</text>
+  <text x="648" y="740" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">만 35세 IT 청년 창업 · 5천</text>
+  <text x="648" y="775" fill="#CBD5E1" font-size="14" font-family="sans-serif">만 39세 이하 자격 · 운영자금 필요</text>
+  <rect x="648" y="795" width="464" height="2" fill="#334155"/>
+  <text x="648" y="825" fill="#86EFAC" font-size="18" font-weight="800" font-family="sans-serif">→ 청년고용연계자금</text>
+  <text x="648" y="852" fill="#86EFAC" font-size="14" font-family="sans-serif">약 2.9% (정책 최저) · 기준금리 그대로</text>
+
+  <!-- Scenario 7: 시중 담보 -->
+  <rect x="60" y="890" width="540" height="200" rx="16" fill="url(#card)" stroke="#B45309" stroke-width="2"/>
+  <rect x="60" y="890" width="8" height="200" fill="#D97706"/>
+  <text x="88" y="928" fill="#D97706" font-size="15" font-weight="800" font-family="sans-serif">SCENARIO 7</text>
+  <text x="88" y="960" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">사업장 부동산 有 · 시설자금 5억</text>
+  <text x="88" y="995" fill="#CBD5E1" font-size="14" font-family="sans-serif">본인 명의 상가 담보 가능 · 장기 분할 선호</text>
+  <rect x="88" y="1015" width="484" height="2" fill="#334155"/>
+  <text x="88" y="1045" fill="#D97706" font-size="18" font-weight="800" font-family="sans-serif">→ 시중은행 사업자 담보대출</text>
+  <text x="88" y="1072" fill="#86EFAC" font-size="14" font-family="sans-serif">3.8~5.2% · LTV 70% · 10년 분할</text>
+
+  <!-- Scenario 8: 주담대 보유 -->
+  <rect x="620" y="890" width="520" height="200" rx="16" fill="url(#card)" stroke="#B45309" stroke-width="2"/>
+  <rect x="620" y="890" width="8" height="200" fill="#FCA5A5"/>
+  <text x="648" y="928" fill="#FCA5A5" font-size="15" font-weight="800" font-family="sans-serif">SCENARIO 8</text>
+  <text x="648" y="960" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">주담대 보유 사업자 · 3천 추가</text>
+  <text x="648" y="995" fill="#CBD5E1" font-size="14" font-family="sans-serif">가계 대출 DSR 효과 우회 필요</text>
+  <rect x="648" y="1015" width="464" height="2" fill="#334155"/>
+  <text x="648" y="1045" fill="#FCA5A5" font-size="18" font-weight="800" font-family="sans-serif">→ 정책자금 / 보증서 우선</text>
+  <text x="648" y="1072" fill="#86EFAC" font-size="14" font-family="sans-serif">DSR 해당 無 · 신용 한도 −15% 우회</text>
+
+  <!-- 종소세 영향 공식 카드 -->
+  <rect x="60" y="1120" width="1080" height="180" rx="16" fill="url(#card)" stroke="#FCD34D" stroke-width="2"/>
+  <text x="80" y="1165" fill="#FCD34D" font-size="22" font-weight="800" font-family="sans-serif">종소세 신고소득 vs 대출 한도 트레이드오프</text>
+
+  <g font-family="sans-serif">
+    <text x="80" y="1205" fill="#FFFFFF" font-size="16" font-weight="700">▶ 공식: 한도 = 신고소득 × 1~2배 (우량 사업자)</text>
+    <text x="80" y="1235" fill="#FFFFFF" font-size="16" font-weight="700">▶ 위험: 필요경비를 너무 많이 잡으면 세금은 줄지만 한도 급감</text>
+
+    <rect x="80" y="1250" width="1040" height="40" rx="10" fill="#064E3B" opacity="0.4" stroke="#86EFAC" stroke-width="1"/>
+    <text x="100" y="1275" fill="#86EFAC" font-size="14" font-weight="800">실무</text>
+    <text x="160" y="1275" fill="#E2E8F0" font-size="14">대출 계획 있으면 5월 종소세 신고 전에 세무사와 '절세 vs 한도' 균형점 설계</text>
+  </g>
+
+  <!-- 지금 바로 확인 6단계 -->
+  <rect x="60" y="1320" width="1080" height="300" rx="16" fill="url(#card)" stroke="#B45309" stroke-width="2"/>
+  <text x="80" y="1365" fill="#FCD34D" font-size="22" font-weight="800" font-family="sans-serif">신청 전 확인 체크리스트 6단계</text>
+
+  <g font-family="sans-serif">
+    <circle cx="105" cy="1410" r="20" fill="#B45309"/>
+    <text x="105" y="1417" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="800">1</text>
+    <text x="140" y="1405" fill="#FFFFFF" font-size="16" font-weight="700">NCB 신용점수 무료 조회</text>
+    <text x="140" y="1428" fill="#CBD5E1" font-size="13">토스·올크레딧·나이스 — 800+ 시중은행 우대</text>
+
+    <circle cx="625" cy="1410" r="20" fill="#B45309"/>
+    <text x="625" y="1417" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="800">2</text>
+    <text x="660" y="1405" fill="#FFFFFF" font-size="16" font-weight="700">2025 종소세 신고소득 확인</text>
+    <text x="660" y="1428" fill="#CBD5E1" font-size="13">홈택스 → 소득금액증명원 → 한도 가늠</text>
+
+    <circle cx="105" cy="1475" r="20" fill="#B45309"/>
+    <text x="105" y="1482" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="800">3</text>
+    <text x="140" y="1470" fill="#FFFFFF" font-size="16" font-weight="700">정책자금 자격 스크리닝</text>
+    <text x="140" y="1493" fill="#CBD5E1" font-size="13">소상공인마당·소진공·중진공 4종 검토</text>
+
+    <circle cx="625" cy="1475" r="20" fill="#B45309"/>
+    <text x="625" y="1482" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="800">4</text>
+    <text x="660" y="1470" fill="#FFFFFF" font-size="16" font-weight="700">지역 신보재단 사전 상담</text>
+    <text x="660" y="1493" fill="#CBD5E1" font-size="13">사업성 평가 가능성 확인</text>
+
+    <circle cx="105" cy="1540" r="20" fill="#B45309"/>
+    <text x="105" y="1547" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="800">5</text>
+    <text x="140" y="1535" fill="#FFFFFF" font-size="16" font-weight="700">인터넷은행 가심사 병행</text>
+    <text x="140" y="1558" fill="#CBD5E1" font-size="13">토스·카카오·케이 비교 (신용 영향 無)</text>
+
+    <circle cx="625" cy="1540" r="20" fill="#B45309"/>
+    <text x="625" y="1547" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="800">6</text>
+    <text x="660" y="1535" fill="#FFFFFF" font-size="16" font-weight="700">마이데이터 정리 (1~2개월)</text>
+    <text x="660" y="1558" fill="#CBD5E1" font-size="13">카드론·현금서비스 잔액 정리 후 신청</text>
+
+    <text x="80" y="1605" fill="#FCA5A5" font-size="14" font-weight="700">⚠ 여러 채널 동시 가심사 남발 주의 — 단기 집중 조회는 신용점수 하락</text>
+  </g>
+
+  <text x="60" y="1675" fill="#64748B" font-size="14" font-family="sans-serif">essencial | 대출·금융 silo · 자료: 소진공·중진공·금감원·은행연합회 (2026.04 기준)</text>
+</svg>

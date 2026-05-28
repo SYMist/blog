@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#F59E0B">나는 어디? 차량 취득 빠른 판단</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <rect x="60" y="120" width="960" height="120" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="140" width="34" height="34" rx="17" fill="#F59E0B"/>
+  <text x="97" y="164" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="800" fill="#0B1F3B">1</text>
+  <text x="130" y="164" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">사업 확장 대출이 필요하다</text>
+  <text x="130" y="196" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">→ 장기 렌트 추천 — DSR 부채 미인식, 대출 한도 보호</text>
+  <text x="130" y="222" font-family="'Pretendard',sans-serif" font-size="16" fill="#F59E0B">할부 시 대출 한도 최대 1.2억 축소 위험</text>
+
+  <rect x="60" y="252" width="960" height="120" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="272" width="34" height="34" rx="17" fill="#F59E0B"/>
+  <text x="97" y="296" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="800" fill="#0B1F3B">2</text>
+  <text x="130" y="296" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">직원 여러 명이 운전한다</text>
+  <text x="130" y="328" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">→ 장기 렌트 추천 — 사고 시 보험 할증 없음 + 정비 대행</text>
+  <text x="130" y="354" font-family="'Pretendard',sans-serif" font-size="16" fill="#F59E0B">자차 면책금만 부담, 관리 변동성 최소화</text>
+
+  <rect x="60" y="384" width="960" height="120" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="404" width="34" height="34" rx="17" fill="#F59E0B"/>
+  <text x="97" y="428" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="800" fill="#0B1F3B">3</text>
+  <text x="130" y="428" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">일반 번호판이 필요하다 (품위 유지)</text>
+  <text x="130" y="460" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">→ 운용 리스 추천 — 하·허·호 없음, 리스료 93% 비용 처리</text>
+  <text x="130" y="486" font-family="'Pretendard',sans-serif" font-size="16" fill="#F59E0B">전문직·임원·대외 미팅 잦은 사업자에 적합</text>
+
+  <rect x="60" y="516" width="960" height="120" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="536" width="34" height="34" rx="17" fill="#F59E0B"/>
+  <text x="97" y="560" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="800" fill="#0B1F3B">4</text>
+  <text x="130" y="560" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">경차·9인승 승합·화물차 운행</text>
+  <text x="130" y="592" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">→ 렌트 또는 할부 추천 — 부가세 10% 매입세액공제 가능</text>
+  <text x="130" y="618" font-family="'Pretendard',sans-serif" font-size="16" fill="#F59E0B">리스는 면세 계산서 → 환급 불가 주의!</text>
+
+  <rect x="60" y="648" width="960" height="120" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="668" width="34" height="34" rx="17" fill="#F59E0B"/>
+  <text x="97" y="692" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="800" fill="#0B1F3B">5</text>
+  <text x="130" y="692" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">10년 이상 장기 보유 계획</text>
+  <text x="130" y="724" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">→ 할부/일시불 추천 — 수수료·이자 없어 총비용 최저</text>
+  <text x="130" y="750" font-family="'Pretendard',sans-serif" font-size="16" fill="#F59E0B">감가상각 800만 원/년 비용 처리 + 잔존가치 확보</text>
+
+  <rect x="60" y="780" width="960" height="120" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="800" width="34" height="34" rx="17" fill="#F59E0B"/>
+  <text x="97" y="824" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="800" fill="#0B1F3B">6</text>
+  <text x="130" y="824" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">전기차 전환 고려 중</text>
+  <text x="130" y="856" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">→ 렌트/리스 추천 — 배터리 감가 리스크를 렌트·리스사가 부담</text>
+  <text x="130" y="882" font-family="'Pretendard',sans-serif" font-size="16" fill="#F59E0B">인천 최대 1,200만 원 + 취득세 140만 원 감면</text>
+
+  <rect x="60" y="912" width="960" height="120" rx="16" fill="rgba(239,68,68,0.08)"/>
+  <rect x="80" y="932" width="34" height="34" rx="17" fill="#EF4444"/>
+  <text x="97" y="956" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="800" fill="#FFF">!</text>
+  <text x="130" y="956" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">8,000만 원 이상 고가 차량</text>
+  <text x="130" y="988" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">→ 방식 무관, 연두색 번호판 부착 필수 (리스·렌트·구매 모두)</text>
+  <text x="130" y="1014" font-family="'Pretendard',sans-serif" font-size="16" fill="#EF4444">할인으로 가액 낮춰도 공급가액·기준가격 중 높은 금액 기준</text>
+
+  <rect x="60" y="1050" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

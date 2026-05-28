@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- Top bar -->
+  <rect x="0" y="0" width="1080" height="8" fill="#F59E0B"/>
+
+  <!-- Title -->
+  <text x="540" y="72" font-family="-apple-system, sans-serif" font-size="32" font-weight="900" fill="#FFFFFF" text-anchor="middle">나는 어디? 업종별 10초 판단</text>
+  <text x="540" y="106" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0" text-anchor="middle">카페 / 일반음식점 / 제과점 — 한 번에 확인</text>
+
+  <!-- Divider -->
+  <line x1="60" y1="126" x2="1020" y2="126" stroke="#1A3270" stroke-width="2"/>
+
+  <!-- Column headers -->
+  <rect x="60" y="138" width="960" height="56" rx="10" fill="#1A3270"/>
+  <text x="360" y="172" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#34D399" text-anchor="middle">카페·커피숍</text>
+  <text x="360" y="192" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">(휴게음식점)</text>
+  <text x="600" y="172" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#F59E0B" text-anchor="middle">일반음식점</text>
+  <text x="600" y="192" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">(한식·중식·양식)</text>
+  <text x="870" y="172" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#EF4444" text-anchor="middle">제과점</text>
+  <text x="870" y="192" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">(빵집·베이커리)</text>
+
+  <!-- Row label column bg -->
+  <rect x="60" y="194" width="240" height="580" rx="0" fill="#0D2347"/>
+
+  <!-- Row 1: 인허가 유형 -->
+  <rect x="60" y="194" width="960" height="96" rx="0" fill="none" stroke="#1A3270" stroke-width="1"/>
+  <text x="180" y="238" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#A0B4D0" text-anchor="middle">인허가 유형</text>
+  <text x="360" y="238" font-family="-apple-system, sans-serif" font-size="17" font-weight="800" fill="#34D399" text-anchor="middle">영업신고</text>
+  <text x="360" y="264" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">구청·보건소 위생과</text>
+  <text x="600" y="238" font-family="-apple-system, sans-serif" font-size="17" font-weight="800" fill="#34D399" text-anchor="middle">영업신고</text>
+  <text x="600" y="264" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">구청·보건소 위생과</text>
+  <text x="870" y="238" font-family="-apple-system, sans-serif" font-size="17" font-weight="800" fill="#34D399" text-anchor="middle">영업신고</text>
+  <text x="870" y="264" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">구청·보건소 위생과</text>
+
+  <!-- Row 2: 주류 판매 -->
+  <rect x="60" y="290" width="960" height="96" rx="0" fill="none" stroke="#1A3270" stroke-width="1"/>
+  <rect x="60" y="290" width="960" height="96" fill="#0B1F3B" opacity="0.3"/>
+  <text x="180" y="344" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#A0B4D0" text-anchor="middle">주류 판매</text>
+  <text x="360" y="344" font-family="-apple-system, sans-serif" font-size="24" font-weight="900" fill="#EF4444" text-anchor="middle">불가</text>
+  <text x="360" y="368" font-family="-apple-system, sans-serif" font-size="13" fill="#EF4444" text-anchor="middle">맥주·막걸리 모두 안됨</text>
+  <text x="600" y="344" font-family="-apple-system, sans-serif" font-size="24" font-weight="900" fill="#34D399" text-anchor="middle">가능</text>
+  <text x="600" y="368" font-family="-apple-system, sans-serif" font-size="13" fill="#34D399" text-anchor="middle">주류 메뉴 운영 OK</text>
+  <text x="870" y="344" font-family="-apple-system, sans-serif" font-size="24" font-weight="900" fill="#EF4444" text-anchor="middle">불가</text>
+  <text x="870" y="368" font-family="-apple-system, sans-serif" font-size="13" fill="#EF4444" text-anchor="middle">음료·제과만 가능</text>
+
+  <!-- Row 3: 조리 형태 -->
+  <rect x="60" y="386" width="960" height="96" rx="0" fill="none" stroke="#1A3270" stroke-width="1"/>
+  <text x="180" y="440" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#A0B4D0" text-anchor="middle">조리 형태</text>
+  <text x="360" y="434" font-family="-apple-system, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle">음료·간단식</text>
+  <text x="360" y="458" font-family="-apple-system, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle">즉석 제공</text>
+  <text x="600" y="434" font-family="-apple-system, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle">주문 후</text>
+  <text x="600" y="458" font-family="-apple-system, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle">본격 조리</text>
+  <text x="870" y="434" font-family="-apple-system, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle">직접 제조·</text>
+  <text x="870" y="458" font-family="-apple-system, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle">진열 판매</text>
+
+  <!-- Row 4: 처리기간 -->
+  <rect x="60" y="482" width="960" height="96" rx="0" fill="none" stroke="#1A3270" stroke-width="1"/>
+  <rect x="60" y="482" width="960" height="96" fill="#0B1F3B" opacity="0.3"/>
+  <text x="180" y="536" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#A0B4D0" text-anchor="middle">처리기간</text>
+  <text x="360" y="536" font-family="-apple-system, sans-serif" font-size="24" font-weight="900" fill="#F59E0B" text-anchor="middle">3~5일</text>
+  <text x="600" y="536" font-family="-apple-system, sans-serif" font-size="24" font-weight="900" fill="#F59E0B" text-anchor="middle">3~5일</text>
+  <text x="870" y="536" font-family="-apple-system, sans-serif" font-size="24" font-weight="900" fill="#F59E0B" text-anchor="middle">3~5일</text>
+
+  <!-- Row 5: 한 줄 요약 -->
+  <rect x="60" y="578" width="960" height="96" rx="0" fill="#1A3270"/>
+  <text x="180" y="632" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#34D399" text-anchor="middle">선택 기준</text>
+  <text x="360" y="624" font-family="-apple-system, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">음료 중심, 맥주</text>
+  <text x="360" y="646" font-family="-apple-system, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">안 팔면 여기</text>
+  <text x="600" y="624" font-family="-apple-system, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">밥·면·술 메뉴</text>
+  <text x="600" y="646" font-family="-apple-system, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">있으면 여기</text>
+  <text x="870" y="624" font-family="-apple-system, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">빵·과자 직접</text>
+  <text x="870" y="646" font-family="-apple-system, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">구우면 여기</text>
+
+  <!-- Key warning box -->
+  <rect x="60" y="700" width="960" height="100" rx="14" fill="#2A1515"/>
+  <rect x="60" y="700" width="960" height="100" rx="14" fill="none" stroke="#EF4444" stroke-width="2"/>
+  <text x="540" y="742" font-family="-apple-system, sans-serif" font-size="19" font-weight="800" fill="#EF4444" text-anchor="middle">⚠️ 카페(휴게음식점)에서 맥주 판매 = 식품위생법 위반</text>
+  <text x="540" y="776" font-family="-apple-system, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle">주류를 판매하려면 처음부터 일반음식점으로 영업신고 해야 합니다</text>
+
+  <!-- Bottom note -->
+  <text x="540" y="872" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준 | 관할 구청 위생과에서 업종별 최종 확인 필수</text>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="1072" width="1080" height="8" fill="#F59E0B"/>
+</svg>

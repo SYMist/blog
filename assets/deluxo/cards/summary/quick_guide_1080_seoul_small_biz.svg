@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="80" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="800" fill="#F59E0B">내 상황에 맞는 서울시 지원 사업은?</text>
+  <rect x="60" y="110" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <rect x="60" y="140" width="960" height="100" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="180" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#3B82F6">서울에서 창업 준비 중</text>
+  <text x="100" y="218" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">→ 스타트업 패키지(300만) + 창업특화(200만)</text>
+
+  <rect x="60" y="250" width="960" height="100" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="290" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#3B82F6">39세 이하 청년 사장</text>
+  <text x="100" y="328" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">→ 청년 특화 창업지원(250만) + 직접융자(최대 5억)</text>
+
+  <rect x="60" y="360" width="960" height="100" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="400" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#3B82F6">50세 이상 시니어 창업</text>
+  <text x="100" y="438" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">→ 시니어 특화 창업지원(250만) + 안심통장(1,000만)</text>
+
+  <rect x="60" y="470" width="960" height="100" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="510" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#3B82F6">온라인 전환이 필요한 중장년</text>
+  <text x="100" y="548" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">→ 디지털전환 지원(300만+100만) · 40~65세 미만</text>
+
+  <rect x="60" y="580" width="960" height="100" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="620" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#3B82F6">프리랜서 · 1인 자영업</text>
+  <text x="100" y="658" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">→ 프리랜서 온 플랫폼(에스크로 결제·세무지원)</text>
+
+  <rect x="60" y="690" width="960" height="100" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="730" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#EF4444">매출 급감 · 경영위기</text>
+  <text x="100" y="768" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">→ 위기극복 패키지(300만) + 금융지원 융자</text>
+
+  <rect x="60" y="800" width="960" height="100" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="840" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#EF4444">폐업 예정 · 업종 전환 고민</text>
+  <text x="100" y="878" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">→ 새 길 여는 폐업지원(300만) + 컨설팅</text>
+
+  <rect x="60" y="910" width="960" height="100" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="950" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#10B981">폐업 후 재창업 준비</text>
+  <text x="100" y="988" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">→ 재도전 지원(200만) + 스타트업 패키지 중복 가능</text>
+
+  <rect x="60" y="1030" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

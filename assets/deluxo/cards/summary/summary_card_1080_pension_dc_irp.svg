@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <rect x="60" y="60" width="280" height="60" rx="30" fill="#F59E0B"/>
+  <text x="200" y="101" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#0B1F3B" text-anchor="middle">2026 최신 개정</text>
+
+  <text x="540" y="200" font-family="'Pretendard', sans-serif" font-size="64" font-weight="900" fill="#FFFFFF" text-anchor="middle">퇴직연금 DB·DC·IRP</text>
+  <text x="540" y="280" font-family="'Pretendard', sans-serif" font-size="44" font-weight="700" fill="#F59E0B" text-anchor="middle">핵심 한눈에 비교</text>
+
+  <rect x="60" y="340" width="960" height="120" rx="20" fill="#1A3270"/>
+  <text x="540" y="385" font-family="'Pretendard', sans-serif" font-size="32" font-weight="800" fill="#F59E0B" text-anchor="middle">노란우산공제 2026 한도 상향</text>
+  <text x="540" y="430" font-family="'Pretendard', sans-serif" font-size="28" font-weight="600" fill="#EAF2FF" text-anchor="middle">4,000만↓ 600만 · 4,000만~1억 400만 (각 +100만)</text>
+
+  <rect x="60" y="490" width="960" height="120" rx="20" fill="#1A3270"/>
+  <text x="540" y="535" font-family="'Pretendard', sans-serif" font-size="32" font-weight="800" fill="#F59E0B" text-anchor="middle">21년 이상 근속 시 50% 감면</text>
+  <text x="540" y="580" font-family="'Pretendard', sans-serif" font-size="28" font-weight="600" fill="#EAF2FF" text-anchor="middle">1~10년 30% · 11~20년 40% · 21년+ 50%</text>
+
+  <rect x="60" y="640" width="960" height="120" rx="20" fill="#1A3270"/>
+  <text x="540" y="685" font-family="'Pretendard', sans-serif" font-size="32" font-weight="800" fill="#F59E0B" text-anchor="middle">ISA-IRP 풍차돌리기</text>
+  <text x="540" y="730" font-family="'Pretendard', sans-serif" font-size="28" font-weight="600" fill="#EAF2FF" text-anchor="middle">60일 내 이체 · 10% 세액공제 · 최대 300만/연</text>
+
+  <rect x="60" y="790" width="960" height="120" rx="20" fill="#1A3270"/>
+  <text x="540" y="835" font-family="'Pretendard', sans-serif" font-size="32" font-weight="800" fill="#F59E0B" text-anchor="middle">적격 TDF 위험자산 100% 가능</text>
+  <text x="540" y="880" font-family="'Pretendard', sans-serif" font-size="28" font-weight="600" fill="#EAF2FF" text-anchor="middle">2026.04.01 시행 · 적립기 안전 20% / 인출기 60%</text>
+
+  <rect x="60" y="940" width="960" height="100" rx="20" fill="#F59E0B"/>
+  <text x="540" y="1005" font-family="'Pretendard', sans-serif" font-size="38" font-weight="900" fill="#0B1F3B" text-anchor="middle">노란우산 + IRP = 약 200만 절세</text>
+</svg>

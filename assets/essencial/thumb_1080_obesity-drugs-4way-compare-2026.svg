@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#4c1d95"/>
+    </linearGradient>
+    <linearGradient id="tealGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0F766E"/>
+      <stop offset="100%" stop-color="#134E4A"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#15803D"/>
+      <stop offset="100%" stop-color="#14532d"/>
+    </linearGradient>
+    <linearGradient id="amberGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D97706"/>
+      <stop offset="100%" stop-color="#78350F"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <circle cx="920" cy="160" r="220" fill="#7C3AED" fill-opacity="0.08"/>
+  <circle cx="160" cy="920" r="180" fill="#0F766E" fill-opacity="0.08"/>
+
+  <rect x="40" y="40" width="120" height="34" rx="17" fill="#0F766E" fill-opacity="0.3" stroke="#0F766E" stroke-width="1.5"/>
+  <text x="100" y="63" text-anchor="middle" fill="#99F6E4" font-size="14" font-weight="700" font-family="sans-serif">건강·의료</text>
+
+  <rect x="176" y="40" width="140" height="34" rx="17" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="246" y="63" text-anchor="middle" fill="#94A3B8" font-size="14" font-family="sans-serif">2026.05 기준</text>
+
+  <rect x="332" y="40" width="160" height="34" rx="17" fill="#4c1d95" stroke="#7C3AED" stroke-width="1.5"/>
+  <text x="412" y="63" text-anchor="middle" fill="#DDD6FE" font-size="14" font-weight="700" font-family="sans-serif">4종 비만약</text>
+
+  <text x="540" y="180" text-anchor="middle" fill="#FFFFFF" font-size="40" font-weight="800" font-family="sans-serif">위고비·삭센다·마운자로</text>
+  <text x="540" y="232" text-anchor="middle" fill="#FFFFFF" font-size="40" font-weight="800" font-family="sans-serif">큐시미아 4종 비교</text>
+  <text x="540" y="280" text-anchor="middle" fill="#DDD6FE" font-size="22" font-weight="600" font-family="sans-serif">효과·가격·부작용·처방 (2026)</text>
+
+  <rect x="200" y="308" width="680" height="3" rx="1.5" fill="#7C3AED" fill-opacity="0.6"/>
+
+  <rect x="160" y="330" width="760" height="80" rx="16" fill="#1e293b" fill-opacity="0.9" stroke="#334155" stroke-width="1.5"/>
+  <text x="540" y="368" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="700" font-family="sans-serif">효과 vs 가격 트레이드오프</text>
+  <text x="540" y="398" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">효과 2.7배 차 · 가격 최대 11배 차</text>
+
+  <rect x="40" y="430" width="1000" height="125" rx="14" fill="url(#purpleGrad)" fill-opacity="0.85" stroke="#7C3AED" stroke-width="2"/>
+  <text x="60" y="465" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">마운자로 — 효과 1위 (-20.2%)</text>
+  <text x="60" y="497" fill="#DDD6FE" font-size="17" font-weight="700" font-family="sans-serif">월 28~80만 · 주 1회 · GLP-1 + GIP 이중</text>
+  <text x="60" y="528" fill="#CBD5E1" font-size="14" font-family="sans-serif">✅ 부작용 18%로 적음 (위고비 절반) · BMI 35+ 고도비만 추천</text>
+
+  <rect x="40" y="565" width="1000" height="125" rx="14" fill="url(#tealGrad)" fill-opacity="0.85" stroke="#0F766E" stroke-width="2"/>
+  <text x="60" y="600" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">위고비 — 시장 1위 (-14.9%)</text>
+  <text x="60" y="632" fill="#99F6E4" font-size="17" font-weight="700" font-family="sans-serif">월 23~39만 · 주 1회 · 시장 점유 60%</text>
+  <text x="60" y="663" fill="#CBD5E1" font-size="14" font-family="sans-serif">✅ 가성비·효과·편의성 균형 · BMI 30~35 1순위</text>
+
+  <rect x="40" y="700" width="1000" height="125" rx="14" fill="url(#greenGrad)" fill-opacity="0.85" stroke="#15803D" stroke-width="2"/>
+  <text x="60" y="735" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">큐시미아 — 경구 (-14.4%)</text>
+  <text x="60" y="767" fill="#86EFAC" font-size="17" font-weight="700" font-family="sans-serif">월 약 15만 · 매일 캡슐 · 가성비 1위</text>
+  <text x="60" y="798" fill="#CBD5E1" font-size="14" font-family="sans-serif">✅ 주사 없음 · 향정신성 부작용 주의 (녹내장·우울증 금기)</text>
+
+  <rect x="40" y="835" width="1000" height="80" rx="14" fill="url(#amberGrad)" fill-opacity="0.85" stroke="#D97706" stroke-width="2"/>
+  <text x="60" y="868" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">삭센다 — 최저가 (-7.5%)</text>
+  <text x="60" y="895" fill="#FCD34D" font-size="16" font-weight="700" font-family="sans-serif">월 7~15만 · 매일 주사 · BMI 27~30 가벼운 시작</text>
+
+  <rect x="40" y="930" width="1000" height="90" rx="12" fill="#1e293b" fill-opacity="0.7" stroke="#334155" stroke-width="1.5"/>
+  <text x="540" y="960" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="800" font-family="sans-serif">⚠️ 2024.12.02부터 4종 모두 비대면 처방 금지</text>
+  <text x="540" y="988" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">병원 직접 방문 필수 · 약물 중단 시 1년 내 요요 위험 · 의사 상담 후 결정</text>
+  <text x="540" y="1010" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">큐시미아는 향정신성 의약품으로 원래 비대면 처방 불가</text>
+
+  <text x="40" y="1060" fill="#64748B" font-size="13" font-family="sans-serif">essencial | 건강·의료 · 2026.05 기준 · 비급여 전문의약품 · 의사 처방 필수 · 의료 자문 아님</text>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <rect x="80" y="120" width="200" height="56" rx="28" fill="#F59E0B"/>
+  <text x="180" y="157" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#0B1F3B">2026 서울</text>
+  <text x="80" y="280" font-family="'Pretendard',sans-serif" font-size="82" font-weight="900" fill="#FFF">소상공인</text>
+  <text x="80" y="385" font-family="'Pretendard',sans-serif" font-size="82" font-weight="900" fill="#FFF">지원금</text>
+  <text x="80" y="490" font-family="'Pretendard',sans-serif" font-size="52" font-weight="600" fill="#EAF2FF">창업·성장·위기·재도전</text>
+  <text x="80" y="560" font-family="'Pretendard',sans-serif" font-size="52" font-weight="600" fill="#EAF2FF">8개 사업 총정리</text>
+  <rect x="80" y="630" width="920" height="120" rx="20" fill="rgba(255,255,255,0.08)"/>
+  <text x="540" y="685" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="42" font-weight="800" fill="#F59E0B">종합 315억 + 금융 2.7조</text>
+  <text x="540" y="730" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" fill="#EAF2FF">안심통장 1,000만 · 디지털전환 400만</text>
+  <rect x="80" y="830" width="180" height="60" rx="30" fill="#E8F0FF"/>
+  <text x="170" y="869" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="700" fill="#1D4ED8">지원금액</text>
+  <rect x="290" y="830" width="180" height="60" rx="30" fill="#E8F0FF"/>
+  <text x="380" y="869" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="700" fill="#1D4ED8">신청방법</text>
+  <rect x="500" y="830" width="180" height="60" rx="30" fill="#E8F0FF"/>
+  <text x="590" y="869" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="700" fill="#1D4ED8">신청기간</text>
+  <rect x="80" y="980" width="920" height="6" rx="3" fill="#F59E0B"/>
+</svg>

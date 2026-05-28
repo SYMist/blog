@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#FBBF24"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="10" fill="url(#accent)"/>
+
+  <!-- Title -->
+  <text x="60" y="88" font-family="-apple-system, sans-serif" font-size="40" font-weight="900" fill="#FFFFFF">내 상황은?</text>
+  <text x="60" y="136" font-family="-apple-system, sans-serif" font-size="40" font-weight="900" fill="#F59E0B">10초 판단 가이드</text>
+
+  <!-- Divider -->
+  <rect x="60" y="158" width="960" height="3" fill="#F59E0B" rx="2"/>
+
+  <!-- Header -->
+  <rect x="60" y="178" width="960" height="52" rx="10" fill="#1D4ED8"/>
+  <text x="270" y="211" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF" text-anchor="middle">현재 상황</text>
+  <text x="640" y="211" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF" text-anchor="middle">해야 할 일</text>
+  <text x="940" y="211" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF" text-anchor="middle">기대 효과</text>
+
+  <!-- Row 1 -->
+  <rect x="60" y="242" width="960" height="172" rx="12" fill="#1A3270"/>
+  <text x="270" y="290" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#F59E0B" text-anchor="middle">인가 후 1년 지남</text>
+  <text x="270" y="318" font-family="-apple-system, sans-serif" font-size="16" fill="#EAF2FF" text-anchor="middle">연체 없이 상환 중</text>
+  <text x="270" y="344" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">공공기록 미확인</text>
+  <line x1="470" y1="252" x2="470" y2="404" stroke="#0A1A35" stroke-width="1"/>
+  <text x="640" y="284" font-family="-apple-system, sans-serif" font-size="16" fill="#EAF2FF" text-anchor="middle">신용점수 앱에서</text>
+  <text x="640" y="308" font-family="-apple-system, sans-serif" font-size="16" fill="#EAF2FF" text-anchor="middle">공공기록 삭제 확인</text>
+  <text x="640" y="352" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">한국신용정보원 조회</text>
+  <line x1="830" y1="252" x2="830" y2="404" stroke="#0A1A35" stroke-width="1"/>
+  <text x="940" y="290" font-family="-apple-system, sans-serif" font-size="16" fill="#34D399" text-anchor="middle">삭제 확인 시</text>
+  <text x="940" y="318" font-family="-apple-system, sans-serif" font-size="16" fill="#34D399" text-anchor="middle">금융거래 즉시</text>
+  <text x="940" y="344" font-family="-apple-system, sans-serif" font-size="16" fill="#34D399" text-anchor="middle">재개 가능</text>
+
+  <!-- Row 2 -->
+  <rect x="60" y="426" width="960" height="172" rx="12" fill="#1A3270"/>
+  <text x="270" y="474" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#F59E0B" text-anchor="middle">면책 후 체크카드만</text>
+  <text x="270" y="502" font-family="-apple-system, sans-serif" font-size="16" fill="#EAF2FF" text-anchor="middle">사용 중</text>
+  <text x="270" y="528" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">신용카드 발급 대기 중</text>
+  <line x1="470" y1="436" x2="470" y2="588" stroke="#0A1A35" stroke-width="1"/>
+  <text x="640" y="468" font-family="-apple-system, sans-serif" font-size="16" fill="#EAF2FF" text-anchor="middle">새 주거래은행 급여이체</text>
+  <text x="640" y="492" font-family="-apple-system, sans-serif" font-size="16" fill="#EAF2FF" text-anchor="middle">공과금 자동납부 집중</text>
+  <text x="640" y="536" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">비금융정보 KCB·NICE 제출</text>
+  <line x1="830" y1="436" x2="830" y2="588" stroke="#0A1A35" stroke-width="1"/>
+  <text x="940" y="474" font-family="-apple-system, sans-serif" font-size="16" fill="#34D399" text-anchor="middle">6개월 후 신용카드</text>
+  <text x="940" y="500" font-family="-apple-system, sans-serif" font-size="16" fill="#34D399" text-anchor="middle">심사 신청 가능</text>
+
+  <!-- Row 3 -->
+  <rect x="60" y="610" width="960" height="172" rx="12" fill="#1A3270"/>
+  <text x="270" y="658" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#F59E0B" text-anchor="middle">면책 후 2년 경과</text>
+  <text x="270" y="686" font-family="-apple-system, sans-serif" font-size="16" fill="#EAF2FF" text-anchor="middle">신용카드 시도 중</text>
+  <text x="270" y="712" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">계속 거절 중</text>
+  <line x1="470" y1="620" x2="470" y2="772" stroke="#0A1A35" stroke-width="1"/>
+  <text x="640" y="652" font-family="-apple-system, sans-serif" font-size="16" fill="#EAF2FF" text-anchor="middle">채권자 은행 피하기</text>
+  <text x="640" y="676" font-family="-apple-system, sans-serif" font-size="16" fill="#EAF2FF" text-anchor="middle">체크카드 실적은행의</text>
+  <text x="640" y="700" font-family="-apple-system, sans-serif" font-size="16" fill="#EAF2FF" text-anchor="middle">신용카드부터 신청</text>
+  <line x1="830" y1="620" x2="830" y2="772" stroke="#0A1A35" stroke-width="1"/>
+  <text x="940" y="666" font-family="-apple-system, sans-serif" font-size="16" fill="#FBBF24" text-anchor="middle">거절 반복 피하고</text>
+  <text x="940" y="692" font-family="-apple-system, sans-serif" font-size="16" fill="#FBBF24" text-anchor="middle">전략적 1회 신청</text>
+
+  <!-- Row 4 -->
+  <rect x="60" y="794" width="960" height="172" rx="12" fill="#1D3A60"/>
+  <text x="270" y="842" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#F59E0B" text-anchor="middle">면책 후 5년 이상</text>
+  <text x="270" y="870" font-family="-apple-system, sans-serif" font-size="16" fill="#EAF2FF" text-anchor="middle">주택 구입 계획 중</text>
+  <text x="270" y="896" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">주담대 가능한지 확인</text>
+  <line x1="470" y1="804" x2="470" y2="956" stroke="#0A1A35" stroke-width="1"/>
+  <text x="640" y="836" font-family="-apple-system, sans-serif" font-size="16" fill="#EAF2FF" text-anchor="middle">신용점수 확인</text>
+  <text x="640" y="860" font-family="-apple-system, sans-serif" font-size="16" fill="#EAF2FF" text-anchor="middle">재직·소득 증빙 준비</text>
+  <text x="640" y="904" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">연소득 3,000만원+ 필요</text>
+  <line x1="830" y1="804" x2="830" y2="956" stroke="#0A1A35" stroke-width="1"/>
+  <text x="940" y="852" font-family="-apple-system, sans-serif" font-size="16" fill="#34D399" text-anchor="middle">700점+ 이상이면</text>
+  <text x="940" y="878" font-family="-apple-system, sans-serif" font-size="16" fill="#34D399" text-anchor="middle">1금융권 심사</text>
+  <text x="940" y="904" font-family="-apple-system, sans-serif" font-size="16" fill="#34D399" text-anchor="middle">가능</text>
+
+  <rect x="0" y="1068" width="1080" height="12" fill="url(#accent)"/>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="80" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="800" fill="#F59E0B">2분기 정책자금 신청 전 체크리스트</text>
+  <rect x="60" y="110" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <rect x="60" y="140" width="960" height="90" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="186" font-family="'Pretendard',sans-serif" font-size="34" fill="#22C55E">☑</text>
+  <text x="150" y="180" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">소상공인 요건 확인</text>
+  <text x="150" y="212" font-family="'Pretendard',sans-serif" font-size="19" fill="#EAF2FF">상시근로자 5인 미만 (제조·건설·운수·광업 10인 미만)</text>
+
+  <rect x="60" y="240" width="960" height="90" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="286" font-family="'Pretendard',sans-serif" font-size="34" fill="#22C55E">☑</text>
+  <text x="150" y="280" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">제외 업종 해당 여부 확인</text>
+  <text x="150" y="312" font-family="'Pretendard',sans-serif" font-size="19" fill="#EAF2FF">유흥업·부동산업 등 제외</text>
+
+  <rect x="60" y="340" width="960" height="90" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="386" font-family="'Pretendard',sans-serif" font-size="34" fill="#22C55E">☑</text>
+  <text x="150" y="380" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">국세·지방세 체납 없음 확인</text>
+  <text x="150" y="412" font-family="'Pretendard',sans-serif" font-size="19" fill="#EAF2FF">납세증명서 미리 발급</text>
+
+  <rect x="60" y="440" width="960" height="90" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="486" font-family="'Pretendard',sans-serif" font-size="34" fill="#22C55E">☑</text>
+  <text x="150" y="480" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">사업자등록증·신분증·통장 사본 준비</text>
+  <text x="150" y="512" font-family="'Pretendard',sans-serif" font-size="19" fill="#EAF2FF">스캔본 미리 저장해두면 접수 당일 빠름</text>
+
+  <rect x="60" y="540" width="960" height="90" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="586" font-family="'Pretendard',sans-serif" font-size="34" fill="#22C55E">☑</text>
+  <text x="150" y="580" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">부가세 과세표준증명원 발급</text>
+  <text x="150" y="612" font-family="'Pretendard',sans-serif" font-size="19" fill="#EAF2FF">홈택스에서 당일 발급 가능 — 전날 미리 출력 권장</text>
+
+  <rect x="60" y="640" width="960" height="90" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="686" font-family="'Pretendard',sans-serif" font-size="34" fill="#22C55E">☑</text>
+  <text x="150" y="680" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">자금별 추가 서류 준비</text>
+  <text x="150" y="712" font-family="'Pretendard',sans-serif" font-size="19" fill="#EAF2FF">청년고용→고용보험증명 / 장애인→등록증 / 재해→확인증</text>
+
+  <rect x="60" y="740" width="960" height="90" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="786" font-family="'Pretendard',sans-serif" font-size="34" fill="#22C55E">☑</text>
+  <text x="150" y="780" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">우대금리 증빙 준비</text>
+  <text x="150" y="812" font-family="'Pretendard',sans-serif" font-size="19" fill="#EAF2FF">비수도권 확인·경영컨설팅 수료증·고용보험 가입증</text>
+
+  <rect x="60" y="840" width="960" height="90" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="886" font-family="'Pretendard',sans-serif" font-size="34" fill="#22C55E">☑</text>
+  <text x="150" y="880" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">소진공 누리집 회원가입·로그인 사전 테스트</text>
+  <text x="150" y="912" font-family="'Pretendard',sans-serif" font-size="19" fill="#EAF2FF">ols.semas.or.kr 접속 확인 — 당일 대기열 대비</text>
+
+  <rect x="60" y="945" width="960" height="90" rx="16" fill="rgba(239,68,68,0.15)"/>
+  <text x="100" y="991" font-family="'Pretendard',sans-serif" font-size="34" fill="#EF4444">⏰</text>
+  <text x="150" y="990" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#EF4444">4월 6일(월) 오전 10:00 캘린더 등록!</text>
+</svg>

@@ -1,0 +1,463 @@
+<!-- essencial E-39 | 대출·금융 silo | ISA vs 연금저축 vs IRP 만기 세제혜택 3종 비교 (2026) -->
+
+<!-- ✅ Schema.org 구조화 데이터 -->
+<div style="display:none">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "ISA vs 연금저축 vs IRP 만기 세제혜택 3종 비교 (2026)",
+      "description": "ISA 비과세·9.9% 분리과세, 연금저축 세액공제 최대 99만원, IRP 합산 148.5만원. 3종 절세계좌 구조·납입 전략·ISA 만기 연금이전으로 연간 최대 198만원 환급받는 방법을 비교합니다.",
+      "datePublished": "2026-04-29",
+      "dateModified": "2026-04-29",
+      "author": {"@type": "Person", "name": "essencial"},
+      "publisher": {"@type": "Organization", "name": "essencial"}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "ISA, 연금저축, IRP를 모두 가입해야 하나요?", "acceptedAnswer": {"@type": "Answer", "text": "세 계좌는 상호 보완적으로 설계되어 있어 모두 가입하면 최대 절세 효과를 얻을 수 있습니다. 하지만 반드시 모두 가입할 필요는 없습니다. 세액공제가 우선이면 연금저축+IRP, 단기 유동성이 필요하면 ISA, 은퇴 준비가 목적이면 연금저축+IRP가 핵심입니다. 여유자금과 유동성 상황에 따라 단계적으로 가입하는 것이 현실적입니다."}},
+        {"@type": "Question", "name": "세액공제를 최대로 받으려면 얼마나 납입해야 하나요?", "acceptedAnswer": {"@type": "Answer", "text": "연금저축 600만원 + IRP 300만원 = 합산 900만원이 세액공제 최대 한도입니다. 총급여 5,500만원 이하면 16.5% 적용으로 148.5만원, 초과면 13.2%로 118.8만원을 돌려받습니다. 여기에 ISA 만기자금을 3,000만원 이상 연금계좌로 이전하면 추가 300만원 공제로 최대 198만원까지 환급이 가능합니다."}},
+        {"@type": "Question", "name": "ISA 만기자금을 연금계좌로 이전하면 어떤 혜택이 있나요?", "acceptedAnswer": {"@type": "Answer", "text": "ISA 만기일로부터 60일 이내에 연금저축 또는 IRP로 이전하면 이전 금액의 10%(최대 300만원)를 추가 세액공제 받을 수 있습니다. 이는 기존 연금계좌 세액공제 한도 900만원과 별도로 적용되어 해당 연도 최대 1,200만원까지 공제가 가능합니다. 반드시 금융사의 '연금전환서비스'를 이용해야 하며, 일반 계좌이체는 인정되지 않습니다."}},
+        {"@type": "Question", "name": "IRP는 중도 인출이 안 된다고 하는데, 연금저축과 어떻게 조합하나요?", "acceptedAnswer": {"@type": "Answer", "text": "IRP는 특정 사유(무주택 주택 구입, 6개월 이상 요양 등) 외 중도 부분 인출이 불가하고 전액 해지만 가능합니다. 반면 연금저축은 언제든 인출이 가능합니다(단, 세액공제 받은 금액은 기타소득세 16.5% 부담). 실무 추천 조합은 연금저축 600만원(유동성 확보) + IRP 300만원(세액공제 채우기)입니다. 중도인출 가능성이 있다면 연금저축 비중을 높이세요."}},
+        {"@type": "Question", "name": "연금소득세 1,500만원 기준을 초과하면 어떻게 되나요?", "acceptedAnswer": {"@type": "Answer", "text": "연간 사적연금(연금저축+IRP) 수령액이 1,500만원을 초과하면 분리과세(16.5%)와 종합과세 중 선택이 가능합니다. 1,500만원 이하면 3.3~5.5%의 저율 분리과세가 자동 적용됩니다. 따라서 연금 수령 시 연간 1,500만원을 넘지 않도록 수령 금액을 조절하거나, 배우자와 분산 수령하는 전략이 유효합니다."}}
+      ]
+    }
+  ]
+}
+</script>
+</div>
+
+<style>
+  :root{
+    --pri:#B45309; --pri2:#D97706;
+    --white:#FFFFFF; --text:#111827;
+    --muted:#4B5563; --border:#E5E7EB;
+    --bg:#F9FAFB; --accent:#FFFBEB;
+  }
+  .wrap{max-width:860px;margin:0 auto;line-height:1.8;color:var(--text);}
+  .meta{color:var(--muted);font-size:.95rem;margin:6px 0 18px;}
+  .badge{display:inline-block;background:var(--accent);border:1px solid #FDE68A;padding:3px 10px;border-radius:999px;font-size:.85rem;margin-right:8px;}
+  .notice{background:#FFF7ED;border:1px solid #FED7AA;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .conclusion{background:#FFFBEB;border:1px solid #FDE68A;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .toc{background:var(--bg);border:1px solid var(--border);padding:14px 16px;border-radius:12px;margin:16px 0 22px;}
+  .toc a{text-decoration:none;color:var(--pri);}
+  .toc ul{margin:8px 0 0 18px;}
+
+  .wrap a.btn,.wrap a.btn:link,.wrap a.btn:visited{
+    display:inline-flex;align-items:center;justify-content:center;
+    padding:10px 14px;border-radius:10px;border:1px solid var(--pri);
+    background:var(--pri) !important;color:var(--white) !important;
+    text-decoration:none !important;font-weight:800;
+  }
+  .wrap a.btn:hover{background:var(--pri2) !important;}
+  .wrap a.btn.secondary,.wrap a.btn.secondary:link,.wrap a.btn.secondary:visited{
+    background:var(--white) !important;color:var(--pri) !important;border-color:var(--pri) !important;
+  }
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 6px;}
+
+  table{width:100%;border-collapse:collapse;margin:14px 0 10px;}
+  th,td{border:1px solid var(--border);padding:10px;vertical-align:top;}
+  th{background:#F3F4F6;text-align:left;}
+  .small{font-size:.95rem;color:var(--muted);}
+  h1{margin:0 0 8px;line-height:1.25;}
+  h2{margin-top:30px;padding-top:8px;border-top:1px solid var(--border);}
+  h3{margin-top:16px;}
+  .q{font-weight:900;margin:14px 0 6px;}
+  .a{margin:0 0 10px;}
+  .highlight{background:#F0FDF4;border:1px solid #BBF7D0;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .warning{background:#FEF2F2;border:1px solid #FECACA;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .selfcheck{background:#EFF6FF;border:1px solid #BFDBFE;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .scenario{background:#FEFCE8;border:1px solid #FDE68A;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .scope{background:#F8FAFC;border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .scope ul{margin:4px 0 0 18px;}
+  .action-steps{background:#FFFBEB;border:1px solid #FDE68A;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .action-steps ol{margin:8px 0 0 18px;}
+  .sources{background:var(--bg);border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:14px 0;font-size:.9rem;}
+  .sources ul{margin:4px 0 0 18px;}
+  .footer{margin-top:26px;padding-top:14px;border-top:1px solid var(--border);color:var(--muted);font-size:.95rem;}
+  .disclaimer{background:#F9FAFB;border:1px solid var(--border);padding:10px 14px;border-radius:10px;margin:14px 0;font-size:.9rem;color:var(--muted);}
+</style>
+
+<div class="wrap">
+  <h1>ISA vs 연금저축 vs IRP 세제혜택 3종 비교: 연간 최대 198만원 환급받는 조합 전략 (2026)</h1>
+  <div class="meta">
+    <span class="badge">대출·금융</span>
+    <span class="badge">업데이트: 2026-04-29</span>
+  </div>
+
+  <div class="notice">
+    <strong>먼저 확인!</strong><br/>
+    본 글의 세액공제·환급액은 2026년 4월 현행 세법 기준입니다. 2026년 세법개정안(연금계좌 한도 900만→1,800만, ISA 납입한도 2,000만→4,000만)이 국회 통과 시 혜택이 확대됩니다. 세액공제 환급액은 개인 소득·세금 납부액에 따라 달라지며 세무 전문가 확인을 권장합니다.
+  </div>
+
+  <p class="small">
+    ISA는 비과세·9.9% 분리과세로 단기 절세에 강하고, 연금저축·IRP는 세액공제로 연말정산 최대 148.5만 원을 돌려받습니다. ISA 만기자금 연금이전까지 더하면 연간 최대 198만 원 환급이 가능합니다.
+  </p>
+
+  <!-- 이 글의 범위 -->
+  <div class="scope">
+    <strong>이 글에서 다루는 것</strong>
+    <ul>
+      <li>ISA·연금저축·IRP 세제혜택 구조 비교 (비과세·세액공제·과세이연)</li>
+      <li>총급여별 세액공제 환급액 계산 및 최적 납입 조합 전략</li>
+      <li>ISA 만기자금 연금계좌 이전으로 추가 300만원 공제 받는 방법</li>
+      <li>시나리오 4종 — 연령·소득·여유자금별 절세 시뮬레이션</li>
+    </ul>
+    <strong>다루지 않는 것</strong>
+    <ul>
+      <li>특정 금융사 ISA·연금저축·IRP 상품 추천 (금융사별 수수료·수익률 비교)</li>
+      <li>개인 세무 상담 (공인세무사 상담 권장)</li>
+    </ul>
+  </div>
+
+  <!-- 결론 먼저 -->
+  <div class="conclusion" id="top">
+    <h2 style="border-top:none;margin-top:0;">✅ 결론 먼저: 상황별 추천</h2>
+    <ul>
+      <li><strong>세액공제 최대화 목표 (연말정산 환급 우선)</strong> → 연금저축 600만원 + IRP 300만원 = 연간 148.5만원 환급 (총급여 5,500만 이하)</li>
+      <li><strong>단기 절세 + 유동성 확보 필요</strong> → ISA 우선 (3년 만기, 원금 중도인출 가능, 비과세 200~400만원)</li>
+      <li><strong>ISA 만기 도래 시</strong> → 만기 후 60일 내 연금저축·IRP로 이전 → 추가 300만원 세액공제 (최대 198만원 연간 환급)</li>
+      <li><strong>은퇴 후 연금 수령 시</strong> → 연간 1,500만원 이하로 수령 관리 → 저율 분리과세(3.3~5.5%) 자동 적용</li>
+    </ul>
+  </div>
+
+  <!-- 이미지 1: 비교 요약 카드 -->
+  <p><img src="https://cdn.essencial.kr/assets/compare_summary_isa-pension-irp-comparison-2026.png" alt="ISA 연금저축 IRP 세제혜택 3종 비교 요약" width="860"/></p>
+
+  <div class="toc">
+    <strong>목차</strong>
+    <ul>
+      <li><a href="#selfcheck">1) 가입 자격 자가진단</a></li>
+      <li><a href="#compare">2) 3종 비교표</a></li>
+      <li><a href="#detail">3) 항목별 상세 비교</a></li>
+      <li><a href="#scenario">4) 시나리오별 절세 시뮬레이션</a></li>
+      <li><a href="#process">5) ISA 만기자금 연금이전 전략</a></li>
+      <li><a href="#trap">6) 주의사항·자주 하는 실수</a></li>
+      <li><a href="#faq">7) FAQ</a></li>
+      <li><a href="#update">업데이트 로그</a></li>
+    </ul>
+  </div>
+
+  <!-- 섹션 1: 자격 자가진단 -->
+  <h2 id="selfcheck">1) 가입 자격 자가진단</h2>
+  <div class="selfcheck">
+    <strong>아래 항목을 체크해보세요</strong>
+    <table>
+      <thead>
+        <tr><th>확인 항목</th><th>ISA</th><th>연금저축</th><th>IRP</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>가입 자격</strong></td>
+          <td>19세 이상 거주자</td>
+          <td>누구나 (소득 무관)</td>
+          <td>소득 있는 자 (근로자·자영업자 등)</td>
+        </tr>
+        <tr>
+          <td><strong>연간 납입 한도</strong></td>
+          <td>2,000만원 (미납분 이월 가능)</td>
+          <td>1,800만원 (IRP 합산)</td>
+          <td>1,800만원 (연금저축 합산)</td>
+        </tr>
+        <tr>
+          <td><strong>세액공제 한도</strong></td>
+          <td>없음</td>
+          <td>600만원</td>
+          <td>합산 900만원</td>
+        </tr>
+        <tr>
+          <td><strong>의무 보유기간</strong></td>
+          <td>3년</td>
+          <td>5년 이상 + 만 55세</td>
+          <td>5년 이상 + 만 55세</td>
+        </tr>
+        <tr>
+          <td><strong>위험자산 비중 제한</strong></td>
+          <td>없음</td>
+          <td>없음 (100% 가능)</td>
+          <td>70% 이하</td>
+        </tr>
+        <tr>
+          <td><strong>중도인출</strong></td>
+          <td>원금 범위 내 자유</td>
+          <td>자유 (세금 부담)</td>
+          <td>특정 사유만 / 전액 해지</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="small">※ 직장인이 아닌 전업주부·학생은 IRP 가입 불가. 연금저축·ISA는 누구나 가능.</p>
+  </div>
+
+  <!-- 섹션 2: 3종 비교표 -->
+  <h2 id="compare">2) 3종 비교표 (2026년 현행 기준)</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>비교 항목</th>
+        <th>ISA</th>
+        <th>연금저축</th>
+        <th>IRP</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>주목적</strong></td>
+        <td>자산 증식·단기 절세</td>
+        <td>은퇴 자산 적립</td>
+        <td>은퇴 자산 + 퇴직금 수령</td>
+      </tr>
+      <tr>
+        <td><strong>세제혜택 종류</strong></td>
+        <td>비과세 + 분리과세 9.9% + 손익통산</td>
+        <td>세액공제 + 과세이연</td>
+        <td>세액공제 + 과세이연 + 퇴직소득세 감면</td>
+      </tr>
+      <tr>
+        <td><strong>세액공제 한도</strong></td>
+        <td>없음</td>
+        <td>600만원 (IRP 미포함)</td>
+        <td>합산 900만원 (연금저축 포함)</td>
+      </tr>
+      <tr>
+        <td><strong>최대 환급 (16.5%)</strong></td>
+        <td>없음</td>
+        <td>99만원 (600만원 납입 시)</td>
+        <td><strong>148.5만원</strong> (900만원 납입 시)</td>
+      </tr>
+      <tr>
+        <td><strong>만기·수령 시 과세</strong></td>
+        <td>비과세(200/400만) + 9.9% 분리과세</td>
+        <td>연금소득세 3.3~5.5%</td>
+        <td>연금소득세 3.3~5.5%</td>
+      </tr>
+      <tr>
+        <td><strong>운용 중 과세</strong></td>
+        <td>없음 (만기 일괄 정산)</td>
+        <td>없음 (과세이연)</td>
+        <td>없음 (과세이연)</td>
+      </tr>
+      <tr>
+        <td><strong>금융소득 종합과세</strong></td>
+        <td>ISA 내 소득 제외 (절세)</td>
+        <td>해당 없음</td>
+        <td>해당 없음</td>
+      </tr>
+      <tr>
+        <td><strong>수수료</strong></td>
+        <td>없음 (중개형)</td>
+        <td>없음 (ETF 운용보수 별도)</td>
+        <td>연 0.2~0.5%</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="small">※ 2026년 4월 기준 현행 세법. 세법개정안(연금 한도 1,800만원, ISA 4,000만원) 국회 통과 시 변동될 수 있습니다.</p>
+
+  <!-- 이미지 2: 비교 매트릭스 카드 -->
+  <p><img src="https://cdn.essencial.kr/assets/compare_matrix_isa-pension-irp-comparison-2026.png" alt="ISA 연금저축 IRP 항목별 비교 매트릭스" width="860"/></p>
+
+  <!-- 섹션 3: 항목별 상세 비교 -->
+  <h2 id="detail">3) 항목별 상세 비교</h2>
+
+  <h3>세액공제: 연금저축+IRP 조합이 핵심</h3>
+  <p>세액공제는 납입금의 일정 비율을 산출세액에서 직접 차감하는 가장 직접적인 절세 혜택입니다. 총급여 5,500만원 이하면 16.5%, 초과면 13.2%가 적용됩니다. <strong>연금저축 600만원 + IRP 300만원 = 900만원</strong>이 합산 세액공제 최대 한도로, 16.5% 적용 시 148.5만원, 13.2%는 118.8만원을 환급받습니다. ISA는 세액공제가 없는 대신 비과세·분리과세 구조로 설계되어 있습니다.</p>
+
+  <div class="highlight">
+    <strong>총급여별 최대 환급액 (연금저축 600만 + IRP 300만 = 900만원 납입 시)</strong>
+    <table>
+      <thead><tr><th>총급여</th><th>공제율</th><th>연금저축 600만</th><th>IRP 300만 추가</th><th>합계 환급</th></tr></thead>
+      <tbody>
+        <tr><td>5,500만원 이하</td><td>16.5%</td><td>99만원</td><td>49.5만원</td><td><strong>148.5만원</strong></td></tr>
+        <tr><td>5,500만원 초과</td><td>13.2%</td><td>79.2만원</td><td>39.6만원</td><td><strong>118.8만원</strong></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>과세이연 효과: 복리 극대화</h3>
+  <p>세 계좌 모두 운용 중 배당·이자·매매차익에 즉시 과세하지 않습니다. 일반 계좌는 매년 수익의 15.4%가 세금으로 빠져나가지만, 절세계좌는 만기·수령 시점까지 전액이 복리로 재투자됩니다. 연구 결과 동일 조건에서 과세이연 계좌가 20년 후 일반 계좌 대비 세후 수익률이 20~30% 이상 높은 것으로 나타났습니다.</p>
+
+  <h3>중도인출 자유도: ISA &gt; 연금저축 &gt; IRP</h3>
+  <p>ISA는 원금 범위 내에서 자유롭게 인출 가능합니다(수익금은 만기 전 불가). 연금저축은 언제든 인출 가능하지만 세액공제 받은 금액 인출 시 기타소득세 16.5%가 부과됩니다. IRP는 중도 부분 인출이 원칙적으로 불가하며, 특정 사유(무주택 주택 구입, 6개월 이상 요양 등)에서만 전액 해지가 가능합니다. 유동성이 중요하다면 연금저축 비중을 높이는 것이 유리합니다.</p>
+
+  <h3>납입 최적 조합: 연금저축 600만 + IRP 300만</h3>
+  <p>실무적으로 연금저축 600만원 + IRP 300만원 혼합 전략이 추천됩니다. 연금저축은 중도인출 자유도가 높아 유동성 확보가 용이하고, IRP는 300만원만 납입해 나머지 세액공제 한도(300만원)를 채우는 데 활용합니다. IRP만 단독으로 900만원 납입도 가능하지만, 유동성이 완전히 묶이는 단점이 있습니다.</p>
+
+  <h3>IRP 위험자산 70% 제한의 실무 영향</h3>
+  <p>IRP는 주식형 ETF·주식형 펀드 등 위험자산을 전체의 70% 이하로만 담을 수 있습니다. 나머지 30% 이상은 채권형·원리금보장 상품 등 안전자산이어야 합니다. 반면 연금저축은 위험자산 100%가 가능해 적극적인 투자를 원하면 연금저축에 주식형 ETF를 집중하고, IRP에는 채권·안정형으로 분산하는 조합이 효율적입니다.</p>
+
+  <!-- 섹션 4: 시나리오별 추천 -->
+  <h2 id="scenario">4) 시나리오별 절세 시뮬레이션</h2>
+  <div class="scenario">
+    <h3>당신의 상황에 맞는 전략은?</h3>
+    <table>
+      <thead>
+        <tr><th>당신의 상황</th><th>추천 전략</th><th>예상 혜택</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>30대 직장인, 총급여 4,500만원, 월 200만원 여유</td>
+          <td><strong>연금저축 50만 + IRP 25만 + ISA 125만</strong></td>
+          <td>세액공제 148.5만원 + ISA 비과세·분리과세</td>
+        </tr>
+        <tr>
+          <td>40대 자영업자, 종합소득 6,000만원, 절세 집중</td>
+          <td><strong>연금저축 600만 + IRP 300만</strong></td>
+          <td>세액공제 118.8만원 (13.2% 적용)</td>
+        </tr>
+        <tr>
+          <td>40대, ISA 3년 만기 잔금 5,000만원</td>
+          <td><strong>연금저축에 3,000만원 이전 (60일 내)</strong></td>
+          <td>추가 세액공제 49.5만원 → 연간 최대 198만원</td>
+        </tr>
+        <tr>
+          <td>55세 이상 은퇴 준비자, 연금 수령 시작</td>
+          <td><strong>연간 수령액 1,500만원 이하 유지</strong></td>
+          <td>저율 분리과세 5.5% 자동 적용 (일반 15.4% 대비)</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>시나리오 C 상세: ISA 만기자금 연금이전 연간 198만원 달성</h3>
+  <table>
+    <thead><tr><th>항목</th><th>금액</th><th>세액공제율</th><th>환급액</th></tr></thead>
+    <tbody>
+      <tr><td>연금저축 납입</td><td>600만원</td><td>16.5%</td><td>99만원</td></tr>
+      <tr><td>IRP 납입</td><td>300만원</td><td>16.5%</td><td>49.5만원</td></tr>
+      <tr><td>ISA 만기 연금이전</td><td>3,000만원 이상</td><td>16.5%</td><td>49.5만원</td></tr>
+      <tr><td><strong>합계</strong></td><td><strong>1,200만원 공제</strong></td><td>16.5%</td><td><strong>198만원</strong></td></tr>
+    </tbody>
+  </table>
+  <p class="small">※ 총급여 5,500만원 이하, ISA 3,000만원 이상 이전 가정. 세금 납부액이 환급액 미만이면 실제 환급은 납부액까지만.</p>
+
+  <!-- 이미지 3: 시나리오 추천 카드 -->
+  <p><img src="https://cdn.essencial.kr/assets/scenario_isa-pension-irp-comparison-2026.png" alt="ISA 연금저축 IRP 상황별 절세 전략 가이드" width="860"/></p>
+
+  <!-- 지금 바로 확인하는 순서 -->
+  <div class="action-steps">
+    <strong>지금 바로 확인하는 순서</strong>
+    <ol>
+      <li><strong>가입 계좌 현황 확인</strong>: 홈택스 또는 금융사 앱에서 ISA·연금저축·IRP 가입 여부 및 납입 금액 확인</li>
+      <li><strong>총급여 확인</strong>: 근로소득원천징수영수증에서 총급여 확인 → 세액공제율(13.2% / 16.5%) 판단</li>
+      <li><strong>세액공제 잔여 한도 계산</strong>: 이미 납입한 연금저축+IRP 합산액 → 900만원까지 추가 납입 여부 결정</li>
+      <li><strong>ISA 만기 일정 확인</strong>: 가입일 기준 3년 경과 여부 → 만기 시 60일 내 연금이전 계획 수립</li>
+      <li><strong>연금이전 서비스 신청</strong>: 금융사에 '연금전환서비스' 신청 (일반 계좌이체는 인정 안 됨)</li>
+      <li><strong>연금 수령 계획 설계</strong>: 55세 이후 연간 수령액 1,500만원 이하 유지 여부 시뮬레이션</li>
+    </ol>
+  </div>
+
+  <!-- ✅ 인아티클 광고 (시나리오 추천 직후 — CPC 최고 지점) -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5716436301710258"
+       crossorigin="anonymous"></script>
+  <ins class="adsbygoogle"
+       style="display:block; text-align:center;"
+       data-ad-layout="in-article"
+       data-ad-format="fluid"
+       data-ad-client="ca-pub-5716436301710258"
+       data-ad-slot="2039167138"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+  <!-- 섹션 5: ISA 만기자금 연금이전 -->
+  <h2 id="process">5) ISA 만기자금 연금이전 전략</h2>
+  <h3>이전 조건 3가지</h3>
+  <ol>
+    <li><strong>타이밍</strong>: ISA 만기일로부터 60일 이내</li>
+    <li><strong>방법</strong>: 반드시 금융사의 '연금전환서비스' 이용 (일반 계좌이체 인정 안 됨)</li>
+    <li><strong>대상</strong>: 본인 명의 연금저축 또는 IRP만 가능</li>
+  </ol>
+
+  <h3>이전 금액별 추가 세액공제</h3>
+  <table>
+    <thead><tr><th>이전 금액</th><th>추가 세액공제</th><th>환급(16.5%)</th><th>환급(13.2%)</th></tr></thead>
+    <tbody>
+      <tr><td>1,000만원</td><td>100만원</td><td>16.5만원</td><td>13.2만원</td></tr>
+      <tr><td>2,000만원</td><td>200만원</td><td>33만원</td><td>26.4만원</td></tr>
+      <tr><td><strong>3,000만원 이상</strong></td><td><strong>300만원 (한도)</strong></td><td><strong>49.5만원</strong></td><td><strong>39.6만원</strong></td></tr>
+    </tbody>
+  </table>
+
+  <h3>ISA 만기 후 3가지 선택지 비교</h3>
+  <table>
+    <thead><tr><th>선택지</th><th>세금</th><th>추가 혜택</th><th>유동성</th></tr></thead>
+    <tbody>
+      <tr><td><strong>A. 만기 출금</strong></td><td>비과세+9.9% 분리과세</td><td>없음</td><td>높음</td></tr>
+      <tr><td><strong>B. 연금계좌 이전</strong></td><td>55세 후 3.3~5.5%</td><td>세액공제 최대 300만원 추가</td><td>낮음</td></tr>
+      <tr><td><strong>C. ISA 재가입 (롤링)</strong></td><td>비과세+9.9% 재적용</td><td>비과세 한도 초기화</td><td>중간</td></tr>
+    </tbody>
+  </table>
+
+  <h3>IRP 퇴직금 수령 시 퇴직소득세 감면</h3>
+  <p>퇴직 시 퇴직금을 IRP로 수령하면 퇴직소득세 즉시 납부 없이 과세이연이 가능합니다. 55세 이후 연금으로 나눠 수령하면 퇴직소득세가 <strong>30% 감면</strong>(10년 이내) 또는 <strong>40% 감면</strong>(10년 초과)됩니다. 퇴직소득세 1,000만원 산출 시 IRP 연금 수령으로 400만원까지 절감할 수 있습니다.</p>
+
+  <div class="btns">
+    <a class="btn" href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7875" target="_blank" rel="noopener">국세청 연금계좌 세액공제 안내</a>
+    <a class="btn secondary" href="https://www.quarterback.co.kr/retirement-calc/tax-deduction/" target="_blank" rel="noopener">세액공제 계산기</a>
+  </div>
+
+  <!-- 섹션 6: 주의사항 -->
+  <h2 id="trap">6) 주의사항·자주 하는 실수</h2>
+  <div class="warning">
+    <ol>
+      <li><strong>ISA 의무기간(3년) 미충족 시 혜택 전액 소멸</strong>: 3년 이전 전액 해지 시 비과세·분리과세가 모두 취소되고 15.4% 일반 과세로 정산됩니다. ISA는 반드시 3년을 채워야 합니다.</li>
+      <li><strong>IRP 중도 부분인출 불가</strong>: IRP는 특정 사유 외 중도 부분 인출이 불가하며 전액 해지만 가능합니다. 해지 시 세액공제 받은 금액과 운용수익 전체에 기타소득세 16.5%가 부과됩니다.</li>
+      <li><strong>연금저축 세액공제 받지 않은 납입금 관리</strong>: 600만원을 초과해 납입한 금액(최대 1,800만원)은 세액공제가 없는 대신, 인출 시 세금이 없습니다. 이 금액은 홈택스에서 '세액공제 미수령 확인서'를 발급받아 금융사에 제출해야 비과세 인출이 가능합니다.</li>
+      <li><strong>연금소득 1,500만원 초과 시 종합과세 선택 문제</strong>: 연간 사적연금(연금저축+IRP) 수령액이 1,500만원을 초과하면 분리과세(16.5%) 또는 종합과세 중 선택해야 합니다. 종합과세 선택 시 다른 소득과 합산되어 최대 49.5%까지 세율이 올라갈 수 있습니다. 수령액을 1,500만원 이하로 관리하세요.</li>
+      <li><strong>ISA 연금이전 시 '연금전환서비스' 이용 필수</strong>: 일반 계좌이체로는 추가 세액공제가 적용되지 않습니다. 반드시 금융사 창구 또는 앱의 '연금전환서비스'를 이용해야 합니다.</li>
+    </ol>
+  </div>
+
+  <!-- 섹션 7: FAQ -->
+  <h2 id="faq">7) FAQ</h2>
+
+  <p class="q">Q1. ISA, 연금저축, IRP를 모두 가입해야 하나요?</p>
+  <p class="a">반드시 모두 가입할 필요는 없습니다. 우선순위는 상황에 따라 다릅니다. 세액공제가 목적이면 연금저축+IRP, 단기 유동성이 필요하면 ISA, 여유자금이 충분하면 3종 모두 가입해 혜택을 극대화할 수 있습니다. 여유자금이 제한적이라면 연금저축 600만원 + IRP 300만원 → 세액공제 먼저 확보한 뒤 ISA를 추가하는 것이 합리적입니다.</p>
+
+  <p class="q">Q2. 세액공제를 최대로 받으려면 얼마나 납입해야 하나요?</p>
+  <p class="a">연금저축 600만원 + IRP 300만원 = 900만원이 세액공제 최대 한도입니다. 총급여 5,500만원 이하면 148.5만원, 초과면 118.8만원이 환급됩니다. 여기에 ISA 만기자금 3,000만원 이상을 연금계좌로 이전하면 추가 49.5만원이 더해져 연간 최대 198만원(16.5% 적용 시) 환급이 가능합니다.</p>
+
+  <p class="q">Q3. 연금저축과 IRP 중 어느 것을 먼저 가입해야 하나요?</p>
+  <p class="a">연금저축을 먼저 가입하는 것이 일반적으로 유리합니다. 연금저축은 중도인출이 자유롭고, 위험자산 100% 투자가 가능해 적극적인 자산 배분에 유리합니다. IRP는 위험자산 70% 제한과 중도 부분인출 불가 단점이 있어, 연금저축 600만원을 채운 뒤 IRP 300만원을 추가하는 방식이 권장됩니다.</p>
+
+  <p class="q">Q4. ISA 만기자금 연금이전은 언제 해야 하나요?</p>
+  <p class="a">ISA 만기일로부터 60일 이내에 이전해야 합니다. 이 기간을 놓치면 추가 세액공제 혜택이 사라집니다. 만기 예정일을 미리 확인하고, 이전할 연금저축 또는 IRP 계좌를 사전에 개설해 두세요. 금융사에 '연금전환서비스'를 미리 신청하면 만기 도래 시 자동 처리가 가능합니다.</p>
+
+  <p class="q">Q5. 연금소득 1,500만원 기준을 초과하면 어떻게 되나요?</p>
+  <p class="a">연간 사적연금 수령액이 1,500만원을 초과하면 분리과세(16.5%) 또는 종합과세 중 선택이 가능합니다. 1,500만원 이하면 3.3~5.5%의 저율 분리과세가 자동 적용됩니다. 종합과세는 다른 소득과 합산되어 불리할 수 있으므로, 연간 수령액을 1,500만원 이하로 조절하거나 배우자와 분산 수령하는 전략이 유효합니다.</p>
+
+  <p class="q">Q6. 2026년 세법개정안 통과 시 어떻게 달라지나요?</p>
+  <p class="a">2026년 논의 중인 세법개정안이 통과되면 연금계좌(연금저축+IRP) 세액공제 한도가 900만원에서 1,800만원으로 확대됩니다. 이 경우 최대 환급액이 16.5% 기준 297만원까지 늘어납니다. ISA 납입한도도 2,000만원에서 4,000만원으로, 비과세 한도는 일반형 200만→500만원, 서민형 400만→1,000만원으로 확대될 예정입니다. 개정안 국회 통과 시점은 미확정이므로 현행 기준으로 전략을 수립하고, 통과 시 조정하는 것이 안전합니다.</p>
+
+  <!-- 참고자료/출처 -->
+  <div class="sources">
+    <strong>참고자료 / 출처</strong>
+    <ul>
+      <li>국세청 — 연금계좌 세액공제 한도 공식 안내: https://www.nts.go.kr</li>
+      <li>금융위원회 — 연금계좌 세액공제 한도 확대 개정 요청 (2026)</li>
+      <li>미래에셋증권 — ISA 만기자금 연금전환 안내</li>
+      <li>쿼터백연금연구소 — ISA·IRP 전환 세액공제 계산기: https://www.quarterback.co.kr</li>
+      <li>삼성자산운용 블로그 — ISA·연금저축·IRP 절세계좌 3종 비교</li>
+      <li>근로자퇴직급여보장법·소득세법 제59조의3·조세특례제한법 제91조의18</li>
+    </ul>
+  </div>
+
+  <div class="btns">
+    <a class="btn" href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7875" target="_blank" rel="noopener">국세청 세액공제 안내</a>
+    <a class="btn secondary" href="https://www.quarterback.co.kr/retirement-calc/isa-irp/" target="_blank" rel="noopener">ISA·IRP 전환 계산기</a>
+  </div>
+
+  <div class="disclaimer">
+    <strong>면책 안내</strong>: 본 글은 일반적인 금융·세제 정보 제공 목적이며, 특정 금융상품을 추천하거나 세무 조언을 제공하는 것이 아닙니다. 세액공제 환급액은 개인 소득·납부세액에 따라 달라질 수 있으며, 세법은 수시로 개정될 수 있습니다. 중요한 금융·세금 결정은 공인세무사·금융전문가와 상담 후 진행하시기 바랍니다.
+  </div>
+
+  <p class="small">관련 글: <a href="#" target="_blank" rel="noopener">4세대 실손 전환 vs 유지 손익분기 계산 (2026)</a> / <a href="#" target="_blank" rel="noopener">종합소득세 신고 후 사업자대출 한도 영향 시뮬레이션 (2026)</a></p>
+
+  <div class="footer" id="update">
+    <strong>업데이트 로그</strong><br/>
+    - 2026-04-29: 최초 발행 (2026년 세법 현행 기준·개정안 반영)<br/>
+    <span class="small">※ 세액공제 한도·비과세 기준은 세법 개정으로 변동될 수 있습니다. 납입 전 국세청 또는 금융사 최신 안내를 확인하세요.</span>
+  </div>
+</div>

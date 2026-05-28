@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 660">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="660" fill="url(#bg)"/>
+
+  <text x="540" y="48" text-anchor="middle" fill="#FFFFFF" font-size="24" font-weight="800" font-family="sans-serif">전기차 5종 충전 단가·5년 누적 비용 매트릭스</text>
+  <text x="540" y="74" text-anchor="middle" fill="#93C5FD" font-size="14" font-family="sans-serif">전비 5.5km/kWh · 연 1만 5천km · 환경부·한전 2026.05 기준</text>
+
+  <!-- Table header -->
+  <rect x="40" y="98" width="1000" height="44" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="180" y="126" text-anchor="middle" fill="#F8FAFC" font-size="15" font-weight="800" font-family="sans-serif">충전 방식</text>
+  <text x="450" y="126" text-anchor="middle" fill="#F8FAFC" font-size="15" font-weight="800" font-family="sans-serif">단가 (원/kWh)</text>
+  <text x="660" y="126" text-anchor="middle" fill="#F8FAFC" font-size="15" font-weight="800" font-family="sans-serif">월 비용</text>
+  <text x="830" y="126" text-anchor="middle" fill="#F8FAFC" font-size="15" font-weight="800" font-family="sans-serif">5년 누적</text>
+  <text x="970" y="126" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="800" font-family="sans-serif">vs 가솔린</text>
+
+  <!-- Row 1: 가정 심야 (BEST) -->
+  <rect x="40" y="146" width="1000" height="60" fill="#15803D" fill-opacity="0.4" stroke="#15803D" stroke-width="1.5"/>
+  <text x="55" y="178" fill="#86EFAC" font-size="15" font-weight="800" font-family="sans-serif">가정 심야 (BEST)</text>
+  <text x="55" y="198" fill="#CBD5E1" font-size="11" font-family="sans-serif">한전 별도 계량기 · 23~9시</text>
+  <text x="450" y="184" text-anchor="middle" fill="#86EFAC" font-size="16" font-weight="800" font-family="sans-serif">약 70원</text>
+  <text x="660" y="184" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">약 1만 6천원</text>
+  <text x="830" y="184" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="800" font-family="sans-serif">약 95만원</text>
+  <text x="970" y="184" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="800" font-family="sans-serif">-968만원</text>
+
+  <!-- Row 2: 가정 일반 -->
+  <rect x="40" y="210" width="1000" height="60" fill="#0e7490" fill-opacity="0.3" stroke="#0e7490" stroke-width="1.5"/>
+  <text x="55" y="242" fill="#67E8F9" font-size="15" font-weight="800" font-family="sans-serif">가정 일반</text>
+  <text x="55" y="262" fill="#CBD5E1" font-size="11" font-family="sans-serif">주택용 누진 2단계 적용</text>
+  <text x="450" y="248" text-anchor="middle" fill="#67E8F9" font-size="16" font-weight="800" font-family="sans-serif">약 215원</text>
+  <text x="660" y="248" text-anchor="middle" fill="#67E8F9" font-size="14" font-weight="700" font-family="sans-serif">약 4만 9천원</text>
+  <text x="830" y="248" text-anchor="middle" fill="#67E8F9" font-size="14" font-weight="800" font-family="sans-serif">약 290만원</text>
+  <text x="970" y="248" text-anchor="middle" fill="#67E8F9" font-size="14" font-weight="800" font-family="sans-serif">-773만원</text>
+
+  <!-- Row 3: 공공 완속 -->
+  <rect x="40" y="274" width="1000" height="60" fill="#1E40AF" fill-opacity="0.3" stroke="#1E40AF" stroke-width="1.5"/>
+  <text x="55" y="306" fill="#BFDBFE" font-size="15" font-weight="800" font-family="sans-serif">공공 완속</text>
+  <text x="55" y="326" fill="#CBD5E1" font-size="11" font-family="sans-serif">환경부 운영 7~14kW</text>
+  <text x="450" y="312" text-anchor="middle" fill="#BFDBFE" font-size="16" font-weight="800" font-family="sans-serif">324.4원</text>
+  <text x="660" y="312" text-anchor="middle" fill="#BFDBFE" font-size="14" font-weight="700" font-family="sans-serif">약 7만 4천원</text>
+  <text x="830" y="312" text-anchor="middle" fill="#BFDBFE" font-size="14" font-weight="800" font-family="sans-serif">약 442만원</text>
+  <text x="970" y="312" text-anchor="middle" fill="#BFDBFE" font-size="14" font-weight="800" font-family="sans-serif">-621만원</text>
+
+  <!-- Row 4: 공공 급속 -->
+  <rect x="40" y="338" width="1000" height="60" fill="#7C3AED" fill-opacity="0.3" stroke="#7C3AED" stroke-width="1.5"/>
+  <text x="55" y="370" fill="#DDD6FE" font-size="15" font-weight="800" font-family="sans-serif">공공 급속</text>
+  <text x="55" y="390" fill="#CBD5E1" font-size="11" font-family="sans-serif">환경부 운영 100kW급</text>
+  <text x="450" y="376" text-anchor="middle" fill="#DDD6FE" font-size="16" font-weight="800" font-family="sans-serif">347.2원</text>
+  <text x="660" y="376" text-anchor="middle" fill="#DDD6FE" font-size="14" font-weight="700" font-family="sans-serif">약 7만 9천원</text>
+  <text x="830" y="376" text-anchor="middle" fill="#DDD6FE" font-size="14" font-weight="800" font-family="sans-serif">약 473만원</text>
+  <text x="970" y="376" text-anchor="middle" fill="#DDD6FE" font-size="14" font-weight="800" font-family="sans-serif">-590만원</text>
+
+  <!-- Row 5: 민간 비회원 -->
+  <rect x="40" y="402" width="1000" height="60" fill="#DC2626" fill-opacity="0.4" stroke="#DC2626" stroke-width="1.5"/>
+  <text x="55" y="434" fill="#FCA5A5" font-size="15" font-weight="800" font-family="sans-serif">민간 급속 비회원 (WORST)</text>
+  <text x="55" y="454" fill="#CBD5E1" font-size="11" font-family="sans-serif">GS차지비·차지비·티맵EV 등</text>
+  <text x="450" y="440" text-anchor="middle" fill="#FCA5A5" font-size="16" font-weight="800" font-family="sans-serif">약 470원</text>
+  <text x="660" y="440" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="700" font-family="sans-serif">약 10만 7천원</text>
+  <text x="830" y="440" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="800" font-family="sans-serif">약 641만원</text>
+  <text x="970" y="440" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="800" font-family="sans-serif">-422만원</text>
+
+  <!-- Summary row -->
+  <rect x="40" y="476" width="1000" height="50" fill="#FCD34D" fill-opacity="0.2" stroke="#FCD34D" stroke-width="2"/>
+  <text x="55" y="506" fill="#FCD34D" font-size="15" font-weight="800" font-family="sans-serif">5종 격차 (최대-최소)</text>
+  <text x="450" y="506" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="800" font-family="sans-serif">약 6.7배</text>
+  <text x="660" y="506" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="800" font-family="sans-serif">약 9만원/월</text>
+  <text x="830" y="506" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="800" font-family="sans-serif">약 546만원</text>
+  <text x="970" y="506" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="800" font-family="sans-serif">차이</text>
+
+  <!-- Note -->
+  <rect x="40" y="540" width="1000" height="80" rx="10" fill="#1e293b" fill-opacity="0.6" stroke="#334155" stroke-width="1.5"/>
+  <text x="60" y="568" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">핵심 포인트</text>
+  <text x="60" y="588" fill="#CBD5E1" font-size="12" font-family="sans-serif">가솔린 5년 약 1,063만원 (12km/L · 1,700원/L) — 어떤 충전 방식으로도 422만원 이상 절감.</text>
+  <text x="60" y="608" fill="#CBD5E1" font-size="12" font-family="sans-serif">가정 심야 vs 민간 비회원 격차 546만원 = 충전 환경 설계가 전기차 경제성의 핵심 변수.</text>
+
+  <text x="40" y="650" fill="#64748B" font-size="12" font-family="sans-serif">essencial | 2026.05 기준 · 충전 손실·계절성 미반영 · 차종·운전 패턴에 따라 실제 수치 다름</text>
+</svg>

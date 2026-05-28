@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <rect x="60" y="50" width="320" height="44" rx="22" fill="#7C3AED"/>
+  <text x="220" y="80" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">2026 실손 전환 vs 유지 손익분기 계산</text>
+
+  <text x="60" y="175" fill="#FFFFFF" font-size="60" font-weight="800" font-family="sans-serif">4세대 전환,</text>
+  <text x="60" y="248" fill="#A78BFA" font-size="60" font-weight="800" font-family="sans-serif">유리한가 불리한가?</text>
+
+  <text x="60" y="310" fill="#94A3B8" font-size="22" font-weight="600" font-family="sans-serif">1세대 기준 연 147만 원이 손익분기 · 차등제·5세대 변수 포함 분석</text>
+
+  <!-- 3 key cards -->
+  <rect x="60" y="360" width="330" height="185" rx="16" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="225" y="400" text-anchor="middle" fill="#86EFAC" font-size="16" font-weight="700" font-family="sans-serif">1세대 손익분기</text>
+  <text x="225" y="460" text-anchor="middle" fill="#FFFFFF" font-size="44" font-weight="800" font-family="sans-serif">147만/년</text>
+  <text x="225" y="495" text-anchor="middle" fill="#86EFAC" font-size="15" font-weight="600" font-family="sans-serif">미달 시 4세대 전환 유리</text>
+  <text x="225" y="522" text-anchor="middle" fill="#CBD5E1" font-size="14" font-family="sans-serif">20~40대·이용 적음</text>
+
+  <rect x="410" y="360" width="330" height="185" rx="16" fill="url(#card)" stroke="#FCA5A5" stroke-width="2"/>
+  <text x="575" y="400" text-anchor="middle" fill="#FCA5A5" font-size="16" font-weight="700" font-family="sans-serif">차등제 최대 300% 할증</text>
+  <text x="575" y="460" text-anchor="middle" fill="#FFFFFF" font-size="44" font-weight="800" font-family="sans-serif">150만+ 유지</text>
+  <text x="575" y="495" text-anchor="middle" fill="#FCA5A5" font-size="15" font-weight="600" font-family="sans-serif">1세대 유지 권장</text>
+  <text x="575" y="522" text-anchor="middle" fill="#CBD5E1" font-size="14" font-family="sans-serif">50대·만성질환·도수 정기</text>
+
+  <rect x="760" y="360" width="380" height="185" rx="16" fill="url(#card)" stroke="#7C3AED" stroke-width="2"/>
+  <text x="950" y="400" text-anchor="middle" fill="#A78BFA" font-size="16" font-weight="700" font-family="sans-serif">5세대 출시 2026.5</text>
+  <text x="950" y="460" text-anchor="middle" fill="#FFFFFF" font-size="44" font-weight="800" font-family="sans-serif">3년 50% 할인</text>
+  <text x="950" y="495" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="600" font-family="sans-serif">1·2세대 인센티브 검토 중</text>
+  <text x="950" y="522" text-anchor="middle" fill="#CBD5E1" font-size="14" font-family="sans-serif">출시 후 확인 후 결정 권장</text>
+
+  <text x="60" y="590" fill="#64748B" font-size="14" font-family="sans-serif">essencial | 보험 silo · 금융감독원·금융위원회·보험개발원 (2026.04 기준)</text>
+</svg>

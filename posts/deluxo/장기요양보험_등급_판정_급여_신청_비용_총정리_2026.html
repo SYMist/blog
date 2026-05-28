@@ -1,0 +1,472 @@
+<!-- 장기요양보험 등급 판정·급여 신청·비용 총정리 (2026) -->
+<!-- slug: ltc_ins -->
+<!-- Silo: 돌봄 Silo 강화 -->
+<!-- 내부링크: #17(가족돌봄), #40(아이돌봄), #28(건강보험) -->
+
+<!-- ✅ Schema.org 구조화 데이터 -->
+<div style="display:none">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "장기요양보험 등급 판정 급여 신청 비용 총정리 2026",
+      "description": "2026년 장기요양보험 등급별 인정점수(1등급 95점↑~인지지원등급 45점↓), 재가급여 한도액(1등급 251만), 시설급여 본인부담(1등급 월 55.8만), 유효기간 연장, 통합돌봄법까지 총정리합니다.",
+      "datePublished": "2026-04-17",
+      "dateModified": "2026-04-17",
+      "author": {"@type": "Person", "name": "deluxo"},
+      "publisher": {"@type": "Organization", "name": "tistory.deluxo"}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "장기요양보험 등급은 몇 단계인가요?", "acceptedAnswer": {"@type": "Answer", "text": "1등급(95점↑)~5등급(45점↑) + 인지지원등급(45점↓)으로 총 6단계입니다. 52개 항목의 인정조사 결과로 점수가 산출됩니다."}},
+        {"@type": "Question", "name": "2026년 재가급여 한도액은 얼마인가요?", "acceptedAnswer": {"@type": "Answer", "text": "1등급 월 2,512,900원(전년 대비 +24.7만), 2등급 2,331,200원(+24.7만), 3등급 1,528,200원(+1.9만), 4등급 1,409,700원(+1.9만), 5등급 1,208,900원(+1.9만), 인지지원등급 676,320원(+1.8만)입니다."}},
+        {"@type": "Question", "name": "요양원 비용 본인부담금은 얼마인가요?", "acceptedAnswer": {"@type": "Answer", "text": "1등급 기준 1일 급여비 93,070원 × 30일 = 약 279만 원 중 일반 대상자 본인부담 20%(약 55.8만 원)입니다. 식비·간식비 등 비급여 40~50만 원을 합산하면 실질 월 부담은 약 100만 원 내외입니다."}},
+        {"@type": "Question", "name": "등급 유효기간이 연장되었나요?", "acceptedAnswer": {"@type": "Answer", "text": "네. 2026년부터 1등급은 4년→5년, 2~4등급은 3년→4년으로 연장됩니다. 5등급과 인지지원등급은 기존 2년을 유지합니다. 단, 최초 판정은 등급 무관하게 2년이며, 첫 번째 갱신 이후부터 적용됩니다."}},
+        {"@type": "Question", "name": "본인부담금 감경은 어떻게 받나요?", "acceptedAnswer": {"@type": "Answer", "text": "건강보험료 납부액 기준으로 40% 감경(재가 9%/시설 12%)과 60% 감경(재가 6%/시설 8%)이 적용됩니다. 기초생활수급자는 본인부담 0%입니다. 매년 1월 건강보험료 변동에 따라 재산정됩니다."}}
+      ]
+    }
+  ]
+}
+</script>
+</div>
+
+<style>
+  :root{
+    --blue:#1D4ED8; --blue2:#1E40AF;
+    --white:#FFFFFF; --text:#111827;
+    --muted:#4B5563; --border:#E5E7EB;
+    --bg:#F9FAFB; --blueLight:#E8F0FF;
+  }
+  .wrap{max-width:860px;margin:0 auto;line-height:1.8;color:var(--text);}
+  .meta{color:var(--muted);font-size:.95rem;margin:6px 0 18px;}
+  .badge{display:inline-block;background:var(--blueLight);border:1px solid var(--border);padding:3px 10px;border-radius:999px;font-size:.85rem;margin-right:8px;}
+  .notice{background:#fff7ed;border:1px solid #fed7aa;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .lead{background:#f8fafc;border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .keysum{background:#fefce8;border:1px solid #fde68a;padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .summary{background:#eff6ff;border:1px solid #bfdbfe;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .toc{background:var(--bg);border:1px solid var(--border);padding:14px 16px;border-radius:12px;margin:16px 0 22px;}
+  .toc a{text-decoration:none;color:var(--blue);}
+  .toc ul{margin:8px 0 0 18px;}
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 6px;}
+  .wrap a.btn,.wrap a.btn:link,.wrap a.btn:visited{
+    display:inline-flex;align-items:center;justify-content:center;
+    padding:10px 14px;border-radius:10px;border:1px solid var(--blue);
+    background:var(--blue) !important;color:var(--white) !important;
+    text-decoration:none !important;font-weight:800;
+  }
+  .wrap a.btn:hover,.wrap a.btn:active,.wrap a.btn:focus{
+    background:var(--blue2) !important;border-color:var(--blue2) !important;color:var(--white) !important;
+  }
+  .wrap a.btn.secondary,.wrap a.btn.secondary:link,.wrap a.btn.secondary:visited{
+    background:var(--white) !important;color:var(--blue) !important;border-color:var(--blue) !important;
+  }
+  .wrap a.btn.secondary:hover,.wrap a.btn.secondary:active,.wrap a.btn.secondary:focus{
+    background:var(--bg) !important;color:var(--blue2) !important;border-color:var(--blue2) !important;
+  }
+  .wrap a.btn.gray,.wrap a.btn.gray:link,.wrap a.btn.gray:visited{
+    background:#111827 !important;border-color:#111827 !important;color:var(--white) !important;
+  }
+  .wrap a.btn.gray:hover,.wrap a.btn.gray:active,.wrap a.btn.gray:focus{
+    background:#0b1220 !important;border-color:#0b1220 !important;color:var(--white) !important;
+  }
+  table{width:100%;border-collapse:collapse;margin:14px 0 10px;}
+  th,td{border:1px solid var(--border);padding:10px;vertical-align:top;}
+  th{background:#F3F4F6;text-align:left;}
+  .small{font-size:.95rem;color:var(--muted);}
+  h1{margin:0 0 8px;line-height:1.25;}
+  h2{margin-top:30px;padding-top:8px;border-top:1px solid var(--border);}
+  h3{margin-top:16px;}
+  .q{font-weight:900;margin:14px 0 6px;}
+  .a{margin:0 0 10px;}
+  .tips{background:#f0fdf4;border:1px solid #bbf7d0;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .urgency{background:#fef2f2;border:1px solid #fca5a5;padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .target{background:#f0fdf4;border:1px solid #86efac;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .target ul{margin:8px 0 0 18px;}
+  .ad{background:#f9fafb;border:1px dashed var(--border);padding:10px 12px;border-radius:10px;margin:12px 0;}
+  .footer{margin-top:26px;padding-top:14px;border-top:1px solid var(--border);color:var(--muted);font-size:.95rem;}
+</style>
+
+<div class="wrap">
+  <h1>장기요양보험 등급 판정·급여 신청·비용 총정리 (2026 최신)</h1>
+  <div class="meta">
+    <span class="badge">키워드: 장기요양보험</span>
+    <span class="badge">업데이트: 2026-04-17</span>
+  </div>
+
+  <div class="notice">
+    <strong>먼저 확인!</strong><br/>
+    2026년 3월 통합돌봄법 시행으로 지자체별 추가 지원이 다를 수 있습니다. 신청 전 관할 국민건강보험공단 지사 또는 통합지원센터에서 최신 정보를 확인하세요.
+  </div>
+
+  <p class="small">
+    2026년 노인장기요양보험 등급별 인정점수 기준(1등급 95점↑~인지지원등급 45점↓), 재가급여 월 한도액(1등급 251만 원), 시설급여 비용, 본인부담금 감경, 통합돌봄법 신규 서비스까지 한 번에 정리합니다.
+  </p>
+
+  <div class="lead">
+    2026년 대한민국은 인구 5명 중 1명이 65세 이상인 초고령사회에 공식 진입합니다. 부모님의 거동이 불편해지면서 "요양등급은 어떻게 받지?", "요양원 비용이 얼마나 들지?" 고민하시는 분이 많을 텐데요. 올해부터 중증 수급자 재가급여 한도가 대폭 인상되고, 등급 유효기간도 연장되어 부담이 줄었습니다.
+  </div>
+
+  <div class="urgency">
+    <strong>왜 지금 확인해야 할까?</strong><br/>
+    2026년 1·2등급 재가급여 한도가 전년 대비 <strong>24.7만 원 인상</strong> — 방문요양 월 3회 추가 이용 가능. 또한 등급 유효기간 연장(1등급 5년)으로 갱신 부담이 줄었습니다. 통합돌봄법 시행(3월 27일)에 따라 지자체 추가 지원도 시작되었으니 미신청 시 연간 최대 <strong>296만 원</strong> 이상 미수령 가능성이 있습니다.
+  </div>
+
+  <div class="keysum">
+    <strong>핵심 요약 3줄</strong><br/>
+    1️⃣ 등급 6단계(1~5등급 + 인지지원) — 52개 항목 인정조사 → 점수 산출 → 등급판정위원회 심의<br/>
+    2️⃣ 1·2등급 재가급여 한도 대폭 인상: 1등급 월 251만, 2등급 월 233만 (전년 대비 +24.7만)<br/>
+    3️⃣ 본인부담: 재가 15% / 시설 20% (기초수급자 0%, 40·60% 감경 제도 운영)
+  </div>
+
+  <div class="summary" id="top">
+    <h2 style="border-top:none;margin-top:0;">✅ 5줄 요약(결론)</h2>
+    <ul>
+      <li><strong>대상</strong>: 65세 이상 또는 65세 미만 노인성 질병자(치매·뇌혈관·파킨슨 등)로 6개월 이상 일상생활 도움 필요</li>
+      <li><strong>등급 판정</strong>: 52개 항목 방문조사 → 인정점수 산출 → 6단계(1등급 95점↑ ~ 인지지원등급 45점↓)</li>
+      <li><strong>재가급여</strong>: 1등급 월 2,512,900원 / 2등급 2,331,200원 / 3등급 1,528,200원 (본인부담 15%)</li>
+      <li><strong>시설급여</strong>: 1등급 일 93,070원 × 30일 = 약 279만, 본인부담 20%(55.8만) + 비급여 40~50만</li>
+      <li><strong>신규 혜택</strong>: 1·2등급 방문간호 초기 3회 본인부담 면제, 유효기간 연장, 통합돌봄법 시행</li>
+    </ul>
+
+    <div class="btns">
+      <a class="btn" href="https://www.longtermcare.or.kr" target="_blank" rel="noopener">노인장기요양보험 공식 사이트</a>
+      <a class="btn gray" href="https://www.nhis.or.kr" target="_blank" rel="noopener">국민건강보험공단</a>
+      <a class="btn secondary" href="https://www.bokjiro.go.kr" target="_blank" rel="noopener">복지로 통합 신청</a>
+    </div>
+    <p class="small">※ 등급 판정 기준과 급여 한도는 연도별로 변경될 수 있습니다. 신청 전 공식 공고/FAQ 확인 필수</p>
+  </div>
+
+  <div class="target">
+    <strong>이런 상황이라면 지금 바로 신청하세요</strong>
+    <ul>
+      <li>부모님이 치매 진단을 받았는데 요양등급 신청을 아직 안 했다면</li>
+      <li>요양원 비용이 부담되어 재가급여로 전환하고 싶은데 한도가 궁금하다면</li>
+      <li>현재 3등급인데 상태가 악화되어 등급 변경 신청을 고민하고 있다면</li>
+      <li>기초생활수급자인데 본인부담금 0%라는 사실을 몰랐다면</li>
+      <li>퇴원 후 재가 돌봄 공백이 걱정되어 통합돌봄 서비스가 궁금하다면</li>
+    </ul>
+  </div>
+
+  <div class="toc">
+    <strong>목차</strong>
+    <ul>
+      <li><a href="#table">1) 등급별 인정점수·한도액 한눈에 표</a></li>
+      <li><a href="#quick">→ 재가급여 vs 시설급여 빠른 판단</a></li>
+      <li><a href="#how">2) 등급 판정·급여 신청 방법</a></li>
+      <li><a href="#cost">3) 비용 상세 — 재가·시설·본인부담금 감경</a></li>
+      <li><a href="#new2026">4) 2026 신규·강화 서비스</a></li>
+      <li><a href="#docs">5) 서류 체크리스트</a></li>
+      <li><a href="#case">6) 경험/사례</a></li>
+      <li><a href="#faq">7) FAQ</a></li>
+      <li><a href="#check">8) 1분 체크리스트</a></li>
+      <li><a href="#update">업데이트 로그</a></li>
+    </ul>
+  </div>
+
+  <h2 id="table">1) 등급별 인정점수·재가급여 한도액 한눈에 표</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>등급</th><th>인정점수</th><th>심신 상태</th><th>재가 월 한도(원)</th><th>전년 대비 인상</th><th>유효기간(갱신 후)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>1등급</strong></td>
+        <td>95점 이상</td>
+        <td>전적으로 타인 도움 필요 (와상)</td>
+        <td><strong>2,512,900</strong></td>
+        <td>+247,800</td>
+        <td>5년</td>
+      </tr>
+      <tr>
+        <td><strong>2등급</strong></td>
+        <td>75~94점</td>
+        <td>상당 부분 도움 필요 (휠체어 의존)</td>
+        <td><strong>2,331,200</strong></td>
+        <td>+247,800</td>
+        <td>4년</td>
+      </tr>
+      <tr>
+        <td><strong>3등급</strong></td>
+        <td>60~74점</td>
+        <td>부분적 도움 필요 (실외 이동 제한)</td>
+        <td>1,528,200</td>
+        <td>+19,000</td>
+        <td>4년</td>
+      </tr>
+      <tr>
+        <td><strong>4등급</strong></td>
+        <td>51~59점</td>
+        <td>일정 부분 도움 필요 (보행 보조)</td>
+        <td>1,409,700</td>
+        <td>+19,000</td>
+        <td>4년</td>
+      </tr>
+      <tr>
+        <td><strong>5등급</strong></td>
+        <td>45~50점</td>
+        <td>치매 환자, 인지 기능 저하 주된 원인</td>
+        <td>1,208,900</td>
+        <td>+19,000</td>
+        <td>2년</td>
+      </tr>
+      <tr>
+        <td><strong>인지지원</strong></td>
+        <td>45점 미만</td>
+        <td>치매, 신체 양호·인지 저하 예방 돌봄</td>
+        <td>676,320</td>
+        <td>+18,920</td>
+        <td>2년</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="small">※ 1·2등급 인상액 24.7만 원 = 방문요양 3시간 기준 월 3회 추가 이용 가능 수준</p>
+  <p class="small">※ 최초 판정 시 등급 무관하게 유효기간 2년, 첫 번째 갱신 이후부터 연장 적용</p>
+
+  <div class="ad">광고 위치 1</div>
+
+  <h3 id="quick">재가급여 vs 시설급여 10초 판단</h3>
+  <table>
+    <thead>
+      <tr><th></th><th>재가급여 (자택 생활)</th><th>시설급여 (요양원 입소)</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>핵심 성격</strong></td><td>집에서 방문요양·주야간보호 이용</td><td>요양원에 입소하여 24시간 돌봄</td></tr>
+      <tr><td><strong>본인부담률</strong></td><td>급여비의 15%</td><td>급여비의 20% + 비급여(식비 등)</td></tr>
+      <tr><td><strong>1등급 월 비용 예시</strong></td><td>한도 251만 × 15% ≒ 37.6만</td><td>일 93,070 × 30일 × 20% ≒ 55.8만 + 비급여 40~50만</td></tr>
+      <tr><td><strong>추천 상황</strong></td><td>가족 돌봄 일부 가능 + 비용 절감</td><td>24시간 전문 돌봄 필요 + 독거</td></tr>
+    </tbody>
+  </table>
+  <p class="small">※ 기초생활수급자: 시설 본인부담금 + 식비 전액 면제</p>
+
+  <img src="summary_card_1080_ltc_ins.png" alt="장기요양보험 등급 판정 비용 요약 카드" />
+
+  <img src="quick_guide_1080_ltc_ins.png" alt="장기요양보험 재가급여 vs 시설급여 빠른 판단 가이드" />
+
+  <h2 id="how">2) 등급 판정·급여 신청 방법</h2>
+  <ol>
+    <li><strong>신청 접수</strong>: 국민건강보험공단 지사 방문·우편·팩스·홈페이지·앱으로 장기요양인정 신청 (65세 이상 또는 노인성 질병자)</li>
+    <li><strong>의사소견서 발급</strong>: 주치의 또는 인근 병·의원에서 의사소견서 발급 (공단이 안내서 발송)</li>
+    <li><strong>방문 인정조사</strong>: 공단 소속 간호사·사회복지사가 가정 방문 → 52개 항목 조사 (2026년 AI 보조 판정 도구 시범 도입)</li>
+    <li><strong>등급판정위원회 심의</strong>: 인정조사표 + 의사소견서를 바탕으로 등급 결정 (접수~결과 통보 약 30일)</li>
+    <li><strong>개인별 이용계획서 수령</strong>: 등급 판정 결과 + 이용 가능 급여 종류·한도·본인부담금 감경 여부 안내</li>
+    <li><strong>급여 이용 시작</strong>: 재가기관 또는 시설 선택 → 서비스 계약 → 급여 이용 (아이사랑카드처럼 수급자 카드 결제)</li>
+  </ol>
+
+  <h3>이의신청 vs 등급 변경 신청 — 전략적 선택</h3>
+  <table>
+    <thead>
+      <tr><th></th><th>이의신청</th><th>등급 변경 신청</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>시점</strong></td><td>결과 통보 후 90일 이내</td><td>건강 상태 악화 시 수시</td></tr>
+      <tr><td><strong>처리 기간</strong></td><td>60~90일</td><td>30일 이내</td></tr>
+      <tr><td><strong>적합한 경우</strong></td><td>판정 과정 자체에 이의가 있을 때</td><td>실제 상태가 악화되었을 때</td></tr>
+      <tr><td><strong>실전 팁</strong></td><td>승인율 낮음 — 신중히 판단</td><td>3~6개월 관찰 후 신청이 유리</td></tr>
+    </tbody>
+  </table>
+
+  <img src="compare_card_1080_ltc_ins.png" alt="장기요양보험 2026 제도 변화 비교 카드" />
+
+  <h2 id="cost">3) 비용 상세 — 재가·시설·본인부담금 감경</h2>
+
+  <h3>재가급여 주요 수가 (2026년 기준)</h3>
+  <table>
+    <thead>
+      <tr><th>서비스</th><th>시간</th><th>수가(원)</th><th>비고</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>방문요양</td><td>60분</td><td>약 25,320</td><td>가장 많이 이용하는 서비스</td></tr>
+      <tr><td>방문요양</td><td>180분</td><td>약 53,770</td><td>3시간 기준</td></tr>
+      <tr><td>방문간호</td><td>60분 이상</td><td>약 64,690</td><td>의료적 처치 필요 시</td></tr>
+      <tr><td>주야간보호</td><td>8~10시간</td><td>59,640~69,730</td><td>등급별 차등 (1등급 69,730)</td></tr>
+    </tbody>
+  </table>
+  <p class="small">※ 주야간보호 월 15일 이상 이용 시 한도액 20% 추가 사용 가능 (복합 서비스 인센티브)</p>
+
+  <h3>시설급여 비용 구조 (요양원)</h3>
+  <table>
+    <thead>
+      <tr><th>등급</th><th>1일 급여비(원)</th><th>30일 급여비(원)</th><th>본인부담 20%(원)</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>1등급</strong></td><td>93,070</td><td>2,792,100</td><td><strong>558,420</strong></td></tr>
+      <tr><td><strong>2등급</strong></td><td>86,340</td><td>2,590,200</td><td><strong>518,040</strong></td></tr>
+      <tr><td><strong>3~5등급</strong></td><td>81,540</td><td>2,446,200</td><td><strong>489,240</strong></td></tr>
+    </tbody>
+  </table>
+  <p class="small">※ 비급여(식비·간식비·상급 침실 등) 월 40~50만 원 별도 → 1등급 실질 월 지불액 약 100만 원 내외</p>
+
+  <h3>본인부담금 감경 제도</h3>
+  <table>
+    <thead>
+      <tr><th>대상자 유형</th><th>재가 부담률</th><th>시설 부담률</th><th>기준</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>일반 대상자</td><td>15%</td><td>20%</td><td>보험료 순위 상위 50% 초과</td></tr>
+      <tr><td>40% 감경</td><td><strong>9%</strong></td><td><strong>12%</strong></td><td>보험료 순위 25~50%</td></tr>
+      <tr><td>60% 감경</td><td><strong>6%</strong></td><td><strong>8%</strong></td><td>보험료 순위 25% 이하</td></tr>
+      <tr><td>기초생활수급자</td><td><strong>0%</strong></td><td><strong>0%</strong></td><td>국민기초생활보장법 수급자</td></tr>
+    </tbody>
+  </table>
+  <p class="small">※ 건강보험료 납부액 기준 (소득 + 재산 반영). 매년 1월 재산정</p>
+  <p class="small">※ 2026 신설: 1·2등급 중증 수급자 최초 방문간호 3회 본인부담 전액 면제</p>
+
+  <h2 id="new2026">4) 2026 신규·강화 서비스</h2>
+
+  <h3>① 통합돌봄법 시행 (2026.03.27)</h3>
+  <p>전국 183개 시·군·구에 <strong>통합지원센터</strong>가 설치됩니다. 의료·요양·주거개선·가사 지원을 한 번에 신청할 수 있는 '원스톱 창구'로, 기존 장기요양 등급 판정과 별개로 지자체 주도 '종합판정' 시스템이 도입됩니다. 2026년 예산 약 <strong>777억 원</strong>이 책정되었습니다.</p>
+
+  <h3>② 방문재활·방문영양 서비스 (하반기 시범)</h3>
+  <p>전문 물리치료사·영양사가 가정을 방문하여 신체 기능 회복과 맞춤형 식단 관리를 돕습니다. 거동 불편 어르신의 병원 이동 부담을 해소하고, 영양 불균형으로 인한 만성 질환 악화를 예방합니다.</p>
+
+  <h3>③ 가족휴가제 확대</h3>
+  <table>
+    <thead>
+      <tr><th>서비스</th><th>기존</th><th>2026년</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>단기보호</td><td>연 11일</td><td><strong>연 12일</strong></td></tr>
+      <tr><td>종일 방문요양 (12시간)</td><td>연 22회</td><td><strong>연 24회</strong></td></tr>
+    </tbody>
+  </table>
+
+  <h3>④ 중증 가산 제도 개편</h3>
+  <p><strong>방문요양 가산</strong>: 기존 일 3,000원 → 시간당 2,000원(일 최대 6,000원). 중증 수급자를 장시간 돌볼수록 보상이 커지는 구조로 변경되었습니다.<br/>
+  <strong>방문목욕 가산</strong>: 중증 수급자 대상 요양보호사 1인당 3,000원 신설.</p>
+
+  <h3>⑤ 종사자 처우 개선</h3>
+  <table>
+    <thead>
+      <tr><th>항목</th><th>내용</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>장기근속 장려금</td><td>동일 기관 1년↑ 근무 → 월 최대 <strong>18만 원</strong></td></tr>
+      <tr><td>선임 요양보호사 수당</td><td>팀 리더 역할 → 월 <strong>15만 원</strong> 추가</td></tr>
+      <tr><td>복합 수당 (7년↑ + 선임 + 농어촌)</td><td>기본급 외 월 최대 <strong>38만 원</strong></td></tr>
+      <tr><td>시간당 임금 목표</td><td><strong>17,000원</strong> 수준으로 인상 추진</td></tr>
+    </tbody>
+  </table>
+
+  <h3>⑥ 인천광역시 특화 지원</h3>
+  <ul>
+    <li><strong>효드림 복지카드</strong>: 만 75세↑ 기초수급·차상위 → 연 1회 <strong>10만 원</strong> 충전</li>
+    <li><strong>IoT 안심폰</strong>: 독거노인 9,370명 대상 — 실시간 활동 체크 + 24시간 대응팀</li>
+    <li><strong>퇴원 환자 연계 서비스</strong>: 퇴원 초기 가사·간병 집중 지원 (재입원 방지)</li>
+    <li><strong>본인부담금 추가 지원</strong>: 기초수급·차상위 약 1.7만 명 대상 시 예산으로 추가 지원</li>
+  </ul>
+
+  <div class="ad">광고 위치 2</div>
+
+  <h2 id="docs">5) 서류 체크리스트</h2>
+  <h3>기본 서류</h3>
+  <ul>
+    <li>장기요양인정 신청서 (공단 지사 비치 / 홈페이지 다운로드)</li>
+    <li>의사소견서 (접수 후 공단이 안내서 발송 → 의료기관 발급)</li>
+    <li>신분증 (대리인 신청 시 대리인 신분증 + 위임장)</li>
+  </ul>
+  <h3>상황별 추가</h3>
+  <ul>
+    <li><strong>본인부담금 감경 신청 시</strong>: 건강보험료 납부 확인서 (감경 대상 자동 산정, 별도 신청 불요)</li>
+    <li><strong>등급 변경 신청 시</strong>: 등급 변경 신청서 + 최근 진단서·소견서</li>
+    <li><strong>이의신청 시</strong>: 이의신청서 + 결과 통보서 사본 + 추가 소견서(선택)</li>
+    <li><strong>기초생활수급자</strong>: 수급자 확인서 (면제 적용 자동)</li>
+  </ul>
+
+  <h2 id="case">6) 경험/사례</h2>
+  <p>어머니가 치매 진단을 받고 장기요양등급을 신청했던 A씨(55세)의 경우, 공단 지사에 방문 접수 후 일주일 뒤에 간호사가 가정을 방문하여 약 90분간 인정조사를 진행했습니다. 조사원이 어머니에게 직접 질문하는 것뿐 아니라 평소 행동 변화를 보호자에게도 꼼꼼히 확인했고, "평소와 다른 행동이나 야간 배회 여부"까지 물어보더라고 합니다.</p>
+
+  <p>접수부터 등급 통보까지 약 28일이 걸렸고, 결과는 3등급이었습니다. A씨는 예상보다 낮은 등급에 당황했지만, 공단 상담원에게 이의신청보다 3~6개월 후 상태가 더 나빠지면 등급 변경 신청이 유리하다는 조언을 들었습니다. 실제로 5개월 뒤 등급 변경을 신청하여 2등급으로 상향 조정받았는데, 그때는 야간 배회와 배설 도움이 추가된 상황이라 조사 점수가 크게 올랐다고 합니다.</p>
+
+  <p>A씨가 가장 헷갈렸던 부분은 의사소견서 발급 시기였습니다. 신청서를 먼저 제출해야 공단에서 의사소견서 발급 의뢰서를 보내주는데, 이걸 모르고 미리 병원에 가서 진단서만 떼왔다가 돈을 이중으로 쓸 뻔했다고 합니다. "신청서 제출 → 공단 안내서 수령 → 병원 방문"이 올바른 순서입니다.</p>
+
+  <img src="rejection_card_1080_ltc_ins.png" alt="장기요양보험 등급 판정 탈락 실수 TOP 5" />
+
+  <h2 id="faq">7) FAQ</h2>
+  <h3>등급 판정 탈락·실수 TOP 5</h3>
+  <ol>
+    <li><strong>"조사일에 컨디션이 좋았다"</strong>: 인정조사 당일 평소보다 상태가 좋으면 점수가 낮게 나올 수 있음 — 평소 행동 일지를 미리 기록해두세요</li>
+    <li><strong>의사소견서 발급 순서 착오</strong>: 공단 안내서 수령 전 별도 진단서를 받으면 인정 불가 — 반드시 신청 후 안내서 받고 발급</li>
+    <li><strong>보호자 진술 부족</strong>: 수급자 본인만 조사하면 실제 상태보다 경증으로 판정 가능 — 보호자가 반드시 동석하여 구체적 상황 전달</li>
+    <li><strong>노인성 질병 미해당</strong>: 65세 미만인데 노인성 질병(치매·뇌혈관·파킨슨 등)에 해당하지 않으면 신청 자격 자체가 없음</li>
+    <li><strong>갱신 신청 지연</strong>: 유효기간 만료 전 갱신 미신청 → 등급 자동 소멸, 급여 중단</li>
+  </ol>
+
+  <h3>중복수급·예외 조건</h3>
+  <ul>
+    <li><strong>건강보험 + 장기요양보험</strong>: 별도 제도로 중복 적용 (건강보험은 병원, 장기요양은 돌봄)</li>
+    <li><strong>재가급여 + 시설급여</strong>: 동시 이용 불가 — 재가 or 시설 중 택1</li>
+    <li><strong>가족요양비</strong>: 도서·벽지 등 장기요양기관이 없는 지역에서 가족이 직접 돌볼 경우 월 15만 원 지급</li>
+    <li><strong>특별현금급여</strong>: 재가급여 한도 초과분은 자비 부담</li>
+  </ul>
+
+  <h3>자주 묻는 질문</h3>
+  <p class="q">Q1. 장기요양보험료는 얼마인가요?</p>
+  <p class="a">2026년 건강보험료의 13.14%입니다. 세대당 월 평균 약 18,362원(전년 대비 +517원)이며, 건강보험료에 포함되어 자동 납부됩니다.</p>
+
+  <p class="q">Q2. 등급을 못 받으면 어떤 서비스라도 이용할 수 있나요?</p>
+  <p class="a">등급외자도 지자체 노인돌봄종합서비스, 치매안심센터, 통합돌봄 서비스를 이용할 수 있습니다. 2026년 통합돌봄법 시행으로 통합지원센터에서 비등급 어르신에게도 맞춤형 서비스를 연결해 줍니다.</p>
+
+  <p class="q">Q3. 등급 판정까지 기간은 얼마나 걸리나요?</p>
+  <p class="a">접수부터 등급 통보까지 약 30일입니다. 의사소견서 제출이 늦어지면 그만큼 지연되므로 공단 안내서 수령 후 빠르게 발급받으세요.</p>
+
+  <p class="q">Q4. 방문요양 하루 최대 몇 시간까지 이용 가능한가요?</p>
+  <p class="a">하루 최대 4시간(240분)까지 가능합니다. 1회 방문 시 최소 60분부터 30분 단위로 이용할 수 있으며, 월 한도액 내에서 횟수를 조절합니다.</p>
+
+  <p class="q">Q5. 가족이 요양보호사 자격증을 따서 돌보면 급여가 나오나요?</p>
+  <p class="a">네. 가족 요양보호사로 등록하면 1일 60분·90분 기준 급여가 산정됩니다. 다만 일반 요양보호사 대비 인정 시간이 짧고, 관할 공단 지사에 사전 등록이 필요합니다.</p>
+
+  <p class="q">Q6. 요양원과 요양병원은 어떻게 다른가요?</p>
+  <p class="a">요양원은 장기요양보험(돌봄 중심), 요양병원은 건강보험(의료 중심)이 적용됩니다. 요양원은 본인부담 20%, 요양병원은 정률제(입원비의 20%)이지만 비급여 의료비가 추가되어 요양병원이 더 비싼 경우가 많습니다.</p>
+
+  <p class="q">Q7. 주야간보호와 방문요양을 함께 이용할 수 있나요?</p>
+  <p class="a">네. 재가급여 한도액 내에서 복합 이용이 가능합니다. 낮에는 주야간보호센터, 저녁에는 짧은 방문요양을 받는 패턴이 대표적이며, 주야간보호 월 15일 이상 이용 시 한도 20% 추가 인센티브도 받을 수 있습니다.</p>
+
+  <p class="q">Q8. 장기요양 등급이 있으면 장애인 등록도 해야 하나요?</p>
+  <p class="a">별개의 제도입니다. 장기요양등급은 노인성 질병 기반, 장애인 등록은 장애인복지법 기반으로 각각 독립적으로 신청합니다. 다만 중복 해당 시 양쪽 혜택 모두 받을 수 있습니다.</p>
+
+  <p class="q">Q9. 다른 지역에 거주하는 부모님 대신 신청할 수 있나요?</p>
+  <p class="a">가능합니다. 가족이 대리 신청할 수 있으며, 온라인(공단 홈페이지·앱)으로도 접수됩니다. 다만 방문 인정조사는 수급자 거주지에서 진행되므로 보호자 동석이 권장됩니다.</p>
+
+  <p class="q">Q10. 본인부담금 감경은 자동 적용인가요?</p>
+  <p class="a">네. 별도 신청 없이 건강보험료 납부액 기준으로 자동 산정됩니다. 등급 판정 시 제공되는 '개인별장기요양이용계획서'에서 감경 여부를 바로 확인할 수 있으며, 매년 1월 보험료 변동에 따라 재산정됩니다.</p>
+
+  <div class="tips">
+    <strong>실전 팁</strong><br/>
+    인정조사 전 최소 2주간 <strong>행동 일지</strong>를 작성해두세요. 야간 배회·식사 거부·배설 도움·낙상 등의 빈도를 구체적 날짜와 시간으로 기록해두면, 조사원에게 '평소 상태'를 객관적으로 전달할 수 있어 정확한 등급을 받는 데 도움이 됩니다. 보호자 동석은 선택이 아니라 필수입니다.
+  </div>
+
+  <img src="checklist_card_1080_ltc_ins.png" alt="장기요양보험 신청 전 1분 체크리스트" />
+
+  <h2 id="check">8) 신청 전 1분 체크리스트</h2>
+  <ul>
+    <li>65세 이상 또는 노인성 질병(치매·뇌혈관·파킨슨 등) 해당 확인</li>
+    <li>6개월 이상 일상생활 도움 필요 여부 판단</li>
+    <li>행동 일지 2주 이상 기록 (야간 배회·식사·배설·낙상)</li>
+    <li>공단 지사 방문 또는 온라인 신청서 제출</li>
+    <li>의사소견서 = 신청 후 공단 안내서 받고 발급 (순서 주의)</li>
+    <li>본인부담금 감경 여부 = 자동 산정 (별도 신청 불요)</li>
+    <li>재가 vs 시설 비용 비교 후 서비스 선택</li>
+    <li>유효기간 만료 전 갱신 신청 캘린더 등록</li>
+  </ul>
+  <p class="small">관련 글: <a href="#">가족돌봄휴직 급여·긴급돌봄 지원금 총정리</a> / <a href="#">아이돌봄서비스 신청 방법 총정리</a> / <a href="#">건강보험료 환급·경감 신청 방법 총정리</a></p>
+
+  <div class="ad">광고 위치 3</div>
+
+  <div class="tips">
+    <strong>참고/문의처</strong><br/>
+    공식 사이트: <a href="https://www.longtermcare.or.kr" target="_blank" rel="noopener">노인장기요양보험 (longtermcare.or.kr)</a><br/>
+    국민건강보험공단: <a href="https://www.nhis.or.kr" target="_blank" rel="noopener">nhis.or.kr</a><br/>
+    문의 전화: 국민건강보험공단 ☎ 1577-1000 / 장기요양 상담 ☎ 1644-8000
+  </div>
+
+  <div class="footer" id="update">
+    <strong>업데이트 로그</strong><br/>
+    - 2026-04-17: 2026년 등급별 재가급여 한도액·시설급여 수가·보험료율(13.14%) 반영, 통합돌봄법 시행(3.27), 가족휴가제 확대, 중증 가산 개편, 종사자 처우 개선 반영<br/>
+    <span class="small">※ 등급별 수가·한도액은 연도별 공고에 따라 변동될 수 있습니다. 신청 전 공식 사이트/공단 상담 확인!</span>
+  </div>
+</div>

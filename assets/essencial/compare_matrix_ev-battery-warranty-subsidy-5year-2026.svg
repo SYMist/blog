@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="700" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="540" y="46" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">전기차 배터리 보증 + 보조금 상세 비교 매트릭스</text>
+  <text x="540" y="70" text-anchor="middle" fill="#93C5FD" font-size="13" font-family="sans-serif">2026년 5월 기준 · 브랜드별 · 서울 거주자 보조금 기준</text>
+
+  <!-- Header -->
+  <rect x="40" y="84" width="1000" height="44" rx="8" fill="#1e293b"/>
+  <text x="190" y="111" text-anchor="middle" fill="#94A3B8" font-size="13" font-weight="600" font-family="sans-serif">비교 항목</text>
+  <text x="460" y="111" text-anchor="middle" fill="#93C5FD" font-size="14" font-weight="800" font-family="sans-serif">현대·기아·제네시스</text>
+  <text x="700" y="111" text-anchor="middle" fill="#6EE7B7" font-size="14" font-weight="800" font-family="sans-serif">테슬라 모델3·Y</text>
+  <text x="940" y="111" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="800" font-family="sans-serif">BMW·벤츠</text>
+
+  <line x1="330" y1="84" x2="330" y2="640" stroke="#334155" stroke-width="1"/>
+  <line x1="580" y1="84" x2="580" y2="640" stroke="#334155" stroke-width="1"/>
+  <line x1="820" y1="84" x2="820" y2="640" stroke="#334155" stroke-width="1"/>
+
+  <!-- Row 1: 배터리 보증 기간 -->
+  <rect x="40" y="128" width="1000" height="44" fill="#1e293b" fill-opacity="0.5"/>
+  <text x="190" y="155" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">배터리 보증 기간</text>
+  <text x="455" y="155" text-anchor="middle" fill="#4ADE80" font-size="16" font-weight="700" font-family="sans-serif">10년 🏆</text>
+  <text x="700" y="155" text-anchor="middle" fill="#FFFFFF" font-size="16" font-family="sans-serif">8년</text>
+  <text x="940" y="155" text-anchor="middle" fill="#FFFFFF" font-size="16" font-family="sans-serif">8년</text>
+
+  <!-- Row 2: km 기준 -->
+  <rect x="40" y="172" width="1000" height="44" fill="#0f172a" fill-opacity="0.8"/>
+  <text x="190" y="199" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">km 기준</text>
+  <text x="455" y="199" text-anchor="middle" fill="#4ADE80" font-size="14" font-weight="700" font-family="sans-serif">20만km 🏆</text>
+  <text x="700" y="199" text-anchor="middle" fill="#FFFFFF" font-size="14" font-family="sans-serif">16만km</text>
+  <text x="940" y="199" text-anchor="middle" fill="#FFFFFF" font-size="14" font-family="sans-serif">16만km</text>
+
+  <!-- Row 3: SOH 기준 -->
+  <rect x="40" y="216" width="1000" height="44" fill="#1e293b" fill-opacity="0.5"/>
+  <text x="190" y="243" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">SOH 보증 기준</text>
+  <text x="455" y="243" text-anchor="middle" fill="#FFFFFF" font-size="14" font-family="sans-serif">70% 이상</text>
+  <text x="700" y="243" text-anchor="middle" fill="#FFFFFF" font-size="14" font-family="sans-serif">70% 이상</text>
+  <text x="940" y="243" text-anchor="middle" fill="#FFFFFF" font-size="14" font-family="sans-serif">70% 이상</text>
+
+  <!-- Row 4: 국고보조금 -->
+  <rect x="40" y="260" width="1000" height="44" fill="#0f172a" fill-opacity="0.8"/>
+  <text x="190" y="287" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">국고보조금 (최대)</text>
+  <text x="455" y="287" text-anchor="middle" fill="#4ADE80" font-size="14" font-weight="700" font-family="sans-serif">680만원 (전환지원금 포함)</text>
+  <text x="700" y="287" text-anchor="middle" fill="#FFFFFF" font-size="14" font-family="sans-serif">580만원 내외</text>
+  <text x="940" y="287" text-anchor="middle" fill="#FFFFFF" font-size="14" font-family="sans-serif">580만원 내외</text>
+
+  <!-- Row 5: 지자체 보조금 (서울) -->
+  <rect x="40" y="304" width="1000" height="44" fill="#1e293b" fill-opacity="0.5"/>
+  <text x="190" y="322" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">지자체 보조금</text>
+  <text x="190" y="340" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="sans-serif">(서울 기준)</text>
+  <text x="455" y="331" text-anchor="middle" fill="#FFFFFF" font-size="14" font-family="sans-serif">150만원 (지방 최대 1,100만원)</text>
+  <text x="700" y="331" text-anchor="middle" fill="#FFFFFF" font-size="14" font-family="sans-serif">150만원</text>
+  <text x="940" y="331" text-anchor="middle" fill="#FFFFFF" font-size="14" font-family="sans-serif">150만원</text>
+
+  <!-- Row 6: 취득세 감면 -->
+  <rect x="40" y="348" width="1000" height="44" fill="#0f172a" fill-opacity="0.8"/>
+  <text x="190" y="375" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">취득세 감면</text>
+  <text x="455" y="375" text-anchor="middle" fill="#FFFFFF" font-size="14" font-family="sans-serif">140만원</text>
+  <text x="700" y="375" text-anchor="middle" fill="#FFFFFF" font-size="14" font-family="sans-serif">140만원</text>
+  <text x="940" y="375" text-anchor="middle" fill="#FFFFFF" font-size="14" font-family="sans-serif">140만원</text>
+
+  <!-- Row 7: 5년 총 혜택 -->
+  <rect x="40" y="392" width="1000" height="52" fill="#1e293b" fill-opacity="0.5"/>
+  <text x="190" y="420" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">5년 총 혜택</text>
+  <text x="190" y="436" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="sans-serif">(서울 + 유류비 절감 포함)</text>
+  <text x="455" y="428" text-anchor="middle" fill="#4ADE80" font-size="18" font-weight="800" font-family="sans-serif">약 1,670만원 🏆</text>
+  <text x="700" y="428" text-anchor="middle" fill="#FFFFFF" font-size="18" font-family="sans-serif">약 1,490만원</text>
+  <text x="940" y="428" text-anchor="middle" fill="#FFFFFF" font-size="18" font-family="sans-serif">약 1,490만원</text>
+
+  <!-- Row 8: 배터리 교체 비용 -->
+  <rect x="40" y="444" width="1000" height="44" fill="#0f172a" fill-opacity="0.8"/>
+  <text x="190" y="471" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">보증 만료 후 교체비용</text>
+  <text x="455" y="471" text-anchor="middle" fill="#FCA5A5" font-size="13" font-family="sans-serif">1,400~1,900만원</text>
+  <text x="700" y="471" text-anchor="middle" fill="#FCA5A5" font-size="13" font-family="sans-serif">1,700~2,200만원</text>
+  <text x="940" y="471" text-anchor="middle" fill="#FCA5A5" font-size="13" font-family="sans-serif">1,500~2,000만원</text>
+
+  <!-- Bottom summary -->
+  <rect x="40" y="502" width="1000" height="2" fill="#334155"/>
+  <rect x="40" y="512" width="1000" height="160" rx="8" fill="#1e293b" fill-opacity="0.6"/>
+  <text x="540" y="542" text-anchor="middle" fill="#F8FAFC" font-size="14" font-weight="800" font-family="sans-serif">상황별 선택 기준 3줄 요약</text>
+  <text x="80" y="574" fill="#93C5FD" font-size="13" font-weight="700" font-family="sans-serif">배터리 보증 최우선</text>
+  <text x="250" y="574" fill="#CBD5E1" font-size="13" font-family="sans-serif">→ 현대·기아·제네시스 (10년/20만km 업계 최장)</text>
+  <text x="80" y="606" fill="#4ADE80" font-size="13" font-weight="700" font-family="sans-serif">보조금 최대화</text>
+  <text x="250" y="606" fill="#CBD5E1" font-size="13" font-family="sans-serif">→ 지방 거주자 + 내연차 처분 = 국고 680만원 + 지자체 최대 1,100만원</text>
+  <text x="80" y="638" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">5년 내 판매 계획</text>
+  <text x="250" y="638" fill="#CBD5E1" font-size="13" font-family="sans-serif">→ 의무운행기간 확인 필수 (2~5년, 지역별 상이) — 위반 시 보조금 환수</text>
+
+  <text x="40" y="686" fill="#64748B" font-size="12" font-family="sans-serif">essencial | 자동차 비교 · 2026.05 기준</text>
+</svg>

@@ -1,0 +1,402 @@
+<!-- essencial_template_auto.html 기반 -->
+<!-- E-54: 자차보험 처리 vs 상대보험 처리 vs 자비수리 3종 비교 (2026) -->
+
+<!-- ✅ Schema.org 구조화 데이터 -->
+<div style="display:none">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "자차보험 vs 상대보험 vs 자비수리 3종 처리 비교 — 사고 상황별 손익 결정 가이드 (2026)",
+      "description": "사고 후 자차보험·상대보험·자비수리 중 어떤 처리가 유리한지 시나리오별로 계산. 손익분기점 약 60~80만원, 상대 과실 100%면 상대보험 0원 처리, 50:50이면 양측 자차 처리까지 한눈에 정리.",
+      "datePublished": "2026-05-17",
+      "dateModified": "2026-05-17",
+      "author": {"@type": "Person", "name": "essencial"},
+      "publisher": {"@type": "Organization", "name": "essencial"}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "자차·상대보험·자비수리 3가지의 핵심 차이는 뭔가요?", "acceptedAnswer": {"@type": "Answer", "text": "자차보험은 본인 보험사가 본인 차 수리비를 보상하지만 자기부담금(최소 20만~최대 50만)과 3년 할증이 발생합니다. 상대보험은 상대 과실이 있을 때 상대 대물보험으로 처리하므로 본인 부담 0원 + 사고 기록 없음입니다. 자비수리는 보험사 통과 없이 본인이 직접 부담해 사고 기록·할증이 없습니다. 과실비율과 수리비 규모에 따라 선택이 달라집니다."}},
+        {"@type": "Question", "name": "수리비 얼마부터 자차보험 처리가 유리한가요?", "acceptedAnswer": {"@type": "Answer", "text": "손익분기점은 본인 연 보험료에 따라 다릅니다. 자기부담금 20만원 + 3년 할증 추가비용(연 보험료 × 20% × 3년)을 합산한 금액이 손익분기점입니다. 연 40만원 → 약 44만원, 연 70만원 → 약 62만원, 연 100만원 → 약 80만원. 수리비가 이 금액보다 작으면 자비, 크면 자차 처리가 유리합니다."}},
+        {"@type": "Question", "name": "상대 과실 100%면 무조건 상대보험 처리가 좋은가요?", "acceptedAnswer": {"@type": "Answer", "text": "네, 상대보험 처리가 압도적으로 유리합니다. 본인 부담 0원 + 사고 기록 없음 + 할증 없음으로 어떤 비교에서도 우위입니다. 단, 과실비율이 50:50이면 양측 자차 처리되어 양쪽 모두 사고 기록 + 할증이 발생합니다. 과실비율 협의 시 본인 과실을 줄이는 것이 핵심입니다."}},
+        {"@type": "Question", "name": "본인 과실이 70%인데 자차로 처리해야 하나요?", "acceptedAnswer": {"@type": "Answer", "text": "본인 차 수리비 150만원, 본인 과실 70% 가정 시: 자차+상대(30%) 혼합 처리는 자기부담금 30만 + 할증 42만 - 상대보상 45만 = 약 27만원 부담. 자비 부담은 본인 70% = 105만원. 자차+상대 혼합이 약 78만원 저렴합니다. 본인 과실이 있더라도 상대 과실분만큼은 상대보험으로 받는 것이 표준 처리입니다."}},
+        {"@type": "Question", "name": "단독사고(전봇대 등)일 때는 어떻게 처리하나요?", "acceptedAnswer": {"@type": "Answer", "text": "상대가 없으므로 상대보험은 불가능하고 자차보험 또는 자비수리 중 선택입니다. 손익분기점(연 보험료별 44만~80만원) 기준으로 수리비가 작으면 자비, 크면 자차로 처리합니다. 단독사고도 자차 청구 시 사고 1건으로 등록되어 3년 할증되므로 손익분기점 계산이 필수입니다."}},
+        {"@type": "Question", "name": "자차 처리 후 후회되면 환입 신청이 가능한가요?", "acceptedAnswer": {"@type": "Answer", "text": "네, 갱신일 3개월 이전까지 환입 신청이 가능합니다. 받은 보험금을 보험사에 반환하면 사고 기록 삭제 + 할증 면제됩니다. 단, 갱신일 임박 시 불가능하므로 보험 처리 후 손익 재계산 시점에 즉시 결정해야 합니다. 환입 가능 여부는 각 보험사 약관에 따라 다르므로 보상 담당자 확인이 필요합니다."}}
+      ]
+    }
+  ]
+}
+</script>
+</div>
+
+<style>
+  :root{
+    --pri:#1E40AF; --pri2:#1D4ED8;
+    --white:#FFFFFF; --text:#111827;
+    --muted:#4B5563; --border:#E5E7EB;
+    --bg:#F9FAFB; --accent:#EFF6FF;
+  }
+  .wrap{max-width:860px;margin:0 auto;line-height:1.8;color:var(--text);}
+  .meta{color:var(--muted);font-size:.95rem;margin:6px 0 18px;}
+  .badge{display:inline-block;background:var(--accent);border:1px solid #BFDBFE;padding:3px 10px;border-radius:999px;font-size:.85rem;margin-right:8px;}
+  .notice{background:#FFF7ED;border:1px solid #FED7AA;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .conclusion{background:#EFF6FF;border:1px solid #BFDBFE;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .toc{background:var(--bg);border:1px solid var(--border);padding:14px 16px;border-radius:12px;margin:16px 0 22px;}
+  .toc a{text-decoration:none;color:var(--pri);}
+  .toc ul{margin:8px 0 0 18px;}
+  .wrap a.btn,.wrap a.btn:link,.wrap a.btn:visited{
+    display:inline-flex;align-items:center;justify-content:center;
+    padding:10px 14px;border-radius:10px;border:1px solid var(--pri);
+    background:var(--pri) !important;color:var(--white) !important;
+    text-decoration:none !important;font-weight:800;
+  }
+  .wrap a.btn:hover{background:var(--pri2) !important;}
+  .wrap a.btn.secondary,.wrap a.btn.secondary:link,.wrap a.btn.secondary:visited{
+    background:var(--white) !important;color:var(--pri) !important;border-color:var(--pri) !important;
+  }
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 6px;}
+  table{width:100%;border-collapse:collapse;margin:14px 0 10px;}
+  th,td{border:1px solid var(--border);padding:10px;vertical-align:top;}
+  th{background:#F3F4F6;text-align:left;}
+  .small{font-size:.95rem;color:var(--muted);}
+  h1{margin:0 0 8px;line-height:1.25;}
+  h2{margin-top:30px;padding-top:8px;border-top:1px solid var(--border);}
+  h3{margin-top:16px;}
+  .q{font-weight:900;margin:14px 0 6px;}
+  .a{margin:0 0 10px;}
+  .highlight{background:#F0FDF4;border:1px solid #BBF7D0;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .warning{background:#FEF2F2;border:1px solid #FECACA;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .tco-box{background:#FEFCE8;border:1px solid #FDE68A;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .scope{background:#F8FAFC;border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .scope ul{margin:4px 0 0 18px;}
+  .action-steps{background:#EFF6FF;border:1px solid #BFDBFE;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .action-steps ol{margin:8px 0 0 18px;}
+  .sources{background:var(--bg);border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:14px 0;font-size:.9rem;}
+  .sources ul{margin:4px 0 0 18px;}
+  .footer{margin-top:26px;padding-top:14px;border-top:1px solid var(--border);color:var(--muted);font-size:.95rem;}
+</style>
+
+<div class="wrap">
+  <h1>자차보험 vs 상대보험 vs 자비수리 3종 처리 비교 — 사고 상황별 손익 결정 가이드 (2026)</h1>
+  <div class="meta">
+    <span class="badge">자동차</span>
+    <span class="badge">업데이트: 2026-05-17</span>
+  </div>
+
+  <div class="notice">
+    <strong>먼저 확인!</strong><br/>
+    사고 후 처리 방식 3가지(자차·상대·자비) 중 어느 것이 유리한지는 <strong>과실비율</strong>과 <strong>수리비 규모</strong>에 따라 결정됩니다. 본인 과실 100%면 손익분기점(약 60~80만원), 상대 과실 100%면 상대보험 0원 처리, 50:50이면 양측 자차 — 각 상황을 미리 알아두면 보험사 상담 시간이 줄어듭니다.
+  </div>
+
+  <p class="small">
+    같은 수리비라도 본인 과실 100%인지, 상대 과실 100%인지, 5:5 합의인지에 따라 정답이 달라집니다. 자차보험은 자기부담금 20만~50만원 + 3년 할증, 상대보험은 본인 부담 0원, 자비수리는 즉시 전액 부담. 본인 연 보험료 40·70·100만원별 손익분기점과 5가지 시나리오 시뮬레이션으로 결정 기준을 한 번에 확인하세요.
+  </p>
+
+  <div class="scope">
+    <strong>이 글에서 다루는 것</strong>
+    <ul>
+      <li>자차보험·상대보험·자비수리 3종 처리 핵심 차이 (자기부담금·할증·기록)</li>
+      <li>본인 연 보험료별 손익분기점 (40·70·100만원)</li>
+      <li>5가지 사고 시나리오별 손익 비교 (본인 과실·상대 과실·50:50·70:30·단독사고)</li>
+      <li>처리 선택 의사결정 플로우</li>
+      <li>환입 제도(보험금 반환) 활용 시점</li>
+    </ul>
+    <strong>다루지 않는 것</strong>
+    <ul>
+      <li>대인배상·자기신체사고 보상 절차 / 보험사별 약관 상세 비교 (별도 글)</li>
+    </ul>
+  </div>
+
+  <!-- ✅ 섹션 1: 결론 먼저 -->
+  <div class="conclusion" id="top">
+    <h2 style="border-top:none;margin-top:0;">✅ 결론 먼저: 상황별 추천</h2>
+    <ul>
+      <li><strong>상대 과실 100%라면</strong> → <strong>상대보험 처리</strong> (본인 부담 0원, 사고 기록 없음)</li>
+      <li><strong>본인 과실 + 수리비 < 손익분기점(60~80만원)</strong> → <strong>자비수리</strong> (무사고 할인 유지)</li>
+      <li><strong>본인 과실 + 수리비 > 손익분기점</strong> → <strong>자차보험 처리</strong> (자기부담금 + 할증 < 수리비)</li>
+    </ul>
+  </div>
+
+  <!-- ✅ 이미지 1: 비교 요약 카드 -->
+  <img src="compare_summary_car-claim-3way-comparison-2026.png" alt="자차·상대·자비 3종 처리 비교 요약" style="width:100%;margin:16px 0;" />
+
+  <div class="toc">
+    <strong>목차</strong>
+    <ul>
+      <li><a href="#compare">1) 자차·상대·자비 3종 핵심 비교표</a></li>
+      <li><a href="#breakeven">2) 본인 연 보험료별 손익분기점</a></li>
+      <li><a href="#scenarios">3) 5가지 사고 시나리오 시뮬레이션</a></li>
+      <li><a href="#flow">4) 처리 선택 의사결정 플로우</a></li>
+      <li><a href="#hwanip">5) 환입 제도 — 보험금 반환 시점</a></li>
+      <li><a href="#scenario">6) 상황별 추천 시나리오</a></li>
+      <li><a href="#checklist">7) 사고 직후 확인 체크리스트</a></li>
+      <li><a href="#experience">자주 놓치는 포인트와 실수 사례</a></li>
+      <li><a href="#faq">8) FAQ</a></li>
+      <li><a href="#update">업데이트 로그</a></li>
+    </ul>
+  </div>
+
+  <!-- ✅ 섹션 2: 3종 핵심 비교표 -->
+  <h2 id="compare">1) 자차·상대·자비 3종 핵심 비교표</h2>
+  <h3>3가지 처리 방식의 본질적 차이는 뭔가요?</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>비교 항목</th>
+        <th>자차보험 처리</th>
+        <th>상대보험 처리</th>
+        <th>자비수리</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>본인 부담</td><td>자기부담금 (최소 20만~최대 50만)</td><td><strong>0원 (과실 100% 상대)</strong></td><td>수리비 전액</td></tr>
+      <tr><td>사고 기록</td><td>본인 1건 등록</td><td><strong>본인 기록 없음</strong></td><td><strong>기록 없음</strong></td></tr>
+      <tr><td>본인 보험료 할증</td><td>3년간 약 12% + 무사고 할인 상실</td><td><strong>할증 없음</strong></td><td><strong>할증 없음</strong></td></tr>
+      <tr><td>5년 추가 보험료 (연 70만원 기준)</td><td>약 70만원</td><td>0원</td><td>0원</td></tr>
+      <tr><td>활용 조건</td><td>본인 과실 있음 + 수리비 큼</td><td><strong>상대 과실 100% 또는 본인 과실 < 50%</strong></td><td>수리비 작음 또는 무사고 유지 우선</td></tr>
+      <tr><td>처리 속도</td><td>1주~1개월 (자체 처리)</td><td>2주~2개월 (상대보험사와 협의)</td><td>즉시 (정비소 직접)</td></tr>
+      <tr><td>대표 사례</td><td>본인 단독사고·본인 과실 추돌</td><td>피해 추돌·신호 위반 피해</td><td>주차 접촉·소액 스크래치</td></tr>
+    </tbody>
+  </table>
+  <p class="small">※ 2026년 5월 기준. 자기부담금·할증률은 보험사·계약 조건·운전 이력에 따라 달라집니다.</p>
+
+  <!-- ✅ 이미지 2: 비교 매트릭스 -->
+  <img src="compare_matrix_car-claim-3way-comparison-2026.png" alt="자차·상대·자비 3종 처리 비용·기록·시간 매트릭스" style="width:100%;margin:16px 0;" />
+
+  <!-- ✅ 섹션 3: 손익분기점 -->
+  <h2 id="breakeven">2) 본인 연 보험료별 손익분기점</h2>
+  <h3>수리비 얼마부터 자차보험 처리가 유리한가요?</h3>
+  <p><strong>손익분기점 = 자기부담금(20만원) + 3년 할증 추가비용(연 보험료 × 20% × 3년)</strong></p>
+  <table>
+    <thead>
+      <tr><th>본인 연 보험료</th><th>3년 할증 추가</th><th>자기부담금</th><th><strong>손익분기점</strong></th></tr>
+    </thead>
+    <tbody>
+      <tr><td>약 40만원</td><td>약 24만원 (40×20%×3)</td><td>20만원</td><td><strong>약 44만원</strong></td></tr>
+      <tr><td>약 70만원</td><td>약 42만원 (70×20%×3)</td><td>20만원</td><td><strong>약 62만원</strong></td></tr>
+      <tr><td>약 100만원</td><td>약 60만원 (100×20%×3)</td><td>20만원</td><td><strong>약 80만원</strong></td></tr>
+      <tr><td>약 150만원 (수입차 등)</td><td>약 90만원</td><td>20만원</td><td><strong>약 110만원</strong></td></tr>
+    </tbody>
+  </table>
+  <p><strong>수리비 < 손익분기점 → 자비수리</strong> · <strong>수리비 > 손익분기점 → 자차보험 처리</strong>가 일반적으로 유리합니다. 단, 무사고 할인 누적 가치·환입 제도 활용 가능성·미래 사고 위험까지 고려하면 손익분기점보다 약간 더 큰 수리비도 자비수리가 합리적일 수 있습니다.</p>
+
+  <!-- ✅ 섹션 4: 5가지 시나리오 -->
+  <h2 id="scenarios">3) 5가지 사고 시나리오 시뮬레이션</h2>
+  <h3>실제 사고 케이스별로 어떤 처리가 유리한가요?</h3>
+
+  <div class="tco-box">
+    <strong>시나리오 A: 본인 100% 과실 + 수리비 50만원 (소액 단독)</strong><br/>
+    <table>
+      <thead><tr><th>처리</th><th>본인 부담</th><th>총 부담</th></tr></thead>
+      <tbody>
+        <tr><td>자차보험</td><td>자기부담금 20만 + 5년 할증 42만</td><td><strong>62만원</strong></td></tr>
+        <tr><td>자비수리</td><td>수리비 50만</td><td><strong>50만원 ✅</strong></td></tr>
+        <tr><td>상대보험</td><td>—</td><td>불가</td></tr>
+      </tbody>
+    </table>
+    <p class="small">→ 자비수리가 12만원 저렴. 무사고 할인 유지 효과까지 포함하면 자비가 훨씬 유리.</p>
+  </div>
+
+  <div class="tco-box">
+    <strong>시나리오 B: 본인 100% 과실 + 수리비 200만원 (중액 단독)</strong><br/>
+    <table>
+      <thead><tr><th>처리</th><th>본인 부담</th><th>총 부담</th></tr></thead>
+      <tbody>
+        <tr><td>자차보험</td><td>자기부담금 40만 + 5년 할증 42만</td><td><strong>82만원 ✅</strong></td></tr>
+        <tr><td>자비수리</td><td>수리비 200만</td><td>200만원</td></tr>
+        <tr><td>상대보험</td><td>—</td><td>불가</td></tr>
+      </tbody>
+    </table>
+    <p class="small">→ 자차보험이 118만원 저렴. 손익분기점 62만원을 크게 초과하면 자차 압도적 유리.</p>
+  </div>
+
+  <div class="tco-box">
+    <strong>시나리오 C: 상대 100% 과실 + 수리비 300만원 (피해 추돌)</strong><br/>
+    <table>
+      <thead><tr><th>처리</th><th>본인 부담</th><th>총 부담</th></tr></thead>
+      <tbody>
+        <tr><td>상대보험</td><td><strong>0원 + 사고 기록 없음 + 할증 없음</strong></td><td><strong>0원 ✅</strong></td></tr>
+        <tr><td>자차보험</td><td>자기부담금 50만 + 3년 할증 42만</td><td>92만원</td></tr>
+        <tr><td>자비수리</td><td>수리비 300만</td><td>300만원</td></tr>
+      </tbody>
+    </table>
+    <p class="small">→ 상대보험 압도적 유리. 본인 부담·기록·할증 모두 없음. 빠른 보험사 연락이 핵심.</p>
+  </div>
+
+  <div class="tco-box">
+    <strong>시나리오 D: 과실 50:50 + 본인 수리비 100만원 (양측 동일)</strong><br/>
+    <table>
+      <thead><tr><th>처리</th><th>본인 부담</th><th>총 부담</th></tr></thead>
+      <tbody>
+        <tr><td>양측 자차 (관행)</td><td>자기부담금 20만 + 5년 할증 42만</td><td>62만원</td></tr>
+        <tr><td>양측 자비 합의</td><td>본인 50만 (절반)</td><td><strong>50만원 ✅</strong></td></tr>
+        <tr><td>상대보험만</td><td>0원 (상대도 자차 처리)</td><td>0원 (단, 양측 합의 필요)</td></tr>
+      </tbody>
+    </table>
+    <p class="small">→ 양측 자비 합의가 12만원 저렴하나 합의 어려움. 양측 자차가 표준 처리.</p>
+  </div>
+
+  <div class="tco-box">
+    <strong>시나리오 E: 본인 70% 과실 + 본인 수리비 150만원 (혼합 책임)</strong><br/>
+    <table>
+      <thead><tr><th>처리</th><th>본인 부담</th><th>총 부담</th></tr></thead>
+      <tbody>
+        <tr><td>자차+상대(30%) 혼합</td><td>자기부담금 30만 + 할증 42만 - 상대보상 45만</td><td><strong>27만원 ✅</strong></td></tr>
+        <tr><td>자비</td><td>본인 70% = 105만원</td><td>105만원</td></tr>
+        <tr><td>상대보험만</td><td>본인 70% 책임 = 105만 자비 부담</td><td>105만원</td></tr>
+      </tbody>
+    </table>
+    <p class="small">→ 자차+상대 혼합이 78만원 저렴. 본인 과실 있어도 상대분만큼은 상대보험 청구 가능.</p>
+  </div>
+
+  <!-- ✅ 섹션 5: 의사결정 플로우 -->
+  <h2 id="flow">4) 처리 선택 의사결정 플로우</h2>
+  <h3>사고 직후 머릿속에서 어떻게 판단해야 하나요?</h3>
+  <table>
+    <thead>
+      <tr><th>1단계 (과실비율)</th><th>2단계 (수리비 vs 손익분기점)</th><th>최종 선택</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>상대 과실 100%</td><td>—</td><td><strong>상대보험 처리</strong> (본인 0원)</td></tr>
+      <tr><td>상대 과실 50~99%</td><td>—</td><td><strong>자차+상대 혼합</strong> (본인 과실분만 자차)</td></tr>
+      <tr><td>본인 과실 100% 또는 단독사고</td><td>수리비 ≤ 손익분기점</td><td><strong>자비수리</strong></td></tr>
+      <tr><td>본인 과실 100% 또는 단독사고</td><td>수리비 > 손익분기점</td><td><strong>자차보험 처리</strong></td></tr>
+      <tr><td>과실 50:50</td><td>본인 수리비 ≤ 손익분기점</td><td><strong>양측 자비 합의 시도</strong></td></tr>
+      <tr><td>과실 50:50</td><td>본인 수리비 > 손익분기점</td><td><strong>양측 자차 (표준)</strong></td></tr>
+    </tbody>
+  </table>
+
+  <!-- ✅ 섹션 6: 환입 제도 -->
+  <h2 id="hwanip">5) 환입 제도 — 보험금 반환 시점</h2>
+  <h3>자차 처리 후 후회되면 되돌릴 수 있나요?</h3>
+  <p>네, <strong>갱신일 3개월 이전까지 환입(보험금 반환) 신청</strong>이 가능합니다. 받은 보험금을 보험사에 반환하면 사고 기록 삭제 + 할증 면제 처리됩니다.</p>
+  <div class="highlight">
+    <strong>환입 신청 시 핵심 체크리스트</strong>
+    <ul>
+      <li>갱신일 확인 (3개월 이전까지만 가능)</li>
+      <li>받은 보험금 + 정비비 등 일부 추가비용 반환 (보험사별 상이)</li>
+      <li>사고 기록 삭제 확인 → 카히스토리 조회</li>
+      <li>다음 갱신 시 할증 면제 적용 확인</li>
+    </ul>
+  </div>
+  <p>예: 자차로 수리비 80만원을 받았으나 손익 재계산 시 자비가 나았다면 → 갱신 3개월 전까지 80만원 반환 → 사고 기록 삭제 → 무사고 할인 회복 가능. 단, 환입 가능 여부는 각 보험사 약관에 따라 다르므로 보상 담당자에게 즉시 확인이 필요합니다.</p>
+
+  <!-- ✅ 섹션 7: 시나리오 추천 -->
+  <div class="highlight" id="scenario">
+    <h3>🔍 당신의 사고 상황에 맞는 선택은?</h3>
+    <ul>
+      <li><strong>상대 과실 100% 추돌 피해</strong> → <strong>상대보험 처리</strong>. 본인 부담 0원 + 사고 기록 없음. 가장 명확하게 유리한 케이스</li>
+      <li><strong>본인 단독사고(전봇대·연석) + 소액 수리비</strong> → <strong>자비수리</strong>. 무사고 할인 보호 + 손익분기점 이하면 자차보다 저렴</li>
+      <li><strong>본인 단독사고 + 100만원 이상 대형 수리</strong> → <strong>자차보험 처리</strong>. 자기부담금 + 할증 < 수리비</li>
+      <li><strong>50:50 합의 + 양측 차량 동급</strong> → <strong>양측 자비 합의 시도</strong>. 양쪽 모두 사고 기록 피할 수 있음</li>
+      <li><strong>본인 과실 70% + 상대 30% 사고</strong> → <strong>자차 + 상대 혼합</strong>. 상대 30%분은 상대보험으로 받아 부담 최소화</li>
+    </ul>
+  </div>
+
+  <!-- ✅ 이미지 3: 시나리오 카드 -->
+  <img src="scenario_car-claim-3way-comparison-2026.png" alt="자차·상대·자비 상황별 추천 시나리오" style="width:100%;margin:16px 0;" />
+
+  <!-- ✅ 사고 직후 체크리스트 -->
+  <div class="action-steps" id="checklist">
+    <strong>사고 직후 처리 결정 자가진단 순서</strong>
+    <ol>
+      <li>사고 사진 촬영 (차량 손상·번호판·도로 상황 다각도)</li>
+      <li>상대 보험사 정보 확보 (보험사명·증권번호·연락처)</li>
+      <li>과실비율 판단 — 명확하지 않으면 보험사 상담</li>
+      <li>본인 차 예상 수리비 추정 (정비소 견적 1~2곳)</li>
+      <li>본인 연 보험료 확인 → 손익분기점 계산</li>
+      <li>3종 처리 시뮬레이션 후 선택 → 보험사에 처리 방식 통보</li>
+      <li>자차 처리 후 손익 재계산 시 갱신 3개월 전까지 환입 검토</li>
+    </ol>
+  </div>
+
+  <!-- ✅ 인아티클 광고 -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5716436301710258"
+       crossorigin="anonymous"></script>
+  <ins class="adsbygoogle"
+       style="display:block; text-align:center;"
+       data-ad-layout="in-article"
+       data-ad-format="fluid"
+       data-ad-client="ca-pub-5716436301710258"
+       data-ad-slot="2039167138"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+  <!-- ✅ 주의사항 -->
+  <h2>주의사항</h2>
+  <div class="warning">
+    <ul>
+      <li><strong>과실비율 분쟁</strong>: 50:50, 30:70 등 명확하지 않은 케이스 → 보험사 협의 + 분쟁심의위원회 활용 가능</li>
+      <li><strong>자차담보 미가입</strong>: 자차담보가 없으면 본인 차 수리비는 자비 또는 상대보험만 가능</li>
+      <li><strong>대인사고 별도</strong>: 본 글은 차량 손해(자차·대물) 중심. 인적 손해(대인배상·자기신체)는 별도 약관 적용</li>
+      <li><strong>사고 2건 시 할증 급등</strong>: 1건 약 12% → 2건 약 37% → 3건 이상 공동인수 위험</li>
+      <li><strong>환입 가능성</strong>: 보험사·상품별 약관 차이. 갱신 3개월 이전이라도 거절될 수 있음 → 사전 확인 필수</li>
+    </ul>
+  </div>
+
+  <!-- ✅ 자주 놓치는 포인트와 실수 사례 -->
+  <h2 id="experience">자주 놓치는 포인트와 실수 사례</h2>
+  <p>사고 직후 가장 흔한 실수는 "보험으로 처리하면 다 해결된다"는 인식입니다. 자차 처리 시 자기부담금(최소 20만원)과 3년 할증(연 보험료 20%×3년)이 동시에 발생하므로, 수리비가 손익분기점(약 60~80만원) 이하면 자비수리가 오히려 저렴합니다. 보험사 상담원은 보험 처리 안내를 우선하지만, 손익 계산은 가입자가 직접 해야 합니다.</p>
+  <p>상대 과실이 있는데도 본인 자차로 먼저 처리하는 사례도 빈번합니다. 본인 자차로 처리하면 사고 기록 + 할증이 발생하고, 상대에게 구상권 청구는 보험사가 진행하더라도 본인의 사고 이력은 남습니다. 상대 과실이 있다면 처음부터 상대보험으로 처리해야 본인 기록·할증 모두 회피할 수 있습니다.</p>
+  <p>"50:50 사고는 무조건 양측 자차"라고 오해하는 경우도 있습니다. 양측 수리비가 비슷하고 자비수리 가능 금액이면 양측 합의로 자비 처리해 양쪽 모두 사고 기록을 피할 수 있습니다. 상대방과의 신뢰 관계가 있다면 일단 시도해볼 가치가 있습니다(서면 합의서 작성 권장).</p>
+  <p>자차 처리 후 환입(보험금 반환) 제도를 모르는 경우도 많습니다. 갱신일 3개월 이전까지는 보험금 반환으로 사고 기록 삭제 + 할증 면제가 가능합니다. 자차 처리 후 며칠 내 손익을 재계산해 자비가 나았다면 즉시 환입 신청을 검토해야 합니다. 시기를 놓치면 3년간 할증이 그대로 적용됩니다.</p>
+  <p class="small">※ 위 사례는 공개된 소비자 경험과 보험사 약관·금감원 자료를 바탕으로 일반화한 내용입니다. 개인 상황에 따라 다를 수 있으며, 사고 발생 시 보험사 보상 담당자와 직접 상담하시기 바랍니다.</p>
+
+  <!-- ✅ FAQ -->
+  <h2 id="faq">8) FAQ</h2>
+  <p class="q">Q1. 자차·상대보험·자비수리 3가지의 핵심 차이는 뭔가요?</p>
+  <p class="a">자차보험은 본인 보험사가 본인 차 수리비를 보상하지만 자기부담금(최소 20만~최대 50만)과 3년 할증이 발생합니다. 상대보험은 상대 과실이 있을 때 상대 대물보험으로 처리하므로 본인 부담 0원 + 사고 기록 없음입니다. 자비수리는 보험사 통과 없이 본인이 직접 부담해 사고 기록·할증이 없습니다. 과실비율과 수리비 규모에 따라 선택이 달라집니다.</p>
+
+  <p class="q">Q2. 수리비 얼마부터 자차보험 처리가 유리한가요?</p>
+  <p class="a">손익분기점은 본인 연 보험료에 따라 다릅니다. 자기부담금 20만원 + 3년 할증 추가비용(연 보험료 × 20% × 3년)을 합산한 금액이 손익분기점입니다. 연 40만원 → 약 44만원, 연 70만원 → 약 62만원, 연 100만원 → 약 80만원. 수리비가 이 금액보다 작으면 자비, 크면 자차 처리가 유리합니다.</p>
+
+  <p class="q">Q3. 상대 과실 100%면 무조건 상대보험 처리가 좋은가요?</p>
+  <p class="a">네, 상대보험 처리가 압도적으로 유리합니다. 본인 부담 0원 + 사고 기록 없음 + 할증 없음으로 어떤 비교에서도 우위입니다. 단, 과실비율이 50:50이면 양측 자차 처리되어 양쪽 모두 사고 기록 + 할증이 발생합니다. 과실비율 협의 시 본인 과실을 줄이는 것이 핵심입니다.</p>
+
+  <p class="q">Q4. 본인 과실이 70%인데 자차로 처리해야 하나요?</p>
+  <p class="a">본인 차 수리비 150만원, 본인 과실 70% 가정 시: 자차+상대(30%) 혼합 처리는 자기부담금 30만 + 할증 42만 - 상대보상 45만 = 약 27만원 부담. 자비 부담은 본인 70% = 105만원. 자차+상대 혼합이 약 78만원 저렴합니다. 본인 과실이 있더라도 상대 과실분만큼은 상대보험으로 받는 것이 표준 처리입니다.</p>
+
+  <p class="q">Q5. 단독사고(전봇대 등)일 때는 어떻게 처리하나요?</p>
+  <p class="a">상대가 없으므로 상대보험은 불가능하고 자차보험 또는 자비수리 중 선택입니다. 손익분기점(연 보험료별 44만~80만원) 기준으로 수리비가 작으면 자비, 크면 자차로 처리합니다. 단독사고도 자차 청구 시 사고 1건으로 등록되어 3년 할증되므로 손익분기점 계산이 필수입니다.</p>
+
+  <p class="q">Q6. 자차 처리 후 후회되면 환입 신청이 가능한가요?</p>
+  <p class="a">네, 갱신일 3개월 이전까지 환입 신청이 가능합니다. 받은 보험금을 보험사에 반환하면 사고 기록 삭제 + 할증 면제됩니다. 단, 갱신일 임박 시 불가능하므로 보험 처리 후 손익 재계산 시점에 즉시 결정해야 합니다. 환입 가능 여부는 각 보험사 약관에 따라 다르므로 보상 담당자 확인이 필요합니다.</p>
+
+  <p class="small">관련 글: <a href="#" target="_blank" rel="noopener">자차보험 할증 vs 자비수리 손익분기 계산 (2026)</a> / <a href="#" target="_blank" rel="noopener">자동차보험 갈아타기 — 다이렉트 vs 설계사 비교·할인 꿀팁 (2026)</a> / <a href="#" target="_blank" rel="noopener">운전자보험 필수 특약 비교 — 벌금·형사합의금·교통사고처리 (2026)</a></p>
+
+  <!-- ✅ 면책 -->
+  <div class="warning">
+    <strong>면책 안내</strong>: 본 글의 보험료·할증·자기부담금 수치는 2026년 5월 기준 추정치이며, 실제 부담은 보험사·계약 조건·개인 운전 이력에 따라 달라집니다. 개인 상황에 따라 다를 수 있으며, 가입 전 약관 확인이 필요합니다. 사고 발생 시 본인 보험사 보상 담당자와 직접 상담을 권장합니다.
+  </div>
+
+  <!-- ✅ 참고자료 -->
+  <div class="sources">
+    <strong>참고자료 / 출처</strong>
+    <ul>
+      <li>금융감독원 자동차보험 약관 안내: https://www.fss.or.kr</li>
+      <li>보험개발원 자동차보험료 비교: https://carinfo.knia.or.kr</li>
+      <li>삼성화재 다이렉트 보상 안내: https://direct.samsungfire.com</li>
+      <li>현대해상 다이렉트: https://direct.hi.co.kr</li>
+    </ul>
+  </div>
+
+  <div class="btns">
+    <a class="btn" href="https://carinfo.knia.or.kr" target="_blank" rel="noopener">보험료 비교 (보험개발원)</a>
+    <a class="btn secondary" href="https://direct.samsungfire.com" target="_blank" rel="noopener">삼성화재 보상 안내</a>
+    <a class="btn secondary" href="https://direct.hi.co.kr" target="_blank" rel="noopener">현대해상 자차 안내</a>
+  </div>
+
+  <!-- ✅ 썸네일 -->
+  <img src="thumb_1080_car-claim-3way-comparison-2026.png" alt="자차·상대·자비 3종 처리 비교 인포그래픽" style="width:100%;margin:16px 0;" />
+  <img src="thumb_1200x630_car-claim-3way-comparison-2026.png" alt="자차 상대 자비 3종 처리 카드" style="width:100%;margin:16px 0;" />
+
+  <div class="footer" id="update">
+    <strong>업데이트 로그</strong><br/>
+    - 2026-05-17: 최초 발행<br/>
+    <span class="small">※ 보험료·할증률·자기부담금 수치는 2026년 5월 기준 추정치이며, 실제 부담은 보험사·계약·개인 이력에 따라 다릅니다. 사고 후 즉시 보험사 보상 담당자 상담을 권장합니다.</span>
+  </div>
+</div>

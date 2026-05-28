@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#F59E0B">2026 부가세 절세 특례 비교</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- 특례 1: 의제매입세액공제 -->
+  <rect x="60" y="130" width="960" height="200" rx="20" fill="rgba(34,197,94,0.08)"/>
+  <rect x="80" y="150" width="300" height="44" rx="22" fill="rgba(34,197,94,0.2)"/>
+  <text x="230" y="180" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#22C55E">의제매입세액공제</text>
+  <text x="80" y="224" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">공제율: 음식점 9/109 (약 8.26%)</text>
+  <text x="80" y="258" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">한도: 과세표준의 75% (연 매출 4억 이하)</text>
+  <text x="80" y="292" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#F59E0B">2026년 12월 31일까지 연장 확정</text>
+
+  <!-- 특례 2: 신용카드 발행 세액공제 -->
+  <rect x="60" y="348" width="960" height="200" rx="20" fill="rgba(59,130,246,0.08)"/>
+  <rect x="80" y="368" width="340" height="44" rx="22" fill="rgba(59,130,246,0.15)"/>
+  <text x="250" y="398" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#60A5FA">신용카드 발행 세액공제</text>
+  <text x="80" y="442" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">공제율: 매출의 1.3%</text>
+  <text x="80" y="476" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">한도: 연 1,000만 원 (직전 매출 10억 이하)</text>
+  <text x="80" y="510" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#F59E0B">2026년 12월 31일까지 연장 확정</text>
+
+  <!-- 특례 3: 조기환급 -->
+  <rect x="60" y="566" width="960" height="170" rx="20" fill="rgba(245,158,11,0.08)"/>
+  <rect x="80" y="586" width="220" height="44" rx="22" fill="rgba(245,158,11,0.15)"/>
+  <text x="190" y="616" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#F59E0B">조기환급</text>
+  <text x="80" y="660" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">시설투자 시 신고 후 15일 이내 환급</text>
+  <text x="80" y="694" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">일반과세자만 가능 · 감가상각자산 취득명세서 첨부</text>
+
+  <!-- 특례 4: 간이과세 기준 상향 -->
+  <rect x="60" y="754" width="960" height="170" rx="20" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="774" width="300" height="44" rx="22" fill="rgba(255,255,255,0.08)"/>
+  <text x="230" y="804" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#EAF2FF">간이과세 기준 상향</text>
+  <text x="80" y="848" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">기준: 8,000만 → 1억 400만 원 (2024~ 유지)</text>
+  <text x="80" y="882" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">납부면제: 4,800만 원 미만 → 부가세 0원</text>
+
+  <!-- 하단 -->
+  <rect x="60" y="960" width="960" height="80" rx="16" fill="rgba(245,158,11,0.12)"/>
+  <text x="540" y="1010" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#F59E0B">특례 연장 확인 후 놓치지 말고 신청하세요</text>
+</svg>

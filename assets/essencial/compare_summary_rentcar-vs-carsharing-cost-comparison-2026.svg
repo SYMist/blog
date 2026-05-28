@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 640">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="blueCard" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e3a8a" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="amberCard" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#78350f" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="640" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="540" y="48" text-anchor="middle" fill="#FFFFFF" font-size="24" font-weight="800" font-family="sans-serif">렌터카 vs 카셰어링 주말·장기 총비용 비교</text>
+  <text x="540" y="74" text-anchor="middle" fill="#93C5FD" font-size="14" font-family="sans-serif">2026년 5월 기준 · 준중형 기준 · 손익분기점 200km</text>
+  <rect x="60" y="88" width="960" height="2" rx="1" fill="#1E40AF" fill-opacity="0.5"/>
+
+  <!-- Card 1: 렌터카 -->
+  <rect x="40" y="104" width="480" height="500" rx="14" fill="url(#blueCard)" stroke="#1E40AF" stroke-width="2"/>
+  <rect x="40" y="104" width="480" height="48" rx="14" fill="#1E40AF"/>
+  <rect x="40" y="136" width="480" height="16" fill="#1E40AF"/>
+  <text x="280" y="136" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">렌터카</text>
+  <text x="280" y="172" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">롯데렌터카 · SK렌터카 · 주행요금 없음</text>
+
+  <line x1="70" y1="192" x2="490" y2="192" stroke="#1e3a8a" stroke-width="1"/>
+
+  <text x="280" y="220" text-anchor="middle" fill="#93C5FD" font-size="13" font-weight="700" font-family="sans-serif">주말 1박2일 대여료 (준중형)</text>
+  <text x="280" y="256" text-anchor="middle" fill="#FFFFFF" font-size="32" font-weight="800" font-family="sans-serif">7~12만원</text>
+  <text x="280" y="280" text-anchor="middle" fill="#4ADE80" font-size="14" font-family="sans-serif">주행요금 없음 ✅ 장거리 유리</text>
+
+  <line x1="70" y1="300" x2="490" y2="300" stroke="#1e3a8a" stroke-width="1"/>
+
+  <text x="280" y="328" text-anchor="middle" fill="#93C5FD" font-size="13" font-weight="700" font-family="sans-serif">장기 한달 요금 (월단기, 보험·정비 포함)</text>
+  <text x="280" y="366" text-anchor="middle" fill="#FFFFFF" font-size="30" font-weight="800" font-family="sans-serif">약 20~25만원/월</text>
+
+  <line x1="70" y1="386" x2="490" y2="386" stroke="#1e3a8a" stroke-width="1"/>
+
+  <text x="80" y="420" fill="#4ADE80" font-size="14" font-weight="700" font-family="sans-serif">✅ 주행요금 없음 (유류비만 부담)</text>
+  <text x="80" y="446" fill="#4ADE80" font-size="14" font-weight="700" font-family="sans-serif">✅ 장기 월단기: 보험·정비 포함</text>
+  <text x="80" y="472" fill="#94A3B8" font-size="14" font-family="sans-serif">❌ 만차 반납 의무 / 편도 반납 추가 요금</text>
+  <text x="80" y="498" fill="#94A3B8" font-size="14" font-family="sans-serif">❌ 최소 24시간 단위 대여</text>
+
+  <rect x="70" y="518" width="390" height="38" rx="10" fill="#1E40AF" fill-opacity="0.3"/>
+  <text x="265" y="543" text-anchor="middle" fill="#93C5FD" font-size="13" font-weight="700" font-family="sans-serif">200km+ 장거리 · 장기 이용 시 유리</text>
+
+  <!-- Card 2: 카셰어링 -->
+  <rect x="560" y="104" width="480" height="500" rx="14" fill="url(#amberCard)" stroke="#D97706" stroke-width="2"/>
+  <rect x="560" y="104" width="480" height="48" rx="14" fill="#D97706"/>
+  <rect x="560" y="136" width="480" height="16" fill="#D97706"/>
+  <text x="800" y="136" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">카셰어링</text>
+  <text x="800" y="172" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">쏘카 · 그린카 · 30분 단위 이용 가능</text>
+
+  <line x1="590" y1="192" x2="1010" y2="192" stroke="#78350f" stroke-width="1"/>
+
+  <text x="800" y="220" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">주말 1박2일 대여료 (준중형)</text>
+  <text x="800" y="256" text-anchor="middle" fill="#FFFFFF" font-size="32" font-weight="800" font-family="sans-serif">6~10만원</text>
+  <text x="800" y="280" text-anchor="middle" fill="#FCA5A5" font-size="14" font-family="sans-serif">30km 초과 시 km당 150원 추가 ⚠️</text>
+
+  <line x1="590" y1="300" x2="1010" y2="300" stroke="#78350f" stroke-width="1"/>
+
+  <text x="800" y="328" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">장기 매일 4시간 이용 기준</text>
+  <text x="800" y="366" text-anchor="middle" fill="#FFFFFF" font-size="30" font-weight="800" font-family="sans-serif">약 30~45만원+/월</text>
+
+  <line x1="590" y1="386" x2="1010" y2="386" stroke="#78350f" stroke-width="1"/>
+
+  <text x="600" y="420" fill="#4ADE80" font-size="14" font-weight="700" font-family="sans-serif">✅ 30분 단위 이용 / 쏘카존 주차 무료</text>
+  <text x="600" y="446" fill="#4ADE80" font-size="14" font-weight="700" font-family="sans-serif">✅ 앱 예약 즉시 / 단거리 100km 이내 유리</text>
+  <text x="600" y="472" fill="#94A3B8" font-size="14" font-family="sans-serif">❌ 주행요금 누적 (장거리 시 역전)</text>
+  <text x="600" y="498" fill="#94A3B8" font-size="14" font-family="sans-serif">❌ 지정존만 반납 가능</text>
+
+  <rect x="590" y="518" width="390" height="38" rx="10" fill="#D97706" fill-opacity="0.3"/>
+  <text x="785" y="543" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">200km 이하 단거리 · 단시간 이용 시 유리</text>
+
+  <text x="40" y="622" fill="#64748B" font-size="12" font-family="sans-serif">essencial | 자동차 비교 · 2026.05 기준 · 실제 요금은 차종·시즌·조건에 따라 달라집니다</text>
+</svg>

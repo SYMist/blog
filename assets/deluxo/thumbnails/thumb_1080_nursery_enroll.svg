@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <rect x="410" y="200" width="260" height="56" rx="28" fill="#F59E0B"/>
+  <text x="540" y="236" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#0B1F3B" text-anchor="middle">2026 최신</text>
+
+  <text x="540" y="430" font-family="'Pretendard', sans-serif" font-size="82" font-weight="900" fill="#FFFFFF" text-anchor="middle">어린이집 보육료</text>
+
+  <text x="540" y="540" font-family="'Pretendard', sans-serif" font-size="52" font-weight="600" fill="#EAF2FF" text-anchor="middle">입소 신청·지원금</text>
+  <text x="540" y="610" font-family="'Pretendard', sans-serif" font-size="52" font-weight="600" fill="#EAF2FF" text-anchor="middle">총정리</text>
+
+  <rect x="115" y="760" width="220" height="60" rx="32" fill="#E8F0FF"/>
+  <text x="225" y="799" font-family="'Pretendard', sans-serif" font-size="30" font-weight="700" fill="#1D4ED8" text-anchor="middle">만0세58만</text>
+
+  <rect x="375" y="760" width="300" height="60" rx="32" fill="#E8F0FF"/>
+  <text x="525" y="799" font-family="'Pretendard', sans-serif" font-size="30" font-weight="700" fill="#1D4ED8" text-anchor="middle">다자녀2자녀확대</text>
+
+  <rect x="715" y="760" width="250" height="60" rx="32" fill="#E8F0FF"/>
+  <text x="840" y="799" font-family="'Pretendard', sans-serif" font-size="30" font-weight="700" fill="#1D4ED8" text-anchor="middle">60일골든타임</text>
+</svg>

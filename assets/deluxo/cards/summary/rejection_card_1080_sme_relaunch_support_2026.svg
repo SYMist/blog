@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="8" fill="#EF4444"/>
+
+  <!-- Title -->
+  <text x="540" y="66" font-family="-apple-system, sans-serif" font-size="32" font-weight="900" fill="#FFFFFF" text-anchor="middle">재창업 지원금 탈락 사유 TOP 5</text>
+  <text x="540" y="100" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0" text-anchor="middle">신청 전 이 5가지를 반드시 확인하세요</text>
+  <line x1="60" y1="122" x2="1020" y2="122" stroke="#1A3270" stroke-width="2"/>
+
+  <!-- Reason 1 -->
+  <rect x="60" y="146" width="960" height="100" rx="12" fill="#0D2347"/>
+  <rect x="60" y="146" width="6" height="100" rx="3" fill="#EF4444"/>
+  <text x="116" y="204" font-family="-apple-system, sans-serif" font-size="38" font-weight="900" fill="#EF4444">1</text>
+  <text x="168" y="190" font-family="-apple-system, sans-serif" font-size="19" font-weight="800" fill="#FFFFFF">세금 체납 또는 금융기관 연체 이력</text>
+  <text x="168" y="218" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0">국세·지방세 체납 또는 금융연체 이력이 있으면 서류 심사 단계에서 즉시 탈락</text>
+  <text x="168" y="236" font-family="-apple-system, sans-serif" font-size="13" fill="#EF4444">→ 신청 전 홈택스(hometax.go.kr)·위택스(wetax.go.kr)에서 완납 확인 필수</text>
+
+  <!-- Reason 2 -->
+  <rect x="60" y="262" width="960" height="100" rx="12" fill="#0D2347"/>
+  <rect x="60" y="262" width="6" height="100" rx="3" fill="#EF4444"/>
+  <text x="116" y="320" font-family="-apple-system, sans-serif" font-size="38" font-weight="900" fill="#EF4444">2</text>
+  <text x="168" y="306" font-family="-apple-system, sans-serif" font-size="19" font-weight="800" fill="#FFFFFF">자부담 50% 조달 계획 불명확</text>
+  <text x="168" y="334" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0">재기사업화는 매칭 방식 — 총사업비의 50%를 본인이 조달해야 함</text>
+  <text x="168" y="352" font-family="-apple-system, sans-serif" font-size="13" fill="#EF4444">→ 사업계획서에 자부담 재원 출처(통장 잔액·가족 차입 등) 구체 기재 필수</text>
+
+  <!-- Reason 3 -->
+  <rect x="60" y="378" width="960" height="100" rx="12" fill="#0D2347"/>
+  <rect x="60" y="378" width="6" height="100" rx="3" fill="#F59E0B"/>
+  <text x="116" y="436" font-family="-apple-system, sans-serif" font-size="38" font-weight="900" fill="#F59E0B">3</text>
+  <text x="168" y="422" font-family="-apple-system, sans-serif" font-size="19" font-weight="800" fill="#FFFFFF">사업계획서 미흡</text>
+  <text x="168" y="450" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0">폐업 원인 분석 없이 "다시 해보겠다" 수준의 계획서는 심사 통과 어려움</text>
+  <text x="168" y="468" font-family="-apple-system, sans-serif" font-size="13" fill="#F59E0B">→ 실패 원인 분석 → 개선 전략 → 구체적 매출 계획 순으로 작성</text>
+
+  <!-- Reason 4 -->
+  <rect x="60" y="494" width="960" height="100" rx="12" fill="#0D2347"/>
+  <rect x="60" y="494" width="6" height="100" rx="3" fill="#F59E0B"/>
+  <text x="116" y="552" font-family="-apple-system, sans-serif" font-size="38" font-weight="900" fill="#F59E0B">4</text>
+  <text x="168" y="538" font-family="-apple-system, sans-serif" font-size="19" font-weight="800" fill="#FFFFFF">지원 유형 오기재 (재창업형·업종전환형·창업도약형 혼동)</text>
+  <text x="168" y="566" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0">본인 상황에 맞지 않는 유형으로 신청하면 자격 미달로 탈락 처리</text>
+  <text x="168" y="584" font-family="-apple-system, sans-serif" font-size="13" fill="#F59E0B">→ 공고문의 유형별 신청 자격을 먼저 꼼꼼히 확인 후 선택</text>
+
+  <!-- Reason 5 -->
+  <rect x="60" y="610" width="960" height="100" rx="12" fill="#0D2347"/>
+  <rect x="60" y="610" width="6" height="100" rx="3" fill="#34D399"/>
+  <text x="116" y="668" font-family="-apple-system, sans-serif" font-size="38" font-weight="900" fill="#34D399">5</text>
+  <text x="168" y="654" font-family="-apple-system, sans-serif" font-size="19" font-weight="800" fill="#FFFFFF">재도전특별자금 교육 이수 미완료</text>
+  <text x="168" y="682" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0">중진공 재도전자금은 재창업 교육 10시간 이수 확인서 없이는 신청 자체가 불가</text>
+  <text x="168" y="700" font-family="-apple-system, sans-serif" font-size="13" fill="#34D399">→ 소진공 지역센터 또는 콜센터 1357에서 지정 교육기관 안내 받기</text>
+
+  <!-- Final action box -->
+  <rect x="60" y="728" width="960" height="90" rx="12" fill="#1A3270"/>
+  <rect x="60" y="728" width="960" height="90" rx="12" fill="none" stroke="#34D399" stroke-width="2"/>
+  <text x="540" y="766" font-family="-apple-system, sans-serif" font-size="16" font-weight="800" fill="#34D399" text-anchor="middle">탈락 0건 전략 — 신청 전 3가지 먼저 확인</text>
+  <text x="540" y="793" font-family="-apple-system, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle">① 홈택스·위택스 세금 완납 확인  ②  자부담 재원 출처 확보  ③ 사업계획서 전문가 검토</text>
+  <text x="540" y="811" font-family="-apple-system, sans-serif" font-size="12" fill="#A0B4D0" text-anchor="middle">소상공인시장진흥공단 지역센터에서 사업계획서 작성 지원 무료 제공</text>
+
+  <!-- Footer -->
+  <text x="540" y="974" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준 | 소상공인24 sbiz24.kr | 콜센터 1533-0100 / 1357</text>
+  <rect x="0" y="1072" width="1080" height="8" fill="#EF4444"/>
+</svg>

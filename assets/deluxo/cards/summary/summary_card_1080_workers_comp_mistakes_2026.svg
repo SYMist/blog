@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <text x="540" y="108" font-family="'Pretendard', sans-serif" font-size="44" font-weight="900" fill="#F59E0B" text-anchor="middle">산재보험 급여 소멸시효 핵심 요약</text>
+  <text x="540" y="162" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF" text-anchor="middle">2026년 현행 기준 · 요양·휴업·장해·유족·간병</text>
+
+  <!-- Row 1: 3 stat boxes -->
+  <rect x="60" y="192" width="293" height="220" rx="20" fill="#1A3270"/>
+  <text x="206" y="250" font-family="'Pretendard', sans-serif" font-size="20" font-weight="800" fill="#F59E0B" text-anchor="middle">요양·휴업·간병 시효</text>
+  <text x="206" y="328" font-family="'Pretendard', sans-serif" font-size="62" font-weight="900" fill="#FFFFFF" text-anchor="middle">3년</text>
+  <text x="206" y="388" font-family="'Pretendard', sans-serif" font-size="18" font-weight="600" fill="#EAF2FF" text-anchor="middle">장례비 포함 동일</text>
+
+  <rect x="393" y="192" width="293" height="220" rx="20" fill="#1A3270"/>
+  <text x="539" y="250" font-family="'Pretendard', sans-serif" font-size="20" font-weight="800" fill="#F59E0B" text-anchor="middle">장해·유족 시효</text>
+  <text x="539" y="328" font-family="'Pretendard', sans-serif" font-size="62" font-weight="900" fill="#FFFFFF" text-anchor="middle">5년</text>
+  <text x="539" y="388" font-family="'Pretendard', sans-serif" font-size="18" font-weight="600" fill="#EAF2FF" text-anchor="middle">치유·사망 다음날부터</text>
+
+  <rect x="726" y="192" width="293" height="220" rx="20" fill="#F59E0B"/>
+  <text x="872" y="250" font-family="'Pretendard', sans-serif" font-size="20" font-weight="800" fill="#0B1F3B" text-anchor="middle">2026년 1일 상한</text>
+  <text x="872" y="320" font-family="'Pretendard', sans-serif" font-size="38" font-weight="900" fill="#0B1F3B" text-anchor="middle">268,299원</text>
+  <text x="872" y="368" font-family="'Pretendard', sans-serif" font-size="18" font-weight="800" fill="#0B1F3B" text-anchor="middle">평균임금 × 70%</text>
+  <text x="872" y="394" font-family="'Pretendard', sans-serif" font-size="16" font-weight="700" fill="#0B1F3B" text-anchor="middle">하한 82,560원</text>
+
+  <!-- Row 2: 2 boxes -->
+  <rect x="60" y="442" width="455" height="152" rx="20" fill="#1A3270"/>
+  <text x="287" y="494" font-family="'Pretendard', sans-serif" font-size="20" font-weight="800" fill="#EF4444" text-anchor="middle">대기기간 (미지급)</text>
+  <text x="287" y="558" font-family="'Pretendard', sans-serif" font-size="36" font-weight="900" fill="#FFFFFF" text-anchor="middle">첫 3일 — 4일째부터 지급</text>
+
+  <rect x="565" y="442" width="455" height="152" rx="20" fill="#EF4444"/>
+  <text x="792" y="494" font-family="'Pretendard', sans-serif" font-size="20" font-weight="800" fill="#FFFFFF" text-anchor="middle">불복 심사청구 기한</text>
+  <text x="792" y="558" font-family="'Pretendard', sans-serif" font-size="42" font-weight="900" fill="#FFFFFF" text-anchor="middle">90일 이내</text>
+
+  <!-- Info strip -->
+  <rect x="60" y="624" width="290" height="66" rx="33" fill="#1A3270"/>
+  <text x="205" y="665" font-family="'Pretendard', sans-serif" font-size="18" font-weight="700" fill="#EAF2FF" text-anchor="middle">평균임금 70% 지급</text>
+
+  <rect x="395" y="624" width="290" height="66" rx="33" fill="#1A3270"/>
+  <text x="540" y="665" font-family="'Pretendard', sans-serif" font-size="18" font-weight="700" fill="#EAF2FF" text-anchor="middle">사업주 전액 부담</text>
+
+  <rect x="730" y="624" width="290" height="66" rx="33" fill="#1A3270"/>
+  <text x="875" y="665" font-family="'Pretendard', sans-serif" font-size="18" font-weight="700" fill="#EAF2FF" text-anchor="middle">단독 신청 가능</text>
+
+  <!-- Bottom bar -->
+  <rect x="60" y="722" width="960" height="300" rx="24" fill="#F59E0B"/>
+  <text x="540" y="802" font-family="'Pretendard', sans-serif" font-size="28" font-weight="900" fill="#0B1F3B" text-anchor="middle">요양급여 승인 즉시 → 휴업급여 동시 신청 필수</text>
+  <text x="540" y="862" font-family="'Pretendard', sans-serif" font-size="23" font-weight="700" fill="#0B1F3B" text-anchor="middle">소멸시효는 급여별 독립 진행 — 함께 놓치면 수백만 원 소멸</text>
+  <text x="540" y="940" font-family="'Pretendard', sans-serif" font-size="19" font-weight="700" fill="#0B1F3B" text-anchor="middle">※ 치유 후 장해 남으면 즉시 장해급여 등급 판정 신청 (5년 시효)</text>
+</svg>

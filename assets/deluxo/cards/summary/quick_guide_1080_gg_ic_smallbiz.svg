@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><filter id="s" x="-4%" y="-4%" width="108%" height="108%"><feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#000" flood-opacity="0.08"/></filter></defs>
+  <rect width="1080" height="1080" rx="32" fill="#F0F4FA"/>
+  <rect x="40" y="40" width="1000" height="1000" rx="24" fill="#FFF" filter="url(#s)"/>
+  <rect x="40" y="40" width="1000" height="100" rx="24" fill="#059669"/><rect x="40" y="95" width="1000" height="45" fill="#059669"/>
+  <text x="540" y="103" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="38" font-weight="800" fill="#FFF">나는 어디? 경기도 vs 인천 빠른 판단</text>
+  <!-- 경기도 Box -->
+  <rect x="80" y="180" width="430" height="780" rx="18" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="2"/>
+  <text x="295" y="230" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="800" fill="#1D4ED8">경기도</text>
+  <line x1="120" y1="250" x2="470" y2="250" stroke="#BFDBFE" stroke-width="1.5"/>
+  <text x="120" y="295" font-family="'Pretendard',sans-serif" font-size="24" font-weight="600" fill="#374151">총 규모</text>
+  <text x="120" y="330" font-family="'Pretendard',sans-serif" font-size="32" font-weight="800" fill="#DC2626">1조 7천억원</text>
+  <text x="120" y="385" font-family="'Pretendard',sans-serif" font-size="24" font-weight="600" fill="#374151">업체당</text>
+  <text x="120" y="420" font-family="'Pretendard',sans-serif" font-size="32" font-weight="800" fill="#111827">최대 1억원</text>
+  <text x="120" y="475" font-family="'Pretendard',sans-serif" font-size="24" font-weight="600" fill="#374151">금리</text>
+  <text x="120" y="510" font-family="'Pretendard',sans-serif" font-size="26" fill="#111827">2.90% (이차보전 최대 2%p)</text>
+  <text x="120" y="565" font-family="'Pretendard',sans-serif" font-size="24" font-weight="600" fill="#374151">자금 종류</text>
+  <text x="120" y="600" font-family="'Pretendard',sans-serif" font-size="24" fill="#111827">경영안정·창업·특화</text>
+  <text x="120" y="632" font-family="'Pretendard',sans-serif" font-size="24" fill="#111827">특별경영·시설자금</text>
+  <text x="120" y="687" font-family="'Pretendard',sans-serif" font-size="24" font-weight="600" fill="#374151">신청처</text>
+  <text x="120" y="722" font-family="'Pretendard',sans-serif" font-size="24" fill="#1D4ED8">이지원 앱 + g-money</text>
+  <rect x="120" y="770" width="350" height="60" rx="12" fill="#1D4ED8"/>
+  <text x="295" y="808" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">규모 크고 종류 다양</text>
+  <text x="295" y="880" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#6B7280">→ 목적에 맞게 선택 가능</text>
+  <!-- 인천 Box -->
+  <rect x="570" y="180" width="430" height="780" rx="18" fill="#FEF3C7" stroke="#FDE68A" stroke-width="2"/>
+  <text x="785" y="230" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="800" fill="#92400E">인천</text>
+  <line x1="610" y1="250" x2="960" y2="250" stroke="#FDE68A" stroke-width="1.5"/>
+  <text x="610" y="295" font-family="'Pretendard',sans-serif" font-size="24" font-weight="600" fill="#374151">총 규모</text>
+  <text x="610" y="330" font-family="'Pretendard',sans-serif" font-size="32" font-weight="800" fill="#DC2626">1천억원</text>
+  <text x="610" y="385" font-family="'Pretendard',sans-serif" font-size="24" font-weight="600" fill="#374151">업체당</text>
+  <text x="610" y="420" font-family="'Pretendard',sans-serif" font-size="32" font-weight="800" fill="#111827">최대 5천만원</text>
+  <text x="610" y="475" font-family="'Pretendard',sans-serif" font-size="24" font-weight="600" fill="#374151">이차보전</text>
+  <text x="610" y="510" font-family="'Pretendard',sans-serif" font-size="26" fill="#111827">1년차 2.0% / 2~3년차 1.5%</text>
+  <text x="610" y="565" font-family="'Pretendard',sans-serif" font-size="24" font-weight="600" fill="#374151">자금 종류</text>
+  <text x="610" y="600" font-family="'Pretendard',sans-serif" font-size="24" fill="#111827">운전자금</text>
+  <text x="610" y="632" font-family="'Pretendard',sans-serif" font-size="24" fill="#6B7280">(시설투자 불가)</text>
+  <text x="610" y="687" font-family="'Pretendard',sans-serif" font-size="24" font-weight="600" fill="#374151">신청처</text>
+  <text x="610" y="722" font-family="'Pretendard',sans-serif" font-size="24" fill="#92400E">보증드림 앱 + 재단 지점</text>
+  <rect x="610" y="770" width="350" height="60" rx="12" fill="#92400E"/>
+  <text x="785" y="808" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">처리 빠르고 비대면 가능</text>
+  <text x="785" y="880" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#6B7280">→ 급한 운전자금에 적합</text>
+</svg>

@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 640">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="blueCard" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e3a8a" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="tealCard" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#134e4a" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="640" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="540" y="48" text-anchor="middle" fill="#FFFFFF" font-size="24" font-weight="800" font-family="sans-serif">신차 vs 인증중고차 5년 TCO 비교</text>
+  <text x="540" y="74" text-anchor="middle" fill="#93C5FD" font-size="14" font-family="sans-serif">2026년 5월 기준 · 준중형 세단 · 5년 총보유비용 시뮬레이션</text>
+  <rect x="60" y="88" width="960" height="2" rx="1" fill="#1E40AF" fill-opacity="0.5"/>
+
+  <!-- Card 1: 신차 -->
+  <rect x="40" y="104" width="480" height="500" rx="14" fill="url(#blueCard)" stroke="#1E40AF" stroke-width="2"/>
+  <rect x="40" y="104" width="480" height="48" rx="14" fill="#1E40AF"/>
+  <rect x="40" y="136" width="480" height="16" fill="#1E40AF"/>
+  <text x="280" y="136" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">신차</text>
+  <text x="280" y="172" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">구매 당시 최신 사양 · 제조사 보증</text>
+
+  <line x1="70" y1="192" x2="490" y2="192" stroke="#1e3a8a" stroke-width="1"/>
+
+  <text x="280" y="220" text-anchor="middle" fill="#93C5FD" font-size="13" font-weight="700" font-family="sans-serif">구매가 (쏘나타급 기준)</text>
+  <text x="280" y="256" text-anchor="middle" fill="#FFFFFF" font-size="32" font-weight="800" font-family="sans-serif">2,900만원</text>
+  <text x="280" y="280" text-anchor="middle" fill="#FCA5A5" font-size="14" font-family="sans-serif">첫해 감가 20~30% 하락 ⚠️</text>
+
+  <line x1="70" y1="300" x2="490" y2="300" stroke="#1e3a8a" stroke-width="1"/>
+
+  <text x="280" y="328" text-anchor="middle" fill="#93C5FD" font-size="13" font-weight="700" font-family="sans-serif">5년 TCO (취득세·보험·정비·유류비 합산)</text>
+  <text x="280" y="366" text-anchor="middle" fill="#FFFFFF" font-size="30" font-weight="800" font-family="sans-serif">약 4,318만원</text>
+
+  <line x1="70" y1="386" x2="490" y2="386" stroke="#1e3a8a" stroke-width="1"/>
+
+  <text x="80" y="420" fill="#4ADE80" font-size="14" font-weight="700" font-family="sans-serif">✅ 제조사 보증 5년/10만km</text>
+  <text x="80" y="446" fill="#4ADE80" font-size="14" font-weight="700" font-family="sans-serif">✅ 5년 정비비 200~300만원 (낮음)</text>
+  <text x="80" y="472" fill="#94A3B8" font-size="14" font-family="sans-serif">❌ 출고 직후 20~30% 감가 손실</text>
+  <text x="80" y="498" fill="#94A3B8" font-size="14" font-family="sans-serif">❌ 취득세·보험료 모두 높음</text>
+
+  <rect x="70" y="518" width="390" height="38" rx="10" fill="#1E40AF" fill-opacity="0.3"/>
+  <text x="265" y="543" text-anchor="middle" fill="#93C5FD" font-size="13" font-weight="700" font-family="sans-serif">5년 이상 장기 보유 예정 시 유리</text>
+
+  <!-- Card 2: 인증중고차 -->
+  <rect x="560" y="104" width="480" height="500" rx="14" fill="url(#tealCard)" stroke="#0F766E" stroke-width="2"/>
+  <rect x="560" y="104" width="480" height="48" rx="14" fill="#0F766E"/>
+  <rect x="560" y="136" width="480" height="16" fill="#0F766E"/>
+  <text x="800" y="136" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">3년식 인증중고차</text>
+  <text x="800" y="172" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">이미 60% 감가 완료 · 낮은 초기 비용</text>
+
+  <line x1="590" y1="192" x2="1010" y2="192" stroke="#134e4a" stroke-width="1"/>
+
+  <text x="800" y="220" text-anchor="middle" fill="#6EE7B7" font-size="13" font-weight="700" font-family="sans-serif">구매가 (동급 3년식 기준)</text>
+  <text x="800" y="256" text-anchor="middle" fill="#FFFFFF" font-size="32" font-weight="800" font-family="sans-serif">1,900만원</text>
+  <text x="800" y="280" text-anchor="middle" fill="#4ADE80" font-size="14" font-family="sans-serif">감가 급락 구간 이미 통과 ✅</text>
+
+  <line x1="590" y1="300" x2="1010" y2="300" stroke="#134e4a" stroke-width="1"/>
+
+  <text x="800" y="328" text-anchor="middle" fill="#6EE7B7" font-size="13" font-weight="700" font-family="sans-serif">5년 TCO (취득세·보험·정비·유류비 합산)</text>
+  <text x="800" y="366" text-anchor="middle" fill="#FFFFFF" font-size="30" font-weight="800" font-family="sans-serif">약 3,661만원 🏆</text>
+
+  <line x1="590" y1="386" x2="1010" y2="386" stroke="#134e4a" stroke-width="1"/>
+
+  <text x="600" y="420" fill="#4ADE80" font-size="14" font-weight="700" font-family="sans-serif">✅ 구매가 1,000만원 저렴</text>
+  <text x="600" y="446" fill="#4ADE80" font-size="14" font-weight="700" font-family="sans-serif">✅ 취득세·보험료 모두 낮음</text>
+  <text x="600" y="472" fill="#94A3B8" font-size="14" font-family="sans-serif">❌ 5년 정비비 350~500만원 (높음)</text>
+  <text x="600" y="498" fill="#94A3B8" font-size="14" font-family="sans-serif">❌ 보증 기간 1~2년으로 짧음</text>
+
+  <rect x="590" y="518" width="390" height="38" rx="10" fill="#0F766E" fill-opacity="0.3"/>
+  <text x="785" y="543" text-anchor="middle" fill="#6EE7B7" font-size="13" font-weight="700" font-family="sans-serif">3~5년 단기 보유·비용 절감 시 유리</text>
+
+  <text x="40" y="622" fill="#64748B" font-size="12" font-family="sans-serif">essencial | 자동차 비교 · 2026.05 기준 · 실제 비용은 차종·조건에 따라 달라집니다</text>
+</svg>

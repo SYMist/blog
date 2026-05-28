@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="80" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="800" fill="#F59E0B">정책자금 신청 탈락 사유 TOP 5</text>
+  <rect x="60" y="110" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <rect x="60" y="145" width="960" height="160" rx="20" fill="rgba(239,68,68,0.12)"/>
+  <rect x="80" y="165" width="60" height="44" rx="22" fill="#EF4444"/>
+  <text x="110" y="195" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">1</text>
+  <text x="160" y="195" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#FFF">예산 소진 조기 마감</text>
+  <text x="160" y="240" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">접수 시작 수 시간 만에 마감되는 경우가 많음</text>
+  <text x="160" y="280" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">접수 시작 시간(10:00)에 바로 신청하세요!</text>
+
+  <rect x="60" y="325" width="960" height="160" rx="20" fill="rgba(239,68,68,0.08)"/>
+  <rect x="80" y="345" width="60" height="44" rx="22" fill="#EF4444"/>
+  <text x="110" y="375" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">2</text>
+  <text x="160" y="375" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#FFF">소상공인 요건 미충족</text>
+  <text x="160" y="420" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">상시근로자 5인 이상(제조업 10인 이상)이면 부적격</text>
+  <text x="160" y="460" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">고용보험 피보험자 수로 사전 확인</text>
+
+  <rect x="60" y="505" width="960" height="160" rx="20" fill="rgba(239,68,68,0.12)"/>
+  <rect x="80" y="525" width="60" height="44" rx="22" fill="#EF4444"/>
+  <text x="110" y="555" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">3</text>
+  <text x="160" y="555" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#FFF">제외 업종 해당</text>
+  <text x="160" y="600" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">유흥업·부동산업 등은 정책자금 지원 대상 제외</text>
+  <text x="160" y="640" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">소진공 공고에서 제외 업종 사전 확인</text>
+
+  <rect x="60" y="685" width="960" height="160" rx="20" fill="rgba(239,68,68,0.08)"/>
+  <rect x="80" y="705" width="60" height="44" rx="22" fill="#EF4444"/>
+  <text x="110" y="735" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">4</text>
+  <text x="160" y="735" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#FFF">국세·지방세 체납</text>
+  <text x="160" y="780" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">세금 체납이 있으면 지원대상 확인서 발급 불가</text>
+  <text x="160" y="820" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">납세증명서를 미리 발급받아 체납 여부 확인</text>
+
+  <rect x="60" y="865" width="960" height="160" rx="20" fill="rgba(239,68,68,0.12)"/>
+  <rect x="80" y="885" width="60" height="44" rx="22" fill="#EF4444"/>
+  <text x="110" y="915" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">5</text>
+  <text x="160" y="915" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#FFF">서류 미비·보완 미제출</text>
+  <text x="160" y="960" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">접수 후 보완 요청이 와도 기한 내 미제출 시 탈락</text>
+  <text x="160" y="1000" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">사업자등록증·통장·과표증명원 미리 준비!</text>
+</svg>

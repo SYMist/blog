@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="tbg2" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#tbg2)"/>
+
+  <rect x="60" y="80" width="260" height="46" rx="23" fill="#1E40AF"/>
+  <text x="190" y="110" font-family="sans-serif" font-size="22" font-weight="800" fill="#FFF" text-anchor="middle">2026 절세 전략</text>
+
+  <text x="600" y="240" font-family="sans-serif" font-size="48" font-weight="900" fill="#FFFFFF" text-anchor="middle">자동차세 연납 할인·카드 납부 총정리</text>
+  <text x="600" y="310" font-family="sans-serif" font-size="34" fill="#E2E8F0" text-anchor="middle">분기별 할인율 · 카드 무이자 비교 (2026)</text>
+
+  <rect x="210" y="370" width="140" height="44" rx="22" fill="#DBEAFE"/>
+  <text x="280" y="398" font-family="sans-serif" font-size="18" font-weight="700" fill="#1E40AF" text-anchor="middle">연납할인</text>
+  <rect x="370" y="370" width="130" height="44" rx="22" fill="#DBEAFE"/>
+  <text x="435" y="398" font-family="sans-serif" font-size="18" font-weight="700" fill="#1E40AF" text-anchor="middle">카드혜택</text>
+  <rect x="520" y="370" width="130" height="44" rx="22" fill="#DBEAFE"/>
+  <text x="585" y="398" font-family="sans-serif" font-size="18" font-weight="700" fill="#1E40AF" text-anchor="middle">무이자</text>
+  <rect x="670" y="370" width="130" height="44" rx="22" fill="#DBEAFE"/>
+  <text x="735" y="398" font-family="sans-serif" font-size="18" font-weight="700" fill="#1E40AF" text-anchor="middle">배기량</text>
+  <rect x="820" y="370" width="130" height="44" rx="22" fill="#DBEAFE"/>
+  <text x="885" y="398" font-family="sans-serif" font-size="18" font-weight="700" fill="#1E40AF" text-anchor="middle">절세팁</text>
+
+  <text x="600" y="510" font-family="sans-serif" font-size="20" fill="#94A3B8" text-anchor="middle">1월 연납 4.58% 할인 | 카드 무이자 최대 6개월 | 차령 경감 중복 적용</text>
+</svg>

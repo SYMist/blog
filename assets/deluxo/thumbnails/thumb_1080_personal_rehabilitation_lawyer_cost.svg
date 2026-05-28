@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <rect x="370" y="120" width="340" height="60" rx="30" fill="#F59E0B"/>
+  <text x="540" y="161" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#0B1F3B" text-anchor="middle">2026 개인회생 가이드</text>
+
+  <text x="540" y="340" font-family="'Pretendard', sans-serif" font-size="82" font-weight="900" fill="#FFFFFF" text-anchor="middle">변호사 vs 셀프</text>
+  <text x="540" y="450" font-family="'Pretendard', sans-serif" font-size="82" font-weight="900" fill="#F59E0B" text-anchor="middle">개인회생 비용 비교</text>
+
+  <text x="540" y="560" font-family="'Pretendard', sans-serif" font-size="52" font-weight="600" fill="#EAF2FF" text-anchor="middle">총비용·성공률·기간</text>
+  <text x="540" y="630" font-family="'Pretendard', sans-serif" font-size="52" font-weight="600" fill="#EAF2FF" text-anchor="middle">완벽 비교 총정리</text>
+
+  <rect x="120" y="780" width="280" height="80" rx="40" fill="#E8F0FF"/>
+  <text x="260" y="833" font-family="'Pretendard', sans-serif" font-size="30" font-weight="700" fill="#1D4ED8" text-anchor="middle">변호사 270~500만</text>
+
+  <rect x="420" y="780" width="240" height="80" rx="40" fill="#E8F0FF"/>
+  <text x="540" y="833" font-family="'Pretendard', sans-serif" font-size="30" font-weight="700" fill="#1D4ED8" text-anchor="middle">셀프 50~100만</text>
+
+  <rect x="680" y="780" width="280" height="80" rx="40" fill="#E8F0FF"/>
+  <text x="820" y="833" font-family="'Pretendard', sans-serif" font-size="30" font-weight="700" fill="#1D4ED8" text-anchor="middle">실비 70~90만</text>
+
+  <rect x="220" y="900" width="320" height="80" rx="40" fill="#F59E0B"/>
+  <text x="380" y="953" font-family="'Pretendard', sans-serif" font-size="30" font-weight="700" fill="#0B1F3B" text-anchor="middle">최저생계비 7.2%↑</text>
+
+  <rect x="560" y="900" width="320" height="80" rx="40" fill="#F59E0B"/>
+  <text x="720" y="953" font-family="'Pretendard', sans-serif" font-size="30" font-weight="700" fill="#0B1F3B" text-anchor="middle">주식·코인 제외</text>
+</svg>

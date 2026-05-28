@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="purple" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#6D28D9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <rect x="370" y="120" width="340" height="50" rx="25" fill="#EF4444"/>
+  <text x="540" y="153" text-anchor="middle" fill="#FFF" font-size="24" font-weight="800" font-family="Pretendard,sans-serif">2026 비교분석</text>
+
+  <text x="540" y="280" text-anchor="middle" fill="#FFFFFF" font-size="60" font-weight="900" font-family="Pretendard,sans-serif">자동차보험</text>
+  <text x="540" y="360" text-anchor="middle" fill="#FFFFFF" font-size="60" font-weight="900" font-family="Pretendard,sans-serif">갈아타기</text>
+
+  <rect x="340" y="395" width="400" height="5" rx="3" fill="url(#purple)"/>
+
+  <text x="540" y="475" text-anchor="middle" fill="#E2E8F0" font-size="34" font-weight="600" font-family="Pretendard,sans-serif">다이렉트 vs 설계사 비교</text>
+  <text x="540" y="530" text-anchor="middle" fill="#A78BFA" font-size="28" font-weight="600" font-family="Pretendard,sans-serif">할인 특약·카드 캐시백 꿀팁</text>
+
+  <!-- Key Numbers -->
+  <rect x="120" y="580" width="380" height="120" rx="18" fill="#1E293B" stroke="#7C3AED" stroke-width="2"/>
+  <text x="310" y="630" text-anchor="middle" fill="#A78BFA" font-size="22" font-weight="700" font-family="Pretendard,sans-serif">다이렉트 절감</text>
+  <text x="310" y="675" text-anchor="middle" fill="#FFFFFF" font-size="38" font-weight="900" font-family="Pretendard,sans-serif">15~20%</text>
+
+  <rect x="580" y="580" width="380" height="120" rx="18" fill="#1E293B" stroke="#22C55E" stroke-width="2"/>
+  <text x="770" y="630" text-anchor="middle" fill="#86EFAC" font-size="22" font-weight="700" font-family="Pretendard,sans-serif">마일리지 환급</text>
+  <text x="770" y="675" text-anchor="middle" fill="#FFFFFF" font-size="38" font-weight="900" font-family="Pretendard,sans-serif">최대 45%</text>
+
+  <rect x="160" y="740" width="130" height="44" rx="22" fill="#F5F3FF"/>
+  <text x="225" y="770" text-anchor="middle" fill="#7C3AED" font-size="20" font-weight="700" font-family="Pretendard,sans-serif">채널비교</text>
+  <rect x="310" y="740" width="130" height="44" rx="22" fill="#F5F3FF"/>
+  <text x="375" y="770" text-anchor="middle" fill="#7C3AED" font-size="20" font-weight="700" font-family="Pretendard,sans-serif">할인특약</text>
+  <rect x="460" y="740" width="160" height="44" rx="22" fill="#F5F3FF"/>
+  <text x="540" y="770" text-anchor="middle" fill="#7C3AED" font-size="20" font-weight="700" font-family="Pretendard,sans-serif">카드 캐시백</text>
+  <rect x="640" y="740" width="180" height="44" rx="22" fill="#F5F3FF"/>
+  <text x="730" y="770" text-anchor="middle" fill="#7C3AED" font-size="20" font-weight="700" font-family="Pretendard,sans-serif">갈아타기 꿀팁</text>
+
+  <text x="540" y="920" text-anchor="middle" fill="#64748B" font-size="22" font-family="Pretendard,sans-serif">essencial | 2026년 4월 기준</text>
+</svg>

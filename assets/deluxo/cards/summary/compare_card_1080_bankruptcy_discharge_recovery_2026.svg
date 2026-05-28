@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#FBBF24"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="10" fill="url(#accent)"/>
+
+  <!-- Title -->
+  <text x="60" y="88" font-family="-apple-system, sans-serif" font-size="40" font-weight="900" fill="#FFFFFF">공공기록 조기삭제</text>
+  <text x="60" y="136" font-family="-apple-system, sans-serif" font-size="40" font-weight="900" fill="#F59E0B">제도 변화 비교 (2025.7 시행)</text>
+
+  <!-- Divider -->
+  <rect x="60" y="158" width="960" height="3" fill="#F59E0B" rx="2"/>
+
+  <!-- Before/After comparison -->
+  <!-- BEFORE -->
+  <rect x="60" y="178" width="450" height="320" rx="16" fill="#2D1515"/>
+  <rect x="60" y="178" width="450" height="50" rx="10" fill="#EF4444"/>
+  <text x="285" y="210" font-family="-apple-system, sans-serif" font-size="24" font-weight="900" fill="#FFFFFF" text-anchor="middle">기존 제도 (2025.7 이전)</text>
+  <text x="285" y="296" font-family="-apple-system, sans-serif" font-size="22" font-weight="700" fill="#F87171" text-anchor="middle">공공기록 유지 기간</text>
+  <text x="285" y="356" font-family="-apple-system, sans-serif" font-size="80" font-weight="900" fill="#FFFFFF" text-anchor="middle">5년</text>
+  <text x="285" y="404" font-family="-apple-system, sans-serif" font-size="18" fill="#A0B4D0" text-anchor="middle">면책 확정 후 최대 5년 대기</text>
+  <text x="285" y="430" font-family="-apple-system, sans-serif" font-size="16" fill="#F87171" text-anchor="middle">→ 신용점수 300~500점 유지</text>
+  <text x="285" y="456" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">개인회생만 불리 (형평성 문제)</text>
+  <text x="285" y="486" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">금융거래 장기간 제한</text>
+
+  <!-- Arrow -->
+  <text x="540" y="370" font-family="-apple-system, sans-serif" font-size="60" font-weight="900" fill="#F59E0B" text-anchor="middle">→</text>
+
+  <!-- AFTER -->
+  <rect x="570" y="178" width="450" height="320" rx="16" fill="#0A3A1A"/>
+  <rect x="570" y="178" width="450" height="50" rx="10" fill="#34D399"/>
+  <text x="795" y="210" font-family="-apple-system, sans-serif" font-size="24" font-weight="900" fill="#0B1F3B" text-anchor="middle">개정 제도 (2025.7 이후)</text>
+  <text x="795" y="296" font-family="-apple-system, sans-serif" font-size="22" font-weight="700" fill="#34D399" text-anchor="middle">성실상환 후 즉시 삭제</text>
+  <text x="795" y="356" font-family="-apple-system, sans-serif" font-size="80" font-weight="900" fill="#FFFFFF" text-anchor="middle">1년</text>
+  <text x="795" y="404" font-family="-apple-system, sans-serif" font-size="18" fill="#A0B4D0" text-anchor="middle">인가 후 1년 성실상환 → 즉시 삭제</text>
+  <text x="795" y="430" font-family="-apple-system, sans-serif" font-size="16" fill="#34D399" text-anchor="middle">→ 신용점수 700점대 이상 급등</text>
+  <text x="795" y="456" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">소급 적용 (기존 진행자도 해당)</text>
+  <text x="795" y="486" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">별도 신청 불필요, 자동 처리</text>
+
+  <!-- Score change -->
+  <rect x="60" y="518" width="960" height="130" rx="16" fill="#1A3270"/>
+  <text x="540" y="562" font-family="-apple-system, sans-serif" font-size="22" font-weight="800" fill="#F59E0B" text-anchor="middle">신용점수 변화 (실제 사례)</text>
+  <text x="250" y="612" font-family="-apple-system, sans-serif" font-size="52" font-weight="900" fill="#F87171" text-anchor="middle">623점</text>
+  <text x="540" y="612" font-family="-apple-system, sans-serif" font-size="52" font-weight="900" fill="#FBBF24" text-anchor="middle">→</text>
+  <text x="800" y="612" font-family="-apple-system, sans-serif" font-size="52" font-weight="900" fill="#34D399" text-anchor="middle">725점</text>
+  <text x="250" y="638" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">채무조정 이전 평균</text>
+  <text x="800" y="638" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">완료 후 평균 (+102점)</text>
+  <text x="540" y="638" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#FBBF24" text-anchor="middle">약 102점 상승</text>
+
+  <!-- Result stats -->
+  <rect x="60" y="668" width="455" height="110" rx="14" fill="#1A3270"/>
+  <text x="287" y="718" font-family="-apple-system, sans-serif" font-size="22" font-weight="700" fill="#F59E0B" text-anchor="middle">1금융권 대출 가능해진 사람</text>
+  <text x="287" y="760" font-family="-apple-system, sans-serif" font-size="42" font-weight="900" fill="#FFFFFF" text-anchor="middle">7.9만 명</text>
+
+  <rect x="565" y="668" width="455" height="110" rx="14" fill="#1A3270"/>
+  <text x="792" y="718" font-family="-apple-system, sans-serif" font-size="22" font-weight="700" fill="#F59E0B" text-anchor="middle">대상 제도 통일</text>
+  <text x="792" y="754" font-family="-apple-system, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">개인회생 = 워크아웃</text>
+  <text x="792" y="780" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">= 새출발기금 (1년 동일 기준)</text>
+
+  <!-- Condition -->
+  <rect x="60" y="796" width="960" height="80" rx="12" fill="#2D1F00"/>
+  <text x="540" y="834" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#FBBF24" text-anchor="middle">조기삭제 조건: 인가 후 1년 이상 + 연체 없이 전액 납부 + 별도 신청 불필요</text>
+  <text x="540" y="862" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">단, 1년 이내 단 1회라도 연체 시 자격 박탈</text>
+
+  <text x="540" y="960" font-family="-apple-system, sans-serif" font-size="15" fill="#6B8AB0" text-anchor="middle">2025년 7월 금융위원회 발표 · 2026년 현행 기준</text>
+
+  <rect x="0" y="1068" width="1080" height="12" fill="url(#accent)"/>
+</svg>

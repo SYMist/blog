@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="80" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="800" fill="#F59E0B">반기신청 vs 정기신청 빠른 판단 가이드</text>
+  <rect x="60" y="110" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- 헤더 -->
+  <rect x="60" y="145" width="300" height="60" rx="0" fill="rgba(255,255,255,0.12)"/>
+  <text x="210" y="183" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">구분</text>
+  <rect x="360" y="145" width="330" height="60" rx="0" fill="rgba(34,197,94,0.2)"/>
+  <text x="525" y="183" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#22C55E">반기신청</text>
+  <rect x="690" y="145" width="330" height="60" rx="0" fill="rgba(59,130,246,0.2)"/>
+  <text x="855" y="183" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#60A5FA">정기신청</text>
+
+  <!-- 대상 -->
+  <rect x="60" y="215" width="300" height="80" rx="0" fill="rgba(255,255,255,0.06)"/>
+  <text x="210" y="263" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">대상</text>
+  <rect x="360" y="215" width="330" height="80" rx="0" fill="rgba(255,255,255,0.03)"/>
+  <text x="525" y="255" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">근로소득만</text>
+  <text x="525" y="280" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">있는 근로자</text>
+  <rect x="690" y="215" width="330" height="80" rx="0" fill="rgba(255,255,255,0.03)"/>
+  <text x="855" y="255" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">사업·종교인소득자</text>
+  <text x="855" y="280" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">+ 반기 미신청자</text>
+
+  <!-- 신청 시기 -->
+  <rect x="60" y="305" width="300" height="80" rx="0" fill="rgba(255,255,255,0.06)"/>
+  <text x="210" y="353" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">신청 시기</text>
+  <rect x="360" y="305" width="330" height="80" rx="0" fill="rgba(255,255,255,0.03)"/>
+  <text x="525" y="345" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#22C55E">3월 (하반기분)</text>
+  <text x="525" y="370" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#22C55E">9월 (상반기분)</text>
+  <rect x="690" y="305" width="330" height="80" rx="0" fill="rgba(255,255,255,0.03)"/>
+  <text x="855" y="353" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#60A5FA">5월 1일 ~ 6월 1일</text>
+
+  <!-- 지급 시기 -->
+  <rect x="60" y="395" width="300" height="80" rx="0" fill="rgba(255,255,255,0.06)"/>
+  <text x="210" y="443" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">지급 시기</text>
+  <rect x="360" y="395" width="330" height="80" rx="0" fill="rgba(255,255,255,0.03)"/>
+  <text x="525" y="435" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">6월 말 / 12월 말</text>
+  <text x="525" y="460" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#F59E0B">(빠르게 분할 수령)</text>
+  <rect x="690" y="395" width="330" height="80" rx="0" fill="rgba(255,255,255,0.03)"/>
+  <text x="855" y="435" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">8월 말 ~ 9월 말</text>
+  <text x="855" y="460" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#F59E0B">(한 번에 전액)</text>
+
+  <!-- 지급 방식 -->
+  <rect x="60" y="485" width="300" height="80" rx="0" fill="rgba(255,255,255,0.06)"/>
+  <text x="210" y="533" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">지급 방식</text>
+  <rect x="360" y="485" width="330" height="80" rx="0" fill="rgba(255,255,255,0.03)"/>
+  <text x="525" y="525" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">35% 선지급 →</text>
+  <text x="525" y="550" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">다음 해 6월 정산</text>
+  <rect x="690" y="485" width="330" height="80" rx="0" fill="rgba(255,255,255,0.03)"/>
+  <text x="855" y="533" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">연간 산정액 일괄 지급</text>
+
+  <!-- 추천 -->
+  <rect x="60" y="575" width="300" height="80" rx="0" fill="rgba(255,255,255,0.06)"/>
+  <text x="210" y="623" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">추천</text>
+  <rect x="360" y="575" width="330" height="80" rx="0" fill="rgba(34,197,94,0.1)"/>
+  <text x="525" y="615" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#22C55E">직장인이면</text>
+  <text x="525" y="645" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#22C55E">반기로 먼저!</text>
+  <rect x="690" y="575" width="330" height="80" rx="0" fill="rgba(59,130,246,0.1)"/>
+  <text x="855" y="615" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#60A5FA">사업자·프리랜서</text>
+  <text x="855" y="645" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#60A5FA">5월 정기만 가능</text>
+
+  <!-- 기한 후 신청 안내 -->
+  <rect x="60" y="700" width="960" height="120" rx="20" fill="rgba(239,68,68,0.12)"/>
+  <text x="540" y="745" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#EF4444">기한 후 신청 (6.2 ~ 12.1)</text>
+  <text x="540" y="785" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">지급액 5% 감액 + 심사 약 4개월 추가 소요</text>
+  <text x="540" y="810" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#F59E0B">가능하면 정기신청 기간(6.1)까지 신청하세요!</text>
+
+  <!-- 하단 안내 -->
+  <rect x="60" y="860" width="960" height="110" rx="20" fill="rgba(245,158,11,0.15)"/>
+  <text x="540" y="905" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#F59E0B">신청: 홈택스 · 손택스 · ARS 1544-9944</text>
+  <text x="540" y="945" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">상담: 장려금 상담센터 1566-3636</text>
+
+  <rect x="60" y="1010" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

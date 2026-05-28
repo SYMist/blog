@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EFF6FF"/>
+      <stop offset="100%" stop-color="#F0F9FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg3)"/>
+
+  <text x="540" y="60" font-family="sans-serif" font-size="34" font-weight="900" fill="#111827" text-anchor="middle">상황별 경차사랑카드 추천 가이드</text>
+  <text x="540" y="95" font-family="sans-serif" font-size="20" fill="#6B7280" text-anchor="middle">유류세 환급(연 30만 원)은 3사 동일 — 추가 혜택으로 선택하세요</text>
+
+  <!-- 시나리오 1 -->
+  <rect x="50" y="125" width="980" height="125" rx="20" fill="#FFF" stroke="#BFDBFE" stroke-width="1.5"/>
+  <rect x="50" y="125" width="980" height="44" rx="20" fill="#1E40AF"/>
+  <rect x="50" y="149" width="980" height="20" fill="#1E40AF"/>
+  <text x="80" y="154" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFF">출퇴근 + 생활비 카드 겸용 원함</text>
+  <text x="80" y="198" font-family="sans-serif" font-size="20" fill="#111827">→ <tspan font-weight="800">신한 경차사랑 Life</tspan> — 모든 주유소 80원/L + 편의점·병원·커피 10%</text>
+  <text x="80" y="233" font-family="sans-serif" font-size="17" fill="#6B7280">합산 330원/L 절감 · 생활 전반 할인으로 전월 실적 30만 원 달성 용이</text>
+
+  <!-- 시나리오 2 -->
+  <rect x="50" y="270" width="980" height="125" rx="20" fill="#FFF" stroke="#FED7AA" stroke-width="1.5"/>
+  <rect x="50" y="270" width="980" height="44" rx="20" fill="#EA580C"/>
+  <rect x="50" y="294" width="980" height="20" fill="#EA580C"/>
+  <text x="80" y="299" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFF">주유량 많고 현대오일뱅크·SK 이용</text>
+  <text x="80" y="343" font-family="sans-serif" font-size="20" fill="#111827">→ <tspan font-weight="800">현대카드M 경차전용 Ed.2</tspan> — 현대오일뱅크·SK 150원/L 할인</text>
+  <text x="80" y="378" font-family="sans-serif" font-size="17" fill="#6B7280">합산 400원/L 절감 (3사 중 최대) · M포인트 적립 · 블루핸즈/오토큐 활용</text>
+
+  <!-- 시나리오 3 -->
+  <rect x="50" y="415" width="980" height="125" rx="20" fill="#FFF" stroke="#C4B5FD" stroke-width="1.5"/>
+  <rect x="50" y="415" width="980" height="44" rx="20" fill="#7C3AED"/>
+  <rect x="50" y="439" width="980" height="20" fill="#7C3AED"/>
+  <text x="80" y="444" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFF">롯데마트·대중교통 자주 이용</text>
+  <text x="80" y="488" font-family="sans-serif" font-size="20" fill="#111827">→ <tspan font-weight="800">롯데 경차 smart</tspan> — 모든 주유소 80원/L + 롯데마트·대중교통 10%</text>
+  <text x="80" y="523" font-family="sans-serif" font-size="17" fill="#6B7280">합산 330원/L 절감 · 롯데 계열 시너지 · 대중교통 할인으로 복합 절약</text>
+
+  <!-- 시나리오 4 -->
+  <rect x="50" y="560" width="980" height="125" rx="20" fill="#FFF" stroke="#A7F3D0" stroke-width="1.5"/>
+  <rect x="50" y="560" width="980" height="44" rx="20" fill="#059669"/>
+  <rect x="50" y="584" width="980" height="20" fill="#059669"/>
+  <text x="80" y="589" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFF">계획적 소비 · 신용카드 부담 NO</text>
+  <text x="80" y="633" font-family="sans-serif" font-size="20" fill="#111827">→ <tspan font-weight="800">체크카드</tspan> (3사 모두) — 유류세 환급 동일, 통장 잔액 내 소비</text>
+  <text x="80" y="668" font-family="sans-serif" font-size="17" fill="#6B7280">추가 주유 할인은 다소 적지만 과소비 방지 · 연회비 0원</text>
+
+  <!-- 시나리오 5 -->
+  <rect x="50" y="705" width="980" height="125" rx="20" fill="#FFF" stroke="#BFDBFE" stroke-width="1.5"/>
+  <rect x="50" y="705" width="980" height="44" rx="20" fill="#1D4ED8"/>
+  <rect x="50" y="729" width="980" height="20" fill="#1D4ED8"/>
+  <text x="80" y="734" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFF">경형 승용 + 경형 승합 2대 보유</text>
+  <text x="80" y="778" font-family="sans-serif" font-size="20" fill="#111827">→ <tspan font-weight="800">2대 각각 카드 발급</tspan> — 각 연 30만 원, 합산 <tspan font-weight="800">60만 원</tspan> 환급</text>
+  <text x="80" y="813" font-family="sans-serif" font-size="17" fill="#6B7280">승용+승합은 예외 인정 · 같은 카드사 or 다른 카드사 모두 가능</text>
+
+  <!-- 하단 팁 -->
+  <rect x="50" y="860" width="980" height="60" rx="16" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1"/>
+  <text x="540" y="897" font-family="sans-serif" font-size="18" font-weight="700" fill="#065F46" text-anchor="middle">모든 카드의 유류세 환급액은 동일합니다. 카드 선택 기준은 '추가 주유 할인'과 '생활 혜택'입니다.</text>
+
+  <rect x="50" y="940" width="980" height="50" rx="16" fill="#FEF2F2" stroke="#FECACA" stroke-width="1"/>
+  <text x="540" y="972" font-family="sans-serif" font-size="17" font-weight="700" fill="#991B1B" text-anchor="middle">주의: 1회 48L 초과 금지 · 타인 대여 금지 · 경차 외 차량 주유 금지 (가산세 40%)</text>
+
+  <text x="540" y="1040" font-family="sans-serif" font-size="15" fill="#9CA3AF" text-anchor="middle">2026년 3월 기준 | 조세특례제한법 기반 | 카드사 추가 혜택은 프로모션에 따라 변동 가능</text>
+</svg>

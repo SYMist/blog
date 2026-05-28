@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="amber" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#B45309"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <!-- Badge -->
+  <rect x="370" y="120" width="340" height="50" rx="25" fill="#EF4444"/>
+  <text x="540" y="153" text-anchor="middle" fill="#FFF" font-size="24" font-weight="800" font-family="Pretendard,sans-serif">2026 비교분석</text>
+
+  <!-- Main Text -->
+  <text x="540" y="290" text-anchor="middle" fill="#FFFFFF" font-size="72" font-weight="900" font-family="Pretendard,sans-serif">신용점수</text>
+  <text x="540" y="400" text-anchor="middle" fill="#FFFFFF" font-size="80" font-weight="900" font-family="Pretendard,sans-serif">700 vs 800</text>
+
+  <!-- Divider -->
+  <rect x="340" y="440" width="400" height="5" rx="3" fill="url(#amber)"/>
+
+  <!-- Sub Text -->
+  <text x="540" y="520" text-anchor="middle" fill="#E2E8F0" font-size="38" font-weight="600" font-family="Pretendard,sans-serif">대출금리 실제 차이</text>
+  <text x="540" y="575" text-anchor="middle" fill="#94A3B8" font-size="30" font-family="Pretendard,sans-serif">등급별 비교</text>
+
+  <!-- Highlight Box -->
+  <rect x="200" y="640" width="680" height="130" rx="20" fill="#B45309" opacity="0.2"/>
+  <rect x="200" y="640" width="680" height="130" rx="20" stroke="#D97706" stroke-width="2" fill="none"/>
+  <text x="540" y="695" text-anchor="middle" fill="#FDE68A" font-size="28" font-weight="700" font-family="Pretendard,sans-serif">1억 대출 · 5년 기준</text>
+  <text x="540" y="745" text-anchor="middle" fill="#FFFFFF" font-size="46" font-weight="900" font-family="Pretendard,sans-serif">이자 차이 약 840만 원</text>
+
+  <!-- Chips -->
+  <rect x="240" y="830" width="120" height="44" rx="22" fill="#FEF3C7"/>
+  <text x="300" y="860" text-anchor="middle" fill="#92400E" font-size="20" font-weight="700" font-family="Pretendard,sans-serif">비교</text>
+  <rect x="380" y="830" width="120" height="44" rx="22" fill="#FEF3C7"/>
+  <text x="440" y="860" text-anchor="middle" fill="#92400E" font-size="20" font-weight="700" font-family="Pretendard,sans-serif">금리</text>
+  <rect x="520" y="830" width="120" height="44" rx="22" fill="#FEF3C7"/>
+  <text x="580" y="860" text-anchor="middle" fill="#92400E" font-size="20" font-weight="700" font-family="Pretendard,sans-serif">전략</text>
+  <rect x="660" y="830" width="180" height="44" rx="22" fill="#FEF3C7"/>
+  <text x="750" y="860" text-anchor="middle" fill="#92400E" font-size="20" font-weight="700" font-family="Pretendard,sans-serif">신용점수</text>
+
+  <!-- Footer -->
+  <text x="540" y="980" text-anchor="middle" fill="#64748B" font-size="22" font-family="Pretendard,sans-serif">essencial | 2026년 4월 기준</text>
+</svg>

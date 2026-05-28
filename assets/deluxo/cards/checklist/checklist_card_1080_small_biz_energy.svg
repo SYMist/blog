@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <filter id="shadow" x="-4%" y="-4%" width="108%" height="108%">
+      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#000" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+  <rect width="1080" height="1080" rx="32" fill="#F0F4FA"/>
+  <rect x="40" y="40" width="1000" height="1000" rx="24" fill="#FFFFFF" filter="url(#shadow)"/>
+
+  <!-- Header -->
+  <rect x="40" y="40" width="1000" height="110" rx="24" fill="#1D4ED8"/>
+  <rect x="40" y="100" width="1000" height="50" fill="#1D4ED8"/>
+  <text x="540" y="108" text-anchor="middle" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="40" font-weight="800" fill="#FFFFFF">소상공인 에너지 지원 신청 체크리스트</text>
+
+  <!-- Section 1: 경영안정 바우처 -->
+  <text x="100" y="215" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="28" font-weight="700" fill="#1D4ED8">경영안정 바우처 (25만원)</text>
+  <line x1="80" y1="235" x2="1000" y2="235" stroke="#E5E7EB" stroke-width="2"/>
+
+  <text x="100" y="278" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="26" fill="#111827">□  연매출 1억 4백만원 미만 확인</text>
+  <text x="100" y="318" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="26" fill="#111827">□  사업자등록증 유효 (영업 중)</text>
+  <text x="100" y="358" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="26" fill="#111827">□  본인 명의 신용카드 준비</text>
+  <text x="100" y="398" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="26" fill="#111827">□  소상공인24(sbiz24.kr) 접속 → 신청</text>
+
+  <!-- Section 2: 한전 고효율기기 지원 -->
+  <text x="100" y="468" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="28" font-weight="700" fill="#1D4ED8">한전 고효율기기 지원 (최대 160만원)</text>
+  <line x1="80" y1="488" x2="1000" y2="488" stroke="#E5E7EB" stroke-width="2"/>
+
+  <text x="100" y="530" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="26" fill="#111827">□  에너지효율 1등급 기기 확인 (라벨 사진 촬영)</text>
+  <text x="100" y="570" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="26" fill="#111827">□  중소기업확인서 발급 (3~5일 소요)</text>
+  <text x="100" y="610" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="26" fill="#111827">□  구매 영수증 + 기기 제조번호 보관</text>
+  <text x="100" y="650" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="26" fill="#111827">□  한전 en-ter.co.kr 회원가입 → 신청</text>
+
+  <!-- Section 3: 에너지효율향상 -->
+  <text x="100" y="720" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="28" font-weight="700" fill="#1D4ED8">에너지효율향상 지원 (최대 1.5억원)</text>
+  <line x1="80" y1="740" x2="1000" y2="740" stroke="#E5E7EB" stroke-width="2"/>
+
+  <text x="100" y="782" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="26" fill="#111827">□  에너지공단 공고 기간 확인 (연 1~2회)</text>
+  <text x="100" y="822" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="26" fill="#111827">□  설비 설치 견적서 + 사업계획서 준비</text>
+  <text x="100" y="862" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="26" fill="#111827">□  소상공인 확인 서류 (중소기업확인서)</text>
+  <text x="100" y="902" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="26" fill="#111827">□  에너지공단 홈페이지 → 온라인 접수</text>
+
+  <!-- Footer -->
+  <rect x="80" y="940" width="920" height="70" rx="12" fill="#FEF3C7"/>
+  <text x="540" y="983" text-anchor="middle" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="24" font-weight="700" fill="#92400E">세 가지 모두 중복 신청 가능 — 예산 소진 전 빨리 신청하세요!</text>
+</svg>

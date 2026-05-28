@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="700" fill="url(#bg)"/>
+
+  <text x="540" y="48" text-anchor="middle" fill="#FFFFFF" font-size="24" font-weight="800" font-family="sans-serif">자차 · 상대 · 자비 3종 처리 비용·기록·시간 매트릭스</text>
+  <text x="540" y="74" text-anchor="middle" fill="#93C5FD" font-size="14" font-family="sans-serif">연 보험료 70만원 기준 · 2026.05</text>
+
+  <!-- Table header -->
+  <rect x="40" y="98" width="1000" height="44" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="150" y="126" text-anchor="middle" fill="#F8FAFC" font-size="14" font-weight="800" font-family="sans-serif">비교 항목</text>
+  <text x="430" y="126" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="800" font-family="sans-serif">상대보험 처리</text>
+  <text x="690" y="126" text-anchor="middle" fill="#67E8F9" font-size="14" font-weight="800" font-family="sans-serif">자차보험 처리</text>
+  <text x="940" y="126" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="800" font-family="sans-serif">자비수리</text>
+
+  <!-- Row 1: 본인 부담 -->
+  <rect x="40" y="146" width="1000" height="50" fill="#0f172a" fill-opacity="0.5"/>
+  <text x="55" y="178" fill="#F1F5F9" font-size="13" font-family="sans-serif">본인 부담 (대표 사례)</text>
+  <text x="430" y="178" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">0원</text>
+  <text x="690" y="178" text-anchor="middle" fill="#67E8F9" font-size="14" font-weight="700" font-family="sans-serif">자기부담금 20~50만</text>
+  <text x="940" y="178" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">수리비 전액</text>
+
+  <!-- Row 2: 사고 기록 -->
+  <rect x="40" y="200" width="1000" height="50" fill="#1e293b" fill-opacity="0.4"/>
+  <text x="55" y="232" fill="#F1F5F9" font-size="13" font-family="sans-serif">본인 사고 기록</text>
+  <text x="430" y="232" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">없음</text>
+  <text x="690" y="232" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="700" font-family="sans-serif">1건 등록 (3년)</text>
+  <text x="940" y="232" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">없음</text>
+
+  <!-- Row 3: 본인 보험료 할증 -->
+  <rect x="40" y="254" width="1000" height="50" fill="#0f172a" fill-opacity="0.5"/>
+  <text x="55" y="286" fill="#F1F5F9" font-size="13" font-family="sans-serif">본인 보험료 할증</text>
+  <text x="430" y="286" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">없음</text>
+  <text x="690" y="286" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="700" font-family="sans-serif">실질 약 20%/년 × 3년</text>
+  <text x="940" y="286" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">없음</text>
+
+  <!-- Row 4: 5년 추가 보험료 -->
+  <rect x="40" y="308" width="1000" height="50" fill="#1e293b" fill-opacity="0.4"/>
+  <text x="55" y="340" fill="#F1F5F9" font-size="13" font-family="sans-serif">5년 추가 보험료 (연 70만 기준)</text>
+  <text x="430" y="340" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">0원</text>
+  <text x="690" y="340" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="700" font-family="sans-serif">약 70만원</text>
+  <text x="940" y="340" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">0원</text>
+
+  <!-- Row 5: 무사고 할인 -->
+  <rect x="40" y="362" width="1000" height="50" fill="#0f172a" fill-opacity="0.5"/>
+  <text x="55" y="394" fill="#F1F5F9" font-size="13" font-family="sans-serif">무사고 할인 누적</text>
+  <text x="430" y="394" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">유지</text>
+  <text x="690" y="394" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="700" font-family="sans-serif">상실</text>
+  <text x="940" y="394" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">유지</text>
+
+  <!-- Row 6: 처리 속도 -->
+  <rect x="40" y="416" width="1000" height="50" fill="#1e293b" fill-opacity="0.4"/>
+  <text x="55" y="448" fill="#F1F5F9" font-size="13" font-family="sans-serif">처리 속도</text>
+  <text x="430" y="448" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">2주~2개월</text>
+  <text x="690" y="448" text-anchor="middle" fill="#67E8F9" font-size="14" font-weight="700" font-family="sans-serif">1주~1개월</text>
+  <text x="940" y="448" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">즉시</text>
+
+  <!-- Row 7: 활용 조건 -->
+  <rect x="40" y="470" width="1000" height="60" fill="#0f172a" fill-opacity="0.5"/>
+  <text x="55" y="494" fill="#F1F5F9" font-size="13" font-family="sans-serif">활용 조건</text>
+  <text x="430" y="494" text-anchor="middle" fill="#86EFAC" font-size="12" font-weight="700" font-family="sans-serif">상대 과실 50%+</text>
+  <text x="430" y="514" text-anchor="middle" fill="#86EFAC" font-size="12" font-family="sans-serif">본인 과실 &lt; 50%</text>
+  <text x="690" y="494" text-anchor="middle" fill="#67E8F9" font-size="12" font-weight="700" font-family="sans-serif">본인 과실 + 수리비 큼</text>
+  <text x="690" y="514" text-anchor="middle" fill="#67E8F9" font-size="12" font-family="sans-serif">단독사고 (대형)</text>
+  <text x="940" y="494" text-anchor="middle" fill="#FCD34D" font-size="12" font-weight="700" font-family="sans-serif">수리비 &lt; 손익분기점</text>
+  <text x="940" y="514" text-anchor="middle" fill="#FCD34D" font-size="12" font-family="sans-serif">무사고 보호 우선</text>
+
+  <!-- Row 8: 추천 케이스 -->
+  <rect x="40" y="534" width="1000" height="54" fill="#15803D" fill-opacity="0.25" stroke="#15803D" stroke-width="2"/>
+  <text x="55" y="560" fill="#FCD34D" font-size="13" font-weight="800" font-family="sans-serif">추천 케이스</text>
+  <text x="430" y="560" text-anchor="middle" fill="#86EFAC" font-size="12" font-weight="700" font-family="sans-serif">피해 추돌·신호 위반 피해</text>
+  <text x="430" y="578" text-anchor="middle" fill="#86EFAC" font-size="12" font-family="sans-serif">상대 가입 사실 확인 후</text>
+  <text x="690" y="560" text-anchor="middle" fill="#67E8F9" font-size="12" font-weight="700" font-family="sans-serif">대형 단독사고·본인 과실</text>
+  <text x="690" y="578" text-anchor="middle" fill="#67E8F9" font-size="12" font-family="sans-serif">수리비 200만원 이상</text>
+  <text x="940" y="560" text-anchor="middle" fill="#FCD34D" font-size="12" font-weight="700" font-family="sans-serif">소액 접촉·스크래치</text>
+  <text x="940" y="578" text-anchor="middle" fill="#FCD34D" font-size="12" font-family="sans-serif">수리비 50만원 이하</text>
+
+  <!-- Note -->
+  <rect x="40" y="600" width="1000" height="60" rx="10" fill="#1e293b" fill-opacity="0.6" stroke="#334155" stroke-width="1.5"/>
+  <text x="60" y="624" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">핵심 포인트</text>
+  <text x="60" y="644" fill="#CBD5E1" font-size="12" font-family="sans-serif">상대 과실 100% = 상대보험 압도적 / 본인 과실 시 수리비 vs 손익분기점(62만원) 비교 → 자차 or 자비 선택.</text>
+
+  <text x="40" y="686" fill="#64748B" font-size="12" font-family="sans-serif">essencial | 2026.05 기준 · 보험료·할증·자기부담금은 계약 조건·이력에 따라 다름</text>
+</svg>

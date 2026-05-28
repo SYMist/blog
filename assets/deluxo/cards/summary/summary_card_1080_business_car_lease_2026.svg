@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <text x="540" y="140" font-family="'Pretendard', sans-serif" font-size="46" font-weight="900" fill="#F59E0B" text-anchor="middle">2026 사업자 차량 총정리</text>
+
+  <text x="540" y="230" font-family="'Pretendard', sans-serif" font-size="58" font-weight="900" fill="#FFFFFF" text-anchor="middle">리스·렌트·장기렌트</text>
+  <text x="540" y="310" font-family="'Pretendard', sans-serif" font-size="44" font-weight="600" fill="#EAF2FF" text-anchor="middle">한 번에 정리</text>
+
+  <rect x="60" y="380" width="310" height="240" rx="24" fill="#1A3270"/>
+  <text x="215" y="435" font-family="'Pretendard', sans-serif" font-size="30" font-weight="800" fill="#F59E0B" text-anchor="middle">비용 한도</text>
+  <text x="215" y="500" font-family="'Pretendard', sans-serif" font-size="44" font-weight="900" fill="#FFFFFF" text-anchor="middle">연 1,500만</text>
+  <text x="215" y="548" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF" text-anchor="middle">운행기록부 ✕ 정액</text>
+  <text x="215" y="590" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF" text-anchor="middle">감가상각 800만 별도</text>
+
+  <rect x="385" y="380" width="310" height="240" rx="24" fill="#1A3270"/>
+  <text x="540" y="435" font-family="'Pretendard', sans-serif" font-size="30" font-weight="800" fill="#F59E0B" text-anchor="middle">부가세 환급</text>
+  <text x="540" y="500" font-family="'Pretendard', sans-serif" font-size="44" font-weight="900" fill="#FFFFFF" text-anchor="middle">연 96만</text>
+  <text x="540" y="548" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF" text-anchor="middle">장기렌트 환급차량</text>
+  <text x="540" y="590" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF" text-anchor="middle">9인승·경차·화물·영업</text>
+
+  <rect x="710" y="380" width="310" height="240" rx="24" fill="#1A3270"/>
+  <text x="865" y="435" font-family="'Pretendard', sans-serif" font-size="30" font-weight="800" fill="#F59E0B" text-anchor="middle">절세 효과</text>
+  <text x="865" y="500" font-family="'Pretendard', sans-serif" font-size="44" font-weight="900" fill="#FFFFFF" text-anchor="middle">1,048만</text>
+  <text x="865" y="548" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF" text-anchor="middle">36개월 누적</text>
+  <text x="865" y="590" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF" text-anchor="middle">차량가 약 26%</text>
+
+  <rect x="60" y="660" width="960" height="100" rx="20" fill="#F59E0B"/>
+  <text x="540" y="705" font-family="'Pretendard', sans-serif" font-size="34" font-weight="900" fill="#0B1F3B" text-anchor="middle">2026 복식부기의무자 업무전용 보험 필수</text>
+  <text x="540" y="745" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#0B1F3B" text-anchor="middle">미가입 시 차량비용 100% 부인 (한도도 ✕)</text>
+
+  <rect x="60" y="790" width="300" height="80" rx="16" fill="#10B981"/>
+  <text x="210" y="840" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF" text-anchor="middle">금융리스 인수형</text>
+
+  <rect x="390" y="790" width="300" height="80" rx="16" fill="#10B981"/>
+  <text x="540" y="840" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF" text-anchor="middle">운용리스 반납형</text>
+
+  <rect x="720" y="790" width="300" height="80" rx="16" fill="#10B981"/>
+  <text x="870" y="840" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF" text-anchor="middle">장기렌트 패키지</text>
+
+  <rect x="60" y="900" width="960" height="140" rx="20" fill="#1A3270"/>
+  <text x="540" y="950" font-family="'Pretendard', sans-serif" font-size="30" font-weight="800" fill="#F59E0B" text-anchor="middle">전기차 보조금 최대 580만 + 지자체 별도</text>
+  <text x="540" y="1000" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF" text-anchor="middle">취득세 140만 면제 · 자동차세 13만 정액</text>
+</svg>

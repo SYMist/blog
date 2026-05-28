@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#FBBF24"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="10" fill="url(#accent)"/>
+
+  <!-- Title -->
+  <text x="60" y="88" font-family="-apple-system, sans-serif" font-size="40" font-weight="900" fill="#FFFFFF">가족 직원 등록</text>
+  <text x="60" y="136" font-family="-apple-system, sans-serif" font-size="40" font-weight="900" fill="#F59E0B">실무 체크리스트 8단계</text>
+
+  <!-- Divider -->
+  <rect x="60" y="158" width="960" height="3" fill="#F59E0B" rx="2"/>
+
+  <!-- Checklist items -->
+  <!-- Item 1 -->
+  <rect x="60" y="182" width="960" height="90" rx="12" fill="#1A3270"/>
+  <rect x="60" y="182" width="8" height="90" rx="4" fill="#34D399"/>
+  <text x="96" y="220" font-family="-apple-system, sans-serif" font-size="28" fill="#34D399">☐</text>
+  <text x="146" y="220" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">근로계약서 작성</text>
+  <text x="146" y="254" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">서면 작성 필수 · 근무일·시간·급여 명시 · 서명 후 각 1부 보관</text>
+
+  <!-- Item 2 -->
+  <rect x="60" y="284" width="960" height="90" rx="12" fill="#1A3270"/>
+  <rect x="60" y="284" width="8" height="90" rx="4" fill="#34D399"/>
+  <text x="96" y="322" font-family="-apple-system, sans-serif" font-size="28" fill="#34D399">☐</text>
+  <text x="146" y="322" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">4대보험 취득 신고</text>
+  <text x="146" y="356" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">입사일로부터 14일 이내 · 4대사회보험포털(4insure.or.kr) 또는 공단</text>
+
+  <!-- Item 3 -->
+  <rect x="60" y="386" width="960" height="90" rx="12" fill="#1A3270"/>
+  <rect x="60" y="386" width="8" height="90" rx="4" fill="#34D399"/>
+  <text x="96" y="424" font-family="-apple-system, sans-serif" font-size="28" fill="#34D399">☐</text>
+  <text x="146" y="424" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">원천세 신고 (홈택스)</text>
+  <text x="146" y="458" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">급여 지급 다음 달 10일까지 · 20인 이하: 반기 신고 특례 신청 가능</text>
+
+  <!-- Item 4 -->
+  <rect x="60" y="488" width="960" height="90" rx="12" fill="#1A3270"/>
+  <rect x="60" y="488" width="8" height="90" rx="4" fill="#34D399"/>
+  <text x="96" y="526" font-family="-apple-system, sans-serif" font-size="28" fill="#34D399">☐</text>
+  <text x="146" y="526" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">급여 계좌이체</text>
+  <text x="146" y="560" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">현금 지급 금지 · 반드시 계좌이체 · 이체내역 3년 이상 보관</text>
+
+  <!-- Item 5 -->
+  <rect x="60" y="590" width="960" height="90" rx="12" fill="#1A3270"/>
+  <rect x="60" y="590" width="8" height="90" rx="4" fill="#34D399"/>
+  <text x="96" y="628" font-family="-apple-system, sans-serif" font-size="28" fill="#34D399">☐</text>
+  <text x="146" y="628" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">출근부·업무일지 작성</text>
+  <text x="146" y="662" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">세무조사 시 실근로 입증 핵심 · 디지털 기록도 인정</text>
+
+  <!-- Item 6 -->
+  <rect x="60" y="692" width="960" height="90" rx="12" fill="#1A3270"/>
+  <rect x="60" y="692" width="8" height="90" rx="4" fill="#34D399"/>
+  <text x="96" y="730" font-family="-apple-system, sans-serif" font-size="28" fill="#34D399">☐</text>
+  <text x="146" y="730" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">지급명세서 제출</text>
+  <text x="146" y="764" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">근로소득 지급명세서: 다음 연도 3월 10일 · 미제출 1% 가산세</text>
+
+  <!-- Item 7 -->
+  <rect x="60" y="794" width="460" height="90" rx="12" fill="#1A3270"/>
+  <rect x="60" y="794" width="8" height="90" rx="4" fill="#FBBF24"/>
+  <text x="96" y="832" font-family="-apple-system, sans-serif" font-size="26" fill="#FBBF24">☐</text>
+  <text x="140" y="832" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">적정 급여 설정</text>
+  <text x="96" y="866" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0">동종 업종 동일 직급 기준</text>
+
+  <!-- Item 8 -->
+  <rect x="560" y="794" width="460" height="90" rx="12" fill="#1A3270"/>
+  <rect x="560" y="794" width="8" height="90" rx="4" fill="#FBBF24"/>
+  <text x="596" y="832" font-family="-apple-system, sans-serif" font-size="26" fill="#FBBF24">☐</text>
+  <text x="640" y="832" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">특수관계인 범위 확인</text>
+  <text x="596" y="866" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0">2023년 개정: 4촌 이내 혈족</text>
+
+  <!-- Bottom note -->
+  <rect x="60" y="904" width="960" height="52" rx="10" fill="#0A1A35"/>
+  <text x="540" y="936" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#EAF2FF" text-anchor="middle">모든 항목 체크 후 세무사 검토 권장 · 2026년 5월 기준</text>
+
+  <rect x="0" y="1068" width="1080" height="12" fill="url(#accent)"/>
+</svg>

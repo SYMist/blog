@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 1020">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="purple" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#6D28D9"/>
+    </linearGradient>
+  </defs>
+  <rect width="860" height="1020" fill="url(#bg)" rx="20"/>
+
+  <!-- Title -->
+  <text x="30" y="45" fill="#FFF" font-size="24" font-weight="900" font-family="Pretendard,sans-serif">채널별 비교 매트릭스 + 할인 특약 상세</text>
+  <rect x="30" y="57" width="200" height="3" rx="2" fill="url(#purple)"/>
+
+  <!-- Header -->
+  <rect x="30" y="75" width="200" height="40" rx="8" fill="#374151"/>
+  <rect x="230" y="75" width="210" height="40" rx="0" fill="#7C3AED"/>
+  <rect x="440" y="75" width="210" height="40" rx="0" fill="#EF4444"/>
+  <rect x="650" y="75" width="180" height="40" rx="8" fill="#22C55E"/>
+  <text x="130" y="101" text-anchor="middle" fill="#94A3B8" font-size="14" font-weight="700" font-family="Pretendard,sans-serif">비교 항목</text>
+  <text x="335" y="101" text-anchor="middle" fill="#FFF" font-size="14" font-weight="800" font-family="Pretendard,sans-serif">다이렉트 (CM)</text>
+  <text x="545" y="101" text-anchor="middle" fill="#FFF" font-size="14" font-weight="800" font-family="Pretendard,sans-serif">설계사 (오프라인)</text>
+  <text x="740" y="101" text-anchor="middle" fill="#FFF" font-size="14" font-weight="800" font-family="Pretendard,sans-serif">플랫폼 (PM)</text>
+
+  <!-- Rows -->
+  <!-- Row 1 -->
+  <rect x="30" y="119" width="200" height="38" fill="#1E293B"/>
+  <rect x="230" y="119" width="210" height="38" fill="#1E293B"/>
+  <rect x="440" y="119" width="210" height="38" fill="#1E293B"/>
+  <rect x="650" y="119" width="180" height="38" fill="#1E293B"/>
+  <text x="50" y="144" fill="#A78BFA" font-size="13" font-weight="700" font-family="Pretendard,sans-serif">❶ 보험료 수준</text>
+  <rect x="260" y="130" width="100" height="20" rx="10" fill="#7C3AED" opacity="0.25"/>
+  <text x="335" y="144" text-anchor="middle" fill="#A78BFA" font-size="13" font-weight="800" font-family="Pretendard,sans-serif">최저 (기준) ★</text>
+  <text x="545" y="144" text-anchor="middle" fill="#FCA5A5" font-size="13" font-weight="600" font-family="Pretendard,sans-serif">CM +15~20%</text>
+  <text x="740" y="144" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="600" font-family="Pretendard,sans-serif">대형 CM+3%</text>
+
+  <!-- Row 2 -->
+  <rect x="30" y="161" width="200" height="38" fill="#162032"/>
+  <rect x="230" y="161" width="210" height="38" fill="#162032"/>
+  <rect x="440" y="161" width="210" height="38" fill="#162032"/>
+  <rect x="650" y="161" width="180" height="38" fill="#162032"/>
+  <text x="50" y="186" fill="#A78BFA" font-size="13" font-weight="700" font-family="Pretendard,sans-serif">❷ 수수료</text>
+  <rect x="275" y="173" width="70" height="20" rx="10" fill="#7C3AED" opacity="0.25"/>
+  <text x="335" y="186" text-anchor="middle" fill="#A78BFA" font-size="13" font-weight="800" font-family="Pretendard,sans-serif">없음 ★</text>
+  <text x="545" y="186" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="600" font-family="Pretendard,sans-serif">설계사 수수료 포함</text>
+  <text x="740" y="186" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="600" font-family="Pretendard,sans-serif">대형사 3% 부과</text>
+
+  <!-- Row 3 -->
+  <rect x="30" y="203" width="200" height="38" fill="#1E293B"/>
+  <rect x="230" y="203" width="210" height="38" fill="#1E293B"/>
+  <rect x="440" y="203" width="210" height="38" fill="#1E293B"/>
+  <rect x="650" y="203" width="180" height="38" fill="#1E293B"/>
+  <text x="50" y="228" fill="#A78BFA" font-size="13" font-weight="700" font-family="Pretendard,sans-serif">❸ 비교 편의성</text>
+  <text x="335" y="228" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="600" font-family="Pretendard,sans-serif">개별 견적 필요</text>
+  <text x="545" y="228" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="600" font-family="Pretendard,sans-serif">설계사 대신 비교</text>
+  <rect x="670" y="215" width="120" height="20" rx="10" fill="#22C55E" opacity="0.25"/>
+  <text x="740" y="228" text-anchor="middle" fill="#86EFAC" font-size="13" font-weight="800" font-family="Pretendard,sans-serif">한 화면 비교 ★</text>
+
+  <!-- Row 4 -->
+  <rect x="30" y="245" width="200" height="38" fill="#162032"/>
+  <rect x="230" y="245" width="210" height="38" fill="#162032"/>
+  <rect x="440" y="245" width="210" height="38" fill="#162032"/>
+  <rect x="650" y="245" width="180" height="38" fill="#162032"/>
+  <text x="50" y="270" fill="#A78BFA" font-size="13" font-weight="700" font-family="Pretendard,sans-serif">❹ 사후 관리</text>
+  <text x="335" y="270" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="600" font-family="Pretendard,sans-serif">콜센터·앱 셀프</text>
+  <rect x="470" y="257" width="130" height="20" rx="10" fill="#EF4444" opacity="0.2"/>
+  <text x="545" y="270" text-anchor="middle" fill="#FCA5A5" font-size="13" font-weight="800" font-family="Pretendard,sans-serif">전담 설계사 ★</text>
+  <text x="740" y="270" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="600" font-family="Pretendard,sans-serif">콜센터·앱 셀프</text>
+
+  <!-- Row 5 -->
+  <rect x="30" y="287" width="200" height="38" fill="#1E293B"/>
+  <rect x="230" y="287" width="210" height="38" fill="#1E293B"/>
+  <rect x="440" y="287" width="210" height="38" fill="#1E293B"/>
+  <rect x="650" y="287" width="180" height="38" fill="#1E293B"/>
+  <text x="50" y="312" fill="#A78BFA" font-size="13" font-weight="700" font-family="Pretendard,sans-serif">❺ 특약 설계</text>
+  <text x="335" y="312" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="600" font-family="Pretendard,sans-serif">본인 직접 선택</text>
+  <text x="545" y="312" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="600" font-family="Pretendard,sans-serif">맞춤 추천</text>
+  <text x="740" y="312" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="600" font-family="Pretendard,sans-serif">시뮬레이션 UI</text>
+
+  <!-- 마일리지 상세 -->
+  <text x="30" y="370" fill="#FFF" font-size="20" font-weight="900" font-family="Pretendard,sans-serif">마일리지 특약 할인율 (자동 가입)</text>
+  <rect x="30" y="382" width="170" height="3" rx="2" fill="url(#purple)"/>
+
+  <!-- Mileage bars -->
+  <text x="50" y="420" fill="#94A3B8" font-size="13" font-family="Pretendard,sans-serif">3,000km 이하</text>
+  <rect x="200" y="407" width="540" height="22" rx="11" fill="#7C3AED"/>
+  <text x="750" y="423" fill="#FFF" font-size="14" font-weight="800" font-family="Pretendard,sans-serif">30~45%</text>
+
+  <text x="50" y="455" fill="#94A3B8" font-size="13" font-family="Pretendard,sans-serif">5,000~10,000km</text>
+  <rect x="200" y="442" width="300" height="22" rx="11" fill="#6D28D9"/>
+  <text x="510" y="458" fill="#FFF" font-size="14" font-weight="800" font-family="Pretendard,sans-serif">15~25%</text>
+
+  <text x="50" y="490" fill="#94A3B8" font-size="13" font-family="Pretendard,sans-serif">12,000~15,000km</text>
+  <rect x="200" y="477" width="96" height="22" rx="11" fill="#4C1D95"/>
+  <text x="306" y="493" fill="#FFF" font-size="14" font-weight="800" font-family="Pretendard,sans-serif">2~8%</text>
+
+  <text x="50" y="525" fill="#94A3B8" font-size="13" font-family="Pretendard,sans-serif">15,000km 초과</text>
+  <rect x="200" y="512" width="2" height="22" rx="1" fill="#374151"/>
+  <text x="212" y="528" fill="#64748B" font-size="14" font-weight="600" font-family="Pretendard,sans-serif">할증 없음 (추가 납부 X)</text>
+
+  <!-- 자녀 할인 상세 -->
+  <text x="30" y="575" fill="#FFF" font-size="20" font-weight="900" font-family="Pretendard,sans-serif">자녀 할인 특약 보험사별 비교</text>
+  <rect x="30" y="587" width="170" height="3" rx="2" fill="url(#purple)"/>
+
+  <!-- Header -->
+  <rect x="30" y="605" width="200" height="34" fill="#374151"/>
+  <rect x="230" y="605" width="200" height="34" fill="#374151"/>
+  <rect x="430" y="605" width="200" height="34" fill="#374151"/>
+  <rect x="630" y="605" width="200" height="34" fill="#374151"/>
+  <text x="130" y="628" text-anchor="middle" fill="#94A3B8" font-size="13" font-weight="700" font-family="Pretendard,sans-serif">보험사</text>
+  <text x="330" y="628" text-anchor="middle" fill="#94A3B8" font-size="13" font-weight="700" font-family="Pretendard,sans-serif">연령 한도</text>
+  <text x="530" y="628" text-anchor="middle" fill="#94A3B8" font-size="13" font-weight="700" font-family="Pretendard,sans-serif">할인율</text>
+  <text x="730" y="628" text-anchor="middle" fill="#94A3B8" font-size="13" font-weight="700" font-family="Pretendard,sans-serif">특이사항</text>
+
+  <!-- 캐롯 -->
+  <rect x="30" y="643" width="200" height="34" fill="#1E293B"/>
+  <rect x="230" y="643" width="200" height="34" fill="#1E293B"/>
+  <rect x="430" y="643" width="200" height="34" fill="#1E293B"/>
+  <rect x="630" y="643" width="200" height="34" fill="#1E293B"/>
+  <text x="130" y="665" text-anchor="middle" fill="#FFF" font-size="13" font-weight="700" font-family="Pretendard,sans-serif">캐롯손보</text>
+  <text x="330" y="665" text-anchor="middle" fill="#E2E8F0" font-size="13" font-family="Pretendard,sans-serif">만 10세 이하</text>
+  <text x="530" y="665" text-anchor="middle" fill="#A78BFA" font-size="13" font-weight="800" font-family="Pretendard,sans-serif">6.0~19.0% ★</text>
+  <text x="730" y="665" text-anchor="middle" fill="#E2E8F0" font-size="12" font-family="Pretendard,sans-serif">최고 할인율</text>
+
+  <!-- DB -->
+  <rect x="30" y="681" width="200" height="34" fill="#162032"/>
+  <rect x="230" y="681" width="200" height="34" fill="#162032"/>
+  <rect x="430" y="681" width="200" height="34" fill="#162032"/>
+  <rect x="630" y="681" width="200" height="34" fill="#162032"/>
+  <text x="130" y="703" text-anchor="middle" fill="#FFF" font-size="13" font-weight="700" font-family="Pretendard,sans-serif">DB손보</text>
+  <text x="330" y="703" text-anchor="middle" fill="#E2E8F0" font-size="13" font-family="Pretendard,sans-serif">만 11세 이하</text>
+  <text x="530" y="703" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="600" font-family="Pretendard,sans-serif">0.9~17.1%</text>
+  <text x="730" y="703" text-anchor="middle" fill="#E2E8F0" font-size="12" font-family="Pretendard,sans-serif">자녀 수 차등</text>
+
+  <!-- 현대해상 -->
+  <rect x="30" y="719" width="200" height="34" fill="#1E293B"/>
+  <rect x="230" y="719" width="200" height="34" fill="#1E293B"/>
+  <rect x="430" y="719" width="200" height="34" fill="#1E293B"/>
+  <rect x="630" y="719" width="200" height="34" fill="#1E293B"/>
+  <text x="130" y="741" text-anchor="middle" fill="#FFF" font-size="13" font-weight="700" font-family="Pretendard,sans-serif">현대해상</text>
+  <text x="330" y="741" text-anchor="middle" fill="#E2E8F0" font-size="13" font-family="Pretendard,sans-serif">만 9세 이하</text>
+  <text x="530" y="741" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="600" font-family="Pretendard,sans-serif">3.0~15.3%</text>
+  <text x="730" y="741" text-anchor="middle" fill="#E2E8F0" font-size="12" font-family="Pretendard,sans-serif">기명1인/부부</text>
+
+  <!-- KB -->
+  <rect x="30" y="757" width="200" height="34" fill="#162032"/>
+  <rect x="230" y="757" width="200" height="34" fill="#162032"/>
+  <rect x="430" y="757" width="200" height="34" fill="#162032"/>
+  <rect x="630" y="757" width="200" height="34" fill="#162032"/>
+  <text x="130" y="779" text-anchor="middle" fill="#FFF" font-size="13" font-weight="700" font-family="Pretendard,sans-serif">KB손보</text>
+  <text x="330" y="779" text-anchor="middle" fill="#E2E8F0" font-size="13" font-family="Pretendard,sans-serif">만 9세 이하</text>
+  <text x="530" y="779" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="600" font-family="Pretendard,sans-serif">1.7~15.3%</text>
+  <text x="730" y="779" text-anchor="middle" fill="#E2E8F0" font-size="12" font-family="Pretendard,sans-serif">-</text>
+
+  <!-- AXA -->
+  <rect x="30" y="795" width="200" height="34" fill="#1E293B"/>
+  <rect x="230" y="795" width="200" height="34" fill="#1E293B"/>
+  <rect x="430" y="795" width="200" height="34" fill="#1E293B"/>
+  <rect x="630" y="795" width="200" height="34" fill="#1E293B"/>
+  <text x="130" y="817" text-anchor="middle" fill="#FFF" font-size="13" font-weight="700" font-family="Pretendard,sans-serif">AXA손보</text>
+  <text x="330" y="817" text-anchor="middle" fill="#86EFAC" font-size="13" font-weight="800" font-family="Pretendard,sans-serif">만 15세 이하 ★</text>
+  <text x="530" y="817" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="600" font-family="Pretendard,sans-serif">0.6~2.4%</text>
+  <text x="730" y="817" text-anchor="middle" fill="#E2E8F0" font-size="12" font-family="Pretendard,sans-serif">수혜 연령 최광</text>
+
+  <!-- 카드 캐시백 -->
+  <text x="30" y="870" fill="#FFF" font-size="20" font-weight="900" font-family="Pretendard,sans-serif">2026년 4월 카드 캐시백</text>
+  <rect x="30" y="882" width="140" height="3" rx="2" fill="url(#purple)"/>
+
+  <rect x="30" y="900" width="390" height="70" rx="14" fill="#1E293B" stroke="#FBBF24" stroke-width="2"/>
+  <text x="225" y="930" text-anchor="middle" fill="#FBBF24" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">현대카드 → DB·현대해상</text>
+  <text x="225" y="958" text-anchor="middle" fill="#FFF" font-size="24" font-weight="900" font-family="Pretendard,sans-serif">50,000원 캐시백</text>
+
+  <rect x="440" y="900" width="390" height="70" rx="14" fill="#1E293B" stroke="#94A3B8" stroke-width="1.5"/>
+  <text x="635" y="930" text-anchor="middle" fill="#94A3B8" font-size="16" font-weight="700" font-family="Pretendard,sans-serif">삼성·AXA·롯데 등</text>
+  <text x="635" y="958" text-anchor="middle" fill="#FFF" font-size="24" font-weight="900" font-family="Pretendard,sans-serif">30,000원 주유권</text>
+
+  <!-- Footer -->
+  <text x="30" y="1008" fill="#64748B" font-size="14" font-family="Pretendard,sans-serif">essencial | 2026년 4월 기준</text>
+  <text x="830" y="1008" text-anchor="end" fill="#64748B" font-size="14" font-family="Pretendard,sans-serif">보험 비교</text>
+</svg>

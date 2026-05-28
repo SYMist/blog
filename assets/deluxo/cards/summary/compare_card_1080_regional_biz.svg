@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- 배지 -->
+  <rect x="40" y="36" width="260" height="44" rx="22" fill="#F59E0B"/>
+  <text x="170" y="65" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#0B1F3B">지역별 핵심 비교</text>
+
+  <!-- 제목 -->
+  <text x="40" y="135" font-family="'Pretendard',sans-serif" font-size="44" font-weight="900" fill="#FFFFFF">부산 vs 대구 vs 광주</text>
+  <text x="40" y="185" font-family="'Pretendard',sans-serif" font-size="44" font-weight="900" fill="#FFFFFF">소상공인 지원 비교</text>
+
+  <rect x="40" y="210" width="120" height="4" rx="2" fill="#F59E0B"/>
+
+  <!-- 테이블 헤더 -->
+  <rect x="40" y="240" width="1000" height="60" rx="12" fill="rgba(245,158,11,0.2)"/>
+  <text x="180" y="278" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">비교 항목</text>
+  <text x="430" y="278" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">부산</text>
+  <text x="680" y="278" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">대구</text>
+  <text x="920" y="278" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">광주</text>
+
+  <!-- 행 1: 대표 특징 -->
+  <rect x="40" y="310" width="1000" height="70" rx="0" fill="rgba(255,255,255,0.06)"/>
+  <text x="70" y="352" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">대표 특징</text>
+  <text x="430" y="345" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">로컬 브랜드</text>
+  <text x="430" y="370" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">+ 육아 특화</text>
+  <text x="680" y="345" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">이자 지원</text>
+  <text x="680" y="370" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">+ 전략산업</text>
+  <text x="920" y="345" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">인건비 직접</text>
+  <text x="920" y="370" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">+ 보험료 지원</text>
+
+  <!-- 행 2: 최대 지원금 -->
+  <rect x="40" y="390" width="1000" height="70" rx="0" fill="rgba(255,255,255,0.03)"/>
+  <text x="70" y="432" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">직접 지원금</text>
+  <text x="430" y="432" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">2,000만 원</text>
+  <text x="680" y="432" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">250만 원</text>
+  <text x="920" y="432" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">300만 원</text>
+
+  <!-- 행 3: 대출/보증 -->
+  <rect x="40" y="470" width="1000" height="70" rx="0" fill="rgba(255,255,255,0.06)"/>
+  <text x="70" y="512" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">대출·보증 한도</text>
+  <text x="430" y="505" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">최대 1.2억</text>
+  <text x="430" y="530" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" font-weight="600" fill="#EAF2FF">(1.5% 이차보전)</text>
+  <text x="680" y="505" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">최대 1억</text>
+  <text x="680" y="530" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" font-weight="600" fill="#EAF2FF">(1.7~3% 이차보전)</text>
+  <text x="920" y="505" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">최대 5,000만</text>
+  <text x="920" y="530" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" font-weight="600" fill="#EAF2FF">(3~4% 이차보전)</text>
+
+  <!-- 행 4: 육아 지원 -->
+  <rect x="40" y="550" width="1000" height="70" rx="0" fill="rgba(255,255,255,0.03)"/>
+  <text x="70" y="592" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">육아·출산</text>
+  <text x="430" y="585" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">3종 패키지</text>
+  <text x="430" y="610" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" font-weight="600" fill="#EAF2FF">최대 460만 원</text>
+  <text x="680" y="585" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">출산양육비</text>
+  <text x="680" y="610" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" font-weight="600" fill="#EAF2FF">250만 + 응원금 100만</text>
+  <text x="920" y="592" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">별도 사업 없음</text>
+
+  <!-- 행 5: 인건비 -->
+  <rect x="40" y="630" width="1000" height="70" rx="0" fill="rgba(255,255,255,0.06)"/>
+  <text x="70" y="672" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">인건비 지원</text>
+  <text x="430" y="665" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">대체인건비</text>
+  <text x="430" y="690" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" font-weight="600" fill="#EAF2FF">월 100만×3개월</text>
+  <text x="680" y="672" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">별도 사업 없음</text>
+  <text x="920" y="665" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">신규 채용 인건비</text>
+  <text x="920" y="690" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" font-weight="600" fill="#EAF2FF">월 50만×2명×3개월</text>
+
+  <!-- 행 6: 보험료 -->
+  <rect x="40" y="710" width="1000" height="70" rx="0" fill="rgba(255,255,255,0.03)"/>
+  <text x="70" y="752" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">사회보험료</text>
+  <text x="430" y="752" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">전국 공통만</text>
+  <text x="680" y="752" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">전국 공통만</text>
+  <text x="920" y="745" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">산재 50~100%</text>
+  <text x="920" y="770" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" font-weight="600" fill="#EAF2FF">고용 20% 추가 지원</text>
+
+  <!-- 하단 요약 -->
+  <rect x="40" y="820" width="1000" height="80" rx="16" fill="rgba(245,158,11,0.12)"/>
+  <text x="540" y="855" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">핵심: 부산=육아, 대구=이자, 광주=인건비+보험료</text>
+  <text x="540" y="885" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#EAF2FF">3개 도시 모두 전국 바우처(25만) + 금리 우대(0.2%p) 공통 적용</text>
+
+  <!-- 칩 -->
+  <rect x="40" y="930" width="140" height="38" rx="19" fill="#E8F0FF"/>
+  <text x="110" y="955" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#1D4ED8">지역 비교</text>
+  <rect x="195" y="930" width="100" height="38" rx="19" fill="#E8F0FF"/>
+  <text x="245" y="955" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#1D4ED8">지원금</text>
+  <rect x="310" y="930" width="100" height="38" rx="19" fill="#E8F0FF"/>
+  <text x="360" y="955" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#1D4ED8">2026</text>
+</svg>

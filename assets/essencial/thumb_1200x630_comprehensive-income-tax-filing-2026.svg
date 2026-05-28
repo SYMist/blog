@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <rect x="60" y="50" width="360" height="44" rx="22" fill="#B45309"/>
+  <text x="240" y="80" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">2026 종합소득세 사업자·근로자 비교</text>
+
+  <text x="60" y="175" fill="#FFFFFF" font-size="64" font-weight="800" font-family="sans-serif">5월 종소세</text>
+  <text x="60" y="248" fill="#FCD34D" font-size="56" font-weight="800" font-family="sans-serif">환급 전략 총정리</text>
+
+  <text x="60" y="310" fill="#94A3B8" font-size="22" font-weight="600" font-family="sans-serif">사업자 · 근로자 · 투잡 3트랙 비교 · 공제 레버 148.5만</text>
+
+  <!-- 3 key metrics -->
+  <rect x="60" y="360" width="340" height="180" rx="16" fill="url(#card)" stroke="#B45309" stroke-width="2"/>
+  <text x="230" y="400" text-anchor="middle" fill="#FCD34D" font-size="16" font-weight="700" font-family="sans-serif">신고 기간</text>
+  <text x="230" y="460" text-anchor="middle" fill="#FFFFFF" font-size="46" font-weight="800" font-family="sans-serif">5.1 ~ 6.1</text>
+  <text x="230" y="495" text-anchor="middle" fill="#FCA5A5" font-size="15" font-weight="600" font-family="sans-serif">성실신고 6.30까지</text>
+  <text x="230" y="520" text-anchor="middle" fill="#CBD5E1" font-size="14" font-family="sans-serif">무신고 가산세 20%</text>
+
+  <rect x="420" y="360" width="340" height="180" rx="16" fill="url(#card)" stroke="#B45309" stroke-width="2"/>
+  <text x="590" y="400" text-anchor="middle" fill="#FCD34D" font-size="16" font-weight="700" font-family="sans-serif">연금·IRP 세액공제</text>
+  <text x="590" y="460" text-anchor="middle" fill="#FFFFFF" font-size="42" font-weight="800" font-family="sans-serif">최대 148.5만</text>
+  <text x="590" y="495" text-anchor="middle" fill="#86EFAC" font-size="15" font-weight="600" font-family="sans-serif">900만 × 16.5%</text>
+  <text x="590" y="520" text-anchor="middle" fill="#CBD5E1" font-size="14" font-family="sans-serif">소득 5,500만 이하</text>
+
+  <rect x="780" y="360" width="360" height="180" rx="16" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="960" y="400" text-anchor="middle" fill="#86EFAC" font-size="16" font-weight="700" font-family="sans-serif">프리랜서 3천만 환급</text>
+  <text x="960" y="460" text-anchor="middle" fill="#FFFFFF" font-size="44" font-weight="800" font-family="sans-serif">약 54만</text>
+  <text x="960" y="495" text-anchor="middle" fill="#86EFAC" font-size="15" font-weight="600" font-family="sans-serif">단순경비율 75% + 3.3%</text>
+  <text x="960" y="520" text-anchor="middle" fill="#CBD5E1" font-size="14" font-family="sans-serif">모두채움 수정 신고</text>
+
+  <text x="60" y="590" fill="#64748B" font-size="14" font-family="sans-serif">essencial | 대출·금융 silo · 국세청·기획재정부 (2026.04 기준)</text>
+</svg>

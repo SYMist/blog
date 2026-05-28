@@ -1,0 +1,372 @@
+<!-- essencial_template_insurance.html → E-46 종신보험 vs 정기보험 50대 비교 -->
+
+<!-- ✅ Schema.org 구조화 데이터 -->
+<div style="display:none">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "종신보험 vs 정기보험 50대 실질 보장 비교 (2026)",
+      "description": "50대 기준 종신보험과 정기보험의 보험료·해약환급금·보장기간 차이를 비교. 피부양자 있는 가장이라면 정기보험, 상속·자산 이전 목적이라면 종신보험. 2026 최신 기준 손익분기 시뮬레이션 포함.",
+      "datePublished": "2026-05-06",
+      "dateModified": "2026-05-06",
+      "author": {"@type": "Person", "name": "essencial"},
+      "publisher": {"@type": "Organization", "name": "essencial"}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "50대에 종신보험 새로 가입해도 될까요?", "acceptedAnswer": {"@type": "Answer", "text": "50대 초반(50~54세)은 가입 가능하지만 보험료 부담이 큽니다. 50대 후반(55세 이상)은 신규 가입 시 월 보험료가 종신보험 실익 대비 과도할 수 있어 정기보험이 더 현실적입니다. 가입 목적(상속·장례비 vs 피부양자 보장)에 따라 달라집니다."}},
+        {"@type": "Question", "name": "종신보험이 정기보험보다 얼마나 비싼가요?", "acceptedAnswer": {"@type": "Answer", "text": "동일한 사망보험금(예: 1억원) 기준으로 50세 남성의 경우 종신보험은 월 12만~18만원, 정기보험은 월 4만~7만원 수준으로 종신보험이 약 2~3배 비쌉니다. 20년 납입 총액 차이는 약 1,500만~2,500만원 이상 납니다."}},
+        {"@type": "Question", "name": "정기보험은 만기 후 어떻게 되나요?", "acceptedAnswer": {"@type": "Answer", "text": "정기보험은 보험기간이 끝나면 보장이 완전히 소멸됩니다. 재가입이 필요하지만, 70세 이상에서 재가입을 시도하면 보험료 급등 또는 건강 문제로 가입이 거절될 수 있습니다. 만기 시점에 사망보장이 더 이상 필요 없는 상황(자녀 독립, 부채 정산 완료)을 맞추는 전략이 중요합니다."}},
+        {"@type": "Question", "name": "해약환급금이 있으면 종신보험이 유리한가요?", "acceptedAnswer": {"@type": "Answer", "text": "해약환급금이 있다고 해서 수익이 나는 것은 아닙니다. 중도 해지 시 납입한 보험료보다 적은 금액이 반환되는 경우가 많습니다. 오랜 기간 유지해야 원금에 가까워집니다. 순수하게 저축 목적이라면 별도 금융상품(연금저축·IRP)이 더 효율적입니다."}},
+        {"@type": "Question", "name": "50대 가장에게 가장 좋은 사망보험 전략은?", "acceptedAnswer": {"@type": "Answer", "text": "피부양 자녀가 있다면 자녀 독립 시점까지 정기보험으로 보장하는 것이 비용 효율적입니다. 상속·장례비 목적이라면 소액(3천만원) 종신보험 + 고액(7천만원) 정기보험 조합이 보험료를 절감하면서 보장을 유지하는 방법입니다."}},
+        {"@type": "Question", "name": "단기납 종신보험이란 무엇인가요?", "acceptedAnswer": {"@type": "Answer", "text": "7년납·10년납처럼 짧은 기간에 보험료를 모두 납입하고 그 이후 평생 보장받는 구조입니다. 납입 완료 후 보험료 부담이 없어지지만 초기 납입액이 집중되어 부담이 크고, 납입 기간 내 중도 해지 시 환급금이 납입액보다 훨씬 적습니다."}}
+      ]
+    }
+  ]
+}
+</script>
+</div>
+
+<style>
+  :root{
+    --pri:#7C3AED; --pri2:#6D28D9;
+    --white:#FFFFFF; --text:#111827;
+    --muted:#4B5563; --border:#E5E7EB;
+    --bg:#F9FAFB; --accent:#F5F3FF;
+  }
+  .wrap{max-width:860px;margin:0 auto;line-height:1.8;color:var(--text);}
+  .meta{color:var(--muted);font-size:.95rem;margin:6px 0 18px;}
+  .badge{display:inline-block;background:var(--accent);border:1px solid #DDD6FE;padding:3px 10px;border-radius:999px;font-size:.85rem;margin-right:8px;}
+  .notice{background:#FFF7ED;border:1px solid #FED7AA;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .conclusion{background:#F5F3FF;border:1px solid #DDD6FE;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .toc{background:var(--bg);border:1px solid var(--border);padding:14px 16px;border-radius:12px;margin:16px 0 22px;}
+  .toc a{text-decoration:none;color:var(--pri);}
+  .toc ul{margin:8px 0 0 18px;}
+  .wrap a.btn,.wrap a.btn:link,.wrap a.btn:visited{
+    display:inline-flex;align-items:center;justify-content:center;
+    padding:10px 14px;border-radius:10px;border:1px solid var(--pri);
+    background:var(--pri) !important;color:var(--white) !important;
+    text-decoration:none !important;font-weight:800;
+  }
+  .wrap a.btn:hover{background:var(--pri2) !important;}
+  .wrap a.btn.secondary,.wrap a.btn.secondary:link,.wrap a.btn.secondary:visited{
+    background:var(--white) !important;color:var(--pri) !important;border-color:var(--pri) !important;
+  }
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 6px;}
+  table{width:100%;border-collapse:collapse;margin:14px 0 10px;}
+  th,td{border:1px solid var(--border);padding:10px;vertical-align:top;}
+  th{background:#F3F4F6;text-align:left;}
+  .small{font-size:.95rem;color:var(--muted);}
+  h1{margin:0 0 8px;line-height:1.25;}
+  h2{margin-top:30px;padding-top:8px;border-top:1px solid var(--border);}
+  h3{margin-top:16px;}
+  .q{font-weight:900;margin:14px 0 6px;}
+  .a{margin:0 0 10px;}
+  .highlight{background:#F0FDF4;border:1px solid #BBF7D0;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .warning{background:#FEF2F2;border:1px solid #FECACA;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .scenario{background:#FEFCE8;border:1px solid #FDE68A;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .scope{background:#F8FAFC;border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .scope ul{margin:4px 0 0 18px;}
+  .action-steps{background:#F5F3FF;border:1px solid #DDD6FE;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .action-steps ol{margin:8px 0 0 18px;}
+  .sources{background:var(--bg);border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:14px 0;font-size:.9rem;}
+  .sources ul{margin:4px 0 0 18px;}
+  .footer{margin-top:26px;padding-top:14px;border-top:1px solid var(--border);color:var(--muted);font-size:.95rem;}
+  .disclaimer{background:#F9FAFB;border:1px solid var(--border);padding:10px 14px;border-radius:10px;margin:14px 0;font-size:.9rem;color:var(--muted);}
+  .roi-box{background:#EFF6FF;border:1px solid #BFDBFE;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+</style>
+
+<div class="wrap">
+  <h1>종신보험 vs 정기보험 50대 실질 보장 비교 (2026) — 어느 것이 진짜 유리한가?</h1>
+  <div class="meta">
+    <span class="badge">보험 비교</span>
+    <span class="badge">업데이트: 2026-05-06</span>
+  </div>
+
+  <div class="notice">
+    <strong>먼저 확인!</strong><br/>
+    보험료는 나이·성별·건강상태·납입기간에 따라 크게 달라집니다. 본 글의 수치는 50세 남성·사망보험금 1억원·20년납 기준 추정 예시이며, 실제 보험료는 각 보험사에서 직접 조회하시기 바랍니다.
+  </div>
+
+  <p class="small">
+    50대에 종신보험과 정기보험 중 어느 것이 유리한지는 <strong>가입 목적</strong>에 달려 있습니다. 보험사 안내에 없는 <strong>50대 손익분기 시뮬레이션, 중도해지 시 원금 손실 구조, 정기보험 만기 후 재가입 위험</strong>까지 이 글에서 정리했습니다.
+  </p>
+
+  <!-- ✅ 스코핑 -->
+  <div class="scope">
+    <strong>이 글에서 다루는 것</strong>
+    <ul>
+      <li>종신보험·정기보험 보험료·해약환급금·보장기간 차이 (50세 남성 기준)</li>
+      <li>50대 상황별 유불리 시나리오 — 피부양자 유무·부채·상속 목적별</li>
+      <li>보험료 손익분기 시뮬레이션 및 복합 전략</li>
+    </ul>
+    <strong>다루지 않는 것</strong>
+    <ul>
+      <li>특정 보험사 상품 추천이나 개인별 설계 상담</li>
+    </ul>
+  </div>
+
+  <!-- ✅ 섹션 1: 결론 먼저 -->
+  <div class="conclusion" id="top">
+    <h2 style="border-top:none;margin-top:0;">✅ 결론 먼저: 50대라면 이렇게 선택하세요</h2>
+    <ul>
+      <li><strong>정기보험이 유리한 경우</strong>: 미성년 자녀·배우자 피부양자 있음, 부채(모기지) 잔존, 보험료 절감이 최우선</li>
+      <li><strong>종신보험이 유리한 경우</strong>: 상속·장례비 마련 목적, 자녀 독립 완료 후에도 사망 보장 유지 원함</li>
+      <li><strong>복합 전략</strong>: 종신보험 소액(3천만원 장례비) + 정기보험 고액(7천만원 생활비) 조합 → 보험료 절감 + 목적별 분리</li>
+    </ul>
+  </div>
+
+  <!-- ✅ 이미지 1: 비교 요약 카드 -->
+  <img src="compare_summary_term-whole-life-insurance-comparison-2026.png" alt="종신보험 vs 정기보험 50대 비교 요약 2026" style="width:100%;margin:16px 0;" />
+
+  <div class="toc">
+    <strong>목차</strong>
+    <ul>
+      <li><a href="#matrix">1) 핵심 비교 매트릭스</a></li>
+      <li><a href="#detail">2) 항목별 상세 비교</a></li>
+      <li><a href="#premium">3) 보험료 손익분기 시뮬레이션</a></li>
+      <li><a href="#scenario">4) 시나리오별 추천</a></li>
+      <li><a href="#trap">5) 가입 전 확인할 함정</a></li>
+      <li><a href="#experience">자주 놓치는 포인트와 실수 사례</a></li>
+      <li><a href="#faq">6) FAQ</a></li>
+      <li><a href="#update">업데이트 로그</a></li>
+    </ul>
+  </div>
+
+  <!-- ✅ 섹션 2: 핵심 비교 매트릭스 -->
+  <h2 id="matrix">1) 핵심 비교 매트릭스</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>비교 항목</th>
+        <th>종신보험</th>
+        <th>정기보험</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>보장 기간</strong></td>
+        <td>평생 (사망 시점 무관)</td>
+        <td>계약 기간만 (10·20·30년, 60·70·80세 등)</td>
+      </tr>
+      <tr>
+        <td><strong>월 보험료 (예시)</strong></td>
+        <td>약 12만~18만원</td>
+        <td>약 4만~7만원</td>
+      </tr>
+      <tr>
+        <td><strong>보험료 배율</strong></td>
+        <td>정기보험의 2~3배</td>
+        <td>기준 (저렴)</td>
+      </tr>
+      <tr>
+        <td><strong>해약환급금</strong></td>
+        <td>있음 (납입액의 60~100%)</td>
+        <td>없거나 극소 (무해지환급형)</td>
+      </tr>
+      <tr>
+        <td><strong>사망 원인</strong></td>
+        <td>불문 (질병·상해·자연사)</td>
+        <td>불문 (보험기간 내)</td>
+      </tr>
+      <tr>
+        <td><strong>상품 구조</strong></td>
+        <td>복잡 (특약·납입기간·환급형 多)</td>
+        <td>단순 (기간·금액 선택)</td>
+      </tr>
+      <tr>
+        <td><strong>50대 신규 가입</strong></td>
+        <td>가능 (단, 보험료 급등)</td>
+        <td>가능 (합리적 보험료)</td>
+      </tr>
+      <tr>
+        <td><strong>만기 후 보장</strong></td>
+        <td>평생 계속</td>
+        <td>없음 → 재가입 필요</td>
+      </tr>
+      <tr>
+        <td><strong>주요 활용</strong></td>
+        <td>상속·장례비·평생 보장</td>
+        <td>피부양자 보장·부채 대비</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="small">※ 2026년 5월 기준, 50세 남성·사망보험금 1억원·20년납 기준 추정 예시. 개인별 차이 큽니다.</p>
+
+  <!-- ✅ 이미지 2: 비교 매트릭스 카드 -->
+  <img src="compare_matrix_term-whole-life-insurance-comparison-2026.png" alt="종신보험 정기보험 항목별 비교표 2026" style="width:100%;margin:16px 0;" />
+
+  <!-- ✅ 섹션 3: 항목별 상세 비교 -->
+  <h2 id="detail">2) 항목별 상세 비교</h2>
+
+  <h3>보장 기간 차이가 50대에게 왜 중요한가?</h3>
+  <p>종신보험은 언제 사망하더라도 보험금이 지급됩니다. 반면 정기보험은 계약 만기(예: 70세) 이후 사망하면 보험금이 없습니다. 50세에 가입한 정기보험(20년 만기)은 70세에 끝납니다. 평균 기대수명이 84세(남성 80세, 여성 86세, 2024년 통계청)임을 감안하면 70세 이후 사망 가능성이 높습니다. 그러나 피부양자 보호 목적이라면 자녀가 독립하는 65~70세까지만 보장하면 충분할 수 있습니다. 목적에 맞는 보장 기간 선택이 핵심입니다.</p>
+
+  <h3>해약환급금이 있다고 종신보험이 저축이 될까?</h3>
+  <p>종신보험의 해약환급금은 '낸 돈을 돌려받는' 개념이지만, 수익이 발생하는 구조는 아닙니다. 표준형(환급율 100%)을 10년 유지한 경우 납입 총액 대비 환급률이 50~70%에 불과한 경우가 많습니다. 순수 저축 목적이라면 연금저축·IRP·ISA 등 금융상품이 훨씬 효율적입니다. 종신보험의 해약환급금은 '중도 해지 시 일부라도 회수할 수 있다'는 의미 정도로 이해하는 것이 정확합니다.</p>
+
+  <h3>50대 정기보험 vs 종신보험, 보험료 실제로 얼마나 다른가?</h3>
+  <p>50세 남성이 사망보험금 1억원, 20년납으로 가입하면 종신보험은 월 12만~18만원, 정기보험(70세 만기)은 월 4만~7만원 수준으로 추정됩니다. 20년 납입 총액 차이는 약 1,500만~2,500만원입니다. 이 차액을 연 5% 복리로 운용하면 20년 후 약 2,500만~4,000만원의 자산을 형성할 수 있습니다. 이 '차액 운용' 관점에서 보면 정기보험 + 차액 투자가 종신보험보다 재무적으로 유리할 수 있습니다.</p>
+
+  <!-- ✅ 섹션 4: 보험료 손익분기 시뮬레이션 -->
+  <h2 id="premium">3) 보험료 손익분기 시뮬레이션</h2>
+
+  <div class="roi-box">
+    <strong>📊 50세 남성, 사망보험금 1억원, 20년납 가정 (추정 예시)</strong>
+    <table>
+      <thead>
+        <tr><th>시점</th><th>종신보험 누적 납입액</th><th>정기보험 누적 납입액</th><th>차이 (종신 - 정기)</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>5년차</td><td>약 900만원</td><td>약 300만원</td><td>약 600만원</td></tr>
+        <tr><td>10년차</td><td>약 1,800만원</td><td>약 600만원</td><td>약 1,200만원</td></tr>
+        <tr><td>20년차 (납입 완료)</td><td>약 3,600만원</td><td>약 1,200만원</td><td>약 2,400만원</td></tr>
+        <tr><td>20년차 종신 해약환급금</td><td colspan="3">약 2,000만~3,000만원 (납입액의 60~80%)</td></tr>
+        <tr><td><strong>실질 보험료 차이</strong></td><td colspan="3"><strong>종신보험이 약 600만~1,600만원 더 부담 (20년 기준)</strong></td></tr>
+      </tbody>
+    </table>
+    <p class="small">※ 월 보험료: 종신 15만원 / 정기 5만원 가정. 보험사·상품에 따라 편차 큼. 직접 조회 필수.</p>
+  </div>
+
+  <!-- ✅ 섹션 5: 시나리오별 추천 -->
+  <h2 id="scenario">4) 시나리오별 추천</h2>
+  <div class="scenario">
+    <h3>🔍 50대인 내 상황에 맞는 보험은?</h3>
+    <table>
+      <thead>
+        <tr><th>50대 상황</th><th>추천</th><th>이유</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>미성년 자녀 있음, 경제적 피부양자 존재</td>
+          <td><strong>정기보험</strong></td>
+          <td>자녀 독립 시점(15~20년)까지 저렴하게 보장. 보험료 절약 효과 큼</td>
+        </tr>
+        <tr>
+          <td>자녀 독립 완료, 배우자 생활비 대비 필요</td>
+          <td><strong>정기보험 유지 or 재검토</strong></td>
+          <td>배우자 연금·자산 여부 확인 후 필요 기간 재설정</td>
+        </tr>
+        <tr>
+          <td>부채(주택담보대출) 잔존</td>
+          <td><strong>정기보험</strong></td>
+          <td>대출 상환 시점까지 보장 → 완납 후 해지 또는 감액</td>
+        </tr>
+        <tr>
+          <td>상속·장례비 목적, 자산 이전 원함</td>
+          <td><strong>종신보험 (소액)</strong></td>
+          <td>사후 유동 자산 역할, 장례비 3천만원 수준 소액 가입</td>
+        </tr>
+        <tr>
+          <td>보험료 최소화 + 보장도 원함</td>
+          <td><strong>복합 전략</strong></td>
+          <td>종신 3천만(장례비) + 정기 7천만(생활비) 조합 → 총 비용 절감</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- ✅ 이미지 3: 시나리오 추천 카드 -->
+  <img src="scenario_term-whole-life-insurance-comparison-2026.png" alt="종신보험 정기보험 50대 상황별 추천 가이드 2026" style="width:100%;margin:16px 0;" />
+
+  <!-- ✅ 지금 바로 확인하는 순서 -->
+  <div class="action-steps">
+    <strong>지금 바로 확인하는 순서</strong>
+    <ol>
+      <li>현재 가입한 사망보험 보장 내역 확인 (보험다모아 → 내 보험 조회)</li>
+      <li>피부양자 유무·부채 잔존 여부·상속 목적 여부를 체크</li>
+      <li>시나리오 추천에서 본인 상황 매칭 → 정기보험/종신보험/복합 전략 결정</li>
+      <li>함정 항목 체크 후 각 보험사 다이렉트 사이트에서 실제 보험료 비교 조회</li>
+    </ol>
+  </div>
+
+  <!-- ✅ 인아티클 광고 -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5716436301710258"
+       crossorigin="anonymous"></script>
+  <ins class="adsbygoogle"
+       style="display:block; text-align:center;"
+       data-ad-layout="in-article"
+       data-ad-format="fluid"
+       data-ad-client="ca-pub-5716436301710258"
+       data-ad-slot="2039167138"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+  <!-- ✅ 섹션 6: 가입 전 확인할 함정 -->
+  <h2 id="trap">5) 가입 전 꼭 확인할 함정</h2>
+  <div class="warning">
+    <ol>
+      <li><strong>50대 후반 종신보험 신규 가입 함정</strong>: 55세 이상에서 사망보험금 1억원 종신보험을 신규로 가입하면 월 보험료가 20만원을 넘어 손익분기가 실현되기 전 만기가 될 수 있습니다. 50대 후반은 정기보험이 현실적입니다.</li>
+      <li><strong>해약환급금 "원금 회수" 착각</strong>: 종신보험을 10년 유지해도 해약환급금이 납입 보험료의 50~70%에 불과한 경우가 많습니다. 중도 해지 시 원금 손실이 발생하므로 가입 전 장기 유지 가능 여부를 반드시 검토해야 합니다.</li>
+      <li><strong>정기보험 만기 후 재가입 불가 위험</strong>: 70세에 정기보험이 만기 되면 이후 재가입이 어렵습니다. 70세 이상에서 신규 종신보험 가입은 보험료가 매우 높거나 건강 심사에서 거절될 수 있습니다. 만기 시점에 사망 보장이 더 이상 필요 없는 상황(자녀 독립, 부채 정산)을 설계해야 합니다.</li>
+      <li><strong>단기납 종신보험 초기 해지 함정</strong>: 7년납·10년납 단기납 종신보험은 납입 완료 전 해지 시 환급금이 납입 총액의 절반 이하인 경우가 많습니다. 납입 기간 내에 보험료 부담을 감당할 수 있는지 신중히 판단해야 합니다.</li>
+    </ol>
+  </div>
+
+  <div class="btns">
+    <a class="btn" href="https://direct.hanwhalife.com/products/CM090101" target="_blank" rel="noopener">한화생명 정기보험 조회</a>
+    <a class="btn secondary" href="https://www.kyobo.com/dgt/web/dtp/insurance-category-detail?lpdt=01" target="_blank" rel="noopener">교보생명 종신/정기 조회</a>
+    <a class="btn secondary" href="https://kbthink.com/main/asset-management/insurance/insurance-5-240830.html" target="_blank" rel="noopener">KB 종신·정기 비교 가이드</a>
+  </div>
+
+  <!-- ✅ 자주 놓치는 포인트와 실수 사례 -->
+  <h2 id="experience">자주 놓치는 포인트와 실수 사례</h2>
+
+  <p>50대 보험 상담에서 가장 많이 발생하는 혼동은 <strong>종신보험을 저축성 금융상품으로 오해하는 것</strong>입니다. 해약환급금이 존재한다는 이유로 "어차피 돌려받으니 종신보험이 낫다"고 판단하는 경우가 많지만, 실제로는 납입한 원금보다 적은 환급금이 지급되는 구간(납입 후 10~15년)이 길게 이어집니다. 연금저축·IRP 등 순수 금융상품과 병행하는 것이 자산 관리 측면에서 더 효율적입니다.</p>
+
+  <p>정기보험 가입자들이 자주 후회하는 사례로는 <strong>만기를 너무 짧게 설정한 경우</strong>가 있습니다. 60세 만기로 설정했다가 55세에 부채가 예상보다 오래 남아 있거나 배우자 소득이 없어진 경우, 만기 이후 재가입 보험료 부담이 훨씬 커지는 문제가 발생합니다. 초기 가입 시 만기를 충분히 길게(70세 이상) 설정해두고, 필요 없으면 중도 감액하거나 해지하는 전략이 안전합니다.</p>
+
+  <p>복합 전략(종신 소액 + 정기 고액)을 선택할 때 <strong>두 보험을 서로 다른 보험사에 가입하는 경우</strong>, 청구 시 중복 보장 여부를 헷갈리는 사례가 있습니다. 사망보험금은 중복 가입 시 모두 지급되므로 이중 청구 문제가 없습니다. 다만, 두 상품의 보험료·납입 일정이 분산되어 관리가 복잡해질 수 있으므로 동일 보험사에 패키지로 묶는 것도 고려할 수 있습니다.</p>
+
+  <!-- ✅ 섹션 7: FAQ -->
+  <h2 id="faq">6) FAQ</h2>
+  <p class="q">Q1. 50대에 종신보험 새로 가입해도 될까요?</p>
+  <p class="a">50대 초반(50~54세)은 가입 가능하지만 보험료 부담이 큽니다. 50대 후반(55세 이상)은 신규 가입 시 보험료가 실익 대비 과도해 정기보험이 더 현실적입니다. 목적(상속·장례비 vs 피부양자 보장)에 따라 판단이 달라집니다.</p>
+
+  <p class="q">Q2. 종신보험이 정기보험보다 얼마나 비싼가요?</p>
+  <p class="a">동일한 사망보험금(1억원) 기준 50세 남성의 경우 종신보험은 월 12만~18만원, 정기보험은 월 4만~7만원 수준으로 종신보험이 약 2~3배 비쌉니다. 20년 납입 총액 차이는 약 1,500만~2,500만원 이상입니다.</p>
+
+  <p class="q">Q3. 정기보험은 만기 후 어떻게 되나요?</p>
+  <p class="a">보험기간이 끝나면 보장이 소멸됩니다. 재가입을 원해도 70세 이상에서는 보험료 급등 또는 건강 심사 거절이 발생할 수 있습니다. 만기 시점에 사망보장이 필요 없는 상황(피부양자 독립, 부채 정산)을 맞추는 것이 중요합니다.</p>
+
+  <p class="q">Q4. 해약환급금이 있으면 종신보험이 유리한가요?</p>
+  <p class="a">해약환급금은 수익이 아닙니다. 중도 해지 시 납입 보험료보다 적은 금액이 반환됩니다. 순수 저축 목적이라면 연금저축·IRP가 훨씬 효율적입니다.</p>
+
+  <p class="q">Q5. 50대 가장에게 가장 좋은 사망보험 전략은?</p>
+  <p class="a">피부양 자녀가 있다면 자녀 독립 시점까지 정기보험으로 보장하는 것이 비용 효율적입니다. 상속·장례비 목적이라면 소액(3천만원) 종신보험 + 고액(7천만원) 정기보험 조합이 좋은 방법입니다.</p>
+
+  <p class="q">Q6. 단기납 종신보험이란 무엇인가요?</p>
+  <p class="a">7년납·10년납처럼 짧은 기간에 보험료를 납입하고 평생 보장받는 구조입니다. 납입 완료 후 보험료 부담이 없어지지만 납입 기간 내 해지 시 환급금이 매우 적습니다. 납입 기간 동안 부담을 감당할 수 있는지 신중하게 검토해야 합니다.</p>
+
+  <!-- ✅ 참고자료 -->
+  <div class="sources">
+    <strong>참고자료 / 출처</strong>
+    <ul>
+      <li>한화생명 e정기보험 다이렉트 공식 페이지 (2026.05 확인)</li>
+      <li>교보생명 종신/정기보험 공식 상품 페이지 (2026.05 확인)</li>
+      <li>KB의 생각 — 종신보험·정기보험 특징 및 장단점 가이드 (2026.05 확인)</li>
+    </ul>
+  </div>
+
+  <div class="btns">
+    <a class="btn" href="https://direct.hanwhalife.com/products/CM090101" target="_blank" rel="noopener">한화생명 정기보험 보험료 조회</a>
+    <a class="btn secondary" href="https://kbthink.com/main/asset-management/insurance/insurance-5-240830.html" target="_blank" rel="noopener">종신·정기보험 비교 가이드</a>
+  </div>
+
+  <div class="disclaimer">
+    <strong>면책 안내</strong>: 본 글은 일반적인 정보 제공 목적이며, 특정 보험 상품을 추천하는 것이 아닙니다. 보험 가입·변경 시 반드시 약관을 확인하고, 필요 시 전문 설계사와 상담하시기 바랍니다. 개인의 건강 상태·나이·납입기간에 따라 보험료와 보장 내용이 달라질 수 있습니다.
+  </div>
+
+  <p class="small">관련 글: <a href="#" target="_blank" rel="noopener">암보험 갱신형 vs 비갱신형 — 60세 이후 보험료 차이 비교 (2026)</a> / <a href="#" target="_blank" rel="noopener">간병보험 vs 치매보험 비교 — 50대 이후 꼭 필요한 보험 우선순위 (2026)</a></p>
+
+  <div class="footer" id="update">
+    <strong>업데이트 로그</strong><br/>
+    - 2026-05-06: 최초 발행<br/>
+    <span class="small">※ 보험 상품·보험료는 수시로 변동됩니다. 가입 전 최신 약관을 확인하세요.</span>
+  </div>
+</div>

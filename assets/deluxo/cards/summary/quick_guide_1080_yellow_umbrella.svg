@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="75" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="800" fill="#F59E0B">내 상황에 맞는 노란우산 전략은?</text>
+  <rect x="60" y="105" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- Row 1 -->
+  <rect x="60" y="130" width="960" height="100" rx="16" fill="rgba(245,158,11,0.12)"/>
+  <text x="100" y="170" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">소득 4,000만↓</text>
+  <text x="100" y="205" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">→ 월 50만 납입 (600만 전액 공제, 절세 최대 99만)</text>
+
+  <!-- Row 2 -->
+  <rect x="60" y="240" width="960" height="100" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="280" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">소득 4,000~1억</text>
+  <text x="100" y="315" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">→ 월 34만 납입 (400만 공제, 절세 최대 154만)</text>
+
+  <!-- Row 3 -->
+  <rect x="60" y="350" width="960" height="100" rx="16" fill="rgba(245,158,11,0.12)"/>
+  <text x="100" y="390" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">소득 1억↑</text>
+  <text x="100" y="425" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">→ 월 17만 납입 (200만 한도)</text>
+
+  <!-- Row 4 -->
+  <rect x="60" y="460" width="960" height="100" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <text x="100" y="500" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#3B82F6">법인 대표 총급여 8,000만↓</text>
+  <text x="100" y="535" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">→ 소득공제 가능 (연 200만)</text>
+
+  <!-- Row 5 -->
+  <rect x="60" y="570" width="960" height="100" rx="16" fill="rgba(239,68,68,0.12)"/>
+  <text x="100" y="610" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#EF4444">법인 대표 총급여 8,000만↑</text>
+  <text x="100" y="645" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">→ 소득공제 불가! 압류 금지 목적으로만 활용</text>
+
+  <!-- Row 6 -->
+  <rect x="60" y="680" width="960" height="100" rx="16" fill="rgba(139,92,246,0.12)"/>
+  <text x="100" y="720" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#8B5CF6">프리랜서</text>
+  <text x="100" y="755" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">→ 원천징수영수증으로 가입 (장기 퇴직금 목적)</text>
+
+  <!-- Row 7 -->
+  <rect x="60" y="790" width="960" height="100" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="830" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#EAF2FF">빚 걱정</text>
+  <text x="100" y="865" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">→ 노란우산 + 행복지킴이통장 (압류 100% 차단)</text>
+
+  <!-- Bottom -->
+  <rect x="60" y="920" width="960" height="55" rx="16" fill="rgba(59,130,246,0.15)"/>
+  <text x="540" y="955" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#3B82F6">중소기업중앙회 1666-9988 · 8899.or.kr</text>
+
+  <rect x="60" y="1050" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

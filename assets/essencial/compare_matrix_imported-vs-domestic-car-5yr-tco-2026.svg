@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 660">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="660" fill="url(#bg)"/>
+
+  <text x="540" y="48" text-anchor="middle" fill="#FFFFFF" font-size="24" font-weight="800" font-family="sans-serif">수입차 vs 국산차 5년 TCO 상세 비교 매트릭스</text>
+  <text x="540" y="74" text-anchor="middle" fill="#93C5FD" font-size="14" font-family="sans-serif">중형 세단 2.0L · 5년 7만 5천km · 2026.05 기준</text>
+
+  <!-- Table header -->
+  <rect x="40" y="98" width="1000" height="44" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="170" y="126" text-anchor="middle" fill="#F8FAFC" font-size="15" font-weight="800" font-family="sans-serif">비용 항목</text>
+  <text x="480" y="126" text-anchor="middle" fill="#86EFAC" font-size="15" font-weight="800" font-family="sans-serif">국산 (쏘나타 2.0급)</text>
+  <text x="790" y="126" text-anchor="middle" fill="#BFDBFE" font-size="15" font-weight="800" font-family="sans-serif">수입 (BMW 320i급)</text>
+  <text x="970" y="126" text-anchor="middle" fill="#FCA5A5" font-size="15" font-weight="800" font-family="sans-serif">차액</text>
+
+  <!-- Rows -->
+  <rect x="40" y="146" width="1000" height="40" fill="#0f172a" fill-opacity="0.5"/>
+  <text x="55" y="172" fill="#F1F5F9" font-size="14" font-family="sans-serif">구매가</text>
+  <text x="480" y="172" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">3,300만원</text>
+  <text x="790" y="172" text-anchor="middle" fill="#BFDBFE" font-size="14" font-weight="700" font-family="sans-serif">6,200만원</text>
+  <text x="970" y="172" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="700" font-family="sans-serif">+2,900만원</text>
+
+  <rect x="40" y="190" width="1000" height="40" fill="#1e293b" fill-opacity="0.4"/>
+  <text x="55" y="216" fill="#F1F5F9" font-size="14" font-family="sans-serif">취득세·등록세 (7%)</text>
+  <text x="480" y="216" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">약 248만원</text>
+  <text x="790" y="216" text-anchor="middle" fill="#BFDBFE" font-size="14" font-weight="700" font-family="sans-serif">약 466만원</text>
+  <text x="970" y="216" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="700" font-family="sans-serif">+218만원</text>
+
+  <rect x="40" y="234" width="1000" height="40" fill="#0f172a" fill-opacity="0.5"/>
+  <text x="55" y="260" fill="#F1F5F9" font-size="14" font-family="sans-serif">5년 자동차세 (배기량 기준)</text>
+  <text x="480" y="260" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">약 185만원</text>
+  <text x="790" y="260" text-anchor="middle" fill="#BFDBFE" font-size="14" font-weight="700" font-family="sans-serif">약 185만원</text>
+  <text x="970" y="260" text-anchor="middle" fill="#F1F5F9" font-size="14" font-weight="700" font-family="sans-serif">동일</text>
+
+  <rect x="40" y="278" width="1000" height="40" fill="#1e293b" fill-opacity="0.4"/>
+  <text x="55" y="304" fill="#F1F5F9" font-size="14" font-family="sans-serif">5년 보험료 (모델등급 16 vs 6)</text>
+  <text x="480" y="304" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">약 350만원</text>
+  <text x="790" y="304" text-anchor="middle" fill="#BFDBFE" font-size="14" font-weight="700" font-family="sans-serif">약 800만원</text>
+  <text x="970" y="304" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="700" font-family="sans-serif">+450만원</text>
+
+  <rect x="40" y="322" width="1000" height="40" fill="#0f172a" fill-opacity="0.5"/>
+  <text x="55" y="348" fill="#F1F5F9" font-size="14" font-family="sans-serif">5년 유류비 (12 vs 11km/L)</text>
+  <text x="480" y="348" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">약 1,063만원</text>
+  <text x="790" y="348" text-anchor="middle" fill="#BFDBFE" font-size="14" font-weight="700" font-family="sans-serif">약 1,159만원</text>
+  <text x="970" y="348" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="700" font-family="sans-serif">+96만원</text>
+
+  <rect x="40" y="366" width="1000" height="40" fill="#1e293b" fill-opacity="0.4"/>
+  <text x="55" y="392" fill="#F1F5F9" font-size="14" font-family="sans-serif">5년 정비비 (공임 1.5~2배)</text>
+  <text x="480" y="392" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">약 280만원</text>
+  <text x="790" y="392" text-anchor="middle" fill="#BFDBFE" font-size="14" font-weight="700" font-family="sans-serif">약 700만원</text>
+  <text x="970" y="392" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="700" font-family="sans-serif">+420만원</text>
+
+  <rect x="40" y="410" width="1000" height="40" fill="#0f172a" fill-opacity="0.5"/>
+  <text x="55" y="436" fill="#F1F5F9" font-size="14" font-family="sans-serif">5년 후 잔존가치 회수</text>
+  <text x="480" y="436" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">-1,650만원 (50%)</text>
+  <text x="790" y="436" text-anchor="middle" fill="#BFDBFE" font-size="14" font-weight="700" font-family="sans-serif">-2,480만원 (40%)</text>
+  <text x="970" y="436" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">-830만원</text>
+
+  <rect x="40" y="454" width="1000" height="46" fill="#15803D" fill-opacity="0.3" stroke="#15803D" stroke-width="2"/>
+  <text x="55" y="484" fill="#FCD34D" font-size="15" font-weight="800" font-family="sans-serif">5년 TCO 총합</text>
+  <text x="480" y="484" text-anchor="middle" fill="#86EFAC" font-size="16" font-weight="800" font-family="sans-serif">약 3,776만원</text>
+  <text x="790" y="484" text-anchor="middle" fill="#BFDBFE" font-size="16" font-weight="800" font-family="sans-serif">약 7,030만원</text>
+  <text x="970" y="484" text-anchor="middle" fill="#FCA5A5" font-size="16" font-weight="800" font-family="sans-serif">+3,254만원</text>
+
+  <rect x="40" y="504" width="1000" height="46" fill="#1E40AF" fill-opacity="0.3" stroke="#3B82F6" stroke-width="2"/>
+  <text x="55" y="534" fill="#FCD34D" font-size="15" font-weight="800" font-family="sans-serif">월 환산</text>
+  <text x="480" y="534" text-anchor="middle" fill="#86EFAC" font-size="16" font-weight="800" font-family="sans-serif">약 63만원/월</text>
+  <text x="790" y="534" text-anchor="middle" fill="#BFDBFE" font-size="16" font-weight="800" font-family="sans-serif">약 117만원/월</text>
+  <text x="970" y="534" text-anchor="middle" fill="#FCA5A5" font-size="16" font-weight="800" font-family="sans-serif">+54만원/월</text>
+
+  <!-- Note box -->
+  <rect x="40" y="566" width="1000" height="68" rx="10" fill="#1e293b" fill-opacity="0.6" stroke="#334155" stroke-width="1.5"/>
+  <text x="60" y="592" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">핵심 포인트</text>
+  <text x="60" y="612" fill="#CBD5E1" font-size="12" font-family="sans-serif">신차 가격 차이(2,900만원) + 보험료·정비비(+870만원) = 5년 누적 3,254만원 격차. 자동차세는 동일(배기량 기준).</text>
+
+  <text x="40" y="650" fill="#64748B" font-size="12" font-family="sans-serif">essencial | 2026.05 기준 · 차종·옵션·운전이력·보험사에 따라 실제 수치는 다를 수 있습니다</text>
+</svg>

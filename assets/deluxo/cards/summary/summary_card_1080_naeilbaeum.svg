@@ -1,0 +1,59 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="#F8FAFC"/>
+
+  <!-- Card -->
+  <g filter="url(#shadow)">
+    <rect x="70" y="70" width="940" height="940" rx="24" fill="#FFFFFF" stroke="#E5E7EB"/>
+  </g>
+
+  <!-- Header -->
+  <text x="120" y="170" font-size="48" fill="#111827" font-weight="800" font-family="Pretendard, 'Noto Sans KR', sans-serif">국민내일배움카드 요약표</text>
+  <text x="120" y="230" font-size="28" fill="#6B7280" font-weight="600" font-family="Pretendard, 'Noto Sans KR', sans-serif">대상 · 지원금 · 자부담 · 신청 한눈에 정리</text>
+
+  <!-- Divider -->
+  <line x1="120" y1="270" x2="960" y2="270" stroke="#E5E7EB"/>
+
+  <!-- Table-like rows -->
+  <g font-family="Pretendard, 'Noto Sans KR', sans-serif">
+    <text x="120" y="340" font-size="30" fill="#111827" font-weight="700">대상</text>
+    <text x="260" y="340" font-size="28" fill="#374151">구직자·재직자·자영업자·졸업예정자 등 15세 이상</text>
+
+    <line x1="120" y1="380" x2="960" y2="380" stroke="#F1F5F9"/>
+
+    <text x="120" y="440" font-size="30" fill="#111827" font-weight="700">지원금</text>
+    <text x="260" y="440" font-size="28" fill="#374151">기본 300만원 · 취약계층 최대 500만원 (5년간)</text>
+
+    <line x1="120" y1="480" x2="960" y2="480" stroke="#F1F5F9"/>
+
+    <text x="120" y="540" font-size="30" fill="#111827" font-weight="700">자부담</text>
+    <text x="260" y="540" font-size="28" fill="#374151">15~55% (특화과정 전액지원, 2026년 일부 변경)</text>
+
+    <line x1="120" y1="580" x2="960" y2="580" stroke="#F1F5F9"/>
+
+    <text x="120" y="640" font-size="30" fill="#111827" font-weight="700">장려금</text>
+    <text x="260" y="640" font-size="28" fill="#374151">월 최대 11.6만원 + K-디지털 월 20만원 별도</text>
+
+    <line x1="120" y1="680" x2="960" y2="680" stroke="#F1F5F9"/>
+
+    <text x="120" y="740" font-size="30" fill="#111827" font-weight="700">신청처</text>
+    <text x="260" y="740" font-size="28" fill="#374151">HRD-Net(온라인) 또는 관할 고용센터(오프라인)</text>
+
+    <line x1="120" y1="780" x2="960" y2="780" stroke="#F1F5F9"/>
+
+    <text x="120" y="840" font-size="30" fill="#111827" font-weight="700">카드</text>
+    <text x="260" y="840" font-size="28" fill="#374151">신한카드 또는 NH카드로 발급 · 약 2~3주 소요</text>
+  </g>
+
+  <!-- Footer Note -->
+  <rect x="120" y="890" width="840" height="90" rx="12" fill="#F1F5F9"/>
+  <text x="150" y="945" font-size="24" fill="#4B5563" font-family="Pretendard, 'Noto Sans KR', sans-serif">
+    2026년 공고 기준 · 신청 전 HRD-Net에서 최종 확인하세요
+  </text>
+</svg>

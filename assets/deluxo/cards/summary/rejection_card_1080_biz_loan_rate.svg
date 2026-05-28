@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#F59E0B">소상공인 대출 실수 TOP 5</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <rect x="60" y="120" width="960" height="160" rx="16" fill="rgba(239,68,68,0.1)"/>
+  <rect x="80" y="140" width="50" height="50" rx="25" fill="#EF4444"/>
+  <text x="105" y="174" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">1</text>
+  <text x="150" y="168" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#FFF">정책자금 예산 조기 소진 → 신청 불가</text>
+  <text x="150" y="200" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">인기 저리 자금은 접수 당일 선착순 마감되는 경우 빈번</text>
+  <rect x="150" y="216" width="320" height="28" rx="14" fill="rgba(245,158,11,0.2)"/>
+  <text x="310" y="236" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="15" font-weight="700" fill="#F59E0B">1분기에 대부분 소진 → 연초 신청 필수</text>
+  <text x="150" y="264" font-family="'Pretendard',sans-serif" font-size="16" fill="#F59E0B">대안: 공고 즉시 신청 + 지역 이차보전 병행</text>
+
+  <rect x="60" y="296" width="960" height="160" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="316" width="50" height="50" rx="25" fill="#EF4444"/>
+  <text x="105" y="350" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">2</text>
+  <text x="150" y="344" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#FFF">금리 우대 조건 미충족 → 0.8%p 손해</text>
+  <text x="150" y="376" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">고용보험·노란우산·제로페이 미가입 시 우대 혜택 전혀 없음</text>
+  <rect x="150" y="392" width="340" height="28" rx="14" fill="rgba(245,158,11,0.2)"/>
+  <text x="320" y="412" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="15" font-weight="700" fill="#F59E0B">연 금리 0.8%p = 수십만 원 이자 차이</text>
+  <text x="150" y="440" font-family="'Pretendard',sans-serif" font-size="16" fill="#F59E0B">대안: 대출 신청 전 우대 조건 미리 가입</text>
+
+  <rect x="60" y="472" width="960" height="160" rx="16" fill="rgba(239,68,68,0.1)"/>
+  <rect x="80" y="492" width="50" height="50" rx="25" fill="#EF4444"/>
+  <text x="105" y="526" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">3</text>
+  <text x="150" y="520" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#FFF">가계대출로 사업 자금 조달 → DSR 한도↓</text>
+  <text x="150" y="552" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">개인 신용대출·주담대 = DSR 100% 적용 → 추가 대출 한도 축소</text>
+  <rect x="150" y="568" width="320" height="28" rx="14" fill="rgba(245,158,11,0.2)"/>
+  <text x="310" y="588" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="15" font-weight="700" fill="#F59E0B">한도 최대 1억 원 감소 가능</text>
+  <text x="150" y="616" font-family="'Pretendard',sans-serif" font-size="16" fill="#F59E0B">대안: 사업자 대출·정책자금 우선 → DSR 미적용</text>
+
+  <rect x="60" y="648" width="960" height="160" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="668" width="50" height="50" rx="25" fill="#EF4444"/>
+  <text x="105" y="702" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">4</text>
+  <text x="150" y="696" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#FFF">고금리 대출 방치 → 대환대출 미활용</text>
+  <text x="150" y="728" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">7% 이상 → 4.5% 고정 전환 가능한데 모르고 계속 고금리 상환</text>
+  <rect x="150" y="744" width="340" height="28" rx="14" fill="rgba(245,158,11,0.2)"/>
+  <text x="320" y="764" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="15" font-weight="700" fill="#F59E0B">3,000만 원 기준 연 75만 원 이자 절감</text>
+  <text x="150" y="792" font-family="'Pretendard',sans-serif" font-size="16" fill="#F59E0B">대안: 소진공 대환대출 즉시 신청 (NCB 919 이하)</text>
+
+  <rect x="60" y="824" width="960" height="160" rx="16" fill="rgba(239,68,68,0.1)"/>
+  <rect x="80" y="844" width="50" height="50" rx="25" fill="#EF4444"/>
+  <text x="105" y="878" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">5</text>
+  <text x="150" y="872" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#FFF">지역 이차보전 사업 미확인 → 2%p 손해</text>
+  <text x="150" y="904" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">지자체가 이자 2~2.7%p를 대신 내주는데 존재 자체를 모르는 경우</text>
+  <rect x="150" y="920" width="360" height="28" rx="14" fill="rgba(245,158,11,0.2)"/>
+  <text x="330" y="940" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="15" font-weight="700" fill="#F59E0B">연초 예산 집중 배정 → 1~2월 신청 필수</text>
+  <text x="150" y="968" font-family="'Pretendard',sans-serif" font-size="16" fill="#F59E0B">대안: 사업장 소재지 신용보증재단 즉시 확인</text>
+
+  <rect x="60" y="1050" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

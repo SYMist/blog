@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <rect x="60" y="60" width="320" height="60" rx="30" fill="#10B981"/>
+  <text x="220" y="101" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF" text-anchor="middle">발행 전 체크리스트</text>
+
+  <text x="540" y="200" font-family="'Pretendard', sans-serif" font-size="58" font-weight="900" fill="#FFFFFF" text-anchor="middle">2026 연말정산 8단계</text>
+
+  <rect x="60" y="270" width="960" height="80" rx="16" fill="#1A3270"/>
+  <text x="100" y="320" font-family="'Pretendard', sans-serif" font-size="36" font-weight="900" fill="#10B981">☑</text>
+  <text x="160" y="320" font-family="'Pretendard', sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">내 퇴직연금 유형 확인 (DB · DC · 미가입)</text>
+
+  <rect x="60" y="370" width="960" height="80" rx="16" fill="#1A3270"/>
+  <text x="100" y="420" font-family="'Pretendard', sans-serif" font-size="36" font-weight="900" fill="#10B981">☑</text>
+  <text x="160" y="420" font-family="'Pretendard', sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">IRP 가입 + 연 700만 한도 채우기</text>
+
+  <rect x="60" y="470" width="960" height="80" rx="16" fill="#1A3270"/>
+  <text x="100" y="520" font-family="'Pretendard', sans-serif" font-size="36" font-weight="900" fill="#10B981">☑</text>
+  <text x="160" y="520" font-family="'Pretendard', sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">소상공인은 노란우산 한도 상향 활용 (+100만)</text>
+
+  <rect x="60" y="570" width="960" height="80" rx="16" fill="#1A3270"/>
+  <text x="100" y="620" font-family="'Pretendard', sans-serif" font-size="36" font-weight="900" fill="#10B981">☑</text>
+  <text x="160" y="620" font-family="'Pretendard', sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">ISA 만기 60일 내 IRP 이체 → 10% 추가 공제</text>
+
+  <rect x="60" y="670" width="960" height="80" rx="16" fill="#1A3270"/>
+  <text x="100" y="720" font-family="'Pretendard', sans-serif" font-size="36" font-weight="900" fill="#10B981">☑</text>
+  <text x="160" y="720" font-family="'Pretendard', sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">DC 운용: 적격 TDF · 디폴트옵션 설정</text>
+
+  <rect x="60" y="770" width="960" height="80" rx="16" fill="#1A3270"/>
+  <text x="100" y="820" font-family="'Pretendard', sans-serif" font-size="36" font-weight="900" fill="#10B981">☑</text>
+  <text x="160" y="820" font-family="'Pretendard', sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">안전자산 30%는 채권혼합 ETF로 우회</text>
+
+  <rect x="60" y="870" width="960" height="80" rx="16" fill="#1A3270"/>
+  <text x="100" y="920" font-family="'Pretendard', sans-serif" font-size="36" font-weight="900" fill="#10B981">☑</text>
+  <text x="160" y="920" font-family="'Pretendard', sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">은퇴 임박: 21년 근속 채워 50% 감면</text>
+
+  <rect x="60" y="970" width="960" height="80" rx="16" fill="#F59E0B"/>
+  <text x="100" y="1020" font-family="'Pretendard', sans-serif" font-size="36" font-weight="900" fill="#0B1F3B">☑</text>
+  <text x="160" y="1020" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#0B1F3B">연금 수령: 10년 분할 + 1,500만 이내</text>
+</svg>

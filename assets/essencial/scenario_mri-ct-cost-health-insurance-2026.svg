@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1700" fill="url(#bg)"/>
+
+  <text x="60" y="80" fill="#FFFFFF" font-size="36" font-weight="800" font-family="sans-serif">상황별 추천 — MRI vs CT 2026</text>
+  <text x="60" y="115" fill="#5EEAD4" font-size="18" font-weight="600" font-family="sans-serif">증상·실손 세대·예산 기준 최적 선택</text>
+
+  <!-- Card 1 -->
+  <rect x="60" y="145" width="350" height="230" rx="16" fill="#1e293b" stroke="#0F766E" stroke-width="2"/>
+  <rect x="80" y="165" width="120" height="32" rx="16" fill="#0F766E"/>
+  <text x="140" y="187" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">응급</text>
+  <text x="80" y="225" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">급성 뇌출혈·외상</text>
+  <text x="80" y="265" fill="#FCD34D" font-size="22" font-weight="800" font-family="sans-serif">CT 우선</text>
+  <text x="80" y="295" fill="#CBD5E1" font-size="14" font-family="sans-serif">촬영 5분 내 · 급여 적용</text>
+  <text x="80" y="318" fill="#CBD5E1" font-size="14" font-family="sans-serif">대부분 본인부담 5~10만</text>
+  <text x="80" y="350" fill="#2DD4BF" font-size="13" font-weight="600" font-family="sans-serif">응급실 → CT → 필요시 MRI</text>
+
+  <!-- Card 2 -->
+  <rect x="425" y="145" width="350" height="230" rx="16" fill="#1e293b" stroke="#0F766E" stroke-width="2"/>
+  <rect x="445" y="165" width="140" height="32" rx="16" fill="#0F766E"/>
+  <text x="515" y="187" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">정밀 진단</text>
+  <text x="445" y="225" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">뇌종양·뇌경색 의심</text>
+  <text x="445" y="265" fill="#FCD34D" font-size="22" font-weight="800" font-family="sans-serif">MRI 필수</text>
+  <text x="445" y="295" fill="#CBD5E1" font-size="14" font-family="sans-serif">급여 대상 · 신경학적 증상 기재</text>
+  <text x="445" y="318" fill="#CBD5E1" font-size="14" font-family="sans-serif">의원 10만 ~ 상급 25만</text>
+  <text x="445" y="350" fill="#2DD4BF" font-size="13" font-weight="600" font-family="sans-serif">2차 병원 촬영 후 상급 전달</text>
+
+  <!-- Card 3 -->
+  <rect x="790" y="145" width="350" height="230" rx="16" fill="#1e293b" stroke="#0F766E" stroke-width="2"/>
+  <rect x="810" y="165" width="120" height="32" rx="16" fill="#0F766E"/>
+  <text x="870" y="187" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">만성 두통</text>
+  <text x="810" y="225" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">단순 두통·어지럼</text>
+  <text x="810" y="265" fill="#FCD34D" font-size="22" font-weight="800" font-family="sans-serif">선별급여 80%</text>
+  <text x="810" y="295" fill="#CBD5E1" font-size="14" font-family="sans-serif">급여 불가 → 80% 본인부담</text>
+  <text x="810" y="318" fill="#CBD5E1" font-size="14" font-family="sans-serif">비급여 9만 의원이 더 저렴할 수</text>
+  <text x="810" y="350" fill="#FCA5A5" font-size="13" font-weight="600" font-family="sans-serif">심평원 비교 후 2차 병원</text>
+
+  <!-- Card 4 -->
+  <rect x="60" y="395" width="350" height="230" rx="16" fill="#1e293b" stroke="#0F766E" stroke-width="2"/>
+  <rect x="80" y="415" width="140" height="32" rx="16" fill="#0F766E"/>
+  <text x="150" y="437" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">관절·디스크</text>
+  <text x="80" y="475" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">어깨·발목 통증</text>
+  <text x="80" y="515" fill="#FCD34D" font-size="22" font-weight="800" font-family="sans-serif">비급여 MRI</text>
+  <text x="80" y="545" fill="#CBD5E1" font-size="14" font-family="sans-serif">관절 MRI는 무릎 외상만 급여</text>
+  <text x="80" y="568" fill="#CBD5E1" font-size="14" font-family="sans-serif">어깨·발목은 전액 비급여</text>
+  <text x="80" y="600" fill="#FCA5A5" font-size="13" font-weight="600" font-family="sans-serif">5세대 실손은 50%만 환급</text>
+
+  <!-- Card 5 -->
+  <rect x="425" y="395" width="350" height="230" rx="16" fill="#1e293b" stroke="#0F766E" stroke-width="2"/>
+  <rect x="445" y="415" width="140" height="32" rx="16" fill="#0F766E"/>
+  <text x="515" y="437" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">4세대 실손</text>
+  <text x="445" y="475" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">기존 실손 보유 + 중증 의심</text>
+  <text x="445" y="515" fill="#FCD34D" font-size="22" font-weight="800" font-family="sans-serif">MRI 적극 고려</text>
+  <text x="445" y="545" fill="#CBD5E1" font-size="14" font-family="sans-serif">비급여도 70% 환급</text>
+  <text x="445" y="568" fill="#CBD5E1" font-size="14" font-family="sans-serif">실질 부담 상대적으로 낮음</text>
+  <text x="445" y="600" fill="#2DD4BF" font-size="13" font-weight="600" font-family="sans-serif">약관 확인 후 청구</text>
+
+  <!-- Card 6 -->
+  <rect x="790" y="395" width="350" height="230" rx="16" fill="#1e293b" stroke="#0F766E" stroke-width="2"/>
+  <rect x="810" y="415" width="140" height="32" rx="16" fill="#0F766E"/>
+  <text x="880" y="437" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">5세대 실손</text>
+  <text x="810" y="475" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">2026 신규 가입자</text>
+  <text x="810" y="515" fill="#FCD34D" font-size="22" font-weight="800" font-family="sans-serif">급여 우선 확보</text>
+  <text x="810" y="545" fill="#CBD5E1" font-size="14" font-family="sans-serif">비급여는 50%만 환급</text>
+  <text x="810" y="568" fill="#CBD5E1" font-size="14" font-family="sans-serif">많이 청구 시 300% 할증</text>
+  <text x="810" y="600" fill="#F87171" font-size="13" font-weight="600" font-family="sans-serif">의학적 필요성 입증 최우선</text>
+
+  <!-- Decision guide -->
+  <rect x="60" y="645" width="1080" height="230" rx="16" fill="#1e293b" stroke="#FCD34D" stroke-width="2"/>
+  <text x="80" y="685" fill="#FCD34D" font-size="22" font-weight="800" font-family="sans-serif">취약계층·산정특례 감면 구조</text>
+  <g font-family="sans-serif">
+    <text x="80" y="725" fill="#FFFFFF" font-size="16">✓ 의료급여 1종 — 급여 비용의 <tspan fill="#2DD4BF" font-weight="800">5%</tspan> 부담</text>
+    <text x="600" y="725" fill="#FFFFFF" font-size="16">✓ 의료급여 2종 — <tspan fill="#2DD4BF" font-weight="800">15%</tspan> 부담</text>
+
+    <text x="80" y="760" fill="#FFFFFF" font-size="16">✓ 암·희귀난치 산정특례 — <tspan fill="#2DD4BF" font-weight="800">5~10%</tspan> 부담</text>
+    <text x="600" y="760" fill="#FFFFFF" font-size="16">✓ 소아암 18세 이하 — <tspan fill="#2DD4BF" font-weight="800">연 4회 5년</tspan></text>
+
+    <text x="80" y="800" fill="#FCD34D" font-size="16" font-weight="700">※ 산정특례 등록 여부를 병원 원무과에 먼저 확인하면 자동 적용됩니다</text>
+    <text x="80" y="835" fill="#CBD5E1" font-size="14">건강iN 포털 → 자격확인에서 본인의 특례 여부·남은 기간 확인 가능</text>
+  </g>
+
+  <!-- 6-step -->
+  <text x="60" y="945" fill="#FFFFFF" font-size="28" font-weight="800" font-family="sans-serif">비용 절감 6단계 체크리스트</text>
+
+  <g font-family="sans-serif">
+    <rect x="60" y="975" width="170" height="170" rx="14" fill="#1e293b" stroke="#0F766E" stroke-width="2"/>
+    <circle cx="145" cy="1010" r="22" fill="#0F766E"/>
+    <text x="145" y="1018" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800">1</text>
+    <text x="145" y="1055" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700">주치의 상담</text>
+    <text x="145" y="1090" text-anchor="middle" fill="#CBD5E1" font-size="11">신경학적 증상</text>
+    <text x="145" y="1108" text-anchor="middle" fill="#CBD5E1" font-size="11">진료기록부 기재</text>
+    <text x="145" y="1130" text-anchor="middle" fill="#FCD34D" font-size="11" font-weight="700">급여 판정 확보</text>
+
+    <rect x="245" y="975" width="170" height="170" rx="14" fill="#1e293b" stroke="#0F766E" stroke-width="2"/>
+    <circle cx="330" cy="1010" r="22" fill="#0F766E"/>
+    <text x="330" y="1018" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800">2</text>
+    <text x="330" y="1055" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700">심평원 비교</text>
+    <text x="330" y="1090" text-anchor="middle" fill="#CBD5E1" font-size="11">비급여 공개 시스템</text>
+    <text x="330" y="1108" text-anchor="middle" fill="#CBD5E1" font-size="11">HIRA 건강지도</text>
+    <text x="330" y="1130" text-anchor="middle" fill="#2DD4BF" font-size="11" font-weight="700">병원별 가격 비교</text>
+
+    <rect x="430" y="975" width="170" height="170" rx="14" fill="#1e293b" stroke="#0F766E" stroke-width="2"/>
+    <circle cx="515" cy="1010" r="22" fill="#0F766E"/>
+    <text x="515" y="1018" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800">3</text>
+    <text x="515" y="1055" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700">종별 선택</text>
+    <text x="515" y="1090" text-anchor="middle" fill="#CBD5E1" font-size="11">급성기 아니면</text>
+    <text x="515" y="1108" text-anchor="middle" fill="#CBD5E1" font-size="11">2차 병원 권장</text>
+    <text x="515" y="1130" text-anchor="middle" fill="#2DD4BF" font-size="11" font-weight="700">상급종합 2배 부담</text>
+
+    <rect x="615" y="975" width="170" height="170" rx="14" fill="#1e293b" stroke="#0F766E" stroke-width="2"/>
+    <circle cx="700" cy="1010" r="22" fill="#0F766E"/>
+    <text x="700" y="1018" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800">4</text>
+    <text x="700" y="1055" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700">실손 세대 확인</text>
+    <text x="700" y="1090" text-anchor="middle" fill="#CBD5E1" font-size="11">4세대 30% /</text>
+    <text x="700" y="1108" text-anchor="middle" fill="#CBD5E1" font-size="11">5세대 50% 자부담</text>
+    <text x="700" y="1130" text-anchor="middle" fill="#FCA5A5" font-size="11" font-weight="700">환급액 계산</text>
+
+    <rect x="800" y="975" width="170" height="170" rx="14" fill="#1e293b" stroke="#0F766E" stroke-width="2"/>
+    <circle cx="885" cy="1010" r="22" fill="#0F766E"/>
+    <text x="885" y="1018" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800">5</text>
+    <text x="885" y="1055" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700">조영제 판단</text>
+    <text x="885" y="1090" text-anchor="middle" fill="#CBD5E1" font-size="11">단순 확인이면</text>
+    <text x="885" y="1108" text-anchor="middle" fill="#CBD5E1" font-size="11">미투여 옵션</text>
+    <text x="885" y="1130" text-anchor="middle" fill="#2DD4BF" font-size="11" font-weight="700">10~20만 절약</text>
+
+    <rect x="985" y="975" width="155" height="170" rx="14" fill="#1e293b" stroke="#0F766E" stroke-width="2"/>
+    <circle cx="1062" cy="1010" r="22" fill="#0F766E"/>
+    <text x="1062" y="1018" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800">6</text>
+    <text x="1062" y="1055" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700">서류 수령</text>
+    <text x="1062" y="1090" text-anchor="middle" fill="#CBD5E1" font-size="11">진단서/기록부</text>
+    <text x="1062" y="1108" text-anchor="middle" fill="#CBD5E1" font-size="11">영수증/영상CD</text>
+    <text x="1062" y="1130" text-anchor="middle" fill="#FCD34D" font-size="11" font-weight="700">실손 청구</text>
+  </g>
+
+  <!-- Warning -->
+  <rect x="60" y="1190" width="1080" height="140" rx="14" fill="#1e293b" stroke="#F87171" stroke-width="2"/>
+  <text x="80" y="1230" fill="#FCA5A5" font-size="20" font-weight="800" font-family="sans-serif">⚠ 조영제 고위험군 — 검사 전 반드시 고지</text>
+  <g font-family="sans-serif">
+    <text x="80" y="1265" fill="#FFFFFF" font-size="15">① 과거 조영제 부작용 경험자 (재발 위험 68배) / 알레르기 질환자</text>
+    <text x="80" y="1290" fill="#FFFFFF" font-size="15">② 신장기능 저하자 — eGFR 수치 확인, 조영제 신독성 위험</text>
+    <text x="80" y="1315" fill="#FFFFFF" font-size="15">③ 70세 이상 고령 / 메트포르민 복용 당뇨환자 → 일시 중단 고려</text>
+  </g>
+
+  <text x="60" y="1620" fill="#64748B" font-size="14" font-family="sans-serif">essencial | 건강·의료 silo · 본 자료는 일반 정보 제공 목적 · 검사 여부·부위는 전문의 상담 필수</text>
+</svg>

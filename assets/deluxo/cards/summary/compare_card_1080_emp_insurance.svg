@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="80" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="800" fill="#F59E0B">고용보험 vs 산재보험 vs 바우처 비교</text>
+  <rect x="60" y="110" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- Header -->
+  <rect x="60" y="130" width="960" height="55" rx="0" fill="rgba(59,130,246,0.2)"/>
+  <text x="180" y="165" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="800" fill="#FFF">항목</text>
+  <text x="420" y="165" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="800" fill="#3B82F6">고용보험</text>
+  <text x="660" y="165" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="800" fill="#10B981">산재보험</text>
+  <text x="900" y="165" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="800" fill="#F59E0B">경영안정 바우처</text>
+
+  <rect x="60" y="190" width="960" height="80" rx="0" fill="rgba(255,255,255,0.06)"/>
+  <text x="180" y="237" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#F59E0B">지원 내용</text>
+  <text x="420" y="225" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">보험료</text>
+  <text x="420" y="250" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">50~80% 환급</text>
+  <text x="660" y="225" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">지자체</text>
+  <text x="660" y="250" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">추가 환급</text>
+  <text x="900" y="237" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">25만 원 지급</text>
+
+  <rect x="60" y="275" width="960" height="80" rx="0" fill="rgba(255,255,255,0.04)"/>
+  <text x="180" y="322" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#F59E0B">지원 기간</text>
+  <text x="420" y="322" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">5년 (60개월)</text>
+  <text x="660" y="322" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">지자체별 3~5년</text>
+  <text x="900" y="322" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">연 1회</text>
+
+  <rect x="60" y="360" width="960" height="80" rx="0" fill="rgba(255,255,255,0.06)"/>
+  <text x="180" y="407" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#F59E0B">대상</text>
+  <text x="420" y="395" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">자영업자</text>
+  <text x="420" y="420" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">고용보험 가입자</text>
+  <text x="660" y="395" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">사업주</text>
+  <text x="660" y="420" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">산재보험 가입자</text>
+  <text x="900" y="395" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">매출 1억400만</text>
+  <text x="900" y="420" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">미만 소상공인</text>
+
+  <rect x="60" y="445" width="960" height="80" rx="0" fill="rgba(255,255,255,0.04)"/>
+  <text x="180" y="492" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#F59E0B">신청처</text>
+  <text x="420" y="480" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">토탈서비스(신규)</text>
+  <text x="420" y="505" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">소상공인24(기존)</text>
+  <text x="660" y="492" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">지자체 기관</text>
+  <text x="900" y="492" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">소상공인24</text>
+
+  <rect x="60" y="530" width="960" height="80" rx="0" fill="rgba(255,255,255,0.06)"/>
+  <text x="180" y="577" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#F59E0B">폐업 시 혜택</text>
+  <text x="420" y="565" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">실업급여</text>
+  <text x="420" y="590" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">월 최대 202만</text>
+  <text x="660" y="565" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">산재 발생 시</text>
+  <text x="660" y="590" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">치료비·휴업급여</text>
+  <text x="900" y="577" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">해당 없음</text>
+
+  <rect x="60" y="615" width="960" height="80" rx="0" fill="rgba(255,255,255,0.04)"/>
+  <text x="180" y="662" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#F59E0B">중복 수혜</text>
+  <text x="540" y="662" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#10B981">3가지 모두 중복 수혜 가능!</text>
+
+  <!-- 지자체 비교 -->
+  <rect x="60" y="720" width="960" height="50" rx="0" fill="rgba(59,130,246,0.2)"/>
+  <text x="540" y="752" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#FFF">지자체별 추가 지원</text>
+
+  <rect x="60" y="775" width="960" height="55" rx="0" fill="rgba(255,255,255,0.06)"/>
+  <text x="180" y="810" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">인천</text>
+  <text x="540" y="810" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">고용 20~50% + 산재 50% 일괄 · 3년</text>
+
+  <rect x="60" y="835" width="960" height="55" rx="0" fill="rgba(255,255,255,0.04)"/>
+  <text x="180" y="870" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">경기</text>
+  <text x="540" y="870" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">고용 30~40% · 5년</text>
+
+  <rect x="60" y="895" width="960" height="55" rx="0" fill="rgba(255,255,255,0.06)"/>
+  <text x="180" y="930" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">울산</text>
+  <text x="540" y="930" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">고용 15~30% · 3년</text>
+
+  <rect x="60" y="970" width="960" height="70" rx="16" fill="rgba(245,158,11,0.12)"/>
+  <text x="540" y="1015" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">정부 80% + 지자체 + 바우처 = 보험료 거의 제로!</text>
+
+  <rect x="60" y="1050" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

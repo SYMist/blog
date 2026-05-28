@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <rect x="80" y="100" width="220" height="46" rx="23" fill="#7C3AED"/>
+  <text x="190" y="132" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">2026.01 개정 적용</text>
+
+  <text x="80" y="220" fill="#FFFFFF" font-size="58" font-weight="800" font-family="sans-serif">운전자보험</text>
+  <text x="80" y="290" fill="#FFFFFF" font-size="58" font-weight="800" font-family="sans-serif">필수 특약 비교</text>
+
+  <rect x="80" y="320" width="380" height="6" rx="3" fill="#7C3AED"/>
+
+  <text x="80" y="385" fill="#C4B5FD" font-size="28" font-weight="700" font-family="sans-serif">벌금 · 형사합의금</text>
+  <text x="80" y="425" fill="#C4B5FD" font-size="28" font-weight="700" font-family="sans-serif">교통사고처리</text>
+
+  <!-- Big numbers grid -->
+  <rect x="80" y="475" width="430" height="170" rx="20" fill="#1e293b" stroke="#7C3AED" stroke-width="3"/>
+  <text x="295" y="525" text-anchor="middle" fill="#C4B5FD" font-size="20" font-weight="700" font-family="sans-serif">변호사선임비</text>
+  <text x="295" y="585" text-anchor="middle" fill="#FFFFFF" font-size="48" font-weight="800" font-family="sans-serif">50%</text>
+  <text x="295" y="620" text-anchor="middle" fill="#FCA5A5" font-size="18" font-weight="600" font-family="sans-serif">자기부담 의무</text>
+
+  <rect x="540" y="475" width="430" height="170" rx="20" fill="#1e293b" stroke="#7C3AED" stroke-width="3"/>
+  <text x="755" y="525" text-anchor="middle" fill="#C4B5FD" font-size="20" font-weight="700" font-family="sans-serif">합의금 최대</text>
+  <text x="755" y="585" text-anchor="middle" fill="#FFFFFF" font-size="48" font-weight="800" font-family="sans-serif">2억 원</text>
+  <text x="755" y="620" text-anchor="middle" fill="#34D399" font-size="18" font-weight="600" font-family="sans-serif">사망사고 기준</text>
+
+  <rect x="80" y="675" width="430" height="170" rx="20" fill="#1e293b" stroke="#7C3AED" stroke-width="3"/>
+  <text x="295" y="725" text-anchor="middle" fill="#C4B5FD" font-size="20" font-weight="700" font-family="sans-serif">대인 벌금 표준</text>
+  <text x="295" y="785" text-anchor="middle" fill="#FFFFFF" font-size="48" font-weight="800" font-family="sans-serif">3,000만</text>
+  <text x="295" y="820" text-anchor="middle" fill="#FCD34D" font-size="18" font-weight="600" font-family="sans-serif">대물 500만</text>
+
+  <rect x="540" y="675" width="430" height="170" rx="20" fill="#1e293b" stroke="#7C3AED" stroke-width="3"/>
+  <text x="755" y="725" text-anchor="middle" fill="#C4B5FD" font-size="20" font-weight="700" font-family="sans-serif">8주 룰 영향</text>
+  <text x="755" y="785" text-anchor="middle" fill="#F87171" font-size="48" font-weight="800" font-family="sans-serif">-80%</text>
+  <text x="755" y="820" text-anchor="middle" fill="#FCA5A5" font-size="18" font-weight="600" font-family="sans-serif">경상 합의금 감소</text>
+
+  <text x="80" y="920" fill="#FFFFFF" font-size="26" font-weight="700" font-family="sans-serif">DB · 삼성 · KB · 메리츠 · 현대 · 한화</text>
+  <text x="80" y="960" fill="#A78BFA" font-size="22" font-weight="600" font-family="sans-serif">6사 시나리오별 추천</text>
+
+  <text x="80" y="1030" fill="#64748B" font-size="18" font-family="sans-serif">essencial | 보험 silo</text>
+</svg>

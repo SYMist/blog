@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <!-- Title -->
+  <text x="540" y="62" text-anchor="middle" fill="#E2E8F0" font-size="26" font-weight="700" font-family="sans-serif">당신의 상황에 맞는 선택은?</text>
+  <rect x="340" y="76" width="400" height="3" rx="2" fill="#3B82F6" opacity="0.6"/>
+
+  <!-- EV Scenarios (green) -->
+  <g transform="translate(60,96)">
+    <rect x="0" y="0" width="460" height="130" rx="16" fill="#1e293b"/>
+    <rect x="0" y="0" width="460" height="5" rx="3" fill="#34D399"/>
+    <circle cx="30" cy="32" r="16" fill="#065F46"/>
+    <text x="30" y="38" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">1</text>
+    <text x="56" y="36" fill="#6EE7B7" font-size="14" font-weight="700" font-family="sans-serif">연 2만km+ · 완속 충전 가능 · 7년+ 보유</text>
+    <text x="30" y="62" fill="#CBD5E1" font-size="12" font-family="sans-serif">연료비 절감 연 84만 원 × 7년 = 588만 원</text>
+    <text x="30" y="84" fill="#CBD5E1" font-size="12" font-family="sans-serif">장기 보유로 감가 차이 상쇄</text>
+    <rect x="30" y="100" width="100" height="24" rx="8" fill="#065F46"/>
+    <text x="80" y="117" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="700" font-family="sans-serif">→ 전기차</text>
+  </g>
+
+  <g transform="translate(560,96)">
+    <rect x="0" y="0" width="460" height="130" rx="16" fill="#1e293b"/>
+    <rect x="0" y="0" width="460" height="5" rx="3" fill="#34D399"/>
+    <circle cx="30" cy="32" r="16" fill="#065F46"/>
+    <text x="30" y="38" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">2</text>
+    <text x="56" y="36" fill="#6EE7B7" font-size="14" font-weight="700" font-family="sans-serif">노후 내연차 보유 · 전환지원금 수령</text>
+    <text x="30" y="62" fill="#CBD5E1" font-size="12" font-family="sans-serif">국비 580만 + 전환지원금 100만 = 680만</text>
+    <text x="30" y="84" fill="#CBD5E1" font-size="12" font-family="sans-serif">+ 지자체 보조금 → 초기 비용 대폭 절감</text>
+    <rect x="30" y="100" width="100" height="24" rx="8" fill="#065F46"/>
+    <text x="80" y="117" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="700" font-family="sans-serif">→ 전기차</text>
+  </g>
+
+  <g transform="translate(60,246)">
+    <rect x="0" y="0" width="460" height="130" rx="16" fill="#1e293b"/>
+    <rect x="0" y="0" width="460" height="5" rx="3" fill="#34D399"/>
+    <circle cx="30" cy="32" r="16" fill="#065F46"/>
+    <text x="30" y="38" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">3</text>
+    <text x="56" y="36" fill="#6EE7B7" font-size="14" font-weight="700" font-family="sans-serif">사업자 · 비용처리 극대화</text>
+    <text x="30" y="62" fill="#CBD5E1" font-size="12" font-family="sans-serif">세제 혜택 569만 원 (HEV 대비 +469만)</text>
+    <text x="30" y="84" fill="#CBD5E1" font-size="12" font-family="sans-serif">자동차세도 연 16만 원 절감</text>
+    <rect x="30" y="100" width="100" height="24" rx="8" fill="#065F46"/>
+    <text x="80" y="117" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="700" font-family="sans-serif">→ 전기차</text>
+  </g>
+
+  <!-- HEV Scenarios (blue) -->
+  <g transform="translate(560,246)">
+    <rect x="0" y="0" width="460" height="130" rx="16" fill="#1e293b"/>
+    <rect x="0" y="0" width="460" height="5" rx="3" fill="#3B82F6"/>
+    <circle cx="30" cy="32" r="16" fill="#1E40AF"/>
+    <text x="30" y="38" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">4</text>
+    <text x="56" y="36" fill="#93C5FD" font-size="14" font-weight="700" font-family="sans-serif">연 1만km · 3~5년 교체 주기</text>
+    <text x="30" y="62" fill="#CBD5E1" font-size="12" font-family="sans-serif">잔가율 60% vs 40% → 800만 원 차이</text>
+    <text x="30" y="84" fill="#CBD5E1" font-size="12" font-family="sans-serif">짧은 보유 기간 → 감가 방어가 핵심</text>
+    <rect x="30" y="100" width="120" height="24" rx="8" fill="#1E40AF"/>
+    <text x="90" y="117" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="700" font-family="sans-serif">→ 하이브리드</text>
+  </g>
+
+  <g transform="translate(60,396)">
+    <rect x="0" y="0" width="460" height="130" rx="16" fill="#1e293b"/>
+    <rect x="0" y="0" width="460" height="5" rx="3" fill="#3B82F6"/>
+    <circle cx="30" cy="32" r="16" fill="#1E40AF"/>
+    <text x="30" y="38" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">5</text>
+    <text x="56" y="36" fill="#93C5FD" font-size="14" font-weight="700" font-family="sans-serif">충전 인프라 열악 · 장거리 주행 잦음</text>
+    <text x="30" y="62" fill="#CBD5E1" font-size="12" font-family="sans-serif">급속 충전 의존 시 비용 이점 축소</text>
+    <text x="30" y="84" fill="#CBD5E1" font-size="12" font-family="sans-serif">충전 대기 시간 부담 → 하이브리드 편의성</text>
+    <rect x="30" y="100" width="120" height="24" rx="8" fill="#1E40AF"/>
+    <text x="90" y="117" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="700" font-family="sans-serif">→ 하이브리드</text>
+  </g>
+
+  <g transform="translate(560,396)">
+    <rect x="0" y="0" width="460" height="130" rx="16" fill="#1e293b"/>
+    <rect x="0" y="0" width="460" height="5" rx="3" fill="#3B82F6"/>
+    <circle cx="30" cy="32" r="16" fill="#1E40AF"/>
+    <text x="30" y="38" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">6</text>
+    <text x="56" y="36" fill="#93C5FD" font-size="14" font-weight="700" font-family="sans-serif">도심 출퇴근 · 혼잡통행료 면제 활용</text>
+    <text x="30" y="62" fill="#CBD5E1" font-size="12" font-family="sans-serif">남산터널 혼잡통행료 면제 (EV·HEV 동일)</text>
+    <text x="30" y="84" fill="#CBD5E1" font-size="12" font-family="sans-serif">공영주차장 50% 감면 + 연비 효율</text>
+    <rect x="30" y="100" width="120" height="24" rx="8" fill="#1E40AF"/>
+    <text x="90" y="117" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="700" font-family="sans-serif">→ 하이브리드</text>
+  </g>
+
+  <!-- 판단 기준 정리 -->
+  <text x="540" y="580" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="700" font-family="sans-serif">핵심 판단 기준 3가지</text>
+
+  <g transform="translate(60,600)">
+    <rect x="0" y="0" width="300" height="120" rx="14" fill="#1e293b"/>
+    <rect x="0" y="0" width="300" height="5" rx="3" fill="#F59E0B"/>
+    <text x="150" y="35" text-anchor="middle" fill="#FCD34D" font-size="16" font-weight="700" font-family="sans-serif">연간 주행 거리</text>
+    <text x="150" y="62" text-anchor="middle" fill="#34D399" font-size="13" font-family="sans-serif">2만km+ → 전기차</text>
+    <text x="150" y="84" text-anchor="middle" fill="#93C5FD" font-size="13" font-family="sans-serif">1만km 내외 → 하이브리드</text>
+    <text x="150" y="108" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="sans-serif">연료비 절감 연 42만 vs 21만</text>
+
+    <rect x="330" y="0" width="300" height="120" rx="14" fill="#1e293b"/>
+    <rect x="330" y="0" width="300" height="5" rx="3" fill="#F59E0B"/>
+    <text x="480" y="35" text-anchor="middle" fill="#FCD34D" font-size="16" font-weight="700" font-family="sans-serif">보유 기간</text>
+    <text x="480" y="62" text-anchor="middle" fill="#34D399" font-size="13" font-family="sans-serif">7년+ → 전기차</text>
+    <text x="480" y="84" text-anchor="middle" fill="#93C5FD" font-size="13" font-family="sans-serif">3~5년 → 하이브리드</text>
+    <text x="480" y="108" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="sans-serif">잔가율 60% vs 40% 격차</text>
+
+    <rect x="660" y="0" width="300" height="120" rx="14" fill="#1e293b"/>
+    <rect x="660" y="0" width="300" height="5" rx="3" fill="#F59E0B"/>
+    <text x="810" y="35" text-anchor="middle" fill="#FCD34D" font-size="16" font-weight="700" font-family="sans-serif">충전 환경</text>
+    <text x="810" y="62" text-anchor="middle" fill="#34D399" font-size="13" font-family="sans-serif">아파트 완속 → 전기차</text>
+    <text x="810" y="84" text-anchor="middle" fill="#93C5FD" font-size="13" font-family="sans-serif">급속 의존 → 하이브리드</text>
+    <text x="810" y="108" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="sans-serif">완속 시 연료비 1/5 수준</text>
+  </g>
+
+  <!-- 5-Step Checklist -->
+  <text x="540" y="775" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="700" font-family="sans-serif">지금 바로 확인하는 5단계</text>
+
+  <g transform="translate(60,795)">
+    <rect x="0" y="0" width="185" height="90" rx="10" fill="#1e293b"/>
+    <circle cx="92" cy="24" r="14" fill="#1E40AF"/>
+    <text x="92" y="30" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">1</text>
+    <text x="92" y="52" text-anchor="middle" fill="#E2E8F0" font-size="11" font-weight="600" font-family="sans-serif">연간 주행거리</text>
+    <text x="92" y="72" text-anchor="middle" fill="#94A3B8" font-size="10" font-family="sans-serif">최근 1년 기록 확인</text>
+
+    <rect x="197" y="0" width="185" height="90" rx="10" fill="#1e293b"/>
+    <circle cx="289" cy="24" r="14" fill="#1E40AF"/>
+    <text x="289" y="30" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">2</text>
+    <text x="289" y="52" text-anchor="middle" fill="#E2E8F0" font-size="11" font-weight="600" font-family="sans-serif">충전 환경 점검</text>
+    <text x="289" y="72" text-anchor="middle" fill="#94A3B8" font-size="10" font-family="sans-serif">아파트·직장 충전기</text>
+
+    <rect x="394" y="0" width="185" height="90" rx="10" fill="#1e293b"/>
+    <circle cx="486" cy="24" r="14" fill="#1E40AF"/>
+    <text x="486" y="30" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">3</text>
+    <text x="486" y="52" text-anchor="middle" fill="#E2E8F0" font-size="11" font-weight="600" font-family="sans-serif">보유 기간 결정</text>
+    <text x="486" y="72" text-anchor="middle" fill="#94A3B8" font-size="10" font-family="sans-serif">3~5년 vs 7년+</text>
+
+    <rect x="591" y="0" width="185" height="90" rx="10" fill="#1e293b"/>
+    <circle cx="683" cy="24" r="14" fill="#1E40AF"/>
+    <text x="683" y="30" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">4</text>
+    <text x="683" y="52" text-anchor="middle" fill="#E2E8F0" font-size="11" font-weight="600" font-family="sans-serif">보조금 잔여 확인</text>
+    <text x="683" y="72" text-anchor="middle" fill="#94A3B8" font-size="10" font-family="sans-serif">무공해차 통합누리집</text>
+
+    <rect x="788" y="0" width="172" height="90" rx="10" fill="#1e293b"/>
+    <circle cx="874" cy="24" r="14" fill="#1E40AF"/>
+    <text x="874" y="30" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">5</text>
+    <text x="874" y="52" text-anchor="middle" fill="#E2E8F0" font-size="11" font-weight="600" font-family="sans-serif">세제 일몰 체크</text>
+    <text x="874" y="72" text-anchor="middle" fill="#94A3B8" font-size="10" font-family="sans-serif">2026.12.31 종료</text>
+  </g>
+
+  <!-- Warning -->
+  <rect x="60" y="905" width="960" height="80" rx="14" fill="#1e293b"/>
+  <rect x="60" y="905" width="960" height="5" rx="3" fill="#F59E0B"/>
+  <text x="90" y="940" fill="#FCD34D" font-size="15" font-weight="700" font-family="sans-serif">하이브리드 혜택 축소 추세 주의</text>
+  <text x="90" y="965" fill="#CBD5E1" font-size="12" font-family="sans-serif">취득세 감면 종료 | 개소세 100만→70만 축소 | 저공해차 분류 제외 가시화 → 장기 보유 시 혜택 소멸 리스크</text>
+
+  <!-- Footer -->
+  <text x="540" y="1025" text-anchor="middle" fill="#64748B" font-size="13" font-family="sans-serif">2026년 4월 기준 | essencial</text>
+  <rect x="60" y="1040" width="960" height="2" rx="1" fill="#334155"/>
+  <text x="540" y="1065" text-anchor="middle" fill="#475569" font-size="12" font-family="sans-serif">※ 개인 주행 패턴·보유 기간에 따라 유불리가 달라집니다</text>
+</svg>

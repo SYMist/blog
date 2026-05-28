@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="700" fill="url(#bg)"/>
+
+  <text x="540" y="46" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">연료별 운전 패턴별 추천 시나리오</text>
+  <text x="540" y="70" text-anchor="middle" fill="#93C5FD" font-size="13" font-family="sans-serif">LPG · 가솔린 · 디젤 · 하이브리드 4종 · 손익분기 · 2026.05 기준</text>
+
+  <!-- Scenario 1: LPG -->
+  <rect x="40" y="90" width="480" height="116" rx="10" fill="#14532d" fill-opacity="0.6" stroke="#15803D" stroke-width="1.5"/>
+  <rect x="40" y="90" width="480" height="36" rx="10" fill="#15803D"/>
+  <rect x="40" y="112" width="480" height="14" fill="#15803D"/>
+  <text x="60" y="114" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">① 단거리·근거리 운전 (연 8천km 이하)</text>
+  <text x="60" y="148" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">→ LPG 압도적 (5년 TCO 4,216만원 · 1위)</text>
+  <text x="60" y="170" fill="#CBD5E1" font-size="12" font-family="sans-serif">신차가 3,000만원 + 연료 단가 1,100원/L 가장 저렴</text>
+  <text x="60" y="192" fill="#CBD5E1" font-size="12" font-family="sans-serif">셀프충전 전면 허용 후 운영 편의 개선 (전국 1,988곳)</text>
+
+  <!-- Scenario 2: 하이브리드 -->
+  <rect x="560" y="90" width="480" height="116" rx="10" fill="#1e3a8a" fill-opacity="0.6" stroke="#1E40AF" stroke-width="1.5"/>
+  <rect x="560" y="90" width="480" height="36" rx="10" fill="#1E40AF"/>
+  <rect x="560" y="112" width="480" height="14" fill="#1E40AF"/>
+  <text x="580" y="114" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">② 도심 정체 출퇴근 (연 1만~1만 5천km)</text>
+  <text x="580" y="148" fill="#BFDBFE" font-size="13" font-weight="700" font-family="sans-serif">→ 하이브리드 유리 (실연비 25km/L+)</text>
+  <text x="580" y="170" fill="#CBD5E1" font-size="12" font-family="sans-serif">친환경 혜택: 취득세 감면·공영주차 50%·혼잡통행료 면제</text>
+  <text x="580" y="192" fill="#CBD5E1" font-size="12" font-family="sans-serif">단, 7년+ 장기 보유 시점부터 디젤 대비 우위</text>
+
+  <!-- Scenario 3: 디젤 -->
+  <rect x="40" y="226" width="480" height="116" rx="10" fill="#422006" fill-opacity="0.6" stroke="#D97706" stroke-width="1.5"/>
+  <rect x="40" y="226" width="480" height="36" rx="10" fill="#D97706"/>
+  <rect x="40" y="248" width="480" height="14" fill="#D97706"/>
+  <text x="60" y="250" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">③ 장거리·고속 운전 (연 2만 5천km 이상)</text>
+  <text x="60" y="284" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">→ 디젤 유리 (고속 효율 18~22km/L)</text>
+  <text x="60" y="306" fill="#CBD5E1" font-size="12" font-family="sans-serif">5년 연료비 825만원 (가솔린 대비 300만원 절감)</text>
+  <text x="60" y="328" fill="#CBD5E1" font-size="12" font-family="sans-serif">환경개선부담금 연 7만원 별도 부과 (5년 35만원)</text>
+
+  <!-- Scenario 4: 가솔린 -->
+  <rect x="560" y="226" width="480" height="116" rx="10" fill="#155e75" fill-opacity="0.6" stroke="#0e7490" stroke-width="1.5"/>
+  <rect x="560" y="226" width="480" height="36" rx="10" fill="#0e7490"/>
+  <rect x="560" y="248" width="480" height="14" fill="#0e7490"/>
+  <text x="580" y="250" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">④ 가성비 + 5년 내 교체 예정</text>
+  <text x="580" y="284" fill="#67E8F9" font-size="13" font-weight="700" font-family="sans-serif">→ 가솔린 또는 LPG (정비 인프라 무난)</text>
+  <text x="580" y="306" fill="#CBD5E1" font-size="12" font-family="sans-serif">가솔린 5년 TCO 4,510만원 — 어디든 유지보수 쉬움</text>
+  <text x="580" y="328" fill="#CBD5E1" font-size="12" font-family="sans-serif">하이브리드 회수 9년 → 단기 보유 시 가솔린 우위</text>
+
+  <!-- Scenario 5: 영업용 -->
+  <rect x="40" y="362" width="1000" height="116" rx="10" fill="#1e1b4b" fill-opacity="0.6" stroke="#4F46E5" stroke-width="1.5"/>
+  <rect x="40" y="362" width="1000" height="36" rx="10" fill="#4F46E5"/>
+  <rect x="40" y="384" width="1000" height="14" fill="#4F46E5"/>
+  <text x="60" y="386" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">⑤ 영업용·1톤 화물 + 24시간 가동 (택시·소형 화물)</text>
+  <text x="60" y="420" fill="#A5B4FC" font-size="13" font-weight="700" font-family="sans-serif">→ LPG (택시) 또는 디젤 (화물) — 운행 시간·거리 최적화</text>
+  <text x="60" y="442" fill="#CBD5E1" font-size="12" font-family="sans-serif">LPG 셀프충전 허용 후 운영 부담 감소 + 24시간 충전소 800곳</text>
+  <text x="60" y="464" fill="#CBD5E1" font-size="12" font-family="sans-serif">노후 디젤(11년+) 운행 제한 지역 확대 → 신차 7~10년 보유 한정</text>
+
+  <!-- Summary box -->
+  <rect x="40" y="496" width="1000" height="176" rx="10" fill="#1e293b" fill-opacity="0.8"/>
+  <text x="540" y="528" text-anchor="middle" fill="#F8FAFC" font-size="14" font-weight="800" font-family="sans-serif">핵심 결론 3줄 요약</text>
+  <text x="80" y="562" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">5년 TCO 1위</text>
+  <text x="250" y="562" fill="#FFFFFF" font-size="13" font-family="sans-serif">→ LPG 4,216만원 · 가솔린 4,510만원 · 디젤 4,545만원 · 하이브리드 4,735만원</text>
+  <text x="80" y="594" fill="#BFDBFE" font-size="13" font-weight="700" font-family="sans-serif">하이브리드 손익분기</text>
+  <text x="250" y="594" fill="#FFFFFF" font-size="13" font-family="sans-serif">→ 디젤 대비 약 9년 보유 시점에 따라잡음 (구매가 차이 회수)</text>
+  <text x="80" y="626" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">결정 변수</text>
+  <text x="250" y="626" fill="#FFFFFF" font-size="13" font-family="sans-serif">→ 연 주행거리 · 도심/고속 비율 · 보유 기간이 핵심 (4종 모두 적합 영역 다름)</text>
+  <text x="80" y="654" fill="#94A3B8" font-size="12" font-family="sans-serif">※ 본 시뮬레이션은 동급 중형 SUV · 연 1만 5천km · 5년 7만 5천km · 보험/정비/감가 제외 추정치입니다.</text>
+
+  <text x="40" y="686" fill="#64748B" font-size="12" font-family="sans-serif">essencial | 자동차 · 2026.05 기준 · 추정치이며 실제 비용은 차종·운전 패턴에 따라 다를 수 있습니다</text>
+</svg>

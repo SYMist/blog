@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1a1a2e"/><stop offset="100%" stop-color="#16213e"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+
+  <!-- 배지 -->
+  <rect x="80" y="120" width="200" height="56" rx="28" fill="#EF4444"/>
+  <text x="180" y="157" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#FFF">2026 최신</text>
+
+  <!-- 메인 텍스트 -->
+  <text x="80" y="280" font-family="'Pretendard',sans-serif" font-size="78" font-weight="900" fill="#FFF">임플란트</text>
+  <text x="80" y="380" font-family="'Pretendard',sans-serif" font-size="78" font-weight="900" fill="#FFF">건강보험</text>
+  <text x="80" y="480" font-family="'Pretendard',sans-serif" font-size="78" font-weight="900" fill="#FFF">적용 조건</text>
+
+  <!-- 서브 텍스트 -->
+  <text x="80" y="570" font-family="'Pretendard',sans-serif" font-size="48" font-weight="600" fill="#E2E8F0">본인부담금 계산</text>
+  <text x="80" y="635" font-family="'Pretendard',sans-serif" font-size="48" font-weight="600" fill="#E2E8F0">+ 지르코니아 급여 확대</text>
+
+  <!-- 핵심 수치 박스 -->
+  <rect x="80" y="700" width="920" height="120" rx="20" fill="rgba(255,255,255,0.08)"/>
+  <text x="540" y="755" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="44" font-weight="800" fill="#10B981">일반 약 39만 원 | 의료급여 약 13만 원~</text>
+  <text x="540" y="800" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" fill="#E2E8F0">만 65세 이상 | 평생 2개 | 부분 무치악 조건</text>
+
+  <!-- 칩 -->
+  <rect x="80" y="880" width="200" height="60" rx="30" fill="#FEF3C7"/>
+  <text x="180" y="919" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#92400E">비용 비교</text>
+  <rect x="310" y="880" width="200" height="60" rx="30" fill="#FEF3C7"/>
+  <text x="410" y="919" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#92400E">적용 조건</text>
+  <rect x="540" y="880" width="240" height="60" rx="30" fill="#FEF3C7"/>
+  <text x="660" y="919" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#92400E">지르코니아</text>
+
+  <!-- 하단 라인 -->
+  <rect x="80" y="1000" width="920" height="6" rx="3" fill="#10B981"/>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <rect x="60" y="60" width="340" height="44" rx="22" fill="#0F766E"/>
+  <text x="230" y="90" text-anchor="middle" fill="#FFFFFF" font-size="19" font-weight="800" font-family="sans-serif">2026 백내장 렌즈 비용·실비 비교</text>
+
+  <text x="60" y="210" fill="#FFFFFF" font-size="62" font-weight="800" font-family="sans-serif">다초점 vs 단초점</text>
+  <text x="60" y="285" fill="#2DD4BF" font-size="64" font-weight="800" font-family="sans-serif">실제 부담액</text>
+  <text x="60" y="350" fill="#FFFFFF" font-size="30" font-weight="600" font-family="sans-serif">렌즈·실손·입원 인정 여부가 결정</text>
+
+  <!-- 3 key cards -->
+  <rect x="60" y="400" width="960" height="173" rx="16" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="90" y="445" fill="#86EFAC" font-size="17" font-weight="700" font-family="sans-serif">단초점 (DRG 급여)</text>
+  <text x="90" y="505" fill="#FFFFFF" font-size="48" font-weight="800" font-family="sans-serif">양안 40~240만 원</text>
+  <text x="990" y="445" text-anchor="end" fill="#86EFAC" font-size="16" font-weight="600" font-family="sans-serif">본인부담 20%</text>
+  <text x="990" y="505" text-anchor="end" fill="#CBD5E1" font-size="18" font-family="sans-serif">2세대+입원 시 10만 이하</text>
+  <text x="90" y="548" fill="#86EFAC" font-size="15" font-weight="700" font-family="sans-serif">야간 운전 적합 · 빛 번짐 없음 · 보험 혜택 극대화</text>
+
+  <rect x="60" y="593" width="960" height="173" rx="16" fill="url(#card)" stroke="#FCA5A5" stroke-width="2"/>
+  <text x="90" y="638" fill="#FCA5A5" font-size="17" font-weight="700" font-family="sans-serif">3중초점 / EDOF (전액 비급여)</text>
+  <text x="90" y="698" fill="#FFFFFF" font-size="48" font-weight="800" font-family="sans-serif">양안 500~1,200만 원</text>
+  <text x="990" y="638" text-anchor="end" fill="#FCA5A5" font-size="16" font-weight="600" font-family="sans-serif">4세대 실손 미보장</text>
+  <text x="990" y="698" text-anchor="end" fill="#CBD5E1" font-size="18" font-family="sans-serif">2세대+입원 40만 내외</text>
+  <text x="90" y="741" fill="#FCA5A5" font-size="15" font-weight="700" font-family="sans-serif">돋보기 없이 생활 · 실손 세대 확인 필수</text>
+
+  <rect x="60" y="786" width="960" height="173" rx="16" fill="url(#card)" stroke="#2DD4BF" stroke-width="2"/>
+  <text x="90" y="831" fill="#2DD4BF" font-size="17" font-weight="700" font-family="sans-serif">수술비 특약 병행 전략</text>
+  <text x="90" y="891" fill="#FFFFFF" font-size="48" font-weight="800" font-family="sans-serif">50~100만 원 추가 회수</text>
+  <text x="990" y="831" text-anchor="end" fill="#2DD4BF" font-size="16" font-weight="600" font-family="sans-serif">실손 중복 청구 OK</text>
+  <text x="990" y="891" text-anchor="end" fill="#CBD5E1" font-size="18" font-family="sans-serif">렌즈 종류 무관 지급</text>
+  <text x="90" y="934" fill="#2DD4BF" font-size="15" font-weight="700" font-family="sans-serif">동일 렌즈 최대 27배 가격 차이 — 심평원 비교 필수</text>
+
+  <text x="60" y="1042" fill="#64748B" font-size="15" font-family="sans-serif">essencial | 의료 silo · 2026.04 기준</text>
+</svg>

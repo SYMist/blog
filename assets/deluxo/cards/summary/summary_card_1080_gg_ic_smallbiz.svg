@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><filter id="s" x="-4%" y="-4%" width="108%" height="108%"><feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#000" flood-opacity="0.08"/></filter></defs>
+  <rect width="1080" height="1080" rx="32" fill="#F0F4FA"/>
+  <rect x="40" y="40" width="1000" height="1000" rx="24" fill="#FFF" filter="url(#s)"/>
+  <rect x="40" y="40" width="1000" height="100" rx="24" fill="#1D4ED8"/><rect x="40" y="95" width="1000" height="45" fill="#1D4ED8"/>
+  <text x="540" y="103" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="38" font-weight="800" fill="#FFF">경기도·인천 소상공인 지원금 비교 요약</text>
+  <!-- Headers -->
+  <text x="100" y="200" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#374151">구분</text>
+  <text x="400" y="200" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#1D4ED8">경기도</text>
+  <text x="760" y="200" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#1D4ED8">인천</text>
+  <line x1="80" y1="222" x2="1000" y2="222" stroke="#E5E7EB" stroke-width="2"/>
+  <!-- 총규모 -->
+  <text x="100" y="272" font-family="'Pretendard',sans-serif" font-size="24" font-weight="600" fill="#374151">총 규모</text>
+  <text x="400" y="272" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#DC2626">1조 7천억원</text>
+  <text x="760" y="272" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#DC2626">1천억원</text>
+  <line x1="80" y1="298" x2="1000" y2="298" stroke="#F3F4F6" stroke-width="1.5"/>
+  <!-- 업체당 한도 -->
+  <text x="100" y="345" font-family="'Pretendard',sans-serif" font-size="24" font-weight="600" fill="#374151">업체당 한도</text>
+  <text x="400" y="345" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#111827">최대 1억원</text>
+  <text x="760" y="345" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#111827">최대 5천만원</text>
+  <line x1="80" y1="371" x2="1000" y2="371" stroke="#F3F4F6" stroke-width="1.5"/>
+  <!-- 금리 -->
+  <text x="100" y="418" font-family="'Pretendard',sans-serif" font-size="24" font-weight="600" fill="#374151">금리</text>
+  <text x="400" y="410" font-family="'Pretendard',sans-serif" font-size="22" fill="#111827">기금 2.90%</text>
+  <text x="400" y="438" font-family="'Pretendard',sans-serif" font-size="22" fill="#6B7280">이차보전 0.3~2.0%p</text>
+  <text x="760" y="410" font-family="'Pretendard',sans-serif" font-size="22" fill="#111827">대출금리 중</text>
+  <text x="760" y="438" font-family="'Pretendard',sans-serif" font-size="22" fill="#6B7280">1년차 2.0% 시부담</text>
+  <line x1="80" y1="464" x2="1000" y2="464" stroke="#F3F4F6" stroke-width="1.5"/>
+  <!-- 자금 종류 -->
+  <text x="100" y="511" font-family="'Pretendard',sans-serif" font-size="24" font-weight="600" fill="#374151">자금 종류</text>
+  <text x="400" y="503" font-family="'Pretendard',sans-serif" font-size="22" fill="#111827">경영안정·창업·특화</text>
+  <text x="400" y="531" font-family="'Pretendard',sans-serif" font-size="22" fill="#111827">특별경영·시설자금</text>
+  <text x="760" y="503" font-family="'Pretendard',sans-serif" font-size="22" fill="#111827">운전자금</text>
+  <text x="760" y="531" font-family="'Pretendard',sans-serif" font-size="22" fill="#6B7280">(시설투자 불가)</text>
+  <line x1="80" y1="557" x2="1000" y2="557" stroke="#F3F4F6" stroke-width="1.5"/>
+  <!-- 신청처 -->
+  <text x="100" y="604" font-family="'Pretendard',sans-serif" font-size="24" font-weight="600" fill="#374151">신청처</text>
+  <text x="400" y="596" font-family="'Pretendard',sans-serif" font-size="22" fill="#1D4ED8">이지원 앱</text>
+  <text x="400" y="624" font-family="'Pretendard',sans-serif" font-size="22" fill="#1D4ED8">g-money.gg.go.kr</text>
+  <text x="760" y="596" font-family="'Pretendard',sans-serif" font-size="22" fill="#1D4ED8">보증드림 앱</text>
+  <text x="760" y="624" font-family="'Pretendard',sans-serif" font-size="22" fill="#1D4ED8">인천신보재단 지점</text>
+  <line x1="80" y1="650" x2="1000" y2="650" stroke="#F3F4F6" stroke-width="1.5"/>
+  <!-- 우대 -->
+  <text x="100" y="697" font-family="'Pretendard',sans-serif" font-size="24" font-weight="600" fill="#374151">우대 대상</text>
+  <text x="400" y="689" font-family="'Pretendard',sans-serif" font-size="22" fill="#111827">여성·장애인 0.3%p</text>
+  <text x="400" y="717" font-family="'Pretendard',sans-serif" font-size="22" fill="#111827">벤처·가족친화 0.5%p</text>
+  <text x="760" y="697" font-family="'Pretendard',sans-serif" font-size="22" fill="#111827">별도 우대 없음</text>
+  <!-- 전국공통 -->
+  <rect x="80" y="760" width="920" height="90" rx="14" fill="#EFF6FF"/>
+  <text x="540" y="800" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#1D4ED8">+ 전국 공통: 경영안정 바우처 25만원 (중복 가능)</text>
+  <text x="540" y="835" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#374151">소상공인 정책자금 최대 1억원 / 창업패키지 최대 3억원</text>
+  <!-- Footer -->
+  <rect x="80" y="880" width="920" height="130" rx="14" fill="#F1F5F9"/>
+  <text x="540" y="920" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="600" fill="#374151">신청 시작: 경기도 2026.01.19~ / 인천 2026.01.28~</text>
+  <text x="540" y="955" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#6B7280">모두 선착순 예산 소진 방식 — 서류 준비 후 즉시 신청</text>
+  <text x="540" y="990" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#6B7280">2026년 3월 기준 | 공식 공고 확인 필수</text>
+</svg>

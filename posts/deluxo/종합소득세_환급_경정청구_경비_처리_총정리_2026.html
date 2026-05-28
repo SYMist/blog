@@ -1,0 +1,476 @@
+<!-- ✅ Schema.org 구조화 데이터 -->
+<div style="display:none">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "종합소득세 환급·경정청구·경비 처리 총정리 (2026)",
+      "description": "2026 종합소득세 환급가산금 3.1%·경정청구 5년·적격증빙 3만 원·업무용 승용차 1,500만 한도까지. 근로자·사업자 항목별 경비 처리와 환급 절차 완벽 가이드.",
+      "datePublished": "2026-04-23",
+      "dateModified": "2026-04-23",
+      "author": {"@type": "Person", "name": "deluxo"},
+      "publisher": {"@type": "Organization", "name": "deluxo"}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "2026년 국세환급가산금 이자율은 얼마인가요?", "acceptedAnswer": {"@type": "Answer", "text": "2026년 국세환급가산금 이자율은 연 3.1%입니다. 2024년 3.5%에서 하향 고시됐으며, 납부일 다음 날 또는 신고일 30일 경과 다음 날부터 기산됩니다. 조세불복을 통해 승소한 뒤 세무서장이 결정 확정 40일 이후 지급할 경우 기본이자율의 1.5배 가중 이자율이 적용됩니다."}},
+        {"@type": "Question", "name": "경정청구는 언제까지 할 수 있나요?", "acceptedAnswer": {"@type": "Answer", "text": "통상 경정청구는 법정신고기한 경과 후 5년 이내입니다. 2025년 귀속분(2026년 5월 신고)이라면 2031년 5월까지 청구 가능합니다. 후발적 경정청구는 판결 확정 등 사유를 안 날부터 3개월 이내로 5년 경과 후에도 가능합니다. 세무서 결정은 접수 후 2개월 이내 통지됩니다."}},
+        {"@type": "Question", "name": "5월 확정신고 vs 경정청구, 어느 쪽이 유리한가요?", "acceptedAnswer": {"@type": "Answer", "text": "신고 기간 내라면 5월 확정신고가 빠릅니다. 환급금이 6월 말~7월 초 입금되고 가산금 기산이 신고일 30일 이후이기 때문입니다. 5월 기간을 지나면 경정청구만 가능하며 심사에 2개월이 추가됩니다. 과거 1~5년 전 누락은 경정청구가 유일한 경로입니다."}},
+        {"@type": "Question", "name": "적격증빙 3만 원 기준은 무엇인가요?", "acceptedAnswer": {"@type": "Answer", "text": "건당 3만 원을 초과하는 지출은 세금계산서·계산서·신용카드매출전표·현금영수증 중 하나의 적격증빙이 필요합니다. 간이영수증·입금표·거래명세서는 적격증빙이 아닙니다. 위반 시 증빙불비 가산세 2%가 부과되며, 거래를 쪼개 3만 원 이하로 맞추는 행위는 실질과세 원칙으로 부인됩니다. 기업업무추진비는 건당 1만 원 초과가 기준입니다."}},
+        {"@type": "Question", "name": "업무용 승용차 비용은 얼마까지 인정되나요?", "acceptedAnswer": {"@type": "Answer", "text": "운행기록부를 작성하지 않으면 연 1,500만 원까지만 경비 인정되며 초과분은 부인됩니다. 운행기록부를 작성하면 실제 업무사용비율만큼 인정되고 감가상각은 정액법 5년에 연 800만 원 한도(초과분 이월)가 강제 적용됩니다. 9인승 이상 승합차·경차·화물차는 제한 대상이 아닙니다."}},
+        {"@type": "Question", "name": "경정청구가 거절되면 어떻게 하나요?", "acceptedAnswer": {"@type": "Answer", "text": "거절 통지일로부터 90일 이내에 ① 이의신청(임의), ② 심사청구(국세청), ③ 심판청구(조세심판원) 중 하나를 선택해 제기합니다. 심사·심판은 중복 불가하며 하나만 선택합니다. 각 기관 결정 기한은 90일이고, 결과 통지 후 90일 이내 행정소송 제기 가능합니다(필요적 전치주의)."}}
+      ]
+    }
+  ]
+}
+</script>
+</div>
+
+<style>
+  :root{
+    --blue:#1D4ED8; --blue2:#1E40AF;
+    --white:#FFFFFF; --text:#111827;
+    --muted:#4B5563; --border:#E5E7EB;
+    --bg:#F9FAFB; --blueLight:#E8F0FF;
+  }
+  .wrap{max-width:860px;margin:0 auto;line-height:1.8;color:var(--text);}
+  .meta{color:var(--muted);font-size:.95rem;margin:6px 0 18px;}
+  .badge{display:inline-block;background:var(--blueLight);border:1px solid var(--border);padding:3px 10px;border-radius:999px;font-size:.85rem;margin-right:8px;}
+  .notice{background:#fff7ed;border:1px solid #fed7aa;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .lead{background:#f8fafc;border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .keysum{background:#fefce8;border:1px solid #fde68a;padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .summary{background:#eff6ff;border:1px solid #bfdbfe;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .toc{background:var(--bg);border:1px solid var(--border);padding:14px 16px;border-radius:12px;margin:16px 0 22px;}
+  .toc a{text-decoration:none;color:var(--blue);}
+  .toc ul{margin:8px 0 0 18px;}
+  .disclaimer{background:#fef2f2;border:1px solid #fecaca;padding:12px 14px;border-radius:12px;margin:14px 0;color:#7f1d1d;font-size:.95rem;}
+
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 6px;}
+  .wrap a.btn,.wrap a.btn:link,.wrap a.btn:visited{
+    display:inline-flex;align-items:center;justify-content:center;
+    padding:10px 14px;border-radius:10px;border:1px solid var(--blue);
+    background:var(--blue) !important;color:var(--white) !important;
+    text-decoration:none !important;font-weight:800;
+  }
+  .wrap a.btn:hover,.wrap a.btn:active,.wrap a.btn:focus{
+    background:var(--blue2) !important;border-color:var(--blue2) !important;color:var(--white) !important;
+  }
+  .wrap a.btn.secondary,.wrap a.btn.secondary:link,.wrap a.btn.secondary:visited{
+    background:var(--white) !important;color:var(--blue) !important;border-color:var(--blue) !important;
+  }
+  .wrap a.btn.secondary:hover,.wrap a.btn.secondary:active,.wrap a.btn.secondary:focus{
+    background:var(--bg) !important;color:var(--blue2) !important;border-color:var(--blue2) !important;
+  }
+  .wrap a.btn.gray,.wrap a.btn.gray:link,.wrap a.btn.gray:visited{
+    background:#111827 !important;border-color:#111827 !important;color:var(--white) !important;
+  }
+  .wrap a.btn.gray:hover,.wrap a.btn.gray:active,.wrap a.btn.gray:focus{
+    background:#0b1220 !important;border-color:#0b1220 !important;color:var(--white) !important;
+  }
+
+  table{width:100%;border-collapse:collapse;margin:14px 0 10px;}
+  th,td{border:1px solid var(--border);padding:10px;vertical-align:top;}
+  th{background:#F3F4F6;text-align:left;}
+  .small{font-size:.95rem;color:var(--muted);}
+  h1{margin:0 0 8px;line-height:1.25;}
+  h2{margin-top:30px;padding-top:8px;border-top:1px solid var(--border);}
+  h3{margin-top:16px;}
+  .q{font-weight:900;margin:14px 0 6px;}
+  .a{margin:0 0 10px;}
+  .tips{background:#f0fdf4;border:1px solid #bbf7d0;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .urgency{background:#fef2f2;border:1px solid #fca5a5;padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .target{background:#f0fdf4;border:1px solid #86efac;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .target ul{margin:8px 0 0 18px;}
+  .ad{background:#f9fafb;border:1px dashed var(--border);padding:10px 12px;border-radius:10px;margin:12px 0;}
+  .footer{margin-top:26px;padding-top:14px;border-top:1px solid var(--border);color:var(--muted);font-size:.95rem;}
+</style>
+
+<div class="wrap">
+  <h1>종합소득세 환급·경정청구·경비 처리 2026 — 가산금 3.1%·5년 소급 완벽 가이드</h1>
+  <div class="meta">
+    <span class="badge">키워드: 종합소득세 환급</span>
+    <span class="badge">업데이트: 2026-04-23</span>
+  </div>
+
+  <div class="notice">
+    <strong>먼저 확인!</strong><br/>
+    2026년 국세환급가산금 이자율이 연 3.1%로 하향 고시됐고, 5월 종합소득세 신고는 2025년 귀속 기준입니다. 누락 항목은 5월 확정신고로 바로잡는 것이 가장 빠르고, 기간을 넘기면 5년 내 경정청구로 회복 가능합니다.
+  </div>
+
+  <div class="disclaimer">
+    <strong>면책 고지</strong> — 본 글은 2026-04-23 기준 국세청·국세기본법·소득세법 공식 자료를 기반으로 작성한 일반 정보입니다. 개별 업종·소득 구조·공제 항목에 따라 적용 여부가 달라질 수 있으므로, 실제 신고·경정청구 전 홈택스 또는 세무대리인을 통해 개별 상담을 받으시기 바랍니다.
+  </div>
+
+  <p class="small">
+    종합소득세 환급은 '경비 처리 → 신고 → 경정청구'의 3박자로 완성됩니다. 2026년 기준 환급가산금 3.1%, 경정청구 5년 기한, 적격증빙 3만 원, 업무용 승용차 1,500만 원 한도, 기업업무추진비 중소 3,600만 원 한도를 모두 짚어드립니다.
+  </p>
+
+  <div class="lead">
+    5월 종합소득세 신고 시즌은 근로자에게 '연말정산에서 빠뜨린 공제를 되찾을 마지막 기회'이고, 사업자에게는 '장부·증빙으로 정당한 경비를 모두 반영해 과세표준을 낮추는 시점'입니다. 단순히 줄여서 내는 게 아니라 이미 낸 세금을 합법적으로 돌려받는 절차가 핵심입니다.
+  </div>
+
+  <div class="urgency">
+    <strong>왜 지금 확인해야 할까?</strong><br/>
+    ① 2025년 귀속 종합소득세 신고 D-DAY: 2026-05-01~05-31. 이 기간을 넘기면 가산세 + 경정청구 2개월 대기.<br/>
+    ② 국세환급가산금이 연 3.5% → 3.1%로 인하 — 과거 연도분 경정청구는 빨리 할수록 가산금이 더 쌓입니다.<br/>
+    ③ 근로자 월세 세액공제는 2025 개정으로 기준시가 6억 이하, 한도 2,000만 원까지 확대. 5년 치 소급 경정청구로 평균 수십만~수백만 원 회복 사례 다수.<br/>
+    ④ 미신고·증빙 미비 가산세: 무신고 20%·과소신고 10%·납부지연 연 8.03%. 놓치면 손실이 급격히 커집니다.
+  </div>
+
+  <div class="keysum">
+    <strong>핵심 요약 3줄</strong><br/>
+    ① 환급가산금 연 3.1%(2026) + 소멸시효 5년 + 경정청구 2개월 심사가 기본 뼈대.<br/>
+    ② 근로자: 월세·의료비·부양가족·중기취업자 감면 누락분 5년 소급 가능.<br/>
+    ③ 사업자: 적격증빙 3만 원·업무용차 1,500만·기업업무추진비 3,600만(중소) 한도를 지켜야 경비 100% 인정.
+  </div>
+
+  <div class="summary" id="top">
+    <h2 style="border-top:none;margin-top:0;">✅ 5줄 요약(결론)</h2>
+    <ul>
+      <li><strong>환급가산금</strong>: 2026년 연 3.1%. 불복 승소 후 40일 초과 지급은 1.5배 가중.</li>
+      <li><strong>경정청구 기한</strong>: 통상 5년 / 후발적 사유 발생 시 3개월.</li>
+      <li><strong>환급 일정</strong>: 5월 정기신고 → 6월 말~7월 초 입금 / 경정청구 → 접수 2개월 내 결정.</li>
+      <li><strong>핵심 체크</strong>: 적격증빙 3만 원 · 업무용차 1,500만 · 기업업무추진비 중소 3,600만.</li>
+      <li><strong>불복 절차</strong>: 이의신청·심사·심판 각 90일 → 행정소송은 전심절차 필수.</li>
+    </ul>
+
+    <div class="btns">
+      <a class="btn" href="https://www.hometax.go.kr/" target="_blank" rel="noopener">홈택스 경정청구 접수</a>
+      <a class="btn gray" href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7664&mi=2224" target="_blank" rel="noopener">국세청 종소세 안내</a>
+      <a class="btn secondary" href="https://www.tt.go.kr/" target="_blank" rel="noopener">조세심판원(불복)</a>
+    </div>
+    <p class="small">※ 신고 전 공식 공고·모두채움 서비스·세무대리인 상담으로 교차 확인.</p>
+  </div>
+
+  <div class="target">
+    <strong>이런 상황이라면 지금 바로 확인하세요</strong>
+    <ul>
+      <li>5년 이내에 월세를 냈는데 연말정산 세액공제를 한 번도 신청하지 않았다면</li>
+      <li>산후조리원·안경·비급여 의료비·학원비 영수증이 간소화에 안 잡혀 있었다면</li>
+      <li>20~34세 청년으로 중소기업에 취업했는데 소득세 감면을 회사가 반영 안 했다면</li>
+      <li>1인 사업자인데 카드·현금영수증·간이영수증을 한 폴더에 섞어 보관해 왔다면</li>
+      <li>신고 직후 '내가 이 공제를 왜 빠뜨렸지?' 하고 뒤늦게 발견했다면 — 5년까지는 회복 가능</li>
+    </ul>
+  </div>
+
+  <div class="toc">
+    <strong>목차</strong>
+    <ul>
+      <li><a href="#table">1) 환급·경정청구·경비 한눈에 정리</a></li>
+      <li><a href="#quick">→ 근로자 vs 사업자 빠른 판단</a></li>
+      <li><a href="#refund">2) 환급 구조와 가산금 3.1%</a></li>
+      <li><a href="#correction">3) 경정청구 절차와 기한</a></li>
+      <li><a href="#expense">4) 경비 처리 핵심 규정</a></li>
+      <li><a href="#item">5) 항목별 경비 처리 가이드</a></li>
+      <li><a href="#docs">6) 서류·증빙 체크리스트</a></li>
+      <li><a href="#case">7) 경험·사례</a></li>
+      <li><a href="#faq">8) FAQ · 탈락 사유 TOP 5</a></li>
+      <li><a href="#check">9) 1분 체크리스트</a></li>
+      <li><a href="#update">업데이트 로그</a></li>
+    </ul>
+  </div>
+
+  <h2 id="table">1) 환급·경정청구·경비 한눈에 정리</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>구분</th><th>정의</th><th>기한·시효</th><th>환급 소요</th><th>가산금</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>정기 신고 환급</strong></td>
+        <td>5월 확정신고 시 기납부세액 초과분 환급</td>
+        <td>법정신고기한(5/31) 내</td>
+        <td>6월 말~7월 초</td>
+        <td>신고일 30일 경과 다음 날부터</td>
+      </tr>
+      <tr>
+        <td><strong>경정청구</strong></td>
+        <td>과다 신고분의 환급 청구</td>
+        <td>법정신고기한 후 5년</td>
+        <td>접수 후 2개월 내 결정</td>
+        <td>납부일 다음 날 또는 신고일 30일 경과 다음 날부터</td>
+      </tr>
+      <tr>
+        <td><strong>후발적 경정청구</strong></td>
+        <td>판결·처분 변경 등 사유 발생</td>
+        <td>사유 안 날부터 3개월</td>
+        <td>접수 후 2개월 내</td>
+        <td>동일</td>
+      </tr>
+      <tr>
+        <td><strong>수정신고(과소)</strong></td>
+        <td>과소 신고분 추가 납부</td>
+        <td>부과제척기간 5~10년</td>
+        <td>—</td>
+        <td>자발적 신고 시 가산세 감면 50~95%</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5716436301710258"
+       crossorigin="anonymous"></script>
+  <ins class="adsbygoogle"
+       style="display:block; text-align:center;"
+       data-ad-layout="in-article"
+       data-ad-format="fluid"
+       data-ad-client="ca-pub-5716436301710258"
+       data-ad-slot="7020031076"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+  <!-- ✅ 이미지 1: 요약표 카드 -->
+  <img src="summary_card_1080_tax_refund_correction_2026.png" alt="2026 종합소득세 환급 경정청구 경비 처리 요약" />
+
+  <h3 id="quick">나는 어디? 근로자 vs 사업자 10초 판단</h3>
+  <table>
+    <thead>
+      <tr><th></th><th>근로자</th><th>사업자(개인)</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>핵심 과제</strong></td><td>연말정산 누락 공제 소급 회복</td><td>적격증빙·장부로 경비 최대화</td></tr>
+      <tr><td><strong>최빈 누락</strong></td><td>월세·의료비·중기취업자 감면</td><td>업무용차·노란우산·창업감면</td></tr>
+      <tr><td><strong>첫 조치</strong></td><td>홈택스 지급명세서 5년 치 조회</td><td>사업용 계좌·카드 홈택스 등록</td></tr>
+      <tr><td><strong>한 줄 요약</strong></td><td>이미 낸 세금을 '되찾는' 과정</td><td>'경비 누락 방지 → 환급 확대'</td></tr>
+    </tbody>
+  </table>
+  <p class="small">※ 실제 적용 여부는 귀속연도 및 개별 소득 구조에 따라 달라집니다.</p>
+
+  <!-- ✅ 이미지 2: 빠른 판단 가이드 -->
+  <img src="quick_guide_1080_tax_refund_correction_2026.png" alt="근로자 사업자 환급 경정청구 빠른 판단 가이드" />
+
+  <h2 id="refund">2) 환급 구조와 가산금 3.1%</h2>
+  <h3>국세환급금 발생 사유 (국기법 §51)</h3>
+  <ul>
+    <li>착오 납부·이중 납부</li>
+    <li>납부의 기초가 된 신고·부과가 경정·취소된 경우</li>
+    <li>세법상 환급세액이 산정된 경우(원천징수 초과·부가세 환급 등)</li>
+  </ul>
+
+  <h3>환급가산금 이자율</h3>
+  <p>2026년 기준 연 <strong>3.1%</strong>로 2024년 3.5% → 2026년 3.1%로 하향됐습니다. 기산일은 다음과 같습니다.</p>
+  <ul>
+    <li><strong>착오·이중납부·경정·취소</strong>: 국세 납부일의 다음 날</li>
+    <li><strong>신고·신청 환급</strong>: 신고·신청일로부터 30일이 지난 날의 다음 날</li>
+    <li><strong>불복 승소 후 가중</strong>: 결정·판결 확정일로부터 40일 초과 지급 시 1.5배 가중</li>
+  </ul>
+
+  <h3>소멸시효 5년</h3>
+  <p>국세환급금과 환급가산금은 행사할 수 있는 때부터 5년간 행사하지 않으면 시효 완성됩니다(국기법 §54). 20년 전 과다납부라도 실질적으로 과거 5년분만 회수 가능합니다. 소송 제기 등 시효 중단 사유가 있으면 시효가 재진행됩니다.</p>
+
+  <h3>환급 수령 방법·지급 시기</h3>
+  <table>
+    <thead>
+      <tr><th>신고 유형</th><th>국세 입금</th><th>지방세 입금</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>5월 정기 신고(환급)</td><td>6월 말~7월 초</td><td>약 1개월 뒤</td></tr>
+      <tr><td>경정청구</td><td>결정 후 30일 이내</td><td>결정 후 1~4주</td></tr>
+      <tr><td>기한 후 신고</td><td>심사 후 결정 시점부터 30일 내</td><td>순차 지급</td></tr>
+    </tbody>
+  </table>
+
+  <h2 id="correction">3) 경정청구 절차와 기한</h2>
+  <h3>법적 근거와 기한 (국기법 §45-2)</h3>
+  <ul>
+    <li><strong>통상 경정청구</strong>: 법정신고기한 경과 후 5년 이내</li>
+    <li><strong>후발적 경정청구</strong>: 사유를 안 날부터 3개월 이내(판결 확정, 처분 변경 등)</li>
+    <li><strong>결정 통지</strong>: 세무서장은 접수 후 2개월 이내 인용·일부 인용·기각 통지</li>
+  </ul>
+
+  <h3>절차 5단계</h3>
+  <ol>
+    <li><strong>홈택스 접속</strong> → 세금신고 → 종합소득세 → 경정청구 메뉴 진입.</li>
+    <li><strong>귀속연도 선택</strong> 및 기존 신고서 불러오기.</li>
+    <li><strong>누락 공제·경비 항목 수정</strong> 입력. 의료비·교육비·기부금·월세 등.</li>
+    <li><strong>경정청구서 제출</strong> + 증빙 파일 업로드(PDF/JPG).</li>
+    <li><strong>결정 통지 수령</strong> → 인용 시 환급금 + 가산금 지급. 거절 시 90일 내 불복.</li>
+  </ol>
+
+  <!-- ✅ 이미지 3: 정책 비교·변화 카드 -->
+  <img src="compare_card_1080_tax_refund_correction_2026.png" alt="2026 경정청구 환급가산금 기업업무추진비 업무용차 4대 핵심" />
+
+  <h3>불복 절차 (거절 시)</h3>
+  <table>
+    <thead>
+      <tr><th>단계</th><th>기한</th><th>관할</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>이의신청(임의)</td><td>통지 후 90일</td><td>관할 세무서·지방국세청</td></tr>
+      <tr><td>심사청구</td><td>통지 후 90일</td><td>국세청</td></tr>
+      <tr><td>심판청구</td><td>통지 후 90일</td><td>조세심판원(독립기관)</td></tr>
+      <tr><td>행정소송</td><td>결정 후 90일</td><td>행정법원(전심 필수)</td></tr>
+    </tbody>
+  </table>
+  <p class="small">※ 심사·심판은 중복 불가(국기법 §55 ⑨). 하나만 선택.</p>
+
+  <h3>경정청구 vs 수정신고</h3>
+  <table>
+    <thead>
+      <tr><th>구분</th><th>경정청구</th><th>수정신고</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>대상</td><td>과다 신고(환급)</td><td>과소 신고(추가 납부)</td></tr>
+      <tr><td>기한</td><td>5년</td><td>부과제척기간 5~10년</td></tr>
+      <tr><td>가산세</td><td>없음</td><td>조사 전 자발적 시 50~95% 감면</td></tr>
+    </tbody>
+  </table>
+
+  <h2 id="expense">4) 경비 처리 핵심 규정</h2>
+  <h3>필요경비 3대 요건 (소득세법 §27)</h3>
+  <ol>
+    <li><strong>사업 관련성</strong> — 업무 수행에 직·간접적으로 필요한 지출</li>
+    <li><strong>실제 지출</strong> — 관념상 비용 ✗, 실제 자금 유출 ○</li>
+    <li><strong>적격증빙 보유</strong> — 세금계산서·계산서·카드전표·현금영수증</li>
+  </ol>
+
+  <h3>적격증빙 3만 원 룰</h3>
+  <p>건당 3만 원을 초과하는 지출은 적격증빙이 필수입니다. 간이영수증·입금표·송금확인서는 적격증빙이 아니며, 위반 시 증빙불비 가산세 <strong>2%</strong>가 부과됩니다. 거래를 여러 건으로 쪼개 3만 원 이하로 맞추는 '증빙 분할' 행위는 실질과세 원칙으로 부인됩니다. 기업업무추진비(구 접대비)는 건당 <strong>1만 원</strong> 초과가 기준이며, 경조사비는 20만 원까지 청첩장·부고장으로 인정됩니다.</p>
+
+  <h3>기장·경비율 3가지 방식</h3>
+  <table>
+    <thead>
+      <tr><th>방식</th><th>대상</th><th>경비 산정</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>복식·간편장부</td><td>모든 사업자</td><td>실제 지출 + 증빙</td></tr>
+      <tr><td>기준경비율</td><td>기장 미이행 간편장부 대상</td><td>적격증빙 경비 + 수입 × 기준경비율</td></tr>
+      <tr><td>단순경비율</td><td>소규모·신규 영세</td><td>수입 × 단순경비율 = 필요경비</td></tr>
+    </tbody>
+  </table>
+  <p class="small">※ 단순경비율 적용 기준(직전연도 수입): 도소매 6,000만 / 제조·음식·숙박 3,600만 / 서비스·인적용역 2,400만 미만.</p>
+
+  <h2 id="item">5) 항목별 경비 처리 가이드</h2>
+  <h3>인건비</h3>
+  <p>정규직은 간이세액표 원천징수 + 간이지급명세서 매월 + 근로소득지급명세서 연 1회, 일용직은 일용소득세 + 일용지급명세서, 프리랜서는 3.3% + 간이지급명세서 매월이 필수입니다. <strong>원천세·지급명세서 신고가 빠진 인건비는 경비 부인</strong> 위험이 큽니다. 개인사업자 본인 급여·퇴직금은 필요경비 대상이 아니며, 지역건강보험·장기요양보험 본인 부담분만 필요경비로 산입 가능합니다(국민연금은 소득공제).</p>
+
+  <h3>업무용 승용차</h3>
+  <p>운행기록부 미작성 시 차량 관련 경비가 <strong>연 1,500만 원</strong>으로 제한되며 초과분은 부인됩니다. 작성하면 업무사용비율만큼 인정되고, 감가상각은 <strong>정액법 5년·연 800만 원 한도</strong>가 강제됩니다. 초과분은 이월 상각됩니다. 9인승 이상 승합차·경차·화물차는 제한 대상이 아니고, 간편장부 대상 개인사업자는 운행일지 작성 의무가 없습니다.</p>
+
+  <h3>기업업무추진비(구 접대비)</h3>
+  <p>2024년부터 명칭이 '기업업무추진비'로 변경됐습니다. 2025년 귀속 기준 기본한도는 일반 1,200만 / <strong>중소기업 3,600만</strong> 원이며, 수입금액 한도(100억 이하 0.3% 등)가 추가됩니다. 문화 접대비 20%, 전통시장 10% 추가 인정됩니다. 건당 1만 원 초과 지출 시 적격증빙 필수이고, 경조사비는 20만 원 한도입니다.</p>
+
+  <h3>감가상각</h3>
+  <p>자산별 내용연수와 상각방법이 정해져 있습니다. 차량운반구 5년 정액법 강제, 건물(RC조) 40년 정액법, 기계장치 일반 8년, 비품·집기 5~8년, 소프트웨어 5년 정액법. 취득가액 100만 원 이하 또는 대여가치 3년 미만 자산은 취득 시점 전액 비용처리(즉시상각 의제)할 수 있습니다.</p>
+
+  <h3>임차료·공과금·복리후생비</h3>
+  <p>사업장 월세·관리비는 전액 또는 사용 면적 안분. 1인 사업자의 자택 월세는 원칙적으로 부인됩니다. 전기·수도·통신은 사업장 전용이면 전액, 혼용이면 안분. 복리후생비는 직원 식대·야근 식사·회식비·건강검진비·4대보험 사용자 부담분이 포함되며, 사업주 본인 식대는 부인입니다.</p>
+
+  <h3>경비 부인 항목 (소득세법 §33)</h3>
+  <ul>
+    <li>소득세·지방소득세 본인 부담분</li>
+    <li>벌금·과료·과태료·가산세·가산금·체납처분비</li>
+    <li>가사관련비(사업주 본인 식대·미용·생필품·가족 여행비 등)</li>
+    <li>대표자 급여·퇴직금(개인사업자 본인)</li>
+    <li>업무 무관 자산 유지비 및 해당 차입금 이자</li>
+  </ul>
+
+  <h3>근로자 세액공제 누락 TOP</h3>
+  <p>월세(기준시가 6억 이하·한도 2,000만 원 개정 반영), 부양가족 인적공제(연 소득 100만 원, 근로만 있으면 500만 원 이하), 비급여 의료비·산후조리원(출산당 200만), 학원비(취학 전)·교복비·체험학습비, 기부금(종교·공익·정치자금), 연금저축·IRP 900만 한도, 주택청약(총급여 7,000만 이하 무주택 세대주 300만 한도), <strong>중소기업 취업자 감면</strong>(청년 90%·5년·연 200만 한도).</p>
+
+  <h2 id="docs">6) 서류·증빙 체크리스트</h2>
+  <h3>경정청구 기본 서류</h3>
+  <ul>
+    <li>경정청구서(홈택스 자동 생성)</li>
+    <li>경정청구 사유 설명서(간단한 사실관계 기재)</li>
+    <li>원 신고서 vs 변경 신고서 비교(홈택스 자동)</li>
+    <li>근거 증빙: 의료비·교육비·기부금·월세 송금증·임대차계약서</li>
+    <li>수정 지급명세서(원천징수 정정 시)</li>
+  </ul>
+  <h3>상황별 추가 서류</h3>
+  <ul>
+    <li>중소기업 취업자 감면: 감면신청서, 재직증명서, 주민등록등본, (청년 연장) 병적증명서</li>
+    <li>월세 세액공제: 임대차계약서, 주민등록등본, 월세 송금 내역</li>
+    <li>외국납부세액공제: 해외 원천징수영수증, 납세증명서</li>
+    <li>사업자 업무용차: 운행기록부, 차량등록증, 업무전용 자동차보험증권</li>
+    <li>인건비: 원천세 신고서, 지급명세서 제출 확인증</li>
+  </ul>
+
+  <h2 id="case">7) 경험·사례</h2>
+  <p>30대 초반 직장인은 3년간 월세로 매달 70만 원씩 냈는데 연말정산에서 한 번도 세액공제를 신청하지 않았다는 사실을 2026년 4월에야 알게 됐습니다. 홈택스 경정청구로 2021~2025 귀속 5년 치를 한 번에 청구했고, 임대차계약서와 월세 송금 내역을 PDF로 업로드한 뒤 약 7주 만에 환급 결정 통지를 받았습니다. 환급가산금까지 포함해 총 240만 원 수준이 본인 계좌로 입금됐다고 합니다.</p>
+  <p>프리랜서로 연 7천만 원 수준의 수입을 올리던 1인 사업자는 업무용 차량 비용을 운행기록부 없이 카드전표로만 관리하다가 1,500만 원 한도 초과분이 전액 부인되는 경험을 했습니다. 이듬해부터 사업용 신용카드를 홈택스에 등록해 월별 자동 수집으로 전환하고, 차량 비용은 업무전용 자동차보험에 가입한 뒤 운행기록부 앱으로 업무사용비율을 관리하자 경비 인정 폭이 약 550만 원 늘어났습니다.</p>
+  <p>소상공인 운영자가 여직원·야근 직원 식대·회식비를 복리후생비로 넣지 않고 전부 기업업무추진비로 분류한 탓에 한도 초과로 일부가 부인된 일이 있었습니다. 세무대리인과 장부를 다시 훑어 복리후생비·광고선전비·업무추진비·판촉물(1인당 5만 원 이하) 계정을 명확히 분리하자 경비 인정 구조가 정리됐고, 같은 매출 구간에서 세액이 전년 대비 약 12% 감소했습니다. 계정과목 분류가 단순 문구가 아니라 실제 세액을 바꾼다는 사실을 절감했다고 합니다.</p>
+
+  <!-- ✅ 이미지 4: 탈락 사유 TOP 5 카드 -->
+  <img src="rejection_card_1080_tax_refund_correction_2026.png" alt="종합소득세 환급 경정청구 탈락 사유 TOP 5" />
+
+  <h2 id="faq">8) FAQ · 탈락 사유 TOP 5</h2>
+  <h3>경정청구 거절·경비 부인 TOP 5</h3>
+  <ol>
+    <li><strong>증빙 분할</strong> — 3만 원 초과를 여러 건으로 쪼개 간이영수증 처리 → 실질과세 원칙 부인.</li>
+    <li><strong>원천세 미신고 인건비</strong> — 지급명세서 없는 인건비는 경비 부인 + 지급명세서 미제출 가산세(지급액 1%).</li>
+    <li><strong>운행기록부 없이 1,500만 초과</strong> — 업무용 차량 비용 초과분 전액 부인.</li>
+    <li><strong>가사관련비 혼입</strong> — 본인 식대·가족 차량·생필품·성형·여행비 → §33 부인.</li>
+    <li><strong>기한 경과</strong> — 경정청구 5년 시효 / 후발적 사유 3개월 초과 시 청구 각하.</li>
+  </ol>
+
+  <h3>시간·중복·예외</h3>
+  <ul>
+    <li>기한: 통상 5년 / 후발적 3개월 / 수정신고는 부과제척기간 내.</li>
+    <li>중복: 심사·심판 중 하나만 선택(국기법 §55 ⑨).</li>
+    <li>예외: 조사 통지·고지 전 자발적 수정신고는 가산세 50~95% 감면.</li>
+  </ul>
+
+  <h3>자주 묻는 질문</h3>
+  <p class="q">Q1. 5년이 이미 지난 건은 아예 방법이 없나요?</p>
+  <p class="a">후발적 경정청구 사유(판결, 처분 변경 등)에 해당하면 사유를 안 날부터 3개월 이내 청구 가능합니다. 그 외에는 소멸시효로 회복이 어렵습니다.</p>
+  <p class="q">Q2. 경정청구로 세금이 더 늘어날 수도 있나요?</p>
+  <p class="a">아닙니다. 경정청구 자체는 과다 신고분을 돌려받는 절차이므로 증액 결정이 날 수 없습니다. 다만 세무서가 심사 과정에서 과소 신고를 발견하면 별도 부과처분으로 진행할 수는 있습니다.</p>
+  <p class="q">Q3. 연말정산 간소화에 안 잡히는 의료비는 어떻게 하나요?</p>
+  <p class="a">해당 병·의원의 진료비 납입확인서와 영수증을 발급받아 제출하면 됩니다. 성형·미용·건강식품 등 업무 무관 항목은 제외됩니다.</p>
+  <p class="q">Q4. 중소기업 취업자 소득세 감면을 회사가 반영 안 했다면요?</p>
+  <p class="a">감면신청서·재직증명서·주민등록등본을 첨부해 홈택스 경정청구로 5년 내 회복 가능합니다. 청년(15~34세)은 최초 취업 후 5년간 90% 감면(연 200만 원 한도)입니다.</p>
+  <p class="q">Q5. 환급금은 언제 받나요?</p>
+  <p class="a">5월 정기신고분은 6월 말~7월 초에 본인 계좌로 입금됩니다. 경정청구는 접수 후 2개월 이내 결정 통지, 이후 30일 이내 환급되는 것이 원칙입니다.</p>
+  <p class="q">Q6. 업무용 승용차는 운행기록부를 꼭 써야 하나요?</p>
+  <p class="a">연간 차량 관련 경비가 1,500만 원 이하라면 운행기록부 없이 전액 인정됩니다. 초과하면 운행기록부로 업무사용비율을 입증해야 합니다. 업무전용 자동차보험 가입은 복식부기의무자·성실신고확인대상자의 의무입니다.</p>
+  <p class="q">Q7. 자택을 사무실로 쓰는데 월세를 경비로 넣어도 될까요?</p>
+  <p class="a">원칙적으로 1인 사업자의 자택 월세는 부인됩니다. 사업 전용 공간 면적을 명확히 구분·입증할 수 있는 경우에 한해 안분 가능하지만 실무상 난이도가 높아 세무대리인과 사전 상담을 권장합니다.</p>
+  <p class="q">Q8. 카드전표만 있고 세금계산서가 없으면 경비로 안 되나요?</p>
+  <p class="a">신용카드매출전표(체크카드 포함)와 현금영수증은 세금계산서와 동일한 적격증빙입니다. 사업자용 현금영수증으로 발급받거나 사업용 신용카드를 홈택스에 등록해 자동 수집하면 편리합니다.</p>
+  <p class="q">Q9. 경정청구를 세무사에게 맡기면 비용은 얼마인가요?</p>
+  <p class="a">시장 관행상 환급액의 10~20% 또는 건당 10~30만 원 고정 수수료가 일반적입니다. 단순 월세·중기취업자 감면 한 항목은 직접 하는 게 경제적이고, 여러 항목·사업자 기장 이슈는 위임이 유리합니다.</p>
+  <p class="q">Q10. 거절되면 이의신청과 심판청구 중 뭐가 나을까요?</p>
+  <p class="a">이의신청은 임의 절차로 결정 기한 30일, 심판청구는 조세심판원(독립기관)으로 결정 기한 90일입니다. 사실관계가 명확하고 쟁점이 크지 않으면 이의신청, 법적 쟁점이 복잡하면 심판청구가 유리한 경우가 많습니다.</p>
+
+  <div class="tips">
+    <strong>실전 팁</strong><br/>
+    홈택스 'My홈택스 → 연말정산 간소화' 또는 '지급명세서 등 제출내역 조회'에서 <strong>최근 5년 치 데이터를 한꺼번에</strong> 내려받을 수 있습니다. 여기에 누락된 영수증·계약서를 더해 한 번에 경정청구를 접수하면 가산금까지 포함된 환급액이 상당히 커집니다.
+  </div>
+
+  <!-- ✅ 이미지 5: 체크리스트 카드 -->
+  <img src="checklist_card_1080_tax_refund_correction_2026.png" alt="종합소득세 환급 경정청구 1분 체크리스트" />
+
+  <h2 id="check">9) 신청 전 1분 체크리스트</h2>
+  <ul>
+    <li>지난 5년 귀속 지급명세서·연말정산 간소화 자료 확보</li>
+    <li>월세·의료비·기부금·교육비 영수증 원본 확인</li>
+    <li>부양가족 소득 요건(연 100만 / 근로만 500만) 재확인</li>
+    <li>중소기업 취업자 감면 적용 여부 확인(청년 90%·5년)</li>
+    <li>사업용 계좌·카드 홈택스 등록(복식부기의무자 필수)</li>
+    <li>업무용차 운행기록부·업무전용 자동차보험 준비</li>
+    <li>적격증빙 3만 원·기업업무추진비 1만 원 룰 재점검</li>
+    <li>거절 시 90일 불복 기간 달력 등록</li>
+  </ul>
+  <p class="small">관련 글: 종합소득세 신고 총정리 / 부가가치세 신고 가이드 / 소상공인 세무조사 대응·가산세 줄이는 법</p>
+
+  <div class="tips">
+    <strong>참고/문의처</strong><br/>
+    홈택스 경정청구: <a href="https://www.hometax.go.kr/" target="_blank" rel="noopener">hometax.go.kr</a><br/>
+    국세청 종합소득세 안내: <a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7664&mi=2224" target="_blank" rel="noopener">nts.go.kr</a><br/>
+    국세청 불복제도 안내: <a href="https://www.nts.go.kr/taxpayer_advocate/cm/cntnts/cntntsView.do?mi=11490&cntntsId=8298" target="_blank" rel="noopener">nts.go.kr</a><br/>
+    조세심판원: <a href="https://www.tt.go.kr/" target="_blank" rel="noopener">tt.go.kr</a><br/>
+    세무상담 콜센터: 126 (국번 없이)
+  </div>
+
+  <div class="footer" id="update">
+    <strong>업데이트 로그</strong><br/>
+    - 2026-04-23: 초안 작성. 환급가산금 3.1%, 경정청구 5년·2개월, 업무용차 1,500만·800만, 기업업무추진비 중소 3,600만 한도 반영.<br/>
+    <span class="small">※ 이자율·한도·감면율은 귀속연도별로 개정될 수 있어요. 신고 전 공식 사이트·세무대리인 확인 필수!</span>
+  </div>
+</div>

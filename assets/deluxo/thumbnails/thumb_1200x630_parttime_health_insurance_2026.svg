@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 배경 -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- 우측 장식 원형 -->
+  <circle cx="1050" cy="315" r="300" fill="#1A3270" opacity="0.35"/>
+  <circle cx="150" cy="580" r="150" fill="#0D2347" opacity="0.5"/>
+
+  <!-- 좌측 텍스트 영역 -->
+
+  <!-- 배지 -->
+  <rect x="60" y="50" width="160" height="44" rx="22" fill="#F59E0B"/>
+  <text x="140" y="79" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="800" fill="#0B1F3B" text-anchor="middle">2026 최신</text>
+
+  <!-- 메인 제목 -->
+  <text x="60" y="168" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="60" font-weight="900" fill="#FFFFFF">일용직·아르바이트</text>
+  <text x="60" y="242" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="60" font-weight="900" fill="#34D399">건강보험 가입 기준</text>
+  <text x="60" y="316" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="60" font-weight="900" fill="#FFFFFF">완전 정리 (2026)</text>
+
+  <!-- 서브 -->
+  <text x="60" y="380" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="30" fill="#EAF2FF">직장가입자 · 피부양자 소득·재산 요건</text>
+  <text x="60" y="418" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="30" fill="#EAF2FF">90일 소급 신청까지 한눈에</text>
+
+  <!-- 구분선 -->
+  <rect x="60" y="448" width="480" height="3" rx="2" fill="#34D399"/>
+
+  <!-- 하단 칩 -->
+  <rect x="60" y="472" width="192" height="44" rx="22" fill="#E8F0FF"/>
+  <text x="156" y="500" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="700" fill="#1D4ED8" text-anchor="middle">직장가입자 기준</text>
+
+  <rect x="268" y="472" width="180" height="44" rx="22" fill="#E8F0FF"/>
+  <text x="358" y="500" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="700" fill="#1D4ED8" text-anchor="middle">피부양자 조건</text>
+
+  <rect x="464" y="472" width="180" height="44" rx="22" fill="#E8F0FF"/>
+  <text x="554" y="500" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="700" fill="#1D4ED8" text-anchor="middle">90일 소급신청</text>
+
+  <!-- 우측 비교 카드 -->
+  <rect x="700" y="50" width="450" height="530" rx="24" fill="#0D2347" stroke="#1A3270" stroke-width="2"/>
+
+  <text x="925" y="104" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="800" fill="#F59E0B" text-anchor="middle">핵심 자격 기준</text>
+
+  <rect x="720" y="120" width="410" height="2" fill="#1A3270"/>
+
+  <!-- 직장가입자 -->
+  <rect x="720" y="135" width="410" height="110" rx="12" fill="#102A56"/>
+  <text x="925" y="174" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="800" fill="#34D399" text-anchor="middle">직장가입자</text>
+  <text x="925" y="204" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="21" fill="#FFFFFF" text-anchor="middle">1개월 이상 + 월 60시간 이상</text>
+  <text x="925" y="232" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="19" fill="#A0B4D0" text-anchor="middle">사업주 14일 이내 의무 신고</text>
+
+  <!-- 피부양자 소득 -->
+  <rect x="720" y="258" width="410" height="110" rx="12" fill="#102A56"/>
+  <text x="925" y="297" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="800" fill="#34D399" text-anchor="middle">피부양자 소득 요건</text>
+  <text x="925" y="327" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="21" fill="#FFFFFF" text-anchor="middle">연 2,000만 원 이하</text>
+  <text x="925" y="355" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="19" fill="#A0B4D0" text-anchor="middle">금융소득 1,000만 이하는 제외</text>
+
+  <!-- 피부양자 재산 -->
+  <rect x="720" y="381" width="410" height="110" rx="12" fill="#102A56"/>
+  <text x="925" y="420" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="800" fill="#34D399" text-anchor="middle">피부양자 재산 요건</text>
+  <text x="925" y="450" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="21" fill="#FFFFFF" text-anchor="middle">과세표준 5억 4천만 원 이하</text>
+  <text x="925" y="478" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="19" fill="#A0B4D0" text-anchor="middle">형제·자매: 1억 8천만 원 이하</text>
+
+  <!-- 90일 경고 -->
+  <rect x="720" y="503" width="410" height="64" rx="12" fill="#F59E0B"/>
+  <text x="925" y="538" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="900" fill="#0B1F3B" text-anchor="middle">취득일 90일 이내 신청 필수</text>
+  <text x="925" y="560" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" font-weight="700" fill="#0B1F3B" text-anchor="middle">초과 시 소급 불가 — 지금 확인하세요</text>
+
+  <!-- 하단 출처 -->
+  <text x="600" y="604" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="19" fill="#4A6080" text-anchor="middle">deluxo · 국민건강보험법 제6조 · 2026년 5월 기준</text>
+</svg>

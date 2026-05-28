@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="8" fill="#F59E0B"/>
+
+  <!-- Title -->
+  <text x="540" y="72" font-family="-apple-system, sans-serif" font-size="34" font-weight="900" fill="#FFFFFF" text-anchor="middle">신청 소요 기간 &amp; 선발 우선순위</text>
+  <text x="540" y="110" font-family="-apple-system, sans-serif" font-size="21" font-weight="600" fill="#F59E0B" text-anchor="middle">신청 전에 반드시 확인할 실전 정보</text>
+
+  <!-- Section 1: 소요 기간 -->
+  <text x="60" y="158" font-family="-apple-system, sans-serif" font-size="22" font-weight="800" fill="#34D399">신청 → 참여 소요 기간</text>
+
+  <!-- Header -->
+  <rect x="40" y="170" width="1000" height="48" rx="6" fill="#1D4ED8"/>
+  <text x="200" y="200" font-family="-apple-system, sans-serif" font-size="17" font-weight="800" fill="#FFFFFF" text-anchor="middle">단계</text>
+  <text x="540" y="200" font-family="-apple-system, sans-serif" font-size="17" font-weight="800" fill="#FFFFFF" text-anchor="middle">시기</text>
+  <text x="840" y="200" font-family="-apple-system, sans-serif" font-size="17" font-weight="800" fill="#FFFFFF" text-anchor="middle">소요 기간</text>
+
+  <!-- Rows -->
+  <rect x="40" y="226" width="1000" height="60" rx="4" fill="#1A3270"/>
+  <text x="200" y="262" font-family="-apple-system, sans-serif" font-size="17" fill="#EAF2FF" text-anchor="middle">정기 모집 공고</text>
+  <text x="540" y="262" font-family="-apple-system, sans-serif" font-size="17" fill="#F59E0B" text-anchor="middle">매년 10~12월</text>
+  <text x="840" y="262" font-family="-apple-system, sans-serif" font-size="17" fill="#EAF2FF" text-anchor="middle">—</text>
+
+  <rect x="40" y="294" width="1000" height="60" rx="4" fill="#102A56"/>
+  <text x="200" y="330" font-family="-apple-system, sans-serif" font-size="17" fill="#EAF2FF" text-anchor="middle">서류 검토 &amp; 선발</text>
+  <text x="540" y="330" font-family="-apple-system, sans-serif" font-size="17" fill="#F59E0B" text-anchor="middle">모집 마감 후 2~4주</text>
+  <text x="840" y="330" font-family="-apple-system, sans-serif" font-size="17" fill="#34D399" text-anchor="middle">2~4주</text>
+
+  <rect x="40" y="362" width="1000" height="60" rx="4" fill="#1A3270"/>
+  <text x="200" y="398" font-family="-apple-system, sans-serif" font-size="17" fill="#EAF2FF" text-anchor="middle">사전 교육 이수</text>
+  <text x="540" y="398" font-family="-apple-system, sans-serif" font-size="17" fill="#F59E0B" text-anchor="middle">활동 시작 전 필수</text>
+  <text x="840" y="398" font-family="-apple-system, sans-serif" font-size="17" fill="#34D399" text-anchor="middle">1~2일</text>
+
+  <rect x="40" y="430" width="1000" height="60" rx="4" fill="#102A56"/>
+  <text x="200" y="466" font-family="-apple-system, sans-serif" font-size="17" fill="#EAF2FF" text-anchor="middle">활동 시작 &amp; 첫 활동비 수령</text>
+  <text x="540" y="466" font-family="-apple-system, sans-serif" font-size="17" fill="#F59E0B" text-anchor="middle">다음 해 1월부터</text>
+  <text x="840" y="466" font-family="-apple-system, sans-serif" font-size="17" fill="#34D399" text-anchor="middle">익월 지급</text>
+
+  <!-- Divider -->
+  <rect x="40" y="510" width="1000" height="2" fill="#F59E0B" opacity="0.3"/>
+
+  <!-- Section 2: 선발 우선순위 -->
+  <text x="60" y="548" font-family="-apple-system, sans-serif" font-size="22" font-weight="800" fill="#60A5FA">선발 우선순위 (경쟁 시 유리한 조건)</text>
+
+  <!-- Priority cards: 2x2 + 1 -->
+  <rect x="40" y="564" width="474" height="120" rx="12" fill="#1A3270"/>
+  <rect x="40" y="564" width="6" height="120" rx="3" fill="#F59E0B"/>
+  <text x="76" y="604" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#F59E0B">1순위</text>
+  <text x="76" y="634" font-family="-apple-system, sans-serif" font-size="17" fill="#EAF2FF">독거노인 · 저소득 가구</text>
+  <text x="76" y="658" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0">기초생활수급자 포함</text>
+
+  <rect x="566" y="564" width="474" height="120" rx="12" fill="#1A3270"/>
+  <rect x="566" y="564" width="6" height="120" rx="3" fill="#34D399"/>
+  <text x="602" y="604" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#34D399">2순위</text>
+  <text x="602" y="634" font-family="-apple-system, sans-serif" font-size="17" fill="#EAF2FF">이전 미참여자 또는</text>
+  <text x="602" y="658" font-family="-apple-system, sans-serif" font-size="17" fill="#EAF2FF">장기 미참여자</text>
+
+  <rect x="40" y="698" width="474" height="120" rx="12" fill="#1A3270"/>
+  <rect x="40" y="698" width="6" height="120" rx="3" fill="#60A5FA"/>
+  <text x="76" y="738" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#60A5FA">3순위</text>
+  <text x="76" y="768" font-family="-apple-system, sans-serif" font-size="17" fill="#EAF2FF">관련 자격증 · 경력 보유자</text>
+  <text x="76" y="792" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0">역량활용형 필수 조건</text>
+
+  <rect x="566" y="698" width="474" height="120" rx="12" fill="#1A3270"/>
+  <rect x="566" y="698" width="6" height="120" rx="3" fill="#A78BFA"/>
+  <text x="602" y="738" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#A78BFA">4순위</text>
+  <text x="602" y="768" font-family="-apple-system, sans-serif" font-size="17" fill="#EAF2FF">기초연금수급자 중 저소득층</text>
+  <text x="602" y="792" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0">공익활동형 우선</text>
+
+  <!-- Warning Box -->
+  <rect x="40" y="840" width="1000" height="110" rx="12" fill="#1D4ED8" opacity="0.3"/>
+  <rect x="40" y="840" width="1000" height="110" rx="12" fill="none" stroke="#F59E0B" stroke-width="2"/>
+  <text x="540" y="882" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#F59E0B" text-anchor="middle">⚠ 조기 마감 주의</text>
+  <text x="540" y="910" font-family="-apple-system, sans-serif" font-size="17" fill="#EAF2FF" text-anchor="middle">인기 지역·사업은 10월 초에 마감되는 경우가 많음</text>
+  <text x="540" y="934" font-family="-apple-system, sans-serif" font-size="17" fill="#EAF2FF" text-anchor="middle">10월 초 주민센터 또는 ☎ 1544-3388로 미리 문의 권장</text>
+
+  <!-- Footer -->
+  <text x="540" y="988" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준 | 지역별 상이 — 수행기관 확인 필수</text>
+
+  <rect x="0" y="1072" width="1080" height="8" fill="#F59E0B"/>
+</svg>

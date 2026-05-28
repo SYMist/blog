@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="40" y="36" width="200" height="44" rx="22" fill="#F59E0B"/>
+  <text x="140" y="65" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#0B1F3B">2026 최신</text>
+  <text x="40" y="130" font-family="'Pretendard',sans-serif" font-size="46" font-weight="900" fill="#FFFFFF">자영업자 4대보험</text>
+  <text x="40" y="185" font-family="'Pretendard',sans-serif" font-size="46" font-weight="900" fill="#FFFFFF">절감·적용제외 요약</text>
+  <rect x="40" y="210" width="120" height="4" rx="2" fill="#F59E0B"/>
+  <rect x="40" y="240" width="490" height="200" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <text x="70" y="278" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#F59E0B">건강보험 7.09%</text>
+  <text x="70" y="316" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">• 자동차 부과 전면 폐지</text>
+  <text x="70" y="348" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">• 재산 공제 5천만→1억 확대</text>
+  <text x="70" y="380" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">• 333만 세대 평균 월 2.5만↓</text>
+  <text x="70" y="418" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#F59E0B">최대 월 10.1만 원 절감</text>
+  <rect x="550" y="240" width="490" height="200" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <text x="580" y="278" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#F59E0B">국민연금 9%</text>
+  <text x="580" y="316" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">• 저소득자 보험료 50% 지원</text>
+  <text x="580" y="348" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">• 월 최대 46,350원 × 12개월</text>
+  <text x="580" y="380" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">• 상한 637만/하한 40만 원</text>
+  <text x="580" y="418" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#F59E0B">연간 최대 55.6만 원 절감</text>
+  <rect x="40" y="460" width="490" height="200" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <text x="70" y="498" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#F59E0B">고용보험 (임의가입)</text>
+  <text x="70" y="536" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">• 정부 50~80% 환급 (5년)</text>
+  <text x="70" y="568" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">• 지자체 10~50% 추가</text>
+  <text x="70" y="600" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">• 폐업 시 실업급여 수급</text>
+  <text x="70" y="638" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#F59E0B">본인 부담 10~40%까지 축소</text>
+  <rect x="550" y="460" width="490" height="200" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <text x="580" y="498" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#F59E0B">산재보험 (임의가입)</text>
+  <text x="580" y="536" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">• 1인 자영업자도 가입 가능</text>
+  <text x="580" y="568" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">• 무과실 책임 — 업무 사고 보상</text>
+  <text x="580" y="600" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">• 치료비+휴업급여+장해급여</text>
+  <text x="580" y="638" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#F59E0B">적용 제외 사실상 없음</text>
+  <rect x="40" y="690" width="1000" height="130" rx="16" fill="rgba(245,158,11,0.12)"/>
+  <text x="70" y="730" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#F59E0B">두루누리 사회보험료 지원</text>
+  <text x="70" y="768" font-family="'Pretendard',sans-serif" font-size="22" font-weight="600" fill="#FFFFFF">10인 미만·월 270만 미만·신규 가입자 → 보험료 80% 지원</text>
+  <text x="70" y="800" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">사업주+근로자 각각 연 120만 원+ 절감</text>
+  <rect x="40" y="850" width="1000" height="90" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="70" y="888" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#EAF2FF">적용 제외 핵심</text>
+  <text x="340" y="888" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">월 60시간 미만 | 1개월 미만 일용직 | 만 65세↑ 신규(고용) | 산재는 제외 없음</text>
+  <rect x="40" y="970" width="120" height="38" rx="19" fill="#E8F0FF"/>
+  <text x="100" y="995" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#1D4ED8">절감</text>
+  <rect x="175" y="970" width="140" height="38" rx="19" fill="#E8F0FF"/>
+  <text x="245" y="995" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#1D4ED8">적용제외</text>
+  <rect x="330" y="970" width="100" height="38" rx="19" fill="#E8F0FF"/>
+  <text x="380" y="995" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#1D4ED8">2026</text>
+</svg>

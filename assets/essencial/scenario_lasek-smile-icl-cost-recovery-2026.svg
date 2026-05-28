@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="700" fill="url(#bg)"/>
+
+  <text x="540" y="46" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">시력교정술 상황별 추천 시나리오</text>
+  <text x="540" y="70" text-anchor="middle" fill="#99F6E4" font-size="13" font-family="sans-serif">예산·휴가·근시·각막 조건별 5종 · 2026.05</text>
+
+  <!-- Scenario A: 라섹 -->
+  <rect x="40" y="90" width="480" height="116" rx="10" fill="#14532d" fill-opacity="0.6" stroke="#15803D" stroke-width="1.5"/>
+  <rect x="40" y="90" width="480" height="36" rx="10" fill="#15803D"/>
+  <rect x="40" y="112" width="480" height="14" fill="#15803D"/>
+  <text x="60" y="114" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">A. 30대 직장인 + 휴가 1주 + 근시 -4D + 예산 200만</text>
+  <text x="60" y="148" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">→ 라섹 (가성비 최고, 통증 감수)</text>
+  <text x="60" y="170" fill="#CBD5E1" font-size="12" font-family="sans-serif">100~200만으로 예산 적합 · 1~2주 회복 가능</text>
+  <text x="60" y="192" fill="#CBD5E1" font-size="12" font-family="sans-serif">통증 3~7일 + 시력 안정 1~2개월 감수</text>
+
+  <!-- Scenario B: 스마일 -->
+  <rect x="560" y="90" width="480" height="116" rx="10" fill="#134E4A" fill-opacity="0.6" stroke="#0F766E" stroke-width="1.5"/>
+  <rect x="560" y="90" width="480" height="36" rx="10" fill="#0F766E"/>
+  <rect x="560" y="112" width="480" height="14" fill="#0F766E"/>
+  <text x="580" y="114" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">B. 직장인 + 휴가 3~5일 + 근시 -5D + 통증 회피</text>
+  <text x="580" y="148" fill="#99F6E4" font-size="13" font-weight="700" font-family="sans-serif">→ 스마일라식 (통증·회복 균형)</text>
+  <text x="580" y="170" fill="#CBD5E1" font-size="12" font-family="sans-serif">200~350만 · 통증 적고 회복 1~3일</text>
+  <text x="580" y="192" fill="#CBD5E1" font-size="12" font-family="sans-serif">직장인 휴가 1주 내 가능 + 통증 부담 적음</text>
+
+  <!-- Scenario C: ICL 고도근시 -->
+  <rect x="40" y="226" width="480" height="116" rx="10" fill="#4c1d95" fill-opacity="0.6" stroke="#7C3AED" stroke-width="1.5"/>
+  <rect x="40" y="226" width="480" height="36" rx="10" fill="#7C3AED"/>
+  <rect x="40" y="248" width="480" height="14" fill="#7C3AED"/>
+  <text x="60" y="250" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">C. 고도근시 -10D + 각막 480μm 이하</text>
+  <text x="60" y="284" fill="#DDD6FE" font-size="13" font-weight="700" font-family="sans-serif">→ ICL 외 선택지 없음 (각막 보존 필수)</text>
+  <text x="60" y="306" fill="#CBD5E1" font-size="12" font-family="sans-serif">라섹·스마일라식 시 각막확장증 위험</text>
+  <text x="60" y="328" fill="#CBD5E1" font-size="12" font-family="sans-serif">470~600만 비용 + 평생 6개월 검진 감수</text>
+
+  <!-- Scenario D: ICL 가역성 -->
+  <rect x="560" y="226" width="480" height="116" rx="10" fill="#4c1d95" fill-opacity="0.6" stroke="#7C3AED" stroke-width="1.5"/>
+  <rect x="560" y="226" width="480" height="36" rx="10" fill="#7C3AED"/>
+  <rect x="560" y="248" width="480" height="14" fill="#7C3AED"/>
+  <text x="580" y="250" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">D. 운동선수·연예인 + 가역성 우선</text>
+  <text x="580" y="284" fill="#DDD6FE" font-size="13" font-weight="700" font-family="sans-serif">→ ICL (렌즈 제거·교체 가능)</text>
+  <text x="580" y="306" fill="#CBD5E1" font-size="12" font-family="sans-serif">라섹·스마일라식은 영구 (복구 X)</text>
+  <text x="580" y="328" fill="#CBD5E1" font-size="12" font-family="sans-serif">시력 변동·노안 대비 향후 렌즈 교체 가능</text>
+
+  <!-- Scenario E: 노안 동시 -->
+  <rect x="40" y="362" width="1000" height="116" rx="10" fill="#422006" fill-opacity="0.6" stroke="#D97706" stroke-width="1.5"/>
+  <rect x="40" y="362" width="1000" height="36" rx="10" fill="#D97706"/>
+  <rect x="40" y="384" width="1000" height="14" fill="#D97706"/>
+  <text x="60" y="386" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">E. 40대+ 노안 시작 + 시력교정 동시 검토</text>
+  <text x="60" y="420" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">→ ICL 트리포컬 렌즈 또는 노안 전용 수술 별도 검토</text>
+  <text x="60" y="442" fill="#CBD5E1" font-size="12" font-family="sans-serif">라섹·스마일라식은 노안 별도 처치 필요 (이중 수술)</text>
+  <text x="60" y="464" fill="#CBD5E1" font-size="12" font-family="sans-serif">ICL 트리포컬은 근시·노안 동시 교정 가능 (가격↑·정밀 상담 필요)</text>
+
+  <!-- Summary -->
+  <rect x="40" y="496" width="1000" height="176" rx="10" fill="#1e293b" fill-opacity="0.8"/>
+  <text x="540" y="528" text-anchor="middle" fill="#F8FAFC" font-size="14" font-weight="800" font-family="sans-serif">핵심 결론 3줄 요약</text>
+  <text x="80" y="562" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">예산 200만 이하</text>
+  <text x="250" y="562" fill="#FFFFFF" font-size="13" font-family="sans-serif">→ 라섹 (가성비·휴가 1~2주 가능)</text>
+  <text x="80" y="594" fill="#99F6E4" font-size="13" font-weight="700" font-family="sans-serif">200~400만 + 빠른 회복</text>
+  <text x="250" y="594" fill="#FFFFFF" font-size="13" font-family="sans-serif">→ 스마일라식 (통증 적고 휴가 3~5일)</text>
+  <text x="80" y="626" fill="#DDD6FE" font-size="13" font-weight="700" font-family="sans-serif">고도근시·각막 부족·가역성</text>
+  <text x="250" y="626" fill="#FFFFFF" font-size="13" font-family="sans-serif">→ ICL (각막 보존·렌즈 제거 가능·평생 검진 부담)</text>
+  <text x="80" y="654" fill="#94A3B8" font-size="12" font-family="sans-serif">※ 안과 정밀검사 후 본인 각막·근시 기준 결정 필수 · 같은 수술 병원별 30~50% 가격 차이</text>
+
+  <text x="40" y="686" fill="#64748B" font-size="12" font-family="sans-serif">essencial | 건강·의료 · 2026.05 기준 · 안과 3곳 이상 비교 견적 권장 · 일반 정보 (의료 자문 아님)</text>
+</svg>

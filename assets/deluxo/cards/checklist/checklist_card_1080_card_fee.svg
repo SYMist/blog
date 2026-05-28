@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="80" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="800" fill="#F59E0B">카드수수료 환급 체크리스트</text>
+  <rect x="60" y="110" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <rect x="60" y="140" width="960" height="100" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="191" font-family="'Pretendard',sans-serif" font-size="34" fill="#22C55E">☑</text>
+  <text x="150" y="185" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">연매출 30억 원 이하 소상공인 확인</text>
+  <text x="150" y="220" font-family="'Pretendard',sans-serif" font-size="19" fill="#EAF2FF">영세(3억↓) · 중소1(3~5억) · 중소2(5~10억) · 중소3(10~30억)</text>
+
+  <rect x="60" y="250" width="960" height="100" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="301" font-family="'Pretendard',sans-serif" font-size="34" fill="#22C55E">☑</text>
+  <text x="150" y="295" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">카드사 정산 계좌 정보 정확한지 확인</text>
+  <text x="150" y="330" font-family="'Pretendard',sans-serif" font-size="19" fill="#EAF2FF">카드사·PG사 등록 계좌 = 실제 사용 계좌 통일</text>
+
+  <rect x="60" y="360" width="960" height="100" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="411" font-family="'Pretendard',sans-serif" font-size="34" fill="#22C55E">☑</text>
+  <text x="150" y="405" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">홈택스 사업자 계좌 등록 확인</text>
+  <text x="150" y="440" font-family="'Pretendard',sans-serif" font-size="19" fill="#EAF2FF">국세청 홈택스에서 사업자 계좌 정보 업데이트</text>
+
+  <rect x="60" y="470" width="960" height="100" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="521" font-family="'Pretendard',sans-serif" font-size="34" fill="#22C55E">☑</text>
+  <text x="150" y="515" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">여신금융협회 통합조회에서 수수료율 확인</text>
+  <text x="150" y="550" font-family="'Pretendard',sans-serif" font-size="19" fill="#EAF2FF">cardsales.or.kr → 사업자번호 입력 → 적용 수수료율 조회</text>
+
+  <rect x="60" y="580" width="960" height="100" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="631" font-family="'Pretendard',sans-serif" font-size="34" fill="#22C55E">☑</text>
+  <text x="150" y="625" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">신규 가맹점이라면 환급액 조회 완료</text>
+  <text x="150" y="660" font-family="'Pretendard',sans-serif" font-size="19" fill="#EAF2FF">통합조회 → 신규가맹점 수수료 환급액 조회 메뉴</text>
+
+  <rect x="60" y="690" width="960" height="100" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="741" font-family="'Pretendard',sans-serif" font-size="34" fill="#22C55E">☑</text>
+  <text x="150" y="735" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">반기별 매출 신고 정확히</text>
+  <text x="150" y="770" font-family="'Pretendard',sans-serif" font-size="19" fill="#EAF2FF">현금매출 포함 — 누락 시 우대수수료 적용 지연</text>
+
+  <rect x="60" y="800" width="960" height="100" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="851" font-family="'Pretendard',sans-serif" font-size="34" fill="#EF4444">⚠</text>
+  <text x="150" y="845" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">유료 대행 서비스·광고 무시</text>
+  <text x="150" y="880" font-family="'Pretendard',sans-serif" font-size="19" fill="#EAF2FF">모든 조회·환급은 무료 — 대행업체 필요 없음!</text>
+
+  <rect x="60" y="920" width="960" height="100" rx="16" fill="rgba(59,130,246,0.15)"/>
+  <text x="100" y="971" font-family="'Pretendard',sans-serif" font-size="34" fill="#3B82F6">🔗</text>
+  <text x="150" y="970" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#3B82F6">여신금융협회 통합조회 시스템 접속!</text>
+</svg>

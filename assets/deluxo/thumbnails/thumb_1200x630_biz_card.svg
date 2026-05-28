@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1200" height="630" rx="24" fill="url(#bg)"/>
+  <rect x="460" y="60" width="280" height="48" rx="24" fill="#F59E0B"/>
+  <text x="600" y="92" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#0B1F3B">2026 최신</text>
+  <text x="600" y="220" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="68" font-weight="900" fill="#FFF">사업자 신용카드</text>
+  <text x="600" y="300" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="40" font-weight="600" fill="#EAF2FF">추천·비교 — 혜택·한도·연회비 총정리</text>
+  <rect x="210" y="380" width="150" height="50" rx="24" fill="#E8F0FF"/>
+  <text x="285" y="413" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#1D4ED8">비교</text>
+  <rect x="390" y="380" width="150" height="50" rx="24" fill="#E8F0FF"/>
+  <text x="465" y="413" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#1D4ED8">추천</text>
+  <rect x="570" y="380" width="150" height="50" rx="24" fill="#E8F0FF"/>
+  <text x="645" y="413" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#1D4ED8">혜택</text>
+  <rect x="750" y="380" width="150" height="50" rx="24" fill="#E8F0FF"/>
+  <text x="825" y="413" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#1D4ED8">한도</text>
+  <rect x="60" y="570" width="1080" height="6" rx="3" fill="#F59E0B"/>
+</svg>

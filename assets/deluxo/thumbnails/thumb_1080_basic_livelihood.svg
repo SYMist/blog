@@ -1,0 +1,21 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1080" y2="1080" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="80" y="200" width="180" height="50" rx="25" fill="#F59E0B"/>
+  <text x="170" y="233" font-size="28" fill="#0B1F3B" font-weight="700" font-family="Pretendard, 'Noto Sans KR', sans-serif" text-anchor="middle">2026 최신</text>
+  <text x="80" y="380" font-size="82" fill="#FFFFFF" font-weight="800" font-family="Pretendard, 'Noto Sans KR', sans-serif" letter-spacing="-1.5">기초수급·차상위</text>
+  <text x="80" y="475" font-size="82" fill="#FFFFFF" font-weight="800" font-family="Pretendard, 'Noto Sans KR', sans-serif" letter-spacing="-1.5">지원 기준 총정리</text>
+  <text x="80" y="580" font-size="52" fill="#EAF2FF" font-weight="600" font-family="Pretendard, 'Noto Sans KR', sans-serif" letter-spacing="-0.5">4인가구 생계급여 월 208만원</text>
+  <text x="80" y="660" font-size="52" fill="#EAF2FF" font-weight="600" font-family="Pretendard, 'Noto Sans KR', sans-serif" letter-spacing="-0.5">차상위 5가지 지원유형</text>
+  <rect x="80" y="760" width="160" height="52" rx="26" fill="#E8F0FF"/>
+  <text x="160" y="794" font-size="30" fill="#1D4ED8" font-weight="600" font-family="Pretendard, 'Noto Sans KR', sans-serif" text-anchor="middle">선정기준</text>
+  <rect x="260" y="760" width="160" height="52" rx="26" fill="#E8F0FF"/>
+  <text x="340" y="794" font-size="30" fill="#1D4ED8" font-weight="600" font-family="Pretendard, 'Noto Sans KR', sans-serif" text-anchor="middle">중위소득</text>
+  <rect x="440" y="760" width="160" height="52" rx="26" fill="#E8F0FF"/>
+  <text x="520" y="794" font-size="30" fill="#1D4ED8" font-weight="600" font-family="Pretendard, 'Noto Sans KR', sans-serif" text-anchor="middle">신청방법</text>
+</svg>

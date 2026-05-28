@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1200" height="630" rx="24" fill="url(#bg)"/>
+
+  <!-- 배지 -->
+  <rect x="60" y="50" width="300" height="50" rx="25" fill="#F59E0B"/>
+  <text x="210" y="84" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#0B1F3B">2026 최신 · 법 개정</text>
+
+  <!-- 메인 타이틀 -->
+  <text x="60" y="175" font-family="'Pretendard',sans-serif" font-size="68" font-weight="900" fill="#FFF">소상공인 임대료 지원</text>
+  <text x="60" y="255" font-family="'Pretendard',sans-serif" font-size="68" font-weight="900" fill="#FFF">상가임대차 총정리</text>
+
+  <!-- 서브 타이틀 -->
+  <text x="60" y="315" font-family="'Pretendard',sans-serif" font-size="40" font-weight="600" fill="#EAF2FF">바우처 25만 + 관리비 공개 + 착한 임대인 세액공제</text>
+
+  <!-- 칩 -->
+  <rect x="60" y="365" width="200" height="54" rx="24" fill="#E8F0FF"/>
+  <text x="160" y="401" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#1D4ED8">바우처25만</text>
+  <rect x="280" y="365" width="210" height="54" rx="24" fill="#E8F0FF"/>
+  <text x="385" y="401" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#1D4ED8">관리비공개</text>
+  <rect x="510" y="365" width="210" height="54" rx="24" fill="#E8F0FF"/>
+  <text x="615" y="401" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#1D4ED8">착한임대인</text>
+  <rect x="740" y="365" width="230" height="54" rx="24" fill="#E8F0FF"/>
+  <text x="855" y="401" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#1D4ED8">철거비600만</text>
+
+  <!-- CTA 박스 -->
+  <rect x="60" y="470" width="1080" height="85" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <text x="600" y="524" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="800" fill="#F59E0B">모르면 연간 수백만 원 손해 — 지금 확인하세요</text>
+
+  <!-- 하단 라인 -->
+  <rect x="60" y="590" width="1080" height="5" rx="2.5" fill="#F59E0B"/>
+</svg>

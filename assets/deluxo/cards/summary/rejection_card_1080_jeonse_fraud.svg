@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#EF4444">전세사기 지원 제외(탈락) 사유 TOP 5</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#EF4444"/>
+
+  <!-- 사유 1 -->
+  <rect x="60" y="130" width="960" height="160" rx="20" fill="rgba(239,68,68,0.08)"/>
+  <rect x="80" y="155" width="56" height="56" rx="28" fill="rgba(239,68,68,0.3)"/>
+  <text x="108" y="192" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="900" fill="#EF4444">1</text>
+  <text x="155" y="185" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">보증보험 가입 → 전액 회수 가능</text>
+  <text x="155" y="225" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#94A3B8">반환보증보험으로 보증금 전액을 돌려받을 수 있으면 지원 대상 제외</text>
+  <text x="155" y="260" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">확인: 보험 보상 한도 초과분이 있으면 해당 부분 상담 가능</text>
+
+  <!-- 사유 2 -->
+  <rect x="60" y="308" width="960" height="160" rx="20" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="333" width="56" height="56" rx="28" fill="rgba(239,68,68,0.3)"/>
+  <text x="108" y="370" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="900" fill="#EF4444">2</text>
+  <text x="155" y="363" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">보증금 최우선변제금 이하</text>
+  <text x="155" y="403" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#94A3B8">주택임대차보호법상 최우선변제로 보호 충분 → 별도 지원 불가</text>
+  <text x="155" y="438" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">확인: 지역별 최우선변제금 기준 확인 (서울 5,500만 원 등)</text>
+
+  <!-- 사유 3 -->
+  <rect x="60" y="486" width="960" height="160" rx="20" fill="rgba(239,68,68,0.08)"/>
+  <rect x="80" y="511" width="56" height="56" rx="28" fill="rgba(239,68,68,0.3)"/>
+  <text x="108" y="548" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="900" fill="#EF4444">3</text>
+  <text x="155" y="541" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">사기 의도 미입증</text>
+  <text x="155" y="581" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#94A3B8">임대인의 단순 채무불이행만으로는 부족 — 사기 의도·파산·회생 필요</text>
+  <text x="155" y="616" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">대응: 수사 개시 확인서 또는 다수 피해 증명 자료 확보</text>
+
+  <!-- 사유 4 -->
+  <rect x="60" y="664" width="960" height="160" rx="20" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="689" width="56" height="56" rx="28" fill="rgba(239,68,68,0.3)"/>
+  <text x="108" y="726" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="900" fill="#EF4444">4</text>
+  <text x="155" y="719" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">신청 기한 초과 (3년)</text>
+  <text x="155" y="759" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#94A3B8">피해자 결정일로부터 3년이 경과하면 지원 신청 불가</text>
+  <text x="155" y="794" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">대응: 결정일 확인 후 즉시 지원 항목별 신청 진행</text>
+
+  <!-- 사유 5 -->
+  <rect x="60" y="842" width="960" height="160" rx="20" fill="rgba(239,68,68,0.08)"/>
+  <rect x="80" y="867" width="56" height="56" rx="28" fill="rgba(239,68,68,0.3)"/>
+  <text x="108" y="904" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="900" fill="#EF4444">5</text>
+  <text x="155" y="897" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">증빙서류 미비</text>
+  <text x="155" y="937" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#94A3B8">임대차계약서·보증금 이체 내역 등 핵심 서류 누락 → 심의 지연·반려</text>
+  <text x="155" y="972" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">대응: 센터 방문 전 기본 서류 6종 사전 준비 필수</text>
+
+  <rect x="60" y="1030" width="960" height="6" rx="3" fill="#EF4444"/>
+</svg>

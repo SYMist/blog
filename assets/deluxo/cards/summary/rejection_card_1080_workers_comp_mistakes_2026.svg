@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <text x="540" y="118" font-family="'Pretendard', sans-serif" font-size="44" font-weight="900" fill="#EF4444" text-anchor="middle">⚠ 산재 신청 실수 TOP 5</text>
+  <text x="540" y="196" font-family="'Pretendard', sans-serif" font-size="52" font-weight="900" fill="#FFFFFF" text-anchor="middle">이것만은 피하세요</text>
+
+  <rect x="60" y="250" width="960" height="140" rx="20" fill="#1A3270"/>
+  <text x="100" y="305" font-family="'Pretendard', sans-serif" font-size="28" font-weight="900" fill="#EF4444">① 요양·휴업 소멸시효 별도 진행 미인지</text>
+  <text x="100" y="360" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF">요양 중이라도 휴업급여 3년 시효 독립 진행 — 동시 신청 필수 ✕</text>
+
+  <rect x="60" y="408" width="960" height="140" rx="20" fill="#1A3270"/>
+  <text x="100" y="463" font-family="'Pretendard', sans-serif" font-size="28" font-weight="900" fill="#EF4444">② 장해급여 5년 시효 방치</text>
+  <text x="100" y="518" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF">치료 끝난 후 장해 남아도 "나중에"하다 5년 시효 소멸 ✕</text>
+
+  <rect x="60" y="566" width="960" height="140" rx="20" fill="#1A3270"/>
+  <text x="100" y="621" font-family="'Pretendard', sans-serif" font-size="28" font-weight="900" fill="#EF4444">③ 사업주 거부에 신청 포기</text>
+  <text x="100" y="676" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF">2016년 개정 — 사업주 동의 없이 근로자 단독 신청 가능 ✕</text>
+
+  <rect x="60" y="724" width="960" height="140" rx="20" fill="#1A3270"/>
+  <text x="100" y="779" font-family="'Pretendard', sans-serif" font-size="28" font-weight="900" fill="#EF4444">④ 4일 미만 = 아무것도 못 받는다는 오해</text>
+  <text x="100" y="834" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF">휴업급여 불가라도 요양급여(치료비)는 기간 무관 청구 가능 ✕</text>
+
+  <rect x="60" y="882" width="960" height="140" rx="20" fill="#EF4444"/>
+  <text x="100" y="937" font-family="'Pretendard', sans-serif" font-size="28" font-weight="900" fill="#FFFFFF">⑤ 부분 취업 신고 없이 은폐 — 가장 위험한 실수</text>
+  <text x="100" y="992" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#FFE0E0">신고 없이 알바 적발 시 전액 환수 + 형사처벌 대상 ✕</text>
+</svg>

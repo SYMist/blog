@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- 레이블 -->
+  <rect x="60" y="52" width="280" height="44" rx="22" fill="#EF4444" opacity="0.18"/>
+  <text x="200" y="80" font-family="-apple-system,sans-serif" font-size="22" font-weight="700" fill="#EF4444" text-anchor="middle">자주 혼동되는 포인트</text>
+
+  <!-- 제목 -->
+  <text x="540" y="158" font-family="-apple-system,sans-serif" font-size="50" font-weight="900" fill="#FFFFFF" text-anchor="middle">신청 전 반드시 체크할 오해 TOP 5</text>
+  <text x="540" y="210" font-family="-apple-system,sans-serif" font-size="32" font-weight="600" fill="#A0B4D0" text-anchor="middle">가족돌봄휴직·휴가 공통 (2026)</text>
+
+  <line x1="60" y1="236" x2="1020" y2="236" stroke="#1A3270" stroke-width="2"/>
+
+  <!-- 오해 1 -->
+  <rect x="60" y="252" width="960" height="128" rx="14" fill="#0D2347"/>
+  <rect x="60" y="252" width="4" height="128" rx="2" fill="#EF4444"/>
+  <text x="84" y="284" font-family="-apple-system,sans-serif" font-size="22" font-weight="900" fill="#EF4444">오해 01</text>
+  <text x="84" y="316" font-family="-apple-system,sans-serif" font-size="24" font-weight="800" fill="#FFFFFF">"휴가 10일 + 휴직 90일 = 최대 100일 사용 가능"</text>
+  <text x="84" y="350" font-family="-apple-system,sans-serif" font-size="21" fill="#34D399">✅ 정답: 휴가 10일은 휴직 90일 한도에 포함 → 연간 총 90일 한도</text>
+  <text x="84" y="372" font-family="-apple-system,sans-serif" font-size="20" fill="#A0B4D0">휴가를 10일 쓰면 휴직 가용 일수는 80일로 줄어든다</text>
+
+  <!-- 오해 2 -->
+  <rect x="60" y="394" width="960" height="128" rx="14" fill="#0D2347"/>
+  <rect x="60" y="394" width="4" height="128" rx="2" fill="#EF4444"/>
+  <text x="84" y="426" font-family="-apple-system,sans-serif" font-size="22" font-weight="900" fill="#EF4444">오해 02</text>
+  <text x="84" y="458" font-family="-apple-system,sans-serif" font-size="24" font-weight="800" fill="#FFFFFF">"가족돌봄휴직도 1~2주 단위로 잘게 쓸 수 있다"</text>
+  <text x="84" y="492" font-family="-apple-system,sans-serif" font-size="21" fill="#34D399">✅ 정답: 가족돌봄휴직은 1회 최소 30일 이상만 사용 가능</text>
+  <text x="84" y="514" font-family="-apple-system,sans-serif" font-size="20" fill="#A0B4D0">며칠 단위 단기 돌봄은 가족돌봄휴가(일단위)로 해결해야 한다</text>
+
+  <!-- 오해 3 -->
+  <rect x="60" y="536" width="960" height="128" rx="14" fill="#0D2347"/>
+  <rect x="60" y="536" width="4" height="128" rx="2" fill="#EF4444"/>
+  <text x="84" y="568" font-family="-apple-system,sans-serif" font-size="22" font-weight="900" fill="#EF4444">오해 03</text>
+  <text x="84" y="600" font-family="-apple-system,sans-serif" font-size="24" font-weight="800" fill="#FFFFFF">"자녀 양육 때문에도 가족돌봄휴직 신청이 된다"</text>
+  <text x="84" y="634" font-family="-apple-system,sans-serif" font-size="21" fill="#34D399">✅ 정답: 휴직은 질병·사고·노령만, 자녀 양육은 휴가 또는 육아휴직으로</text>
+  <text x="84" y="656" font-family="-apple-system,sans-serif" font-size="20" fill="#A0B4D0">자녀 양육 목적 가족돌봄휴직 신청 시 사업주가 합법적으로 거부 가능</text>
+
+  <!-- 오해 4 -->
+  <rect x="60" y="678" width="960" height="110" rx="14" fill="#0D2347"/>
+  <rect x="60" y="678" width="4" height="110" rx="2" fill="#EF4444"/>
+  <text x="84" y="710" font-family="-apple-system,sans-serif" font-size="22" font-weight="900" fill="#EF4444">오해 04</text>
+  <text x="84" y="742" font-family="-apple-system,sans-serif" font-size="24" font-weight="800" fill="#FFFFFF">"가족돌봄휴직도 유급이다"</text>
+  <text x="84" y="776" font-family="-apple-system,sans-serif" font-size="21" fill="#34D399">✅ 정답: 두 제도 모두 무급 (법적 급여 지급 의무 없음)</text>
+
+  <!-- 오해 5 -->
+  <rect x="60" y="802" width="960" height="110" rx="14" fill="#0D2347"/>
+  <rect x="60" y="802" width="4" height="110" rx="2" fill="#EF4444"/>
+  <text x="84" y="834" font-family="-apple-system,sans-serif" font-size="22" font-weight="900" fill="#EF4444">오해 05</text>
+  <text x="84" y="866" font-family="-apple-system,sans-serif" font-size="24" font-weight="800" fill="#FFFFFF">"가족돌봄휴가도 근속 6개월 이상이어야 한다"</text>
+  <text x="84" y="900" font-family="-apple-system,sans-serif" font-size="21" fill="#34D399">✅ 정답: 근속 6개월 요건은 휴직만. 휴가는 입사 직후도 사용 가능</text>
+
+  <text x="540" y="1036" font-family="-apple-system,sans-serif" font-size="20" fill="#4B6080" text-anchor="middle">남녀고용평등법 제22조의2·22조의3 기준 | 2026.05 기준</text>
+</svg>

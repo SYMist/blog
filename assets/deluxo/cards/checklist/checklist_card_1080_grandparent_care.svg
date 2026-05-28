@@ -1,0 +1,39 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="#F8FAFC"/>
+
+  <!-- Card -->
+  <g filter="url(#shadow)">
+    <rect x="70" y="70" width="940" height="940" rx="24" fill="#FFFFFF" stroke="#E5E7EB"/>
+  </g>
+
+  <!-- Header -->
+  <text x="120" y="170" font-size="48" fill="#111827" font-weight="800" font-family="Pretendard, 'Noto Sans KR', sans-serif">조부모 돌봄수당 체크리스트</text>
+  <text x="120" y="230" font-size="28" fill="#6B7280" font-weight="600" font-family="Pretendard, 'Noto Sans KR', sans-serif">신청 전 1분 점검</text>
+
+  <!-- Divider -->
+  <line x1="120" y1="270" x2="960" y2="270" stroke="#E5E7EB"/>
+
+  <!-- Checklist Items -->
+  <g font-family="Pretendard, 'Noto Sans KR', sans-serif" fill="#111827" font-size="30">
+    <text x="170" y="360">□ 거주지에 사업 운영 공고가 있는가</text>
+    <text x="170" y="430">□ 아동 연령 기준(24~36/48개월) 충족</text>
+    <text x="170" y="500">□ 소득 기준(중위 150% 등) 충족 여부</text>
+    <text x="170" y="570">□ 맞벌이·한부모·다자녀 등 양육 공백</text>
+    <text x="170" y="640">□ 어린이집/유치원 종일 이용 여부</text>
+    <text x="170" y="710">□ 아이돌봄서비스 중복 제한 확인</text>
+    <text x="170" y="780">□ 월 돌봄시간(예: 40시간) 충족 가능</text>
+  </g>
+
+  <!-- Footer Note -->
+  <rect x="120" y="840" width="840" height="90" rx="12" fill="#F1F5F9"/>
+  <text x="150" y="895" font-size="24" fill="#4B5563" font-family="Pretendard, 'Noto Sans KR', sans-serif">
+    공고 확인이 최우선입니다
+  </text>
+</svg>

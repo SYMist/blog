@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <rect x="80" y="72" width="160" height="48" rx="24" fill="#F59E0B"/>
+  <text x="160" y="103" font-family="'Pretendard', sans-serif" font-size="22" font-weight="700" fill="#0B1F3B" text-anchor="middle">빠른 판단</text>
+
+  <text x="540" y="185" font-family="'Pretendard', sans-serif" font-size="40" font-weight="800" fill="#FFFFFF" text-anchor="middle">상속 대기 vs 생전 증여 빠른 판단</text>
+  <rect x="480" y="210" width="120" height="4" rx="2" fill="#F59E0B"/>
+
+  <!-- Left: 상속 대기 -->
+  <rect x="60" y="260" width="460" height="620" rx="20" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="290" y="310" font-family="'Pretendard', sans-serif" font-size="32" font-weight="800" fill="#FFFFFF" text-anchor="middle">상속까지 대기</text>
+
+  <text x="100" y="370" font-family="'Pretendard', sans-serif" font-size="20" font-weight="600" fill="#F59E0B">추천 상황</text>
+  <text x="100" y="400" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.9">총 재산 18억 미만</text>
+  <text x="100" y="430" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.9">→ 2026 공제 확대로 비과세</text>
+
+  <rect x="90" y="460" width="400" height="2" rx="1" fill="rgba(255,255,255,0.1)"/>
+
+  <text x="100" y="500" font-family="'Pretendard', sans-serif" font-size="20" font-weight="600" fill="#F59E0B">핵심 포인트</text>
+  <text x="100" y="535" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">비과세 18억까지 확대</text>
+  <text x="100" y="570" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.8">배우자 10억 + 일괄 8억</text>
+
+  <rect x="90" y="600" width="400" height="2" rx="1" fill="rgba(255,255,255,0.1)"/>
+
+  <text x="100" y="640" font-family="'Pretendard', sans-serif" font-size="20" font-weight="600" fill="#F59E0B">주의</text>
+  <text x="100" y="675" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.8">부동산 급등 시</text>
+  <text x="100" y="710" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.8">18억 초과 가능성</text>
+
+  <rect x="90" y="745" width="400" height="2" rx="1" fill="rgba(255,255,255,0.1)"/>
+
+  <text x="290" y="830" font-family="'Pretendard', sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle" opacity="0.7">공제 범위 내면 기다리는 것도 전략</text>
+
+  <!-- Right: 생전 증여 -->
+  <rect x="560" y="260" width="460" height="620" rx="20" fill="rgba(245,158,11,0.08)" stroke="#F59E0B" stroke-width="1.5"/>
+  <text x="790" y="310" font-family="'Pretendard', sans-serif" font-size="32" font-weight="800" fill="#F59E0B" text-anchor="middle">생전 증여 추진</text>
+
+  <text x="600" y="370" font-family="'Pretendard', sans-serif" font-size="20" font-weight="600" fill="#F59E0B">추천 상황</text>
+  <text x="600" y="400" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.9">총 재산 18억 초과</text>
+  <text x="600" y="430" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.9">or 가치 상승 예상 자산 보유</text>
+
+  <rect x="590" y="460" width="400" height="2" rx="1" fill="rgba(255,255,255,0.1)"/>
+
+  <text x="600" y="500" font-family="'Pretendard', sans-serif" font-size="20" font-weight="600" fill="#F59E0B">핵심 포인트</text>
+  <text x="600" y="535" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#F59E0B">10년 주기 분산 증여</text>
+  <text x="600" y="570" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.8">상승분 과세 회피 효과</text>
+
+  <rect x="590" y="600" width="400" height="2" rx="1" fill="rgba(255,255,255,0.1)"/>
+
+  <text x="600" y="640" font-family="'Pretendard', sans-serif" font-size="20" font-weight="600" fill="#F59E0B">주의</text>
+  <text x="600" y="675" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.8">증여 후 10년 내 사망 시</text>
+  <text x="600" y="710" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.8">상속재산 합산 과세</text>
+
+  <rect x="590" y="745" width="400" height="2" rx="1" fill="rgba(255,255,255,0.1)"/>
+
+  <text x="790" y="830" font-family="'Pretendard', sans-serif" font-size="20" font-weight="700" fill="#F59E0B" text-anchor="middle">자산 클수록 빨리 움직여야</text>
+
+  <!-- Bottom -->
+  <rect x="200" y="920" width="680" height="60" rx="16" fill="rgba(245,158,11,0.15)" stroke="#F59E0B" stroke-width="1"/>
+  <text x="540" y="958" font-family="'Pretendard', sans-serif" font-size="24" font-weight="800" fill="#F59E0B" text-anchor="middle">증여는 1년 미루면 10년 주기가 1년 늦어진다</text>
+</svg>

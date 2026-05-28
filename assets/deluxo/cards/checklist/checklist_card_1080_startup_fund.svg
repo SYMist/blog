@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+
+  <!-- Badge -->
+  <rect x="80" y="50" width="330" height="52" rx="26" fill="#F59E0B"/>
+  <text x="245" y="85" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#0B1F3B">신청 전 체크리스트</text>
+
+  <!-- Title -->
+  <text x="80" y="170" font-family="'Pretendard',sans-serif" font-size="46" font-weight="900" fill="#FFF">소상공인 창업지원금</text>
+  <text x="80" y="228" font-family="'Pretendard',sans-serif" font-size="40" font-weight="800" fill="#EAF2FF">확인하셨나요?</text>
+
+  <!-- Item 1 -->
+  <rect x="80" y="275" width="920" height="85" rx="14" fill="rgba(255,255,255,0.06)"/>
+  <rect x="105" y="298" width="40" height="40" rx="8" fill="#059669"/>
+  <text x="125" y="328" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="900" fill="#FFF">✓</text>
+  <text x="165" y="328" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">지식배움터 교육 12시간 이수 완료</text>
+
+  <!-- Item 2 -->
+  <rect x="80" y="375" width="920" height="85" rx="14" fill="rgba(255,255,255,0.06)"/>
+  <rect x="105" y="398" width="40" height="40" rx="8" fill="#059669"/>
+  <text x="125" y="428" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="900" fill="#FFF">✓</text>
+  <text x="165" y="428" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">소상공인 확인서 발급 완료</text>
+
+  <!-- Item 3 -->
+  <rect x="80" y="475" width="920" height="85" rx="14" fill="rgba(255,255,255,0.06)"/>
+  <rect x="105" y="498" width="40" height="40" rx="8" fill="#059669"/>
+  <text x="125" y="528" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="900" fill="#FFF">✓</text>
+  <text x="165" y="528" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">업력 확인 → 해당 패키지 선택</text>
+
+  <!-- Item 4 -->
+  <rect x="80" y="575" width="920" height="85" rx="14" fill="rgba(255,255,255,0.06)"/>
+  <rect x="105" y="598" width="40" height="40" rx="8" fill="#059669"/>
+  <text x="125" y="628" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="900" fill="#FFF">✓</text>
+  <text x="165" y="628" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">사업 계획서 작성 (패키지 신청 시)</text>
+
+  <!-- Item 5 -->
+  <rect x="80" y="675" width="920" height="85" rx="14" fill="rgba(255,255,255,0.06)"/>
+  <rect x="105" y="698" width="40" height="40" rx="8" fill="#059669"/>
+  <text x="125" y="728" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="900" fill="#FFF">✓</text>
+  <text x="165" y="728" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">공고 시기 확인 (1~3월 집중)</text>
+
+  <!-- Item 6 -->
+  <rect x="80" y="775" width="920" height="85" rx="14" fill="rgba(255,255,255,0.06)"/>
+  <rect x="105" y="798" width="40" height="40" rx="8" fill="#059669"/>
+  <text x="125" y="828" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="900" fill="#FFF">✓</text>
+  <text x="165" y="828" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">청년(39세↓) → 전용 2.5% 대출 검토</text>
+
+  <!-- Item 7 -->
+  <rect x="80" y="875" width="920" height="85" rx="14" fill="rgba(255,255,255,0.06)"/>
+  <rect x="105" y="898" width="40" height="40" rx="8" fill="#059669"/>
+  <text x="125" y="928" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="900" fill="#FFF">✓</text>
+  <text x="165" y="928" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">지자체 추가 지원 확인 (이차보전 등)</text>
+
+  <!-- Bottom Chips -->
+  <rect x="80" y="995" width="200" height="52" rx="26" fill="#E8F0FF"/>
+  <text x="180" y="1029" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#1D4ED8">체크리스트</text>
+  <rect x="310" y="995" width="130" height="52" rx="26" fill="#E8F0FF"/>
+  <text x="375" y="1029" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#1D4ED8">저장</text>
+  <rect x="470" y="995" width="130" height="52" rx="26" fill="#E8F0FF"/>
+  <text x="535" y="1029" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#1D4ED8">2026</text>
+</svg>

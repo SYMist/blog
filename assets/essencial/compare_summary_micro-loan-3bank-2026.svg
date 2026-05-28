@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFBEB"/>
+      <stop offset="100%" stop-color="#FEF3C7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg1)"/>
+
+  <text x="540" y="55" font-family="sans-serif" font-size="32" font-weight="900" fill="#111827" text-anchor="middle">인터넷전문은행 비상금 대출 3사 비교</text>
+  <text x="540" y="88" font-family="sans-serif" font-size="20" fill="#6B7280" text-anchor="middle">2026년 4월 기준 | 한도 50~300만 | SGI 보증 마이너스통장</text>
+
+  <!-- 공통 정보 -->
+  <rect x="50" y="110" width="980" height="55" rx="16" fill="#B45309"/>
+  <text x="540" y="145" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFF" text-anchor="middle">3사 공통: 한도 50~300만 | 소득 증빙 불필요 | 24시간 신청 | 스트레스 DSR 예외 (300만 이하)</text>
+
+  <!-- 카카오뱅크 -->
+  <rect x="50" y="190" width="310" height="440" rx="24" fill="#FFF" stroke="#FDE68A" stroke-width="2"/>
+  <rect x="50" y="190" width="310" height="56" rx="24" fill="#FEE500"/>
+  <rect x="50" y="222" width="310" height="24" fill="#FEE500"/>
+  <text x="205" y="226" font-family="sans-serif" font-size="24" font-weight="900" fill="#3C1E1E" text-anchor="middle">카카오뱅크</text>
+
+  <text x="80" y="280" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827">금리 (연)</text>
+  <text x="330" y="280" font-family="sans-serif" font-size="24" font-weight="900" fill="#059669" text-anchor="end">4.8% ~ 15.0%</text>
+  <line x1="80" y1="295" x2="330" y2="295" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="330" y="320" font-family="sans-serif" font-size="17" font-weight="900" fill="#059669" text-anchor="end">3사 중 최저 하단</text>
+
+  <text x="80" y="360" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827">중도상환</text>
+  <text x="330" y="360" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="end">없음 (마통)</text>
+  <line x1="80" y1="375" x2="330" y2="375" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="80" y="410" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827">대출 기간</text>
+  <text x="330" y="410" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="end">1년 (연장 심사)</text>
+  <line x1="80" y1="425" x2="330" y2="425" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="80" y="460" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827">핵심 강점</text>
+  <text x="330" y="460" font-family="sans-serif" font-size="18" font-weight="900" fill="#B45309" text-anchor="end">최저 금리</text>
+
+  <rect x="70" y="490" width="270" height="50" rx="12" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1"/>
+  <text x="205" y="522" font-family="sans-serif" font-size="17" font-weight="700" fill="#065F46" text-anchor="middle">이자 1원이라도 아끼려면</text>
+
+  <text x="205" y="610" font-family="sans-serif" font-size="14" fill="#6B7280" text-anchor="middle">접근성 높음 · 휴대폰 인증만으로 신청</text>
+
+  <!-- 토스뱅크 -->
+  <rect x="385" y="190" width="310" height="440" rx="24" fill="#FFF" stroke="#BFDBFE" stroke-width="2"/>
+  <rect x="385" y="190" width="310" height="56" rx="24" fill="#0064FF"/>
+  <rect x="385" y="222" width="310" height="24" fill="#0064FF"/>
+  <text x="540" y="226" font-family="sans-serif" font-size="24" font-weight="900" fill="#FFF" text-anchor="middle">토스뱅크</text>
+
+  <text x="415" y="280" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827">금리 (연)</text>
+  <text x="665" y="280" font-family="sans-serif" font-size="24" font-weight="900" fill="#111827" text-anchor="end">5.47% ~ 15.0%</text>
+  <line x1="415" y1="295" x2="665" y2="295" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="665" y="320" font-family="sans-serif" font-size="17" font-weight="700" fill="#6B7280" text-anchor="end">중간 수준</text>
+
+  <text x="415" y="360" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827">중도상환</text>
+  <text x="665" y="360" font-family="sans-serif" font-size="18" font-weight="900" fill="#059669" text-anchor="end">완전 면제 (명시)</text>
+  <line x1="415" y1="375" x2="665" y2="375" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="415" y="410" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827">대출 기간</text>
+  <text x="665" y="410" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="end">1년 (연장 심사)</text>
+  <line x1="415" y1="425" x2="665" y2="425" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="415" y="460" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827">핵심 강점</text>
+  <text x="665" y="460" font-family="sans-serif" font-size="18" font-weight="900" fill="#B45309" text-anchor="end">사후 관리·편의성</text>
+
+  <rect x="405" y="490" width="270" height="50" rx="12" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+  <text x="540" y="522" font-family="sans-serif" font-size="17" font-weight="700" fill="#1E40AF" text-anchor="middle">수시 상환 + 금리 관리 원하면</text>
+
+  <text x="540" y="610" font-family="sans-serif" font-size="14" fill="#6B7280" text-anchor="middle">마이데이터 금리 인하 안내 · 24시간 실시간</text>
+
+  <!-- 케이뱅크 -->
+  <rect x="720" y="190" width="310" height="440" rx="24" fill="#FFF" stroke="#FDE68A" stroke-width="2"/>
+  <rect x="720" y="190" width="310" height="56" rx="24" fill="#FF6B35"/>
+  <rect x="720" y="222" width="310" height="24" fill="#FF6B35"/>
+  <text x="875" y="226" font-family="sans-serif" font-size="24" font-weight="900" fill="#FFF" text-anchor="middle">케이뱅크</text>
+
+  <text x="750" y="280" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827">금리 (연)</text>
+  <text x="1000" y="280" font-family="sans-serif" font-size="24" font-weight="900" fill="#DC2626" text-anchor="end">6.63% ~ 15.0%</text>
+  <line x1="750" y1="295" x2="1000" y2="295" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="1000" y="320" font-family="sans-serif" font-size="17" font-weight="700" fill="#DC2626" text-anchor="end">3사 중 최고 하단</text>
+
+  <text x="750" y="360" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827">중도상환</text>
+  <text x="1000" y="360" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="end">없음 (마통)</text>
+  <line x1="750" y1="375" x2="1000" y2="375" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="750" y="410" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827">대출 기간</text>
+  <text x="1000" y="410" font-family="sans-serif" font-size="18" font-weight="900" fill="#059669" text-anchor="end">최대 10년 연장</text>
+  <line x1="750" y1="425" x2="1000" y2="425" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="750" y="460" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827">핵심 강점</text>
+  <text x="1000" y="460" font-family="sans-serif" font-size="18" font-weight="900" fill="#B45309" text-anchor="end">장기 한도 유지</text>
+
+  <rect x="740" y="490" width="270" height="50" rx="12" fill="#FFFBEB" stroke="#FDE68A" stroke-width="1"/>
+  <text x="875" y="522" font-family="sans-serif" font-size="17" font-weight="700" fill="#92400E" text-anchor="middle">비상금 한도 장기 유지하려면</text>
+
+  <text x="875" y="610" font-family="sans-serif" font-size="14" fill="#6B7280" text-anchor="middle">1년 단위 연장 · 심사 통과 시 최대 10년</text>
+
+  <!-- 이자 시뮬레이션 -->
+  <rect x="50" y="660" width="980" height="100" rx="20" fill="#FFF" stroke="#FDE68A" stroke-width="1.5"/>
+  <text x="540" y="695" font-family="sans-serif" font-size="22" font-weight="900" fill="#B45309" text-anchor="middle">이자 시뮬레이션: 100만 원 × 30일 사용 시</text>
+  <rect x="80" y="715" width="290" height="32" rx="10" fill="#ECFDF5"/>
+  <text x="225" y="738" font-family="sans-serif" font-size="16" font-weight="700" fill="#065F46" text-anchor="middle">카카오 5%: 약 4,110원</text>
+  <rect x="395" y="715" width="290" height="32" rx="10" fill="#EFF6FF"/>
+  <text x="540" y="738" font-family="sans-serif" font-size="16" font-weight="700" fill="#1E40AF" text-anchor="middle">토스 5.47%: 약 4,500원</text>
+  <rect x="710" y="715" width="290" height="32" rx="10" fill="#FFFBEB"/>
+  <text x="855" y="738" font-family="sans-serif" font-size="16" font-weight="700" fill="#92400E" text-anchor="middle">케이 6.63%: 약 5,450원</text>
+
+  <!-- 승인 핵심 -->
+  <rect x="50" y="790" width="980" height="70" rx="16" fill="#B45309"/>
+  <text x="540" y="820" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFF" text-anchor="middle">승인 핵심: 서울보증보험(SGI) 보증서 발급 = 은행 심사보다 중요</text>
+  <text x="540" y="848" font-family="sans-serif" font-size="17" fill="#FDE68A" text-anchor="middle">비금융 마이데이터(통신료·건보료) 연동 → 신용 가점 → 승인율·금리 개선</text>
+
+  <!-- 주의 -->
+  <rect x="50" y="890" width="980" height="50" rx="12" fill="#FEF2F2" stroke="#FECACA" stroke-width="1"/>
+  <text x="540" y="917" font-family="sans-serif" font-size="16" font-weight="700" fill="#991B1B" text-anchor="middle">한도 100% 사용 금지(연체 위험) | 연체 시 금리+3% 가산 + 신용 급락 | 단기 유동성 목적으로만 활용</text>
+
+  <!-- DSR 예외 -->
+  <rect x="50" y="960" width="980" height="45" rx="12" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1"/>
+  <text x="540" y="990" font-family="sans-serif" font-size="17" font-weight="700" fill="#065F46" text-anchor="middle">300만 원 이하 소액 = 스트레스 DSR 예외 → 주담대 한도에 영향 미미</text>
+
+  <text x="540" y="1055" font-family="sans-serif" font-size="15" fill="#9CA3AF" text-anchor="middle">2026년 4월 기준 | 공시금리 기반 | 개인 신용점수에 따라 실제 금리 상이</text>
+</svg>

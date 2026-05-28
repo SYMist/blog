@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#F59E0B">전월세 신고 한눈에 요약</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- Header -->
+  <rect x="60" y="120" width="320" height="50" rx="0" fill="rgba(245,158,11,0.25)"/>
+  <rect x="380" y="120" width="640" height="50" rx="0" fill="rgba(245,158,11,0.25)"/>
+  <text x="220" y="152" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">구분</text>
+  <text x="700" y="152" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">내용</text>
+
+  <!-- Row 1 -->
+  <rect x="60" y="170" width="960" height="80" rx="0" fill="rgba(59,130,246,0.1)"/>
+  <text x="220" y="218" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">신고 대상 지역</text>
+  <text x="700" y="218" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#EAF2FF">수도권 전역, 광역시, 세종, 제주, 도의 시(市)</text>
+
+  <!-- Row 2 -->
+  <rect x="60" y="250" width="960" height="80" rx="0" fill="rgba(255,255,255,0.04)"/>
+  <text x="220" y="298" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">금액 기준</text>
+  <text x="700" y="285" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#FFF">보증금 6,000만 원↑</text>
+  <text x="700" y="315" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#FFF">또는 월세 30만 원↑</text>
+
+  <!-- Row 3 -->
+  <rect x="60" y="330" width="960" height="80" rx="0" fill="rgba(59,130,246,0.1)"/>
+  <text x="220" y="378" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">신고 기한</text>
+  <text x="700" y="378" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="900" fill="#F59E0B">계약 체결일로부터 30일 이내</text>
+
+  <!-- Row 4 -->
+  <rect x="60" y="410" width="960" height="80" rx="0" fill="rgba(255,255,255,0.04)"/>
+  <text x="220" y="458" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">지연 과태료</text>
+  <text x="700" y="458" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="900" fill="#EF4444">최대 30만 원 (기존 100만→30만 하향)</text>
+
+  <!-- Row 5 -->
+  <rect x="60" y="490" width="960" height="80" rx="0" fill="rgba(59,130,246,0.1)"/>
+  <text x="220" y="538" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">거짓 신고</text>
+  <text x="700" y="538" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="900" fill="#EF4444">최대 100만 원</text>
+
+  <!-- Row 6 -->
+  <rect x="60" y="570" width="960" height="80" rx="0" fill="rgba(255,255,255,0.04)"/>
+  <text x="220" y="618" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">확정일자</text>
+  <text x="700" y="618" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="900" fill="#22C55E">신고 시 무료 자동 부여</text>
+
+  <!-- Row 7 -->
+  <rect x="60" y="650" width="960" height="80" rx="0" fill="rgba(59,130,246,0.1)"/>
+  <text x="220" y="698" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">제외 대상</text>
+  <text x="700" y="698" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#EAF2FF">금액 변동 없는 갱신 · 묵시적 갱신</text>
+
+  <!-- Bottom highlight -->
+  <rect x="60" y="770" width="960" height="200" rx="20" fill="rgba(245,158,11,0.1)"/>
+  <text x="540" y="820" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#F59E0B">신고 방법 4가지</text>
+  <text x="200" y="880" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">온라인</text>
+  <text x="200" y="915" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#EAF2FF">rtms.molit.go.kr</text>
+  <text x="400" y="880" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">방문</text>
+  <text x="400" y="915" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#EAF2FF">주민센터</text>
+  <text x="600" y="880" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">모바일</text>
+  <text x="600" y="915" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#EAF2FF">스마트폰 브라우저</text>
+  <text x="830" y="880" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">전자계약</text>
+  <text x="830" y="915" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#EAF2FF">자동 신고+확정일자</text>
+
+  <rect x="60" y="1050" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

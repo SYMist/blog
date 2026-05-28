@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- 배지 -->
+  <rect x="60" y="50" width="180" height="44" rx="22" fill="#F59E0B"/>
+  <text x="150" y="79" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#0B1F3B">5줄 요약</text>
+
+  <!-- 메인 제목 -->
+  <text x="60" y="150" font-family="'Pretendard',sans-serif" font-size="48" font-weight="900" fill="#FFFFFF">소상공인 임대료 지원</text>
+  <text x="60" y="210" font-family="'Pretendard',sans-serif" font-size="48" font-weight="900" fill="#FFFFFF">핵심 체크포인트</text>
+
+  <!-- 구분선 -->
+  <rect x="60" y="240" width="120" height="4" rx="2" fill="#F59E0B"/>
+
+  <!-- Item 1 -->
+  <rect x="60" y="280" width="960" height="120" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <circle cx="110" cy="340" r="30" fill="#F59E0B"/>
+  <text x="110" y="350" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#0B1F3B">1</text>
+  <text x="160" y="325" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFFFFF">경영안정 바우처 25만 원</text>
+  <text x="160" y="365" font-family="'Pretendard',sans-serif" font-size="19" font-weight="600" fill="#EAF2FF">230만 명 대상 · 전기·가스·통신·차량연료비 결제</text>
+
+  <!-- Item 2 -->
+  <rect x="60" y="420" width="960" height="120" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <circle cx="110" cy="480" r="30" fill="#F59E0B"/>
+  <text x="110" y="490" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#0B1F3B">2</text>
+  <text x="160" y="465" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFFFFF">관리비 공개 의무화</text>
+  <text x="160" y="505" font-family="'Pretendard',sans-serif" font-size="19" font-weight="600" fill="#EAF2FF">2026.05.12 시행 · 항목별 내역 요구권 법제화</text>
+
+  <!-- Item 3 -->
+  <rect x="60" y="560" width="960" height="120" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <circle cx="110" cy="620" r="30" fill="#F59E0B"/>
+  <text x="110" y="630" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#0B1F3B">3</text>
+  <text x="160" y="605" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFFFFF">착한 임대인 세액공제 최대 70%</text>
+  <text x="160" y="645" font-family="'Pretendard',sans-serif" font-size="19" font-weight="600" fill="#EAF2FF">2028년까지 연장 · 임대료 인하분 세액공제</text>
+
+  <!-- Item 4 -->
+  <rect x="60" y="700" width="960" height="120" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <circle cx="110" cy="760" r="30" fill="#F59E0B"/>
+  <text x="110" y="770" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#0B1F3B">4</text>
+  <text x="160" y="745" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFFFFF">점포 철거비 최대 600만 원 지원</text>
+  <text x="160" y="785" font-family="'Pretendard',sans-serif" font-size="19" font-weight="600" fill="#EAF2FF">희망리턴패키지 · 폐업(예정) 소상공인 대상</text>
+
+  <!-- Item 5 -->
+  <rect x="60" y="840" width="960" height="120" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <circle cx="110" cy="900" r="30" fill="#F59E0B"/>
+  <text x="110" y="910" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#0B1F3B">5</text>
+  <text x="160" y="885" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFFFFF">정책자금 3.36조 — 비수도권 0.2%p 우대</text>
+  <text x="160" y="925" font-family="'Pretendard',sans-serif" font-size="19" font-weight="600" fill="#EAF2FF">직접대출·대환대출 · 금리 우대 최대 0.8%p</text>
+
+  <!-- 칩 -->
+  <rect x="60" y="990" width="160" height="40" rx="20" fill="#E8F0FF"/>
+  <text x="140" y="1017" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#1D4ED8">임대료지원</text>
+  <rect x="240" y="990" width="160" height="40" rx="20" fill="#E8F0FF"/>
+  <text x="320" y="1017" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#1D4ED8">상가임대차</text>
+  <rect x="420" y="990" width="100" height="40" rx="20" fill="#E8F0FF"/>
+  <text x="470" y="1017" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#1D4ED8">2026</text>
+</svg>

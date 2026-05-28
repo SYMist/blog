@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="80" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="800" fill="#F59E0B">2026 2분기 소상공인 정책자금 핵심 요약</text>
+  <rect x="60" y="110" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- 접수 일정 -->
+  <rect x="60" y="140" width="960" height="100" rx="16" fill="rgba(239,68,68,0.15)"/>
+  <text x="540" y="185" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="900" fill="#EF4444">접수 시작: 4월 6일(월) 오전 10:00</text>
+  <text x="540" y="225" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">예산 소진 시 조기 마감 — 접수 시작 시간에 바로 신청!</text>
+
+  <!-- 일반경영안정 -->
+  <rect x="60" y="265" width="960" height="130" rx="16" fill="rgba(34,197,94,0.12)"/>
+  <rect x="80" y="285" width="200" height="40" rx="20" fill="#22C55E"/>
+  <text x="180" y="313" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#0B1F3B">일반경영안정</text>
+  <text x="80" y="350" font-family="'Pretendard',sans-serif" font-size="24" fill="#FFF">업종 무관 소상공인 운영자금</text>
+  <text x="700" y="313" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="32" font-weight="900" fill="#F59E0B">최대 7,000만원</text>
+  <text x="700" y="355" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">5년(거치 2년) | 금리 2.96%+α</text>
+
+  <!-- 청년고용연계 -->
+  <rect x="60" y="415" width="960" height="130" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="435" width="200" height="40" rx="20" fill="#60A5FA"/>
+  <text x="180" y="463" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#0B1F3B">청년고용연계</text>
+  <text x="80" y="500" font-family="'Pretendard',sans-serif" font-size="24" fill="#FFF">청년 고용 유지 소상공인</text>
+  <text x="700" y="463" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="32" font-weight="900" fill="#F59E0B">최대 7,000만원</text>
+  <text x="700" y="505" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">5년(거치 2년) | 청년 고용보험 증빙</text>
+
+  <!-- 장애인기업 -->
+  <rect x="60" y="565" width="960" height="130" rx="16" fill="rgba(168,85,247,0.12)"/>
+  <rect x="80" y="585" width="200" height="40" rx="20" fill="#A855F7"/>
+  <text x="180" y="613" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#FFF">장애인기업</text>
+  <text x="80" y="650" font-family="'Pretendard',sans-serif" font-size="24" fill="#FFF">장애인 사업주 경영·시설자금</text>
+  <text x="700" y="613" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="32" font-weight="900" fill="#F59E0B">최대 1억원</text>
+  <text x="700" y="655" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">7년(거치 2년) | 장애인 등록증</text>
+
+  <!-- 1분기 마감 안내 -->
+  <rect x="60" y="720" width="960" height="90" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="540" y="760" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#EAF2FF">1분기 마감 자금: 긴급경영안정(일시적) · 소공인특화 · 대환대출</text>
+  <text x="540" y="795" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">2분기 접수 일정 없음 — 추가 예산 배정 시 재공고 가능</text>
+
+  <!-- 금리 -->
+  <rect x="60" y="835" width="460" height="100" rx="16" fill="rgba(245,158,11,0.15)"/>
+  <text x="290" y="880" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#F59E0B">기준금리 2.96%</text>
+  <text x="290" y="915" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">+ 가산금리 (변동)</text>
+
+  <rect x="560" y="835" width="460" height="100" rx="16" fill="rgba(34,197,94,0.15)"/>
+  <text x="790" y="880" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#22C55E">우대 최대 -0.8%p</text>
+  <text x="790" y="915" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">비수도권·컨설팅·고용보험</text>
+
+  <!-- 신청처 -->
+  <rect x="60" y="960" width="960" height="60" rx="16" fill="rgba(245,158,11,0.15)"/>
+  <text x="540" y="1000" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#F59E0B">신청: ols.semas.or.kr · 소상공인 콜센터 ☎1357</text>
+</svg>

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E40AF"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+    <linearGradient id="tealGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0F766E"/>
+      <stop offset="100%" stop-color="#134e4a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <circle cx="920" cy="160" r="220" fill="#1E40AF" fill-opacity="0.08"/>
+  <circle cx="160" cy="920" r="180" fill="#0F766E" fill-opacity="0.08"/>
+
+  <!-- Chips -->
+  <rect x="40" y="40" width="110" height="34" rx="17" fill="#1E40AF" fill-opacity="0.3" stroke="#1E40AF" stroke-width="1.5"/>
+  <text x="95" y="63" text-anchor="middle" fill="#93C5FD" font-size="14" font-weight="700" font-family="sans-serif">자동차</text>
+
+  <rect x="166" y="40" width="140" height="34" rx="17" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="236" y="63" text-anchor="middle" fill="#94A3B8" font-size="14" font-family="sans-serif">2026.05 기준</text>
+
+  <rect x="322" y="40" width="160" height="34" rx="17" fill="#134e4a" stroke="#0F766E" stroke-width="1.5"/>
+  <text x="402" y="63" text-anchor="middle" fill="#6EE7B7" font-size="14" font-weight="700" font-family="sans-serif">5년 TCO 분석</text>
+
+  <!-- Title -->
+  <text x="540" y="188" text-anchor="middle" fill="#FFFFFF" font-size="46" font-weight="800" font-family="sans-serif">신차 vs 인증중고차</text>
+  <text x="540" y="244" text-anchor="middle" fill="#FFFFFF" font-size="46" font-weight="800" font-family="sans-serif">5년 TCO 비교</text>
+  <text x="540" y="292" text-anchor="middle" fill="#93C5FD" font-size="24" font-weight="600" font-family="sans-serif">총보유비용 시뮬레이션</text>
+
+  <rect x="200" y="316" width="680" height="3" rx="1.5" fill="#1E40AF" fill-opacity="0.6"/>
+
+  <!-- Key stat -->
+  <rect x="200" y="334" width="680" height="80" rx="16" fill="#1e293b" fill-opacity="0.9" stroke="#334155" stroke-width="1.5"/>
+  <text x="540" y="372" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="700" font-family="sans-serif">5년 TCO 절감액</text>
+  <text x="540" y="402" text-anchor="middle" fill="#FFFFFF" font-size="28" font-weight="800" font-family="sans-serif">인증중고차가 약 657만원(15%) 저렴</text>
+
+  <!-- Two cards -->
+  <rect x="40" y="434" width="480" height="510" rx="20" fill="url(#blueGrad)" fill-opacity="0.85" stroke="#1E40AF" stroke-width="2"/>
+  <text x="280" y="486" text-anchor="middle" fill="#FFFFFF" font-size="28" font-weight="800" font-family="sans-serif">신차</text>
+  <text x="280" y="514" text-anchor="middle" fill="#93C5FD" font-size="15" font-family="sans-serif">구매가 2,900만원</text>
+  <line x1="70" y1="534" x2="480" y2="534" stroke="#1e3a8a" stroke-width="1.5"/>
+  <text x="280" y="568" text-anchor="middle" fill="#FCA5A5" font-size="34" font-weight="800" font-family="sans-serif">5년 TCO 4,318만원</text>
+  <line x1="70" y1="596" x2="480" y2="596" stroke="#1e3a8a" stroke-width="1.5"/>
+  <text x="80" y="630" fill="#4ADE80" font-size="15" font-weight="700" font-family="sans-serif">✅ 보증 5년/10만km</text>
+  <text x="80" y="658" fill="#4ADE80" font-size="15" font-weight="700" font-family="sans-serif">✅ 5년 정비비 200~300만원</text>
+  <text x="80" y="686" fill="#94A3B8" font-size="15" font-family="sans-serif">❌ 첫해 20~30% 감가 손실</text>
+  <text x="80" y="714" fill="#94A3B8" font-size="15" font-family="sans-serif">❌ 취득세·보험료 높음</text>
+  <line x1="70" y1="734" x2="480" y2="734" stroke="#1e3a8a" stroke-width="1.5"/>
+  <rect x="70" y="752" width="380" height="38" rx="10" fill="#1E40AF" fill-opacity="0.4"/>
+  <text x="260" y="777" text-anchor="middle" fill="#93C5FD" font-size="13" font-weight="700" font-family="sans-serif">5년 이상 장기 보유 시 유리</text>
+  <text x="280" y="836" text-anchor="middle" fill="#CBD5E1" font-size="14" font-family="sans-serif">취득세: 약 203만원</text>
+  <text x="280" y="862" text-anchor="middle" fill="#CBD5E1" font-size="14" font-family="sans-serif">5년 보험료 합산: 약 750만원</text>
+
+  <rect x="560" y="434" width="480" height="510" rx="20" fill="url(#tealGrad)" fill-opacity="0.85" stroke="#0F766E" stroke-width="2"/>
+  <text x="800" y="486" text-anchor="middle" fill="#FFFFFF" font-size="28" font-weight="800" font-family="sans-serif">3년식 인증중고차</text>
+  <text x="800" y="514" text-anchor="middle" fill="#6EE7B7" font-size="15" font-family="sans-serif">구매가 1,900만원</text>
+  <line x1="590" y1="534" x2="1000" y2="534" stroke="#134e4a" stroke-width="1.5"/>
+  <text x="800" y="568" text-anchor="middle" fill="#4ADE80" font-size="34" font-weight="800" font-family="sans-serif">5년 TCO 3,661만원 🏆</text>
+  <line x1="590" y1="596" x2="1000" y2="596" stroke="#134e4a" stroke-width="1.5"/>
+  <text x="600" y="630" fill="#4ADE80" font-size="15" font-weight="700" font-family="sans-serif">✅ 구매가 1,000만원 저렴</text>
+  <text x="600" y="658" fill="#4ADE80" font-size="15" font-weight="700" font-family="sans-serif">✅ 취득세·보험료 낮음</text>
+  <text x="600" y="686" fill="#94A3B8" font-size="15" font-family="sans-serif">❌ 보증 1~2년으로 짧음</text>
+  <text x="600" y="714" fill="#94A3B8" font-size="15" font-family="sans-serif">❌ 정비비 350~500만원</text>
+  <line x1="590" y1="734" x2="1000" y2="734" stroke="#134e4a" stroke-width="1.5"/>
+  <rect x="590" y="752" width="380" height="38" rx="10" fill="#0F766E" fill-opacity="0.4"/>
+  <text x="780" y="777" text-anchor="middle" fill="#6EE7B7" font-size="13" font-weight="700" font-family="sans-serif">3~5년 단기 보유 시 유리</text>
+  <text x="800" y="836" text-anchor="middle" fill="#CBD5E1" font-size="14" font-family="sans-serif">취득세: 약 133만원</text>
+  <text x="800" y="862" text-anchor="middle" fill="#CBD5E1" font-size="14" font-family="sans-serif">5년 보험료 합산: 약 625만원</text>
+
+  <text x="40" y="1060" fill="#64748B" font-size="13" font-family="sans-serif">essencial | 자동차 비교 · 2026.05 기준 · 실제 비용은 차종·조건에 따라 달라집니다</text>
+</svg>

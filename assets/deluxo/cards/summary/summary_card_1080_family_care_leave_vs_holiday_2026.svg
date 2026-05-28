@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 배경 -->
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- 상단 레이블 -->
+  <rect x="60" y="52" width="280" height="44" rx="22" fill="#34D399" opacity="0.18"/>
+  <text x="200" y="80" font-family="-apple-system,sans-serif" font-size="22" font-weight="700" fill="#34D399" text-anchor="middle">취업·노동 제도 비교</text>
+
+  <!-- 제목 -->
+  <text x="540" y="158" font-family="-apple-system,sans-serif" font-size="54" font-weight="900" fill="#FFFFFF" text-anchor="middle">가족돌봄휴직 vs 가족돌봄휴가</text>
+  <text x="540" y="218" font-family="-apple-system,sans-serif" font-size="38" font-weight="700" fill="#A0B4D0" text-anchor="middle">핵심 차이 완전 비교 (2026)</text>
+
+  <!-- 구분선 -->
+  <line x1="60" y1="248" x2="1020" y2="248" stroke="#1A3270" stroke-width="2"/>
+
+  <!-- 표 헤더 -->
+  <rect x="60" y="262" width="960" height="56" rx="10" fill="#1A3270"/>
+  <text x="300" y="298" font-family="-apple-system,sans-serif" font-size="26" font-weight="800" fill="#34D399" text-anchor="middle">가족돌봄휴직</text>
+  <text x="760" y="298" font-family="-apple-system,sans-serif" font-size="26" font-weight="800" fill="#F59E0B" text-anchor="middle">가족돌봄휴가</text>
+  <line x1="540" y1="262" x2="540" y2="318" stroke="#0D2347" stroke-width="2"/>
+
+  <!-- 행 1: 사용 기간 -->
+  <rect x="60" y="326" width="960" height="76" rx="0" fill="#0D2347"/>
+  <text x="60" y="356" font-family="-apple-system,sans-serif" font-size="20" fill="#A0B4D0" dx="20">사용 기간</text>
+  <text x="300" y="380" font-family="-apple-system,sans-serif" font-size="30" font-weight="900" fill="#FFFFFF" text-anchor="middle">연간 최장 90일</text>
+  <text x="760" y="380" font-family="-apple-system,sans-serif" font-size="30" font-weight="900" fill="#FFFFFF" text-anchor="middle">연간 최장 10일</text>
+  <line x1="540" y1="326" x2="540" y2="402" stroke="#1A3270" stroke-width="1"/>
+  <line x1="60" y1="402" x2="1020" y2="402" stroke="#1A3270" stroke-width="1"/>
+
+  <!-- 행 2: 1회 최소 단위 -->
+  <rect x="60" y="402" width="960" height="76" rx="0" fill="#0B1F3B"/>
+  <text x="60" y="432" font-family="-apple-system,sans-serif" font-size="20" fill="#A0B4D0" dx="20">최소 단위</text>
+  <text x="300" y="456" font-family="-apple-system,sans-serif" font-size="28" font-weight="700" fill="#EF4444" text-anchor="middle">1회 30일 이상</text>
+  <text x="760" y="456" font-family="-apple-system,sans-serif" font-size="28" font-weight="700" fill="#34D399" text-anchor="middle">1일 단위 가능</text>
+  <line x1="540" y1="402" x2="540" y2="478" stroke="#1A3270" stroke-width="1"/>
+  <line x1="60" y1="478" x2="1020" y2="478" stroke="#1A3270" stroke-width="1"/>
+
+  <!-- 행 3: 자녀 양육 -->
+  <rect x="60" y="478" width="960" height="76" rx="0" fill="#0D2347"/>
+  <text x="60" y="508" font-family="-apple-system,sans-serif" font-size="20" fill="#A0B4D0" dx="20">자녀 양육 사유</text>
+  <text x="300" y="532" font-family="-apple-system,sans-serif" font-size="28" font-weight="700" fill="#EF4444" text-anchor="middle">❌ 불가</text>
+  <text x="760" y="532" font-family="-apple-system,sans-serif" font-size="28" font-weight="700" fill="#34D399" text-anchor="middle">✅ 가능</text>
+  <line x1="540" y1="478" x2="540" y2="554" stroke="#1A3270" stroke-width="1"/>
+  <line x1="60" y1="554" x2="1020" y2="554" stroke="#1A3270" stroke-width="1"/>
+
+  <!-- 행 4: 근속 요건 -->
+  <rect x="60" y="554" width="960" height="76" rx="0" fill="#0B1F3B"/>
+  <text x="60" y="584" font-family="-apple-system,sans-serif" font-size="20" fill="#A0B4D0" dx="20">근속 요건</text>
+  <text x="300" y="608" font-family="-apple-system,sans-serif" font-size="28" font-weight="700" fill="#F59E0B" text-anchor="middle">6개월 이상 필수</text>
+  <text x="760" y="608" font-family="-apple-system,sans-serif" font-size="28" font-weight="700" fill="#34D399" text-anchor="middle">없음</text>
+  <line x1="540" y1="554" x2="540" y2="630" stroke="#1A3270" stroke-width="1"/>
+  <line x1="60" y1="630" x2="1020" y2="630" stroke="#1A3270" stroke-width="1"/>
+
+  <!-- 행 5: 급여 -->
+  <rect x="60" y="630" width="960" height="76" rx="0" fill="#0D2347"/>
+  <text x="60" y="660" font-family="-apple-system,sans-serif" font-size="20" fill="#A0B4D0" dx="20">급여</text>
+  <text x="300" y="684" font-family="-apple-system,sans-serif" font-size="28" font-weight="700" fill="#EF4444" text-anchor="middle">무급</text>
+  <text x="760" y="684" font-family="-apple-system,sans-serif" font-size="28" font-weight="700" fill="#EF4444" text-anchor="middle">무급</text>
+  <line x1="540" y1="630" x2="540" y2="706" stroke="#1A3270" stroke-width="1"/>
+  <line x1="60" y1="706" x2="1020" y2="706" stroke="#1A3270" stroke-width="1"/>
+
+  <!-- 행 6: 신청 기한 -->
+  <rect x="60" y="706" width="960" height="76" rx="0" fill="#0B1F3B"/>
+  <text x="60" y="736" font-family="-apple-system,sans-serif" font-size="20" fill="#A0B4D0" dx="20">신청 기한</text>
+  <text x="300" y="760" font-family="-apple-system,sans-serif" font-size="28" font-weight="700" fill="#F59E0B" text-anchor="middle">개시 30일 전 서면</text>
+  <text x="760" y="760" font-family="-apple-system,sans-serif" font-size="28" font-weight="700" fill="#34D399" text-anchor="middle">긴급 시 즉시 가능</text>
+  <line x1="540" y1="706" x2="540" y2="782" stroke="#1A3270" stroke-width="1"/>
+
+  <!-- 구분선 -->
+  <line x1="60" y1="796" x2="1020" y2="796" stroke="#1A3270" stroke-width="2"/>
+
+  <!-- 핵심 포인트 강조 박스 -->
+  <rect x="60" y="812" width="960" height="80" rx="14" fill="#F59E0B" opacity="0.15"/>
+  <rect x="60" y="812" width="4" height="80" rx="2" fill="#F59E0B"/>
+  <text x="540" y="848" font-family="-apple-system,sans-serif" font-size="26" font-weight="900" fill="#F59E0B" text-anchor="middle">⚠ 핵심: 휴가 10일은 휴직 90일 한도에 포함</text>
+  <text x="540" y="880" font-family="-apple-system,sans-serif" font-size="22" fill="#FFFFFF" text-anchor="middle">두 제도 합산 연간 최대 90일 — 100일 아님</text>
+
+  <!-- 하단 출처 -->
+  <text x="540" y="1036" font-family="-apple-system,sans-serif" font-size="20" fill="#4B6080" text-anchor="middle">남녀고용평등법 제22조의2·22조의3 기준 | 2026.05 기준</text>
+</svg>

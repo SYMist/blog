@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Chip -->
+  <rect x="60" y="44" width="330" height="38" rx="19" fill="#B45309"/>
+  <text x="225" y="70" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="800" font-family="sans-serif">2026 부동산 연금 비교</text>
+
+  <!-- Headline -->
+  <text x="60" y="138" fill="#FFFFFF" font-size="44" font-weight="800" font-family="sans-serif">주택연금 vs 농지연금</text>
+  <text x="60" y="192" fill="#FCD34D" font-size="46" font-weight="800" font-family="sans-serif">50·60대 수령액 비교</text>
+  <text x="60" y="238" fill="#CBD5E1" font-size="22" font-weight="600" font-family="sans-serif">어느 쪽이 유리한지 완전 정리</text>
+
+  <!-- Left summary lines -->
+  <text x="60" y="300" fill="#6EE7B7" font-size="18" font-weight="700" font-family="sans-serif">55세+ 주택 보유 → 주택연금 (상한 없음)</text>
+  <text x="60" y="332" fill="#6EE7B7" font-size="18" font-weight="700" font-family="sans-serif">60세+ 농업인 → 농지연금 (월 300만 상한)</text>
+  <text x="60" y="364" fill="#FCD34D" font-size="18" font-weight="700" font-family="sans-serif">두 자산 모두 → 동시 가입 가능</text>
+
+  <!-- Right panel cards -->
+  <!-- Card A: 주택연금 -->
+  <rect x="640" y="40" width="520" height="158" rx="14" fill="url(#card)" stroke="#B45309" stroke-width="1.5"/>
+  <text x="670" y="80" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">주택연금</text>
+  <text x="670" y="118" fill="#FFFFFF" font-size="36" font-weight="800" font-family="sans-serif">3억·65세 → 75.8만/월</text>
+  <text x="1140" y="80" text-anchor="end" fill="#FCD34D" font-size="13" font-weight="600" font-family="sans-serif">상한 없음</text>
+  <text x="1140" y="118" text-anchor="end" fill="#CBD5E1" font-size="14" font-family="sans-serif">55세+ · 12억↓</text>
+  <text x="670" y="152" fill="#D97706" font-size="13" font-weight="700" font-family="sans-serif">2026.03 수령액 3.1% 인상 · 초기보증료 1.0% 인하</text>
+
+  <!-- Card B: 농지연금 -->
+  <rect x="640" y="216" width="520" height="158" rx="14" fill="url(#card)" stroke="#0F766E" stroke-width="1.5"/>
+  <text x="670" y="256" fill="#6EE7B7" font-size="14" font-weight="700" font-family="sans-serif">농지연금</text>
+  <text x="670" y="294" fill="#FFFFFF" font-size="36" font-weight="800" font-family="sans-serif">2억·65세 → 약 88만/월</text>
+  <text x="1140" y="256" text-anchor="end" fill="#6EE7B7" font-size="13" font-weight="600" font-family="sans-serif">월 300만 상한</text>
+  <text x="1140" y="294" text-anchor="end" fill="#CBD5E1" font-size="14" font-family="sans-serif">60세+ · 농지</text>
+  <text x="670" y="328" fill="#10B981" font-size="13" font-weight="700" font-family="sans-serif">가입 연령 60세 하향 · 초기보증료 없음</text>
+
+  <!-- Card C: 동시 가입 -->
+  <rect x="640" y="392" width="520" height="158" rx="14" fill="url(#card)" stroke="#FCD34D" stroke-width="1.5"/>
+  <text x="670" y="432" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">동시 가입 전략</text>
+  <text x="670" y="470" fill="#4ADE80" font-size="30" font-weight="800" font-family="sans-serif">월 약 163만원 동시 수령</text>
+  <text x="1140" y="432" text-anchor="end" fill="#FCD34D" font-size="13" font-weight="600" font-family="sans-serif">주택+농지</text>
+  <text x="1140" y="470" text-anchor="end" fill="#CBD5E1" font-size="14" font-family="sans-serif">65세 기준</text>
+  <text x="670" y="510" fill="#D97706" font-size="13" font-weight="700" font-family="sans-serif">주택연금(거주) + 농지연금(농지) 병행 전략</text>
+
+  <!-- Footer -->
+  <text x="60" y="610" fill="#64748B" font-size="13" font-family="sans-serif">essencial | 대출·금융 silo · 2026.05 기준</text>
+</svg>

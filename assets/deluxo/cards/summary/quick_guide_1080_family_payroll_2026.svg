@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#FBBF24"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="10" fill="url(#accent)"/>
+
+  <!-- Title -->
+  <text x="60" y="88" font-family="-apple-system, sans-serif" font-size="40" font-weight="900" fill="#FFFFFF">가족 유형별</text>
+  <text x="60" y="136" font-family="-apple-system, sans-serif" font-size="40" font-weight="900" fill="#F59E0B">10초 판단 가이드</text>
+
+  <!-- Divider -->
+  <rect x="60" y="158" width="960" height="3" fill="#F59E0B" rx="2"/>
+
+  <!-- Header row -->
+  <rect x="60" y="178" width="960" height="52" rx="10" fill="#1D4ED8"/>
+  <text x="200" y="211" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF" text-anchor="middle">가족 유형</text>
+  <text x="440" y="211" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF" text-anchor="middle">비용처리</text>
+  <text x="640" y="211" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF" text-anchor="middle">국민연금·건강보험</text>
+  <text x="880" y="211" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF" text-anchor="middle">고용보험·산재보험</text>
+
+  <!-- Row 1: 배우자 -->
+  <rect x="60" y="242" width="960" height="158" rx="12" fill="#1A3270"/>
+  <text x="200" y="298" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#F59E0B" text-anchor="middle">배우자</text>
+  <text x="200" y="326" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">(동거 여부 무관)</text>
+  <text x="440" y="316" font-family="-apple-system, sans-serif" font-size="36" font-weight="900" fill="#34D399" text-anchor="middle">✅ 가능</text>
+  <text x="440" y="346" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">실근로+증빙 필수</text>
+  <text x="640" y="316" font-family="-apple-system, sans-serif" font-size="36" font-weight="900" fill="#34D399" text-anchor="middle">✅ 의무</text>
+  <text x="640" y="346" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">반드시 가입</text>
+  <text x="880" y="316" font-family="-apple-system, sans-serif" font-size="36" font-weight="900" fill="#F87171" text-anchor="middle">❌ 불가</text>
+  <text x="880" y="346" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">동거 무관 가입 안 됨</text>
+
+  <!-- Row 2: 동거 직계가족 -->
+  <rect x="60" y="412" width="960" height="158" rx="12" fill="#1A3270"/>
+  <text x="200" y="468" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#F59E0B" text-anchor="middle">동거 직계가족</text>
+  <text x="200" y="496" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">(자녀·부모 등)</text>
+  <text x="440" y="486" font-family="-apple-system, sans-serif" font-size="36" font-weight="900" fill="#34D399" text-anchor="middle">✅ 가능</text>
+  <text x="440" y="516" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">실근로+증빙 필수</text>
+  <text x="640" y="486" font-family="-apple-system, sans-serif" font-size="36" font-weight="900" fill="#34D399" text-anchor="middle">✅ 의무</text>
+  <text x="640" y="516" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">반드시 가입</text>
+  <text x="880" y="486" font-family="-apple-system, sans-serif" font-size="36" font-weight="900" fill="#F87171" text-anchor="middle">❌ 원칙 불가</text>
+  <text x="880" y="516" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">공단 확인 후 예외 가능</text>
+
+  <!-- Row 3: 비동거 친족 -->
+  <rect x="60" y="582" width="960" height="158" rx="12" fill="#1A3270"/>
+  <text x="200" y="638" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#F59E0B" text-anchor="middle">비동거 친족</text>
+  <text x="200" y="666" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">(4촌 이내 혈족 등)</text>
+  <text x="440" y="656" font-family="-apple-system, sans-serif" font-size="36" font-weight="900" fill="#34D399" text-anchor="middle">✅ 가능</text>
+  <text x="440" y="686" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">일반 직원과 동일</text>
+  <text x="640" y="656" font-family="-apple-system, sans-serif" font-size="36" font-weight="900" fill="#34D399" text-anchor="middle">✅ 의무</text>
+  <text x="640" y="686" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">반드시 가입</text>
+  <text x="880" y="656" font-family="-apple-system, sans-serif" font-size="36" font-weight="900" fill="#34D399" text-anchor="middle">✅ 가능</text>
+  <text x="880" y="686" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">일반 직원과 동일</text>
+
+  <!-- Row 4: 사업주 본인 -->
+  <rect x="60" y="752" width="960" height="158" rx="12" fill="#2D1515"/>
+  <text x="200" y="808" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#F87171" text-anchor="middle">사업주 본인</text>
+  <text x="200" y="836" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">(개인사업자)</text>
+  <text x="440" y="826" font-family="-apple-system, sans-serif" font-size="36" font-weight="900" fill="#F87171" text-anchor="middle">❌ 불가</text>
+  <text x="440" y="856" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">절대 비용처리 안 됨</text>
+  <text x="640" y="826" font-family="-apple-system, sans-serif" font-size="36" font-weight="900" fill="#34D399" text-anchor="middle">✅ 가능</text>
+  <text x="640" y="856" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">지역가입자</text>
+  <text x="880" y="826" font-family="-apple-system, sans-serif" font-size="28" font-weight="900" fill="#FBBF24" text-anchor="middle">법인 전환 고려</text>
+  <text x="880" y="856" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">대표이사 급여 비용처리</text>
+
+  <!-- Bottom -->
+  <rect x="0" y="1068" width="1080" height="12" fill="url(#accent)"/>
+</svg>

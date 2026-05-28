@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1700" fill="url(#bg)"/>
+
+  <text x="60" y="80" fill="#FFFFFF" font-size="36" font-weight="800" font-family="sans-serif">시나리오별 추천 — 운전자보험 2026</text>
+  <text x="60" y="115" fill="#C4B5FD" font-size="18" font-weight="600" font-family="sans-serif">운전 패턴·연령·차종 기준 6사 적합도</text>
+
+  <!-- Card 1 -->
+  <rect x="60" y="145" width="350" height="230" rx="16" fill="#1e293b" stroke="#7C3AED" stroke-width="2"/>
+  <rect x="80" y="165" width="100" height="32" rx="16" fill="#7C3AED"/>
+  <text x="130" y="187" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">자녀 보호</text>
+  <text x="80" y="225" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">스쿨존 통행 잦은 학부모</text>
+  <text x="80" y="265" fill="#FCD34D" font-size="22" font-weight="800" font-family="sans-serif">DB손보</text>
+  <text x="80" y="295" fill="#CBD5E1" font-size="14" font-family="sans-serif">스쿨존 6주미만 +500만</text>
+  <text x="80" y="318" fill="#CBD5E1" font-size="14" font-family="sans-serif">최대 800만 (업계 최고)</text>
+  <text x="80" y="350" fill="#34D399" font-size="13" font-weight="600" font-family="sans-serif">+ 가족 한정 운전 특약 결합</text>
+
+  <!-- Card 2 -->
+  <rect x="425" y="145" width="350" height="230" rx="16" fill="#1e293b" stroke="#7C3AED" stroke-width="2"/>
+  <rect x="445" y="165" width="100" height="32" rx="16" fill="#7C3AED"/>
+  <text x="495" y="187" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">장거리</text>
+  <text x="445" y="225" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">출퇴근·고속도로 잦은 직장인</text>
+  <text x="445" y="265" fill="#FCD34D" font-size="22" font-weight="800" font-family="sans-serif">삼성화재</text>
+  <text x="445" y="295" fill="#CBD5E1" font-size="14" font-family="sans-serif">변호사비 1~14급 선지급</text>
+  <text x="445" y="318" fill="#CBD5E1" font-size="14" font-family="sans-serif">장기 분쟁·중대사고 유리</text>
+  <text x="445" y="350" fill="#34D399" font-size="13" font-weight="600" font-family="sans-serif">+ 형사합의금 1억 가입</text>
+
+  <!-- Card 3 -->
+  <rect x="790" y="145" width="350" height="230" rx="16" fill="#1e293b" stroke="#7C3AED" stroke-width="2"/>
+  <rect x="810" y="165" width="100" height="32" rx="16" fill="#7C3AED"/>
+  <text x="860" y="187" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">티맵</text>
+  <text x="810" y="225" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">티맵 안전운전 점수 80+</text>
+  <text x="810" y="265" fill="#FCD34D" font-size="22" font-weight="800" font-family="sans-serif">KB손보</text>
+  <text x="810" y="295" fill="#CBD5E1" font-size="14" font-family="sans-serif">자동차+운전자 결합 할인</text>
+  <text x="810" y="318" fill="#CBD5E1" font-size="14" font-family="sans-serif">통합 청구·관리 편의</text>
+  <text x="810" y="350" fill="#34D399" font-size="13" font-weight="600" font-family="sans-serif">+ 점수 90+ 추가 할인</text>
+
+  <!-- Card 4 -->
+  <rect x="60" y="395" width="350" height="230" rx="16" fill="#1e293b" stroke="#7C3AED" stroke-width="2"/>
+  <rect x="80" y="415" width="100" height="32" rx="16" fill="#7C3AED"/>
+  <text x="130" y="437" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">가성비</text>
+  <text x="80" y="475" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">월 1만 원대 단독형 원할 때</text>
+  <text x="80" y="515" fill="#FCD34D" font-size="22" font-weight="800" font-family="sans-serif">메리츠 / 한화</text>
+  <text x="80" y="545" fill="#CBD5E1" font-size="14" font-family="sans-serif">메리츠: 4주미만 500만 강세</text>
+  <text x="80" y="568" fill="#CBD5E1" font-size="14" font-family="sans-serif">한화: 초저가·필수만 슬림</text>
+  <text x="80" y="600" fill="#34D399" font-size="13" font-weight="600" font-family="sans-serif">+ 비갱신 20년·30년 옵션 비교</text>
+
+  <!-- Card 5 -->
+  <rect x="425" y="395" width="350" height="230" rx="16" fill="#1e293b" stroke="#7C3AED" stroke-width="2"/>
+  <rect x="445" y="415" width="100" height="32" rx="16" fill="#7C3AED"/>
+  <text x="495" y="437" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">전기차</text>
+  <text x="445" y="475" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">EV 보유 + 저속 사고 우려</text>
+  <text x="445" y="515" fill="#FCD34D" font-size="22" font-weight="800" font-family="sans-serif">현대해상</text>
+  <text x="445" y="545" fill="#CBD5E1" font-size="14" font-family="sans-serif">자동차보험 묶음 시너지</text>
+  <text x="445" y="568" fill="#CBD5E1" font-size="14" font-family="sans-serif">EV 특화 부가 서비스</text>
+  <text x="445" y="600" fill="#34D399" font-size="13" font-weight="600" font-family="sans-serif">+ 자동차보험 결합 할인 5~7%</text>
+
+  <!-- Card 6 -->
+  <rect x="790" y="395" width="350" height="230" rx="16" fill="#1e293b" stroke="#7C3AED" stroke-width="2"/>
+  <rect x="810" y="415" width="100" height="32" rx="16" fill="#7C3AED"/>
+  <text x="860" y="437" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">30~40대</text>
+  <text x="810" y="475" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">비갱신형 — 고정 보험료</text>
+  <text x="810" y="515" fill="#FCD34D" font-size="22" font-weight="800" font-family="sans-serif">KB / DB / 삼성</text>
+  <text x="810" y="545" fill="#CBD5E1" font-size="14" font-family="sans-serif">20·30년 만기 비갱신 풍부</text>
+  <text x="810" y="568" fill="#CBD5E1" font-size="14" font-family="sans-serif">갱신 인상 리스크 회피</text>
+  <text x="810" y="600" fill="#34D399" font-size="13" font-weight="600" font-family="sans-serif">+ 신계약 변호사비 50% 자부담 주의</text>
+
+  <!-- Card 7 -->
+  <rect x="60" y="645" width="715" height="230" rx="16" fill="#1e293b" stroke="#FCD34D" stroke-width="2"/>
+  <rect x="80" y="665" width="120" height="32" rx="16" fill="#FCD34D"/>
+  <text x="140" y="687" text-anchor="middle" fill="#92400E" font-size="14" font-weight="800" font-family="sans-serif">50~60대</text>
+  <text x="80" y="725" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">갱신형 — 단기 저보험료 우선</text>
+  <text x="80" y="765" fill="#FCD34D" font-size="22" font-weight="800" font-family="sans-serif">메리츠 / 한화</text>
+  <text x="80" y="795" fill="#CBD5E1" font-size="14" font-family="sans-serif">단기 갱신형으로 초기 부담 최소화 — 단, 60세 이후 비갱신 대비 약 1.5~2배 가능</text>
+  <text x="80" y="830" fill="#F87171" font-size="14" font-weight="700" font-family="sans-serif">⚠ 65세 이상은 갱신 거절·인상 리스크 → 비갱신형 검토</text>
+
+  <!-- Decision flow / 5단계 체크리스트 -->
+  <rect x="790" y="645" width="350" height="230" rx="16" fill="#1e293b" stroke="#34D399" stroke-width="2"/>
+  <text x="810" y="685" fill="#34D399" font-size="20" font-weight="800" font-family="sans-serif">기존 가입자 점검</text>
+  <g font-family="sans-serif">
+    <text x="810" y="725" fill="#FFFFFF" font-size="14">✓ 변호사선임비 한도 ≥ 5,000만</text>
+    <text x="810" y="755" fill="#FFFFFF" font-size="14">✓ 형사합의금 ≥ 5,000만</text>
+    <text x="810" y="785" fill="#FFFFFF" font-size="14">✓ 벌금 대인 3,000만/대물 500만</text>
+    <text x="810" y="815" fill="#FFFFFF" font-size="14">✓ 중복 가입 여부 확인</text>
+    <text x="810" y="845" fill="#FFFFFF" font-size="14">✓ 갱신·비갱신 만기 점검</text>
+  </g>
+
+  <!-- 6 step checklist -->
+  <text x="60" y="945" fill="#FFFFFF" font-size="28" font-weight="800" font-family="sans-serif">가입·전환 6단계 체크리스트</text>
+
+  <g font-family="sans-serif">
+    <!-- Step 1 -->
+    <rect x="60" y="975" width="170" height="170" rx="14" fill="#1e293b" stroke="#7C3AED" stroke-width="2"/>
+    <circle cx="145" cy="1010" r="22" fill="#7C3AED"/>
+    <text x="145" y="1018" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800">1</text>
+    <text x="145" y="1055" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700">중복가입 확인</text>
+    <text x="145" y="1090" text-anchor="middle" fill="#CBD5E1" font-size="11">손보협회 조회로</text>
+    <text x="145" y="1108" text-anchor="middle" fill="#CBD5E1" font-size="11">기존 계약 점검</text>
+    <text x="145" y="1130" text-anchor="middle" fill="#FCA5A5" font-size="11" font-weight="700">중복 시 비례보상</text>
+
+    <!-- Step 2 -->
+    <rect x="245" y="975" width="170" height="170" rx="14" fill="#1e293b" stroke="#7C3AED" stroke-width="2"/>
+    <circle cx="330" cy="1010" r="22" fill="#7C3AED"/>
+    <text x="330" y="1018" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800">2</text>
+    <text x="330" y="1055" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700">필수 4종 확정</text>
+    <text x="330" y="1090" text-anchor="middle" fill="#CBD5E1" font-size="11">벌금·합의금·</text>
+    <text x="330" y="1108" text-anchor="middle" fill="#CBD5E1" font-size="11">변호사·교통사고처리</text>
+    <text x="330" y="1130" text-anchor="middle" fill="#FCD34D" font-size="11" font-weight="700">한도 5,000만↑</text>
+
+    <!-- Step 3 -->
+    <rect x="430" y="975" width="170" height="170" rx="14" fill="#1e293b" stroke="#7C3AED" stroke-width="2"/>
+    <circle cx="515" cy="1010" r="22" fill="#7C3AED"/>
+    <text x="515" y="1018" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800">3</text>
+    <text x="515" y="1055" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700">갱신 vs 비갱신</text>
+    <text x="515" y="1090" text-anchor="middle" fill="#CBD5E1" font-size="11">30~40대: 비갱신</text>
+    <text x="515" y="1108" text-anchor="middle" fill="#CBD5E1" font-size="11">50대~: 단기 갱신</text>
+    <text x="515" y="1130" text-anchor="middle" fill="#34D399" font-size="11" font-weight="700">총납입 비교 필수</text>
+
+    <!-- Step 4 -->
+    <rect x="615" y="975" width="170" height="170" rx="14" fill="#1e293b" stroke="#7C3AED" stroke-width="2"/>
+    <circle cx="700" cy="1010" r="22" fill="#7C3AED"/>
+    <text x="700" y="1018" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800">4</text>
+    <text x="700" y="1055" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700">2026 개정 반영</text>
+    <text x="700" y="1090" text-anchor="middle" fill="#CBD5E1" font-size="11">신계약 변호사비</text>
+    <text x="700" y="1108" text-anchor="middle" fill="#CBD5E1" font-size="11">자기부담 50% 인지</text>
+    <text x="700" y="1130" text-anchor="middle" fill="#FCA5A5" font-size="11" font-weight="700">기존계약은 무관</text>
+
+    <!-- Step 5 -->
+    <rect x="800" y="975" width="170" height="170" rx="14" fill="#1e293b" stroke="#7C3AED" stroke-width="2"/>
+    <circle cx="885" cy="1010" r="22" fill="#7C3AED"/>
+    <text x="885" y="1018" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800">5</text>
+    <text x="885" y="1055" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700">결합 할인 활용</text>
+    <text x="885" y="1090" text-anchor="middle" fill="#CBD5E1" font-size="11">자동차+운전자</text>
+    <text x="885" y="1108" text-anchor="middle" fill="#CBD5E1" font-size="11">티맵·블박 결합</text>
+    <text x="885" y="1130" text-anchor="middle" fill="#34D399" font-size="11" font-weight="700">5~10% 절감</text>
+
+    <!-- Step 6 -->
+    <rect x="985" y="975" width="155" height="170" rx="14" fill="#1e293b" stroke="#7C3AED" stroke-width="2"/>
+    <circle cx="1062" cy="1010" r="22" fill="#7C3AED"/>
+    <text x="1062" y="1018" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800">6</text>
+    <text x="1062" y="1055" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700">사고 시 대응</text>
+    <text x="1062" y="1090" text-anchor="middle" fill="#CBD5E1" font-size="11">진단주수 확정 후</text>
+    <text x="1062" y="1108" text-anchor="middle" fill="#CBD5E1" font-size="11">즉시 청구</text>
+    <text x="1062" y="1130" text-anchor="middle" fill="#FCD34D" font-size="11" font-weight="700">8주 룰 서류 챙김</text>
+  </g>
+
+  <!-- Bottom warning -->
+  <rect x="60" y="1190" width="1080" height="120" rx="14" fill="#1e293b" stroke="#F87171" stroke-width="2"/>
+  <text x="80" y="1230" fill="#FCA5A5" font-size="20" font-weight="800" font-family="sans-serif">⚠ 2026 음주방지장치 의무 부착 (10월 시행)</text>
+  <text x="80" y="1265" fill="#FFFFFF" font-size="15" font-family="sans-serif">최근 5년 내 음주운전 2회 이상 적발자는 2026년 10월부터 음주방지장치(IID) 의무 부착 — 자비 약 300만 원 발생</text>
+  <text x="80" y="1295" fill="#CBD5E1" font-size="14" font-family="sans-serif">약물운전은 음주와 동일 격상되어 보험료 약 20% 할증 — 운전자보험은 음주·약물 사고 완전 면책 유지</text>
+
+  <text x="60" y="1620" fill="#64748B" font-size="14" font-family="sans-serif">essencial | 보험 silo · 본 자료는 일반 정보 제공 목적으로 개별 가입은 약관·청약서 확인 필수</text>
+</svg>

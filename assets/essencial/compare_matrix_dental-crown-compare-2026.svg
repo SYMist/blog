@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#F0FDFA"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg2)"/>
+
+  <text x="540" y="70" font-family="sans-serif" font-size="36" font-weight="900" fill="#111827" text-anchor="middle">크라운 재료별 비교 매트릭스</text>
+  <text x="540" y="108" font-family="sans-serif" font-size="20" fill="#6B7280" text-anchor="middle">지르코니아 vs 금 vs PFM | 2026년 3월 기준</text>
+
+  <!-- 헤더 -->
+  <rect x="40" y="145" width="1000" height="56" rx="12" fill="#0F766E"/>
+  <text x="180" y="180" font-family="sans-serif" font-size="19" font-weight="700" fill="#FFF" text-anchor="middle">비교 항목</text>
+  <text x="460" y="180" font-family="sans-serif" font-size="19" font-weight="700" fill="#FFF" text-anchor="middle">지르코니아</text>
+  <text x="700" y="180" font-family="sans-serif" font-size="19" font-weight="700" fill="#FFF" text-anchor="middle">금 (골드)</text>
+  <text x="940" y="180" font-family="sans-serif" font-size="19" font-weight="700" fill="#FFF" text-anchor="middle">PFM</text>
+
+  <!-- Row 1 -->
+  <rect x="40" y="205" width="1000" height="68" fill="#FFF"/>
+  <line x1="40" y1="273" x2="1040" y2="273" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="70" y="245" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827">💰 가격</text>
+  <text x="460" y="245" font-family="sans-serif" font-size="19" font-weight="700" fill="#0F766E" text-anchor="middle">45~60만 원</text>
+  <text x="700" y="245" font-family="sans-serif" font-size="19" fill="#D97706" text-anchor="middle">60~90만 원+</text>
+  <text x="940" y="245" font-family="sans-serif" font-size="19" fill="#10B981" text-anchor="middle">35~45만 원</text>
+
+  <!-- Row 2 -->
+  <rect x="40" y="273" width="1000" height="68" fill="#F9FAFB"/>
+  <line x1="40" y1="341" x2="1040" y2="341" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="70" y="313" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827">💪 강도</text>
+  <text x="460" y="313" font-family="sans-serif" font-size="19" font-weight="800" fill="#0F766E" text-anchor="middle">1,000MPa+</text>
+  <text x="700" y="313" font-family="sans-serif" font-size="19" fill="#4B5563" text-anchor="middle">우수 (파절 없음)</text>
+  <text x="940" y="313" font-family="sans-serif" font-size="19" fill="#EF4444" text-anchor="middle">치핑 위험 20%</text>
+
+  <!-- Row 3 -->
+  <rect x="40" y="341" width="1000" height="68" fill="#FFF"/>
+  <line x1="40" y1="409" x2="1040" y2="409" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="70" y="381" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827">✨ 심미성</text>
+  <text x="460" y="381" font-family="sans-serif" font-size="19" font-weight="700" fill="#0F766E" text-anchor="middle">매우 우수</text>
+  <text x="700" y="381" font-family="sans-serif" font-size="19" fill="#EF4444" text-anchor="middle">낮음 (금색)</text>
+  <text x="940" y="381" font-family="sans-serif" font-size="19" fill="#F59E0B" text-anchor="middle">보통 (변색 가능)</text>
+
+  <!-- Row 4 -->
+  <rect x="40" y="409" width="1000" height="68" fill="#F9FAFB"/>
+  <line x1="40" y1="477" x2="1040" y2="477" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="70" y="449" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827">🪥 치아 삭제</text>
+  <text x="460" y="449" font-family="sans-serif" font-size="19" fill="#4B5563" text-anchor="middle">0.5~1.0mm</text>
+  <text x="700" y="449" font-family="sans-serif" font-size="19" font-weight="700" fill="#0F766E" text-anchor="middle">0.3~0.5mm 최소</text>
+  <text x="940" y="449" font-family="sans-serif" font-size="19" fill="#EF4444" text-anchor="middle">1.5mm+ 가장 많음</text>
+
+  <!-- Row 5 -->
+  <rect x="40" y="477" width="1000" height="68" fill="#FFF"/>
+  <line x1="40" y1="545" x2="1040" y2="545" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="70" y="517" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827">🦷 대합치 보호</text>
+  <text x="460" y="517" font-family="sans-serif" font-size="19" fill="#4B5563" text-anchor="middle">보통</text>
+  <text x="700" y="517" font-family="sans-serif" font-size="19" font-weight="700" fill="#0F766E" text-anchor="middle">최고 (치아 유사)</text>
+  <text x="940" y="517" font-family="sans-serif" font-size="19" fill="#4B5563" text-anchor="middle">보통</text>
+
+  <!-- Row 6 -->
+  <rect x="40" y="545" width="1000" height="68" fill="#F9FAFB"/>
+  <line x1="40" y1="613" x2="1040" y2="613" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="70" y="585" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827">⏱️ 5년 생존율</text>
+  <text x="460" y="585" font-family="sans-serif" font-size="19" font-weight="700" fill="#0F766E" text-anchor="middle">95%+</text>
+  <text x="700" y="585" font-family="sans-serif" font-size="19" font-weight="700" fill="#0F766E" text-anchor="middle">95%+</text>
+  <text x="940" y="585" font-family="sans-serif" font-size="19" fill="#F59E0B" text-anchor="middle">80~90%</text>
+
+  <!-- Row 7 -->
+  <rect x="40" y="613" width="1000" height="68" fill="#FFF"/>
+  <line x1="40" y1="681" x2="1040" y2="681" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="70" y="653" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827">🏥 65세+ 보험</text>
+  <text x="460" y="653" font-family="sans-serif" font-size="20" fill="#10B981" text-anchor="middle">✅ 적용</text>
+  <text x="700" y="653" font-family="sans-serif" font-size="20" fill="#EF4444" text-anchor="middle">❌ 비급여</text>
+  <text x="940" y="653" font-family="sans-serif" font-size="20" fill="#10B981" text-anchor="middle">✅ 적용</text>
+
+  <!-- Row 8 -->
+  <rect x="40" y="681" width="1000" height="68" fill="#F9FAFB"/>
+  <text x="70" y="721" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827">📅 평균 수명</text>
+  <text x="460" y="721" font-family="sans-serif" font-size="19" fill="#4B5563" text-anchor="middle">10~15년+</text>
+  <text x="700" y="721" font-family="sans-serif" font-size="19" font-weight="700" fill="#0F766E" text-anchor="middle">15~20년+</text>
+  <text x="940" y="721" font-family="sans-serif" font-size="19" fill="#EF4444" text-anchor="middle">5~10년</text>
+
+  <!-- 범례 -->
+  <rect x="40" y="790" width="1000" height="80" rx="16" fill="#F0FDFA" stroke="#99F6E4" stroke-width="1"/>
+  <text x="540" y="825" font-family="sans-serif" font-size="18" font-weight="700" fill="#0F766E" text-anchor="middle">핵심: 가성비+심미성 → 지르코니아 | 삭제 최소+대합치 보호 → 금 | 예산 절약 → PFM</text>
+  <text x="540" y="855" font-family="sans-serif" font-size="16" fill="#6B7280" text-anchor="middle">2026년 금 시세 폭등으로 지르코니아 선택 비율 급증</text>
+
+  <text x="540" y="940" font-family="sans-serif" font-size="15" fill="#9CA3AF" text-anchor="middle">2026년 3월 기준 | 전국 비급여 수가 통계 기반</text>
+</svg>

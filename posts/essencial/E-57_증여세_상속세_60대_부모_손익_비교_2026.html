@@ -1,0 +1,378 @@
+<!-- essencial_template_finance.html 기반 -->
+<!-- E-57: 증여세 vs 상속세 미리 계산 — 부모 60대 어느 게 유리한가 (2026) -->
+
+<!-- ✅ Schema.org 구조화 데이터 -->
+<div style="display:none">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "증여세 vs 상속세 미리 계산 — 부모 60대 어느 게 유리한가, 자산 규모별 시뮬레이션 (2026)",
+      "description": "자녀 2명·자산 5억~50억 5종 시뮬레이션: 10억 이하 상속이 7,000만원 유리, 30억 이상 사전 증여가 유리. 증여 공제 5천만원 10년 누계·상속 일괄공제 5억·자녀공제 5억 개정안까지 한 번에 정리.",
+      "datePublished": "2026-05-18",
+      "dateModified": "2026-05-18",
+      "author": {"@type": "Person", "name": "essencial"},
+      "publisher": {"@type": "Organization", "name": "essencial"}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "60대 부모의 자산이 10억이라면 증여와 상속 중 뭐가 유리한가요?", "acceptedAnswer": {"@type": "Answer", "text": "자산 10억 자녀 2명 균등 분배 가정 시 사전 증여 약 1억 6,000만원 부담 vs 상속 약 9,000만원 부담으로 상속이 약 7,000만원 유리합니다. 상속은 일괄공제 5억원이 적용되어 과세표준이 크게 줄어드는 반면, 증여는 자녀 1인당 5천만원 공제만 적용되기 때문입니다. 10억 이하 자산은 일반적으로 상속이 압도적으로 유리합니다."}},
+        {"@type": "Question", "name": "30억 이상 자산은 왜 사전 증여가 유리한가요?", "acceptedAnswer": {"@type": "Answer", "text": "자산 30억 이상에서는 증여·상속 세액이 거의 동률이지만 사전 증여에는 3가지 추가 이점이 있습니다. ① 증여 후 자산 증가분이 자녀 자산이 되어 상속재산에서 제외 ② 10년 누계 공제(5천만원)를 60→70→80→90세 4회 활용 가능 ③ 자녀가 자금 필요 시점(결혼·주택)에 즉시 활용. 60대 일찍 시작할수록 효과가 큽니다."}},
+        {"@type": "Question", "name": "증여 공제 5천만원은 한 번만 받을 수 있나요?", "acceptedAnswer": {"@type": "Answer", "text": "아니요, 10년 누계 기준입니다. 자녀가 만 60세 부모로부터 5천만원을 증여받았다면 10년 후(부모 70세, 자녀 30세 이상) 다시 5천만원을 추가로 비과세 받을 수 있습니다. 60→70→80→90세 4회 증여 시 자녀 1인당 2억원, 자녀 2명이면 4억원이 비과세 이전 가능합니다. 사전 증여 전략의 핵심 메커니즘입니다."}},
+        {"@type": "Question", "name": "사망 10년 이내에 증여한 재산은 어떻게 처리되나요?", "acceptedAnswer": {"@type": "Answer", "text": "상속개시일 전 10년 이내에 증여한 재산은 상속재산에 합산되어 상속세가 다시 계산됩니다(증여세는 차감). 이미 낸 증여세는 공제되지만 절세 효과가 사라집니다. 따라서 60대 일찍 증여 시작이 핵심이며, 70대 이후 사전 증여는 효과가 제한적입니다. 90세 이상 부모는 사전 증여보다 상속 전략이 안정적입니다."}},
+        {"@type": "Question", "name": "자녀공제 5억 개정안은 언제 시행되나요?", "acceptedAnswer": {"@type": "Answer", "text": "현재 검토 중인 개정안으로 시행 시점은 미확정입니다. 시행되면 자녀 1인당 상속공제 5천만원에서 5억원으로 100배 상향됩니다. 자녀 2명·부모 자산 15억 가정 시 자녀공제만으로 10억원 추가 공제되어 상속세가 거의 0원이 될 수 있습니다. 단, 증여세 공제는 5천만원 그대로 유지되므로 상속의 매력이 더 커지는 방향입니다. 시행 발표 시 즉시 시뮬레이션 재검토가 필요합니다."}},
+        {"@type": "Question", "name": "사전 증여 vs 상속 결정에 가장 중요한 변수는 무엇인가요?", "acceptedAnswer": {"@type": "Answer", "text": "4가지 변수입니다. ① 자산 규모 (10억 이하 → 상속 / 30억+ → 사전 증여) ② 부모 연령 (60대 일찍이면 사전 증여 효과↑, 70대 이후는 효과↓) ③ 자녀의 자금 필요 시점 (결혼·주택 자금 필요 시 사전 증여) ④ 향후 자산 증가율 (부동산 등 상승 자산은 증여로 분리해 미래 가치 분리). 4가지를 종합 검토해 결정하는 것이 합리적이며, 세무사 상담은 1억 이상 이전 시 거의 필수입니다."}}
+      ]
+    }
+  ]
+}
+</script>
+</div>
+
+<style>
+  :root{
+    --pri:#B45309; --pri2:#D97706;
+    --white:#FFFFFF; --text:#111827;
+    --muted:#4B5563; --border:#E5E7EB;
+    --bg:#F9FAFB; --accent:#FEF3C7;
+  }
+  .wrap{max-width:860px;margin:0 auto;line-height:1.8;color:var(--text);}
+  .meta{color:var(--muted);font-size:.95rem;margin:6px 0 18px;}
+  .badge{display:inline-block;background:var(--accent);border:1px solid #FDE68A;padding:3px 10px;border-radius:999px;font-size:.85rem;margin-right:8px;}
+  .notice{background:#FFF7ED;border:1px solid #FED7AA;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .conclusion{background:#FEF3C7;border:1px solid #FDE68A;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .toc{background:var(--bg);border:1px solid var(--border);padding:14px 16px;border-radius:12px;margin:16px 0 22px;}
+  .toc a{text-decoration:none;color:var(--pri);}
+  .toc ul{margin:8px 0 0 18px;}
+  .wrap a.btn,.wrap a.btn:link,.wrap a.btn:visited{
+    display:inline-flex;align-items:center;justify-content:center;
+    padding:10px 14px;border-radius:10px;border:1px solid var(--pri);
+    background:var(--pri) !important;color:var(--white) !important;
+    text-decoration:none !important;font-weight:800;
+  }
+  .wrap a.btn:hover{background:var(--pri2) !important;}
+  .wrap a.btn.secondary,.wrap a.btn.secondary:link,.wrap a.btn.secondary:visited{
+    background:var(--white) !important;color:var(--pri) !important;border-color:var(--pri) !important;
+  }
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 6px;}
+  table{width:100%;border-collapse:collapse;margin:14px 0 10px;}
+  th,td{border:1px solid var(--border);padding:10px;vertical-align:top;}
+  th{background:#F3F4F6;text-align:left;}
+  .small{font-size:.95rem;color:var(--muted);}
+  h1{margin:0 0 8px;line-height:1.25;}
+  h2{margin-top:30px;padding-top:8px;border-top:1px solid var(--border);}
+  h3{margin-top:16px;}
+  .q{font-weight:900;margin:14px 0 6px;}
+  .a{margin:0 0 10px;}
+  .highlight{background:#F0FDF4;border:1px solid #BBF7D0;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .warning{background:#FEF2F2;border:1px solid #FECACA;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .tco-box{background:#FEFCE8;border:1px solid #FDE68A;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .scope{background:#F8FAFC;border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .scope ul{margin:4px 0 0 18px;}
+  .action-steps{background:#FFF7ED;border:1px solid #FED7AA;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .action-steps ol{margin:8px 0 0 18px;}
+  .sources{background:var(--bg);border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:14px 0;font-size:.9rem;}
+  .sources ul{margin:4px 0 0 18px;}
+  .footer{margin-top:26px;padding-top:14px;border-top:1px solid var(--border);color:var(--muted);font-size:.95rem;}
+</style>
+
+<div class="wrap">
+  <h1>증여세 vs 상속세 미리 계산 — 부모 60대 어느 게 유리한가, 자산 규모별 시뮬레이션 (2026)</h1>
+  <div class="meta">
+    <span class="badge">대출·금융</span>
+    <span class="badge">업데이트: 2026-05-18</span>
+  </div>
+
+  <div class="notice">
+    <strong>먼저 확인!</strong><br/>
+    자산 10억 이하는 상속(일괄공제 5억)이 약 7,000만원 유리하지만, 30억 이상은 사전 증여(10년 누계 공제 + 자산 증가분 분리)가 유리합니다. 손익분기점은 자산 약 20억원 근처에서 동률이며, 60대 일찍 결정할수록 사전 증여 효과가 큽니다.
+  </div>
+
+  <p class="small">
+    자녀 2명·부모 60대 가정으로 자산 5억~50억 5종 시뮬레이션한 결과 손익분기점은 약 20억원입니다. 증여 공제(5천만원 10년 누계)와 상속 공제(일괄공제 5억 + 자녀공제 5억 개정안)의 구조 차이가 결정 변수입니다. 60대 일찍 시작해야 사전 증여 효과가 극대화된다는 점까지 한 번에 확인하세요.
+  </p>
+
+  <div class="scope">
+    <strong>이 글에서 다루는 것</strong>
+    <ul>
+      <li>증여세·상속세 공통 5단계 누진세율 비교</li>
+      <li>증여 공제 (5천만원 10년 누계) vs 상속 공제 (일괄공제 5억 + 자녀공제 5억 개정안)</li>
+      <li>자녀 2명·자산 5억~50억 5종 시나리오 세액 시뮬레이션</li>
+      <li>60대 일찍 사전 증여 시작의 4가지 숨겨진 이점</li>
+      <li>자녀공제 5억 개정안 영향 분석</li>
+    </ul>
+    <strong>다루지 않는 것</strong>
+    <ul>
+      <li>양도소득세 비교 (E-56 별도 글) / 가족법인 절세 (deluxo 별도 글)</li>
+    </ul>
+  </div>
+
+  <!-- ✅ 섹션 1: 결론 먼저 -->
+  <div class="conclusion" id="top">
+    <h2 style="border-top:none;margin-top:0;">✅ 결론 먼저: 자산 규모별 추천</h2>
+    <ul>
+      <li><strong>자산 10억 이하라면</strong> → <strong>상속 (일괄공제 5억으로 약 7,000만원 절감)</strong></li>
+      <li><strong>자산 10억~30억이라면</strong> → <strong>거의 동률 — 자녀 자금 필요 시기에 따라 결정</strong></li>
+      <li><strong>자산 30억 이상이라면</strong> → <strong>사전 증여 (10년 분할 + 자산 증가분 분리로 유리)</strong></li>
+    </ul>
+  </div>
+
+  <!-- ✅ 이미지 1: 비교 요약 카드 -->
+  <img src="compare_summary_gift-tax-vs-inheritance-tax-60s-2026.png" alt="증여세 vs 상속세 자산 규모별 비교 요약" style="width:100%;margin:16px 0;" />
+
+  <div class="toc">
+    <strong>목차</strong>
+    <ul>
+      <li><a href="#compare">1) 증여세·상속세 공통 세율 + 공제 비교표</a></li>
+      <li><a href="#simulation">2) 자산 규모별 5종 시나리오 시뮬레이션</a></li>
+      <li><a href="#breakeven">3) 사전 증여 손익분기점 분석</a></li>
+      <li><a href="#hidden">4) 사전 증여의 4가지 숨겨진 이점</a></li>
+      <li><a href="#reform">5) 자녀공제 5억 개정안 영향</a></li>
+      <li><a href="#scenario">6) 상황별 추천 시나리오</a></li>
+      <li><a href="#checklist">7) 자산 이전 전 자가진단 체크리스트</a></li>
+      <li><a href="#experience">자주 놓치는 포인트와 실수 사례</a></li>
+      <li><a href="#faq">8) FAQ</a></li>
+      <li><a href="#update">업데이트 로그</a></li>
+    </ul>
+  </div>
+
+  <!-- ✅ 섹션 2: 세율·공제 비교 -->
+  <h2 id="compare">1) 증여세·상속세 공통 세율 + 공제 비교표</h2>
+  <h3>세율은 같은데 공제는 어떻게 다른가요?</h3>
+  <p>세율은 상속세·증여세 모두 동일한 5단계 누진(10~50%)입니다. <strong>핵심 차이는 공제 구조</strong>입니다.</p>
+  <table>
+    <thead>
+      <tr>
+        <th>과세표준</th>
+        <th>세율</th>
+        <th>누진공제</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>1억원 이하</td><td>10%</td><td>—</td></tr>
+      <tr><td>1억~5억원</td><td>20%</td><td>1,000만원</td></tr>
+      <tr><td>5억~10억원</td><td>30%</td><td>6,000만원</td></tr>
+      <tr><td>10억~30억원</td><td>40%</td><td>1억 6,000만원</td></tr>
+      <tr><td>30억원 초과</td><td>50%</td><td>4억 6,000만원</td></tr>
+    </tbody>
+  </table>
+  <h3>공제 구조는 어떻게 다른가요?</h3>
+  <table>
+    <thead>
+      <tr><th>구분</th><th>증여세 공제</th><th>상속세 공제</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>주요 공제 (현행)</td><td><strong>자녀 1인당 5천만원</strong> (10년 누계)</td><td><strong>일괄공제 5억원</strong> (자녀 수 무관)</td></tr>
+      <tr><td>미성년 공제</td><td>2천만원</td><td>—</td></tr>
+      <tr><td>배우자 공제</td><td>6억원</td><td>최소 5억 ~ 최대 30억</td></tr>
+      <tr><td>자녀공제 개정안</td><td>변동 없음 (5천만원)</td><td><strong>1인당 5억원으로 상향 (검토 중)</strong></td></tr>
+      <tr><td>금융재산공제</td><td>—</td><td>최대 2억원</td></tr>
+      <tr><td>동거주택공제</td><td>—</td><td>6억원</td></tr>
+    </tbody>
+  </table>
+  <p class="small">※ 2026년 5월 기준. 자녀공제 5억 개정안 시행 시 상속 매력 더 커짐.</p>
+
+  <!-- ✅ 이미지 2: 비교 매트릭스 -->
+  <img src="compare_matrix_gift-tax-vs-inheritance-tax-60s-2026.png" alt="증여세 상속세 자산 규모별 세액 매트릭스" style="width:100%;margin:16px 0;" />
+
+  <!-- ✅ 섹션 3: 자산 규모별 시뮬레이션 -->
+  <h2 id="simulation">2) 자산 규모별 5종 시나리오 시뮬레이션</h2>
+  <h3>같은 자녀 2명이라도 자산 규모에 따라 결과가 어떻게 달라지나요?</h3>
+  <div class="tco-box">
+    <strong>예시: 자녀 2명 균등 분배 · 단신 부모 (배우자 사망 가정) · 2026년 5월</strong><br/><br/>
+    <table>
+      <thead>
+        <tr><th>자산 규모</th><th>사전 증여 세액</th><th>상속 세액</th><th>차액</th><th>유리한 전략</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>5억원</td><td>약 6,000만원</td><td><strong>0원</strong></td><td>+6,000만원</td><td><strong>상속</strong> 압도적</td></tr>
+        <tr><td>10억원</td><td>약 1억 6,000만원</td><td><strong>약 9,000만원</strong></td><td>+7,000만원</td><td><strong>상속</strong> 유리</td></tr>
+        <tr><td>20억원</td><td>약 4.5억원</td><td><strong>약 4.4억원</strong></td><td>+1,000만원</td><td><strong>거의 동률</strong></td></tr>
+        <tr><td>30억원</td><td>약 8.4억원</td><td>약 8.4억원</td><td>거의 0</td><td><strong>거의 동률</strong></td></tr>
+        <tr><td>50억원</td><td><strong>약 16.4억원</strong></td><td>약 17.9억원</td><td>-1.5억원</td><td><strong>사전 증여</strong> 유리</td></tr>
+      </tbody>
+    </table>
+    <p class="small">※ 자녀 1인당 균등 분배 가정. 누진공제 반영. 배우자공제·동거주택공제 등 추가 공제 미반영. 본인 케이스는 홈택스 계산기 또는 세무사 상담 필수.</p>
+  </div>
+  <p><strong>손익분기점은 약 20억원 근처</strong>입니다. 10억 이하는 상속이 압도적, 30억 이상부터는 사전 증여가 점차 유리해집니다. 단, 사전 증여는 10년 누계 분할 활용 시 효과가 더 커집니다.</p>
+
+  <!-- ✅ 섹션 4: 손익분기점 분석 -->
+  <h2 id="breakeven">3) 사전 증여 손익분기점 분석</h2>
+  <h3>왜 손익분기점이 약 20억원에 형성되나요?</h3>
+  <p>핵심은 <strong>"증여는 공제가 작고 세율 누진 시작점이 낮다"</strong>는 점입니다.</p>
+  <table>
+    <thead>
+      <tr><th>비교 항목</th><th>증여 (자녀 2명)</th><th>상속</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>공제 총액</td><td>5천만원 × 2명 = <strong>1억원</strong></td><td>일괄공제 <strong>5억원</strong></td></tr>
+      <tr><td>10억 이전 시 과세표준</td><td>10억 - 1억 = 9억</td><td>10억 - 5억 = 5억</td></tr>
+      <tr><td>10억 이전 시 세액</td><td>약 1.6억</td><td>약 9천만원</td></tr>
+      <tr><td>30억 이전 시 과세표준</td><td>30억 - 1억 = 29억</td><td>30억 - 5억 = 25억</td></tr>
+      <tr><td>30억 이전 시 세액</td><td>약 8.4억</td><td>약 8.4억</td></tr>
+    </tbody>
+  </table>
+  <p>30억 이상에서는 양쪽 모두 누진 최고세율(40~50%) 구간에 진입해 공제 차이의 절대 영향이 작아집니다. 따라서 30억+에서는 <strong>10년 누계 공제 재활용·자산 증가분 분리</strong>가 가능한 사전 증여가 유리해지는 구조입니다.</p>
+
+  <!-- ✅ 섹션 5: 사전 증여 숨겨진 이점 -->
+  <h2 id="hidden">4) 사전 증여의 4가지 숨겨진 이점</h2>
+  <h3>세액 외에 사전 증여가 유리한 부수적 이유는 무엇인가요?</h3>
+  <table>
+    <thead>
+      <tr><th>이점</th><th>설명</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>① 자산 증가분 분리</strong></td><td>증여 후 부동산·주식 가치 상승분은 자녀 자산이 되어 상속재산에서 제외. 부동산 상승기에 효과 큼.</td></tr>
+      <tr><td><strong>② 10년 누계 공제 재활용</strong></td><td>60→70→80→90세 4회 증여 시 자녀 1인당 2억원·자녀 2명 4억원 비과세 이전 가능.</td></tr>
+      <tr><td><strong>③ 자녀 자금 활용 시점 일치</strong></td><td>자녀 결혼·주택 구매·창업 시점에 즉시 활용. 상속은 부모 사망 후라 늦음.</td></tr>
+      <tr><td><strong>④ 가업·부동산 분할 사전 정리</strong></td><td>가업 승계·다주택 분리 사전 정리로 상속 분쟁 예방.</td></tr>
+    </tbody>
+  </table>
+  <p>특히 <strong>①번 자산 증가분 분리</strong>가 핵심입니다. 부모 60대에 자녀에게 5억짜리 부동산을 증여하면 10년 후 그 부동산이 8억이 되어도 자녀 자산이지 상속재산이 아닙니다. 3억 증식분은 상속세 대상에서 빠져 세금이 약 1.2억 절감되는 효과가 있습니다.</p>
+  <div class="warning">
+    <strong>주의</strong>: 상속개시일 전 <strong>10년 이내 증여</strong>는 상속재산에 합산되어 절세 효과가 사라집니다. 60대 일찍 시작이 필수이며, 70대 이후 증여는 효과 제한적입니다.
+  </div>
+
+  <!-- ✅ 섹션 6: 자녀공제 5억 개정안 -->
+  <h2 id="reform">5) 자녀공제 5억 개정안 영향</h2>
+  <h3>자녀공제 5억 상향이 되면 시뮬레이션이 어떻게 바뀌나요?</h3>
+  <p>현행 자녀 1인당 5천만원에서 <strong>5억원으로 100배 상향</strong> 검토 중입니다. 시행 시점은 미확정이지만, 자산 규모별 시나리오가 큰 폭으로 바뀝니다.</p>
+  <table>
+    <thead>
+      <tr><th>자산 규모</th><th>상속 세액 (현행)</th><th>상속 세액 (개정안 시)</th><th>절감 효과</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>10억원</td><td>약 9,000만원</td><td><strong>0원</strong> (공제 5억+5억×2 = 15억)</td><td>약 9,000만원</td></tr>
+      <tr><td>15억원</td><td>약 2.4억원</td><td><strong>0원</strong> (공제 15억)</td><td>약 2.4억원</td></tr>
+      <tr><td>20억원</td><td>약 4.4억원</td><td>약 8,000만원 (과세 5억)</td><td>약 3.6억원</td></tr>
+      <tr><td>30억원</td><td>약 8.4억원</td><td>약 4억원</td><td>약 4.4억원</td></tr>
+      <tr><td>50억원</td><td>약 17.9억원</td><td>약 12.9억원</td><td>약 5억원</td></tr>
+    </tbody>
+  </table>
+  <p>자녀공제 5억 개정안이 시행되면 <strong>15억 이하 자산은 상속세가 거의 0원</strong>이 됩니다. 사전 증여는 공제가 5천만원 그대로 유지되므로 상속의 매력이 더 커집니다. 시행 발표 시 즉시 시뮬레이션 재검토가 필요합니다.</p>
+  <div class="btns">
+    <a class="btn" href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6528&cntntsId=7956" target="_blank" rel="noopener">국세청 상속세 안내</a>
+    <a class="btn secondary" href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6533&cntntsId=7960" target="_blank" rel="noopener">국세청 증여세 안내</a>
+  </div>
+
+  <!-- ✅ 섹션 7: 시나리오 추천 -->
+  <div class="highlight" id="scenario">
+    <h3>🔍 당신의 상황에 맞는 자산 이전 전략은?</h3>
+    <ul>
+      <li><strong>자산 5억 이하 + 자녀 1~2명</strong> → <strong>상속 그대로</strong> (일괄공제 5억으로 세액 0원)</li>
+      <li><strong>자산 5억~15억 + 60~70대 부모</strong> → <strong>상속 + 일부 사전 증여 혼합</strong> (자녀 자금 필요 시기에 5천만 공제 활용)</li>
+      <li><strong>자산 15억~30억 + 자녀 결혼·주택 자금 필요</strong> → <strong>10년 누계 5천만 분할 증여</strong> (60대 일찍 시작)</li>
+      <li><strong>자산 30억+ + 부동산 비중 큼</strong> → <strong>사전 증여 분할 (60→70→80세 3회)</strong> + 자산 증가분 분리 효과 극대화</li>
+      <li><strong>가업 또는 다주택 정리 의향</strong> → <strong>사전 증여 + 사전 분할 합의</strong> (상속 분쟁 예방)</li>
+      <li><strong>70대 이상 + 사전 증여 미시작</strong> → <strong>상속 중심 + 일부 즉시 증여</strong> (10년 합산 효과 인식)</li>
+    </ul>
+  </div>
+
+  <!-- ✅ 이미지 3: 시나리오 카드 -->
+  <img src="scenario_gift-tax-vs-inheritance-tax-60s-2026.png" alt="증여 vs 상속 자산 규모별 추천 시나리오" style="width:100%;margin:16px 0;" />
+
+  <!-- ✅ 자산 이전 자가진단 -->
+  <div class="action-steps" id="checklist">
+    <strong>자산 이전 전 자가진단 순서</strong>
+    <ol>
+      <li>부모 총자산 평가 (부동산·금융자산·사업체 합계)</li>
+      <li>자녀 수 + 자녀 자금 필요 시점 파악 (결혼·주택·창업)</li>
+      <li>부모 연령 + 건강 상태 확인 (60대 일찍 시작 가능 여부)</li>
+      <li>자산 규모별 시뮬레이션 (홈택스 상속·증여세 계산기)</li>
+      <li>10년 누계 5천만 분할 일정 시뮬레이션 (60·70·80·90세)</li>
+      <li>자녀공제 5억 개정안 시행 동향 확인</li>
+      <li>1억 이상 자산 이전 시 세무사 상담 (절세 효과 큼)</li>
+    </ol>
+  </div>
+
+  <!-- ✅ 인아티클 광고 -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5716436301710258"
+       crossorigin="anonymous"></script>
+  <ins class="adsbygoogle"
+       style="display:block; text-align:center;"
+       data-ad-layout="in-article"
+       data-ad-format="fluid"
+       data-ad-client="ca-pub-5716436301710258"
+       data-ad-slot="2039167138"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+  <!-- ✅ 주의사항 -->
+  <h2>주의사항</h2>
+  <div class="warning">
+    <ul>
+      <li><strong>사망 10년 이내 증여 합산</strong>: 상속개시일 전 10년 이내 증여재산은 상속재산에 합산. 60대 일찍 시작 필수</li>
+      <li><strong>증여 신고 기한</strong>: 증여일이 속하는 달의 말일부터 3개월 이내 신고. 미신고 시 가산세 (무신고 20% + 납부지연 일 0.022%)</li>
+      <li><strong>자녀공제 5억 개정안</strong>: 검토 중·시행 시점 미확정. 시행 발표 전까지 현행 5천만 적용</li>
+      <li><strong>증여재산 평가</strong>: 부동산은 시가 기준이지만 보충적 평가방법(공시지가 등) 활용 가능. 평가 시점 따라 큰 차이</li>
+      <li><strong>가족간 매매</strong>: 시가 대비 30% 이하 차이는 비과세, 30% 초과 차이는 증여로 간주 가능</li>
+      <li><strong>부담부증여</strong>: 채무 부담 조건 증여는 채무액만큼 양도소득세도 발생 (이중 과세 가능성)</li>
+    </ul>
+  </div>
+
+  <!-- ✅ 자주 놓치는 포인트와 실수 사례 -->
+  <h2 id="experience">자주 놓치는 포인트와 실수 사례</h2>
+  <p>가장 흔한 실수는 "사전 증여가 무조건 절세"라는 인식입니다. 자산 10억 이하에서는 상속이 일괄공제 5억 덕분에 압도적으로 유리합니다. 자산 5억·자녀 2명 가정에서 사전 증여하면 약 6,000만원 부담이 발생하지만, 상속하면 0원입니다. 자산 규모를 먼저 확인하지 않고 사전 증여부터 추진하는 사례가 자주 보고됩니다.</p>
+  <p>10년 누계 공제의 기산점을 잘못 이해하는 경우도 빈번합니다. 자녀에게 5천만원을 증여한 시점이 2026년이라면 2036년 이후에 다시 5천만원 비과세 증여가 가능합니다. 그 사이에 다시 증여하면 누계 합산되어 5천만 초과분에 세금이 부과됩니다. 60대 일찍 시작해야 70대·80대까지 누계 효과를 누릴 수 있는데, 이를 모르고 80대에 한 번에 증여하는 사례가 흔합니다.</p>
+  <p>"증여 후에도 자산을 통제하고 싶다"는 욕구로 명의신탁·우회증여를 시도하는 경우도 위험합니다. 자녀 명의 부동산이지만 부모가 실질 관리하면 명의신탁으로 부인되어 증여세 + 가산세 + 형사처벌까지 받을 수 있습니다. 진정한 소유권 이전 의지가 없으면 사전 증여를 시작하지 않는 것이 안전합니다.</p>
+  <p>자녀공제 5억 개정안만 기다리다 사전 증여 시점을 놓치는 사례도 늘고 있습니다. 개정안 시행 시점이 미확정이고, 시행되더라도 사전 증여의 자산 증가분 분리 효과는 그대로 유효합니다. 부동산 상승기에는 시점을 놓치면 손해가 큽니다. 시행 여부와 무관하게 60대 일찍 분할 증여를 시작하고, 시행 발표 시 추가 조정하는 전략이 안전합니다.</p>
+  <p class="small">※ 위 사례는 공개된 국세청·세무사 자료를 바탕으로 일반화한 내용입니다. 개인 자산 구성·가족 구성에 따라 다를 수 있으며, 1억 이상 자산 이전 전 세무사 또는 국세청(126)에 본인 케이스를 직접 상담하시기 바랍니다.</p>
+
+  <!-- ✅ FAQ -->
+  <h2 id="faq">8) FAQ</h2>
+  <p class="q">Q1. 60대 부모의 자산이 10억이라면 증여와 상속 중 뭐가 유리한가요?</p>
+  <p class="a">자산 10억 자녀 2명 균등 분배 가정 시 사전 증여 약 1억 6,000만원 부담 vs 상속 약 9,000만원 부담으로 상속이 약 7,000만원 유리합니다. 상속은 일괄공제 5억원이 적용되어 과세표준이 크게 줄어드는 반면, 증여는 자녀 1인당 5천만원 공제만 적용되기 때문입니다. 10억 이하 자산은 일반적으로 상속이 압도적으로 유리합니다.</p>
+
+  <p class="q">Q2. 30억 이상 자산은 왜 사전 증여가 유리한가요?</p>
+  <p class="a">자산 30억 이상에서는 증여·상속 세액이 거의 동률이지만 사전 증여에는 3가지 추가 이점이 있습니다. ① 증여 후 자산 증가분이 자녀 자산이 되어 상속재산에서 제외 ② 10년 누계 공제(5천만원)를 60→70→80→90세 4회 활용 가능 ③ 자녀가 자금 필요 시점(결혼·주택)에 즉시 활용. 60대 일찍 시작할수록 효과가 큽니다.</p>
+
+  <p class="q">Q3. 증여 공제 5천만원은 한 번만 받을 수 있나요?</p>
+  <p class="a">아니요, 10년 누계 기준입니다. 자녀가 만 60세 부모로부터 5천만원을 증여받았다면 10년 후(부모 70세, 자녀 30세 이상) 다시 5천만원을 추가로 비과세 받을 수 있습니다. 60→70→80→90세 4회 증여 시 자녀 1인당 2억원, 자녀 2명이면 4억원이 비과세 이전 가능합니다. 사전 증여 전략의 핵심 메커니즘입니다.</p>
+
+  <p class="q">Q4. 사망 10년 이내에 증여한 재산은 어떻게 처리되나요?</p>
+  <p class="a">상속개시일 전 10년 이내에 증여한 재산은 상속재산에 합산되어 상속세가 다시 계산됩니다(증여세는 차감). 이미 낸 증여세는 공제되지만 절세 효과가 사라집니다. 따라서 60대 일찍 증여 시작이 핵심이며, 70대 이후 사전 증여는 효과가 제한적입니다. 90세 이상 부모는 사전 증여보다 상속 전략이 안정적입니다.</p>
+
+  <p class="q">Q5. 자녀공제 5억 개정안은 언제 시행되나요?</p>
+  <p class="a">현재 검토 중인 개정안으로 시행 시점은 미확정입니다. 시행되면 자녀 1인당 상속공제 5천만원에서 5억원으로 100배 상향됩니다. 자녀 2명·부모 자산 15억 가정 시 자녀공제만으로 10억원 추가 공제되어 상속세가 거의 0원이 될 수 있습니다. 단, 증여세 공제는 5천만원 그대로 유지되므로 상속의 매력이 더 커지는 방향입니다. 시행 발표 시 즉시 시뮬레이션 재검토가 필요합니다.</p>
+
+  <p class="q">Q6. 사전 증여 vs 상속 결정에 가장 중요한 변수는 무엇인가요?</p>
+  <p class="a">4가지 변수입니다. ① 자산 규모 (10억 이하 → 상속 / 30억+ → 사전 증여) ② 부모 연령 (60대 일찍이면 사전 증여 효과↑, 70대 이후는 효과↓) ③ 자녀의 자금 필요 시점 (결혼·주택 자금 필요 시 사전 증여) ④ 향후 자산 증가율 (부동산 등 상승 자산은 증여로 분리해 미래 가치 분리). 4가지를 종합 검토해 결정하는 것이 합리적이며, 세무사 상담은 1억 이상 이전 시 거의 필수입니다.</p>
+
+  <p class="small">관련 글: <a href="#" target="_blank" rel="noopener">양도소득세 1주택 비과세 vs 일시적 2주택 손익 비교 (2026)</a> / <a href="#" target="_blank" rel="noopener">주택임대소득세 분리과세 vs 종합과세 임대료별 손익 비교 (2026)</a> / <a href="#" target="_blank" rel="noopener">ISA vs 연금저축 vs IRP 만기 세제혜택 3종 비교 (2026)</a></p>
+
+  <!-- ✅ 면책 -->
+  <div class="warning">
+    <strong>면책 안내</strong>: 본 글의 증여세·상속세 세율·공제·시뮬레이션 수치는 2026년 5월 기준 추정치이며, 자녀공제 5억 상향 등 일부는 개정안 검토 중입니다. 실제 세액은 본인 자산 구성·가족 구성·이전 시점에 따라 달라집니다. 개인 상황에 따라 다를 수 있으며, 1억 이상 자산 이전 시 세무사 또는 국세청(126) 상담을 강력히 권장합니다. 본 글은 일반 정보 제공이며 세무 자문이 아닙니다.
+  </div>
+
+  <!-- ✅ 참고자료 -->
+  <div class="sources">
+    <strong>참고자료 / 출처</strong>
+    <ul>
+      <li>국세청 상속세 항목별 설명: https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6528&cntntsId=7956</li>
+      <li>국세청 증여세 기본세율 적용: https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6533&cntntsId=7960</li>
+      <li>국세청 세액계산 흐름도: https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2326&cntntsId=7720</li>
+      <li>홈택스 상속·증여세 신고: https://www.hometax.go.kr</li>
+    </ul>
+  </div>
+
+  <div class="btns">
+    <a class="btn" href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6528&cntntsId=7956" target="_blank" rel="noopener">국세청 상속세</a>
+    <a class="btn secondary" href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6533&cntntsId=7960" target="_blank" rel="noopener">국세청 증여세</a>
+    <a class="btn secondary" href="https://www.hometax.go.kr" target="_blank" rel="noopener">홈택스 신고</a>
+  </div>
+
+  <!-- ✅ 썸네일 -->
+  <img src="thumb_1080_gift-tax-vs-inheritance-tax-60s-2026.png" alt="증여세 vs 상속세 60대 부모 비교 인포그래픽" style="width:100%;margin:16px 0;" />
+  <img src="thumb_1200x630_gift-tax-vs-inheritance-tax-60s-2026.png" alt="증여 상속 자산 규모별 비교 카드" style="width:100%;margin:16px 0;" />
+
+  <div class="footer" id="update">
+    <strong>업데이트 로그</strong><br/>
+    - 2026-05-18: 최초 발행<br/>
+    <span class="small">※ 세율·공제·시뮬레이션 수치는 2026년 5월 국세청 공시 기준 추정치입니다. 자녀공제 5억 개정안은 검토 중이며 시행 시점·내용은 변경될 수 있습니다. 1억 이상 자산 이전 시 세무사 상담을 강력 권장합니다.</span>
+  </div>
+</div>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <text x="540" y="70" text-anchor="middle" fill="#FFFFFF" font-size="38" font-weight="900" font-family="Pretendard,sans-serif">폐차 vs 수출 비교 매트릭스</text>
+  <text x="540" y="108" text-anchor="middle" fill="#94A3B8" font-size="20" font-family="Pretendard,sans-serif">10년 된 차(2016년식) — 2026년 4월 기준</text>
+
+  <!-- Header -->
+  <rect x="60" y="140" width="960" height="50" rx="12" fill="#1E40AF"/>
+  <text x="250" y="172" text-anchor="middle" fill="#FFF" font-size="20" font-weight="800" font-family="Pretendard,sans-serif">비교 항목</text>
+  <text x="580" y="172" text-anchor="middle" fill="#FFF" font-size="20" font-weight="800" font-family="Pretendard,sans-serif">폐차</text>
+  <text x="840" y="172" text-anchor="middle" fill="#FFF" font-size="20" font-weight="800" font-family="Pretendard,sans-serif">수출</text>
+
+  <!-- Rows -->
+  <rect x="60" y="200" width="960" height="55" fill="#1E293B"/>
+  <text x="250" y="234" text-anchor="middle" fill="#94A3B8" font-size="18" font-weight="600" font-family="Pretendard,sans-serif">기본 수익</text>
+  <text x="580" y="234" text-anchor="middle" fill="#FDE68A" font-size="18" font-weight="700" font-family="Pretendard,sans-serif">고철비 (무게 기준)</text>
+  <text x="840" y="234" text-anchor="middle" fill="#93C5FD" font-size="18" font-weight="700" font-family="Pretendard,sans-serif">매입가 (차종·상태)</text>
+
+  <rect x="60" y="260" width="960" height="55" fill="#0F172A"/>
+  <text x="250" y="294" text-anchor="middle" fill="#94A3B8" font-size="18" font-weight="600" font-family="Pretendard,sans-serif">예상 수익 범위</text>
+  <text x="580" y="294" text-anchor="middle" fill="#FDE68A" font-size="20" font-weight="800" font-family="Pretendard,sans-serif">50~420만 원</text>
+  <text x="840" y="294" text-anchor="middle" fill="#93C5FD" font-size="20" font-weight="800" font-family="Pretendard,sans-serif">150~500만 원</text>
+
+  <rect x="60" y="320" width="960" height="55" fill="#1E293B"/>
+  <text x="250" y="354" text-anchor="middle" fill="#94A3B8" font-size="18" font-weight="600" font-family="Pretendard,sans-serif">조기폐차 보조금</text>
+  <text x="580" y="354" text-anchor="middle" fill="#86EFAC" font-size="18" font-weight="800" font-family="Pretendard,sans-serif">4등급 70~100% / 5등급 100%</text>
+  <text x="840" y="354" text-anchor="middle" fill="#F87171" font-size="18" font-weight="700" font-family="Pretendard,sans-serif">해당 없음</text>
+
+  <rect x="60" y="380" width="960" height="55" fill="#0F172A"/>
+  <text x="250" y="414" text-anchor="middle" fill="#94A3B8" font-size="18" font-weight="600" font-family="Pretendard,sans-serif">추가 수익</text>
+  <text x="580" y="414" text-anchor="middle" fill="#FDE68A" font-size="18" font-weight="700" font-family="Pretendard,sans-serif">촉매 귀금속 + 비철 별도 정산</text>
+  <text x="840" y="414" text-anchor="middle" fill="#94A3B8" font-size="18" font-weight="700" font-family="Pretendard,sans-serif">없음 (매입가 포함)</text>
+
+  <rect x="60" y="440" width="960" height="55" fill="#1E293B"/>
+  <text x="250" y="474" text-anchor="middle" fill="#94A3B8" font-size="18" font-weight="600" font-family="Pretendard,sans-serif">주행거리 영향</text>
+  <text x="580" y="474" text-anchor="middle" fill="#86EFAC" font-size="18" font-weight="700" font-family="Pretendard,sans-serif">무관</text>
+  <text x="840" y="474" text-anchor="middle" fill="#86EFAC" font-size="18" font-weight="700" font-family="Pretendard,sans-serif">관대 (엔진 상태 중시)</text>
+
+  <rect x="60" y="500" width="960" height="55" fill="#0F172A"/>
+  <text x="250" y="534" text-anchor="middle" fill="#94A3B8" font-size="18" font-weight="600" font-family="Pretendard,sans-serif">사고 이력</text>
+  <text x="580" y="534" text-anchor="middle" fill="#86EFAC" font-size="18" font-weight="700" font-family="Pretendard,sans-serif">무관</text>
+  <text x="840" y="534" text-anchor="middle" fill="#F87171" font-size="18" font-weight="700" font-family="Pretendard,sans-serif">중대 결함 시 거부</text>
+
+  <rect x="60" y="560" width="960" height="55" fill="#1E293B"/>
+  <text x="250" y="594" text-anchor="middle" fill="#94A3B8" font-size="18" font-weight="600" font-family="Pretendard,sans-serif">소요 기간</text>
+  <text x="580" y="594" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="700" font-family="Pretendard,sans-serif">1~3일</text>
+  <text x="840" y="594" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="700" font-family="Pretendard,sans-serif">1~2주</text>
+
+  <rect x="60" y="620" width="960" height="55" fill="#0F172A"/>
+  <text x="250" y="654" text-anchor="middle" fill="#94A3B8" font-size="18" font-weight="600" font-family="Pretendard,sans-serif">최적 대상</text>
+  <text x="580" y="654" text-anchor="middle" fill="#FDE68A" font-size="18" font-weight="700" font-family="Pretendard,sans-serif">4·5등급 경유 / 사고·불량 차</text>
+  <text x="840" y="654" text-anchor="middle" fill="#93C5FD" font-size="18" font-weight="700" font-family="Pretendard,sans-serif">가솔린·LPG 인기 차종</text>
+
+  <!-- Bottom Insight -->
+  <rect x="60" y="720" width="960" height="100" rx="16" fill="#1E40AF" opacity="0.15"/>
+  <rect x="60" y="720" width="960" height="100" rx="16" stroke="#3B82F6" stroke-width="2" fill="none"/>
+  <text x="540" y="760" text-anchor="middle" fill="#93C5FD" font-size="22" font-weight="800" font-family="Pretendard,sans-serif">핵심 판단 기준</text>
+  <text x="540" y="798" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="600" font-family="Pretendard,sans-serif">경유 4·5등급 → 폐차 | 가솔린/LPG 인기차 → 수출 | 엔진 불량 → 폐차</text>
+
+  <!-- 수출 인기 차종 -->
+  <rect x="60" y="860" width="960" height="80" rx="16" fill="#1E293B"/>
+  <text x="540" y="895" text-anchor="middle" fill="#94A3B8" font-size="18" font-weight="600" font-family="Pretendard,sans-serif">2026년 수출 인기 차종</text>
+  <text x="540" y="925" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="700" font-family="Pretendard,sans-serif">아반떼(중동 1위) | 투싼 | 스포티지 | 그랜저 | 카니발</text>
+
+  <text x="540" y="1050" text-anchor="middle" fill="#64748B" font-size="16" font-family="Pretendard,sans-serif">essencial | 2026년 4월 기준</text>
+</svg>

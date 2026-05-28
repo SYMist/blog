@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <filter id="shadow" x="-4%" y="-4%" width="108%" height="108%">
+      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#000" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+  <rect width="1080" height="1080" rx="32" fill="#F0F4FA"/>
+  <rect x="40" y="40" width="1000" height="1000" rx="24" fill="#FFFFFF" filter="url(#shadow)"/>
+
+  <!-- Header -->
+  <rect x="40" y="40" width="1000" height="110" rx="24" fill="#1D4ED8"/>
+  <rect x="40" y="100" width="1000" height="50" fill="#1D4ED8"/>
+  <text x="540" y="108" text-anchor="middle" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="40" font-weight="800" fill="#FFFFFF">소상공인 전기료·에너지 지원 3가지 비교</text>
+
+  <!-- Column headers -->
+  <text x="100" y="210" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="26" font-weight="700" fill="#374151">구분</text>
+  <text x="340" y="210" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="26" font-weight="700" fill="#1D4ED8">경영안정 바우처</text>
+  <text x="600" y="210" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="26" font-weight="700" fill="#1D4ED8">한전 고효율기기</text>
+  <text x="870" y="210" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="26" font-weight="700" fill="#1D4ED8">에너지효율향상</text>
+  <line x1="80" y1="235" x2="1000" y2="235" stroke="#E5E7EB" stroke-width="2"/>
+
+  <!-- Row 1: 지원 금액 -->
+  <text x="100" y="290" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="24" font-weight="600" fill="#374151">지원 금액</text>
+  <text x="340" y="290" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="24" font-weight="700" fill="#DC2626">25만원</text>
+  <text x="600" y="280" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="22" font-weight="700" fill="#DC2626">구매가 40%</text>
+  <text x="600" y="308" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="22" fill="#111827">최대 160만원</text>
+  <text x="870" y="280" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="22" font-weight="700" fill="#DC2626">설치비 70%</text>
+  <text x="870" y="308" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="22" fill="#111827">최대 1.5억원</text>
+  <line x1="80" y1="335" x2="1000" y2="335" stroke="#F3F4F6" stroke-width="1.5"/>
+
+  <!-- Row 2: 대상 -->
+  <text x="100" y="385" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="24" font-weight="600" fill="#374151">대상</text>
+  <text x="340" y="375" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="22" fill="#111827">연매출</text>
+  <text x="340" y="403" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="22" fill="#111827">1억4백만원 미만</text>
+  <text x="600" y="375" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="22" fill="#111827">소상공인</text>
+  <text x="600" y="403" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="22" fill="#111827">(중소기업확인서)</text>
+  <text x="870" y="375" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="22" fill="#111827">소상공인</text>
+  <text x="870" y="403" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="22" fill="#111827">(중소기업확인서)</text>
+  <line x1="80" y1="430" x2="1000" y2="430" stroke="#F3F4F6" stroke-width="1.5"/>
+
+  <!-- Row 3: 사용처/품목 -->
+  <text x="100" y="480" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="24" font-weight="600" fill="#374151">사용처/품목</text>
+  <text x="340" y="470" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="22" fill="#111827">전기·수도·가스</text>
+  <text x="340" y="498" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="22" fill="#111827">4대보험·연료비</text>
+  <text x="600" y="470" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="22" fill="#111827">1등급 냉난방기</text>
+  <text x="600" y="498" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="22" fill="#111827">냉장고·세탁기·건조기</text>
+  <text x="870" y="470" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="22" fill="#111827">히트펌프</text>
+  <text x="870" y="498" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="22" fill="#111827">고효율 냉난방 설비</text>
+  <line x1="80" y1="525" x2="1000" y2="525" stroke="#F3F4F6" stroke-width="1.5"/>
+
+  <!-- Row 4: 신청처 -->
+  <text x="100" y="575" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="24" font-weight="600" fill="#374151">신청처</text>
+  <text x="340" y="575" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="22" fill="#1D4ED8">소상공인24</text>
+  <text x="600" y="575" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="22" fill="#1D4ED8">한전 en-ter.co.kr</text>
+  <text x="870" y="575" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="22" fill="#1D4ED8">에너지공단</text>
+  <line x1="80" y1="605" x2="1000" y2="605" stroke="#F3F4F6" stroke-width="1.5"/>
+
+  <!-- Row 5: 신청 시기 -->
+  <text x="100" y="655" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="24" font-weight="600" fill="#374151">신청 시기</text>
+  <text x="340" y="645" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="22" fill="#111827">2026년 2월~</text>
+  <text x="340" y="673" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="22" fill="#6B7280">(예산 소진 시 종료)</text>
+  <text x="600" y="645" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="22" fill="#111827">상시 신청</text>
+  <text x="600" y="673" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="22" fill="#6B7280">(예산 소진 시 종료)</text>
+  <text x="870" y="645" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="22" fill="#111827">연 1~2회 공고</text>
+  <text x="870" y="673" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="22" fill="#6B7280">(공고 기간 짧음)</text>
+  <line x1="80" y1="700" x2="1000" y2="700" stroke="#F3F4F6" stroke-width="1.5"/>
+
+  <!-- Highlight box -->
+  <rect x="80" y="730" width="920" height="90" rx="16" fill="#EFF6FF"/>
+  <text x="540" y="770" text-anchor="middle" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="28" font-weight="800" fill="#1D4ED8">세 가지 사업 중복 신청 가능!</text>
+  <text x="540" y="805" text-anchor="middle" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="24" fill="#374151">바우처 25만원 + 기기 160만원 + 설비 보조금까지 모두 챙기세요</text>
+
+  <!-- Footer -->
+  <rect x="80" y="850" width="920" height="160" rx="16" fill="#F1F5F9"/>
+  <text x="540" y="895" text-anchor="middle" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="24" font-weight="600" fill="#374151">정책 변화: 전기요금 특별지원(2025 종료) → 경영안정 바우처(2026~)</text>
+  <text x="540" y="935" text-anchor="middle" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="22" fill="#6B7280">금액 20만→25만원↑ / 사용처 전기료만→공과금·4대보험 등 확대</text>
+  <text x="540" y="980" text-anchor="middle" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="22" fill="#6B7280">2026년 기준 | 예산 소진 시 조기 종료 가능 | 공식 공고 확인 필수</text>
+</svg>

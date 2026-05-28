@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="80" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#F59E0B">스마트상점 기술보급·디지털 전환 한눈에 보기</text>
+  <rect x="60" y="110" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- 구입형 -->
+  <rect x="60" y="135" width="960" height="150" rx="20" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="155" width="120" height="40" rx="20" fill="#3B82F6"/>
+  <text x="140" y="183" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#FFF">구입형</text>
+  <text x="220" y="183" font-family="'Pretendard',sans-serif" font-size="19" font-weight="700" fill="#EAF2FF">키오스크·테이블오더·AI CCTV</text>
+  <text x="100" y="220" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">최대 700만 원</text>
+  <text x="340" y="220" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">국비 70% / 우대 80%</text>
+  <text x="100" y="260" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">배리어프리 키오스크 포함 · 의무사용 2년</text>
+
+  <!-- 렌탈형 -->
+  <rect x="60" y="300" width="960" height="130" rx="20" fill="rgba(16,185,129,0.12)"/>
+  <rect x="80" y="320" width="120" height="40" rx="20" fill="#10B981"/>
+  <text x="140" y="348" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#FFF">렌탈형</text>
+  <text x="220" y="348" font-family="'Pretendard',sans-serif" font-size="19" font-weight="700" fill="#EAF2FF">서빙로봇·조리로봇</text>
+  <text x="100" y="385" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">연 350만 원 (2년)</text>
+  <text x="380" y="385" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">국비 70% / 우대 80%</text>
+  <text x="100" y="415" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">의무사용 1년 · 렌탈사 직접 계약</text>
+
+  <!-- S/W형 -->
+  <rect x="60" y="445" width="960" height="120" rx="20" fill="rgba(139,92,246,0.12)"/>
+  <rect x="80" y="465" width="120" height="40" rx="20" fill="#8B5CF6"/>
+  <text x="140" y="493" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#FFF">S/W형</text>
+  <text x="220" y="493" font-family="'Pretendard',sans-serif" font-size="19" font-weight="700" fill="#EAF2FF">매출분석·경영관리 솔루션</text>
+  <text x="100" y="530" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">연 30만 원 (2년)</text>
+  <text x="350" y="530" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#10B981">국비 100% → 자부담 0원!</text>
+
+  <!-- AI 활용 지원 -->
+  <rect x="60" y="580" width="960" height="120" rx="20" fill="rgba(245,158,11,0.12)"/>
+  <rect x="80" y="600" width="180" height="40" rx="20" fill="#F59E0B"/>
+  <text x="170" y="628" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#0B1F3B">AI 활용 지원</text>
+  <rect x="270" y="600" width="60" height="40" rx="20" fill="#EF4444"/>
+  <text x="300" y="628" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" font-weight="800" fill="#FFF">신규</text>
+  <text x="100" y="665" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">최대 2,000만 원</text>
+  <text x="360" y="665" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">자부담 50% · AI 마케팅·제품 개발 등</text>
+
+  <!-- 경영안정 바우처 -->
+  <rect x="60" y="715" width="960" height="100" rx="20" fill="rgba(255,255,255,0.06)"/>
+  <rect x="80" y="735" width="180" height="40" rx="20" fill="rgba(245,158,11,0.3)"/>
+  <text x="170" y="763" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">경영안정 바우처</text>
+  <text x="100" y="800" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">1개사당 25만 원 (고정비 지원) · 매출 1억 400만 미만</text>
+
+  <!-- 2026 변경 사항 -->
+  <rect x="60" y="840" width="960" height="200" rx="20" fill="rgba(239,68,68,0.1)"/>
+  <rect x="80" y="860" width="200" height="44" rx="22" fill="#EF4444"/>
+  <text x="180" y="890" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#FFF">2026 변경 사항</text>
+  <text x="100" y="935" font-family="'Pretendard',sans-serif" font-size="21" fill="#FFF">보증보험 폐지 → 신청 간소화</text>
+  <text x="100" y="970" font-family="'Pretendard',sans-serif" font-size="21" fill="#FFF">배리어프리 키오스크 한도 700만 원 상향</text>
+  <text x="100" y="1005" font-family="'Pretendard',sans-serif" font-size="21" fill="#FFF">우대 지원 비율 10%p 인상 (70%→80%)</text>
+  <text x="100" y="1030" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">장애인·사회적경제기업·저소득 등 우대 대상 해당 시 자부담 대폭 감소</text>
+
+  <rect x="60" y="1050" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

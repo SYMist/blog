@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="700" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="540" y="46" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">렌터카 vs 카셰어링 상황별 추천 시나리오</text>
+  <text x="540" y="70" text-anchor="middle" fill="#93C5FD" font-size="13" font-family="sans-serif">주행거리·이용 빈도·기간별 선택 가이드 · 2026.05 기준</text>
+
+  <!-- Scenario 1 -->
+  <rect x="40" y="90" width="480" height="116" rx="10" fill="#1e3a8a" fill-opacity="0.6" stroke="#1E40AF" stroke-width="1.5"/>
+  <rect x="40" y="90" width="480" height="36" rx="10" fill="#1E40AF"/>
+  <rect x="40" y="112" width="480" height="14" fill="#1E40AF"/>
+  <text x="60" y="114" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">① 주말 장거리 여행 (200km 이상)</text>
+  <text x="60" y="148" fill="#93C5FD" font-size="13" font-weight="700" font-family="sans-serif">→ 렌터카 유리 (주행요금 없음)</text>
+  <text x="60" y="170" fill="#CBD5E1" font-size="12" font-family="sans-serif">서울↔부산(400km) 기준 카셰어링 주행요금만 약 55,500원 추가 발생</text>
+  <text x="60" y="192" fill="#CBD5E1" font-size="12" font-family="sans-serif">유류비만 부담하면 됨 — 렌터카가 1~3만원 더 저렴</text>
+
+  <!-- Scenario 2 -->
+  <rect x="560" y="90" width="480" height="116" rx="10" fill="#78350f" fill-opacity="0.6" stroke="#D97706" stroke-width="1.5"/>
+  <rect x="560" y="90" width="480" height="36" rx="10" fill="#D97706"/>
+  <rect x="560" y="112" width="480" height="14" fill="#D97706"/>
+  <text x="580" y="114" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">② 주말 근교 나들이 (100km 이하)</text>
+  <text x="580" y="148" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">→ 카셰어링 유리 (렌터카 대비 1~2만원 절약)</text>
+  <text x="580" y="170" fill="#CBD5E1" font-size="12" font-family="sans-serif">시간제 이용 가능(30분 단위), 도심 내 쏘카존 주차비 무료</text>
+  <text x="580" y="192" fill="#CBD5E1" font-size="12" font-family="sans-serif">단거리는 유류비 부담 없는 카셰어링이 전체 비용 더 낮음</text>
+
+  <!-- Scenario 3 -->
+  <rect x="40" y="226" width="480" height="116" rx="10" fill="#1e3a8a" fill-opacity="0.6" stroke="#1E40AF" stroke-width="1.5"/>
+  <rect x="40" y="226" width="480" height="36" rx="10" fill="#1E40AF"/>
+  <rect x="40" y="248" width="480" height="14" fill="#1E40AF"/>
+  <text x="60" y="250" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">③ 장기 한달 이상 이용 예정</text>
+  <text x="60" y="284" fill="#93C5FD" font-size="13" font-weight="700" font-family="sans-serif">→ 렌터카 월단기 압도적 유리 (월 6만원+ 절약)</text>
+  <text x="60" y="306" fill="#CBD5E1" font-size="12" font-family="sans-serif">월단기 약 20만원 (보험·세금·정비 포함) vs 카셰어링 매일 이용 30~45만원</text>
+  <text x="60" y="328" fill="#CBD5E1" font-size="12" font-family="sans-serif">출퇴근 등 매일 이용 시 렌터카 월단기가 경제적으로 유리</text>
+
+  <!-- Scenario 4 -->
+  <rect x="560" y="226" width="480" height="116" rx="10" fill="#78350f" fill-opacity="0.6" stroke="#D97706" stroke-width="1.5"/>
+  <rect x="560" y="226" width="480" height="36" rx="10" fill="#D97706"/>
+  <rect x="560" y="248" width="480" height="14" fill="#D97706"/>
+  <text x="580" y="250" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">④ 2~4시간 단시간만 필요한 경우</text>
+  <text x="580" y="284" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">→ 카셰어링 (30분 단위, 즉시 예약 가능)</text>
+  <text x="580" y="306" fill="#CBD5E1" font-size="12" font-family="sans-serif">렌터카는 최소 24시간 단위 — 2시간만 필요할 때 비효율적</text>
+  <text x="580" y="328" fill="#CBD5E1" font-size="12" font-family="sans-serif">병원·마트·단거리 심부름은 카셰어링이 훨씬 경제적</text>
+
+  <!-- Scenario 5 (full width) -->
+  <rect x="40" y="362" width="1000" height="116" rx="10" fill="#1e1b4b" fill-opacity="0.6" stroke="#4F46E5" stroke-width="1.5"/>
+  <rect x="40" y="362" width="1000" height="36" rx="10" fill="#4F46E5"/>
+  <rect x="40" y="384" width="1000" height="14" fill="#4F46E5"/>
+  <text x="60" y="386" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">⑤ 성수기(여름·연휴) 여행 차량 필요한 경우</text>
+  <text x="60" y="420" fill="#A5B4FC" font-size="13" font-weight="700" font-family="sans-serif">→ 2~4주 전 렌터카 사전 예약 또는 쏘카 패스(월 9,900원) 활용</text>
+  <text x="60" y="442" fill="#CBD5E1" font-size="12" font-family="sans-serif">성수기 렌터카·카셰어링 모두 30~100% 요금 인상 — 여름 휴가 시즌은 최소 3~4주 전 예약 필수</text>
+  <text x="60" y="464" fill="#CBD5E1" font-size="12" font-family="sans-serif">쏘카 패스 이용 시 주말 대여료 50% 할인 → 월 2회 이상 이용 시 9,900원 투자 대비 3~4만원 절약 가능</text>
+
+  <!-- Summary box -->
+  <rect x="40" y="496" width="1000" height="176" rx="10" fill="#1e293b" fill-opacity="0.8"/>
+  <text x="540" y="528" text-anchor="middle" fill="#F8FAFC" font-size="14" font-weight="800" font-family="sans-serif">핵심 결론 3줄 요약</text>
+  <text x="80" y="562" fill="#93C5FD" font-size="13" font-weight="700" font-family="sans-serif">200km+ 장거리·장기</text>
+  <text x="270" y="562" fill="#FFFFFF" font-size="13" font-family="sans-serif">→ 렌터카 (주행요금 없음·월단기 월 20만원대)</text>
+  <text x="80" y="594" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">200km 이하·단시간</text>
+  <text x="270" y="594" fill="#FFFFFF" font-size="13" font-family="sans-serif">→ 카셰어링 (30분 단위·주차 무료·단거리 1~2만원 절약)</text>
+  <text x="80" y="626" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">손익분기점</text>
+  <text x="270" y="626" fill="#FFFFFF" font-size="13" font-family="sans-serif">→ 1박2일 약 200~220km (이 거리부터 렌터카가 총비용 더 낮음)</text>
+  <text x="80" y="654" fill="#94A3B8" font-size="12" font-family="sans-serif">※ 실제 요금은 차종·지역·시즌·할인에 따라 달라집니다. 예약 전 앱에서 직접 견적 확인하세요.</text>
+
+  <text x="40" y="686" fill="#64748B" font-size="12" font-family="sans-serif">essencial | 자동차 비교 · 2026.05 기준 · 추정치이며 실제 비용은 다를 수 있습니다</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#F59E0B">피해 유형별 빠른 판단 가이드</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- 유형 1: 보증금 전액 미반환 -->
+  <rect x="60" y="130" width="960" height="260" rx="20" fill="rgba(239,68,68,0.08)"/>
+  <rect x="80" y="155" width="360" height="50" rx="25" fill="rgba(239,68,68,0.2)"/>
+  <text x="260" y="188" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#EF4444">유형 A — 보증금 전액 미반환</text>
+  <text x="80" y="238" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">상황: 임대인 파산·잠적, 보증금 전혀 반환받지 못함</text>
+  <text x="80" y="276" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">우선 조치: 피해자 결정 신청 + 임차권등기</text>
+  <text x="80" y="314" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">핵심 지원: 최소보장제(30~50%) + 긴급 생계비 100만</text>
+  <text x="80" y="352" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#F59E0B">→ 국가 보전 + 대환 대출 4억 원 활용</text>
+
+  <!-- 유형 2: 경매 진행 중 -->
+  <rect x="60" y="408" width="960" height="260" rx="20" fill="rgba(59,130,246,0.08)"/>
+  <rect x="80" y="433" width="360" height="50" rx="25" fill="rgba(59,130,246,0.15)"/>
+  <text x="260" y="466" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#60A5FA">유형 B — 일부 반환·경매 진행</text>
+  <text x="80" y="516" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">상황: 경매 배당 예정, 일부 금액만 회수 가능</text>
+  <text x="80" y="554" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">우선 조치: 우선매수권 행사 검토 + 배당요구신청</text>
+  <text x="80" y="592" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">핵심 지원: 조세 안분 특례 → 배당액 극대화</text>
+  <text x="80" y="630" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#F59E0B">→ 경매 배당 후 차액 보전 + 법률 비용 250만 원</text>
+
+  <!-- 유형 3: 이중임대차 -->
+  <rect x="60" y="686" width="960" height="260" rx="20" fill="rgba(245,158,11,0.08)"/>
+  <rect x="80" y="711" width="360" height="50" rx="25" fill="rgba(245,158,11,0.15)"/>
+  <text x="260" y="744" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#F59E0B">유형 C — 이중임대차(점유 불가)</text>
+  <text x="80" y="794" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">상황: 계약 후 입주 자체 불가, 다른 임차인 거주</text>
+  <text x="80" y="832" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">우선 조치: 피해자 결정 신청 (2026 개정으로 포함)</text>
+  <text x="80" y="870" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">핵심 지원: 긴급 주거 지원 + 법률 비용</text>
+  <text x="80" y="908" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#F59E0B">→ 2026 특별법 개정으로 보호 범위 확대</text>
+
+  <!-- 하단 -->
+  <rect x="60" y="976" width="960" height="70" rx="16" fill="rgba(34,197,94,0.12)"/>
+  <text x="540" y="1020" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#22C55E">내 상황이 불확실하면 → 전세피해지원센터 무료 상담부터!</text>
+</svg>

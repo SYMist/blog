@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- Header -->
+  <rect x="60" y="60" width="960" height="110" rx="16" fill="#0D2347"/>
+  <text x="540" y="108" font-family="-apple-system, sans-serif" font-size="38" font-weight="700" fill="#ffffff" text-anchor="middle">소멸시효 중단 방법 비교</text>
+  <text x="540" y="148" font-family="-apple-system, sans-serif" font-size="26" fill="#A0B4D0" text-anchor="middle">채권자가 할 수 있는 중단 행위 · 채무자 승인</text>
+
+  <!-- Left panel: 채권자 중단 방법 -->
+  <rect x="60" y="200" width="455" height="500" rx="16" fill="#0D2347"/>
+  <text x="287" y="248" font-family="-apple-system, sans-serif" font-size="28" font-weight="700" fill="#60A5FA" text-anchor="middle">채권자 중단 방법</text>
+  <line x1="100" y1="265" x2="475" y2="265" stroke="#1A3270" stroke-width="2"/>
+
+  <text x="100" y="302" font-family="-apple-system, sans-serif" font-size="22" font-weight="700" fill="#34D399">① 소 제기 (민사소송)</text>
+  <text x="100" y="328" font-family="-apple-system, sans-serif" font-size="20" fill="#A0B4D0">소장 접수 시 중단 — 가장 확실한 방법</text>
+
+  <text x="100" y="368" font-family="-apple-system, sans-serif" font-size="22" font-weight="700" fill="#34D399">② 지급명령 신청</text>
+  <text x="100" y="394" font-family="-apple-system, sans-serif" font-size="20" fill="#A0B4D0">신청 즉시 중단 · 확정까지 약 1~2개월</text>
+
+  <text x="100" y="434" font-family="-apple-system, sans-serif" font-size="22" font-weight="700" fill="#34D399">③ 압류·가압류·가처분</text>
+  <text x="100" y="460" font-family="-apple-system, sans-serif" font-size="20" fill="#A0B4D0">보전처분 결정 시 즉시 중단</text>
+
+  <text x="100" y="500" font-family="-apple-system, sans-serif" font-size="22" font-weight="700" fill="#F59E0B">④ 최고 (내용증명)</text>
+  <text x="100" y="526" font-family="-apple-system, sans-serif" font-size="20" fill="#A0B4D0">⚠ 중단 아님 — 6개월 유예만!</text>
+  <text x="100" y="550" font-family="-apple-system, sans-serif" font-size="20" fill="#A0B4D0">6개월 내 소 제기 등 필수 (민법 제174조)</text>
+
+  <rect x="80" y="580" width="415" height="90" rx="10" fill="#1A3270"/>
+  <text x="287" y="618" font-family="-apple-system, sans-serif" font-size="22" fill="#ffffff" text-anchor="middle">내용증명 → 바로 지급명령 신청</text>
+  <text x="287" y="648" font-family="-apple-system, sans-serif" font-size="22" fill="#34D399" text-anchor="middle">→ 가장 안전한 실무 전략</text>
+
+  <!-- Right panel: 채무자 승인 -->
+  <rect x="565" y="200" width="455" height="500" rx="16" fill="#1A3270"/>
+  <text x="792" y="248" font-family="-apple-system, sans-serif" font-size="28" font-weight="700" fill="#EF4444" text-anchor="middle">채무자 승인 = 중단!</text>
+  <line x1="605" y1="265" x2="980" y2="265" stroke="#0D2347" stroke-width="2"/>
+
+  <text x="605" y="302" font-family="-apple-system, sans-serif" font-size="22" font-weight="700" fill="#EF4444">이자 납부</text>
+  <text x="605" y="328" font-family="-apple-system, sans-serif" font-size="20" fill="#A0B4D0">1회라도 납부하면 그 시점부터 재기산</text>
+
+  <text x="605" y="368" font-family="-apple-system, sans-serif" font-size="22" font-weight="700" fill="#EF4444">일부 변제</text>
+  <text x="605" y="394" font-family="-apple-system, sans-serif" font-size="20" fill="#A0B4D0">원금 일부 상환도 전체 채무 승인으로 인정</text>
+
+  <text x="605" y="434" font-family="-apple-system, sans-serif" font-size="22" font-weight="700" fill="#EF4444">담보 제공</text>
+  <text x="605" y="460" font-family="-apple-system, sans-serif" font-size="20" fill="#A0B4D0">채무 존재를 인정하는 행위</text>
+
+  <text x="605" y="500" font-family="-apple-system, sans-serif" font-size="22" font-weight="700" fill="#EF4444">문자·통화로 채무 인정</text>
+  <text x="605" y="526" font-family="-apple-system, sans-serif" font-size="20" fill="#A0B4D0">"갚겠다" 표현만으로도 승인 가능</text>
+
+  <rect x="585" y="580" width="415" height="90" rx="10" fill="#0D2347"/>
+  <text x="792" y="618" font-family="-apple-system, sans-serif" font-size="22" fill="#ffffff" text-anchor="middle">시효 완성 임박 시</text>
+  <text x="792" y="648" font-family="-apple-system, sans-serif" font-size="22" fill="#EF4444" text-anchor="middle">어떠한 납부도 삼가야!</text>
+
+  <!-- 2025 판례 변경 -->
+  <rect x="60" y="730" width="960" height="120" rx="12" fill="#F59E0B" opacity="0.15"/>
+  <rect x="60" y="730" width="4" height="120" rx="2" fill="#F59E0B"/>
+  <text x="100" y="770" font-family="-apple-system, sans-serif" font-size="26" font-weight="700" fill="#F59E0B">2025 대법원 전원합의체 판결 변경 (2023다240299)</text>
+  <text x="100" y="806" font-family="-apple-system, sans-serif" font-size="22" fill="#ffffff">시효 완성 후 일부변제 → 시효이익 포기 추정 불가 (구 판례 변경)</text>
+  <text x="100" y="836" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0">명시적 포기 의사 표시가 있어야만 시효이익 포기 인정</text>
+
+  <!-- Footer -->
+  <text x="540" y="980" font-family="-apple-system, sans-serif" font-size="26" font-weight="700" fill="#F59E0B" text-anchor="middle">deluxo.co.kr</text>
+  <text x="540" y="1016" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">소멸시효 중단 방법 비교 | 2026년 최신</text>
+</svg>

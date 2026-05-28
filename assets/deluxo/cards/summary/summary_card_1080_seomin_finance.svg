@@ -1,0 +1,40 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect width="1080" height="1080" fill="#F8FAFC"/>
+  <g filter="url(#shadow)">
+    <rect x="70" y="70" width="940" height="940" rx="24" fill="#FFFFFF" stroke="#E5E7EB"/>
+  </g>
+  <text x="120" y="165" font-size="46" fill="#111827" font-weight="800" font-family="Pretendard, 'Noto Sans KR', sans-serif">햇살론·미소금융 요약표</text>
+  <text x="120" y="225" font-size="28" fill="#6B7280" font-weight="600" font-family="Pretendard, 'Noto Sans KR', sans-serif">2026년 개편 기준 상품별 한도·금리</text>
+  <line x1="120" y1="265" x2="960" y2="265" stroke="#E5E7EB"/>
+  <g font-family="Pretendard, 'Noto Sans KR', sans-serif">
+    <text x="120" y="330" font-size="28" fill="#111827" font-weight="700">햇살론 일반</text>
+    <text x="370" y="330" font-size="26" fill="#374151">최대 1,500만원 · 연 10% 이내</text>
+    <line x1="120" y1="365" x2="960" y2="365" stroke="#F1F5F9"/>
+    <text x="120" y="420" font-size="28" fill="#111827" font-weight="700">햇살론 특례</text>
+    <text x="370" y="420" font-size="26" fill="#374151">최대 1,000만원 · 연 12.5%(배려 9.9%)</text>
+    <line x1="120" y1="455" x2="960" y2="455" stroke="#F1F5F9"/>
+    <text x="120" y="510" font-size="28" fill="#111827" font-weight="700">햇살론 유스</text>
+    <text x="370" y="510" font-size="26" fill="#374151">생애 1,200만원 · 연 5%(배려 2%)</text>
+    <line x1="120" y1="545" x2="960" y2="545" stroke="#F1F5F9"/>
+    <text x="120" y="600" font-size="28" fill="#111827" font-weight="700">햇살론 카드</text>
+    <text x="370" y="600" font-size="26" fill="#374151">200만원(증액 300만) · 보증료 1%</text>
+    <line x1="120" y1="635" x2="960" y2="635" stroke="#F1F5F9"/>
+    <text x="120" y="690" font-size="28" fill="#111827" font-weight="700">미소금융 창업</text>
+    <text x="370" y="690" font-size="26" fill="#374151">최대 7,000만원 · 연 4.5%</text>
+    <line x1="120" y1="725" x2="960" y2="725" stroke="#F1F5F9"/>
+    <text x="120" y="780" font-size="28" fill="#111827" font-weight="700">미소금융 운영</text>
+    <text x="370" y="780" font-size="26" fill="#374151">최대 2,000만원 · 연 4.5%</text>
+    <line x1="120" y1="815" x2="960" y2="815" stroke="#F1F5F9"/>
+    <text x="120" y="870" font-size="28" fill="#111827" font-weight="700">미소금융 청년(6월)</text>
+    <text x="370" y="870" font-size="26" fill="#374151">최대 500만원 · 연 4.5%</text>
+  </g>
+  <rect x="120" y="905" width="840" height="80" rx="12" fill="#F1F5F9"/>
+  <text x="150" y="955" font-size="22" fill="#4B5563" font-family="Pretendard, 'Noto Sans KR', sans-serif">
+    2026년 기준 · 중도상환수수료 없음 · 서민금융 잇다 앱 신청
+  </text>
+</svg>

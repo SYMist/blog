@@ -1,0 +1,543 @@
+<!-- tistory_policy_template.html -->
+<!-- ✅ 티스토리 HTML 모드: 통째로 붙여넣기 -->
+
+<!-- ✅ Schema.org 구조화 데이터 -->
+<div style="display:none">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "부산·대구·광주 소상공인 지원금 지역별 총정리 (2026)",
+      "description": "2026년 부산·대구·광주 소상공인 지원금을 한눈에 비교합니다. 경영안정자금·이차보전·육아패키지·인건비 지원까지 지역별 핵심 혜택과 신청 방법을 정리했습니다.",
+      "datePublished": "2026-04-04",
+      "dateModified": "2026-04-04",
+      "author": {"@type": "Person", "name": "델룩소"},
+      "publisher": {"@type": "Organization", "name": "tistory.deluxo"}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "부산·대구·광주 소상공인 지원금은 중복 신청이 가능한가요?", "acceptedAnswer": {"@type": "Answer", "text": "전국 공통 사업(경영안정 바우처)과 지자체 고유 사업은 대부분 중복 수혜가 가능합니다. 다만 출산·양육 관련 지원금이나 구청별 경영안정자금은 타 사업과 중복 불가인 경우가 많으므로 반드시 담당 부서에 확인하세요."}},
+        {"@type": "Question", "name": "비수도권 소상공인 정책자금 금리 우대는 얼마인가요?", "acceptedAnswer": {"@type": "Answer", "text": "2026년 중소벤처기업부 정책자금의 60% 이상이 비수도권에 배정되며, 부산·대구·광주 소재 소상공인은 기본 금리에서 0.2%p 추가 우대를 받습니다."}},
+        {"@type": "Question", "name": "부산 소상공인 육아응원 패키지는 어떤 혜택이 있나요?", "acceptedAnswer": {"@type": "Answer", "text": "대체인건비 월 최대 100만 원(3개월), 아이돌봄 서비스 월 60시간(6개월), 육아응원금 100만 원 정액 지급의 3종 패키지입니다. 만 12세 이하 자녀를 둔 소상공인이 대상입니다."}},
+        {"@type": "Question", "name": "광주 소상공인 신규 채용 인건비 지원 조건은?", "acceptedAnswer": {"@type": "Answer", "text": "도시철도 2호선 1단계 공사 구간 인근 23개 동 소상공인이 신규 채용 시 근로자 1인당 월 50만 원, 최대 3개월, 업체당 2명까지 지원됩니다."}},
+        {"@type": "Question", "name": "소상공인 경영안정 바우처 신청 방법은?", "acceptedAnswer": {"@type": "Answer", "text": "소상공인24(sbiz24.kr)에서 온라인 신청하며, 사업자번호 끝자리 홀·짝제로 신청일이 나뉩니다. 연 매출 1억 400만 원 미만 영세 소상공인이 대상이며 업체당 25만 원이 지원됩니다."}}
+      ]
+    }
+  ]
+}
+</script>
+</div>
+
+<style>
+  :root{
+    --blue:#1D4ED8; --blue2:#1E40AF;
+    --white:#FFFFFF; --text:#111827;
+    --muted:#4B5563; --border:#E5E7EB;
+    --bg:#F9FAFB; --blueLight:#E8F0FF;
+  }
+  .wrap{max-width:860px;margin:0 auto;line-height:1.8;color:var(--text);}
+  .meta{color:var(--muted);font-size:.95rem;margin:6px 0 18px;}
+  .badge{display:inline-block;background:var(--blueLight);border:1px solid var(--border);padding:3px 10px;border-radius:999px;font-size:.85rem;margin-right:8px;}
+  .notice{background:#fff7ed;border:1px solid #fed7aa;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .lead{background:#f8fafc;border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .keysum{background:#fefce8;border:1px solid #fde68a;padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .summary{background:#eff6ff;border:1px solid #bfdbfe;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .toc{background:var(--bg);border:1px solid var(--border);padding:14px 16px;border-radius:12px;margin:16px 0 22px;}
+  .toc a{text-decoration:none;color:var(--blue);}
+  .toc ul{margin:8px 0 0 18px;}
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 6px;}
+  .wrap a.btn,.wrap a.btn:link,.wrap a.btn:visited{
+    display:inline-flex;align-items:center;justify-content:center;
+    padding:10px 14px;border-radius:10px;border:1px solid var(--blue);
+    background:var(--blue) !important;color:var(--white) !important;
+    text-decoration:none !important;font-weight:800;
+  }
+  .wrap a.btn:hover,.wrap a.btn:active,.wrap a.btn:focus{
+    background:var(--blue2) !important;border-color:var(--blue2) !important;color:var(--white) !important;
+  }
+  .wrap a.btn.secondary,.wrap a.btn.secondary:link,.wrap a.btn.secondary:visited{
+    background:var(--white) !important;color:var(--blue) !important;border-color:var(--blue) !important;
+  }
+  .wrap a.btn.secondary:hover,.wrap a.btn.secondary:active,.wrap a.btn.secondary:focus{
+    background:var(--bg) !important;color:var(--blue2) !important;border-color:var(--blue2) !important;
+  }
+  .wrap a.btn.gray,.wrap a.btn.gray:link,.wrap a.btn.gray:visited{
+    background:#111827 !important;border-color:#111827 !important;color:var(--white) !important;
+  }
+  .wrap a.btn.gray:hover,.wrap a.btn.gray:active,.wrap a.btn.gray:focus{
+    background:#0b1220 !important;border-color:#0b1220 !important;color:var(--white) !important;
+  }
+  table{width:100%;border-collapse:collapse;margin:14px 0 10px;}
+  th,td{border:1px solid var(--border);padding:10px;vertical-align:top;}
+  th{background:#F3F4F6;text-align:left;}
+  .small{font-size:.95rem;color:var(--muted);}
+  h1{margin:0 0 8px;line-height:1.25;}
+  h2{margin-top:30px;padding-top:8px;border-top:1px solid var(--border);}
+  h3{margin-top:16px;}
+  .q{font-weight:900;margin:14px 0 6px;}
+  .a{margin:0 0 10px;}
+  .tips{background:#f0fdf4;border:1px solid #bbf7d0;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .urgency{background:#fef2f2;border:1px solid #fca5a5;padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .target{background:#f0fdf4;border:1px solid #86efac;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .target ul{margin:8px 0 0 18px;}
+  .ad{background:#f9fafb;border:1px dashed var(--border);padding:10px 12px;border-radius:10px;margin:12px 0;}
+  .footer{margin-top:26px;padding-top:14px;border-top:1px solid var(--border);color:var(--muted);font-size:.95rem;}
+</style>
+
+<div class="wrap">
+  <h1>부산·대구·광주 소상공인 지원금 지역별 총정리 (2026 최신)</h1>
+  <div class="meta">
+    <span class="badge">키워드: 소상공인 지원금</span>
+    <span class="badge">업데이트: 2026-04-04</span>
+  </div>
+
+  <div class="notice">
+    <strong>먼저 확인!</strong><br/>
+    지자체별 지원 사업은 예산 소진 시 조기 마감될 수 있습니다. 각 사업의 정확한 접수 일정과 세부 조건은 공식 공고를 반드시 확인하세요.
+  </div>
+
+  <p class="small">
+    2026년 부산·대구·광주 소상공인 지원금을 한눈에 비교합니다. 경영안정자금, 이차보전, 육아 패키지, 인건비 지원까지 지역별 핵심 혜택과 신청 방법을 총정리했습니다.
+  </p>
+
+  <div class="lead">
+    "서울이나 경기 소상공인 지원은 많이 나오는데, 우리 지역은 뭐가 있지?" — 부산·대구·광주 사장님들이 가장 많이 하는 질문입니다. 실제로 2026년에는 비수도권 우대가 대폭 강화되면서, 수도권보다 유리한 혜택이 쏟아지고 있습니다. 어떤 지원금이 있는지, 내가 받을 수 있는지 지금 확인해 보세요.
+  </div>
+
+  <div class="urgency">
+    <strong>왜 지금 확인해야 할까?</strong><br/>
+    2026년 비수도권 정책자금 배정 비율이 <strong>60% 이상</strong>으로 역대 최고 수준입니다. 부산 스타소상공인(2,000만 원)은 <strong>2026년 4월 접수</strong>, 광주 특례보증(2천억 규모)은 <strong>선착순 소진</strong>으로 운영됩니다. 전국 경영안정 바우처(25만 원)까지 합산하면 <strong>놓치는 금액이 수백만 원</strong>에 달합니다.
+  </div>
+
+  <div class="keysum">
+    <strong>핵심 요약 3줄</strong><br/>
+    ① 전국 공통 — 경영안정 바우처 25만 원 + 비수도권 정책자금 금리 0.2%p 추가 우대 <br/>
+    ② 부산(육아 특화)·대구(이자 지원)·광주(인건비 지원) — 지역별 색깔이 뚜렷 <br/>
+    ③ 부산 육아 패키지 최대 460만 원, 대구 출산양육비 250만 원, 광주 채용 인건비 최대 300만 원
+  </div>
+
+  <div class="summary" id="top">
+    <h2 style="border-top:none;margin-top:0;">✅ 5줄 요약(결론)</h2>
+    <ul>
+      <li><strong>전국 공통</strong>: 경영안정 바우처 25만 원(연 매출 1억 400만 원 미만) + 고용보험료 50~80% 환급(최대 5년)</li>
+      <li><strong>부산</strong>: 스타소상공인 2,000만 원 + 육성자금 최대 1.2억 원(1.5% 이차보전) + 육아응원 패키지 최대 460만 원</li>
+      <li><strong>대구</strong>: 전략산업 1.7% 이자 지원 + 구청별 최대 3,000만 원 이차보전 + 출산양육비 250만 원</li>
+      <li><strong>광주</strong>: 신규 채용 인건비 월 50만 원(최대 2명×3개월) + 특례보증 5,000만 원(3~4% 이자 지원) + 사회보험료 지원</li>
+      <li><strong>신청 흐름</strong>: 소상공인24(sbiz24.kr) 또는 각 지역 경제진흥원·신용보증재단 → 서류 제출 → 심사 → 지급</li>
+    </ul>
+
+    <div class="btns">
+      <a class="btn" href="https://www.sbiz24.kr" target="_blank" rel="noopener">소상공인24 바로가기</a>
+      <a class="btn gray" href="https://www.bepa.kr" target="_blank" rel="noopener">부산경제진흥원</a>
+      <a class="btn secondary" href="https://www.semas.or.kr" target="_blank" rel="noopener">소상공인시장진흥공단</a>
+    </div>
+    <p class="small">※ 각 사업별 정확한 접수 기간과 세부 조건은 공식 공고를 반드시 확인하세요.</p>
+  </div>
+
+  <div class="target">
+    <strong>이런 상황이라면 지금 바로 확인하세요</strong>
+    <ul>
+      <li>부산·대구·광주에서 가게를 운영 중인데, 받을 수 있는 지원금을 한 번도 찾아본 적 없다면</li>
+      <li>올해 아이를 낳았거나 어린 자녀가 있는데 대체인력 비용이 부담된다면 (부산 최대 460만 원)</li>
+      <li>직원을 새로 뽑고 싶은데 인건비가 걱정이라면 (광주 채용 시 월 50만 원 지원)</li>
+      <li>가게 운영자금 대출 이자가 부담되는데 이차보전(이자 지원) 제도를 아직 모른다면</li>
+      <li>서울·경기 지원만 보다가 비수도권 우대 혜택이 있다는 걸 이제 알았다면</li>
+    </ul>
+  </div>
+
+  <div class="toc">
+    <strong>목차</strong>
+    <ul>
+      <li><a href="#table">1) 한눈에 표 — 부산·대구·광주 지원금 비교</a></li>
+      <li><a href="#common">2) 전국 공통 소상공인 혜택 (비수도권 우대)</a></li>
+      <li><a href="#busan">3) 부산 — 로컬 브랜드 + 육아 패키지</a></li>
+      <li><a href="#daegu">4) 대구 — 이자 지원 + 구청별 자금</a></li>
+      <li><a href="#gwangju">5) 광주 — 인건비 + 보험료 지원</a></li>
+      <li><a href="#how">6) 신청 방법 (공통 절차)</a></li>
+      <li><a href="#docs">7) 서류 체크리스트</a></li>
+      <li><a href="#case">8) 경험/사례</a></li>
+      <li><a href="#faq">9) FAQ · 탈락 사유 TOP 5</a></li>
+      <li><a href="#check">10) 신청 전 1분 체크리스트</a></li>
+      <li><a href="#update">업데이트 로그</a></li>
+    </ul>
+  </div>
+
+  <h2 id="table">1) 한눈에 표 — 부산·대구·광주 핵심 지원금 비교</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>지역</th><th>대표 사업</th><th>지원 금액</th><th>핵심 특징</th><th>신청처</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>전국 공통</strong></td>
+        <td>경영안정 바우처</td>
+        <td>업체당 25만 원</td>
+        <td>공과금·4대 보험·연료비 자동 차감</td>
+        <td>소상공인24</td>
+      </tr>
+      <tr>
+        <td rowspan="3"><strong>부산</strong></td>
+        <td>스타소상공인 육성</td>
+        <td>2,000만 원 + 멘토링</td>
+        <td>업력 3년 이상, 10개사 선정</td>
+        <td>부산경제진흥원</td>
+      </tr>
+      <tr>
+        <td>육성자금 특별보증</td>
+        <td>최대 1.2억 원(1.5% 이차보전)</td>
+        <td>우대 시 한도 확대</td>
+        <td>부산신용보증재단</td>
+      </tr>
+      <tr>
+        <td>육아응원 패키지</td>
+        <td>최대 460만 원(3종 합산)</td>
+        <td>대체인건비+돌봄+응원금</td>
+        <td>부산경제진흥원</td>
+      </tr>
+      <tr>
+        <td rowspan="3"><strong>대구</strong></td>
+        <td>전략산업 자금</td>
+        <td>1.7% 이자 지원(2년)</td>
+        <td>모빌리티·로봇 등 전략 산업군</td>
+        <td>대구신용보증재단</td>
+      </tr>
+      <tr>
+        <td>구청별 경영안정자금</td>
+        <td>최대 3,000만 원(2~3% 이차보전)</td>
+        <td>동구·달서구·수성구 등</td>
+        <td>각 구청</td>
+      </tr>
+      <tr>
+        <td>출산양육비</td>
+        <td>250만 원(쌍둥이 +100만 원)</td>
+        <td>2025년 이후 출산 대상</td>
+        <td>대구시</td>
+      </tr>
+      <tr>
+        <td rowspan="3"><strong>광주</strong></td>
+        <td>신규 채용 인건비</td>
+        <td>월 50만 원×최대 3개월×2명</td>
+        <td>도시철도 2호선 공사 인근 23개 동</td>
+        <td>광주시</td>
+      </tr>
+      <tr>
+        <td>특례보증</td>
+        <td>최대 5,000만 원(3~4% 이자 지원)</td>
+        <td>역대 최대 2천억 원 규모</td>
+        <td>광주신용보증재단</td>
+      </tr>
+      <tr>
+        <td>사회보험료 지원</td>
+        <td>고용 20%·산재 50~100%</td>
+        <td>1인 소상공인 별도 우대</td>
+        <td>광주시</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="ad">광고 위치 1</div>
+
+  <!-- ✅ 이미지 1: 요약표 카드 -->
+  <img src="summary_card_1080_regional_biz.png" alt="부산 대구 광주 소상공인 지원금 요약 비교" />
+
+  <!-- ✅ 이미지 2: 빠른 판단 가이드 -->
+  <img src="quick_guide_1080_regional_biz.png" alt="부산 대구 광주 소상공인 지원금 빠른 판단 가이드" />
+
+  <h2 id="common">2) 전국 공통 소상공인 혜택 (비수도권 우대 강화)</h2>
+
+  <h3>경영안정 바우처 — 업체당 25만 원</h3>
+  <ul>
+    <li><strong>대상</strong>: 연 매출 1억 400만 원 미만 영세 소상공인 약 230만 개사</li>
+    <li><strong>사용처</strong>: 전기·가스 공과금, 4대 보험료, 차량 연료비 결제 시 포인트 자동 차감</li>
+    <li><strong>신청</strong>: 소상공인24(sbiz24.kr) — 사업자번호 끝자리 홀·짝제 운영</li>
+  </ul>
+
+  <h3>정책자금 비수도권 우대 — 0.2%p 추가 금리 인하</h3>
+  <ul>
+    <li>2026년 중소벤처기업부 정책자금의 <strong>60% 이상이 비수도권 배정</strong></li>
+    <li>부산·대구·광주 소재 소상공인은 기본 금리에서 <strong>0.2%p 추가 우대</strong></li>
+  </ul>
+
+  <h3>고용보험료 지원 — 최대 5년간 50~80% 환급</h3>
+  <ul>
+    <li>자영업자 고용보험 가입 시 납부 보험료의 50~80% 환급</li>
+    <li>폐업 시 실업급여 수급 가능 → <strong>사업 실패에 대한 안전망 확보</strong></li>
+  </ul>
+
+  <h2 id="busan">3) 부산 — 로컬 브랜드 육성 + 육아 패키지</h2>
+
+  <h3>스타소상공인 발굴·육성 — 성장지원금 2,000만 원</h3>
+  <ul>
+    <li><strong>대상</strong>: 업력 3년 이상 부산 소재 소상공인</li>
+    <li><strong>선정</strong>: 10개사 선정, 전문가 멘토링 동시 제공</li>
+    <li><strong>접수</strong>: 2026년 4월 (부산경제진흥원)</li>
+  </ul>
+
+  <h3>소상공인 육성자금 (특별보증) — 최대 1.2억 원</h3>
+  <ul>
+    <li><strong>한도</strong>: 업체당 최대 1억 원(우대 시 1.2억 원)</li>
+    <li><strong>이차보전</strong>: 1.5% 이자 지원</li>
+    <li><strong>신청처</strong>: 부산신용보증재단</li>
+  </ul>
+
+  <h3>육아응원 패키지 (부산 특화) — 최대 460만 원</h3>
+  <table>
+    <thead>
+      <tr><th>항목</th><th>지원 내용</th><th>조건</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>대체인건비</strong></td>
+        <td>월 최대 100만 원 × 최대 3개월</td>
+        <td>출산·육아로 인력 공백 발생</td>
+      </tr>
+      <tr>
+        <td><strong>아이돌봄 서비스</strong></td>
+        <td>이용료 전액(월 60시간, 6개월)</td>
+        <td>12세 이하 자녀, 사상구 등 관내</td>
+      </tr>
+      <tr>
+        <td><strong>육아응원금</strong></td>
+        <td>1인당 100만 원 정액</td>
+        <td>만 12세 이하 자녀, 무주택 임차</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>폐업 및 재기 지원</h3>
+  <ul>
+    <li><strong>희망두배통장</strong>: 폐업 소상공인 자산 형성 지원</li>
+    <li><strong>고용인센티브</strong>: 재창업·재취업 지원 사업 상시 운영</li>
+  </ul>
+
+  <!-- ✅ 이미지 3: 정책 비교·변화 카드 -->
+  <img src="compare_card_1080_regional_biz.png" alt="부산 대구 광주 소상공인 지원금 지역별 비교 카드" />
+
+  <h2 id="daegu">4) 대구 — 전략산업 이자 지원 + 구청별 자금</h2>
+
+  <h3>대구형 전략산업 및 소상공인 자금</h3>
+  <table>
+    <thead>
+      <tr><th>구분</th><th>이자 지원</th><th>기간</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>지역전략산업</strong>(모빌리티·로봇 등)</td>
+        <td>연 1.7%</td>
+        <td>2년</td>
+      </tr>
+      <tr>
+        <td><strong>전통시장·골목상권 활력 자금</strong></td>
+        <td>연 2%</td>
+        <td>공고 확인</td>
+      </tr>
+      <tr>
+        <td><strong>영세 소상공인 보증</strong></td>
+        <td>최대 1억 원 한도</td>
+        <td>최근 1년 매출 5억 원 이하</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>구청별 경영안정자금 — 최대 3,000만 원</h3>
+  <table>
+    <thead>
+      <tr><th>구청</th><th>한도</th><th>이차보전</th><th>조건</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>동구</strong></td>
+        <td>최대 3,000만 원</td>
+        <td>2% × 2년</td>
+        <td>동구 소재 3개월 이상 영업</td>
+      </tr>
+      <tr>
+        <td><strong>달서구</strong></td>
+        <td>최대 3,000만 원</td>
+        <td>3% × 1년</td>
+        <td>달서구 소재 소상공인</td>
+      </tr>
+      <tr>
+        <td><strong>수성구</strong></td>
+        <td>대출 이자의 3%p</td>
+        <td>2년간 직접 지원</td>
+        <td>iM뱅크 협업, 규모 확대 중</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>소상공인 출산·양육 지원금</h3>
+  <ul>
+    <li><strong>출산양육비</strong>: 2025년 이후 출산 시 250만 원 지급 (쌍둥이 +100만 원)</li>
+    <li><strong>육아응원금</strong>: 2017~2024년생 자녀를 둔 무주택 임차 소상공인 → 100만 원</li>
+  </ul>
+
+  <div class="ad">광고 위치 2</div>
+
+  <h2 id="gwangju">5) 광주 — 인건비 직접 지원 + 보험료 부담 완화</h2>
+
+  <h3>신규 채용 인건비 지원 — 최대 300만 원</h3>
+  <ul>
+    <li><strong>대상</strong>: 도시철도 2호선 1단계 공사 구간 인근 23개 동 소상공인</li>
+    <li><strong>지원</strong>: 신규 채용 근로자 1인당 <strong>월 50만 원 × 최대 3개월</strong></li>
+    <li><strong>한도</strong>: 업체당 최대 2명까지 → <strong>최대 300만 원</strong></li>
+  </ul>
+
+  <h3>소상공인 특례보증 — 역대 최대 2천억 원 규모</h3>
+  <ul>
+    <li><strong>한도</strong>: 1인당 최대 5,000만 원</li>
+    <li><strong>이자 지원</strong>: 1년간 3~4%를 시에서 지원</li>
+    <li><strong>운영</strong>: <strong>선착순 소진</strong> — 예산 소진 시 조기 마감</li>
+  </ul>
+
+  <h3>사회보험료 지원</h3>
+  <table>
+    <thead>
+      <tr><th>구분</th><th>고용보험</th><th>산재보험</th><th>기간</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>1인 소상공인</strong></td>
+        <td>본인 부담 20% 지원</td>
+        <td>50% 지원</td>
+        <td>최대 3년</td>
+      </tr>
+      <tr>
+        <td><strong>일반 소상공인</strong></td>
+        <td>사업주 부담분 20%</td>
+        <td>100% 전액</td>
+        <td>최대 3년</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>미소금융 이자 지원</h3>
+  <ul>
+    <li>미소금융 대출 이용 광주 소상공인의 이자 부담 경감</li>
+    <li><strong>2026년 말까지 선착순 운영</strong></li>
+  </ul>
+
+  <h2 id="how">6) 신청 방법 (공통 절차)</h2>
+  <ol>
+    <li><strong>자격 확인</strong>: 소상공인24(sbiz24.kr)에서 사업자등록 상태·업종 확인, 마이데이터 연동 시 서류 간소화</li>
+    <li><strong>사업 선택</strong>: 전국 공통 사업(바우처·정책자금)과 지자체 고유 사업 구분 → 중복 수혜 가능 여부 확인</li>
+    <li><strong>온라인 신청</strong>: 소상공인24 또는 각 지역 경제진흥원·신용보증재단 홈페이지에서 접수</li>
+    <li><strong>서류 제출·심사</strong>: 기본 서류 + 사업별 추가 서류 제출 → 자격 심사(1~4주)</li>
+    <li><strong>선정·지급</strong>: 바우처 포인트 충전, 이차보전 계좌 입금, 보증서 발급 등 사업별 방식에 따라 지급</li>
+  </ol>
+
+  <h2 id="docs">7) 서류 체크리스트</h2>
+  <h3>기본 서류 (전 사업 공통)</h3>
+  <ul>
+    <li>사업자등록증명원 (마이데이터 연동 시 자동 확인)</li>
+    <li>대표자 신분증 사본</li>
+    <li>매출 증빙 (부가가치세 과세표준증명원 또는 면세사업자 수입금액 증명)</li>
+    <li>4대 보험 가입 확인서 (해당 시)</li>
+  </ul>
+  <h3>상황별 추가 서류</h3>
+  <ul>
+    <li><strong>육아 패키지(부산·대구)</strong>: 가족관계증명서, 주민등록등본(무주택 확인), 출생증명서</li>
+    <li><strong>이차보전·보증(전 지역)</strong>: 사업장 임대차계약서, 최근 1년 재무제표 또는 부가세 신고서</li>
+    <li><strong>채용 인건비(광주)</strong>: 근로계약서, 4대 보험 취득 확인서, 급여 이체 내역</li>
+    <li><strong>사회보험료 지원(광주)</strong>: 보험료 납부 확인서, 두루누리 미가입 확인</li>
+  </ul>
+
+  <h2 id="case">8) 경험/사례</h2>
+  <p>부산 해운대구에서 카페를 운영하는 사장님은 스타소상공인에 선정되어 2,000만 원의 성장지원금을 받았는데, 전문가 멘토링을 통해 배달 플랫폼 최적화까지 도움을 받아 월 매출이 30% 이상 늘었다고 합니다. 업력 3년 이상이라는 조건만 충족하면 제조업이든 서비스업이든 업종 제한이 크지 않았다고 합니다.</p>
+  <p>대구 동구에서 미용실을 하는 사장님은 경영안정자금 3,000만 원에 대해 2년간 2%의 이자를 지원받으면서, 연간 약 60만 원의 이자 부담을 줄였습니다. 신용보증재단 방문 없이 구청 홈페이지에서 온라인으로 신청했고, 심사 기간은 약 2주였다고 합니다.</p>
+  <p>광주 서구에서 음식점을 운영하는 사장님은 직원 2명을 새로 채용하면서 인건비 지원을 신청했는데, 월 100만 원씩 3개월간 총 300만 원을 지원받았습니다. 다만 도시철도 2호선 공사 인근 23개 동에 해당하는지 미리 확인해야 하고, 근로계약서와 4대 보험 취득 확인이 필수라는 점을 놓칠 뻔했다고 합니다.</p>
+
+  <!-- ✅ 이미지 4: 탈락 사유 TOP 5 카드 -->
+  <img src="rejection_card_1080_regional_biz.png" alt="소상공인 지원금 탈락 사유 TOP 5" />
+
+  <h2 id="faq">9) FAQ · 탈락 사유 TOP 5</h2>
+  <h3>탈락 사유 TOP 5</h3>
+  <ol>
+    <li><strong>매출 기준 초과</strong> — 경영안정 바우처(1억 400만 원), 영세 소상공인 보증(5억 원) 등 사업마다 매출 기준이 다르므로 반드시 확인</li>
+    <li><strong>사업자등록 소재지 불일치</strong> — 부산·대구·광주 지원금은 해당 지역 사업자등록 소재지가 기준, 실제 거주지가 아님</li>
+    <li><strong>중복 수혜</strong> — 출산·양육 지원금, 구청별 자금은 타 사업과 중복 불가 → 사전 확인 필수</li>
+    <li><strong>홀·짝제 날짜 오류</strong> — 경영안정 바우처 등 대규모 사업은 사업자번호 끝자리에 따라 신청일이 나뉨</li>
+    <li><strong>필수 서류 누락</strong> — 무주택 확인(등본), 출생증명서, 4대 보험 취득 확인서 등 상황별 추가 서류 미제출</li>
+  </ol>
+
+  <h3>중복 수혜 기준</h3>
+  <ul>
+    <li><strong>가능</strong>: 전국 공통 사업(바우처·정책자금) + 지자체 고유 사업 → 대부분 중복 수혜 가능</li>
+    <li><strong>불가</strong>: 출산·양육 관련, 구청별 경영안정자금 → 정부 사업·타 구청 사업과 중복 신청 불가 경우 多</li>
+    <li><strong>확인 필수</strong>: 담당 부서(경제진흥원·구청 경제과)에 사전 문의 권장</li>
+  </ul>
+
+  <h3>자주 묻는 질문</h3>
+  <p class="q">Q1. 비수도권 소상공인 금리 우대 0.2%p는 어떻게 적용되나요?</p>
+  <p class="a">중소벤처기업부 정책자금 신청 시 사업장 소재지가 비수도권이면 자동으로 0.2%p 추가 할인됩니다. 별도 신청은 필요 없습니다.</p>
+
+  <p class="q">Q2. 부산 육아응원 패키지 3종은 모두 받을 수 있나요?</p>
+  <p class="a">대체인건비·아이돌봄·육아응원금은 각각 별도 사업이므로 조건을 충족하면 3종 모두 수혜 가능합니다. 다만 아이돌봄은 사상구 등 관내 소상공인 한정이므로 지역 확인이 필요합니다.</p>
+
+  <p class="q">Q3. 대구 구청별 경영안정자금은 어디서 신청하나요?</p>
+  <p class="a">해당 구청 홈페이지 또는 대구신용보증재단에서 접수합니다. 동구·달서구·수성구마다 이차보전율과 기간이 다르니 내 사업장 소재 구청의 공고를 확인하세요.</p>
+
+  <p class="q">Q4. 광주 신규 채용 인건비는 도시철도 인근이 아니면 못 받나요?</p>
+  <p class="a">네, 현재 기준으로는 도시철도 2호선 1단계 공사 구간 인근 23개 동 소상공인만 대상입니다. 해당 여부는 광주시 홈페이지 공고에서 동 단위로 확인할 수 있습니다.</p>
+
+  <p class="q">Q5. 소상공인 경영안정 바우처 홀·짝제는 어떻게 확인하나요?</p>
+  <p class="a">사업자등록번호 끝자리가 홀수면 홀수일, 짝수면 짝수일에 신청합니다. 소상공인24 접속 시 안내 팝업이 뜨며, 초기 집중 기간 이후에는 2부제 없이 상시 신청 가능합니다.</p>
+
+  <p class="q">Q6. 마이데이터 연동하면 서류를 아예 안 내도 되나요?</p>
+  <p class="a">소상공인24에서 기업 마이데이터 제공 동의 시 사업자등록증명 등 주요 서류가 자동 확인됩니다. 다만 육아 관련(가족관계증명서), 임대차계약서 등은 별도 제출이 필요합니다.</p>
+
+  <p class="q">Q7. 광주 사회보험료 지원과 두루누리 사업은 중복 가능한가요?</p>
+  <p class="a">두루누리 사회보험료 지원을 이미 받고 있다면, 광주시 사회보험료 지원에서는 두루누리 지원분을 제외한 나머지 사업주 부담분만 지원됩니다. 1인 소상공인은 별도 기준이 적용됩니다.</p>
+
+  <p class="q">Q8. 대구 출산양육비 250만 원은 소상공인만 받을 수 있나요?</p>
+  <p class="a">네, 대구시 소상공인 출산·양육 지원금은 대구 소재 소상공인을 대상으로 합니다. 2025년 이후 출산이 조건이며, 쌍둥이는 100만 원이 추가됩니다.</p>
+
+  <p class="q">Q9. 부산 육성자금 특별보증 1.5% 이차보전은 얼마나 절약되나요?</p>
+  <p class="a">1억 원 대출 기준, 연간 약 150만 원의 이자 부담을 줄일 수 있습니다. 우대 대상(여성·청년·장애인 사업주 등)이면 한도가 1.2억 원까지 확대됩니다.</p>
+
+  <p class="q">Q10. 세 지역 중 가장 먼저 마감되는 사업은 무엇인가요?</p>
+  <p class="a">광주 특례보증(2천억 원 규모)과 미소금융 이자 지원은 선착순 소진으로 운영되어 가장 빨리 마감될 가능성이 높습니다. 부산 스타소상공인도 10개사 한정이므로 4월 접수 시작과 동시에 지원하는 것이 유리합니다.</p>
+
+  <div class="tips">
+    <strong>실전 팁</strong><br/>
+    ① 소상공인24에서 마이데이터에 동의하면 서류 발급 없이 간편 신청이 가능합니다.<br/>
+    ② 디지털/AI 도입 계획(키오스크, 서빙로봇 등)이 있으면 정책자금 심사에서 '성장 가능성' 가점을 받을 수 있습니다.<br/>
+    ③ 출산·양육 관련 지원금은 중복 불가 경우가 많으니, 신청 전 담당 부서에 반드시 문의하세요.
+  </div>
+
+  <!-- ✅ 이미지 5: 체크리스트 카드 -->
+  <img src="checklist_card_1080_regional_biz.png" alt="부산 대구 광주 소상공인 지원금 신청 전 체크리스트" />
+
+  <h2 id="check">10) 신청 전 1분 체크리스트</h2>
+  <ul>
+    <li>사업자등록 소재지가 부산·대구·광주인지 확인</li>
+    <li>연 매출 기준 충족 여부 확인 (바우처 1억 400만 원, 영세 보증 5억 원 등)</li>
+    <li>육아 지원 대상자는 가족관계증명서·등본 미리 준비</li>
+    <li>홀·짝제 날짜 확인 (바우처 등 대규모 사업)</li>
+    <li>중복 수혜 가능 여부 담당 부서에 사전 문의</li>
+    <li>소상공인24 마이데이터 연동으로 서류 간소화</li>
+  </ul>
+  <p class="small">관련 글: <a href="#">경기도·인천 소상공인 지원금 총정리</a> / <a href="#">서울 소상공인 지원금 총정리</a> / <a href="#">소상공인 지원금 신청 방법</a></p>
+
+  <div class="ad">광고 위치 3</div>
+
+  <div class="tips">
+    <strong>참고/문의처</strong><br/>
+    소상공인24: <a href="https://www.sbiz24.kr" target="_blank" rel="noopener">sbiz24.kr</a><br/>
+    부산경제진흥원: <a href="https://www.bepa.kr" target="_blank" rel="noopener">bepa.kr</a><br/>
+    대구신용보증재단: <a href="https://www.dgcgf.or.kr" target="_blank" rel="noopener">dgcgf.or.kr</a><br/>
+    광주경제진흥상생일자리재단: <a href="https://www.gjef.or.kr" target="_blank" rel="noopener">gjef.or.kr</a><br/>
+    소상공인시장진흥공단: ☎ 1357
+  </div>
+
+  <div class="footer" id="update">
+    <strong>업데이트 로그</strong><br/>
+    - 2026-04-04: 부산·대구·광주 2026년 지원사업 기준 최초 작성<br/>
+    <span class="small">※ 지자체별 공고가 변동될 수 있어요. 신청 전 공식 공고/FAQ 확인!</span>
+  </div>
+</div>

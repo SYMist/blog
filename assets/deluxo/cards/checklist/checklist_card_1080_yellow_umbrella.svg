@@ -1,0 +1,57 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1080" y2="1080" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+
+  <!-- Header -->
+  <text x="80" y="100" font-size="52" fill="#FFFFFF" font-weight="800" font-family="'Pretendard',sans-serif" letter-spacing="-1">노란우산공제 신청 전 체크리스트</text>
+  <line x1="80" y1="130" x2="1000" y2="130" stroke="rgba(255,255,255,0.12)"/>
+
+  <!-- Item 1 — odd row -->
+  <rect x="60" y="155" width="960" height="85" rx="14" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="210" font-size="36" fill="#22C55E" font-weight="700" font-family="'Pretendard',sans-serif">☑</text>
+  <text x="150" y="210" font-size="30" fill="#FFFFFF" font-weight="600" font-family="'Pretendard',sans-serif">내 업종 가입 가능 여부 확인 (유흥·도박 업종 제외)</text>
+
+  <!-- Item 2 — even row -->
+  <rect x="60" y="250" width="960" height="85" rx="14" fill="rgba(255,255,255,0.03)"/>
+  <text x="100" y="305" font-size="36" fill="#22C55E" font-weight="700" font-family="'Pretendard',sans-serif">☑</text>
+  <text x="150" y="305" font-size="30" fill="#FFFFFF" font-weight="600" font-family="'Pretendard',sans-serif">3년 평균 매출 → 업종별 소기업 기준 이하 확인</text>
+
+  <!-- Item 3 — odd row -->
+  <rect x="60" y="345" width="960" height="85" rx="14" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="400" font-size="36" fill="#22C55E" font-weight="700" font-family="'Pretendard',sans-serif">☑</text>
+  <text x="150" y="400" font-size="28" fill="#FFFFFF" font-weight="600" font-family="'Pretendard',sans-serif">연 소득에 맞는 납입 금액 결정 (4,000만↓ → 월 50만 추천)</text>
+
+  <!-- Item 4 — even row -->
+  <rect x="60" y="440" width="960" height="85" rx="14" fill="rgba(255,255,255,0.03)"/>
+  <text x="100" y="495" font-size="36" fill="#22C55E" font-weight="700" font-family="'Pretendard',sans-serif">☑</text>
+  <text x="150" y="495" font-size="30" fill="#FFFFFF" font-weight="600" font-family="'Pretendard',sans-serif">법인 대표: 총급여 8,000만 초과 여부 확인</text>
+
+  <!-- Item 5 — odd row -->
+  <rect x="60" y="535" width="960" height="85" rx="14" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="590" font-size="36" fill="#22C55E" font-weight="700" font-family="'Pretendard',sans-serif">☑</text>
+  <text x="150" y="590" font-size="28" fill="#FFFFFF" font-weight="600" font-family="'Pretendard',sans-serif">장려금 대상 지역 확인 → 가입 후 30일 이내 별도 신청</text>
+
+  <!-- Item 6 — even row -->
+  <rect x="60" y="630" width="960" height="85" rx="14" fill="rgba(255,255,255,0.03)"/>
+  <text x="100" y="685" font-size="36" fill="#22C55E" font-weight="700" font-family="'Pretendard',sans-serif">☑</text>
+  <text x="150" y="685" font-size="30" fill="#FFFFFF" font-weight="600" font-family="'Pretendard',sans-serif">서류 준비: 사업자등록증 + 매출 증빙</text>
+
+  <!-- Item 7 — odd row -->
+  <rect x="60" y="725" width="960" height="85" rx="14" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="780" font-size="36" fill="#22C55E" font-weight="700" font-family="'Pretendard',sans-serif">☑</text>
+  <text x="150" y="780" font-size="28" fill="#FFFFFF" font-weight="600" font-family="'Pretendard',sans-serif">3월 프로모션 확인 (네이버페이 5만 원 이벤트)</text>
+
+  <!-- Bottom link box (blue) -->
+  <rect x="60" y="850" width="960" height="100" rx="16" fill="#1D4ED8"/>
+  <text x="540" y="910" font-size="34" fill="#FFFFFF" font-weight="700" font-family="'Pretendard',sans-serif" text-anchor="middle">8899.or.kr · 1666-9988 지금 확인!</text>
+
+  <!-- Gold bar -->
+  <rect x="0" y="1040" width="1080" height="40" rx="0" fill="#F59E0B"/>
+</svg>

@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1700" fill="url(#bg)"/>
+
+  <rect x="60" y="50" width="240" height="40" rx="20" fill="#B45309"/>
+  <text x="180" y="77" text-anchor="middle" fill="#FFFFFF" font-size="17" font-weight="800" font-family="sans-serif">상품 유형·한도 비교 매트릭스</text>
+
+  <text x="60" y="150" fill="#FFFFFF" font-size="38" font-weight="800" font-family="sans-serif">주기형 · 혼합형 · 변동형 전격 비교</text>
+  <text x="60" y="192" fill="#FCD34D" font-size="20" font-weight="600" font-family="sans-serif">2026.04 공시 금리 + 스트레스 DSR 한도 시뮬레이션</text>
+
+  <!-- 상품 유형 비교 -->
+  <g font-family="sans-serif">
+    <rect x="60" y="230" width="1080" height="55" fill="#B45309"/>
+    <text x="175" y="265" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="800">항목</text>
+    <text x="430" y="265" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="800">주기형 (고정)</text>
+    <text x="720" y="265" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="800">혼합형 (5년 후 변동)</text>
+    <text x="1010" y="265" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="800">변동형 (코픽스)</text>
+
+    <rect x="60" y="285" width="1080" height="50" fill="#1e293b" stroke="#B45309" stroke-width="1"/>
+    <text x="80" y="315" fill="#FCD34D" font-size="14" font-weight="700">금리 밴드</text>
+    <text x="430" y="315" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700">4.410 ~ 7.010%</text>
+    <text x="720" y="315" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700">4.410 ~ 7.010%</text>
+    <text x="1010" y="315" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700">3.610 ~ 6.010%</text>
+
+    <rect x="60" y="335" width="1080" height="50" fill="#0f172a" stroke="#B45309" stroke-width="1"/>
+    <text x="80" y="365" fill="#FCD34D" font-size="14" font-weight="700">기준 지표</text>
+    <text x="430" y="365" text-anchor="middle" fill="#E2E8F0" font-size="13">은행채 5년(4.119%)</text>
+    <text x="720" y="365" text-anchor="middle" fill="#E2E8F0" font-size="13">은행채 5년(4.119%)</text>
+    <text x="1010" y="365" text-anchor="middle" fill="#E2E8F0" font-size="13">신규 코픽스(2.820%)</text>
+
+    <rect x="60" y="385" width="1080" height="50" fill="#1e293b" stroke="#B45309" stroke-width="1"/>
+    <text x="80" y="415" fill="#FCD34D" font-size="14" font-weight="700">스트레스 DSR 반영</text>
+    <text x="430" y="415" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700">40% (가장 유리)</text>
+    <text x="720" y="415" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700">80%</text>
+    <text x="1010" y="415" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="700">100% (가장 불리)</text>
+
+    <rect x="60" y="435" width="1080" height="50" fill="#0f172a" stroke="#B45309" stroke-width="1"/>
+    <text x="80" y="465" fill="#FCD34D" font-size="14" font-weight="700">한도 (1억 소득·30년)</text>
+    <text x="430" y="465" text-anchor="middle" fill="#86EFAC" font-size="15" font-weight="800">6.4억 원</text>
+    <text x="720" y="465" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="800">5.94억 원</text>
+    <text x="1010" y="465" text-anchor="middle" fill="#FCA5A5" font-size="15" font-weight="800">5.56억 원</text>
+
+    <rect x="60" y="485" width="1080" height="50" fill="#1e293b" stroke="#B45309" stroke-width="1"/>
+    <text x="80" y="515" fill="#FCD34D" font-size="14" font-weight="700">한도 감소액 (규제 전 대비)</text>
+    <text x="430" y="515" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700">−1,000만 원</text>
+    <text x="720" y="515" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700">−6,400만 원</text>
+    <text x="1010" y="515" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="700">−1억 200만 원</text>
+
+    <rect x="60" y="535" width="1080" height="50" fill="#0f172a" stroke="#B45309" stroke-width="1"/>
+    <text x="80" y="565" fill="#FCD34D" font-size="14" font-weight="700">금리 변동 위험</text>
+    <text x="430" y="565" text-anchor="middle" fill="#86EFAC" font-size="13">낮음 (고정기간 방어)</text>
+    <text x="720" y="565" text-anchor="middle" fill="#FCD34D" font-size="13">중간 (5년 후 전환)</text>
+    <text x="1010" y="565" text-anchor="middle" fill="#FCA5A5" font-size="13">높음 (분기별 반영)</text>
+
+    <rect x="60" y="585" width="1080" height="50" fill="#1e293b" stroke="#B45309" stroke-width="1"/>
+    <text x="80" y="615" fill="#FCD34D" font-size="14" font-weight="700">중도상환 수수료 (2026)</text>
+    <text x="430" y="615" text-anchor="middle" fill="#E2E8F0" font-size="13">KB 0.75% (+0.17)</text>
+    <text x="720" y="615" text-anchor="middle" fill="#E2E8F0" font-size="13">0.7 ~ 0.9%</text>
+    <text x="1010" y="615" text-anchor="middle" fill="#E2E8F0" font-size="13">우리 0.95% (+0.22)</text>
+
+    <rect x="60" y="635" width="1080" height="50" fill="#0f172a" stroke="#B45309" stroke-width="1"/>
+    <text x="80" y="665" fill="#FCD34D" font-size="14" font-weight="700">추천 차주</text>
+    <text x="430" y="665" text-anchor="middle" fill="#E2E8F0" font-size="13">한도 극대화·수도권 고가</text>
+    <text x="720" y="665" text-anchor="middle" fill="#E2E8F0" font-size="13">리스크 분산·중기</text>
+    <text x="1010" y="665" text-anchor="middle" fill="#E2E8F0" font-size="13">인하 확신·소액 단기</text>
+  </g>
+
+  <!-- 스트레스 DSR 단계표 -->
+  <text x="60" y="735" fill="#FFFFFF" font-size="26" font-weight="800" font-family="sans-serif">스트레스 DSR 단계별 가산 비율</text>
+  <text x="60" y="763" fill="#94A3B8" font-size="14" font-family="sans-serif">미래 금리 상승을 선제 반영 · 3단계(2025.07~)는 전 금융권 모든 가계대출에 전면 적용</text>
+
+  <g font-family="sans-serif">
+    <rect x="60" y="785" width="1080" height="50" fill="#B45309"/>
+    <text x="180" y="816" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="800">단계</text>
+    <text x="430" y="816" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="800">시행 시기</text>
+    <text x="700" y="816" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="800">반영 비율</text>
+    <text x="990" y="816" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="800">적용 범위</text>
+
+    <rect x="60" y="835" width="1080" height="45" fill="#1e293b" stroke="#B45309" stroke-width="1"/>
+    <text x="180" y="862" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700">1단계</text>
+    <text x="430" y="862" text-anchor="middle" fill="#E2E8F0" font-size="14">2024.02</text>
+    <text x="700" y="862" text-anchor="middle" fill="#E2E8F0" font-size="14">25% (약 0.38%p)</text>
+    <text x="990" y="862" text-anchor="middle" fill="#E2E8F0" font-size="13">은행권 주담대</text>
+
+    <rect x="60" y="880" width="1080" height="45" fill="#0f172a" stroke="#B45309" stroke-width="1"/>
+    <text x="180" y="907" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700">2단계</text>
+    <text x="430" y="907" text-anchor="middle" fill="#E2E8F0" font-size="14">2024.09</text>
+    <text x="700" y="907" text-anchor="middle" fill="#E2E8F0" font-size="14">50% (약 0.75%p)</text>
+    <text x="990" y="907" text-anchor="middle" fill="#E2E8F0" font-size="13">+ 신용대출</text>
+
+    <rect x="60" y="925" width="1080" height="50" fill="#1e293b" stroke="#FCD34D" stroke-width="2"/>
+    <text x="180" y="955" text-anchor="middle" fill="#FCA5A5" font-size="15" font-weight="800">3단계 (현행)</text>
+    <text x="430" y="955" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700">2025.07~</text>
+    <text x="700" y="955" text-anchor="middle" fill="#FCA5A5" font-size="15" font-weight="800">100% (1.5~3.0%p)</text>
+    <text x="990" y="955" text-anchor="middle" fill="#FCA5A5" font-size="13" font-weight="700">전 금융권 전 대출</text>
+  </g>
+
+  <!-- 지역별 차등 -->
+  <text x="60" y="1030" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">지역별 차등 적용 (2026)</text>
+
+  <g font-family="sans-serif">
+    <rect x="60" y="1050" width="520" height="120" rx="12" fill="#1e293b" stroke="#B45309" stroke-width="2"/>
+    <text x="80" y="1085" fill="#FCA5A5" font-size="16" font-weight="800">수도권 (서울·경기·인천)</text>
+    <text x="80" y="1115" fill="#FFFFFF" font-size="15">· 스트레스 금리 <tspan fill="#FCA5A5" font-weight="700">최대 3.0%p 가산</tspan></text>
+    <text x="80" y="1142" fill="#FFFFFF" font-size="15">· 부동산 과열 방지 목적</text>
+
+    <rect x="620" y="1050" width="520" height="120" rx="12" fill="#1e293b" stroke="#86EFAC" stroke-width="2"/>
+    <text x="640" y="1085" fill="#86EFAC" font-size="16" font-weight="800">비수도권 (지방)</text>
+    <text x="640" y="1115" fill="#FFFFFF" font-size="15">· <tspan fill="#86EFAC" font-weight="700">0.75%p 한시 완화</tspan> (2026.06까지)</text>
+    <text x="640" y="1142" fill="#FFFFFF" font-size="15">· 2026.06 이전 실행이 한도 확보 유리</text>
+  </g>
+
+  <!-- 정책 모기지 상세 -->
+  <text x="60" y="1215" fill="#FFFFFF" font-size="26" font-weight="800" font-family="sans-serif">정책 모기지 비교 (신생아 특례·보금자리)</text>
+  <text x="60" y="1243" fill="#94A3B8" font-size="14" font-family="sans-serif">자격 충족 시 민간 대비 2~5%p 낮은 금리 확보 가능</text>
+
+  <g font-family="sans-serif">
+    <rect x="60" y="1265" width="1080" height="50" fill="#B45309"/>
+    <text x="150" y="1296" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800">항목</text>
+    <text x="420" y="1296" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800">신생아 특례 디딤돌 (구입)</text>
+    <text x="720" y="1296" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800">신생아 특례 버팀목 (전세)</text>
+    <text x="1010" y="1296" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800">보금자리론</text>
+
+    <rect x="60" y="1315" width="1080" height="40" fill="#1e293b" stroke="#B45309" stroke-width="1"/>
+    <text x="150" y="1340" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="700">대상</text>
+    <text x="420" y="1340" text-anchor="middle" fill="#E2E8F0" font-size="12">2년 내 출산 + 무주택</text>
+    <text x="720" y="1340" text-anchor="middle" fill="#E2E8F0" font-size="12">2년 내 출산 + 무주택</text>
+    <text x="1010" y="1340" text-anchor="middle" fill="#E2E8F0" font-size="12">무주택·1주택</text>
+
+    <rect x="60" y="1355" width="1080" height="40" fill="#0f172a" stroke="#B45309" stroke-width="1"/>
+    <text x="150" y="1380" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="700">소득</text>
+    <text x="420" y="1380" text-anchor="middle" fill="#E2E8F0" font-size="12">부부 합산 2억 이하</text>
+    <text x="720" y="1380" text-anchor="middle" fill="#E2E8F0" font-size="12">부부 합산 2억 이하</text>
+    <text x="1010" y="1380" text-anchor="middle" fill="#E2E8F0" font-size="12">일반 기준</text>
+
+    <rect x="60" y="1395" width="1080" height="40" fill="#1e293b" stroke="#B45309" stroke-width="1"/>
+    <text x="150" y="1420" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="700">금리</text>
+    <text x="420" y="1420" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="800">1.8 ~ 4.5%</text>
+    <text x="720" y="1420" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="800">1.3 ~ 4.3%</text>
+    <text x="1010" y="1420" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="800">4%대 고정</text>
+
+    <rect x="60" y="1435" width="1080" height="40" fill="#0f172a" stroke="#B45309" stroke-width="1"/>
+    <text x="150" y="1460" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="700">한도</text>
+    <text x="420" y="1460" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">최대 4억 (LTV 70~80%)</text>
+    <text x="720" y="1460" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">최대 2.4억</text>
+    <text x="1010" y="1460" text-anchor="middle" fill="#E2E8F0" font-size="13">—</text>
+
+    <rect x="60" y="1475" width="1080" height="40" fill="#1e293b" stroke="#B45309" stroke-width="1"/>
+    <text x="150" y="1500" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="700">특례 기간</text>
+    <text x="420" y="1500" text-anchor="middle" fill="#E2E8F0" font-size="12">5년 (추가 출산 최장 15년)</text>
+    <text x="720" y="1500" text-anchor="middle" fill="#E2E8F0" font-size="12">4년 (최장 12년)</text>
+    <text x="1010" y="1500" text-anchor="middle" fill="#E2E8F0" font-size="12">—</text>
+
+    <rect x="60" y="1515" width="1080" height="40" fill="#0f172a" stroke="#B45309" stroke-width="1"/>
+    <text x="150" y="1540" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="700">우대</text>
+    <text x="420" y="1540" text-anchor="middle" fill="#86EFAC" font-size="13" font-weight="700">자녀 1명당 −0.2%p</text>
+    <text x="720" y="1540" text-anchor="middle" fill="#86EFAC" font-size="13" font-weight="700">자녀 1명당 −0.2%p</text>
+    <text x="1010" y="1540" text-anchor="middle" fill="#86EFAC" font-size="13" font-weight="700">사회배려층 수수료 면제</text>
+  </g>
+
+  <text x="60" y="1605" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">※ 자녀 3명 이상 최저 연 1.0%까지 도달 가능 — 시중 고정 7% 대비 6%p 절감</text>
+
+  <text x="60" y="1660" fill="#64748B" font-size="14" font-family="sans-serif">essencial | 대출·금융 silo · 자료: 금감원·주금공·은행연합회 (2026.04 기준)</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="80" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="800" fill="#F59E0B">고용·산재보험 신청 전 체크리스트</text>
+  <rect x="60" y="110" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <rect x="60" y="140" width="960" height="95" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="189" font-family="'Pretendard',sans-serif" font-size="34" fill="#22C55E">☑</text>
+  <text x="150" y="183" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">소상공인 기준 충족 확인</text>
+  <text x="150" y="216" font-family="'Pretendard',sans-serif" font-size="19" fill="#EAF2FF">산업별 상시근로자 수 + 연간 매출액 한도 확인</text>
+
+  <rect x="60" y="245" width="960" height="95" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="294" font-family="'Pretendard',sans-serif" font-size="34" fill="#22C55E">☑</text>
+  <text x="150" y="288" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">기준보수 등급 선택 (1~7등급)</text>
+  <text x="150" y="321" font-family="'Pretendard',sans-serif" font-size="19" fill="#EAF2FF">1등급 월 8,190원(80%) ~ 7등급 월 38,025원(50%)</text>
+
+  <rect x="60" y="350" width="960" height="95" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="399" font-family="'Pretendard',sans-serif" font-size="34" fill="#22C55E">☑</text>
+  <text x="150" y="393" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">보험 가입 + 지원 신청 동시 처리</text>
+  <text x="150" y="426" font-family="'Pretendard',sans-serif" font-size="19" fill="#EAF2FF">소급 불가! 가입일에 바로 지원 신청 필수</text>
+
+  <rect x="60" y="455" width="960" height="95" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="504" font-family="'Pretendard',sans-serif" font-size="34" fill="#22C55E">☑</text>
+  <text x="150" y="498" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">마이데이터 동의 or 서류 준비</text>
+  <text x="150" y="531" font-family="'Pretendard',sans-serif" font-size="19" fill="#EAF2FF">사업자등록증명·과세표준증명·건강보험확인서</text>
+
+  <rect x="60" y="560" width="960" height="95" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="609" font-family="'Pretendard',sans-serif" font-size="34" fill="#22C55E">☑</text>
+  <text x="150" y="603" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">지자체 추가 지원 공고 확인</text>
+  <text x="150" y="636" font-family="'Pretendard',sans-serif" font-size="19" fill="#EAF2FF">인천 50% · 경기 30~40% · 울산 15~30% 중복 가능</text>
+
+  <rect x="60" y="665" width="960" height="95" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="714" font-family="'Pretendard',sans-serif" font-size="34" fill="#22C55E">☑</text>
+  <text x="150" y="708" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">경영안정 바우처 대상 확인</text>
+  <text x="150" y="741" font-family="'Pretendard',sans-serif" font-size="19" fill="#EAF2FF">연 매출 1억 400만 미만 → 25만 원 4대 보험료 사용</text>
+
+  <rect x="60" y="770" width="960" height="95" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="819" font-family="'Pretendard',sans-serif" font-size="34" fill="#22C55E">☑</text>
+  <text x="150" y="813" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">자동이체 설정</text>
+  <text x="150" y="846" font-family="'Pretendard',sans-serif" font-size="19" fill="#EAF2FF">6개월 연속 체납 → 보험 소멸 방지!</text>
+
+  <rect x="60" y="890" width="960" height="95" rx="16" fill="rgba(59,130,246,0.15)"/>
+  <text x="100" y="939" font-family="'Pretendard',sans-serif" font-size="34" fill="#3B82F6">🔗</text>
+  <text x="150" y="938" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#3B82F6">토탈서비스 total.comwel.or.kr</text>
+
+  <rect x="60" y="1000" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#F59E0B">4분기 정책자금 신청 전 1분 체크리스트</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <rect x="60" y="120" width="960" height="95" rx="16" fill="rgba(239,68,68,0.08)"/>
+  <rect x="80" y="145" width="40" height="40" rx="8" fill="rgba(239,68,68,0.3)" stroke="#EF4444" stroke-width="2"/>
+  <text x="100" y="173" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#EF4444">!</text>
+  <text x="140" y="173" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">소상공인확인서 유효기간 확인 (만료 시 갱신)</text>
+
+  <rect x="60" y="227" width="960" height="95" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="252" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="280" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="280" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">소상공인24 가입 + 마이데이터 연동 완료</text>
+
+  <rect x="60" y="334" width="960" height="95" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="359" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="387" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="387" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">국세·지방세 완납 증명서 확인 (체납 시 즉시 납부)</text>
+
+  <rect x="60" y="441" width="960" height="95" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="466" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="494" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="494" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">가점 증빙 사전 업로드 (제로페이·노란우산·고용보험)</text>
+
+  <rect x="60" y="548" width="960" height="95" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="573" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="601" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="601" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">대환대출 해당 시: 고금리 채무 내역 + 3개월 상환 이력</text>
+
+  <rect x="60" y="655" width="960" height="95" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="680" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="708" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="708" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">기준금리 확인 (10월 10일 소진공 공시)</text>
+
+  <rect x="60" y="762" width="960" height="95" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="787" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="815" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="815" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">접수 시작 일시 캘린더 등록 (직접대출: 오전 9시)</text>
+
+  <rect x="60" y="869" width="960" height="95" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="894" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="922" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="922" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">본인 명의 휴대폰 + 인증서 준비 (공동대표 → 주 대표자)</text>
+
+  <rect x="60" y="1000" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

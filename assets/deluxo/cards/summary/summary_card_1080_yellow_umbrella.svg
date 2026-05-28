@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="32" font-weight="800" fill="#F59E0B">노란우산공제 가입·절세·해지 한눈에 보기</text>
+  <rect x="60" y="98" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- 소득공제 -->
+  <rect x="60" y="120" width="960" height="155" rx="20" fill="rgba(245,158,11,0.12)"/>
+  <rect x="80" y="140" width="130" height="40" rx="20" fill="#F59E0B"/>
+  <text x="145" y="168" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#0B1F3B">소득공제</text>
+  <text x="100" y="200" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">4,000만↓ →</text>
+  <text x="270" y="200" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">600만 공제</text>
+  <text x="450" y="200" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">4,000~1억 →</text>
+  <text x="650" y="200" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">400만</text>
+  <text x="750" y="200" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">1억↑ →</text>
+  <text x="850" y="200" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">200만</text>
+  <text x="100" y="255" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">법인 대표: 총급여 8,000만↓ 시 연 200만 공제 가능 / 8,000만↑ 불가</text>
+
+  <!-- 수령 세금 -->
+  <rect x="60" y="290" width="960" height="110" rx="20" fill="rgba(16,185,129,0.12)"/>
+  <rect x="80" y="310" width="130" height="40" rx="20" fill="#10B981"/>
+  <text x="145" y="338" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#FFF">수령 세금</text>
+  <text x="100" y="375" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">법정 사유 →</text>
+  <text x="295" y="375" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#10B981">퇴직소득세(낮음)</text>
+  <text x="560" y="375" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">임의해약 →</text>
+  <text x="740" y="375" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EF4444">기타소득세 16.5%</text>
+
+  <!-- 장려금 -->
+  <rect x="60" y="415" width="960" height="120" rx="20" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="435" width="100" height="40" rx="20" fill="#3B82F6"/>
+  <text x="130" y="463" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#FFF">장려금</text>
+  <text x="100" y="500" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">서울·인천</text>
+  <text x="265" y="500" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">월 2만(연 24만)</text>
+  <text x="490" y="500" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">경기</text>
+  <text x="560" y="500" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">월 1만(연 12만)</text>
+  <rect x="760" y="484" width="220" height="28" rx="14" fill="#EF4444"/>
+  <text x="870" y="504" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" font-weight="700" fill="#FFF">가입 후 30일 이내 신청!</text>
+
+  <!-- 압류 금지 -->
+  <rect x="60" y="550" width="960" height="110" rx="20" fill="rgba(139,92,246,0.12)"/>
+  <rect x="80" y="570" width="130" height="40" rx="20" fill="#8B5CF6"/>
+  <text x="145" y="598" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#FFF">압류 금지</text>
+  <text x="100" y="635" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">파산·채무불이행 시에도</text>
+  <text x="445" y="635" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#8B5CF6">100% 보호</text>
+  <text x="630" y="635" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">+ 행복지킴이통장 수령</text>
+
+  <!-- 대출 -->
+  <rect x="60" y="675" width="960" height="120" rx="20" fill="rgba(255,255,255,0.06)"/>
+  <rect x="80" y="695" width="80" height="40" rx="20" fill="rgba(245,158,11,0.3)"/>
+  <text x="120" y="723" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">대출</text>
+  <text x="100" y="758" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">환급금 90%</text>
+  <text x="290" y="758" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">(연 3.9%)</text>
+  <text x="100" y="785" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">의료비 1,000만·재해 2,000만 무이자 대출</text>
+
+  <!-- 하단 골드 바 -->
+  <rect x="60" y="815" width="960" height="55" rx="16" fill="rgba(245,158,11,0.2)"/>
+  <text x="540" y="850" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">8대 지급 사유 확대 · 중간 정산 가능 · 해지 불요</text>
+
+  <rect x="60" y="1050" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="920" cy="190" r="220" fill="#F59E0B" opacity="0.05"/>
+  <circle cx="160" cy="900" r="180" fill="#34D399" opacity="0.05"/>
+
+  <!-- Top bar -->
+  <rect x="0" y="0" width="1080" height="8" fill="#F59E0B"/>
+
+  <!-- Chips -->
+  <rect x="60" y="80" width="148" height="42" rx="21" fill="#F59E0B"/>
+  <text x="134" y="107" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#0B1F3B" text-anchor="middle">2026 최신</text>
+
+  <rect x="224" y="80" width="248" height="42" rx="21" fill="#1A3270"/>
+  <rect x="224" y="80" width="248" height="42" rx="21" fill="none" stroke="#34D399" stroke-width="2"/>
+  <text x="348" y="107" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#34D399" text-anchor="middle">연간 238만원 절세</text>
+
+  <rect x="488" y="80" width="200" height="42" rx="21" fill="#1A3270"/>
+  <rect x="488" y="80" width="200" height="42" rx="21" fill="none" stroke="#F59E0B" stroke-width="2"/>
+  <text x="588" y="107" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#F59E0B" text-anchor="middle">3축 통합 전략</text>
+
+  <!-- Main title -->
+  <text x="60" y="224" font-family="-apple-system, sans-serif" font-size="58" font-weight="900" fill="#FFFFFF">자영업자</text>
+  <text x="60" y="298" font-family="-apple-system, sans-serif" font-size="58" font-weight="900" fill="#FFFFFF">노후 3축 설계</text>
+  <text x="60" y="352" font-family="-apple-system, sans-serif" font-size="26" font-weight="700" fill="#A0B4D0">노란우산 + IRP + 국민연금 통합 전략</text>
+
+  <!-- Big stat box -->
+  <rect x="60" y="400" width="960" height="190" rx="20" fill="#1A3270"/>
+  <text x="540" y="466" font-family="-apple-system, sans-serif" font-size="24" font-weight="700" fill="#A0B4D0" text-anchor="middle">종합소득 4,000만원↓ 기준 연간 최대 절세</text>
+  <text x="540" y="562" font-family="-apple-system, sans-serif" font-size="96" font-weight="900" fill="#34D399" text-anchor="middle">238만원</text>
+
+  <!-- 3 pillar boxes -->
+  <rect x="60" y="618" width="300" height="172" rx="16" fill="#0D2347"/>
+  <text x="210" y="672" font-family="-apple-system, sans-serif" font-size="20" font-weight="700" fill="#F59E0B" text-anchor="middle">노란우산공제</text>
+  <text x="210" y="730" font-family="-apple-system, sans-serif" font-size="40" font-weight="900" fill="#FFFFFF" text-anchor="middle">~90만원</text>
+  <text x="210" y="770" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">소득공제 최대</text>
+
+  <rect x="390" y="618" width="300" height="172" rx="16" fill="#0D2347"/>
+  <text x="540" y="672" font-family="-apple-system, sans-serif" font-size="20" font-weight="700" fill="#34D399" text-anchor="middle">IRP+연금저축</text>
+  <text x="540" y="730" font-family="-apple-system, sans-serif" font-size="40" font-weight="900" fill="#FFFFFF" text-anchor="middle">~148만원</text>
+  <text x="540" y="770" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">세액공제 최대</text>
+
+  <rect x="720" y="618" width="300" height="172" rx="16" fill="#0D2347"/>
+  <text x="870" y="672" font-family="-apple-system, sans-serif" font-size="20" font-weight="700" fill="#A0B4D0" text-anchor="middle">국민연금</text>
+  <text x="870" y="730" font-family="-apple-system, sans-serif" font-size="40" font-weight="900" fill="#FFFFFF" text-anchor="middle">43%</text>
+  <text x="870" y="770" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">소득대체율 (2026)</text>
+
+  <!-- Action box -->
+  <rect x="60" y="822" width="960" height="92" rx="16" fill="#1A3270"/>
+  <rect x="60" y="822" width="960" height="92" rx="16" fill="none" stroke="#F59E0B" stroke-width="2"/>
+  <text x="540" y="862" font-family="-apple-system, sans-serif" font-size="20" font-weight="700" fill="#F59E0B" text-anchor="middle">지금 확인해야 할 3축 납입 전략 총정리</text>
+  <text x="540" y="896" font-family="-apple-system, sans-serif" font-size="16" fill="#EAF2FF" text-anchor="middle">납입 순서 · 한도 조합 · 절세 신고 타이밍까지</text>
+
+  <!-- Bottom note -->
+  <text x="540" y="976" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준 | 개인 소득 상황에 따라 실제 절세액 상이 | 세무사 상담 권장</text>
+  <rect x="0" y="1072" width="1080" height="8" fill="#F59E0B"/>
+</svg>

@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1700" fill="url(#bg)"/>
+
+  <rect x="60" y="50" width="300" height="40" rx="20" fill="#0F766E"/>
+  <text x="210" y="77" text-anchor="middle" fill="#FFFFFF" font-size="17" font-weight="800" font-family="sans-serif">시나리오 4종 · 의사결정 가이드</text>
+
+  <text x="60" y="155" fill="#FFFFFF" font-size="40" font-weight="800" font-family="sans-serif">내 상황에 맞는 렌즈와</text>
+  <text x="60" y="200" fill="#2DD4BF" font-size="40" font-weight="800" font-family="sans-serif">실제 부담액 계산하기</text>
+  <text x="60" y="243" fill="#94A3B8" font-size="20" font-weight="600" font-family="sans-serif">실손 세대·입원 인정·수술비 특약 3가지가 핵심</text>
+
+  <text x="60" y="295" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">시나리오별 실제 부담액 (양안 기준)</text>
+
+  <!-- S-A -->
+  <rect x="60" y="315" width="540" height="195" rx="12" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="80" y="355" fill="#86EFAC" font-size="17" font-weight="800" font-family="sans-serif">A · 단초점 + 2세대 실손 (입원 인정)</text>
+  <text x="80" y="383" fill="#CBD5E1" font-size="13" font-family="sans-serif">수술비 약 50만 원 · 의학적 입원 6시간+ 조건 충족</text>
+  <text x="80" y="418" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">▸ 실손 80% 환급: 약 40만 원</text>
+  <text x="80" y="443" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">▸ 수술비 특약: 100만 원 정액</text>
+  <text x="80" y="468" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">▸ 사실상 환급 초과 가능성</text>
+  <text x="80" y="490" fill="#86EFAC" font-size="16" font-weight="800" font-family="sans-serif">→ 실질 부담 약 10만 원 이하</text>
+
+  <!-- S-B -->
+  <rect x="620" y="315" width="520" height="195" rx="12" fill="url(#card)" stroke="#FCD34D" stroke-width="2"/>
+  <text x="640" y="355" fill="#FCD34D" font-size="17" font-weight="800" font-family="sans-serif">B · 단초점 + 4세대 실손 (통원 처리)</text>
+  <text x="640" y="383" fill="#CBD5E1" font-size="13" font-family="sans-serif">수술비 약 50만 원 · 통원 한도 25만/회</text>
+  <text x="640" y="418" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">▸ 통원 25만 × 2회 = 최대 50만</text>
+  <text x="640" y="443" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">▸ 수술비 특약 있으면 100만 추가</text>
+  <text x="640" y="468" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">▸ 특약 없으면 수술비 = 통원 한도</text>
+  <text x="640" y="490" fill="#FCD34D" font-size="16" font-weight="800" font-family="sans-serif">→ 거의 없거나 소폭 환급</text>
+
+  <!-- S-C -->
+  <rect x="60" y="530" width="540" height="195" rx="12" fill="url(#card)" stroke="#FCA5A5" stroke-width="2"/>
+  <text x="80" y="570" fill="#FCA5A5" font-size="17" font-weight="800" font-family="sans-serif">C · 3중초점 + 4세대 실손</text>
+  <text x="80" y="598" fill="#CBD5E1" font-size="13" font-family="sans-serif">양안 약 800만 원 · 비급여 사실상 미보장</text>
+  <text x="80" y="633" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">▸ 4세대 실손: 요양급여만 보장 → 다초점 미적용</text>
+  <text x="80" y="658" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">▸ 급여 검사비 소액만 일부 보상</text>
+  <text x="80" y="683" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">▸ 수술비 특약 100만 원 회수 가능</text>
+  <text x="80" y="705" fill="#FCA5A5" font-size="16" font-weight="800" font-family="sans-serif">→ 실질 부담 약 700만 원+</text>
+
+  <!-- S-D -->
+  <rect x="620" y="530" width="520" height="195" rx="12" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="640" y="570" fill="#86EFAC" font-size="17" font-weight="800" font-family="sans-serif">D · 3중초점 + 2세대 실손 (입원 인정)</text>
+  <text x="640" y="598" fill="#CBD5E1" font-size="13" font-family="sans-serif">양안 약 700만 원 · 비급여 80% 보상 가정</text>
+  <text x="640" y="633" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">▸ 실손 비급여 80%: 최대 560만 환급</text>
+  <text x="640" y="658" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">▸ 수술비 특약 100만 원 추가</text>
+  <text x="640" y="683" fill="#FCA5A5" font-size="14" font-weight="700" font-family="sans-serif">▸ 주의: 심사 강화로 전액 인정 불확실</text>
+  <text x="640" y="705" fill="#86EFAC" font-size="16" font-weight="800" font-family="sans-serif">→ 약 40만 원 내외 (심사 결과 의존)</text>
+
+  <!-- 의사결정 5단계 -->
+  <text x="60" y="800" fill="#FFFFFF" font-size="24" font-weight="800" font-family="sans-serif">의사결정 5단계 가이드</text>
+
+  <rect x="60" y="825" width="1080" height="440" rx="16" fill="url(#card)" stroke="#0F766E" stroke-width="2"/>
+
+  <g font-family="sans-serif">
+    <circle cx="100" cy="882" r="22" fill="#0F766E"/>
+    <text x="100" y="890" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800">1</text>
+    <text x="140" y="877" fill="#FFFFFF" font-size="17" font-weight="700">[실손 세대 확인] 가입 시기로 1·2·3·4세대 판별</text>
+    <text x="140" y="900" fill="#CBD5E1" font-size="14">~2009: 1세대 / 2009~2017: 2세대 / 2017~2021: 3세대 / 2021~: 4세대</text>
+
+    <circle cx="100" cy="950" r="22" fill="#0F766E"/>
+    <text x="100" y="958" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800">2</text>
+    <text x="140" y="945" fill="#FFFFFF" font-size="17" font-weight="700">[수술비 특약 확인] 정액형 수술비 특약 유무·급수 확인</text>
+    <text x="140" y="968" fill="#CBD5E1" font-size="14">실손보험 외 별도 가입 특약 — 렌즈 무관 50~100만 원 정액 지급</text>
+
+    <circle cx="100" cy="1018" r="22" fill="#0F766E"/>
+    <text x="100" y="1026" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800">3</text>
+    <text x="140" y="1013" fill="#FFFFFF" font-size="17" font-weight="700">[심평원 비급여 가격 조회] hira.or.kr → 비급여 진료비 공개</text>
+    <text x="140" y="1036" fill="#CBD5E1" font-size="14">동일 렌즈도 병원별 최대 27배 차이 — 반드시 비교 후 수술 병원 결정</text>
+
+    <circle cx="100" cy="1086" r="22" fill="#0F766E"/>
+    <text x="100" y="1094" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800">4</text>
+    <text x="140" y="1081" fill="#FFFFFF" font-size="17" font-weight="700">[입원 처리 가능 여부 확인] 수술 전 병원에 문의</text>
+    <text x="140" y="1104" fill="#CBD5E1" font-size="14">6시간+ 체류·의사 입원 소견서 발급 가능한지 확인 (2세대 이상 필수)</text>
+
+    <circle cx="100" cy="1154" r="22" fill="#0F766E"/>
+    <text x="100" y="1162" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800">5</text>
+    <text x="140" y="1149" fill="#FFFFFF" font-size="17" font-weight="700">[안과 전문의 상담] 의학적 렌즈 적합 여부 판단</text>
+    <text x="140" y="1172" fill="#CBD5E1" font-size="14">황반변성·녹내장·각막 이상 여부 → 다초점 부적합일 수 있음</text>
+  </g>
+
+  <!-- 주의 박스 -->
+  <rect x="60" y="1285" width="1080" height="160" rx="12" fill="url(#card)" stroke="#FCA5A5" stroke-width="2"/>
+  <text x="80" y="1325" fill="#FCA5A5" font-size="20" font-weight="800" font-family="sans-serif">⚠ 주의사항 3가지</text>
+  <text x="80" y="1365" fill="#FFFFFF" font-size="15" font-weight="700" font-family="sans-serif">① 다초점 렌즈 보험 분쟁 급증 — 약관의 '시력교정수술 제외' 조항 반드시 확인</text>
+  <text x="80" y="1395" fill="#FFFFFF" font-size="15" font-weight="700" font-family="sans-serif">② 입원 처리 = 실손 입원 인정이 아님 — DRG 입원 청구와 실손 입원 인정 기준 별개</text>
+  <text x="80" y="1425" fill="#FCD34D" font-size="15" font-weight="700" font-family="sans-serif">③ 4세대 다초점 청구 시 차등제 등급 상승 → 다음 해 보험료 인상 주의</text>
+
+  <!-- 65세 지원 -->
+  <rect x="60" y="1465" width="1080" height="115" rx="12" fill="url(#card)" stroke="#2DD4BF" stroke-width="2"/>
+  <text x="80" y="1505" fill="#2DD4BF" font-size="18" font-weight="800" font-family="sans-serif">65세 이상 저소득 노인: 지자체 수술비 지원 활용</text>
+  <text x="80" y="1540" fill="#FFFFFF" font-size="15" font-weight="700" font-family="sans-serif">시·군·구 보건소·복지관 신청 / 의료급여 1종 본인부담 면제 / 농어촌 전액 지원 사례 있음</text>
+  <text x="80" y="1565" fill="#CBD5E1" font-size="14" font-family="sans-serif">사회복지공동모금회·지역 대학병원 무료 수술 행사도 확인</text>
+
+  <text x="60" y="1658" fill="#64748B" font-size="14" font-family="sans-serif">essencial | 의료 silo · 심평원·금융위·대법원 판례 (2026.04 기준)</text>
+</svg>

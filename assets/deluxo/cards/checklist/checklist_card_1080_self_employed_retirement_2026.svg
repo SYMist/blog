@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="8" fill="#34D399"/>
+
+  <!-- Title -->
+  <text x="540" y="68" font-family="-apple-system, sans-serif" font-size="34" font-weight="900" fill="#34D399" text-anchor="middle">자영업자 노후 준비 6단계 체크리스트</text>
+  <text x="540" y="106" font-family="-apple-system, sans-serif" font-size="20" font-weight="700" fill="#A0B4D0" text-anchor="middle">이 6가지만 확인하면 연간 238만원 절세 준비 완료</text>
+
+  <!-- Item 1 -->
+  <rect x="60" y="132" width="960" height="112" rx="12" fill="#1A3270"/>
+  <rect x="60" y="132" width="6" height="112" rx="3" fill="#34D399"/>
+  <circle cx="118" cy="188" r="24" fill="#34D399"/>
+  <text x="118" y="195" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#0B1F3B" text-anchor="middle">1</text>
+  <text x="162" y="172" font-family="-apple-system, sans-serif" font-size="19" font-weight="800" fill="#FFFFFF">종합소득 구간 확인 → 노란우산 소득공제 한도 파악</text>
+  <text x="162" y="200" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0">4,000만원↓ → 600만원 / 4,000만원~1억 → 400만원 / 1억↑ → 200만원</text>
+  <text x="162" y="226" font-family="-apple-system, sans-serif" font-size="15" fill="#34D399">→ yumam.kbiz.or.kr 접속, 소득 구간 선택 후 납입 한도 확인</text>
+
+  <!-- Item 2 -->
+  <rect x="60" y="252" width="960" height="112" rx="12" fill="#0D2347"/>
+  <rect x="60" y="252" width="6" height="112" rx="3" fill="#34D399"/>
+  <circle cx="118" cy="308" r="24" fill="#34D399"/>
+  <text x="118" y="315" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#0B1F3B" text-anchor="middle">2</text>
+  <text x="162" y="292" font-family="-apple-system, sans-serif" font-size="19" font-weight="800" fill="#FFFFFF">IRP+연금저축 납입 전략 결정 (합산 900만원 이내)</text>
+  <text x="162" y="320" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0">연금저축 600만원 + IRP 300만원 분산 납입 권장 (유연성 확보)</text>
+  <text x="162" y="346" font-family="-apple-system, sans-serif" font-size="15" fill="#34D399">→ 은행·증권사 앱에서 IRP 계좌 개설, 연금저축 설정</text>
+
+  <!-- Item 3 -->
+  <rect x="60" y="372" width="960" height="112" rx="12" fill="#1A3270"/>
+  <rect x="60" y="372" width="6" height="112" rx="3" fill="#F59E0B"/>
+  <circle cx="118" cy="428" r="24" fill="#F59E0B"/>
+  <text x="118" y="435" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#0B1F3B" text-anchor="middle">3</text>
+  <text x="162" y="412" font-family="-apple-system, sans-serif" font-size="19" font-weight="800" fill="#FFFFFF">국민연금 지역가입자 보험료 — 소득 감소 시 감액 신청</text>
+  <text x="162" y="440" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0">소득 변동 사유 발생 → nps.or.kr 또는 ☎1355로 감액 신청 가능</text>
+  <text x="162" y="466" font-family="-apple-system, sans-serif" font-size="15" fill="#F59E0B">→ 신고 안 하면 이전 소득 기준 보험료 계속 납부 (연간 수십만원 손실)</text>
+
+  <!-- Item 4 -->
+  <rect x="60" y="492" width="960" height="112" rx="12" fill="#0D2347"/>
+  <rect x="60" y="492" width="6" height="112" rx="3" fill="#F59E0B"/>
+  <circle cx="118" cy="548" r="24" fill="#F59E0B"/>
+  <text x="118" y="555" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#0B1F3B" text-anchor="middle">4</text>
+  <text x="162" y="532" font-family="-apple-system, sans-serif" font-size="19" font-weight="800" fill="#FFFFFF">배우자 국민연금 임의가입 여부 검토</text>
+  <text x="162" y="560" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0">소득 없는 배우자 → 임의가입 시 노후 연금 수령권 확보 가능</text>
+  <text x="162" y="586" font-family="-apple-system, sans-serif" font-size="15" fill="#F59E0B">→ 최저 보험료 월 9만원대 납부로 노후 연금 수령권 확보</text>
+
+  <!-- Item 5 -->
+  <rect x="60" y="612" width="960" height="112" rx="12" fill="#1A3270"/>
+  <rect x="60" y="612" width="6" height="112" rx="3" fill="#EF4444"/>
+  <circle cx="118" cy="668" r="24" fill="#EF4444"/>
+  <text x="118" y="675" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="middle">5</text>
+  <text x="162" y="652" font-family="-apple-system, sans-serif" font-size="19" font-weight="800" fill="#FFFFFF">5월 종소세 신고 시 납입 확인서 직접 첨부</text>
+  <text x="162" y="680" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0">노란우산 소득공제·IRP 세액공제는 홈택스 자동 반영 아님 — 수동 첨부 필수</text>
+  <text x="162" y="706" font-family="-apple-system, sans-serif" font-size="15" fill="#EF4444">→ 납입 확인서 미첨부 시 공제 전액 미수령</text>
+
+  <!-- Item 6 -->
+  <rect x="60" y="732" width="960" height="112" rx="12" fill="#0D2347"/>
+  <rect x="60" y="732" width="6" height="112" rx="3" fill="#EF4444"/>
+  <circle cx="118" cy="788" r="24" fill="#EF4444"/>
+  <text x="118" y="795" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="middle">6</text>
+  <text x="162" y="772" font-family="-apple-system, sans-serif" font-size="19" font-weight="800" fill="#FFFFFF">IRP 중도인출 방지용 비상금 별도 확보</text>
+  <text x="162" y="800" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0">IRP 중도인출 시 세액공제 전액 반환 + 기타소득세 16.5% — 최악의 선택</text>
+  <text x="162" y="826" font-family="-apple-system, sans-serif" font-size="15" fill="#EF4444">→ 6개월치 생활비 비상금 별도 통장 확보 후 IRP 납입 시작</text>
+
+  <text x="540" y="966" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준 | yumam.kbiz.or.kr | nps.or.kr | ☎ 1355 | 세무사 상담 권장</text>
+  <rect x="0" y="1072" width="1080" height="8" fill="#34D399"/>
+</svg>

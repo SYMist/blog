@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="700" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="540" y="46" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">신차 vs 인증중고차 5년 TCO 상세 비교 매트릭스</text>
+  <text x="540" y="70" text-anchor="middle" fill="#93C5FD" font-size="13" font-family="sans-serif">2026년 5월 기준 · 준중형 세단 · 쏘나타급 기준 시뮬레이션</text>
+
+  <!-- Header -->
+  <rect x="40" y="84" width="1000" height="44" rx="8" fill="#1e293b"/>
+  <text x="200" y="111" text-anchor="middle" fill="#94A3B8" font-size="13" font-weight="600" font-family="sans-serif">비교 항목</text>
+  <text x="580" y="111" text-anchor="middle" fill="#93C5FD" font-size="14" font-weight="800" font-family="sans-serif">신차 (2,900만원)</text>
+  <text x="880" y="111" text-anchor="middle" fill="#6EE7B7" font-size="14" font-weight="800" font-family="sans-serif">3년식 인증중고차 (1,900만원)</text>
+
+  <line x1="380" y1="84" x2="380" y2="640" stroke="#334155" stroke-width="1"/>
+  <line x1="760" y1="84" x2="760" y2="640" stroke="#334155" stroke-width="1"/>
+
+  <!-- Row 1: 구매가 -->
+  <rect x="40" y="128" width="1000" height="44" fill="#1e293b" fill-opacity="0.5"/>
+  <text x="200" y="155" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">구매가</text>
+  <text x="570" y="155" text-anchor="middle" fill="#FCA5A5" font-size="16" font-family="sans-serif">2,900만원</text>
+  <text x="870" y="155" text-anchor="middle" fill="#4ADE80" font-size="16" font-weight="700" font-family="sans-serif">1,900만원 🏆</text>
+
+  <!-- Row 2: 취득세 -->
+  <rect x="40" y="172" width="1000" height="44" fill="#0f172a" fill-opacity="0.8"/>
+  <text x="200" y="199" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">취득세 (7%)</text>
+  <text x="570" y="199" text-anchor="middle" fill="#FCA5A5" font-size="14" font-family="sans-serif">약 203만원</text>
+  <text x="870" y="199" text-anchor="middle" fill="#4ADE80" font-size="14" font-weight="700" font-family="sans-serif">약 133만원 🏆</text>
+
+  <!-- Row 3: 첫해 감가 -->
+  <rect x="40" y="216" width="1000" height="44" fill="#1e293b" fill-opacity="0.5"/>
+  <text x="200" y="243" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">첫해 감가상각</text>
+  <text x="570" y="243" text-anchor="middle" fill="#FCA5A5" font-size="14" font-family="sans-serif">20~30% 하락</text>
+  <text x="870" y="243" text-anchor="middle" fill="#4ADE80" font-size="14" font-weight="700" font-family="sans-serif">이미 60% 감가 완료 🏆</text>
+
+  <!-- Row 4: 연간 보험료 -->
+  <rect x="40" y="260" width="1000" height="44" fill="#0f172a" fill-opacity="0.8"/>
+  <text x="200" y="287" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">연간 보험료</text>
+  <text x="570" y="287" text-anchor="middle" fill="#FCA5A5" font-size="14" font-family="sans-serif">약 156~180만원</text>
+  <text x="870" y="287" text-anchor="middle" fill="#4ADE80" font-size="14" font-weight="700" font-family="sans-serif">약 120~156만원 🏆</text>
+
+  <!-- Row 5: 제조사 보증 -->
+  <rect x="40" y="304" width="1000" height="44" fill="#1e293b" fill-opacity="0.5"/>
+  <text x="200" y="331" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">제조사 보증</text>
+  <text x="570" y="331" text-anchor="middle" fill="#4ADE80" font-size="14" font-weight="700" font-family="sans-serif">5년/10만km 🏆</text>
+  <text x="870" y="331" text-anchor="middle" fill="#FCA5A5" font-size="14" font-family="sans-serif">없음 (인증보증 1~2년)</text>
+
+  <!-- Row 6: 5년 정비비 -->
+  <rect x="40" y="348" width="1000" height="44" fill="#0f172a" fill-opacity="0.8"/>
+  <text x="200" y="375" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">5년 정비비 합산</text>
+  <text x="570" y="375" text-anchor="middle" fill="#4ADE80" font-size="14" font-weight="700" font-family="sans-serif">200~300만원 🏆</text>
+  <text x="870" y="375" text-anchor="middle" fill="#FCA5A5" font-size="14" font-family="sans-serif">350~500만원</text>
+
+  <!-- Row 7: 5년 TCO -->
+  <rect x="40" y="392" width="1000" height="52" fill="#1e293b" fill-opacity="0.5"/>
+  <text x="200" y="421" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">5년 TCO 합계</text>
+  <text x="570" y="428" text-anchor="middle" fill="#FFFFFF" font-size="20" font-family="sans-serif">약 4,318만원</text>
+  <text x="870" y="428" text-anchor="middle" fill="#4ADE80" font-size="20" font-weight="800" font-family="sans-serif">약 3,661만원 🏆</text>
+
+  <!-- Row 8: 5년 후 잔존가치 -->
+  <rect x="40" y="444" width="1000" height="44" fill="#0f172a" fill-opacity="0.8"/>
+  <text x="200" y="471" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">5년 후 잔존가치</text>
+  <text x="570" y="471" text-anchor="middle" fill="#FFFFFF" font-size="14" font-family="sans-serif">약 870~1,160만원 (30~40%)</text>
+  <text x="870" y="471" text-anchor="middle" fill="#FFFFFF" font-size="14" font-family="sans-serif">약 570~760만원 (30~40%)</text>
+
+  <!-- Bottom summary -->
+  <rect x="40" y="502" width="1000" height="2" fill="#334155"/>
+  <rect x="40" y="512" width="1000" height="160" rx="8" fill="#1e293b" fill-opacity="0.6"/>
+  <text x="540" y="542" text-anchor="middle" fill="#F8FAFC" font-size="14" font-weight="800" font-family="sans-serif">선택 기준 3줄 요약</text>
+  <text x="80" y="574" fill="#93C5FD" font-size="13" font-weight="700" font-family="sans-serif">5년 이상 장기 보유</text>
+  <text x="250" y="574" fill="#CBD5E1" font-size="13" font-family="sans-serif">→ 신차 (보증 극대화, 정비비 낮음, 감가 분산)</text>
+  <text x="80" y="606" fill="#4ADE80" font-size="13" font-weight="700" font-family="sans-serif">3~5년 단기 보유</text>
+  <text x="250" y="606" fill="#CBD5E1" font-size="13" font-family="sans-serif">→ 인증중고차 (TCO 약 657만원·15% 절감, 취득세·보험료 낮음)</text>
+  <text x="80" y="638" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">인증중고차 선택 시</text>
+  <text x="250" y="638" fill="#CBD5E1" font-size="13" font-family="sans-serif">→ 제조사 직영 (현대·기아) 우선, 보증 범위·침수 이력 반드시 확인</text>
+
+  <text x="40" y="686" fill="#64748B" font-size="12" font-family="sans-serif">essencial | 자동차 비교 · 2026.05 기준 · 추정치이며 실제 비용은 차종·조건에 따라 다릅니다</text>
+</svg>

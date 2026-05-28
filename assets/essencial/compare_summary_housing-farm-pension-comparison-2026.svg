@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 680">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="680" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="540" y="52" text-anchor="middle" fill="#FFFFFF" font-size="26" font-weight="800" font-family="sans-serif">2026 주택연금 vs 농지연금 비교 요약</text>
+  <text x="540" y="78" text-anchor="middle" fill="#D97706" font-size="15" font-family="sans-serif">2026.05 기준 · 한국주택금융공사 · 한국농어촌공사</text>
+  <rect x="60" y="94" width="960" height="2" rx="1" fill="#B45309" fill-opacity="0.5"/>
+
+  <!-- Col 1: 주택연금 -->
+  <rect x="60" y="110" width="452" height="540" rx="14" fill="url(#card)" stroke="#B45309" stroke-width="2"/>
+  <rect x="60" y="110" width="452" height="52" rx="14" fill="#B45309"/>
+  <rect x="60" y="148" width="452" height="14" fill="#B45309"/>
+  <text x="286" y="145" text-anchor="middle" fill="#FFFFFF" font-size="19" font-weight="800" font-family="sans-serif">주택연금 (한국주택금융공사)</text>
+
+  <text x="286" y="200" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">가입 연령</text>
+  <text x="286" y="224" text-anchor="middle" fill="#FFFFFF" font-size="17" font-weight="700" font-family="sans-serif">부부 중 1명 만 55세 이상</text>
+
+  <line x1="90" y1="244" x2="482" y2="244" stroke="#334155" stroke-width="1"/>
+
+  <text x="286" y="270" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">담보 자산</text>
+  <text x="286" y="294" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="700" font-family="sans-serif">공시가 12억↓ 주택·오피스텔</text>
+
+  <line x1="90" y1="314" x2="482" y2="314" stroke="#334155" stroke-width="1"/>
+
+  <text x="286" y="340" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">월 수령액 (3억 · 65세)</text>
+  <text x="286" y="384" text-anchor="middle" fill="#4ADE80" font-size="52" font-weight="800" font-family="sans-serif">75.8만원</text>
+  <text x="286" y="408" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">70세 기준 92.3만원 / 75세 114.3만원</text>
+
+  <line x1="90" y1="428" x2="482" y2="428" stroke="#334155" stroke-width="1"/>
+
+  <text x="286" y="454" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">최대 수령액</text>
+  <text x="286" y="480" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="700" font-family="sans-serif">제한 없음 (자산 비례)</text>
+  <text x="286" y="500" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">5억 · 75세 기준 190.6만원/월</text>
+
+  <line x1="90" y1="520" x2="482" y2="520" stroke="#334155" stroke-width="1"/>
+
+  <text x="286" y="546" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">2026년 변경 사항</text>
+  <text x="286" y="570" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="sans-serif">수령액 3.1% 인상 · 초기보증료 1.5%→1.0%</text>
+  <text x="286" y="590" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">2026.06~ 실거주 요건 완화</text>
+
+  <rect x="90" y="618" width="392" height="18" rx="6" fill="#B45309" fill-opacity="0.15"/>
+  <text x="286" y="632" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">콜센터: 1688-8114</text>
+
+  <!-- Col 2: 농지연금 -->
+  <rect x="568" y="110" width="452" height="540" rx="14" fill="url(#card)" stroke="#0F766E" stroke-width="2"/>
+  <rect x="568" y="110" width="452" height="52" rx="14" fill="#0F766E"/>
+  <rect x="568" y="148" width="452" height="14" fill="#0F766E"/>
+  <text x="794" y="145" text-anchor="middle" fill="#FFFFFF" font-size="19" font-weight="800" font-family="sans-serif">농지연금 (한국농어촌공사)</text>
+
+  <text x="794" y="200" text-anchor="middle" fill="#6EE7B7" font-size="13" font-weight="700" font-family="sans-serif">가입 연령</text>
+  <text x="794" y="224" text-anchor="middle" fill="#FFFFFF" font-size="17" font-weight="700" font-family="sans-serif">만 60세 이상 (2026 하향)</text>
+
+  <line x1="598" y1="244" x2="990" y2="244" stroke="#334155" stroke-width="1"/>
+
+  <text x="794" y="270" text-anchor="middle" fill="#6EE7B7" font-size="13" font-weight="700" font-family="sans-serif">담보 자산</text>
+  <text x="794" y="294" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="700" font-family="sans-serif">논 · 밭 · 과수원 (영농 중)</text>
+  <text x="794" y="314" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">영농경력 5년 이상 필수</text>
+
+  <line x1="598" y1="314" x2="990" y2="314" stroke="#334155" stroke-width="1"/>
+
+  <text x="794" y="340" text-anchor="middle" fill="#6EE7B7" font-size="13" font-weight="700" font-family="sans-serif">월 수령액 (2억 · 65세 종신형)</text>
+  <text x="794" y="384" text-anchor="middle" fill="#4ADE80" font-size="52" font-weight="800" font-family="sans-serif">약 88만원</text>
+  <text x="794" y="408" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">기간형 10년: 약 200만원/월</text>
+
+  <line x1="598" y1="428" x2="990" y2="428" stroke="#334155" stroke-width="1"/>
+
+  <text x="794" y="454" text-anchor="middle" fill="#6EE7B7" font-size="13" font-weight="700" font-family="sans-serif">최대 수령액</text>
+  <text x="794" y="480" text-anchor="middle" fill="#FCA5A5" font-size="18" font-weight="700" font-family="sans-serif">월 300만원 상한</text>
+  <text x="794" y="500" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">고가 농지도 300만원 초과 불가</text>
+
+  <line x1="598" y1="520" x2="990" y2="520" stroke="#334155" stroke-width="1"/>
+
+  <text x="794" y="546" text-anchor="middle" fill="#6EE7B7" font-size="13" font-weight="700" font-family="sans-serif">2026년 변경 사항</text>
+  <text x="794" y="570" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="sans-serif">가입 연령 65세 → 60세로 하향</text>
+  <text x="794" y="590" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">초기보증료 없음 / 연 보증료 1.0%</text>
+
+  <rect x="598" y="618" width="392" height="18" rx="6" fill="#0F766E" fill-opacity="0.15"/>
+  <text x="794" y="632" text-anchor="middle" fill="#6EE7B7" font-size="13" font-weight="700" font-family="sans-serif">콜센터: 1577-7770</text>
+
+  <!-- Footer -->
+  <text x="60" y="666" fill="#64748B" font-size="12" font-family="sans-serif">essencial | 대출·금융 silo · 2026.05 기준 · 개인 상황에 따라 다를 수 있으며 가입 전 약관 확인 필요</text>
+</svg>

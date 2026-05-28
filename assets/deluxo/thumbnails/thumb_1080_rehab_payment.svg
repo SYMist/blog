@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+
+  <!-- Badge -->
+  <rect x="80" y="120" width="200" height="56" rx="28" fill="#F59E0B"/>
+  <text x="180" y="157" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#0B1F3B">2026 최신</text>
+
+  <!-- Main Title -->
+  <text x="80" y="280" font-family="'Pretendard',sans-serif" font-size="82" font-weight="900" fill="#FFF">개인회생 변제금</text>
+  <text x="80" y="385" font-family="'Pretendard',sans-serif" font-size="82" font-weight="900" fill="#FFF">계산법 총정리</text>
+
+  <!-- Sub Text -->
+  <text x="80" y="490" font-family="'Pretendard',sans-serif" font-size="52" font-weight="600" fill="#EAF2FF">1인 최저생계비 154만 원</text>
+  <text x="80" y="560" font-family="'Pretendard',sans-serif" font-size="52" font-weight="600" fill="#EAF2FF">면제재산 250만 원 확대</text>
+
+  <!-- Info Box -->
+  <rect x="80" y="630" width="920" height="130" rx="20" fill="rgba(255,255,255,0.08)"/>
+  <text x="540" y="690" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="40" font-weight="800" fill="#F59E0B">변제금 = 소득 - 최저생계비 - 추가생계비</text>
+  <text x="540" y="738" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" fill="#EAF2FF">투자 손실 청산가치 제외 · 24개월 단축 특례</text>
+
+  <!-- Chips -->
+  <rect x="260" y="830" width="180" height="60" rx="30" fill="#E8F0FF"/>
+  <text x="350" y="869" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="700" fill="#1D4ED8">계산법</text>
+  <rect x="460" y="830" width="180" height="60" rx="30" fill="#E8F0FF"/>
+  <text x="550" y="869" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="700" fill="#1D4ED8">변제계획</text>
+  <rect x="660" y="830" width="180" height="60" rx="30" fill="#E8F0FF"/>
+  <text x="750" y="869" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="700" fill="#1D4ED8">면책</text>
+
+  <!-- Gold Bar -->
+  <rect x="80" y="980" width="920" height="6" rx="3" fill="#F59E0B"/>
+</svg>

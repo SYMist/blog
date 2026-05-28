@@ -1,0 +1,455 @@
+<!-- E-21: 자동차 리스 vs 장기렌트 비교 — 개인·사업자별 세금·비용 차이 (2026) -->
+<!-- essencial 블로그 | Silo: 자동차 | 템플릿: essencial_template_auto.html -->
+
+<!-- ✅ Schema.org 구조화 데이터 -->
+<div style="display:none">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "자동차 리스 vs 장기렌트 비교 — 개인·사업자별 세금·비용 차이 (2026)",
+      "description": "2026년 리스와 장기렌트의 월 납입금·세금·보험료·건보료 차이를 비교합니다. 개인사업자는 렌트, 신용관리 중요하면 렌트, 월 납입금만 낮추려면 리스가 유리합니다.",
+      "datePublished": "2026-04-13",
+      "dateModified": "2026-04-13",
+      "author": {"@type": "Person", "name": "essencial"},
+      "publisher": {"@type": "Organization", "name": "essencial"}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "리스와 장기렌트 중 세금 처리에 유리한 쪽은?", "acceptedAnswer": {"@type": "Answer", "text": "세금 처리 구조는 동일합니다. 리스·렌트 모두 연간 비용 인정 한도는 감가상각비 800만 원 + 유지비 700만 원 = 총 1,500만 원입니다. 다만 경차·9인승 이상 차량을 렌트하면 부가세 10% 매입세액공제가 가능해 렌트가 유리합니다."}},
+        {"@type": "Question", "name": "장기렌트는 왜 건강보험료에 영향이 없나요?", "acceptedAnswer": {"@type": "Answer", "text": "장기렌트는 차량 소유권이 렌트사에 있어 이용자 재산 목록에 포함되지 않습니다. 2026년 정률제 전환 후에도 재산 점수에 반영되지 않아 건보료 인상이 없습니다."}},
+        {"@type": "Question", "name": "리스는 신용점수에 영향을 주나요?", "acceptedAnswer": {"@type": "Answer", "text": "네. 리스는 금융상품으로 분류되어 대출로 인식됩니다. 신용점수 소폭 하락 및 추가 대출 한도 축소 가능성이 있습니다. 반면 장기렌트는 임대차 계약이라 신용 정보에 기록되지 않습니다."}},
+        {"@type": "Question", "name": "중도 해지 시 위약금은 얼마인가요?", "acceptedAnswer": {"@type": "Answer", "text": "잔여 임대료의 15~40%가 부과됩니다. 1년 미만 해지 시 25~40%, 3년 이상 경과 시 10~25% 수준입니다. 위약금을 피하려면 승계를 활용하면 위약금 없이 계약을 이전할 수 있습니다."}},
+        {"@type": "Question", "name": "연두색 번호판을 피하려면 장기렌트가 유리한가요?", "acceptedAnswer": {"@type": "Answer", "text": "법인 기준, 장기렌트는 면세가 적용으로 소비자가 약 8,400만 원 이하 차량도 취득가 8,000만 원 미만이 되어 일반 번호판을 달 수 있습니다. 단, 개인사업자는 연두색 번호판 대상이 아닙니다."}},
+        {"@type": "Question", "name": "업무전용 자동차보험을 가입하지 않으면 어떻게 되나요?", "acceptedAnswer": {"@type": "Answer", "text": "2026년부터 미가입 시 관련 비용 100%가 손금불산입됩니다. 리스는 이용자가 직접 특약 가입을 관리해야 하고, 장기렌트는 렌트사가 통합 관리하므로 누락 위험이 낮습니다."}},
+        {"@type": "Question", "name": "전기차는 리스와 렌트 중 어떤 게 나은가요?", "acceptedAnswer": {"@type": "Answer", "text": "전기차는 중고차 잔존가치 변동이 커서, 반납 계획이라면 감가 위험을 렌트사가 부담하는 장기렌트가 안전합니다. 인수 계획이라면 월 납입금이 낮은 리스가 유리할 수 있습니다."}}
+      ]
+    }
+  ]
+}
+</script>
+</div>
+
+<style>
+  :root{
+    --pri:#1E40AF; --pri2:#1D4ED8;
+    --white:#FFFFFF; --text:#111827;
+    --muted:#4B5563; --border:#E5E7EB;
+    --bg:#F9FAFB; --accent:#EFF6FF;
+  }
+  .wrap{max-width:860px;margin:0 auto;line-height:1.8;color:var(--text);}
+  .meta{color:var(--muted);font-size:.95rem;margin:6px 0 18px;}
+  .badge{display:inline-block;background:var(--accent);border:1px solid #BFDBFE;padding:3px 10px;border-radius:999px;font-size:.85rem;margin-right:8px;}
+  .notice{background:#FFF7ED;border:1px solid #FED7AA;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .conclusion{background:#EFF6FF;border:1px solid #BFDBFE;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .toc{background:var(--bg);border:1px solid var(--border);padding:14px 16px;border-radius:12px;margin:16px 0 22px;}
+  .toc a{text-decoration:none;color:var(--pri);}
+  .toc ul{margin:8px 0 0 18px;}
+
+  .wrap a.btn,.wrap a.btn:link,.wrap a.btn:visited{
+    display:inline-flex;align-items:center;justify-content:center;
+    padding:10px 14px;border-radius:10px;border:1px solid var(--pri);
+    background:var(--pri) !important;color:var(--white) !important;
+    text-decoration:none !important;font-weight:800;
+  }
+  .wrap a.btn:hover{background:var(--pri2) !important;}
+  .wrap a.btn.secondary,.wrap a.btn.secondary:link,.wrap a.btn.secondary:visited{
+    background:var(--white) !important;color:var(--pri) !important;border-color:var(--pri) !important;
+  }
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 6px;}
+
+  table{width:100%;border-collapse:collapse;margin:14px 0 10px;}
+  th,td{border:1px solid var(--border);padding:10px;vertical-align:top;}
+  th{background:#F3F4F6;text-align:left;}
+  .small{font-size:.95rem;color:var(--muted);}
+  h1{margin:0 0 8px;line-height:1.25;}
+  h2{margin-top:30px;padding-top:8px;border-top:1px solid var(--border);}
+  h3{margin-top:16px;}
+  .q{font-weight:900;margin:14px 0 6px;}
+  .a{margin:0 0 10px;}
+  .highlight{background:#F0FDF4;border:1px solid #BBF7D0;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .warning{background:#FEF2F2;border:1px solid #FECACA;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .cost-sim{background:#FEFCE8;border:1px solid #FDE68A;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .scope{background:#F8FAFC;border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .scope ul{margin:4px 0 0 18px;}
+  .action-steps{background:#EFF6FF;border:1px solid #BFDBFE;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .action-steps ol{margin:8px 0 0 18px;}
+  .sources{background:var(--bg);border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:14px 0;font-size:.9rem;}
+  .sources ul{margin:4px 0 0 18px;}
+  .ad{background:#F9FAFB;border:1px dashed var(--border);padding:10px 12px;border-radius:10px;margin:12px 0;}
+  .footer{margin-top:26px;padding-top:14px;border-top:1px solid var(--border);color:var(--muted);font-size:.95rem;}
+</style>
+
+<div class="wrap">
+  <h1>자동차 리스 vs 장기렌트 비교 — 개인·사업자별 세금·비용 차이 (2026)</h1>
+  <div class="meta">
+    <span class="badge">자동차</span>
+    <span class="badge">업데이트: 2026-04-13</span>
+  </div>
+
+  <div class="notice">
+    <strong>먼저 확인!</strong><br/>
+    리스·렌트 월 납입금은 선납금 비율, 잔존가치 설정, 연간 주행거리에 따라 크게 달라집니다. 본 글의 견적은 48개월·선납금 20~30%·연 2만km 기준이며, 실제 계약 시 반드시 복수 견적을 비교하세요.
+  </div>
+
+  <p class="small">
+    2026년 기준 자동차 리스와 장기렌트의 월 납입금·세금 처리·건보료·신용 영향까지 비교합니다. 개인사업자·법인·직장인별 유불리를 시나리오로 정리했습니다.
+  </p>
+
+  <!-- ✅ 이 글의 범위 -->
+  <div class="scope">
+    <strong>이 글에서 다루는 것</strong>
+    <ul>
+      <li>리스 vs 장기렌트 금융 구조·세금 처리·비용 차이</li>
+      <li>개인사업자·법인·직장인별 시나리오 추천</li>
+      <li>2026년 세법 개정·건보료 정률제·연두색 번호판 영향</li>
+    </ul>
+    <strong>다루지 않는 것</strong>
+    <ul>
+      <li>특정 금융사·렌트사 추천 (업체별 견적 비교는 직접 요청 필요)</li>
+      <li>전기차 보조금 상세 (→ <a href="#">전기차 보조금·세금 혜택 총정리</a> 참고)</li>
+    </ul>
+  </div>
+
+  <!-- ✅ 섹션 1: 결론 먼저 -->
+  <div class="conclusion" id="top">
+    <h2 style="border-top:none;margin-top:0;">✅ 결론 먼저: 상황별 추천</h2>
+    <ul>
+      <li><strong>건보료 부담 큰 지역가입자·개인사업자</strong> → <strong>장기렌트</strong> (비자산 처리로 건보료 인상 차단)</li>
+      <li><strong>신규 대출·신용 관리가 중요한 경우</strong> → <strong>장기렌트</strong> (부채 비율 무영향)</li>
+      <li><strong>월 납입금 절대 금액을 낮추고 싶은 경우</strong> → <strong>리스</strong> (월 3~5만 원 저렴, 단 세금·보험 별도)</li>
+      <li><strong>경차·9인승 이상 사업용 차량</strong> → <strong>장기렌트</strong> (부가세 10% 환급)</li>
+      <li><strong>법인 8,000만 원대 차량 + 일반 번호판 원하면</strong> → <strong>장기렌트</strong> (면세가 적용)</li>
+    </ul>
+  </div>
+
+  <!-- ✅ 이미지 1: 비교 요약 카드 -->
+  <p><img src="compare_summary_car-lease-vs-long-term-rent-2026.png" alt="자동차 리스 vs 장기렌트 비교 요약" width="860"/></p>
+
+  <div class="toc">
+    <strong>목차</strong>
+    <ul>
+      <li><a href="#cost">1) 핵심 비교표 — 리스 vs 장기렌트</a></li>
+      <li><a href="#sim">2) 차종별 월 납입금 비교 시뮬레이션</a></li>
+      <li><a href="#tax">3) 세금 처리 — 비용 인정 한도와 절세 포인트</a></li>
+      <li><a href="#health">4) 건보료·신용·번호판 — 숨은 변수</a></li>
+      <li><a href="#cancel">5) 중도 해지·위약금·승계 전략</a></li>
+      <li><a href="#scenario">6) 시나리오별 추천</a></li>
+      <li><a href="#caution">7) 주의사항</a></li>
+      <li><a href="#faq">8) FAQ</a></li>
+      <li><a href="#update">업데이트 로그</a></li>
+    </ul>
+  </div>
+
+  <!-- ✅ 섹션 2: 핵심 비교표 -->
+  <h2 id="cost">1) 핵심 비교표 — 리스 vs 장기렌트</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>항목</th>
+        <th>자동차 리스</th>
+        <th>장기렌트</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>계약 성격</strong></td>
+        <td>금융상품 (여신)</td>
+        <td>임대차 계약</td>
+      </tr>
+      <tr>
+        <td><strong>소유권</strong></td>
+        <td>리스사 → 만기 시 인수 가능</td>
+        <td>렌트사 (반납 or 인수)</td>
+      </tr>
+      <tr>
+        <td><strong>번호판</strong></td>
+        <td>일반 번호판</td>
+        <td>하·호·배 (렌터카 번호판)</td>
+      </tr>
+      <tr>
+        <td><strong>보험·세금</strong></td>
+        <td>이용자가 별도 납부</td>
+        <td>월 렌트료에 포함</td>
+      </tr>
+      <tr>
+        <td><strong>부가세 공제</strong></td>
+        <td>불가 (면세 금융)</td>
+        <td>경차·9인승+ 가능 (10%)</td>
+      </tr>
+      <tr>
+        <td><strong>신용 영향</strong></td>
+        <td>대출로 인식 → 신용 하락 가능</td>
+        <td>영향 없음</td>
+      </tr>
+      <tr>
+        <td><strong>건보료 영향</strong></td>
+        <td>간접 영향 가능</td>
+        <td>영향 없음 (비자산)</td>
+      </tr>
+      <tr>
+        <td><strong>비용 처리 한도</strong></td>
+        <td colspan="2" style="text-align:center;"><strong>동일: 연 1,500만 원</strong> (감가 800만 + 유지 700만)</td>
+      </tr>
+      <tr>
+        <td><strong>중도 해지 위약금</strong></td>
+        <td>잔여 임대료의 25~40%</td>
+        <td>잔여 임대료의 10~30%</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="small">※ 2026년 4월 기준. 금융사·렌트사별 세부 조건은 상이합니다.</p>
+
+  <div class="ad">{광고 위치 1: 비교표 아래}</div>
+
+  <!-- ✅ 이미지 2: 비교 매트릭스 카드 -->
+  <p><img src="compare_matrix_car-lease-vs-long-term-rent-2026.png" alt="리스 vs 장기렌트 항목별 비교표" width="860"/></p>
+
+  <!-- ✅ 섹션 3: 차종별 비용 시뮬레이션 -->
+  <h2 id="sim">2) 차종별 월 납입금 비교 시뮬레이션</h2>
+  <p class="small">조건: 48개월 계약 / 선납금 20~30% / 연 2만km 기준</p>
+
+  <h3>제네시스 G80 2.5T (차량가 5,978만 원)</h3>
+  <table>
+    <thead>
+      <tr><th>구분</th><th>자동차 리스</th><th>장기렌트</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>월 납입금</strong></td><td>591,600원</td><td>610,870원</td></tr>
+      <tr><td><strong>연간 합계</strong></td><td>7,099,200원</td><td>7,330,440원</td></tr>
+      <tr><td><strong>자동차세·보험</strong></td><td>별도 납부 (연 약 120~180만 원)</td><td>포함</td></tr>
+      <tr><td><strong>TCO (총소유비용)</strong></td><td><strong>약 830~890만 원</strong></td><td><strong>약 733만 원</strong></td></tr>
+    </tbody>
+  </table>
+  <p class="small">→ 월 납입금은 리스가 약 19,000원 저렴하지만, 세금·보험 포함 시 장기렌트가 TCO에서 유리</p>
+
+  <h3>그랜저 하이브리드 1.6 프리미엄 (차량가 4,354만 원)</h3>
+  <table>
+    <thead>
+      <tr><th>구분</th><th>자동차 리스</th><th>장기렌트</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>월 납입금</strong></td><td>445,030원</td><td>488,000원</td></tr>
+      <tr><td><strong>48개월 총액</strong></td><td>21,361,440원</td><td>23,424,000원</td></tr>
+      <tr><td><strong>비고</strong></td><td>세금·보험 별도</td><td>전 비용 포함</td></tr>
+    </tbody>
+  </table>
+  <p class="small">→ 리스가 월 약 43,000원 저렴. 하이브리드 취득세 감면 혜택 종료(2026)로 과거보다 월 이용료 소폭 상승</p>
+
+  <h3>아이오닉 6 롱레인지 (차량가 5,515만 원)</h3>
+  <table>
+    <thead>
+      <tr><th>구분</th><th>자동차 리스</th><th>장기렌트</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>월 납입금</strong></td><td>522,640원</td><td>575,300원</td></tr>
+      <tr><td><strong>전비</strong></td><td colspan="2" style="text-align:center;">6.0km/kWh · 1회 충전 562km</td></tr>
+      <tr><td><strong>보조금 반영</strong></td><td colspan="2" style="text-align:center;">국고 최대 680만 원 차감 후 산출</td></tr>
+    </tbody>
+  </table>
+  <p class="small">→ 전기차는 잔존가치 변동이 커서 반납 계획이면 렌트, 인수 계획이면 리스가 유리</p>
+
+  <!-- ✅ 섹션 4: 세금 처리 -->
+  <h2 id="tax">3) 세금 처리 — 비용 인정 한도와 절세 포인트</h2>
+
+  <h3>업무용 승용차 비용 인정 한도는?</h3>
+  <table>
+    <thead>
+      <tr><th>비용 항목</th><th>연간 한도</th><th>비고</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>감가상각비 / 임차료</strong></td><td>800만 원</td><td>초과분 차기 이월 공제</td></tr>
+      <tr><td><strong>유지관리비</strong></td><td>700만 원</td><td>운행기록부 미작성 시 인정 최대치</td></tr>
+      <tr><td><strong>통합 한도</strong></td><td><strong>1,500만 원</strong></td><td>리스·렌트 동일 적용</td></tr>
+    </tbody>
+  </table>
+
+  <h3>운행기록부는 꼭 써야 하나?</h3>
+  <div class="highlight">
+    <ul>
+      <li><strong>연 1,500만 원 이하</strong> → 운행기록부 없이 전액 비용 인정</li>
+      <li><strong>연 1,500만 원 초과</strong> → 운행기록부 필수, 업무 사용 비율만큼만 추가 인정</li>
+      <li>미작성 시 → 700만 원 초과 유지비 + 800만 원 초과 감가상각비 <strong>전액 불산입</strong></li>
+    </ul>
+  </div>
+
+  <h3>부가세 매입세액공제 — 렌트만 가능한 경우</h3>
+  <table>
+    <thead>
+      <tr><th>차종</th><th>공제 여부</th><th>예시</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>경차</strong></td><td>렌트: ✅ 10% 공제 / 리스: ❌</td><td>모닝, 레이</td></tr>
+      <tr><td><strong>9인승 이상</strong></td><td>렌트: ✅ 10% 공제 / 리스: ❌</td><td>카니발 9인승</td></tr>
+      <tr><td><strong>화물차</strong></td><td>렌트: ✅ 10% 공제 / 리스: ❌</td><td>포터, 봉고</td></tr>
+      <tr><td><strong>일반 승용차</strong></td><td>리스·렌트 모두 ❌</td><td>소나타, G80 등</td></tr>
+    </tbody>
+  </table>
+  <p class="small">→ 경차·9인승·화물차를 사업용으로 쓴다면 장기렌트가 실질 비용 10% 절감</p>
+
+  <div class="ad">{광고 위치 2: 세금 처리 아래}</div>
+
+  <!-- ✅ 섹션 5: 숨은 변수 -->
+  <h2 id="health">4) 건보료·신용·번호판 — 숨은 변수</h2>
+
+  <h3>건강보험료 — 지역가입자가 주의할 점은?</h3>
+  <div class="cost-sim">
+    <strong>2026년 건보료 정률제 전환 핵심</strong><br/><br/>
+    <ul>
+      <li>차량 가액 <strong>4,000만 원 미만</strong> → 보험료 미부과</li>
+      <li>차량 가액 <strong>4,000만 원 이상</strong> → 재산 점수 부과 → 건보료 인상</li>
+      <li><strong>장기렌트</strong>: 소유권이 렌트사에 있어 → 재산 미반영 → <strong>건보료 인상 없음</strong></li>
+      <li><strong>리스</strong>: 금융권 대출 정보 공유 → 간접 영향 가능</li>
+    </ul>
+    <p class="small">→ 4,000만 원 이상 차량을 이용하는 지역가입자(개인사업자·프리랜서)는 장기렌트가 연 수십만 원 절감</p>
+  </div>
+
+  <h3>신용 영향 — 대출 계획이 있다면?</h3>
+  <table>
+    <thead>
+      <tr><th>항목</th><th>리스</th><th>장기렌트</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>금융 분류</td><td>대출 (여신)</td><td>임대차</td></tr>
+      <tr><td>신용 기록</td><td>등록됨</td><td>등록 안 됨</td></tr>
+      <tr><td>부채 비율</td><td>증가</td><td>무영향</td></tr>
+      <tr><td>추가 대출 한도</td><td>축소 가능</td><td>무영향</td></tr>
+    </tbody>
+  </table>
+
+  <h3>연두색 번호판 — 법인만 해당</h3>
+  <div class="highlight">
+    <ul>
+      <li><strong>대상</strong>: 취득가 8,000만 원 이상 법인 차량 (리스·렌트 포함)</li>
+      <li><strong>장기렌트 면세가</strong>: 영업용 차량으로 개소세·교육세 면세 → 소비자가 <strong>약 8,400만 원까지</strong> 일반 번호판 가능</li>
+      <li><strong>개인사업자</strong>: 연두색 번호판 대상 아님</li>
+    </ul>
+  </div>
+
+  <!-- ✅ 섹션 6: 중도해지·승계 -->
+  <h2 id="cancel">5) 중도 해지·위약금·승계 전략</h2>
+
+  <h3>위약금은 얼마나 나올까?</h3>
+  <table>
+    <thead>
+      <tr><th>업체</th><th>1년 미만 해지</th><th>3년 이상 경과</th><th>계산 기준</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>BMW 파이낸셜</td><td>40%</td><td>40%</td><td>미도래 임대료 (VAT 제외)</td></tr>
+      <tr><td>롯데렌터카</td><td>30%</td><td>10~15%</td><td>계약 기간 비례 차등</td></tr>
+      <tr><td>KB캐피탈</td><td>35%</td><td>25%</td><td>잔여 기간 비율</td></tr>
+      <tr><td>아마존카</td><td>25.7%</td><td>25.7%</td><td>기간 무관 고정</td></tr>
+    </tbody>
+  </table>
+
+  <h3>승계로 위약금을 피하는 법</h3>
+  <div class="highlight">
+    <ul>
+      <li><strong>승계란?</strong> 기존 계약 조건을 타인에게 이전 → <strong>위약금 0원</strong></li>
+      <li><strong>승계 수수료</strong>: 잔여 금액의 1~3% 또는 정액 약 40만 원</li>
+      <li><strong>승계자 혜택</strong>: 신차 대기 없이 즉시 이용, 잔여 기간만 납부</li>
+      <li><strong>필수 조건</strong>: 승계 받는 사람의 신용 심사 승인</li>
+    </ul>
+  </div>
+
+  <!-- ✅ 섹션 7: 시나리오 추천 -->
+  <h2 id="scenario">6) 시나리오별 추천</h2>
+  <div class="highlight">
+    <h3>당신의 상황에 맞는 선택은?</h3>
+    <ul>
+      <li><strong>개인사업자 + 건보료 부담 + 경차/승합</strong> → <strong>장기렌트</strong> (건보료 차단 + 부가세 공제)</li>
+      <li><strong>법인 + 8,000만 원대 세단 + 이미지 중시</strong> → <strong>장기렌트</strong> (면세가로 일반 번호판)</li>
+      <li><strong>전문직 + 무사고 경력 + 일반 번호판 원함</strong> → <strong>리스</strong> (저렴한 보험료 + 일반 번호판)</li>
+      <li><strong>직장인 + 주담대 예정 + 신용 관리 필수</strong> → <strong>장기렌트</strong> (부채 비율 무영향)</li>
+      <li><strong>전기차 + 반납 예정</strong> → <strong>장기렌트</strong> (감가 위험 렌트사 부담)</li>
+      <li><strong>전기차 + 인수 예정</strong> → <strong>리스</strong> (월 납입금 절감)</li>
+      <li><strong>월 현금 흐름 최소화가 최우선</strong> → <strong>리스</strong> (세금·보험 별도 감당 가능 시)</li>
+    </ul>
+  </div>
+
+  <!-- ✅ 이미지 3: 시나리오 추천 카드 -->
+  <p><img src="scenario_car-lease-vs-long-term-rent-2026.png" alt="리스 vs 장기렌트 상황별 추천 가이드" width="860"/></p>
+
+  <!-- ✅ 지금 바로 확인하는 순서 -->
+  <div class="action-steps">
+    <strong>지금 바로 확인하는 순서</strong>
+    <ol>
+      <li><strong>나의 사업자 유형 확인</strong>: 개인사업자 / 법인 / 직장인 → 세금 처리 방식 결정</li>
+      <li><strong>신용·대출 상태 점검</strong>: 추가 대출 계획이 있다면 렌트 우선 검토</li>
+      <li><strong>차종 결정</strong>: 경차·9인승이면 렌트의 부가세 공제 활용</li>
+      <li><strong>복수 견적 비교</strong>: 리스 2곳 + 렌트 2곳 이상 견적 요청</li>
+      <li><strong>TCO 계산</strong>: 월 납입금뿐 아니라 세금·보험·건보료까지 포함한 총비용 비교</li>
+    </ol>
+  </div>
+
+  <div class="ad">{광고 위치 3: 시나리오 추천 아래 — CPC 최고 지점}</div>
+
+  <!-- ✅ 섹션 8: 주의사항 -->
+  <h2 id="caution">7) 주의사항</h2>
+  <div class="warning">
+    <ul>
+      <li><strong>업무전용 보험 필수</strong>: 2026년부터 미가입 시 관련 비용 <strong>100% 손금불산입</strong>. 리스는 직접 관리, 렌트는 렌트사가 통합 관리</li>
+      <li><strong>1,500만 원 한도 초과 주의</strong>: 고가 차량은 비용 인정 한도를 쉽게 초과 → 운행기록부 작성 필수</li>
+      <li><strong>중도 해지 위약금</strong>: 계약 전 위약금율 반드시 확인, 사업 변동 가능성 크면 단기 계약 고려</li>
+      <li><strong>잔존가치 설정</strong>: 높게 설정하면 월 납입금은 줄지만 만기 시 인수 부담 증가</li>
+      <li><strong>렌터카 번호판</strong>: 장기렌트는 '하·호·배' 번호판 사용 → 대외 이미지 민감한 경우 리스 검토</li>
+    </ul>
+  </div>
+
+  <div class="btns">
+    <a class="btn" href="https://www.fss.or.kr" target="_blank" rel="noopener">금융감독원 리스·렌트 비교</a>
+    <a class="btn secondary" href="https://www.car365.go.kr" target="_blank" rel="noopener">자동차365 시세 조회</a>
+  </div>
+
+  <!-- ✅ 섹션 9: FAQ -->
+  <h2 id="faq">8) FAQ</h2>
+  <p class="q">Q1. 리스와 장기렌트 중 세금 처리에 유리한 쪽은?</p>
+  <p class="a">세금 처리 구조는 동일합니다. 리스·렌트 모두 연간 비용 인정 한도는 감가상각비 800만 원 + 유지비 700만 원 = 총 1,500만 원입니다. 다만 경차·9인승 이상 차량을 렌트하면 부가세 10% 매입세액공제가 가능해 렌트가 유리합니다.</p>
+
+  <p class="q">Q2. 장기렌트는 왜 건강보험료에 영향이 없나요?</p>
+  <p class="a">장기렌트는 차량 소유권이 렌트사에 있어 이용자 재산 목록에 포함되지 않습니다. 2026년 정률제 전환 후에도 재산 점수에 반영되지 않아 건보료 인상이 없습니다.</p>
+
+  <p class="q">Q3. 리스는 신용점수에 영향을 주나요?</p>
+  <p class="a">네. 리스는 금융상품으로 분류되어 대출로 인식됩니다. 신용점수 소폭 하락 및 추가 대출 한도 축소 가능성이 있습니다. 반면 장기렌트는 임대차 계약이라 신용 정보에 기록되지 않습니다.</p>
+
+  <p class="q">Q4. 중도 해지 시 위약금은 얼마인가요?</p>
+  <p class="a">잔여 임대료의 15~40%가 부과됩니다. 1년 미만 해지 시 25~40%, 3년 이상 경과 시 10~25% 수준입니다. 위약금을 피하려면 승계를 활용하세요.</p>
+
+  <p class="q">Q5. 연두색 번호판을 피하려면 장기렌트가 유리한가요?</p>
+  <p class="a">법인 기준, 장기렌트는 면세가 적용으로 소비자가 약 8,400만 원 이하 차량도 취득가 8,000만 원 미만이 되어 일반 번호판을 달 수 있습니다. 단, 개인사업자는 연두색 번호판 대상이 아닙니다.</p>
+
+  <p class="q">Q6. 업무전용 자동차보험을 가입하지 않으면 어떻게 되나요?</p>
+  <p class="a">2026년부터 미가입 시 관련 비용 100%가 손금불산입됩니다. 리스는 이용자가 직접 특약 가입을 관리해야 하고, 장기렌트는 렌트사가 통합 관리하므로 누락 위험이 낮습니다.</p>
+
+  <p class="q">Q7. 전기차는 리스와 렌트 중 어떤 게 나은가요?</p>
+  <p class="a">전기차는 중고차 잔존가치 변동이 커서, 반납 계획이라면 감가 위험을 렌트사가 부담하는 장기렌트가 안전합니다. 인수 계획이라면 월 납입금이 낮은 리스가 유리할 수 있습니다.</p>
+
+  <p class="small">관련 글: <a href="#">중고차 이전등록 셀프 vs 대행 비교</a> / <a href="#">10년 된 차 폐차 vs 수출 비교</a> / <a href="#">전기차 보조금·세금 혜택 총정리</a></p>
+
+  <!-- ✅ 참고자료 / 출처 -->
+  <div class="sources">
+    <strong>참고자료 / 출처</strong>
+    <ul>
+      <li>국세청 — 업무용 승용차 관련 비용 처리 안내 (2026년 기준)</li>
+      <li>국민건강보험공단 — 지역가입자 보험료 정률제 전환 안내</li>
+      <li>금융감독원 — 자동차 리스·렌트 비교 공시</li>
+      <li>국토교통부 — 법인 차량 번호판 제도 안내</li>
+    </ul>
+  </div>
+
+  <div class="btns">
+    <a class="btn" href="https://www.nts.go.kr" target="_blank" rel="noopener">국세청 업무용차 비용처리</a>
+    <a class="btn secondary" href="https://www.nhis.or.kr" target="_blank" rel="noopener">건보료 산정 확인</a>
+  </div>
+
+  <div class="ad">{광고 위치 4: 글 하단}</div>
+
+  <div class="footer" id="update">
+    <strong>업데이트 로그</strong><br/>
+    - 2026-04-13: 최초 발행 (2026년 세법·건보료 정률제·연두색 번호판 기준 반영)<br/>
+    <span class="small">※ 리스·렌트 견적은 계약 조건에 따라 달라집니다. 반드시 복수 견적을 비교한 후 계약하세요. 본 글은 일반적인 정보 제공 목적이며, 개인의 세무·재무 상황에 따라 유불리가 달라질 수 있습니다.</span>
+  </div>
+</div>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <text x="540" y="130" font-family="'Pretendard', sans-serif" font-size="46" font-weight="900" fill="#F59E0B" text-anchor="middle">빠른 판단 가이드</text>
+  <text x="540" y="210" font-family="'Pretendard', sans-serif" font-size="58" font-weight="900" fill="#FFFFFF" text-anchor="middle">나는 어떤 길로?</text>
+
+  <rect x="60" y="270" width="960" height="170" rx="24" fill="#1A3270"/>
+  <text x="100" y="325" font-family="'Pretendard', sans-serif" font-size="34" font-weight="900" fill="#F59E0B">① 셀프 신청 OK</text>
+  <text x="100" y="375" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#FFFFFF">채권자 3곳 이하 · 최근 6개월 대출 없음</text>
+  <text x="100" y="415" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF">투자손실·사치성 지출 없음 → 50~100만 원</text>
+
+  <rect x="60" y="460" width="960" height="170" rx="24" fill="#1A3270"/>
+  <text x="100" y="515" font-family="'Pretendard', sans-serif" font-size="34" font-weight="900" fill="#F59E0B">② 변호사 선임 권장</text>
+  <text x="100" y="565" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#FFFFFF">채권자 5곳 이상 · 최근 1년 대출 비중 30%↑</text>
+  <text x="100" y="605" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF">자영업자·주식코인 투자자 → 270~500만 원</text>
+
+  <rect x="60" y="650" width="960" height="170" rx="24" fill="#1A3270"/>
+  <text x="100" y="705" font-family="'Pretendard', sans-serif" font-size="34" font-weight="900" fill="#F59E0B">③ 법률구조공단(132)</text>
+  <text x="100" y="755" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#FFFFFF">중위소득 125% 이하 무료 상담+대리 가능</text>
+  <text x="100" y="795" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF">실비 70~90만 원만 부담 → 대기 2~3개월</text>
+
+  <rect x="60" y="840" width="960" height="170" rx="24" fill="#F59E0B"/>
+  <text x="100" y="895" font-family="'Pretendard', sans-serif" font-size="34" font-weight="900" fill="#0B1F3B">④ 소상공인 소송구조</text>
+  <text x="100" y="945" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#0B1F3B">매출 3억 이하 자영업자 → 변호사 비용 유예</text>
+  <text x="100" y="985" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#0B1F3B">희망리턴패키지 + 신복위 채무조정도 병행 검토</text>
+</svg>

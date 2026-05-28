@@ -1,0 +1,531 @@
+<!-- E-50 자차보험 할증 vs 자비수리 손익분기 계산 (2026) -->
+<!-- essencial 블로그 | 보험 비교 Silo | slug: car-insurance-surcharge-vs-self-repair-breakeven-2026 -->
+
+<!-- ✅ Schema.org 구조화 데이터 -->
+<div style="display:none">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "자차보험 할증 vs 자비수리 손익분기 계산 (2026)",
+      "description": "자차보험 사용 시 3년간 보험료 할증(최소 24만원+)과 자기부담금(최소 20만원)을 합산한 손익분기점은 수리비 약 60~80만원입니다. 연 보험료별 정확한 손익분기 계산법과 환입 제도를 안내합니다.",
+      "datePublished": "2026-05-13",
+      "dateModified": "2026-05-13",
+      "author": {"@type": "Person", "name": "essencial"},
+      "publisher": {"@type": "Organization", "name": "essencial"}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "자차보험 쓰면 보험료가 얼마나 오르나요?",
+          "acceptedAnswer": {"@type": "Answer", "text": "2026년 기준 사고 1건 발생 시 약 12% 할증이 3년간 유지됩니다. 또한 3년 무사고 할인(약 8%)도 상실되므로 실질 보험료 인상 효과는 약 20% 수준입니다. 연 보험료 70만원 기준이라면 3년간 약 42만원을 추가로 납부하게 됩니다."}
+        },
+        {
+          "@type": "Question",
+          "name": "자차보험 자기부담금은 얼마인가요?",
+          "acceptedAnswer": {"@type": "Answer", "text": "자차보험 자기부담금은 손해액의 20%이며, 최소 20만원 ~ 최대 50만원 한도입니다. 수리비 50만원이면 자기부담금 20만원(최소 적용), 수리비 200만원이면 40만원, 250만원 이상이면 최대 50만원이 됩니다."}
+        },
+        {
+          "@type": "Question",
+          "name": "수리비 얼마부터 보험처리가 유리한가요?",
+          "acceptedAnswer": {"@type": "Answer", "text": "연 보험료에 따라 다르지만, 연 보험료 70만원 기준으로 수리비 약 62만원이 손익분기점입니다. 연 보험료 40만원이면 약 44만원, 100만원이면 약 80만원이 손익분기점입니다. 자신의 연 보험료를 확인하고 계산하는 것이 정확합니다."}
+        },
+        {
+          "@type": "Question",
+          "name": "환입 제도란 무엇인가요?",
+          "acceptedAnswer": {"@type": "Answer", "text": "사고 후 받은 보험금을 보험사에 되돌려주면 사고 기록이 삭제되는 제도입니다. 반드시 보험 갱신 3개월 전까지 처리해야 하며, 환입 후에는 할증이 사라지고 무사고 할인도 유지됩니다. 수리비가 손익분기점보다 낮을 경우 환입을 고려할 수 있습니다."}
+        },
+        {
+          "@type": "Question",
+          "name": "소액 접촉사고도 자차보험 쓰면 할증되나요?",
+          "acceptedAnswer": {"@type": "Answer", "text": "네, 소액 사고도 0.5점의 사고 기록이 남습니다. 수리비가 계약 시 선택한 '물적사고 할증기준금액(50~200만원)' 이하여도 소액사고 기록이 생겨 일부 할증이 적용될 수 있으며, 3년 무사고 할인도 상실됩니다. 수리비가 적다면 자비수리가 더 유리합니다."}
+        },
+        {
+          "@type": "Question",
+          "name": "사고가 많으면 보험 가입이 거절될 수 있나요?",
+          "acceptedAnswer": {"@type": "Answer", "text": "3년간 사고 2~3건이면 일부 보험사에서 가입을 거절할 수 있으며, 3건 이상이면 대부분의 보험사에서 단독인수를 거절합니다. 이 경우 공동인수제도를 통해 가입은 가능하지만 기본 15% 이상 추가 할증이 붙어 보험료가 크게 오릅니다."}
+        }
+      ]
+    }
+  ]
+}
+</script>
+</div>
+
+<style>
+  :root{
+    --pri:#7C3AED; --pri2:#6D28D9;
+    --white:#FFFFFF; --text:#111827;
+    --muted:#4B5563; --border:#E5E7EB;
+    --bg:#F9FAFB; --accent:#F5F3FF;
+  }
+  .wrap{max-width:860px;margin:0 auto;line-height:1.8;color:var(--text);}
+  .meta{color:var(--muted);font-size:.95rem;margin:6px 0 18px;}
+  .badge{display:inline-block;background:var(--accent);border:1px solid #DDD6FE;padding:3px 10px;border-radius:999px;font-size:.85rem;margin-right:8px;}
+  .notice{background:#FFF7ED;border:1px solid #FED7AA;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .conclusion{background:#F5F3FF;border:1px solid #DDD6FE;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .toc{background:var(--bg);border:1px solid var(--border);padding:14px 16px;border-radius:12px;margin:16px 0 22px;}
+  .toc a{text-decoration:none;color:var(--pri);}
+  .toc ul{margin:8px 0 0 18px;}
+
+  .wrap a.btn,.wrap a.btn:link,.wrap a.btn:visited{
+    display:inline-flex;align-items:center;justify-content:center;
+    padding:10px 14px;border-radius:10px;border:1px solid var(--pri);
+    background:var(--pri) !important;color:var(--white) !important;
+    text-decoration:none !important;font-weight:800;
+  }
+  .wrap a.btn:hover{background:var(--pri2) !important;}
+  .wrap a.btn.secondary,.wrap a.btn.secondary:link,.wrap a.btn.secondary:visited{
+    background:var(--white) !important;color:var(--pri) !important;border-color:var(--pri) !important;
+  }
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 6px;}
+
+  table{width:100%;border-collapse:collapse;margin:14px 0 10px;}
+  th,td{border:1px solid var(--border);padding:10px;vertical-align:top;}
+  th{background:#F3F4F6;text-align:left;}
+  .small{font-size:.95rem;color:var(--muted);}
+  h1{margin:0 0 8px;line-height:1.25;}
+  h2{margin-top:30px;padding-top:8px;border-top:1px solid var(--border);}
+  h3{margin-top:16px;}
+  .q{font-weight:900;margin:14px 0 6px;}
+  .a{margin:0 0 10px;}
+  .highlight{background:#F0FDF4;border:1px solid #BBF7D0;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .warning{background:#FEF2F2;border:1px solid #FECACA;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .scenario{background:#FEFCE8;border:1px solid #FDE68A;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .scope{background:#F8FAFC;border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .scope ul{margin:4px 0 0 18px;}
+  .action-steps{background:#F5F3FF;border:1px solid #DDD6FE;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .action-steps ol{margin:8px 0 0 18px;}
+  .sources{background:var(--bg);border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:14px 0;font-size:.9rem;}
+  .sources ul{margin:4px 0 0 18px;}
+  .cost-sim{background:#FEFCE8;border:1px solid #FDE68A;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .footer{margin-top:26px;padding-top:14px;border-top:1px solid var(--border);color:var(--muted);font-size:.95rem;}
+  .disclaimer{background:#F9FAFB;border:1px solid var(--border);padding:10px 14px;border-radius:10px;margin:14px 0;font-size:.9rem;color:var(--muted);}
+</style>
+
+<div class="wrap">
+  <h1>자차보험 할증 vs 자비수리 손익분기 계산 (2026) — 수리비 얼마부터 보험처리가 유리할까</h1>
+  <div class="meta">
+    <span class="badge">보험 비교</span>
+    <span class="badge">업데이트: 2026-05-13</span>
+  </div>
+
+  <div class="notice">
+    <strong>먼저 확인!</strong><br/>
+    자차보험 손익분기점은 <strong>개인의 연 보험료</strong>에 따라 크게 달라집니다. 이 글의 수치는 2026년 5월 기준 추정치이며, 실제 보험료 변동 계산은 삼성화재다이렉트·현대해상다이렉트 등 보험사 공식 시뮬레이터로 개인 맞춤 확인을 권장합니다.
+  </div>
+
+  <p class="small">
+    자차보험 사용 시 3년간 보험료 할증(최소 24만원+)과 자기부담금(최소 20만원)을 합산한 손익분기점은 수리비 약 60~80만원입니다. 공식 안내에 나오지 않는 연 보험료별 손익분기 계산법과 환입 제도 활용법을 이 글에서 정리했습니다.
+  </p>
+
+  <div class="scope">
+    <strong>이 글에서 다루는 것</strong>
+    <ul>
+      <li>자차보험 할증 구조(사고건수요율제, 등급 체계) 설명</li>
+      <li>자기부담금 계산 방식 및 수리비별 손익분기점 시뮬레이션</li>
+      <li>환입 제도(보험금 반환으로 사고 기록 삭제) 활용법</li>
+    </ul>
+    <strong>다루지 않는 것</strong>
+    <ul>
+      <li>특정 보험사 상품 추천이나 개인별 설계 상담</li>
+      <li>대인·대물 보험 처리 기준 (자차보험만 다룸)</li>
+    </ul>
+  </div>
+
+  <!-- ✅ 섹션 1: 결론 먼저 -->
+  <div class="conclusion" id="top">
+    <h2 style="border-top:none;margin-top:0;">✅ 결론 먼저: 수리비 기준 선택 가이드</h2>
+    <ul>
+      <li><strong>수리비 60만원 이하</strong> → <strong>자비수리 유리</strong> (자기부담금 + 3년 할증이 자비 수리비보다 비쌈)</li>
+      <li><strong>수리비 100만원 이상</strong> → <strong>보험처리 유리</strong> (자기부담금 납부해도 3년 할증보다 절약폭 큼)</li>
+      <li><strong>수리비 60~100만원 사이</strong> → <strong>연 보험료 직접 계산 후 결정</strong> (아래 시뮬레이션 참조)</li>
+    </ul>
+  </div>
+
+  <!-- ✅ 이미지 1: 비교 요약 카드 -->
+  <img src="compare_summary_car-insurance-surcharge-vs-self-repair-breakeven-2026.png" alt="자차보험 할증 vs 자비수리 손익분기 비교 요약" style="width:100%;margin:16px 0;" />
+
+  <div class="toc">
+    <strong>목차</strong>
+    <ul>
+      <li><a href="#matrix">1) 핵심 비교: 자비수리 vs 보험처리</a></li>
+      <li><a href="#surcharge">2) 자차보험 할증 구조 상세</a></li>
+      <li><a href="#deductible">3) 자기부담금 계산법</a></li>
+      <li><a href="#breakeven">4) 손익분기점 시뮬레이션</a></li>
+      <li><a href="#scenario">5) 상황별 추천 시나리오</a></li>
+      <li><a href="#refund">6) 환입 제도 — 사고 기록 지우는 법</a></li>
+      <li><a href="#caution">7) 주의사항</a></li>
+      <li><a href="#experience">자주 놓치는 포인트와 실수 사례</a></li>
+      <li><a href="#faq">8) FAQ</a></li>
+      <li><a href="#update">업데이트 로그</a></li>
+    </ul>
+  </div>
+
+  <!-- ✅ 섹션 2: 핵심 비교 매트릭스 -->
+  <h2 id="matrix">1) 자비수리 vs 보험처리 핵심 비교</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>비교 항목</th>
+        <th>자비수리 (보험 미청구)</th>
+        <th>자차보험 처리</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>즉시 비용</strong></td>
+        <td>수리비 전액 본인 부담</td>
+        <td>자기부담금만 납부 (최소 20만원, 최대 50만원)</td>
+      </tr>
+      <tr>
+        <td><strong>3년 보험료 변화</strong></td>
+        <td>변동 없음</td>
+        <td>약 20% 이상 인상 (할증+할인상실, 연 보험료 70만원 기준 3년 +42만원)</td>
+      </tr>
+      <tr>
+        <td><strong>사고 기록</strong></td>
+        <td>기록 없음</td>
+        <td>3년간 기록 유지 (사고건수요율제 적용)</td>
+      </tr>
+      <tr>
+        <td><strong>무사고 할인</strong></td>
+        <td>유지됨</td>
+        <td>상실 (약 8% 할인 소멸)</td>
+      </tr>
+      <tr>
+        <td><strong>갱신 불이익</strong></td>
+        <td>없음</td>
+        <td>등급 하락, 고사고 시 가입 거절 위험</td>
+      </tr>
+      <tr>
+        <td><strong>손익분기점</strong></td>
+        <td>—</td>
+        <td>수리비 약 60~80만원 (연 보험료에 따라 상이)</td>
+      </tr>
+      <tr>
+        <td><strong>추천 수리비</strong></td>
+        <td>60만원 이하</td>
+        <td>100만원 이상</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="small">※ 2026년 5월 기준. 연 보험료 70만원 기준 시뮬레이션. 개인별 차이 발생합니다.</p>
+
+  <!-- ✅ 이미지 2: 비교 매트릭스 카드 -->
+  <img src="compare_matrix_car-insurance-surcharge-vs-self-repair-breakeven-2026.png" alt="자차보험 할증 vs 자비수리 항목별 비교 매트릭스" style="width:100%;margin:16px 0;" />
+
+  <!-- ✅ 섹션 3: 할증 구조 상세 -->
+  <h2 id="surcharge">2) 자차보험 할증 구조 — 사고 한 건이 3년 보험료를 어떻게 바꾸나요?</h2>
+
+  <h3>사고건수요율제란 무엇인가요?</h3>
+  <p>사고건수요율제는 최근 3년간 발생한 사고 건수와 규모에 따라 보험료를 차등 적용하는 제도입니다. 자차보험 청구 1건이 발생하면 사고점수 1점이 부여되며, 이후 3년간 할증이 유지됩니다. 소액사고(물적사고 할증기준금액 이하)는 0.5점이 부과되어 일부 할증이 적용됩니다.</p>
+
+  <h3>사고 건수별 할증률은 어떻게 되나요?</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>사고 건수</th>
+        <th>할증률 (사고건수요율)</th>
+        <th>3년 추가 보험료 (연 70만원 기준)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1건</td>
+        <td>약 +12%</td>
+        <td>8.4만원/년 × 3년 = 25.2만원</td>
+      </tr>
+      <tr>
+        <td>2건</td>
+        <td>약 +37%</td>
+        <td>25.9만원/년 × 3년 = 77.7만원</td>
+      </tr>
+      <tr>
+        <td>3건 이상</td>
+        <td>약 +60% 이상</td>
+        <td>42만원/년 × 3년 = 126만원+</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="small">※ 할증률은 보험사별·등급별로 차이가 있습니다. 2026년 5월 손해보험협회 공시 기준 평균값.</p>
+
+  <h3>무사고 할인 상실 효과도 고려해야 하나요?</h3>
+  <p>자차보험을 1회 청구하면 3년 무사고 할인(약 8%)이 사라집니다. 연 보험료 70만원 기준으로 8% = 5.6만원/년 × 3년 = 16.8만원이 추가로 손해가 됩니다. 따라서 할증(25.2만원)과 할인 상실(16.8만원)을 합산하면 3년간 실질 추가 비용은 약 42만원에 달합니다.</p>
+
+  <!-- ✅ 섹션 4: 자기부담금 -->
+  <h2 id="deductible">3) 자기부담금 — 내가 먼저 내는 돈은 얼마인가요?</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>수리비(손해액)</th>
+        <th>자기부담금 계산 (손해액 × 20%)</th>
+        <th>실제 적용액</th>
+        <th>보험사 지급액</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>50만원</td>
+        <td>50만원 × 20% = 10만원 → 최소 20만원 적용</td>
+        <td><strong>20만원</strong></td>
+        <td>30만원</td>
+      </tr>
+      <tr>
+        <td>100만원</td>
+        <td>100만원 × 20% = 20만원</td>
+        <td><strong>20만원</strong></td>
+        <td>80만원</td>
+      </tr>
+      <tr>
+        <td>150만원</td>
+        <td>150만원 × 20% = 30만원</td>
+        <td><strong>30만원</strong></td>
+        <td>120만원</td>
+      </tr>
+      <tr>
+        <td>200만원</td>
+        <td>200만원 × 20% = 40만원</td>
+        <td><strong>40만원</strong></td>
+        <td>160만원</td>
+      </tr>
+      <tr>
+        <td>300만원</td>
+        <td>300만원 × 20% = 60만원 → 최대 50만원 한도</td>
+        <td><strong>50만원</strong></td>
+        <td>250만원</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="small">※ 자기부담금은 최소 20만원 ~ 최대 50만원 범위. 계약 시 비율(20% 또는 30%)과 한도는 보험사별로 상이합니다.</p>
+
+  <!-- ✅ 섹션 5: 손익분기점 시뮬레이션 -->
+  <h2 id="breakeven">4) 손익분기점 시뮬레이션 — 내 보험료 기준으로 계산하기</h2>
+
+  <h3>손익분기점 공식은 어떻게 계산하나요?</h3>
+  <div class="cost-sim">
+    <strong>공식</strong><br/>
+    <code>손익분기점 수리비 = 자기부담금(최소 20만원) + 3년 추가 보험료</code><br/><br/>
+    <strong>3년 추가 보험료 = 연 보험료 × 약 60% (할증 36% + 할인 상실 24%)</strong><br/><br/>
+    <em>예시: 연 보험료 70만원 → 3년 추가 비용 = 70 × 0.6 = 42만원<br/>
+    손익분기점 = 20만원 + 42만원 = 62만원</em>
+  </div>
+
+  <h3>연 보험료별 손익분기점은 어디인가요?</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>연 보험료</th>
+        <th>3년 추가 보험료(할증+할인상실)</th>
+        <th>손익분기점 수리비</th>
+        <th>판단</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>40만원</td>
+        <td>약 24만원</td>
+        <td><strong>약 44만원</strong></td>
+        <td>44만원 이상 → 보험처리 유리</td>
+      </tr>
+      <tr>
+        <td>55만원</td>
+        <td>약 33만원</td>
+        <td><strong>약 53만원</strong></td>
+        <td>53만원 이상 → 보험처리 유리</td>
+      </tr>
+      <tr>
+        <td>70만원</td>
+        <td>약 42만원</td>
+        <td><strong>약 62만원</strong></td>
+        <td>62만원 이상 → 보험처리 유리</td>
+      </tr>
+      <tr>
+        <td>85만원</td>
+        <td>약 51만원</td>
+        <td><strong>약 71만원</strong></td>
+        <td>71만원 이상 → 보험처리 유리</td>
+      </tr>
+      <tr>
+        <td>100만원</td>
+        <td>약 60만원</td>
+        <td><strong>약 80만원</strong></td>
+        <td>80만원 이상 → 보험처리 유리</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="small">※ 사고 1건, 할증률 12%+무사고할인 상실 8% 합산 약 20%/년 기준. 실제 할증률은 보험사·등급별로 상이합니다.</p>
+
+  <div class="highlight">
+    <strong>수리비별 결론 요약 (연 보험료 70만원 기준)</strong><br/>
+    수리비 50만원: 자비수리 = 50만원 / 보험처리 = 20만원(부담금)+42만원(할증) = 62만원 → <strong>자비수리 유리</strong><br/>
+    수리비 100만원: 자비수리 = 100만원 / 보험처리 = 20만원+42만원 = 62만원 → <strong>보험처리 유리 (38만원 절약)</strong><br/>
+    수리비 150만원: 자비수리 = 150만원 / 보험처리 = 30만원+42만원 = 72만원 → <strong>보험처리 유리 (78만원 절약)</strong>
+  </div>
+
+  <!-- ✅ 섹션 6: 시나리오별 추천 -->
+  <h2 id="scenario">5) 상황별 추천 시나리오</h2>
+  <div class="scenario">
+    <h3>내 상황에서 어떤 선택이 맞을까요?</h3>
+    <table>
+      <thead>
+        <tr><th>나의 상황</th><th>추천</th><th>이유</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>수리비 60만원 이하, 연 보험료 70만원대</td>
+          <td><strong>자비수리</strong></td>
+          <td>보험처리 총비용(62만원+)이 자비수리비보다 비쌈</td>
+        </tr>
+        <tr>
+          <td>수리비 100만원 이상</td>
+          <td><strong>보험처리</strong></td>
+          <td>자기부담금 + 3년 할증(62만원)보다 자비수리비가 훨씬 큼</td>
+        </tr>
+        <tr>
+          <td>3년 무사고 기록 유지 중, 소액 경미 손상</td>
+          <td><strong>자비수리</strong></td>
+          <td>무사고 할인 상실 손실이 크므로 소액은 자비처리 권장</td>
+        </tr>
+        <tr>
+          <td>이미 사고 1건 이력, 추가 사고 발생</td>
+          <td><strong>신중 검토</strong></td>
+          <td>2건 시 할증 37%로 급등 → 수리비가 크지 않으면 자비수리</td>
+        </tr>
+        <tr>
+          <td>사고 직후 자비수리했으나 비용 부담</td>
+          <td><strong>환입 검토</strong></td>
+          <td>갱신 3개월 전까지 환입 신청하면 사고 기록 삭제 가능</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- ✅ 이미지 3: 시나리오 추천 카드 -->
+  <img src="scenario_car-insurance-surcharge-vs-self-repair-breakeven-2026.png" alt="자차보험 할증 vs 자비수리 상황별 추천 시나리오" style="width:100%;margin:16px 0;" />
+
+  <div class="action-steps">
+    <strong>지금 바로 확인하는 순서</strong>
+    <ol>
+      <li>본인의 연 자동차보험료 확인 (보험증권 또는 보험사 앱)</li>
+      <li>위 표에서 연 보험료에 맞는 손익분기점 수리비 확인</li>
+      <li>수리 예상 비용을 공업사에서 사전 견적 (무료)</li>
+      <li>수리비가 손익분기점 이상이면 보험처리 / 이하면 자비수리</li>
+    </ol>
+  </div>
+
+  <!-- ✅ 인아티클 광고 (시나리오 직후) -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5716436301710258"
+       crossorigin="anonymous"></script>
+  <ins class="adsbygoogle"
+       style="display:block; text-align:center;"
+       data-ad-layout="in-article"
+       data-ad-format="fluid"
+       data-ad-client="ca-pub-5716436301710258"
+       data-ad-slot="2039167138"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+  <!-- ✅ 섹션 7: 환입 제도 -->
+  <h2 id="refund">6) 환입 제도 — 이미 보험 청구했어도 사고 기록을 지울 수 있나요?</h2>
+  <div class="highlight">
+    <strong>환입(보험금 반환)이란?</strong><br/>
+    사고 후 받은 보험금을 보험사에 되돌려주면 사고 기록이 삭제되는 제도입니다. 환입 후에는 마치 사고가 없었던 것처럼 할증이 사라지고 무사고 할인도 유지됩니다.
+    <br/><br/>
+    <strong>조건: 보험 갱신 3개월 전까지 처리 필수</strong><br/>
+    갱신일이 12월이라면 9월 말까지 환입을 완료해야 합니다. 갱신 이후에는 환입이 불가합니다. 갱신일을 보험증권에서 반드시 확인하세요.
+  </div>
+
+  <table>
+    <thead>
+      <tr><th>구분</th><th>내용</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>환입 조건</strong></td><td>갱신 3개월 전까지 보험금 전액 반환</td></tr>
+      <tr><td><strong>환입 효과</strong></td><td>사고 기록 삭제 + 할증 면제 + 무사고 할인 유지</td></tr>
+      <tr><td><strong>적합 상황</strong></td><td>보험 청구 후 계산해보니 자비수리가 더 유리한 경우</td></tr>
+      <tr><td><strong>신청 방법</strong></td><td>보험사 고객센터 or 담당 설계사에게 연락</td></tr>
+      <tr><td><strong>주의사항</strong></td><td>이미 수리한 경우에도 환입 가능하나 환입금은 직접 준비해야 함</td></tr>
+    </tbody>
+  </table>
+
+  <!-- ✅ 섹션 8: 주의사항 -->
+  <h2 id="caution">7) 자차보험 사용 시 꼭 확인할 주의사항</h2>
+  <div class="warning">
+    <ol>
+      <li><strong>물적사고 할증기준금액 확인 필수</strong>: 계약 시 선택한 기준금액(50만원·100만원·150만원·200만원) 이하 수리비는 소액사고 기록(0.5점)만 남고 할증은 축소됩니다. 본인 계약의 기준금액을 보험증권에서 확인하세요.</li>
+      <li><strong>3년간 사고 기록 누적 주의</strong>: 3년 내 2~3건 이상이면 일부 보험사 가입 거절, 3건 이상이면 대부분 거절합니다. 이 경우 공동인수제도로만 가입 가능하며 기본 15% 추가 할증이 붙습니다.</li>
+      <li><strong>소액 경미 사고는 자비처리가 원칙</strong>: 수리비 50만원 이하의 접촉사고·주차 스크래치는 보험처리 시 손익분기 미달로 손해이며, 사고 기록만 남기는 경우가 많습니다.</li>
+      <li><strong>갱신 전 환입 기한 체크</strong>: 보험 청구 후 손익 계산상 자비처리가 나았다고 판단되면 갱신 3개월 전까지 환입 신청이 가능합니다. 갱신일을 미리 확인하는 것이 중요합니다.</li>
+    </ol>
+  </div>
+
+  <div class="btns">
+    <a class="btn" href="https://carinfo.knia.or.kr/" target="_blank" rel="noopener">자동차보험 종합포털 (할증 조회)</a>
+    <a class="btn secondary" href="https://direct.samsungfire.com/" target="_blank" rel="noopener">삼성화재다이렉트 보험료 계산</a>
+  </div>
+
+  <!-- ✅ 자주 놓치는 포인트와 실수 사례 -->
+  <h2 id="experience">자주 놓치는 포인트와 실수 사례</h2>
+
+  <p>자차보험 청구 결정 시 가장 많이 간과되는 것은 할증률이 단순히 보험료의 12%가 아니라 '할증 12% + 무사고 할인 상실 8%'를 동시에 부담한다는 점입니다. 많은 이용자들이 "12% 할증"만 계산하고 무사고 할인 상실분(8%)을 빠뜨려 손익분기점을 낮게 잡는 실수가 발생합니다. 실질적 보험료 인상 효과는 약 20%로 계산하는 것이 정확합니다.</p>
+
+  <p>물적사고 할증기준금액을 낮게 설정해 두고 잊어버리는 사례도 빈번합니다. 할증기준금액을 50만원으로 설정한 경우, 수리비 60만원 사고에도 정상 사고점수 1점이 부과되어 풀 할증이 적용됩니다. 반면 200만원으로 설정했다면 150만원 이하 수리비는 소액사고(0.5점) 처리로 할증이 줄어듭니다. 계약 갱신 시 이 기준금액을 200만원으로 높여두면 소액 사고 발생 시 할증 부담이 줄어드는 장점이 있습니다.</p>
+
+  <p>환입 기한을 놓치는 실수도 적지 않습니다. 보험 청구 후 "다시 생각해보니 자비처리가 나았다"고 후회해도 갱신일 3개월 이전까지만 환입이 가능합니다. 실제로 사고 처리 직후 손익 계산을 해본 뒤 환입 신청을 결정했더라도 갱신일이 이미 지났다면 불가합니다. 사고 발생 즉시 본인의 보험 갱신일을 확인하고 환입 가능 기한을 계산하는 것이 중요합니다.</p>
+
+  <p class="small">※ 실제 경험이 있다면 이 섹션 내용을 본인의 사례로 대체해 1인칭 톤으로 수정하면 색인 품질이 높아집니다.</p>
+
+  <!-- ✅ 섹션 9: FAQ -->
+  <h2 id="faq">8) FAQ</h2>
+
+  <p class="q">Q1. 자차보험 쓰면 보험료가 얼마나 오르나요?</p>
+  <p class="a">2026년 기준 사고 1건 발생 시 약 12% 할증이 3년간 유지됩니다. 3년 무사고 할인(약 8%)도 상실되므로 실질 보험료 인상 효과는 약 20%입니다. 연 보험료 70만원 기준 3년간 약 42만원을 추가로 납부하게 됩니다.</p>
+
+  <p class="q">Q2. 자차보험 자기부담금은 얼마인가요?</p>
+  <p class="a">자기부담금은 손해액의 20%이며, 최소 20만원 ~ 최대 50만원 한도입니다. 수리비 50만원이면 20만원(최소 적용), 200만원이면 40만원, 250만원 이상이면 50만원(최대 한도)입니다.</p>
+
+  <p class="q">Q3. 수리비 얼마부터 보험처리가 유리한가요?</p>
+  <p class="a">연 보험료에 따라 다르지만, 연 보험료 70만원 기준으로 수리비 약 62만원이 손익분기점입니다. 연 보험료 40만원이면 약 44만원, 100만원이면 약 80만원이 기준입니다. 본인의 연 보험료를 확인하고 위 공식으로 계산하세요.</p>
+
+  <p class="q">Q4. 환입 제도란 무엇인가요?</p>
+  <p class="a">사고 후 받은 보험금을 보험사에 반환하면 사고 기록이 삭제되는 제도입니다. 반드시 보험 갱신 3개월 전까지 처리해야 합니다. 환입 후에는 할증이 사라지고 무사고 할인도 유지됩니다.</p>
+
+  <p class="q">Q5. 소액 접촉사고도 자차보험 쓰면 할증되나요?</p>
+  <p class="a">네, 소액 사고도 0.5점의 사고 기록이 남습니다. 물적사고 할증기준금액 이하의 수리비도 소액사고 기록이 생겨 할증이 일부 적용되고, 3년 무사고 할인도 상실됩니다. 수리비가 작다면 자비수리가 더 유리합니다.</p>
+
+  <p class="q">Q6. 사고가 많으면 보험 가입이 거절될 수 있나요?</p>
+  <p class="a">3년간 사고 2~3건이면 일부 보험사에서 가입 거절 가능, 3건 이상이면 대부분의 보험사에서 단독인수를 거절합니다. 이 경우 공동인수제도로 가입은 가능하지만 기본 15% 이상 추가 할증이 붙습니다.</p>
+
+  <div class="disclaimer">
+    <strong>면책 안내</strong>: 본 글은 일반적인 정보 제공 목적이며, 특정 보험 상품을 추천하는 것이 아닙니다. 보험료 할증률·자기부담금은 보험사·계약 조건별로 다를 수 있으므로, 실제 사고 발생 시 반드시 본인의 보험 약관을 확인하고 필요 시 전문 설계사와 상담하세요. 개인의 사고 이력·연령·차종에 따라 실제 수치는 달라질 수 있습니다.
+  </div>
+
+  <p class="small">관련 글: <a href="#" target="_blank" rel="noopener">자동차보험 갈아타기 — 다이렉트 vs 설계사 비교·할인 꿀팁 (2026)</a> / <a href="#" target="_blank" rel="noopener">운전자보험 필수 특약 비교 — 벌금·형사합의금·교통사고처리 (2026)</a></p>
+
+  <!-- ✅ 참고자료 / 출처 -->
+  <div class="sources">
+    <strong>참고자료 / 출처</strong>
+    <ul>
+      <li>자동차보험 종합포털 (손해보험협회) — <a href="https://carinfo.knia.or.kr/" target="_blank" rel="noopener">carinfo.knia.or.kr</a> (2026.05 기준)</li>
+      <li>삼성화재다이렉트 보험처리 판단 서비스 — <a href="https://direct.samsungfire.com/" target="_blank" rel="noopener">direct.samsungfire.com</a> (2026.05 기준)</li>
+      <li>현대해상다이렉트 보험료 계산 — <a href="https://direct.hi.co.kr/" target="_blank" rel="noopener">direct.hi.co.kr</a> (2026.05 기준)</li>
+    </ul>
+  </div>
+
+  <div class="btns">
+    <a class="btn" href="https://carinfo.knia.or.kr/" target="_blank" rel="noopener">자동차보험 할증 등급 조회</a>
+    <a class="btn secondary" href="https://direct.hi.co.kr/" target="_blank" rel="noopener">현대해상 보험료 계산</a>
+  </div>
+
+  <div class="footer" id="update">
+    <strong>업데이트 로그</strong><br/>
+    - 2026-05-13: 최초 발행<br/>
+    <span class="small">※ 자동차보험 할증률·자기부담금은 보험사·계약 조건별로 다를 수 있습니다. 사고 발생 시 본인 약관을 먼저 확인하세요.</span>
+  </div>
+</div>

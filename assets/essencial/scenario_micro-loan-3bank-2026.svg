@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFBEB"/>
+      <stop offset="100%" stop-color="#FEF3C7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg3)"/>
+
+  <text x="540" y="55" font-family="sans-serif" font-size="32" font-weight="900" fill="#111827" text-anchor="middle">소액 비상금 대출 상황별 추천 가이드</text>
+  <text x="540" y="88" font-family="sans-serif" font-size="20" fill="#6B7280" text-anchor="middle">카카오뱅크 vs 토스뱅크 vs 케이뱅크 | 나에게 맞는 선택은?</text>
+
+  <!-- 시나리오 1 -->
+  <rect x="50" y="118" width="980" height="125" rx="20" fill="#FFF" stroke="#FDE68A" stroke-width="1.5"/>
+  <rect x="50" y="118" width="980" height="42" rx="20" fill="#FEE500"/>
+  <rect x="50" y="140" width="980" height="20" fill="#FEE500"/>
+  <text x="80" y="147" font-family="sans-serif" font-size="19" font-weight="800" fill="#3C1E1E">이자를 1원이라도 아끼고 싶다 — 금리 최우선</text>
+  <text x="80" y="190" font-family="sans-serif" font-size="19" fill="#111827">→ <tspan font-weight="800">카카오뱅크</tspan> — 3사 중 최저 금리 하단 연 4.8%</text>
+  <text x="80" y="225" font-family="sans-serif" font-size="16" fill="#6B7280">100만 원 × 30일 기준 이자 약 4,110원 | 휴대폰 인증만으로 신청 가능</text>
+
+  <!-- 시나리오 2 -->
+  <rect x="50" y="260" width="980" height="125" rx="20" fill="#FFF" stroke="#BFDBFE" stroke-width="1.5"/>
+  <rect x="50" y="260" width="980" height="42" rx="20" fill="#0064FF"/>
+  <rect x="50" y="282" width="980" height="20" fill="#0064FF"/>
+  <text x="80" y="289" font-family="sans-serif" font-size="19" font-weight="800" fill="#FFF">급여일에 바로 갚고, 금리 인하 관리를 받고 싶다</text>
+  <text x="80" y="332" font-family="sans-serif" font-size="19" fill="#111827">→ <tspan font-weight="800">토스뱅크</tspan> — 중도상환 완전 면제, 마이데이터 금리 인하 안내</text>
+  <text x="80" y="367" font-family="sans-serif" font-size="16" fill="#6B7280">수시로 갚고 빌리는 패턴에 최적 | 실시간 금리 인하 시점 알림</text>
+
+  <!-- 시나리오 3 -->
+  <rect x="50" y="402" width="980" height="125" rx="20" fill="#FFF" stroke="#FDE68A" stroke-width="1.5"/>
+  <rect x="50" y="402" width="980" height="42" rx="20" fill="#FF6B35"/>
+  <rect x="50" y="424" width="980" height="20" fill="#FF6B35"/>
+  <text x="80" y="431" font-family="sans-serif" font-size="19" font-weight="800" fill="#FFF">비상금 한도를 장기간 유지해두고 싶다</text>
+  <text x="80" y="474" font-family="sans-serif" font-size="19" fill="#111827">→ <tspan font-weight="800">케이뱅크</tspan> — 1년 단위 최대 10년까지 연장 가능</text>
+  <text x="80" y="509" font-family="sans-serif" font-size="16" fill="#6B7280">한도만 설정해두면 이자 0원 | 필요할 때 바로 인출하는 안전망 용도</text>
+
+  <!-- 시나리오 4 -->
+  <rect x="50" y="544" width="980" height="125" rx="20" fill="#FFF" stroke="#A7F3D0" stroke-width="1.5"/>
+  <rect x="50" y="544" width="980" height="42" rx="20" fill="#059669"/>
+  <rect x="50" y="566" width="980" height="20" fill="#059669"/>
+  <text x="80" y="573" font-family="sans-serif" font-size="19" font-weight="800" fill="#FFF">주담대 예정, DSR 한도 소진이 걱정</text>
+  <text x="80" y="616" font-family="sans-serif" font-size="19" fill="#111827">→ <tspan font-weight="800">3사 모두 가능</tspan> — 300만 이하 소액은 스트레스 DSR 예외 적용</text>
+  <text x="80" y="651" font-family="sans-serif" font-size="16" fill="#6B7280">비상금 대출이 주담대 한도에 미치는 영향 미미 | 안심하고 활용 가능</text>
+
+  <!-- 시나리오 5 -->
+  <rect x="50" y="686" width="980" height="125" rx="20" fill="#FFF" stroke="#FDE68A" stroke-width="1.5"/>
+  <rect x="50" y="686" width="980" height="42" rx="20" fill="#B45309"/>
+  <rect x="50" y="708" width="980" height="20" fill="#B45309"/>
+  <text x="80" y="715" font-family="sans-serif" font-size="19" font-weight="800" fill="#FFF">100만 원, 1~2주 초단기 자금이 급하다</text>
+  <text x="80" y="758" font-family="sans-serif" font-size="19" fill="#111827">→ <tspan font-weight="800">카카오뱅크 또는 토스뱅크</tspan> — 사용 일수에만 이자, 바로 상환 시 수백 원대</text>
+  <text x="80" y="793" font-family="sans-serif" font-size="16" fill="#6B7280">100만 원 × 14일 × 5% = 이자 약 1,918원 | 마이너스통장이라 즉시 상환 가능</text>
+
+  <!-- 핵심 전략 -->
+  <rect x="50" y="840" width="980" height="60" rx="16" fill="#B45309"/>
+  <text x="540" y="876" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFF" text-anchor="middle">공통 전략: 비금융 마이데이터 연동 → 신용 가점 → 3사 모두 금리 인하·승인율 향상</text>
+
+  <!-- 주의 -->
+  <rect x="50" y="925" width="980" height="50" rx="12" fill="#FEF2F2" stroke="#FECACA" stroke-width="1"/>
+  <text x="540" y="945" font-family="sans-serif" font-size="16" font-weight="700" fill="#991B1B" text-anchor="middle">단기 유동성 목적으로만 활용 | 한도 90% 이하 사용 | 자금 생기면 즉시 상환</text>
+  <text x="540" y="968" font-family="sans-serif" font-size="15" fill="#991B1B" text-anchor="middle">3사 동시 사용 시 총 잔액↑ → 신용 불리 | 가장 유리한 1곳을 주력으로</text>
+
+  <text x="540" y="1050" font-family="sans-serif" font-size="15" fill="#9CA3AF" text-anchor="middle">2026년 4월 기준 | 금융감독원·각 은행 공시 기반 | 개인 신용점수에 따라 실제 금리 상이</text>
+</svg>

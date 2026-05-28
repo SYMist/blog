@@ -1,0 +1,55 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="#F8FAFC"/>
+
+  <!-- Card -->
+  <g filter="url(#shadow)">
+    <rect x="70" y="70" width="940" height="940" rx="24" fill="#FFFFFF" stroke="#E5E7EB"/>
+  </g>
+
+  <!-- Header -->
+  <text x="120" y="170" font-size="46" fill="#111827" font-weight="800" font-family="Pretendard, 'Noto Sans KR', sans-serif">노란우산공제 요약표</text>
+  <text x="120" y="230" font-size="28" fill="#6B7280" font-weight="600" font-family="Pretendard, 'Noto Sans KR', sans-serif">대출 · 해지 · 세금 핵심</text>
+
+  <!-- Divider -->
+  <line x1="120" y1="270" x2="960" y2="270" stroke="#E5E7EB"/>
+
+  <!-- Rows -->
+  <g font-family="Pretendard, 'Noto Sans KR', sans-serif">
+    <text x="120" y="340" font-size="30" fill="#111827" font-weight="700">대출</text>
+    <text x="260" y="340" font-size="28" fill="#374151">해약환급금(세액 제외) 90% 이내</text>
+
+    <line x1="120" y1="380" x2="960" y2="380" stroke="#F1F5F9"/>
+
+    <text x="120" y="440" font-size="30" fill="#111827" font-weight="700">금리</text>
+    <text x="260" y="440" font-size="28" fill="#374151">일반 변동금리(약 3%대)</text>
+    <text x="260" y="475" font-size="26" fill="#6B7280">특수대출: 무이자(증빙 필요)</text>
+
+    <line x1="120" y1="515" x2="960" y2="515" stroke="#F1F5F9"/>
+
+    <text x="120" y="575" font-size="30" fill="#111827" font-weight="700">기간</text>
+    <text x="260" y="575" font-size="28" fill="#374151">1년(연장 가능), 특수대출 최대 2년</text>
+
+    <line x1="120" y1="615" x2="960" y2="615" stroke="#F1F5F9"/>
+
+    <text x="120" y="675" font-size="30" fill="#111827" font-weight="700">해지</text>
+    <text x="260" y="675" font-size="28" fill="#374151">언제든 가능, 조기 해지 시 환급률 낮음</text>
+
+    <line x1="120" y1="715" x2="960" y2="715" stroke="#F1F5F9"/>
+
+    <text x="120" y="775" font-size="30" fill="#111827" font-weight="700">세금</text>
+    <text x="260" y="775" font-size="28" fill="#374151">기타소득세 16.5% 부과 구조</text>
+  </g>
+
+  <!-- Footer Note -->
+  <rect x="120" y="860" width="840" height="90" rx="12" fill="#F1F5F9"/>
+  <text x="150" y="915" font-size="24" fill="#4B5563" font-family="Pretendard, 'Noto Sans KR', sans-serif">
+    금리·세금은 공식 안내 기준으로 확인
+  </text>
+</svg>

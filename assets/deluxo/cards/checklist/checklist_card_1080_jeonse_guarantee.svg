@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <filter id="shadow" x="-4%" y="-4%" width="108%" height="108%">
+      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#000" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+  <rect width="1080" height="1080" rx="32" fill="#F0F4FA"/>
+  <rect x="40" y="40" width="1000" height="1000" rx="24" fill="#FFFFFF" filter="url(#shadow)"/>
+
+  <!-- Header -->
+  <rect x="40" y="40" width="1000" height="110" rx="24" fill="#1D4ED8"/>
+  <rect x="40" y="100" width="1000" height="50" fill="#1D4ED8"/>
+  <text x="540" y="108" text-anchor="middle" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="42" font-weight="800" fill="#FFFFFF">전세보증금 반환보증 신청 체크리스트</text>
+
+  <!-- Section 1: 보증 가입 전 확인 -->
+  <text x="100" y="215" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="30" font-weight="700" fill="#1D4ED8">보증 가입 전 확인</text>
+  <line x1="80" y1="235" x2="1000" y2="235" stroke="#E5E7EB" stroke-width="2"/>
+
+  <text x="100" y="280" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="26" fill="#111827">□  전입신고 + 확정일자 완료</text>
+  <text x="100" y="325" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="26" fill="#111827">□  계약금 5% 이상 납부 완료</text>
+  <text x="100" y="370" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="26" fill="#111827">□  계약기간 절반 남았는지 확인 (SGI는 10개월)</text>
+  <text x="100" y="415" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="26" fill="#111827">□  등기부등본 → 근저당(선순위 채권) 확인</text>
+  <text x="100" y="460" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="26" fill="#111827">□  LTV 기준 확인 (HUG 60% / HF 90% / SGI 100%)</text>
+
+  <!-- Section 2: 준비 서류 -->
+  <text x="100" y="530" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="30" font-weight="700" fill="#1D4ED8">준비 서류</text>
+  <line x1="80" y1="550" x2="1000" y2="550" stroke="#E5E7EB" stroke-width="2"/>
+
+  <text x="100" y="595" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="26" fill="#111827">□  임대차계약서 사본</text>
+  <text x="100" y="640" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="26" fill="#111827">□  전세금 납부 영수증</text>
+  <text x="100" y="685" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="26" fill="#111827">□  주민등록등본 (전입 확인용)</text>
+  <text x="100" y="730" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="26" fill="#111827">□  건물 등기사항전부증명서 (1개월 이내)</text>
+  <text x="100" y="775" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="26" fill="#111827">□  신분증 사본</text>
+
+  <!-- Section 3: 보증료 환급 추가 서류 -->
+  <text x="100" y="840" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="30" font-weight="700" fill="#1D4ED8">보증료 환급 신청 시 추가</text>
+  <line x1="80" y1="860" x2="1000" y2="860" stroke="#E5E7EB" stroke-width="2"/>
+
+  <text x="100" y="905" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="26" fill="#111827">□  보증서 사본 + 보증료 납부 영수증</text>
+  <text x="100" y="945" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="26" fill="#111827">□  소득금액증명서 (홈택스 발급)</text>
+  <text x="100" y="985" font-family="'Pretendard','Apple SD Gothic Neo',sans-serif" font-size="26" fill="#111827">□  신혼부부 → 혼인관계증명서 추가</text>
+
+  <!-- Footer -->
+  <rect x="80" y="1010" width="920" height="5" rx="2" fill="#1D4ED8"/>
+</svg>

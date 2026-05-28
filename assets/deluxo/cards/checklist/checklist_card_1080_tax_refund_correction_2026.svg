@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <text x="540" y="130" font-family="'Pretendard', sans-serif" font-size="46" font-weight="900" fill="#F59E0B" text-anchor="middle">발행 전 필수 체크리스트</text>
+  <text x="540" y="210" font-family="'Pretendard', sans-serif" font-size="54" font-weight="900" fill="#FFFFFF" text-anchor="middle">환급·경정청구 8점검</text>
+
+  <g font-family="'Pretendard', sans-serif" font-size="28" font-weight="700" fill="#EAF2FF">
+    <rect x="60" y="280" width="44" height="44" rx="10" fill="#10B981"/>
+    <text x="82" y="312" fill="#FFFFFF" font-weight="900" text-anchor="middle">✓</text>
+    <text x="130" y="312">법정기한 경과 후 5년 이내인지 확인</text>
+
+    <rect x="60" y="355" width="44" height="44" rx="10" fill="#10B981"/>
+    <text x="82" y="387" fill="#FFFFFF" font-weight="900" text-anchor="middle">✓</text>
+    <text x="130" y="387">경정청구서·사유서·증빙 3종 준비 완료</text>
+
+    <rect x="60" y="430" width="44" height="44" rx="10" fill="#10B981"/>
+    <text x="82" y="462" fill="#FFFFFF" font-weight="900" text-anchor="middle">✓</text>
+    <text x="130" y="462">3만 원 초과 지출에 적격증빙 확보</text>
+
+    <rect x="60" y="505" width="44" height="44" rx="10" fill="#10B981"/>
+    <text x="82" y="537" fill="#FFFFFF" font-weight="900" text-anchor="middle">✓</text>
+    <text x="130" y="537">업무용 차량 운행기록부 작성·보관</text>
+
+    <rect x="60" y="580" width="44" height="44" rx="10" fill="#10B981"/>
+    <text x="82" y="612" fill="#FFFFFF" font-weight="900" text-anchor="middle">✓</text>
+    <text x="130" y="612">인건비 원천세·지급명세서 제출 확인</text>
+
+    <rect x="60" y="655" width="44" height="44" rx="10" fill="#10B981"/>
+    <text x="82" y="687" fill="#FFFFFF" font-weight="900" text-anchor="middle">✓</text>
+    <text x="130" y="687">가사·개인 지출 경비 분리 처리</text>
+
+    <rect x="60" y="730" width="44" height="44" rx="10" fill="#10B981"/>
+    <text x="82" y="762" fill="#FFFFFF" font-weight="900" text-anchor="middle">✓</text>
+    <text x="130" y="762">노란우산·IRP·창업감면 등 공제 누락 점검</text>
+
+    <rect x="60" y="805" width="44" height="44" rx="10" fill="#10B981"/>
+    <text x="82" y="837" fill="#FFFFFF" font-weight="900" text-anchor="middle">✓</text>
+    <text x="130" y="837">거절 대비 불복 90일 기한 · 전심절차 숙지</text>
+  </g>
+
+  <rect x="60" y="900" width="960" height="140" rx="20" fill="#F59E0B"/>
+  <text x="540" y="955" font-family="'Pretendard', sans-serif" font-size="32" font-weight="900" fill="#0B1F3B" text-anchor="middle">8개 모두 ✓면 환급·불복 준비 완료</text>
+  <text x="540" y="1005" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#0B1F3B" text-anchor="middle">홈택스 경정청구 → 심사 2개월 → 결정 후 30일 내 입금</text>
+</svg>

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#15803D"/>
+      <stop offset="100%" stop-color="#14532d"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E40AF"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <circle cx="1080" cy="100" r="200" fill="#1E40AF" fill-opacity="0.07"/>
+  <circle cx="120" cy="540" r="160" fill="#15803D" fill-opacity="0.07"/>
+
+  <!-- Chips -->
+  <rect x="40" y="36" width="90" height="32" rx="16" fill="#1E40AF" fill-opacity="0.35" stroke="#1E40AF" stroke-width="1.5"/>
+  <text x="85" y="57" text-anchor="middle" fill="#BFDBFE" font-size="14" font-weight="700" font-family="sans-serif">자동차</text>
+
+  <rect x="146" y="36" width="140" height="32" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="216" y="57" text-anchor="middle" fill="#94A3B8" font-size="14" font-family="sans-serif">2026.05 기준</text>
+
+  <rect x="302" y="36" width="150" height="32" rx="16" fill="#14532d" stroke="#15803D" stroke-width="1.5"/>
+  <text x="377" y="57" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">4종 연료 비교</text>
+
+  <!-- Title -->
+  <text x="600" y="130" text-anchor="middle" fill="#FFFFFF" font-size="40" font-weight="800" font-family="sans-serif">LPG · 가솔린 · 디젤 · 하이브리드</text>
+  <text x="600" y="178" text-anchor="middle" fill="#93C5FD" font-size="26" font-weight="700" font-family="sans-serif">4종 5년 연료비·TCO 비교 (2026)</text>
+
+  <!-- Key stat bar -->
+  <rect x="200" y="198" width="800" height="62" rx="12" fill="#1e293b" fill-opacity="0.9" stroke="#334155" stroke-width="1.5"/>
+  <text x="600" y="226" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">5년 TCO 격차 (동급 중형 SUV)</text>
+  <text x="600" y="250" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">LPG 4,216 ↔ 하이브리드 4,735만원 · 519만원 차이</text>
+
+  <rect x="200" y="274" width="800" height="2" rx="1" fill="#1E40AF" fill-opacity="0.4"/>
+
+  <!-- Two cards -->
+  <rect x="40" y="284" width="555" height="300" rx="16" fill="url(#greenGrad)" fill-opacity="0.8" stroke="#15803D" stroke-width="2"/>
+  <text x="317" y="324" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">LPG (TCO 1위 · 단거리 강세)</text>
+  <line x1="70" y1="338" x2="565" y2="338" stroke="#14532d" stroke-width="1.5"/>
+  <text x="317" y="378" text-anchor="middle" fill="#86EFAC" font-size="26" font-weight="800" font-family="sans-serif">5년 약 4,216만원</text>
+  <text x="317" y="406" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="700" font-family="sans-serif">연료비 1,031만원 · 구매가 3,000만원</text>
+  <line x1="70" y1="426" x2="565" y2="426" stroke="#14532d" stroke-width="1.5"/>
+  <text x="70" y="454" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">✅ 구매가·연료 단가 모두 최저</text>
+  <text x="70" y="480" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">✅ 가솔린 대비 5년 294만원 절감</text>
+  <text x="70" y="506" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">✅ 셀프충전 허용 (24시간 800곳)</text>
+  <rect x="70" y="526" width="465" height="36" rx="8" fill="#15803D" fill-opacity="0.4"/>
+  <text x="302" y="550" text-anchor="middle" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">단거리·근거리 운전 (연 8천km 이하) 추천</text>
+
+  <rect x="605" y="284" width="555" height="300" rx="16" fill="url(#blueGrad)" fill-opacity="0.8" stroke="#3B82F6" stroke-width="2"/>
+  <text x="882" y="324" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">하이브리드 (연료비 1위 · 도심)</text>
+  <line x1="635" y1="338" x2="1130" y2="338" stroke="#1e3a8a" stroke-width="1.5"/>
+  <text x="882" y="378" text-anchor="middle" fill="#BFDBFE" font-size="26" font-weight="800" font-family="sans-serif">5년 약 4,735만원</text>
+  <text x="882" y="406" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="700" font-family="sans-serif">연료비 750만원 · 구매가 3,800만원</text>
+  <line x1="635" y1="426" x2="1130" y2="426" stroke="#1e3a8a" stroke-width="1.5"/>
+  <text x="635" y="454" fill="#67E8F9" font-size="14" font-weight="700" font-family="sans-serif">✅ 연료비 가장 저렴 (5년 750만원)</text>
+  <text x="635" y="480" fill="#67E8F9" font-size="14" font-weight="700" font-family="sans-serif">✅ 친환경 혜택 (취득세·주차·통행료)</text>
+  <text x="635" y="506" fill="#FCA5A5" font-size="14" font-weight="700" font-family="sans-serif">❌ 구매가 800만원 비쌈 (회수 9년)</text>
+  <rect x="635" y="526" width="465" height="36" rx="8" fill="#1E40AF" fill-opacity="0.4"/>
+  <text x="867" y="550" text-anchor="middle" fill="#BFDBFE" font-size="13" font-weight="700" font-family="sans-serif">도심 정체 출퇴근 + 7년+ 장기 보유 추천</text>
+
+  <text x="40" y="610" fill="#64748B" font-size="13" font-family="sans-serif">essencial | 자동차 · 2026.05 기준 · 가솔린 4,510 · 디젤 4,545 · 보험/정비/감가 제외 · 차종·운전 패턴 따라 다름</text>
+</svg>

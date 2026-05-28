@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="80" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="800" fill="#F59E0B">2026 근로·자녀장려금 신청·지급 일정</text>
+  <rect x="60" y="110" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- 타임라인 중앙선 -->
+  <rect x="530" y="155" width="6" rx="3" height="800" fill="rgba(245,158,11,0.3)"/>
+
+  <!-- 3월 -->
+  <circle cx="533" cy="200" r="16" fill="#F59E0B"/>
+  <rect x="80" y="170" width="420" height="90" rx="16" fill="rgba(34,197,94,0.15)"/>
+  <text x="290" y="205" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#22C55E">3월 2일 ~ 16일</text>
+  <text x="290" y="240" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">하반기분 반기신청 (근로소득자)</text>
+
+  <!-- 5월 -->
+  <circle cx="533" cy="330" r="16" fill="#F59E0B"/>
+  <rect x="580" y="300" width="420" height="90" rx="16" fill="rgba(59,130,246,0.15)"/>
+  <text x="790" y="335" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#60A5FA">5월 1일 ~ 6월 1일</text>
+  <text x="790" y="370" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">정기신청 (전체 대상)</text>
+
+  <!-- 6월 지급 -->
+  <circle cx="533" cy="460" r="16" fill="#22C55E"/>
+  <rect x="80" y="430" width="420" height="90" rx="16" fill="rgba(34,197,94,0.25)"/>
+  <text x="290" y="465" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#22C55E">6월 말 💰 지급</text>
+  <text x="290" y="500" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">반기신청(하반기분) 장려금 입금</text>
+
+  <!-- 6~12월 기한 후 -->
+  <circle cx="533" cy="570" r="12" fill="#EF4444"/>
+  <rect x="580" y="545" width="420" height="70" rx="16" fill="rgba(239,68,68,0.12)"/>
+  <text x="790" y="580" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#EF4444">6.2~12.1 기한 후 신청 (5% 감액)</text>
+  <text x="790" y="605" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">정기 놓쳤으면 여기서!</text>
+
+  <!-- 8~9월 지급 -->
+  <circle cx="533" cy="680" r="16" fill="#60A5FA"/>
+  <rect x="80" y="650" width="420" height="90" rx="16" fill="rgba(59,130,246,0.25)"/>
+  <text x="290" y="685" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#60A5FA">8~9월 💰 지급</text>
+  <text x="290" y="720" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">정기신청 장려금 입금</text>
+
+  <!-- 9월 -->
+  <circle cx="533" cy="800" r="16" fill="#F59E0B"/>
+  <rect x="580" y="770" width="420" height="90" rx="16" fill="rgba(34,197,94,0.15)"/>
+  <text x="790" y="805" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#22C55E">9월 1일 ~ 15일</text>
+  <text x="790" y="840" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">상반기분 반기신청</text>
+
+  <!-- 12월 지급 -->
+  <circle cx="533" cy="920" r="16" fill="#22C55E"/>
+  <rect x="80" y="890" width="420" height="90" rx="16" fill="rgba(34,197,94,0.25)"/>
+  <text x="290" y="925" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#22C55E">12월 말 💰 지급</text>
+  <text x="290" y="960" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">반기신청(상반기분) 장려금 입금</text>
+
+  <rect x="60" y="1020" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><filter id="s" x="-4%" y="-4%" width="108%" height="108%"><feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#000" flood-opacity="0.08"/></filter></defs>
+  <rect width="1080" height="1080" rx="32" fill="#F0F4FA"/>
+  <rect x="40" y="40" width="1000" height="1000" rx="24" fill="#FFF" filter="url(#s)"/>
+  <rect x="40" y="40" width="1000" height="100" rx="24" fill="#1D4ED8"/><rect x="40" y="95" width="1000" height="45" fill="#1D4ED8"/>
+  <text x="540" y="103" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="38" font-weight="800" fill="#FFF">소상공인 폐업 지원금 신청 체크리스트</text>
+
+  <!-- 공통 -->
+  <text x="100" y="205" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#1D4ED8">공통 확인 사항</text>
+  <line x1="80" y1="225" x2="1000" y2="225" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="100" y="265" font-family="'Pretendard',sans-serif" font-size="26" fill="#111827">□  사업자등록 후 60일 이상 영업 이력 확인</text>
+  <text x="100" y="305" font-family="'Pretendard',sans-serif" font-size="26" fill="#111827">□  유상 임대차계약 점포 여부 확인</text>
+  <text x="100" y="345" font-family="'Pretendard',sans-serif" font-size="26" fill="#111827">□  폐업사실증명원 또는 폐업예정 증빙 준비</text>
+  <text x="100" y="385" font-family="'Pretendard',sans-serif" font-size="26" fill="#111827">□  사업자등록증 + 임대차계약서 준비</text>
+
+  <!-- 점포철거비 -->
+  <text x="100" y="450" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#DC2626">점포철거비 (소상공인24)</text>
+  <line x1="80" y1="470" x2="1000" y2="470" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="100" y="510" font-family="'Pretendard',sans-serif" font-size="26" fill="#111827">□  sbiz24.kr 접속 → 점포철거비 공고 확인</text>
+  <text x="100" y="550" font-family="'Pretendard',sans-serif" font-size="26" fill="#111827">□  건축물대장 발급 준비</text>
+  <text x="100" y="590" font-family="'Pretendard',sans-serif" font-size="26" fill="#111827">□  사업자등록된 철거업체 찾기 (자력철거 불가!)</text>
+  <text x="100" y="630" font-family="'Pretendard',sans-serif" font-size="26" fill="#111827">□  승인 전 철거 진행하지 않기</text>
+  <text x="100" y="660" font-family="'Pretendard',sans-serif" font-size="22" fill="#6B7280">    (신청 → 승인 → 철거 순서 필수)</text>
+
+  <!-- 취업지원 -->
+  <text x="100" y="725" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#059669">취업지원·재기사업화 (희망리턴패키지)</text>
+  <line x1="80" y1="745" x2="1000" y2="745" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="100" y="785" font-family="'Pretendard',sans-serif" font-size="26" fill="#111827">□  hope.sbiz.or.kr 접속 → 해당 프로그램 선택</text>
+  <text x="100" y="825" font-family="'Pretendard',sans-serif" font-size="26" fill="#111827">□  재기사업화: 최근 2년 부가세 과세표준증명 준비</text>
+  <text x="100" y="865" font-family="'Pretendard',sans-serif" font-size="26" fill="#111827">□  재기사업화: 자부담금 (현금 30%↑) 확보 여부 확인</text>
+
+  <!-- 문의처 -->
+  <rect x="80" y="910" width="920" height="70" rx="14" fill="#EFF6FF"/>
+  <text x="540" y="953" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#1D4ED8">문의: 소상공인 통합콜센터 1533-0100 (4번)</text>
+
+  <!-- Footer -->
+  <rect x="80" y="995" width="920" height="5" rx="2" fill="#1D4ED8"/>
+</svg>

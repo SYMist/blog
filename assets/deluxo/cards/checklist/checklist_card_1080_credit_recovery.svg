@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#F59E0B">신용회복 1분 체크리스트</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- 항목 1 -->
+  <rect x="60" y="120" width="960" height="80" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="140" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="168" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="168" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">크레디트포유에서 NICE·KCB 점수 확인</text>
+
+  <!-- 항목 2 -->
+  <rect x="60" y="212" width="960" height="80" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="232" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="260" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="260" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">공공기록(코드 1201) 삭제 여부 확인</text>
+
+  <!-- 항목 3 -->
+  <rect x="60" y="304" width="960" height="80" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="324" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="352" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="352" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">마이데이터 연결 (통신비·건강보험·국민연금·소득)</text>
+
+  <!-- 항목 4 -->
+  <rect x="60" y="396" width="960" height="80" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="416" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="444" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="444" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">변제금 자동이체 설정 (연체 방지)</text>
+
+  <!-- 항목 5 -->
+  <rect x="60" y="488" width="960" height="80" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="508" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="536" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="536" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">햇살론 카드 발급 (공공기록 삭제 후)</text>
+
+  <!-- 항목 6 -->
+  <rect x="60" y="580" width="960" height="80" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="600" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="628" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="628" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">카드 이용률 30% 이내 유지 + 일시불 결제</text>
+
+  <!-- 항목 7 -->
+  <rect x="60" y="672" width="960" height="80" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="692" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="720" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="720" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">고금리 대출 → 햇살론 대환 검토 (연 4.5%)</text>
+
+  <!-- 항목 8 -->
+  <rect x="60" y="764" width="960" height="80" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="784" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="812" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="812" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">790점 이상 → 일반 신용카드 전환 신청</text>
+
+  <!-- 항목 9 -->
+  <rect x="60" y="856" width="960" height="80" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="876" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="904" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="904" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">주거래 은행 집중 거래 → 우대 금리 적용</text>
+
+  <!-- 항목 10 -->
+  <rect x="60" y="948" width="960" height="80" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="968" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="996" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="996" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">연 2회 신용점수 모니터링 (이상 징후 대응)</text>
+
+  <rect x="60" y="1050" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

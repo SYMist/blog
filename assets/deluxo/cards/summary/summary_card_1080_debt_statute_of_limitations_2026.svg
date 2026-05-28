@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- Header -->
+  <rect x="60" y="60" width="960" height="110" rx="16" fill="#0D2347"/>
+  <text x="540" y="108" font-family="-apple-system, sans-serif" font-size="38" font-weight="700" fill="#F59E0B" text-anchor="middle">채무 소멸시효 — 채권 종류별 기간</text>
+  <text x="540" y="148" font-family="-apple-system, sans-serif" font-size="26" fill="#A0B4D0" text-anchor="middle">2026년 기준 · 민법·상법·근로기준법</text>
+
+  <!-- Column Headers -->
+  <rect x="60" y="196" width="960" height="52" rx="8" fill="#1A3270"/>
+  <text x="200" y="230" font-family="-apple-system, sans-serif" font-size="24" font-weight="700" fill="#ffffff" text-anchor="middle">채권 유형</text>
+  <text x="580" y="230" font-family="-apple-system, sans-serif" font-size="24" font-weight="700" fill="#ffffff" text-anchor="middle">소멸시효</text>
+  <text x="840" y="230" font-family="-apple-system, sans-serif" font-size="24" font-weight="700" fill="#F59E0B" text-anchor="middle">근거</text>
+
+  <!-- Row 1: 카드론/금융대출 -->
+  <rect x="60" y="258" width="960" height="84" rx="8" fill="#0D2347"/>
+  <text x="200" y="292" font-family="-apple-system, sans-serif" font-size="26" font-weight="700" fill="#60A5FA" text-anchor="middle">카드론·금융대출</text>
+  <text x="200" y="324" font-family="-apple-system, sans-serif" font-size="20" fill="#A0B4D0" text-anchor="middle">은행·저축은행·대부업체</text>
+  <text x="580" y="308" font-family="-apple-system, sans-serif" font-size="44" font-weight="700" fill="#F59E0B" text-anchor="middle">5년</text>
+  <text x="840" y="300" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">상법 제64조</text>
+  <text x="840" y="326" font-family="-apple-system, sans-serif" font-size="20" fill="#A0B4D0" text-anchor="middle">(상사채권)</text>
+
+  <!-- Row 2: 개인 간 차용 -->
+  <rect x="60" y="352" width="960" height="84" rx="8" fill="#1A3270"/>
+  <text x="200" y="386" font-family="-apple-system, sans-serif" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">개인 간 금전 대여</text>
+  <text x="200" y="418" font-family="-apple-system, sans-serif" font-size="20" fill="#A0B4D0" text-anchor="middle">차용증, 지인 간 대여</text>
+  <text x="580" y="402" font-family="-apple-system, sans-serif" font-size="44" font-weight="700" fill="#34D399" text-anchor="middle">10년</text>
+  <text x="840" y="394" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">민법 제162조</text>
+  <text x="840" y="420" font-family="-apple-system, sans-serif" font-size="20" fill="#A0B4D0" text-anchor="middle">(민사채권)</text>
+
+  <!-- Row 3: 임금/퇴직금 -->
+  <rect x="60" y="446" width="960" height="84" rx="8" fill="#0D2347"/>
+  <text x="200" y="480" font-family="-apple-system, sans-serif" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">임금·퇴직금</text>
+  <text x="200" y="512" font-family="-apple-system, sans-serif" font-size="20" fill="#A0B4D0" text-anchor="middle">근로자 급여·퇴직금</text>
+  <text x="580" y="496" font-family="-apple-system, sans-serif" font-size="44" font-weight="700" fill="#60A5FA" text-anchor="middle">3년</text>
+  <text x="840" y="488" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">근로기준법</text>
+  <text x="840" y="514" font-family="-apple-system, sans-serif" font-size="20" fill="#A0B4D0" text-anchor="middle">제49조</text>
+
+  <!-- Row 4: 이자/차임/공사대금 -->
+  <rect x="60" y="540" width="960" height="84" rx="8" fill="#1A3270"/>
+  <text x="200" y="574" font-family="-apple-system, sans-serif" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">이자·임대차 차임·공사대금</text>
+  <text x="200" y="606" font-family="-apple-system, sans-serif" font-size="20" fill="#A0B4D0" text-anchor="middle">의사·변호사 보수 포함</text>
+  <text x="580" y="590" font-family="-apple-system, sans-serif" font-size="44" font-weight="700" fill="#60A5FA" text-anchor="middle">3년</text>
+  <text x="840" y="582" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">민법 제163조</text>
+  <text x="840" y="608" font-family="-apple-system, sans-serif" font-size="20" fill="#A0B4D0" text-anchor="middle">(단기소멸시효)</text>
+
+  <!-- Row 5: 숙박/음식 -->
+  <rect x="60" y="634" width="960" height="84" rx="8" fill="#0D2347"/>
+  <text x="200" y="668" font-family="-apple-system, sans-serif" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">숙박료·음식료</text>
+  <text x="200" y="700" font-family="-apple-system, sans-serif" font-size="20" fill="#A0B4D0" text-anchor="middle">일용 노역인 임금 포함</text>
+  <text x="580" y="684" font-family="-apple-system, sans-serif" font-size="44" font-weight="700" fill="#A0B4D0" text-anchor="middle">1년</text>
+  <text x="840" y="676" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">민법 제164조</text>
+  <text x="840" y="702" font-family="-apple-system, sans-serif" font-size="20" fill="#A0B4D0" text-anchor="middle">(단기소멸시효)</text>
+
+  <!-- Row 6: 판결 확정 -->
+  <rect x="60" y="728" width="960" height="84" rx="8" fill="#1A3270"/>
+  <rect x="60" y="728" width="6" height="84" rx="3" fill="#34D399"/>
+  <text x="200" y="762" font-family="-apple-system, sans-serif" font-size="26" font-weight="700" fill="#34D399" text-anchor="middle">판결·화해로 확정된 채권</text>
+  <text x="200" y="794" font-family="-apple-system, sans-serif" font-size="20" fill="#A0B4D0" text-anchor="middle">단기시효 채권도 10년으로 연장</text>
+  <text x="580" y="778" font-family="-apple-system, sans-serif" font-size="44" font-weight="700" fill="#34D399" text-anchor="middle">10년</text>
+  <text x="840" y="770" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">민법 제165조</text>
+  <text x="840" y="796" font-family="-apple-system, sans-serif" font-size="20" fill="#A0B4D0" text-anchor="middle">(확정채권)</text>
+
+  <!-- Bottom note -->
+  <rect x="60" y="836" width="960" height="60" rx="12" fill="#0D2347"/>
+  <text x="540" y="862" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">기산점: 권리를 행사할 수 있는 날 다음 날부터 (민법 제166조)</text>
+  <text x="540" y="888" font-family="-apple-system, sans-serif" font-size="20" fill="#A0B4D0" text-anchor="middle">출처: 국가법령정보센터 law.go.kr · 찾기쉬운생활법령 easylaw.go.kr (2026년 기준)</text>
+
+  <!-- Footer -->
+  <text x="540" y="980" font-family="-apple-system, sans-serif" font-size="26" font-weight="700" fill="#F59E0B" text-anchor="middle">deluxo.co.kr</text>
+  <text x="540" y="1016" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">채무 소멸시효 완전 정리 | 2026년 최신</text>
+</svg>

@@ -1,0 +1,431 @@
+<!-- 주택청약_저축_가점_계산_당첨_전략_총정리_2026.html -->
+<!-- ✅ 티스토리 HTML 모드: 통째로 붙여넣기 -->
+
+<!-- ✅ Schema.org 구조화 데이터 -->
+<div style="display:none">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "주택청약 저축·가점 계산·당첨 전략 총정리 (2026)",
+      "description": "2026년 주택청약 납입 한도 25만 원, 가점 84점 계산법, 신생아·다자녀 특공, 부부 중복 청약까지 당첨 전략을 총정리합니다.",
+      "datePublished": "2026-04-06",
+      "dateModified": "2026-04-06",
+      "author": {"@type": "Person", "name": "델룩소"},
+      "publisher": {"@type": "Organization", "name": "tistory.deluxo"}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "2026년 주택청약 월 납입 인정 한도는 얼마인가요?", "acceptedAnswer": {"@type": "Answer", "text": "2026년 기준 월 납입 인정 한도는 25만 원으로, 기존 10만 원에서 상향 조정되었습니다. 매월 25만 원을 납입하면 공공분양 당첨선(약 1,500만 원)에 5년 만에 도달할 수 있습니다."}},
+        {"@type": "Question", "name": "민영주택 가점은 최대 몇 점인가요?", "acceptedAnswer": {"@type": "Answer", "text": "민영주택 가점은 총 84점 만점입니다. 무주택 기간 최대 32점, 부양가족 수 최대 35점, 청약통장 가입 기간 최대 17점으로 구성됩니다."}},
+        {"@type": "Question", "name": "배우자 청약통장 가입 기간도 합산되나요?", "acceptedAnswer": {"@type": "Answer", "text": "네, 2026년부터 배우자 가입 기간의 50%를 인정하여 최대 3점까지 추가 가점을 받을 수 있습니다. 부부 중복 청약도 허용됩니다."}},
+        {"@type": "Question", "name": "신생아 특별공급 자격 요건은 무엇인가요?", "acceptedAnswer": {"@type": "Answer", "text": "입주자 모집 공고일 기준 2년 이내 출산 가구(태아·입양아 포함)가 대상이며, 혼인 여부와 무관합니다. 소득 기준은 민간분양 160% 이하로 완화됩니다."}},
+        {"@type": "Question", "name": "신생아 특례 대출 금리는 얼마인가요?", "acceptedAnswer": {"@type": "Answer", "text": "최저 1.8%에서 시작하며, 최대 5억 원까지 대출 가능합니다. 1자녀당 5년간 특례 금리가 적용되고, 추가 출산 시 최대 15년까지 연장됩니다."}}
+      ]
+    }
+  ]
+}
+</script>
+</div>
+
+<style>
+  :root{
+    --blue:#1D4ED8; --blue2:#1E40AF;
+    --white:#FFFFFF; --text:#111827;
+    --muted:#4B5563; --border:#E5E7EB;
+    --bg:#F9FAFB; --blueLight:#E8F0FF;
+  }
+  .wrap{max-width:860px;margin:0 auto;line-height:1.8;color:var(--text);}
+  .meta{color:var(--muted);font-size:.95rem;margin:6px 0 18px;}
+  .badge{display:inline-block;background:var(--blueLight);border:1px solid var(--border);padding:3px 10px;border-radius:999px;font-size:.85rem;margin-right:8px;}
+  .notice{background:#fff7ed;border:1px solid #fed7aa;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .lead{background:#f8fafc;border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .keysum{background:#fefce8;border:1px solid #fde68a;padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .summary{background:#eff6ff;border:1px solid #bfdbfe;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .toc{background:var(--bg);border:1px solid var(--border);padding:14px 16px;border-radius:12px;margin:16px 0 22px;}
+  .toc a{text-decoration:none;color:var(--blue);}
+  .toc ul{margin:8px 0 0 18px;}
+
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 6px;}
+  .wrap a.btn,.wrap a.btn:link,.wrap a.btn:visited{
+    display:inline-flex;align-items:center;justify-content:center;
+    padding:10px 14px;border-radius:10px;border:1px solid var(--blue);
+    background:var(--blue) !important;color:var(--white) !important;
+    text-decoration:none !important;font-weight:800;
+  }
+  .wrap a.btn:hover,.wrap a.btn:active,.wrap a.btn:focus{
+    background:var(--blue2) !important;border-color:var(--blue2) !important;color:var(--white) !important;
+  }
+  .wrap a.btn.secondary,.wrap a.btn.secondary:link,.wrap a.btn.secondary:visited{
+    background:var(--white) !important;color:var(--blue) !important;border-color:var(--blue) !important;
+  }
+  .wrap a.btn.secondary:hover,.wrap a.btn.secondary:active,.wrap a.btn.secondary:focus{
+    background:var(--bg) !important;color:var(--blue2) !important;border-color:var(--blue2) !important;
+  }
+  .wrap a.btn.gray,.wrap a.btn.gray:link,.wrap a.btn.gray:visited{
+    background:#111827 !important;border-color:#111827 !important;color:var(--white) !important;
+  }
+  .wrap a.btn.gray:hover,.wrap a.btn.gray:active,.wrap a.btn.gray:focus{
+    background:#0b1220 !important;border-color:#0b1220 !important;color:var(--white) !important;
+  }
+
+  table{width:100%;border-collapse:collapse;margin:14px 0 10px;}
+  th,td{border:1px solid var(--border);padding:10px;vertical-align:top;}
+  th{background:#F3F4F6;text-align:left;}
+  .small{font-size:.95rem;color:var(--muted);}
+  h1{margin:0 0 8px;line-height:1.25;}
+  h2{margin-top:30px;padding-top:8px;border-top:1px solid var(--border);}
+  h3{margin-top:16px;}
+  .q{font-weight:900;margin:14px 0 6px;}
+  .a{margin:0 0 10px;}
+  .tips{background:#f0fdf4;border:1px solid #bbf7d0;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .urgency{background:#fef2f2;border:1px solid #fca5a5;padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .target{background:#f0fdf4;border:1px solid #86efac;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .target ul{margin:8px 0 0 18px;}
+  .ad{background:#f9fafb;border:1px dashed var(--border);padding:10px 12px;border-radius:10px;margin:12px 0;}
+  .footer{margin-top:26px;padding-top:14px;border-top:1px solid var(--border);color:var(--muted);font-size:.95rem;}
+</style>
+
+<div class="wrap">
+  <h1>주택청약 저축·가점 계산·당첨 전략 총정리 (2026 최신)</h1>
+  <div class="meta">
+    <span class="badge">키워드: 주택청약 가점</span>
+    <span class="badge">업데이트: 2026-04-06</span>
+  </div>
+
+  <div class="notice">
+    <strong>먼저 확인!</strong><br/>
+    2026년 주택청약 제도가 대폭 개편되었습니다. 월 납입 한도 25만 원, 배우자 가입 기간 합산, 신생아 특공 신설 등 — 기존 정보와 달라진 부분이 많으니 반드시 최신 공고를 확인하세요.
+  </div>
+
+  <p class="small">
+    2026년 주택청약 납입 한도 25만 원 시대, 가점 84점 계산법부터 신생아·다자녀 특공, 부부 중복 청약, 신생아 특례 대출까지 — 당첨 확률을 높이는 전략을 총정리합니다.
+  </p>
+
+  <div class="lead">
+    "내 가점이면 어디 넣어야 당첨될까?" — 2026년 청약 시장은 출산 가구에 파격 우선권을 부여하고, 부부 중복 청약을 허용하며, 납입 한도를 2.5배로 올렸습니다. 제도가 바뀐 만큼 전략도 완전히 달라져야 합니다.
+  </div>
+
+  <div class="urgency">
+    <strong>왜 지금 확인해야 할까?</strong><br/>
+    구형 청약통장(예금·부금·저축) → 주택청약종합저축 전환 시한이 <strong>2026년 9월 30일</strong>입니다. 전환하지 않으면 민영+공공 모두 청약 가능한 '만능 통장'의 혜택을 놓치게 됩니다. 또한 매월 25만 원 납입을 지금 시작해야 공공분양 당첨선에 5년 만에 도달할 수 있습니다.
+  </div>
+
+  <div class="keysum">
+    <strong>핵심 요약 3줄</strong><br/>
+    월 납입 한도 25만 원 · 소득공제 300만 원 · 금리 최대 4.5%(우대형)<br/>
+    가점 84점 = 무주택(32) + 부양가족(35) + 가입기간(17) + 배우자 합산(최대 +3)<br/>
+    신생아 특공 20%↑ 배정 · 다자녀 2자녀↑ 완화 · 부부 중복 청약 허용
+  </div>
+
+  <div class="summary" id="top">
+    <h2 style="border-top:none;margin-top:0;">5줄 요약(결론)</h2>
+    <ul>
+      <li><strong>납입 한도</strong>: 월 10만→25만 원 상향 — 공공분양 당첨선 1,500만 원에 5년이면 도달</li>
+      <li><strong>가점 84점</strong>: 무주택 기간(32) + 부양가족(35) + 가입 기간(17) — 배우자 합산 최대 +3점</li>
+      <li><strong>특별공급</strong>: 신생아(2년 이내 출산) · 다자녀(2명↑) · 신혼(7년 이내) · 생애최초(100% 추첨)</li>
+      <li><strong>부부 중복</strong>: 동일 단지 각자 청약 가능 — 당첨 확률 산술적 2배</li>
+      <li><strong>특례 대출</strong>: 신생아 최저 1.8%(최대 5억) / 청년 주택드림 2%대(분양가 80%)</li>
+    </ul>
+
+    <div class="btns">
+      <a class="btn" href="https://www.applyhome.co.kr/" target="_blank" rel="noopener">청약홈 바로가기</a>
+      <a class="btn gray" href="https://www.hf.go.kr/" target="_blank" rel="noopener">주택도시기금(HF)</a>
+      <a class="btn secondary" href="https://www.molit.go.kr/" target="_blank" rel="noopener">국토교통부 공고</a>
+    </div>
+    <p class="small">※ 청약 자격·소득 기준은 2026년 4월 기준이며, 단지별 공고에 따라 변동될 수 있습니다.</p>
+  </div>
+
+  <div class="target">
+    <strong>이런 상황이라면 지금 바로 확인하세요</strong>
+    <ul>
+      <li>구형 청약통장(예금·부금)을 아직 전환하지 않았다면 — 2026.09.30 마감</li>
+      <li>2년 이내 출산했는데 신생아 특공을 몰라서 일반공급만 넣고 있다면</li>
+      <li>가점이 20~30점대라 "어차피 안 될 것 같다"고 포기하고 있다면 — 추첨제 60% 활용</li>
+    </ul>
+  </div>
+
+  <div class="toc">
+    <strong>목차</strong>
+    <ul>
+      <li><a href="#table">1) 청약 제도·가점·특공 비교표</a></li>
+      <li><a href="#quick">→ 나는 어디? 가점제 vs 추첨제 빠른 판단</a></li>
+      <li><a href="#how">2) 당첨 전략 실전 순서</a></li>
+      <li><a href="#docs">3) 서류 체크리스트</a></li>
+      <li><a href="#case">4) 경험/사례</a></li>
+      <li><a href="#faq">5) FAQ</a></li>
+      <li><a href="#check">6) 1분 체크리스트</a></li>
+      <li><a href="#update">업데이트 로그</a></li>
+    </ul>
+  </div>
+
+  <h2 id="table">1) 청약 제도·가점·특공 비교표</h2>
+
+  <h3>가점 항목별 배점 (총 84점)</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>가점 항목</th><th>최고 점수</th><th>배점 기준</th><th>2026년 변경 사항</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>무주택 기간</strong></td>
+        <td>32점</td>
+        <td>15년↑ (만 30세부터 기산)</td>
+        <td>미성년자 납입 인정 기간 확대 연계</td>
+      </tr>
+      <tr>
+        <td><strong>부양가족 수</strong></td>
+        <td>35점</td>
+        <td>6명↑ (1명당 5점)</td>
+        <td>태아 포함 · 다자녀 기준 완화</td>
+      </tr>
+      <tr>
+        <td><strong>가입 기간</strong></td>
+        <td>17점</td>
+        <td>15년↑</td>
+        <td>배우자 가입 기간 합산(최대 +3점)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>청약 저축 주요 변경 사항 (2026년 기준)</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>항목</th><th>기존 (2024.11 이전)</th><th>2026년 현재</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>월 납입 인정 한도</strong></td>
+        <td>10만 원</td>
+        <td>25만 원</td>
+      </tr>
+      <tr>
+        <td><strong>소득공제 연 한도</strong></td>
+        <td>240만 원</td>
+        <td>300만 원</td>
+      </tr>
+      <tr>
+        <td><strong>금리</strong></td>
+        <td>최대 2.8%</td>
+        <td>최대 3.1% (우대형 4.5%)</td>
+      </tr>
+      <tr>
+        <td><strong>통장 전환 기한</strong></td>
+        <td>해당 없음</td>
+        <td>2026.09.30까지</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>특별공급 유형별 비교</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>유형</th><th>대상</th><th>선정 방식 (2026)</th><th>핵심 포인트</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>신생아 특공</strong></td>
+        <td>2년 이내 출산 (혼인 무관)</td>
+        <td>소득순위 → 지역 → 추첨</td>
+        <td>공공 20%↑ 배정 · 소득 150~160%</td>
+      </tr>
+      <tr>
+        <td><strong>신혼부부</strong></td>
+        <td>혼인 7년 이내 / 6세↓ 자녀</td>
+        <td>우선공급(70%) + 추첨(30%)</td>
+        <td>혼인 전 이력 배제 적용</td>
+      </tr>
+      <tr>
+        <td><strong>다자녀</strong></td>
+        <td>2명↑ 미성년 자녀</td>
+        <td>배점표 고득점 순</td>
+        <td>3자녀→2자녀로 완화</td>
+      </tr>
+      <tr>
+        <td><strong>생애최초</strong></td>
+        <td>주택 소유 이력 없음</td>
+        <td>100% 추첨</td>
+        <td>1인 가구 전용 60㎡ 이하</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="ad">광고 위치 1</div>
+
+  <h3 id="quick">나는 어디? 가점제 vs 추첨제 10초 판단</h3>
+  <table>
+    <thead>
+      <tr><th></th><th>가점제 집중</th><th>추첨제 집중</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>대상</strong></td><td>가점 50점↑ · 기혼 · 부양가족 多</td><td>가점 20~30점대 · 1인 · 청년</td></tr>
+      <tr><td><strong>타겟 단지</strong></td><td>규제 지역 분상제 단지 (강남·서초·용산)</td><td>비규제 지역 + 소형 60㎡↓</td></tr>
+      <tr><td><strong>핵심 전략</strong></td><td>부부 중복 청약 + 배우자 합산</td><td>추첨 60% 비율 활용 + 뉴:홈 청년 특공</td></tr>
+      <tr><td><strong>한 줄 요약</strong></td><td>분상제 로또 단지에서 승부</td><td>소형 추첨 + 특공으로 확률 극대화</td></tr>
+    </tbody>
+  </table>
+  <p class="small">※ 규제 지역 60㎡↓ 추첨 60%, 비규제 지역 85㎡↓ 추첨 60% 이상 (2026 기준)</p>
+
+  <img src="summary_card_1080_housing_apply.png" alt="주택청약 가점 특공 요약 카드" />
+
+  <img src="quick_guide_1080_housing_apply.png" alt="주택청약 가점제 vs 추첨제 빠른 판단" />
+
+  <h2 id="how">2) 당첨 전략 실전 순서</h2>
+  <ol>
+    <li><strong>통장 점검</strong>: 구형 통장이면 주택청약종합저축으로 전환 (2026.09.30 마감) → 매월 25만 원 납입 시작</li>
+    <li><strong>가점 계산</strong>: 청약홈(applyhome.co.kr) 가점 계산기로 무주택·부양가족·가입 기간 점수 확인</li>
+    <li><strong>배우자 합산</strong>: 배우자 청약통장 가입 기간 확인 → 50% 인정(최대 +3점) 반영 여부 체크</li>
+    <li><strong>전형 선택</strong>: 가점 50↑ → 가점제 집중 / 가점 30↓ → 추첨제+특공 / 출산 가구 → 신생아 특공</li>
+    <li><strong>타겟 단지 선정</strong>: 2026년 분양 일정 확인 → 자금 계획(스트레스 DSR 반영) → 청약 신청</li>
+  </ol>
+
+  <img src="compare_card_1080_housing_apply.png" alt="주택청약 2024 vs 2026 변화 비교 카드" />
+
+  <div class="ad">광고 위치 2</div>
+
+  <h2 id="docs">3) 서류 체크리스트</h2>
+  <h3>기본 서류</h3>
+  <ul>
+    <li>주민등록등본 (세대 전원 포함)</li>
+    <li>주택청약종합저축 가입 확인서</li>
+    <li>소득금액증명원 또는 건강보험 보수월액 통보서</li>
+  </ul>
+  <h3>가점 증빙 서류</h3>
+  <ul>
+    <li>무주택 확인: 등기사항전부증명서 (세대 전원)</li>
+    <li>부양가족: 주민등록등본 (직계존속 3년↑ 동일 등본 · 만 30세↑ 미혼 자녀 1년↑)</li>
+    <li>배우자 가입 기간: 배우자 청약통장 가입 확인서</li>
+  </ul>
+  <h3>특별공급 추가 서류</h3>
+  <ul>
+    <li>신생아 특공: 출생증명서 또는 가족관계증명서 (2년 이내 출산 확인)</li>
+    <li>신혼부부: 혼인관계증명서 (혼인 7년 이내 확인)</li>
+    <li>다자녀: 가족관계증명서 (미성년 자녀 2명↑ 확인)</li>
+    <li>생애최초: 주택 소유 이력 조회 확인서</li>
+  </ul>
+
+  <h2 id="case">4) 경험/사례</h2>
+  <p>지인 A씨(35세, 맞벌이 부부)는 가점 52점으로 서울 일반공급에 계속 낙첨하다가, 2026년 제도 개편 후 배우자 가입 기간 합산(+3점)과 부부 중복 청약을 활용했습니다. 부부 각자 같은 비규제 지역 단지에 청약해 한 명이 당첨되었고, 당첨 확률이 사실상 2배로 올라간 셈이라고 합니다.</p>
+  <p>B씨(29세, 미혼)는 가점 18점이라 포기하고 있었는데, 비규제 지역 전용 59㎡ 추첨제에 넣어 당첨됐습니다. 규제 지역 밖 소형 평수는 추첨 비율이 60% 이상이라 가점이 낮아도 충분히 가능하다는 걸 알게 되었다고 합니다.</p>
+  <p>C씨 부부(출산 8개월)는 신생아 특별공급으로 뉴:홈 나눔형에 당첨되어 시세의 70%에 분양받았습니다. 신생아 특례 대출(금리 1.8%)까지 연계해 월 상환금이 기존 전세 이자보다 적어졌다고 합니다. 특공은 소득순위로 선정되므로 맞벌이 부부는 소득 기준(150~160%)을 꼼꼼히 확인해야 한다고 조언했습니다.</p>
+
+  <img src="rejection_card_1080_housing_apply.png" alt="주택청약 부적격 사유 TOP 5" />
+
+  <h2 id="faq">5) FAQ</h2>
+  <h3>부적격 당첨 사유 TOP 5</h3>
+  <ol>
+    <li><strong>부양가족 주소 불일치</strong> — 직계존속 3년·미혼 자녀 1년 동일 등본 미충족</li>
+    <li><strong>무주택 기간 오산</strong> — 만 30세 미만은 기간 기산 불가 (혼인 시 혼인일부터)</li>
+    <li><strong>소득 기준 초과</strong> — 맞벌이 합산 소득 미확인</li>
+    <li><strong>재당첨 제한 위반</strong> — 규제 지역 5년 이내 당첨 세대원 해당</li>
+    <li><strong>통장 미전환</strong> — 구형 통장으로 민영주택 청약 불가</li>
+  </ol>
+
+  <h3>소득·자산 기준 (2026)</h3>
+  <table>
+    <thead>
+      <tr><th>가구원 수</th><th>100% (우선공급)</th><th>140% (맞벌이 신혼)</th><th>160% (민간 신생아)</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>1인</strong></td><td>약 359만 원</td><td>약 503만 원</td><td>약 575만 원</td></tr>
+      <tr><td><strong>2인</strong></td><td>약 569만 원</td><td>약 796만 원</td><td>약 910만 원</td></tr>
+      <tr><td><strong>3인</strong></td><td>약 700만 원</td><td>약 980만 원</td><td>약 1,120만 원</td></tr>
+      <tr><td><strong>4인</strong></td><td>약 820만 원</td><td>약 1,148만 원</td><td>약 1,312만 원</td></tr>
+    </tbody>
+  </table>
+  <p class="small">※ 1인 가구 20%p, 2인 가구 10%p 가산 적용 시 기준액이 더 높아질 수 있습니다.</p>
+
+  <h3>특례 대출 비교</h3>
+  <table>
+    <thead>
+      <tr><th>항목</th><th>신생아 특례 대출</th><th>청년 주택드림 대출</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>대상</strong></td><td>2023.01.01↑ 출산 가구</td><td>청년 주택드림 통장 1년↑</td></tr>
+      <tr><td><strong>금리</strong></td><td>최저 1.8%</td><td>연 2%대</td></tr>
+      <tr><td><strong>한도</strong></td><td>최대 5억 (LTV 70~80%)</td><td>분양가 80%</td></tr>
+      <tr><td><strong>소득 요건</strong></td><td>부부합산 연 2억↓</td><td>연 5,000만↓</td></tr>
+      <tr><td><strong>특례 기간</strong></td><td>1자녀 5년 (추가 출산 시 최대 15년)</td><td>상환 완료까지</td></tr>
+    </tbody>
+  </table>
+
+  <h3>자주 묻는 질문</h3>
+  <p class="q">Q1. 월 25만 원 납입은 언제부터 시작해야 유리한가요?</p>
+  <p class="a">지금 즉시 시작하는 것이 가장 유리합니다. 공공분양 당첨선(약 1,500만 원)에 도달하려면 매월 25만 원 × 60개월(5년)이 필요하며, 기존 10만 원 납입 때보다 도달 기간이 60% 단축됩니다.</p>
+
+  <p class="q">Q2. 배우자 가입 기간 합산은 자동으로 되나요?</p>
+  <p class="a">자동 반영이 아닙니다. 청약 신청 시 배우자 정보를 별도로 입력하고, 배우자 청약통장 가입 확인서를 제출해야 합산 가점(최대 +3점)이 반영됩니다.</p>
+
+  <p class="q">Q3. 부부 중복 청약으로 둘 다 당첨되면 어떻게 되나요?</p>
+  <p class="a">둘 다 당첨되면 먼저 신청한 건이 유효하게 인정되고, 나머지는 자동 취소됩니다. 부적격 처리는 아니므로 불이익 없이 당첨 확률만 2배로 높일 수 있습니다.</p>
+
+  <p class="q">Q4. 신생아 특공은 미혼 출산도 해당되나요?</p>
+  <p class="a">네, 혼인 여부와 관계없이 2년 이내 출산(태아·입양아 포함)이면 신청 가능합니다. 이는 저출산 대응을 위한 정책 방향이 반영된 결과입니다.</p>
+
+  <p class="q">Q5. 규제 지역과 비규제 지역의 가장 큰 차이는?</p>
+  <p class="a">규제 지역(강남·서초·송파·용산)은 1순위 자격이 세대주+가입 2년↑으로 제한되고 재당첨 제한 7~10년이 적용됩니다. 비규제 지역은 세대원도 청약 가능하고 가입 1년(수도권)/6개월(지방)이면 1순위입니다.</p>
+
+  <p class="q">Q6. 뉴:홈 나눔형·선택형·일반형 차이가 뭔가요?</p>
+  <p class="a">나눔형은 시세 70% 분양+환매 시 차익 70% 보장(자금 부족 청년층 적합), 선택형은 6년 임대 후 분양 결정(가격 변동 리스크 분산), 일반형은 기존 공공분양 방식(일반공급 30% 확대)입니다.</p>
+
+  <p class="q">Q7. 직계존속을 부양가족으로 넣으려면 조건이 뭔가요?</p>
+  <p class="a">세대주로서 3년 이상 계속 같은 주민등록등본에 등재되어 있어야 하며, 해당 존속도 무주택자여야 합니다. 청약 직전에 주소를 옮기면 부적격 사유가 됩니다.</p>
+
+  <p class="q">Q8. 스트레스 DSR 3단계란 무엇인가요?</p>
+  <p class="a">대출 한도 산정 시 미래 금리 상승분을 가산하는 제도로, 규제 지역은 3%↑ 가산 금리가 적용될 수 있습니다. 실제 대출 가능 금액이 과거 대비 1~2억 원 줄어드므로 자금 계획 시 반드시 반영해야 합니다.</p>
+
+  <p class="q">Q9. 자동차 가액 기준은 어떻게 되나요?</p>
+  <p class="a">공공분양(뉴:홈) 기준 자동차 가액은 4,542만 원 이하로 제한됩니다. 전기차는 정부 보조금을 제외한 금액으로 산정하므로, 보조금 차감 후 기준을 충족하는지 확인하세요.</p>
+
+  <p class="q">Q10. 신생아 특례 대출로 기존 대출을 갈아탈 수 있나요?</p>
+  <p class="a">네, 기존 고금리 주택담보대출을 대환하는 용도로도 사용 가능합니다. 금리 1.8%~로 전환하면 월 상환금이 크게 줄어드므로, 2023년 이후 출산 가구라면 반드시 확인하세요.</p>
+
+  <div class="tips">
+    <strong>실전 팁</strong><br/>
+    청약홈 가점 계산기를 반드시 사전에 돌려보세요. 부양가족 산정 실수(등본 기간 미달)가 부적격 당첨의 가장 큰 원인입니다. 특히 부모님을 부양가족으로 넣을 예정이라면, 최소 3년 전부터 동일 주소지에 등재되어야 합니다.
+  </div>
+
+  <img src="checklist_card_1080_housing_apply.png" alt="주택청약 당첨 전 1분 체크리스트" />
+
+  <h2 id="check">6) 청약 전 1분 체크리스트</h2>
+  <ul>
+    <li>구형 통장 → 주택청약종합저축 전환 완료 (2026.09.30 마감)</li>
+    <li>매월 25만 원 납입 설정 확인</li>
+    <li>가점 계산기로 총점 확인 (청약홈)</li>
+    <li>배우자 가입 기간 합산 여부 확인</li>
+    <li>특별공급 자격 확인 (신생아·신혼·다자녀·생애최초)</li>
+    <li>소득·자산 기준 충족 여부 점검</li>
+    <li>자금 계획 수립 (스트레스 DSR 반영)</li>
+  </ul>
+  <p class="small">관련 글: <a href="#">전월세 지원 총정리(#42)</a> / <a href="#">다자녀 혜택 총정리(#41)</a> / <a href="#">주거급여 신청(#7)</a></p>
+
+  <div class="ad">광고 위치 3</div>
+
+  <div class="tips">
+    <strong>참고/문의처</strong><br/>
+    청약홈: applyhome.co.kr (청약 신청·가점 계산기)<br/>
+    주택도시기금: hf.go.kr (특례 대출·분양 정보)<br/>
+    국토교통부: molit.go.kr (정책·공고)<br/>
+    문의 전화: 주택도시보증공사 1566-9009 / 국토교통부 1599-0001
+  </div>
+
+  <div class="notice">
+    <strong>면책 안내</strong><br/>
+    이 글은 2026년 4월 기준 공개된 정보를 바탕으로 작성된 참고용 콘텐츠이며, 부동산·금융 관련 전문 상담을 대체하지 않습니다. 청약 자격·가점 계산·대출 조건 등 구체적인 의사결정은 반드시 청약홈 공고 및 해당 금융기관과 상담한 뒤 진행하시기 바랍니다. 제도·소득 기준·대출 금리는 시점에 따라 변동될 수 있으며, 블로그 운영자는 이 글의 정보를 근거로 한 어떠한 손실에 대해서도 책임을 지지 않습니다.
+  </div>
+
+  <div class="footer" id="update">
+    <strong>업데이트 로그</strong><br/>
+    - 2026-04-06: 최초 작성 (2026년 납입 한도 25만·배우자 합산·신생아 특공·부부 중복 청약·특례 대출 반영)<br/>
+    <span class="small">※ 단지별 공고에 따라 세부 자격·소득 기준이 다를 수 있습니다. 청약 전 공고문 필독!</span>
+  </div>
+</div>

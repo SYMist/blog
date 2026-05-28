@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- Header -->
+  <rect x="60" y="60" width="960" height="110" rx="16" fill="#0D2347"/>
+  <text x="540" y="108" font-family="-apple-system, sans-serif" font-size="38" font-weight="700" fill="#ffffff" text-anchor="middle">증여액별 빠른 판단 가이드</text>
+  <text x="540" y="148" font-family="-apple-system, sans-serif" font-size="26" fill="#A0B4D0" text-anchor="middle">내 상황에 맞는 케이스를 확인하세요</text>
+
+  <!-- Case 1 -->
+  <rect x="60" y="200" width="960" height="170" rx="16" fill="#0D2347"/>
+  <rect x="60" y="200" width="8" height="170" rx="4" fill="#34D399"/>
+  <text x="100" y="244" font-family="-apple-system, sans-serif" font-size="28" font-weight="700" fill="#34D399">CASE 1 — 증여가액 1억원</text>
+  <text x="100" y="282" font-family="-apple-system, sans-serif" font-size="24" fill="#A0B4D0">공제 5,000만원 → 과세표준 5,000만원 × 10% = 산출세액 500만원</text>
+  <text x="100" y="316" font-family="-apple-system, sans-serif" font-size="26" fill="#ffffff">자진신고 3% 감면 → </text>
+  <text x="362" y="316" font-family="-apple-system, sans-serif" font-size="32" font-weight="700" fill="#34D399">납부세액 약 485만원</text>
+  <text x="100" y="352" font-family="-apple-system, sans-serif" font-size="22" fill="#F59E0B">★ 초기 주택 마련 자금 지원 시 가장 경제적인 구간</text>
+
+  <!-- Case 2 -->
+  <rect x="60" y="390" width="960" height="170" rx="16" fill="#1A3270"/>
+  <rect x="60" y="390" width="8" height="170" rx="4" fill="#60A5FA"/>
+  <text x="100" y="434" font-family="-apple-system, sans-serif" font-size="28" font-weight="700" fill="#60A5FA">CASE 2 — 증여가액 3억원</text>
+  <text x="100" y="472" font-family="-apple-system, sans-serif" font-size="24" fill="#A0B4D0">공제 5,000만원 → 과세표준 2.5억 × 20% − 1,000만 = 산출세액 4,000만원</text>
+  <text x="100" y="506" font-family="-apple-system, sans-serif" font-size="26" fill="#ffffff">자진신고 3% 감면 → </text>
+  <text x="362" y="506" font-family="-apple-system, sans-serif" font-size="32" font-weight="700" fill="#60A5FA">납부세액 약 3,880만원</text>
+  <text x="100" y="542" font-family="-apple-system, sans-serif" font-size="22" fill="#F59E0B">★ 혼인·출산 추가공제(+1억) 적용 시 1,940만원으로 절반 절감</text>
+
+  <!-- Case 3 -->
+  <rect x="60" y="580" width="960" height="170" rx="16" fill="#0D2347"/>
+  <rect x="60" y="580" width="8" height="170" rx="4" fill="#F59E0B"/>
+  <text x="100" y="624" font-family="-apple-system, sans-serif" font-size="28" font-weight="700" fill="#F59E0B">CASE 3 — 증여가액 5억원</text>
+  <text x="100" y="662" font-family="-apple-system, sans-serif" font-size="24" fill="#A0B4D0">공제 5,000만원 → 과세표준 4.5억 × 20% − 1,000만 = 산출세액 8,000만원</text>
+  <text x="100" y="696" font-family="-apple-system, sans-serif" font-size="26" fill="#ffffff">자진신고 3% 감면 → </text>
+  <text x="362" y="696" font-family="-apple-system, sans-serif" font-size="32" font-weight="700" fill="#F59E0B">납부세액 약 7,760만원</text>
+  <text x="100" y="732" font-family="-apple-system, sans-serif" font-size="22" fill="#F59E0B">★ 부담부 증여·분산 증여 병행 시 세 부담 대폭 절감 가능</text>
+
+  <!-- Bottom tips -->
+  <rect x="60" y="772" width="460" height="130" rx="12" fill="#1A3270"/>
+  <text x="290" y="812" font-family="-apple-system, sans-serif" font-size="24" font-weight="700" fill="#A0B4D0" text-anchor="middle">10년 분산 증여</text>
+  <text x="290" y="848" font-family="-apple-system, sans-serif" font-size="22" fill="#ffffff" text-anchor="middle">10세 2,000만 + 20세 5,000만</text>
+  <text x="290" y="880" font-family="-apple-system, sans-serif" font-size="22" fill="#ffffff" text-anchor="middle">+ 30세 5,000만 = 세금 0원</text>
+
+  <rect x="560" y="772" width="460" height="130" rx="12" fill="#1A3270"/>
+  <text x="790" y="812" font-family="-apple-system, sans-serif" font-size="24" font-weight="700" fill="#A0B4D0" text-anchor="middle">차용증 활용</text>
+  <text x="790" y="848" font-family="-apple-system, sans-serif" font-size="22" fill="#ffffff" text-anchor="middle">이자 연 1,000만 미만이면</text>
+  <text x="790" y="880" font-family="-apple-system, sans-serif" font-size="22" fill="#ffffff" text-anchor="middle">최대 약 2.17억 무이자 대출 가능</text>
+
+  <!-- Footer -->
+  <text x="540" y="980" font-family="-apple-system, sans-serif" font-size="26" font-weight="700" fill="#F59E0B" text-anchor="middle">deluxo.co.kr</text>
+  <text x="540" y="1016" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">부모-자녀 증여세 빠른 판단 가이드 | 2026년 최신</text>
+</svg>

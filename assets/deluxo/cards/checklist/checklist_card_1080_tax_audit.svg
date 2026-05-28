@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+    <linearGradient id="rowBg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.06)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0.02)"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <!-- Badge -->
+  <rect x="80" y="72" width="180" height="48" rx="24" fill="#F59E0B"/>
+  <text x="170" y="103" font-family="'Pretendard', sans-serif" font-size="22" font-weight="700" fill="#0B1F3B" text-anchor="middle">1분 체크</text>
+
+  <!-- Title -->
+  <text x="80" y="185" font-family="'Pretendard', sans-serif" font-size="44" font-weight="800" fill="#FFFFFF">세무조사 대비 체크리스트</text>
+
+  <!-- Divider -->
+  <rect x="80" y="215" width="120" height="4" rx="2" fill="#F59E0B"/>
+
+  <!-- Row 1 -->
+  <rect x="60" y="270" width="960" height="90" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <rect x="100" y="295" width="40" height="40" rx="8" fill="#F59E0B"/>
+  <text x="120" y="325" font-family="'Pretendard', sans-serif" font-size="24" font-weight="800" fill="#0B1F3B" text-anchor="middle">&#x2713;</text>
+  <text x="165" y="325" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#FFFFFF">사업용·개인 계좌 완전 분리</text>
+
+  <!-- Row 2 -->
+  <rect x="60" y="380" width="960" height="90" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <rect x="100" y="405" width="40" height="40" rx="8" fill="#F59E0B"/>
+  <text x="120" y="435" font-family="'Pretendard', sans-serif" font-size="24" font-weight="800" fill="#0B1F3B" text-anchor="middle">&#x2713;</text>
+  <text x="165" y="435" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#FFFFFF">3만 원 초과 거래 증빙 확보</text>
+
+  <!-- Row 3 -->
+  <rect x="60" y="490" width="960" height="90" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <rect x="100" y="515" width="40" height="40" rx="8" fill="#F59E0B"/>
+  <text x="120" y="545" font-family="'Pretendard', sans-serif" font-size="24" font-weight="800" fill="#0B1F3B" text-anchor="middle">&#x2713;</text>
+  <text x="165" y="545" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#FFFFFF">홈택스 신고도움서비스 확인</text>
+
+  <!-- Row 4 -->
+  <rect x="60" y="600" width="960" height="90" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <rect x="100" y="625" width="40" height="40" rx="8" fill="#F59E0B"/>
+  <text x="120" y="655" font-family="'Pretendard', sans-serif" font-size="24" font-weight="800" fill="#0B1F3B" text-anchor="middle">&#x2713;</text>
+  <text x="165" y="655" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#FFFFFF">3년 신고 매출 = 통장 입금 대조</text>
+
+  <!-- Row 5 -->
+  <rect x="60" y="710" width="960" height="90" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <rect x="100" y="735" width="40" height="40" rx="8" fill="#F59E0B"/>
+  <text x="120" y="765" font-family="'Pretendard', sans-serif" font-size="24" font-weight="800" fill="#0B1F3B" text-anchor="middle">&#x2713;</text>
+  <text x="165" y="765" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#FFFFFF">인건비 원천세 신고 완료</text>
+
+  <!-- Row 6 -->
+  <rect x="60" y="820" width="960" height="90" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <rect x="100" y="845" width="40" height="40" rx="8" fill="#F59E0B"/>
+  <text x="120" y="875" font-family="'Pretendard', sans-serif" font-size="24" font-weight="800" fill="#0B1F3B" text-anchor="middle">&#x2713;</text>
+  <text x="165" y="875" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#FFFFFF">5년분 증빙 정리·백업 완료</text>
+
+  <!-- Row 7 -->
+  <rect x="60" y="930" width="960" height="90" rx="16" fill="rgba(245,158,11,0.15)" stroke="#F59E0B" stroke-width="2"/>
+  <rect x="100" y="955" width="40" height="40" rx="8" fill="#F59E0B"/>
+  <text x="120" y="985" font-family="'Pretendard', sans-serif" font-size="24" font-weight="800" fill="#0B1F3B" text-anchor="middle">&#x2713;</text>
+  <text x="165" y="985" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#F59E0B">수정신고 필요 건 즉시 처리</text>
+</svg>

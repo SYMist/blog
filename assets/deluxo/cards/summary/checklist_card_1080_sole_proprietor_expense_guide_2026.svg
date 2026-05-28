@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="8" fill="#34D399"/>
+
+  <!-- Title -->
+  <text x="540" y="58" font-family="-apple-system, sans-serif" font-size="28" font-weight="900" fill="#34D399" text-anchor="middle">종합소득세 신고 전 6단계 경비 체크리스트</text>
+  <text x="540" y="92" font-family="-apple-system, sans-serif" font-size="17" font-weight="700" fill="#A0B4D0" text-anchor="middle">이 6가지 확인 후 신고하면 경비 누락과 가산세 위험을 줄일 수 있습니다</text>
+
+  <!-- Item 1 -->
+  <rect x="30" y="114" width="1020" height="132" rx="12" fill="#1A3270"/>
+  <rect x="30" y="114" width="6" height="132" rx="3" fill="#34D399"/>
+  <circle cx="94" cy="180" r="28" fill="#34D399"/>
+  <text x="94" y="188" font-family="-apple-system, sans-serif" font-size="24" font-weight="900" fill="#0B1F3B" text-anchor="middle">1</text>
+  <text x="144" y="156" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">홈택스에 사업용 신용카드를 등록했다</text>
+  <text x="144" y="185" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0">홈택스 → 조회/발급 → 사업용 신용카드 등록 → 연간 내역 자동 집계</text>
+  <text x="144" y="212" font-family="-apple-system, sans-serif" font-size="14" fill="#34D399">→ 등록 안 했다면 신용카드 내역서를 직접 다운로드해 경비 항목 분리</text>
+
+  <!-- Item 2 -->
+  <rect x="30" y="252" width="1020" height="132" rx="12" fill="#0D2347"/>
+  <rect x="30" y="252" width="6" height="132" rx="3" fill="#34D399"/>
+  <circle cx="94" cy="318" r="28" fill="#34D399"/>
+  <text x="94" y="326" font-family="-apple-system, sans-serif" font-size="24" font-weight="900" fill="#0B1F3B" text-anchor="middle">2</text>
+  <text x="144" y="294" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">차량 경비가 1,500만원 이하이거나 운행기록부가 있다</text>
+  <text x="144" y="323" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0">운행기록부 없는 경우: 보험료+주유비+수리비 합산 ≤ 1,500만원 확인</text>
+  <text x="144" y="350" font-family="-apple-system, sans-serif" font-size="14" fill="#34D399">→ 1,500만원 초과 시 운행기록부로 업무 비율 입증해야 전액 인정</text>
+
+  <!-- Item 3 -->
+  <rect x="30" y="390" width="1020" height="132" rx="12" fill="#1A3270"/>
+  <rect x="30" y="390" width="6" height="132" rx="3" fill="#F59E0B"/>
+  <circle cx="94" cy="456" r="28" fill="#F59E0B"/>
+  <text x="94" y="464" font-family="-apple-system, sans-serif" font-size="24" font-weight="900" fill="#0B1F3B" text-anchor="middle">3</text>
+  <text x="144" y="432" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">3만원 이상 현금 지출에 현금영수증을 받았다</text>
+  <text x="144" y="461" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0">3만원+ 적격증빙 없으면 지출금액의 2% 증빙불비 가산세 — 홈택스에서 현금영수증 조회</text>
+  <text x="144" y="488" font-family="-apple-system, sans-serif" font-size="14" fill="#F59E0B">→ 빠뜨린 게 있다면 당시 상호·금액·날짜를 기억해 소명 자료 준비</text>
+
+  <!-- Item 4 -->
+  <rect x="30" y="528" width="1020" height="132" rx="12" fill="#0D2347"/>
+  <rect x="30" y="528" width="6" height="132" rx="3" fill="#F59E0B"/>
+  <circle cx="94" cy="594" r="28" fill="#F59E0B"/>
+  <text x="94" y="602" font-family="-apple-system, sans-serif" font-size="24" font-weight="900" fill="#0B1F3B" text-anchor="middle">4</text>
+  <text x="144" y="570" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">직원 급여는 근로계약서와 통장 이체로 증명된다</text>
+  <text x="144" y="599" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0">가족 직원 포함 — 현금 지급은 소명 불가, 통장 이체 필수</text>
+  <text x="144" y="626" font-family="-apple-system, sans-serif" font-size="14" fill="#F59E0B">→ 4대보험 납부확인서도 함께 보관 (국민건강보험 EDI에서 발급)</text>
+
+  <!-- Item 5 -->
+  <rect x="30" y="666" width="1020" height="132" rx="12" fill="#1A3270"/>
+  <rect x="30" y="666" width="6" height="132" rx="3" fill="#EF4444"/>
+  <circle cx="94" cy="732" r="28" fill="#EF4444"/>
+  <text x="94" y="740" font-family="-apple-system, sans-serif" font-size="24" font-weight="900" fill="#FFFFFF" text-anchor="middle">5</text>
+  <text x="144" y="708" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">접대비가 연 1,200만원 이하이고 적격증빙이 있다</text>
+  <text x="144" y="737" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0">1,200만원 초과분은 경비 불인정 | 3만원+ 신용카드·세금계산서 필수</text>
+  <text x="144" y="764" font-family="-apple-system, sans-serif" font-size="14" fill="#EF4444">→ 경조사비는 건당 20만원 한도 별도 — 청첩장·부고장 + 영수증 보관</text>
+
+  <!-- Item 6 -->
+  <rect x="30" y="804" width="1020" height="132" rx="12" fill="#0D2347"/>
+  <rect x="30" y="804" width="6" height="132" rx="3" fill="#EF4444"/>
+  <circle cx="94" cy="870" r="28" fill="#EF4444"/>
+  <text x="94" y="878" font-family="-apple-system, sans-serif" font-size="24" font-weight="900" fill="#FFFFFF" text-anchor="middle">6</text>
+  <text x="144" y="846" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">대표자 급여·소득세·벌과금을 경비로 넣지 않았다</text>
+  <text x="144" y="875" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0">이 항목들이 경비로 들어가면 세무조사 시 전액 부인 + 가산세 + 추징</text>
+  <text x="144" y="902" font-family="-apple-system, sans-serif" font-size="14" fill="#EF4444">→ 의심스러운 항목은 세무사 또는 국세청(☎126)에 확인 후 처리</text>
+
+  <text x="540" y="1000" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준 | hometax.go.kr | 국세청 ☎126 | 개인 사업 상황에 따라 상이</text>
+  <rect x="0" y="1072" width="1080" height="8" fill="#34D399"/>
+</svg>

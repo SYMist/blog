@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EFF6FF"/>
+      <stop offset="100%" stop-color="#F0F9FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg1)"/>
+
+  <text x="540" y="60" font-family="sans-serif" font-size="32" font-weight="900" fill="#111827" text-anchor="middle">경차 유류세 환급 카드 3사 비교</text>
+  <text x="540" y="95" font-family="sans-serif" font-size="20" fill="#6B7280" text-anchor="middle">2026년 기준 | 연간 최대 30만 원 환급 (3사 동일)</text>
+
+  <!-- 공통 환급 -->
+  <rect x="50" y="120" width="980" height="70" rx="16" fill="#1E40AF"/>
+  <text x="540" y="158" font-family="sans-serif" font-size="22" font-weight="800" fill="#FFF" text-anchor="middle">유류세 환급: 휘발유·경유 250원/L | LPG 161원/L | 연 최대 30만 원 (3사 동일)</text>
+
+  <!-- 신한 카드 -->
+  <rect x="50" y="215" width="310" height="410" rx="24" fill="#FFF" stroke="#BFDBFE" stroke-width="2"/>
+  <rect x="50" y="215" width="310" height="60" rx="24" fill="#1E40AF"/>
+  <rect x="50" y="251" width="310" height="24" fill="#1E40AF"/>
+  <text x="205" y="254" font-family="sans-serif" font-size="22" font-weight="900" fill="#FFF" text-anchor="middle">신한 경차사랑</text>
+
+  <text x="80" y="310" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827">주유 추가 할인</text>
+  <text x="330" y="310" font-family="sans-serif" font-size="20" font-weight="900" fill="#1E40AF" text-anchor="end">80원/L</text>
+  <line x1="80" y1="325" x2="330" y2="325" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="80" y="350" font-family="sans-serif" font-size="16" fill="#6B7280">모든 주유소</text>
+
+  <text x="80" y="390" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827">합산 절감</text>
+  <text x="330" y="390" font-family="sans-serif" font-size="22" font-weight="900" fill="#059669" text-anchor="end">330원/L</text>
+  <line x1="80" y1="405" x2="330" y2="405" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="80" y="440" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827">생활 혜택</text>
+  <text x="80" y="468" font-family="sans-serif" font-size="16" fill="#6B7280">편의점·병원·커피 10%</text>
+  <text x="80" y="492" font-family="sans-serif" font-size="16" fill="#6B7280">마트 5% 할인</text>
+  <line x1="80" y1="508" x2="330" y2="508" stroke="#E5E7EB" stroke-width="1"/>
+
+  <rect x="70" y="530" width="270" height="40" rx="10" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1"/>
+  <text x="205" y="557" font-family="sans-serif" font-size="16" font-weight="700" fill="#065F46" text-anchor="middle">생활비 카드 겸용에 최적</text>
+
+  <text x="205" y="605" font-family="sans-serif" font-size="14" fill="#6B7280" text-anchor="middle">전월 실적 30만+ | 연회비 0원</text>
+
+  <!-- 현대 카드 -->
+  <rect x="385" y="215" width="310" height="410" rx="24" fill="#FFF" stroke="#FED7AA" stroke-width="2"/>
+  <rect x="385" y="215" width="310" height="60" rx="24" fill="#EA580C"/>
+  <rect x="385" y="251" width="310" height="24" fill="#EA580C"/>
+  <text x="540" y="254" font-family="sans-serif" font-size="22" font-weight="900" fill="#FFF" text-anchor="middle">현대 경차전용</text>
+
+  <text x="415" y="310" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827">주유 추가 할인</text>
+  <text x="665" y="310" font-family="sans-serif" font-size="20" font-weight="900" fill="#EA580C" text-anchor="end">150원/L</text>
+  <line x1="415" y1="325" x2="665" y2="325" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="415" y="350" font-family="sans-serif" font-size="16" fill="#DC2626">현대오일뱅크·SK 한정</text>
+
+  <text x="415" y="390" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827">합산 절감</text>
+  <text x="665" y="390" font-family="sans-serif" font-size="22" font-weight="900" fill="#059669" text-anchor="end">400원/L</text>
+  <line x1="415" y1="405" x2="665" y2="405" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="415" y="440" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827">생활 혜택</text>
+  <text x="415" y="468" font-family="sans-serif" font-size="16" fill="#6B7280">0.2% M포인트 적립</text>
+  <text x="415" y="492" font-family="sans-serif" font-size="16" fill="#6B7280">보험료 할인</text>
+  <line x1="415" y1="508" x2="665" y2="508" stroke="#E5E7EB" stroke-width="1"/>
+
+  <rect x="405" y="530" width="270" height="40" rx="10" fill="#FFF7ED" stroke="#FED7AA" stroke-width="1"/>
+  <text x="540" y="557" font-family="sans-serif" font-size="16" font-weight="700" fill="#9A3412" text-anchor="middle">주유 할인 극대화에 최적</text>
+
+  <text x="540" y="605" font-family="sans-serif" font-size="14" fill="#6B7280" text-anchor="middle">전월 실적 30만+ | 연회비 0원</text>
+
+  <!-- 롯데 카드 -->
+  <rect x="720" y="215" width="310" height="410" rx="24" fill="#FFF" stroke="#BFDBFE" stroke-width="2"/>
+  <rect x="720" y="215" width="310" height="60" rx="24" fill="#7C3AED"/>
+  <rect x="720" y="251" width="310" height="24" fill="#7C3AED"/>
+  <text x="875" y="254" font-family="sans-serif" font-size="22" font-weight="900" fill="#FFF" text-anchor="middle">롯데 경차smart</text>
+
+  <text x="750" y="310" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827">주유 추가 할인</text>
+  <text x="1000" y="310" font-family="sans-serif" font-size="20" font-weight="900" fill="#7C3AED" text-anchor="end">80원/L</text>
+  <line x1="750" y1="325" x2="1000" y2="325" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="750" y="350" font-family="sans-serif" font-size="16" fill="#6B7280">모든 주유소</text>
+
+  <text x="750" y="390" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827">합산 절감</text>
+  <text x="1000" y="390" font-family="sans-serif" font-size="22" font-weight="900" fill="#059669" text-anchor="end">330원/L</text>
+  <line x1="750" y1="405" x2="1000" y2="405" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="750" y="440" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827">생활 혜택</text>
+  <text x="750" y="468" font-family="sans-serif" font-size="16" fill="#6B7280">대중교통 10%</text>
+  <text x="750" y="492" font-family="sans-serif" font-size="16" fill="#6B7280">롯데마트 10% 할인</text>
+  <line x1="750" y1="508" x2="1000" y2="508" stroke="#E5E7EB" stroke-width="1"/>
+
+  <rect x="740" y="530" width="270" height="40" rx="10" fill="#F5F3FF" stroke="#C4B5FD" stroke-width="1"/>
+  <text x="875" y="557" font-family="sans-serif" font-size="16" font-weight="700" fill="#5B21B6" text-anchor="middle">롯데 계열 이용자에 최적</text>
+
+  <text x="875" y="605" font-family="sans-serif" font-size="14" fill="#6B7280" text-anchor="middle">전월 실적 30만+ | 연회비 0원</text>
+
+  <!-- 하단 환급 시뮬레이션 -->
+  <rect x="50" y="660" width="980" height="130" rx="20" fill="#FFF" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="540" y="695" font-family="sans-serif" font-size="22" font-weight="800" fill="#1E40AF" text-anchor="middle">월 1,500km 주행 시 연간 환급 시뮬레이션</text>
+  <rect x="80" y="715" width="290" height="55" rx="14" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1"/>
+  <text x="225" y="740" font-family="sans-serif" font-size="16" font-weight="700" fill="#065F46" text-anchor="middle">휘발유·경유: 100L × 250원</text>
+  <text x="225" y="762" font-family="sans-serif" font-size="18" font-weight="900" fill="#059669" text-anchor="middle">월 25,000원 → 연 30만 원</text>
+  <rect x="395" y="715" width="290" height="55" rx="14" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1"/>
+  <text x="540" y="740" font-family="sans-serif" font-size="16" font-weight="700" fill="#065F46" text-anchor="middle">LPG: 150L × 161원</text>
+  <text x="540" y="762" font-family="sans-serif" font-size="18" font-weight="900" fill="#059669" text-anchor="middle">월 24,150원 → 연 약 29만 원</text>
+  <rect x="710" y="715" width="290" height="55" rx="14" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+  <text x="855" y="740" font-family="sans-serif" font-size="16" font-weight="700" fill="#1E40AF" text-anchor="middle">한도 소진까지</text>
+  <text x="855" y="762" font-family="sans-serif" font-size="18" font-weight="900" fill="#1E40AF" text-anchor="middle">휘발유 기준 약 10~12개월</text>
+
+  <!-- 하단 추가 혜택 -->
+  <rect x="50" y="820" width="310" height="80" rx="16" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+  <text x="205" y="855" font-family="sans-serif" font-size="17" font-weight="700" fill="#1E40AF" text-anchor="middle">취득세 75만 원 감면</text>
+  <text x="205" y="880" font-family="sans-serif" font-size="15" fill="#1E40AF" text-anchor="middle">~1,875만 원 차량 취득세 0원</text>
+
+  <rect x="385" y="820" width="310" height="80" rx="16" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+  <text x="540" y="855" font-family="sans-serif" font-size="17" font-weight="700" fill="#1E40AF" text-anchor="middle">고속도로·공영주차장</text>
+  <text x="540" y="880" font-family="sans-serif" font-size="15" fill="#1E40AF" text-anchor="middle">통행료 50% + 주차비 50% 할인</text>
+
+  <rect x="720" y="820" width="310" height="80" rx="16" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+  <text x="875" y="855" font-family="sans-serif" font-size="17" font-weight="700" fill="#1E40AF" text-anchor="middle">자동차세 연 ~10만 원</text>
+  <text x="875" y="880" font-family="sans-serif" font-size="15" fill="#1E40AF" text-anchor="middle">쏘나타(52만)의 1/5 수준</text>
+
+  <text x="540" y="960" font-family="sans-serif" font-size="16" fill="#9CA3AF" text-anchor="middle">2026년 3월 기준 | 조세특례제한법 기반</text>
+  <text x="540" y="990" font-family="sans-serif" font-size="16" fill="#9CA3AF" text-anchor="middle">카드사 추가 혜택은 프로모션에 따라 변동될 수 있습니다</text>
+</svg>

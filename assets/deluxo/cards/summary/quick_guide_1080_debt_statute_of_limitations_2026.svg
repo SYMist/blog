@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- Header -->
+  <rect x="60" y="60" width="960" height="110" rx="16" fill="#0D2347"/>
+  <text x="540" y="108" font-family="-apple-system, sans-serif" font-size="38" font-weight="700" fill="#ffffff" text-anchor="middle">내 채권은 몇 년? 빠른 판단 가이드</text>
+  <text x="540" y="148" font-family="-apple-system, sans-serif" font-size="26" fill="#A0B4D0" text-anchor="middle">채권 유형에 따라 1년·3년·5년·10년이 달라집니다</text>
+
+  <!-- Question 1 -->
+  <rect x="60" y="200" width="960" height="130" rx="12" fill="#1A3270"/>
+  <rect x="60" y="200" width="8" height="130" rx="4" fill="#F59E0B"/>
+  <text x="100" y="242" font-family="-apple-system, sans-serif" font-size="26" font-weight="700" fill="#F59E0B">Q. 카드론·은행 대출·대부업체 채권이라면?</text>
+  <text x="100" y="280" font-family="-apple-system, sans-serif" font-size="48" font-weight="700" fill="#F59E0B">5년</text>
+  <text x="210" y="280" font-family="-apple-system, sans-serif" font-size="26" fill="#A0B4D0"> — 상사채권 (상법 제64조)</text>
+  <text x="100" y="316" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0">마지막 거래일 또는 약정 변제일 다음 날부터 기산</text>
+
+  <!-- Question 2 -->
+  <rect x="60" y="344" width="960" height="130" rx="12" fill="#0D2347"/>
+  <rect x="60" y="344" width="8" height="130" rx="4" fill="#34D399"/>
+  <text x="100" y="386" font-family="-apple-system, sans-serif" font-size="26" font-weight="700" fill="#34D399">Q. 지인·개인 간 차용증(금전 대여)이라면?</text>
+  <text x="100" y="424" font-family="-apple-system, sans-serif" font-size="48" font-weight="700" fill="#34D399">10년</text>
+  <text x="210" y="424" font-family="-apple-system, sans-serif" font-size="26" fill="#A0B4D0"> — 민사채권 (민법 제162조)</text>
+  <text x="100" y="460" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0">약정 변제일 다음 날, 기한 없으면 채권 발생일 다음 날</text>
+
+  <!-- Question 3 -->
+  <rect x="60" y="488" width="960" height="130" rx="12" fill="#1A3270"/>
+  <rect x="60" y="488" width="8" height="130" rx="4" fill="#60A5FA"/>
+  <text x="100" y="530" font-family="-apple-system, sans-serif" font-size="26" font-weight="700" fill="#60A5FA">Q. 임금·퇴직금·이자·임대차 차임이라면?</text>
+  <text x="100" y="568" font-family="-apple-system, sans-serif" font-size="48" font-weight="700" fill="#60A5FA">3년</text>
+  <text x="210" y="568" font-family="-apple-system, sans-serif" font-size="26" fill="#A0B4D0"> — 근로기준법·민법 제163조</text>
+  <text x="100" y="604" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0">퇴직일·각 지급일 다음 날부터 기산</text>
+
+  <!-- Question 4 -->
+  <rect x="60" y="632" width="960" height="130" rx="12" fill="#0D2347"/>
+  <rect x="60" y="632" width="8" height="130" rx="4" fill="#A0B4D0"/>
+  <text x="100" y="674" font-family="-apple-system, sans-serif" font-size="26" font-weight="700" fill="#A0B4D0">Q. 판결·화해·인낙으로 확정된 채권이라면?</text>
+  <text x="100" y="712" font-family="-apple-system, sans-serif" font-size="48" font-weight="700" fill="#34D399">10년</text>
+  <text x="210" y="712" font-family="-apple-system, sans-serif" font-size="26" fill="#A0B4D0"> — 민법 제165조 (단기→10년으로 연장)</text>
+  <text x="100" y="748" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0">판결 확정일 다음 날부터 새로 기산</text>
+
+  <!-- Important note -->
+  <rect x="60" y="782" width="960" height="100" rx="12" fill="#EF4444" opacity="0.15"/>
+  <rect x="60" y="782" width="4" height="100" rx="2" fill="#EF4444"/>
+  <text x="100" y="822" font-family="-apple-system, sans-serif" font-size="26" font-weight="700" fill="#EF4444">⚠ 시효 기간 중 이자 납부·일부 변제 = 소멸시효 중단!</text>
+  <text x="100" y="858" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0">승인 시점부터 새로 기산 — 시효 완성을 노리는 채무자는 납부에 신중하게</text>
+
+  <!-- Footer -->
+  <text x="540" y="980" font-family="-apple-system, sans-serif" font-size="26" font-weight="700" fill="#F59E0B" text-anchor="middle">deluxo.co.kr</text>
+  <text x="540" y="1016" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">채무 소멸시효 빠른 판단 가이드 | 2026년 최신</text>
+</svg>

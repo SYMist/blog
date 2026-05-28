@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="80" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="800" fill="#F59E0B">건강보험 환급·경감 실수 TOP 5</text>
+  <rect x="60" y="110" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <rect x="60" y="145" width="960" height="160" rx="20" fill="rgba(239,68,68,0.12)"/>
+  <rect x="80" y="165" width="60" height="44" rx="22" fill="#EF4444"/>
+  <text x="110" y="195" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">1</text>
+  <text x="160" y="195" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#FFF">소멸시효 3년 놓침</text>
+  <text x="160" y="240" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">환급금 발생일로부터 3년 → 돌려받을 수 없음</text>
+  <text x="160" y="280" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">3년간 소멸 66억 원! The건강보험 앱에서 지금 확인!</text>
+
+  <rect x="60" y="325" width="960" height="160" rx="20" fill="rgba(239,68,68,0.08)"/>
+  <rect x="80" y="345" width="60" height="44" rx="22" fill="#EF4444"/>
+  <text x="110" y="375" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">2</text>
+  <text x="160" y="375" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#FFF">지급동의계좌 미등록</text>
+  <text x="160" y="420" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">본인부담상한제 환급금 발생해도 계좌 미등록 시 지연</text>
+  <text x="160" y="460" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">앱에서 지급동의계좌 등록 → 향후 자동 입금!</text>
+
+  <rect x="60" y="505" width="960" height="160" rx="20" fill="rgba(239,68,68,0.12)"/>
+  <rect x="80" y="525" width="60" height="44" rx="22" fill="#EF4444"/>
+  <text x="110" y="555" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">3</text>
+  <text x="160" y="555" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#FFF">경감 직권 적용 누락</text>
+  <text x="160" y="600" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">65세+·장애인 세대인데 경감 미적용되는 경우 존재</text>
+  <text x="160" y="640" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">관할 지사(1577-1000)에 직접 확인·신청!</text>
+
+  <rect x="60" y="685" width="960" height="160" rx="20" fill="rgba(239,68,68,0.08)"/>
+  <rect x="80" y="705" width="60" height="44" rx="22" fill="#EF4444"/>
+  <text x="110" y="735" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">4</text>
+  <text x="160" y="735" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#FFF">소득 정산 통합 정산 모름</text>
+  <text x="160" y="780" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">소득 1종만 감액 신청 → 정산 시 6종 전체 통합 → 추가 부과</text>
+  <text x="160" y="820" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">전체 소득 흐름 파악 후 신중히 신청하세요!</text>
+
+  <rect x="60" y="865" width="960" height="160" rx="20" fill="rgba(239,68,68,0.12)"/>
+  <rect x="80" y="885" width="60" height="44" rx="22" fill="#EF4444"/>
+  <text x="110" y="915" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">5</text>
+  <text x="160" y="915" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#FFF">피부양자 탈락 대비 부족</text>
+  <text x="160" y="960" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">연금 월 166만(연 2,000만) 넘으면 자격 상실 → 지역보험료 전환</text>
+  <text x="160" y="1000" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">전환 세대 경감(80→20%) 활용하세요!</text>
+</svg>

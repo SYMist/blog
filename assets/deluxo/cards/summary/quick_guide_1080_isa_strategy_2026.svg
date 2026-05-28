@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <text x="540" y="108" font-family="'Pretendard', sans-serif" font-size="44" font-weight="900" fill="#F59E0B" text-anchor="middle">나는 어디? 만기 전략 10초 판단</text>
+  <text x="540" y="162" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#EAF2FF" text-anchor="middle">전략 A 출금 · 전략 B 롤링 · 전략 C 연금이전</text>
+
+  <!-- Header Row (y=200, h=120) -->
+  <rect x="60" y="200" width="180" height="120" rx="0" fill="#1A3270"/>
+  <text x="150" y="268" font-family="'Pretendard', sans-serif" font-size="20" font-weight="800" fill="#EAF2FF" text-anchor="middle">구분</text>
+
+  <rect x="248" y="200" width="260" height="120" rx="0" fill="#1D4ED8"/>
+  <text x="378" y="253" font-family="'Pretendard', sans-serif" font-size="18" font-weight="900" fill="#FFFFFF" text-anchor="middle">전략 A</text>
+  <text x="378" y="293" font-family="'Pretendard', sans-serif" font-size="18" font-weight="800" fill="#C7D9FF" text-anchor="middle">분리과세 출금</text>
+
+  <rect x="516" y="200" width="260" height="120" rx="0" fill="#1E40AF"/>
+  <text x="646" y="253" font-family="'Pretendard', sans-serif" font-size="18" font-weight="900" fill="#FFFFFF" text-anchor="middle">전략 B</text>
+  <text x="646" y="293" font-family="'Pretendard', sans-serif" font-size="18" font-weight="800" fill="#C7D9FF" text-anchor="middle">롤링(재가입)</text>
+
+  <rect x="784" y="200" width="236" height="120" rx="0" fill="#F59E0B"/>
+  <text x="902" y="253" font-family="'Pretendard', sans-serif" font-size="18" font-weight="900" fill="#0B1F3B" text-anchor="middle">전략 C</text>
+  <text x="902" y="293" font-family="'Pretendard', sans-serif" font-size="18" font-weight="900" fill="#0B1F3B" text-anchor="middle">연금계좌 이전</text>
+
+  <!-- Row: 핵심 혜택 (y=328, h=140) -->
+  <rect x="60" y="328" width="180" height="140" rx="0" fill="#162C5A"/>
+  <text x="150" y="408" font-family="'Pretendard', sans-serif" font-size="18" font-weight="800" fill="#EAF2FF" text-anchor="middle">핵심 혜택</text>
+
+  <rect x="248" y="328" width="260" height="140" rx="0" fill="#0F2247"/>
+  <text x="378" y="388" font-family="'Pretendard', sans-serif" font-size="18" font-weight="700" fill="#EAF2FF" text-anchor="middle">9.9% 저율 과세</text>
+  <text x="378" y="422" font-family="'Pretendard', sans-serif" font-size="16" font-weight="600" fill="#A0B4D0" text-anchor="middle">비과세 한도 소진 후</text>
+  <text x="378" y="452" font-family="'Pretendard', sans-serif" font-size="16" font-weight="600" fill="#A0B4D0" text-anchor="middle">분리과세 적용</text>
+
+  <rect x="516" y="328" width="260" height="140" rx="0" fill="#0F2247"/>
+  <text x="646" y="388" font-family="'Pretendard', sans-serif" font-size="18" font-weight="700" fill="#EAF2FF" text-anchor="middle">비과세 한도 초기화</text>
+  <text x="646" y="422" font-family="'Pretendard', sans-serif" font-size="16" font-weight="600" fill="#A0B4D0" text-anchor="middle">3년마다 반복 시</text>
+  <text x="646" y="452" font-family="'Pretendard', sans-serif" font-size="16" font-weight="600" fill="#A0B4D0" text-anchor="middle">반영구적 비과세 활용</text>
+
+  <rect x="784" y="328" width="236" height="140" rx="0" fill="#0F2247"/>
+  <text x="902" y="382" font-family="'Pretendard', sans-serif" font-size="18" font-weight="700" fill="#F59E0B" text-anchor="middle">추가 세액공제</text>
+  <text x="902" y="416" font-family="'Pretendard', sans-serif" font-size="18" font-weight="700" fill="#F59E0B" text-anchor="middle">최대 300만원</text>
+  <text x="902" y="452" font-family="'Pretendard', sans-serif" font-size="15" font-weight="600" fill="#A0B4D0" text-anchor="middle">연금소득세 3.3~5.5%</text>
+
+  <!-- Row: 기한 (y=476, h=120) -->
+  <rect x="60" y="476" width="180" height="120" rx="0" fill="#162C5A"/>
+  <text x="150" y="545" font-family="'Pretendard', sans-serif" font-size="18" font-weight="800" fill="#EAF2FF" text-anchor="middle">기한</text>
+
+  <rect x="248" y="476" width="260" height="120" rx="0" fill="#1A3270"/>
+  <text x="378" y="545" font-family="'Pretendard', sans-serif" font-size="18" font-weight="700" fill="#EAF2FF" text-anchor="middle">만기 후 자유</text>
+
+  <rect x="516" y="476" width="260" height="120" rx="0" fill="#1A3270"/>
+  <text x="646" y="545" font-family="'Pretendard', sans-serif" font-size="18" font-weight="700" fill="#EAF2FF" text-anchor="middle">해지 후 즉시 신규 개설</text>
+
+  <rect x="784" y="476" width="236" height="120" rx="0" fill="#1A3270"/>
+  <text x="902" y="528" font-family="'Pretendard', sans-serif" font-size="18" font-weight="900" fill="#EF4444" text-anchor="middle">만기일로부터</text>
+  <text x="902" y="564" font-family="'Pretendard', sans-serif" font-size="18" font-weight="900" fill="#EF4444" text-anchor="middle">60일 이내 필수</text>
+
+  <!-- Row: 이런 분 (y=604, h=150) -->
+  <rect x="60" y="604" width="180" height="150" rx="0" fill="#162C5A"/>
+  <text x="150" y="684" font-family="'Pretendard', sans-serif" font-size="17" font-weight="800" fill="#EAF2FF" text-anchor="middle">이런 분께</text>
+
+  <rect x="248" y="604" width="260" height="150" rx="0" fill="#0F2247"/>
+  <text x="378" y="658" font-family="'Pretendard', sans-serif" font-size="17" font-weight="700" fill="#EAF2FF" text-anchor="middle">단기 자금 필요</text>
+  <text x="378" y="692" font-family="'Pretendard', sans-serif" font-size="17" font-weight="700" fill="#EAF2FF" text-anchor="middle">또는 고소득자</text>
+  <text x="378" y="726" font-family="'Pretendard', sans-serif" font-size="15" font-weight="600" fill="#A0B4D0" text-anchor="middle">(금소세 회피 유리)</text>
+
+  <rect x="516" y="604" width="260" height="150" rx="0" fill="#0F2247"/>
+  <text x="646" y="658" font-family="'Pretendard', sans-serif" font-size="17" font-weight="700" fill="#EAF2FF" text-anchor="middle">장기 투자자</text>
+  <text x="646" y="692" font-family="'Pretendard', sans-serif" font-size="17" font-weight="700" fill="#EAF2FF" text-anchor="middle">비과세 한도 매번 소진</text>
+
+  <rect x="784" y="604" width="236" height="150" rx="0" fill="#0F2247"/>
+  <text x="902" y="658" font-family="'Pretendard', sans-serif" font-size="17" font-weight="700" fill="#EAF2FF" text-anchor="middle">은퇴 자산 적립 중</text>
+  <text x="902" y="692" font-family="'Pretendard', sans-serif" font-size="17" font-weight="700" fill="#EAF2FF" text-anchor="middle">직장인·사업자</text>
+
+  <!-- Bottom highlight bar -->
+  <rect x="60" y="790" width="960" height="240" rx="20" fill="#F59E0B"/>
+  <text x="540" y="858" font-family="'Pretendard', sans-serif" font-size="26" font-weight="900" fill="#0B1F3B" text-anchor="middle">전략 B+C 복합: 만기 자금 일부를 연금계좌 이전</text>
+  <text x="540" y="910" font-family="'Pretendard', sans-serif" font-size="22" font-weight="700" fill="#0B1F3B" text-anchor="middle">나머지로 신규 ISA 재가입 → 절세 극대화</text>
+  <text x="540" y="990" font-family="'Pretendard', sans-serif" font-size="19" font-weight="700" fill="#0B1F3B" text-anchor="middle">※ 60일 기한 주의 — 이전 계좌 미리 개설 필수</text>
+</svg>

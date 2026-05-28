@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#F59E0B">2026 육아휴직 급여 핵심 요약</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- 기간별 급여 -->
+  <rect x="60" y="130" width="960" height="280" rx="20" fill="rgba(34,197,94,0.08)"/>
+  <rect x="80" y="155" width="300" height="44" rx="22" fill="rgba(34,197,94,0.2)"/>
+  <text x="230" y="185" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#22C55E">기간별 상한액 (계단식)</text>
+  <text x="80" y="230" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">1~3개월: 통상임금 100% → 월 최대 250만 원</text>
+  <text x="80" y="270" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">4~6개월: 통상임금 100% → 월 최대 200만 원</text>
+  <text x="80" y="310" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">7~12개월: 통상임금 80% → 월 최대 160만 원</text>
+  <text x="80" y="355" font-family="'Pretendard',sans-serif" font-size="22" font-weight="600" fill="#F59E0B">하한액 월 70만 원 · 사후지급금 완전 폐지 → 전액 즉시 수령</text>
+
+  <!-- 6+6 -->
+  <rect x="60" y="428" width="960" height="180" rx="20" fill="rgba(59,130,246,0.08)"/>
+  <rect x="80" y="453" width="320" height="44" rx="22" fill="rgba(59,130,246,0.15)"/>
+  <text x="240" y="483" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#60A5FA">6+6 부모육아휴직제</text>
+  <text x="80" y="528" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">맞벌이 부모 동시/순차 휴직 → 첫 6개월 특례</text>
+  <text x="80" y="568" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">6개월 차 부모 각각 450만 · 가구 합산 최대 900만 원</text>
+
+  <!-- 세금·보험 -->
+  <rect x="60" y="626" width="960" height="150" rx="20" fill="rgba(245,158,11,0.08)"/>
+  <rect x="80" y="651" width="280" height="44" rx="22" fill="rgba(245,158,11,0.15)"/>
+  <text x="220" y="681" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#F59E0B">세금·보험료</text>
+  <text x="80" y="726" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">소득세 비과세 + 국민연금 납부예외 + 건보 하한 월 20,160원</text>
+  <text x="80" y="758" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#94A3B8">실수령액 ≒ 급여 전액 (복직 시 건보료 정산, 분납 10회 가능)</text>
+
+  <!-- 인천 장려금 -->
+  <rect x="60" y="794" width="960" height="130" rx="20" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="819" width="320" height="44" rx="22" fill="rgba(255,255,255,0.08)"/>
+  <text x="240" y="849" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#EAF2FF">인천 아빠 장려금</text>
+  <text x="80" y="898" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">서구 최대 350만(7개월) / 중구·남동·계양·연수 300만(6개월)</text>
+
+  <!-- 12개월 총액 -->
+  <rect x="60" y="950" width="960" height="90" rx="16" fill="rgba(34,197,94,0.12)"/>
+  <text x="540" y="1005" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#22C55E">통상임금 300만 원 기준 12개월 총 급여: 2,310만 원 (비과세)</text>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#F59E0B">신용대출 전 1분 체크리스트</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <rect x="60" y="120" width="960" height="95" rx="16" fill="rgba(239,68,68,0.08)"/>
+  <rect x="80" y="148" width="40" height="40" rx="8" fill="rgba(239,68,68,0.3)" stroke="#EF4444" stroke-width="2"/>
+  <text x="100" y="176" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#EF4444">!</text>
+  <text x="140" y="176" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">내 신용점수 확인 (KCB/NICE) → 점수대별 채널 선택</text>
+
+  <rect x="60" y="227" width="960" height="95" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="255" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="283" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="283" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">대환 플랫폼에서 시중은행·인터넷은행 금리 동시 비교</text>
+
+  <rect x="60" y="334" width="960" height="95" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="362" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="390" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="390" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">미사용 마이너스 통장 정리 → DSR 여유 확보</text>
+
+  <rect x="60" y="441" width="960" height="95" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="469" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="497" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="497" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">변동금리 vs 주기형 한도 차이 확인 (최대 8,400만 원)</text>
+
+  <rect x="60" y="548" width="960" height="95" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="576" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="604" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="604" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">중도상환수수료 확인 (시중 0.05~0.18% vs 인터넷 0원)</text>
+
+  <rect x="60" y="655" width="960" height="95" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="683" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="711" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="711" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">AI 금리인하요구 서비스 등록 (마이데이터 앱 1회 동의)</text>
+
+  <rect x="60" y="762" width="960" height="95" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="790" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="818" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="818" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">상환 방식 선택 (원금균등=이자 최소 / 원리금균등=관리 편리)</text>
+
+  <rect x="60" y="869" width="960" height="95" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="897" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="925" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="925" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">지방 거주 시 완화 가산금리(0.75%p) 기한 확인 (~26.06)</text>
+
+  <rect x="60" y="976" width="960" height="70" rx="16" fill="rgba(239,68,68,0.08)"/>
+  <rect x="80" y="993" width="40" height="40" rx="8" fill="rgba(239,68,68,0.3)" stroke="#EF4444" stroke-width="2"/>
+  <text x="100" y="1021" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#EF4444">!</text>
+  <text x="140" y="1021" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">금리·한도는 개인별 상이 — 반드시 비교 플랫폼 확인</text>
+</svg>

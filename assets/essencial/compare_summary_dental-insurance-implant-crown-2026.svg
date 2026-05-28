@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 1400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="860" height="1400" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="430" y="45" text-anchor="middle" fill="#C4B5FD" font-size="14" font-weight="600" font-family="sans-serif">essencial | 치아보험 4사 비교</text>
+  <text x="430" y="82" text-anchor="middle" fill="#FFFFFF" font-size="26" font-weight="800" font-family="sans-serif">임플란트·크라운 보장 조건 한눈에 비교 (2026)</text>
+
+  <!-- 4 Key Cards -->
+  <g transform="translate(40,110)">
+    <rect x="0" y="0" width="185" height="120" rx="14" fill="#1e293b"/>
+    <rect x="0" y="0" width="185" height="4" rx="2" fill="#7C3AED"/>
+    <text x="92" y="32" text-anchor="middle" fill="#C4B5FD" font-size="12" font-weight="600" font-family="sans-serif">삼성화재·DB손보</text>
+    <text x="92" y="62" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">임플란트</text>
+    <text x="92" y="88" text-anchor="middle" fill="#34D399" font-size="22" font-weight="800" font-family="sans-serif">무제한</text>
+    <text x="92" y="110" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="sans-serif">개수 제한 없음</text>
+
+    <rect x="200" y="0" width="185" height="120" rx="14" fill="#1e293b"/>
+    <rect x="200" y="0" width="185" height="4" rx="2" fill="#F59E0B"/>
+    <text x="292" y="32" text-anchor="middle" fill="#FCD34D" font-size="12" font-weight="600" font-family="sans-serif">라이나·라이프플래닛</text>
+    <text x="292" y="62" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">임플란트</text>
+    <text x="292" y="88" text-anchor="middle" fill="#FBBF24" font-size="22" font-weight="800" font-family="sans-serif">연간 3개</text>
+    <text x="292" y="110" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="sans-serif">한도 제한</text>
+
+    <rect x="400" y="0" width="185" height="120" rx="14" fill="#1e293b"/>
+    <rect x="400" y="0" width="185" height="4" rx="2" fill="#EF4444"/>
+    <text x="492" y="32" text-anchor="middle" fill="#FCA5A5" font-size="12" font-weight="600" font-family="sans-serif">면책기간</text>
+    <text x="492" y="68" text-anchor="middle" fill="#FFFFFF" font-size="28" font-weight="800" font-family="sans-serif">90일</text>
+    <text x="492" y="95" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="sans-serif">질병 치료 기준</text>
+    <text x="492" y="112" text-anchor="middle" fill="#34D399" font-size="11" font-family="sans-serif">상해 = 즉시 보장</text>
+
+    <rect x="600" y="0" width="185" height="120" rx="14" fill="#1e293b"/>
+    <rect x="600" y="0" width="185" height="4" rx="2" fill="#3B82F6"/>
+    <text x="692" y="32" text-anchor="middle" fill="#93C5FD" font-size="12" font-weight="600" font-family="sans-serif">보철 감액기간</text>
+    <text x="692" y="68" text-anchor="middle" fill="#FFFFFF" font-size="28" font-weight="800" font-family="sans-serif">2년</text>
+    <text x="692" y="95" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="sans-serif">가입 2년 미만 50%</text>
+    <text x="692" y="112" text-anchor="middle" fill="#FCD34D" font-size="11" font-family="sans-serif">진단형 = 감액 없음</text>
+  </g>
+
+  <!-- 4사 비교 테이블 -->
+  <text x="430" y="280" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="700" font-family="sans-serif">보험사별 핵심 보장 비교</text>
+
+  <g transform="translate(40,300)">
+    <!-- Header -->
+    <rect x="0" y="0" width="780" height="36" rx="8" fill="#334155"/>
+    <text x="100" y="24" text-anchor="middle" fill="#C4B5FD" font-size="12" font-weight="700" font-family="sans-serif">항목</text>
+    <text x="280" y="24" text-anchor="middle" fill="#C4B5FD" font-size="12" font-weight="700" font-family="sans-serif">삼성화재</text>
+    <text x="430" y="24" text-anchor="middle" fill="#C4B5FD" font-size="12" font-weight="700" font-family="sans-serif">DB손해보험</text>
+    <text x="580" y="24" text-anchor="middle" fill="#C4B5FD" font-size="12" font-weight="700" font-family="sans-serif">라이나생명</text>
+    <text x="720" y="24" text-anchor="middle" fill="#C4B5FD" font-size="12" font-weight="700" font-family="sans-serif">라이프플래닛</text>
+
+    <!-- Row 1: 임플란트 -->
+    <rect x="0" y="40" width="780" height="34" fill="#1e293b"/>
+    <text x="100" y="62" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">임플란트</text>
+    <text x="280" y="62" text-anchor="middle" fill="#34D399" font-size="13" font-weight="700" font-family="sans-serif">무제한</text>
+    <text x="430" y="62" text-anchor="middle" fill="#34D399" font-size="13" font-weight="700" font-family="sans-serif">무제한</text>
+    <text x="580" y="62" text-anchor="middle" fill="#FBBF24" font-size="13" font-weight="700" font-family="sans-serif">연 3개</text>
+    <text x="720" y="62" text-anchor="middle" fill="#FBBF24" font-size="13" font-weight="700" font-family="sans-serif">연 3개</text>
+
+    <!-- Row 2: 크라운 -->
+    <rect x="0" y="76" width="780" height="34" fill="#253044"/>
+    <text x="100" y="98" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">크라운</text>
+    <text x="280" y="98" text-anchor="middle" fill="#34D399" font-size="13" font-weight="700" font-family="sans-serif">무제한</text>
+    <text x="430" y="98" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">상품별 상이</text>
+    <text x="580" y="98" text-anchor="middle" fill="#6EE7B7" font-size="13" font-weight="600" font-family="sans-serif">2년 후 무제한</text>
+    <text x="720" y="98" text-anchor="middle" fill="#FBBF24" font-size="13" font-family="sans-serif">연간 제한</text>
+
+    <!-- Row 3: 치조골 이식 -->
+    <rect x="0" y="112" width="780" height="34" fill="#1e293b"/>
+    <text x="100" y="134" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">치조골 이식</text>
+    <text x="280" y="134" text-anchor="middle" fill="#34D399" font-size="13" font-weight="700" font-family="sans-serif">별도 담보</text>
+    <text x="430" y="134" text-anchor="middle" fill="#34D399" font-size="13" font-weight="700" font-family="sans-serif">별도 담보</text>
+    <text x="580" y="134" text-anchor="middle" fill="#F87171" font-size="13" font-family="sans-serif">미포함</text>
+    <text x="720" y="134" text-anchor="middle" fill="#F87171" font-size="13" font-family="sans-serif">미포함</text>
+
+    <!-- Row 4: 재식립 -->
+    <rect x="0" y="148" width="780" height="34" fill="#253044"/>
+    <text x="100" y="170" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">재식립 임플</text>
+    <text x="280" y="170" text-anchor="middle" fill="#F87171" font-size="13" font-family="sans-serif">미포함</text>
+    <text x="430" y="170" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">1회 한정</text>
+    <text x="580" y="170" text-anchor="middle" fill="#34D399" font-size="13" font-weight="700" font-family="sans-serif">최대 100만</text>
+    <text x="720" y="170" text-anchor="middle" fill="#F87171" font-size="13" font-family="sans-serif">미포함</text>
+
+    <!-- Row 5: 가입연령 -->
+    <rect x="0" y="184" width="780" height="34" fill="#1e293b"/>
+    <text x="100" y="206" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">가입 연령</text>
+    <text x="280" y="206" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">2~64세</text>
+    <text x="430" y="206" text-anchor="middle" fill="#6EE7B7" font-size="13" font-weight="600" font-family="sans-serif">2~70세</text>
+    <text x="580" y="206" text-anchor="middle" fill="#6EE7B7" font-size="13" font-weight="600" font-family="sans-serif">0~70세</text>
+    <text x="720" y="206" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">-</text>
+
+    <!-- Row 6: 핵심 강점 -->
+    <rect x="0" y="220" width="780" height="40" fill="#253044"/>
+    <text x="100" y="245" text-anchor="middle" fill="#FCD34D" font-size="12" font-weight="700" font-family="sans-serif">핵심 강점</text>
+    <text x="280" y="240" text-anchor="middle" fill="#C4B5FD" font-size="11" font-weight="600" font-family="sans-serif">무제한+치조골</text>
+    <text x="280" y="255" text-anchor="middle" fill="#C4B5FD" font-size="11" font-family="sans-serif">+스케일링</text>
+    <text x="430" y="240" text-anchor="middle" fill="#C4B5FD" font-size="11" font-weight="600" font-family="sans-serif">세액공제12%</text>
+    <text x="430" y="255" text-anchor="middle" fill="#C4B5FD" font-size="11" font-family="sans-serif">+70세가입</text>
+    <text x="580" y="240" text-anchor="middle" fill="#C4B5FD" font-size="11" font-weight="600" font-family="sans-serif">재식립특약</text>
+    <text x="580" y="255" text-anchor="middle" fill="#C4B5FD" font-size="11" font-family="sans-serif">+2년후무제한</text>
+    <text x="720" y="245" text-anchor="middle" fill="#C4B5FD" font-size="11" font-weight="600" font-family="sans-serif">낮은 사업비</text>
+  </g>
+
+  <!-- 면책·감액 타임라인 -->
+  <text x="430" y="600" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="700" font-family="sans-serif">면책·감액기간 타임라인 (무진단형 기준)</text>
+
+  <g transform="translate(40,625)">
+    <!-- 보존치료 -->
+    <text x="0" y="15" fill="#C4B5FD" font-size="13" font-weight="700" font-family="sans-serif">보존치료 (크라운·충전)</text>
+    <rect x="0" y="25" width="780" height="40" rx="8" fill="#1e293b"/>
+    <rect x="5" y="30" width="160" height="30" rx="6" fill="#EF4444" opacity="0.5"/>
+    <text x="85" y="50" text-anchor="middle" fill="#FCA5A5" font-size="11" font-weight="700" font-family="sans-serif">면책 90일</text>
+    <rect x="170" y="30" width="250" height="30" rx="6" fill="#F59E0B" opacity="0.3"/>
+    <text x="295" y="50" text-anchor="middle" fill="#FCD34D" font-size="11" font-weight="700" font-family="sans-serif">감액 1년 (50%)</text>
+    <rect x="425" y="30" width="350" height="30" rx="6" fill="#34D399" opacity="0.3"/>
+    <text x="600" y="50" text-anchor="middle" fill="#6EE7B7" font-size="11" font-weight="700" font-family="sans-serif">100% 보장</text>
+
+    <!-- 보철치료 -->
+    <text x="0" y="95" fill="#C4B5FD" font-size="13" font-weight="700" font-family="sans-serif">보철치료 (임플란트·브릿지·틀니)</text>
+    <rect x="0" y="105" width="780" height="40" rx="8" fill="#1e293b"/>
+    <rect x="5" y="110" width="160" height="30" rx="6" fill="#EF4444" opacity="0.5"/>
+    <text x="85" y="130" text-anchor="middle" fill="#FCA5A5" font-size="11" font-weight="700" font-family="sans-serif">면책 90일</text>
+    <rect x="170" y="110" width="420" height="30" rx="6" fill="#F59E0B" opacity="0.3"/>
+    <text x="380" y="130" text-anchor="middle" fill="#FCD34D" font-size="11" font-weight="700" font-family="sans-serif">감액 2년 (50%)</text>
+    <rect x="595" y="110" width="180" height="30" rx="6" fill="#34D399" opacity="0.3"/>
+    <text x="685" y="130" text-anchor="middle" fill="#6EE7B7" font-size="11" font-weight="700" font-family="sans-serif">100% 보장</text>
+
+    <!-- 상해 -->
+    <text x="0" y="175" fill="#C4B5FD" font-size="13" font-weight="700" font-family="sans-serif">상해 (사고)</text>
+    <rect x="0" y="185" width="780" height="40" rx="8" fill="#1e293b"/>
+    <rect x="5" y="190" width="770" height="30" rx="6" fill="#34D399" opacity="0.3"/>
+    <text x="390" y="210" text-anchor="middle" fill="#6EE7B7" font-size="13" font-weight="700" font-family="sans-serif">가입 즉시 100% 보장</text>
+  </g>
+
+  <!-- 진단형 vs 무진단형 -->
+  <text x="430" y="895" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="700" font-family="sans-serif">진단형 vs 무진단형</text>
+
+  <g transform="translate(40,920)">
+    <rect x="0" y="0" width="370" height="150" rx="16" fill="#1e293b"/>
+    <rect x="0" y="0" width="370" height="4" rx="2" fill="#34D399"/>
+    <text x="185" y="32" text-anchor="middle" fill="#6EE7B7" font-size="16" font-weight="700" font-family="sans-serif">진단형</text>
+    <text x="185" y="58" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="600" font-family="sans-serif">치과 검진 후 가입</text>
+    <text x="185" y="82" text-anchor="middle" fill="#34D399" font-size="15" font-weight="800" font-family="sans-serif">면책·감액 없음 → 즉시 100%</text>
+    <text x="185" y="106" text-anchor="middle" fill="#34D399" font-size="13" font-weight="600" font-family="sans-serif">보험료 저렴</text>
+    <text x="185" y="130" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">치아 상태 우수해야 가입 가능</text>
+
+    <rect x="410" y="0" width="370" height="150" rx="16" fill="#1e293b"/>
+    <rect x="410" y="0" width="370" height="4" rx="2" fill="#F59E0B"/>
+    <text x="595" y="32" text-anchor="middle" fill="#FBBF24" font-size="16" font-weight="700" font-family="sans-serif">무진단형</text>
+    <text x="595" y="58" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="600" font-family="sans-serif">고지의무 답변만으로 가입</text>
+    <text x="595" y="82" text-anchor="middle" fill="#FBBF24" font-size="15" font-weight="800" font-family="sans-serif">면책 90일 + 감액 1~2년</text>
+    <text x="595" y="106" text-anchor="middle" fill="#F87171" font-size="13" font-weight="600" font-family="sans-serif">보험료 상대적 높음</text>
+    <text x="595" y="130" text-anchor="middle" fill="#34D399" font-size="12" font-family="sans-serif">가입 절차 간편</text>
+  </g>
+
+  <!-- 결론 -->
+  <rect x="60" y="1100" width="740" height="70" rx="16" fill="#7C3AED" opacity="0.25"/>
+  <text x="430" y="1130" text-anchor="middle" fill="#FFFFFF" font-size="17" font-weight="700" font-family="sans-serif">임플란트 다수 예상 → 무제한 보장형 | 관리 양호 → 한도형</text>
+  <text x="430" y="1155" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="600" font-family="sans-serif">치아 상태 우수하다면 진단형이 보험료·보장 모두 유리</text>
+
+  <!-- 충전치료 보장액 비교 -->
+  <text x="430" y="1210" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="700" font-family="sans-serif">충전치료 재료별 보장액</text>
+  <g transform="translate(60,1230)">
+    <rect x="0" y="0" width="230" height="90" rx="12" fill="#1e293b"/>
+    <rect x="0" y="0" width="230" height="4" rx="2" fill="#7C3AED"/>
+    <text x="115" y="28" text-anchor="middle" fill="#C4B5FD" font-size="13" font-weight="700" font-family="sans-serif">금·세라믹 인레이</text>
+    <text x="115" y="55" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800" font-family="sans-serif">15만 원</text>
+    <text x="115" y="78" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="sans-serif">라이나 기준 / 비급여</text>
+
+    <rect x="250" y="0" width="230" height="90" rx="12" fill="#1e293b"/>
+    <rect x="250" y="0" width="230" height="4" rx="2" fill="#3B82F6"/>
+    <text x="365" y="28" text-anchor="middle" fill="#93C5FD" font-size="13" font-weight="700" font-family="sans-serif">레진 직접 충전</text>
+    <text x="365" y="55" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800" font-family="sans-serif">5만 원</text>
+    <text x="365" y="78" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="sans-serif">비급여 / 심미성</text>
+
+    <rect x="500" y="0" width="230" height="90" rx="12" fill="#1e293b"/>
+    <rect x="500" y="0" width="230" height="4" rx="2" fill="#94A3B8"/>
+    <text x="615" y="28" text-anchor="middle" fill="#CBD5E1" font-size="13" font-weight="700" font-family="sans-serif">아말감·GI</text>
+    <text x="615" y="55" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800" font-family="sans-serif">1만 원</text>
+    <text x="615" y="78" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="sans-serif">급여 항목</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="430" y="1380" text-anchor="middle" fill="#64748B" font-size="13" font-family="sans-serif">essencial | 2026년 4월 기준 | 보험다모아·보험사 약관 참고</text>
+</svg>

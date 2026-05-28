@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 660">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="660" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="540" y="46" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">자차보험 할증 vs 자비수리 항목별 비교 매트릭스</text>
+  <text x="540" y="70" text-anchor="middle" fill="#93C5FD" font-size="13" font-family="sans-serif">2026년 5월 기준 · 연 보험료 70만원 기준</text>
+
+  <!-- Header row -->
+  <rect x="40" y="84" width="1000" height="44" rx="8" fill="#7C3AED"/>
+  <text x="200" y="112" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">비교 항목</text>
+  <text x="560" y="112" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">자비수리 (보험 미청구)</text>
+  <text x="900" y="112" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">자차보험 처리</text>
+  <line x1="380" y1="84" x2="380" y2="128" stroke="#4c1d95" stroke-width="1"/>
+  <line x1="720" y1="84" x2="720" y2="128" stroke="#4c1d95" stroke-width="1"/>
+
+  <!-- Row 1 -->
+  <rect x="40" y="128" width="1000" height="48" rx="0" fill="#1e293b" fill-opacity="0.7"/>
+  <text x="200" y="157" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">즉시 비용</text>
+  <text x="560" y="157" text-anchor="middle" fill="#FCA5A5" font-size="13" font-family="sans-serif">수리비 전액 (예: 50만원)</text>
+  <text x="900" y="157" text-anchor="middle" fill="#4ADE80" font-size="13" font-weight="700" font-family="sans-serif">자기부담금 20만원(최소)</text>
+  <line x1="40" y1="176" x2="1040" y2="176" stroke="#334155" stroke-width="1"/>
+  <line x1="380" y1="128" x2="380" y2="176" stroke="#334155" stroke-width="1"/>
+  <line x1="720" y1="128" x2="720" y2="176" stroke="#334155" stroke-width="1"/>
+
+  <!-- Row 2 -->
+  <rect x="40" y="176" width="1000" height="48" rx="0" fill="#0f172a" fill-opacity="0.7"/>
+  <text x="200" y="205" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">3년 추가 보험료</text>
+  <text x="560" y="205" text-anchor="middle" fill="#4ADE80" font-size="13" font-weight="700" font-family="sans-serif">✅ 없음</text>
+  <text x="900" y="205" text-anchor="middle" fill="#FCA5A5" font-size="13" font-family="sans-serif">❌ 약 42만원 (연 70만원 기준)</text>
+  <line x1="40" y1="224" x2="1040" y2="224" stroke="#334155" stroke-width="1"/>
+  <line x1="380" y1="176" x2="380" y2="224" stroke="#334155" stroke-width="1"/>
+  <line x1="720" y1="176" x2="720" y2="224" stroke="#334155" stroke-width="1"/>
+
+  <!-- Row 3 -->
+  <rect x="40" y="224" width="1000" height="48" rx="0" fill="#1e293b" fill-opacity="0.7"/>
+  <text x="200" y="253" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">무사고 할인</text>
+  <text x="560" y="253" text-anchor="middle" fill="#4ADE80" font-size="13" font-weight="700" font-family="sans-serif">✅ 유지 (연 약 8% 할인)</text>
+  <text x="900" y="253" text-anchor="middle" fill="#FCA5A5" font-size="13" font-family="sans-serif">❌ 상실 (3년간 할인 소멸)</text>
+  <line x1="40" y1="272" x2="1040" y2="272" stroke="#334155" stroke-width="1"/>
+  <line x1="380" y1="224" x2="380" y2="272" stroke="#334155" stroke-width="1"/>
+  <line x1="720" y1="224" x2="720" y2="272" stroke="#334155" stroke-width="1"/>
+
+  <!-- Row 4 -->
+  <rect x="40" y="272" width="1000" height="48" rx="0" fill="#0f172a" fill-opacity="0.7"/>
+  <text x="200" y="301" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">사고 기록</text>
+  <text x="560" y="301" text-anchor="middle" fill="#4ADE80" font-size="13" font-weight="700" font-family="sans-serif">✅ 없음 (가입 거절 위험 없음)</text>
+  <text x="900" y="301" text-anchor="middle" fill="#FCA5A5" font-size="13" font-family="sans-serif">❌ 3년간 기록 유지</text>
+  <line x1="40" y1="320" x2="1040" y2="320" stroke="#334155" stroke-width="1"/>
+  <line x1="380" y1="272" x2="380" y2="320" stroke="#334155" stroke-width="1"/>
+  <line x1="720" y1="272" x2="720" y2="320" stroke="#334155" stroke-width="1"/>
+
+  <!-- Row 5 -->
+  <rect x="40" y="320" width="1000" height="48" rx="0" fill="#1e293b" fill-opacity="0.7"/>
+  <text x="200" y="349" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">3년 총비용 (수리비 50만원)</text>
+  <text x="560" y="349" text-anchor="middle" fill="#4ADE80" font-size="13" font-weight="700" font-family="sans-serif">✅ 50만원</text>
+  <text x="900" y="349" text-anchor="middle" fill="#FCA5A5" font-size="13" font-family="sans-serif">62만원 (20+42) — 손익분기 미달</text>
+  <line x1="40" y1="368" x2="1040" y2="368" stroke="#334155" stroke-width="1"/>
+  <line x1="380" y1="320" x2="380" y2="368" stroke="#334155" stroke-width="1"/>
+  <line x1="720" y1="320" x2="720" y2="368" stroke="#334155" stroke-width="1"/>
+
+  <!-- Row 6 -->
+  <rect x="40" y="368" width="1000" height="48" rx="0" fill="#0f172a" fill-opacity="0.7"/>
+  <text x="200" y="397" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">3년 총비용 (수리비 100만원)</text>
+  <text x="560" y="397" text-anchor="middle" fill="#FCA5A5" font-size="13" font-family="sans-serif">100만원 (전액 자비)</text>
+  <text x="900" y="397" text-anchor="middle" fill="#4ADE80" font-size="13" font-weight="700" font-family="sans-serif">✅ 62만원 (20+42) — 38만원 절약</text>
+  <line x1="40" y1="416" x2="1040" y2="416" stroke="#334155" stroke-width="1"/>
+  <line x1="380" y1="368" x2="380" y2="416" stroke="#334155" stroke-width="1"/>
+  <line x1="720" y1="368" x2="720" y2="416" stroke="#334155" stroke-width="1"/>
+
+  <!-- Row 7 -->
+  <rect x="40" y="416" width="1000" height="48" rx="0" fill="#1e293b" fill-opacity="0.7"/>
+  <text x="200" y="445" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">환입 제도</text>
+  <text x="560" y="445" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">해당 없음</text>
+  <text x="900" y="445" text-anchor="middle" fill="#FCD34D" font-size="13" font-family="sans-serif">갱신 3개월 전까지 환입 가능</text>
+  <line x1="40" y1="464" x2="1040" y2="464" stroke="#334155" stroke-width="1"/>
+  <line x1="380" y1="416" x2="380" y2="464" stroke="#334155" stroke-width="1"/>
+  <line x1="720" y1="416" x2="720" y2="464" stroke="#334155" stroke-width="1"/>
+
+  <!-- Row 8 -->
+  <rect x="40" y="464" width="1000" height="48" rx="0" fill="#0f172a" fill-opacity="0.7"/>
+  <text x="200" y="493" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">손익분기점 수리비</text>
+  <text x="560" y="493" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">—</text>
+  <text x="900" y="493" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">약 60~80만원 (연 보험료 따라 상이)</text>
+  <line x1="40" y1="512" x2="1040" y2="512" stroke="#334155" stroke-width="1"/>
+  <line x1="380" y1="464" x2="380" y2="512" stroke="#334155" stroke-width="1"/>
+  <line x1="720" y1="464" x2="720" y2="512" stroke="#334155" stroke-width="1"/>
+
+  <!-- Row 9 -->
+  <rect x="40" y="512" width="1000" height="48" rx="0" fill="#1e293b" fill-opacity="0.7"/>
+  <text x="200" y="541" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">가입 거절 위험</text>
+  <text x="560" y="541" text-anchor="middle" fill="#4ADE80" font-size="13" font-weight="700" font-family="sans-serif">✅ 없음</text>
+  <text x="900" y="541" text-anchor="middle" fill="#FCA5A5" font-size="13" font-family="sans-serif">3년간 3건 이상 → 일부 거절</text>
+  <line x1="40" y1="560" x2="1040" y2="560" stroke="#334155" stroke-width="1"/>
+  <line x1="380" y1="512" x2="380" y2="560" stroke="#334155" stroke-width="1"/>
+  <line x1="720" y1="512" x2="720" y2="560" stroke="#334155" stroke-width="1"/>
+
+  <rect x="40" y="560" width="1000" height="2" fill="#7C3AED" fill-opacity="0.5"/>
+
+  <!-- Summary -->
+  <text x="540" y="590" text-anchor="middle" fill="#DDD6FE" font-size="14" font-weight="700" font-family="sans-serif">손익분기점 62만원 (연 70만원 기준) | 이하→자비수리 유리 | 이상→보험처리 유리</text>
+
+  <text x="40" y="644" fill="#64748B" font-size="12" font-family="sans-serif">essencial | 보험 비교 · 2026.05 기준 · 실제 값은 보험사·계약 조건에 따라 달라집니다</text>
+</svg>

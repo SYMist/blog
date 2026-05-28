@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#EF4444">전월세 신고 실수 TOP 5</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#EF4444"/>
+
+  <!-- Item 1 -->
+  <rect x="60" y="120" width="960" height="160" rx="20" fill="rgba(239,68,68,0.08)"/>
+  <rect x="90" y="140" width="56" height="56" rx="28" fill="rgba(239,68,68,0.3)"/>
+  <text x="118" y="178" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#EF4444">1</text>
+  <text x="170" y="175" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">신고 기한(30일) 경과</text>
+  <text x="170" y="215" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#EAF2FF">계약서 작성일 기준 30일이며, 입주일이 아닙니다.</text>
+  <text x="170" y="250" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">→ 계약 당일 현장에서 모바일로 바로 신고하세요</text>
+
+  <!-- Item 2 -->
+  <rect x="60" y="300" width="960" height="160" rx="20" fill="rgba(255,255,255,0.04)"/>
+  <rect x="90" y="320" width="56" height="56" rx="28" fill="rgba(239,68,68,0.3)"/>
+  <text x="118" y="358" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#EF4444">2</text>
+  <text x="170" y="355" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">월세 기준 무시</text>
+  <text x="170" y="395" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#EAF2FF">"보증금 6,000만 이하니까 괜찮겠지" → 월세 30만 초과면 신고 대상!</text>
+  <text x="170" y="430" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">→ 보증금 OR 월세, 하나만 초과해도 해당</text>
+
+  <!-- Item 3 -->
+  <rect x="60" y="480" width="960" height="160" rx="20" fill="rgba(239,68,68,0.08)"/>
+  <rect x="90" y="500" width="56" height="56" rx="28" fill="rgba(239,68,68,0.3)"/>
+  <text x="118" y="538" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#EF4444">3</text>
+  <text x="170" y="535" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">갱신 시 재신고 누락</text>
+  <text x="170" y="575" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#EAF2FF">금액 변동 있는 갱신도 새 계약과 동일 — 30일 이내 재신고 필수</text>
+  <text x="170" y="610" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">→ 보증금·월세 1원이라도 바뀌면 신고 대상</text>
+
+  <!-- Item 4 -->
+  <rect x="60" y="660" width="960" height="160" rx="20" fill="rgba(255,255,255,0.04)"/>
+  <rect x="90" y="680" width="56" height="56" rx="28" fill="rgba(239,68,68,0.3)"/>
+  <text x="118" y="718" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#EF4444">4</text>
+  <text x="170" y="715" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">전입신고와 혼동</text>
+  <text x="170" y="755" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#EAF2FF">전입신고 ≠ 전월세 신고. 둘 다 해야 완전 보호됩니다.</text>
+  <text x="170" y="790" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">→ 전입신고(주민센터) + 임대차 신고(온라인/방문) 별도</text>
+
+  <!-- Item 5 -->
+  <rect x="60" y="840" width="960" height="160" rx="20" fill="rgba(239,68,68,0.08)"/>
+  <rect x="90" y="860" width="56" height="56" rx="28" fill="rgba(239,68,68,0.3)"/>
+  <text x="118" y="898" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#EF4444">5</text>
+  <text x="170" y="895" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">확정일자 별도 신청 (수수료 낭비)</text>
+  <text x="170" y="935" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#EAF2FF">2026년에는 신고 시 확정일자가 무료 자동 부여됩니다.</text>
+  <text x="170" y="970" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">→ 별도 방문·수수료 불필요 — 신고만 하면 OK</text>
+
+  <rect x="60" y="1050" width="960" height="6" rx="3" fill="#EF4444"/>
+</svg>

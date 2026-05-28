@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="700" fill="url(#bg)"/>
+
+  <text x="540" y="46" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">옵션 선택 상황별 추천 시나리오</text>
+  <text x="540" y="70" text-anchor="middle" fill="#93C5FD" font-size="13" font-family="sans-serif">깡통 · 인기 옵션만 · 풀옵션 3종 손익 · 2026.05 기준</text>
+
+  <!-- Scenario 1: 깡통 -->
+  <rect x="40" y="90" width="480" height="116" rx="10" fill="#14532d" fill-opacity="0.6" stroke="#15803D" stroke-width="1.5"/>
+  <rect x="40" y="90" width="480" height="36" rx="10" fill="#15803D"/>
+  <rect x="40" y="112" width="480" height="14" fill="#15803D"/>
+  <text x="60" y="114" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">① 3년 내 교체 예정 · 가성비 우선</text>
+  <text x="60" y="148" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">→ 깡통 (5년 TCO 약 883만원 절감)</text>
+  <text x="60" y="170" fill="#CBD5E1" font-size="12" font-family="sans-serif">옵션비 회수 어려움 · 단기일수록 손해 가속</text>
+  <text x="60" y="192" fill="#CBD5E1" font-size="12" font-family="sans-serif">월 약 49만원 vs 풀옵션 64만원 (15만원/월 절감)</text>
+
+  <!-- Scenario 2: 인기 옵션만 -->
+  <rect x="560" y="90" width="480" height="116" rx="10" fill="#0c4a6e" fill-opacity="0.6" stroke="#0e7490" stroke-width="1.5"/>
+  <rect x="560" y="90" width="480" height="36" rx="10" fill="#0e7490"/>
+  <rect x="560" y="112" width="480" height="14" fill="#0e7490"/>
+  <text x="580" y="114" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">② 5년 보유 · 재판매 가치 중시</text>
+  <text x="580" y="148" fill="#67E8F9" font-size="13" font-weight="700" font-family="sans-serif">→ 인기 옵션만 (회수율 65%)</text>
+  <text x="580" y="170" fill="#CBD5E1" font-size="12" font-family="sans-serif">안전 + 내비 + 어라운드뷰 = 약 430만원 추가</text>
+  <text x="580" y="192" fill="#CBD5E1" font-size="12" font-family="sans-serif">5년 실손 약 150만원 (풀옵션 650만원 대비 500만원 절감)</text>
+
+  <!-- Scenario 3: 풀옵션 장기 -->
+  <rect x="40" y="226" width="480" height="116" rx="10" fill="#1e3a8a" fill-opacity="0.6" stroke="#1E40AF" stroke-width="1.5"/>
+  <rect x="40" y="226" width="480" height="36" rx="10" fill="#1E40AF"/>
+  <rect x="40" y="248" width="480" height="14" fill="#1E40AF"/>
+  <text x="60" y="250" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">③ 5년+ 장기 보유 · 편의·안전 강한 선호</text>
+  <text x="60" y="284" fill="#BFDBFE" font-size="13" font-weight="700" font-family="sans-serif">→ 풀옵션 (실사용 가치로 회수 손해 상쇄)</text>
+  <text x="60" y="306" fill="#CBD5E1" font-size="12" font-family="sans-serif">7~10년 보유 시 옵션 실손 누적 의미 감소</text>
+  <text x="60" y="328" fill="#CBD5E1" font-size="12" font-family="sans-serif">매일 사용하는 안전·편의 가치가 회수율보다 우선</text>
+
+  <!-- Scenario 4: 리스/장기렌트 -->
+  <rect x="560" y="226" width="480" height="116" rx="10" fill="#422006" fill-opacity="0.6" stroke="#D97706" stroke-width="1.5"/>
+  <rect x="560" y="226" width="480" height="36" rx="10" fill="#D97706"/>
+  <rect x="560" y="248" width="480" height="14" fill="#D97706"/>
+  <text x="580" y="250" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">④ 리스·장기렌트 운영</text>
+  <text x="580" y="284" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">→ 풀옵션 가능 (월 부담 분산)</text>
+  <text x="580" y="306" fill="#CBD5E1" font-size="12" font-family="sans-serif">잔존가치 회수 부담을 리스사가 분담 → 월 차이만 약간</text>
+  <text x="580" y="328" fill="#CBD5E1" font-size="12" font-family="sans-serif">계약 만료 후 잔존 책임 X → 풀옵션 부담 완화</text>
+
+  <!-- Scenario 5: 사업자 -->
+  <rect x="40" y="362" width="1000" height="116" rx="10" fill="#1e1b4b" fill-opacity="0.6" stroke="#4F46E5" stroke-width="1.5"/>
+  <rect x="40" y="362" width="1000" height="36" rx="10" fill="#4F46E5"/>
+  <rect x="40" y="384" width="1000" height="14" fill="#4F46E5"/>
+  <text x="60" y="386" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">⑤ 법인·개인사업자 비용 처리 가능</text>
+  <text x="60" y="420" fill="#A5B4FC" font-size="13" font-weight="700" font-family="sans-serif">→ 풀옵션 합리적 (옵션비 비용 인정 절세)</text>
+  <text x="60" y="442" fill="#CBD5E1" font-size="12" font-family="sans-serif">업무용 차량 한도 연 1,500만원, 70% 인정 → 옵션비 절세 효과 약 462만원/년</text>
+  <text x="60" y="464" fill="#CBD5E1" font-size="12" font-family="sans-serif">5년 누적 옵션비 절세 약 2,310만원 → 옵션 실손 650만원 상쇄</text>
+
+  <!-- Summary -->
+  <rect x="40" y="496" width="1000" height="176" rx="10" fill="#1e293b" fill-opacity="0.8"/>
+  <text x="540" y="528" text-anchor="middle" fill="#F8FAFC" font-size="14" font-weight="800" font-family="sans-serif">핵심 결론 3줄 요약</text>
+  <text x="80" y="562" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">5년 TCO 차이</text>
+  <text x="250" y="562" fill="#FFFFFF" font-size="13" font-family="sans-serif">→ 깡통 2,927만 vs 풀옵션 3,810만 = 약 883만원 (월 15만원)</text>
+  <text x="80" y="594" fill="#67E8F9" font-size="13" font-weight="700" font-family="sans-serif">옵션 회수율</text>
+  <text x="250" y="594" fill="#FFFFFF" font-size="13" font-family="sans-serif">→ 안전·내비·어라운드뷰 60~70% / HUD·외관 30% 이하</text>
+  <text x="80" y="626" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">합리적 선택</text>
+  <text x="250" y="626" fill="#FFFFFF" font-size="13" font-family="sans-serif">→ 인기 옵션만 (약 430만원) = 회수율 65% · 실손 150만원 최적</text>
+  <text x="80" y="654" fill="#94A3B8" font-size="12" font-family="sans-serif">※ 본 시뮬레이션: 쏘나타급 중형 세단 · 5년 7만 5천km · 휘발유 1,800원/L 가정</text>
+
+  <text x="40" y="686" fill="#64748B" font-size="12" font-family="sans-serif">essencial | 자동차 · 2026.05 기준 · 차종·옵션·중고 시세에 따라 실제 회수율 다름</text>
+</svg>

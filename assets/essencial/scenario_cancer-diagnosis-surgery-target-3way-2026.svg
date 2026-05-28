@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="700" fill="url(#bg)"/>
+
+  <text x="540" y="46" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">암보험 상황별 추천 시나리오</text>
+  <text x="540" y="70" text-anchor="middle" fill="#DDD6FE" font-size="13" font-family="sans-serif">연령·가족력·자녀 부양 책임별 6종 · 2026.05</text>
+
+  <!-- Scenario 1: 30~40대 무자녀 -->
+  <rect x="40" y="90" width="480" height="116" rx="10" fill="#4c1d95" fill-opacity="0.6" stroke="#7C3AED" stroke-width="1.5"/>
+  <rect x="40" y="90" width="480" height="36" rx="10" fill="#7C3AED"/>
+  <rect x="40" y="112" width="480" height="14" fill="#7C3AED"/>
+  <text x="60" y="114" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">① 30~40대 무자녀 + 보험료 부담</text>
+  <text x="60" y="148" fill="#DDD6FE" font-size="13" font-weight="700" font-family="sans-serif">→ 진단비 3,000만~5,000만 단독 (월 2~4만)</text>
+  <text x="60" y="170" fill="#CBD5E1" font-size="12" font-family="sans-serif">확진 즉시 일시금 + 초기 충격 대응 최우선</text>
+  <text x="60" y="192" fill="#CBD5E1" font-size="12" font-family="sans-serif">표적치료·수술비는 보험료 여유 생긴 후 단계적 추가</text>
+
+  <!-- Scenario 2: 40~50대 가족력 -->
+  <rect x="560" y="90" width="480" height="116" rx="10" fill="#14532d" fill-opacity="0.6" stroke="#15803D" stroke-width="1.5"/>
+  <rect x="560" y="90" width="480" height="36" rx="10" fill="#15803D"/>
+  <rect x="560" y="112" width="480" height="14" fill="#15803D"/>
+  <text x="580" y="114" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">② 40~50대 자녀 양육 + 가족력 있음</text>
+  <text x="580" y="148" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">→ 진단비 5,000만 + 표적치료비 3,000만 (월 5~9만)</text>
+  <text x="580" y="170" fill="#CBD5E1" font-size="12" font-family="sans-serif">폐·간·유방 등 표적치료 의존도 높은 암종 대비</text>
+  <text x="580" y="192" fill="#CBD5E1" font-size="12" font-family="sans-serif">폐암 4기 케이스 약 9,000만+ 보장 가능</text>
+
+  <!-- Scenario 3: 50대+ 풀 구성 -->
+  <rect x="40" y="226" width="480" height="116" rx="10" fill="#1e3a8a" fill-opacity="0.6" stroke="#1E40AF" stroke-width="1.5"/>
+  <rect x="40" y="226" width="480" height="36" rx="10" fill="#1E40AF"/>
+  <rect x="40" y="248" width="480" height="14" fill="#1E40AF"/>
+  <text x="60" y="250" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">③ 50대+ 자녀·부모 부양 + 여유</text>
+  <text x="60" y="284" fill="#BFDBFE" font-size="13" font-weight="700" font-family="sans-serif">→ 진단비 + 수술비 + 표적치료비 풀 구성 (월 7~12만)</text>
+  <text x="60" y="306" fill="#CBD5E1" font-size="12" font-family="sans-serif">3종 보장 동시 활용 (폐암 4기 케이스 9,600만)</text>
+  <text x="60" y="328" fill="#CBD5E1" font-size="12" font-family="sans-serif">치료 장기화·재수술 대비 최강 조합</text>
+
+  <!-- Scenario 4: 갑상선 유사암 -->
+  <rect x="560" y="226" width="480" height="116" rx="10" fill="#422006" fill-opacity="0.6" stroke="#D97706" stroke-width="1.5"/>
+  <rect x="560" y="226" width="480" height="36" rx="10" fill="#D97706"/>
+  <rect x="560" y="248" width="480" height="14" fill="#D97706"/>
+  <text x="580" y="250" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">④ 갑상선·자궁경부 유사암 가족력</text>
+  <text x="580" y="284" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">→ 유사암 진단비 비율 50%+ 상품 + 별도 특약</text>
+  <text x="580" y="306" fill="#CBD5E1" font-size="12" font-family="sans-serif">일반 상품 유사암 10~20%만 지급 → 한계</text>
+  <text x="580" y="328" fill="#CBD5E1" font-size="12" font-family="sans-serif">유사암 진단 비율 높은 상품 별도 비교 필수</text>
+
+  <!-- Scenario 5: 암 경력자 + 중복 가입 -->
+  <rect x="40" y="362" width="1000" height="116" rx="10" fill="#1e1b4b" fill-opacity="0.6" stroke="#4F46E5" stroke-width="1.5"/>
+  <rect x="40" y="362" width="1000" height="36" rx="10" fill="#4F46E5"/>
+  <rect x="40" y="384" width="1000" height="14" fill="#4F46E5"/>
+  <text x="60" y="386" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">⑤ 이미 가입자 + 추가 가입 검토 / 암 경력자 (5년+ 재발 X)</text>
+  <text x="60" y="420" fill="#A5B4FC" font-size="13" font-weight="700" font-family="sans-serif">→ 중복 가입 가능 (보험사별 합산 한도 1억~2.5억) / 단독 표적치료비·갱신형 가입</text>
+  <text x="60" y="442" fill="#CBD5E1" font-size="12" font-family="sans-serif">암보험은 실손과 달리 중복 보장됨 → A 3,000만 + B 2,000만 = 5,000만 가능</text>
+  <text x="60" y="464" fill="#CBD5E1" font-size="12" font-family="sans-serif">암 경력자는 일반 신규 가입 어렵지만 갱신형·단독 표적치료비 가입 검토 가능</text>
+
+  <!-- Summary -->
+  <rect x="40" y="496" width="1000" height="176" rx="10" fill="#1e293b" fill-opacity="0.8"/>
+  <text x="540" y="528" text-anchor="middle" fill="#F8FAFC" font-size="14" font-weight="800" font-family="sans-serif">핵심 결론 3줄 요약</text>
+  <text x="80" y="562" fill="#DDD6FE" font-size="13" font-weight="700" font-family="sans-serif">⭐ 1순위 진단비</text>
+  <text x="280" y="562" fill="#FFFFFF" font-size="13" font-family="sans-serif">→ 모든 가입자 필수 (확진 즉시 5,000만 일시금)</text>
+  <text x="80" y="594" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">2순위 표적치료비</text>
+  <text x="280" y="594" fill="#FFFFFF" font-size="13" font-family="sans-serif">→ 가족력 있음·고가 치료 의존 암종 대비 (연 3,000만)</text>
+  <text x="80" y="626" fill="#BFDBFE" font-size="13" font-weight="700" font-family="sans-serif">3순위 수술비</text>
+  <text x="280" y="626" fill="#FFFFFF" font-size="13" font-family="sans-serif">→ 보험료 여유 시 추가 (수술 직접 비용 회당 300만)</text>
+  <text x="80" y="654" fill="#94A3B8" font-size="12" font-family="sans-serif">※ 면책 90일 + 감액 1~2년 주의 · 중복 가입 가능 (보험사별 합산 한도 1억~2.5억)</text>
+
+  <text x="40" y="686" fill="#64748B" font-size="12" font-family="sans-serif">essencial | 보험 비교 · 2026.05 기준 · 본인 약관은 보험사·금감원(1332) 사전 확인 · 일반 정보 (보험 자문 아님)</text>
+</svg>

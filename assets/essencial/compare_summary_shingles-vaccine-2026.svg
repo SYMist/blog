@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F0FDFA"/>
+      <stop offset="100%" stop-color="#CCFBF1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+
+  <!-- 상단 배지 -->
+  <rect x="40" y="40" width="200" height="44" rx="22" fill="#0F766E"/>
+  <text x="140" y="68" font-family="sans-serif" font-size="20" font-weight="700" fill="#FFF" text-anchor="middle">2026 최신 기준</text>
+
+  <!-- 제목 -->
+  <text x="540" y="138" font-family="sans-serif" font-size="40" font-weight="900" fill="#111827" text-anchor="middle">대상포진 예방접종</text>
+  <text x="540" y="190" font-family="sans-serif" font-size="40" font-weight="900" fill="#0F766E" text-anchor="middle">백신별 비용·효과 한눈에</text>
+
+  <line x1="140" y1="225" x2="940" y2="225" stroke="#99F6E4" stroke-width="2"/>
+
+  <!-- 카드 1: 싱그릭스 -->
+  <rect x="60" y="260" width="960" height="220" rx="20" fill="#FFF" stroke="#E5E7EB" stroke-width="1.5"/>
+  <rect x="60" y="260" width="8" height="220" rx="4" fill="#0F766E"/>
+  <text x="110" y="308" font-family="sans-serif" font-size="22" font-weight="800" fill="#0F766E">💉 싱그릭스 (사백신)</text>
+  <text x="110" y="348" font-family="sans-serif" font-size="28" font-weight="900" fill="#111827">총 40~60만 원 (2회)</text>
+  <text x="110" y="388" font-family="sans-serif" font-size="20" fill="#4B5563">예방률 97.2% · 면역 지속 10년+ · 면역저하자 OK</text>
+  <text x="110" y="425" font-family="sans-serif" font-size="18" fill="#6B7280">근육주사 · 2~6개월 간격 2회 접종</text>
+  <rect x="750" y="298" width="230" height="52" rx="26" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1"/>
+  <text x="865" y="330" font-family="sans-serif" font-size="19" font-weight="700" fill="#059669" text-anchor="middle">예산 여유 시 최선</text>
+
+  <!-- 카드 2: 조스타박스 -->
+  <rect x="60" y="510" width="960" height="200" rx="20" fill="#FFF" stroke="#E5E7EB" stroke-width="1.5"/>
+  <rect x="60" y="510" width="8" height="200" rx="4" fill="#F59E0B"/>
+  <text x="110" y="558" font-family="sans-serif" font-size="22" font-weight="800" fill="#D97706">💉 조스타박스 (생백신)</text>
+  <text x="110" y="598" font-family="sans-serif" font-size="28" font-weight="900" fill="#111827">17~24만 원 (1회)</text>
+  <text x="110" y="638" font-family="sans-serif" font-size="20" fill="#4B5563">예방률 51~70% · 7~11년 후 급감 · 면역저하자 불가</text>
+  <text x="110" y="672" font-family="sans-serif" font-size="18" fill="#6B7280">피하주사 · 1회 완료</text>
+  <rect x="750" y="548" width="230" height="52" rx="26" fill="#FFFBEB" stroke="#FDE68A" stroke-width="1"/>
+  <text x="865" y="580" font-family="sans-serif" font-size="19" font-weight="700" fill="#92400E" text-anchor="middle">일부 지자체 무료</text>
+
+  <!-- 카드 3: 스카이조스터 -->
+  <rect x="60" y="740" width="960" height="200" rx="20" fill="#FFF" stroke="#E5E7EB" stroke-width="1.5"/>
+  <rect x="60" y="740" width="8" height="200" rx="4" fill="#10B981"/>
+  <text x="110" y="788" font-family="sans-serif" font-size="22" font-weight="800" fill="#10B981">💉 스카이조스터 (생백신·국산)</text>
+  <text x="110" y="828" font-family="sans-serif" font-size="28" font-weight="900" fill="#111827">10~16만 원 (1회)</text>
+  <text x="110" y="868" font-family="sans-serif" font-size="20" fill="#4B5563">예방률 51~70% · 가성비 선택 · 면역저하자 불가</text>
+  <text x="110" y="902" font-family="sans-serif" font-size="18" fill="#6B7280">피하주사 · 1회 완료</text>
+  <rect x="750" y="778" width="230" height="52" rx="26" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1"/>
+  <text x="865" y="810" font-family="sans-serif" font-size="19" font-weight="700" fill="#059669" text-anchor="middle">비용 부담 시 대안</text>
+
+  <!-- 하단 -->
+  <text x="540" y="1000" font-family="sans-serif" font-size="16" fill="#9CA3AF" text-anchor="middle">2026년 3월 기준 | 의료기관별 가격 차이 있음 — 심평원 비교 필수</text>
+  <text x="540" y="1030" font-family="sans-serif" font-size="16" fill="#9CA3AF" text-anchor="middle">면역저하자는 싱그릭스(사백신)만 접종 가능</text>
+</svg>

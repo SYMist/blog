@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- Chip -->
+  <rect x="60" y="60" width="360" height="44" rx="22" fill="#B45309"/>
+  <text x="240" y="90" text-anchor="middle" fill="#FFFFFF" font-size="19" font-weight="800" font-family="sans-serif">2026 부동산 연금 완전 비교</text>
+
+  <!-- Headline -->
+  <text x="60" y="200" fill="#FFFFFF" font-size="56" font-weight="800" font-family="sans-serif">주택연금 vs 농지연금</text>
+  <text x="60" y="268" fill="#FCD34D" font-size="58" font-weight="800" font-family="sans-serif">50·60대 수령액 비교</text>
+  <text x="60" y="326" fill="#CBD5E1" font-size="28" font-weight="600" font-family="sans-serif">어느 쪽이 유리한지 완전 정리</text>
+
+  <!-- Card 1: 주택연금 -->
+  <rect x="60" y="374" width="960" height="162" rx="16" fill="url(#card)" stroke="#B45309" stroke-width="2"/>
+  <text x="90" y="418" fill="#FCD34D" font-size="16" font-weight="700" font-family="sans-serif">주택연금 (한국주택금융공사)</text>
+  <text x="90" y="468" fill="#FFFFFF" font-size="46" font-weight="800" font-family="sans-serif">55세+ · 공시가 12억↓ 주택</text>
+  <text x="1010" y="418" text-anchor="end" fill="#FCD34D" font-size="15" font-weight="600" font-family="sans-serif">수령 상한 없음</text>
+  <text x="1010" y="468" text-anchor="end" fill="#CBD5E1" font-size="16" font-family="sans-serif">3억·65세→75.8만/월</text>
+  <text x="90" y="512" fill="#D97706" font-size="15" font-weight="700" font-family="sans-serif">2026.03 수령액 3.1% 인상 · 초기보증료 1.5%→1.0% 인하 · 실거주 요건 완화 예정</text>
+
+  <!-- Card 2: 농지연금 -->
+  <rect x="60" y="556" width="960" height="162" rx="16" fill="url(#card)" stroke="#0F766E" stroke-width="2"/>
+  <text x="90" y="600" fill="#6EE7B7" font-size="16" font-weight="700" font-family="sans-serif">농지연금 (한국농어촌공사)</text>
+  <text x="90" y="650" fill="#FFFFFF" font-size="46" font-weight="800" font-family="sans-serif">60세+ · 논·밭·과수원 보유</text>
+  <text x="1010" y="600" text-anchor="end" fill="#6EE7B7" font-size="15" font-weight="600" font-family="sans-serif">월 300만원 상한</text>
+  <text x="1010" y="650" text-anchor="end" fill="#CBD5E1" font-size="16" font-family="sans-serif">초기보증료 없음</text>
+  <text x="90" y="694" fill="#10B981" font-size="15" font-weight="700" font-family="sans-serif">2026년 가입 연령 65세→60세로 하향 · 영농경력 5년+ 필수 · 연 보증료 1.0%</text>
+
+  <!-- Card 3: 동시 가입 전략 -->
+  <rect x="60" y="738" width="960" height="162" rx="16" fill="url(#card)" stroke="#FCD34D" stroke-width="2"/>
+  <text x="90" y="782" fill="#FCD34D" font-size="16" font-weight="700" font-family="sans-serif">동시 가입 전략</text>
+  <text x="90" y="832" fill="#4ADE80" font-size="42" font-weight="800" font-family="sans-serif">주택연금 + 농지연금 동시 가능</text>
+  <text x="1010" y="782" text-anchor="end" fill="#FCD34D" font-size="15" font-weight="600" font-family="sans-serif">담보 자산 상이</text>
+  <text x="1010" y="832" text-anchor="end" fill="#CBD5E1" font-size="16" font-family="sans-serif">중복 규정 없음</text>
+  <text x="90" y="876" fill="#D97706" font-size="15" font-weight="700" font-family="sans-serif">65세·주택3억+농지2억 기준 월 약 163만원 동시 수령 가능</text>
+
+  <!-- Footer -->
+  <text x="60" y="1042" fill="#64748B" font-size="14" font-family="sans-serif">essencial | 대출·금융 silo · 2026.05 기준</text>
+</svg>

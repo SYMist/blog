@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <rect x="60" y="50" width="180" height="36" rx="18" fill="#7C3AED"/>
+  <text x="150" y="74" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="800" font-family="sans-serif">2026.01 개정</text>
+
+  <text x="60" y="145" fill="#FFFFFF" font-size="42" font-weight="800" font-family="sans-serif">운전자보험 필수 특약 비교</text>
+  <text x="60" y="200" fill="#FFFFFF" font-size="42" font-weight="800" font-family="sans-serif">벌금·형사합의금·교통사고처리</text>
+
+  <text x="60" y="255" fill="#E2E8F0" font-size="24" font-weight="600" font-family="sans-serif">6사 비교 — 변호사비 50% 자기부담·8주 룰 해설</text>
+
+  <rect x="60" y="285" width="120" height="34" rx="17" fill="#FEF3C7"/>
+  <text x="120" y="308" text-anchor="middle" fill="#92400E" font-size="15" font-weight="700" font-family="sans-serif">벌금</text>
+  <rect x="195" y="285" width="130" height="34" rx="17" fill="#FEF3C7"/>
+  <text x="260" y="308" text-anchor="middle" fill="#92400E" font-size="15" font-weight="700" font-family="sans-serif">형사합의금</text>
+  <rect x="340" y="285" width="130" height="34" rx="17" fill="#FEF3C7"/>
+  <text x="405" y="308" text-anchor="middle" fill="#92400E" font-size="15" font-weight="700" font-family="sans-serif">변호사비</text>
+
+  <rect x="60" y="345" width="500" height="3" rx="2" fill="#7C3AED" opacity="0.5"/>
+
+  <text x="60" y="395" fill="#C4B5FD" font-size="20" font-weight="600" font-family="sans-serif">DB손보 · 삼성화재</text>
+  <text x="60" y="430" fill="#FFFFFF" font-size="26" font-weight="800" font-family="sans-serif">스쿨존 +500만 / 변호사비 선지급</text>
+
+  <text x="60" y="480" fill="#6EE7B7" font-size="20" font-weight="600" font-family="sans-serif">메리츠 · 한화 · KB</text>
+  <text x="60" y="515" fill="#FFFFFF" font-size="26" font-weight="800" font-family="sans-serif">가성비 / 티맵 결합 할인 강세</text>
+
+  <!-- Right card -->
+  <rect x="850" y="100" width="280" height="420" rx="20" fill="#1e293b" opacity="0.8"/>
+  <text x="990" y="148" text-anchor="middle" fill="#C4B5FD" font-size="18" font-weight="700" font-family="sans-serif">2026 핵심 변경</text>
+
+  <text x="990" y="185" text-anchor="middle" fill="#CBD5E1" font-size="14" font-family="sans-serif">변호사비 자기부담</text>
+  <text x="990" y="210" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">50% 의무</text>
+
+  <rect x="870" y="225" width="240" height="2" rx="1" fill="#334155"/>
+
+  <text x="990" y="255" text-anchor="middle" fill="#CBD5E1" font-size="14" font-family="sans-serif">심급별 한도</text>
+  <text x="990" y="280" text-anchor="middle" fill="#FCD34D" font-size="20" font-weight="800" font-family="sans-serif">500만 × 1·2·3심</text>
+
+  <rect x="870" y="295" width="240" height="2" rx="1" fill="#334155"/>
+
+  <text x="990" y="325" text-anchor="middle" fill="#CBD5E1" font-size="14" font-family="sans-serif">대인 벌금 표준</text>
+  <text x="990" y="350" text-anchor="middle" fill="#34D399" font-size="20" font-weight="800" font-family="sans-serif">3,000만 원</text>
+
+  <rect x="870" y="365" width="240" height="2" rx="1" fill="#334155"/>
+
+  <text x="990" y="395" text-anchor="middle" fill="#CBD5E1" font-size="14" font-family="sans-serif">자부상 8주 룰</text>
+  <text x="990" y="420" text-anchor="middle" fill="#F87171" font-size="18" font-weight="800" font-family="sans-serif">경상 합의금 -80%</text>
+
+  <rect x="870" y="440" width="240" height="2" rx="1" fill="#334155"/>
+
+  <text x="990" y="470" text-anchor="middle" fill="#CBD5E1" font-size="14" font-family="sans-serif">음주방지장치(2026.10)</text>
+  <text x="990" y="495" text-anchor="middle" fill="#FCA5A5" font-size="16" font-weight="700" font-family="sans-serif">5년 내 2회 의무</text>
+
+  <text x="60" y="595" fill="#64748B" font-size="14" font-family="sans-serif">essencial | 비교형 콘텐츠</text>
+</svg>

@@ -1,0 +1,414 @@
+<!-- E-22: 하이브리드 vs 전기차 유지비 비교 — 연료비·세금·보험료 총정리 (2026) -->
+<!-- essencial 블로그 | Silo: 자동차 | 템플릿: essencial_template_auto.html -->
+
+<!-- ✅ Schema.org 구조화 데이터 -->
+<div style="display:none">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "하이브리드 vs 전기차 유지비 비교 — 연료비·세금·보험료 총정리 (2026)",
+      "description": "2026년 하이브리드와 전기차의 연료비·세금·보험료·정비비·감가상각까지 5년 TCO를 비교합니다. 연 2만km 이상이면 전기차, 3~5년 교체 계획이면 하이브리드가 유리합니다.",
+      "datePublished": "2026-04-14",
+      "dateModified": "2026-04-14",
+      "author": {"@type": "Person", "name": "essencial"},
+      "publisher": {"@type": "Organization", "name": "essencial"}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "전기차가 하이브리드보다 연료비가 얼마나 저렴한가요?", "acceptedAnswer": {"@type": "Answer", "text": "10,000km 주행 기준 하이브리드 약 105만 원, 전기차 약 63만 원으로 전기차가 약 40% 저렴합니다. 5년(10만km) 누적 시 약 420만 원 차이가 납니다. 아파트 완속 충전 시 전기차 비용은 휘발유의 약 1/5 수준까지 낮아집니다."}},
+        {"@type": "Question", "name": "2026년 전기차 세제 혜택은 얼마인가요?", "acceptedAnswer": {"@type": "Answer", "text": "전기차는 개소세 최대 300만 원 + 교육세 90만 원 + 부가세 39만 원 + 취득세 140만 원 = 최대 약 569만 원의 세제 혜택을 받습니다. 하이브리드는 개소세 70만 원 + 교육세 21만 원 + 부가세 9만 원 = 약 100만 원으로, 취득세 감면은 종료되었습니다."}},
+        {"@type": "Question", "name": "전기차 보험료가 하이브리드보다 비싼가요?", "acceptedAnswer": {"@type": "Answer", "text": "네. 2026년 기준 전기차 보험료는 하이브리드 대비 평균 10~15% 높습니다(연 약 110만 원 vs 100만 원). 배터리 수리비가 반영된 결과이나, BMS 데이터 기반 안전운전 할인(5~12%)을 활용하면 격차를 줄일 수 있습니다."}},
+        {"@type": "Question", "name": "중고차 잔가율은 어느 쪽이 높나요?", "acceptedAnswer": {"@type": "Answer", "text": "하이브리드가 압도적으로 유리합니다. 5년 후 잔가율이 하이브리드 약 60%, 전기차 약 40%로 20%p 차이가 납니다. 3~5년 교체 주기라면 하이브리드의 감가 방어력이 총소유비용에서 결정적입니다."}},
+        {"@type": "Question", "name": "전기차 보조금은 최대 얼마까지 받을 수 있나요?", "acceptedAnswer": {"@type": "Answer", "text": "2026년 국비 기본 580만 원 + 내연차 전환지원금 100만 원 = 최대 680만 원입니다. 지자체 보조금까지 합산하면 최대 754~800만 원 이상 가능합니다. 차량가 8,500만 원 초과 시 보조금 대상에서 제외됩니다."}},
+        {"@type": "Question", "name": "고속도로 통행료 할인은 아직 되나요?", "acceptedAnswer": {"@type": "Answer", "text": "전기차·수소차는 2026년 30% 할인이 적용됩니다(2025년 40% → 2026년 30% → 2027년 20% 단계 축소). 하이브리드는 통행료 할인 혜택이 없습니다. 친환경차 전용 하이패스 단말기 등록이 필요합니다."}},
+        {"@type": "Question", "name": "5년 보유 시 총소유비용(TCO)은 어느 쪽이 유리한가요?", "acceptedAnswer": {"@type": "Answer", "text": "운영비만 보면 전기차가 약 450만 원 저렴하지만, 중고차 잔가율까지 포함한 순수 TCO는 하이브리드 약 3,505만 원 vs 전기차 약 4,056만 원으로 하이브리드가 유리합니다. 7~10년 장기 보유 시에는 전기차의 연료비 절감이 감가 차이를 상쇄합니다."}}
+      ]
+    }
+  ]
+}
+</script>
+</div>
+
+<style>
+  :root{
+    --pri:#1E40AF; --pri2:#1D4ED8;
+    --white:#FFFFFF; --text:#111827;
+    --muted:#4B5563; --border:#E5E7EB;
+    --bg:#F9FAFB; --accent:#EFF6FF;
+  }
+  .wrap{max-width:860px;margin:0 auto;line-height:1.8;color:var(--text);}
+  .meta{color:var(--muted);font-size:.95rem;margin:6px 0 18px;}
+  .badge{display:inline-block;background:var(--accent);border:1px solid #BFDBFE;padding:3px 10px;border-radius:999px;font-size:.85rem;margin-right:8px;}
+  .notice{background:#FFF7ED;border:1px solid #FED7AA;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .conclusion{background:#EFF6FF;border:1px solid #BFDBFE;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .toc{background:var(--bg);border:1px solid var(--border);padding:14px 16px;border-radius:12px;margin:16px 0 22px;}
+  .toc a{text-decoration:none;color:var(--pri);}
+  .toc ul{margin:8px 0 0 18px;}
+  .wrap a.btn,.wrap a.btn:link,.wrap a.btn:visited{display:inline-flex;align-items:center;justify-content:center;padding:10px 14px;border-radius:10px;border:1px solid var(--pri);background:var(--pri) !important;color:var(--white) !important;text-decoration:none !important;font-weight:800;}
+  .wrap a.btn:hover{background:var(--pri2) !important;}
+  .wrap a.btn.secondary,.wrap a.btn.secondary:link,.wrap a.btn.secondary:visited{background:var(--white) !important;color:var(--pri) !important;border-color:var(--pri) !important;}
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 6px;}
+  table{width:100%;border-collapse:collapse;margin:14px 0 10px;}
+  th,td{border:1px solid var(--border);padding:10px;vertical-align:top;}
+  th{background:#F3F4F6;text-align:left;}
+  .small{font-size:.95rem;color:var(--muted);}
+  h1{margin:0 0 8px;line-height:1.25;}
+  h2{margin-top:30px;padding-top:8px;border-top:1px solid var(--border);}
+  h3{margin-top:16px;}
+  .q{font-weight:900;margin:14px 0 6px;}
+  .a{margin:0 0 10px;}
+  .highlight{background:#F0FDF4;border:1px solid #BBF7D0;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .warning{background:#FEF2F2;border:1px solid #FECACA;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .cost-sim{background:#FEFCE8;border:1px solid #FDE68A;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .scope{background:#F8FAFC;border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .scope ul{margin:4px 0 0 18px;}
+  .action-steps{background:#EFF6FF;border:1px solid #BFDBFE;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .action-steps ol{margin:8px 0 0 18px;}
+  .sources{background:var(--bg);border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:14px 0;font-size:.9rem;}
+  .sources ul{margin:4px 0 0 18px;}
+  .ad{background:#F9FAFB;border:1px dashed var(--border);padding:10px 12px;border-radius:10px;margin:12px 0;}
+  .footer{margin-top:26px;padding-top:14px;border-top:1px solid var(--border);color:var(--muted);font-size:.95rem;}
+</style>
+
+<div class="wrap">
+  <h1>하이브리드 vs 전기차 유지비 비교 — 연료비·세금·보험료 총정리 (2026)</h1>
+  <div class="meta">
+    <span class="badge">자동차</span>
+    <span class="badge">업데이트: 2026-04-14</span>
+  </div>
+
+  <div class="notice">
+    <strong>먼저 확인!</strong><br/>
+    유지비는 주행 거리·충전 환경·보유 기간에 따라 크게 달라집니다. 본 글은 연 2만km·5년 보유 기준이며, 보조금·세제 혜택은 2026년 12월 31일 일몰 예정입니다.
+  </div>
+
+  <p class="small">
+    2026년 기준 하이브리드(HEV)와 전기차(EV)의 연료비·세금·보험료·정비비·감가상각까지 5년 총소유비용(TCO)을 비교합니다. 운영비는 전기차가 450만 원 저렴하지만, 잔가율까지 포함하면 결론이 달라집니다.
+  </p>
+
+  <!-- ✅ 스코핑 -->
+  <div class="scope">
+    <strong>이 글에서 다루는 것</strong>
+    <ul>
+      <li>연료비·세금·보험료·정비비·감가상각 5대 유지비 항목 비교</li>
+      <li>그랜저 HEV vs 아이오닉 6 기준 5년 TCO 시뮬레이션</li>
+      <li>2026년 세제 혜택·보조금·공공 혜택 변화</li>
+    </ul>
+    <strong>다루지 않는 것</strong>
+    <ul>
+      <li>리스·장기렌트 비교 (→ <a href="#">자동차 리스 vs 장기렌트 비교</a> 참고)</li>
+      <li>전기차 보조금 차종별 상세 (→ <a href="#">전기차 보조금·세금 혜택 총정리</a> 참고)</li>
+    </ul>
+  </div>
+
+  <!-- ✅ 결론 먼저 -->
+  <div class="conclusion" id="top">
+    <h2 style="border-top:none;margin-top:0;">✅ 결론 먼저: 상황별 추천</h2>
+    <ul>
+      <li><strong>연 2만km 이상 + 완속 충전 가능 + 7년 이상 보유</strong> → <strong>전기차</strong> (연료비 절감이 감가 차이를 상쇄)</li>
+      <li><strong>연 1만km 내외 + 3~5년 교체 주기</strong> → <strong>하이브리드</strong> (잔가율 60% vs 40%로 TCO 우위)</li>
+      <li><strong>노후 내연차 보유 + 전환지원금 100만 원 수령 가능</strong> → <strong>전기차</strong> (보조금 최대 680만 원)</li>
+      <li><strong>충전 인프라 열악 + 도심 출퇴근 위주</strong> → <strong>하이브리드</strong> (혼잡통행료 면제 + 주차 할인)</li>
+    </ul>
+  </div>
+
+  <!-- ✅ 이미지 1 -->
+  <p><img src="compare_summary_hybrid-vs-ev-maintenance-2026.png" alt="하이브리드 vs 전기차 유지비 비교 요약" width="860"/></p>
+
+  <div class="toc">
+    <strong>목차</strong>
+    <ul>
+      <li><a href="#fuel">1) 연료비 비교 — 1km당 얼마?</a></li>
+      <li><a href="#tax">2) 세금·보조금 — 초기 비용 차이</a></li>
+      <li><a href="#insurance">3) 보험료·정비비 — 숨은 유지비</a></li>
+      <li><a href="#resale">4) 감가상각 — 유지비의 역설</a></li>
+      <li><a href="#tco">5) 5년 TCO 시뮬레이션</a></li>
+      <li><a href="#public">6) 공공 혜택 — 통행료·주차·혼잡료</a></li>
+      <li><a href="#scenario">7) 시나리오별 추천</a></li>
+      <li><a href="#caution">8) 주의사항</a></li>
+      <li><a href="#faq">9) FAQ</a></li>
+      <li><a href="#update">업데이트 로그</a></li>
+    </ul>
+  </div>
+
+  <!-- ✅ 섹션 1: 연료비 -->
+  <h2 id="fuel">1) 연료비 비교 — 1km당 얼마?</h2>
+  <table>
+    <thead>
+      <tr><th>항목</th><th>하이브리드 (HEV)</th><th>전기차 (EV)</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>에너지 단가</strong></td><td>휘발유 1,701원/L</td><td>급속 347.2원/kWh</td></tr>
+      <tr><td><strong>공인 연비/전비</strong></td><td>16.2 km/L</td><td>5.5 km/kWh</td></tr>
+      <tr><td><strong>1km당 비용</strong></td><td><strong>약 105원</strong></td><td><strong>약 63원</strong></td></tr>
+      <tr><td><strong>10,000km 비용</strong></td><td>약 1,050,000원</td><td>약 631,000원</td></tr>
+      <tr><td><strong>5년(10만km)</strong></td><td>약 1,050만 원</td><td>약 631만 원</td></tr>
+    </tbody>
+  </table>
+  <p class="small">※ 그랜저 HEV 1.6 vs 아이오닉 6 LR 기준. 2026년 4월 전국 평균 유가·급속 충전 단가 적용.</p>
+
+  <div class="highlight">
+    <strong>완속 충전 시 더 저렴!</strong><br/>
+    아파트 전용 충전기(완속) 이용 시 전기차 비용은 휘발유의 <strong>약 1/5 수준(20%)</strong>까지 낮아집니다. 5년간 약 <strong>840만 원</strong> 절감 가능.
+  </div>
+
+  <div class="ad">{광고 위치 1: 연료비 비교 아래}</div>
+
+  <!-- ✅ 이미지 2 -->
+  <p><img src="compare_matrix_hybrid-vs-ev-maintenance-2026.png" alt="하이브리드 vs 전기차 유지비 항목별 비교표" width="860"/></p>
+
+  <!-- ✅ 섹션 2: 세금·보조금 -->
+  <h2 id="tax">2) 세금·보조금 — 초기 비용 차이</h2>
+
+  <h3>세제 혜택은 얼마나 차이 나나?</h3>
+  <table>
+    <thead>
+      <tr><th>항목</th><th>전기차 (EV)</th><th>하이브리드 (HEV)</th><th>격차</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>개별소비세 감면</strong></td><td>최대 300만 원</td><td>최대 70만 원</td><td>EV +230만</td></tr>
+      <tr><td><strong>교육세 감면</strong></td><td>최대 90만 원</td><td>최대 21만 원</td><td>EV +69만</td></tr>
+      <tr><td><strong>부가세 절감</strong></td><td>최대 39만 원</td><td>최대 9만 원</td><td>EV +30만</td></tr>
+      <tr><td><strong>취득세 감면</strong></td><td>최대 140만 원</td><td><strong>혜택 종료</strong></td><td>EV +140만</td></tr>
+      <tr><td><strong>세제 혜택 합계</strong></td><td><strong>최대 569만 원</strong></td><td><strong>약 100만 원</strong></td><td><strong>EV +469만</strong></td></tr>
+    </tbody>
+  </table>
+
+  <h3>전기차 보조금은 최대 얼마?</h3>
+  <div class="cost-sim">
+    <table>
+      <thead>
+        <tr><th>보조금 항목</th><th>금액</th><th>조건</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>국비 기본</strong></td><td>최대 580만 원</td><td>차량가 5,000만 원 이하 전액, 5,000~8,500만 50%</td></tr>
+        <tr><td><strong>전환지원금 (신설)</strong></td><td>최대 100만 원</td><td>3년 이상 내연차 폐차·매각 후 전기차 구매 시</td></tr>
+        <tr><td><strong>국비 합계</strong></td><td><strong>최대 680만 원</strong></td><td>8,500만 원 초과 차량 제외</td></tr>
+        <tr><td><strong>지자체 추가</strong></td><td>74~120만 원+</td><td>지역별 상이 (인천 기준 최대 800만 원+)</td></tr>
+      </tbody>
+    </table>
+    <p class="small">※ 하이브리드는 구매 보조금 대상이 아닙니다.</p>
+  </div>
+
+  <h3>자동차세는 매년 얼마?</h3>
+  <table>
+    <thead>
+      <tr><th>구분</th><th>하이브리드 (그랜저 1.6L)</th><th>전기차</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>연간 자동차세</strong></td><td>약 29만 원</td><td>약 13만 원 (일괄 부과)</td></tr>
+      <tr><td><strong>5년 합계</strong></td><td>약 145만 원</td><td>약 65만 원</td></tr>
+    </tbody>
+  </table>
+
+  <div class="ad">{광고 위치 2: 세금 비교 아래}</div>
+
+  <!-- ✅ 섹션 3: 보험료·정비비 -->
+  <h2 id="insurance">3) 보험료·정비비 — 숨은 유지비</h2>
+
+  <h3>보험료는 전기차가 더 비싼가?</h3>
+  <table>
+    <thead>
+      <tr><th>항목</th><th>전기차 (EV)</th><th>하이브리드 (HEV)</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>연간 보험료</strong></td><td>약 110만 원</td><td>약 100만 원</td></tr>
+      <tr><td><strong>차이 원인</strong></td><td colspan="2">배터리 팩 고가 → 사고 시 수리비 반영</td></tr>
+      <tr><td><strong>BMS 안전 할인</strong></td><td>5~12% 추가 할인</td><td>해당 없음</td></tr>
+      <tr><td><strong>배터리 안심보험</strong></td><td>가액 전액 보상 특약 가능</td><td>해당 없음</td></tr>
+    </tbody>
+  </table>
+
+  <h3>정비비는 어느 쪽이 적게 드나?</h3>
+  <div class="highlight">
+    <ul>
+      <li><strong>전기차</strong>: 엔진오일·변속기오일·점화플러그·구동벨트 등 <strong>10여 가지 소모품 교체 불필요</strong>. 회생 제동으로 브레이크 패드 마모도 적어 소모품 비용 <strong>50% 이상 절감</strong></li>
+      <li><strong>하이브리드</strong>: 엔진 + 전기모터 두 시스템 동시 관리. 정비 항목이 내연기관차와 <strong>동일하거나 복잡성에 따라 더 높을 수 있음</strong></li>
+    </ul>
+  </div>
+
+  <table>
+    <thead>
+      <tr><th>주요 소모품</th><th>전기차</th><th>하이브리드</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>엔진오일</td><td>❌ 불필요</td><td>✅ 정기 교체</td></tr>
+      <tr><td>변속기오일</td><td>❌ 불필요</td><td>✅ 정기 교체</td></tr>
+      <tr><td>점화플러그</td><td>❌ 불필요</td><td>✅ 정기 교체</td></tr>
+      <tr><td>브레이크 패드</td><td>마모 적음 (회생 제동)</td><td>일반 수준</td></tr>
+      <tr><td>타이어</td><td>✅ 동일</td><td>✅ 동일</td></tr>
+      <tr><td>에어컨 필터</td><td>✅ 동일</td><td>✅ 동일</td></tr>
+    </tbody>
+  </table>
+
+  <!-- ✅ 섹션 4: 감가상각 -->
+  <h2 id="resale">4) 감가상각 — 유지비의 역설</h2>
+
+  <div class="warning">
+    <strong>핵심 포인트</strong>: 운영비는 전기차가 저렴하지만, 중고차 잔가율까지 포함하면 <strong>결론이 뒤집힐 수 있습니다.</strong>
+  </div>
+
+  <table>
+    <thead>
+      <tr><th>항목</th><th>하이브리드 (HEV)</th><th>전기차 (EV)</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>3년 후 잔가율</strong></td><td>약 70~75%</td><td>약 50~55%</td></tr>
+      <tr><td><strong>5년 후 잔가율</strong></td><td><strong>약 60%</strong></td><td><strong>약 40%</strong></td></tr>
+      <tr><td><strong>감가율 차이</strong></td><td colspan="2">하이브리드가 최대 <strong>2.4배 적은 감가</strong></td></tr>
+    </tbody>
+  </table>
+
+  <h3>왜 전기차 감가가 더 심할까?</h3>
+  <ul>
+    <li><strong>기술 발전 속도</strong>: 배터리 밀도·주행 거리가 급격히 개선 → 구형 모델 매력 급락</li>
+    <li><strong>배터리 수명 불안</strong>: 중고 구매자들이 효율 저하·교체 비용에 민감</li>
+    <li><strong>충전 인프라 격차</strong>: 충전 불편함이 중고 수요층을 제한</li>
+  </ul>
+
+  <!-- ✅ 섹션 5: TCO 시뮬레이션 -->
+  <h2 id="tco">5) 5년 TCO 시뮬레이션 — 그랜저 HEV vs 아이오닉 6</h2>
+  <div class="cost-sim">
+    <strong>조건: 연 2만km · 5년 보유 · 급속 충전 기준</strong>
+    <table>
+      <thead>
+        <tr><th>항목</th><th>그랜저 HEV</th><th>아이오닉 6</th><th>차이</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>실구매가 (보조금·세제 반영)</strong></td><td>약 4,400만 원</td><td>약 4,600만 원</td><td>EV +200만</td></tr>
+        <tr><td><strong>5년 연료비</strong></td><td>약 1,050만 원</td><td>약 631만 원</td><td><strong>EV ▼419만</strong></td></tr>
+        <tr><td><strong>5년 자동차세</strong></td><td>약 145만 원</td><td>약 65만 원</td><td>EV ▼80만</td></tr>
+        <tr><td><strong>5년 보험+정비</strong></td><td>약 550만 원</td><td>약 600만 원</td><td>EV +50만</td></tr>
+        <tr><td><strong>운영비 소계</strong></td><td>약 1,745만 원</td><td>약 1,296만 원</td><td><strong>EV ▼449만</strong></td></tr>
+        <tr><td><strong>5년 후 잔존가치</strong></td><td>약 2,640만 원 (60%)</td><td>약 1,840만 원 (40%)</td><td><strong>HEV +800만</strong></td></tr>
+        <tr><td><strong>순수 TCO</strong></td><td><strong>약 3,505만 원</strong></td><td><strong>약 4,056만 원</strong></td><td><strong>HEV ▼551만</strong></td></tr>
+      </tbody>
+    </table>
+    <p class="small">※ 순수 TCO = 실구매가 + 운영비 - 잔존가치</p>
+  </div>
+
+  <div class="highlight">
+    <strong>핵심 인사이트</strong>
+    <ul>
+      <li><strong>운영비만</strong> 보면 → 전기차가 <strong>449만 원 저렴</strong></li>
+      <li><strong>잔가 포함</strong> TCO → 하이브리드가 <strong>551만 원 유리</strong></li>
+      <li><strong>분기점</strong>: 7~10년 이상 보유 시 전기차의 연료비 절감이 감가 차이를 상쇄</li>
+    </ul>
+  </div>
+
+  <!-- ✅ 섹션 6: 공공 혜택 -->
+  <h2 id="public">6) 공공 혜택 — 통행료·주차·혼잡료</h2>
+  <table>
+    <thead>
+      <tr><th>혜택</th><th>전기차 (EV)</th><th>하이브리드 (HEV)</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>고속도로 통행료</strong></td><td>30% 할인 (2026)</td><td>❌ 없음</td></tr>
+      <tr><td><strong>공영주차장</strong></td><td>50% 감면</td><td>50% 감면 (저공해 2종)</td></tr>
+      <tr><td><strong>남산터널 혼잡통행료</strong></td><td>면제</td><td>면제</td></tr>
+      <tr><td><strong>채권 매입 감면</strong></td><td>최대 250만 원</td><td>최대 140만 원</td></tr>
+    </tbody>
+  </table>
+  <p class="small">※ 고속도로 할인: 2025년 40% → 2026년 30% → 2027년 20% 단계 축소. 친환경차 하이패스 단말기 등록 필요.</p>
+
+  <!-- ✅ 섹션 7: 시나리오 추천 -->
+  <h2 id="scenario">7) 시나리오별 추천</h2>
+  <div class="highlight">
+    <h3>당신의 상황에 맞는 선택은?</h3>
+    <ul>
+      <li><strong>연 2만km+ · 아파트 완속 충전 · 7년+ 보유</strong> → <strong>전기차</strong></li>
+      <li><strong>연 1만km · 3~5년 교체 · 잔가율 중시</strong> → <strong>하이브리드</strong></li>
+      <li><strong>노후 내연차 보유 · 전환지원금 수령</strong> → <strong>전기차</strong></li>
+      <li><strong>충전 인프라 열악 · 장거리 주행 잦음</strong> → <strong>하이브리드</strong></li>
+      <li><strong>사업자 · 비용처리 극대화</strong> → <strong>전기차</strong> (세제 혜택 569만 원)</li>
+      <li><strong>도심 출퇴근 · 주차 할인 활용</strong> → <strong>둘 다 유리</strong> (공영주차장 50% 동일)</li>
+    </ul>
+  </div>
+
+  <!-- ✅ 이미지 3 -->
+  <p><img src="scenario_hybrid-vs-ev-maintenance-2026.png" alt="하이브리드 vs 전기차 상황별 추천 가이드" width="860"/></p>
+
+  <div class="action-steps">
+    <strong>지금 바로 확인하는 순서</strong>
+    <ol>
+      <li><strong>연간 주행 거리 계산</strong>: 최근 1년 주행기록 확인 → 2만km 이상이면 전기차 연료비 이점 극대화</li>
+      <li><strong>충전 환경 점검</strong>: 아파트 충전기·직장 충전 가능 여부 확인</li>
+      <li><strong>보유 기간 결정</strong>: 3~5년이면 잔가율 우선(HEV), 7년+이면 운영비 우선(EV)</li>
+      <li><strong>보조금 잔여 확인</strong>: 무공해차 통합누리집에서 지자체별 잔여 대수 확인</li>
+      <li><strong>세제 혜택 일몰 체크</strong>: 2026.12.31 종료 → 신차 출고 대기 감안 시 조기 주문 필요</li>
+    </ol>
+  </div>
+
+  <div class="ad">{광고 위치 3: 시나리오 추천 아래 — CPC 최고 지점}</div>
+
+  <!-- ✅ 섹션 8: 주의사항 -->
+  <h2 id="caution">8) 주의사항</h2>
+  <div class="warning">
+    <ul>
+      <li><strong>세제 혜택 일몰</strong>: 전기차 취득세 140만 원 감면, 채권 감면 등은 <strong>2026.12.31 종료 예정</strong>. 하이브리드 취득세 감면은 이미 종료</li>
+      <li><strong>보조금 8,500만 원 컷</strong>: 차량가 8,500만 원 초과 전기차는 보조금 대상 제외</li>
+      <li><strong>전기차 겨울 효율</strong>: 저온 시 배터리 효율 10~20% 하락 → 실제 전비는 공인 수치보다 낮을 수 있음</li>
+      <li><strong>하이브리드 혜택 축소 추세</strong>: 2026년 이후 저공해차 분류 제외 가시화 → 장기 보유 시 혜택 소멸 리스크</li>
+      <li><strong>배터리 정보 공개 의무화</strong>: 2026.6.3부터 제조사·용량·전압 등 의무 공개 → 중고차 거래 투명성 향상</li>
+    </ul>
+  </div>
+
+  <div class="btns">
+    <a class="btn" href="https://www.ev.or.kr" target="_blank" rel="noopener">무공해차 통합누리집</a>
+    <a class="btn secondary" href="https://www.car365.go.kr" target="_blank" rel="noopener">자동차365 시세 조회</a>
+  </div>
+
+  <!-- ✅ 섹션 9: FAQ -->
+  <h2 id="faq">9) FAQ</h2>
+  <p class="q">Q1. 전기차가 하이브리드보다 연료비가 얼마나 저렴한가요?</p>
+  <p class="a">10,000km 주행 기준 하이브리드 약 105만 원, 전기차 약 63만 원으로 전기차가 약 40% 저렴합니다. 5년(10만km) 누적 시 약 420만 원 차이가 납니다. 아파트 완속 충전 시 전기차 비용은 휘발유의 약 1/5 수준까지 낮아집니다.</p>
+
+  <p class="q">Q2. 2026년 전기차 세제 혜택은 얼마인가요?</p>
+  <p class="a">전기차는 개소세 최대 300만 원 + 교육세 90만 원 + 부가세 39만 원 + 취득세 140만 원 = 최대 약 569만 원의 세제 혜택을 받습니다. 하이브리드는 약 100만 원이며 취득세 감면은 종료되었습니다.</p>
+
+  <p class="q">Q3. 전기차 보험료가 하이브리드보다 비싼가요?</p>
+  <p class="a">네. 2026년 기준 전기차 보험료는 하이브리드 대비 평균 10~15% 높습니다(연 약 110만 원 vs 100만 원). BMS 데이터 기반 안전운전 할인(5~12%)을 활용하면 격차를 줄일 수 있습니다.</p>
+
+  <p class="q">Q4. 중고차 잔가율은 어느 쪽이 높나요?</p>
+  <p class="a">하이브리드가 압도적으로 유리합니다. 5년 후 잔가율이 하이브리드 약 60%, 전기차 약 40%로 20%p 차이가 납니다. 3~5년 교체 주기라면 하이브리드의 감가 방어력이 TCO에서 결정적입니다.</p>
+
+  <p class="q">Q5. 전기차 보조금은 최대 얼마까지 받을 수 있나요?</p>
+  <p class="a">2026년 국비 기본 580만 원 + 전환지원금 100만 원 = 최대 680만 원입니다. 지자체 보조금까지 합산하면 최대 754~800만 원 이상 가능합니다. 차량가 8,500만 원 초과 시 제외됩니다.</p>
+
+  <p class="q">Q6. 고속도로 통행료 할인은 아직 되나요?</p>
+  <p class="a">전기차·수소차는 2026년 30% 할인이 적용됩니다(매년 10%p 축소 중). 하이브리드는 통행료 할인 혜택이 없습니다. 친환경차 전용 하이패스 단말기 등록이 필요합니다.</p>
+
+  <p class="q">Q7. 5년 보유 시 총소유비용(TCO)은 어느 쪽이 유리한가요?</p>
+  <p class="a">운영비만 보면 전기차가 약 450만 원 저렴하지만, 중고차 잔가율까지 포함한 순수 TCO는 하이브리드 약 3,505만 원 vs 전기차 약 4,056만 원으로 하이브리드가 유리합니다. 7~10년 장기 보유 시에는 전기차의 연료비 절감이 감가 차이를 상쇄합니다.</p>
+
+  <p class="small">관련 글: <a href="#">전기차 보조금·세금 혜택 총정리</a> / <a href="#">자동차 리스 vs 장기렌트 비교</a> / <a href="#">경차 유류세 환급 신청 방법</a></p>
+
+  <!-- ✅ 참고자료 -->
+  <div class="sources">
+    <strong>참고자료 / 출처</strong>
+    <ul>
+      <li>환경부 — 무공해차 통합누리집 보조금 안내 (2026년 기준)</li>
+      <li>국세청 — 개별소비세·취득세 감면 안내</li>
+      <li>한국도로공사 — 친환경차 고속도로 통행료 할인 안내</li>
+      <li>보험개발원 — 자동차 보험료 산출 기준</li>
+      <li>한국자동차산업협회 — 중고차 잔가율 데이터</li>
+    </ul>
+  </div>
+
+  <div class="btns">
+    <a class="btn" href="https://www.ev.or.kr/portal/buyersGuide/subsidyPaymentCheckMain" target="_blank" rel="noopener">지자체 보조금 조회</a>
+    <a class="btn secondary" href="https://www.ex.co.kr" target="_blank" rel="noopener">한국도로공사</a>
+  </div>
+
+  <div class="ad">{광고 위치 4: 글 하단}</div>
+
+  <div class="footer" id="update">
+    <strong>업데이트 로그</strong><br/>
+    - 2026-04-14: 최초 발행 (2026년 유가·충전단가·세제·보조금·잔가율 데이터 반영)<br/>
+    <span class="small">※ 유지비는 주행 거리·충전 환경·차종·보유 기간에 따라 달라집니다. 본 글은 일반적인 정보 제공 목적이며, 구매 전 개인 상황에 맞는 시뮬레이션을 권장합니다.</span>
+  </div>
+</div>

@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="tealCard" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#064E3B" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="blueCard" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E3A8A" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="amberCard" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#78350F" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1700" fill="url(#bg)"/>
+
+  <!-- Header -->
+  <rect x="60" y="50" width="400" height="44" rx="22" fill="#B45309"/>
+  <text x="260" y="80" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">2026 보금자리론·디딤돌대출 시나리오 추천</text>
+
+  <text x="60" y="162" fill="#FFFFFF" font-size="50" font-weight="800" font-family="sans-serif">내 상황에 맞는 선택</text>
+  <text x="60" y="226" fill="#FCD34D" font-size="50" font-weight="800" font-family="sans-serif">5가지 실전 시나리오</text>
+
+  <!-- 시나리오 A: 신혼부부 -->
+  <rect x="60" y="275" width="1080" height="240" rx="16" fill="url(#tealCard)" stroke="#0F766E" stroke-width="2"/>
+  <rect x="60" y="275" width="100" height="240" rx="16" fill="#0F766E"/>
+  <text x="110" y="420" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800" font-family="sans-serif" transform="rotate(-90,110,395)">시나리오 A</text>
+
+  <text x="190" y="316" fill="#6EE7B7" font-size="20" font-weight="800" font-family="sans-serif">신혼부부 · 소득 5,000만원 · 생애최초 무주택 · 주택 4.5억</text>
+  <text x="190" y="352" fill="#FFFFFF" font-size="16" font-weight="700" font-family="sans-serif">→ 디딤돌 신혼·생애최초 특별금리 적용</text>
+  <text x="190" y="382" fill="#6EE7B7" font-size="16" font-family="sans-serif">30년 금리: 3.15% (소득 4,000~7,000만 신혼 구간)</text>
+  <text x="190" y="408" fill="#6EE7B7" font-size="16" font-family="sans-serif">대출 2억 시 월 상환액 약 88만원 (30년 원리금균등)</text>
+  <rect x="850" y="300" width="260" height="80" rx="12" fill="#0F766E"/>
+  <text x="980" y="335" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="700" font-family="sans-serif">적용 금리</text>
+  <text x="980" y="368" text-anchor="middle" fill="#FFFFFF" font-size="36" font-weight="800" font-family="sans-serif">3.15%</text>
+  <text x="190" y="444" fill="#10B981" font-size="15" font-weight="700" font-family="sans-serif">보금자리론 최저(3.60%) 대비 0.45%p 낮음 → 30년 이자 약 2,000만원 절감</text>
+  <text x="190" y="468" fill="#94A3B8" font-size="14" font-family="sans-serif">신생아 특례 디딤돌 해당 시 추가 할인 가능 (별도 확인 필요)</text>
+
+  <!-- 시나리오 B: 소득 초과 -->
+  <rect x="60" y="540" width="1080" height="220" rx="16" fill="url(#blueCard)" stroke="#1E40AF" stroke-width="2"/>
+  <rect x="60" y="540" width="100" height="220" rx="16" fill="#1E40AF"/>
+  <text x="110" y="680" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800" font-family="sans-serif" transform="rotate(-90,110,650)">시나리오 B</text>
+
+  <text x="190" y="578" fill="#93C5FD" font-size="20" font-weight="800" font-family="sans-serif">무주택 직장인 · 소득 6,500만원 · 주택 5.5억</text>
+  <text x="190" y="614" fill="#FFFFFF" font-size="16" font-weight="700" font-family="sans-serif">→ 디딤돌 소득 초과 → 보금자리론만 가능</text>
+  <text x="190" y="646" fill="#93C5FD" font-size="16" font-family="sans-serif">아낌e 30년: 4.80% → 신혼 우대 0.3%p → 4.50%</text>
+  <rect x="850" y="562" width="260" height="80" rx="12" fill="#1E40AF"/>
+  <text x="980" y="597" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="700" font-family="sans-serif">적용 금리</text>
+  <text x="980" y="630" text-anchor="middle" fill="#FFFFFF" font-size="36" font-weight="800" font-family="sans-serif">4.50%</text>
+  <text x="190" y="682" fill="#3B82F6" font-size="15" font-weight="700" font-family="sans-serif">은행 일반 주담대 대비 정책금리 혜택 + DSR 제외 장점</text>
+  <text x="190" y="706" fill="#94A3B8" font-size="14" font-family="sans-serif">소득 7,000만원 초과 시 두 상품 모두 해당 없음 → 은행 주담대로 전환</text>
+
+  <!-- 시나리오 C: 1주택자 이사 -->
+  <rect x="60" y="784" width="1080" height="220" rx="16" fill="url(#blueCard)" stroke="#1E40AF" stroke-width="2"/>
+  <rect x="60" y="784" width="100" height="220" rx="16" fill="#1E40AF"/>
+  <text x="110" y="910" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800" font-family="sans-serif" transform="rotate(-90,110,894)">시나리오 C</text>
+
+  <text x="190" y="822" fill="#93C5FD" font-size="20" font-weight="800" font-family="sans-serif">1주택자 · 소득 5,500만원 · 새 집 6억으로 이사 예정</text>
+  <text x="190" y="858" fill="#FFFFFF" font-size="16" font-weight="700" font-family="sans-serif">→ 디딤돌 1주택자 불가 → 보금자리론 (기존주택 3년내 처분 조건)</text>
+  <text x="190" y="892" fill="#93C5FD" font-size="16" font-family="sans-serif">아낌e 30년: 4.80% → 사회적배려층/신혼 우대 적용 여부 확인</text>
+  <rect x="850" y="804" width="260" height="80" rx="12" fill="#1E40AF"/>
+  <text x="980" y="839" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700" font-family="sans-serif">유일한 선택</text>
+  <text x="980" y="872" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">보금자리론</text>
+  <text x="190" y="928" fill="#3B82F6" font-size="15" font-weight="700" font-family="sans-serif">디딤돌은 세대원 전원 무주택 필요 → 1주택자는 적용 불가</text>
+  <text x="190" y="952" fill="#94A3B8" font-size="14" font-family="sans-serif">3년 이내 기존 주택 처분 약정 후 보금자리론 3.6억까지 가능</text>
+
+  <!-- 시나리오 D: 다자녀 고소득 -->
+  <rect x="60" y="1026" width="1080" height="220" rx="16" fill="url(#blueCard)" stroke="#1E40AF" stroke-width="2"/>
+  <rect x="60" y="1026" width="100" height="220" rx="16" fill="#1E40AF"/>
+  <text x="110" y="1155" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800" font-family="sans-serif" transform="rotate(-90,110,1136)">시나리오 D</text>
+
+  <text x="190" y="1064" fill="#93C5FD" font-size="20" font-weight="800" font-family="sans-serif">다자녀(2자녀) · 소득 8,000만원 · 주택 5.8억</text>
+  <text x="190" y="1100" fill="#FFFFFF" font-size="16" font-weight="700" font-family="sans-serif">→ 디딤돌 소득 초과 → 보금자리론 다자녀 한도 4억·우대 0.5%p</text>
+  <text x="190" y="1134" fill="#93C5FD" font-size="16" font-family="sans-serif">아낌e 30년 4.80% - 다자녀 0.5%p - 전자약정 0.1%p = 4.20%</text>
+  <rect x="850" y="1048" width="260" height="80" rx="12" fill="#1E40AF"/>
+  <text x="980" y="1083" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="700" font-family="sans-serif">우대 후 금리</text>
+  <text x="980" y="1116" text-anchor="middle" fill="#FFFFFF" font-size="36" font-weight="800" font-family="sans-serif">4.20%</text>
+  <text x="190" y="1170" fill="#3B82F6" font-size="15" font-weight="700" font-family="sans-serif">다자녀 한도 4억 적용 → 최대 3.6억 초과 대출 가능</text>
+  <text x="190" y="1194" fill="#94A3B8" font-size="14" font-family="sans-serif">소득 1억 초과 시 두 상품 모두 해당 없음</text>
+
+  <!-- 시나리오 E: 대출 2억 이상 -->
+  <rect x="60" y="1268" width="1080" height="220" rx="16" fill="url(#amberCard)" stroke="#B45309" stroke-width="2"/>
+  <rect x="60" y="1268" width="100" height="220" rx="16" fill="#B45309"/>
+  <text x="110" y="1400" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800" font-family="sans-serif" transform="rotate(-90,110,1378)">시나리오 E</text>
+
+  <text x="190" y="1306" fill="#FCD34D" font-size="20" font-weight="800" font-family="sans-serif">무주택, 소득 4,000만원, 주택 4억, 대출 2.5억 필요</text>
+  <text x="190" y="1342" fill="#FFFFFF" font-size="16" font-weight="700" font-family="sans-serif">→ 디딤돌 일반한도 2억 초과 → 신혼/2자녀 요건 확인</text>
+  <text x="190" y="1376" fill="#FCD34D" font-size="16" font-family="sans-serif">2자녀 가구: 디딤돌 3.2억 한도 적용 → 금리 3.45% (30년)</text>
+  <rect x="850" y="1290" width="260" height="80" rx="12" fill="#B45309"/>
+  <text x="980" y="1325" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700" font-family="sans-serif">자녀 없으면</text>
+  <text x="980" y="1358" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">보금자리론</text>
+  <text x="190" y="1412" fill="#D97706" font-size="15" font-weight="700" font-family="sans-serif">자녀 없고 한도 부족: 보금자리론 3.6억 + 금리 4.80%(소득 우대 없음)</text>
+  <text x="190" y="1436" fill="#94A3B8" font-size="14" font-family="sans-serif">두 상품 조건 확인 → 조건 해당 시 디딤돌이 1%p 이상 유리</text>
+
+  <text x="60" y="1656" fill="#64748B" font-size="14" font-family="sans-serif">essencial | 대출·금융 silo · 한국주택금융공사 공시 (2026.05.01 기준) · 개인 상황에 따라 달라질 수 있음</text>
+</svg>

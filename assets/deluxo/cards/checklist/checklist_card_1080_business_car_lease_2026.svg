@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <text x="540" y="130" font-family="'Pretendard', sans-serif" font-size="46" font-weight="900" fill="#F59E0B" text-anchor="middle">계약 전 1분 체크리스트</text>
+  <text x="540" y="210" font-family="'Pretendard', sans-serif" font-size="54" font-weight="900" fill="#FFFFFF" text-anchor="middle">사업자 차량 8점검</text>
+
+  <g font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#EAF2FF">
+    <rect x="60" y="280" width="44" height="44" rx="10" fill="#10B981"/>
+    <text x="82" y="312" fill="#FFFFFF" font-weight="900" text-anchor="middle">✓</text>
+    <text x="130" y="312">3개사 이상 동일 조건 견적 비교 (월료+잔가+인수)</text>
+
+    <rect x="60" y="355" width="44" height="44" rx="10" fill="#10B981"/>
+    <text x="82" y="387" fill="#FFFFFF" font-weight="900" text-anchor="middle">✓</text>
+    <text x="130" y="387">부가세 환급 차량 여부 확인 (9인승·경차·화물)</text>
+
+    <rect x="60" y="430" width="44" height="44" rx="10" fill="#10B981"/>
+    <text x="82" y="462" fill="#FFFFFF" font-weight="900" text-anchor="middle">✓</text>
+    <text x="130" y="462">업무전용 자동차보험 가입 의무 확인</text>
+
+    <rect x="60" y="505" width="44" height="44" rx="10" fill="#10B981"/>
+    <text x="82" y="537" fill="#FFFFFF" font-weight="900" text-anchor="middle">✓</text>
+    <text x="130" y="537">연 1,500만 초과 시 운행기록부 작성 준비</text>
+
+    <rect x="60" y="580" width="44" height="44" rx="10" fill="#10B981"/>
+    <text x="82" y="612" fill="#FFFFFF" font-weight="900" text-anchor="middle">✓</text>
+    <text x="130" y="612">중도해지 위약금·만기 인수가·주행거리 약관 확인</text>
+
+    <rect x="60" y="655" width="44" height="44" rx="10" fill="#10B981"/>
+    <text x="82" y="687" fill="#FFFFFF" font-weight="900" text-anchor="middle">✓</text>
+    <text x="130" y="687">전기차 보조금 잔여물량 ev.or.kr 확인 (상반기)</text>
+
+    <rect x="60" y="730" width="44" height="44" rx="10" fill="#10B981"/>
+    <text x="82" y="762" fill="#FFFFFF" font-weight="900" text-anchor="middle">✓</text>
+    <text x="130" y="762">사업용 통장 자동이체 + 세금계산서 보관 체계</text>
+
+    <rect x="60" y="805" width="44" height="44" rx="10" fill="#10B981"/>
+    <text x="82" y="837" fill="#FFFFFF" font-weight="900" text-anchor="middle">✓</text>
+    <text x="130" y="837">신용 영향(DSR) 검토 — 추가 대출 계획 시 렌트</text>
+  </g>
+
+  <rect x="60" y="900" width="960" height="140" rx="20" fill="#F59E0B"/>
+  <text x="540" y="955" font-family="'Pretendard', sans-serif" font-size="32" font-weight="900" fill="#0B1F3B" text-anchor="middle">8개 모두 ✓면 계약·운영 준비 완료</text>
+  <text x="540" y="1005" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#0B1F3B" text-anchor="middle">국세청 126 · 무공해차 통합누리집 ev.or.kr</text>
+</svg>

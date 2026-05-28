@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F5F3FF"/>
+      <stop offset="100%" stop-color="#FAF5FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg2)"/>
+
+  <text x="540" y="50" font-family="sans-serif" font-size="30" font-weight="900" fill="#111827" text-anchor="middle">12대 중과실 + 운전자보험 보장 한도 매트릭스</text>
+  <text x="540" y="82" font-family="sans-serif" font-size="20" fill="#6B7280" text-anchor="middle">2026년 기준 | 종합보험 가입과 무관하게 형사 소추 대상</text>
+
+  <!-- 12대 중과실 주요 항목 -->
+  <rect x="40" y="108" width="1000" height="45" rx="12" fill="#DC2626"/>
+  <text x="540" y="137" font-family="sans-serif" font-size="18" font-weight="800" fill="#FFF" text-anchor="middle">12대 중과실 주요 항목 (자녀가 범하기 쉬운 순)</text>
+
+  <rect x="40" y="158" width="1000" height="42" fill="#FEF2F2" stroke="#FECACA" stroke-width="1"/>
+  <text x="80" y="185" font-family="sans-serif" font-size="17" font-weight="700" fill="#111827">신호 위반</text>
+  <text x="540" y="185" font-family="sans-serif" font-size="16" fill="#6B7280" text-anchor="middle">5년 이하 금고 또는 2,000만 원 이하 벌금</text>
+  <text x="1010" y="185" font-family="sans-serif" font-size="16" font-weight="700" fill="#DC2626" text-anchor="end">벌점 15점</text>
+
+  <rect x="40" y="204" width="1000" height="42" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="80" y="231" font-family="sans-serif" font-size="17" font-weight="700" fill="#111827">중앙선 침범</text>
+  <text x="540" y="231" font-family="sans-serif" font-size="16" fill="#6B7280" text-anchor="middle">5년 이하 금고 또는 2,000만 원 이하 벌금</text>
+  <text x="1010" y="231" font-family="sans-serif" font-size="16" font-weight="700" fill="#DC2626" text-anchor="end">벌점 30점</text>
+
+  <rect x="40" y="250" width="1000" height="42" fill="#FEF2F2" stroke="#FECACA" stroke-width="1"/>
+  <text x="80" y="277" font-family="sans-serif" font-size="17" font-weight="700" fill="#111827">제한속도 20km+ 초과</text>
+  <text x="540" y="277" font-family="sans-serif" font-size="16" fill="#6B7280" text-anchor="middle">5년 이하 금고 또는 2,000만 원 이하 벌금</text>
+  <text x="1010" y="277" font-family="sans-serif" font-size="16" font-weight="700" fill="#DC2626" text-anchor="end">현행범 체포 가능</text>
+
+  <rect x="40" y="296" width="1000" height="42" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="80" y="323" font-family="sans-serif" font-size="17" font-weight="700" fill="#111827">보행자 보호 의무 위반</text>
+  <text x="540" y="323" font-family="sans-serif" font-size="16" fill="#6B7280" text-anchor="middle">횡단보도 내 보행자 충돌 (신호 유무 무관)</text>
+  <text x="1010" y="323" font-family="sans-serif" font-size="16" font-weight="700" fill="#DC2626" text-anchor="end">벌점 10점</text>
+
+  <!-- 스쿨존 강조 -->
+  <rect x="40" y="342" width="1000" height="52" fill="#991B1B" stroke="#991B1B" stroke-width="1"/>
+  <text x="80" y="375" font-family="sans-serif" font-size="18" font-weight="900" fill="#FFF">스쿨존 안전 의무 (민식이법)</text>
+  <text x="540" y="375" font-family="sans-serif" font-size="16" font-weight="700" fill="#FEF2F2" text-anchor="middle">사망: 3년+ 징역 | 상해: 1~15년 징역</text>
+  <text x="1010" y="375" font-family="sans-serif" font-size="16" font-weight="900" fill="#FFF" text-anchor="end">벌점 30점</text>
+
+  <!-- 운전자보험 핵심 3대 보장 -->
+  <rect x="40" y="425" width="1000" height="250" rx="20" fill="#FFF" stroke="#C4B5FD" stroke-width="1.5"/>
+  <text x="540" y="460" font-family="sans-serif" font-size="24" font-weight="900" fill="#7C3AED" text-anchor="middle">운전자보험 핵심 3대 보장 (2026년)</text>
+
+  <rect x="70" y="480" width="290" height="95" rx="16" fill="#F5F3FF" stroke="#C4B5FD" stroke-width="1"/>
+  <text x="215" y="510" font-family="sans-serif" font-size="18" font-weight="800" fill="#7C3AED" text-anchor="middle">변호사 선임 비용</text>
+  <text x="215" y="540" font-family="sans-serif" font-size="26" font-weight="900" fill="#059669" text-anchor="middle">최대 7,000만</text>
+  <text x="215" y="565" font-family="sans-serif" font-size="15" fill="#6B7280" text-anchor="middle">경찰 조사 단계부터 보장</text>
+
+  <rect x="395" y="480" width="290" height="95" rx="16" fill="#F5F3FF" stroke="#C4B5FD" stroke-width="1"/>
+  <text x="540" y="510" font-family="sans-serif" font-size="18" font-weight="800" fill="#7C3AED" text-anchor="middle">교통사고 합의금</text>
+  <text x="540" y="540" font-family="sans-serif" font-size="26" font-weight="900" fill="#059669" text-anchor="middle">최대 2.5억</text>
+  <text x="540" y="565" font-family="sans-serif" font-size="15" fill="#6B7280" text-anchor="middle">사망·중상해 시</text>
+
+  <rect x="720" y="480" width="290" height="95" rx="16" fill="#F5F3FF" stroke="#C4B5FD" stroke-width="1"/>
+  <text x="865" y="510" font-family="sans-serif" font-size="18" font-weight="800" fill="#7C3AED" text-anchor="middle">벌금</text>
+  <text x="865" y="540" font-family="sans-serif" font-size="26" font-weight="900" fill="#059669" text-anchor="middle">최대 3,000만</text>
+  <text x="865" y="565" font-family="sans-serif" font-size="15" fill="#6B7280" text-anchor="middle">민식이법 등 실손 보상</text>
+
+  <text x="540" y="620" font-family="sans-serif" font-size="20" font-weight="800" fill="#059669" text-anchor="middle">이 모든 보장이 월 ~1만 원대</text>
+  <text x="540" y="650" font-family="sans-serif" font-size="16" fill="#6B7280" text-anchor="middle">자동차보험은 위 3가지를 보장하지 못합니다 → 운전자보험이 보완</text>
+
+  <!-- 단기특약 vs 원데이 -->
+  <rect x="40" y="700" width="1000" height="155" rx="20" fill="#FFF" stroke="#DDD6FE" stroke-width="1.5"/>
+  <text x="540" y="733" font-family="sans-serif" font-size="22" font-weight="900" fill="#7C3AED" text-anchor="middle">자녀 가끔 운전 시: 단기특약 vs 원데이보험</text>
+
+  <rect x="70" y="750" width="440" height="80" rx="14" fill="#EFF6FF"/>
+  <text x="290" y="780" font-family="sans-serif" font-size="18" font-weight="800" fill="#1E40AF" text-anchor="middle">단기운전자확대특약</text>
+  <text x="290" y="808" font-family="sans-serif" font-size="16" fill="#1E40AF" text-anchor="middle">익일 00시 효력 | 보장 한도 넉넉 | 소유주 할증</text>
+  <text x="290" y="828" font-family="sans-serif" font-size="15" font-weight="700" fill="#1E40AF" text-anchor="middle">사전 계획된 운전에 추천</text>
+
+  <rect x="570" y="750" width="440" height="80" rx="14" fill="#F5F3FF"/>
+  <text x="790" y="780" font-family="sans-serif" font-size="18" font-weight="800" fill="#7C3AED" text-anchor="middle">원데이 자동차보험</text>
+  <text x="790" y="808" font-family="sans-serif" font-size="16" fill="#7C3AED" text-anchor="middle">즉시 효력 | 소유주 할증 없음 | 한도 낮음</text>
+  <text x="790" y="828" font-family="sans-serif" font-size="15" font-weight="700" fill="#7C3AED" text-anchor="middle">갑작스러운 운전에 추천</text>
+
+  <!-- 시민안전보험 -->
+  <rect x="40" y="885" width="1000" height="70" rx="16" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1.5"/>
+  <text x="540" y="915" font-family="sans-serif" font-size="18" font-weight="800" fill="#065F46" text-anchor="middle">지자체 시민안전보험 (별도 가입 없이 자동 적용, 사적 보험과 중복 보상)</text>
+  <text x="540" y="943" font-family="sans-serif" font-size="16" fill="#065F46" text-anchor="middle">스쿨존 부상 최대 1,500만 | 대중교통 사고 최대 2,000만 | PM(킥보드) 최대 1,000만</text>
+
+  <!-- 경고 -->
+  <rect x="40" y="980" width="1000" height="40" rx="12" fill="#FEF2F2" stroke="#FECACA" stroke-width="1"/>
+  <text x="540" y="1007" font-family="sans-serif" font-size="16" font-weight="700" fill="#991B1B" text-anchor="middle">무면허·음주·약물 운전 → 자동차보험·운전자보험 모두 보장 제외</text>
+
+  <text x="540" y="1055" font-family="sans-serif" font-size="15" fill="#9CA3AF" text-anchor="middle">2026년 4월 기준 | 교통사고처리특례법·특정범죄가중처벌법 기반 | 보험사별 차이 있음</text>
+</svg>

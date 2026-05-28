@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#F59E0B">급여 유형별 빠른 판단 가이드</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- 일반 -->
+  <rect x="60" y="130" width="960" height="270" rx="20" fill="rgba(34,197,94,0.08)"/>
+  <rect x="80" y="155" width="280" height="50" rx="25" fill="rgba(34,197,94,0.2)"/>
+  <text x="220" y="188" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#22C55E">일반 육아휴직</text>
+  <text x="80" y="238" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">대상: 만 8세 이하 자녀 · 최대 12개월</text>
+  <text x="80" y="276" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">급여: 250→200→160만 원 (계단식 상한)</text>
+  <text x="80" y="314" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">12개월 총 급여: 2,310만 원 (통상 300만 기준)</text>
+  <text x="80" y="362" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#F59E0B">→ 대부분의 양육자에게 해당하는 기본형</text>
+
+  <!-- 6+6 -->
+  <rect x="60" y="418" width="960" height="270" rx="20" fill="rgba(59,130,246,0.08)"/>
+  <rect x="80" y="443" width="360" height="50" rx="25" fill="rgba(59,130,246,0.15)"/>
+  <text x="260" y="476" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#60A5FA">6+6 부모육아휴직제</text>
+  <text x="80" y="526" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">대상: 생후 18개월 이내 · 맞벌이 부모 동시/순차</text>
+  <text x="80" y="564" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">급여: 200→250→300→350→400→450만 원 (점진 상향)</text>
+  <text x="80" y="602" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">6개월 차 부모 합산 최대 900만 원!</text>
+  <text x="80" y="650" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#F59E0B">→ 맞벌이 가구 최대 혜택 · 18개월 기한 역산 필수</text>
+
+  <!-- 근로시간 단축 -->
+  <rect x="60" y="706" width="960" height="270" rx="20" fill="rgba(245,158,11,0.08)"/>
+  <rect x="80" y="731" width="340" height="50" rx="25" fill="rgba(245,158,11,0.15)"/>
+  <text x="250" y="764" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#F59E0B">육아기 근로시간 단축</text>
+  <text x="80" y="814" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">대상: 만 12세 이하 · 최대 3년</text>
+  <text x="80" y="852" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">급여: 최초 10시간 100%(250만) + 나머지 80%(160만)</text>
+  <text x="80" y="890" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">주 15~35시간 근무 · 경력 단절 없음</text>
+  <text x="80" y="938" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#F59E0B">→ 경력 유지하면서 양육 병행하고 싶은 분</text>
+
+  <rect x="60" y="1006" width="960" height="40" rx="10" fill="rgba(34,197,94,0.12)"/>
+  <text x="540" y="1034" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#22C55E">순차 조합 가능: 육아휴직 12개월 + 근로시간 단축 최대 3년</text>
+</svg>

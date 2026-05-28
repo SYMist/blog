@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1500" fill="url(#bg)"/>
+
+  <rect x="60" y="50" width="260" height="40" rx="20" fill="#B45309"/>
+  <text x="190" y="77" text-anchor="middle" fill="#FFFFFF" font-size="17" font-weight="800" font-family="sans-serif">2026 개인사업자 대출 4채널 비교</text>
+
+  <text x="60" y="155" fill="#FFFFFF" font-size="44" font-weight="800" font-family="sans-serif">신용 vs 담보 vs 정책 vs 보증</text>
+  <text x="60" y="200" fill="#FCD34D" font-size="22" font-weight="600" font-family="sans-serif">금리 격차 최대 3.6%p · 5천만 연이자 최대 180만원 차이</text>
+
+  <!-- 4 key cards -->
+  <rect x="60" y="240" width="260" height="180" rx="16" fill="url(#card)" stroke="#B45309" stroke-width="2"/>
+  <text x="190" y="285" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="700" font-family="sans-serif">한국은행 기준금리</text>
+  <text x="190" y="340" text-anchor="middle" fill="#FFFFFF" font-size="40" font-weight="800" font-family="sans-serif">2.50%</text>
+  <text x="190" y="370" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="600" font-family="sans-serif">동결기 · 가산금리 인상</text>
+  <text x="190" y="395" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">체감 금리는 정체</text>
+
+  <rect x="340" y="240" width="260" height="180" rx="16" fill="url(#card)" stroke="#B45309" stroke-width="2"/>
+  <text x="470" y="285" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="700" font-family="sans-serif">신용대출 (시중)</text>
+  <text x="470" y="340" text-anchor="middle" fill="#FFFFFF" font-size="36" font-weight="800" font-family="sans-serif">4.8~6.5%</text>
+  <text x="470" y="370" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="600" font-family="sans-serif">담보 無 · 1~3일 실행</text>
+  <text x="470" y="395" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">한도 1~1.5억</text>
+
+  <rect x="620" y="240" width="260" height="180" rx="16" fill="url(#card)" stroke="#B45309" stroke-width="2"/>
+  <text x="750" y="285" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="700" font-family="sans-serif">담보대출 (시중)</text>
+  <text x="750" y="340" text-anchor="middle" fill="#FFFFFF" font-size="36" font-weight="800" font-family="sans-serif">3.8~5.2%</text>
+  <text x="750" y="370" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="600" font-family="sans-serif">−1~1.5%p 절감</text>
+  <text x="750" y="395" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">LTV 40~70% · 10억</text>
+
+  <rect x="900" y="240" width="240" height="180" rx="16" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="1020" y="285" text-anchor="middle" fill="#86EFAC" font-size="15" font-weight="700" font-family="sans-serif">정책자금 기준</text>
+  <text x="1020" y="340" text-anchor="middle" fill="#FFFFFF" font-size="40" font-weight="800" font-family="sans-serif">2.96%</text>
+  <text x="1020" y="370" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="600" font-family="sans-serif">청년 2.9% · 일반 3.5%</text>
+  <text x="1020" y="395" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">소진공·중진공</text>
+
+  <!-- 채널별 5천만 1년 이자 바 차트 -->
+  <text x="60" y="475" fill="#FFFFFF" font-size="26" font-weight="800" font-family="sans-serif">5천만 원 1년 차입 시 연 이자 (2026.04)</text>
+  <text x="60" y="503" fill="#94A3B8" font-size="14" font-family="sans-serif">청년고용연계 145만 원 vs 시중 신용 325만 원 — 채널 선택만으로 180만 원 절감</text>
+
+  <g font-family="sans-serif">
+    <text x="60" y="545" fill="#FFFFFF" font-size="16" font-weight="700">청년고용연계</text>
+    <rect x="220" y="528" width="140" height="22" rx="4" fill="#86EFAC"/>
+    <text x="380" y="545" fill="#86EFAC" font-size="15" font-weight="700">145만 원 (2.9%)</text>
+
+    <text x="60" y="585" fill="#FFFFFF" font-size="16" font-weight="700">일반경영안정</text>
+    <rect x="220" y="568" width="170" height="22" rx="4" fill="#86EFAC"/>
+    <text x="410" y="585" fill="#86EFAC" font-size="15" font-weight="700">175만 원 (3.5%)</text>
+
+    <text x="60" y="625" fill="#FFFFFF" font-size="16" font-weight="700">시중 담보대출</text>
+    <rect x="220" y="608" width="220" height="22" rx="4" fill="#FCD34D"/>
+    <text x="460" y="625" fill="#FCD34D" font-size="15" font-weight="700">225만 원 (4.5%)</text>
+
+    <text x="60" y="665" fill="#FFFFFF" font-size="16" font-weight="700">저금리 대환</text>
+    <rect x="220" y="648" width="220" height="22" rx="4" fill="#FCD34D"/>
+    <text x="460" y="665" fill="#FCD34D" font-size="15" font-weight="700">225만 원 (4.5%)</text>
+
+    <text x="60" y="705" fill="#FFFFFF" font-size="16" font-weight="700">인터넷 신용</text>
+    <rect x="220" y="688" width="245" height="22" rx="4" fill="#F59E0B"/>
+    <text x="485" y="705" fill="#FCD34D" font-size="15" font-weight="700">250만 원 (5.0%)</text>
+
+    <text x="60" y="745" fill="#FFFFFF" font-size="16" font-weight="700">시중 신용</text>
+    <rect x="220" y="728" width="318" height="22" rx="4" fill="#92400E"/>
+    <text x="558" y="745" fill="#FCA5A5" font-size="15" font-weight="700">325만 원 (6.5%)</text>
+
+    <text x="60" y="785" fill="#FCD34D" font-size="14" font-weight="700">※ 단순 연이자 비교 · 보증료·수수료·상환방식 별도 · 개인 신용·매출에 따라 차이</text>
+  </g>
+
+  <!-- 신용 vs 담보 상세 카드 -->
+  <rect x="60" y="820" width="540" height="310" rx="16" fill="url(#card)" stroke="#B45309" stroke-width="2"/>
+  <text x="80" y="860" fill="#FCD34D" font-size="22" font-weight="800" font-family="sans-serif">개인사업자 신용대출</text>
+
+  <g font-family="sans-serif">
+    <text x="80" y="900" fill="#CBD5E1" font-size="14">금리 밴드 (시중)</text>
+    <text x="580" y="900" text-anchor="end" fill="#FFFFFF" font-size="15" font-weight="700">4.8 ~ 6.5%</text>
+
+    <text x="80" y="930" fill="#CBD5E1" font-size="14">인터넷은행</text>
+    <text x="580" y="930" text-anchor="end" fill="#86EFAC" font-size="15" font-weight="700">4.5 ~ 6.0%</text>
+
+    <text x="80" y="960" fill="#CBD5E1" font-size="14">한도</text>
+    <text x="580" y="960" text-anchor="end" fill="#FFFFFF" font-size="16" font-weight="800">1~1.5억 (매출 15~30%)</text>
+
+    <text x="80" y="990" fill="#CBD5E1" font-size="14">실행 속도</text>
+    <text x="580" y="990" text-anchor="end" fill="#86EFAC" font-size="16" font-weight="800">당일 ~ 3일</text>
+
+    <text x="80" y="1020" fill="#CBD5E1" font-size="14">담보</text>
+    <text x="580" y="1020" text-anchor="end" fill="#86EFAC" font-size="14">無 (설정비 없음)</text>
+
+    <text x="80" y="1050" fill="#CBD5E1" font-size="14">추천 차주</text>
+    <text x="580" y="1050" text-anchor="end" fill="#FFFFFF" font-size="14">소액·급전·신용 700+</text>
+  </g>
+  <text x="80" y="1110" fill="#FCA5A5" font-size="14" font-weight="700" font-family="sans-serif">⚠ 가계 주담대 보유자는 DSR 간접 효과로 한도 10~15% 감소</text>
+
+  <rect x="620" y="820" width="520" height="310" rx="16" fill="url(#card)" stroke="#D97706" stroke-width="2"/>
+  <text x="640" y="860" fill="#D97706" font-size="22" font-weight="800" font-family="sans-serif">개인사업자 담보대출</text>
+
+  <g font-family="sans-serif">
+    <text x="640" y="900" fill="#CBD5E1" font-size="14">금리 밴드 (시중)</text>
+    <text x="1120" y="900" text-anchor="end" fill="#FFFFFF" font-size="15" font-weight="700">3.8 ~ 5.2%</text>
+
+    <text x="640" y="930" fill="#CBD5E1" font-size="14">신용 대비 절감</text>
+    <text x="1120" y="930" text-anchor="end" fill="#86EFAC" font-size="15" font-weight="700">−1 ~ 1.5%p</text>
+
+    <text x="640" y="960" fill="#CBD5E1" font-size="14">한도</text>
+    <text x="1120" y="960" text-anchor="end" fill="#FFFFFF" font-size="16" font-weight="800">담보가 × LTV 40~70%</text>
+
+    <text x="640" y="990" fill="#CBD5E1" font-size="14">실행 속도</text>
+    <text x="1120" y="990" text-anchor="end" fill="#FCA5A5" font-size="16" font-weight="800">2 ~ 4주</text>
+
+    <text x="640" y="1020" fill="#CBD5E1" font-size="14">부대비용</text>
+    <text x="1120" y="1020" text-anchor="end" fill="#FCA5A5" font-size="14">200~500만 (감정·근저당)</text>
+
+    <text x="640" y="1050" fill="#CBD5E1" font-size="14">추천 차주</text>
+    <text x="1120" y="1050" text-anchor="end" fill="#FFFFFF" font-size="14">고액·장기·부동산 보유</text>
+  </g>
+  <text x="640" y="1110" fill="#FCA5A5" font-size="14" font-weight="700" font-family="sans-serif">⚠ 자금의 가계 유용 사후 점검 강화 — 사용 증빙 필수</text>
+
+  <!-- 정책자금 요약 -->
+  <rect x="60" y="1160" width="1080" height="200" rx="16" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="80" y="1200" fill="#86EFAC" font-size="22" font-weight="800" font-family="sans-serif">정책자금 (자격 되면 최우선)</text>
+
+  <g font-family="sans-serif">
+    <text x="80" y="1240" fill="#FFFFFF" font-size="16" font-weight="700">일반경영안정자금</text>
+    <text x="570" y="1240" text-anchor="end" fill="#86EFAC" font-size="18" font-weight="800">3.5% · 7천만</text>
+
+    <text x="80" y="1275" fill="#FFFFFF" font-size="16" font-weight="700">저금리 대환대출 (NCB 919↓)</text>
+    <text x="570" y="1275" text-anchor="end" fill="#86EFAC" font-size="18" font-weight="800">4.5% 고정 · 5천만</text>
+
+    <text x="600" y="1240" fill="#FFFFFF" font-size="16" font-weight="700">혁신성장촉진자금</text>
+    <text x="1120" y="1240" text-anchor="end" fill="#FCD34D" font-size="16" font-weight="800">최대 10억 · 8년</text>
+
+    <text x="600" y="1275" fill="#FFFFFF" font-size="16" font-weight="700">청년고용연계 (만 39세 이하)</text>
+    <text x="1120" y="1275" text-anchor="end" fill="#86EFAC" font-size="16" font-weight="800">약 2.9% (최저)</text>
+
+    <text x="80" y="1325" fill="#FCD34D" font-size="14" font-weight="700">→ 소진공·중진공 신청 → 자격심사 → 교육 4~8시간 → 추천서 → 시중은행 실행 (2~4주)</text>
+  </g>
+
+  <text x="60" y="1420" fill="#64748B" font-size="14" font-family="sans-serif">essencial | 대출·금융 silo · 자료: 소진공·중진공·금감원·은행연합회 (2026.04 기준)</text>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#F59E0B">2025 vs 2026 전세사기 지원 정책 변화</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- 헤더 -->
+  <rect x="60" y="130" width="960" height="65" rx="16" fill="rgba(245,158,11,0.15)"/>
+  <text x="220" y="172" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#F59E0B">항목</text>
+  <text x="540" y="172" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#F59E0B">2025년</text>
+  <text x="860" y="172" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#F59E0B">2026년 변화</text>
+
+  <!-- 피해자 범위 -->
+  <rect x="60" y="207" width="960" height="110" rx="0" fill="rgba(255,255,255,0.04)"/>
+  <text x="220" y="255" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#EAF2FF">피해자 범위</text>
+  <text x="540" y="245" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#94A3B8">대항력 확보 임차인</text>
+  <text x="540" y="275" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#94A3B8">점유 필수</text>
+  <text x="860" y="245" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#22C55E">이중임대차 포함</text>
+  <text x="860" y="275" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#22C55E">점유 불가도 인정</text>
+
+  <!-- 보증금 한도 -->
+  <rect x="60" y="329" width="960" height="110" rx="0" fill="rgba(59,130,246,0.08)"/>
+  <text x="220" y="377" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#EAF2FF">보증금 한도</text>
+  <text x="540" y="377" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#94A3B8">5억 원 이하</text>
+  <text x="860" y="367" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#22C55E">5억 원 + 위원회 의결</text>
+  <text x="860" y="397" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#22C55E">최대 7억 원 상향</text>
+
+  <!-- 보전 방식 -->
+  <rect x="60" y="451" width="960" height="110" rx="0" fill="rgba(255,255,255,0.04)"/>
+  <text x="220" y="499" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#EAF2FF">보전 방식</text>
+  <text x="540" y="499" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#94A3B8">선지원 후정산</text>
+  <text x="860" y="489" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#22C55E">최소보장제 도입 논의</text>
+  <text x="860" y="519" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#22C55E">(30~50% 차액 보전)</text>
+
+  <!-- 재정 -->
+  <rect x="60" y="573" width="960" height="110" rx="0" fill="rgba(59,130,246,0.08)"/>
+  <text x="220" y="621" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#EAF2FF">추경 투입</text>
+  <text x="540" y="621" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#94A3B8">기존 예산 내</text>
+  <text x="860" y="611" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#22C55E">279억 원 긴급 투입</text>
+  <text x="860" y="641" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#22C55E">보증금 보전 전용</text>
+
+  <!-- 신청 기한 -->
+  <rect x="60" y="695" width="960" height="110" rx="0" fill="rgba(255,255,255,0.04)"/>
+  <text x="220" y="743" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#EAF2FF">신청 기한</text>
+  <text x="540" y="743" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#94A3B8">명확한 기한 없음</text>
+  <text x="860" y="733" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#22C55E">결정일로부터</text>
+  <text x="860" y="763" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#22C55E">3년 명시</text>
+
+  <!-- 공공매입 -->
+  <rect x="60" y="817" width="960" height="110" rx="0" fill="rgba(59,130,246,0.08)"/>
+  <text x="220" y="865" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#EAF2FF">공공매입</text>
+  <text x="540" y="865" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#94A3B8">제한적 근거</text>
+  <text x="860" y="855" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#22C55E">신탁 사기 주택</text>
+  <text x="860" y="885" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#22C55E">공공매입 근거 강화</text>
+
+  <!-- 하단 -->
+  <rect x="60" y="960" width="960" height="80" rx="16" fill="rgba(245,158,11,0.12)"/>
+  <text x="540" y="1010" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#F59E0B">2026년 = 피해자 보호 범위 확대 + 국가 보전 강화</text>
+</svg>

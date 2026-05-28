@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <rect x="80" y="72" width="160" height="48" rx="24" fill="#F59E0B"/>
+  <text x="160" y="103" font-family="'Pretendard', sans-serif" font-size="22" font-weight="700" fill="#0B1F3B" text-anchor="middle">빠른 판단</text>
+
+  <text x="540" y="185" font-family="'Pretendard', sans-serif" font-size="40" font-weight="800" fill="#FFFFFF" text-anchor="middle">재가급여 vs 시설급여 빠른 비교</text>
+  <rect x="480" y="210" width="120" height="4" rx="2" fill="#F59E0B"/>
+
+  <!-- Left: 재가급여 -->
+  <rect x="60" y="260" width="460" height="620" rx="20" fill="rgba(245,158,11,0.08)" stroke="#F59E0B" stroke-width="1.5"/>
+  <text x="290" y="310" font-family="'Pretendard', sans-serif" font-size="32" font-weight="800" fill="#F59E0B" text-anchor="middle">재가급여</text>
+
+  <text x="100" y="370" font-family="'Pretendard', sans-serif" font-size="20" font-weight="600" fill="#F59E0B">핵심</text>
+  <text x="100" y="400" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.9">집에서 방문요양·주야간보호</text>
+  <text x="100" y="430" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.9">본인부담 급여비의 15%</text>
+
+  <rect x="90" y="460" width="400" height="2" rx="1" fill="rgba(255,255,255,0.1)"/>
+
+  <text x="100" y="500" font-family="'Pretendard', sans-serif" font-size="20" font-weight="600" fill="#F59E0B">1등급 월 비용</text>
+  <text x="100" y="535" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#F59E0B">한도 251만 × 15% ≒ 37.6만</text>
+  <text x="100" y="570" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.8">비급여 별도 부담 거의 없음</text>
+
+  <rect x="90" y="600" width="400" height="2" rx="1" fill="rgba(255,255,255,0.1)"/>
+
+  <text x="100" y="640" font-family="'Pretendard', sans-serif" font-size="20" font-weight="600" fill="#F59E0B">추천 상황</text>
+  <text x="100" y="675" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.8">가족 돌봄 일부 가능</text>
+  <text x="100" y="710" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.8">비용 절감 필요</text>
+  <text x="100" y="745" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.8">살던 집에서 노후 희망</text>
+
+  <text x="290" y="830" font-family="'Pretendard', sans-serif" font-size="20" font-weight="700" fill="#F59E0B" text-anchor="middle" opacity="0.9">비용↓ + 익숙한 환경 유지</text>
+
+  <!-- Right: 시설급여 -->
+  <rect x="560" y="260" width="460" height="620" rx="20" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="790" y="310" font-family="'Pretendard', sans-serif" font-size="32" font-weight="800" fill="#FFFFFF" text-anchor="middle">시설급여</text>
+
+  <text x="600" y="370" font-family="'Pretendard', sans-serif" font-size="20" font-weight="600" fill="#F59E0B">핵심</text>
+  <text x="600" y="400" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.9">요양원 입소 24시간 돌봄</text>
+  <text x="600" y="430" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.9">본인부담 급여비의 20%</text>
+
+  <rect x="590" y="460" width="400" height="2" rx="1" fill="rgba(255,255,255,0.1)"/>
+
+  <text x="600" y="500" font-family="'Pretendard', sans-serif" font-size="20" font-weight="600" fill="#F59E0B">1등급 월 비용</text>
+  <text x="600" y="535" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">본인부담 55.8만 + 비급여 40~50만</text>
+  <text x="600" y="570" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.8">실질 월 부담 약 100만 원</text>
+
+  <rect x="590" y="600" width="400" height="2" rx="1" fill="rgba(255,255,255,0.1)"/>
+
+  <text x="600" y="640" font-family="'Pretendard', sans-serif" font-size="20" font-weight="600" fill="#F59E0B">추천 상황</text>
+  <text x="600" y="675" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.8">24시간 전문 돌봄 필요</text>
+  <text x="600" y="710" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.8">독거 어르신</text>
+  <text x="600" y="745" font-family="'Pretendard', sans-serif" font-size="22" fill="#FFFFFF" opacity="0.8">가족 돌봄 여력 없음</text>
+
+  <text x="790" y="830" font-family="'Pretendard', sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle" opacity="0.7">전문 돌봄 + 의료 연계</text>
+
+  <!-- Bottom -->
+  <rect x="150" y="920" width="780" height="60" rx="16" fill="rgba(245,158,11,0.15)" stroke="#F59E0B" stroke-width="1"/>
+  <text x="540" y="958" font-family="'Pretendard', sans-serif" font-size="24" font-weight="800" fill="#F59E0B" text-anchor="middle">기초생활수급자는 시설 본인부담 + 식비 전액 면제</text>
+</svg>

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+    <linearGradient id="rowBg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.06)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0.02)"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <rect x="80" y="72" width="180" height="48" rx="24" fill="#F59E0B"/>
+  <text x="170" y="103" font-family="'Pretendard', sans-serif" font-size="22" font-weight="700" fill="#0B1F3B" text-anchor="middle">1분 체크</text>
+
+  <text x="80" y="185" font-family="'Pretendard', sans-serif" font-size="42" font-weight="800" fill="#FFFFFF">산재 청구 전 체크리스트</text>
+  <rect x="80" y="215" width="120" height="4" rx="2" fill="#F59E0B"/>
+
+  <!-- Row 1 -->
+  <rect x="60" y="260" width="960" height="85" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <rect x="100" y="283" width="40" height="40" rx="8" fill="#F59E0B"/>
+  <text x="120" y="313" font-family="'Pretendard', sans-serif" font-size="24" font-weight="800" fill="#0B1F3B" text-anchor="middle">&#x2713;</text>
+  <text x="165" y="313" font-family="'Pretendard', sans-serif" font-size="25" font-weight="600" fill="#FFFFFF">사고·진단일로부터 3년 이내 확인</text>
+
+  <!-- Row 2 -->
+  <rect x="60" y="365" width="960" height="85" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <rect x="100" y="388" width="40" height="40" rx="8" fill="#F59E0B"/>
+  <text x="120" y="418" font-family="'Pretendard', sans-serif" font-size="24" font-weight="800" fill="#0B1F3B" text-anchor="middle">&#x2713;</text>
+  <text x="165" y="418" font-family="'Pretendard', sans-serif" font-size="25" font-weight="600" fill="#FFFFFF">업무관련성 증거 확보 (CCTV·진술·근태)</text>
+
+  <!-- Row 3 -->
+  <rect x="60" y="470" width="960" height="85" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <rect x="100" y="493" width="40" height="40" rx="8" fill="#F59E0B"/>
+  <text x="120" y="523" font-family="'Pretendard', sans-serif" font-size="24" font-weight="800" fill="#0B1F3B" text-anchor="middle">&#x2713;</text>
+  <text x="165" y="523" font-family="'Pretendard', sans-serif" font-size="25" font-weight="600" fill="#FFFFFF">산재지정 의료기관에서 진료·소견서</text>
+
+  <!-- Row 4 -->
+  <rect x="60" y="575" width="960" height="85" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <rect x="100" y="598" width="40" height="40" rx="8" fill="#F59E0B"/>
+  <text x="120" y="628" font-family="'Pretendard', sans-serif" font-size="24" font-weight="800" fill="#0B1F3B" text-anchor="middle">&#x2713;</text>
+  <text x="165" y="628" font-family="'Pretendard', sans-serif" font-size="25" font-weight="600" fill="#FFFFFF">요양급여 신청서 (사업주 날인 불요)</text>
+
+  <!-- Row 5 -->
+  <rect x="60" y="680" width="960" height="85" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <rect x="100" y="703" width="40" height="40" rx="8" fill="#F59E0B"/>
+  <text x="120" y="733" font-family="'Pretendard', sans-serif" font-size="24" font-weight="800" fill="#0B1F3B" text-anchor="middle">&#x2713;</text>
+  <text x="165" y="733" font-family="'Pretendard', sans-serif" font-size="25" font-weight="600" fill="#FFFFFF">근로복지공단 지사 방문/온라인 접수</text>
+
+  <!-- Row 6 -->
+  <rect x="60" y="785" width="960" height="85" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <rect x="100" y="808" width="40" height="40" rx="8" fill="#F59E0B"/>
+  <text x="120" y="838" font-family="'Pretendard', sans-serif" font-size="24" font-weight="800" fill="#0B1F3B" text-anchor="middle">&#x2713;</text>
+  <text x="165" y="838" font-family="'Pretendard', sans-serif" font-size="25" font-weight="600" fill="#FFFFFF">휴업급여 4일째부터 청구 (최근 3개월 임금)</text>
+
+  <!-- Row 7 -->
+  <rect x="60" y="890" width="960" height="85" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <rect x="100" y="913" width="40" height="40" rx="8" fill="#F59E0B"/>
+  <text x="120" y="943" font-family="'Pretendard', sans-serif" font-size="24" font-weight="800" fill="#0B1F3B" text-anchor="middle">&#x2713;</text>
+  <text x="165" y="943" font-family="'Pretendard', sans-serif" font-size="25" font-weight="600" fill="#FFFFFF">불승인 시 90일 이내 심사청구</text>
+
+  <!-- Row 8 -->
+  <rect x="60" y="995" width="960" height="75" rx="16" fill="rgba(245,158,11,0.15)" stroke="#F59E0B" stroke-width="2"/>
+  <rect x="100" y="1013" width="40" height="40" rx="8" fill="#F59E0B"/>
+  <text x="120" y="1043" font-family="'Pretendard', sans-serif" font-size="24" font-weight="800" fill="#0B1F3B" text-anchor="middle">&#x2713;</text>
+  <text x="165" y="1043" font-family="'Pretendard', sans-serif" font-size="25" font-weight="700" fill="#F59E0B">직장복귀지원금·직업재활 지원 함께 신청</text>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#F59E0B">소상공인 대출 1분 체크리스트</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <rect x="60" y="120" width="960" height="80" rx="16" fill="rgba(239,68,68,0.08)"/>
+  <rect x="80" y="140" width="40" height="40" rx="8" fill="rgba(239,68,68,0.3)" stroke="#EF4444" stroke-width="2"/>
+  <text x="100" y="168" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#EF4444">!</text>
+  <text x="140" y="168" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">NCB 신용 점수 확인 (나이스·KCB 무료 조회)</text>
+
+  <rect x="60" y="212" width="960" height="80" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="232" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="260" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="260" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">7% 이상 고금리 대출 → 대환대출 4.5% 우선 검토</text>
+
+  <rect x="60" y="304" width="960" height="80" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="324" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="352" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="352" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">사업장 소재 지자체 이차보전 사업 잔여 예산 확인</text>
+
+  <rect x="60" y="396" width="960" height="80" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="416" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="444" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="444" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">정책자금 분기별 공고 확인 (소진공 누리집)</text>
+
+  <rect x="60" y="488" width="960" height="80" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="508" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="536" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="536" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">금리 우대 조건 충족 여부 (고용보험·노란우산·제로페이)</text>
+
+  <rect x="60" y="580" width="960" height="80" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="600" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="628" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="628" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">기존 보증 총액 확인 (재단 2억·전체 4억 초과 시 제한)</text>
+
+  <rect x="60" y="672" width="960" height="80" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="692" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="720" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="720" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">세금 체납 여부 확인 (체납 시 정책자금 신청 불가)</text>
+
+  <rect x="60" y="764" width="960" height="80" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="784" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="812" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="812" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">공동인증서 또는 간편인증(카카오·네이버) 준비</text>
+
+  <rect x="60" y="856" width="960" height="80" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="876" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="904" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="904" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">마이데이터 자동 금리 인하 서비스 동의 완료</text>
+
+  <rect x="60" y="948" width="960" height="80" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="968" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="996" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="996" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">변동금리보다 혼합형·주기형 선택 (DSR 유리)</text>
+
+  <rect x="60" y="1050" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

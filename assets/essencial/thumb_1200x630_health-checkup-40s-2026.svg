@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="tbg2" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" rx="0" fill="url(#tbg2)"/>
+
+  <!-- 배지 -->
+  <rect x="60" y="80" width="260" height="46" rx="23" fill="#EF4444"/>
+  <text x="190" y="110" font-family="sans-serif" font-size="22" font-weight="800" fill="#FFF" text-anchor="middle">2026 최신 비교</text>
+
+  <!-- 메인 텍스트 -->
+  <text x="600" y="240" font-family="sans-serif" font-size="52" font-weight="900" fill="#FFFFFF" text-anchor="middle">40대 건강검진 추가 항목 추천</text>
+  <text x="600" y="310" font-family="sans-serif" font-size="36" fill="#E2E8F0" text-anchor="middle">꼭 받아야 할 검사 비용 비교 (2026)</text>
+
+  <!-- 칩 -->
+  <rect x="240" y="380" width="140" height="44" rx="22" fill="#FEF3C7"/>
+  <text x="310" y="408" font-family="sans-serif" font-size="18" font-weight="700" fill="#92400E" text-anchor="middle">비교분석</text>
+
+  <rect x="400" y="380" width="120" height="44" rx="22" fill="#FEF3C7"/>
+  <text x="460" y="408" font-family="sans-serif" font-size="18" font-weight="700" fill="#92400E" text-anchor="middle">비용</text>
+
+  <rect x="540" y="380" width="120" height="44" rx="22" fill="#FEF3C7"/>
+  <text x="600" y="408" font-family="sans-serif" font-size="18" font-weight="700" fill="#92400E" text-anchor="middle">추천</text>
+
+  <rect x="680" y="380" width="150" height="44" rx="22" fill="#FEF3C7"/>
+  <text x="755" y="408" font-family="sans-serif" font-size="18" font-weight="700" fill="#92400E" text-anchor="middle">성별맞춤</text>
+
+  <!-- 하단 -->
+  <text x="600" y="520" font-family="sans-serif" font-size="20" fill="#94A3B8" text-anchor="middle">국가검진 vs 추가 검사 · 검진기관 vs 대학병원 · 실비보험 청구 전략</text>
+</svg>

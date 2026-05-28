@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- 레이블 -->
+  <rect x="60" y="52" width="280" height="44" rx="22" fill="#F59E0B" opacity="0.18"/>
+  <text x="200" y="80" font-family="-apple-system,sans-serif" font-size="22" font-weight="700" fill="#F59E0B" text-anchor="middle">중복 사용 관계 정리</text>
+
+  <!-- 제목 -->
+  <text x="540" y="158" font-family="-apple-system,sans-serif" font-size="50" font-weight="900" fill="#FFFFFF" text-anchor="middle">가족돌봄휴직·휴가 합산 계산법</text>
+  <text x="540" y="210" font-family="-apple-system,sans-serif" font-size="32" font-weight="600" fill="#A0B4D0" text-anchor="middle">연간 90일 한도 시뮬레이션 (2026)</text>
+
+  <line x1="60" y1="236" x2="1020" y2="236" stroke="#1A3270" stroke-width="2"/>
+
+  <!-- 90일 한도 시각화 -->
+  <text x="540" y="280" font-family="-apple-system,sans-serif" font-size="24" fill="#A0B4D0" text-anchor="middle">▶ 연간 총 한도</text>
+  <!-- 전체 바 -->
+  <rect x="60" y="292" width="960" height="50" rx="10" fill="#1A3270"/>
+  <text x="540" y="326" font-family="-apple-system,sans-serif" font-size="26" font-weight="900" fill="#FFFFFF" text-anchor="middle">90일 (가족돌봄휴직 + 가족돌봄휴가 합산)</text>
+
+  <!-- 케이스 1 -->
+  <rect x="60" y="360" width="960" height="130" rx="14" fill="#0D2347"/>
+  <rect x="60" y="360" width="4" height="130" rx="2" fill="#34D399"/>
+  <text x="84" y="392" font-family="-apple-system,sans-serif" font-size="22" font-weight="800" fill="#34D399">케이스 ① 가족돌봄휴가 0일 사용</text>
+  <!-- 바 -->
+  <rect x="84" y="404" width="936" height="36" rx="8" fill="#34D399" opacity="0.85"/>
+  <text x="552" y="428" font-family="-apple-system,sans-serif" font-size="20" font-weight="700" fill="#0D2347" text-anchor="middle">가족돌봄휴직 최대 90일 전부 사용 가능</text>
+  <text x="84" y="474" font-family="-apple-system,sans-serif" font-size="20" fill="#A0B4D0">→ 휴직 90일 모두 사용 가능</text>
+
+  <!-- 케이스 2 -->
+  <rect x="60" y="506" width="960" height="130" rx="14" fill="#0D2347"/>
+  <rect x="60" y="506" width="4" height="130" rx="2" fill="#F59E0B"/>
+  <text x="84" y="538" font-family="-apple-system,sans-serif" font-size="22" font-weight="800" fill="#F59E0B">케이스 ② 가족돌봄휴가 10일 사용</text>
+  <!-- 바 -->
+  <rect x="84" y="550" width="832" height="36" rx="8" fill="#34D399" opacity="0.7"/>
+  <rect x="916" y="550" width="104" height="36" rx="8" fill="#F59E0B"/>
+  <text x="480" y="574" font-family="-apple-system,sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle">휴직 80일</text>
+  <text x="968" y="574" font-family="-apple-system,sans-serif" font-size="18" font-weight="700" fill="#0D2347" text-anchor="middle">휴가 10일</text>
+  <text x="84" y="620" font-family="-apple-system,sans-serif" font-size="20" fill="#A0B4D0">→ 남은 가족돌봄휴직 가용 일수: 80일</text>
+
+  <!-- 케이스 3 -->
+  <rect x="60" y="652" width="960" height="130" rx="14" fill="#0D2347"/>
+  <rect x="60" y="652" width="4" height="130" rx="2" fill="#EF4444"/>
+  <text x="84" y="684" font-family="-apple-system,sans-serif" font-size="22" font-weight="800" fill="#EF4444">케이스 ③ 휴직 60일 + 휴가 10일 사용</text>
+  <!-- 바 -->
+  <rect x="84" y="696" width="624" height="36" rx="8" fill="#34D399" opacity="0.7"/>
+  <rect x="708" y="696" width="104" height="36" rx="8" fill="#F59E0B"/>
+  <rect x="812" y="696" width="208" height="36" rx="8" fill="#1A3270"/>
+  <text x="396" y="720" font-family="-apple-system,sans-serif" font-size="17" font-weight="700" fill="#FFFFFF" text-anchor="middle">휴직 60일</text>
+  <text x="760" y="720" font-family="-apple-system,sans-serif" font-size="17" font-weight="700" fill="#0D2347" text-anchor="middle">휴가 10일</text>
+  <text x="916" y="720" font-family="-apple-system,sans-serif" font-size="17" fill="#A0B4D0" text-anchor="middle">잔여 20일</text>
+  <text x="84" y="766" font-family="-apple-system,sans-serif" font-size="20" fill="#A0B4D0">→ 합산 70일 사용, 추가 휴직 20일 가능</text>
+
+  <!-- 핵심 경고 -->
+  <rect x="60" y="800" width="960" height="80" rx="14" fill="#EF4444" opacity="0.12"/>
+  <rect x="60" y="800" width="4" height="80" rx="2" fill="#EF4444"/>
+  <text x="540" y="836" font-family="-apple-system,sans-serif" font-size="26" font-weight="900" fill="#EF4444" text-anchor="middle">⚠ 오해 주의: 두 제도 합산 100일이 아닙니다</text>
+  <text x="540" y="868" font-family="-apple-system,sans-serif" font-size="22" fill="#FFFFFF" text-anchor="middle">어떤 조합이든 연간 총합 90일 초과 불가</text>
+
+  <!-- 예외 -->
+  <rect x="60" y="898" width="960" height="68" rx="14" fill="#1A3270"/>
+  <text x="540" y="926" font-family="-apple-system,sans-serif" font-size="22" fill="#FFFFFF" text-anchor="middle">※ 예외: 감염병 재난 선포 시 가족돌봄휴가 최대 15일</text>
+  <text x="540" y="954" font-family="-apple-system,sans-serif" font-size="20" fill="#A0B4D0" text-anchor="middle">(연장 5일은 90일 한도에 별도 적용될 수 있음 — 공고 확인)</text>
+
+  <text x="540" y="1036" font-family="-apple-system,sans-serif" font-size="20" fill="#4B6080" text-anchor="middle">남녀고용평등법 제22조의2·22조의3 기준 | 2026.05 기준</text>
+</svg>

@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="8" fill="#F59E0B"/>
+
+  <!-- Title -->
+  <text x="540" y="68" font-family="-apple-system, sans-serif" font-size="34" font-weight="900" fill="#F59E0B" text-anchor="middle">자영업자 노후 3축 한눈에 비교</text>
+  <text x="540" y="106" font-family="-apple-system, sans-serif" font-size="21" font-weight="700" fill="#A0B4D0" text-anchor="middle">노란우산공제 · IRP+연금저축 · 국민연금</text>
+
+  <!-- Header -->
+  <rect x="40" y="132" width="1000" height="48" rx="8" fill="#1A3270"/>
+  <text x="80" y="163" font-family="-apple-system, sans-serif" font-size="16" font-weight="800" fill="#F59E0B">구분</text>
+  <text x="270" y="163" font-family="-apple-system, sans-serif" font-size="16" font-weight="800" fill="#F59E0B" text-anchor="middle">노란우산공제</text>
+  <text x="570" y="163" font-family="-apple-system, sans-serif" font-size="16" font-weight="800" fill="#F59E0B" text-anchor="middle">IRP+연금저축</text>
+  <text x="870" y="163" font-family="-apple-system, sans-serif" font-size="16" font-weight="800" fill="#F59E0B" text-anchor="middle">국민연금</text>
+
+  <!-- Row 1: 공제 방식 -->
+  <rect x="40" y="184" width="1000" height="72" rx="6" fill="#0D2347"/>
+  <text x="80" y="224" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#A0B4D0">공제 방식</text>
+  <text x="270" y="216" font-family="-apple-system, sans-serif" font-size="17" font-weight="800" fill="#FFFFFF" text-anchor="middle">소득공제</text>
+  <text x="270" y="242" font-family="-apple-system, sans-serif" font-size="14" fill="#34D399" text-anchor="middle">과세표준 직접 감소</text>
+  <text x="570" y="216" font-family="-apple-system, sans-serif" font-size="17" font-weight="800" fill="#FFFFFF" text-anchor="middle">세액공제</text>
+  <text x="570" y="242" font-family="-apple-system, sans-serif" font-size="14" fill="#34D399" text-anchor="middle">세금에서 직접 차감</text>
+  <text x="870" y="216" font-family="-apple-system, sans-serif" font-size="17" font-weight="800" fill="#A0B4D0" text-anchor="middle">없음</text>
+  <text x="870" y="242" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">노후 연금 수령</text>
+
+  <!-- Row 2: 공제 한도 -->
+  <rect x="40" y="260" width="1000" height="72" rx="6" fill="#1A3270"/>
+  <text x="80" y="300" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#A0B4D0">공제 한도</text>
+  <text x="270" y="292" font-family="-apple-system, sans-serif" font-size="17" font-weight="800" fill="#FFFFFF" text-anchor="middle">최대 600만원</text>
+  <text x="270" y="318" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">소득 4,000만원↓ 기준</text>
+  <text x="570" y="292" font-family="-apple-system, sans-serif" font-size="17" font-weight="800" fill="#FFFFFF" text-anchor="middle">최대 900만원</text>
+  <text x="570" y="318" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">연금저축+IRP 합산</text>
+  <text x="870" y="300" font-family="-apple-system, sans-serif" font-size="17" font-weight="800" fill="#A0B4D0" text-anchor="middle">—</text>
+
+  <!-- Row 3: 절세 최대 -->
+  <rect x="40" y="336" width="1000" height="72" rx="6" fill="#0D2347"/>
+  <text x="80" y="376" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#A0B4D0">절세 최대액</text>
+  <text x="270" y="368" font-family="-apple-system, sans-serif" font-size="24" font-weight="900" fill="#F59E0B" text-anchor="middle">~90만원</text>
+  <text x="270" y="396" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">소득 4,000만원↓, 세율 15%</text>
+  <text x="570" y="368" font-family="-apple-system, sans-serif" font-size="24" font-weight="900" fill="#F59E0B" text-anchor="middle">~148.5만원</text>
+  <text x="570" y="396" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">900만원 × 16.5%</text>
+  <text x="870" y="368" font-family="-apple-system, sans-serif" font-size="17" font-weight="800" fill="#A0B4D0" text-anchor="middle">보험료율 9.5%</text>
+  <text x="870" y="394" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">2026년 기준</text>
+
+  <!-- Row 4: 수령 방식 -->
+  <rect x="40" y="412" width="1000" height="72" rx="6" fill="#1A3270"/>
+  <text x="80" y="452" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#A0B4D0">수령 방식</text>
+  <text x="270" y="444" font-family="-apple-system, sans-serif" font-size="16" font-weight="800" fill="#EAF2FF" text-anchor="middle">폐업·퇴임 시</text>
+  <text x="270" y="468" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">일시금 수령</text>
+  <text x="570" y="444" font-family="-apple-system, sans-serif" font-size="16" font-weight="800" fill="#EAF2FF" text-anchor="middle">55세↑ 연금 수령</text>
+  <text x="570" y="468" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">10년 이상 분할</text>
+  <text x="870" y="444" font-family="-apple-system, sans-serif" font-size="16" font-weight="800" fill="#EAF2FF" text-anchor="middle">만 63세↑ 종신</text>
+  <text x="870" y="468" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">연금 수령</text>
+
+  <!-- Row 5: 신청처 -->
+  <rect x="40" y="488" width="1000" height="72" rx="6" fill="#0D2347"/>
+  <text x="80" y="528" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#A0B4D0">신청처</text>
+  <text x="270" y="520" font-family="-apple-system, sans-serif" font-size="15" fill="#EAF2FF" text-anchor="middle">yumam.kbiz.or.kr</text>
+  <text x="270" y="546" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">중소기업중앙회</text>
+  <text x="570" y="520" font-family="-apple-system, sans-serif" font-size="15" fill="#EAF2FF" text-anchor="middle">은행·증권사 앱</text>
+  <text x="570" y="546" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">온라인 10분</text>
+  <text x="870" y="520" font-family="-apple-system, sans-serif" font-size="15" fill="#EAF2FF" text-anchor="middle">nps.or.kr</text>
+  <text x="870" y="546" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">국민연금 ☎1355</text>
+
+  <!-- Bottom: 합산 절세 표 -->
+  <rect x="40" y="590" width="1000" height="116" rx="16" fill="#1A3270"/>
+  <text x="540" y="630" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#F59E0B" text-anchor="middle">3축 합산 연간 최대 절세 (종합소득 4,000만원↓)</text>
+  <text x="250" y="672" font-family="-apple-system, sans-serif" font-size="19" font-weight="800" fill="#EAF2FF" text-anchor="middle">노란우산 90만원</text>
+  <text x="540" y="672" font-family="-apple-system, sans-serif" font-size="19" font-weight="800" fill="#EAF2FF" text-anchor="middle">+ IRP·연금저축 148만원</text>
+  <text x="870" y="672" font-family="-apple-system, sans-serif" font-size="26" font-weight="900" fill="#34D399" text-anchor="middle">= 약 238만원</text>
+  <text x="540" y="698" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">※ 두 제도 한도 미충돌 — 동시 납입 시 각각 전액 혜택 수령</text>
+
+  <!-- Stat row -->
+  <rect x="40" y="734" width="300" height="150" rx="16" fill="#0D2347"/>
+  <text x="190" y="790" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#F59E0B" text-anchor="middle">노란우산 한도</text>
+  <text x="190" y="844" font-family="-apple-system, sans-serif" font-size="44" font-weight="900" fill="#FFFFFF" text-anchor="middle">600만원</text>
+  <text x="190" y="872" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">4,000만원↓ 기준</text>
+
+  <rect x="390" y="734" width="300" height="150" rx="16" fill="#0D2347"/>
+  <text x="540" y="790" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#F59E0B" text-anchor="middle">IRP+연금저축 한도</text>
+  <text x="540" y="844" font-family="-apple-system, sans-serif" font-size="44" font-weight="900" fill="#FFFFFF" text-anchor="middle">900만원</text>
+  <text x="540" y="872" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">세액공제 최대</text>
+
+  <rect x="740" y="734" width="300" height="150" rx="16" fill="#34D399" opacity="0.2"/>
+  <rect x="740" y="734" width="300" height="150" rx="20" fill="none" stroke="#34D399" stroke-width="2"/>
+  <text x="890" y="790" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#34D399" text-anchor="middle">국민연금 소득대체율</text>
+  <text x="890" y="844" font-family="-apple-system, sans-serif" font-size="44" font-weight="900" fill="#FFFFFF" text-anchor="middle">43%</text>
+  <text x="890" y="872" font-family="-apple-system, sans-serif" font-size="14" fill="#34D399" text-anchor="middle">2026년 개혁 상향</text>
+
+  <text x="540" y="958" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준 | yumam.kbiz.or.kr | nps.or.kr | ☎ 1355</text>
+  <rect x="0" y="1072" width="1080" height="8" fill="#F59E0B"/>
+</svg>

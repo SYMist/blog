@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Accent lines -->
+  <rect x="0" y="0" width="1200" height="8" fill="#34D399"/>
+  <rect x="0" y="622" width="1200" height="8" fill="#34D399"/>
+
+  <!-- Left panel: text content -->
+  <!-- Badge -->
+  <rect x="60" y="50" width="180" height="46" rx="10" fill="#F59E0B"/>
+  <text x="150" y="82" font-family="-apple-system, sans-serif" font-size="24" font-weight="900" fill="#0B1F3B" text-anchor="middle">2026 최신</text>
+
+  <!-- Main title -->
+  <text x="60" y="186" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="76" font-weight="900" fill="#FFFFFF">전기차 보조금</text>
+  <text x="60" y="268" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="76" font-weight="900" fill="#34D399">세제혜택 총정리</text>
+  <text x="60" y="324" font-family="-apple-system, sans-serif" font-size="30" font-weight="600" fill="#EAF2FF">개인 구매 조건·금액·절차 완벽 가이드 (2026)</text>
+
+  <!-- Chips row -->
+  <rect x="60" y="368" width="290" height="52" rx="26" fill="#34D399"/>
+  <text x="205" y="402" font-family="-apple-system, sans-serif" font-size="23" font-weight="800" fill="#0B1F3B" text-anchor="middle">국비 최대 680만원</text>
+
+  <rect x="368" y="368" width="280" height="52" rx="26" fill="#EF4444"/>
+  <text x="508" y="402" font-family="-apple-system, sans-serif" font-size="23" font-weight="800" fill="#FFFFFF" text-anchor="middle">취득세 140만 감면</text>
+
+  <rect x="666" y="368" width="280" height="52" rx="26" fill="#1A3270"/>
+  <text x="806" y="402" font-family="-apple-system, sans-serif" font-size="23" font-weight="800" fill="#FFFFFF" text-anchor="middle">개소세 300만 감면</text>
+
+  <!-- Note -->
+  <text x="60" y="470" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0">지방보조금 별도 (지역별 최대 1,100만원)</text>
+  <text x="60" y="500" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0">세제혜택 2026.12.31까지 — 연내 등록 유리</text>
+
+  <!-- Footer -->
+  <text x="60" y="570" font-family="-apple-system, sans-serif" font-size="20" fill="#A0B4D0">deluxo | 2026-05-20 기준 참고 정보 — 신청 전 공식 공고 확인 필수</text>
+
+  <!-- Right panel: stat boxes -->
+  <rect x="980" y="50" width="180" height="530" rx="16" fill="#0D2347"/>
+
+  <text x="1070" y="130" font-family="-apple-system, sans-serif" font-size="18" fill="#A0B4D0" text-anchor="middle">국비</text>
+  <text x="1070" y="168" font-family="-apple-system, sans-serif" font-size="34" font-weight="900" fill="#34D399" text-anchor="middle">680만</text>
+  <text x="1070" y="196" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">전환 포함</text>
+
+  <rect x="996" y="216" width="148" height="2" fill="#1A3270"/>
+
+  <text x="1070" y="256" font-family="-apple-system, sans-serif" font-size="18" fill="#A0B4D0" text-anchor="middle">취득세</text>
+  <text x="1070" y="294" font-family="-apple-system, sans-serif" font-size="34" font-weight="900" fill="#FFFFFF" text-anchor="middle">140만</text>
+  <text x="1070" y="322" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">~12.31</text>
+
+  <rect x="996" y="342" width="148" height="2" fill="#1A3270"/>
+
+  <text x="1070" y="382" font-family="-apple-system, sans-serif" font-size="18" fill="#A0B4D0" text-anchor="middle">개소세</text>
+  <text x="1070" y="420" font-family="-apple-system, sans-serif" font-size="34" font-weight="900" fill="#FFFFFF" text-anchor="middle">300만</text>
+  <text x="1070" y="448" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">~12.31</text>
+
+  <rect x="996" y="468" width="148" height="2" fill="#1A3270"/>
+
+  <text x="1070" y="508" font-family="-apple-system, sans-serif" font-size="18" fill="#A0B4D0" text-anchor="middle">지방</text>
+  <text x="1070" y="546" font-family="-apple-system, sans-serif" font-size="30" font-weight="900" fill="#60A5FA" text-anchor="middle">1,100만</text>
+  <text x="1070" y="572" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">농어촌 최대</text>
+</svg>

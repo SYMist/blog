@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- Badge -->
+  <rect x="60" y="50" width="110" height="44" rx="22" fill="#F59E0B"/>
+  <text x="115" y="79" text-anchor="middle" font-family="'Pretendard', sans-serif" font-size="20" font-weight="700" fill="#0B1F3B">주의</text>
+
+  <!-- Title -->
+  <text x="60" y="155" font-family="'Pretendard', sans-serif" font-size="42" font-weight="800" fill="#FFFFFF">발급 거절·주의 사유 TOP 5</text>
+
+  <!-- Divider -->
+  <line x1="60" y1="183" x2="1020" y2="183" stroke="#F59E0B" stroke-width="3" stroke-opacity="0.6"/>
+
+  <!-- Item 1 -->
+  <rect x="60" y="225" width="960" height="135" rx="18" fill="#FFFFFF" fill-opacity="0.07"/>
+  <circle cx="120" cy="275" r="32" fill="#F59E0B" fill-opacity="0.2"/>
+  <text x="120" y="284" text-anchor="middle" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#F59E0B">1</text>
+  <text x="175" y="275" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">사업자등록 6개월 미만</text>
+  <text x="175" y="318" font-family="'Pretendard', sans-serif" font-size="20" fill="#FFFFFF" fill-opacity="0.65">신용 이력 부족으로 심사 기준 미달</text>
+
+  <!-- Item 2 -->
+  <rect x="60" y="380" width="960" height="135" rx="18" fill="#FFFFFF" fill-opacity="0.05"/>
+  <circle cx="120" cy="430" r="32" fill="#F59E0B" fill-opacity="0.2"/>
+  <text x="120" y="439" text-anchor="middle" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#F59E0B">2</text>
+  <text x="175" y="430" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">개인 신용점수 하위권 (600점대↓)</text>
+  <text x="175" y="473" font-family="'Pretendard', sans-serif" font-size="20" fill="#FFFFFF" fill-opacity="0.65">개인·법인 대표 모두 개인 점수 반영</text>
+
+  <!-- Item 3 -->
+  <rect x="60" y="535" width="960" height="135" rx="18" fill="#FFFFFF" fill-opacity="0.07"/>
+  <circle cx="120" cy="585" r="32" fill="#F59E0B" fill-opacity="0.2"/>
+  <text x="120" y="594" text-anchor="middle" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#F59E0B">3</text>
+  <text x="175" y="585" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">카드론·현금서비스 잔액 과다</text>
+  <text x="175" y="628" font-family="'Pretendard', sans-serif" font-size="20" fill="#FFFFFF" fill-opacity="0.65">DSR 산정 시 부채 비율 초과 가능</text>
+
+  <!-- Item 4 -->
+  <rect x="60" y="690" width="960" height="135" rx="18" fill="#FFFFFF" fill-opacity="0.05"/>
+  <circle cx="120" cy="740" r="32" fill="#F59E0B" fill-opacity="0.2"/>
+  <text x="120" y="749" text-anchor="middle" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#F59E0B">4</text>
+  <text x="175" y="740" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">법인 재무제표 미비</text>
+  <text x="175" y="783" font-family="'Pretendard', sans-serif" font-size="20" fill="#FFFFFF" fill-opacity="0.65">최근 2년치 재무제표 제출 필요</text>
+
+  <!-- Item 5 -->
+  <rect x="60" y="845" width="960" height="135" rx="18" fill="#FFFFFF" fill-opacity="0.07"/>
+  <circle cx="120" cy="895" r="32" fill="#F59E0B" fill-opacity="0.2"/>
+  <text x="120" y="904" text-anchor="middle" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#F59E0B">5</text>
+  <text x="175" y="895" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">사업장 실사 불일치</text>
+  <text x="175" y="938" font-family="'Pretendard', sans-serif" font-size="20" fill="#FFFFFF" fill-opacity="0.65">등록 주소와 실제 영업장 불일치 시 반려</text>
+
+  <!-- Chips -->
+  <rect x="60" y="1010" width="96" height="42" rx="32" fill="#E8F0FF"/>
+  <text x="108" y="1038" text-anchor="middle" font-family="'Pretendard', sans-serif" font-size="18" font-weight="600" fill="#1D4ED8">거절</text>
+
+  <rect x="176" y="1010" width="96" height="42" rx="32" fill="#E8F0FF"/>
+  <text x="224" y="1038" text-anchor="middle" font-family="'Pretendard', sans-serif" font-size="18" font-weight="600" fill="#1D4ED8">사유</text>
+
+  <rect x="292" y="1010" width="96" height="42" rx="32" fill="#E8F0FF"/>
+  <text x="340" y="1038" text-anchor="middle" font-family="'Pretendard', sans-serif" font-size="18" font-weight="600" fill="#1D4ED8">확인</text>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <text x="540" y="140" font-family="'Pretendard', sans-serif" font-size="48" font-weight="900" fill="#F59E0B" text-anchor="middle">2026 전세보증보험 비교</text>
+
+  <text x="540" y="230" font-family="'Pretendard', sans-serif" font-size="60" font-weight="900" fill="#FFFFFF" text-anchor="middle">HUG · SGI · HF</text>
+  <text x="540" y="310" font-family="'Pretendard', sans-serif" font-size="44" font-weight="600" fill="#EAF2FF" text-anchor="middle">3대 기관 한눈에 정리</text>
+
+  <rect x="60" y="380" width="310" height="240" rx="24" fill="#1A3270"/>
+  <text x="215" y="435" font-family="'Pretendard', sans-serif" font-size="32" font-weight="800" fill="#F59E0B" text-anchor="middle">HUG</text>
+  <text x="215" y="490" font-family="'Pretendard', sans-serif" font-size="36" font-weight="900" fill="#FFFFFF" text-anchor="middle">수도권 7억</text>
+  <text x="215" y="540" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF" text-anchor="middle">공적 · 가장 일반적</text>
+  <text x="215" y="585" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF" text-anchor="middle">126% 룰 적용</text>
+
+  <rect x="385" y="380" width="310" height="240" rx="24" fill="#1A3270"/>
+  <text x="540" y="435" font-family="'Pretendard', sans-serif" font-size="32" font-weight="800" fill="#F59E0B" text-anchor="middle">SGI</text>
+  <text x="540" y="490" font-family="'Pretendard', sans-serif" font-size="36" font-weight="900" fill="#FFFFFF" text-anchor="middle">아파트 무제한</text>
+  <text x="540" y="540" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF" text-anchor="middle">민간 · 고액 특화</text>
+  <text x="540" y="585" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF" text-anchor="middle">126% 룰 미적용</text>
+
+  <rect x="710" y="380" width="310" height="240" rx="24" fill="#1A3270"/>
+  <text x="865" y="435" font-family="'Pretendard', sans-serif" font-size="32" font-weight="800" fill="#F59E0B" text-anchor="middle">HF</text>
+  <text x="865" y="490" font-family="'Pretendard', sans-serif" font-size="36" font-weight="900" fill="#FFFFFF" text-anchor="middle">수도권 7억</text>
+  <text x="865" y="540" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF" text-anchor="middle">전세자금대출 세트</text>
+  <text x="865" y="585" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF" text-anchor="middle">5% 납입 세대주</text>
+
+  <rect x="60" y="660" width="960" height="100" rx="20" fill="#F59E0B"/>
+  <text x="540" y="705" font-family="'Pretendard', sans-serif" font-size="34" font-weight="900" fill="#0B1F3B" text-anchor="middle">국가 지원 최대 40만 원</text>
+  <text x="540" y="745" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#0B1F3B" text-anchor="middle">기납부 보증료 100% 환급 · 정부24 접수</text>
+
+  <rect x="60" y="790" width="300" height="80" rx="16" fill="#10B981"/>
+  <text x="210" y="840" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF" text-anchor="middle">요율 4단계</text>
+
+  <rect x="390" y="790" width="300" height="80" rx="16" fill="#10B981"/>
+  <text x="540" y="840" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF" text-anchor="middle">모바일 3% 할인</text>
+
+  <rect x="720" y="790" width="300" height="80" rx="16" fill="#10B981"/>
+  <text x="870" y="840" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF" text-anchor="middle">청년 60% 할인</text>
+
+  <rect x="60" y="900" width="960" height="140" rx="20" fill="#1A3270"/>
+  <text x="540" y="950" font-family="'Pretendard', sans-serif" font-size="30" font-weight="800" fill="#F59E0B" text-anchor="middle">임대인 가입 의무화 (2026-03)</text>
+  <text x="540" y="1000" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF" text-anchor="middle">미가입 시 보증금 10% · 최대 3천만 원 과태료</text>
+</svg>

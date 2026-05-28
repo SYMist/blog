@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1500" fill="url(#bg)"/>
+
+  <rect x="60" y="50" width="320" height="40" rx="20" fill="#0F766E"/>
+  <text x="220" y="77" text-anchor="middle" fill="#FFFFFF" font-size="17" font-weight="800" font-family="sans-serif">2026 비만치료제 3종 비교</text>
+
+  <text x="60" y="155" fill="#FFFFFF" font-size="44" font-weight="800" font-family="sans-serif">위고비 vs 삭센다 vs 큐시미아</text>
+  <text x="60" y="200" fill="#5EEAD4" font-size="22" font-weight="600" font-family="sans-serif">감량 15% · 7.5% · 7.9% · 1kg당 71만 / 53만 / 26만</text>
+
+  <!-- 3 약물 카드 -->
+  <rect x="60" y="240" width="360" height="220" rx="16" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="240" y="285" text-anchor="middle" fill="#86EFAC" font-size="17" font-weight="800" font-family="sans-serif">위고비 (Wegovy)</text>
+  <text x="240" y="310" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">세마글루타이드 · 주 1회 주사</text>
+  <text x="240" y="370" text-anchor="middle" fill="#FFFFFF" font-size="42" font-weight="800" font-family="sans-serif">평균 15%</text>
+  <text x="240" y="400" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">68주 · STEP 6 한국 13.2%</text>
+  <text x="240" y="425" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="700" font-family="sans-serif">월 45~55만 · 1년 660만</text>
+
+  <rect x="440" y="240" width="320" height="220" rx="16" fill="url(#card)" stroke="#FCD34D" stroke-width="2"/>
+  <text x="600" y="285" text-anchor="middle" fill="#FCD34D" font-size="17" font-weight="800" font-family="sans-serif">삭센다 (Saxenda)</text>
+  <text x="600" y="310" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">리라글루타이드 · 매일 주사</text>
+  <text x="600" y="370" text-anchor="middle" fill="#FFFFFF" font-size="42" font-weight="800" font-family="sans-serif">평균 7.5%</text>
+  <text x="600" y="400" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">56주 · 5년+ 안전 데이터</text>
+  <text x="600" y="425" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="700" font-family="sans-serif">월 15~25만 · 1년 240만</text>
+
+  <rect x="780" y="240" width="360" height="220" rx="16" fill="url(#card)" stroke="#5EEAD4" stroke-width="2"/>
+  <text x="960" y="285" text-anchor="middle" fill="#5EEAD4" font-size="17" font-weight="800" font-family="sans-serif">큐시미아 (Qsymia)</text>
+  <text x="960" y="310" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">펜터민+토피라메이트 · 캡슐</text>
+  <text x="960" y="370" text-anchor="middle" fill="#FFFFFF" font-size="42" font-weight="800" font-family="sans-serif">평균 10%</text>
+  <text x="960" y="400" text-anchor="middle" fill="#5EEAD4" font-size="14" font-weight="700" font-family="sans-serif">1년 · 경구제 최강</text>
+  <text x="960" y="425" text-anchor="middle" fill="#5EEAD4" font-size="15" font-weight="700" font-family="sans-serif">월 15만 · 1년 180만</text>
+
+  <!-- 1kg 감량당 비용 바 차트 -->
+  <text x="60" y="510" fill="#FFFFFF" font-size="26" font-weight="800" font-family="sans-serif">1kg 감량당 비용 효율 (10kg 목표)</text>
+  <text x="60" y="538" fill="#94A3B8" font-size="14" font-family="sans-serif">35세 여성·BMI 32 시뮬 · 큐시미아가 가장 효율 우수 · 위고비는 절대 감량 최대</text>
+
+  <g font-family="sans-serif">
+    <text x="60" y="585" fill="#FFFFFF" font-size="16" font-weight="700">위고비</text>
+    <rect x="200" y="568" width="500" height="22" rx="4" fill="#92400E"/>
+    <text x="720" y="585" fill="#FCA5A5" font-size="15" font-weight="700">약 71만 원/kg (750만 ÷ 10.5kg)</text>
+
+    <text x="60" y="625" fill="#FFFFFF" font-size="16" font-weight="700">삭센다</text>
+    <rect x="200" y="608" width="370" height="22" rx="4" fill="#FCD34D"/>
+    <text x="590" y="625" fill="#FCD34D" font-size="15" font-weight="700">약 53만 원/kg (280만 ÷ 5.3kg)</text>
+
+    <text x="60" y="665" fill="#FFFFFF" font-size="16" font-weight="700">큐시미아</text>
+    <rect x="200" y="648" width="180" height="22" rx="4" fill="#86EFAC"/>
+    <text x="400" y="665" fill="#86EFAC" font-size="15" font-weight="700">약 26만 원/kg (180만 ÷ 7kg)</text>
+
+    <text x="60" y="710" fill="#FCD34D" font-size="14" font-weight="700">→ 비용 대비 효율: 큐시미아 > 삭센다 > 위고비 / 절대 감량량: 위고비 > 큐시미아 > 삭센다</text>
+  </g>
+
+  <!-- 처방 기준·금기 -->
+  <rect x="60" y="750" width="540" height="380" rx="16" fill="url(#card)" stroke="#0F766E" stroke-width="2"/>
+  <text x="80" y="790" fill="#5EEAD4" font-size="22" font-weight="800" font-family="sans-serif">▸ 공통 처방 기준</text>
+
+  <g font-family="sans-serif">
+    <text x="80" y="830" fill="#FFFFFF" font-size="15" font-weight="700">BMI 30 이상 성인</text>
+    <text x="80" y="855" fill="#CBD5E1" font-size="13">또는 BMI 27~30 + 동반질환 1+</text>
+
+    <text x="80" y="890" fill="#FFFFFF" font-size="15" font-weight="700">동반질환 예시</text>
+    <text x="80" y="915" fill="#CBD5E1" font-size="13">고혈압·2형 당뇨·이상지질혈증</text>
+    <text x="80" y="938" fill="#CBD5E1" font-size="13">폐쇄성 수면 무호흡·심혈관 질환</text>
+
+    <text x="80" y="975" fill="#FCA5A5" font-size="15" font-weight="700">▲ 2024.12.16~ 비대면 처방 금지</text>
+    <text x="80" y="1000" fill="#CBD5E1" font-size="13">위고비·삭센다·큐시미아 全 약</text>
+    <text x="80" y="1023" fill="#CBD5E1" font-size="13">대면 진료 + 자가주사 교육</text>
+
+    <text x="80" y="1060" fill="#FCD34D" font-size="14" font-weight="700">12세 이상 청소년: 위고비·삭센다 일부 허가</text>
+    <text x="80" y="1085" fill="#FCD34D" font-size="14" font-weight="700">12주 5% 미만 감량 시 중단·전환</text>
+  </g>
+
+  <rect x="620" y="750" width="520" height="380" rx="16" fill="url(#card)" stroke="#FCA5A5" stroke-width="2"/>
+  <text x="640" y="790" fill="#FCA5A5" font-size="22" font-weight="800" font-family="sans-serif">▲ 절대 금기 (사용 금지)</text>
+
+  <g font-family="sans-serif">
+    <text x="640" y="830" fill="#FCD34D" font-size="15" font-weight="800">위고비 · 삭센다 (GLP-1)</text>
+    <text x="640" y="855" fill="#CBD5E1" font-size="13">• 갑상선 수질암 병력·가족력</text>
+    <text x="640" y="878" fill="#CBD5E1" font-size="13">• 다발성 내분비종양 2형(MEN2)</text>
+    <text x="640" y="901" fill="#CBD5E1" font-size="13">• 약 성분 과민반응</text>
+
+    <text x="640" y="945" fill="#FCD34D" font-size="15" font-weight="800">큐시미아</text>
+    <text x="640" y="970" fill="#CBD5E1" font-size="13">• 임산부·임신 가능 여성(피임 무)</text>
+    <text x="640" y="993" fill="#CBD5E1" font-size="13">• 녹내장·갑상선기능항진증</text>
+    <text x="640" y="1016" fill="#CBD5E1" font-size="13">• MAO 억제제 병용 · 수유부</text>
+
+    <text x="640" y="1060" fill="#FCA5A5" font-size="14" font-weight="700">⚠ 췌장염 영국 MHRA 조사 중 (2025~)</text>
+    <text x="640" y="1085" fill="#FCA5A5" font-size="14" font-weight="700">⚠ 단순 비만 실비보험 청구 불가</text>
+  </g>
+
+  <!-- 부작용 비교 미니 -->
+  <rect x="60" y="1160" width="1080" height="200" rx="16" fill="url(#card)" stroke="#0F766E" stroke-width="2"/>
+  <text x="80" y="1200" fill="#5EEAD4" font-size="22" font-weight="800" font-family="sans-serif">주요 부작용 빈도 (1줄 비교)</text>
+
+  <g font-family="sans-serif">
+    <text x="80" y="1240" fill="#FFFFFF" font-size="16" font-weight="700">위고비</text>
+    <text x="200" y="1240" fill="#FCA5A5" font-size="15">메스꺼움 43.9% · 설사 29.7% · 구토 24.5% · 변비 24.2%</text>
+
+    <text x="80" y="1275" fill="#FFFFFF" font-size="16" font-weight="700">삭센다</text>
+    <text x="200" y="1275" fill="#FCD34D" font-size="15">메스꺼움 40% · 설사 17% · 구토 16% · 변비 19% · 두통 14%</text>
+
+    <text x="80" y="1310" fill="#FFFFFF" font-size="16" font-weight="700">큐시미아</text>
+    <text x="200" y="1310" fill="#5EEAD4" font-size="15">손발저림 14% · 구강건조 14% · 변비 16% · 두통 13% · 불면 9%</text>
+
+    <text x="80" y="1345" fill="#FCD34D" font-size="14" font-weight="700">→ GLP-1: 위장관 부작용 / 큐시미아: 신경계·인지 부작용 (서로 다른 프로파일)</text>
+  </g>
+
+  <text x="60" y="1420" fill="#64748B" font-size="14" font-family="sans-serif">essencial | 건강·의료 silo · 자료: 식약처·노보 노디스크·종근당·STEP/SCALE/CONQUER 임상 (2026.04 기준)</text>
+</svg>

@@ -1,0 +1,361 @@
+<!-- essencial_template_auto.html 기반 -->
+<!-- E-53: LPG vs 가솔린 vs 디젤 vs 하이브리드 4종 5년 연료비 비교 (2026) -->
+
+<!-- ✅ Schema.org 구조화 데이터 -->
+<div style="display:none">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "LPG vs 가솔린 vs 디젤 vs 하이브리드 4종 5년 연료비 비교 — 운전 패턴별 손익분기 (2026)",
+      "description": "동급 중형 SUV 기준 5년 연료비: LPG 1,031만원 · 가솔린 1,125만원 · 디젤 825만원 · 하이브리드 750만원. 구매가 포함 5년 TCO 4종 비교와 운전 패턴별(단거리·도심·장거리) 손익분기점 정리.",
+      "datePublished": "2026-05-16",
+      "dateModified": "2026-05-16",
+      "author": {"@type": "Person", "name": "essencial"},
+      "publisher": {"@type": "Organization", "name": "essencial"}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "LPG·가솔린·디젤·하이브리드 4종 5년 연료비는 얼마씩 들까요?", "acceptedAnswer": {"@type": "Answer", "text": "연 1만 5천km, 동급 중형 SUV 기준 5년 연료비는 하이브리드 약 750만원, 디젤 약 825만원, LPG 약 1,031만원, 가솔린 약 1,125만원입니다. 가솔린을 기준으로 하이브리드는 375만원, 디젤은 300만원, LPG는 94만원이 저렴합니다. 단, 구매가가 다르므로 5년 TCO로 비교하면 결과가 달라집니다."}},
+        {"@type": "Question", "name": "구매가까지 더한 5년 TCO는 어떻게 되나요?", "acceptedAnswer": {"@type": "Answer", "text": "동급 중형 SUV 신차가 + 연료비 + 자동차세 합산 시 LPG 약 4,216만원, 가솔린 약 4,510만원, 디젤 약 4,545만원, 하이브리드 약 4,735만원입니다. 구매가가 가장 낮은 LPG가 5년 TCO도 가장 저렴하며, 하이브리드는 연료비 절감이 크지만 신차가가 800만원 비싸 5년 단위로는 가장 비쌉니다."}},
+        {"@type": "Question", "name": "디젤 환경개선부담금은 얼마인가요?", "acceptedAnswer": {"@type": "Answer", "text": "경유차에는 환경개선부담금이 별도 부과됩니다. 차령·배기량에 따라 다르지만 중형 SUV 디젤 기준 연 약 7만원, 5년 누적 약 35만원 수준입니다. 자동차세(연 40만원, 5년 185만원)와는 별도로 부과되며, LPG·가솔린·하이브리드 차량에는 부과되지 않습니다."}},
+        {"@type": "Question", "name": "하이브리드는 자동차세 혜택이 있나요?", "acceptedAnswer": {"@type": "Answer", "text": "한국의 자동차세는 배기량(cc) 기준이므로 하이브리드도 동일 배기량 가솔린차와 같은 자동차세가 부과됩니다(1,999cc 기준 연 약 40만원). 다만 친환경차 등록 시 취득세 감면(최대 140만원, 2026년 일몰 검토)과 공영주차장 50% 할인, 혼잡통행료 면제 등 비세금 혜택이 별도 적용됩니다."}},
+        {"@type": "Question", "name": "운전 패턴별로 어떤 연료가 가장 유리한가요?", "acceptedAnswer": {"@type": "Answer", "text": "단거리·근거리(연 8천km 이하)는 LPG가 압도적으로 유리합니다. 도심 정체 출퇴근(연 1만 5천km)은 하이브리드 실연비가 25km/L+로 강세입니다. 장거리·고속 운전(연 2만 5천km+)은 디젤이 고속 효율 18~22km/L로 연료비 절감 최대입니다. 영업용·1톤 화물은 LPG 또는 디젤이 일반적이며, 가성비·인프라 중시는 가솔린이 무난합니다."}},
+        {"@type": "Question", "name": "하이브리드와 디젤의 손익분기점은 어디인가요?", "acceptedAnswer": {"@type": "Answer", "text": "동급 중형 SUV 신차가가 하이브리드가 디젤보다 약 300만원 비싸고, 연 연료비가 약 75만원 저렴합니다. 단순 계산 시 약 4년에 차이가 메워지지만, 자동차세·환경부담금·정비비를 합산하면 약 6~9년 보유 시 하이브리드가 우위입니다. 5년 이내 교체 예정이면 디젤 또는 LPG가 합리적입니다."}}
+      ]
+    }
+  ]
+}
+</script>
+</div>
+
+<style>
+  :root{
+    --pri:#1E40AF; --pri2:#1D4ED8;
+    --white:#FFFFFF; --text:#111827;
+    --muted:#4B5563; --border:#E5E7EB;
+    --bg:#F9FAFB; --accent:#EFF6FF;
+  }
+  .wrap{max-width:860px;margin:0 auto;line-height:1.8;color:var(--text);}
+  .meta{color:var(--muted);font-size:.95rem;margin:6px 0 18px;}
+  .badge{display:inline-block;background:var(--accent);border:1px solid #BFDBFE;padding:3px 10px;border-radius:999px;font-size:.85rem;margin-right:8px;}
+  .notice{background:#FFF7ED;border:1px solid #FED7AA;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .conclusion{background:#EFF6FF;border:1px solid #BFDBFE;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .toc{background:var(--bg);border:1px solid var(--border);padding:14px 16px;border-radius:12px;margin:16px 0 22px;}
+  .toc a{text-decoration:none;color:var(--pri);}
+  .toc ul{margin:8px 0 0 18px;}
+  .wrap a.btn,.wrap a.btn:link,.wrap a.btn:visited{
+    display:inline-flex;align-items:center;justify-content:center;
+    padding:10px 14px;border-radius:10px;border:1px solid var(--pri);
+    background:var(--pri) !important;color:var(--white) !important;
+    text-decoration:none !important;font-weight:800;
+  }
+  .wrap a.btn:hover{background:var(--pri2) !important;}
+  .wrap a.btn.secondary,.wrap a.btn.secondary:link,.wrap a.btn.secondary:visited{
+    background:var(--white) !important;color:var(--pri) !important;border-color:var(--pri) !important;
+  }
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 6px;}
+  table{width:100%;border-collapse:collapse;margin:14px 0 10px;}
+  th,td{border:1px solid var(--border);padding:10px;vertical-align:top;}
+  th{background:#F3F4F6;text-align:left;}
+  .small{font-size:.95rem;color:var(--muted);}
+  h1{margin:0 0 8px;line-height:1.25;}
+  h2{margin-top:30px;padding-top:8px;border-top:1px solid var(--border);}
+  h3{margin-top:16px;}
+  .q{font-weight:900;margin:14px 0 6px;}
+  .a{margin:0 0 10px;}
+  .highlight{background:#F0FDF4;border:1px solid #BBF7D0;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .warning{background:#FEF2F2;border:1px solid #FECACA;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .tco-box{background:#FEFCE8;border:1px solid #FDE68A;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .scope{background:#F8FAFC;border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .scope ul{margin:4px 0 0 18px;}
+  .action-steps{background:#EFF6FF;border:1px solid #BFDBFE;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .action-steps ol{margin:8px 0 0 18px;}
+  .sources{background:var(--bg);border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:14px 0;font-size:.9rem;}
+  .sources ul{margin:4px 0 0 18px;}
+  .footer{margin-top:26px;padding-top:14px;border-top:1px solid var(--border);color:var(--muted);font-size:.95rem;}
+</style>
+
+<div class="wrap">
+  <h1>LPG vs 가솔린 vs 디젤 vs 하이브리드 4종 5년 연료비 비교 — 운전 패턴별 손익분기 (2026)</h1>
+  <div class="meta">
+    <span class="badge">자동차</span>
+    <span class="badge">업데이트: 2026-05-16</span>
+  </div>
+
+  <div class="notice">
+    <strong>먼저 확인!</strong><br/>
+    연료비만 보면 하이브리드가 가장 저렴하지만, 구매가까지 더하면 LPG가 5년 TCO 1위입니다. 같은 동급 중형 SUV라도 LPG와 하이브리드 5년 TCO 격차는 약 519만원 — 운전 패턴에 따라 정답이 달라집니다.
+  </div>
+
+  <p class="small">
+    동급 중형 SUV 5년 보유 기준 연료비는 하이브리드 750만원·디젤 825만원·LPG 1,031만원·가솔린 1,125만원 순입니다. 그러나 신차가까지 더한 5년 TCO는 LPG 4,216만원이 가장 저렴하고 하이브리드 4,735만원이 가장 비쌉니다. 연료 단가·복합 연비·자동차세·환경부담금까지 4종을 한 표에서 비교하고, 단거리·도심·장거리 운전 패턴별 손익분기를 확인하세요.
+  </p>
+
+  <div class="scope">
+    <strong>이 글에서 다루는 것</strong>
+    <ul>
+      <li>LPG·가솔린·디젤·하이브리드 4종 연료 단가·복합 연비 비교 (2026년 5월 기준)</li>
+      <li>5년 연료비 시뮬레이션 (연 1만 5천km · 동급 중형 SUV)</li>
+      <li>구매가·자동차세·환경부담금 합산 5년 TCO 비교</li>
+      <li>운전 패턴별 손익분기 (단거리·도심 정체·장거리·영업용)</li>
+      <li>자주 놓치는 포인트와 실수 사례</li>
+    </ul>
+    <strong>다루지 않는 것</strong>
+    <ul>
+      <li>전기차 충전 비용 비교 (E-52 별도 글) / 보험료·정비비 (E-51 별도 글)</li>
+    </ul>
+  </div>
+
+  <!-- ✅ 섹션 1: 결론 먼저 -->
+  <div class="conclusion" id="top">
+    <h2 style="border-top:none;margin-top:0;">✅ 결론 먼저: 상황별 추천</h2>
+    <ul>
+      <li><strong>5년 총비용 절감이 우선이라면</strong> → <strong>LPG</strong> (5년 TCO 약 4,216만원, 가솔린 대비 294만원 절감)</li>
+      <li><strong>도심 정체 출퇴근(연 1만 5천km)이라면</strong> → <strong>하이브리드</strong> (실연비 25km/L+, 친환경 혜택 추가)</li>
+      <li><strong>장거리·고속 운전(연 2만 5천km+)이라면</strong> → <strong>디젤</strong> (고속 효율 18~22km/L, 연료비 최대 절감)</li>
+    </ul>
+  </div>
+
+  <!-- ✅ 이미지 1: 비교 요약 카드 -->
+  <img src="compare_summary_fuel-type-4kind-5yr-cost-comparison-2026.png" alt="LPG·가솔린·디젤·하이브리드 5년 연료비 비교 요약" style="width:100%;margin:16px 0;" />
+
+  <div class="toc">
+    <strong>목차</strong>
+    <ul>
+      <li><a href="#compare">1) 4종 연료 단가·연비·세금 비교표</a></li>
+      <li><a href="#fuel">2) 5년 연료비 시뮬레이션</a></li>
+      <li><a href="#tco">3) 구매가 포함 5년 TCO 비교</a></li>
+      <li><a href="#tax">4) 자동차세·환경부담금 차이</a></li>
+      <li><a href="#breakeven">5) 하이브리드 vs 디젤 손익분기</a></li>
+      <li><a href="#scenario">6) 운전 패턴별 추천 시나리오</a></li>
+      <li><a href="#checklist">7) 신차 구매 전 연료 선택 체크리스트</a></li>
+      <li><a href="#experience">자주 놓치는 포인트와 실수 사례</a></li>
+      <li><a href="#faq">8) FAQ</a></li>
+      <li><a href="#update">업데이트 로그</a></li>
+    </ul>
+  </div>
+
+  <!-- ✅ 섹션 2: 4종 단가·연비 비교 -->
+  <h2 id="compare">1) 4종 연료 단가·연비·세금 비교표</h2>
+  <h3>같은 중형 SUV인데 연료에 따라 뭐가 얼마나 다른가요?</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>구분</th>
+        <th>LPG</th>
+        <th>가솔린</th>
+        <th>디젤</th>
+        <th>하이브리드</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>연료 단가 (원/L)</td><td>약 1,100원</td><td>약 1,800원</td><td>약 1,650원</td><td>약 1,800원 (가솔린 사용)</td></tr>
+      <tr><td>복합 연비 (km/L)</td><td>약 8</td><td>약 12</td><td>약 15</td><td><strong>약 18</strong></td></tr>
+      <tr><td>리터당 주행거리당 비용</td><td>약 138원/km</td><td>약 150원/km</td><td>약 110원/km</td><td><strong>약 100원/km</strong></td></tr>
+      <tr><td>대표 차종 (중형 SUV)</td><td>쏘렌토 LPG</td><td>투싼 2.0</td><td>쏘렌토 2.2D</td><td>쏘렌토 HEV</td></tr>
+      <tr><td>신차가 (추정)</td><td><strong>약 3,000만원</strong></td><td>약 3,200만원</td><td>약 3,500만원</td><td>약 3,800만원</td></tr>
+      <tr><td>자동차세 (1,999cc 기준, 연)</td><td>약 40만원</td><td>약 40만원</td><td>약 40만원</td><td>약 40만원</td></tr>
+      <tr><td>환경개선부담금 (연)</td><td>—</td><td>—</td><td><strong>약 7만원</strong></td><td>—</td></tr>
+      <tr><td>친환경 혜택</td><td>없음</td><td>없음</td><td>없음</td><td><strong>취득세 감면·공영주차 50% 등</strong></td></tr>
+    </tbody>
+  </table>
+  <p class="small">※ 2026년 5월 기준. 단가는 오피넷·대한LPG협회 공시 추정치. 차종·트림·지역에 따라 달라집니다.</p>
+
+  <!-- ✅ 이미지 2: 비교 매트릭스 -->
+  <img src="compare_matrix_fuel-type-4kind-5yr-cost-comparison-2026.png" alt="LPG 가솔린 디젤 하이브리드 5년 TCO 비교 매트릭스" style="width:100%;margin:16px 0;" />
+
+  <!-- ✅ 섹션 3: 5년 연료비 -->
+  <h2 id="fuel">2) 5년 연료비 시뮬레이션</h2>
+  <h3>5년간 연료비만 비교하면 얼마나 차이 나나요?</h3>
+  <div class="tco-box">
+    <strong>예시: 동급 중형 SUV · 연 1만 5천km · 5년 7만 5천km (2026년 5월)</strong><br/><br/>
+    <table>
+      <thead>
+        <tr><th>연료</th><th>연 사용량</th><th>연 연료비</th><th>5년 연료비</th><th>가솔린 대비 절감</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>하이브리드</strong></td><td>833L</td><td>약 150만원</td><td><strong>약 750만원</strong></td><td>-375만원</td></tr>
+        <tr><td>디젤</td><td>1,000L</td><td>약 165만원</td><td>약 825만원</td><td>-300만원</td></tr>
+        <tr><td>LPG</td><td>1,875L</td><td>약 206만원</td><td>약 1,031만원</td><td>-94만원</td></tr>
+        <tr><td>가솔린</td><td>1,250L</td><td>약 225만원</td><td>약 1,125만원</td><td>기준</td></tr>
+      </tbody>
+    </table>
+    <p class="small">※ 연비는 동급 차종 복합 연비 추정치. 실주행에서는 도심·고속·계절에 따라 5~20% 변동.</p>
+  </div>
+  <p>연료비만 보면 <strong>하이브리드가 5년 750만원으로 가장 저렴</strong>합니다. LPG는 연료 단가가 저렴하지만 연비가 낮아 가솔린 대비 절감 폭이 94만원에 그칩니다.</p>
+
+  <!-- ✅ 섹션 4: 구매가 포함 TCO -->
+  <h2 id="tco">3) 구매가 포함 5년 TCO 비교</h2>
+  <h3>구매가까지 더하면 결과가 어떻게 달라지나요?</h3>
+  <table>
+    <thead>
+      <tr><th>연료</th><th>구매가</th><th>5년 연료비</th><th>5년 자동차세</th><th>5년 환경부담금</th><th><strong>5년 TCO 추정</strong></th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>LPG</strong></td><td>약 3,000만원</td><td>약 1,031만원</td><td>약 185만원</td><td>—</td><td><strong>약 4,216만원 (1위)</strong></td></tr>
+      <tr><td>가솔린</td><td>약 3,200만원</td><td>약 1,125만원</td><td>약 185만원</td><td>—</td><td>약 4,510만원</td></tr>
+      <tr><td>디젤</td><td>약 3,500만원</td><td>약 825만원</td><td>약 185만원</td><td>약 35만원</td><td>약 4,545만원</td></tr>
+      <tr><td>하이브리드</td><td>약 3,800만원</td><td>약 750만원</td><td>약 185만원</td><td>—</td><td>약 4,735만원 (4위)</td></tr>
+    </tbody>
+  </table>
+  <p>구매가까지 합산하면 <strong>LPG가 5년 TCO 1위</strong>(약 4,216만원)이고, <strong>하이브리드가 4위</strong>(약 4,735만원)로 순위가 뒤집힙니다. 하이브리드는 연료비 절감이 크지만 신차가가 800만원 비싸 5년 단위로는 회수가 어렵습니다. 보험료·정비비는 별도 글(E-51)에서 다룹니다.</p>
+  <div class="warning">
+    <strong>주의</strong>: 동일 차종·트림이 아닐 수 있으므로 같은 모델 LPG vs 가솔린(예: 쏘렌토 LPG vs 쏘렌토 가솔린) 비교 시 결과가 좁혀질 수 있습니다. 본인 후보 차량 견적 비교 권장.
+  </div>
+
+  <!-- ✅ 섹션 5: 세금 -->
+  <h2 id="tax">4) 자동차세·환경부담금 차이</h2>
+  <h3>연료에 따라 세금이 다른가요?</h3>
+  <p>한국의 자동차세는 <strong>배기량(cc) 기준</strong>이므로 LPG·가솔린·디젤·하이브리드 모두 같은 배기량이면 동일합니다(1,999cc 기준 연 약 40만원, 지방교육세 30% 포함 약 52만원).</p>
+  <table>
+    <thead>
+      <tr><th>세금/부담금</th><th>LPG</th><th>가솔린</th><th>디젤</th><th>하이브리드</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>자동차세 (연)</td><td>약 40만원</td><td>약 40만원</td><td>약 40만원</td><td>약 40만원</td></tr>
+      <tr><td>환경개선부담금 (연)</td><td>—</td><td>—</td><td><strong>약 7만원</strong></td><td>—</td></tr>
+      <tr><td>취득세 (7%)</td><td>약 210만원</td><td>약 224만원</td><td>약 245만원</td><td><strong>약 266만원 (감면 전)</strong></td></tr>
+      <tr><td>친환경차 취득세 감면</td><td>—</td><td>—</td><td>—</td><td><strong>최대 140만원 감면</strong></td></tr>
+      <tr><td>공영주차장 할인</td><td>—</td><td>—</td><td>—</td><td><strong>50% 할인</strong></td></tr>
+      <tr><td>혼잡통행료</td><td>일반</td><td>일반</td><td>일반</td><td><strong>면제 (서울 등)</strong></td></tr>
+    </tbody>
+  </table>
+  <p>하이브리드는 친환경차 등록 시 <strong>취득세 최대 140만원 감면</strong> + 공영주차장 50% 할인 + 혼잡통행료 면제 등 비세금 혜택이 있습니다. 다만 친환경차 취득세 감면은 2026년 일몰 검토 중이라 향후 변경 가능성이 있습니다.</p>
+  <div class="btns">
+    <a class="btn" href="https://www.car365.go.kr/ccpt/carlife/operate/carTaxCalculateView.do" target="_blank" rel="noopener">자동차세 계산기 (자동차365)</a>
+    <a class="btn secondary" href="https://www.opinet.co.kr" target="_blank" rel="noopener">오피넷 실시간 유가</a>
+  </div>
+
+  <!-- ✅ 섹션 6: 하이브리드 vs 디젤 손익분기 -->
+  <h2 id="breakeven">5) 하이브리드 vs 디젤 손익분기</h2>
+  <h3>하이브리드와 디젤은 몇 년 보유해야 따라잡나요?</h3>
+  <p>동급 중형 SUV에서 하이브리드 신차가가 디젤보다 약 <strong>300만원</strong> 비싸고, 연 연료비가 약 <strong>75만원</strong> 저렴합니다(15만원 환경부담금 차이 포함 시 약 82만원).</p>
+  <table>
+    <thead>
+      <tr><th>보유 기간</th><th>하이브리드 누적 비용</th><th>디젤 누적 비용</th><th>차액 (하이브리드 - 디젤)</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1년</td><td>약 3,950만원</td><td>약 3,665만원</td><td>+285만원</td></tr>
+      <tr><td>3년</td><td>약 4,250만원</td><td>약 4,015만원</td><td>+235만원</td></tr>
+      <tr><td>5년</td><td>약 4,735만원</td><td>약 4,545만원</td><td>+190만원</td></tr>
+      <tr><td><strong>7년</strong></td><td>약 5,220만원</td><td>약 5,075만원</td><td><strong>+145만원</strong></td></tr>
+      <tr><td><strong>9년 (손익분기)</strong></td><td>약 5,705만원</td><td>약 5,605만원</td><td><strong>+100만원</strong></td></tr>
+      <tr><td>10년+</td><td>약 5,948만원</td><td>약 5,870만원</td><td><strong>+78만원</strong></td></tr>
+    </tbody>
+  </table>
+  <p>구매가 차이를 연료비 절감으로 회수하려면 <strong>약 9년 보유</strong>가 필요합니다. 5년 이내 교체 예정이면 디젤·LPG가 합리적이고, 7년+ 장기 보유 + 도심 정체 운전이면 하이브리드가 우위입니다. 잔존가치는 별도 변수(하이브리드는 일본·국산 모두 잔존율 양호).</p>
+
+  <!-- ✅ 섹션 7: 시나리오 -->
+  <div class="highlight" id="scenario">
+    <h3>🔍 당신의 운전 패턴에 맞는 연료는?</h3>
+    <ul>
+      <li><strong>단거리·근거리 운전(연 8천km 이하)</strong> → <strong>LPG 압도적 유리</strong>. 구매가 낮음 + 연료 단가 낮아 절대 부담 최소화</li>
+      <li><strong>도심 정체 출퇴근(연 1만~1만 5천km)</strong> → <strong>하이브리드 유리</strong>. 실연비 25km/L+ 달성 + 친환경 혜택 추가</li>
+      <li><strong>장거리·고속 운전(연 2만 5천km 이상)</strong> → <strong>디젤 유리</strong>. 고속 효율 18~22km/L, 5년 연료비 최대 절감</li>
+      <li><strong>5년 이내 교체 예정 + 가성비 중시</strong> → <strong>가솔린 또는 LPG</strong>. 신차가 낮고 정비 인프라 풍부</li>
+      <li><strong>영업용·1톤 화물 + 24시간 가동</strong> → <strong>LPG 또는 디젤</strong>. 셀프충전 전면 허용 후 LPG 운영 편의성 개선</li>
+    </ul>
+  </div>
+
+  <!-- ✅ 이미지 3: 시나리오 카드 -->
+  <img src="scenario_fuel-type-4kind-5yr-cost-comparison-2026.png" alt="연료별 운전 패턴별 추천 시나리오" style="width:100%;margin:16px 0;" />
+
+  <!-- ✅ 신차 구매 전 연료 선택 체크리스트 -->
+  <div class="action-steps" id="checklist">
+    <strong>신차 구매 전 연료 선택 자가진단 순서</strong>
+    <ol>
+      <li>연간 주행거리 추정 (km/년) → 본인 데이터 기준</li>
+      <li>주행 패턴 분석 (도심 정체 vs 고속 vs 단거리) → 실연비 가늠</li>
+      <li>거주지·주 운전 지역 충전·주유 인프라 확인 (LPG는 충전소 위치 우선 점검)</li>
+      <li>예상 보유 기간 결정 (5년 미만 → 디젤·LPG / 7년+ → 하이브리드)</li>
+      <li>본인 운전 패턴으로 5년 연료비·세금·구매가 시뮬레이션</li>
+      <li>친환경차 취득세 감면 일몰 시점 확인 (2026년 검토 중)</li>
+    </ol>
+  </div>
+
+  <!-- ✅ 인아티클 광고 -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5716436301710258"
+       crossorigin="anonymous"></script>
+  <ins class="adsbygoogle"
+       style="display:block; text-align:center;"
+       data-ad-layout="in-article"
+       data-ad-format="fluid"
+       data-ad-client="ca-pub-5716436301710258"
+       data-ad-slot="2039167138"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+  <!-- ✅ 주의사항 -->
+  <h2>주의사항</h2>
+  <div class="warning">
+    <ul>
+      <li><strong>실연비 vs 공인연비 격차</strong>: 공인연비는 표준 조건 기준. 실주행은 도심 30~50% 감소, 겨울 20~30% 추가 감소</li>
+      <li><strong>LPG 충전소 분포</strong>: 전국 약 1,988개소 중 24시간 운영은 약 800곳. 거주지·주 운전 지역 인프라 사전 확인</li>
+      <li><strong>디젤 환경개선부담금</strong>: 차령·배기량 따라 인상 가능. 노후 디젤(11년+)은 운행 제한 지역(서울·수도권) 확대 가능</li>
+      <li><strong>하이브리드 배터리 보증</strong>: 일반 10년/20만km, 보증 후 교체 시 약 200~300만원 추가 (별도 글 E-47 참조)</li>
+      <li><strong>친환경차 혜택 일몰</strong>: 취득세 감면·고속도로 통행료 50% 할인 등 2026년 일몰 검토. 구매 시점 정책 확인 필수</li>
+    </ul>
+  </div>
+
+  <!-- ✅ 자주 놓치는 포인트와 실수 사례 -->
+  <h2 id="experience">자주 놓치는 포인트와 실수 사례</h2>
+  <p>연료비만 보고 하이브리드를 선택했다가 5년 후 후회하는 사례가 빈번합니다. 연 1만 5천km 기준 하이브리드 연료비 절감이 연 75만원이지만, 신차가가 디젤·LPG 대비 300~800만원 비쌉니다. 5년 보유 시 구매가 차이를 연료비로 회수하지 못해 총비용은 오히려 늘어나는 경우가 많습니다. 9년 이상 장기 보유 계획이 명확하지 않으면 손익이 역전될 수 있습니다.</p>
+  <p>LPG 차량은 충전소 인프라를 간과한 채 구매하는 사례가 자주 발생합니다. 전국 약 1,988개 충전소 중 24시간 운영은 800곳으로 도심·수도권 중심에 분포합니다. 지방·외곽 거주자나 야간 운행자는 충전소 접근성이 떨어져 실제 운영 부담이 큽니다. 거주지 5km 내 24시간 충전소가 있는지 사전 확인이 필수입니다.</p>
+  <p>디젤은 환경개선부담금만 보고 결정하는 경우가 있지만, 노후 디젤차(차령 11년+) 운행 제한 지역이 서울·수도권 중심으로 확대되고 있습니다. 5년 신차 구매 시점에는 영향이 없지만 10년 이상 보유 계획이면 향후 운행 제한 가능성을 함께 검토해야 합니다. 자가용 운행 제한은 도시별로 단계적 시행 중입니다.</p>
+  <p>"하이브리드는 자동차세도 면제된다"는 잘못된 정보도 흔합니다. 한국 자동차세는 배기량 기준이라 하이브리드도 동일 배기량 가솔린과 같습니다. 친환경 혜택은 취득세 감면·공영주차장 할인·혼잡통행료 면제로 한정되며, 자동차세 자체 감면은 없습니다. 연 자동차세 약 40만원은 모든 연료에 동일하게 부과됩니다.</p>
+  <p class="small">※ 위 사례는 공개된 소비자 경험과 공시 자료를 바탕으로 일반화한 내용입니다. 개인 운전 패턴·지역·계약 조건에 따라 다를 수 있으며, 구매 전 본인 운전 데이터로 시뮬레이션하시기 바랍니다.</p>
+
+  <!-- ✅ FAQ -->
+  <h2 id="faq">8) FAQ</h2>
+  <p class="q">Q1. LPG·가솔린·디젤·하이브리드 4종 5년 연료비는 얼마씩 들까요?</p>
+  <p class="a">연 1만 5천km, 동급 중형 SUV 기준 5년 연료비는 하이브리드 약 750만원, 디젤 약 825만원, LPG 약 1,031만원, 가솔린 약 1,125만원입니다. 가솔린을 기준으로 하이브리드는 375만원, 디젤은 300만원, LPG는 94만원이 저렴합니다. 단, 구매가가 다르므로 5년 TCO로 비교하면 결과가 달라집니다.</p>
+
+  <p class="q">Q2. 구매가까지 더한 5년 TCO는 어떻게 되나요?</p>
+  <p class="a">동급 중형 SUV 신차가 + 연료비 + 자동차세 합산 시 LPG 약 4,216만원, 가솔린 약 4,510만원, 디젤 약 4,545만원, 하이브리드 약 4,735만원입니다. 구매가가 가장 낮은 LPG가 5년 TCO도 가장 저렴하며, 하이브리드는 연료비 절감이 크지만 신차가가 800만원 비싸 5년 단위로는 가장 비쌉니다.</p>
+
+  <p class="q">Q3. 디젤 환경개선부담금은 얼마인가요?</p>
+  <p class="a">경유차에는 환경개선부담금이 별도 부과됩니다. 차령·배기량에 따라 다르지만 중형 SUV 디젤 기준 연 약 7만원, 5년 누적 약 35만원 수준입니다. 자동차세(연 40만원, 5년 185만원)와는 별도로 부과되며, LPG·가솔린·하이브리드 차량에는 부과되지 않습니다.</p>
+
+  <p class="q">Q4. 하이브리드는 자동차세 혜택이 있나요?</p>
+  <p class="a">한국의 자동차세는 배기량(cc) 기준이므로 하이브리드도 동일 배기량 가솔린차와 같은 자동차세가 부과됩니다(1,999cc 기준 연 약 40만원). 다만 친환경차 등록 시 취득세 감면(최대 140만원, 2026년 일몰 검토)과 공영주차장 50% 할인, 혼잡통행료 면제 등 비세금 혜택이 별도 적용됩니다.</p>
+
+  <p class="q">Q5. 운전 패턴별로 어떤 연료가 가장 유리한가요?</p>
+  <p class="a">단거리·근거리(연 8천km 이하)는 LPG가 압도적으로 유리합니다. 도심 정체 출퇴근(연 1만 5천km)은 하이브리드 실연비가 25km/L+로 강세입니다. 장거리·고속 운전(연 2만 5천km+)은 디젤이 고속 효율 18~22km/L로 연료비 절감 최대입니다. 영업용·1톤 화물은 LPG 또는 디젤이 일반적이며, 가성비·인프라 중시는 가솔린이 무난합니다.</p>
+
+  <p class="q">Q6. 하이브리드와 디젤의 손익분기점은 어디인가요?</p>
+  <p class="a">동급 중형 SUV 신차가가 하이브리드가 디젤보다 약 300만원 비싸고, 연 연료비가 약 75만원 저렴합니다. 단순 계산 시 약 4년에 차이가 메워지지만, 자동차세·환경부담금·정비비를 합산하면 약 6~9년 보유 시 하이브리드가 우위입니다. 5년 이내 교체 예정이면 디젤 또는 LPG가 합리적입니다.</p>
+
+  <p class="small">관련 글: <a href="#" target="_blank" rel="noopener">하이브리드 vs 전기차 유지비 비교 — 연료비·세금·보험료 총정리 (2026)</a> / <a href="#" target="_blank" rel="noopener">하이브리드 vs 디젤 5년 유지비 총비용 비교 (2026)</a> / <a href="#" target="_blank" rel="noopener">수입차 vs 국산차 5년 유지비 총비용 비교 (2026)</a></p>
+
+  <!-- ✅ 참고자료 -->
+  <div class="sources">
+    <strong>참고자료 / 출처</strong>
+    <ul>
+      <li>오피넷 한국석유공사 실시간 유가 정보: https://www.opinet.co.kr</li>
+      <li>대한LPG협회 가격 공시: https://www.klpg.or.kr/html/dh/board04</li>
+      <li>자동차365 자동차세 계산기 (국토부): https://www.car365.go.kr/ccpt/carlife/operate/carTaxCalculateView.do</li>
+      <li>대한석유협회 연료별 연비 비교: https://petroleum.or.kr</li>
+    </ul>
+  </div>
+
+  <div class="btns">
+    <a class="btn" href="https://www.opinet.co.kr" target="_blank" rel="noopener">오피넷 유가</a>
+    <a class="btn secondary" href="https://www.klpg.or.kr/html/dh/board04" target="_blank" rel="noopener">대한LPG협회</a>
+    <a class="btn secondary" href="https://www.car365.go.kr/ccpt/carlife/operate/carTaxCalculateView.do" target="_blank" rel="noopener">자동차세 계산</a>
+  </div>
+
+  <!-- ✅ 썸네일 -->
+  <img src="thumb_1080_fuel-type-4kind-5yr-cost-comparison-2026.png" alt="LPG·가솔린·디젤·하이브리드 5년 연료비 비교 인포그래픽" style="width:100%;margin:16px 0;" />
+  <img src="thumb_1200x630_fuel-type-4kind-5yr-cost-comparison-2026.png" alt="4종 연료 5년 TCO 비교 카드" style="width:100%;margin:16px 0;" />
+
+  <div class="footer" id="update">
+    <strong>업데이트 로그</strong><br/>
+    - 2026-05-16: 최초 발행<br/>
+    <span class="small">※ 연료 단가·연비·세금 수치는 2026년 5월 기준 추정치입니다. 실제 비용은 차종·트림·운전 패턴·지역·연료가 변동에 따라 다르며, 구매 전 본인 운전 데이터로 자가 시뮬레이션을 권장합니다.</span>
+  </div>
+</div>

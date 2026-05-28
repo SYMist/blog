@@ -1,0 +1,364 @@
+<!-- essencial_template_finance.html 기반 -->
+<!-- E-56: 양도소득세 1주택 비과세 vs 일시적 2주택 손익 비교 (2026) -->
+
+<!-- ✅ Schema.org 구조화 데이터 -->
+<div style="display:none">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "양도소득세 1주택 비과세 vs 일시적 2주택 손익 비교 — 5억 양도차익 시뮬레이션 (2026)",
+      "description": "양도차익 5억원 기준 1주택 비과세 0원 vs 일시적 2주택 3년 내 처분 0원 vs 3년 초과 5,200만원 vs 다주택 2.4억원. 비과세 요건과 5가지 시나리오 세액 시뮬레이션을 한 번에 정리.",
+      "datePublished": "2026-05-18",
+      "dateModified": "2026-05-18",
+      "author": {"@type": "Person", "name": "essencial"},
+      "publisher": {"@type": "Organization", "name": "essencial"}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "1세대 1주택 양도소득세 비과세 요건은 어떻게 되나요?", "acceptedAnswer": {"@type": "Answer", "text": "양도일 기준 1세대 1주택 + 2년 이상 보유가 기본 요건입니다. 취득 당시 조정대상지역이면 2년 거주 요건이 추가됩니다. 양도가액 12억원 이하는 전액 비과세이며, 12억 초과분에 대해서만 과세됩니다. 장기보유특별공제(최대 80%)까지 적용하면 12억 초과여도 세액이 크게 줄어듭니다."}},
+        {"@type": "Question", "name": "일시적 2주택 비과세를 받으려면 어떤 조건이 필요한가요?", "acceptedAnswer": {"@type": "Answer", "text": "3가지 조건을 모두 충족해야 합니다. ① 종전 주택 취득 후 1년 이상 경과 후 신규 주택 취득 ② 종전 주택 2년 이상 보유(조정지역 취득 시 2년 거주 추가) ③ 신규 주택 취득 후 3년 이내 종전 주택 처분. 양도가액 12억원 이하 한도는 1주택 비과세와 동일합니다. 셋 중 하나라도 어기면 비과세를 받지 못합니다."}},
+        {"@type": "Question", "name": "일시적 2주택 3년 안에 못 팔면 얼마나 손해인가요?", "acceptedAnswer": {"@type": "Answer", "text": "양도차익 5억원 가정 시 비과세 받으면 0원, 3년 초과해 비과세 상실 시 약 5,200만원 부담입니다(장기보유공제 70% 반영). 양도차익이 클수록 손해가 더 커집니다. 처분 일정이 늦어질 우려가 있다면 신규 주택 취득 시기를 조정하거나 임대등록을 검토해야 합니다."}},
+        {"@type": "Question", "name": "12억 초과 1주택은 어떻게 과세되나요?", "acceptedAnswer": {"@type": "Answer", "text": "12억까지는 비과세, 초과분만 과세됩니다. 양도가액 14억원·양도차익 9억 기준 초과분 비율은 14.3%((14-12)/14)로 약 1.28억원이 과세 대상이 됩니다. 장기보유특별공제(10년 보유+거주 시 80%)를 적용하면 과세표준 약 2,560만원·세액 약 400만원 수준으로 줄어듭니다. 양도가 20억이면 세액 약 2,000만원입니다."}},
+        {"@type": "Question", "name": "다주택자가 조정지역에서 양도하면 얼마나 가산되나요?", "acceptedAnswer": {"@type": "Answer", "text": "2026년 5월 10일 이후 매도분부터 정부 추가 연장 미발표 시 조정대상지역 내 다주택자에게 20%p 이상 가산 세율이 적용됩니다. 양도차익 5억 기준 일반 세율로는 약 1.44억원이지만 가산 적용 시 약 2.44억원으로 약 1억원 추가 부담입니다. 다주택 정리 의향이면 보유 주택 매도 순서를 시뮬레이션해 조정지역 가산을 회피하는 전략이 필요합니다."}},
+        {"@type": "Question", "name": "상생임대주택 특례는 무엇인가요?", "acceptedAnswer": {"@type": "Answer", "text": "상생임대주택 특례는 2026년 12월 말까지 적용 기한이 연장된 제도로, 조정대상지역 취득 1주택자가 2년 거주 요건을 면제받을 수 있는 핵심 절세 수단입니다. 임대료 5% 이내 인상 조건으로 임대차계약을 체결·갱신하면 1세대 1주택 비과세 거주 요건이 충족된 것으로 간주됩니다. 거주 어려운 경우 적극 활용 가치가 큽니다."}}
+      ]
+    }
+  ]
+}
+</script>
+</div>
+
+<style>
+  :root{
+    --pri:#B45309; --pri2:#D97706;
+    --white:#FFFFFF; --text:#111827;
+    --muted:#4B5563; --border:#E5E7EB;
+    --bg:#F9FAFB; --accent:#FEF3C7;
+  }
+  .wrap{max-width:860px;margin:0 auto;line-height:1.8;color:var(--text);}
+  .meta{color:var(--muted);font-size:.95rem;margin:6px 0 18px;}
+  .badge{display:inline-block;background:var(--accent);border:1px solid #FDE68A;padding:3px 10px;border-radius:999px;font-size:.85rem;margin-right:8px;}
+  .notice{background:#FFF7ED;border:1px solid #FED7AA;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .conclusion{background:#FEF3C7;border:1px solid #FDE68A;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .toc{background:var(--bg);border:1px solid var(--border);padding:14px 16px;border-radius:12px;margin:16px 0 22px;}
+  .toc a{text-decoration:none;color:var(--pri);}
+  .toc ul{margin:8px 0 0 18px;}
+  .wrap a.btn,.wrap a.btn:link,.wrap a.btn:visited{
+    display:inline-flex;align-items:center;justify-content:center;
+    padding:10px 14px;border-radius:10px;border:1px solid var(--pri);
+    background:var(--pri) !important;color:var(--white) !important;
+    text-decoration:none !important;font-weight:800;
+  }
+  .wrap a.btn:hover{background:var(--pri2) !important;}
+  .wrap a.btn.secondary,.wrap a.btn.secondary:link,.wrap a.btn.secondary:visited{
+    background:var(--white) !important;color:var(--pri) !important;border-color:var(--pri) !important;
+  }
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 6px;}
+  table{width:100%;border-collapse:collapse;margin:14px 0 10px;}
+  th,td{border:1px solid var(--border);padding:10px;vertical-align:top;}
+  th{background:#F3F4F6;text-align:left;}
+  .small{font-size:.95rem;color:var(--muted);}
+  h1{margin:0 0 8px;line-height:1.25;}
+  h2{margin-top:30px;padding-top:8px;border-top:1px solid var(--border);}
+  h3{margin-top:16px;}
+  .q{font-weight:900;margin:14px 0 6px;}
+  .a{margin:0 0 10px;}
+  .highlight{background:#F0FDF4;border:1px solid #BBF7D0;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .warning{background:#FEF2F2;border:1px solid #FECACA;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .tco-box{background:#FEFCE8;border:1px solid #FDE68A;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .scope{background:#F8FAFC;border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .scope ul{margin:4px 0 0 18px;}
+  .action-steps{background:#FFF7ED;border:1px solid #FED7AA;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .action-steps ol{margin:8px 0 0 18px;}
+  .sources{background:var(--bg);border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:14px 0;font-size:.9rem;}
+  .sources ul{margin:4px 0 0 18px;}
+  .footer{margin-top:26px;padding-top:14px;border-top:1px solid var(--border);color:var(--muted);font-size:.95rem;}
+</style>
+
+<div class="wrap">
+  <h1>양도소득세 1주택 비과세 vs 일시적 2주택 손익 비교 — 5억 양도차익 시뮬레이션 (2026)</h1>
+  <div class="meta">
+    <span class="badge">대출·금융</span>
+    <span class="badge">업데이트: 2026-05-18</span>
+  </div>
+
+  <div class="notice">
+    <strong>먼저 확인!</strong><br/>
+    1주택 비과세와 일시적 2주택 비과세는 모두 0원 부담이지만, 일시적 2주택은 <strong>신규 취득 후 3년 이내 종전 처분</strong> 조건을 못 지키면 비과세가 통째로 사라져 양도차익 5억 기준 약 5,200만원 부담이 발생합니다. 처분 일정 관리가 핵심입니다.
+  </div>
+
+  <p class="small">
+    같은 양도차익 5억원이라도 1주택 비과세는 0원, 일시적 2주택 3년 내 처분은 0원, 3년 초과 시 약 5,200만원, 다주택 조정지역 가산 적용 시 약 2.4억원으로 격차가 큽니다. 비과세 3가지 조건(보유·거주·12억 한도)과 5가지 시나리오 세액 시뮬레이션을 한 번에 확인하세요.
+  </p>
+
+  <div class="scope">
+    <strong>이 글에서 다루는 것</strong>
+    <ul>
+      <li>1세대 1주택 비과세 요건 (보유·거주·12억 한도)</li>
+      <li>일시적 2주택 비과세 3대 조건 (1년·2년·3년 룰)</li>
+      <li>양도차익 5억 기준 5가지 시나리오 세액 시뮬레이션</li>
+      <li>12억 초과 1주택 부분 과세 계산</li>
+      <li>상생임대주택 특례 활용 전략</li>
+    </ul>
+    <strong>다루지 않는 것</strong>
+    <ul>
+      <li>상가·토지 양도세 / 증여·상속세 (E-57 별도 글)</li>
+    </ul>
+  </div>
+
+  <!-- ✅ 섹션 1: 결론 먼저 -->
+  <div class="conclusion" id="top">
+    <h2 style="border-top:none;margin-top:0;">✅ 결론 먼저: 상황별 추천</h2>
+    <ul>
+      <li><strong>1주택 2년+ 보유 + 양도가 12억 이하라면</strong> → <strong>1주택 비과세 (0원)</strong></li>
+      <li><strong>신규 주택 취득 예정 + 3년 내 처분 가능이라면</strong> → <strong>일시적 2주택 비과세 (0원)</strong></li>
+      <li><strong>3년 내 처분 어려울 우려라면</strong> → <strong>신규 취득 시기 조정 또는 임대등록 검토</strong> (3년 초과 시 5,200만원 부담)</li>
+    </ul>
+  </div>
+
+  <!-- ✅ 이미지 1: 비교 요약 카드 -->
+  <img src="compare_summary_capital-gains-tax-1-vs-temp-2-house-2026.png" alt="1주택 비과세 vs 일시적 2주택 손익 요약" style="width:100%;margin:16px 0;" />
+
+  <div class="toc">
+    <strong>목차</strong>
+    <ul>
+      <li><a href="#compare">1) 1주택·일시적 2주택·다주택 비과세 비교표</a></li>
+      <li><a href="#requirements">2) 비과세 요건 상세 분석</a></li>
+      <li><a href="#simulation">3) 5가지 시나리오 세액 시뮬레이션</a></li>
+      <li><a href="#over12">4) 12억 초과 1주택 부분 과세 계산</a></li>
+      <li><a href="#sangsaeng">5) 상생임대주택 특례 활용</a></li>
+      <li><a href="#scenario">6) 상황별 추천 시나리오</a></li>
+      <li><a href="#checklist">7) 양도 전 확인 체크리스트</a></li>
+      <li><a href="#experience">자주 놓치는 포인트와 실수 사례</a></li>
+      <li><a href="#faq">8) FAQ</a></li>
+      <li><a href="#update">업데이트 로그</a></li>
+    </ul>
+  </div>
+
+  <!-- ✅ 섹션 2: 핵심 비교표 -->
+  <h2 id="compare">1) 1주택·일시적 2주택·다주택 비과세 비교표</h2>
+  <h3>같은 양도차익인데 처지에 따라 세금이 얼마나 달라지나요?</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>구분</th>
+        <th>1세대 1주택</th>
+        <th>일시적 2주택</th>
+        <th>다주택</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>비과세 한도</td><td><strong>12억원 이하 전액</strong></td><td><strong>12억원 이하 전액</strong></td><td>없음</td></tr>
+      <tr><td>보유 요건</td><td>2년 이상</td><td>종전 2년 이상</td><td>—</td></tr>
+      <tr><td>거주 요건 (조정지역 취득)</td><td>2년 거주</td><td>2년 거주</td><td>—</td></tr>
+      <tr><td>특수 요건</td><td>—</td><td><strong>신규 취득 후 3년 내 종전 처분</strong></td><td>—</td></tr>
+      <tr><td>장기보유공제</td><td>최대 80% (10년+ 보유·거주)</td><td>최대 80%</td><td>일반 공제 (제한적)</td></tr>
+      <tr><td>조정지역 가산세</td><td>해당 없음</td><td>해당 없음</td><td><strong>20%p (2026.05.10 이후)</strong></td></tr>
+      <tr><td>세액 (양도차익 5억 기준)</td><td><strong>0원</strong></td><td><strong>0원 (3년 내 처분 시)</strong></td><td>약 2.4억원 (가산 포함)</td></tr>
+    </tbody>
+  </table>
+  <p class="small">※ 2026년 5월 기준. 조정대상지역·상생임대주택 등 특례 적용에 따라 달라집니다.</p>
+
+  <!-- ✅ 이미지 2: 비교 매트릭스 -->
+  <img src="compare_matrix_capital-gains-tax-1-vs-temp-2-house-2026.png" alt="양도세 비과세 5가지 시나리오 세액 매트릭스" style="width:100%;margin:16px 0;" />
+
+  <!-- ✅ 섹션 3: 비과세 요건 상세 -->
+  <h2 id="requirements">2) 비과세 요건 상세 분석</h2>
+  <h3>1주택과 일시적 2주택의 구체적 요건은 무엇이 다른가요?</h3>
+  <table>
+    <thead>
+      <tr><th>요건</th><th>1세대 1주택</th><th>일시적 2주택</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>주택 수 (양도일 기준)</td><td>1세대 1주택</td><td>일시적 2주택 (종전+신규)</td></tr>
+      <tr><td>보유 기간</td><td>2년 이상</td><td>종전 주택 2년 이상</td></tr>
+      <tr><td>거주 기간 (조정지역 취득)</td><td>2년 거주</td><td>종전 주택 2년 거주</td></tr>
+      <tr><td>신규 취득 시기 제한</td><td>—</td><td><strong>종전 취득 후 1년 이상 경과</strong></td></tr>
+      <tr><td>종전 처분 기한</td><td>—</td><td><strong>신규 취득 후 3년 이내</strong></td></tr>
+      <tr><td>양도가 한도</td><td>12억원 이하 전액 비과세</td><td>12억원 이하 전액 비과세</td></tr>
+      <tr><td>적용 근거</td><td>소득세법 제89조</td><td>소득세법 시행령 제155조</td></tr>
+    </tbody>
+  </table>
+  <p>일시적 2주택은 1주택 비과세 요건에 더해 <strong>"1년 경과 후 신규 취득 + 3년 내 종전 처분"</strong>이라는 시간 제약이 추가됩니다. 이를 어기면 비과세가 완전 상실되어 양도차익 전체에 누진세율이 적용됩니다.</p>
+  <div class="btns">
+    <a class="btn" href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7707&mi=2308" target="_blank" rel="noopener">국세청 양도세 공식 안내</a>
+  </div>
+
+  <!-- ✅ 섹션 4: 시뮬레이션 -->
+  <h2 id="simulation">3) 5가지 시나리오 세액 시뮬레이션</h2>
+  <h3>같은 양도차익 5억원이라도 시나리오별 세액 차이가 얼마나 큰가요?</h3>
+  <div class="tco-box">
+    <strong>예시: 양도가액 10억 · 취득가액 5억 · 양도차익 5억원 (2026년 5월)</strong><br/><br/>
+    <table>
+      <thead>
+        <tr><th>시나리오</th><th>비과세 여부</th><th>과세표준</th><th>양도소득세</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>① 1세대 1주택 (12억 이하)</td><td><strong>전액 비과세</strong></td><td>0원</td><td><strong>0원</strong></td></tr>
+        <tr><td>② 일시적 2주택 (3년 내 처분)</td><td><strong>전액 비과세</strong></td><td>0원</td><td><strong>0원</strong></td></tr>
+        <tr><td>③ 일시적 2주택 (3년 초과·비과세 상실)</td><td>과세</td><td>약 1.5억 (장기공제 70%)</td><td>약 5,200만원</td></tr>
+        <tr><td>④ 다주택 + 조정지역 가산</td><td>과세</td><td>약 5억 (공제 제한)</td><td><strong>약 2.4억원</strong></td></tr>
+        <tr><td>⑤ 12억 초과 1주택 (양도가 14억)</td><td>12억까지 비과세</td><td>약 2,560만원</td><td>약 400만원</td></tr>
+      </tbody>
+    </table>
+    <p class="small">※ 장기보유특별공제·기본공제 250만원 반영. 지방소득세 10% 별도. 본인 케이스는 홈택스 계산기로 확인 필수.</p>
+  </div>
+  <p>시나리오 ②와 ③의 차이는 <strong>약 5,200만원</strong>입니다. 신규 주택 취득 후 단지 3년을 못 지킨 결과로 발생하는 손실이라, 처분 일정을 사전에 시뮬레이션하는 것이 필수입니다.</p>
+
+  <!-- ✅ 섹션 5: 12억 초과 -->
+  <h2 id="over12">4) 12억 초과 1주택 부분 과세 계산</h2>
+  <h3>양도가가 12억을 넘으면 세금이 갑자기 폭증하나요?</h3>
+  <p>아니요. <strong>12억까지는 비과세이고 초과분만 과세</strong>되므로 점진적으로 증가합니다.</p>
+  <table>
+    <thead>
+      <tr><th>양도가액</th><th>비과세 한도 초과 비율</th><th>과세 대상 양도차익</th><th>장기공제 후 세액 (10년+ 보유·거주)</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>10억원</td><td>0% (전액 비과세)</td><td>0원</td><td><strong>0원</strong></td></tr>
+      <tr><td>12억원</td><td>0% (한도 내)</td><td>0원</td><td><strong>0원</strong></td></tr>
+      <tr><td>14억원</td><td>14.3% ((14-12)/14)</td><td>약 1.28억원</td><td>약 400만원</td></tr>
+      <tr><td>16억원</td><td>25% ((16-12)/16)</td><td>약 2.25억원</td><td>약 1,100만원</td></tr>
+      <tr><td>20억원</td><td>40% ((20-12)/20)</td><td>약 3.6억원</td><td>약 2,000만원</td></tr>
+      <tr><td>30억원</td><td>60%</td><td>약 5.4억원</td><td>약 4,400만원</td></tr>
+    </tbody>
+  </table>
+  <p class="small">※ 양도차익 9억원 기준 (취득가 5억 + 차익 9억 = 양도가 14억). 장기보유공제 80% 가정. 거주 요건 미충족 시 공제율 감소.</p>
+
+  <!-- ✅ 섹션 6: 상생임대주택 -->
+  <h2 id="sangsaeng">5) 상생임대주택 특례 활용</h2>
+  <h3>조정지역 취득인데 거주가 어려우면 어떻게 비과세를 받나요?</h3>
+  <p><strong>상생임대주택 특례</strong>를 활용하면 2년 거주 요건을 면제받을 수 있습니다. 2026년 12월 말까지 적용 기한이 연장된 핵심 절세 수단입니다.</p>
+  <div class="highlight">
+    <strong>상생임대주택 적용 조건</strong>
+    <ul>
+      <li>조정대상지역 취득 1주택자</li>
+      <li>임대료 직전 계약 대비 <strong>5% 이내 인상</strong> 조건으로 임대차계약 체결·갱신</li>
+      <li>임대인이 직접 임대차계약 체결 (관리회사 위탁 불가)</li>
+      <li>임대 후 2년 이상 임대 (계약 갱신 포함)</li>
+      <li>2026년 12월 31일 이전 계약 체결 시 적용</li>
+    </ul>
+  </div>
+  <p>이 조건을 충족하면 1세대 1주택 비과세 거주 요건이 충족된 것으로 간주됩니다. 임차인에게 임대료 인상을 자제하는 대신 비과세 혜택을 받는 구조입니다.</p>
+
+  <!-- ✅ 섹션 7: 시나리오 추천 -->
+  <div class="highlight" id="scenario">
+    <h3>🔍 당신의 상황에 맞는 양도 전략은?</h3>
+    <ul>
+      <li><strong>1주택 2년+ 보유 + 양도가 12억 이하</strong> → <strong>1주택 비과세 (0원)</strong> · 추가 조치 불필요</li>
+      <li><strong>신규 주택 취득 예정 + 종전 처분 확실</strong> → <strong>일시적 2주택 (0원)</strong> · 3년 처분 일정 캘린더 등록</li>
+      <li><strong>3년 내 처분 어려움 우려</strong> → <strong>신규 취득 시기 조정 또는 임대등록</strong> · 3년 초과 시 5,200만원+ 손실</li>
+      <li><strong>조정지역 취득 + 거주 어려움</strong> → <strong>상생임대주택 특례 활용</strong> · 2026.12까지 5% 인상 한도 임대차 체결</li>
+      <li><strong>양도가 12억 초과 1주택</strong> → <strong>장기보유공제 활용</strong> · 10년+ 보유·거주로 80% 공제 극대화</li>
+      <li><strong>다주택 정리 의향</strong> → <strong>매도 순서 시뮬레이션</strong> · 조정지역 외 주택 우선 매도로 가산세 회피</li>
+    </ul>
+  </div>
+
+  <!-- ✅ 이미지 3: 시나리오 카드 -->
+  <img src="scenario_capital-gains-tax-1-vs-temp-2-house-2026.png" alt="양도세 상황별 추천 시나리오" style="width:100%;margin:16px 0;" />
+
+  <!-- ✅ 양도 전 체크리스트 -->
+  <div class="action-steps" id="checklist">
+    <strong>양도 전 비과세 확인 자가진단 순서</strong>
+    <ol>
+      <li>본인 세대(주민등록상 동일 주소) 주택 수 확인</li>
+      <li>종전 주택 취득일·보유 기간·거주 기간 확인</li>
+      <li>조정대상지역 취득 여부 확인 (현행은 강남·서초·송파·용산 등)</li>
+      <li>양도가액 ≷ 12억원 비교</li>
+      <li>일시적 2주택이면 신규 취득일 + 3년 캘린더 등록</li>
+      <li>홈택스 양도세 계산기로 자가 시뮬레이션</li>
+      <li>10억 이상 차익 예상 시 세무사 상담 (절세 효과 큼)</li>
+    </ol>
+  </div>
+
+  <!-- ✅ 인아티클 광고 -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5716436301710258"
+       crossorigin="anonymous"></script>
+  <ins class="adsbygoogle"
+       style="display:block; text-align:center;"
+       data-ad-layout="in-article"
+       data-ad-format="fluid"
+       data-ad-client="ca-pub-5716436301710258"
+       data-ad-slot="2039167138"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+  <!-- ✅ 주의사항 -->
+  <h2>주의사항</h2>
+  <div class="warning">
+    <ul>
+      <li><strong>세대 합산 주택</strong>: 본인뿐만 아니라 배우자·자녀 등 세대원 전체 합산. 분리세대 여부는 주민등록·실거주 기준</li>
+      <li><strong>상속·증여 받은 주택</strong>: 주택 수 산정 특례 적용 가능. 본인 케이스별 국세청 126 확인 필수</li>
+      <li><strong>2026.05.10 이후 조정지역 가산</strong>: 정부 추가 연장 미발표 시 다주택자 20%p 가산 적용. 매도 시점 확인</li>
+      <li><strong>일시적 2주택 3년 기한</strong>: 신규 주택 취득일 다음날부터 3년. 캘린더 등록 필수</li>
+      <li><strong>장기보유공제 거주 요건</strong>: 10년 보유 80% 공제는 보유+거주 합산. 거주 부족 시 공제율 감소</li>
+      <li><strong>임대등록·상생임대</strong>: 특례 적용 받으려면 세무사·임대등록 시스템 확인 필수</li>
+    </ul>
+  </div>
+
+  <!-- ✅ 자주 놓치는 포인트와 실수 사례 -->
+  <h2 id="experience">자주 놓치는 포인트와 실수 사례</h2>
+  <p>일시적 2주택 비과세에서 가장 흔한 실수는 "3년 안에 팔면 된다"는 단순 인식입니다. 정확히는 <strong>신규 주택 취득일 다음날부터 3년</strong>이 기산점이며, 종전 주택 양도일 기준이 아닙니다. 또한 종전 취득 후 1년 이상 경과 후 신규를 사야 하는 사전 조건도 있어, 두 주택을 거의 동시에 사면 일시적 2주택 적용을 받지 못합니다. 신규 취득 전 종전 보유 기간을 먼저 확인하는 것이 필수입니다.</p>
+  <p>세대 합산 주택 수 계산에서도 오류가 빈번합니다. 본인은 1주택이라도 같은 주민등록상 배우자·미혼 자녀가 주택을 보유하고 있다면 세대 합산 시 다주택이 됩니다. 분리세대로 인정받으려면 별도 주소·실거주가 모두 입증되어야 합니다. 자녀 명의 주택을 가지고 있는데 같은 세대로 등록되어 있으면 1주택 비과세를 받지 못하는 경우가 발생합니다.</p>
+  <p>"12억 초과면 양도세 폭증"이라는 오해도 자주 있습니다. 실제로는 12억까지 비과세이고 초과분만 점진적으로 과세되므로, 양도가 14억이라도 장기보유공제 80% 적용 시 세액은 약 400만원 수준입니다. 양도가가 비과세 한도를 살짝 넘는다고 매도를 망설이는 사례가 있지만, 실제 세액은 예상보다 훨씬 작습니다. 홈택스 계산기로 자가 시뮬레이션이 필수입니다.</p>
+  <p>상생임대주택 특례를 모르고 거주를 강행하는 사례도 빈번합니다. 조정지역 취득 1주택자가 2년 거주 요건 때문에 직접 거주하느라 다른 곳에서 임차료를 별도 부담하는 경우, 상생임대주택으로 임대하면서 본인은 다른 곳에 사는 편이 비과세 + 임대수익으로 더 유리할 수 있습니다. 2026년 12월 말까지 한시 적용이므로 신청 시점을 놓치지 않는 것이 중요합니다.</p>
+  <p class="small">※ 위 사례는 공개된 국세청·세무사 자료를 바탕으로 일반화한 내용입니다. 개인 상황에 따라 다를 수 있으며, 양도 전 세무사 또는 국세청(126)에 본인 케이스를 직접 상담하시기 바랍니다.</p>
+
+  <!-- ✅ FAQ -->
+  <h2 id="faq">8) FAQ</h2>
+  <p class="q">Q1. 1세대 1주택 양도소득세 비과세 요건은 어떻게 되나요?</p>
+  <p class="a">양도일 기준 1세대 1주택 + 2년 이상 보유가 기본 요건입니다. 취득 당시 조정대상지역이면 2년 거주 요건이 추가됩니다. 양도가액 12억원 이하는 전액 비과세이며, 12억 초과분에 대해서만 과세됩니다. 장기보유특별공제(최대 80%)까지 적용하면 12억 초과여도 세액이 크게 줄어듭니다.</p>
+
+  <p class="q">Q2. 일시적 2주택 비과세를 받으려면 어떤 조건이 필요한가요?</p>
+  <p class="a">3가지 조건을 모두 충족해야 합니다. ① 종전 주택 취득 후 1년 이상 경과 후 신규 주택 취득 ② 종전 주택 2년 이상 보유(조정지역 취득 시 2년 거주 추가) ③ 신규 주택 취득 후 3년 이내 종전 주택 처분. 양도가액 12억원 이하 한도는 1주택 비과세와 동일합니다. 셋 중 하나라도 어기면 비과세를 받지 못합니다.</p>
+
+  <p class="q">Q3. 일시적 2주택 3년 안에 못 팔면 얼마나 손해인가요?</p>
+  <p class="a">양도차익 5억원 가정 시 비과세 받으면 0원, 3년 초과해 비과세 상실 시 약 5,200만원 부담입니다(장기보유공제 70% 반영). 양도차익이 클수록 손해가 더 커집니다. 처분 일정이 늦어질 우려가 있다면 신규 주택 취득 시기를 조정하거나 임대등록을 검토해야 합니다.</p>
+
+  <p class="q">Q4. 12억 초과 1주택은 어떻게 과세되나요?</p>
+  <p class="a">12억까지는 비과세, 초과분만 과세됩니다. 양도가액 14억원·양도차익 9억 기준 초과분 비율은 14.3%((14-12)/14)로 약 1.28억원이 과세 대상이 됩니다. 장기보유특별공제(10년 보유+거주 시 80%)를 적용하면 과세표준 약 2,560만원·세액 약 400만원 수준으로 줄어듭니다. 양도가 20억이면 세액 약 2,000만원입니다.</p>
+
+  <p class="q">Q5. 다주택자가 조정지역에서 양도하면 얼마나 가산되나요?</p>
+  <p class="a">2026년 5월 10일 이후 매도분부터 정부 추가 연장 미발표 시 조정대상지역 내 다주택자에게 20%p 이상 가산 세율이 적용됩니다. 양도차익 5억 기준 일반 세율로는 약 1.44억원이지만 가산 적용 시 약 2.44억원으로 약 1억원 추가 부담입니다. 다주택 정리 의향이면 보유 주택 매도 순서를 시뮬레이션해 조정지역 가산을 회피하는 전략이 필요합니다.</p>
+
+  <p class="q">Q6. 상생임대주택 특례는 무엇인가요?</p>
+  <p class="a">상생임대주택 특례는 2026년 12월 말까지 적용 기한이 연장된 제도로, 조정대상지역 취득 1주택자가 2년 거주 요건을 면제받을 수 있는 핵심 절세 수단입니다. 임대료 5% 이내 인상 조건으로 임대차계약을 체결·갱신하면 1세대 1주택 비과세 거주 요건이 충족된 것으로 간주됩니다. 거주 어려운 경우 적극 활용 가치가 큽니다.</p>
+
+  <p class="small">관련 글: <a href="#" target="_blank" rel="noopener">증여세 vs 상속세 미리 계산 — 부모 60대 어느 게 유리한가 (2026)</a> / <a href="#" target="_blank" rel="noopener">전세보증보험 HUG vs SGI 비교 — 보증료·한도·심사 차이 (2026)</a> / <a href="#" target="_blank" rel="noopener">주택담보대출 고정금리 vs 변동금리 — 금리인하기 선택 전략 (2026)</a></p>
+
+  <!-- ✅ 면책 -->
+  <div class="warning">
+    <strong>면책 안내</strong>: 본 글의 양도소득세·비과세 요건·세율은 2026년 5월 기준 추정치이며, 실제 세액은 본인 주택 수·보유·거주 기간·조정지역 여부·양도 시점에 따라 달라집니다. 개인 상황에 따라 다를 수 있으며, 양도 전 세무사 또는 국세청(126)에 본인 케이스를 직접 상담하시기 바랍니다. 본 글은 일반 정보 제공 목적이며 세무 자문이 아닙니다.
+  </div>
+
+  <!-- ✅ 참고자료 -->
+  <div class="sources">
+    <strong>참고자료 / 출처</strong>
+    <ul>
+      <li>국세청 양도소득세 개요: https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7707&mi=2308</li>
+      <li>국세청 1세대 1주택 주택 수 산정 특례: https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=40621&cntntsId=239014</li>
+      <li>홈택스 양도세 계산기: https://www.hometax.go.kr</li>
+      <li>국토부 부동산 거래신고 시스템: https://rtms.molit.go.kr</li>
+    </ul>
+  </div>
+
+  <div class="btns">
+    <a class="btn" href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7707&mi=2308" target="_blank" rel="noopener">국세청 양도세 공식</a>
+    <a class="btn secondary" href="https://www.hometax.go.kr" target="_blank" rel="noopener">홈택스 계산기</a>
+    <a class="btn secondary" href="https://rtms.molit.go.kr" target="_blank" rel="noopener">부동산 거래 신고</a>
+  </div>
+
+  <!-- ✅ 썸네일 -->
+  <img src="thumb_1080_capital-gains-tax-1-vs-temp-2-house-2026.png" alt="양도세 1주택 비과세 vs 일시적 2주택 비교 인포그래픽" style="width:100%;margin:16px 0;" />
+  <img src="thumb_1200x630_capital-gains-tax-1-vs-temp-2-house-2026.png" alt="양도세 비과세 5억 시뮬레이션 카드" style="width:100%;margin:16px 0;" />
+
+  <div class="footer" id="update">
+    <strong>업데이트 로그</strong><br/>
+    - 2026-05-18: 최초 발행<br/>
+    <span class="small">※ 양도세·비과세 요건·세율 수치는 2026년 5월 국세청 공시 기준 추정치입니다. 실제 세액은 본인 주택 수·보유 기간·조정지역 여부에 따라 다르며, 양도 전 세무사 상담을 권장합니다.</span>
+  </div>
+</div>

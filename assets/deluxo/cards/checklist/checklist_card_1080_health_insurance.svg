@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="80" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="800" fill="#F59E0B">건강보험료 환급·경감 체크리스트</text>
+  <rect x="60" y="110" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <rect x="60" y="140" width="960" height="95" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="189" font-family="'Pretendard',sans-serif" font-size="34" fill="#22C55E">☑</text>
+  <text x="150" y="183" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">The건강보험 앱에서 환급금 조회 완료</text>
+  <text x="150" y="216" font-family="'Pretendard',sans-serif" font-size="19" fill="#EAF2FF">미수령 환급금 유무 확인 (소멸시효 3년!)</text>
+
+  <rect x="60" y="245" width="960" height="95" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="294" font-family="'Pretendard',sans-serif" font-size="34" fill="#22C55E">☑</text>
+  <text x="150" y="288" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">지급동의계좌 등록 완료</text>
+  <text x="150" y="321" font-family="'Pretendard',sans-serif" font-size="19" fill="#EAF2FF">향후 환급금 발생 시 자동 입금</text>
+
+  <rect x="60" y="350" width="960" height="95" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="399" font-family="'Pretendard',sans-serif" font-size="34" fill="#22C55E">☑</text>
+  <text x="150" y="393" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">경감 대상 해당 여부 확인</text>
+  <text x="150" y="426" font-family="'Pretendard',sans-serif" font-size="19" fill="#EAF2FF">도서벽지/농어촌/65세+/장애인/한부모/휴직</text>
+
+  <rect x="60" y="455" width="960" height="95" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="504" font-family="'Pretendard',sans-serif" font-size="34" fill="#22C55E">☑</text>
+  <text x="150" y="498" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">소득 변동 시 감액 신청 검토</text>
+  <text x="150" y="531" font-family="'Pretendard',sans-serif" font-size="19" fill="#EAF2FF">6종 소득 통합 정산 주의 — 전체 소득 파악 필수</text>
+
+  <rect x="60" y="560" width="960" height="95" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="609" font-family="'Pretendard',sans-serif" font-size="34" fill="#22C55E">☑</text>
+  <text x="150" y="603" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">피부양자 자격 유지 여부 확인</text>
+  <text x="150" y="636" font-family="'Pretendard',sans-serif" font-size="19" fill="#EAF2FF">연소득 2,000만 / 재산과표 9억 초과 시 자격 상실</text>
+
+  <rect x="60" y="665" width="960" height="95" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="714" font-family="'Pretendard',sans-serif" font-size="34" fill="#22C55E">☑</text>
+  <text x="150" y="708" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">퇴사·이직 후 과오납 여부 확인</text>
+  <text x="150" y="741" font-family="'Pretendard',sans-serif" font-size="19" fill="#EAF2FF">직장·지역 이중 납부 / 피부양자 소급 등록</text>
+
+  <rect x="60" y="770" width="960" height="95" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="819" font-family="'Pretendard',sans-serif" font-size="34" fill="#22C55E">☑</text>
+  <text x="150" y="813" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">본인부담상한제 상한액 확인</text>
+  <text x="150" y="846" font-family="'Pretendard',sans-serif" font-size="19" fill="#EAF2FF">1분위 89만~10분위 826만 · 요양병원 120일+ 1,014만</text>
+
+  <rect x="60" y="890" width="960" height="95" rx="16" fill="rgba(59,130,246,0.15)"/>
+  <text x="100" y="939" font-family="'Pretendard',sans-serif" font-size="34" fill="#3B82F6">🔗</text>
+  <text x="150" y="938" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#3B82F6">The건강보험 앱 / 1577-1000 확인!</text>
+</svg>

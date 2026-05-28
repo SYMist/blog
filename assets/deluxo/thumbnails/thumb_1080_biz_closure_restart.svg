@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <rect x="80" y="120" width="200" height="56" rx="28" fill="#F59E0B"/>
+  <text x="180" y="157" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#0B1F3B">2026 최신</text>
+  <text x="80" y="280" font-family="'Pretendard',sans-serif" font-size="82" font-weight="900" fill="#FFF">소상공인</text>
+  <text x="80" y="385" font-family="'Pretendard',sans-serif" font-size="82" font-weight="900" fill="#FFF">폐업 지원금</text>
+  <text x="80" y="490" font-family="'Pretendard',sans-serif" font-size="52" font-weight="600" fill="#EAF2FF">재기 지원 신청 방법</text>
+  <text x="80" y="560" font-family="'Pretendard',sans-serif" font-size="52" font-weight="600" fill="#EAF2FF">총정리</text>
+  <rect x="80" y="630" width="920" height="120" rx="20" fill="rgba(255,255,255,0.08)"/>
+  <text x="540" y="685" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="42" font-weight="800" fill="#F59E0B">철거비 600만 + 재창업 2,000만</text>
+  <text x="540" y="730" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" fill="#EAF2FF">+ 전직장려수당 100만 = 최대 2,700만원</text>
+  <rect x="80" y="830" width="220" height="60" rx="30" fill="#E8F0FF"/>
+  <text x="190" y="869" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="700" fill="#1D4ED8">폐업 정리</text>
+  <rect x="330" y="830" width="220" height="60" rx="30" fill="#E8F0FF"/>
+  <text x="440" y="869" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="700" fill="#1D4ED8">취업 전환</text>
+  <rect x="580" y="830" width="220" height="60" rx="30" fill="#E8F0FF"/>
+  <text x="690" y="869" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="700" fill="#1D4ED8">재창업</text>
+  <rect x="80" y="980" width="920" height="6" rx="3" fill="#F59E0B"/>
+</svg>

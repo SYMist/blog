@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+    <linearGradient id="rowBg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.06)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0.02)"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <rect x="80" y="72" width="160" height="48" rx="24" fill="#F59E0B"/>
+  <text x="160" y="103" font-family="'Pretendard', sans-serif" font-size="22" font-weight="700" fill="#0B1F3B" text-anchor="middle">2026 최신</text>
+
+  <text x="80" y="185" font-family="'Pretendard', sans-serif" font-size="42" font-weight="800" fill="#FFFFFF">산재보험 핵심 요약</text>
+  <rect x="80" y="215" width="120" height="4" rx="2" fill="#F59E0B"/>
+
+  <!-- Row 1 -->
+  <rect x="60" y="260" width="960" height="105" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="100" y="300" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#F59E0B">휴업급여 공식</text>
+  <text x="100" y="340" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">평균임금 × 70% (4일째부터 지급)</text>
+
+  <!-- Row 2 -->
+  <rect x="60" y="385" width="960" height="105" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="100" y="425" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#F59E0B">2026 하한 / 상한</text>
+  <text x="100" y="465" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">일 82,560원 ~ 268,299원</text>
+
+  <!-- Row 3 -->
+  <rect x="60" y="510" width="960" height="105" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="100" y="550" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#F59E0B">플랫폼 종사자</text>
+  <text x="100" y="590" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">전속성 요건 폐지 — 배달·대리·퀵 모두 포함</text>
+
+  <!-- Row 4 -->
+  <rect x="60" y="635" width="960" height="105" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="100" y="675" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#F59E0B">청구 절차</text>
+  <text x="100" y="715" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">사업주 날인 폐지 / 소멸시효 3년</text>
+
+  <!-- Row 5 (highlighted) -->
+  <rect x="60" y="760" width="960" height="105" rx="16" fill="rgba(245,158,11,0.15)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="800" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#F59E0B">정신질환 산재</text>
+  <text x="100" y="840" font-family="'Pretendard', sans-serif" font-size="24" font-weight="800" fill="#F59E0B">신속결정제도 — 120일 이내 결정</text>
+
+  <!-- Row 6 -->
+  <rect x="60" y="885" width="960" height="105" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="100" y="925" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#F59E0B">직장복귀지원금</text>
+  <text x="100" y="965" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">월 45~80만 × 12개월 (사업주 지원)</text>
+</svg>

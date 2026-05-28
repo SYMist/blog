@@ -1,0 +1,402 @@
+<!-- essencial_template_auto.html 기반 -->
+<!-- E-52: 전기차 가정충전 vs 공공충전 vs 급속충전 비용 시뮬레이션 (2026) -->
+
+<!-- ✅ Schema.org 구조화 데이터 -->
+<div style="display:none">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "전기차 가정충전 vs 공공충전 vs 급속충전 비용 시뮬레이션 — 5년 누적 비교 (2026)",
+      "description": "전기차 5종 충전 옵션(가정 심야 70원·가정 일반 215원·공공 완속 324원·공공 급속 347원·민간 비회원 470원/kWh) 5년 누적 비용 비교. 가솔린 대비 최대 968만원 절감 시뮬레이션과 충전기 설치 회수 기간까지 정리.",
+      "datePublished": "2026-05-15",
+      "dateModified": "2026-05-15",
+      "author": {"@type": "Person", "name": "essencial"},
+      "publisher": {"@type": "Organization", "name": "essencial"}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "전기차 충전 방식별 단가는 어떻게 다른가요?", "acceptedAnswer": {"@type": "Answer", "text": "2026년 5월 기준 단가는 가정 심야 약 70원/kWh, 가정 일반(누진 2단계) 약 215원/kWh, 환경부 공공 완속 324.4원/kWh, 환경부 공공 급속 347.2원/kWh, 민간 급속 비회원 약 470원/kWh입니다. 가장 저렴한 가정 심야와 가장 비싼 민간 비회원의 단가 차이는 약 6.7배입니다."}},
+        {"@type": "Question", "name": "전기차 5년 충전비는 얼마나 절약되나요?", "acceptedAnswer": {"@type": "Answer", "text": "연 1만 5천km, 전비 5.5km/kWh 기준 5년 누적 충전비는 가정 심야 약 95만원, 가정 일반 약 290만원, 공공 급속 약 473만원, 민간 비회원 약 641만원입니다. 동급 가솔린차(연비 12km/L, 휘발유 1,700원/L) 5년 약 1,063만원과 비교하면 가정 심야는 약 968만원, 민간 비회원만 사용해도 약 422만원 절감됩니다."}},
+        {"@type": "Question", "name": "가정용 충전기 설치 비용은 얼마인가요?", "acceptedAnswer": {"@type": "Answer", "text": "콘센트형 30~80만원, 7kW 벽걸이형 100~150만원 수준입니다. 지자체 보조금 30~50만원을 활용하면 실질 부담은 70~100만원입니다. 별도 한전 계량기 설치 시 심야 시간대 약 70원/kWh 적용으로 연 평균 35만원 절감되어 약 3~4년이면 회수 가능합니다(보조금 활용 시 2~3년)."}},
+        {"@type": "Question", "name": "아파트 거주자도 가정 심야 요금을 적용받을 수 있나요?", "acceptedAnswer": {"@type": "Answer", "text": "가능하지만 입주자 동의와 관리사무소 협의가 필요합니다. 전용 주차 구역에 개인 충전기를 설치하고 한전 별도 계량기를 신청해야 심야 요금(약 70원/kWh)이 적용됩니다. 공용 충전기를 사용하면 단지 관리비로 청구되며 보통 200~350원/kWh 수준입니다."}},
+        {"@type": "Question", "name": "민간 급속 충전이 환경부 충전보다 비싼 이유는 뭔가요?", "acceptedAnswer": {"@type": "Answer", "text": "환경부 충전기는 한국환경공단이 보조금 기반으로 운영해 단가가 낮습니다. 민간 사업자(GS차지비·에버온·SK일렉링크 등)는 자체 운영비와 마진을 반영해 단가가 높고, 비회원은 가입 인센티브가 없어 더 비쌉니다. 회원 가입만 해도 비회원 대비 30~40% 저렴해지므로 자주 이용하는 사업자 회원 가입은 필수입니다."}},
+        {"@type": "Question", "name": "전기차 충전요금 절약을 극대화하려면 어떻게 해야 하나요?", "acceptedAnswer": {"@type": "Answer", "text": "다음 4가지 조합이 효과적입니다. ① 가정 충전기 설치 + 한전 별도 계량기로 심야요금 적용(연 35만원 절감) ② 자주 가는 민간 충전소 회원 가입(비회원 대비 30~40% 절감) ③ 공공 충전기는 환경부 운영(ev.or.kr) 우선 사용 ④ 7~8월 누진구간 완화(1단계 300kWh로 확대) 활용. 4가지 조합 시 5년 누적 약 968만원 가솔린 대비 절감 가능합니다."}}
+      ]
+    }
+  ]
+}
+</script>
+</div>
+
+<style>
+  :root{
+    --pri:#1E40AF; --pri2:#1D4ED8;
+    --white:#FFFFFF; --text:#111827;
+    --muted:#4B5563; --border:#E5E7EB;
+    --bg:#F9FAFB; --accent:#EFF6FF;
+  }
+  .wrap{max-width:860px;margin:0 auto;line-height:1.8;color:var(--text);}
+  .meta{color:var(--muted);font-size:.95rem;margin:6px 0 18px;}
+  .badge{display:inline-block;background:var(--accent);border:1px solid #BFDBFE;padding:3px 10px;border-radius:999px;font-size:.85rem;margin-right:8px;}
+  .notice{background:#FFF7ED;border:1px solid #FED7AA;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .conclusion{background:#EFF6FF;border:1px solid #BFDBFE;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .toc{background:var(--bg);border:1px solid var(--border);padding:14px 16px;border-radius:12px;margin:16px 0 22px;}
+  .toc a{text-decoration:none;color:var(--pri);}
+  .toc ul{margin:8px 0 0 18px;}
+  .wrap a.btn,.wrap a.btn:link,.wrap a.btn:visited{
+    display:inline-flex;align-items:center;justify-content:center;
+    padding:10px 14px;border-radius:10px;border:1px solid var(--pri);
+    background:var(--pri) !important;color:var(--white) !important;
+    text-decoration:none !important;font-weight:800;
+  }
+  .wrap a.btn:hover{background:var(--pri2) !important;}
+  .wrap a.btn.secondary,.wrap a.btn.secondary:link,.wrap a.btn.secondary:visited{
+    background:var(--white) !important;color:var(--pri) !important;border-color:var(--pri) !important;
+  }
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 6px;}
+  table{width:100%;border-collapse:collapse;margin:14px 0 10px;}
+  th,td{border:1px solid var(--border);padding:10px;vertical-align:top;}
+  th{background:#F3F4F6;text-align:left;}
+  .small{font-size:.95rem;color:var(--muted);}
+  h1{margin:0 0 8px;line-height:1.25;}
+  h2{margin-top:30px;padding-top:8px;border-top:1px solid var(--border);}
+  h3{margin-top:16px;}
+  .q{font-weight:900;margin:14px 0 6px;}
+  .a{margin:0 0 10px;}
+  .highlight{background:#F0FDF4;border:1px solid #BBF7D0;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .warning{background:#FEF2F2;border:1px solid #FECACA;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .tco-box{background:#FEFCE8;border:1px solid #FDE68A;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .scope{background:#F8FAFC;border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .scope ul{margin:4px 0 0 18px;}
+  .action-steps{background:#EFF6FF;border:1px solid #BFDBFE;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .action-steps ol{margin:8px 0 0 18px;}
+  .sources{background:var(--bg);border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:14px 0;font-size:.9rem;}
+  .sources ul{margin:4px 0 0 18px;}
+  .footer{margin-top:26px;padding-top:14px;border-top:1px solid var(--border);color:var(--muted);font-size:.95rem;}
+</style>
+
+<div class="wrap">
+  <h1>전기차 가정충전 vs 공공충전 vs 급속충전 비용 시뮬레이션 — 5년 누적 비교 (2026)</h1>
+  <div class="meta">
+    <span class="badge">자동차</span>
+    <span class="badge">업데이트: 2026-05-15</span>
+  </div>
+
+  <div class="notice">
+    <strong>먼저 확인!</strong><br/>
+    전기차 충전비는 충전 방식에 따라 단가가 최대 6.7배 차이 납니다. 가정 심야 70원/kWh부터 민간 급속 비회원 470원/kWh까지 단가 차이가 있어, 5년 누적으로는 약 546만원 격차가 발생합니다. 가솔린 대비 절감 효과를 극대화하려면 충전 패턴 설계가 핵심입니다.
+  </div>
+
+  <p class="small">
+    같은 전기차라도 가정 심야로 충전하면 5년 95만원, 민간 급속(비회원)만 쓰면 641만원 — 단가 차이가 6.7배에 달합니다. 환경부·한전 공시 기준 5종 충전 단가, 5년 누적 비용, 가솔린 대비 최대 968만원 절감 시나리오와 충전기 설치 3~4년 회수 계산까지 한 번에 확인하세요.
+  </p>
+
+  <div class="scope">
+    <strong>이 글에서 다루는 것</strong>
+    <ul>
+      <li>5종 충전 옵션 단가 비교 (가정 심야·일반·공공 완속·공공 급속·민간 비회원)</li>
+      <li>5년 누적 충전비 시뮬레이션 (전비 5.5km/kWh, 연 1만 5천km 기준)</li>
+      <li>가솔린 대비 절감액 5종 시나리오</li>
+      <li>가정 충전기 설치비·보조금·회수 기간 계산</li>
+      <li>아파트·단독·빌라별 현실 충전 패턴 시나리오</li>
+    </ul>
+    <strong>다루지 않는 것</strong>
+    <ul>
+      <li>차종별 전비 상세 비교 / 전기차 보조금·세금 혜택 (E-17 별도 글)</li>
+    </ul>
+  </div>
+
+  <!-- ✅ 섹션 1: 결론 먼저 -->
+  <div class="conclusion" id="top">
+    <h2 style="border-top:none;margin-top:0;">✅ 결론 먼저: 상황별 추천</h2>
+    <ul>
+      <li><strong>가정 충전 가능(아파트 전용 구역·단독)이라면</strong> → <strong>가정 심야 충전</strong> (5년 95만원, 가솔린 대비 968만원 절감)</li>
+      <li><strong>아파트 공용 충전만 가능하다면</strong> → <strong>공공 완속 + 환경부 급속 혼합</strong> (5년 약 442~473만원)</li>
+      <li><strong>충전 인프라 약한 지역 거주라면</strong> → <strong>민간 사업자 회원 가입 필수</strong> (회원/비회원 단가 30~40% 차이)</li>
+    </ul>
+  </div>
+
+  <!-- ✅ 이미지 1: 비교 요약 카드 -->
+  <img src="compare_summary_ev-charging-cost-comparison-2026.png" alt="전기차 가정·공공·급속 충전 비용 5년 비교 요약" style="width:100%;margin:16px 0;" />
+
+  <div class="toc">
+    <strong>목차</strong>
+    <ul>
+      <li><a href="#compare">1) 5종 충전 옵션 단가 비교표</a></li>
+      <li><a href="#tco">2) 5년 누적 충전비 시뮬레이션</a></li>
+      <li><a href="#savings">3) 가솔린 대비 절감액 비교</a></li>
+      <li><a href="#home">4) 가정 충전기 설치 vs 공공 충전 의존</a></li>
+      <li><a href="#patterns">5) 거주 형태별 현실 충전 패턴</a></li>
+      <li><a href="#scenario">6) 상황별 추천 시나리오</a></li>
+      <li><a href="#checklist">7) 전기차 구매 전 충전 환경 체크리스트</a></li>
+      <li><a href="#experience">자주 놓치는 포인트와 실수 사례</a></li>
+      <li><a href="#faq">8) FAQ</a></li>
+      <li><a href="#update">업데이트 로그</a></li>
+    </ul>
+  </div>
+
+  <!-- ✅ 섹션 2: 단가 비교표 -->
+  <h2 id="compare">1) 5종 충전 옵션 단가 비교표</h2>
+  <h3>같은 전기인데 충전소마다 단가가 왜 6.7배 차이 나나요?</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>충전 방식</th>
+        <th>단가 (원/kWh)</th>
+        <th>충전 시간 (62kWh 80%)</th>
+        <th>적용 조건</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>가정 심야 (별도 계량기)</strong></td>
+        <td><strong>약 70원</strong></td>
+        <td>약 7~9시간 (3.3kW 콘센트)</td>
+        <td>한전 별도 계량기 + 23~9시 적용</td>
+      </tr>
+      <tr>
+        <td>가정 일반 (주택용 누진)</td>
+        <td>약 215원 (2단계)</td>
+        <td>약 7~9시간 (3.3kW)</td>
+        <td>가정 전체 사용량 합산 누진</td>
+      </tr>
+      <tr>
+        <td>공공 완속 (환경부)</td>
+        <td>324.4원</td>
+        <td>약 4~6시간 (7~14kW)</td>
+        <td>아파트·관공서·마트 주차장</td>
+      </tr>
+      <tr>
+        <td>공공 급속 (환경부)</td>
+        <td>347.2원</td>
+        <td>약 30~40분 (100kW급)</td>
+        <td>고속도로·환경공단 거점</td>
+      </tr>
+      <tr>
+        <td><strong>민간 급속 비회원</strong></td>
+        <td><strong>약 470원</strong></td>
+        <td>약 30~40분 (100~350kW)</td>
+        <td>GS차지비·차지비·티맵EV 등</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="small">※ 2026년 5월 기준. 회원 가입 시 민간 사업자 단가는 약 30~40% 인하됩니다. 환경부 단가는 회원·비회원 동일.</p>
+
+  <!-- ✅ 이미지 2: 비교 매트릭스 -->
+  <img src="compare_matrix_ev-charging-cost-comparison-2026.png" alt="전기차 5종 충전 단가 5년 누적 비용 매트릭스" style="width:100%;margin:16px 0;" />
+
+  <!-- ✅ 섹션 3: 5년 시뮬레이션 -->
+  <h2 id="tco">2) 5년 누적 충전비 시뮬레이션</h2>
+  <h3>5년 동안 충전 방식에 따라 얼마나 차이 나나요?</h3>
+  <div class="tco-box">
+    <strong>예시: 전비 5.5km/kWh · 연 1만 5천km · 7만 5천km 누적 (코나·아이오닉5·EV6 평균)</strong><br/><br/>
+    <table>
+      <thead>
+        <tr><th>충전 방식</th><th>월 비용 (227kWh)</th><th>연 비용 (2,727kWh)</th><th>5년 누적</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>가정 심야</td><td>약 1만 5,900원</td><td>약 19만원</td><td><strong>약 95만원</strong></td></tr>
+        <tr><td>가정 일반 (누진 2단계)</td><td>약 4만 8,800원</td><td>약 58만원</td><td>약 290만원</td></tr>
+        <tr><td>공공 완속</td><td>약 7만 3,600원</td><td>약 88만원</td><td>약 442만원</td></tr>
+        <tr><td>공공 급속</td><td>약 7만 8,800원</td><td>약 95만원</td><td>약 473만원</td></tr>
+        <tr><td>민간 급속 비회원</td><td>약 10만 6,700원</td><td>약 128만원</td><td>약 641만원</td></tr>
+        <tr><td><strong>5종 격차 (최대-최소)</strong></td><td>약 9만원/월</td><td>약 109만원/년</td><td><strong>약 546만원</strong></td></tr>
+      </tbody>
+    </table>
+    <p class="small">※ 충전 손실(약 5~10%) 미반영, 차종 전비·계절·운전 패턴에 따라 실제 사용량은 달라집니다.</p>
+  </div>
+  <p>가정 심야와 민간 급속 비회원의 5년 격차는 약 <strong>546만원</strong>입니다. 같은 차량을 같은 거리만큼 운전해도 충전 환경에 따라 부담이 달라집니다.</p>
+
+  <!-- ✅ 섹션 4: 가솔린 대비 절감 -->
+  <h2 id="savings">3) 가솔린 대비 절감액 비교</h2>
+  <h3>전기차 충전이 가솔린보다 얼마나 저렴한가요?</h3>
+  <table>
+    <thead>
+      <tr><th>충전 방식</th><th>5년 충전비</th><th>5년 가솔린비 (12km/L · 1,700원/L)</th><th>절감액</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>가정 심야</td><td>약 95만원</td><td>약 1,063만원</td><td><strong>약 968만원</strong></td></tr>
+      <tr><td>가정 일반</td><td>약 290만원</td><td>약 1,063만원</td><td>약 773만원</td></tr>
+      <tr><td>공공 완속</td><td>약 442만원</td><td>약 1,063만원</td><td>약 621만원</td></tr>
+      <tr><td>공공 급속</td><td>약 473만원</td><td>약 1,063만원</td><td>약 590만원</td></tr>
+      <tr><td>민간 급속 비회원</td><td>약 641만원</td><td>약 1,063만원</td><td>약 422만원</td></tr>
+    </tbody>
+  </table>
+  <p>민간 급속 비회원만 사용해도 가솔린 대비 5년 약 <strong>422만원</strong> 절감됩니다. 가정 심야 충전을 활용하면 절감액은 약 <strong>968만원</strong>으로 2배 이상 차이가 납니다.</p>
+  <div class="btns">
+    <a class="btn" href="https://ev.or.kr/nportal/evcarInfo/initEvcarChargePrice.do" target="_blank" rel="noopener">환경부 충전요금 공식 안내</a>
+  </div>
+
+  <!-- ✅ 섹션 5: 가정 충전기 설치 -->
+  <h2 id="home">4) 가정 충전기 설치 vs 공공 충전 의존</h2>
+  <h3>충전기 설치비를 회수하려면 얼마나 걸리나요?</h3>
+  <table>
+    <thead>
+      <tr><th>구분</th><th>금액·기간</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>콘센트형 충전기</td><td>약 30~80만원</td></tr>
+      <tr><td>7kW 벽걸이형</td><td>약 100~150만원</td></tr>
+      <tr><td>지자체 보조금</td><td>약 30~50만원 (지역별 상이)</td></tr>
+      <tr><td>한전 별도 계량기 신청비</td><td>약 5~10만원</td></tr>
+      <tr><td>실질 부담 (보조금 적용)</td><td>약 70~100만원</td></tr>
+      <tr><td>가정 일반 → 심야 절감액 (연)</td><td>약 39만원/년 (215원 → 70원, 2,727kWh)</td></tr>
+      <tr><td><strong>회수 기간</strong></td><td><strong>약 2~3년 (보조금 적용 시)</strong></td></tr>
+    </tbody>
+  </table>
+  <p>벽걸이형 충전기를 설치하더라도 보조금 적용 시 2~3년이면 회수 가능합니다. 5년 운영 기준 약 195만원 추가 절감(보조금 후 부담 100만원 vs 5년 절감 약 195만원)이 발생합니다. 단독·아파트 전용 구역에서는 설치 결정이 합리적입니다.</p>
+  <div class="warning">
+    <strong>아파트 거주자 주의사항</strong>: 입주자대표회의 동의·관리사무소 승인 필요. 전용 주차구역 확보 후 한전 별도 계량기를 신청해야 심야 요금이 적용됩니다. 공용 충전기를 사용하면 단지별 관리비 단가(보통 200~350원/kWh)가 적용되어 심야 70원 효과는 사라집니다.
+  </div>
+
+  <!-- ✅ 섹션 6: 거주 형태별 현실 패턴 -->
+  <h2 id="patterns">5) 거주 형태별 현실 충전 패턴</h2>
+  <h3>아파트·단독·빌라 거주자의 현실 가중평균은 어떻게 되나요?</h3>
+  <p>대부분의 운전자는 단일 충전 방식만 쓰지 않습니다. 일상 출퇴근 70% + 주말 장거리 20% + 출장·여행 10% 비중을 가정한 가중평균:</p>
+  <table>
+    <thead>
+      <tr><th>거주 형태</th><th>가중평균 단가</th><th>연 충전비</th><th>5년 누적</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>아파트 + 가정 충전기 보유</strong></td>
+        <td>약 158원/kWh</td>
+        <td>약 43만원</td>
+        <td><strong>약 215만원</strong></td>
+      </tr>
+      <tr>
+        <td>아파트 + 공용 충전기만 사용</td>
+        <td>약 336원/kWh</td>
+        <td>약 92만원</td>
+        <td>약 458만원</td>
+      </tr>
+      <tr>
+        <td><strong>단독·빌라 + 전용 충전기</strong></td>
+        <td>약 158원/kWh</td>
+        <td>약 43만원</td>
+        <td><strong>약 215만원</strong></td>
+      </tr>
+      <tr>
+        <td>단독·빌라 + 충전기 없음 (공공·민간 의존)</td>
+        <td>약 380원/kWh</td>
+        <td>약 104만원</td>
+        <td>약 518만원</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="small">※ 일상 출퇴근 70% (가정 또는 공공 완속) + 주말 장거리 20% (공공 급속) + 출장 10% (민간 급속 회원 가정)</p>
+  <p>전용 충전기 보유 여부에 따라 연 충전비가 약 50만~60만원 차이 납니다. 5년 누적으로는 약 <strong>250만~300만원</strong> 격차로, 가정 충전기 설치 가능 여부가 전기차 경제성의 핵심 변수입니다.</p>
+
+  <!-- ✅ 섹션 7: 시나리오 추천 -->
+  <div class="highlight" id="scenario">
+    <h3>🔍 당신의 상황에 맞는 충전 전략은?</h3>
+    <ul>
+      <li><strong>아파트 전용 구역·단독주택 + 가정 충전기 가능</strong> → <strong>가정 심야 위주</strong> (5년 95만원, 가솔린 대비 968만원 절감)</li>
+      <li><strong>아파트 공용 충전만 가능</strong> → <strong>공공 완속 + 야간 거치</strong> (단지 충전기 야간 이용으로 단가 인하 활용)</li>
+      <li><strong>장거리 출퇴근(편도 50km+)</strong> → <strong>가정 충전기 설치 필수</strong> (회수 기간 1~2년으로 단축)</li>
+      <li><strong>도심 단거리 + 출장 잦음</strong> → <strong>민간 사업자 1~2곳 회원 가입</strong> (비회원 대비 30~40% 절감)</li>
+      <li><strong>주말만 운전(연 5,000km 이하)</strong> → <strong>가솔린차 TCO 유사</strong> 일 수 있음. 절대 절감액이 작아 충전기 설치 회수 어려움</li>
+    </ul>
+  </div>
+
+  <!-- ✅ 이미지 3: 시나리오 카드 -->
+  <img src="scenario_ev-charging-cost-comparison-2026.png" alt="전기차 충전 거주형태·운전패턴별 추천 시나리오" style="width:100%;margin:16px 0;" />
+
+  <!-- ✅ 전기차 구매 전 충전 환경 체크 -->
+  <div class="action-steps" id="checklist">
+    <strong>전기차 구매 전 충전 환경 자가진단 순서</strong>
+    <ol>
+      <li>거주지 형태 확인 → 아파트면 입주자대표회의 동의 가능 여부 사전 문의</li>
+      <li>전용 주차구역 확보 가능 여부 (없으면 공용 충전기 단가 적용)</li>
+      <li>지자체 충전기 설치 보조금 확인 (지역별 30~50만원)</li>
+      <li>한전 별도 계량기 신청 가능 여부 (전기차 충전기 전용 가능)</li>
+      <li>주변 5km 내 환경부·민간 급속 충전기 위치·운영 시간 확인</li>
+      <li>본인 운전 패턴(일·주·월 km)으로 5년 충전비 추정 후 가솔린 대비 절감액 비교</li>
+    </ol>
+  </div>
+
+  <!-- ✅ 인아티클 광고 (시나리오 직후) -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5716436301710258"
+       crossorigin="anonymous"></script>
+  <ins class="adsbygoogle"
+       style="display:block; text-align:center;"
+       data-ad-layout="in-article"
+       data-ad-format="fluid"
+       data-ad-client="ca-pub-5716436301710258"
+       data-ad-slot="2039167138"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+  <!-- ✅ 주의사항 -->
+  <h2>주의사항</h2>
+  <div class="warning">
+    <ul>
+      <li><strong>심야 요금 적용 조건</strong>: 한전 별도 계량기 + 전기차 충전기 전용 신청. 가정 일반 콘센트로 충전 시 누진제 합산되어 심야 효과 없음</li>
+      <li><strong>충전 손실</strong>: 실제 충전 시 5~10% 손실 발생 (계산상 충전량 대비 차량 입력 에너지 차이). 본 시뮬레이션은 손실 미반영</li>
+      <li><strong>겨울 전비 저하</strong>: 영하 기온에서 전비 30~40% 하락. 겨울철 충전비는 30~40% 추가될 수 있음</li>
+      <li><strong>아파트 공용 충전기 단가</strong>: 단지별 200~350원/kWh로 일반 가정 충전 대비 비싸므로 심야 효과 사라짐</li>
+      <li><strong>충전요금 인상 가능성</strong>: 환경부 보조금 단계적 축소 검토 중. 향후 공공 충전 단가 추가 인상 가능</li>
+    </ul>
+  </div>
+
+  <!-- ✅ 자주 놓치는 포인트와 실수 사례 -->
+  <h2 id="experience">자주 놓치는 포인트와 실수 사례</h2>
+  <p>전기차 충전비를 단일 단가로 가정하는 것이 가장 흔한 오해입니다. 실제로는 가정·공공·민간을 혼합 사용하는 것이 일반적인데, 거주 형태에 따라 가중평균 단가가 158원~380원/kWh로 2.4배 차이 납니다. 단일 충전 환경만 가정하고 전기차를 구매하면 실제 충전비가 예상의 2배 이상으로 나오는 사례가 자주 보고됩니다.</p>
+  <p>가정 콘센트 충전을 "심야 요금"으로 계산하는 실수도 흔합니다. 한전 별도 계량기를 신청하지 않고 일반 콘센트로 충전하면 가정 전체 사용량과 합산되어 누진 2단계 약 215원/kWh가 적용됩니다. 별도 계량기와 전기차 전용 신청이 있어야 심야 70원 단가가 적용되는데, 이 절차를 놓치면 심야 충전 효과가 거의 사라집니다.</p>
+  <p>민간 충전 사업자의 회원·비회원 단가 차이를 간과하는 사례도 있습니다. GS차지비·차지비·티맵EV 등은 비회원 단가가 회원 대비 30~40% 비쌉니다. 회원 가입 자체는 무료이고 5분이면 끝나지만, 출장 중 급한 마음에 비회원으로 결제하면 5년 누적 약 200만원 추가 부담이 발생합니다.</p>
+  <p>겨울철 전비 저하를 충전비 계산에 반영하지 않는 것도 흔한 실수입니다. 영하 기온에서 배터리 효율이 30~40% 하락해 같은 거리를 가도 충전량이 1.4배 늘어납니다. 연 충전비를 균등 분할로 계산하면 겨울 3개월에 실제 충전비가 예상의 1.5배로 나타나 가계 부담을 잘못 추정하는 경우가 발생합니다.</p>
+  <p class="small">※ 위 사례는 공개된 사용자 경험과 환경부·한전 공시를 바탕으로 일반화한 내용입니다. 개인 차종·운전 패턴·계절에 따라 다를 수 있으며, 충전기 설치 전 한전·아파트 절차를 직접 확인하세요.</p>
+
+  <!-- ✅ FAQ -->
+  <h2 id="faq">8) FAQ</h2>
+  <p class="q">Q1. 전기차 충전 방식별 단가는 어떻게 다른가요?</p>
+  <p class="a">2026년 5월 기준 가정 심야 약 70원/kWh, 가정 일반(누진 2단계) 약 215원/kWh, 환경부 공공 완속 324.4원/kWh, 환경부 공공 급속 347.2원/kWh, 민간 급속 비회원 약 470원/kWh입니다. 가장 저렴한 가정 심야와 가장 비싼 민간 비회원의 단가 차이는 약 6.7배입니다.</p>
+
+  <p class="q">Q2. 전기차 5년 충전비는 얼마나 절약되나요?</p>
+  <p class="a">연 1만 5천km, 전비 5.5km/kWh 기준 5년 누적 충전비는 가정 심야 약 95만원, 가정 일반 약 290만원, 공공 급속 약 473만원, 민간 비회원 약 641만원입니다. 동급 가솔린차(연비 12km/L, 휘발유 1,700원/L) 5년 약 1,063만원과 비교하면 가정 심야는 약 968만원, 민간 비회원만 사용해도 약 422만원 절감됩니다.</p>
+
+  <p class="q">Q3. 가정용 충전기 설치 비용은 얼마인가요?</p>
+  <p class="a">콘센트형 30~80만원, 7kW 벽걸이형 100~150만원 수준입니다. 지자체 보조금 30~50만원을 활용하면 실질 부담은 70~100만원입니다. 별도 한전 계량기 설치 시 심야 시간대 약 70원/kWh 적용으로 연 평균 35만원 절감되어 약 3~4년이면 회수 가능합니다(보조금 활용 시 2~3년).</p>
+
+  <p class="q">Q4. 아파트 거주자도 가정 심야 요금을 적용받을 수 있나요?</p>
+  <p class="a">가능하지만 입주자 동의와 관리사무소 협의가 필요합니다. 전용 주차 구역에 개인 충전기를 설치하고 한전 별도 계량기를 신청해야 심야 요금(약 70원/kWh)이 적용됩니다. 공용 충전기를 사용하면 단지 관리비로 청구되며 보통 200~350원/kWh 수준입니다.</p>
+
+  <p class="q">Q5. 민간 급속 충전이 환경부 충전보다 비싼 이유는 뭔가요?</p>
+  <p class="a">환경부 충전기는 한국환경공단이 보조금 기반으로 운영해 단가가 낮습니다. 민간 사업자(GS차지비·에버온·SK일렉링크 등)는 자체 운영비와 마진을 반영해 단가가 높고, 비회원은 가입 인센티브가 없어 더 비쌉니다. 회원 가입만 해도 비회원 대비 30~40% 저렴해지므로 자주 이용하는 사업자 회원 가입은 필수입니다.</p>
+
+  <p class="q">Q6. 전기차 충전요금 절약을 극대화하려면 어떻게 해야 하나요?</p>
+  <p class="a">다음 4가지 조합이 효과적입니다. ① 가정 충전기 설치 + 한전 별도 계량기로 심야요금 적용(연 35만원 절감) ② 자주 가는 민간 충전소 회원 가입(비회원 대비 30~40% 절감) ③ 공공 충전기는 환경부 운영(ev.or.kr) 우선 사용 ④ 7~8월 누진구간 완화(1단계 300kWh로 확대) 활용. 4가지 조합 시 5년 누적 약 968만원 가솔린 대비 절감 가능합니다.</p>
+
+  <p class="small">관련 글: <a href="#" target="_blank" rel="noopener">하이브리드 vs 전기차 유지비 비교 — 연료비·세금·보험료 총정리 (2026)</a> / <a href="#" target="_blank" rel="noopener">전기차 보조금·세금 혜택 총정리 — 차종별 실구매가 비교 (2026)</a> / <a href="#" target="_blank" rel="noopener">전기차 배터리 보증 vs 보조금 5년 혜택 비교 (2026)</a></p>
+
+  <!-- ✅ 참고자료 -->
+  <div class="sources">
+    <strong>참고자료 / 출처</strong>
+    <ul>
+      <li>환경부 무공해차 통합누리집 충전요금: https://ev.or.kr/nportal/evcarInfo/initEvcarChargePrice.do</li>
+      <li>한국전력 주택용 전기요금표: https://home.kepco.co.kr/kepco/front/html/CY/E/E/CYEEHP00101.html</li>
+      <li>한전 사이버지점 전기요금 계산기: https://cyber.kepco.co.kr/ckepco/front/jsp/CY/J/A/CYJAPP000.jsp</li>
+    </ul>
+  </div>
+
+  <div class="btns">
+    <a class="btn" href="https://ev.or.kr/nportal/evcarInfo/initEvcarChargePrice.do" target="_blank" rel="noopener">환경부 충전요금 안내</a>
+    <a class="btn secondary" href="https://home.kepco.co.kr/kepco/front/html/CY/E/E/CYEEHP00101.html" target="_blank" rel="noopener">한전 주택용 전기요금</a>
+    <a class="btn secondary" href="https://cyber.kepco.co.kr/ckepco/front/jsp/CY/J/A/CYJAPP000.jsp" target="_blank" rel="noopener">전기요금 계산기</a>
+  </div>
+
+  <!-- ✅ 썸네일 -->
+  <img src="thumb_1080_ev-charging-cost-comparison-2026.png" alt="전기차 가정·공공·급속 충전 비용 시뮬레이션 인포그래픽" style="width:100%;margin:16px 0;" />
+  <img src="thumb_1200x630_ev-charging-cost-comparison-2026.png" alt="전기차 충전 5종 비교 카드" style="width:100%;margin:16px 0;" />
+
+  <div class="footer" id="update">
+    <strong>업데이트 로그</strong><br/>
+    - 2026-05-15: 최초 발행<br/>
+    <span class="small">※ 충전요금·전기요금·연료비 수치는 2026년 5월 환경부·한전 공시 기준 추정치입니다. 실제 비용은 차종(전비)·충전 패턴·계절·지역에 따라 다르며, 충전기 설치 전 한전 신청 절차와 아파트 동의 여부를 직접 확인하세요.</span>
+  </div>
+</div>

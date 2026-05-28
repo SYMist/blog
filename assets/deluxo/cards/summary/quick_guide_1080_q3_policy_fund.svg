@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#F59E0B">나는 어디? 정책자금 빠른 판단 가이드</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <rect x="60" y="120" width="960" height="112" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="134" width="34" height="34" rx="17" fill="#F59E0B"/>
+  <text x="97" y="158" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="800" fill="#0B1F3B">1</text>
+  <text x="130" y="158" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">운영자금 부족 (일반 소상공인)</text>
+  <text x="130" y="190" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">→ 일반경영안정자금: 최대 7,000만 원 / 기준금리+0.6%p</text>
+  <text x="130" y="216" font-family="'Pretendard',sans-serif" font-size="16" fill="#F59E0B">대리대출 7/6(월) 접수 시작 — 사업자등록증+매출증빙 준비</text>
+
+  <rect x="60" y="244" width="960" height="112" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="258" width="34" height="34" rx="17" fill="#F59E0B"/>
+  <text x="97" y="282" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="800" fill="#0B1F3B">2</text>
+  <text x="130" y="282" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">매장 확장·리모델링 계획</text>
+  <text x="130" y="314" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">→ 성장지원자금 시설: 최대 5억 원 / 기준금리+0.4%p</text>
+  <text x="130" y="340" font-family="'Pretendard',sans-serif" font-size="16" fill="#F59E0B">사업계획서 + 시설 견적서 필수 → DX 계획 포함 시 가점</text>
+
+  <rect x="60" y="368" width="960" height="112" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="382" width="34" height="34" rx="17" fill="#F59E0B"/>
+  <text x="97" y="406" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="800" fill="#0B1F3B">3</text>
+  <text x="130" y="406" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">AI·디지털 기술 도입</text>
+  <text x="130" y="438" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">→ 도약지원(최대 10억) 또는 AI 신규 자금(최대 2,000만)</text>
+  <text x="130" y="464" font-family="'Pretendard',sans-serif" font-size="16" fill="#F59E0B">AI 자금: 자부담 50%로 완화 (1,000만 원으로 2,000만 프로젝트 가능)</text>
+
+  <rect x="60" y="492" width="960" height="112" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="506" width="34" height="34" rx="17" fill="#F59E0B"/>
+  <text x="97" y="530" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="800" fill="#0B1F3B">4</text>
+  <text x="130" y="530" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">신용점수 낮음 (금융 사각지대)</text>
+  <text x="130" y="562" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">→ 신용취약자금: 최대 3,000만 원 / 직접대출(소진공 심사)</text>
+  <text x="130" y="588" font-family="'Pretendard',sans-serif" font-size="16" fill="#EF4444">필수: 지식배움터 신용관리 교육 이수 후 7/13(월) 접수</text>
+
+  <rect x="60" y="616" width="960" height="112" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="630" width="34" height="34" rx="17" fill="#F59E0B"/>
+  <text x="97" y="654" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="800" fill="#0B1F3B">5</text>
+  <text x="130" y="654" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">연 7%+ 고금리 대출 보유</text>
+  <text x="130" y="686" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">→ 대환대출: 최대 5,000만 원 / 연 4.5% 고정금리 / 상시 접수</text>
+  <text x="130" y="712" font-family="'Pretendard',sans-serif" font-size="16" fill="#F59E0B">2025.6.30 이전 채무 + 사업용 가계대출도 포함 (신규 확대)</text>
+
+  <rect x="60" y="740" width="960" height="112" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="754" width="34" height="34" rx="17" fill="#F59E0B"/>
+  <text x="97" y="778" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="800" fill="#0B1F3B">6</text>
+  <text x="130" y="778" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">자연재해 피해 사업장</text>
+  <text x="130" y="810" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">→ 재해 소상공인 자금: 연 2.0% 고정 (가장 낮은 금리)</text>
+  <text x="130" y="836" font-family="'Pretendard',sans-serif" font-size="16" fill="#F59E0B">피해확인서(지자체 발급) + 긴급 신청 가능</text>
+
+  <rect x="60" y="864" width="960" height="112" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="878" width="34" height="34" rx="17" fill="#F59E0B"/>
+  <text x="97" y="902" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="800" fill="#0B1F3B">7</text>
+  <text x="130" y="902" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">비수도권·인구감소 지역</text>
+  <text x="130" y="934" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">→ 모든 자금 신청 가능 + 금리 0.2%p 추가 감면</text>
+  <text x="130" y="960" font-family="'Pretendard',sans-serif" font-size="16" fill="#F59E0B">정책자금 60% 이상 비수도권 배정 → 경쟁률 상대적 낮음</text>
+
+  <rect x="60" y="1050" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

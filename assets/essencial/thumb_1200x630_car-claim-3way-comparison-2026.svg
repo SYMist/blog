@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#15803D"/>
+      <stop offset="100%" stop-color="#14532d"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E40AF"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+    <linearGradient id="amberGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D97706"/>
+      <stop offset="100%" stop-color="#7C2D12"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <circle cx="1080" cy="100" r="200" fill="#1E40AF" fill-opacity="0.07"/>
+  <circle cx="120" cy="540" r="160" fill="#15803D" fill-opacity="0.07"/>
+
+  <!-- Chips -->
+  <rect x="40" y="36" width="90" height="32" rx="16" fill="#1E40AF" fill-opacity="0.35" stroke="#1E40AF" stroke-width="1.5"/>
+  <text x="85" y="57" text-anchor="middle" fill="#BFDBFE" font-size="14" font-weight="700" font-family="sans-serif">자동차</text>
+
+  <rect x="146" y="36" width="140" height="32" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="216" y="57" text-anchor="middle" fill="#94A3B8" font-size="14" font-family="sans-serif">2026.05 기준</text>
+
+  <rect x="302" y="36" width="150" height="32" rx="16" fill="#14532d" stroke="#15803D" stroke-width="1.5"/>
+  <text x="377" y="57" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">3종 처리 비교</text>
+
+  <!-- Title -->
+  <text x="600" y="130" text-anchor="middle" fill="#FFFFFF" font-size="42" font-weight="800" font-family="sans-serif">자차 vs 상대 vs 자비수리</text>
+  <text x="600" y="178" text-anchor="middle" fill="#93C5FD" font-size="26" font-weight="700" font-family="sans-serif">사고 상황별 손익 결정 가이드 (2026)</text>
+
+  <!-- Key stat bar -->
+  <rect x="200" y="198" width="800" height="62" rx="12" fill="#1e293b" fill-opacity="0.9" stroke="#334155" stroke-width="1.5"/>
+  <text x="600" y="226" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">손익분기점 (연 보험료 70만원 기준)</text>
+  <text x="600" y="250" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">수리비 62만원 → 자비 vs 자차 갈림</text>
+
+  <rect x="200" y="274" width="800" height="2" rx="1" fill="#1E40AF" fill-opacity="0.4"/>
+
+  <!-- 3 cards horizontal -->
+  <rect x="40" y="284" width="370" height="300" rx="16" fill="url(#greenGrad)" fill-opacity="0.85" stroke="#15803D" stroke-width="2"/>
+  <text x="225" y="324" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">상대보험</text>
+  <text x="225" y="350" text-anchor="middle" fill="#86EFAC" font-size="13" font-family="sans-serif">상대 과실 100% 시</text>
+  <line x1="70" y1="368" x2="380" y2="368" stroke="#14532d" stroke-width="1.5"/>
+  <text x="225" y="408" text-anchor="middle" fill="#86EFAC" font-size="26" font-weight="800" font-family="sans-serif">본인 0원</text>
+  <text x="225" y="436" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">사고 기록 없음</text>
+  <line x1="70" y1="456" x2="380" y2="456" stroke="#14532d" stroke-width="1.5"/>
+  <text x="70" y="484" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">✅ 부담금 0원</text>
+  <text x="70" y="508" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">✅ 본인 기록 없음</text>
+  <text x="70" y="532" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">✅ 무사고 할인 유지</text>
+  <rect x="70" y="552" width="310" height="22" rx="6" fill="#15803D" fill-opacity="0.4"/>
+  <text x="225" y="568" text-anchor="middle" fill="#86EFAC" font-size="12" font-weight="700" font-family="sans-serif">피해자 BEST 선택</text>
+
+  <rect x="420" y="284" width="370" height="300" rx="16" fill="url(#blueGrad)" fill-opacity="0.85" stroke="#3B82F6" stroke-width="2"/>
+  <text x="605" y="324" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">자차보험</text>
+  <text x="605" y="350" text-anchor="middle" fill="#BFDBFE" font-size="13" font-family="sans-serif">본인 과실 · 수리비 큼</text>
+  <line x1="450" y1="368" x2="760" y2="368" stroke="#1e3a8a" stroke-width="1.5"/>
+  <text x="605" y="408" text-anchor="middle" fill="#BFDBFE" font-size="24" font-weight="800" font-family="sans-serif">62만원~</text>
+  <text x="605" y="436" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">3년 할증 + 기록</text>
+  <line x1="450" y1="456" x2="760" y2="456" stroke="#1e3a8a" stroke-width="1.5"/>
+  <text x="450" y="484" fill="#67E8F9" font-size="13" font-weight="700" font-family="sans-serif">✅ 큰 수리비 부담↓</text>
+  <text x="450" y="508" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">❌ 자기부담 20~50만</text>
+  <text x="450" y="532" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">❌ 할증 + 할인 상실</text>
+  <rect x="450" y="552" width="310" height="22" rx="6" fill="#1E40AF" fill-opacity="0.4"/>
+  <text x="605" y="568" text-anchor="middle" fill="#BFDBFE" font-size="12" font-weight="700" font-family="sans-serif">수리비 &gt; 62만원 시</text>
+
+  <rect x="800" y="284" width="370" height="300" rx="16" fill="url(#amberGrad)" fill-opacity="0.85" stroke="#D97706" stroke-width="2"/>
+  <text x="985" y="324" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">자비수리</text>
+  <text x="985" y="350" text-anchor="middle" fill="#FCD34D" font-size="13" font-family="sans-serif">본인 과실 · 수리비 작음</text>
+  <line x1="830" y1="368" x2="1140" y2="368" stroke="#7C2D12" stroke-width="1.5"/>
+  <text x="985" y="408" text-anchor="middle" fill="#FCD34D" font-size="24" font-weight="800" font-family="sans-serif">수리비 전액</text>
+  <text x="985" y="436" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">기록·할증 없음</text>
+  <line x1="830" y1="456" x2="1140" y2="456" stroke="#7C2D12" stroke-width="1.5"/>
+  <text x="830" y="484" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">✅ 기록 없음</text>
+  <text x="830" y="508" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">✅ 무사고 할인 유지</text>
+  <text x="830" y="532" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">❌ 즉시 전액 부담</text>
+  <rect x="830" y="552" width="310" height="22" rx="6" fill="#D97706" fill-opacity="0.4"/>
+  <text x="985" y="568" text-anchor="middle" fill="#FCD34D" font-size="12" font-weight="700" font-family="sans-serif">수리비 &lt; 62만원 시</text>
+
+  <text x="40" y="610" fill="#64748B" font-size="13" font-family="sans-serif">essencial | 자동차 · 2026.05 기준 · 손익분기점 = 자기부담금 20만 + 3년 할증 (연 보험료에 따라 44만~110만 변동)</text>
+</svg>

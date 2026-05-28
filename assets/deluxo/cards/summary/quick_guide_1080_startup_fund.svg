@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+
+  <!-- Badge -->
+  <rect x="80" y="50" width="200" height="52" rx="26" fill="#F59E0B"/>
+  <text x="180" y="85" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#0B1F3B">10초 판단</text>
+
+  <!-- Title -->
+  <text x="80" y="160" font-family="'Pretendard',sans-serif" font-size="46" font-weight="900" fill="#FFF">나는 어디?</text>
+  <text x="80" y="218" font-family="'Pretendard',sans-serif" font-size="40" font-weight="800" fill="#EAF2FF">예비 vs 초기 vs 도약</text>
+
+  <!-- Column Headers -->
+  <rect x="80" y="260" width="290" height="56" rx="14" fill="#F59E0B"/>
+  <text x="225" y="296" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#0B1F3B">예비창업</text>
+
+  <rect x="395" y="260" width="290" height="56" rx="14" fill="#3B82F6"/>
+  <text x="540" y="296" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">초기 (3년↓)</text>
+
+  <rect x="710" y="260" width="290" height="56" rx="14" fill="#8B5CF6"/>
+  <text x="855" y="296" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">도약 (3~7년)</text>
+
+  <!-- Row Label: 1순위 보조금 -->
+  <text x="80" y="370" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#F59E0B">1순위 보조금</text>
+  <line x1="80" y1="385" x2="1000" y2="385" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+
+  <rect x="80" y="400" width="290" height="120" rx="12" fill="rgba(245,158,11,0.12)"/>
+  <text x="225" y="440" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">생애최초 1억</text>
+  <text x="225" y="472" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="19" font-weight="600" fill="#EAF2FF">혁신 560명 선발</text>
+  <text x="225" y="502" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">(비상환)</text>
+
+  <rect x="395" y="400" width="290" height="120" rx="12" fill="rgba(59,130,246,0.12)"/>
+  <text x="540" y="440" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">초기패키지 1억</text>
+  <text x="540" y="472" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="19" font-weight="600" fill="#EAF2FF">창업 3년 이내</text>
+  <text x="540" y="502" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">(비상환)</text>
+
+  <rect x="710" y="400" width="290" height="120" rx="12" fill="rgba(139,92,246,0.12)"/>
+  <text x="855" y="440" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">도약 2~3억</text>
+  <text x="855" y="472" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="19" font-weight="600" fill="#EAF2FF">업력 3~7년</text>
+  <text x="855" y="502" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">(비상환)</text>
+
+  <!-- Row Label: 2순위 대출 -->
+  <text x="80" y="570" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#F59E0B">2순위 대출</text>
+  <line x1="80" y1="585" x2="1000" y2="585" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+
+  <rect x="80" y="600" width="290" height="120" rx="12" fill="rgba(245,158,11,0.12)"/>
+  <text x="225" y="640" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">청년전용 2.5%</text>
+  <text x="225" y="672" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="19" font-weight="600" fill="#EAF2FF">만 39세↓ 최대 1억</text>
+  <text x="225" y="702" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">(고정금리)</text>
+
+  <rect x="395" y="600" width="290" height="120" rx="12" fill="rgba(59,130,246,0.12)"/>
+  <text x="540" y="640" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">청년+정책자금</text>
+  <text x="540" y="672" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="19" font-weight="600" fill="#EAF2FF">일반 7천만 + 청년 1억</text>
+  <text x="540" y="702" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">(중복 가능)</text>
+
+  <rect x="710" y="600" width="290" height="120" rx="12" fill="rgba(139,92,246,0.12)"/>
+  <text x="855" y="640" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">성장·도약형</text>
+  <text x="855" y="672" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="19" font-weight="600" fill="#EAF2FF">최대 2억 정책자금</text>
+  <text x="855" y="702" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">(직접대출)</text>
+
+  <!-- Row Label: 한 줄 요약 -->
+  <text x="80" y="770" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#F59E0B">한 줄 요약</text>
+  <line x1="80" y1="785" x2="1000" y2="785" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+
+  <rect x="80" y="800" width="290" height="90" rx="12" fill="rgba(245,158,11,0.15)"/>
+  <text x="225" y="835" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="21" font-weight="700" fill="#FFF">보조금 먼저</text>
+  <text x="225" y="868" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="19" font-weight="600" fill="#EAF2FF">→ 대출 보충</text>
+
+  <rect x="395" y="800" width="290" height="90" rx="12" fill="rgba(59,130,246,0.15)"/>
+  <text x="540" y="835" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="21" font-weight="700" fill="#FFF">보조금+대출</text>
+  <text x="540" y="868" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="19" font-weight="600" fill="#EAF2FF">→ 동시 진행</text>
+
+  <rect x="710" y="800" width="290" height="90" rx="12" fill="rgba(139,92,246,0.15)"/>
+  <text x="855" y="835" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="21" font-weight="700" fill="#FFF">도약 보조금</text>
+  <text x="855" y="868" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="19" font-weight="600" fill="#EAF2FF">→ 스케일업</text>
+
+  <!-- Bottom Chips -->
+  <rect x="80" y="935" width="180" height="52" rx="26" fill="#E8F0FF"/>
+  <text x="170" y="969" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#1D4ED8">빠른판단</text>
+  <rect x="290" y="935" width="130" height="52" rx="26" fill="#E8F0FF"/>
+  <text x="355" y="969" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#1D4ED8">비교</text>
+  <rect x="450" y="935" width="130" height="52" rx="26" fill="#E8F0FF"/>
+  <text x="515" y="969" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#1D4ED8">2026</text>
+
+  <!-- Bottom line -->
+  <rect x="80" y="1030" width="920" height="6" rx="3" fill="#F59E0B"/>
+</svg>

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="8" fill="#F59E0B"/>
+
+  <!-- Title -->
+  <text x="540" y="66" font-family="-apple-system, sans-serif" font-size="34" font-weight="900" fill="#F59E0B" text-anchor="middle">노후 3축 절세 시뮬레이션</text>
+  <text x="540" y="104" font-family="-apple-system, sans-serif" font-size="21" font-weight="700" fill="#A0B4D0" text-anchor="middle">종합소득 4,000만원 이하 자영업자 기준</text>
+
+  <!-- Sim Boxes -->
+  <rect x="40" y="130" width="460" height="340" rx="20" fill="#1A3270"/>
+  <text x="270" y="182" font-family="-apple-system, sans-serif" font-size="20" font-weight="900" fill="#F59E0B" text-anchor="middle">① 아무것도 안 할 경우</text>
+  <text x="270" y="216" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0" text-anchor="middle">소득세 납부 = 원액 그대로</text>
+  <text x="270" y="280" font-family="-apple-system, sans-serif" font-size="64" font-weight="900" fill="#EF4444" text-anchor="middle">0원</text>
+  <text x="270" y="318" font-family="-apple-system, sans-serif" font-size="18" fill="#EF4444" text-anchor="middle">절세 없음</text>
+  <text x="270" y="360" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">종합소득 3,500만원 기준</text>
+  <text x="270" y="388" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">소득세 약 308만원 납부</text>
+  <text x="270" y="450" font-family="-apple-system, sans-serif" font-size="15" fill="#EF4444" text-anchor="middle">노후 대비 자산 적립 없음</text>
+
+  <rect x="580" y="130" width="460" height="340" rx="20" fill="#1A3270"/>
+  <rect x="580" y="130" width="460" height="340" rx="20" fill="none" stroke="#34D399" stroke-width="2"/>
+  <text x="810" y="182" font-family="-apple-system, sans-serif" font-size="20" font-weight="900" fill="#34D399" text-anchor="middle">② 3축 모두 활용할 경우</text>
+  <text x="810" y="216" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0" text-anchor="middle">노란우산 600 + IRP+연금저축 900</text>
+  <text x="810" y="280" font-family="-apple-system, sans-serif" font-size="64" font-weight="900" fill="#34D399" text-anchor="middle">238만원</text>
+  <text x="810" y="318" font-family="-apple-system, sans-serif" font-size="18" fill="#34D399" text-anchor="middle">연간 절세</text>
+  <text x="810" y="360" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">소득세 약 70만원으로 감소</text>
+  <text x="810" y="388" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">(308만원 → 약 70만원)</text>
+  <text x="810" y="450" font-family="-apple-system, sans-serif" font-size="15" fill="#34D399" text-anchor="middle">1,500만원 노후 자산 동시 적립</text>
+
+  <!-- 10년 효과 -->
+  <rect x="40" y="494" width="1000" height="80" rx="12" fill="#0D2347"/>
+  <text x="540" y="530" font-family="-apple-system, sans-serif" font-size="20" font-weight="900" fill="#F59E0B" text-anchor="middle">10년 누적 효과 (연 238만원 절세 기준)</text>
+  <text x="540" y="562" font-family="-apple-system, sans-serif" font-size="17" fill="#EAF2FF" text-anchor="middle">10년간 절세액 2,380만원 + 노후 자산 1억 5,000만원 이상 적립 (복리 기준)</text>
+
+  <!-- IRP breakdowns -->
+  <text x="540" y="630" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#F59E0B" text-anchor="middle">IRP 수령 세율 비교</text>
+
+  <rect x="40" y="648" width="310" height="150" rx="16" fill="#0D2347"/>
+  <text x="195" y="700" font-family="-apple-system, sans-serif" font-size="17" font-weight="700" fill="#EF4444" text-anchor="middle">중도인출 (60세 전)</text>
+  <text x="195" y="748" font-family="-apple-system, sans-serif" font-size="36" font-weight="900" fill="#EF4444" text-anchor="middle">16.5%</text>
+  <text x="195" y="786" font-family="-apple-system, sans-serif" font-size="14" fill="#EF4444" text-anchor="middle">기타소득세 + 공제 반환</text>
+
+  <rect x="385" y="648" width="310" height="150" rx="16" fill="#1A3270"/>
+  <text x="540" y="700" font-family="-apple-system, sans-serif" font-size="17" font-weight="700" fill="#F59E0B" text-anchor="middle">연금 수령 (55세↑)</text>
+  <text x="540" y="748" font-family="-apple-system, sans-serif" font-size="36" font-weight="900" fill="#FFFFFF" text-anchor="middle">3.3~5.5%</text>
+  <text x="540" y="786" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">연금소득세 (저율 분리과세)</text>
+
+  <rect x="730" y="648" width="310" height="150" rx="16" fill="#34D399" opacity="0.2"/>
+  <rect x="730" y="648" width="310" height="150" rx="20" fill="none" stroke="#34D399" stroke-width="2"/>
+  <text x="885" y="700" font-family="-apple-system, sans-serif" font-size="17" font-weight="700" fill="#34D399" text-anchor="middle">절세 효과 차이</text>
+  <text x="885" y="748" font-family="-apple-system, sans-serif" font-size="36" font-weight="900" fill="#FFFFFF" text-anchor="middle">11.2%p</text>
+  <text x="885" y="786" font-family="-apple-system, sans-serif" font-size="14" fill="#34D399" text-anchor="middle">장기 유지의 핵심 이유</text>
+
+  <!-- Bottom note -->
+  <rect x="40" y="826" width="1000" height="70" rx="12" fill="#1A3270"/>
+  <text x="540" y="860" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#F59E0B" text-anchor="middle">국민연금 2026년 개혁: 보험료율 9.5% | 소득대체율 43% 상향</text>
+  <text x="540" y="886" font-family="-apple-system, sans-serif" font-size="16" fill="#EAF2FF" text-anchor="middle">40년 납부 기준 납부 1.8억 → 수령 3.1억 예상 (개인 차이 있음)</text>
+
+  <text x="540" y="964" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준 | 개인 상황에 따라 실제 금액 상이 | 세무사 상담 권장</text>
+  <rect x="0" y="1072" width="1080" height="8" fill="#F59E0B"/>
+</svg>

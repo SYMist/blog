@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="80" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="800" fill="#F59E0B">종합소득세 신고 전 체크리스트</text>
+  <rect x="60" y="110" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <rect x="60" y="138" width="960" height="82" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="180" font-family="'Pretendard',sans-serif" font-size="32" fill="#22C55E">☑</text>
+  <text x="145" y="175" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">신고도움 서비스에서 신고 유형 확인</text>
+  <text x="145" y="205" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">E·F(단순경비율) / D(기준경비율) / G 등</text>
+
+  <rect x="60" y="230" width="960" height="82" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="272" font-family="'Pretendard',sans-serif" font-size="32" fill="#22C55E">☑</text>
+  <text x="145" y="267" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">원천징수 금액 확인 (근로·사업소득)</text>
+  <text x="145" y="297" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">홈택스 지급명세서 제출내역에서 조회</text>
+
+  <rect x="60" y="322" width="960" height="82" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="364" font-family="'Pretendard',sans-serif" font-size="32" fill="#22C55E">☑</text>
+  <text x="145" y="359" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">단순/기준경비율, 간편장부/복식부기 확인</text>
+  <text x="145" y="389" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">수입 2,400만 이하 → 단순경비율 / 초과 → 기준경비율</text>
+
+  <rect x="60" y="414" width="960" height="82" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="456" font-family="'Pretendard',sans-serif" font-size="32" fill="#22C55E">☑</text>
+  <text x="145" y="451" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">부양가족 소득·나이 요건 → 인적공제</text>
+  <text x="145" y="481" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">1인당 150만원 소득공제</text>
+
+  <rect x="60" y="506" width="960" height="82" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="548" font-family="'Pretendard',sans-serif" font-size="32" fill="#22C55E">☑</text>
+  <text x="145" y="543" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">국민연금·건강보험료 납입액 확인</text>
+  <text x="145" y="573" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">납입 전액 소득공제</text>
+
+  <rect x="60" y="598" width="960" height="82" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="640" font-family="'Pretendard',sans-serif" font-size="32" fill="#22C55E">☑</text>
+  <text x="145" y="635" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">연금저축·IRP 납입액 확인</text>
+  <text x="145" y="665" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">최대 900만원 세액공제 (13.2~16.5%)</text>
+
+  <rect x="60" y="690" width="960" height="82" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="732" font-family="'Pretendard',sans-serif" font-size="32" fill="#22C55E">☑</text>
+  <text x="145" y="727" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">사업용 카드·적격증빙 정리</text>
+  <text x="145" y="757" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">기준경비율 대상자 필수 / 증빙 없으면 경비 불인정</text>
+
+  <rect x="60" y="782" width="960" height="82" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="824" font-family="'Pretendard',sans-serif" font-size="32" fill="#22C55E">☑</text>
+  <text x="145" y="819" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">기부금 영수증 발급 확인</text>
+  <text x="145" y="849" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">15~30% 세액공제</text>
+
+  <rect x="60" y="874" width="960" height="82" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="916" font-family="'Pretendard',sans-serif" font-size="32" fill="#22C55E">☑</text>
+  <text x="145" y="911" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">환급 계좌 본인 명의 확인·등록</text>
+  <text x="145" y="941" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">미등록 시 환급 보류 / 6월 말~7월 초 입금</text>
+
+  <rect x="60" y="966" width="960" height="70" rx="16" fill="rgba(245,158,11,0.15)"/>
+  <text x="540" y="1010" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#F59E0B">종소세 신고 후 → 위택스에서 지방소득세 별도 신고!</text>
+</svg>

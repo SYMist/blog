@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#F59E0B">매출 구간별 절세 전략 빠른 판단</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- 구간 1: 4,800만 미만 -->
+  <rect x="60" y="130" width="960" height="170" rx="20" fill="rgba(34,197,94,0.08)"/>
+  <rect x="80" y="150" width="280" height="44" rx="22" fill="rgba(34,197,94,0.2)"/>
+  <text x="220" y="180" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#22C55E">매출 4,800만 원 미만</text>
+  <text x="80" y="224" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">→ 간이과세 납부면제 (부가세 0원)</text>
+  <text x="80" y="260" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#94A3B8">전략: 간이과세 유지 · 매출 관리 · 세금계산서 발급 최소화</text>
+
+  <!-- 구간 2: 4,800만~1억 400만 -->
+  <rect x="60" y="318" width="960" height="170" rx="20" fill="rgba(59,130,246,0.08)"/>
+  <rect x="80" y="338" width="360" height="44" rx="22" fill="rgba(59,130,246,0.15)"/>
+  <text x="260" y="368" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#60A5FA">매출 4,800만~1억 400만 원</text>
+  <text x="80" y="412" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">→ 간이과세 (세율 1.5~4%) · 환급 불가</text>
+  <text x="80" y="448" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#94A3B8">전략: 신용카드 발행 세액공제 1.3% · 의제매입(음식점) 활용</text>
+
+  <!-- 구간 3: 1억 400만 초과 -->
+  <rect x="60" y="506" width="960" height="170" rx="20" fill="rgba(245,158,11,0.08)"/>
+  <rect x="80" y="526" width="280" height="44" rx="22" fill="rgba(245,158,11,0.15)"/>
+  <text x="220" y="556" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#F59E0B">매출 1억 400만 원 초과</text>
+  <text x="80" y="600" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">→ 일반과세 (10%) · 매입세액 공제 · 환급 가능</text>
+  <text x="80" y="636" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#94A3B8">전략: 적격증빙 100% 확보 · 의제매입 9/109 · 조기환급 신청</text>
+
+  <!-- 구간 4: 창업 초기 시설투자 -->
+  <rect x="60" y="694" width="960" height="170" rx="20" fill="rgba(239,68,68,0.08)"/>
+  <rect x="80" y="714" width="320" height="44" rx="22" fill="rgba(239,68,68,0.15)"/>
+  <text x="240" y="744" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#EF4444">창업 초기 · 시설투자 큰 경우</text>
+  <text x="80" y="788" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">→ 간이과세 포기 → 일반과세자 전환 검토</text>
+  <text x="80" y="824" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#94A3B8">전략: 인테리어·설비 투자금 환급 + 조기환급 15일 이내 입금</text>
+
+  <!-- 하단 요약 -->
+  <rect x="60" y="900" width="960" height="140" rx="20" fill="rgba(245,158,11,0.12)"/>
+  <text x="540" y="950" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#F59E0B">핵심 포인트</text>
+  <text x="540" y="995" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">같은 매출이라도 과세유형·업종·투자 규모에 따라</text>
+  <text x="540" y="1025" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">최적 절세 전략이 달라집니다 → 구간별 판단 필수</text>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="80" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="800" fill="#F59E0B">절세 계좌 가입 전 체크리스트</text>
+  <rect x="60" y="110" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- Check 1 -->
+  <rect x="60" y="145" width="960" height="110" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="195" font-family="'Pretendard',sans-serif" font-size="36" fill="#22C55E">☑</text>
+  <text x="150" y="195" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#FFF">총급여(종합소득) 확인</text>
+  <text x="150" y="235" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">5,500만원 이하 → 16.5% / 초과 → 13.2% 세액공제율</text>
+
+  <!-- Check 2 -->
+  <rect x="60" y="275" width="960" height="110" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="325" font-family="'Pretendard',sans-serif" font-size="36" fill="#22C55E">☑</text>
+  <text x="150" y="325" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#FFF">연금저축 600만원 납입 여력 확인</text>
+  <text x="150" y="365" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">증권사 연금저축펀드 개설 → ETF 투자 가능</text>
+
+  <!-- Check 3 -->
+  <rect x="60" y="405" width="960" height="110" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="455" font-family="'Pretendard',sans-serif" font-size="36" fill="#22C55E">☑</text>
+  <text x="150" y="455" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#FFF">IRP 추가 300만원 납입 가능 여부</text>
+  <text x="150" y="495" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">수수료 면제 기관 선택 · 위험자산 70% 제한 감안</text>
+
+  <!-- Check 4 -->
+  <rect x="60" y="535" width="960" height="110" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="585" font-family="'Pretendard',sans-serif" font-size="36" fill="#22C55E">☑</text>
+  <text x="150" y="585" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#FFF">ISA 3년 이상 유지할 여유 자금인지</text>
+  <text x="150" y="625" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">3년 미만 해지 → 비과세·분리과세 혜택 소멸</text>
+
+  <!-- Check 5 -->
+  <rect x="60" y="665" width="960" height="110" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="715" font-family="'Pretendard',sans-serif" font-size="36" fill="#22C55E">☑</text>
+  <text x="150" y="715" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#FFF">55세 이전 중도해지 계획 없는지</text>
+  <text x="150" y="755" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">연금저축·IRP 해지 시 기타소득세 16.5% + 환급세금 반환</text>
+
+  <!-- Check 6 -->
+  <rect x="60" y="795" width="960" height="110" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="845" font-family="'Pretendard',sans-serif" font-size="36" fill="#22C55E">☑</text>
+  <text x="150" y="845" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#FFF">ISA 만기 → 연금계좌 전환공제 활용</text>
+  <text x="150" y="885" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">전환금액 10%(최대 300만원) 추가 세액공제 가능</text>
+
+  <rect x="60" y="950" width="960" height="80" rx="16" fill="rgba(245,158,11,0.15)"/>
+  <text x="540" y="1000" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#F59E0B">저장해두고 연말정산 전에 꼭 확인하세요!</text>
+</svg>

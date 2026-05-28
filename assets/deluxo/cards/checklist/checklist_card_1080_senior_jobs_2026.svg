@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="8" fill="#F59E0B"/>
+
+  <!-- Title -->
+  <text x="540" y="72" font-family="-apple-system, sans-serif" font-size="36" font-weight="900" fill="#FFFFFF" text-anchor="middle">신청 전 1분 체크리스트</text>
+  <text x="540" y="112" font-family="-apple-system, sans-serif" font-size="21" font-weight="600" fill="#F59E0B" text-anchor="middle">노인 일자리·사회활동 지원사업 (2026)</text>
+
+  <!-- Item 1 -->
+  <rect x="40" y="146" width="1000" height="120" rx="12" fill="#1A3270"/>
+  <rect x="40" y="146" width="8" height="120" rx="4" fill="#34D399"/>
+  <rect x="66" y="172" width="48" height="48" rx="8" fill="#34D399" opacity="0.2"/>
+  <rect x="66" y="172" width="48" height="48" rx="8" fill="none" stroke="#34D399" stroke-width="2"/>
+  <text x="90" y="204" font-family="-apple-system, sans-serif" font-size="26" font-weight="900" fill="#34D399" text-anchor="middle">✓</text>
+  <text x="140" y="194" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">나이·기초연금 수급 여부 확인</text>
+  <text x="140" y="222" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">공익활동형: 만 65세 이상 + 기초연금수급자 / 민간형: 만 60세 이상</text>
+
+  <!-- Item 2 -->
+  <rect x="40" y="278" width="1000" height="120" rx="12" fill="#102A56"/>
+  <rect x="40" y="278" width="8" height="120" rx="4" fill="#34D399"/>
+  <rect x="66" y="304" width="48" height="48" rx="8" fill="#34D399" opacity="0.2"/>
+  <rect x="66" y="304" width="48" height="48" rx="8" fill="none" stroke="#34D399" stroke-width="2"/>
+  <text x="90" y="336" font-family="-apple-system, sans-serif" font-size="26" font-weight="900" fill="#34D399" text-anchor="middle">✓</text>
+  <text x="140" y="326" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">제외 대상 해당 여부 확인</text>
+  <text x="140" y="354" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">건강보험 직장가입자·장기요양 1~5등급·정부 일자리 2개 이상은 신청 불가</text>
+
+  <!-- Item 3 -->
+  <rect x="40" y="410" width="1000" height="120" rx="12" fill="#1A3270"/>
+  <rect x="40" y="410" width="8" height="120" rx="4" fill="#34D399"/>
+  <rect x="66" y="436" width="48" height="48" rx="8" fill="#34D399" opacity="0.2"/>
+  <rect x="66" y="436" width="48" height="48" rx="8" fill="none" stroke="#34D399" stroke-width="2"/>
+  <text x="90" y="468" font-family="-apple-system, sans-serif" font-size="26" font-weight="900" fill="#34D399" text-anchor="middle">✓</text>
+  <text x="140" y="458" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">기본 서류 4종 준비</text>
+  <text x="140" y="486" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">참여신청서·동의서(자필)·신분증 사본·통장 사본</text>
+
+  <!-- Item 4 -->
+  <rect x="40" y="542" width="1000" height="120" rx="12" fill="#102A56"/>
+  <rect x="40" y="542" width="8" height="120" rx="4" fill="#34D399"/>
+  <rect x="66" y="568" width="48" height="48" rx="8" fill="#34D399" opacity="0.2"/>
+  <rect x="66" y="568" width="48" height="48" rx="8" fill="none" stroke="#34D399" stroke-width="2"/>
+  <text x="90" y="600" font-family="-apple-system, sans-serif" font-size="26" font-weight="900" fill="#34D399" text-anchor="middle">✓</text>
+  <text x="140" y="590" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">상황별 추가 서류 확인</text>
+  <text x="140" y="618" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">공익활동형: 기초연금수급자 확인서 / 역량활용형: 자격증·경력증명서</text>
+
+  <!-- Item 5 -->
+  <rect x="40" y="674" width="1000" height="120" rx="12" fill="#1A3270"/>
+  <rect x="40" y="674" width="8" height="120" rx="4" fill="#34D399"/>
+  <rect x="66" y="700" width="48" height="48" rx="8" fill="#34D399" opacity="0.2"/>
+  <rect x="66" y="700" width="48" height="48" rx="8" fill="none" stroke="#34D399" stroke-width="2"/>
+  <text x="90" y="732" font-family="-apple-system, sans-serif" font-size="26" font-weight="900" fill="#34D399" text-anchor="middle">✓</text>
+  <text x="140" y="722" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">10월 초 수행기관에 미리 문의</text>
+  <text x="140" y="750" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">조기 마감 사업이 많으므로 10월 초에 주민센터 또는 노인복지관 방문</text>
+
+  <!-- Item 6 -->
+  <rect x="40" y="806" width="1000" height="120" rx="12" fill="#102A56"/>
+  <rect x="40" y="806" width="8" height="120" rx="4" fill="#34D399"/>
+  <rect x="66" y="832" width="48" height="48" rx="8" fill="#34D399" opacity="0.2"/>
+  <rect x="66" y="832" width="48" height="48" rx="8" fill="none" stroke="#34D399" stroke-width="2"/>
+  <text x="90" y="864" font-family="-apple-system, sans-serif" font-size="26" font-weight="900" fill="#34D399" text-anchor="middle">✓</text>
+  <text x="140" y="854" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">사전 교육 일정 확인</text>
+  <text x="140" y="882" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">선발 후 사전 교육 미이수 시 참여 자격 취소 — 건강 상태도 미리 점검</text>
+
+  <!-- Footer -->
+  <text x="540" y="972" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0" text-anchor="middle">6개 항목 모두 확인 완료 → 신청 준비 완료!</text>
+  <text x="540" y="1000" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">노인일자리 상담 ☎ 1544-3388 | seniwork.or.kr</text>
+  <text x="540" y="1026" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준</text>
+
+  <rect x="0" y="1072" width="1080" height="8" fill="#F59E0B"/>
+</svg>

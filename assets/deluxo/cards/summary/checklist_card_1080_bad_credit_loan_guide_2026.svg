@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="8" fill="#34D399"/>
+
+  <!-- Title -->
+  <text x="540" y="68" font-family="-apple-system, sans-serif" font-size="34" font-weight="900" fill="#34D399" text-anchor="middle">신용불량자 대출 신청 전 6단계 체크리스트</text>
+  <text x="540" y="106" font-family="-apple-system, sans-serif" font-size="20" font-weight="700" fill="#A0B4D0" text-anchor="middle">이 6가지 확인 후 신청하면 거절 확률이 크게 줄어듭니다</text>
+
+  <!-- Item 1 -->
+  <rect x="60" y="132" width="960" height="112" rx="12" fill="#1A3270"/>
+  <rect x="60" y="132" width="6" height="112" rx="3" fill="#34D399"/>
+  <circle cx="118" cy="188" r="24" fill="#34D399"/>
+  <text x="118" y="195" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#0B1F3B" text-anchor="middle">1</text>
+  <text x="162" y="172" font-family="-apple-system, sans-serif" font-size="19" font-weight="800" fill="#FFFFFF">본인 신용점수 확인 (KCB 또는 NICE)</text>
+  <text x="162" y="200" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0">올크레딧(KCB) 또는 마이크레딧(NICE)에서 무료 조회 — 하위 20% (KCB 700점↓) 여부 파악</text>
+  <text x="162" y="226" font-family="-apple-system, sans-serif" font-size="15" fill="#34D399">→ 700점 초과이면 햇살론 일반보증 쪽으로 문의</text>
+
+  <!-- Item 2 -->
+  <rect x="60" y="252" width="960" height="112" rx="12" fill="#0D2347"/>
+  <rect x="60" y="252" width="6" height="112" rx="3" fill="#34D399"/>
+  <circle cx="118" cy="308" r="24" fill="#34D399"/>
+  <text x="118" y="315" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#0B1F3B" text-anchor="middle">2</text>
+  <text x="162" y="292" font-family="-apple-system, sans-serif" font-size="19" font-weight="800" fill="#FFFFFF">현재 연체 진행 중 여부 확인</text>
+  <text x="162" y="320" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0">연체 중 상태에서는 대출 상품 신청 자동 거절 — 연체 해소가 선행되어야 함</text>
+  <text x="162" y="346" font-family="-apple-system, sans-serif" font-size="15" fill="#34D399">→ 연체 중이면 신용회복위원회(☎1600-5500)로 채무조정 경로 먼저 상담</text>
+
+  <!-- Item 3 -->
+  <rect x="60" y="372" width="960" height="112" rx="12" fill="#1A3270"/>
+  <rect x="60" y="372" width="6" height="112" rx="3" fill="#F59E0B"/>
+  <circle cx="118" cy="428" r="24" fill="#F59E0B"/>
+  <text x="118" y="435" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#0B1F3B" text-anchor="middle">3</text>
+  <text x="162" y="412" font-family="-apple-system, sans-serif" font-size="19" font-weight="800" fill="#FFFFFF">연소득 3,500만원 이하 여부 확인 + 소득 증빙 준비</text>
+  <text x="162" y="440" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0">근로자: 근로소득원천징수영수증 / 사업자: 소득금액증명원 / 무소득: 주민센터 무소득 확인서</text>
+  <text x="162" y="466" font-family="-apple-system, sans-serif" font-size="15" fill="#F59E0B">→ 프리랜서·아르바이트는 통장 입금 내역 3~6개월분으로 대체 가능 여부 ☎1397 확인</text>
+
+  <!-- Item 4 -->
+  <rect x="60" y="492" width="960" height="112" rx="12" fill="#0D2347"/>
+  <rect x="60" y="492" width="6" height="112" rx="3" fill="#F59E0B"/>
+  <circle cx="118" cy="548" r="24" fill="#F59E0B"/>
+  <text x="118" y="555" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#0B1F3B" text-anchor="middle">4</text>
+  <text x="162" y="532" font-family="-apple-system, sans-serif" font-size="19" font-weight="800" fill="#FFFFFF">기존 정책대출 이용 중 여부 확인</text>
+  <text x="162" y="560" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0">현재 햇살론 또는 소액생계비 대출 이용 중이면 동일 계열 추가 신청 불가</text>
+  <text x="162" y="586" font-family="-apple-system, sans-serif" font-size="15" fill="#F59E0B">→ 기존 대출 상환 완료 후 재신청 가능 여부를 ☎1397에 확인</text>
+
+  <!-- Item 5 -->
+  <rect x="60" y="612" width="960" height="112" rx="12" fill="#1A3270"/>
+  <rect x="60" y="612" width="6" height="112" rx="3" fill="#EF4444"/>
+  <circle cx="118" cy="668" r="24" fill="#EF4444"/>
+  <text x="118" y="675" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="middle">5</text>
+  <text x="162" y="652" font-family="-apple-system, sans-serif" font-size="19" font-weight="800" fill="#FFFFFF">채무조정·개인회생 진행 중 여부 확인</text>
+  <text x="162" y="680" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0">신용회복위원회 워크아웃 또는 개인회생 절차 진행 중이면 대출 중복 신청 불가</text>
+  <text x="162" y="706" font-family="-apple-system, sans-serif" font-size="15" fill="#EF4444">→ 진행 중이면 절차 완료 + 신용 회복 후 재신청 검토</text>
+
+  <!-- Item 6 -->
+  <rect x="60" y="732" width="960" height="112" rx="12" fill="#0D2347"/>
+  <rect x="60" y="732" width="6" height="112" rx="3" fill="#EF4444"/>
+  <circle cx="118" cy="788" r="24" fill="#EF4444"/>
+  <text x="118" y="795" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="middle">6</text>
+  <text x="162" y="772" font-family="-apple-system, sans-serif" font-size="19" font-weight="800" fill="#FFFFFF">경로 결정 — 대출 vs 채무조정 중 선택</text>
+  <text x="162" y="800" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0">대출 상품(서민금융진흥원)은 상환 능력이 있는 경우, 채무조정(신용회복위원회)은 상환이 불가할 때</text>
+  <text x="162" y="826" font-family="-apple-system, sans-serif" font-size="15" fill="#EF4444">→ 헷갈리면 ☎1397 또는 ☎1600-5500으로 무료 상담 먼저</text>
+
+  <text x="540" y="966" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준 | kinfa.or.kr ☎1397 | ccrs.or.kr ☎1600-5500 | 개인 상황에 따라 상이</text>
+  <rect x="0" y="1072" width="1080" height="8" fill="#34D399"/>
+</svg>

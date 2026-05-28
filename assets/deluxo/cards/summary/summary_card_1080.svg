@@ -1,0 +1,54 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="#F8FAFC"/>
+
+  <!-- Card -->
+  <g filter="url(#shadow)">
+    <rect x="70" y="70" width="940" height="940" rx="24" fill="#FFFFFF" stroke="#E5E7EB"/>
+  </g>
+
+  <!-- Header -->
+  <text x="120" y="170" font-size="48" fill="#111827" font-weight="800" font-family="Pretendard, 'Noto Sans KR', sans-serif">소상공인 정책자금 요약표</text>
+  <text x="120" y="230" font-size="28" fill="#6B7280" font-weight="600" font-family="Pretendard, 'Noto Sans KR', sans-serif">신청 조건 · 서류 · 절차 한눈에 정리</text>
+
+  <!-- Divider -->
+  <line x1="120" y1="270" x2="960" y2="270" stroke="#E5E7EB"/>
+
+  <!-- Table-like rows -->
+  <g font-family="Pretendard, 'Noto Sans KR', sans-serif">
+    <text x="120" y="340" font-size="30" fill="#111827" font-weight="700">대상</text>
+    <text x="260" y="340" font-size="28" fill="#374151">소상공인 요건(인원·업종·매출) 충족</text>
+
+    <line x1="120" y1="380" x2="960" y2="380" stroke="#F1F5F9"/>
+
+    <text x="120" y="440" font-size="30" fill="#111827" font-weight="700">절차</text>
+    <text x="260" y="440" font-size="28" fill="#374151">지원대상 확인서 → 대출 신청(직접/대리)</text>
+
+    <line x1="120" y1="480" x2="960" y2="480" stroke="#F1F5F9"/>
+
+    <text x="120" y="540" font-size="30" fill="#111827" font-weight="700">서류</text>
+    <text x="260" y="540" font-size="28" fill="#374151">사업자등록증 · 과세표준증명원 · 매출증빙</text>
+
+    <line x1="120" y1="580" x2="960" y2="580" stroke="#F1F5F9"/>
+
+    <text x="120" y="640" font-size="30" fill="#111827" font-weight="700">주의</text>
+    <text x="260" y="640" font-size="28" fill="#374151">체납/연체/휴·폐업은 신청 제한 가능</text>
+
+    <line x1="120" y1="680" x2="960" y2="680" stroke="#F1F5F9"/>
+
+    <text x="120" y="740" font-size="30" fill="#111827" font-weight="700">기간</text>
+    <text x="260" y="740" font-size="28" fill="#374151">자금별 공고 상이 · 예산 소진 시 조기 마감</text>
+  </g>
+
+  <!-- Footer Note -->
+  <rect x="120" y="820" width="840" height="90" rx="12" fill="#F1F5F9"/>
+  <text x="150" y="875" font-size="24" fill="#4B5563" font-family="Pretendard, 'Noto Sans KR', sans-serif">
+    공식 공고 기준으로 최종 확인하세요
+  </text>
+</svg>

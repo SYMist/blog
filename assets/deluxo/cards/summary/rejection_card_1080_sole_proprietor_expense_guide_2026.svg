@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="8" fill="#EF4444"/>
+
+  <!-- Title -->
+  <text x="540" y="56" font-family="-apple-system, sans-serif" font-size="30" font-weight="900" fill="#EF4444" text-anchor="middle">개인사업자 경비 불인정 TOP 5</text>
+  <text x="540" y="90" font-family="-apple-system, sans-serif" font-size="17" font-weight="700" fill="#A0B4D0" text-anchor="middle">이 5가지를 경비로 처리하면 세무조사 또는 가산세 위험이 높아집니다</text>
+
+  <!-- Item 1 -->
+  <rect x="30" y="110" width="1020" height="168" rx="12" fill="#1A3270"/>
+  <rect x="30" y="110" width="6" height="168" rx="3" fill="#EF4444"/>
+  <circle cx="102" cy="194" r="36" fill="#EF4444"/>
+  <text x="102" y="203" font-family="-apple-system, sans-serif" font-size="32" font-weight="900" fill="#FFFFFF" text-anchor="middle">1</text>
+  <text x="160" y="162" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#FFFFFF">대표자 본인 급여</text>
+  <text x="160" y="192" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">개인사업자의 사업소득은 대표자 본인에게 귀속 — 급여를 따로 지급하더라도 경비 불인정</text>
+  <text x="160" y="222" font-family="-apple-system, sans-serif" font-size="15" fill="#EF4444">→ 법인 대표는 가능하지만 개인사업자는 불가. 배우자·가족 직원은 실제 근무 입증 시 인정</text>
+  <text x="160" y="254" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0">※ 가장 빈번한 실수 — 세무조사 시 1순위 점검 항목</text>
+
+  <!-- Item 2 -->
+  <rect x="30" y="284" width="1020" height="168" rx="12" fill="#0D2347"/>
+  <rect x="30" y="284" width="6" height="168" rx="3" fill="#EF4444"/>
+  <circle cx="102" cy="368" r="36" fill="#EF4444"/>
+  <text x="102" y="377" font-family="-apple-system, sans-serif" font-size="32" font-weight="900" fill="#FFFFFF" text-anchor="middle">2</text>
+  <text x="160" y="336" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#FFFFFF">소득세·주민세·벌과금·과태료</text>
+  <text x="160" y="366" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">세금·제재금은 사업 경비로 처리 불가 — 소득세·주민세·교통 범칙금·환경부 과태료 등 전액 불인정</text>
+  <text x="160" y="396" font-family="-apple-system, sans-serif" font-size="15" fill="#EF4444">→ 사업용 재산 재산세·사업장 관련 지방세는 예외적으로 인정 (세무사 확인 필요)</text>
+  <text x="160" y="426" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0">※ 건강보험료 중 사업장 부담분(직원 보험료 절반)은 인정됨</text>
+
+  <!-- Item 3 -->
+  <rect x="30" y="458" width="1020" height="168" rx="12" fill="#1A3270"/>
+  <rect x="30" y="458" width="6" height="168" rx="3" fill="#EF4444"/>
+  <circle cx="102" cy="542" r="36" fill="#EF4444"/>
+  <text x="102" y="551" font-family="-apple-system, sans-serif" font-size="32" font-weight="900" fill="#FFFFFF" text-anchor="middle">3</text>
+  <text x="160" y="510" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#FFFFFF">무증빙 3만원 이상 지출</text>
+  <text x="160" y="540" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">적격증빙(세금계산서·신용카드·현금영수증) 없는 3만원 이상 지출은 경비 불인정</text>
+  <text x="160" y="570" font-family="-apple-system, sans-serif" font-size="15" fill="#EF4444">→ 증빙불비 가산세 2% 별도 부과 — 5만원 무증빙 현금 지출 시 가산세 1,000원</text>
+  <text x="160" y="600" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0">※ 3만원 미만은 간이영수증 가능, 그 자리에서 현금영수증 요청하는 습관이 필수</text>
+
+  <!-- Item 4 -->
+  <rect x="30" y="632" width="1020" height="168" rx="12" fill="#0D2347"/>
+  <rect x="30" y="632" width="6" height="168" rx="3" fill="#EF4444"/>
+  <circle cx="102" cy="716" r="36" fill="#EF4444"/>
+  <text x="102" y="725" font-family="-apple-system, sans-serif" font-size="32" font-weight="900" fill="#FFFFFF" text-anchor="middle">4</text>
+  <text x="160" y="684" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#FFFFFF">개인 생활비·여가비 혼입</text>
+  <text x="160" y="714" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">개인 식사·마트 장보기·여행·취미 지출을 사업 경비로 처리 — 세무조사 시 가장 자주 적발</text>
+  <text x="160" y="744" font-family="-apple-system, sans-serif" font-size="15" fill="#EF4444">→ 사업용 카드와 개인 카드를 분리하지 않으면 전체 내역이 문제가 될 수 있음</text>
+  <text x="160" y="774" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0">※ 사업 관련 식사·접대는 접대비로 처리 (1,200만원 한도, 적격증빙 필수)</text>
+
+  <!-- Item 5 -->
+  <rect x="30" y="806" width="1020" height="168" rx="12" fill="#1A3270"/>
+  <rect x="30" y="806" width="6" height="168" rx="3" fill="#EF4444"/>
+  <circle cx="102" cy="890" r="36" fill="#EF4444"/>
+  <text x="102" y="899" font-family="-apple-system, sans-serif" font-size="32" font-weight="900" fill="#FFFFFF" text-anchor="middle">5</text>
+  <text x="160" y="858" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#FFFFFF">가족 급여 (실제 근무 미입증)</text>
+  <text x="160" y="888" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">배우자·부모·자녀를 직원으로 두고 급여를 지급하더라도 실제 근무 사실을 입증하지 못하면 불인정</text>
+  <text x="160" y="918" font-family="-apple-system, sans-serif" font-size="15" fill="#EF4444">→ 근로계약서 작성 + 통장 이체 지급 + 4대보험 가입이 기본 요건</text>
+  <text x="160" y="948" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0">※ 형식만 갖추고 실제 근무 없이 급여 지급 시 세무조사에서 소득세·4대보험 추징</text>
+
+  <text x="540" y="1060" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준 | 개인 사업 상황에 따라 다를 수 있음 | 세무사 또는 국세청 ☎126 확인 권장</text>
+  <rect x="0" y="1072" width="1080" height="8" fill="#EF4444"/>
+</svg>

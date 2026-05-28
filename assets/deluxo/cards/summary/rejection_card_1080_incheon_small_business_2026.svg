@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <text x="540" y="118" font-family="'Pretendard', sans-serif" font-size="44" font-weight="900" fill="#EF4444" text-anchor="middle">⚠ 인천 소상공인 탈락 사유 TOP 5</text>
+  <text x="540" y="196" font-family="'Pretendard', sans-serif" font-size="52" font-weight="900" fill="#FFFFFF" text-anchor="middle">이것만은 피하세요</text>
+
+  <rect x="60" y="250" width="960" height="140" rx="20" fill="#1A3270"/>
+  <text x="100" y="305" font-family="'Pretendard', sans-serif" font-size="28" font-weight="900" fill="#EF4444">① 인천 소재 사업장 미등록</text>
+  <text x="100" y="360" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF">사업자등록증 주소가 인천이 아니면 신청 자체 불가 ✕</text>
+
+  <rect x="60" y="408" width="960" height="140" rx="20" fill="#1A3270"/>
+  <text x="100" y="463" font-family="'Pretendard', sans-serif" font-size="28" font-weight="900" fill="#EF4444">② 상시근로자 기준 초과</text>
+  <text x="100" y="518" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF">5인 이상(제조업 등 10인 이상) → 소상공인 기준 제외 ✕</text>
+
+  <rect x="60" y="566" width="960" height="140" rx="20" fill="#1A3270"/>
+  <text x="100" y="621" font-family="'Pretendard', sans-serif" font-size="28" font-weight="900" fill="#EF4444">③ 신용평가 기준 미달</text>
+  <text x="100" y="676" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF">연체·불량 이력 → 자동심사 탈락, 사전 신용 조회 필수</text>
+
+  <rect x="60" y="724" width="960" height="140" rx="20" fill="#1A3270"/>
+  <text x="100" y="779" font-family="'Pretendard', sans-serif" font-size="28" font-weight="900" fill="#EF4444">④ 기존 인천신보 보증 한도 소진</text>
+  <text x="100" y="834" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF">기존 보증 잔액 과다 → 추가 한도 부족으로 거절 ✕</text>
+
+  <rect x="60" y="882" width="960" height="140" rx="20" fill="#F59E0B"/>
+  <text x="100" y="937" font-family="'Pretendard', sans-serif" font-size="28" font-weight="900" fill="#0B1F3B">⑤ 정상 영업 미충족</text>
+  <text x="100" y="992" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#0B1F3B">영업 정지·휴업·폐업 신고 상태 → 지원 대상 제외</text>
+</svg>
