@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1700" fill="url(#bg)"/>
+
+  <!-- Header -->
+  <rect x="60" y="50" width="380" height="44" rx="22" fill="#B45309"/>
+  <text x="250" y="80" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">2026 세제혜택 계좌 상세 비교표</text>
+
+  <text x="60" y="165" fill="#FFFFFF" font-size="52" font-weight="800" font-family="sans-serif">항목별 완전 분석</text>
+  <text x="60" y="230" fill="#FCD34D" font-size="52" font-weight="800" font-family="sans-serif">ISA · 연금저축 · IRP</text>
+
+  <!-- Table Header -->
+  <rect x="60" y="270" width="220" height="56" rx="0" fill="#1e293b"/>
+  <text x="170" y="305" text-anchor="middle" fill="#94A3B8" font-size="17" font-weight="700" font-family="sans-serif">비교 항목</text>
+
+  <rect x="280" y="270" width="270" height="56" rx="0" fill="#92400E"/>
+  <text x="415" y="305" text-anchor="middle" fill="#FCD34D" font-size="20" font-weight="800" font-family="sans-serif">ISA</text>
+
+  <rect x="550" y="270" width="270" height="56" rx="0" fill="#064E3B"/>
+  <text x="685" y="305" text-anchor="middle" fill="#6EE7B7" font-size="20" font-weight="800" font-family="sans-serif">연금저축</text>
+
+  <rect x="820" y="270" width="320" height="56" rx="0" fill="#1E3A8A"/>
+  <text x="980" y="305" text-anchor="middle" fill="#93C5FD" font-size="20" font-weight="800" font-family="sans-serif">IRP</text>
+
+  <!-- Row: 가입 자격 -->
+  <rect x="60" y="326" width="220" height="76" rx="0" fill="#0f172a" stroke="#334155" stroke-width="0.5"/>
+  <text x="170" y="368" text-anchor="middle" fill="#94A3B8" font-size="15" font-weight="600" font-family="sans-serif">가입</text>
+  <text x="170" y="390" text-anchor="middle" fill="#94A3B8" font-size="15" font-weight="600" font-family="sans-serif">자격</text>
+
+  <rect x="280" y="326" width="270" height="76" rx="0" fill="#1a1a2e" stroke="#B45309" stroke-width="0.5"/>
+  <text x="415" y="358" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="700" font-family="sans-serif">19세↑ 국내 거주자</text>
+  <text x="415" y="382" text-anchor="middle" fill="#D97706" font-size="14" font-family="sans-serif">(금융소득종합 제외)</text>
+
+  <rect x="550" y="326" width="270" height="76" rx="0" fill="#1a1a2e" stroke="#0F766E" stroke-width="0.5"/>
+  <text x="685" y="358" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="700" font-family="sans-serif">거주자 누구나</text>
+  <text x="685" y="382" text-anchor="middle" fill="#10B981" font-size="14" font-family="sans-serif">소득 없어도 가입 가능</text>
+
+  <rect x="820" y="326" width="320" height="76" rx="0" fill="#1a1a2e" stroke="#1E40AF" stroke-width="0.5"/>
+  <text x="980" y="358" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="700" font-family="sans-serif">근로자·자영업자</text>
+  <text x="980" y="382" text-anchor="middle" fill="#3B82F6" font-size="14" font-family="sans-serif">소득 있어야 가입</text>
+
+  <!-- Row: 연간 한도 -->
+  <rect x="60" y="402" width="220" height="76" rx="0" fill="#0f172a" stroke="#334155" stroke-width="0.5"/>
+  <text x="170" y="444" text-anchor="middle" fill="#94A3B8" font-size="15" font-weight="600" font-family="sans-serif">연간</text>
+  <text x="170" y="466" text-anchor="middle" fill="#94A3B8" font-size="15" font-weight="600" font-family="sans-serif">납입한도</text>
+
+  <rect x="280" y="402" width="270" height="76" rx="0" fill="#1a1a2e" stroke="#B45309" stroke-width="0.5"/>
+  <text x="415" y="440" text-anchor="middle" fill="#FCD34D" font-size="24" font-weight="800" font-family="sans-serif">2,000만원</text>
+  <text x="415" y="464" text-anchor="middle" fill="#D97706" font-size="14" font-family="sans-serif">총 한도 1억원</text>
+
+  <rect x="550" y="402" width="270" height="76" rx="0" fill="#1a1a2e" stroke="#0F766E" stroke-width="0.5"/>
+  <text x="685" y="440" text-anchor="middle" fill="#6EE7B7" font-size="24" font-weight="800" font-family="sans-serif">1,800만원</text>
+  <text x="685" y="464" text-anchor="middle" fill="#10B981" font-size="14" font-family="sans-serif">세액공제는 600만</text>
+
+  <rect x="820" y="402" width="320" height="76" rx="0" fill="#1a1a2e" stroke="#1E40AF" stroke-width="0.5"/>
+  <text x="980" y="440" text-anchor="middle" fill="#93C5FD" font-size="24" font-weight="800" font-family="sans-serif">1,800만원</text>
+  <text x="980" y="464" text-anchor="middle" fill="#3B82F6" font-size="14" font-family="sans-serif">세액공제 연금저축 합산 900만</text>
+
+  <!-- Row: 세금 혜택 -->
+  <rect x="60" y="478" width="220" height="100" rx="0" fill="#0f172a" stroke="#334155" stroke-width="0.5"/>
+  <text x="170" y="530" text-anchor="middle" fill="#94A3B8" font-size="15" font-weight="600" font-family="sans-serif">세금</text>
+  <text x="170" y="552" text-anchor="middle" fill="#94A3B8" font-size="15" font-weight="600" font-family="sans-serif">혜택</text>
+
+  <rect x="280" y="478" width="270" height="100" rx="0" fill="#1a1a2e" stroke="#B45309" stroke-width="0.5"/>
+  <text x="415" y="514" text-anchor="middle" fill="#FCD34D" font-size="20" font-weight="700" font-family="sans-serif">비과세 200만원</text>
+  <text x="415" y="540" text-anchor="middle" fill="#FFFFFF" font-size="15" font-family="sans-serif">서민·농어민형 400만원</text>
+  <text x="415" y="562" text-anchor="middle" fill="#D97706" font-size="14" font-family="sans-serif">초과분 분리과세 9.9%</text>
+
+  <rect x="550" y="478" width="270" height="100" rx="0" fill="#1a1a2e" stroke="#0F766E" stroke-width="0.5"/>
+  <text x="685" y="510" text-anchor="middle" fill="#6EE7B7" font-size="20" font-weight="700" font-family="sans-serif">세액공제 최대 99만</text>
+  <text x="685" y="536" text-anchor="middle" fill="#FFFFFF" font-size="15" font-family="sans-serif">5,500만↓: 600만×16.5%</text>
+  <text x="685" y="562" text-anchor="middle" fill="#94A3B8" font-size="14" font-family="sans-serif">5,500만↑: 600만×13.2%=79.2만</text>
+
+  <rect x="820" y="478" width="320" height="100" rx="0" fill="#1a1a2e" stroke="#1E40AF" stroke-width="0.5"/>
+  <text x="980" y="510" text-anchor="middle" fill="#93C5FD" font-size="20" font-weight="700" font-family="sans-serif">세액공제 최대 148.5만</text>
+  <text x="980" y="536" text-anchor="middle" fill="#FFFFFF" font-size="15" font-family="sans-serif">합산 900만×16.5%</text>
+  <text x="980" y="562" text-anchor="middle" fill="#3B82F6" font-size="14" font-family="sans-serif">IRP 단독도 가능 (600만→99만)</text>
+
+  <!-- Row: 운용수익 과세 -->
+  <rect x="60" y="578" width="220" height="76" rx="0" fill="#0f172a" stroke="#334155" stroke-width="0.5"/>
+  <text x="170" y="620" text-anchor="middle" fill="#94A3B8" font-size="15" font-weight="600" font-family="sans-serif">운용수익</text>
+  <text x="170" y="642" text-anchor="middle" fill="#94A3B8" font-size="15" font-weight="600" font-family="sans-serif">과세</text>
+
+  <rect x="280" y="578" width="270" height="76" rx="0" fill="#1a1a2e" stroke="#B45309" stroke-width="0.5"/>
+  <text x="415" y="614" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="700" font-family="sans-serif">비과세 한도 초과시</text>
+  <text x="415" y="638" text-anchor="middle" fill="#D97706" font-size="14" font-family="sans-serif">분리과세 9.9% (종합소득 제외)</text>
+
+  <rect x="550" y="578" width="270" height="76" rx="0" fill="#1a1a2e" stroke="#0F766E" stroke-width="0.5"/>
+  <text x="685" y="614" text-anchor="middle" fill="#6EE7B7" font-size="16" font-weight="700" font-family="sans-serif">과세이연 → 연금소득세</text>
+  <text x="685" y="638" text-anchor="middle" fill="#10B981" font-size="14" font-family="sans-serif">3.3~5.5% (연령별)</text>
+
+  <rect x="820" y="578" width="320" height="76" rx="0" fill="#1a1a2e" stroke="#1E40AF" stroke-width="0.5"/>
+  <text x="980" y="614" text-anchor="middle" fill="#93C5FD" font-size="16" font-weight="700" font-family="sans-serif">과세이연 → 연금소득세</text>
+  <text x="980" y="638" text-anchor="middle" fill="#3B82F6" font-size="14" font-family="sans-serif">3.3~5.5% (연령별)</text>
+
+  <!-- Row: 투자 가능 상품 -->
+  <rect x="60" y="654" width="220" height="100" rx="0" fill="#0f172a" stroke="#334155" stroke-width="0.5"/>
+  <text x="170" y="706" text-anchor="middle" fill="#94A3B8" font-size="15" font-weight="600" font-family="sans-serif">투자</text>
+  <text x="170" y="728" text-anchor="middle" fill="#94A3B8" font-size="15" font-weight="600" font-family="sans-serif">가능 상품</text>
+
+  <rect x="280" y="654" width="270" height="100" rx="0" fill="#1a1a2e" stroke="#B45309" stroke-width="0.5"/>
+  <text x="415" y="690" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700" font-family="sans-serif">주식·ETF·채권</text>
+  <text x="415" y="714" text-anchor="middle" fill="#D97706" font-size="14" font-family="sans-serif">예금·RP·ELS</text>
+  <text x="415" y="738" text-anchor="middle" fill="#FCD34D" font-size="13" font-family="sans-serif">국내상장 주식 직접투자 가능</text>
+
+  <rect x="550" y="654" width="270" height="100" rx="0" fill="#1a1a2e" stroke="#0F766E" stroke-width="0.5"/>
+  <text x="685" y="690" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700" font-family="sans-serif">펀드·ETF·채권</text>
+  <text x="685" y="714" text-anchor="middle" fill="#10B981" font-size="14" font-family="sans-serif">예금·보험·신탁</text>
+  <text x="685" y="738" text-anchor="middle" fill="#FCA5A5" font-size="13" font-family="sans-serif">국내상장 주식 직접투자 불가</text>
+
+  <rect x="820" y="654" width="320" height="100" rx="0" fill="#1a1a2e" stroke="#1E40AF" stroke-width="0.5"/>
+  <text x="980" y="690" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700" font-family="sans-serif">펀드·ETF·GIC·예금</text>
+  <text x="980" y="714" text-anchor="middle" fill="#3B82F6" font-size="14" font-family="sans-serif">위험자산 70% 한도</text>
+  <text x="980" y="738" text-anchor="middle" fill="#FCA5A5" font-size="13" font-family="sans-serif">국내상장 주식 직접투자 불가</text>
+
+  <!-- Row: 수령 조건 -->
+  <rect x="60" y="754" width="220" height="100" rx="0" fill="#0f172a" stroke="#334155" stroke-width="0.5"/>
+  <text x="170" y="806" text-anchor="middle" fill="#94A3B8" font-size="15" font-weight="600" font-family="sans-serif">수령</text>
+  <text x="170" y="828" text-anchor="middle" fill="#94A3B8" font-size="15" font-weight="600" font-family="sans-serif">조건</text>
+
+  <rect x="280" y="754" width="270" height="100" rx="0" fill="#1a1a2e" stroke="#B45309" stroke-width="0.5"/>
+  <text x="415" y="790" text-anchor="middle" fill="#6EE7B7" font-size="18" font-weight="700" font-family="sans-serif">3년 후 자유 인출</text>
+  <text x="415" y="816" text-anchor="middle" fill="#D97706" font-size="14" font-family="sans-serif">만기 일시 수령 가능</text>
+  <text x="415" y="840" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">연금계좌 이전 시 추가혜택</text>
+
+  <rect x="550" y="754" width="270" height="100" rx="0" fill="#1a1a2e" stroke="#0F766E" stroke-width="0.5"/>
+  <text x="685" y="790" text-anchor="middle" fill="#FCA5A5" font-size="18" font-weight="700" font-family="sans-serif">55세 이후</text>
+  <text x="685" y="816" text-anchor="middle" fill="#10B981" font-size="14" font-family="sans-serif">10년 이상 연금 수령</text>
+  <text x="685" y="840" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">일시금 시 기타소득세 16.5%</text>
+
+  <rect x="820" y="754" width="320" height="100" rx="0" fill="#1a1a2e" stroke="#1E40AF" stroke-width="0.5"/>
+  <text x="980" y="790" text-anchor="middle" fill="#FCA5A5" font-size="18" font-weight="700" font-family="sans-serif">55세+퇴직·폐업·사망</text>
+  <text x="980" y="816" text-anchor="middle" fill="#3B82F6" font-size="14" font-family="sans-serif">10년 이상 연금 수령</text>
+  <text x="980" y="840" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">일시금 시 기타소득세 16.5%</text>
+
+  <!-- Row: 연금수령 세율 -->
+  <rect x="60" y="854" width="220" height="100" rx="0" fill="#0f172a" stroke="#334155" stroke-width="0.5"/>
+  <text x="170" y="906" text-anchor="middle" fill="#94A3B8" font-size="15" font-weight="600" font-family="sans-serif">연금수령</text>
+  <text x="170" y="928" text-anchor="middle" fill="#94A3B8" font-size="15" font-weight="600" font-family="sans-serif">세율</text>
+
+  <rect x="280" y="854" width="270" height="100" rx="0" fill="#1a1a2e" stroke="#B45309" stroke-width="0.5"/>
+  <text x="415" y="890" text-anchor="middle" fill="#94A3B8" font-size="16" font-weight="600" font-family="sans-serif">해당 없음</text>
+  <text x="415" y="916" text-anchor="middle" fill="#D97706" font-size="14" font-family="sans-serif">(연금계좌 이전 후 적용)</text>
+
+  <rect x="550" y="854" width="270" height="100" rx="0" fill="#1a1a2e" stroke="#0F766E" stroke-width="0.5"/>
+  <text x="685" y="886" text-anchor="middle" fill="#6EE7B7" font-size="18" font-weight="700" font-family="sans-serif">3.3% (80세↑)</text>
+  <text x="685" y="910" text-anchor="middle" fill="#10B981" font-size="16" font-weight="700" font-family="sans-serif">4.4% (70~79세)</text>
+  <text x="685" y="934" text-anchor="middle" fill="#10B981" font-size="16" font-weight="700" font-family="sans-serif">5.5% (55~69세)</text>
+
+  <rect x="820" y="854" width="320" height="100" rx="0" fill="#1a1a2e" stroke="#1E40AF" stroke-width="0.5"/>
+  <text x="980" y="886" text-anchor="middle" fill="#93C5FD" font-size="18" font-weight="700" font-family="sans-serif">3.3% (80세↑)</text>
+  <text x="980" y="910" text-anchor="middle" fill="#3B82F6" font-size="16" font-weight="700" font-family="sans-serif">4.4% (70~79세)</text>
+  <text x="980" y="934" text-anchor="middle" fill="#3B82F6" font-size="16" font-weight="700" font-family="sans-serif">5.5% (55~69세)</text>
+
+  <!-- Row: 손익통산 -->
+  <rect x="60" y="954" width="220" height="76" rx="0" fill="#0f172a" stroke="#334155" stroke-width="0.5"/>
+  <text x="170" y="996" text-anchor="middle" fill="#94A3B8" font-size="15" font-weight="600" font-family="sans-serif">손익통산</text>
+
+  <rect x="280" y="954" width="270" height="76" rx="0" fill="#1a1a2e" stroke="#B45309" stroke-width="0.5"/>
+  <text x="415" y="990" text-anchor="middle" fill="#FCD34D" font-size="26" font-weight="800" font-family="sans-serif">O (가능)</text>
+  <text x="415" y="1014" text-anchor="middle" fill="#D97706" font-size="14" font-family="sans-serif">계좌 내 전 상품 합산</text>
+
+  <rect x="550" y="954" width="270" height="76" rx="0" fill="#1a1a2e" stroke="#0F766E" stroke-width="0.5"/>
+  <text x="685" y="990" text-anchor="middle" fill="#FCA5A5" font-size="26" font-weight="800" font-family="sans-serif">X (불가)</text>
+  <text x="685" y="1014" text-anchor="middle" fill="#94A3B8" font-size="14" font-family="sans-serif">상품별 과세</text>
+
+  <rect x="820" y="954" width="320" height="76" rx="0" fill="#1a1a2e" stroke="#1E40AF" stroke-width="0.5"/>
+  <text x="980" y="990" text-anchor="middle" fill="#FCA5A5" font-size="26" font-weight="800" font-family="sans-serif">X (불가)</text>
+  <text x="980" y="1014" text-anchor="middle" fill="#94A3B8" font-size="14" font-family="sans-serif">상품별 과세</text>
+
+  <!-- 2026 개정안 박스 -->
+  <rect x="60" y="1080" width="1080" height="140" rx="16" fill="#1e293b" stroke="#FCD34D" stroke-width="2"/>
+  <text x="600" y="1120" text-anchor="middle" fill="#FCD34D" font-size="20" font-weight="800" font-family="sans-serif">2026 세법 개정안 (현재 미통과 — 시행 시 변경)</text>
+  <text x="600" y="1158" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="700" font-family="sans-serif">연금저축+IRP 한도 900만 → 1,800만원 확대</text>
+  <text x="600" y="1190" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="700" font-family="sans-serif">ISA 연간 한도 2,000만 → 4,000만원 확대</text>
+
+  <!-- ISA 만기이전 전략 박스 -->
+  <rect x="60" y="1260" width="1080" height="160" rx="16" fill="url(#card)" stroke="#B45309" stroke-width="2"/>
+  <text x="600" y="1300" text-anchor="middle" fill="#FCD34D" font-size="20" font-weight="800" font-family="sans-serif">ISA 만기 연금이전 시 추가 혜택</text>
+  <text x="600" y="1340" text-anchor="middle" fill="#FFFFFF" font-size="28" font-weight="800" font-family="sans-serif">만기금 3,000만원↑ 이전 → 추가 공제 300만원</text>
+  <text x="600" y="1375" text-anchor="middle" fill="#D97706" font-size="20" font-weight="700" font-family="sans-serif">→ 연간 총 공제 1,200만원 → 환급 198만원 (5,500만↓ 16.5%)</text>
+  <text x="600" y="1405" text-anchor="middle" fill="#94A3B8" font-size="15" font-family="sans-serif">이전 금액의 10%, 최대 300만원 / 해당 연도 연금계좌에 반영</text>
+
+  <text x="60" y="1656" fill="#64748B" font-size="14" font-family="sans-serif">essencial | 대출·금융 silo · 금융위·국세청·기획재정부 (2026.04 기준) · 개인 상황에 따라 달라질 수 있음</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+
+  <rect x="80" y="120" width="280" height="52" rx="26" fill="rgba(245,158,11,0.2)"/>
+  <text x="220" y="154" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#F59E0B">2026 최신판</text>
+
+  <text x="80" y="280" font-family="'Pretendard',sans-serif" font-size="82" font-weight="900" fill="#FFFFFF">소상공인 대출</text>
+  <text x="80" y="380" font-family="'Pretendard',sans-serif" font-size="82" font-weight="900" fill="#FFFFFF">금리 비교</text>
+
+  <text x="80" y="470" font-family="'Pretendard',sans-serif" font-size="52" font-weight="600" fill="#EAF2FF">시중은행 vs 정책자금</text>
+  <text x="80" y="540" font-family="'Pretendard',sans-serif" font-size="52" font-weight="600" fill="#EAF2FF">vs 보증대출 총정리</text>
+
+  <rect x="80" y="600" width="200" height="52" rx="26" fill="#E8F0FF"/>
+  <text x="180" y="634" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="700" fill="#1D4ED8">금리 비교</text>
+
+  <rect x="300" y="600" width="200" height="52" rx="26" fill="#E8F0FF"/>
+  <text x="400" y="634" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="700" fill="#1D4ED8">대환대출</text>
+
+  <rect x="520" y="600" width="240" height="52" rx="26" fill="#E8F0FF"/>
+  <text x="640" y="634" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="700" fill="#1D4ED8">이차보전</text>
+
+  <rect x="60" y="720" width="960" height="300" rx="24" fill="rgba(245,158,11,0.08)"/>
+  <text x="540" y="770" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="700" fill="#F59E0B">핵심 수치</text>
+
+  <text x="200" y="830" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="52" font-weight="900" fill="#FFF">3.36%</text>
+  <text x="200" y="870" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="600" fill="#EAF2FF">정책자금 기준금리</text>
+
+  <text x="540" y="830" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="52" font-weight="900" fill="#FFF">4.5%</text>
+  <text x="540" y="870" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="600" fill="#EAF2FF">대환대출 고정금리</text>
+
+  <text x="880" y="830" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="52" font-weight="900" fill="#FFF">0.8%p</text>
+  <text x="880" y="870" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="600" fill="#EAF2FF">금리 우대 최대</text>
+
+  <text x="540" y="990" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#F59E0B">정책자금 3.3조 · 이차보전 · 마이데이터 자동 인하</text>
+</svg>

@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <text x="540" y="108" font-family="'Pretendard', sans-serif" font-size="44" font-weight="900" fill="#F59E0B" text-anchor="middle">인천 3대 자금지원 한 눈에</text>
+  <text x="540" y="164" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#EAF2FF" text-anchor="middle">경영안정자금 · 밸류업 보증 · 인천e음</text>
+
+  <!-- Header Row -->
+  <rect x="60" y="200" width="180" height="110" rx="0" fill="#1A3270"/>
+  <text x="150" y="263" font-family="'Pretendard', sans-serif" font-size="20" font-weight="800" fill="#EAF2FF" text-anchor="middle">구분</text>
+
+  <rect x="248" y="200" width="260" height="110" rx="0" fill="#1D4ED8"/>
+  <text x="378" y="255" font-family="'Pretendard', sans-serif" font-size="20" font-weight="900" fill="#FFFFFF" text-anchor="middle">경영안정자금</text>
+  <text x="378" y="293" font-family="'Pretendard', sans-serif" font-size="16" font-weight="700" fill="#C7D9FF" text-anchor="middle">1·2단계 합산 2,145억</text>
+
+  <rect x="516" y="200" width="260" height="110" rx="0" fill="#1E40AF"/>
+  <text x="646" y="255" font-family="'Pretendard', sans-serif" font-size="20" font-weight="900" fill="#FFFFFF" text-anchor="middle">밸류업 특별보증</text>
+  <text x="646" y="293" font-family="'Pretendard', sans-serif" font-size="16" font-weight="700" fill="#C7D9FF" text-anchor="middle">총 1,245억</text>
+
+  <rect x="784" y="200" width="236" height="110" rx="0" fill="#F59E0B"/>
+  <text x="902" y="255" font-family="'Pretendard', sans-serif" font-size="20" font-weight="900" fill="#0B1F3B" text-anchor="middle">인천e음</text>
+  <text x="902" y="293" font-family="'Pretendard', sans-serif" font-size="16" font-weight="700" fill="#0B1F3B" text-anchor="middle">12만 가맹점</text>
+
+  <!-- Row: 한도/혜택 -->
+  <rect x="60" y="318" width="180" height="140" rx="0" fill="#162C5A"/>
+  <text x="150" y="395" font-family="'Pretendard', sans-serif" font-size="19" font-weight="800" fill="#EAF2FF" text-anchor="middle">한도/혜택</text>
+
+  <rect x="248" y="318" width="260" height="140" rx="0" fill="#0F2247"/>
+  <text x="378" y="385" font-family="'Pretendard', sans-serif" font-size="30" font-weight="900" fill="#FFFFFF" text-anchor="middle">5,000만원</text>
+  <text x="378" y="440" font-family="'Pretendard', sans-serif" font-size="17" font-weight="600" fill="#EAF2FF" text-anchor="middle">업체당 최대</text>
+
+  <rect x="516" y="318" width="260" height="140" rx="0" fill="#0F2247"/>
+  <text x="646" y="372" font-family="'Pretendard', sans-serif" font-size="19" font-weight="700" fill="#F59E0B" text-anchor="middle">창업기 1억</text>
+  <text x="646" y="408" font-family="'Pretendard', sans-serif" font-size="19" font-weight="700" fill="#F59E0B" text-anchor="middle">도약기 1.5억</text>
+  <text x="646" y="444" font-family="'Pretendard', sans-serif" font-size="19" font-weight="700" fill="#F59E0B" text-anchor="middle">성장기 2억</text>
+
+  <rect x="784" y="318" width="236" height="140" rx="0" fill="#0F2247"/>
+  <text x="902" y="380" font-family="'Pretendard', sans-serif" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="middle">월 7.5만원</text>
+  <text x="902" y="418" font-family="'Pretendard', sans-serif" font-size="17" font-weight="600" fill="#EAF2FF" text-anchor="middle">강화·옹진 기준</text>
+  <text x="902" y="448" font-family="'Pretendard', sans-serif" font-size="16" font-weight="600" fill="#EAF2FF" text-anchor="middle">내륙 월 5만</text>
+
+  <!-- Row: 금리/조건 -->
+  <rect x="60" y="466" width="180" height="140" rx="0" fill="#162C5A"/>
+  <text x="150" y="543" font-family="'Pretendard', sans-serif" font-size="19" font-weight="800" fill="#EAF2FF" text-anchor="middle">금리/조건</text>
+
+  <rect x="248" y="466" width="260" height="140" rx="0" fill="#1A3270"/>
+  <text x="378" y="520" font-family="'Pretendard', sans-serif" font-size="18" font-weight="700" fill="#EAF2FF" text-anchor="middle">첫 1년 2.0% 지원</text>
+  <text x="378" y="556" font-family="'Pretendard', sans-serif" font-size="18" font-weight="700" fill="#EAF2FF" text-anchor="middle">이후 2년 1.5%</text>
+  <text x="378" y="590" font-family="'Pretendard', sans-serif" font-size="16" font-weight="600" fill="#A0B4D0" text-anchor="middle">+보증료 0.8%</text>
+
+  <rect x="516" y="466" width="260" height="140" rx="0" fill="#1A3270"/>
+  <text x="646" y="526" font-family="'Pretendard', sans-serif" font-size="18" font-weight="700" fill="#EAF2FF" text-anchor="middle">보증 제공</text>
+  <text x="646" y="562" font-family="'Pretendard', sans-serif" font-size="18" font-weight="700" fill="#EAF2FF" text-anchor="middle">협약 은행 금리</text>
+
+  <rect x="784" y="466" width="236" height="140" rx="0" fill="#1A3270"/>
+  <text x="902" y="520" font-family="'Pretendard', sans-serif" font-size="18" font-weight="700" fill="#EAF2FF" text-anchor="middle">연매출 30억↓</text>
+  <text x="902" y="556" font-family="'Pretendard', sans-serif" font-size="18" font-weight="700" fill="#EAF2FF" text-anchor="middle">가맹점 무료 등록</text>
+
+  <!-- Row: 대상 -->
+  <rect x="60" y="614" width="180" height="120" rx="0" fill="#162C5A"/>
+  <text x="150" y="682" font-family="'Pretendard', sans-serif" font-size="19" font-weight="800" fill="#EAF2FF" text-anchor="middle">대상</text>
+
+  <rect x="248" y="614" width="260" height="120" rx="0" fill="#0F2247"/>
+  <text x="378" y="668" font-family="'Pretendard', sans-serif" font-size="18" font-weight="700" fill="#EAF2FF" text-anchor="middle">인천 소상공인</text>
+  <text x="378" y="706" font-family="'Pretendard', sans-serif" font-size="16" font-weight="600" fill="#A0B4D0" text-anchor="middle">전체 업종 가능</text>
+
+  <rect x="516" y="614" width="260" height="120" rx="0" fill="#0F2247"/>
+  <text x="646" y="668" font-family="'Pretendard', sans-serif" font-size="18" font-weight="700" fill="#EAF2FF" text-anchor="middle">창업~성장기업</text>
+  <text x="646" y="706" font-family="'Pretendard', sans-serif" font-size="16" font-weight="600" fill="#A0B4D0" text-anchor="middle">단계별 구분</text>
+
+  <rect x="784" y="614" width="236" height="120" rx="0" fill="#0F2247"/>
+  <text x="902" y="668" font-family="'Pretendard', sans-serif" font-size="18" font-weight="700" fill="#EAF2FF" text-anchor="middle">인천 소비자·</text>
+  <text x="902" y="706" font-family="'Pretendard', sans-serif" font-size="18" font-weight="700" fill="#EAF2FF" text-anchor="middle">소상공인 가맹점</text>
+
+  <!-- Row: 신청처 -->
+  <rect x="60" y="742" width="180" height="110" rx="0" fill="#162C5A"/>
+  <text x="150" y="808" font-family="'Pretendard', sans-serif" font-size="19" font-weight="800" fill="#EAF2FF" text-anchor="middle">신청처</text>
+
+  <rect x="248" y="742" width="260" height="110" rx="0" fill="#1A3270"/>
+  <text x="378" y="804" font-family="'Pretendard', sans-serif" font-size="17" font-weight="700" fill="#EAF2FF" text-anchor="middle">보증드림 앱</text>
+  <text x="378" y="838" font-family="'Pretendard', sans-serif" font-size="17" font-weight="700" fill="#EAF2FF" text-anchor="middle">협약 7개 은행</text>
+
+  <rect x="516" y="742" width="260" height="110" rx="0" fill="#1A3270"/>
+  <text x="646" y="804" font-family="'Pretendard', sans-serif" font-size="17" font-weight="700" fill="#EAF2FF" text-anchor="middle">인천신용보증재단</text>
+  <text x="646" y="838" font-family="'Pretendard', sans-serif" font-size="17" font-weight="700" fill="#EAF2FF" text-anchor="middle">1577-3790</text>
+
+  <rect x="784" y="742" width="236" height="110" rx="0" fill="#1A3270"/>
+  <text x="902" y="800" font-family="'Pretendard', sans-serif" font-size="17" font-weight="700" fill="#EAF2FF" text-anchor="middle">인천e음 앱</text>
+  <text x="902" y="836" font-family="'Pretendard', sans-serif" font-size="17" font-weight="700" fill="#EAF2FF" text-anchor="middle">incheoneum.or.kr</text>
+
+  <!-- Bottom bar -->
+  <rect x="60" y="886" width="960" height="140" rx="20" fill="#F59E0B"/>
+  <text x="540" y="944" font-family="'Pretendard', sans-serif" font-size="28" font-weight="900" fill="#0B1F3B" text-anchor="middle">경영안정자금 + 밸류업 동시 신청 가능</text>
+  <text x="540" y="1000" font-family="'Pretendard', sans-serif" font-size="22" font-weight="700" fill="#0B1F3B" text-anchor="middle">인천신보 상담 먼저 — 1577-3790</text>
+</svg>

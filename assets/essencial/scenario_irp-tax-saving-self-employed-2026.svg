@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="amber" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#B45309"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+  </defs>
+  <rect width="860" height="900" fill="url(#bg)" rx="20"/>
+
+  <text x="30" y="45" fill="#FFF" font-size="24" font-weight="900" font-family="Pretendard,sans-serif">상황별 IRP 절세 조합 추천 가이드</text>
+  <rect x="30" y="57" width="220" height="3" rx="2" fill="url(#amber)"/>
+
+  <!-- Scenario 1 -->
+  <rect x="30" y="80" width="800" height="105" rx="14" fill="#1E293B" stroke="#D97706" stroke-width="2"/>
+  <rect x="45" y="95" width="34" height="34" rx="17" fill="#D97706"/>
+  <text x="62" y="118" text-anchor="middle" fill="#FFF" font-size="16" font-weight="900" font-family="Pretendard,sans-serif">1</text>
+  <text x="95" y="115" fill="#FFF" font-size="17" font-weight="800" font-family="Pretendard,sans-serif">소득 3,500만, 자영업 10년+</text>
+  <text x="95" y="145" fill="#94A3B8" font-size="13" font-family="Pretendard,sans-serif">연금저축 600만 + IRP 300만 + 노란우산 600만</text>
+  <text x="95" y="170" fill="#FBBF24" font-size="15" font-weight="800" font-family="Pretendard,sans-serif">→ 연간 약 307만 원 절세</text>
+
+  <!-- Scenario 2 -->
+  <rect x="30" y="200" width="800" height="105" rx="14" fill="#1E293B" stroke="#22C55E" stroke-width="2"/>
+  <rect x="45" y="215" width="34" height="34" rx="17" fill="#22C55E"/>
+  <text x="62" y="238" text-anchor="middle" fill="#FFF" font-size="16" font-weight="900" font-family="Pretendard,sans-serif">2</text>
+  <text x="95" y="235" fill="#FFF" font-size="17" font-weight="800" font-family="Pretendard,sans-serif">소득 7,000만, ISA 만기 도래</text>
+  <text x="95" y="265" fill="#94A3B8" font-size="13" font-family="Pretendard,sans-serif">연금저축 600만 + IRP 300만 + ISA전환 300만 + 노란우산 400만</text>
+  <text x="95" y="290" fill="#86EFAC" font-size="15" font-weight="800" font-family="Pretendard,sans-serif">→ 연간 약 264만 원 절세 (ISA 추가 공제 포함)</text>
+
+  <!-- Scenario 3 -->
+  <rect x="30" y="320" width="800" height="105" rx="14" fill="#1E293B" stroke="#D97706" stroke-width="2"/>
+  <rect x="45" y="335" width="34" height="34" rx="17" fill="#D97706"/>
+  <text x="62" y="358" text-anchor="middle" fill="#FFF" font-size="16" font-weight="900" font-family="Pretendard,sans-serif">3</text>
+  <text x="95" y="355" fill="#FFF" font-size="17" font-weight="800" font-family="Pretendard,sans-serif">소득 5,000만, 55세 도달</text>
+  <text x="95" y="385" fill="#94A3B8" font-size="13" font-family="Pretendard,sans-serif">900만 납입 + 노란우산 500만 + 소액 수령 개시 (연차 쌓기)</text>
+  <text x="95" y="410" fill="#FBBF24" font-size="15" font-weight="800" font-family="Pretendard,sans-serif">→ 약 251만 원 절세 + 퇴직소득세 40% 감면 준비</text>
+
+  <!-- Scenario 4 -->
+  <rect x="30" y="440" width="800" height="105" rx="14" fill="#1E293B" stroke="#94A3B8" stroke-width="1.5"/>
+  <rect x="45" y="455" width="34" height="34" rx="17" fill="#64748B"/>
+  <text x="62" y="478" text-anchor="middle" fill="#FFF" font-size="16" font-weight="900" font-family="Pretendard,sans-serif">4</text>
+  <text x="95" y="475" fill="#FFF" font-size="17" font-weight="800" font-family="Pretendard,sans-serif">소득 1.2억, 법인 대표</text>
+  <text x="95" y="505" fill="#94A3B8" font-size="13" font-family="Pretendard,sans-serif">IRP 900만 (단독) + 노란우산 200만</text>
+  <text x="95" y="530" fill="#E2E8F0" font-size="15" font-weight="800" font-family="Pretendard,sans-serif">→ 약 171만 원 절세 (총급여 8,000만 이하 확인)</text>
+
+  <!-- Scenario 5 -->
+  <rect x="30" y="560" width="800" height="105" rx="14" fill="#1E293B" stroke="#94A3B8" stroke-width="1.5"/>
+  <rect x="45" y="575" width="34" height="34" rx="17" fill="#64748B"/>
+  <text x="62" y="598" text-anchor="middle" fill="#FFF" font-size="16" font-weight="900" font-family="Pretendard,sans-serif">5</text>
+  <text x="95" y="595" fill="#FFF" font-size="17" font-weight="800" font-family="Pretendard,sans-serif">자금 여유 적음, 최소 납입 희망</text>
+  <text x="95" y="625" fill="#94A3B8" font-size="13" font-family="Pretendard,sans-serif">연금저축 300만 + 노란우산 최소 납입</text>
+  <text x="95" y="650" fill="#E2E8F0" font-size="15" font-weight="800" font-family="Pretendard,sans-serif">→ 약 50만 원~ 절세 (부담 없이 시작)</text>
+
+  <!-- Checklist -->
+  <rect x="30" y="685" width="800" height="180" rx="14" fill="#1E293B" stroke="#FBBF24" stroke-width="2"/>
+  <text x="50" y="718" fill="#FBBF24" font-size="18" font-weight="800" font-family="Pretendard,sans-serif">✅ 2026년 연간 절세 체크리스트</text>
+
+  <text x="50" y="748" fill="#E2E8F0" font-size="14" font-weight="600" font-family="Pretendard,sans-serif">□ 다이렉트 IRP 개설 (수수료 0원)</text>
+  <text x="50" y="773" fill="#E2E8F0" font-size="14" font-weight="600" font-family="Pretendard,sans-serif">□ 노란우산공제 소득 구간 확인 → 한도 납입</text>
+  <text x="50" y="798" fill="#E2E8F0" font-size="14" font-weight="600" font-family="Pretendard,sans-serif">□ 연금저축 600만 + IRP 300만 = 900만 채우기</text>
+  <text x="50" y="823" fill="#E2E8F0" font-size="14" font-weight="600" font-family="Pretendard,sans-serif">□ ISA 만기 → 60일 이내 IRP 전환 (추가 300만)</text>
+  <text x="50" y="848" fill="#E2E8F0" font-size="14" font-weight="600" font-family="Pretendard,sans-serif">□ 55세 도달 시 소액 수령 개시 → 연차 쌓기</text>
+
+  <text x="30" y="890" fill="#64748B" font-size="14" font-family="Pretendard,sans-serif">essencial | 2026년 4월 기준</text>
+  <text x="830" y="890" text-anchor="end" fill="#64748B" font-size="14" font-family="Pretendard,sans-serif">대출·금융 비교</text>
+</svg>

@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- Badge -->
+  <rect x="60" y="50" width="160" height="48" rx="24" fill="#F59E0B"/>
+  <text x="140" y="82" font-family="Pretendard, sans-serif" font-size="22" font-weight="700" fill="#0B1F3B" text-anchor="middle">지역 비교</text>
+
+  <!-- Title -->
+  <text x="60" y="155" font-family="Pretendard, sans-serif" font-size="44" font-weight="800" fill="#FFFFFF">4개 지역 핵심 비교</text>
+
+  <!-- Chips -->
+  <rect x="60" y="180" width="85" height="40" rx="32" fill="#E8F0FF"/>
+  <text x="102" y="207" font-family="Pretendard, sans-serif" font-size="18" font-weight="600" fill="#1D4ED8" text-anchor="middle">한도</text>
+  <rect x="158" y="180" width="85" height="40" rx="32" fill="#E8F0FF"/>
+  <text x="200" y="207" font-family="Pretendard, sans-serif" font-size="18" font-weight="600" fill="#1D4ED8" text-anchor="middle">금리</text>
+  <rect x="256" y="180" width="85" height="40" rx="32" fill="#E8F0FF"/>
+  <text x="298" y="207" font-family="Pretendard, sans-serif" font-size="18" font-weight="600" fill="#1D4ED8" text-anchor="middle">특화</text>
+
+  <!-- Divider -->
+  <line x1="60" y1="250" x2="1020" y2="250" stroke="#FFFFFF" stroke-opacity="0.15" stroke-width="1"/>
+
+  <!-- Table Container -->
+  <rect x="60" y="280" width="960" height="720" rx="20" fill="#FFFFFF" fill-opacity="0.05"/>
+
+  <!-- Table Header -->
+  <rect x="60" y="280" width="960" height="70" rx="20" fill="#FFFFFF" fill-opacity="0.1"/>
+  <!-- Fix bottom corners of header -->
+  <rect x="60" y="330" width="960" height="20" fill="#FFFFFF" fill-opacity="0.1"/>
+  <rect x="60" y="330" width="960" height="20" fill="#0B1F3B" fill-opacity="0"/>
+
+  <text x="160" y="325" font-family="Pretendard, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" fill-opacity="0.6" text-anchor="middle">지역</text>
+  <text x="390" y="325" font-family="Pretendard, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" fill-opacity="0.6" text-anchor="middle">한도</text>
+  <text x="600" y="325" font-family="Pretendard, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" fill-opacity="0.6" text-anchor="middle">이차보전</text>
+  <text x="840" y="325" font-family="Pretendard, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" fill-opacity="0.6" text-anchor="middle">특화</text>
+
+  <!-- Row separator -->
+  <line x1="90" y1="360" x2="990" y2="360" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1"/>
+
+  <!-- 대전 Row -->
+  <rect x="100" y="385" width="90" height="44" rx="22" fill="#F59E0B"/>
+  <text x="145" y="414" font-family="Pretendard, sans-serif" font-size="22" font-weight="700" fill="#0B1F3B" text-anchor="middle">대전</text>
+  <text x="390" y="414" font-family="Pretendard, sans-serif" font-size="26" font-weight="600" fill="#FFFFFF" text-anchor="middle">7,000만</text>
+  <text x="600" y="414" font-family="Pretendard, sans-serif" font-size="26" font-weight="600" fill="#FFFFFF" text-anchor="middle">2.7%</text>
+  <text x="840" y="414" font-family="Pretendard, sans-serif" font-size="22" font-weight="600" fill="#F59E0B" text-anchor="middle">인건비+임대료</text>
+
+  <!-- Row separator -->
+  <line x1="90" y1="460" x2="990" y2="460" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1"/>
+
+  <!-- 세종 Row -->
+  <rect x="100" y="490" width="90" height="44" rx="22" fill="#F59E0B"/>
+  <text x="145" y="519" font-family="Pretendard, sans-serif" font-size="22" font-weight="700" fill="#0B1F3B" text-anchor="middle">세종</text>
+  <text x="390" y="519" font-family="Pretendard, sans-serif" font-size="26" font-weight="600" fill="#FFFFFF" text-anchor="middle">7,000만</text>
+  <text x="600" y="519" font-family="Pretendard, sans-serif" font-size="26" font-weight="600" fill="#FFFFFF" text-anchor="middle">2.0%</text>
+  <text x="840" y="519" font-family="Pretendard, sans-serif" font-size="22" font-weight="600" fill="#F59E0B" text-anchor="middle">여민전 가점</text>
+
+  <!-- Row separator -->
+  <line x1="90" y1="565" x2="990" y2="565" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1"/>
+
+  <!-- 충남 Row -->
+  <rect x="100" y="595" width="90" height="44" rx="22" fill="#F59E0B"/>
+  <text x="145" y="624" font-family="Pretendard, sans-serif" font-size="22" font-weight="700" fill="#0B1F3B" text-anchor="middle">충남</text>
+  <text x="390" y="624" font-family="Pretendard, sans-serif" font-size="26" font-weight="700" fill="#F59E0B" text-anchor="middle">1.5억</text>
+  <text x="600" y="624" font-family="Pretendard, sans-serif" font-size="26" font-weight="600" fill="#FFFFFF" text-anchor="middle">1.5~1.7%</text>
+  <text x="840" y="624" font-family="Pretendard, sans-serif" font-size="22" font-weight="600" fill="#F59E0B" text-anchor="middle">재창업 800만</text>
+
+  <!-- Row separator -->
+  <line x1="90" y1="670" x2="990" y2="670" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1"/>
+
+  <!-- 충북 Row -->
+  <rect x="100" y="700" width="90" height="44" rx="22" fill="#F59E0B"/>
+  <text x="145" y="729" font-family="Pretendard, sans-serif" font-size="22" font-weight="700" fill="#0B1F3B" text-anchor="middle">충북</text>
+  <text x="390" y="729" font-family="Pretendard, sans-serif" font-size="26" font-weight="600" fill="#FFFFFF" text-anchor="middle">7,000만</text>
+  <text x="600" y="729" font-family="Pretendard, sans-serif" font-size="26" font-weight="600" fill="#FFFFFF" text-anchor="middle">2%</text>
+  <text x="840" y="729" font-family="Pretendard, sans-serif" font-size="22" font-weight="600" fill="#F59E0B" text-anchor="middle">최대 5년</text>
+
+  <!-- Bottom highlight note -->
+  <rect x="90" y="800" width="880" height="60" rx="12" fill="#F59E0B" fill-opacity="0.1"/>
+  <text x="540" y="838" font-family="Pretendard, sans-serif" font-size="20" font-weight="600" fill="#F59E0B" text-anchor="middle">충남이 한도 최대 | 대전이 직접 보조금 최다 | 충북이 기간 최장</text>
+
+  <!-- Footer -->
+  <text x="1020" y="1050" font-family="Pretendard, sans-serif" font-size="16" fill="#FFFFFF" fill-opacity="0.35" text-anchor="end">tistory.deluxo | 2026</text>
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- 레이블 -->
+  <rect x="60" y="52" width="260" height="44" rx="22" fill="#EF4444" opacity="0.18"/>
+  <text x="190" y="80" font-family="-apple-system,sans-serif" font-size="22" font-weight="700" fill="#EF4444" text-anchor="middle">지원 제외·탈락 사유</text>
+
+  <!-- 제목 -->
+  <text x="540" y="158" font-family="-apple-system,sans-serif" font-size="50" font-weight="900" fill="#FFFFFF" text-anchor="middle">농어업인 건강보험료 지원 탈락 TOP 5</text>
+  <text x="540" y="210" font-family="-apple-system,sans-serif" font-size="32" font-weight="600" fill="#A0B4D0" text-anchor="middle">신청 전 반드시 확인 (2026)</text>
+
+  <line x1="60" y1="236" x2="1020" y2="236" stroke="#1A3270" stroke-width="2"/>
+
+  <!-- 탈락 1 -->
+  <rect x="60" y="252" width="960" height="118" rx="14" fill="#0D2347"/>
+  <rect x="60" y="252" width="4" height="118" rx="2" fill="#EF4444"/>
+  <text x="84" y="282" font-family="-apple-system,sans-serif" font-size="22" font-weight="900" fill="#EF4444">탈락 01</text>
+  <text x="84" y="314" font-family="-apple-system,sans-serif" font-size="24" font-weight="800" fill="#FFFFFF">건강보험료 부과액 528,970원 이상</text>
+  <text x="84" y="348" font-family="-apple-system,sans-serif" font-size="21" fill="#34D399">→ 22% 자동 경감은 유지되지만, 28% 국고지원에서 제외</text>
+
+  <!-- 탈락 2 -->
+  <rect x="60" y="382" width="960" height="118" rx="14" fill="#0D2347"/>
+  <rect x="60" y="382" width="4" height="118" rx="2" fill="#EF4444"/>
+  <text x="84" y="412" font-family="-apple-system,sans-serif" font-size="22" font-weight="900" fill="#EF4444">탈락 02</text>
+  <text x="84" y="444" font-family="-apple-system,sans-serif" font-size="24" font-weight="800" fill="#FFFFFF">직장가입자인 경우 (직장건강보험 가입자)</text>
+  <text x="84" y="478" font-family="-apple-system,sans-serif" font-size="21" fill="#34D399">→ 22% 경감·28% 지원 모두 지역가입자만 해당. 직장 퇴직 후 신청 가능</text>
+
+  <!-- 탈락 3 -->
+  <rect x="60" y="512" width="960" height="118" rx="14" fill="#0D2347"/>
+  <rect x="60" y="512" width="4" height="118" rx="2" fill="#EF4444"/>
+  <text x="84" y="542" font-family="-apple-system,sans-serif" font-size="22" font-weight="900" fill="#EF4444">탈락 03</text>
+  <text x="84" y="574" font-family="-apple-system,sans-serif" font-size="24" font-weight="800" fill="#FFFFFF">도시(동 지역) 거주자</text>
+  <text x="84" y="608" font-family="-apple-system,sans-serif" font-size="21" fill="#34D399">→ 22% 경감은 군·읍·면 지역 거주자만 해당. 도시 거주 농업인은 22% 자동 경감 없음</text>
+
+  <!-- 탈락 4 -->
+  <rect x="60" y="642" width="960" height="118" rx="14" fill="#0D2347"/>
+  <rect x="60" y="642" width="4" height="118" rx="2" fill="#EF4444"/>
+  <text x="84" y="672" font-family="-apple-system,sans-serif" font-size="22" font-weight="900" fill="#EF4444">탈락 04</text>
+  <text x="84" y="704" font-family="-apple-system,sans-serif" font-size="24" font-weight="800" fill="#FFFFFF">농업법인에 고용된 임직원</text>
+  <text x="84" y="738" font-family="-apple-system,sans-serif" font-size="21" fill="#34D399">→ 농업법인 임직원은 원칙 제외. 단 무보수 임원이면 개별 확인 필요</text>
+
+  <!-- 탈락 5 -->
+  <rect x="60" y="772" width="960" height="118" rx="14" fill="#0D2347"/>
+  <rect x="60" y="772" width="4" height="118" rx="2" fill="#EF4444"/>
+  <text x="84" y="802" font-family="-apple-system,sans-serif" font-size="22" font-weight="900" fill="#EF4444">탈락 05</text>
+  <text x="84" y="834" font-family="-apple-system,sans-serif" font-size="24" font-weight="800" fill="#FFFFFF">서류 미비 (경영체 미등록 + 종사 증빙 없음)</text>
+  <text x="84" y="868" font-family="-apple-system,sans-serif" font-size="21" fill="#34D399">→ 농어업경영체 등록 또는 읍면동장 확인 중 하나는 필수</text>
+
+  <!-- 문의 -->
+  <rect x="60" y="906" width="960" height="68" rx="14" fill="#1A3270"/>
+  <text x="540" y="940" font-family="-apple-system,sans-serif" font-size="24" fill="#FFFFFF" text-anchor="middle">개인 상황 확인: 국민건강보험공단 ☎ 1577-1000</text>
+
+  <text x="540" y="1036" font-family="-apple-system,sans-serif" font-size="20" fill="#4B6080" text-anchor="middle">정부24·국민건강보험공단 기준 | 2026.05 기준</text>
+</svg>

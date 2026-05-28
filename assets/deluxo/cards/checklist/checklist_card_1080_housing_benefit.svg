@@ -1,0 +1,27 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect width="1080" height="1080" fill="#F8FAFC"/>
+  <g filter="url(#shadow)">
+    <rect x="70" y="70" width="940" height="940" rx="24" fill="#FFFFFF" stroke="#E5E7EB"/>
+  </g>
+  <text x="120" y="170" font-size="48" fill="#111827" font-weight="800" font-family="Pretendard, 'Noto Sans KR', sans-serif">신청 전 체크리스트</text>
+  <text x="120" y="230" font-size="28" fill="#6B7280" font-weight="600" font-family="Pretendard, 'Noto Sans KR', sans-serif">주거급여 1분 점검</text>
+  <line x1="120" y1="270" x2="960" y2="270" stroke="#E5E7EB"/>
+  <g font-family="Pretendard, 'Noto Sans KR', sans-serif" fill="#111827" font-size="30">
+    <text x="170" y="360">□ 소득인정액 중위소득 48% 이하 충족</text>
+    <text x="170" y="440">□ 임차가구: 임대차계약서 준비 완료</text>
+    <text x="170" y="520">□ 자가가구: 주택 노후도 확인</text>
+    <text x="170" y="600">□ 금융정보 제공 동의서 서명 준비</text>
+    <text x="170" y="680">□ 소득·재산 신고서 작성 완료</text>
+    <text x="170" y="760">□ 통장 사본(급여 수령용) 준비</text>
+    <text x="170" y="840">□ 행정복지센터 또는 복지로 신청 경로 확인</text>
+  </g>
+  <rect x="120" y="890" width="840" height="90" rx="12" fill="#F1F5F9"/>
+  <text x="150" y="945" font-size="24" fill="#4B5563" font-family="Pretendard, 'Noto Sans KR', sans-serif">
+    주거급여 콜센터 ☎1600-0777 / 복지로 온라인 신청
+  </text>
+</svg>

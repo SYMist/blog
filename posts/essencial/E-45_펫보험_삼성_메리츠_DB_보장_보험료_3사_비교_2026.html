@@ -1,0 +1,402 @@
+<!-- essencial_template_insurance.html → E-45 펫보험 3사 비교 -->
+
+<!-- ✅ Schema.org 구조화 데이터 -->
+<div style="display:none">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "펫보험 삼성·메리츠·DB 보장·보험료 3사 비교 (2026)",
+      "description": "삼성화재·메리츠화재·DB손해보험 펫보험 3사를 보험료·통원한도·수술한도·특화서비스 기준으로 비교. 우리 아이에게 맞는 펫보험을 2026년 5월 최신 기준으로 정리했습니다.",
+      "datePublished": "2026-05-05",
+      "dateModified": "2026-05-05",
+      "author": {"@type": "Person", "name": "essencial"},
+      "publisher": {"@type": "Organization", "name": "essencial"}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "펫보험 3사 중 가장 저렴한 곳은?", "acceptedAnswer": {"@type": "Answer", "text": "2026년 5월 기준 말티즈 1세 암컷, 보상비율 70% 기준으로 삼성화재가 약 29,827원/월로 3사 중 가장 저렴합니다. 다음은 DB손해보험(33,560원), 메리츠화재(36,820원) 순입니다."}},
+        {"@type": "Question", "name": "통원비 한도가 가장 높은 펫보험은?", "acceptedAnswer": {"@type": "Answer", "text": "DB손해보험 펫블리가 1일 통원·입원 한도 30만원으로 업계 최고입니다. 삼성화재와 메리츠화재는 15만원으로 DB의 절반 수준입니다. 잦은 통원이 예상되는 경우 DB손해보험이 유리합니다."}},
+        {"@type": "Question", "name": "현장에서 바로 보험금 청구 가능한 펫보험은?", "acceptedAnswer": {"@type": "Answer", "text": "메리츠화재 펫퍼민트가 전국 400개 이상 제휴 동물병원에서 현장 즉시 청구가 가능합니다. 보험금 청구 서류 준비가 번거로운 분들에게 편리합니다."}},
+        {"@type": "Question", "name": "펫보험 면책기간은 얼마나 되나요?", "acceptedAnswer": {"@type": "Answer", "text": "3사 모두 가입 후 30일 이내 발생한 질병은 보상하지 않습니다. 삼성화재는 특정 질환의 경우 90일 면책이 적용됩니다. 상해(사고)의 경우 메리츠화재는 가입 즉시 보장됩니다."}},
+        {"@type": "Question", "name": "MRI·CT 검사비도 펫보험으로 보장되나요?", "acceptedAnswer": {"@type": "Answer", "text": "DB손해보험 펫블리는 MRI·CT·내시경 검사비를 연간 100만원 한도로 보장하는 특약이 있습니다. 삼성화재와 메리츠화재는 기본 플랜에서 해당 보장이 없거나 별도 확인이 필요합니다."}},
+        {"@type": "Question", "name": "고양이도 펫보험에 가입할 수 있나요?", "acceptedAnswer": {"@type": "Answer", "text": "삼성화재·메리츠화재·DB손해보험 3사 모두 반려묘(고양이) 보험 상품을 운영하고 있습니다. 단, 보장 범위와 보험료는 반려견과 다를 수 있으므로 각 보험사 공식 사이트에서 별도 확인이 필요합니다."}}
+      ]
+    }
+  ]
+}
+</script>
+</div>
+
+<style>
+  :root{
+    --pri:#7C3AED; --pri2:#6D28D9;
+    --white:#FFFFFF; --text:#111827;
+    --muted:#4B5563; --border:#E5E7EB;
+    --bg:#F9FAFB; --accent:#F5F3FF;
+  }
+  .wrap{max-width:860px;margin:0 auto;line-height:1.8;color:var(--text);}
+  .meta{color:var(--muted);font-size:.95rem;margin:6px 0 18px;}
+  .badge{display:inline-block;background:var(--accent);border:1px solid #DDD6FE;padding:3px 10px;border-radius:999px;font-size:.85rem;margin-right:8px;}
+  .notice{background:#FFF7ED;border:1px solid #FED7AA;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .conclusion{background:#F5F3FF;border:1px solid #DDD6FE;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .toc{background:var(--bg);border:1px solid var(--border);padding:14px 16px;border-radius:12px;margin:16px 0 22px;}
+  .toc a{text-decoration:none;color:var(--pri);}
+  .toc ul{margin:8px 0 0 18px;}
+
+  .wrap a.btn,.wrap a.btn:link,.wrap a.btn:visited{
+    display:inline-flex;align-items:center;justify-content:center;
+    padding:10px 14px;border-radius:10px;border:1px solid var(--pri);
+    background:var(--pri) !important;color:var(--white) !important;
+    text-decoration:none !important;font-weight:800;
+  }
+  .wrap a.btn:hover{background:var(--pri2) !important;}
+  .wrap a.btn.secondary,.wrap a.btn.secondary:link,.wrap a.btn.secondary:visited{
+    background:var(--white) !important;color:var(--pri) !important;border-color:var(--pri) !important;
+  }
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 6px;}
+
+  table{width:100%;border-collapse:collapse;margin:14px 0 10px;}
+  th,td{border:1px solid var(--border);padding:10px;vertical-align:top;}
+  th{background:#F3F4F6;text-align:left;}
+  .small{font-size:.95rem;color:var(--muted);}
+  h1{margin:0 0 8px;line-height:1.25;}
+  h2{margin-top:30px;padding-top:8px;border-top:1px solid var(--border);}
+  h3{margin-top:16px;}
+  .q{font-weight:900;margin:14px 0 6px;}
+  .a{margin:0 0 10px;}
+  .highlight{background:#F0FDF4;border:1px solid #BBF7D0;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .warning{background:#FEF2F2;border:1px solid #FECACA;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .scenario{background:#FEFCE8;border:1px solid #FDE68A;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .scope{background:#F8FAFC;border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .scope ul{margin:4px 0 0 18px;}
+  .action-steps{background:#F5F3FF;border:1px solid #DDD6FE;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .action-steps ol{margin:8px 0 0 18px;}
+  .sources{background:var(--bg);border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:14px 0;font-size:.9rem;}
+  .sources ul{margin:4px 0 0 18px;}
+  .footer{margin-top:26px;padding-top:14px;border-top:1px solid var(--border);color:var(--muted);font-size:.95rem;}
+  .disclaimer{background:#F9FAFB;border:1px solid var(--border);padding:10px 14px;border-radius:10px;margin:14px 0;font-size:.9rem;color:var(--muted);}
+</style>
+
+<div class="wrap">
+  <h1>펫보험 삼성·메리츠·DB 보장·보험료 3사 비교 (2026) — 우리 아이에게 맞는 선택은?</h1>
+  <div class="meta">
+    <span class="badge">보험 비교</span>
+    <span class="badge">업데이트: 2026-05-05</span>
+  </div>
+
+  <div class="notice">
+    <strong>먼저 확인!</strong><br/>
+    보험료는 반려동물의 나이·품종·성별·건강상태에 따라 달라집니다. 본 글의 보험료 수치는 말티즈 1세 암컷·보상비율 70% 기준 예시이며, 실제 보험료는 각 보험사 사이트에서 직접 조회하시기 바랍니다.
+  </div>
+
+  <p class="small">
+    삼성화재·메리츠화재·DB손해보험 펫보험 3사를 보험료·통원한도·수술한도·특화서비스 기준으로 비교했습니다. 공식 상품 안내에 없는 <strong>자기부담금 계산 방식, 면책기간 함정, 통원 한도별 유불리 시뮬레이션</strong> 정보까지 담았습니다.
+  </p>
+
+  <!-- ✅ 이 글의 범위 -->
+  <div class="scope">
+    <strong>이 글에서 다루는 것</strong>
+    <ul>
+      <li>삼성화재·메리츠화재·DB손해보험 반려견보험 보험료·보장 한도·특화서비스 비교 (2026.05 기준)</li>
+      <li>상황별 유불리 시나리오 — 통원 많은 경우 / 수술 위험 높은 경우 / 청구 편의 중시</li>
+    </ul>
+    <strong>다루지 않는 것</strong>
+    <ul>
+      <li>특정 보험사 상품 추천이나 개인별 설계 상담 (반드시 약관 직접 확인)</li>
+    </ul>
+  </div>
+
+  <!-- ✅ 섹션 1: 결론 먼저 -->
+  <div class="conclusion" id="top">
+    <h2 style="border-top:none;margin-top:0;">✅ 결론 먼저: 이런 분은 이걸 선택하세요</h2>
+    <ul>
+      <li><strong>보험료가 부담스러운 분</strong>: 삼성화재 — 3사 중 최저 (말티즈 1세 기준 월 29,827원)</li>
+      <li><strong>통원 진료가 잦은 반려동물</strong>: DB손해보험 — 1일 통원 한도 30만원, 업계 최고</li>
+      <li><strong>보험금 청구가 귀찮은 분</strong>: 메리츠화재 — 전국 400개 제휴병원 현장 즉시 청구</li>
+      <li><strong>MRI·CT 등 고가 검사 가능성</strong>: DB손해보험 — MRI·CT 특약 100만원 가능</li>
+    </ul>
+  </div>
+
+  <!-- ✅ 이미지 1: 비교 요약 카드 -->
+  <img src="compare_summary_pet-insurance-comparison-2026.png" alt="펫보험 삼성 메리츠 DB 3사 비교 요약 2026" style="width:100%;margin:16px 0;" />
+
+  <div class="toc">
+    <strong>목차</strong>
+    <ul>
+      <li><a href="#matrix">1) 핵심 비교 매트릭스</a></li>
+      <li><a href="#detail">2) 항목별 상세 비교</a></li>
+      <li><a href="#premium">3) 보험료 비교</a></li>
+      <li><a href="#scenario">4) 시나리오별 추천</a></li>
+      <li><a href="#trap">5) 가입 전 확인할 함정</a></li>
+      <li><a href="#experience">자주 놓치는 포인트와 실수 사례</a></li>
+      <li><a href="#faq">6) FAQ</a></li>
+      <li><a href="#update">업데이트 로그</a></li>
+    </ul>
+  </div>
+
+  <!-- ✅ 섹션 2: 핵심 비교 매트릭스 -->
+  <h2 id="matrix">1) 핵심 비교 매트릭스</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>비교 항목</th>
+        <th>삼성화재</th>
+        <th>메리츠화재</th>
+        <th>DB손해보험</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>상품명</strong></td>
+        <td>다이렉트 반려견보험</td>
+        <td>펫퍼민트</td>
+        <td>펫블리 반려견보험</td>
+      </tr>
+      <tr>
+        <td><strong>월 보험료 (예시)</strong></td>
+        <td><strong>약 29,827원</strong> 🏆최저</td>
+        <td>약 36,820원</td>
+        <td>약 33,560원</td>
+      </tr>
+      <tr>
+        <td><strong>1일 수술 한도</strong></td>
+        <td><strong>300만원</strong> 🏆</td>
+        <td>250만원</td>
+        <td>250만원</td>
+      </tr>
+      <tr>
+        <td><strong>1일 통원·입원 한도</strong></td>
+        <td>15만원</td>
+        <td>15만원</td>
+        <td><strong>30만원</strong> 🏆</td>
+      </tr>
+      <tr>
+        <td><strong>연간 보장 한도</strong></td>
+        <td>1,500만원</td>
+        <td>2,000만원</td>
+        <td>2,000만원</td>
+      </tr>
+      <tr>
+        <td><strong>자기부담금</strong></td>
+        <td>회당 3만원</td>
+        <td>회당 3만원</td>
+        <td>회당 3만원</td>
+      </tr>
+      <tr>
+        <td><strong>보상비율</strong></td>
+        <td>70%</td>
+        <td>70%</td>
+        <td>70%</td>
+      </tr>
+      <tr>
+        <td><strong>면책기간</strong></td>
+        <td>30일 (특정 질환 90일)</td>
+        <td>30일</td>
+        <td>30일</td>
+      </tr>
+      <tr>
+        <td><strong>신규 가입 연령</strong></td>
+        <td>~만 10세</td>
+        <td>생후 61일~만 10세</td>
+        <td>~만 10세</td>
+      </tr>
+      <tr>
+        <td><strong>갱신 보장 연령</strong></td>
+        <td>만 20세</td>
+        <td>만 20세</td>
+        <td>만 20세</td>
+      </tr>
+      <tr>
+        <td><strong>현장 청구</strong></td>
+        <td>❌</td>
+        <td>✅ 400개 제휴병원</td>
+        <td>❌</td>
+      </tr>
+      <tr>
+        <td><strong>MRI·CT 특약</strong></td>
+        <td>❌</td>
+        <td>❌</td>
+        <td>✅ 100만원</td>
+      </tr>
+      <tr>
+        <td><strong>장례지원비</strong></td>
+        <td>❌</td>
+        <td>❌</td>
+        <td>✅ 30만원</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="small">※ 2026년 5월 기준, 말티즈 1세 암컷·보상비율 70% 기준 예시. 품종·나이·성별에 따라 다름.</p>
+
+  <!-- ✅ 이미지 2: 비교 매트릭스 카드 -->
+  <img src="compare_matrix_pet-insurance-comparison-2026.png" alt="펫보험 3사 항목별 비교표 2026" style="width:100%;margin:16px 0;" />
+
+  <!-- ✅ 섹션 3: 항목별 상세 비교 -->
+  <h2 id="detail">2) 항목별 상세 비교</h2>
+
+  <h3>보험료는 왜 3사가 차이 나는 걸까?</h3>
+  <p>3사의 보험료 차이는 주로 <strong>보장 범위와 특화 서비스 비용</strong>에서 발생합니다. 삼성화재는 연간 한도를 1,500만원으로 낮추는 대신 보험료를 3사 최저로 유지합니다. 메리츠화재는 현장 청구 인프라(전국 400개 제휴병원) 운영 비용과 연간 2,000만원 한도를 반영해 가장 높습니다. DB손해보험은 통원 한도 30만원(업계 최고)과 MRI·CT 특약, 개물림 벌금 보장 등 폭넓은 특약이 보험료에 반영됩니다.</p>
+
+  <h3>통원 한도 차이가 실제로 얼마나 클까?</h3>
+  <p>1일 통원·입원 한도는 삼성화재·메리츠화재가 15만원, DB손해보험이 30만원입니다. 동물병원 1회 진료비가 20만원 발생한 경우를 가정하면: 삼성·메리츠에서는 (15만-3만)×70% = 84,000원 보상, DB손해보험에서는 (20만-3만)×70% = 119,000원 보상으로 약 35,000원 차이가 납니다. 잦은 통원이 예상된다면 이 차이가 장기적으로 커질 수 있습니다.</p>
+
+  <h3>현장 청구 서비스, 실제로 편한가?</h3>
+  <p>메리츠화재 펫퍼민트는 전국 400개 이상 제휴 동물병원에서 별도 서류 없이 동물병원 카운터에서 바로 보험금을 청구할 수 있는 현장 청구 시스템을 운영합니다. 삼성화재와 DB손해보험은 진료 후 영수증·진단서 등을 앱으로 직접 제출해야 합니다. 서류 관리가 번거로운 분이라면 메리츠화재의 현장 청구가 편의성 면에서 유리합니다. 단, 비제휴 병원에서는 메리츠도 일반 청구 방식을 이용해야 합니다.</p>
+
+  <!-- ✅ 섹션 4: 보험료 비교 -->
+  <h2 id="premium">3) 보험료 비교 (품종·연령별)</h2>
+  <table>
+    <thead>
+      <tr><th>기준 (보상비율 70%)</th><th>삼성화재</th><th>DB손해보험</th><th>메리츠화재</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>말티즈 1세 암컷</td><td><strong>29,827원</strong></td><td>33,560원</td><td>36,820원</td></tr>
+      <tr><td>푸들 3세 수컷</td><td>약 35,000원대</td><td>약 40,000원대</td><td>약 43,000원대</td></tr>
+      <tr><td>시바이누 5세 수컷</td><td>약 45,000원대</td><td>약 50,000원대</td><td>약 55,000원대</td></tr>
+      <tr><td>연간 비용 (말티즈 1세)</td><td>약 357,924원</td><td>약 402,720원</td><td>약 441,840원</td></tr>
+    </tbody>
+  </table>
+  <p class="small">※ 2026.05 기준 다이렉트 가입 예시. 3~5세 이후 보험료는 갱신 시 인상. 직접 조회 권장.</p>
+
+  <!-- ✅ 섹션 5: 시나리오별 추천 -->
+  <h2 id="scenario">4) 시나리오별 추천</h2>
+  <div class="scenario">
+    <h3>🔍 우리 아이 상황에 맞는 펫보험은?</h3>
+    <table>
+      <thead>
+        <tr><th>반려동물 상황</th><th>추천</th><th>이유</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>보험료 최소화가 우선, 소형견·건강한 아이</td>
+          <td><strong>삼성화재</strong></td>
+          <td>3사 최저 보험료(29,827원), 1일 수술 한도 300만원으로 수술비 대응 유리</td>
+        </tr>
+        <tr>
+          <td>피부·귀·관절 문제로 통원 진료가 잦은 경우</td>
+          <td><strong>DB손해보험</strong></td>
+          <td>통원 한도 30만원(업계 최고), 메리츠·삼성 대비 회당 보상액 최대 10만원 이상 높음</td>
+        </tr>
+        <tr>
+          <td>병원 청구 서류 준비가 번거로운 경우</td>
+          <td><strong>메리츠화재</strong></td>
+          <td>전국 400개 제휴병원 현장 청구 — 진료 후 카운터에서 즉시 처리</td>
+        </tr>
+        <tr>
+          <td>MRI·CT 등 고가 검사 가능성 있는 대형견·노령견</td>
+          <td><strong>DB손해보험</strong></td>
+          <td>MRI·CT 특약 연간 100만원, 개물림·행동교정훈련비까지 포함</td>
+        </tr>
+        <tr>
+          <td>수술 위험이 높은 품종 (슬개골 취약 소형견 등)</td>
+          <td><strong>삼성화재</strong></td>
+          <td>1일 수술 한도 300만원으로 3사 중 최고, 고액 수술 시 보상 유리</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- ✅ 이미지 3: 시나리오 추천 카드 -->
+  <img src="scenario_pet-insurance-comparison-2026.png" alt="펫보험 상황별 추천 가이드 2026" style="width:100%;margin:16px 0;" />
+
+  <!-- ✅ 지금 바로 확인하는 순서 -->
+  <div class="action-steps">
+    <strong>지금 바로 확인하는 순서</strong>
+    <ol>
+      <li>반려동물 나이·품종 확인 → 각 보험사 다이렉트 사이트에서 보험료 직접 조회</li>
+      <li>위 비교표로 통원 한도·수술 한도·특화서비스 비교</li>
+      <li>시나리오 추천에서 본인 상황 매칭 → 우선 후보 1~2개 좁히기</li>
+      <li>가입 전 함정 항목 체크(면책기간·갱신 구조·자기부담금 계산) 후 결정</li>
+    </ol>
+  </div>
+
+  <!-- ✅ 인아티클 광고 -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5716436301710258"
+       crossorigin="anonymous"></script>
+  <ins class="adsbygoogle"
+       style="display:block; text-align:center;"
+       data-ad-layout="in-article"
+       data-ad-format="fluid"
+       data-ad-client="ca-pub-5716436301710258"
+       data-ad-slot="2039167138"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+  <!-- ✅ 섹션 6: 가입 전 확인할 함정 -->
+  <h2 id="trap">5) 가입 전 꼭 확인할 함정</h2>
+  <div class="warning">
+    <ol>
+      <li><strong>면책기간 30일 함정</strong>: 3사 모두 가입 후 30일 이내 발생한 질병은 보상하지 않습니다. 이미 증상이 있거나 병원에 간 이후 가입하면 그 질병에 대한 치료비는 보상 불가. 건강할 때 미리 가입해야 합니다.</li>
+      <li><strong>자기부담금 계산 착각</strong>: "보상비율 70%"는 자기부담금 공제 후 적용됩니다. 10만원 치료비 발생 시 (10만-3만)×70% = 49,000원만 보상. 3만원 이하 소액 진료는 보험금이 나오지 않을 수 있습니다.</li>
+      <li><strong>갱신 시 보험료 급등</strong>: 3사 모두 갱신형이라 나이가 많아질수록 보험료가 오릅니다. 5~6세 이상에서 보험료 인상폭이 커지는 경향이 있으므로 어릴수록 유리합니다.</li>
+      <li><strong>특정 질환 면책 90일</strong>: 삼성화재는 특정 질환(슬관절 탈구 등)에 대해 90일 면책이 있습니다. 가입 전 약관의 면책 질환 목록을 반드시 확인하세요.</li>
+    </ol>
+  </div>
+
+  <div class="btns">
+    <a class="btn" href="https://direct.samsungfire.com/m/mall/MP030704_001.html" target="_blank" rel="noopener">삼성화재 펫보험 조회</a>
+    <a class="btn secondary" href="https://store.meritzfire.com/pet/main.do" target="_blank" rel="noopener">메리츠화재 펫보험 조회</a>
+    <a class="btn secondary" href="https://directidb.co.kr/l_pet_dog/index.html" target="_blank" rel="noopener">DB손보 펫블리 조회</a>
+  </div>
+
+  <!-- ✅ 자주 놓치는 포인트와 실수 사례 -->
+  <h2 id="experience">자주 놓치는 포인트와 실수 사례</h2>
+
+  <p>가입자들이 가장 많이 혼동하는 부분은 <strong>통원 한도와 수술 한도의 차이</strong>입니다. 삼성화재의 1일 통원 한도는 15만원으로, 피부·귀·관절 치료처럼 회당 20만~30만원이 청구되는 진료에서는 한도를 초과하는 금액을 자비로 부담해야 합니다. 반면 수술 한도는 300만원으로 3사 중 최고여서, 삼성화재는 '잦은 통원보다 수술 위험이 있는 품종'에 맞는 설계라고 볼 수 있습니다.</p>
+
+  <p>메리츠화재 가입자들이 자주 후회하는 사례로는 <strong>비제휴 병원 방문 시 현장 청구 불가</strong>가 있습니다. 전국 400개 제휴병원은 많은 수처럼 보이지만, 거주지 인근에 제휴 병원이 없으면 현장 청구 편의성이 사라집니다. 가입 전 메리츠화재 앱에서 거주지 반경 제휴 병원 수를 확인하는 것이 좋습니다.</p>
+
+  <p>DB손해보험 펫블리의 MRI·CT 특약은 연간 100만원 한도로 유용하지만, <strong>기본 플랜이 아닌 선택 특약</strong>입니다. 기본 플랜만 가입했을 경우 MRI·CT 비용은 보장받지 못하므로, 가입 시 해당 특약이 포함되어 있는지 반드시 확인해야 합니다. 청구 후 '특약 미포함'으로 거절되는 사례가 간혹 발생합니다.</p>
+
+  <!-- ✅ 섹션 7: FAQ -->
+  <h2 id="faq">6) FAQ</h2>
+  <p class="q">Q1. 펫보험 3사 중 가장 저렴한 곳은?</p>
+  <p class="a">2026년 5월 기준 말티즈 1세 암컷, 보상비율 70% 기준으로 삼성화재가 약 29,827원/월로 3사 중 가장 저렴합니다. DB손해보험(33,560원), 메리츠화재(36,820원) 순입니다.</p>
+
+  <p class="q">Q2. 통원비 한도가 가장 높은 펫보험은?</p>
+  <p class="a">DB손해보험 펫블리가 1일 통원·입원 한도 30만원으로 업계 최고입니다. 삼성화재·메리츠화재는 15만원으로 DB의 절반 수준이므로, 통원 진료가 잦은 반려동물이라면 DB손해보험이 유리합니다.</p>
+
+  <p class="q">Q3. 현장에서 바로 보험금 청구 가능한 펫보험은?</p>
+  <p class="a">메리츠화재 펫퍼민트가 전국 400개 이상 제휴 동물병원에서 현장 즉시 청구가 가능합니다. 삼성화재와 DB손해보험은 앱으로 서류를 제출해야 합니다.</p>
+
+  <p class="q">Q4. 펫보험 면책기간은 얼마나 되나요?</p>
+  <p class="a">3사 모두 가입 후 30일 이내 발생한 질병은 보상하지 않습니다. 삼성화재는 특정 질환에 90일 면책이 추가됩니다. 상해(사고)는 메리츠화재 기준 가입 즉시 보장됩니다.</p>
+
+  <p class="q">Q5. MRI·CT 검사비도 펫보험으로 보장되나요?</p>
+  <p class="a">DB손해보험 펫블리는 MRI·CT·내시경 검사비를 연간 100만원 한도로 보장하는 특약이 있습니다. 단, 선택 특약이므로 가입 시 포함 여부를 반드시 확인해야 합니다.</p>
+
+  <p class="q">Q6. 고양이도 펫보험에 가입할 수 있나요?</p>
+  <p class="a">삼성화재·메리츠화재·DB손해보험 3사 모두 반려묘 보험 상품을 운영합니다. 단, 보장 범위와 보험료는 반려견과 다를 수 있으므로 각 보험사 공식 사이트에서 별도 확인이 필요합니다.</p>
+
+  <!-- ✅ 참고자료 -->
+  <div class="sources">
+    <strong>참고자료 / 출처</strong>
+    <ul>
+      <li>삼성화재 다이렉트 반려견보험 공식 페이지 (2026.05 확인)</li>
+      <li>메리츠화재 펫퍼민트 공식 보험몰 (2026.05 확인)</li>
+      <li>DB손해보험 펫블리 다이렉트 공식 페이지 (2026.05 확인)</li>
+    </ul>
+  </div>
+
+  <div class="btns">
+    <a class="btn" href="https://direct.samsungfire.com/m/mall/MP030704_001.html" target="_blank" rel="noopener">삼성화재 보험료 조회</a>
+    <a class="btn secondary" href="https://directidb.co.kr/l_pet_dog/index.html" target="_blank" rel="noopener">DB손보 보험료 조회</a>
+  </div>
+
+  <div class="disclaimer">
+    <strong>면책 안내</strong>: 본 글은 일반적인 정보 제공 목적이며, 특정 보험 상품을 추천하는 것이 아닙니다. 보험 가입·변경 시 반드시 약관을 확인하고, 필요 시 전문 설계사와 상담하시기 바랍니다. 개인 반려동물의 나이·품종·건강 상태에 따라 보험료와 보장 내용이 달라질 수 있습니다.
+  </div>
+
+  <p class="small">관련 글: <a href="#" target="_blank" rel="noopener">운전자보험 필수 특약 비교 — 벌금·형사합의금·교통사고처리 (2026)</a> / <a href="#" target="_blank" rel="noopener">간병보험 vs 치매보험 비교 — 50대 이후 꼭 필요한 보험 우선순위 (2026)</a></p>
+
+  <div class="footer" id="update">
+    <strong>업데이트 로그</strong><br/>
+    - 2026-05-05: 최초 발행<br/>
+    <span class="small">※ 보험 상품·보험료는 수시로 변동됩니다. 가입 전 최신 약관을 확인하세요.</span>
+  </div>
+</div>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" rx="0"/>
+
+  <!-- Badge -->
+  <rect x="60" y="50" width="140" height="36" rx="18" fill="#EF4444"/>
+  <text x="130" y="74" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="800" font-family="sans-serif">2026 최신</text>
+
+  <!-- Main Text -->
+  <text x="60" y="170" fill="#FFFFFF" font-size="52" font-weight="800" font-family="sans-serif">자동차 리스 vs 장기렌트</text>
+  <text x="60" y="240" fill="#E2E8F0" font-size="36" font-weight="600" font-family="sans-serif">개인·사업자별 세금·비용 차이 비교</text>
+
+  <!-- Chips -->
+  <rect x="60" y="290" width="110" height="34" rx="17" fill="#FEF3C7"/>
+  <text x="115" y="313" text-anchor="middle" fill="#92400E" font-size="15" font-weight="700" font-family="sans-serif">세금 비교</text>
+  <rect x="185" y="290" width="110" height="34" rx="17" fill="#FEF3C7"/>
+  <text x="240" y="313" text-anchor="middle" fill="#92400E" font-size="15" font-weight="700" font-family="sans-serif">건보료</text>
+  <rect x="310" y="290" width="140" height="34" rx="17" fill="#FEF3C7"/>
+  <text x="380" y="313" text-anchor="middle" fill="#92400E" font-size="15" font-weight="700" font-family="sans-serif">시나리오 추천</text>
+
+  <!-- Divider -->
+  <rect x="60" y="360" width="500" height="3" rx="2" fill="#3B82F6" opacity="0.5"/>
+
+  <!-- Key Numbers -->
+  <text x="60" y="410" fill="#93C5FD" font-size="20" font-weight="600" font-family="sans-serif">비용 인정 한도</text>
+  <text x="60" y="445" fill="#FFFFFF" font-size="32" font-weight="800" font-family="sans-serif">연 1,500만 원 (리스 = 렌트)</text>
+
+  <text x="60" y="500" fill="#6EE7B7" font-size="20" font-weight="600" font-family="sans-serif">렌트 부가세 공제 (경차·9인승)</text>
+  <text x="60" y="535" fill="#FFFFFF" font-size="32" font-weight="800" font-family="sans-serif">10% 환급 가능</text>
+
+  <!-- Right side decoration -->
+  <rect x="850" y="100" width="280" height="430" rx="20" fill="#1e293b" opacity="0.8"/>
+  <text x="990" y="160" text-anchor="middle" fill="#60A5FA" font-size="18" font-weight="700" font-family="sans-serif">리스</text>
+  <text x="990" y="195" text-anchor="middle" fill="#CBD5E1" font-size="14" font-family="sans-serif">일반 번호판</text>
+  <text x="990" y="220" text-anchor="middle" fill="#CBD5E1" font-size="14" font-family="sans-serif">월 납입금 저렴</text>
+  <text x="990" y="245" text-anchor="middle" fill="#F87171" font-size="14" font-family="sans-serif">신용 영향 있음</text>
+
+  <rect x="870" y="275" width="240" height="2" rx="1" fill="#334155"/>
+  <text x="990" y="310" text-anchor="middle" fill="#34D399" font-size="16" font-weight="600" font-family="sans-serif">VS</text>
+  <rect x="870" y="325" width="240" height="2" rx="1" fill="#334155"/>
+
+  <text x="990" y="365" text-anchor="middle" fill="#34D399" font-size="18" font-weight="700" font-family="sans-serif">장기렌트</text>
+  <text x="990" y="400" text-anchor="middle" fill="#CBD5E1" font-size="14" font-family="sans-serif">건보료 무영향</text>
+  <text x="990" y="425" text-anchor="middle" fill="#CBD5E1" font-size="14" font-family="sans-serif">신용 무영향</text>
+  <text x="990" y="450" text-anchor="middle" fill="#CBD5E1" font-size="14" font-family="sans-serif">부가세 공제 가능</text>
+  <text x="990" y="475" text-anchor="middle" fill="#CBD5E1" font-size="14" font-family="sans-serif">보험 통합 관리</text>
+
+  <!-- Footer -->
+  <text x="60" y="600" fill="#64748B" font-size="14" font-family="sans-serif">essencial | 비교형 콘텐츠</text>
+</svg>

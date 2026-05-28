@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Chip -->
+  <rect x="60" y="44" width="340" height="38" rx="19" fill="#B45309"/>
+  <text x="230" y="70" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="800" font-family="sans-serif">2026 서민금융 3종 비교</text>
+
+  <!-- Headline -->
+  <text x="60" y="138" fill="#FFFFFF" font-size="46" font-weight="800" font-family="sans-serif">햇살론 vs 새희망홀씨</text>
+  <text x="60" y="192" fill="#FCD34D" font-size="48" font-weight="800" font-family="sans-serif">어떤 상품이 유리할까?</text>
+  <text x="60" y="234" fill="#CBD5E1" font-size="22" font-weight="600" font-family="sans-serif">소득·신용점수별 최적 서민금융 선택 가이드</text>
+
+  <!-- Right panel: 3 product cards stacked -->
+  <!-- Card A: 햇살론 일반 -->
+  <rect x="640" y="40" width="520" height="160" rx="14" fill="url(#card)" stroke="#B45309" stroke-width="1.5"/>
+  <text x="670" y="80" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">햇살론 일반보증</text>
+  <text x="670" y="116" fill="#FFFFFF" font-size="38" font-weight="800" font-family="sans-serif">금리 10%↓</text>
+  <text x="1140" y="80" text-anchor="end" fill="#FCD34D" font-size="13" font-weight="600" font-family="sans-serif">한도 1,500만</text>
+  <text x="1140" y="116" text-anchor="end" fill="#CBD5E1" font-size="15" font-family="sans-serif">소득 3,500만↓</text>
+  <text x="670" y="150" fill="#D97706" font-size="13" font-weight="700" font-family="sans-serif">신용점수 무관 신청 가능</text>
+
+  <!-- Card B: 햇살론 특례보증 -->
+  <rect x="640" y="218" width="520" height="160" rx="14" fill="url(#card)" stroke="#7C3AED" stroke-width="1.5"/>
+  <text x="670" y="258" fill="#C4B5FD" font-size="14" font-weight="700" font-family="sans-serif">햇살론 특례보증</text>
+  <text x="670" y="294" fill="#FFFFFF" font-size="38" font-weight="800" font-family="sans-serif">금리 12.5%↓</text>
+  <text x="1140" y="258" text-anchor="end" fill="#C4B5FD" font-size="13" font-weight="600" font-family="sans-serif">한도 1,000만</text>
+  <text x="1140" y="294" text-anchor="end" fill="#CBD5E1" font-size="15" font-family="sans-serif">소득 3,500만↓</text>
+  <text x="670" y="328" fill="#9F7AEA" font-size="13" font-weight="700" font-family="sans-serif">사회적배려 9.9% · 최저신용 접근 가능</text>
+
+  <!-- Card C: 새희망홀씨 -->
+  <rect x="640" y="396" width="520" height="160" rx="14" fill="url(#card)" stroke="#0F766E" stroke-width="1.5"/>
+  <text x="670" y="436" fill="#6EE7B7" font-size="14" font-weight="700" font-family="sans-serif">새희망홀씨</text>
+  <text x="670" y="472" fill="#FCD34D" font-size="38" font-weight="800" font-family="sans-serif">한도 3,500만</text>
+  <text x="1140" y="436" text-anchor="end" fill="#6EE7B7" font-size="13" font-weight="600" font-family="sans-serif">14개 은행</text>
+  <text x="1140" y="472" text-anchor="end" fill="#CBD5E1" font-size="15" font-family="sans-serif">소득 4,000만↓</text>
+  <text x="670" y="506" fill="#10B981" font-size="13" font-weight="700" font-family="sans-serif">보증료 없음 · 모바일 비대면 신청 가능</text>
+
+  <!-- Bottom call to action -->
+  <text x="60" y="308" fill="#6EE7B7" font-size="20" font-weight="700" font-family="sans-serif">신용점수 무관 → 햇살론 일반</text>
+  <text x="60" y="340" fill="#C4B5FD" font-size="20" font-weight="700" font-family="sans-serif">최저신용 + 소득 3,500만↓ → 햇살론 특례</text>
+  <text x="60" y="372" fill="#FCD34D" font-size="20" font-weight="700" font-family="sans-serif">소득 4,000만↓ + 최대 한도 → 새희망홀씨</text>
+
+  <!-- Footer -->
+  <text x="60" y="610" fill="#64748B" font-size="13" font-family="sans-serif">essencial | 대출·금융 silo · 2026.05 기준</text>
+</svg>

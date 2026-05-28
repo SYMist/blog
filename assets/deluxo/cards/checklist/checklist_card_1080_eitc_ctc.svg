@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="80" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="800" fill="#F59E0B">근로·자녀장려금 신청 전 체크리스트</text>
+  <rect x="60" y="110" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <rect x="60" y="140" width="960" height="100" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="190" font-family="'Pretendard',sans-serif" font-size="36" fill="#22C55E">☑</text>
+  <text x="150" y="185" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#FFF">가구 유형 확인 (단독/홑벌이/맞벌이)</text>
+  <text x="150" y="220" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">배우자 소득 300만원 기준으로 홑벌이·맞벌이 구분</text>
+
+  <rect x="60" y="260" width="960" height="100" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="310" font-family="'Pretendard',sans-serif" font-size="36" fill="#22C55E">☑</text>
+  <text x="150" y="305" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#FFF">부부 합산 총소득 기준 미만 확인</text>
+  <text x="150" y="340" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">단독 2,200만 / 홑벌이 3,200만 / 맞벌이 4,400만원 미만</text>
+
+  <rect x="60" y="380" width="960" height="100" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="430" font-family="'Pretendard',sans-serif" font-size="36" fill="#22C55E">☑</text>
+  <text x="150" y="425" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#FFF">가구원 재산 합계 2.4억원 미만 확인</text>
+  <text x="150" y="460" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">전년도 6.1 기준 — 주택·토지·자동차·예금 모두 포함</text>
+
+  <rect x="60" y="500" width="960" height="100" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="550" font-family="'Pretendard',sans-serif" font-size="36" fill="#22C55E">☑</text>
+  <text x="150" y="545" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#FFF">근로·사업·종교인 소득 존재 확인</text>
+  <text x="150" y="580" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">소득이 없으면 신청 불가 (연금·이자소득만은 해당 안 됨)</text>
+
+  <rect x="60" y="620" width="960" height="100" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="670" font-family="'Pretendard',sans-serif" font-size="36" fill="#22C55E">☑</text>
+  <text x="150" y="665" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#FFF">전문직 사업 해당 여부 확인</text>
+  <text x="150" y="700" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">변호사·의사·세무사 등 전문직 사업자는 신청 제외</text>
+
+  <rect x="60" y="740" width="960" height="100" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="790" font-family="'Pretendard',sans-serif" font-size="36" fill="#22C55E">☑</text>
+  <text x="150" y="785" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#FFF">본인 명의 환급 계좌 준비</text>
+  <text x="150" y="820" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">타인 명의·압류 계좌 입력 시 지급 보류</text>
+
+  <rect x="60" y="860" width="960" height="100" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="910" font-family="'Pretendard',sans-serif" font-size="36" fill="#22C55E">☑</text>
+  <text x="150" y="905" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#FFF">신청 기간 캘린더 등록</text>
+  <text x="150" y="940" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">반기 3월·9월 / 정기 5월 / 기한 후 ~12.1 (5% 감액)</text>
+
+  <rect x="60" y="985" width="960" height="50" rx="16" fill="rgba(245,158,11,0.15)"/>
+  <text x="540" y="1018" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#F59E0B">국세청 ARS 1544-9944 · 상담 1566-3636</text>
+</svg>

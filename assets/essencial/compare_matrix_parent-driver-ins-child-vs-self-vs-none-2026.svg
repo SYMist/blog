@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="720" fill="url(#bg)"/>
+
+  <text x="540" y="48" text-anchor="middle" fill="#FFFFFF" font-size="24" font-weight="800" font-family="sans-serif">12대 중과실 4종 사고 시뮬레이션 매트릭스</text>
+  <text x="540" y="74" text-anchor="middle" fill="#DDD6FE" font-size="14" font-family="sans-serif">65~70세 부모 운전 사고 가정 · 운전자보험 미가입/가입 비교 · 2026.05</text>
+
+  <!-- Table header -->
+  <rect x="40" y="96" width="1000" height="44" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="240" y="124" text-anchor="middle" fill="#F8FAFC" font-size="14" font-weight="800" font-family="sans-serif">사고 케이스</text>
+  <text x="520" y="124" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="800" font-family="sans-serif">미가입 자비</text>
+  <text x="740" y="124" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="800" font-family="sans-serif">가입 시 본인 부담</text>
+  <text x="940" y="124" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="800" font-family="sans-serif">격차</text>
+
+  <!-- Row A: 어린이보호구역 -->
+  <rect x="40" y="144" width="1000" height="60" fill="#DC2626" fill-opacity="0.35" stroke="#DC2626" stroke-width="1.5"/>
+  <text x="55" y="170" fill="#FCA5A5" font-size="14" font-weight="800" font-family="sans-serif">A. 어린이보호구역 사고 (스쿨존, 어린이 부상) ⚠️</text>
+  <text x="55" y="190" fill="#CBD5E1" font-size="12" font-family="sans-serif">형사합의금 5천 + 벌금 1천 + 변호사 5백</text>
+  <text x="520" y="180" text-anchor="middle" fill="#FCA5A5" font-size="15" font-weight="800" font-family="sans-serif">약 6,500만원</text>
+  <text x="740" y="180" text-anchor="middle" fill="#86EFAC" font-size="15" font-weight="800" font-family="sans-serif">0~500만원</text>
+  <text x="940" y="180" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="800" font-family="sans-serif">+6,000만</text>
+
+  <!-- Row B: 단순 추돌 -->
+  <rect x="40" y="208" width="1000" height="60" fill="#15803D" fill-opacity="0.3" stroke="#15803D" stroke-width="1.5"/>
+  <text x="55" y="234" fill="#86EFAC" font-size="14" font-weight="800" font-family="sans-serif">B. 단순 추돌 (대물 배상만)</text>
+  <text x="55" y="254" fill="#CBD5E1" font-size="12" font-family="sans-serif">자동차보험으로 처리 → 운전자보험 사용 X</text>
+  <text x="520" y="242" text-anchor="middle" fill="#86EFAC" font-size="15" font-weight="800" font-family="sans-serif">0원 (자동차보험)</text>
+  <text x="740" y="242" text-anchor="middle" fill="#86EFAC" font-size="15" font-weight="800" font-family="sans-serif">0원 (자동차보험)</text>
+  <text x="940" y="242" text-anchor="middle" fill="#F1F5F9" font-size="15" font-weight="800" font-family="sans-serif">동일</text>
+
+  <!-- Row C: 음주운전 -->
+  <rect x="40" y="272" width="1000" height="60" fill="#7f1d1d" fill-opacity="0.5" stroke="#DC2626" stroke-width="1.5"/>
+  <text x="55" y="298" fill="#FCA5A5" font-size="14" font-weight="800" font-family="sans-serif">C. 음주운전 사고 (사망) ⚠️</text>
+  <text x="55" y="318" fill="#CBD5E1" font-size="12" font-family="sans-serif">약관상 보장 제외 → 가입자도 자비 부담</text>
+  <text x="520" y="306" text-anchor="middle" fill="#FCA5A5" font-size="15" font-weight="800" font-family="sans-serif">전액 자비</text>
+  <text x="740" y="306" text-anchor="middle" fill="#FCA5A5" font-size="15" font-weight="800" font-family="sans-serif">전액 자비 (면책)</text>
+  <text x="940" y="306" text-anchor="middle" fill="#F1F5F9" font-size="15" font-weight="800" font-family="sans-serif">동일 (양쪽 자비)</text>
+
+  <!-- Row D: 신호위반 -->
+  <rect x="40" y="336" width="1000" height="60" fill="#D97706" fill-opacity="0.35" stroke="#D97706" stroke-width="1.5"/>
+  <text x="55" y="362" fill="#FCD34D" font-size="14" font-weight="800" font-family="sans-serif">D. 신호위반 사고 (인적 피해)</text>
+  <text x="55" y="382" fill="#CBD5E1" font-size="12" font-family="sans-serif">형사합의금 3천 + 벌금 5백</text>
+  <text x="520" y="370" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="800" font-family="sans-serif">약 3,500만원</text>
+  <text x="740" y="370" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="800" font-family="sans-serif">0원 (한도 내)</text>
+  <text x="940" y="370" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="800" font-family="sans-serif">+3,500만</text>
+
+  <!-- Summary highlight -->
+  <rect x="40" y="412" width="1000" height="60" fill="#FCD34D" fill-opacity="0.2" stroke="#FCD34D" stroke-width="2"/>
+  <text x="55" y="436" fill="#FCD34D" font-size="14" font-weight="800" font-family="sans-serif">결론: 12대 중과실 사고 1건당 3,500만~6,500만 격차</text>
+  <text x="55" y="460" fill="#FFFFFF" font-size="14" font-family="sans-serif">→ 월 보험료 2~5만 vs 사고 1건 6,500만 부담 (어린이보호구역) · 가입 가성비 압도적</text>
+
+  <!-- Key points -->
+  <rect x="40" y="488" width="1000" height="184" rx="10" fill="#1e293b" fill-opacity="0.6" stroke="#334155" stroke-width="1.5"/>
+  <text x="60" y="514" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">결정 변수 + 약관 면책 사유</text>
+  <text x="60" y="538" fill="#CBD5E1" font-size="12" font-family="sans-serif">[가입 결정 변수] 부모 운전 빈도·주 운전 경로·어린이보호구역 통과 여부</text>
+  <text x="60" y="560" fill="#CBD5E1" font-size="12" font-family="sans-serif">[연령별 보험료] 60대 초 약 1.5~3만/월 · 60대 후 2.5~4만 · 70대 3~5만 · 80대+ 가입 어려움</text>
+  <text x="60" y="582" fill="#FCA5A5" font-size="12" font-weight="700" font-family="sans-serif">⚠️ 약관 면책 사유 (가입자도 자비 부담)</text>
+  <text x="60" y="604" fill="#CBD5E1" font-size="12" font-family="sans-serif">- 음주운전 (혈중 0.03%+) · 무면허 운전 · 고의 사고</text>
+  <text x="60" y="626" fill="#CBD5E1" font-size="12" font-family="sans-serif">- 업무용·경주·전쟁 사고 등 (약관 명시)</text>
+  <text x="60" y="650" fill="#CBD5E1" font-size="12" font-family="sans-serif">→ 운전자보험 가입 = 음주운전 정당화 X · 음주는 무조건 자비 부담</text>
+
+  <text x="40" y="708" fill="#64748B" font-size="12" font-family="sans-serif">essencial | 2026.05 기준 · 본인 약관·연령 보험사·금감원(1332) 확인 필수</text>
+</svg>

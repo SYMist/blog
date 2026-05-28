@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <rect x="60" y="60" width="240" height="60" rx="30" fill="#F59E0B"/>
+  <text x="180" y="101" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#0B1F3B" text-anchor="middle">빠른 판단</text>
+
+  <text x="540" y="200" font-family="'Pretendard', sans-serif" font-size="60" font-weight="900" fill="#FFFFFF" text-anchor="middle">상황별 최적 선택</text>
+
+  <rect x="60" y="280" width="960" height="220" rx="20" fill="#1A3270"/>
+  <text x="540" y="335" font-family="'Pretendard', sans-serif" font-size="36" font-weight="800" fill="#F59E0B" text-anchor="middle">직장인이라면</text>
+  <text x="540" y="395" font-family="'Pretendard', sans-serif" font-size="30" font-weight="600" fill="#EAF2FF" text-anchor="middle">DB: 임금 상승률 높고 장기근속</text>
+  <text x="540" y="440" font-family="'Pretendard', sans-serif" font-size="30" font-weight="600" fill="#EAF2FF" text-anchor="middle">DC+IRP: 임금피크·이직·자율 운용</text>
+  <text x="540" y="485" font-family="'Pretendard', sans-serif" font-size="28" font-weight="600" fill="#A7C4FF" text-anchor="middle">IRP 700만 + 연금저축 600만 = 900만 공제</text>
+
+  <rect x="60" y="530" width="960" height="220" rx="20" fill="#1A3270"/>
+  <text x="540" y="585" font-family="'Pretendard', sans-serif" font-size="36" font-weight="800" fill="#F59E0B" text-anchor="middle">소상공인·자영업자라면</text>
+  <text x="540" y="645" font-family="'Pretendard', sans-serif" font-size="30" font-weight="600" fill="#EAF2FF" text-anchor="middle">노란우산 + IRP 동시 가입</text>
+  <text x="540" y="690" font-family="'Pretendard', sans-serif" font-size="30" font-weight="600" fill="#EAF2FF" text-anchor="middle">소득공제 600만 + 세액공제 148만</text>
+  <text x="540" y="735" font-family="'Pretendard', sans-serif" font-size="28" font-weight="600" fill="#A7C4FF" text-anchor="middle">법인대표 8,000만 가입 가능</text>
+
+  <rect x="60" y="780" width="960" height="220" rx="20" fill="#1A3270"/>
+  <text x="540" y="835" font-family="'Pretendard', sans-serif" font-size="36" font-weight="800" fill="#F59E0B" text-anchor="middle">은퇴 임박이라면</text>
+  <text x="540" y="895" font-family="'Pretendard', sans-serif" font-size="30" font-weight="600" fill="#EAF2FF" text-anchor="middle">21년 근속 채워 50% 감면</text>
+  <text x="540" y="940" font-family="'Pretendard', sans-serif" font-size="30" font-weight="600" fill="#EAF2FF" text-anchor="middle">10년 분할 + 사적연금 1,500만 이내</text>
+  <text x="540" y="985" font-family="'Pretendard', sans-serif" font-size="28" font-weight="600" fill="#A7C4FF" text-anchor="middle">연금소득세 3.3~5.5% (분리과세)</text>
+</svg>

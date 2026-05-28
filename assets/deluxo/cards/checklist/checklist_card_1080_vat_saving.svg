@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#F59E0B">부가세 신고 전 1분 체크리스트</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <rect x="60" y="120" width="960" height="95" rx="16" fill="rgba(239,68,68,0.08)"/>
+  <rect x="80" y="145" width="40" height="40" rx="8" fill="rgba(239,68,68,0.3)" stroke="#EF4444" stroke-width="2"/>
+  <text x="100" y="173" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#EF4444">!</text>
+  <text x="140" y="173" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">과세유형 확인 (일반 vs 간이 → 신고 서식이 다름)</text>
+
+  <rect x="60" y="227" width="960" height="95" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="252" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="280" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="280" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">홈택스 사업용 카드 등록 여부 확인 (최대 50개)</text>
+
+  <rect x="60" y="334" width="960" height="95" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="359" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="387" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="387" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">매출 자료 대조 (배달앱 정산서·카드 매출·현금영수증)</text>
+
+  <rect x="60" y="441" width="960" height="95" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="466" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="494" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="494" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">매입 분류: 과세·면세·불공제 구분 완료</text>
+
+  <rect x="60" y="548" width="960" height="95" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="573" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="601" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="601" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">의제매입세액공제 해당 시: 신고서 별도 작성</text>
+
+  <rect x="60" y="655" width="960" height="95" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="680" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="708" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="708" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">신용카드 발행 세액공제 1.3% 적용 확인</text>
+
+  <rect x="60" y="762" width="960" height="95" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="787" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="815" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="815" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">조기환급 대상 확인 (시설투자 → 15일 환급)</text>
+
+  <rect x="60" y="869" width="960" height="95" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="894" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="922" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="922" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">이중 공제 방지 (부가세↔종소세 공제 항목 분리)</text>
+
+  <rect x="60" y="976" width="960" height="70" rx="16" fill="rgba(239,68,68,0.08)"/>
+  <rect x="80" y="993" width="40" height="40" rx="8" fill="rgba(239,68,68,0.3)" stroke="#EF4444" stroke-width="2"/>
+  <text x="100" y="1021" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#EF4444">!</text>
+  <text x="140" y="1021" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">신고 기한 확인: 1기 7/25, 2기 1/25 (간이 1/25)</text>
+</svg>

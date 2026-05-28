@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="40" y="36" width="260" height="44" rx="22" fill="#F59E0B"/>
+  <text x="170" y="65" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#0B1F3B">절감 실패 TOP 5</text>
+  <text x="40" y="135" font-family="'Pretendard',sans-serif" font-size="44" font-weight="900" fill="#FFFFFF">자동차보험 절감</text>
+  <text x="40" y="185" font-family="'Pretendard',sans-serif" font-size="44" font-weight="900" fill="#FFFFFF">이것 때문에 손해 봅니다</text>
+  <rect x="40" y="210" width="120" height="4" rx="2" fill="#F59E0B"/>
+  <!-- Item 1 -->
+  <rect x="40" y="245" width="1000" height="130" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <rect x="70" y="270" width="56" height="56" rx="28" fill="#F59E0B"/>
+  <text x="98" y="306" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#0B1F3B">1</text>
+  <text x="150" y="295" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFFFFF">업무전용 보험 미가입</text>
+  <text x="150" y="330" font-family="'Pretendard',sans-serif" font-size="19" font-weight="600" fill="#EAF2FF">법인 비용 0%, 개인사업자 비용 50% 축소</text>
+  <text x="150" y="358" font-family="'Pretendard',sans-serif" font-size="17" font-weight="600" fill="#F59E0B">→ 업무전용 자동차보험 반드시 가입하세요</text>
+  <!-- Item 2 -->
+  <rect x="40" y="390" width="1000" height="130" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <rect x="70" y="415" width="56" height="56" rx="28" fill="#F59E0B"/>
+  <text x="98" y="451" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#0B1F3B">2</text>
+  <text x="150" y="440" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFFFFF">운행기록부 미작성</text>
+  <text x="150" y="475" font-family="'Pretendard',sans-serif" font-size="19" font-weight="600" fill="#EAF2FF">1,500만 초과분 전액 비용 부인</text>
+  <text x="150" y="503" font-family="'Pretendard',sans-serif" font-size="17" font-weight="600" fill="#F59E0B">→ 연간 1,500만 넘으면 운행기록부 필수</text>
+  <!-- Item 3 -->
+  <rect x="40" y="535" width="1000" height="130" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <rect x="70" y="560" width="56" height="56" rx="28" fill="#F59E0B"/>
+  <text x="98" y="596" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#0B1F3B">3</text>
+  <text x="150" y="585" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFFFFF">가입경력 인정자 미지정</text>
+  <text x="150" y="620" font-family="'Pretendard',sans-serif" font-size="19" font-weight="600" fill="#EAF2FF">무경력 요율 적용 — 보험료 대폭 상승</text>
+  <text x="150" y="648" font-family="'Pretendard',sans-serif" font-size="17" font-weight="600" fill="#F59E0B">→ 가족 중 경력자 지정하면 할인 가능</text>
+  <!-- Item 4 -->
+  <rect x="40" y="680" width="1000" height="130" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <rect x="70" y="705" width="56" height="56" rx="28" fill="#F59E0B"/>
+  <text x="98" y="741" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#0B1F3B">4</text>
+  <text x="150" y="730" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFFFFF">마일리지 특약 미적용</text>
+  <text x="150" y="765" font-family="'Pretendard',sans-serif" font-size="19" font-weight="600" fill="#EAF2FF">표준 요율 그대로 납부 — 최대 47.1% 할인 놓침</text>
+  <text x="150" y="793" font-family="'Pretendard',sans-serif" font-size="17" font-weight="600" fill="#F59E0B">→ 주행거리 적으면 마일리지 특약 필수</text>
+  <!-- Item 5 -->
+  <rect x="40" y="825" width="1000" height="130" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <rect x="70" y="850" width="56" height="56" rx="28" fill="#F59E0B"/>
+  <text x="98" y="886" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#0B1F3B">5</text>
+  <text x="150" y="875" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFFFFF">연두색 번호판 미부착</text>
+  <text x="150" y="910" font-family="'Pretendard',sans-serif" font-size="19" font-weight="600" fill="#EAF2FF">비용 전액 부인 + 상여 처분 위험</text>
+  <text x="150" y="938" font-family="'Pretendard',sans-serif" font-size="17" font-weight="600" fill="#F59E0B">→ 8,000만↑ 법인차 즉시 부착하세요</text>
+  <!-- Chips -->
+  <rect x="40" y="980" width="140" height="38" rx="19" fill="#E8F0FF"/>
+  <text x="110" y="1005" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#1D4ED8">실패사유</text>
+  <rect x="195" y="980" width="100" height="38" rx="19" fill="#E8F0FF"/>
+  <text x="245" y="1005" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#1D4ED8">주의</text>
+  <rect x="310" y="980" width="100" height="38" rx="19" fill="#E8F0FF"/>
+  <text x="360" y="1005" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#1D4ED8">2026</text>
+</svg>

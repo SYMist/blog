@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="60%" stop-color="#102A56"/>
+      <stop offset="100%" stop-color="#0B1F3B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#FBBF24"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="10" fill="url(#accent)"/>
+
+  <!-- Chips -->
+  <rect x="60" y="72" width="156" height="46" rx="23" fill="#1D4ED8"/>
+  <text x="138" y="102" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#E8F0FF" text-anchor="middle">2026 최신</text>
+
+  <rect x="228" y="72" width="200" height="46" rx="23" fill="#1D4ED8"/>
+  <text x="328" y="102" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#E8F0FF" text-anchor="middle">취득세 50% 감면</text>
+
+  <rect x="440" y="72" width="210" height="46" rx="23" fill="#EF4444" opacity="0.8"/>
+  <text x="545" y="102" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF" text-anchor="middle">5등급 2026 마감</text>
+
+  <!-- Main title -->
+  <text x="60" y="202" font-family="-apple-system, sans-serif" font-size="58" font-weight="900" fill="#FFFFFF">화물차 사업자 취득세·자동차세·보조금</text>
+  <text x="60" y="278" font-family="-apple-system, sans-serif" font-size="58" font-weight="900" fill="#F59E0B">절감 총정리 (2026)</text>
+
+  <!-- Subtitle -->
+  <text x="60" y="340" font-family="-apple-system, sans-serif" font-size="26" font-weight="700" fill="#EAF2FF">전기화물차 보조금 · 조기폐차 · 유가보조금 · 취득세 감면</text>
+
+  <!-- Divider -->
+  <rect x="60" y="378" width="660" height="3" fill="#F59E0B" rx="2"/>
+
+  <!-- Bottom note -->
+  <text x="60" y="426" font-family="-apple-system, sans-serif" font-size="20" font-weight="600" fill="#A0B4D0">5등급 조기폐차 2026 마감 | 전기화물차 국비 최대 6,000만원 | ☎ 1588-8713</text>
+
+  <!-- Right: Key stat cards -->
+  <rect x="840" y="68" width="320" height="148" rx="20" fill="#1A3270"/>
+  <text x="1000" y="122" font-family="-apple-system, sans-serif" font-size="20" font-weight="700" fill="#F59E0B" text-anchor="middle">전기화물차 보조금</text>
+  <text x="1000" y="184" font-family="-apple-system, sans-serif" font-size="50" font-weight="900" fill="#FFFFFF" text-anchor="middle">6,000만원</text>
+
+  <rect x="840" y="232" width="320" height="148" rx="20" fill="#1A3270"/>
+  <text x="1000" y="286" font-family="-apple-system, sans-serif" font-size="20" font-weight="700" fill="#F59E0B" text-anchor="middle">조기폐차 (4등급)</text>
+  <text x="1000" y="348" font-family="-apple-system, sans-serif" font-size="50" font-weight="900" fill="#FFFFFF" text-anchor="middle">800만원</text>
+
+  <rect x="840" y="396" width="320" height="148" rx="20" fill="#34D399" opacity="0.2"/>
+  <rect x="840" y="396" width="320" height="148" rx="20" fill="none" stroke="#34D399" stroke-width="2"/>
+  <text x="1000" y="450" font-family="-apple-system, sans-serif" font-size="20" font-weight="700" fill="#34D399" text-anchor="middle">자동차세 (10톤↓)</text>
+  <text x="1000" y="512" font-family="-apple-system, sans-serif" font-size="40" font-weight="900" fill="#FFFFFF" text-anchor="middle">28,500원</text>
+
+  <!-- Bottom accent bar -->
+  <rect x="0" y="620" width="1200" height="10" fill="url(#accent)"/>
+</svg>

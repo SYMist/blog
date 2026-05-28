@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="920" cy="180" r="220" fill="#EF4444" opacity="0.05"/>
+  <circle cx="160" cy="900" r="180" fill="#34D399" opacity="0.05"/>
+
+  <!-- Top bar -->
+  <rect x="0" y="0" width="1080" height="8" fill="#EF4444"/>
+
+  <!-- Chips -->
+  <rect x="60" y="80" width="148" height="42" rx="21" fill="#F59E0B"/>
+  <text x="134" y="107" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#0B1F3B" text-anchor="middle">2026 최신</text>
+
+  <rect x="224" y="80" width="220" height="42" rx="21" fill="#1A3270"/>
+  <rect x="224" y="80" width="220" height="42" rx="21" fill="none" stroke="#34D399" stroke-width="2"/>
+  <text x="334" y="107" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#34D399" text-anchor="middle">정부지원 대출 가능</text>
+
+  <rect x="460" y="80" width="220" height="42" rx="21" fill="#1A3270"/>
+  <rect x="460" y="80" width="220" height="42" rx="21" fill="none" stroke="#EF4444" stroke-width="2"/>
+  <text x="570" y="107" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#EF4444" text-anchor="middle">채무조정 경로 비교</text>
+
+  <!-- Main title -->
+  <text x="60" y="224" font-family="-apple-system, sans-serif" font-size="54" font-weight="900" fill="#FFFFFF">신용불량자도</text>
+  <text x="60" y="294" font-family="-apple-system, sans-serif" font-size="54" font-weight="900" fill="#FFFFFF">대출 받을 수 있다</text>
+  <text x="60" y="352" font-family="-apple-system, sans-serif" font-size="26" font-weight="700" fill="#A0B4D0">금융채무불이행자 대출 조건·금융거래 제한 해제 (2026)</text>
+
+  <!-- 3 product boxes -->
+  <rect x="60" y="400" width="292" height="188" rx="16" fill="#0D2347"/>
+  <text x="206" y="452" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#34D399" text-anchor="middle">햇살론 특례보증</text>
+  <text x="206" y="504" font-family="-apple-system, sans-serif" font-size="38" font-weight="900" fill="#FFFFFF" text-anchor="middle">1,000만원</text>
+  <text x="206" y="546" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">연 10.9~12.9%</text>
+  <text x="206" y="572" font-family="-apple-system, sans-serif" font-size="13" fill="#34D399" text-anchor="middle">신용 하위 20% 전용</text>
+
+  <rect x="394" y="400" width="292" height="188" rx="16" fill="#0D2347"/>
+  <text x="540" y="452" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#F59E0B" text-anchor="middle">소액생계비대출</text>
+  <text x="540" y="504" font-family="-apple-system, sans-serif" font-size="38" font-weight="900" fill="#FFFFFF" text-anchor="middle">100만원</text>
+  <text x="540" y="546" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">연 12.5%</text>
+  <text x="540" y="572" font-family="-apple-system, sans-serif" font-size="13" fill="#F59E0B" text-anchor="middle">무직자·무소득 가능</text>
+
+  <rect x="728" y="400" width="292" height="188" rx="16" fill="#0D2347"/>
+  <text x="874" y="452" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#EF4444" text-anchor="middle">개인워크아웃</text>
+  <text x="874" y="504" font-family="-apple-system, sans-serif" font-size="28" font-weight="900" fill="#FFFFFF" text-anchor="middle">채무 감면</text>
+  <text x="874" y="546" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">신청비 5만원</text>
+  <text x="874" y="572" font-family="-apple-system, sans-serif" font-size="13" fill="#EF4444" text-anchor="middle">ccrs.or.kr ☎1600-5500</text>
+
+  <!-- Key info box -->
+  <rect x="60" y="614" width="960" height="100" rx="16" fill="#1A3270"/>
+  <text x="540" y="656" font-family="-apple-system, sans-serif" font-size="22" font-weight="800" fill="#F59E0B" text-anchor="middle">연체 완납 후 신용 기록 즉시 삭제 아님</text>
+  <text x="540" y="696" font-family="-apple-system, sans-serif" font-size="18" fill="#EAF2FF" text-anchor="middle">단기연체 1년 / 장기연체(90일+) 최대 5년 자동 삭제</text>
+
+  <!-- Hotline boxes -->
+  <rect x="60" y="736" width="462" height="148" rx="16" fill="#0D2347"/>
+  <text x="291" y="790" font-family="-apple-system, sans-serif" font-size="20" font-weight="700" fill="#34D399" text-anchor="middle">서민금융진흥원</text>
+  <text x="291" y="848" font-family="-apple-system, sans-serif" font-size="48" font-weight="900" fill="#FFFFFF" text-anchor="middle">☎ 1397</text>
+  <text x="291" y="870" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">햇살론·소액생계비 무료 상담</text>
+
+  <rect x="558" y="736" width="462" height="148" rx="16" fill="#0D2347"/>
+  <text x="789" y="790" font-family="-apple-system, sans-serif" font-size="20" font-weight="700" fill="#EF4444" text-anchor="middle">신용회복위원회</text>
+  <text x="789" y="848" font-family="-apple-system, sans-serif" font-size="40" font-weight="900" fill="#FFFFFF" text-anchor="middle">☎ 1600-5500</text>
+  <text x="789" y="870" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">채무조정·워크아웃 무료 상담</text>
+
+  <!-- Bottom note -->
+  <text x="540" y="976" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준 | 개인 신용 상황에 따라 조건 상이 | 신청 전 공식 기관 상담 필수</text>
+  <rect x="0" y="1072" width="1080" height="8" fill="#EF4444"/>
+</svg>

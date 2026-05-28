@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="80" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="800" fill="#F59E0B">내 상황에 맞는 운영자금 대출은?</text>
+  <rect x="60" y="110" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <rect x="60" y="140" width="960" height="120" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <text x="100" y="185" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#3B82F6">인건비·임대료·재고 등 일반 운영자금</text>
+  <text x="100" y="225" font-family="'Pretendard',sans-serif" font-size="22" fill="#FFF">→ 일반경영안정자금 (7천만 · 증빙 부담 적음)</text>
+
+  <rect x="60" y="270" width="960" height="120" rx="16" fill="rgba(239,68,68,0.1)"/>
+  <text x="100" y="315" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#EF4444">재해(태풍·화재·수해) 피해</text>
+  <text x="100" y="355" font-family="'Pretendard',sans-serif" font-size="22" fill="#FFF">→ 긴급경영안정(재해) (1억 · 재해확인서 필수)</text>
+
+  <rect x="60" y="400" width="960" height="120" rx="16" fill="rgba(239,68,68,0.06)"/>
+  <text x="100" y="445" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#EF4444">매출 급감·경영 위기</text>
+  <text x="100" y="485" font-family="'Pretendard',sans-serif" font-size="22" fill="#FFF">→ 긴급경영안정(경영애로) (7천만 · 매출감소 증빙)</text>
+
+  <rect x="60" y="530" width="960" height="120" rx="16" fill="rgba(16,185,129,0.12)"/>
+  <text x="100" y="575" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#10B981">청년 직원(39세↓) 고용 중</text>
+  <text x="100" y="615" font-family="'Pretendard',sans-serif" font-size="22" fill="#FFF">→ 청년고용연계자금 (7천만 · 기존 유지도 가능)</text>
+
+  <rect x="60" y="660" width="960" height="120" rx="16" fill="rgba(139,92,246,0.12)"/>
+  <text x="100" y="705" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#8B5CF6">장애인 대표자 사업장</text>
+  <text x="100" y="745" font-family="'Pretendard',sans-serif" font-size="22" fill="#FFF">→ 장애인기업지원 (1억 · 7년 상환 · 시설 겸용)</text>
+
+  <rect x="60" y="790" width="960" height="120" rx="16" fill="rgba(245,158,11,0.12)"/>
+  <text x="100" y="835" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#F59E0B">제조업 소공인(10인 미만)</text>
+  <text x="100" y="875" font-family="'Pretendard',sans-serif" font-size="22" fill="#FFF">→ 소공인특화 (운전 1억 / 시설 5억)</text>
+
+  <rect x="60" y="920" width="960" height="120" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="965" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#3B82F6">기존 고금리 대출 이자 부담</text>
+  <text x="100" y="1005" font-family="'Pretendard',sans-serif" font-size="22" fill="#FFF">→ 대환대출 (5천만 · 10년 · 정책금리 전환)</text>
+
+  <rect x="60" y="1050" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#F59E0B">2026 다자녀 혜택 핵심 변화</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- Before / After -->
+  <rect x="60" y="120" width="460" height="60" rx="16" fill="rgba(239,68,68,0.15)"/>
+  <text x="290" y="158" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#EF4444">기존 (3자녀 기준)</text>
+
+  <rect x="560" y="120" width="460" height="60" rx="16" fill="rgba(34,197,94,0.15)"/>
+  <text x="790" y="158" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#22C55E">2026 (2자녀 전환)</text>
+
+  <!-- Change 1 -->
+  <rect x="60" y="200" width="460" height="90" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="290" y="235" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">다자녀 기준</text>
+  <text x="290" y="268" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="600" fill="#EAF2FF">3자녀 이상만 인정</text>
+  <rect x="560" y="200" width="460" height="90" rx="16" fill="rgba(34,197,94,0.06)"/>
+  <text x="790" y="235" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">다자녀 기준</text>
+  <text x="790" y="268" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="900" fill="#22C55E">2자녀부터 적용</text>
+
+  <!-- Change 2 -->
+  <rect x="60" y="310" width="460" height="90" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="290" y="345" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">보육수당 비과세</text>
+  <text x="290" y="378" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="600" fill="#EAF2FF">가구당 총 월 20만 원</text>
+  <rect x="560" y="310" width="460" height="90" rx="16" fill="rgba(34,197,94,0.06)"/>
+  <text x="790" y="345" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">보육수당 비과세</text>
+  <text x="790" y="378" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="900" fill="#22C55E">인당 월 20만 원 (2명=40만)</text>
+
+  <!-- Change 3 -->
+  <rect x="60" y="420" width="460" height="90" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="290" y="455" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">디딤돌 대출 한도</text>
+  <text x="290" y="488" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="600" fill="#EAF2FF">2.4억 / 대상 5억↓</text>
+  <rect x="560" y="420" width="460" height="90" rx="16" fill="rgba(34,197,94,0.06)"/>
+  <text x="790" y="455" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">디딤돌 대출 한도</text>
+  <text x="790" y="488" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="900" fill="#22C55E">3.2억 / 대상 6억↓ + 0.5%p↓</text>
+
+  <!-- Change 4 -->
+  <rect x="60" y="530" width="460" height="90" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="290" y="565" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">자동차 취득세(2자녀)</text>
+  <text x="290" y="598" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="600" fill="#EAF2FF">혜택 없음</text>
+  <rect x="560" y="530" width="460" height="90" rx="16" fill="rgba(34,197,94,0.06)"/>
+  <text x="790" y="565" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">자동차 취득세(2자녀)</text>
+  <text x="790" y="598" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="900" fill="#22C55E">7인승+ 50%↓ / 5인승↓ 70만 원</text>
+
+  <!-- Change 5 -->
+  <rect x="60" y="640" width="460" height="90" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="290" y="675" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">K-패스(2자녀)</text>
+  <text x="290" y="708" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="600" fill="#EAF2FF">일반 20% 환급</text>
+  <rect x="560" y="640" width="460" height="90" rx="16" fill="rgba(34,197,94,0.06)"/>
+  <text x="790" y="675" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">K-패스(2자녀)</text>
+  <text x="790" y="708" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="900" fill="#22C55E">다자녀 30% 환급</text>
+
+  <!-- Change 6 -->
+  <rect x="60" y="750" width="460" height="90" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="290" y="785" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">인천 지원</text>
+  <text x="290" y="818" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="600" fill="#EAF2FF">개별 지원금</text>
+  <rect x="560" y="750" width="460" height="90" rx="16" fill="rgba(34,197,94,0.06)"/>
+  <text x="790" y="785" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">인천 1억+ 아이드림</text>
+  <text x="790" y="818" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="900" fill="#22C55E">출생~18세 총 1억 원+ 통합</text>
+
+  <!-- Bottom -->
+  <rect x="60" y="870" width="960" height="80" rx="20" fill="rgba(245,158,11,0.15)"/>
+  <text x="540" y="920" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#F59E0B">핵심: 2자녀 = 다자녀 → 주거·세금·교육·교통 혜택 대폭 확대</text>
+
+  <rect x="60" y="1050" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

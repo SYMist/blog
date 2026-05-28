@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1500" fill="url(#bg)"/>
+
+  <rect x="60" y="50" width="320" height="40" rx="20" fill="#B45309"/>
+  <text x="220" y="77" text-anchor="middle" fill="#FFFFFF" font-size="17" font-weight="800" font-family="sans-serif">2026 종소세 → 사업자대출 한도</text>
+
+  <text x="60" y="155" fill="#FFFFFF" font-size="42" font-weight="800" font-family="sans-serif">신고가 한도를 결정한다</text>
+  <text x="60" y="200" fill="#FCD34D" font-size="22" font-weight="600" font-family="sans-serif">소득 5,000만 → 한도 8,800만 · 1억 → 1억 7,500만</text>
+
+  <!-- 4 key cards -->
+  <rect x="60" y="240" width="260" height="180" rx="16" fill="url(#card)" stroke="#B45309" stroke-width="2"/>
+  <text x="190" y="285" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="700" font-family="sans-serif">신고 마감</text>
+  <text x="190" y="340" text-anchor="middle" fill="#FFFFFF" font-size="36" font-weight="800" font-family="sans-serif">5.1 ~ 5.31</text>
+  <text x="190" y="370" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="600" font-family="sans-serif">성실신고 6.30까지</text>
+  <text x="190" y="395" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">무신고 가산세 20%</text>
+
+  <rect x="340" y="240" width="260" height="180" rx="16" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="470" y="285" text-anchor="middle" fill="#86EFAC" font-size="15" font-weight="700" font-family="sans-serif">한도 골든타임</text>
+  <text x="470" y="340" text-anchor="middle" fill="#FFFFFF" font-size="36" font-weight="800" font-family="sans-serif">7월 중순~</text>
+  <text x="470" y="370" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="600" font-family="sans-serif">소득금액증명원 갱신</text>
+  <text x="470" y="395" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">~ 다음해 4월</text>
+
+  <rect x="620" y="240" width="260" height="180" rx="16" fill="url(#card)" stroke="#B45309" stroke-width="2"/>
+  <text x="750" y="285" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="700" font-family="sans-serif">DSR 한도</text>
+  <text x="750" y="340" text-anchor="middle" fill="#FFFFFF" font-size="44" font-weight="800" font-family="sans-serif">40%</text>
+  <text x="750" y="370" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="600" font-family="sans-serif">시중은행 일반 기준</text>
+  <text x="750" y="395" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">정책자금 별도</text>
+
+  <rect x="900" y="240" width="240" height="180" rx="16" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="1020" y="285" text-anchor="middle" fill="#86EFAC" font-size="15" font-weight="700" font-family="sans-serif">정책자금 최저</text>
+  <text x="1020" y="340" text-anchor="middle" fill="#FFFFFF" font-size="40" font-weight="800" font-family="sans-serif">2.96%</text>
+  <text x="1020" y="370" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="600" font-family="sans-serif">신규 사업자 1억</text>
+  <text x="1020" y="395" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">소진공·중진공</text>
+
+  <!-- 신고 소득별 한도 바 차트 -->
+  <text x="60" y="475" fill="#FFFFFF" font-size="26" font-weight="800" font-family="sans-serif">신고 소득금액별 시중은행 한도 (2.5배 환산)</text>
+  <text x="60" y="503" fill="#94A3B8" font-size="14" font-family="sans-serif">자영업 5년차·신용 850점·기존 대출 없음 가정 · DSR 40% · 5년 만기</text>
+
+  <g font-family="sans-serif">
+    <text x="60" y="545" fill="#FFFFFF" font-size="16" font-weight="700">소득 2,000만</text>
+    <rect x="240" y="528" width="60" height="22" rx="4" fill="#92400E"/>
+    <text x="320" y="545" fill="#FCA5A5" font-size="15" font-weight="700">한도 약 3,500만</text>
+
+    <text x="60" y="585" fill="#FFFFFF" font-size="16" font-weight="700">소득 3,000만</text>
+    <rect x="240" y="568" width="90" height="22" rx="4" fill="#F59E0B"/>
+    <text x="350" y="585" fill="#FCD34D" font-size="15" font-weight="700">한도 약 5,200만</text>
+
+    <text x="60" y="625" fill="#FFFFFF" font-size="16" font-weight="700">소득 5,000만</text>
+    <rect x="240" y="608" width="160" height="22" rx="4" fill="#FCD34D"/>
+    <text x="420" y="625" fill="#FCD34D" font-size="15" font-weight="700">한도 약 8,800만</text>
+
+    <text x="60" y="665" fill="#FFFFFF" font-size="16" font-weight="700">소득 7,000만</text>
+    <rect x="240" y="648" width="220" height="22" rx="4" fill="#86EFAC"/>
+    <text x="480" y="665" fill="#86EFAC" font-size="15" font-weight="700">한도 약 1.23억</text>
+
+    <text x="60" y="705" fill="#FFFFFF" font-size="16" font-weight="700">소득 1억</text>
+    <rect x="240" y="688" width="320" height="22" rx="4" fill="#86EFAC"/>
+    <text x="580" y="705" fill="#86EFAC" font-size="15" font-weight="700">한도 약 1.75억</text>
+
+    <text x="60" y="745" fill="#FFFFFF" font-size="16" font-weight="700">소득 1.5억</text>
+    <rect x="240" y="728" width="475" height="22" rx="4" fill="#86EFAC"/>
+    <text x="735" y="745" fill="#86EFAC" font-size="15" font-weight="700">한도 약 2.6억 (시중 최대 3억 가시권)</text>
+
+    <text x="60" y="785" fill="#FCD34D" font-size="14" font-weight="700">※ 환산배수 2.5배 가정 · 우량 사업자(800+ · 5년+)는 3~5배 적용 가능</text>
+  </g>
+
+  <!-- 절세 vs 한도 trade-off -->
+  <rect x="60" y="820" width="540" height="310" rx="16" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="80" y="860" fill="#86EFAC" font-size="22" font-weight="800" font-family="sans-serif">A · 절세 우선 시나리오</text>
+
+  <g font-family="sans-serif">
+    <text x="80" y="900" fill="#CBD5E1" font-size="14">필요경비 인정</text>
+    <text x="580" y="900" text-anchor="end" fill="#FFFFFF" font-size="15" font-weight="700">1억 6,500만</text>
+
+    <text x="80" y="930" fill="#CBD5E1" font-size="14">신고 소득금액</text>
+    <text x="580" y="930" text-anchor="end" fill="#FFFFFF" font-size="15" font-weight="700">3,500만</text>
+
+    <text x="80" y="960" fill="#CBD5E1" font-size="14">종소세 부담</text>
+    <text x="580" y="960" text-anchor="end" fill="#86EFAC" font-size="16" font-weight="800">약 300만</text>
+
+    <text x="80" y="990" fill="#CBD5E1" font-size="14">사업자대출 환산 한도</text>
+    <text x="580" y="990" text-anchor="end" fill="#FCA5A5" font-size="16" font-weight="800">약 8,000만</text>
+
+    <text x="80" y="1020" fill="#CBD5E1" font-size="14">자기자본·자금수요 無</text>
+    <text x="580" y="1020" text-anchor="end" fill="#86EFAC" font-size="14">합리적 선택</text>
+
+    <text x="80" y="1050" fill="#CBD5E1" font-size="14">사업 안정기</text>
+    <text x="580" y="1050" text-anchor="end" fill="#FFFFFF" font-size="14">유지·축소 단계</text>
+  </g>
+  <text x="80" y="1110" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">✓ 자금 수요 없을 때 · 다음 해 한도 회복 가능</text>
+
+  <rect x="620" y="820" width="520" height="310" rx="16" fill="url(#card)" stroke="#FCD34D" stroke-width="2"/>
+  <text x="640" y="860" fill="#FCD34D" font-size="22" font-weight="800" font-family="sans-serif">B · 한도 우선 시나리오</text>
+
+  <g font-family="sans-serif">
+    <text x="640" y="900" fill="#CBD5E1" font-size="14">필요경비 인정</text>
+    <text x="1120" y="900" text-anchor="end" fill="#FFFFFF" font-size="15" font-weight="700">1억 5,000만</text>
+
+    <text x="640" y="930" fill="#CBD5E1" font-size="14">신고 소득금액</text>
+    <text x="1120" y="930" text-anchor="end" fill="#FCD34D" font-size="15" font-weight="700">5,000만</text>
+
+    <text x="640" y="960" fill="#CBD5E1" font-size="14">종소세 부담</text>
+    <text x="1120" y="960" text-anchor="end" fill="#FCA5A5" font-size="16" font-weight="800">약 600만 (+300)</text>
+
+    <text x="640" y="990" fill="#CBD5E1" font-size="14">사업자대출 환산 한도</text>
+    <text x="1120" y="990" text-anchor="end" fill="#86EFAC" font-size="16" font-weight="800">약 1.25억 (+4,500)</text>
+
+    <text x="640" y="1020" fill="#CBD5E1" font-size="14">사업 확장기·인력 충원</text>
+    <text x="1120" y="1020" text-anchor="end" fill="#86EFAC" font-size="14">유리</text>
+
+    <text x="640" y="1050" fill="#CBD5E1" font-size="14">주택 구입·임차 계획</text>
+    <text x="1120" y="1050" text-anchor="end" fill="#FFFFFF" font-size="14">DSR 합산 영향</text>
+  </g>
+  <text x="640" y="1110" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">✓ 1년 내 자금 조달 계획·ROI 4%+ 일 때 합리적</text>
+
+  <!-- 4채널 상품 요약 -->
+  <rect x="60" y="1160" width="1080" height="200" rx="16" fill="url(#card)" stroke="#B45309" stroke-width="2"/>
+  <text x="80" y="1200" fill="#FCD34D" font-size="22" font-weight="800" font-family="sans-serif">2026 사업자대출 4채널 핵심</text>
+
+  <g font-family="sans-serif">
+    <text x="80" y="1240" fill="#FFFFFF" font-size="16" font-weight="700">시중은행 사장님대출</text>
+    <text x="570" y="1240" text-anchor="end" fill="#FCD34D" font-size="18" font-weight="800">최대 3억 · 3~6%</text>
+
+    <text x="80" y="1275" fill="#FFFFFF" font-size="16" font-weight="700">정책자금 (신규 사업자)</text>
+    <text x="570" y="1275" text-anchor="end" fill="#86EFAC" font-size="18" font-weight="800">2.96% · 1억 한도</text>
+
+    <text x="600" y="1240" fill="#FFFFFF" font-size="16" font-weight="700">신용보증재단</text>
+    <text x="1120" y="1240" text-anchor="end" fill="#86EFAC" font-size="16" font-weight="800">개인 5천 · 법인 1억</text>
+
+    <text x="600" y="1275" fill="#FFFFFF" font-size="16" font-weight="700">2금융권 햇살론</text>
+    <text x="1120" y="1275" text-anchor="end" fill="#FCA5A5" font-size="16" font-weight="800">10.5% · 차선책</text>
+
+    <text x="80" y="1325" fill="#FCD34D" font-size="14" font-weight="700">→ 2026.3.18 대출이동제: 10억 이하 갈아타기 (승인율 10% 미만 한계)</text>
+  </g>
+
+  <text x="60" y="1420" fill="#64748B" font-size="14" font-family="sans-serif">essencial | 대출·금융 silo · 자료: 국세청·금융위·소진공·신용보증재단 (2026.04 기준)</text>
+</svg>

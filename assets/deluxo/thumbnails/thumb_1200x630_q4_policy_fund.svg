@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1200" height="630" rx="24" fill="url(#bg)"/>
+
+  <rect x="60" y="50" width="240" height="44" rx="22" fill="rgba(245,158,11,0.2)"/>
+  <text x="180" y="80" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#F59E0B">2026 4분기</text>
+
+  <text x="60" y="175" font-family="'Pretendard',sans-serif" font-size="68" font-weight="900" fill="#FFFFFF">소상공인 정책자금</text>
+  <text x="60" y="240" font-family="'Pretendard',sans-serif" font-size="40" font-weight="600" fill="#EAF2FF">신청 일정·금리·한도 총정리</text>
+
+  <rect x="60" y="270" width="160" height="44" rx="22" fill="#E8F0FF"/>
+  <text x="140" y="300" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#1D4ED8">금리</text>
+
+  <rect x="240" y="270" width="160" height="44" rx="22" fill="#E8F0FF"/>
+  <text x="320" y="300" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#1D4ED8">한도</text>
+
+  <rect x="420" y="270" width="160" height="44" rx="22" fill="#E8F0FF"/>
+  <text x="500" y="300" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#1D4ED8">대환</text>
+
+  <rect x="800" y="80" width="360" height="500" rx="20" fill="rgba(245,158,11,0.08)"/>
+
+  <text x="980" y="170" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="52" font-weight="900" fill="#FFF">2.8%</text>
+  <text x="980" y="205" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="600" fill="#F59E0B">최저 금리(우대 적용)</text>
+
+  <text x="980" y="300" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="48" font-weight="900" fill="#FFF">10억 원</text>
+  <text x="980" y="335" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="600" fill="#F59E0B">최대 한도(스마트제조)</text>
+
+  <text x="980" y="420" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="52" font-weight="900" fill="#FFF">4.5%</text>
+  <text x="980" y="455" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="600" fill="#F59E0B">대환대출 고정금리</text>
+
+  <text x="980" y="530" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">10월 접수 · 선착순</text>
+  <text x="980" y="560" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">사전 준비 필수</text>
+
+  <text x="60" y="400" font-family="'Pretendard',sans-serif" font-size="30" font-weight="700" fill="#EAF2FF">융자 4조 643억 + 이차보전 3,670억</text>
+  <text x="60" y="445" font-family="'Pretendard',sans-serif" font-size="30" font-weight="700" fill="#EAF2FF">우대금리 최대 0.4%p · 비수도권 0.2%p</text>
+  <text x="60" y="490" font-family="'Pretendard',sans-serif" font-size="30" font-weight="700" fill="#EAF2FF">상환유예 제한 폐지 · 출산 1년 추가</text>
+
+  <text x="60" y="570" font-family="'Pretendard',sans-serif" font-size="24" font-weight="600" fill="#F59E0B">시중 6~9% → 정책 2.8~4.2% · 연 125~275만 원 절감</text>
+</svg>

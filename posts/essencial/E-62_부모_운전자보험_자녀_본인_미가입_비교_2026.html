@@ -1,0 +1,376 @@
+<!-- essencial_template_insurance.html 기반 -->
+<!-- E-62: 부모 운전자보험 가입 — 자녀 가입 vs 본인 가입 vs 미가입 비교 (2026) -->
+
+<!-- ✅ Schema.org 구조화 데이터 -->
+<div style="display:none">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "부모 운전자보험 가입 — 자녀 가입 vs 본인 가입 vs 미가입 3종 비교 (2026)",
+      "description": "65~70세 부모 운전자보험 가입 시 자녀 명의 가입 가능 여부·본인 명의 가입·미가입 손익을 12대 중과실 사고 시뮬로 비교. 어린이보호구역 사고 미가입 6,500만 vs 가입 0원까지 정리.",
+      "datePublished": "2026-05-18",
+      "dateModified": "2026-05-18",
+      "author": {"@type": "Person", "name": "essencial"},
+      "publisher": {"@type": "Organization", "name": "essencial"}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "자녀가 부모 운전자보험을 대신 가입할 수 있나요?", "acceptedAnswer": {"@type": "Answer", "text": "운전자보험은 반드시 본인(피보험자) 명의로 가입해야 합니다. 자녀가 부모 명의로 가입 절차를 보조하고 보험료를 대신 결제하는 형태는 가능하지만, 보장 대상은 부모입니다. 자녀가 자기 명의로 가입해서 부모를 보장할 수는 없습니다. 자녀 부담으로 가입 시에도 보험료 소득공제는 가입자 본인(부모)만 가능합니다."}},
+        {"@type": "Question", "name": "운전자보험과 자동차보험은 어떻게 다른가요?", "acceptedAnswer": {"@type": "Answer", "text": "자동차보험은 의무가입으로 차량 사고 시 대인·대물 배상을 보장합니다. 운전자보험은 임의가입으로 본인 형사 처벌(벌금·교통사고처리지원금·형사합의금·변호사선임)을 보장합니다. 자동차보험만 가입하고 운전자보험 미가입 상태에서 12대 중과실 사고를 내면 형사 합의금·벌금은 자비 부담입니다. 두 보험은 별도 상품입니다."}},
+        {"@type": "Question", "name": "65세 이상 부모도 운전자보험 가입이 가능한가요?", "acceptedAnswer": {"@type": "Answer", "text": "가능합니다. 60대 초반 월 약 1.5~3만, 60대 후반 약 2.5~4만, 70대 약 3~5만원 수준입니다. 단, 80세 이상은 신규 가입이 거절되거나 매우 비싸지므로 가입 의향이 있다면 60~70대에 미리 가입하는 것이 안전합니다. 보험사별 가입 가능 연령 제한이 다르므로 사전 비교 필수입니다."}},
+        {"@type": "Question", "name": "12대 중과실 사고가 뭔가요?", "acceptedAnswer": {"@type": "Answer", "text": "교통사고처리특례법상 12가지 중대 과실 사고입니다. 신호위반·중앙선 침범·제한속도 20km/h 초과·앞지르기 위반·철길건널목 통과방법 위반·횡단보도 사고·무면허·음주·보도 침범·승객 추락방지 위반·어린이보호구역 사고·화물 추락방지 위반 12개입니다. 이 사고에서는 피해자와 합의 여부와 관계없이 형사 처벌되며 운전자보험의 핵심 적용 대상입니다."}},
+        {"@type": "Question", "name": "어린이보호구역 사고 시 미가입자는 얼마나 부담하나요?", "acceptedAnswer": {"@type": "Answer", "text": "스쿨존 어린이 부상 사고 가정 시 형사합의금 5,000만 + 벌금 1,000만 + 변호사 선임 500만 = 약 6,500만원 자비 부담입니다. 운전자보험 가입 시 한도 내에서 거의 전액 지원되어 본인 부담은 0~500만원으로 줄어듭니다. 단 한 번의 사고로 65,000만 vs 0원 격차가 발생하므로 어린이보호구역 통과가 일상인 부모는 가입 강력 권장입니다."}},
+        {"@type": "Question", "name": "음주운전 사고도 운전자보험 보장되나요?", "acceptedAnswer": {"@type": "Answer", "text": "약관상 음주·무면허 사고는 보장 제외입니다. 가입했어도 보험금 지급이 거절될 가능성이 매우 높습니다. 음주·무면허 운전은 가입자도 자비 부담이 발생하므로 운전자보험이 만능 보장이 아니라는 점을 명심해야 합니다. 12대 중과실 중 신호위반·중앙선 침범 등 일반 케이스는 정상 보장됩니다."}}
+      ]
+    }
+  ]
+}
+</script>
+</div>
+
+<style>
+  :root{
+    --pri:#7C3AED; --pri2:#6D28D9;
+    --white:#FFFFFF; --text:#111827;
+    --muted:#4B5563; --border:#E5E7EB;
+    --bg:#F9FAFB; --accent:#F5F3FF;
+  }
+  .wrap{max-width:860px;margin:0 auto;line-height:1.8;color:var(--text);}
+  .meta{color:var(--muted);font-size:.95rem;margin:6px 0 18px;}
+  .badge{display:inline-block;background:var(--accent);border:1px solid #DDD6FE;padding:3px 10px;border-radius:999px;font-size:.85rem;margin-right:8px;}
+  .notice{background:#FFF7ED;border:1px solid #FED7AA;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .conclusion{background:#F5F3FF;border:1px solid #DDD6FE;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .toc{background:var(--bg);border:1px solid var(--border);padding:14px 16px;border-radius:12px;margin:16px 0 22px;}
+  .toc a{text-decoration:none;color:var(--pri);}
+  .toc ul{margin:8px 0 0 18px;}
+  .wrap a.btn,.wrap a.btn:link,.wrap a.btn:visited{
+    display:inline-flex;align-items:center;justify-content:center;
+    padding:10px 14px;border-radius:10px;border:1px solid var(--pri);
+    background:var(--pri) !important;color:var(--white) !important;
+    text-decoration:none !important;font-weight:800;
+  }
+  .wrap a.btn:hover{background:var(--pri2) !important;}
+  .wrap a.btn.secondary,.wrap a.btn.secondary:link,.wrap a.btn.secondary:visited{
+    background:var(--white) !important;color:var(--pri) !important;border-color:var(--pri) !important;
+  }
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 6px;}
+  table{width:100%;border-collapse:collapse;margin:14px 0 10px;}
+  th,td{border:1px solid var(--border);padding:10px;vertical-align:top;}
+  th{background:#F3F4F6;text-align:left;}
+  .small{font-size:.95rem;color:var(--muted);}
+  h1{margin:0 0 8px;line-height:1.25;}
+  h2{margin-top:30px;padding-top:8px;border-top:1px solid var(--border);}
+  h3{margin-top:16px;}
+  .q{font-weight:900;margin:14px 0 6px;}
+  .a{margin:0 0 10px;}
+  .highlight{background:#F0FDF4;border:1px solid #BBF7D0;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .warning{background:#FEF2F2;border:1px solid #FECACA;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .tco-box{background:#FEFCE8;border:1px solid #FDE68A;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .scope{background:#F8FAFC;border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .scope ul{margin:4px 0 0 18px;}
+  .action-steps{background:#F5F3FF;border:1px solid #DDD6FE;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .action-steps ol{margin:8px 0 0 18px;}
+  .sources{background:var(--bg);border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:14px 0;font-size:.9rem;}
+  .sources ul{margin:4px 0 0 18px;}
+  .footer{margin-top:26px;padding-top:14px;border-top:1px solid var(--border);color:var(--muted);font-size:.95rem;}
+</style>
+
+<div class="wrap">
+  <h1>부모 운전자보험 가입 — 자녀 가입 vs 본인 가입 vs 미가입 3종 비교 (2026)</h1>
+  <div class="meta">
+    <span class="badge">보험 비교</span>
+    <span class="badge">업데이트: 2026-05-18</span>
+  </div>
+
+  <div class="notice">
+    <strong>먼저 확인!</strong><br/>
+    <strong>운전자보험은 자동차보험과 다른 별도 상품</strong>입니다. 자동차보험은 의무가입(대인·대물 배상), 운전자보험은 임의가입(형사 처벌·합의금 대비)입니다. 부모가 어린이보호구역 사고 1건만 내도 미가입 시 약 6,500만원 자비 부담, 가입 시 거의 0원으로 차이가 큽니다.
+  </div>
+
+  <p class="small">
+    65~70세 부모 운전자보험은 자녀가 본인 명의로 대신 가입할 수 없습니다(반드시 부모 본인 명의). 자녀가 보험료를 대납하는 형태만 가능합니다. 어린이보호구역 사고 6,500만 자비 vs 가입 0~500만으로 격차가 6,000만원 이상. 3가지 가입 방식 + 12대 중과실 4종 사례 시뮬로 결정하세요.
+  </p>
+
+  <div class="scope">
+    <strong>이 글에서 다루는 것</strong>
+    <ul>
+      <li>운전자보험 vs 자동차보험 본질적 차이</li>
+      <li>3가지 가입 방식 (자녀 대납·본인 가입·미가입) 비교</li>
+      <li>12대 중과실 4종 사고 시뮬레이션 (어린이보호구역·단순 추돌·음주·신호위반)</li>
+      <li>60~70대 부모 보험료 + 핵심 보장 항목</li>
+      <li>음주·무면허 등 약관 면책 사유 주의</li>
+    </ul>
+    <strong>다루지 않는 것</strong>
+    <ul>
+      <li>자동차보험 종합 비교 (E-19 별도 글) / 자녀 운전자 자동차보험 (E-11)</li>
+    </ul>
+  </div>
+
+  <!-- ✅ 섹션 1: 결론 먼저 -->
+  <div class="conclusion" id="top">
+    <h2 style="border-top:none;margin-top:0;">✅ 결론 먼저: 상황별 추천</h2>
+    <ul>
+      <li><strong>65세+ 부모 + 매일 운전 + 어린이보호구역 통과</strong> → <strong>즉시 가입 필수</strong> (자녀 대납 또는 본인 가입)</li>
+      <li><strong>부모 본인 의지 + 연금 소득 있음</strong> → <strong>본인 명의 가입</strong> (소득공제 활용)</li>
+      <li><strong>부모 보호자 역할 + 자녀 부담</strong> → <strong>자녀 보험료 대납 + 부모 명의</strong></li>
+    </ul>
+  </div>
+
+  <!-- ✅ 이미지 1: 비교 요약 카드 -->
+  <img src="compare_summary_parent-driver-ins-child-vs-self-vs-none-2026.png" alt="부모 운전자보험 3종 가입 비교 요약" style="width:100%;margin:16px 0;" />
+
+  <div class="toc">
+    <strong>목차</strong>
+    <ul>
+      <li><a href="#different">1) 운전자보험 vs 자동차보험 본질적 차이</a></li>
+      <li><a href="#compare">2) 3가지 가입 방식 비교표</a></li>
+      <li><a href="#cases">3) 12대 중과실 4종 사고 시뮬레이션</a></li>
+      <li><a href="#cover">4) 핵심 보장 항목 + 60~70대 보험료</a></li>
+      <li><a href="#exclude">5) 음주·무면허 약관 면책 사유</a></li>
+      <li><a href="#scenario">6) 상황별 추천 시나리오</a></li>
+      <li><a href="#checklist">7) 가입 전 확인 체크리스트</a></li>
+      <li><a href="#experience">자주 놓치는 포인트와 실수 사례</a></li>
+      <li><a href="#faq">8) FAQ</a></li>
+      <li><a href="#update">업데이트 로그</a></li>
+    </ul>
+  </div>
+
+  <!-- ✅ 섹션 2: 운전자보험 vs 자동차보험 -->
+  <h2 id="different">1) 운전자보험 vs 자동차보험 본질적 차이</h2>
+  <h3>두 보험은 왜 별도 가입해야 하나요?</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>구분</th>
+        <th>자동차보험</th>
+        <th>운전자보험</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>가입 의무</td><td><strong>의무가입</strong></td><td>임의가입 (선택)</td></tr>
+      <tr><td>보장 대상</td><td>차량 사고 시 대인·대물 배상</td><td><strong>본인 형사·민사 처벌</strong></td></tr>
+      <tr><td>주요 보장</td><td>대인 1·2·대물·자차·자기신체</td><td>벌금·형사합의금·교통사고처리지원금·변호사선임</td></tr>
+      <tr><td>12대 중과실 사고</td><td>대물 배상만</td><td><strong>형사 처벌·합의금 보장</strong></td></tr>
+      <tr><td>60대 보험료</td><td>연 50~150만</td><td>월 1.5~5만</td></tr>
+      <tr><td>가입 방식</td><td>차량 단위</td><td>본인 (피보험자) 단위</td></tr>
+    </tbody>
+  </table>
+  <p><strong>"자동차보험만 가입했으니 충분하다"는 오해</strong>가 가장 흔합니다. 자동차보험은 피해자에 대한 배상만 보장하고, 가입자 본인의 형사 합의금·벌금·변호사 선임은 운전자보험이 별도로 보장합니다.</p>
+
+  <!-- ✅ 이미지 2: 비교 매트릭스 -->
+  <img src="compare_matrix_parent-driver-ins-child-vs-self-vs-none-2026.png" alt="3가지 가입 방식 + 4종 사고 시뮬레이션 매트릭스" style="width:100%;margin:16px 0;" />
+
+  <!-- ✅ 섹션 3: 3가지 가입 방식 -->
+  <h2 id="compare">2) 3가지 가입 방식 비교표</h2>
+  <h3>자녀가 부모 명의로 가입할 수 있나요?</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>방식</th>
+        <th>가입자 명의</th>
+        <th>보험료 부담</th>
+        <th>소득공제</th>
+        <th>보장 대상</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>① 자녀 보험료 대납 + 부모 명의</td><td><strong>부모 (피보험자)</strong></td><td>자녀</td><td>X (자녀 적용 불가)</td><td>부모</td></tr>
+      <tr><td>② 부모 본인 명의 + 본인 부담</td><td>부모 (피보험자)</td><td>부모</td><td>O (부모 적용)</td><td>부모</td></tr>
+      <tr><td>③ 미가입</td><td>없음</td><td>없음</td><td>—</td><td>—</td></tr>
+    </tbody>
+  </table>
+  <p><strong>운전자보험은 반드시 본인 명의로 가입</strong>해야 합니다. 자녀가 본인 명의로 가입해서 부모를 보장할 수 없습니다. 자녀의 역할은 "부모 명의로 가입을 보조하고 보험료를 대신 결제"하는 것이며, 보장 대상은 부모입니다.</p>
+
+  <!-- ✅ 섹션 4: 사고 시뮬레이션 -->
+  <h2 id="cases">3) 12대 중과실 4종 사고 시뮬레이션</h2>
+  <h3>실제 사고가 발생하면 얼마나 차이 나나요?</h3>
+  <div class="tco-box">
+    <strong>예시: 65~70세 부모 운전 중 사고 발생 · 2026.05 기준</strong><br/><br/>
+    <table>
+      <thead>
+        <tr><th>사고 케이스</th><th>미가입 자비 부담</th><th>가입 시 본인 부담</th><th>격차</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>A. 어린이보호구역 사고 (스쿨존)</strong></td><td>약 6,500만원</td><td>0~500만원</td><td><strong>약 6,000만+</strong></td></tr>
+        <tr><td><strong>B. 단순 추돌 (대물 배상)</strong></td><td>0원 (자동차보험)</td><td>0원 (자동차보험)</td><td>0원 (해당 X)</td></tr>
+        <tr><td><strong>C. 음주운전 사고 (사망)</strong></td><td>전액 자비</td><td><strong>약관 면책 → 전액 자비</strong></td><td>0원 (양쪽 자비)</td></tr>
+        <tr><td><strong>D. 신호위반 사고 (인적 피해)</strong></td><td>약 3,500만원</td><td>0원 (한도 내)</td><td>약 3,500만</td></tr>
+      </tbody>
+    </table>
+    <p class="small">※ 사례 A: 형사합의금 5천만 + 벌금 1천만 + 변호사 5백만. 사례 D: 형사합의금 3천만 + 벌금 5백만. 보험사·가입 한도에 따라 실제 보장 차이 있음.</p>
+  </div>
+  <p><strong>12대 중과실 사고에서 미가입·가입 차이는 단 1건당 3,500만~6,500만원</strong>에 달합니다. 부모가 매일 운전하는 환경(특히 어린이보호구역 통과)이라면 월 보험료 2~5만으로 6,000만+ 위험을 해소할 수 있는 셈입니다.</p>
+
+  <!-- ✅ 섹션 5: 핵심 보장 + 보험료 -->
+  <h2 id="cover">4) 핵심 보장 항목 + 60~70대 보험료</h2>
+  <h3>운전자보험은 구체적으로 어떤 비용을 보장하나요?</h3>
+  <table>
+    <thead>
+      <tr><th>보장 항목</th><th>한도</th><th>적용 케이스</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>교통사고처리지원금</td><td>5,000만~1억</td><td>12대 중과실 + 인적 피해</td></tr>
+      <tr><td>형사합의금</td><td>1억 한도</td><td>피해자와 합의 시 지급</td></tr>
+      <tr><td>벌금</td><td>회당 2,000만 한도</td><td>12대 중과실 벌금형</td></tr>
+      <tr><td>변호사 선임비용</td><td>500만~1,000만</td><td>형사재판 진행 시</td></tr>
+      <tr><td>면허정지·취소 위로금</td><td>200만~500만</td><td>행정처분 시</td></tr>
+      <tr><td>피해자 치료비 추가</td><td>약관별 차이</td><td>합의 외 추가 치료비</td></tr>
+    </tbody>
+  </table>
+  <h3>60~70대 보험료는 얼마인가요?</h3>
+  <table>
+    <thead>
+      <tr><th>연령</th><th>월 보험료</th><th>비고</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>60대 초반</td><td>약 1.5~3만원</td><td>일반 상품</td></tr>
+      <tr><td>60대 후반 (65~69세)</td><td>약 2.5~4만원</td><td>연령 할증 시작</td></tr>
+      <tr><td>70대</td><td>약 3~5만원</td><td>가입 가능 상품 제한</td></tr>
+      <tr><td>80대+</td><td>가입 거절 또는 매우 비쌈</td><td>신규 가입 어려움</td></tr>
+    </tbody>
+  </table>
+  <p>가입 의향이 있다면 <strong>60~70대에 미리 가입</strong>이 안전합니다. 80세 이상은 보험사별 신규 가입이 거절되거나 매우 높은 보험료가 책정됩니다.</p>
+
+  <!-- ✅ 섹션 6: 약관 면책 -->
+  <h2 id="exclude">5) 음주·무면허 약관 면책 사유</h2>
+  <h3>운전자보험으로 보장되지 않는 경우는 어떤 것인가요?</h3>
+  <div class="warning">
+    <strong>약관상 보장 제외 사유 (가입자도 자비 부담)</strong>
+    <ul>
+      <li><strong>음주운전 사고</strong> (혈중알코올농도 0.03% 이상)</li>
+      <li><strong>무면허 운전 사고</strong> (면허 정지·취소 기간 포함)</li>
+      <li>고의로 일으킨 사고 (자살·자해 등)</li>
+      <li>회사·법인 차량 업무용 사고 (개인 운전자보험 약관 따라)</li>
+      <li>경주·시험·곡예 운전 중 사고</li>
+      <li>전쟁·내란·천재지변 중 사고</li>
+    </ul>
+  </div>
+  <p><strong>음주운전·무면허는 가입 여부와 관계없이 자비 부담</strong>입니다. 약관 면책 사유를 정확히 알고 가입해야 합니다. 60~70대 부모가 약한 음주(반주 1잔)로 운전하다가 사고를 내도 보험금이 지급되지 않을 수 있으므로, 운전자보험 가입과 별개로 음주운전 금지가 절대적입니다.</p>
+  <div class="btns">
+    <a class="btn" href="https://www.knia.or.kr" target="_blank" rel="noopener">손해보험협회 운전자보험 비교</a>
+    <a class="btn secondary" href="https://www.fss.or.kr" target="_blank" rel="noopener">금감원 소비자 정보</a>
+  </div>
+
+  <!-- ✅ 섹션 7: 시나리오 -->
+  <div class="highlight" id="scenario">
+    <h3>🔍 당신 부모의 상황에 맞는 가입 결정은?</h3>
+    <ul>
+      <li><strong>65세+ 부모 + 매일 운전 + 어린이보호구역 통과</strong> → <strong>즉시 가입 필수</strong> (자녀 대납 또는 본인 가입)</li>
+      <li><strong>부모 본인 의지 + 연금 소득 있음</strong> → <strong>본인 명의 가입</strong> (소득공제 활용)</li>
+      <li><strong>부모가 보험 가입 거부 + 자녀 보호자 역할</strong> → <strong>자녀 대납 + 부모 명의</strong> (자녀가 절차 보조)</li>
+      <li><strong>부모 월 1~2회 운전 + 단거리만</strong> → <strong>미가입 가능</strong>하나 한 번의 사고로 큰 손실 가능</li>
+      <li><strong>부모 면허 반납 검토</strong> → <strong>미가입 + 면허반납 인센티브 활용</strong> (지자체별 30~50만원)</li>
+      <li><strong>자동차보험 운전자 한정 검토</strong> → <strong>가족운전 한정 특약</strong>으로 자동차보험료 별도 절약 가능</li>
+    </ul>
+  </div>
+
+  <!-- ✅ 이미지 3: 시나리오 카드 -->
+  <img src="scenario_parent-driver-ins-child-vs-self-vs-none-2026.png" alt="부모 운전자보험 상황별 추천 시나리오" style="width:100%;margin:16px 0;" />
+
+  <!-- ✅ 가입 전 체크리스트 -->
+  <div class="action-steps" id="checklist">
+    <strong>부모 운전자보험 가입 전 자가진단 순서</strong>
+    <ol>
+      <li>부모 운전 빈도 확인 (매일·주 3~5회·월 1~2회 등)</li>
+      <li>주 운전 경로 점검 (어린이보호구역·고속도로·야간 비율)</li>
+      <li>부모 건강·인지 상태 확인 (면허 반납 검토 시점)</li>
+      <li>현재 자동차보험 가입 여부 + 운전자 한정 특약 확인</li>
+      <li>운전자보험 가입 가능 연령 + 보험료 견적 (보험사 3곳 비교)</li>
+      <li>자녀 대납 vs 본인 부담 결정 (소득공제·관리 편의)</li>
+      <li>음주·무면허 약관 면책 사유 확인 + 가족 공유</li>
+      <li>월 보험료 vs 사고 위험 (12대 중과실 1건 약 3,500만~6,500만) 비교</li>
+    </ol>
+  </div>
+
+  <!-- ✅ 인아티클 광고 -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5716436301710258"
+       crossorigin="anonymous"></script>
+  <ins class="adsbygoogle"
+       style="display:block; text-align:center;"
+       data-ad-layout="in-article"
+       data-ad-format="fluid"
+       data-ad-client="ca-pub-5716436301710258"
+       data-ad-slot="2039167138"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+  <!-- ✅ 주의사항 -->
+  <h2>주의사항</h2>
+  <div class="warning">
+    <ul>
+      <li><strong>음주·무면허 면책</strong>: 약관상 보장 제외, 가입했어도 보험금 지급 거절</li>
+      <li><strong>본인 명의 가입 필수</strong>: 자녀 명의로 부모 보장 가입 불가</li>
+      <li><strong>면허 반납 검토</strong>: 인지·시력 저하 부모는 면허반납 인센티브(30~50만) 활용 검토</li>
+      <li><strong>80세 이상 가입 어려움</strong>: 신규 가입 거절 또는 매우 높은 보험료, 60~70대 미리 가입 권장</li>
+      <li><strong>건강 고지 의무</strong>: 가입 시 5년 이내 진료 이력 고지. 누락 시 보험금 거절</li>
+      <li><strong>자동차보험 운전자 범위</strong>: 운전자 한정 특약과 운전자보험은 별도 검토 (혼동 주의)</li>
+    </ul>
+  </div>
+
+  <!-- ✅ 자주 놓치는 포인트와 실수 사례 -->
+  <h2 id="experience">자주 놓치는 포인트와 실수 사례</h2>
+  <p>가장 흔한 실수는 "자동차보험 가입했으니 운전자보험은 안 들어도 된다"는 인식입니다. 자동차보험은 피해자에 대한 대인·대물 배상만 보장하고, 가입자 본인의 형사 합의금·벌금·변호사 선임은 운전자보험이 별도로 보장합니다. 어린이보호구역 사고 1건만으로 형사합의금 5,000만+ 벌금 1,000만+ 변호사 500만 = 6,500만원 자비 부담이 발생할 수 있습니다.</p>
+  <p>자녀가 부모 운전자보험을 본인 명의로 가입할 수 있다고 오해하는 경우도 빈번합니다. 운전자보험은 피보험자(보장 대상자) 본인 명의로만 가입 가능합니다. 자녀가 보험 절차를 보조하고 보험료를 대신 결제하는 것은 가능하지만, 가입자는 반드시 부모여야 합니다. 자녀 본인 명의로 가입한 보험은 자녀만 보장하므로 부모 사고에는 효력이 없습니다.</p>
+  <p>음주운전 약관 면책을 모르고 가입하는 사례도 위험합니다. 60~70대 부모가 반주 한 잔에 운전하다가 사고를 내면 약관상 보장 제외로 보험금이 지급되지 않습니다. 운전자보험에 가입했더라도 음주·무면허는 무조건 자비 부담이라는 점을 가족이 명확히 공유해야 합니다. 운전자보험 가입 자체가 음주운전을 정당화하지 않습니다.</p>
+  <p>면허 반납 인센티브를 모르고 운전을 강행하는 사례도 흔합니다. 65~75세 면허 반납 시 지자체별로 30만~50만원의 교통카드 인센티브가 지급됩니다(서울·부산·경기 등). 운전 빈도가 낮고 인지·시력 저하가 있다면 운전자보험 가입보다 면허 반납이 더 안전한 선택일 수 있습니다. 자녀가 부모의 면허 반납을 강요할 수는 없지만 인센티브 정보 제공은 가능합니다.</p>
+  <p class="small">※ 위 사례는 공개된 보험약관·금감원·도로교통공단 자료를 바탕으로 일반화한 내용입니다. 개인 가입 상품·약관·면허 상태에 따라 다를 수 있으며, 가입 전 보험사 또는 금융감독원(1332)에 본인 약관 기준 상담을 요청하시기 바랍니다.</p>
+
+  <!-- ✅ FAQ -->
+  <h2 id="faq">8) FAQ</h2>
+  <p class="q">Q1. 자녀가 부모 운전자보험을 대신 가입할 수 있나요?</p>
+  <p class="a">운전자보험은 반드시 본인(피보험자) 명의로 가입해야 합니다. 자녀가 부모 명의로 가입 절차를 보조하고 보험료를 대신 결제하는 형태는 가능하지만, 보장 대상은 부모입니다. 자녀가 자기 명의로 가입해서 부모를 보장할 수는 없습니다. 자녀 부담으로 가입 시에도 보험료 소득공제는 가입자 본인(부모)만 가능합니다.</p>
+
+  <p class="q">Q2. 운전자보험과 자동차보험은 어떻게 다른가요?</p>
+  <p class="a">자동차보험은 의무가입으로 차량 사고 시 대인·대물 배상을 보장합니다. 운전자보험은 임의가입으로 본인 형사 처벌(벌금·교통사고처리지원금·형사합의금·변호사선임)을 보장합니다. 자동차보험만 가입하고 운전자보험 미가입 상태에서 12대 중과실 사고를 내면 형사 합의금·벌금은 자비 부담입니다. 두 보험은 별도 상품입니다.</p>
+
+  <p class="q">Q3. 65세 이상 부모도 운전자보험 가입이 가능한가요?</p>
+  <p class="a">가능합니다. 60대 초반 월 약 1.5~3만, 60대 후반 약 2.5~4만, 70대 약 3~5만원 수준입니다. 단, 80세 이상은 신규 가입이 거절되거나 매우 비싸지므로 가입 의향이 있다면 60~70대에 미리 가입하는 것이 안전합니다. 보험사별 가입 가능 연령 제한이 다르므로 사전 비교 필수입니다.</p>
+
+  <p class="q">Q4. 12대 중과실 사고가 뭔가요?</p>
+  <p class="a">교통사고처리특례법상 12가지 중대 과실 사고입니다. 신호위반·중앙선 침범·제한속도 20km/h 초과·앞지르기 위반·철길건널목 통과방법 위반·횡단보도 사고·무면허·음주·보도 침범·승객 추락방지 위반·어린이보호구역 사고·화물 추락방지 위반 12개입니다. 이 사고에서는 피해자와 합의 여부와 관계없이 형사 처벌되며 운전자보험의 핵심 적용 대상입니다.</p>
+
+  <p class="q">Q5. 어린이보호구역 사고 시 미가입자는 얼마나 부담하나요?</p>
+  <p class="a">스쿨존 어린이 부상 사고 가정 시 형사합의금 5,000만 + 벌금 1,000만 + 변호사 선임 500만 = 약 6,500만원 자비 부담입니다. 운전자보험 가입 시 한도 내에서 거의 전액 지원되어 본인 부담은 0~500만원으로 줄어듭니다. 단 한 번의 사고로 6,500만 vs 0원 격차가 발생하므로 어린이보호구역 통과가 일상인 부모는 가입 강력 권장입니다.</p>
+
+  <p class="q">Q6. 음주운전 사고도 운전자보험 보장되나요?</p>
+  <p class="a">약관상 음주·무면허 사고는 보장 제외입니다. 가입했어도 보험금 지급이 거절될 가능성이 매우 높습니다. 음주·무면허 운전은 가입자도 자비 부담이 발생하므로 운전자보험이 만능 보장이 아니라는 점을 명심해야 합니다. 12대 중과실 중 신호위반·중앙선 침범 등 일반 케이스는 정상 보장됩니다.</p>
+
+  <p class="small">관련 글: <a href="#" target="_blank" rel="noopener">운전자보험 필수 특약 비교 — 벌금·형사합의금·교통사고처리 (2026)</a> / <a href="#" target="_blank" rel="noopener">자녀 운전자보험 vs 자동차보험 특약 — 뭐가 유리한지 비교 (2026)</a> / <a href="#" target="_blank" rel="noopener">자동차보험 갈아타기 — 다이렉트 vs 설계사 비교·할인 꿀팁 (2026)</a></p>
+
+  <!-- ✅ 면책 -->
+  <div class="warning">
+    <strong>면책 안내</strong>: 본 글의 보험료·보장 한도·시뮬레이션 수치는 2026년 5월 보험 표준약관 기반 추정치이며, 실제 보장 내용은 본인 가입 상품·연령·약관에 따라 달라집니다. 음주·무면허 사고는 약관상 보장 제외될 수 있습니다. 개인 상황에 따라 다를 수 있으며, 가입 전 보험사 또는 금융감독원(1332)에 본인 케이스 상담을 요청하시기 바랍니다. 본 글은 일반 정보 제공이며 보험 권유·자문이 아닙니다.
+  </div>
+
+  <!-- ✅ 참고자료 -->
+  <div class="sources">
+    <strong>참고자료 / 출처</strong>
+    <ul>
+      <li>생명보험협회 운전자보험 안내: https://www.klia.or.kr</li>
+      <li>손해보험협회 운전자보험 비교: https://www.knia.or.kr</li>
+      <li>금융감독원 운전자보험 소비자 정보: https://www.fss.or.kr</li>
+      <li>도로교통공단 고령운전자 안내: https://www.koroad.or.kr</li>
+    </ul>
+  </div>
+
+  <div class="btns">
+    <a class="btn" href="https://www.knia.or.kr" target="_blank" rel="noopener">손보협회 운전자보험</a>
+    <a class="btn secondary" href="https://www.fss.or.kr" target="_blank" rel="noopener">금감원 소비자정보</a>
+    <a class="btn secondary" href="https://www.koroad.or.kr" target="_blank" rel="noopener">도로교통공단</a>
+  </div>
+
+  <!-- ✅ 썸네일 -->
+  <img src="thumb_1080_parent-driver-ins-child-vs-self-vs-none-2026.png" alt="부모 운전자보험 3가지 가입 비교 인포그래픽" style="width:100%;margin:16px 0;" />
+  <img src="thumb_1200x630_parent-driver-ins-child-vs-self-vs-none-2026.png" alt="부모 운전자보험 자녀 본인 미가입 카드" style="width:100%;margin:16px 0;" />
+
+  <div class="footer" id="update">
+    <strong>업데이트 로그</strong><br/>
+    - 2026-05-18: 최초 발행<br/>
+    <span class="small">※ 보험료·보장·면책 사유는 보험사·약관별 차이가 있습니다. 본인 케이스는 가입 보험사·금감원(1332) 상담을 강력 권장합니다.</span>
+  </div>
+</div>

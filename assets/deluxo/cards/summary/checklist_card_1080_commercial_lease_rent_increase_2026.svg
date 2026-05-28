@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- 타이틀 -->
+  <rect x="60" y="54" width="960" height="100" rx="16" fill="#0D2347"/>
+  <text x="540" y="98" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="32" font-weight="800" fill="#F59E0B" text-anchor="middle">임대료 인상 거절·갱신 요구 전</text>
+  <text x="540" y="138" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="32" font-weight="800" fill="#FFFFFF" text-anchor="middle">1분 체크리스트</text>
+
+  <!-- 체크 1 -->
+  <rect x="60" y="178" width="960" height="98" rx="14" fill="#0D2347"/>
+  <rect x="84" y="202" width="48" height="48" rx="10" fill="#34D399"/>
+  <text x="108" y="234" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="30" font-weight="900" fill="#0B1F3B" text-anchor="middle">✓</text>
+  <text x="168" y="218" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="25" font-weight="700" fill="#FFFFFF">환산보증금 계산</text>
+  <text x="168" y="252" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="23" fill="#A0B4D0">보증금 + (월세 × 100) → 지역 기준 이하 확인</text>
+
+  <!-- 체크 2 -->
+  <rect x="60" y="286" width="960" height="98" rx="14" fill="#102A56"/>
+  <rect x="84" y="310" width="48" height="48" rx="10" fill="#34D399"/>
+  <text x="108" y="342" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="30" font-weight="900" fill="#0B1F3B" text-anchor="middle">✓</text>
+  <text x="168" y="326" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="25" font-weight="700" fill="#FFFFFF">직전 임대료 인상일 확인</text>
+  <text x="168" y="360" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="23" fill="#A0B4D0">인상 후 1년 이내이면 재차 증액 청구 거절 가능</text>
+
+  <!-- 체크 3 -->
+  <rect x="60" y="394" width="960" height="98" rx="14" fill="#0D2347"/>
+  <rect x="84" y="418" width="48" height="48" rx="10" fill="#F59E0B"/>
+  <text x="108" y="450" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="30" font-weight="900" fill="#0B1F3B" text-anchor="middle">!</text>
+  <text x="168" y="434" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="25" font-weight="700" fill="#F59E0B">계약 만료일 달력 표시</text>
+  <text x="168" y="468" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="23" fill="#A0B4D0">만료 6개월~1개월 전에 갱신 요구 — 1일 초과 시 소멸</text>
+
+  <!-- 체크 4 -->
+  <rect x="60" y="502" width="960" height="98" rx="14" fill="#102A56"/>
+  <rect x="84" y="526" width="48" height="48" rx="10" fill="#34D399"/>
+  <text x="108" y="558" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="30" font-weight="900" fill="#0B1F3B" text-anchor="middle">✓</text>
+  <text x="168" y="542" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="25" font-weight="700" fill="#FFFFFF">최초 임대차 시작일 확인</text>
+  <text x="168" y="576" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="23" fill="#A0B4D0">총 10년 한도 잔여 기간 계산 (사업자등록증 기준)</text>
+
+  <!-- 체크 5 -->
+  <rect x="60" y="610" width="960" height="98" rx="14" fill="#0D2347"/>
+  <rect x="84" y="634" width="48" height="48" rx="10" fill="#34D399"/>
+  <text x="108" y="666" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="30" font-weight="900" fill="#0B1F3B" text-anchor="middle">✓</text>
+  <text x="168" y="650" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="25" font-weight="700" fill="#FFFFFF">임대인의 법정 거절 사유 해당 여부 점검</text>
+  <text x="168" y="684" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="23" fill="#A0B4D0">차임 3기분 연체·무단 전대·재건축 등 해당 없으면 갱신 거절 불가</text>
+
+  <!-- 체크 6 -->
+  <rect x="60" y="718" width="960" height="98" rx="14" fill="#102A56"/>
+  <rect x="84" y="742" width="48" height="48" rx="10" fill="#34D399"/>
+  <text x="108" y="774" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="30" font-weight="900" fill="#0B1F3B" text-anchor="middle">✓</text>
+  <text x="168" y="758" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="25" font-weight="700" fill="#FFFFFF">내용증명 발송 준비 (거절·갱신 요구 서면화)</text>
+  <text x="168" y="792" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="23" fill="#A0B4D0">인터넷우체국(epost.go.kr) 또는 우체국 방문 발송</text>
+
+  <!-- 결과 박스 -->
+  <rect x="60" y="836" width="960" height="100" rx="16" fill="#34D399"/>
+  <text x="540" y="878" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="30" font-weight="900" fill="#0B1F3B" text-anchor="middle">✅ 6가지 확인 완료 → 분쟁 발생 시</text>
+  <text x="540" y="918" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="700" fill="#0B1F3B" text-anchor="middle">대한법률구조공단 132 무료 상담 신청하세요</text>
+
+  <text x="540" y="990" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#4A6080" text-anchor="middle">상가건물 임대차보호법 · 2026년 5월 기준 · deluxo</text>
+</svg>

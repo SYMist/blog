@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#15803D"/>
+      <stop offset="100%" stop-color="#14532d"/>
+    </linearGradient>
+    <linearGradient id="redGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#DC2626"/>
+      <stop offset="100%" stop-color="#7f1d1d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <circle cx="1080" cy="100" r="200" fill="#D97706" fill-opacity="0.07"/>
+  <circle cx="120" cy="540" r="160" fill="#15803D" fill-opacity="0.07"/>
+
+  <!-- Chips -->
+  <rect x="40" y="36" width="120" height="32" rx="16" fill="#B45309" fill-opacity="0.4" stroke="#D97706" stroke-width="1.5"/>
+  <text x="100" y="57" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">대출·금융</text>
+
+  <rect x="176" y="36" width="140" height="32" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="246" y="57" text-anchor="middle" fill="#94A3B8" font-size="14" font-family="sans-serif">2026.05 기준</text>
+
+  <rect x="332" y="36" width="160" height="32" rx="16" fill="#14532d" stroke="#15803D" stroke-width="1.5"/>
+  <text x="412" y="57" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">5억 차익 시뮬</text>
+
+  <!-- Title -->
+  <text x="600" y="130" text-anchor="middle" fill="#FFFFFF" font-size="40" font-weight="800" font-family="sans-serif">양도세 1주택 비과세 vs 일시적 2주택</text>
+  <text x="600" y="178" text-anchor="middle" fill="#FCD34D" font-size="26" font-weight="700" font-family="sans-serif">양도차익 5억원 시뮬레이션 (2026)</text>
+
+  <!-- Key stat bar -->
+  <rect x="200" y="198" width="800" height="62" rx="12" fill="#1e293b" fill-opacity="0.9" stroke="#334155" stroke-width="1.5"/>
+  <text x="600" y="226" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">3년 룰 위반 시 손실 (양도차익 5억)</text>
+  <text x="600" y="250" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">비과세 0원 vs 과세 5,200만원 · 격차 5,200만</text>
+
+  <rect x="200" y="274" width="800" height="2" rx="1" fill="#D97706" fill-opacity="0.4"/>
+
+  <!-- Two cards -->
+  <rect x="40" y="284" width="555" height="300" rx="16" fill="url(#greenGrad)" fill-opacity="0.8" stroke="#15803D" stroke-width="2"/>
+  <text x="317" y="324" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">비과세 (BEST · 0원)</text>
+  <line x1="70" y1="338" x2="565" y2="338" stroke="#14532d" stroke-width="1.5"/>
+  <text x="317" y="382" text-anchor="middle" fill="#86EFAC" font-size="28" font-weight="800" font-family="sans-serif">세액 0원</text>
+  <text x="317" y="410" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="700" font-family="sans-serif">양도차익 5억 전액 비과세</text>
+  <line x1="70" y1="430" x2="565" y2="430" stroke="#14532d" stroke-width="1.5"/>
+  <text x="70" y="458" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">✅ 1주택 2년+ 보유 · 양도가 12억 이하</text>
+  <text x="70" y="484" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">✅ 일시적 2주택 3년 내 처분</text>
+  <text x="70" y="510" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">✅ 상생임대 특례로 거주 면제 (2026.12까지)</text>
+  <rect x="70" y="530" width="465" height="36" rx="8" fill="#15803D" fill-opacity="0.4"/>
+  <text x="302" y="554" text-anchor="middle" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">조건 충족이면 무조건 비과세</text>
+
+  <rect x="605" y="284" width="555" height="300" rx="16" fill="url(#redGrad)" fill-opacity="0.8" stroke="#DC2626" stroke-width="2"/>
+  <text x="882" y="324" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">과세 (WORST · 최대 2.4억)</text>
+  <line x1="635" y1="338" x2="1130" y2="338" stroke="#7f1d1d" stroke-width="1.5"/>
+  <text x="882" y="382" text-anchor="middle" fill="#FCA5A5" font-size="28" font-weight="800" font-family="sans-serif">최대 2.4억원</text>
+  <text x="882" y="410" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="700" font-family="sans-serif">다주택 + 조정지역 가산</text>
+  <line x1="635" y1="430" x2="1130" y2="430" stroke="#7f1d1d" stroke-width="1.5"/>
+  <text x="635" y="458" fill="#FECACA" font-size="14" font-weight="700" font-family="sans-serif">❌ 일시적 2주택 3년 초과: 5,200만원</text>
+  <text x="635" y="484" fill="#FECACA" font-size="14" font-weight="700" font-family="sans-serif">❌ 다주택 일반: 약 1.44억원</text>
+  <text x="635" y="510" fill="#FECACA" font-size="14" font-weight="700" font-family="sans-serif">❌ 조정지역 20%p 가산: +1억원</text>
+  <rect x="635" y="530" width="465" height="36" rx="8" fill="#DC2626" fill-opacity="0.4"/>
+  <text x="867" y="554" text-anchor="middle" fill="#FECACA" font-size="13" font-weight="700" font-family="sans-serif">매도 순서·타이밍 시뮬 필수</text>
+
+  <text x="40" y="610" fill="#64748B" font-size="13" font-family="sans-serif">essencial | 대출·금융 · 2026.05 기준 · 양도가 14억 시 12억 초과 1주택 약 400만원 (부분 과세) · 본인 케이스는 홈택스 계산기 확인</text>
+</svg>

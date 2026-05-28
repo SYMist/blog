@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="80" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="800" fill="#F59E0B">출산휴가 → 육아휴직 급여 흐름도</text>
+  <rect x="60" y="110" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- Phase 1: 출산휴가 -->
+  <rect x="60" y="150" width="960" height="200" rx="20" fill="rgba(245,158,11,0.12)"/>
+  <rect x="80" y="170" width="200" height="44" rx="22" fill="#F59E0B"/>
+  <text x="180" y="200" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#0B1F3B">출산휴가 90일</text>
+  <text x="80" y="250" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#FFF">1~60일: 회사 부담 (중소: 고용보험 지원)</text>
+  <text x="80" y="290" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#FFF">61~90일: 고용보험 지급 (상한 월 220만원)</text>
+  <text x="80" y="330" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#F59E0B">→ 90일 최대 660만원</text>
+
+  <text x="540" y="385" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" fill="#F59E0B">▼</text>
+
+  <!-- Phase 2: 육아휴직 1~3개월 -->
+  <rect x="60" y="405" width="960" height="130" rx="20" fill="rgba(232,240,255,0.1)"/>
+  <rect x="80" y="420" width="200" height="40" rx="20" fill="#E8F0FF"/>
+  <text x="180" y="448" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#1D4ED8">1~3개월</text>
+  <text x="300" y="448" font-family="'Pretendard',sans-serif" font-size="24" fill="#FFF">통상임금 100%</text>
+  <text x="80" y="495" font-family="'Pretendard',sans-serif" font-size="32" font-weight="800" fill="#FFF">상한 250만원 × 3 = 750만원</text>
+
+  <text x="540" y="560" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" fill="#F59E0B">▼</text>
+
+  <!-- Phase 3: 육아휴직 4~6개월 -->
+  <rect x="60" y="575" width="960" height="130" rx="20" fill="rgba(232,240,255,0.07)"/>
+  <rect x="80" y="590" width="200" height="40" rx="20" fill="#E8F0FF"/>
+  <text x="180" y="618" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#1D4ED8">4~6개월</text>
+  <text x="300" y="618" font-family="'Pretendard',sans-serif" font-size="24" fill="#FFF">통상임금 100%</text>
+  <text x="80" y="665" font-family="'Pretendard',sans-serif" font-size="32" font-weight="800" fill="#FFF">상한 200만원 × 3 = 600만원</text>
+
+  <text x="540" y="730" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" fill="#F59E0B">▼</text>
+
+  <!-- Phase 4: 육아휴직 7~12개월 -->
+  <rect x="60" y="745" width="960" height="130" rx="20" fill="rgba(232,240,255,0.04)"/>
+  <rect x="80" y="760" width="200" height="40" rx="20" fill="#E8F0FF"/>
+  <text x="180" y="788" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#1D4ED8">7~12개월</text>
+  <text x="300" y="788" font-family="'Pretendard',sans-serif" font-size="24" fill="#FFF">통상임금 80%</text>
+  <text x="80" y="835" font-family="'Pretendard',sans-serif" font-size="32" font-weight="800" fill="#FFF">상한 160만원 × 6 = 960만원</text>
+
+  <!-- 합산 -->
+  <rect x="60" y="910" width="960" height="120" rx="20" fill="rgba(245,158,11,0.2)"/>
+  <text x="540" y="960" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#F59E0B">출산휴가 660 + 육아휴직 2,310</text>
+  <text x="540" y="1005" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="40" font-weight="900" fill="#FFF">합산 최대 약 2,970만원</text>
+</svg>

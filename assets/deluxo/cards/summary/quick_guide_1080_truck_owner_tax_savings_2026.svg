@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="8" fill="#F59E0B"/>
+
+  <!-- Title -->
+  <text x="540" y="68" font-family="-apple-system, sans-serif" font-size="34" font-weight="900" fill="#FFFFFF" text-anchor="middle">내 상황에 맞는 혜택 10초 판단</text>
+  <text x="540" y="106" font-family="-apple-system, sans-serif" font-size="21" font-weight="600" fill="#F59E0B" text-anchor="middle">화물차 사업자 세금 절감 가이드 (2026)</text>
+
+  <!-- Header -->
+  <rect x="40" y="140" width="1000" height="50" rx="8" fill="#1D4ED8"/>
+  <text x="290" y="171" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF" text-anchor="middle">내 상황</text>
+  <text x="760" y="171" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF" text-anchor="middle">추천 액션</text>
+
+  <!-- Row 1 -->
+  <rect x="40" y="198" width="1000" height="122" rx="8" fill="#1A3270"/>
+  <rect x="40" y="198" width="8" height="122" rx="4" fill="#34D399"/>
+  <text x="290" y="248" font-family="-apple-system, sans-serif" font-size="19" fill="#EAF2FF" text-anchor="middle">전기·수소 화물차 구매 예정</text>
+  <text x="290" y="272" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">중형 1.5~5톤 / 대형 5톤 이상</text>
+  <text x="760" y="240" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#34D399" text-anchor="middle">ev.or.kr 보조금 조회 → 신청</text>
+  <text x="760" y="266" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">국비 최대 6,000만원 + 취득세 50% 감면</text>
+  <text x="760" y="290" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">지자체 보조금 별도 합산</text>
+
+  <!-- Row 2 -->
+  <rect x="40" y="328" width="1000" height="122" rx="8" fill="#102A56"/>
+  <rect x="40" y="328" width="8" height="122" rx="4" fill="#EF4444"/>
+  <text x="290" y="374" font-family="-apple-system, sans-serif" font-size="19" fill="#EAF2FF" text-anchor="middle">5등급 노후 경유 화물차 보유 중</text>
+  <text x="290" y="398" font-family="-apple-system, sans-serif" font-size="15" fill="#EF4444" text-anchor="middle">2026년이 마지막!</text>
+  <text x="760" y="366" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#EF4444" text-anchor="middle">mecar.or.kr 즉시 신청</text>
+  <text x="760" y="392" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">최대 300만원 | 10월 전 신청 권장</text>
+  <text x="760" y="418" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">☎ 1577-7121 사전 상담 가능</text>
+
+  <!-- Row 3 -->
+  <rect x="40" y="458" width="1000" height="122" rx="8" fill="#1A3270"/>
+  <rect x="40" y="458" width="8" height="122" rx="4" fill="#F59E0B"/>
+  <text x="290" y="504" font-family="-apple-system, sans-serif" font-size="19" fill="#EAF2FF" text-anchor="middle">4등급 노후 경유 화물차 보유 중</text>
+  <text x="290" y="528" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">계속 지원 중 (2026~)</text>
+  <text x="760" y="496" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#F59E0B" text-anchor="middle">mecar.or.kr + ev.or.kr 동시 검토</text>
+  <text x="760" y="522" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">조기폐차 최대 800만원</text>
+  <text x="760" y="548" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">+ 전기차 구매 시 보조금 별도</text>
+
+  <!-- Row 4 -->
+  <rect x="40" y="588" width="1000" height="122" rx="8" fill="#102A56"/>
+  <rect x="40" y="588" width="8" height="122" rx="4" fill="#F472B6"/>
+  <text x="290" y="634" font-family="-apple-system, sans-serif" font-size="19" fill="#EAF2FF" text-anchor="middle">영업용 화물차인데 유가보조금 미신청</text>
+  <text x="290" y="658" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">노란 번호판 경유·LPG 차량</text>
+  <text x="760" y="626" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#F472B6" text-anchor="middle">카드사 홈페이지·앱·영업점 신청</text>
+  <text x="760" y="652" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">월 40~50만원+(대형 기준) | ☎ 1588-8713</text>
+  <text x="760" y="678" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">2026년부터 카드 즉시 차감형</text>
+
+  <!-- Row 5 -->
+  <rect x="40" y="718" width="1000" height="122" rx="8" fill="#1A3270"/>
+  <rect x="40" y="718" width="8" height="122" rx="4" fill="#60A5FA"/>
+  <text x="290" y="764" font-family="-apple-system, sans-serif" font-size="19" fill="#EAF2FF" text-anchor="middle">화물차 구매 자금이 부족한 경우</text>
+  <text x="290" y="788" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">화물운송사업자 등록 필수</text>
+  <text x="760" y="756" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#60A5FA" text-anchor="middle">ols.semas.or.kr 소상공인 정책자금</text>
+  <text x="760" y="782" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">운전자금·시설자금 신청 가능</text>
+  <text x="760" y="808" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">2026년 총 3조 3,620억원 규모</text>
+
+  <!-- Divider -->
+  <line x1="545" y1="140" x2="545" y2="848" stroke="#1D4ED8" stroke-width="1" opacity="0.5"/>
+
+  <!-- Footer -->
+  <text x="540" y="892" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준 | 지자체별·예산별 변동 가능</text>
+  <text x="540" y="918" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">혜택 중복 적용 가능 항목 있음 — 신청 전 공식 공고 확인 권장</text>
+
+  <rect x="0" y="1072" width="1080" height="8" fill="#F59E0B"/>
+</svg>

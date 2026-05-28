@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <rect x="60" y="60" width="280" height="60" rx="30" fill="#F59E0B"/>
+  <text x="200" y="101" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#0B1F3B" text-anchor="middle">3개 지역 비교</text>
+
+  <text x="540" y="200" font-family="'Pretendard', sans-serif" font-size="58" font-weight="900" fill="#FFFFFF" text-anchor="middle">이차보전 · 한도 · 특이점</text>
+
+  <rect x="60" y="270" width="320" height="710" rx="24" fill="#1A3270"/>
+  <rect x="60" y="270" width="320" height="80" rx="24" fill="#F59E0B"/>
+  <text x="220" y="322" font-family="'Pretendard', sans-serif" font-size="34" font-weight="900" fill="#0B1F3B" text-anchor="middle">강원</text>
+  <text x="220" y="395" font-family="'Pretendard', sans-serif" font-size="22" font-weight="700" fill="#A7C4FF" text-anchor="middle">1,500억 · 1차</text>
+  <text x="220" y="455" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF" text-anchor="middle">한도 5,000만</text>
+  <text x="220" y="495" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF" text-anchor="middle">5년 상환</text>
+  <text x="220" y="565" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF" text-anchor="middle">이차보전 2.0%</text>
+  <text x="220" y="605" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF" text-anchor="middle">+ 영세 0.5%p</text>
+  <text x="220" y="645" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF" text-anchor="middle">+ 다자녀 1.0%p</text>
+  <text x="220" y="720" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#F59E0B" text-anchor="middle">최대 3.5%p</text>
+  <text x="220" y="800" font-family="'Pretendard', sans-serif" font-size="22" font-weight="600" fill="#A7C4FF" text-anchor="middle">속초·원주·정선</text>
+  <text x="220" y="840" font-family="'Pretendard', sans-serif" font-size="22" font-weight="600" fill="#A7C4FF" text-anchor="middle">시·군 특화</text>
+  <text x="220" y="920" font-family="'Pretendard', sans-serif" font-size="22" font-weight="600" fill="#A7C4FF" text-anchor="middle">NICE 710↑</text>
+
+  <rect x="400" y="270" width="280" height="710" rx="24" fill="#1A3270"/>
+  <rect x="400" y="270" width="280" height="80" rx="24" fill="#F59E0B"/>
+  <text x="540" y="322" font-family="'Pretendard', sans-serif" font-size="34" font-weight="900" fill="#0B1F3B" text-anchor="middle">제주</text>
+  <text x="540" y="395" font-family="'Pretendard', sans-serif" font-size="22" font-weight="700" fill="#A7C4FF" text-anchor="middle">관광진흥기금</text>
+  <text x="540" y="455" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF" text-anchor="middle">개인 5억</text>
+  <text x="540" y="495" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF" text-anchor="middle">법인 7억</text>
+  <text x="540" y="565" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF" text-anchor="middle">변동 2.21%</text>
+  <text x="540" y="605" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF" text-anchor="middle">- 1.0% 차감</text>
+  <text x="540" y="645" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF" text-anchor="middle">= 실질 1.21%</text>
+  <text x="540" y="720" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#F59E0B" text-anchor="middle">원금 유예 1년</text>
+  <text x="540" y="800" font-family="'Pretendard', sans-serif" font-size="22" font-weight="600" fill="#A7C4FF" text-anchor="middle">매출 10%↓</text>
+  <text x="540" y="840" font-family="'Pretendard', sans-serif" font-size="22" font-weight="600" fill="#A7C4FF" text-anchor="middle">또는 적자</text>
+  <text x="540" y="920" font-family="'Pretendard', sans-serif" font-size="22" font-weight="600" fill="#A7C4FF" text-anchor="middle">특별보증 300억</text>
+
+  <rect x="700" y="270" width="320" height="710" rx="24" fill="#1A3270"/>
+  <rect x="700" y="270" width="320" height="80" rx="24" fill="#F59E0B"/>
+  <text x="860" y="322" font-family="'Pretendard', sans-serif" font-size="34" font-weight="900" fill="#0B1F3B" text-anchor="middle">울산</text>
+  <text x="860" y="395" font-family="'Pretendard', sans-serif" font-size="22" font-weight="700" fill="#A7C4FF" text-anchor="middle">총 300억</text>
+  <text x="860" y="455" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF" text-anchor="middle">한도 8,000만</text>
+  <text x="860" y="495" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF" text-anchor="middle">(최대 한도)</text>
+  <text x="860" y="565" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF" text-anchor="middle">이차보전</text>
+  <text x="860" y="605" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF" text-anchor="middle">1.2 ~ 2.5%</text>
+  <text x="860" y="645" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF" text-anchor="middle">2년 지원</text>
+  <text x="860" y="720" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#F59E0B" text-anchor="middle">재기자금 50억</text>
+  <text x="860" y="800" font-family="'Pretendard', sans-serif" font-size="22" font-weight="600" fill="#A7C4FF" text-anchor="middle">2020년 이후</text>
+  <text x="860" y="840" font-family="'Pretendard', sans-serif" font-size="22" font-weight="600" fill="#A7C4FF" text-anchor="middle">폐업·재창업</text>
+  <text x="860" y="920" font-family="'Pretendard', sans-serif" font-size="22" font-weight="600" fill="#A7C4FF" text-anchor="middle">4월 조기집행</text>
+
+  <text x="540" y="1040" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#F59E0B" text-anchor="middle">사업장 소재지 기준 단일 신청</text>
+</svg>

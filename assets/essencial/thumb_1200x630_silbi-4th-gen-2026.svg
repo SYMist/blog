@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="tbg2" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#1E1033"/>
+      <stop offset="100%" stop-color="#2D1B69"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#tbg2)"/>
+
+  <rect x="60" y="80" width="260" height="46" rx="23" fill="#7C3AED"/>
+  <text x="190" y="110" font-family="sans-serif" font-size="22" font-weight="800" fill="#FFF" text-anchor="middle">2026 보험 비교</text>
+
+  <text x="600" y="230" font-family="sans-serif" font-size="46" font-weight="900" fill="#FFFFFF" text-anchor="middle">50대 실비보험 갈아타기 체크리스트</text>
+  <text x="600" y="300" font-family="sans-serif" font-size="32" fill="#E2E8F0" text-anchor="middle">4세대 전환 전 꼭 확인할 5가지 | 월 12만→3.3만 (2026)</text>
+
+  <rect x="180" y="360" width="130" height="44" rx="22" fill="#F5F3FF"/>
+  <text x="245" y="388" font-family="sans-serif" font-size="18" font-weight="700" fill="#7C3AED" text-anchor="middle">차등제</text>
+  <rect x="330" y="360" width="130" height="44" rx="22" fill="#F5F3FF"/>
+  <text x="395" y="388" font-family="sans-serif" font-size="18" font-weight="700" fill="#7C3AED" text-anchor="middle">비급여특약</text>
+  <rect x="480" y="360" width="130" height="44" rx="22" fill="#F5F3FF"/>
+  <text x="545" y="388" font-family="sans-serif" font-size="18" font-weight="700" fill="#7C3AED" text-anchor="middle">5년재가입</text>
+  <rect x="630" y="360" width="130" height="44" rx="22" fill="#F5F3FF"/>
+  <text x="695" y="388" font-family="sans-serif" font-size="18" font-weight="700" fill="#7C3AED" text-anchor="middle">의료심사</text>
+  <rect x="780" y="360" width="130" height="44" rx="22" fill="#F5F3FF"/>
+  <text x="845" y="388" font-family="sans-serif" font-size="18" font-weight="700" fill="#7C3AED" text-anchor="middle">성향분석</text>
+
+  <text x="600" y="500" font-family="sans-serif" font-size="20" fill="#A78BFA" text-anchor="middle">1세대→4세대 70% 절감 | 비급여 차등제 1등급 최대 11% 할인 | 5세대 출시 전 전환 전략</text>
+</svg>

@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <text x="540" y="108" font-family="'Pretendard', sans-serif" font-size="44" font-weight="900" fill="#F59E0B" text-anchor="middle">지금 나는 어떤 상황? 10초 판단</text>
+  <text x="540" y="162" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#EAF2FF" text-anchor="middle">상황별 해당 급여 · 소멸시효 · 즉시 행동</text>
+
+  <!-- Header Row -->
+  <rect x="60" y="200" width="180" height="120" rx="0" fill="#1A3270"/>
+  <text x="150" y="268" font-family="'Pretendard', sans-serif" font-size="20" font-weight="800" fill="#EAF2FF" text-anchor="middle">내 상황</text>
+
+  <rect x="248" y="200" width="248" height="120" rx="0" fill="#1D4ED8"/>
+  <text x="372" y="253" font-family="'Pretendard', sans-serif" font-size="18" font-weight="900" fill="#FFFFFF" text-anchor="middle">요양 중</text>
+  <text x="372" y="291" font-family="'Pretendard', sans-serif" font-size="18" font-weight="800" fill="#C7D9FF" text-anchor="middle">취업 못 하고 있음</text>
+
+  <rect x="504" y="200" width="248" height="120" rx="0" fill="#1E40AF"/>
+  <text x="628" y="253" font-family="'Pretendard', sans-serif" font-size="18" font-weight="900" fill="#FFFFFF" text-anchor="middle">치료 끝</text>
+  <text x="628" y="291" font-family="'Pretendard', sans-serif" font-size="18" font-weight="800" fill="#C7D9FF" text-anchor="middle">후유 장해 남음</text>
+
+  <rect x="760" y="200" width="260" height="120" rx="0" fill="#F59E0B"/>
+  <text x="890" y="253" font-family="'Pretendard', sans-serif" font-size="18" font-weight="900" fill="#0B1F3B" text-anchor="middle">불승인 통보</text>
+  <text x="890" y="291" font-family="'Pretendard', sans-serif" font-size="18" font-weight="900" fill="#0B1F3B" text-anchor="middle">받음</text>
+
+  <!-- Row: 해당 급여 -->
+  <rect x="60" y="328" width="180" height="130" rx="0" fill="#162C5A"/>
+  <text x="150" y="402" font-family="'Pretendard', sans-serif" font-size="18" font-weight="800" fill="#EAF2FF" text-anchor="middle">해당 급여</text>
+
+  <rect x="248" y="328" width="248" height="130" rx="0" fill="#0F2247"/>
+  <text x="372" y="378" font-family="'Pretendard', sans-serif" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="middle">휴업급여</text>
+  <text x="372" y="412" font-family="'Pretendard', sans-serif" font-size="16" font-weight="600" fill="#A0B4D0" text-anchor="middle">평균임금 × 70%</text>
+  <text x="372" y="442" font-family="'Pretendard', sans-serif" font-size="16" font-weight="600" fill="#A0B4D0" text-anchor="middle">(4일 이상 취업 불가)</text>
+
+  <rect x="504" y="328" width="248" height="130" rx="0" fill="#0F2247"/>
+  <text x="628" y="378" font-family="'Pretendard', sans-serif" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="middle">장해급여</text>
+  <text x="628" y="412" font-family="'Pretendard', sans-serif" font-size="16" font-weight="600" fill="#A0B4D0" text-anchor="middle">일시금 또는 연금</text>
+  <text x="628" y="442" font-family="'Pretendard', sans-serif" font-size="16" font-weight="600" fill="#A0B4D0" text-anchor="middle">(장해등급 판정 후)</text>
+
+  <rect x="760" y="328" width="260" height="130" rx="0" fill="#0F2247"/>
+  <text x="890" y="382" font-family="'Pretendard', sans-serif" font-size="22" font-weight="900" fill="#EF4444" text-anchor="middle">심사청구</text>
+  <text x="890" y="418" font-family="'Pretendard', sans-serif" font-size="16" font-weight="600" fill="#A0B4D0" text-anchor="middle">→ 재심사청구</text>
+  <text x="890" y="448" font-family="'Pretendard', sans-serif" font-size="16" font-weight="600" fill="#A0B4D0" text-anchor="middle">→ 행정소송</text>
+
+  <!-- Row: 소멸시효 -->
+  <rect x="60" y="466" width="180" height="120" rx="0" fill="#162C5A"/>
+  <text x="150" y="534" font-family="'Pretendard', sans-serif" font-size="18" font-weight="800" fill="#EAF2FF" text-anchor="middle">소멸시효</text>
+
+  <rect x="248" y="466" width="248" height="120" rx="0" fill="#1A3270"/>
+  <text x="372" y="534" font-family="'Pretendard', sans-serif" font-size="30" font-weight="900" fill="#FFFFFF" text-anchor="middle">3년</text>
+
+  <rect x="504" y="466" width="248" height="120" rx="0" fill="#1A3270"/>
+  <text x="628" y="524" font-family="'Pretendard', sans-serif" font-size="30" font-weight="900" fill="#FFFFFF" text-anchor="middle">5년</text>
+  <text x="628" y="568" font-family="'Pretendard', sans-serif" font-size="16" font-weight="700" fill="#F59E0B" text-anchor="middle">치유된 날 다음날부터</text>
+
+  <rect x="760" y="466" width="260" height="120" rx="0" fill="#EF4444"/>
+  <text x="890" y="518" font-family="'Pretendard', sans-serif" font-size="26" font-weight="900" fill="#FFFFFF" text-anchor="middle">90일 이내</text>
+  <text x="890" y="562" font-family="'Pretendard', sans-serif" font-size="16" font-weight="700" fill="#FFE0E0" text-anchor="middle">초과 시 처분 확정</text>
+
+  <!-- Row: 즉시 행동 -->
+  <rect x="60" y="594" width="180" height="152" rx="0" fill="#162C5A"/>
+  <text x="150" y="678" font-family="'Pretendard', sans-serif" font-size="17" font-weight="800" fill="#EAF2FF" text-anchor="middle">즉시 행동</text>
+
+  <rect x="248" y="594" width="248" height="152" rx="0" fill="#0F2247"/>
+  <text x="372" y="644" font-family="'Pretendard', sans-serif" font-size="16" font-weight="700" fill="#EAF2FF" text-anchor="middle">요양급여와</text>
+  <text x="372" y="674" font-family="'Pretendard', sans-serif" font-size="16" font-weight="700" fill="#EAF2FF" text-anchor="middle">동시 신청 필수</text>
+  <text x="372" y="712" font-family="'Pretendard', sans-serif" font-size="15" font-weight="600" fill="#A0B4D0" text-anchor="middle">통원 치료 중이라도</text>
+  <text x="372" y="736" font-family="'Pretendard', sans-serif" font-size="15" font-weight="600" fill="#A0B4D0" text-anchor="middle">의사 소견 기재 요청</text>
+
+  <rect x="504" y="594" width="248" height="152" rx="0" fill="#0F2247"/>
+  <text x="628" y="644" font-family="'Pretendard', sans-serif" font-size="16" font-weight="700" fill="#EAF2FF" text-anchor="middle">요양 종결 즉시</text>
+  <text x="628" y="674" font-family="'Pretendard', sans-serif" font-size="16" font-weight="700" fill="#EAF2FF" text-anchor="middle">장해등급 판정 신청</text>
+  <text x="628" y="712" font-family="'Pretendard', sans-serif" font-size="15" font-weight="600" fill="#A0B4D0" text-anchor="middle">4~7급: 일시금/연금</text>
+  <text x="628" y="736" font-family="'Pretendard', sans-serif" font-size="15" font-weight="600" fill="#A0B4D0" text-anchor="middle">선택 가능</text>
+
+  <rect x="760" y="594" width="260" height="152" rx="0" fill="#0F2247"/>
+  <text x="890" y="644" font-family="'Pretendard', sans-serif" font-size="16" font-weight="700" fill="#EAF2FF" text-anchor="middle">통보일 즉시</text>
+  <text x="890" y="674" font-family="'Pretendard', sans-serif" font-size="16" font-weight="700" fill="#EAF2FF" text-anchor="middle">심사청구 접수</text>
+  <text x="890" y="712" font-family="'Pretendard', sans-serif" font-size="15" font-weight="600" fill="#A0B4D0" text-anchor="middle">달력에 90일 후</text>
+  <text x="890" y="736" font-family="'Pretendard', sans-serif" font-size="15" font-weight="600" fill="#A0B4D0" text-anchor="middle">날짜 즉시 표시</text>
+
+  <!-- Bottom bar -->
+  <rect x="60" y="782" width="960" height="240" rx="20" fill="#F59E0B"/>
+  <text x="540" y="856" font-family="'Pretendard', sans-serif" font-size="26" font-weight="900" fill="#0B1F3B" text-anchor="middle">부분 취업 시: 신고 후 부분 휴업급여 수령 가능</text>
+  <text x="540" y="908" font-family="'Pretendard', sans-serif" font-size="22" font-weight="700" fill="#0B1F3B" text-anchor="middle">(평균임금 - 취업일 임금) × 80% — 신고 없이 은폐 시 전액 환수</text>
+  <text x="540" y="990" font-family="'Pretendard', sans-serif" font-size="19" font-weight="700" fill="#0B1F3B" text-anchor="middle">※ 사업주 거부 시 단독 신청 가능 — 포기 금지</text>
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- 배지 -->
+  <rect x="60" y="50" width="210" height="44" rx="22" fill="#F59E0B"/>
+  <text x="165" y="79" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#0B1F3B">2025 vs 2026</text>
+
+  <!-- 메인 제목 -->
+  <text x="60" y="150" font-family="'Pretendard',sans-serif" font-size="48" font-weight="900" fill="#FFFFFF">소상공인 임대료 지원</text>
+  <text x="60" y="210" font-family="'Pretendard',sans-serif" font-size="48" font-weight="900" fill="#FFFFFF">이렇게 달라졌다</text>
+
+  <!-- 구분선 -->
+  <rect x="60" y="240" width="120" height="4" rx="2" fill="#F59E0B"/>
+
+  <!-- Column Headers -->
+  <rect x="500" y="270" width="240" height="50" rx="12" fill="rgba(255,255,255,0.12)"/>
+  <text x="620" y="303" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#94A3B8">2025</text>
+  <rect x="780" y="270" width="240" height="50" rx="12" fill="#F59E0B"/>
+  <text x="900" y="303" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#0B1F3B">2026</text>
+
+  <!-- Row 1: 바우처 -->
+  <rect x="60" y="340" width="960" height="110" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <text x="80" y="380" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFFFFF">바우처</text>
+  <text x="80" y="415" font-family="'Pretendard',sans-serif" font-size="18" fill="#94A3B8">경영안정 바우처</text>
+  <text x="620" y="395" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#94A3B8">20만 원</text>
+  <text x="780" y="395" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">25만 원 + 차량연료비 추가</text>
+
+  <!-- Row 2: 관리비 -->
+  <rect x="60" y="470" width="960" height="110" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <text x="80" y="510" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFFFFF">관리비</text>
+  <text x="80" y="545" font-family="'Pretendard',sans-serif" font-size="18" fill="#94A3B8">상가 관리비 제도</text>
+  <text x="620" y="525" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#94A3B8">법적 근거 없음</text>
+  <text x="780" y="525" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">공개 의무화 (5/12~)</text>
+
+  <!-- Row 3: 착한 임대인 -->
+  <rect x="60" y="600" width="960" height="110" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <text x="80" y="640" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFFFFF">착한 임대인</text>
+  <text x="80" y="675" font-family="'Pretendard',sans-serif" font-size="18" fill="#94A3B8">세액공제 기한</text>
+  <text x="620" y="655" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#94A3B8">2025.12 만료 예정</text>
+  <text x="780" y="655" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">2028.12까지 연장</text>
+
+  <!-- Row 4: 점포 철거비 -->
+  <rect x="60" y="730" width="960" height="110" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <text x="80" y="770" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFFFFF">점포 철거비</text>
+  <text x="80" y="805" font-family="'Pretendard',sans-serif" font-size="18" fill="#94A3B8">희망리턴 폐업지원</text>
+  <text x="620" y="785" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#94A3B8">최대 400만 원</text>
+  <text x="780" y="785" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">최대 600만 원</text>
+
+  <!-- Row 5: 재기사업화 -->
+  <rect x="60" y="860" width="960" height="110" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <text x="80" y="900" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFFFFF">재기사업화</text>
+  <text x="80" y="935" font-family="'Pretendard',sans-serif" font-size="18" fill="#94A3B8">자부담 비율</text>
+  <text x="620" y="915" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#94A3B8">자부담 100%</text>
+  <text x="780" y="915" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">자부담 50% 완화</text>
+
+  <!-- 칩 -->
+  <rect x="60" y="995" width="100" height="40" rx="20" fill="#E8F0FF"/>
+  <text x="110" y="1022" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#1D4ED8">변화</text>
+  <rect x="180" y="995" width="100" height="40" rx="20" fill="#E8F0FF"/>
+  <text x="230" y="1022" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#1D4ED8">비교</text>
+  <rect x="300" y="995" width="100" height="40" rx="20" fill="#E8F0FF"/>
+  <text x="350" y="1022" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#1D4ED8">2026</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="#F8FAFC"/>
+
+  <!-- Card -->
+  <g filter="url(#shadow)">
+    <rect x="70" y="70" width="940" height="940" rx="24" fill="#FFFFFF" stroke="#E5E7EB"/>
+  </g>
+
+  <!-- Header -->
+  <text x="120" y="170" font-size="48" fill="#111827" font-weight="800" font-family="Pretendard, 'Noto Sans KR', sans-serif">아동수당 체크리스트</text>
+  <text x="120" y="230" font-size="28" fill="#6B7280" font-weight="600" font-family="Pretendard, 'Noto Sans KR', sans-serif">신청 전 1분 점검</text>
+
+  <!-- Divider -->
+  <line x1="120" y1="270" x2="960" y2="270" stroke="#E5E7EB"/>
+
+  <!-- Checklist Items -->
+  <g font-family="Pretendard, 'Noto Sans KR', sans-serif" fill="#111827" font-size="30">
+    <text x="170" y="360">□ 만 8세 미만 대상 확인</text>
+    <text x="170" y="430">□ 출생 60일 이내 신청(소급) 여부</text>
+    <text x="170" y="500">□ 온라인 신청은 부모 보호자만 가능</text>
+    <text x="170" y="570">□ 신청 채널 선택(복지로/정부24/주민센터)</text>
+    <text x="170" y="640">□ 신분증 + 계좌 정보 준비</text>
+    <text x="170" y="710">□ 대리 신청 시 위임장·신분증 준비</text>
+    <text x="170" y="780">□ 90일 이상 해외체류 시 지급정지 신고</text>
+  </g>
+
+  <!-- Footer Note -->
+  <rect x="120" y="840" width="840" height="90" rx="12" fill="#F1F5F9"/>
+  <text x="150" y="895" font-size="24" fill="#4B5563" font-family="Pretendard, 'Noto Sans KR', sans-serif">
+    지급일은 매월 25일(주말/공휴일 전일)
+  </text>
+</svg>

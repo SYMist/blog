@@ -1,0 +1,409 @@
+<!-- 자영업자_노후_3축_설계_2026.html -->
+<!-- ✅ 티스토리 HTML 모드: 통째로 붙여넣고 이미지 5장 직접 삽입 -->
+
+<!-- ✅ Schema.org 구조화 데이터 -->
+<div style="display:none">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "자영업자 노후 3축 설계 — 노란우산+IRP+국민연금 통합 전략 (2026)",
+      "description": "2026년 자영업자 노후 절세 3축 완전 가이드 — 노란우산공제(소득공제 600만원), IRP+연금저축(세액공제 최대 148만원), 국민연금 임의가입 통합 전략. 연간 최대 238만원 절세 시뮬레이션 포함.",
+      "datePublished": "2026-05-12",
+      "dateModified": "2026-05-12",
+      "author": {"@type": "Person", "name": "deluxo"},
+      "publisher": {"@type": "Organization", "name": "deluxo"}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "자영업자도 IRP에 가입할 수 있나요?", "acceptedAnswer": {"@type": "Answer", "text": "네, 자영업자도 개인형 IRP에 가입할 수 있습니다. 연금저축과 합산해 연 900만원까지 세액공제를 받을 수 있으며, 종합소득 4,500만원 이하면 16.5%, 초과면 13.2%의 세액공제율이 적용됩니다."}},
+        {"@type": "Question", "name": "노란우산공제와 IRP를 동시에 가입하면 한도가 합산되나요?", "acceptedAnswer": {"@type": "Answer", "text": "노란우산공제는 소득공제, IRP/연금저축은 세액공제로 별도 제도입니다. 한도가 겹치지 않으므로 동시 납입 시 두 혜택을 모두 받을 수 있습니다. 연간 합산 절세 효과는 소득 수준에 따라 200만원 이상이 가능합니다."}},
+        {"@type": "Question", "name": "자영업자는 국민연금을 얼마나 내나요?", "acceptedAnswer": {"@type": "Answer", "text": "자영업자는 지역가입자로 분류되며 2026년 기준 보험료율은 9.5%입니다. 신고 소득 기준으로 납부하며, 소득이 줄었을 때 감액 신청이 가능합니다. 납부 범위는 월 38,000원~605,150원입니다."}},
+        {"@type": "Question", "name": "IRP를 중도에 해지하면 어떻게 되나요?", "acceptedAnswer": {"@type": "Answer", "text": "IRP를 60세 이전에 중도인출하면 기타소득세 16.5%가 부과됩니다. 또한 기존에 받은 세액공제 혜택도 소급 반환해야 하므로, 실질적으로 세 혜택 전체가 사라집니다. 불가피한 경우를 제외하고 중도인출은 피하는 것이 좋습니다."}},
+        {"@type": "Question", "name": "노란우산공제 해지 시 세금은 어떻게 되나요?", "acceptedAnswer": {"@type": "Answer", "text": "노란우산공제를 해지하면 원금+이자에 대해 퇴직소득세가 부과됩니다. 납입 기간이 길수록 퇴직소득 공제액이 커져 세금이 줄어드는 구조입니다. 폐업 등 불가피한 사유라면 세금 부담이 있더라도 수령 가능합니다."}}
+      ]
+    }
+  ]
+}
+</script>
+</div>
+
+<style>
+  :root{
+    --blue:#1D4ED8; --blue2:#1E40AF;
+    --white:#FFFFFF; --text:#111827;
+    --muted:#4B5563; --border:#E5E7EB;
+    --bg:#F9FAFB; --blueLight:#E8F0FF;
+  }
+  .wrap{max-width:860px;margin:0 auto;line-height:1.8;color:var(--text);}
+  .meta{color:var(--muted);font-size:.95rem;margin:6px 0 18px;}
+  .badge{display:inline-block;background:var(--blueLight);border:1px solid var(--border);padding:3px 10px;border-radius:999px;font-size:.85rem;margin-right:8px;}
+  .notice{background:#fff7ed;border:1px solid #fed7aa;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .lead{background:#f8fafc;border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .keysum{background:#fefce8;border:1px solid #fde68a;padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .summary{background:#eff6ff;border:1px solid #bfdbfe;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .toc{background:var(--bg);border:1px solid var(--border);padding:14px 16px;border-radius:12px;margin:16px 0 22px;}
+  .toc a{text-decoration:none;color:var(--blue);}
+  .toc ul{margin:8px 0 0 18px;}
+
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 6px;}
+  .wrap a.btn,.wrap a.btn:link,.wrap a.btn:visited{
+    display:inline-flex;align-items:center;justify-content:center;
+    padding:10px 14px;border-radius:10px;border:1px solid var(--blue);
+    background:var(--blue) !important;color:var(--white) !important;
+    text-decoration:none !important;font-weight:800;
+  }
+  .wrap a.btn:hover,.wrap a.btn:active,.wrap a.btn:focus{
+    background:var(--blue2) !important;border-color:var(--blue2) !important;color:var(--white) !important;
+  }
+  .wrap a.btn.secondary,.wrap a.btn.secondary:link,.wrap a.btn.secondary:visited{
+    background:var(--white) !important;color:var(--blue) !important;border-color:var(--blue) !important;
+  }
+  .wrap a.btn.secondary:hover,.wrap a.btn.secondary:active,.wrap a.btn.secondary:focus{
+    background:var(--bg) !important;color:var(--blue2) !important;border-color:var(--blue2) !important;
+  }
+  .wrap a.btn.gray,.wrap a.btn.gray:link,.wrap a.btn.gray:visited{
+    background:#111827 !important;border-color:#111827 !important;color:var(--white) !important;
+  }
+  .wrap a.btn.gray:hover,.wrap a.btn.gray:active,.wrap a.btn.gray:focus{
+    background:#0b1220 !important;border-color:#0b1220 !important;color:var(--white) !important;
+  }
+
+  table{width:100%;border-collapse:collapse;margin:14px 0 10px;}
+  th,td{border:1px solid var(--border);padding:10px;vertical-align:top;}
+  th{background:#F3F4F6;text-align:left;}
+  .small{font-size:.95rem;color:var(--muted);}
+  h1{margin:0 0 8px;line-height:1.25;}
+  h2{margin-top:30px;padding-top:8px;border-top:1px solid var(--border);}
+  h3{margin-top:16px;}
+  .q{font-weight:900;margin:14px 0 6px;}
+  .a{margin:0 0 10px;}
+  .tips{background:#f0fdf4;border:1px solid #bbf7d0;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .urgency{background:#fef2f2;border:1px solid #fca5a5;padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .target{background:#f0fdf4;border:1px solid #86efac;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .target ul{margin:8px 0 0 18px;}
+  .disclaimer{background:#f8fafc;border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:20px 0 10px;font-size:.9rem;color:var(--muted);}
+  .footer{margin-top:26px;padding-top:14px;border-top:1px solid var(--border);color:var(--muted);font-size:.95rem;}
+</style>
+
+<div class="wrap">
+  <h1>자영업자 노후 3축 설계 — 노란우산+IRP+국민연금 통합 전략 (2026)</h1>
+  <div class="meta">
+    <span class="badge">키워드: 자영업자 노후설계</span>
+    <span class="badge">업데이트: 2026-05-12</span>
+  </div>
+
+  <div class="notice">
+    <strong>먼저 확인!</strong><br/>
+    2026년부터 국민연금 보험료율이 9.5%로 인상됩니다. 노란우산공제 소득공제 한도도 600만원으로 상향되었으니 납입 전략을 다시 점검하세요.
+  </div>
+
+  <p class="small">
+    자영업자·소상공인의 노후 절세 3축(노란우산공제·IRP·국민연금)을 통합해 연간 최대 238만원 절세하는 방법을 한 글에 정리했습니다.
+  </p>
+
+  <div class="lead">
+    직장인은 퇴직금·회사 연금·국민연금 절반을 회사가 부담하지만 자영업자는 모든 노후 준비를 스스로 해야 합니다. 노란우산공제와 IRP를 함께 활용하면 소득공제+세액공제가 동시에 적용되어 절세 효과가 배가 됩니다. 정부 공식 안내에 나오지 않는 3축 최적 납입 순서와 해지 시 세금 함정을 이 글에서 확인하실 수 있습니다.
+  </div>
+
+  <div class="urgency">
+    <strong>왜 지금 확인해야 할까?</strong><br/>
+    2026년 5월 종합소득세 신고 기한이 지났더라도 올해 납입분은 내년 5월 신고 때 공제됩니다. 지금 가입하면 <strong>2026년 납입분에 대해 2027년 5월 최대 238만원</strong> 세금을 줄일 수 있습니다. 국민연금 보험료율은 매년 0.5%p 인상 예정 — 조기 가입할수록 낮은 보험료로 가입 기간을 확보하는 게 유리합니다.
+  </div>
+
+  <div class="keysum">
+    <strong>핵심 요약 3줄</strong><br/>
+    노란우산공제(소득공제 최대 600만원) + IRP+연금저축(세액공제 최대 148만원) = 연간 최대 238만원 절세.<br/>
+    두 제도는 공제 방식이 달라 동시 납입해도 한도 충돌 없음 — 세 혜택 모두 수령 가능.<br/>
+    국민연금 2026년 보험료율 9.5%로 인상, 소득대체율은 43% 상향 — 임의가입으로 가입기간 늘리면 연금 수령액 증가.
+  </div>
+
+  <div class="summary" id="top">
+    <h2 style="border-top:none;margin-top:0;">✅ 5줄 요약(결론)</h2>
+    <ul>
+      <li><strong>노란우산공제</strong>: 소득 4,000만원 이하 → 연 600만원 소득공제 (중소기업중앙회 운영)</li>
+      <li><strong>신청처</strong>: 노란우산(yumam.kbiz.or.kr) / IRP(은행·증권사) / 국민연금(nps.or.kr)</li>
+      <li><strong>핵심조건</strong>: 노란우산 소득공제+IRP 세액공제 각각 별도 한도 — 합산 가능</li>
+      <li><strong>절세 효과</strong>: 종합소득 4,500만원 이하 기준 연 최대 238만원 (소득공제+세액공제 합산)</li>
+      <li><strong>주의</strong>: IRP 중도인출 시 세액공제 전액 반환 + 기타소득세 16.5% 추징</li>
+    </ul>
+
+    <div class="btns">
+      <a class="btn" href="https://yumam.kbiz.or.kr" target="_blank" rel="noopener">노란우산공제 가입</a>
+      <a class="btn gray" href="https://www.nps.or.kr" target="_blank" rel="noopener">국민연금공단</a>
+      <a class="btn secondary" href="https://www.nps.or.kr/comm/quick/getOHAH0011P0.do" target="_blank" rel="noopener">국민연금 예상수령액 계산</a>
+    </div>
+    <p class="small">※ 세액공제·소득공제는 개인 소득 수준에 따라 달라집니다 | 문의 국민연금 ☎ 1355</p>
+  </div>
+
+  <div class="target">
+    <strong>이런 상황이라면 지금 바로 가입하세요</strong>
+    <ul>
+      <li>자영업자·소상공인인데 퇴직금이 없어 노후 준비가 막막하다면</li>
+      <li>종합소득세 고지서를 받을 때마다 세금이 너무 많다고 느낀다면</li>
+      <li>노란우산공제는 알고 있었지만 IRP와 동시에 가입하면 한도가 겹치는지 몰랐다면</li>
+      <li>국민연금 지역가입자 보험료가 부담스러워 소득 조정을 고민 중이라면</li>
+      <li>배우자가 전업주부인데 국민연금 임의가입으로 노후를 함께 준비하고 싶다면</li>
+    </ul>
+  </div>
+
+  <div class="toc">
+    <strong>목차</strong>
+    <ul>
+      <li><a href="#table">1) 한눈에 표 — 노후 3축 비교</a></li>
+      <li><a href="#quick">→ 나는 어디? 소득별 최적 납입 전략</a></li>
+      <li><a href="#how">2) 가입 방법 (노란우산·IRP·국민연금)</a></li>
+      <li><a href="#docs">3) 서류 체크리스트</a></li>
+      <li><a href="#case">4) 정부 안내에 없는 실측 정보</a></li>
+      <li><a href="#faq">5) FAQ</a></li>
+      <li><a href="#check">6) 1분 체크리스트</a></li>
+      <li><a href="#update">업데이트 로그</a></li>
+    </ul>
+  </div>
+
+  <h2 id="table">1) 한눈에 표 — 자영업자 노후 3축 비교</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>구분</th><th>노란우산공제</th><th>IRP+연금저축</th><th>국민연금</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>공제 방식</strong></td>
+        <td>소득공제 (과세표준 감소)</td>
+        <td>세액공제 (세금 직접 감소)</td>
+        <td>없음 (노후연금 수령)</td>
+      </tr>
+      <tr>
+        <td><strong>공제 한도</strong></td>
+        <td>최대 600만원 (소득 4,000만원↓)</td>
+        <td>최대 900만원 (연금저축+IRP 합산)</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td><strong>공제율/효과</strong></td>
+        <td>소득세율에 따라 차이 (15~35%)</td>
+        <td>16.5% (종합소득 4,500만원↓) / 13.2%</td>
+        <td>2026년 보험료율 9.5%</td>
+      </tr>
+      <tr>
+        <td><strong>절세 최대액</strong></td>
+        <td>~90만원 (소득 4,000만원↓, 15% 구간)</td>
+        <td>~148.5만원 (900만원 × 16.5%)</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td><strong>수령 방식</strong></td>
+        <td>폐업·퇴임 시 일시금</td>
+        <td>55세↑ 연금 수령 (10년 이상 분할)</td>
+        <td>만 63세↑ 종신 연금</td>
+      </tr>
+      <tr>
+        <td><strong>중도해지 패널티</strong></td>
+        <td>퇴직소득세 부과</td>
+        <td>기타소득세 16.5% + 공제 반환</td>
+        <td>반환일시금 (이자 부가)</td>
+      </tr>
+      <tr>
+        <td><strong>신청처</strong></td>
+        <td>yumam.kbiz.or.kr</td>
+        <td>은행·증권사 IRP 계좌</td>
+        <td>nps.or.kr / ☎1355</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- ✅ 인아티클 광고 (한눈에 표 직후) -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5716436301710258"
+       crossorigin="anonymous"></script>
+  <ins class="adsbygoogle"
+       style="display:block; text-align:center;"
+       data-ad-layout="in-article"
+       data-ad-format="fluid"
+       data-ad-client="ca-pub-5716436301710258"
+       data-ad-slot="7020031076"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+  <h3 id="quick">나는 어디? 소득구간별 최적 납입 전략</h3>
+  <table>
+    <thead>
+      <tr><th>종합소득 구간</th><th>노란우산 한도</th><th>IRP+연금저축</th><th>연간 절세 합계</th><th>핵심 전략</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>4,000만원 이하</td><td>600만원</td><td>900만원 (16.5%)</td><td>~238만원</td><td>노란우산 최대 + IRP 300+연금저축 600</td></tr>
+      <tr><td>4,000만원 초과~4,500만원↓</td><td>400만원</td><td>900만원 (16.5%)</td><td>~209만원</td><td>IRP+연금저축 우선, 노란우산 400만원</td></tr>
+      <tr><td>4,500만원 초과~1억원↓</td><td>400만원</td><td>900만원 (13.2%)</td><td>~219만원</td><td>노란우산 공제효과↑ (세율 24~35%)</td></tr>
+      <tr><td>1억원 초과</td><td>200만원</td><td>900만원 (13.2%)</td><td>~189만원</td><td>IRP·연금저축 효과 상대적으로 더 큼</td></tr>
+    </tbody>
+  </table>
+  <p class="small">※ 위 금액은 다른 공제 항목 없는 단순 계산 기준 / 실제 절세액은 다를 수 있습니다.</p>
+
+  <!-- ✅ 이미지 1: 요약표 카드 (5줄 요약 아래) -->
+  <img src="summary_card_1080_self_employed_retirement_2026.png" alt="자영업자 노후 3축 노란우산 IRP 국민연금 비교 요약" style="width:100%;margin:16px 0;" />
+
+  <!-- ✅ 이미지 2: 빠른 판단 가이드 (소득구간별 전략 표 아래) -->
+  <img src="quick_guide_1080_self_employed_retirement_2026.png" alt="자영업자 소득구간별 노란우산 IRP 최적 납입 전략" style="width:100%;margin:16px 0;" />
+
+  <h2 id="how">2) 가입 방법</h2>
+
+  <h3>A. 노란우산공제 가입</h3>
+  <ol>
+    <li><strong>접속</strong>: 노란우산공제 홈페이지(yumam.kbiz.or.kr) 또는 소상공인시장진흥공단 지역센터</li>
+    <li><strong>가입 자격 확인</strong>: 소기업·소상공인(연 매출 120억원 이하) — 음식점, 소매업, 서비스업 등 대부분 해당</li>
+    <li><strong>납입 설정</strong>: 월 5만원~100만원 자유 설정 (언제든 변경 가능)</li>
+    <li><strong>공제 신청</strong>: 매년 5월 종합소득세 신고 시 노란우산공제 납입 확인서 첨부</li>
+  </ol>
+  <p class="small">※ 온라인 가입 당일 계좌이체 시작 가능 / 공동인증서 또는 간편인증 필요.</p>
+
+  <h3>B. IRP + 연금저축 가입</h3>
+  <ol>
+    <li><strong>IRP 계좌 개설</strong>: 시중은행 또는 증권사 앱에서 10분 내 개설 가능</li>
+    <li><strong>납입 전략</strong>: 연금저축 600만원 + IRP 300만원 = 합산 900만원 (세액공제 최대)</li>
+    <li><strong>운용 선택</strong>: 예금형(안전) 또는 펀드형(수익성) 중 선택</li>
+    <li><strong>세액공제 신청</strong>: 종소세 신고 시 금융사에서 납입 확인서 발급 후 첨부</li>
+  </ol>
+  <p class="small">※ IRP 단독으로 900만원 납입도 가능 (연금저축 없이도 세액공제 전액 적용).</p>
+
+  <h3>C. 국민연금 (지역가입자·임의가입)</h3>
+  <ol>
+    <li><strong>지역가입자 자동 분류</strong>: 자영업자는 별도 신청 없이 지역가입자로 분류</li>
+    <li><strong>소득 신고</strong>: 종소세 신고 소득 기준으로 다음 해 6월 보험료 재산정 — 소득 감소 시 감액 신청 가능</li>
+    <li><strong>임의가입 (배우자·무소득 기간)</strong>: nps.or.kr 또는 국민연금 지사 방문 / ☎1355 신청</li>
+    <li><strong>임의계속가입</strong>: 60세 이후 가입기간 부족 시 65세까지 연장 신청</li>
+  </ol>
+
+  <!-- ✅ 이미지 3: 정책 비교·변화 카드 (신청 방법 섹션 중간) -->
+  <img src="compare_card_1080_self_employed_retirement_2026.png" alt="자영업자 노후 3축 절세 시뮬레이션 비교" style="width:100%;margin:16px 0;" />
+
+  <h2 id="docs">3) 서류 체크리스트</h2>
+  <h3>기본 서류</h3>
+  <ul>
+    <li>신분증 (주민등록증 또는 운전면허증)</li>
+    <li>사업자등록증 (노란우산 가입 시 필수)</li>
+    <li>노란우산공제 납입 확인서 (종소세 신고 시)</li>
+    <li>IRP·연금저축 납입 확인서 (종소세 신고 시)</li>
+  </ul>
+  <h3>상황별 추가 서류</h3>
+  <ul>
+    <li>국민연금 임의가입 신청 시: 본인 신분증 (온라인 신청 가능)</li>
+    <li>국민연금 소득 감액 신청 시: 소득이 줄었음을 증빙하는 자료 (확정 소득 발생 후)</li>
+    <li>노란우산 해지(폐업) 시: 폐업사실증명원 (세무서 발급)</li>
+    <li>IRP 연금 수령 개시 신청 시: 55세 이상 확인 서류 + 10년 이상 납입 확인</li>
+  </ul>
+
+  <!-- ✅ 차별화: 정부 공식 사이트에 없는 실측 정보 -->
+  <h2 id="case">4) 정부 안내에 없는 실측 정보</h2>
+
+  <h3>① 가입부터 절세 효과 발생까지 소요 시간</h3>
+  <table>
+    <thead>
+      <tr><th>단계</th><th>소요 기간</th><th>비고</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>노란우산 온라인 가입</td><td>당일</td><td>공동인증서 또는 간편인증</td></tr>
+      <tr><td>IRP 계좌 개설</td><td>10분 이내</td><td>은행·증권사 앱</td></tr>
+      <tr><td>국민연금 임의가입 처리</td><td>신청 후 3~7일</td><td>온라인 또는 지사 방문</td></tr>
+      <tr><td>소득공제·세액공제 확인</td><td>다음 해 5월 종소세 신고 시</td><td>납입 확인서 첨부 필수</td></tr>
+      <tr><td>세금 환급 입금</td><td>신고 후 30~60일</td><td>환급이 발생하는 경우</td></tr>
+      <tr><td><strong>합계 (가입~첫 절세 수령)</strong></td><td><strong>약 7~14개월</strong></td><td>가입 시점에 따라 상이</td></tr>
+    </tbody>
+  </table>
+
+  <h3>② 자주 혼동되는 포인트 — 한도 혼동과 중도인출 함정</h3>
+  <p>자영업자들이 가장 많이 혼동하는 것은 "IRP와 연금저축을 동시에 가입하면 공제 한도가 900만원으로 합산 제한된다"는 점입니다. 반면 노란우산공제는 소득공제, IRP·연금저축은 세액공제로 별도 제도이므로 두 혜택이 겹치지 않습니다. 따라서 노란우산 600만원 납입과 IRP·연금저축 900만원 납입을 동시에 진행해도 각각의 한도를 모두 적용받습니다.</p>
+  <p>IRP 중도인출의 함정도 자주 발생합니다. IRP는 자유 납입이 가능하므로 "필요하면 꺼낼 수 있다"고 생각하는 경우가 많지만, 60세 이전 중도인출 시 기타소득세 16.5%가 추징됩니다. 기존에 받은 세액공제 혜택도 소급 환수되기 때문에 실질적으로 세 혜택 전체가 사라지는 구조입니다. 생활 자금이 부족할 때를 대비해 IRP 납입 전 3~6개월치 비상금을 별도로 확보한 다음 납입하는 것이 일반적으로 권장됩니다.</p>
+
+  <h3>③ 대표 케이스 절세 시뮬레이션</h3>
+  <p>음식점 운영, 종합소득 4,000만원 이하(세율 15% 구간) 자영업자가 3가지를 동시 납입할 경우를 계산하면 다음과 같습니다. 노란우산 600만원 납입 → 과세표준 600만원 감소 → 소득세 약 90만원 절감. 연금저축 600만원 + IRP 300만원 납입 → 세액공제 900만원 × 16.5% = 148.5만원 절감. 합산 연간 238.5만원의 세 부담이 줄어듭니다. 국민연금은 소득 기준 보험료 납부로 직접 절세 효과는 없지만, 2026년부터 소득대체율 43%로 상향되어 수령액이 늘어납니다.</p>
+  <p>종합소득 1억원 이상 고소득 자영업자라면 세율이 35~38% 구간에 해당하므로 노란우산 200만원 납입만으로도 소득세 절감이 70~76만원에 달합니다. 이 구간에서는 IRP+연금저축 세액공제율(13.2%)보다 노란우산 소득공제 효과가 더 크게 느껴지는 경우가 많습니다.</p>
+
+  <h3>④ 공식 가이드에 없는 운영 팁</h3>
+  <p>노란우산공제는 폐업 이외에도 "임의 해지"가 가능하지만, 가입 후 일정 기간 이내에 해지하면 원금 손실 없이 퇴직소득세만 납부하게 됩니다. 납입 기간이 길수록 퇴직소득 공제액이 커져 실효 세율이 낮아지는 구조이므로, 장기 유지가 유리합니다. 국민연금 지역가입자의 경우 전년도 소득에 기반해 다음 해 6월 보험료가 재산정되므로, 소득이 큰 폭으로 줄었다면 즉시 소득 감소 신고를 통해 보험료 감액을 신청하는 것이 현금흐름 관리에 도움이 됩니다. IRP 운용은 예금형으로 개설 후 상황에 따라 펀드 비중을 조절하는 방식이 초보자에게 일반적으로 안전한 접근으로 언급됩니다.</p>
+
+  <!-- ✅ 이미지 4: 탈락 사유 TOP 5 카드 (FAQ 섹션 직전) -->
+  <img src="rejection_card_1080_self_employed_retirement_2026.png" alt="자영업자 노후 3축 절세 혜택 상실 TOP5" style="width:100%;margin:16px 0;" />
+
+  <h2 id="faq">5) FAQ</h2>
+  <h3>절세 혜택 상실 TOP5</h3>
+  <ol>
+    <li>노란우산 납입 후 종소세 신고 시 납입 확인서 미첨부 (자동 미적용)</li>
+    <li>IRP 중도인출 — 기타소득세 16.5% + 세액공제 소급 환수</li>
+    <li>국민연금 소득 감소 후 감액 신청 미이행 → 보험료 과다 납부</li>
+    <li>연금저축과 IRP 합산 한도(900만원)를 초과 납입 → 초과분 공제 불가</li>
+    <li>노란우산 소득구간 착각 → 한도 초과분 납입으로 공제 혜택 미수령</li>
+  </ol>
+
+  <h3>자주 묻는 질문</h3>
+  <p class="q">Q1. 노란우산공제와 IRP를 동시에 가입해도 공제 한도가 합산되지 않나요?</p>
+  <p class="a">맞습니다. 노란우산공제는 소득공제, IRP·연금저축은 세액공제로 서로 다른 방식이라 한도가 겹치지 않습니다. 두 가지를 동시에 최대로 납입하면 두 혜택을 모두 받을 수 있습니다.</p>
+
+  <p class="q">Q2. IRP 연금저축을 합산 900만원 이상 납입해도 되나요?</p>
+  <p class="a">납입 자체는 가능하지만, 세액공제는 합산 900만원까지만 적용됩니다. 초과분은 세액공제 없이 납입되며, 나중에 연금 수령 시 세율이 달라집니다. 일반적으로 900만원을 초과하는 납입분은 절세 효과 없이 운용 목적으로만 활용됩니다.</p>
+
+  <p class="q">Q3. 자영업자는 국민연금을 직접 전부 내야 하나요?</p>
+  <p class="a">네, 직장인과 달리 지역가입자는 사업주 분담이 없어 전액 본인 부담입니다. 2026년 기준 보험료율 9.5%를 신고 소득 전액에 곱해 납부합니다. 반면 소득이 적으면 납부 보험료도 줄고, 최저 38,000원부터 시작할 수 있습니다.</p>
+
+  <p class="q">Q4. 노란우산공제 납입 한도보다 더 납입해도 되나요?</p>
+  <p class="a">납입 자체는 월 100만원(연 1,200만원)까지 가능하지만, 소득공제는 소득 구간에 따른 한도(최대 600만원)까지만 적용됩니다. 한도 초과 납입분은 공제 혜택이 없으므로 한도에 맞춰 납입하는 것이 효율적입니다.</p>
+
+  <p class="q">Q5. IRP는 어느 금융사가 가장 좋나요?</p>
+  <p class="a">절세 혜택은 금융사와 무관하게 동일합니다. 다만 운용 상품의 다양성(펀드·ETF 종류), 수수료(운용 관리비), 앱 편의성에서 차이가 있습니다. 증권사(국내 대형 4~5곳)는 펀드·ETF 선택폭이 넓고, 은행은 예금형 상품이 안전합니다.</p>
+
+  <p class="q">Q6. 국민연금 임의가입과 임의계속가입의 차이는 무엇인가요?</p>
+  <p class="a">임의가입은 의무가입 대상이 아닌 18~60세(배우자, 전업주부 등)가 자발적으로 가입하는 것입니다. 임의계속가입은 60세 이후 가입기간이 부족해 연금을 못 받거나 더 받고 싶은 경우 65세까지 연장하는 것입니다. 둘 다 최저 38,000원부터 납부 가능합니다.</p>
+
+  <p class="q">Q7. 노란우산공제에 납입한 돈을 담보로 대출받을 수 있나요?</p>
+  <p class="a">네, 노란우산공제는 납입 원금의 최대 90%까지 저리(연 2~3%) 대출이 가능합니다. 사업 운영 자금이 필요할 때 해지 없이 활용할 수 있어 유동성 확보 수단으로도 활용됩니다.</p>
+
+  <p class="q">Q8. IRP를 연금 수령할 때 세금은 얼마나 내나요?</p>
+  <p class="a">IRP를 55세 이후 10년 이상 분할 수령하면 연금소득세(3.3~5.5%)로 과세됩니다. 중도인출 시 기타소득세 16.5%보다 훨씬 낮습니다. 연 1,500만원을 초과하면 종합과세 또는 15% 분리과세 중 선택 가능합니다.</p>
+
+  <p class="q">Q9. 폐업하면 노란우산공제를 바로 수령할 수 있나요?</p>
+  <p class="a">폐업 확인 후 신청하면 수령 가능합니다. 수령 시 퇴직소득세가 부과되지만, 납입기간에 따른 퇴직소득 공제가 적용되어 실효 세율이 낮아집니다. 폐업사실증명원(세무서 발급)을 제출하면 처리됩니다.</p>
+
+  <p class="q">Q10. 국민연금 예상 수령액은 어떻게 확인하나요?</p>
+  <p class="a">국민연금공단 홈페이지(nps.or.kr)의 "내 연금 알아보기" 또는 "예상 연금액 계산기"에서 확인 가능합니다. 공인인증서 로그인 후 현재까지 납부 내역 기반의 예상 수령액이 바로 표시됩니다.</p>
+
+  <div class="tips">
+    <strong>실전 팁</strong><br/>
+    3축을 동시에 시작하기 부담스러우면 우선 노란우산공제(소득공제 효과 즉시)→ IRP(세액공제 효과 큼) → 국민연금 임의가입(가입기간 확보) 순으로 단계별 가입을 고려할 수 있습니다. 연간 납입액을 매년 5월 종소세 신고 전 점검해 한도에 맞게 조정하면 세 혜택을 최대로 활용할 수 있습니다.
+  </div>
+
+  <!-- ✅ 이미지 5: 체크리스트 카드 (1분 체크리스트 섹션) -->
+  <img src="checklist_card_1080_self_employed_retirement_2026.png" alt="자영업자 노후 3축 가입 전 1분 체크리스트" style="width:100%;margin:16px 0;" />
+
+  <h2 id="check">6) 노후 3축 가입 전 1분 체크리스트</h2>
+  <ul>
+    <li>내 종합소득 구간 확인 → 노란우산 소득공제 한도 파악 (4,000만원↓: 600만원)</li>
+    <li>IRP+연금저축 납입 전략 결정 (연금저축 600만원 + IRP 300만원 권장)</li>
+    <li>현재 국민연금 지역가입자 보험료 확인 — 소득 감소 시 감액 신청 여부 검토</li>
+    <li>배우자 국민연금 가입 여부 확인 (임의가입으로 가입기간 확보 가능)</li>
+    <li>종소세 신고 시 납입 확인서 첨부 방법 미리 숙지 (홈택스 공제 신청)</li>
+    <li>IRP 중도인출 없이 유지할 여력(비상금 3~6개월치) 별도 확보 여부 확인</li>
+  </ul>
+  <p class="small">관련 글: <a href="PLACEHOLDER_URL_1" target="_blank" rel="noopener">소상공인 노란우산공제 가입 조건·절세 총정리 (2026)</a> / <a href="PLACEHOLDER_URL_2" target="_blank" rel="noopener">소상공인 창업 초기 세금 신고 완전 가이드 (2026)</a></p>
+
+  <div class="tips">
+    <strong>참고/문의처</strong><br/>
+    노란우산공제: <a href="https://yumam.kbiz.or.kr" target="_blank" rel="noopener">yumam.kbiz.or.kr</a><br/>
+    국민연금 예상수령액 계산: <a href="https://www.nps.or.kr/comm/quick/getOHAH0011P0.do" target="_blank" rel="noopener">국민연금공단 예상연금액 계산</a><br/>
+    국민연금 고객센터: ☎ 1355
+  </div>
+
+  <div class="disclaimer">
+    <strong>면책 고지</strong><br/>
+    본 글은 2026년 5월 기준으로 작성한 정보 제공용 자료입니다. 소득공제·세액공제 적용 금액은 개인 소득 수준·다른 공제 항목에 따라 다를 수 있으며, 실제 납입 전 세무사 또는 금융사 상담을 권장합니다. 법령 개정으로 내용이 변경될 수 있습니다.
+  </div>
+
+  <div class="footer" id="update">
+    <strong>업데이트 로그</strong><br/>
+    - 2026-05-12: 최초 발행 (2026년 국민연금 개혁 보험료율 9.5% 인상 및 노란우산 소득공제 한도 600만원 상향 반영)<br/>
+    <span class="small">※ 세법 개정으로 공제 한도·세율이 변경될 수 있습니다. 납입 전 홈택스 또는 국세청 공식 안내를 확인하세요.</span>
+  </div>
+</div>

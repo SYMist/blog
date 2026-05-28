@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ECFDF5"/>
+      <stop offset="100%" stop-color="#F0FDFA"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg3)"/>
+
+  <!-- 제목 -->
+  <text x="540" y="65" font-family="sans-serif" font-size="36" font-weight="900" fill="#111827" text-anchor="middle">🔍 당신의 상황에 맞는 검진 조합</text>
+  <text x="540" y="100" font-family="sans-serif" font-size="20" fill="#6B7280" text-anchor="middle">해당하는 상황을 찾아 추천 패키지를 확인하세요</text>
+
+  <!-- 시나리오 1 -->
+  <rect x="50" y="135" width="980" height="155" rx="20" fill="#FFF" stroke="#A7F3D0" stroke-width="1.5"/>
+  <rect x="50" y="135" width="980" height="50" rx="20" fill="#10B981"/>
+  <rect x="50" y="165" width="980" height="20" fill="#10B981"/>
+  <text x="80" y="168" font-family="sans-serif" font-size="22" font-weight="800" fill="#FFF">40대 초반 · 증상 없음 · 예산 절약</text>
+  <text x="80" y="220" font-family="sans-serif" font-size="20" fill="#111827">→ 검진기관 <tspan font-weight="800">플러스 패키지</tspan> (60~80만 원)</text>
+  <text x="80" y="255" font-family="sans-serif" font-size="18" fill="#6B7280">기본 70종 + 위내시경 + 대장내시경 + 복부초음파</text>
+
+  <!-- 시나리오 2 -->
+  <rect x="50" y="310" width="980" height="155" rx="20" fill="#FFF" stroke="#99F6E4" stroke-width="1.5"/>
+  <rect x="50" y="310" width="980" height="50" rx="20" fill="#0F766E"/>
+  <rect x="50" y="340" width="980" height="20" fill="#0F766E"/>
+  <text x="80" y="343" font-family="sans-serif" font-size="22" font-weight="800" fill="#FFF">고혈압/당뇨 가족력 · 심혈관 걱정</text>
+  <text x="80" y="395" font-family="sans-serif" font-size="20" fill="#111827">→ 검진기관 <tspan font-weight="800">정밀 패키지</tspan> (130~150만 원)</text>
+  <text x="80" y="430" font-family="sans-serif" font-size="18" fill="#6B7280">플러스 + 심장초음파 + 경동맥초음파 + 저선량 폐CT</text>
+
+  <!-- 시나리오 3 (여성) -->
+  <rect x="50" y="485" width="470" height="195" rx="20" fill="#FFF" stroke="#FBCFE8" stroke-width="1.5"/>
+  <rect x="50" y="485" width="470" height="50" rx="20" fill="#EC4899"/>
+  <rect x="50" y="515" width="470" height="20" fill="#EC4899"/>
+  <text x="80" y="518" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFF">👩 여성 · 폐경 이행기</text>
+  <text x="80" y="570" font-family="sans-serif" font-size="18" fill="#111827">위 패키지에 <tspan font-weight="800">추가</tspan>:</text>
+  <text x="80" y="600" font-family="sans-serif" font-size="17" fill="#6B7280">· 유방초음파 (8~15만)</text>
+  <text x="80" y="628" font-family="sans-serif" font-size="17" fill="#6B7280">· 골밀도 DEXA (3~5만)</text>
+  <text x="80" y="656" font-family="sans-serif" font-size="17" fill="#6B7280">· 갑상선초음파 (5~10만)</text>
+
+  <!-- 시나리오 4 (남성) -->
+  <rect x="560" y="485" width="470" height="195" rx="20" fill="#FFF" stroke="#BFDBFE" stroke-width="1.5"/>
+  <rect x="560" y="485" width="470" height="50" rx="20" fill="#2563EB"/>
+  <rect x="560" y="515" width="470" height="20" fill="#2563EB"/>
+  <text x="590" y="518" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFF">👨 남성 · 흡연/음주</text>
+  <text x="590" y="570" font-family="sans-serif" font-size="18" fill="#111827">위 패키지에 <tspan font-weight="800">추가</tspan>:</text>
+  <text x="590" y="600" font-family="sans-serif" font-size="17" fill="#6B7280">· 전립선 PSA (2~3만)</text>
+  <text x="590" y="628" font-family="sans-serif" font-size="17" fill="#6B7280">· 저선량 폐CT (13~18만)</text>
+  <text x="590" y="656" font-family="sans-serif" font-size="17" fill="#6B7280">· 정밀 간 기능 (10~15만)</text>
+
+  <!-- 시나리오 5 (프리미엄) -->
+  <rect x="50" y="705" width="980" height="155" rx="20" fill="#FFF" stroke="#C4B5FD" stroke-width="1.5"/>
+  <rect x="50" y="705" width="980" height="50" rx="20" fill="#7C3AED"/>
+  <rect x="50" y="735" width="980" height="20" fill="#7C3AED"/>
+  <text x="80" y="738" font-family="sans-serif" font-size="22" font-weight="800" fill="#FFF">암 가족력 · 철저한 검진 원함</text>
+  <text x="80" y="790" font-family="sans-serif" font-size="20" fill="#111827">→ 대학병원 <tspan font-weight="800">프리미엄 검진</tspan> (250~470만 원)</text>
+  <text x="80" y="825" font-family="sans-serif" font-size="18" fill="#6B7280">뇌MRI/MRA + 심장CT + 유전자 검사 + 액체생검 포함</text>
+
+  <!-- 하단 팁 -->
+  <rect x="50" y="890" width="980" height="60" rx="16" fill="#FEF3C7" stroke="#FDE68A" stroke-width="1"/>
+  <text x="540" y="927" font-family="sans-serif" font-size="18" font-weight="700" fill="#92400E" text-anchor="middle">💡 핵심: 40대부터 한 기관을 정해 정기 검진 → 수치 변화 추적이 가장 중요합니다</text>
+
+  <!-- 출처 -->
+  <text x="540" y="1010" font-family="sans-serif" font-size="15" fill="#9CA3AF" text-anchor="middle">2026년 3월 기준 | 개인 상태에 따라 항목이 달라질 수 있습니다</text>
+  <text x="540" y="1040" font-family="sans-serif" font-size="15" fill="#9CA3AF" text-anchor="middle">반드시 전문의 상담 후 검진 항목을 결정하세요</text>
+</svg>

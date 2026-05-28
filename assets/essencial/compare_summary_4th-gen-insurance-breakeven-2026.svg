@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1500" fill="url(#bg)"/>
+
+  <!-- 뱃지 -->
+  <rect x="60" y="50" width="300" height="40" rx="20" fill="#7C3AED"/>
+  <text x="210" y="77" text-anchor="middle" fill="#FFFFFF" font-size="17" font-weight="800" font-family="sans-serif">2026 실손 전환 vs 유지 손익분기</text>
+
+  <!-- 메인 헤드라인 -->
+  <text x="60" y="160" fill="#FFFFFF" font-size="58" font-weight="800" font-family="sans-serif">4세대 전환, 나는</text>
+  <text x="60" y="230" fill="#A78BFA" font-size="62" font-weight="800" font-family="sans-serif">유리한가 불리한가?</text>
+  <text x="60" y="295" fill="#94A3B8" font-size="24" font-weight="600" font-family="sans-serif">연 비급여 의료비가 판단 기준 · 2026 인상률 반영</text>
+
+  <!-- 카드 1: 손익분기 핵심 -->
+  <rect x="60" y="340" width="1080" height="290" rx="16" fill="url(#card)" stroke="#A78BFA" stroke-width="2"/>
+  <text x="90" y="390" fill="#A78BFA" font-size="18" font-weight="700" font-family="sans-serif">세대별 손익분기 비급여 의료비 (연간)</text>
+  <text x="90" y="440" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">1세대 → 4세대</text>
+  <text x="700" y="440" text-anchor="end" fill="#FCD34D" font-size="44" font-weight="800" font-family="sans-serif">연 147만 원</text>
+  <text x="90" y="480" fill="#CBD5E1" font-size="16" font-family="sans-serif">초과 시 1세대 유지 유리 / 미달 시 4세대 전환 유리</text>
+  <text x="90" y="530" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">2세대 선택형 → 4세대</text>
+  <text x="700" y="530" text-anchor="end" fill="#FCD34D" font-size="44" font-weight="800" font-family="sans-serif">연 65만 원</text>
+  <text x="90" y="570" fill="#CBD5E1" font-size="16" font-family="sans-serif">초과 시 2세대 유지 유리 / 미달 시 4세대 전환 유리</text>
+  <text x="90" y="615" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">3세대 → 4세대</text>
+  <text x="700" y="615" text-anchor="end" fill="#86EFAC" font-size="44" font-weight="800" font-family="sans-serif">연 14만 원</text>
+  <text x="90" y="618" fill="#CBD5E1" font-size="16" font-family="sans-serif"/>
+
+  <!-- 카드 2: 보험료 절감 시나리오 -->
+  <rect x="60" y="650" width="540" height="340" rx="16" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="330" y="700" text-anchor="middle" fill="#86EFAC" font-size="17" font-weight="700" font-family="sans-serif">4세대 전환 유리 케이스</text>
+  <text x="330" y="760" text-anchor="middle" fill="#FFFFFF" font-size="46" font-weight="800" font-family="sans-serif">최대 36.8만</text>
+  <text x="330" y="800" text-anchor="middle" fill="#86EFAC" font-size="15" font-weight="700" font-family="sans-serif">절감/년 (1세대, 의료이용 0원)</text>
+  <text x="90" y="850" fill="#FFFFFF" font-size="15" font-weight="700" font-family="sans-serif">▸ 20~40대 건강, 이용 거의 없음</text>
+  <text x="90" y="878" fill="#FFFFFF" font-size="15" font-weight="700" font-family="sans-serif">▸ 연 비급여 50만 이하 (시나리오 B)</text>
+  <text x="90" y="906" fill="#FFFFFF" font-size="15" font-weight="700" font-family="sans-serif">▸ 직장 단체실손 보유자</text>
+  <text x="90" y="966" fill="#86EFAC" font-size="16" font-weight="800" font-family="sans-serif">→ 보험료 절감 우선 전략</text>
+
+  <!-- 카드 3: 유지 유리 케이스 -->
+  <rect x="620" y="650" width="520" height="340" rx="16" fill="url(#card)" stroke="#FCA5A5" stroke-width="2"/>
+  <text x="880" y="700" text-anchor="middle" fill="#FCA5A5" font-size="17" font-weight="700" font-family="sans-serif">기존 유지 유리 케이스</text>
+  <text x="880" y="760" text-anchor="middle" fill="#FFFFFF" font-size="46" font-weight="800" font-family="sans-serif">150만+ 시</text>
+  <text x="880" y="800" text-anchor="middle" fill="#FCA5A5" font-size="15" font-weight="700" font-family="sans-serif">1세대 유지가 유리 (차등 반영 전)</text>
+  <text x="640" y="850" fill="#FFFFFF" font-size="15" font-weight="700" font-family="sans-serif">▸ 50대 이상, 만성질환 보유</text>
+  <text x="640" y="878" fill="#FFFFFF" font-size="15" font-weight="700" font-family="sans-serif">▸ 도수치료·MRI 정기 이용자</text>
+  <text x="640" y="906" fill="#FFFFFF" font-size="15" font-weight="700" font-family="sans-serif">▸ 연 비급여 150만 원 이상</text>
+  <text x="640" y="966" fill="#FCA5A5" font-size="16" font-weight="800" font-family="sans-serif">→ 보장 유지 + 차등제 회피</text>
+
+  <!-- 카드 4: 차등제 경고 -->
+  <rect x="60" y="1010" width="1080" height="200" rx="16" fill="url(#card)" stroke="#FCD34D" stroke-width="2"/>
+  <text x="90" y="1060" fill="#FCD34D" font-size="18" font-weight="700" font-family="sans-serif">⚠ 4세대 비급여 차등제 — 2년차부터 적용</text>
+  <text x="90" y="1110" fill="#FFFFFF" font-size="26" font-weight="800" font-family="sans-serif">비급여 100만~150만 → 보험료 2배 / 300만+ → 4배</text>
+  <text x="90" y="1150" fill="#CBD5E1" font-size="16" font-family="sans-serif">1등급(미사용) 5%↓ · 3등급(100~150만) 100%↑ · 4등급(150~300만) 200%↑ · 5등급(300만+) 300%↑</text>
+  <text x="90" y="1185" fill="#FCD34D" font-size="15" font-weight="700" font-family="sans-serif">차등제 반영 시 실질 손익분기점은 계산값보다 낮아짐</text>
+
+  <!-- 카드 5: 5세대 변수 -->
+  <rect x="60" y="1230" width="1080" height="180" rx="16" fill="url(#card)" stroke="#7C3AED" stroke-width="2"/>
+  <text x="90" y="1278" fill="#A78BFA" font-size="18" font-weight="700" font-family="sans-serif">2026.5 5세대 실손 출시 — 1·2세대 대기 전략</text>
+  <text x="90" y="1328" fill="#FFFFFF" font-size="34" font-weight="800" font-family="sans-serif">3년 50% 할인 인센티브 검토 중</text>
+  <text x="90" y="1368" fill="#CBD5E1" font-size="16" font-family="sans-serif">단, 비급여 한도 1,000만·도수치료 자기부담 95% — 보장 대폭 축소</text>
+  <text x="90" y="1398" fill="#A78BFA" font-size="15" font-weight="700" font-family="sans-serif">1·2세대 보유자: 5세대 출시 후 인센티브 확인 후 결정 권장</text>
+
+  <text x="60" y="1465" fill="#64748B" font-size="14" font-family="sans-serif">essencial | 보험 silo · 금융감독원·금융위원회·보험개발원 (2026.04 기준)</text>
+</svg>

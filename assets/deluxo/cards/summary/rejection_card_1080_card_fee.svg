@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="80" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="800" fill="#F59E0B">카드수수료 환급 실수 TOP 5</text>
+  <rect x="60" y="110" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <rect x="60" y="145" width="960" height="160" rx="20" fill="rgba(239,68,68,0.12)"/>
+  <rect x="80" y="165" width="60" height="44" rx="22" fill="#EF4444"/>
+  <text x="110" y="195" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">1</text>
+  <text x="160" y="195" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#FFF">정산 계좌 불일치</text>
+  <text x="160" y="240" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">카드사 등록 계좌 ≠ 실제 사용 계좌 → 환급금 미수령</text>
+  <text x="160" y="280" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">카드사·홈택스 계좌 정보 통일하세요!</text>
+
+  <rect x="60" y="325" width="960" height="160" rx="20" fill="rgba(239,68,68,0.08)"/>
+  <rect x="80" y="345" width="60" height="44" rx="22" fill="#EF4444"/>
+  <text x="110" y="375" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">2</text>
+  <text x="160" y="375" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#FFF">매출 신고 누락</text>
+  <text x="160" y="420" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">현금매출·간이과세 매출 누락 → 우대수수료 적용 지연</text>
+  <text x="160" y="460" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">반기별 매출 정확하게 신고하세요!</text>
+
+  <rect x="60" y="505" width="960" height="160" rx="20" fill="rgba(239,68,68,0.12)"/>
+  <rect x="80" y="525" width="60" height="44" rx="22" fill="#EF4444"/>
+  <text x="110" y="555" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">3</text>
+  <text x="160" y="555" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#FFF">연매출 30억 초과 → 우대 이탈</text>
+  <text x="160" y="600" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">매출 성장으로 구간 이탈 → 일반 수수료율 적용</text>
+  <text x="160" y="640" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">매출 구간 변동에 대비한 수수료 관리 필요</text>
+
+  <rect x="60" y="685" width="960" height="160" rx="20" fill="rgba(239,68,68,0.08)"/>
+  <rect x="80" y="705" width="60" height="44" rx="22" fill="#EF4444"/>
+  <text x="110" y="735" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">4</text>
+  <text x="160" y="735" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#FFF">유료 대행 서비스 피해</text>
+  <text x="160" y="780" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">환급 대행 빙자 수수료 청구 → 실제 환급은 자동·무료</text>
+  <text x="160" y="820" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">모든 조회·환급은 무료! 대행 광고 무시하세요</text>
+
+  <rect x="60" y="865" width="960" height="160" rx="20" fill="rgba(239,68,68,0.12)"/>
+  <rect x="80" y="885" width="60" height="44" rx="22" fill="#EF4444"/>
+  <text x="110" y="915" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">5</text>
+  <text x="160" y="915" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#FFF">폐업 후 미확인</text>
+  <text x="160" y="960" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">폐업해도 매출 기간 환급 대상 → 확인 안 하면 놓침</text>
+  <text x="160" y="1000" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">폐업 후에도 여신금융협회에서 꼭 조회하세요!</text>
+</svg>

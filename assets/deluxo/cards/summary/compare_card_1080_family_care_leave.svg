@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- 배지 -->
+  <rect x="60" y="50" width="180" height="44" rx="22" fill="#F59E0B"/>
+  <text x="150" y="79" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#0B1F3B">제도 비교</text>
+
+  <!-- 제목 -->
+  <text x="60" y="148" font-family="Arial,sans-serif" font-size="46" font-weight="900" fill="#FFFFFF">돌봄 지원제도 한눈에 비교</text>
+
+  <rect x="60" y="175" width="120" height="4" rx="2" fill="#F59E0B"/>
+
+  <!-- 플로우: 상황 판단 → 제도 선택 → 혜택 -->
+
+  <!-- 상황 판단 헤더 -->
+  <rect x="60" y="210" width="300" height="50" rx="12" fill="#3B82F6"/>
+  <text x="210" y="242" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">상황 판단</text>
+  <rect x="390" y="210" width="300" height="50" rx="12" fill="#10B981"/>
+  <text x="540" y="242" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">추천 제도</text>
+  <rect x="720" y="210" width="300" height="50" rx="12" fill="#F59E0B"/>
+  <text x="870" y="242" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#0B1F3B">지원 내용</text>
+
+  <!-- Row 1 -->
+  <rect x="60" y="280" width="300" height="70" rx="10" fill="rgba(255,255,255,0.06)"/>
+  <text x="210" y="310" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#FFFFFF">장기 간병 (30일+)</text>
+  <text x="210" y="335" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#94A3B8">부모·배우자·자녀</text>
+  <text x="375" y="318" font-family="Arial,sans-serif" font-size="20" fill="#60A5FA">→</text>
+  <rect x="390" y="280" width="300" height="70" rx="10" fill="rgba(255,255,255,0.06)"/>
+  <text x="540" y="322" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">가족돌봄휴직</text>
+  <text x="705" y="318" font-family="Arial,sans-serif" font-size="20" fill="#60A5FA">→</text>
+  <rect x="720" y="280" width="300" height="70" rx="10" fill="rgba(255,255,255,0.06)"/>
+  <text x="870" y="310" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#FBBF24">연 90일 (무급)</text>
+  <text x="870" y="335" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#94A3B8">사업주 거부 불가</text>
+
+  <!-- Row 2 -->
+  <rect x="60" y="370" width="300" height="70" rx="10" fill="rgba(255,255,255,0.06)"/>
+  <text x="210" y="400" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#FFFFFF">단기 돌봄 (1~2일)</text>
+  <text x="210" y="425" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#94A3B8">긴급 상황</text>
+  <text x="375" y="408" font-family="Arial,sans-serif" font-size="20" fill="#60A5FA">→</text>
+  <rect x="390" y="370" width="300" height="70" rx="10" fill="rgba(255,255,255,0.06)"/>
+  <text x="540" y="412" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">가족돌봄휴가</text>
+  <text x="705" y="408" font-family="Arial,sans-serif" font-size="20" fill="#60A5FA">→</text>
+  <rect x="720" y="370" width="300" height="70" rx="10" fill="rgba(255,255,255,0.06)"/>
+  <text x="870" y="400" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#FBBF24">연 10일 (무급)</text>
+  <text x="870" y="425" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#94A3B8">한부모 15일</text>
+
+  <!-- Row 3 -->
+  <rect x="60" y="460" width="300" height="70" rx="10" fill="rgba(255,255,255,0.06)"/>
+  <text x="210" y="490" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#FFFFFF">감염병 돌봄</text>
+  <text x="210" y="515" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#94A3B8">코로나19 등</text>
+  <text x="375" y="498" font-family="Arial,sans-serif" font-size="20" fill="#60A5FA">→</text>
+  <rect x="390" y="460" width="300" height="70" rx="10" fill="rgba(255,255,255,0.06)"/>
+  <text x="540" y="502" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">긴급돌봄비용</text>
+  <text x="705" y="498" font-family="Arial,sans-serif" font-size="20" fill="#60A5FA">→</text>
+  <rect x="720" y="460" width="300" height="70" rx="10" fill="rgba(255,255,255,0.06)"/>
+  <text x="870" y="490" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#FBBF24">1일 5만 × 10일</text>
+  <text x="870" y="515" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#94A3B8">= 최대 50만원</text>
+
+  <!-- Row 4 -->
+  <rect x="60" y="550" width="300" height="70" rx="10" fill="rgba(255,255,255,0.06)"/>
+  <text x="210" y="580" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#FFFFFF">경기도 영아 가정돌봄</text>
+  <text x="210" y="605" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#94A3B8">조부모·친인척</text>
+  <text x="375" y="588" font-family="Arial,sans-serif" font-size="20" fill="#60A5FA">→</text>
+  <rect x="390" y="550" width="300" height="70" rx="10" fill="rgba(255,255,255,0.06)"/>
+  <text x="540" y="592" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">경기 돌봄수당</text>
+  <text x="705" y="588" font-family="Arial,sans-serif" font-size="20" fill="#60A5FA">→</text>
+  <rect x="720" y="550" width="300" height="70" rx="10" fill="rgba(255,255,255,0.06)"/>
+  <text x="870" y="580" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#FBBF24">월 30만원</text>
+  <text x="870" y="605" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#94A3B8">중위 150% 이하</text>
+
+  <!-- Row 5 -->
+  <rect x="60" y="640" width="300" height="70" rx="10" fill="rgba(255,255,255,0.06)"/>
+  <text x="210" y="670" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#FFFFFF">서울 고령자 긴급돌봄</text>
+  <text x="210" y="695" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#94A3B8">만 50세+·장애인</text>
+  <text x="375" y="678" font-family="Arial,sans-serif" font-size="20" fill="#60A5FA">→</text>
+  <rect x="390" y="640" width="300" height="70" rx="10" fill="rgba(255,255,255,0.06)"/>
+  <text x="540" y="682" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">서울 돌봄SOS</text>
+  <text x="705" y="678" font-family="Arial,sans-serif" font-size="20" fill="#60A5FA">→</text>
+  <rect x="720" y="640" width="300" height="70" rx="10" fill="rgba(255,255,255,0.06)"/>
+  <text x="870" y="670" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#FBBF24">무료~16,300원/h</text>
+  <text x="870" y="695" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#94A3B8">중위 100% 이하 무료</text>
+
+  <!-- 하단 총합 -->
+  <rect x="60" y="750" width="960" height="90" rx="16" fill="rgba(245,158,11,0.1)" stroke="#F59E0B" stroke-width="1"/>
+  <text x="540" y="790" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="#FBBF24">병행 시 총혜택: 휴직 90일 + 돌봄비용 50만원 + 돌봄수당 월 30만원</text>
+  <text x="540" y="822" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#94A3B8">제도별 대상·조건이 다르므로 중복 수급 여부는 사업별 지침 확인 필요</text>
+
+  <text x="60" y="910" font-family="Arial,sans-serif" font-size="18" fill="#94A3B8">※ 2026년 기준 정리 · 공고에 따라 변동 가능</text>
+</svg>

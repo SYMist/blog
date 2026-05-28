@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="540" y="90" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="40" font-weight="800" fill="#F59E0B" text-anchor="middle">2026년 법인 설립 비용·절차 비교</text>
+  <text x="540" y="145" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="50" font-weight="900" fill="#FFFFFF" text-anchor="middle">개인사업자 vs 1인법인 vs 가족법인</text>
+
+  <!-- Divider -->
+  <line x1="80" y1="175" x2="1000" y2="175" stroke="#1A3270" stroke-width="2"/>
+
+  <!-- Table Header -->
+  <rect x="80" y="190" width="920" height="60" rx="8" fill="#1A3270"/>
+  <text x="180" y="228" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="28" font-weight="700" fill="#A0B4D0" text-anchor="middle">개인사업자</text>
+  <text x="490" y="228" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="28" font-weight="700" fill="#A0B4D0" text-anchor="middle">1인법인</text>
+  <text x="800" y="228" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="28" font-weight="700" fill="#A0B4D0" text-anchor="middle">가족법인</text>
+
+  <!-- Row 1: 설립비용 -->
+  <rect x="80" y="260" width="920" height="80" rx="6" fill="#0D2347"/>
+  <text x="80" y="308" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="700" fill="#A0B4D0" dx="20">설립 비용</text>
+  <text x="180" y="308" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="32" font-weight="900" fill="#34D399" text-anchor="middle">무료</text>
+  <text x="490" y="300" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="30" font-weight="800" fill="#FFFFFF" text-anchor="middle">55~160만원</text>
+  <text x="490" y="330" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">(서울 과밀 시 상단)</text>
+  <text x="800" y="300" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="30" font-weight="800" fill="#FFFFFF" text-anchor="middle">55~160만원</text>
+  <text x="800" y="330" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">(주주 구성 추가)</text>
+
+  <!-- Row 2: 세율 -->
+  <rect x="80" y="350" width="920" height="80" rx="6" fill="#102A56"/>
+  <text x="80" y="398" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="700" fill="#A0B4D0" dx="20">세율</text>
+  <text x="180" y="390" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="30" font-weight="800" fill="#EF4444" text-anchor="middle">6~45%</text>
+  <text x="180" y="420" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">종합소득세 누진</text>
+  <text x="490" y="390" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="30" font-weight="800" fill="#34D399" text-anchor="middle">10~20%</text>
+  <text x="490" y="420" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">법인세 (2026년)</text>
+  <text x="800" y="390" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="30" font-weight="800" fill="#34D399" text-anchor="middle">10~20%</text>
+  <text x="800" y="420" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">법인세 + 분산 절세</text>
+
+  <!-- Row 3: 급여 비용처리 -->
+  <rect x="80" y="440" width="920" height="70" rx="6" fill="#0D2347"/>
+  <text x="80" y="483" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="700" fill="#A0B4D0" dx="20">대표 급여 비용처리</text>
+  <text x="180" y="483" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="30" font-weight="800" fill="#EF4444" text-anchor="middle">불가</text>
+  <text x="490" y="483" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="30" font-weight="800" fill="#34D399" text-anchor="middle">가능</text>
+  <text x="800" y="483" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="30" font-weight="800" fill="#34D399" text-anchor="middle">가능</text>
+
+  <!-- Row 4: 건강보험 -->
+  <rect x="80" y="520" width="920" height="70" rx="6" fill="#102A56"/>
+  <text x="80" y="563" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="700" fill="#A0B4D0" dx="20">건강보험</text>
+  <text x="180" y="555" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="700" fill="#EF4444" text-anchor="middle">지역가입자</text>
+  <text x="180" y="580" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" fill="#A0B4D0" text-anchor="middle">(소득+재산 합산)</text>
+  <text x="490" y="555" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="700" fill="#34D399" text-anchor="middle">직장가입자</text>
+  <text x="490" y="580" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" fill="#A0B4D0" text-anchor="middle">(급여 기준만)</text>
+  <text x="800" y="555" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="700" fill="#34D399" text-anchor="middle">직장가입자</text>
+  <text x="800" y="580" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" fill="#A0B4D0" text-anchor="middle">(급여 기준만)</text>
+
+  <!-- Row 5: 소득 분산 -->
+  <rect x="80" y="600" width="920" height="70" rx="6" fill="#0D2347"/>
+  <text x="80" y="643" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="700" fill="#A0B4D0" dx="20">소득 분산</text>
+  <text x="180" y="643" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="28" font-weight="800" fill="#EF4444" text-anchor="middle">불가</text>
+  <text x="490" y="643" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="28" font-weight="700" fill="#F59E0B" text-anchor="middle">제한적</text>
+  <text x="800" y="643" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="800" fill="#34D399" text-anchor="middle">배당·급여 분산</text>
+
+  <!-- Highlight Box -->
+  <rect x="80" y="692" width="920" height="110" rx="12" fill="#34D399" fill-opacity="0.12" stroke="#34D399" stroke-width="1.5"/>
+  <text x="540" y="730" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="28" font-weight="700" fill="#34D399" text-anchor="middle">💡 순이익 2억 기준 세금 시뮬레이션</text>
+  <text x="540" y="768" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="26" fill="#FFFFFF" text-anchor="middle">개인사업자 약 5,606만원 → 1인법인 약 2,156만원</text>
+  <text x="540" y="795" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="28" font-weight="900" fill="#F59E0B" text-anchor="middle">연간 약 3,450만원 절세 효과</text>
+
+  <!-- Bottom info -->
+  <text x="540" y="870" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="28" fill="#A0B4D0" text-anchor="middle">순이익 1억 미만: 개인사업자 유지 권장</text>
+  <text x="540" y="910" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="28" fill="#A0B4D0" text-anchor="middle">순이익 2억 이상: 법인 전환 효과 확실</text>
+  <text x="540" y="950" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="28" fill="#A0B4D0" text-anchor="middle">순이익 5억 이상: 가족법인 배당 분산 극대화</text>
+
+  <!-- Footer -->
+  <text x="540" y="1010" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#4B6A9A" text-anchor="middle">출처: 국세청 2026년 법인세율 기준 | startbiz.go.kr</text>
+  <text x="540" y="1045" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#4B6A9A" text-anchor="middle">법인 전환 결정 전 세무사 상담 권장</text>
+</svg>

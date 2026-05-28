@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1700" fill="url(#bg)"/>
+
+  <rect x="60" y="50" width="320" height="40" rx="20" fill="#B45309"/>
+  <text x="220" y="77" text-anchor="middle" fill="#FFFFFF" font-size="17" font-weight="800" font-family="sans-serif">한도 시뮬·4채널·신청 골든타임</text>
+
+  <text x="60" y="155" fill="#FFFFFF" font-size="40" font-weight="800" font-family="sans-serif">신고 소득별 한도 매트릭스</text>
+  <text x="60" y="195" fill="#FCD34D" font-size="20" font-weight="600" font-family="sans-serif">시중은행 · 정책자금 · 보증재단 · 2금융권 4채널 비교</text>
+
+  <!-- 신고 소득별 한도 시뮬 표 -->
+  <text x="60" y="250" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">① 신고 소득금액별 한도 시뮬레이션</text>
+
+  <rect x="60" y="270" width="1080" height="380" rx="12" fill="url(#card)" stroke="#B45309" stroke-width="2"/>
+
+  <g font-family="sans-serif">
+    <rect x="60" y="270" width="1080" height="44" fill="#B45309"/>
+    <text x="220" y="298" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="800">신고 소득금액</text>
+    <text x="600" y="298" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="800">환산배수 2.5배</text>
+    <text x="980" y="298" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="800">DSR 40% 한도 (5년)</text>
+
+    <text x="80" y="350" fill="#FCA5A5" font-size="15" font-weight="700">2,000만 원</text>
+    <text x="600" y="350" text-anchor="middle" fill="#FFFFFF" font-size="14">5,000만 원</text>
+    <text x="980" y="350" text-anchor="middle" fill="#FCA5A5" font-size="16" font-weight="800">약 3,500만 원</text>
+
+    <line x1="60" y1="370" x2="1140" y2="370" stroke="#334155" stroke-width="1"/>
+
+    <text x="80" y="395" fill="#FCD34D" font-size="15" font-weight="700">3,000만 원</text>
+    <text x="600" y="395" text-anchor="middle" fill="#FFFFFF" font-size="14">7,500만 원</text>
+    <text x="980" y="395" text-anchor="middle" fill="#FCD34D" font-size="16" font-weight="800">약 5,200만 원</text>
+
+    <line x1="60" y1="415" x2="1140" y2="415" stroke="#334155" stroke-width="1"/>
+
+    <text x="80" y="440" fill="#FCD34D" font-size="15" font-weight="700">5,000만 원</text>
+    <text x="600" y="440" text-anchor="middle" fill="#FFFFFF" font-size="14">1억 2,500만 원</text>
+    <text x="980" y="440" text-anchor="middle" fill="#FCD34D" font-size="16" font-weight="800">약 8,800만 원</text>
+
+    <line x1="60" y1="460" x2="1140" y2="460" stroke="#334155" stroke-width="1"/>
+
+    <text x="80" y="485" fill="#86EFAC" font-size="15" font-weight="700">7,000만 원</text>
+    <text x="600" y="485" text-anchor="middle" fill="#FFFFFF" font-size="14">1억 7,500만 원</text>
+    <text x="980" y="485" text-anchor="middle" fill="#86EFAC" font-size="16" font-weight="800">약 1억 2,300만 원</text>
+
+    <line x1="60" y1="505" x2="1140" y2="505" stroke="#334155" stroke-width="1"/>
+
+    <text x="80" y="530" fill="#86EFAC" font-size="15" font-weight="700">1억 원</text>
+    <text x="600" y="530" text-anchor="middle" fill="#FFFFFF" font-size="14">2억 5,000만 원</text>
+    <text x="980" y="530" text-anchor="middle" fill="#86EFAC" font-size="16" font-weight="800">약 1억 7,500만 원</text>
+
+    <line x1="60" y1="550" x2="1140" y2="550" stroke="#334155" stroke-width="1"/>
+
+    <text x="80" y="575" fill="#86EFAC" font-size="15" font-weight="700">1.5억 원</text>
+    <text x="600" y="575" text-anchor="middle" fill="#FFFFFF" font-size="14">3억 7,500만 원</text>
+    <text x="980" y="575" text-anchor="middle" fill="#86EFAC" font-size="16" font-weight="800">약 2억 6,000만 원</text>
+
+    <text x="80" y="620" fill="#FCD34D" font-size="14" font-weight="700">※ 자영업 5년차·신용 850·기존 대출 없음 · 우량 사업자는 환산배수 3~5배 가능</text>
+  </g>
+
+  <!-- 4채널 상품 비교 -->
+  <text x="60" y="690" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">② 2026 사업자대출 4채널 상품 비교</text>
+
+  <rect x="60" y="710" width="1080" height="440" rx="12" fill="url(#card)" stroke="#B45309" stroke-width="2"/>
+
+  <g font-family="sans-serif">
+    <rect x="60" y="710" width="1080" height="44" fill="#B45309"/>
+    <text x="180" y="738" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="800">채널</text>
+    <text x="500" y="738" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="800">대표 상품</text>
+    <text x="800" y="738" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="800">금리 / 한도</text>
+    <text x="1040" y="738" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="800">DSR</text>
+
+    <!-- 시중은행 -->
+    <text x="80" y="785" fill="#FCD34D" font-size="14" font-weight="800">시중은행</text>
+    <text x="500" y="785" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">카카오뱅크 사장님</text>
+    <text x="800" y="785" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="700">3%대 / 3억</text>
+    <text x="1040" y="785" text-anchor="middle" fill="#FCA5A5" font-size="13" font-weight="700">40%</text>
+
+    <text x="500" y="810" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">케이뱅크 신용대출</text>
+    <text x="800" y="810" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="700">4.10%~ / 3억</text>
+    <text x="1040" y="810" text-anchor="middle" fill="#FCA5A5" font-size="13" font-weight="700">40%</text>
+
+    <text x="500" y="835" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">KB국민은행 비대면</text>
+    <text x="800" y="835" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="700">3.61~5.62% / 2억</text>
+    <text x="1040" y="835" text-anchor="middle" fill="#FCA5A5" font-size="13" font-weight="700">40%</text>
+
+    <line x1="60" y1="855" x2="1140" y2="855" stroke="#334155" stroke-width="1"/>
+
+    <!-- 정책자금 -->
+    <text x="80" y="885" fill="#86EFAC" font-size="14" font-weight="800">정책자금</text>
+    <text x="500" y="885" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">신규 개인사업자</text>
+    <text x="800" y="885" text-anchor="middle" fill="#86EFAC" font-size="13" font-weight="700">2.96% / 1억</text>
+    <text x="1040" y="885" text-anchor="middle" fill="#86EFAC" font-size="13" font-weight="700">제외</text>
+
+    <text x="500" y="910" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">경영안정자금</text>
+    <text x="800" y="910" text-anchor="middle" fill="#86EFAC" font-size="13" font-weight="700">3.36~3.56% / 7천</text>
+    <text x="1040" y="910" text-anchor="middle" fill="#86EFAC" font-size="13" font-weight="700">제외</text>
+
+    <text x="500" y="935" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">대환대출</text>
+    <text x="800" y="935" text-anchor="middle" fill="#86EFAC" font-size="13" font-weight="700">4.5% 고정 / 5천</text>
+    <text x="1040" y="935" text-anchor="middle" fill="#86EFAC" font-size="13" font-weight="700">제외</text>
+
+    <line x1="60" y1="955" x2="1140" y2="955" stroke="#334155" stroke-width="1"/>
+
+    <!-- 보증재단 -->
+    <text x="80" y="985" fill="#5EEAD4" font-size="14" font-weight="800">보증재단</text>
+    <text x="500" y="985" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">개인사업자 보증서</text>
+    <text x="800" y="985" text-anchor="middle" fill="#5EEAD4" font-size="13" font-weight="700">2.0~4.5% / 5천</text>
+    <text x="1040" y="985" text-anchor="middle" fill="#86EFAC" font-size="13" font-weight="700">별도</text>
+
+    <text x="500" y="1010" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">법인 보증서</text>
+    <text x="800" y="1010" text-anchor="middle" fill="#5EEAD4" font-size="13" font-weight="700">2.0~4.5% / 1억</text>
+    <text x="1040" y="1010" text-anchor="middle" fill="#86EFAC" font-size="13" font-weight="700">별도</text>
+
+    <line x1="60" y1="1030" x2="1140" y2="1030" stroke="#334155" stroke-width="1"/>
+
+    <!-- 2금융권 -->
+    <text x="80" y="1060" fill="#FCA5A5" font-size="14" font-weight="800">2금융권</text>
+    <text x="500" y="1060" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">개인사업자 햇살론</text>
+    <text x="800" y="1060" text-anchor="middle" fill="#FCA5A5" font-size="13" font-weight="700">10.5%~ / +보증료 1%</text>
+    <text x="1040" y="1060" text-anchor="middle" fill="#FCA5A5" font-size="13" font-weight="700">차선</text>
+
+    <text x="500" y="1085" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">저축은행 사업자대출</text>
+    <text x="800" y="1085" text-anchor="middle" fill="#FCA5A5" font-size="13" font-weight="700">12.6~19.9% / 4천</text>
+    <text x="1040" y="1085" text-anchor="middle" fill="#FCA5A5" font-size="13" font-weight="700">차선</text>
+
+    <text x="80" y="1130" fill="#FCD34D" font-size="13" font-weight="700">→ 시중은행 + 정책자금 + 보증재단 3종 병행이 가장 효율적 (한도 ~4.5억+)</text>
+  </g>
+
+  <!-- 골든타임 캘린더 -->
+  <text x="60" y="1200" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">③ 신청 골든타임 캘린더</text>
+
+  <rect x="60" y="1220" width="1080" height="400" rx="12" fill="url(#card)" stroke="#B45309" stroke-width="2"/>
+
+  <g font-family="sans-serif">
+    <rect x="80" y="1250" width="180" height="80" rx="8" fill="#FCA5A5" fill-opacity="0.2" stroke="#FCA5A5"/>
+    <text x="170" y="1280" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="800">5월</text>
+    <text x="170" y="1305" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">종소세 신고</text>
+    <text x="170" y="1320" text-anchor="middle" fill="#CBD5E1" font-size="11">5.1~5.31</text>
+
+    <rect x="280" y="1250" width="180" height="80" rx="8" fill="#FCD34D" fill-opacity="0.2" stroke="#FCD34D"/>
+    <text x="370" y="1280" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="800">6월 말</text>
+    <text x="370" y="1305" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">자료 반영 시작</text>
+    <text x="370" y="1320" text-anchor="middle" fill="#CBD5E1" font-size="11">국세청 → NICE/KCB</text>
+
+    <rect x="480" y="1250" width="180" height="80" rx="8" fill="#86EFAC" fill-opacity="0.3" stroke="#86EFAC" stroke-width="3"/>
+    <text x="570" y="1280" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="800">7월 중순</text>
+    <text x="570" y="1305" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">★ 골든타임 시작</text>
+    <text x="570" y="1320" text-anchor="middle" fill="#CBD5E1" font-size="11">완전 갱신 완료</text>
+
+    <rect x="680" y="1250" width="180" height="80" rx="8" fill="#86EFAC" fill-opacity="0.2" stroke="#86EFAC"/>
+    <text x="770" y="1280" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="800">7~8월</text>
+    <text x="770" y="1305" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">신규·갈아타기</text>
+    <text x="770" y="1320" text-anchor="middle" fill="#CBD5E1" font-size="11">최적 한도·금리</text>
+
+    <rect x="880" y="1250" width="180" height="80" rx="8" fill="#FCD34D" fill-opacity="0.2" stroke="#FCD34D"/>
+    <text x="970" y="1280" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="800">9~10월</text>
+    <text x="970" y="1305" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">추석 운영자금</text>
+    <text x="970" y="1320" text-anchor="middle" fill="#CBD5E1" font-size="11">마이너스통장 추가</text>
+
+    <text x="80" y="1380" fill="#86EFAC" font-size="16" font-weight="800">▸ 12월: 연말 결산 → 차년도 자금계획·증액 검토</text>
+    <text x="80" y="1410" fill="#FCA5A5" font-size="16" font-weight="800">▲ 5.31 무신고 → 가산세 20% + 대출 거절 위험</text>
+    <text x="80" y="1440" fill="#FFFFFF" font-size="14" font-weight="700">▸ 신고 직후 1~2주는 자료 반영 지연 → 7월 중순 이후 신청 권장</text>
+    <text x="80" y="1470" fill="#FFFFFF" font-size="14" font-weight="700">▸ 전년도 소득금액증명원으로 임시 신청 가능 (단, 새 신고분 반영 후가 유리)</text>
+
+    <text x="80" y="1530" fill="#FCD34D" font-size="14" font-weight="700">→ 부수효과: 소득 ↑ → 신용평가 +20~50점 → 우대금리 0.1~0.3%p</text>
+    <text x="80" y="1560" fill="#FCD34D" font-size="14" font-weight="700">→ 대출이동제 (2026.3.18~): 10억 이하 갈아타기 · 승인율 10% 미만 한계</text>
+  </g>
+
+  <text x="60" y="1670" fill="#64748B" font-size="14" font-family="sans-serif">essencial | 대출·금융 silo · 자료: 국세청·소진공·신용보증재단·은행연합회 (2026.04 기준)</text>
+</svg>

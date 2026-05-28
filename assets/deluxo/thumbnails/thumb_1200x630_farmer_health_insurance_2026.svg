@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- 배경 장식 -->
+  <circle cx="1060" cy="120" r="190" fill="#1A3270" opacity="0.5"/>
+  <circle cx="120" cy="520" r="130" fill="#1A3270" opacity="0.4"/>
+
+  <!-- 배지 -->
+  <rect x="48" y="48" width="188" height="48" rx="24" fill="#F59E0B"/>
+  <text x="142" y="80" font-family="-apple-system,sans-serif" font-size="24" font-weight="800" fill="#0B1F3B" text-anchor="middle">2026 최신</text>
+
+  <!-- 좌측: 메인 텍스트 -->
+  <text x="48" y="172" font-family="-apple-system,sans-serif" font-size="70" font-weight="900" fill="#FFFFFF">농어업인</text>
+  <text x="48" y="248" font-family="-apple-system,sans-serif" font-size="70" font-weight="900" fill="#FFFFFF">건강보험료</text>
+  <text x="48" y="316" font-family="-apple-system,sans-serif" font-size="54" font-weight="900" fill="#34D399">최대 50% 절감</text>
+  <text x="48" y="368" font-family="-apple-system,sans-serif" font-size="34" font-weight="600" fill="#A0B4D0">22% 자동경감 + 28% 국고지원 중복 가능</text>
+
+  <!-- 칩 -->
+  <rect x="48" y="404" width="228" height="48" rx="24" fill="#E8F0FF"/>
+  <text x="162" y="434" font-family="-apple-system,sans-serif" font-size="22" font-weight="700" fill="#1D4ED8" text-anchor="middle">22% 자동경감</text>
+
+  <rect x="292" y="404" width="228" height="48" rx="24" fill="#E8F0FF"/>
+  <text x="406" y="434" font-family="-apple-system,sans-serif" font-size="22" font-weight="700" fill="#1D4ED8" text-anchor="middle">28% 국고지원</text>
+
+  <rect x="536" y="404" width="228" height="48" rx="24" fill="#E8F0FF"/>
+  <text x="650" y="434" font-family="-apple-system,sans-serif" font-size="22" font-weight="700" fill="#1D4ED8" text-anchor="middle">6개월 소급환급</text>
+
+  <!-- 하단 정보 -->
+  <text x="48" y="520" font-family="-apple-system,sans-serif" font-size="22" fill="#4B6080">국민건강보험법 제75조 기준 | 정부24 신청 가능 | 2026.05 기준</text>
+
+  <!-- 우측: 핵심 비교 카드 -->
+  <rect x="800" y="48" width="352" height="534" rx="20" fill="#0D2347"/>
+
+  <text x="976" y="104" font-family="-apple-system,sans-serif" font-size="24" font-weight="800" fill="#FFFFFF" text-anchor="middle">두 혜택 한눈에</text>
+  <line x1="820" y1="118" x2="1132" y2="118" stroke="#1A3270" stroke-width="2"/>
+
+  <rect x="820" y="128" width="312" height="36" rx="8" fill="#34D399" opacity="0.18"/>
+  <text x="976" y="153" font-family="-apple-system,sans-serif" font-size="20" font-weight="800" fill="#34D399" text-anchor="middle">22% 자동 경감</text>
+
+  <text x="820" y="188" font-family="-apple-system,sans-serif" font-size="18" fill="#A0B4D0">대상</text>
+  <text x="820" y="210" font-family="-apple-system,sans-serif" font-size="19" fill="#FFFFFF">농어촌 지역 거주 지역가입자</text>
+  <text x="820" y="240" font-family="-apple-system,sans-serif" font-size="18" fill="#A0B4D0">신청</text>
+  <text x="820" y="262" font-family="-apple-system,sans-serif" font-size="19" fill="#34D399">불필요 (자동 적용)</text>
+
+  <line x1="820" y1="280" x2="1132" y2="280" stroke="#1A3270" stroke-width="1"/>
+
+  <rect x="820" y="292" width="312" height="36" rx="8" fill="#F59E0B" opacity="0.18"/>
+  <text x="976" y="317" font-family="-apple-system,sans-serif" font-size="20" font-weight="800" fill="#F59E0B" text-anchor="middle">28% 국고지원</text>
+
+  <text x="820" y="352" font-family="-apple-system,sans-serif" font-size="18" fill="#A0B4D0">대상</text>
+  <text x="820" y="374" font-family="-apple-system,sans-serif" font-size="19" fill="#FFFFFF">농업·축산·임업 종사 지역가입자</text>
+  <text x="820" y="404" font-family="-apple-system,sans-serif" font-size="18" fill="#A0B4D0">신청</text>
+  <text x="820" y="426" font-family="-apple-system,sans-serif" font-size="19" fill="#F59E0B">건강보험공단 지사 신청 필수</text>
+  <text x="820" y="456" font-family="-apple-system,sans-serif" font-size="18" fill="#A0B4D0">소급</text>
+  <text x="820" y="478" font-family="-apple-system,sans-serif" font-size="19" fill="#FFFFFF">전월부터 최대 6개월 환급</text>
+
+  <!-- 중복 강조 -->
+  <rect x="820" y="500" width="312" height="52" rx="10" fill="#34D399" opacity="0.15"/>
+  <text x="976" y="532" font-family="-apple-system,sans-serif" font-size="18" font-weight="900" fill="#34D399" text-anchor="middle">두 혜택 중복 최대 50% 절감</text>
+
+  <text x="48" y="596" font-family="-apple-system,sans-serif" font-size="20" fill="#4B6080">deluxo | 공식 신청: gov.kr | 건강보험공단 ☎ 1577-1000</text>
+</svg>

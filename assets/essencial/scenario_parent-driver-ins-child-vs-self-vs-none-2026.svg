@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="700" fill="url(#bg)"/>
+
+  <text x="540" y="46" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">부모 운전자보험 상황별 추천 시나리오</text>
+  <text x="540" y="70" text-anchor="middle" fill="#DDD6FE" font-size="13" font-family="sans-serif">연령·운전 빈도·주 경로별 6종 · 2026.05</text>
+
+  <!-- Scenario 1: 65세+ 매일 운전 -->
+  <rect x="40" y="90" width="480" height="116" rx="10" fill="#7f1d1d" fill-opacity="0.5" stroke="#DC2626" stroke-width="1.5"/>
+  <rect x="40" y="90" width="480" height="36" rx="10" fill="#DC2626"/>
+  <rect x="40" y="112" width="480" height="14" fill="#DC2626"/>
+  <text x="60" y="114" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">① 65세+ 매일 운전 + 어린이보호구역 통과</text>
+  <text x="60" y="148" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">→ 즉시 가입 필수 (자녀 대납 또는 본인)</text>
+  <text x="60" y="170" fill="#CBD5E1" font-size="12" font-family="sans-serif">스쿨존 사고 1건 6,500만 자비 vs 가입 0원</text>
+  <text x="60" y="192" fill="#CBD5E1" font-size="12" font-family="sans-serif">월 2~5만 보험료가 6,000만+ 위험 해소</text>
+
+  <!-- Scenario 2: 부모 본인 가입 -->
+  <rect x="560" y="90" width="480" height="116" rx="10" fill="#4c1d95" fill-opacity="0.6" stroke="#7C3AED" stroke-width="1.5"/>
+  <rect x="560" y="90" width="480" height="36" rx="10" fill="#7C3AED"/>
+  <rect x="560" y="112" width="480" height="14" fill="#7C3AED"/>
+  <text x="580" y="114" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">② 부모 본인 의지 + 연금 소득 있음</text>
+  <text x="580" y="148" fill="#DDD6FE" font-size="13" font-weight="700" font-family="sans-serif">→ 본인 명의 가입 (소득공제 활용)</text>
+  <text x="580" y="170" fill="#CBD5E1" font-size="12" font-family="sans-serif">연금 소득 + 보험료 자동 이체로 관리 편의</text>
+  <text x="580" y="192" fill="#CBD5E1" font-size="12" font-family="sans-serif">본인 명의 가입자만 소득공제 가능 (자녀 X)</text>
+
+  <!-- Scenario 3: 자녀 대납 -->
+  <rect x="40" y="226" width="480" height="116" rx="10" fill="#14532d" fill-opacity="0.6" stroke="#15803D" stroke-width="1.5"/>
+  <rect x="40" y="226" width="480" height="36" rx="10" fill="#15803D"/>
+  <rect x="40" y="248" width="480" height="14" fill="#15803D"/>
+  <text x="60" y="250" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">③ 부모 보험 가입 거부 + 자녀 보호자</text>
+  <text x="60" y="284" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">→ 자녀 대납 + 부모 명의 (자녀 절차 보조)</text>
+  <text x="60" y="306" fill="#CBD5E1" font-size="12" font-family="sans-serif">자녀 명의로는 부모 보장 불가 (반드시 부모 명의)</text>
+  <text x="60" y="328" fill="#CBD5E1" font-size="12" font-family="sans-serif">자녀가 보험료 결제·관리 도와줌 (소득공제는 X)</text>
+
+  <!-- Scenario 4: 운전 적음 -->
+  <rect x="560" y="226" width="480" height="116" rx="10" fill="#422006" fill-opacity="0.6" stroke="#D97706" stroke-width="1.5"/>
+  <rect x="560" y="226" width="480" height="36" rx="10" fill="#D97706"/>
+  <rect x="560" y="248" width="480" height="14" fill="#D97706"/>
+  <text x="580" y="250" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">④ 월 1~2회 단거리 운전만</text>
+  <text x="580" y="284" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">→ 미가입 가능하나 한 번의 사고 위험 큼</text>
+  <text x="580" y="306" fill="#CBD5E1" font-size="12" font-family="sans-serif">기대 손실 = 사고율 × 부담 = 약 60~325만/3년</text>
+  <text x="580" y="328" fill="#CBD5E1" font-size="12" font-family="sans-serif">3년 보험료 72~180만 vs 한 번의 6,500만 위험</text>
+
+  <!-- Scenario 5: 면허반납 + 자동차보험 -->
+  <rect x="40" y="362" width="1000" height="116" rx="10" fill="#1e1b4b" fill-opacity="0.6" stroke="#4F46E5" stroke-width="1.5"/>
+  <rect x="40" y="362" width="1000" height="36" rx="10" fill="#4F46E5"/>
+  <rect x="40" y="384" width="1000" height="14" fill="#4F46E5"/>
+  <text x="60" y="386" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">⑤ 부모 면허 반납 검토 / 자동차보험 운전자 한정 별도 검토</text>
+  <text x="60" y="420" fill="#A5B4FC" font-size="13" font-weight="700" font-family="sans-serif">→ 면허 반납 인센티브 30~50만 활용 / 가족운전 한정 특약</text>
+  <text x="60" y="442" fill="#CBD5E1" font-size="12" font-family="sans-serif">인지·시력 저하 부모는 면허반납 + 미가입이 안전 (서울·부산·경기 등 인센티브)</text>
+  <text x="60" y="464" fill="#CBD5E1" font-size="12" font-family="sans-serif">자동차보험은 운전자 한정 특약으로 별도 절약 가능 (운전자보험과 다른 상품)</text>
+
+  <!-- Summary -->
+  <rect x="40" y="496" width="1000" height="176" rx="10" fill="#1e293b" fill-opacity="0.8"/>
+  <text x="540" y="528" text-anchor="middle" fill="#F8FAFC" font-size="14" font-weight="800" font-family="sans-serif">핵심 결론 3줄 요약</text>
+  <text x="80" y="562" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">⚠️ 어린이보호구역</text>
+  <text x="280" y="562" fill="#FFFFFF" font-size="13" font-family="sans-serif">→ 사고 1건 미가입 6,500만 vs 가입 0~500만 (격차 6,000만+)</text>
+  <text x="80" y="594" fill="#DDD6FE" font-size="13" font-weight="700" font-family="sans-serif">가입 방식</text>
+  <text x="280" y="594" fill="#FFFFFF" font-size="13" font-family="sans-serif">→ 부모 명의 필수 · 자녀 대납만 가능 (자녀 명의 X)</text>
+  <text x="80" y="626" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">월 보험료</text>
+  <text x="280" y="626" fill="#FFFFFF" font-size="13" font-family="sans-serif">→ 60대 1.5~3만 / 70대 3~5만 / 80대+ 가입 어려움 (60~70대 미리)</text>
+  <text x="80" y="654" fill="#94A3B8" font-size="12" font-family="sans-serif">※ 음주·무면허는 약관 면책 (가입해도 자비) · 자동차보험과 별도 상품</text>
+
+  <text x="40" y="686" fill="#64748B" font-size="12" font-family="sans-serif">essencial | 보험 비교 · 2026.05 기준 · 본인 약관·연령 보험사·금감원(1332) 사전 확인 · 일반 정보</text>
+</svg>

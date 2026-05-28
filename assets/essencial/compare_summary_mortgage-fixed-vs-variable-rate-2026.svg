@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1500" fill="url(#bg)"/>
+
+  <rect x="60" y="50" width="240" height="40" rx="20" fill="#B45309"/>
+  <text x="180" y="77" text-anchor="middle" fill="#FFFFFF" font-size="17" font-weight="800" font-family="sans-serif">2026 금리 전환기 · 스트레스 DSR 3단계</text>
+
+  <text x="60" y="155" fill="#FFFFFF" font-size="44" font-weight="800" font-family="sans-serif">주담대 고정 vs 변동 전략</text>
+  <text x="60" y="200" fill="#FCD34D" font-size="22" font-weight="600" font-family="sans-serif">기준금리 2.50% 동결 · 고정 상단 7.01% 돌파</text>
+
+  <!-- 4 key cards -->
+  <rect x="60" y="240" width="260" height="180" rx="16" fill="url(#card)" stroke="#B45309" stroke-width="2"/>
+  <text x="190" y="285" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="700" font-family="sans-serif">한국은행 기준금리</text>
+  <text x="190" y="340" text-anchor="middle" fill="#FFFFFF" font-size="40" font-weight="800" font-family="sans-serif">2.50%</text>
+  <text x="190" y="370" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="600" font-family="sans-serif">3연속 동결 (4.10)</text>
+  <text x="190" y="395" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">환율의 덫 · 재정 우위</text>
+
+  <rect x="340" y="240" width="260" height="180" rx="16" fill="url(#card)" stroke="#B45309" stroke-width="2"/>
+  <text x="470" y="285" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="700" font-family="sans-serif">은행채 5년 (고정 지표)</text>
+  <text x="470" y="340" text-anchor="middle" fill="#FFFFFF" font-size="40" font-weight="800" font-family="sans-serif">4.119%</text>
+  <text x="470" y="370" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="600" font-family="sans-serif">+0.670%p (중동리스크)</text>
+  <text x="470" y="395" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">고정 상단 7.01%</text>
+
+  <rect x="620" y="240" width="260" height="180" rx="16" fill="url(#card)" stroke="#B45309" stroke-width="2"/>
+  <text x="750" y="285" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="700" font-family="sans-serif">신규 코픽스 (변동)</text>
+  <text x="750" y="340" text-anchor="middle" fill="#FFFFFF" font-size="40" font-weight="800" font-family="sans-serif">2.820%</text>
+  <text x="750" y="370" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="600" font-family="sans-serif">+0.010%p 안정</text>
+  <text x="750" y="395" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">변동 하단 3.61%</text>
+
+  <rect x="900" y="240" width="240" height="180" rx="16" fill="url(#card)" stroke="#B45309" stroke-width="2"/>
+  <text x="1020" y="285" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="700" font-family="sans-serif">주기형 한도 우위</text>
+  <text x="1020" y="340" text-anchor="middle" fill="#FFFFFF" font-size="40" font-weight="800" font-family="sans-serif">+1억</text>
+  <text x="1020" y="370" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="600" font-family="sans-serif">변동 대비 한도</text>
+  <text x="1020" y="395" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">DSR 반영 40%</text>
+
+  <!-- 시중은행 최저금리 바 차트 -->
+  <text x="60" y="475" fill="#FFFFFF" font-size="26" font-weight="800" font-family="sans-serif">주요 금융기관 주담대 최저 금리 (2026.04)</text>
+  <text x="60" y="503" fill="#94A3B8" font-size="14" font-family="sans-serif">인터넷은행이 시중은행 대비 0.5~1.4%p 낮음 · 카카오뱅크 2026.04.17 0.2%p 인하</text>
+
+  <g font-family="sans-serif">
+    <text x="60" y="545" fill="#FFFFFF" font-size="16" font-weight="700">케이뱅크</text>
+    <rect x="200" y="528" width="192" height="22" rx="4" fill="#86EFAC"/>
+    <text x="412" y="545" fill="#86EFAC" font-size="15" font-weight="700">3.26% (최저)</text>
+
+    <text x="60" y="585" fill="#FFFFFF" font-size="16" font-weight="700">카카오뱅크</text>
+    <rect x="200" y="568" width="222" height="22" rx="4" fill="#FCD34D"/>
+    <text x="442" y="585" fill="#FCD34D" font-size="15" font-weight="700">3.78% (-0.2%p)</text>
+
+    <text x="60" y="625" fill="#FFFFFF" font-size="16" font-weight="700">KB국민</text>
+    <rect x="200" y="608" width="222" height="22" rx="4" fill="#F59E0B"/>
+    <text x="442" y="625" fill="#FCD34D" font-size="15" font-weight="700">3.78%</text>
+
+    <text x="60" y="665" fill="#FFFFFF" font-size="16" font-weight="700">하나은행</text>
+    <rect x="200" y="648" width="240" height="22" rx="4" fill="#D97706"/>
+    <text x="460" y="665" fill="#FCD34D" font-size="15" font-weight="700">4.036%</text>
+
+    <text x="60" y="705" fill="#FFFFFF" font-size="16" font-weight="700">NH농협</text>
+    <rect x="200" y="688" width="262" height="22" rx="4" fill="#B45309"/>
+    <text x="482" y="705" fill="#FCA5A5" font-size="15" font-weight="700">4.37%</text>
+
+    <text x="60" y="745" fill="#FFFFFF" font-size="16" font-weight="700">우리은행</text>
+    <rect x="200" y="728" width="278" height="22" rx="4" fill="#92400E"/>
+    <text x="498" y="745" fill="#FCA5A5" font-size="15" font-weight="700">4.63%</text>
+
+    <text x="60" y="785" fill="#FCD34D" font-size="14" font-weight="700">※ 시중은행 고정 상단은 7.01% · 개인 신용·우대조건에 따라 실제 금리 차이</text>
+  </g>
+
+  <!-- 고정 vs 변동 상세 카드 -->
+  <rect x="60" y="820" width="540" height="310" rx="16" fill="url(#card)" stroke="#B45309" stroke-width="2"/>
+  <text x="80" y="860" fill="#FCD34D" font-size="22" font-weight="800" font-family="sans-serif">주기형 (고정금리)</text>
+
+  <g font-family="sans-serif">
+    <text x="80" y="900" fill="#CBD5E1" font-size="14">2026.04 금리 밴드</text>
+    <text x="580" y="900" text-anchor="end" fill="#FFFFFF" font-size="15" font-weight="700">4.410 ~ 7.010%</text>
+
+    <text x="80" y="930" fill="#CBD5E1" font-size="14">기준 지표</text>
+    <text x="580" y="930" text-anchor="end" fill="#FFFFFF" font-size="15" font-weight="700">은행채 5년물</text>
+
+    <text x="80" y="960" fill="#CBD5E1" font-size="14">스트레스 DSR 반영</text>
+    <text x="580" y="960" text-anchor="end" fill="#86EFAC" font-size="16" font-weight="800">40% (한도 유리)</text>
+
+    <text x="80" y="990" fill="#CBD5E1" font-size="14">한도 (1억 소득·30년)</text>
+    <text x="580" y="990" text-anchor="end" fill="#86EFAC" font-size="16" font-weight="800">6.4억 원</text>
+
+    <text x="80" y="1020" fill="#CBD5E1" font-size="14">금리 변동 위험</text>
+    <text x="580" y="1020" text-anchor="end" fill="#86EFAC" font-size="14">낮음 (5년 고정 방어)</text>
+
+    <text x="80" y="1050" fill="#CBD5E1" font-size="14">추천 차주</text>
+    <text x="580" y="1050" text-anchor="end" fill="#FFFFFF" font-size="14">한도 극대화·수도권·고가</text>
+  </g>
+  <text x="80" y="1110" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">✓ 스트레스 DSR로 변동 대비 +1억 · 5년 후 대환 기회</text>
+
+  <rect x="620" y="820" width="520" height="310" rx="16" fill="url(#card)" stroke="#D97706" stroke-width="2"/>
+  <text x="640" y="860" fill="#D97706" font-size="22" font-weight="800" font-family="sans-serif">변동금리 (코픽스)</text>
+
+  <g font-family="sans-serif">
+    <text x="640" y="900" fill="#CBD5E1" font-size="14">2026.04 금리 밴드</text>
+    <text x="1120" y="900" text-anchor="end" fill="#FFFFFF" font-size="15" font-weight="700">3.610 ~ 6.010%</text>
+
+    <text x="640" y="930" fill="#CBD5E1" font-size="14">기준 지표</text>
+    <text x="1120" y="930" text-anchor="end" fill="#FFFFFF" font-size="15" font-weight="700">신규 코픽스(2.82%)</text>
+
+    <text x="640" y="960" fill="#CBD5E1" font-size="14">스트레스 DSR 반영</text>
+    <text x="1120" y="960" text-anchor="end" fill="#FCA5A5" font-size="16" font-weight="800">100% (한도 불리)</text>
+
+    <text x="640" y="990" fill="#CBD5E1" font-size="14">한도 (1억 소득·30년)</text>
+    <text x="1120" y="990" text-anchor="end" fill="#FCA5A5" font-size="16" font-weight="800">5.56억 원 (−1억)</text>
+
+    <text x="640" y="1020" fill="#CBD5E1" font-size="14">금리 변동 위험</text>
+    <text x="1120" y="1020" text-anchor="end" fill="#FCA5A5" font-size="14">높음 (분기별 반영)</text>
+
+    <text x="640" y="1050" fill="#CBD5E1" font-size="14">추천 차주</text>
+    <text x="1120" y="1050" text-anchor="end" fill="#FFFFFF" font-size="14">인하 확신형·소액·단기</text>
+  </g>
+  <text x="640" y="1110" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">✓ 하단 0.8%p 낮음 · 중동 리스크 감내 가능할 때</text>
+
+  <!-- 정책 모기지 -->
+  <rect x="60" y="1160" width="1080" height="200" rx="16" fill="url(#card)" stroke="#B45309" stroke-width="2"/>
+  <text x="80" y="1200" fill="#FCD34D" font-size="22" font-weight="800" font-family="sans-serif">정책 모기지 (자격 되면 최우선)</text>
+
+  <g font-family="sans-serif">
+    <text x="80" y="1240" fill="#FFFFFF" font-size="16" font-weight="700">신생아 특례 디딤돌</text>
+    <text x="570" y="1240" text-anchor="end" fill="#86EFAC" font-size="18" font-weight="800">1.8 ~ 4.5%</text>
+
+    <text x="80" y="1275" fill="#FFFFFF" font-size="16" font-weight="700">신생아 특례 버팀목(전세)</text>
+    <text x="570" y="1275" text-anchor="end" fill="#86EFAC" font-size="18" font-weight="800">1.3 ~ 4.3%</text>
+
+    <text x="600" y="1240" fill="#FFFFFF" font-size="16" font-weight="700">보금자리론 (2026.01 +0.25%p)</text>
+    <text x="1120" y="1240" text-anchor="end" fill="#FCD34D" font-size="16" font-weight="800">4%대 고정</text>
+
+    <text x="600" y="1275" fill="#FFFFFF" font-size="16" font-weight="700">자녀 1명당 우대</text>
+    <text x="1120" y="1275" text-anchor="end" fill="#86EFAC" font-size="16" font-weight="800">−0.2%p (최저 1.0%)</text>
+
+    <text x="80" y="1325" fill="#FCD34D" font-size="14" font-weight="700">→ 부부 합산 2억 이하 + 2년 내 출산 + 무주택 = 디딤돌 최대 4억 · 시중 7% 대비 압도적</text>
+  </g>
+
+  <text x="60" y="1420" fill="#64748B" font-size="14" font-family="sans-serif">essencial | 대출·금융 silo · 자료: 한은·금감원·주금공·은행연합회 (2026.04 기준)</text>
+</svg>

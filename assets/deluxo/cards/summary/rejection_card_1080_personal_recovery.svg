@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="60" y="50" width="200" height="44" rx="22" fill="#EF4444"/>
+  <text x="160" y="79" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#FFFFFF">면책 거부 주의!</text>
+  <text x="60" y="148" font-family="'Pretendard',sans-serif" font-size="48" font-weight="900" fill="#FFFFFF">개인회생 면책불허가</text>
+  <text x="60" y="205" font-family="'Pretendard',sans-serif" font-size="48" font-weight="900" fill="#FFFFFF">사유 TOP 5</text>
+  <rect x="60" y="235" width="120" height="4" rx="2" fill="#EF4444"/>
+
+  <rect x="60" y="275" width="960" height="120" rx="16" fill="rgba(239,68,68,0.1)" stroke="#EF4444" stroke-width="1"/>
+  <circle cx="120" cy="335" r="30" fill="#EF4444"/>
+  <text x="120" y="344" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="900" fill="#FFFFFF">1</text>
+  <text x="170" y="318" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">재산 은닉·부정 처분</text>
+  <text x="170" y="350" font-family="'Pretendard',sans-serif" font-size="20" fill="#94A3B8">재산을 숨기거나 타인 명의로 이전·헐값 처분</text>
+  <text x="170" y="378" font-family="'Pretendard',sans-serif" font-size="18" fill="#FCA5A5">가장 많은 면책 거부 사유</text>
+
+  <rect x="60" y="415" width="960" height="120" rx="16" fill="rgba(239,68,68,0.08)" stroke="rgba(239,68,68,0.5)" stroke-width="1"/>
+  <circle cx="120" cy="475" r="30" fill="rgba(239,68,68,0.8)"/>
+  <text x="120" y="484" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="900" fill="#FFFFFF">2</text>
+  <text x="170" y="458" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">도박·과도한 낭비</text>
+  <text x="170" y="490" font-family="'Pretendard',sans-serif" font-size="20" fill="#94A3B8">도박·사치로 재산 감소 or 과대 채무 부담</text>
+  <text x="170" y="518" font-family="'Pretendard',sans-serif" font-size="18" fill="#FCA5A5">법원 재량으로 면책 가능할 수도 있음</text>
+
+  <rect x="60" y="555" width="960" height="120" rx="16" fill="rgba(239,68,68,0.06)" stroke="rgba(239,68,68,0.4)" stroke-width="1"/>
+  <circle cx="120" cy="615" r="30" fill="rgba(239,68,68,0.6)"/>
+  <text x="120" y="624" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="900" fill="#FFFFFF">3</text>
+  <text x="170" y="598" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">허위 서류 제출</text>
+  <text x="170" y="630" font-family="'Pretendard',sans-serif" font-size="20" fill="#94A3B8">거짓 채권자 목록·허위 재산 상태 제출</text>
+
+  <rect x="60" y="695" width="960" height="110" rx="16" fill="rgba(239,68,68,0.04)" stroke="rgba(239,68,68,0.3)" stroke-width="1"/>
+  <circle cx="120" cy="750" r="30" fill="rgba(239,68,68,0.4)"/>
+  <text x="120" y="759" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="900" fill="#FFFFFF">4</text>
+  <text x="170" y="738" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">편파 변제</text>
+  <text x="170" y="770" font-family="'Pretendard',sans-serif" font-size="20" fill="#94A3B8">특정 채권자에게만 변제·담보 제공</text>
+
+  <rect x="60" y="825" width="960" height="110" rx="16" fill="rgba(239,68,68,0.03)" stroke="rgba(239,68,68,0.2)" stroke-width="1"/>
+  <circle cx="120" cy="880" r="30" fill="rgba(239,68,68,0.3)"/>
+  <text x="120" y="889" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="900" fill="#FFFFFF">5</text>
+  <text x="170" y="868" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">최근 면책 기록</text>
+  <text x="170" y="900" font-family="'Pretendard',sans-serif" font-size="20" fill="#94A3B8">파산면책 7년·회생면책 5년 이내</text>
+
+  <text x="60" y="1000" font-family="'Pretendard',sans-serif" font-size="18" fill="#94A3B8">※ 법원은 위 사유가 있어도 재량으로 면책을 허가할 수 있습니다</text>
+  <text x="60" y="1030" font-family="'Pretendard',sans-serif" font-size="18" fill="#94A3B8">   반드시 전문가 상담을 받으세요</text>
+</svg>

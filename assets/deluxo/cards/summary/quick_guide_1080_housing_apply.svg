@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- 배지 -->
+  <rect x="60" y="50" width="180" height="44" rx="22" fill="#F59E0B"/>
+  <text x="150" y="79" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#0B1F3B">10초 판단</text>
+
+  <!-- 메인 제목 -->
+  <text x="60" y="150" font-family="'Pretendard',sans-serif" font-size="52" font-weight="900" fill="#FFFFFF">나는 어디?</text>
+  <text x="60" y="210" font-family="'Pretendard',sans-serif" font-size="52" font-weight="900" fill="#FFFFFF">가점제 vs 추첨제</text>
+
+  <!-- 구분선 -->
+  <rect x="60" y="240" width="120" height="4" rx="2" fill="#F59E0B"/>
+
+  <!-- 컬럼 헤더 -->
+  <rect x="60" y="280" width="460" height="60" rx="16" fill="#3B82F6"/>
+  <text x="290" y="318" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFFFFF">가점제 집중</text>
+  <rect x="560" y="280" width="460" height="60" rx="16" fill="#8B5CF6"/>
+  <text x="790" y="318" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFFFFF">추첨제 집중</text>
+
+  <!-- Row 1: 대상 -->
+  <text x="60" y="395" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">대상</text>
+  <rect x="60" y="410" width="460" height="100" rx="14" fill="rgba(59,130,246,0.12)"/>
+  <text x="290" y="450" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">가점 50↑ · 기혼</text>
+  <text x="290" y="485" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="19" font-weight="600" fill="#EAF2FF">부양가족 多</text>
+  <rect x="560" y="410" width="460" height="100" rx="14" fill="rgba(139,92,246,0.12)"/>
+  <text x="790" y="450" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">가점 20~30점대 · 1인</text>
+  <text x="790" y="485" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="19" font-weight="600" fill="#EAF2FF">청년</text>
+
+  <!-- Row 2: 타겟 -->
+  <text x="60" y="560" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">타겟</text>
+  <rect x="60" y="575" width="460" height="100" rx="14" fill="rgba(59,130,246,0.12)"/>
+  <text x="290" y="615" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">규제 지역 분상제 단지</text>
+  <text x="290" y="650" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="19" font-weight="600" fill="#EAF2FF">가점 100% 적용 단지 노리기</text>
+  <rect x="560" y="575" width="460" height="100" rx="14" fill="rgba(139,92,246,0.12)"/>
+  <text x="790" y="615" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">비규제 지역 소형 60㎡↓</text>
+  <text x="790" y="650" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="19" font-weight="600" fill="#EAF2FF">추첨 비율 높은 단지 공략</text>
+
+  <!-- Row 3: 핵심 -->
+  <text x="60" y="725" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">핵심</text>
+  <rect x="60" y="740" width="460" height="120" rx="14" fill="rgba(59,130,246,0.12)"/>
+  <text x="290" y="785" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">부부 중복 청약</text>
+  <text x="290" y="820" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">+ 배우자 기간 합산</text>
+  <text x="290" y="848" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" font-weight="600" fill="#EAF2FF">가점 최대화 → 당첨 확률 극대화</text>
+  <rect x="560" y="740" width="460" height="120" rx="14" fill="rgba(139,92,246,0.12)"/>
+  <text x="790" y="785" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">추첨 60%</text>
+  <text x="790" y="820" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">+ 뉴:홈 청년 특공</text>
+  <text x="790" y="848" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" font-weight="600" fill="#EAF2FF">소형 추첨 물량 집중 공략</text>
+
+  <!-- 칩 -->
+  <rect x="60" y="990" width="140" height="40" rx="20" fill="#E8F0FF"/>
+  <text x="130" y="1017" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#1D4ED8">빠른판단</text>
+  <rect x="220" y="990" width="100" height="40" rx="20" fill="#E8F0FF"/>
+  <text x="270" y="1017" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#1D4ED8">비교</text>
+  <rect x="340" y="990" width="100" height="40" rx="20" fill="#E8F0FF"/>
+  <text x="390" y="1017" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#1D4ED8">2026</text>
+</svg>

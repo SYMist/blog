@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#FBBF24"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="12" fill="url(#accent)"/>
+
+  <!-- Chips -->
+  <rect x="60" y="140" width="164" height="54" rx="27" fill="#1D4ED8"/>
+  <text x="142" y="174" font-family="-apple-system, sans-serif" font-size="22" font-weight="800" fill="#E8F0FF" text-anchor="middle">2026 최신</text>
+
+  <rect x="236" y="140" width="210" height="54" rx="27" fill="#1D4ED8"/>
+  <text x="341" y="174" font-family="-apple-system, sans-serif" font-size="22" font-weight="800" fill="#E8F0FF" text-anchor="middle">1년 조기삭제</text>
+
+  <rect x="458" y="140" width="240" height="54" rx="27" fill="#34D399" opacity="0.8"/>
+  <text x="578" y="174" font-family="-apple-system, sans-serif" font-size="22" font-weight="800" fill="#0B1F3B" text-anchor="middle">단계별 가이드</text>
+
+  <!-- Main title -->
+  <text x="60" y="310" font-family="-apple-system, sans-serif" font-size="70" font-weight="900" fill="#FFFFFF">개인회생</text>
+  <text x="60" y="400" font-family="-apple-system, sans-serif" font-size="70" font-weight="900" fill="#FFFFFF">면책 후</text>
+  <text x="60" y="490" font-family="-apple-system, sans-serif" font-size="70" font-weight="900" fill="#F59E0B">신용회복</text>
+
+  <!-- Subtitle -->
+  <text x="60" y="580" font-family="-apple-system, sans-serif" font-size="32" font-weight="700" fill="#EAF2FF">1년·3년·5년 단계별 완전 가이드</text>
+  <text x="60" y="628" font-family="-apple-system, sans-serif" font-size="32" font-weight="700" fill="#EAF2FF">2026년 총정리</text>
+
+  <!-- Divider -->
+  <rect x="60" y="666" width="960" height="4" fill="#F59E0B" rx="2"/>
+
+  <!-- Key facts row -->
+  <rect x="60" y="698" width="290" height="140" rx="20" fill="#1A3270"/>
+  <text x="205" y="754" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#F59E0B" text-anchor="middle">공공기록 삭제</text>
+  <text x="205" y="808" font-family="-apple-system, sans-serif" font-size="44" font-weight="900" fill="#FFFFFF" text-anchor="middle">1년</text>
+
+  <rect x="395" y="698" width="290" height="140" rx="20" fill="#1A3270"/>
+  <text x="540" y="754" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#F59E0B" text-anchor="middle">삭제 후 점수</text>
+  <text x="540" y="808" font-family="-apple-system, sans-serif" font-size="38" font-weight="900" fill="#FFFFFF" text-anchor="middle">700점대+</text>
+
+  <rect x="730" y="698" width="290" height="140" rx="20" fill="#34D399" opacity="0.2"/>
+  <rect x="730" y="698" width="290" height="140" rx="20" fill="none" stroke="#34D399" stroke-width="2"/>
+  <text x="875" y="754" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#34D399" text-anchor="middle">상승 평균</text>
+  <text x="875" y="808" font-family="-apple-system, sans-serif" font-size="44" font-weight="900" fill="#FFFFFF" text-anchor="middle">+102점</text>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="896" width="1080" height="172" fill="#0A1A35"/>
+  <text x="540" y="966" font-family="-apple-system, sans-serif" font-size="26" font-weight="700" fill="#EAF2FF" text-anchor="middle">2025년 7월 공공기록 조기삭제 제도 반영</text>
+  <text x="540" y="1014" font-family="-apple-system, sans-serif" font-size="22" font-weight="600" fill="#F59E0B" text-anchor="middle">체크카드 + 비금융정보 제출 + 새 주거래은행</text>
+
+  <rect x="0" y="1068" width="1080" height="12" fill="url(#accent)"/>
+</svg>

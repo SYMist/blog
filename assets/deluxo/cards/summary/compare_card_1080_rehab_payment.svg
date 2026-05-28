@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#F59E0B">2026 면제재산 확대 + 소득별 변제금 비교</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- 상단 섹션: 면제재산 변경 비교 -->
+  <text x="540" y="140" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#3B82F6">면제재산 변경 비교</text>
+
+  <!-- 테이블 헤더 -->
+  <rect x="60" y="160" width="960" height="50" rx="0" fill="rgba(59,130,246,0.2)"/>
+  <text x="220" y="192" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#FFF">항목</text>
+  <text x="460" y="192" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#EAF2FF">종전</text>
+  <text x="680" y="192" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#FFF">2026 변경</text>
+  <text x="900" y="192" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#F59E0B">증가분</text>
+
+  <!-- 예금 -->
+  <rect x="60" y="214" width="960" height="60" rx="0" fill="rgba(255,255,255,0.06)"/>
+  <text x="220" y="252" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">예금</text>
+  <text x="460" y="252" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">185만 원</text>
+  <text x="680" y="252" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">250만 원</text>
+  <rect x="845" y="234" width="110" height="32" rx="16" fill="rgba(245,158,11,0.2)"/>
+  <text x="900" y="257" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#F59E0B">↑65만</text>
+
+  <!-- 보험 -->
+  <rect x="60" y="278" width="960" height="60" rx="0" fill="rgba(255,255,255,0.04)"/>
+  <text x="220" y="316" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">보험 해약환급금</text>
+  <text x="460" y="316" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">150만 원</text>
+  <text x="680" y="316" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">250만 원</text>
+  <rect x="845" y="298" width="110" height="32" rx="16" fill="rgba(245,158,11,0.2)"/>
+  <text x="900" y="321" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#F59E0B">↑100만</text>
+
+  <!-- 사망보험금 -->
+  <rect x="60" y="342" width="960" height="60" rx="0" fill="rgba(255,255,255,0.06)"/>
+  <text x="220" y="380" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">사망보험금</text>
+  <text x="460" y="380" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">1,000만 원</text>
+  <text x="680" y="380" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">1,500만 원</text>
+  <rect x="845" y="362" width="110" height="32" rx="16" fill="rgba(245,158,11,0.2)"/>
+  <text x="900" y="385" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#F59E0B">↑500만</text>
+
+  <!-- 구분선 -->
+  <rect x="100" y="420" width="880" height="2" rx="1" fill="rgba(255,255,255,0.1)"/>
+
+  <!-- 하단 섹션: 주거비 추가 인정 한도 -->
+  <text x="540" y="460" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#3B82F6">주거비 추가 인정 한도 (지역별)</text>
+
+  <!-- 주거비 헤더 -->
+  <rect x="60" y="480" width="960" height="50" rx="0" fill="rgba(59,130,246,0.2)"/>
+  <text x="200" y="512" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#FFF">지역</text>
+  <text x="440" y="512" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#FFF">월 추가 인정액</text>
+  <text x="730" y="512" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#FFF">연간 한도</text>
+  <text x="940" y="512" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#FFF">비고</text>
+
+  <!-- 서울 -->
+  <rect x="60" y="534" width="960" height="55" rx="0" fill="rgba(245,158,11,0.08)"/>
+  <text x="200" y="568" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">서울</text>
+  <text x="440" y="568" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">315,347원</text>
+  <text x="730" y="568" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">약 378만 원</text>
+  <text x="940" y="568" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#F59E0B">최고 한도</text>
+
+  <!-- 수도권 -->
+  <rect x="60" y="593" width="960" height="55" rx="0" fill="rgba(255,255,255,0.04)"/>
+  <text x="200" y="627" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">수도권</text>
+  <text x="440" y="627" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">269,000원</text>
+  <text x="730" y="627" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">약 323만 원</text>
+  <text x="940" y="627" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">경기·인천</text>
+
+  <!-- 광역시 -->
+  <rect x="60" y="652" width="960" height="55" rx="0" fill="rgba(255,255,255,0.06)"/>
+  <text x="200" y="686" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">광역시</text>
+  <text x="440" y="686" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">200,000원</text>
+  <text x="730" y="686" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">약 240만 원</text>
+  <text x="940" y="686" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">부산·대구 등</text>
+
+  <!-- 기타 -->
+  <rect x="60" y="711" width="960" height="55" rx="0" fill="rgba(255,255,255,0.04)"/>
+  <text x="200" y="745" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">기타 지역</text>
+  <text x="440" y="745" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">150,000원</text>
+  <text x="730" y="745" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">약 180만 원</text>
+  <text x="940" y="745" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">도 단위</text>
+
+  <!-- 구분선 -->
+  <rect x="100" y="784" width="880" height="2" rx="1" fill="rgba(255,255,255,0.1)"/>
+
+  <!-- 핵심 원칙 -->
+  <rect x="60" y="800" width="960" height="220" rx="20" fill="rgba(245,158,11,0.08)"/>
+  <text x="540" y="840" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#F59E0B">청산가치 보장 원칙</text>
+
+  <rect x="100" y="860" width="860" height="60" rx="12" fill="rgba(59,130,246,0.1)"/>
+  <text x="540" y="890" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">총 변제액 ≥ 보유 재산 가치 (면제재산 제외)</text>
+  <text x="540" y="912" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#EAF2FF">가용소득 기준 변제금이 재산보다 적으면 → 재산 기준으로 변제금 상향</text>
+
+  <rect x="100" y="930" width="860" height="75" rx="12" fill="rgba(255,255,255,0.04)"/>
+  <text x="540" y="960" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="19" font-weight="700" fill="#F59E0B">면제재산을 반드시 신청하세요!</text>
+  <text x="540" y="990" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#EAF2FF">예금 250만 + 보험 250만 면제 신청 → 청산가치 감소 → 변제금 절약</text>
+
+  <rect x="60" y="1050" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+
+  <!-- Badge -->
+  <rect x="80" y="50" width="260" height="52" rx="26" fill="#F59E0B"/>
+  <text x="210" y="85" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#0B1F3B">보조금 vs 대출</text>
+
+  <!-- Title -->
+  <text x="80" y="165" font-family="'Pretendard',sans-serif" font-size="46" font-weight="900" fill="#FFF">소상공인 창업자금</text>
+  <text x="80" y="223" font-family="'Pretendard',sans-serif" font-size="40" font-weight="800" fill="#EAF2FF">무엇부터 신청할까?</text>
+
+  <!-- Column Headers -->
+  <rect x="540" y="260" width="220" height="50" rx="14" fill="#F59E0B"/>
+  <text x="650" y="293" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#0B1F3B">보조금</text>
+  <rect x="780" y="260" width="220" height="50" rx="14" fill="rgba(255,255,255,0.15)"/>
+  <text x="890" y="293" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">대출</text>
+
+  <!-- Row 1: 상환 의무 -->
+  <rect x="80" y="330" width="920" height="100" rx="14" fill="rgba(255,255,255,0.05)"/>
+  <rect x="100" y="352" width="56" height="56" rx="28" fill="#F59E0B"/>
+  <text x="128" y="390" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#0B1F3B">1</text>
+  <text x="175" y="380" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">상환 의무</text>
+  <text x="650" y="388" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#F59E0B">없음 (비상환)</text>
+  <text x="890" y="388" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">있음 (원리금)</text>
+
+  <!-- Row 2: 금액 -->
+  <rect x="80" y="445" width="920" height="100" rx="14" fill="rgba(255,255,255,0.05)"/>
+  <rect x="100" y="467" width="56" height="56" rx="28" fill="#F59E0B"/>
+  <text x="128" y="505" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#0B1F3B">2</text>
+  <text x="175" y="495" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">금액</text>
+  <text x="650" y="503" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#F59E0B">최대 3억 (도약)</text>
+  <text x="890" y="503" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">최대 2억 (정책)</text>
+
+  <!-- Row 3: 금리 -->
+  <rect x="80" y="560" width="920" height="100" rx="14" fill="rgba(255,255,255,0.05)"/>
+  <rect x="100" y="582" width="56" height="56" rx="28" fill="#F59E0B"/>
+  <text x="128" y="620" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#0B1F3B">3</text>
+  <text x="175" y="610" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">금리</text>
+  <text x="650" y="618" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#F59E0B">0% (무상)</text>
+  <text x="890" y="618" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">2.5~4.5%</text>
+
+  <!-- Row 4: 경쟁률 -->
+  <rect x="80" y="675" width="920" height="100" rx="14" fill="rgba(255,255,255,0.05)"/>
+  <rect x="100" y="697" width="56" height="56" rx="28" fill="#F59E0B"/>
+  <text x="128" y="735" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#0B1F3B">4</text>
+  <text x="175" y="725" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">경쟁률</text>
+  <text x="650" y="725" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">높음 (서류+PT)</text>
+  <text x="890" y="725" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">상대적 낮음</text>
+
+  <!-- Row 5: 전략 -->
+  <rect x="80" y="790" width="920" height="100" rx="14" fill="rgba(255,255,255,0.05)"/>
+  <rect x="100" y="812" width="56" height="56" rx="28" fill="#F59E0B"/>
+  <text x="128" y="850" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#0B1F3B">5</text>
+  <text x="175" y="840" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">전략</text>
+  <text x="650" y="840" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">1순위 도전</text>
+  <text x="890" y="840" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">보조금 후 보충</text>
+
+  <!-- Bottom Chips -->
+  <rect x="80" y="935" width="130" height="52" rx="26" fill="#E8F0FF"/>
+  <text x="145" y="969" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#1D4ED8">비교</text>
+  <rect x="240" y="935" width="130" height="52" rx="26" fill="#E8F0FF"/>
+  <text x="305" y="969" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#1D4ED8">전략</text>
+  <rect x="400" y="935" width="130" height="52" rx="26" fill="#E8F0FF"/>
+  <text x="465" y="969" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#1D4ED8">2026</text>
+
+  <!-- Bottom line -->
+  <rect x="80" y="1030" width="920" height="6" rx="3" fill="#F59E0B"/>
+</svg>

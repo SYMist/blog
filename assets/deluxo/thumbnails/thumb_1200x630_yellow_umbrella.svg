@@ -1,0 +1,38 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" rx="24" fill="url(#bg)"/>
+
+  <!-- Badge -->
+  <rect x="60" y="50" width="200" height="48" rx="24" fill="#F59E0B"/>
+  <text x="160" y="83" font-size="26" fill="#0B1F3B" font-weight="800" font-family="'Pretendard',sans-serif" text-anchor="middle">2026 최신</text>
+
+  <!-- Main Text -->
+  <text x="60" y="170" font-size="68" fill="#FFFFFF" font-weight="900" font-family="'Pretendard',sans-serif" letter-spacing="-1.5">노란우산공제 가입·절세 총정리</text>
+
+  <!-- Sub Text -->
+  <text x="60" y="250" font-size="40" fill="#EAF2FF" font-weight="600" font-family="'Pretendard',sans-serif" letter-spacing="-0.5">소득공제 600만 + 장려금 24만 + 압류 금지</text>
+
+  <!-- Info box -->
+  <rect x="60" y="290" width="1080" height="80" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <text x="600" y="342" font-size="32" fill="#FFFFFF" font-weight="600" font-family="'Pretendard',sans-serif" text-anchor="middle">퇴직소득세 적용 · 무이자 대출 · 중간 정산</text>
+
+  <!-- 3 Chips -->
+  <rect x="60" y="430" width="170" height="50" rx="25" fill="#E8F0FF"/>
+  <text x="145" y="464" font-size="28" fill="#1D4ED8" font-weight="700" font-family="'Pretendard',sans-serif" text-anchor="middle">절세</text>
+
+  <rect x="250" y="430" width="170" height="50" rx="25" fill="#E8F0FF"/>
+  <text x="335" y="464" font-size="28" fill="#1D4ED8" font-weight="700" font-family="'Pretendard',sans-serif" text-anchor="middle">압류금지</text>
+
+  <rect x="440" y="430" width="170" height="50" rx="25" fill="#E8F0FF"/>
+  <text x="525" y="464" font-size="28" fill="#1D4ED8" font-weight="700" font-family="'Pretendard',sans-serif" text-anchor="middle">퇴직금</text>
+
+  <!-- Gold bar -->
+  <rect x="0" y="570" width="1200" height="60" rx="0" fill="#F59E0B"/>
+</svg>

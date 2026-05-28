@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <rect x="80" y="120" width="200" height="56" rx="28" fill="#F59E0B"/>
+  <text x="180" y="157" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#0B1F3B">2026 최신</text>
+  <text x="80" y="280" font-family="'Pretendard',sans-serif" font-size="82" font-weight="900" fill="#FFF">3월 소상공인</text>
+  <text x="80" y="385" font-family="'Pretendard',sans-serif" font-size="82" font-weight="900" fill="#FFF">정책자금 일정</text>
+  <text x="80" y="490" font-family="'Pretendard',sans-serif" font-size="52" font-weight="600" fill="#EAF2FF">특별경영자금 신청</text>
+  <text x="80" y="560" font-family="'Pretendard',sans-serif" font-size="52" font-weight="600" fill="#EAF2FF">총정리</text>
+  <rect x="80" y="630" width="920" height="120" rx="20" fill="rgba(255,255,255,0.08)"/>
+  <text x="540" y="685" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="42" font-weight="800" fill="#F59E0B">3/3 직접대출 6개 + 3/9 신용취약</text>
+  <text x="540" y="730" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" fill="#EAF2FF">업체당 최대 2억원 | 총 3조 3,620억원</text>
+  <rect x="80" y="830" width="240" height="60" rx="30" fill="#E8F0FF"/>
+  <text x="200" y="869" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="700" fill="#1D4ED8">경영애로</text>
+  <rect x="350" y="830" width="220" height="60" rx="30" fill="#E8F0FF"/>
+  <text x="460" y="869" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="700" fill="#1D4ED8">재도전</text>
+  <rect x="600" y="830" width="220" height="60" rx="30" fill="#E8F0FF"/>
+  <text x="710" y="869" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="700" fill="#1D4ED8">혁신성장</text>
+  <rect x="80" y="980" width="920" height="6" rx="3" fill="#F59E0B"/>
+</svg>

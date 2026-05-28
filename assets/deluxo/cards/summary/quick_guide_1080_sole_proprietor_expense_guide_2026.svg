@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="8" fill="#F59E0B"/>
+
+  <!-- Title -->
+  <text x="540" y="56" font-family="-apple-system, sans-serif" font-size="28" font-weight="900" fill="#FFFFFF" text-anchor="middle">간편장부 vs 복식부기 — 나는 어디?</text>
+  <text x="540" y="90" font-family="-apple-system, sans-serif" font-size="17" font-weight="700" fill="#A0B4D0" text-anchor="middle">2026년 신고 기준: 2024년 수입금액으로 판정</text>
+
+  <!-- Table header -->
+  <rect x="30" y="108" width="1020" height="48" rx="8" fill="#1A3270"/>
+  <text x="200" y="138" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#F59E0B" text-anchor="middle">업종</text>
+  <text x="510" y="138" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#EF4444" text-anchor="middle">복식부기 의무 기준</text>
+  <text x="800" y="138" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#34D399" text-anchor="middle">간편장부 대상</text>
+
+  <!-- Row 1: 도소매 -->
+  <rect x="30" y="162" width="1020" height="130" rx="8" fill="#0D2347"/>
+  <rect x="30" y="162" width="5" height="130" rx="2" fill="#F59E0B"/>
+  <text x="200" y="207" font-family="-apple-system, sans-serif" font-size="17" font-weight="800" fill="#FFFFFF" text-anchor="middle">도매·소매업</text>
+  <text x="200" y="235" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">부동산 매매업 포함</text>
+  <line x1="360" y1="170" x2="360" y2="284" stroke="#1A3270" stroke-width="2"/>
+  <text x="510" y="200" font-family="-apple-system, sans-serif" font-size="32" font-weight="900" fill="#EF4444" text-anchor="middle">3억원 이상</text>
+  <text x="510" y="235" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">복식부기 의무 (미신고 시 가산세 20%)</text>
+  <line x1="660" y1="170" x2="660" y2="284" stroke="#1A3270" stroke-width="2"/>
+  <text x="800" y="200" font-family="-apple-system, sans-serif" font-size="32" font-weight="900" fill="#34D399" text-anchor="middle">3억원 미만</text>
+  <text x="800" y="235" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">간편장부 선택 가능</text>
+
+  <!-- Row 2: 제조·음식점 -->
+  <rect x="30" y="298" width="1020" height="130" rx="8" fill="#1A3270"/>
+  <rect x="30" y="298" width="5" height="130" rx="2" fill="#F59E0B"/>
+  <text x="200" y="343" font-family="-apple-system, sans-serif" font-size="17" font-weight="800" fill="#FFFFFF" text-anchor="middle">제조·음식점·건설</text>
+  <text x="200" y="371" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">운수·정보통신업 포함</text>
+  <line x1="360" y1="306" x2="360" y2="420" stroke="#0D2347" stroke-width="2"/>
+  <text x="510" y="336" font-family="-apple-system, sans-serif" font-size="32" font-weight="900" fill="#EF4444" text-anchor="middle">1.5억원 이상</text>
+  <text x="510" y="371" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">복식부기 의무</text>
+  <line x1="660" y1="306" x2="660" y2="420" stroke="#0D2347" stroke-width="2"/>
+  <text x="800" y="336" font-family="-apple-system, sans-serif" font-size="32" font-weight="900" fill="#34D399" text-anchor="middle">1.5억원 미만</text>
+  <text x="800" y="371" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">간편장부 선택 가능</text>
+
+  <!-- Row 3: 서비스·임대·프리랜서 -->
+  <rect x="30" y="434" width="1020" height="130" rx="8" fill="#0D2347"/>
+  <rect x="30" y="434" width="5" height="130" rx="2" fill="#F59E0B"/>
+  <text x="200" y="479" font-family="-apple-system, sans-serif" font-size="17" font-weight="800" fill="#FFFFFF" text-anchor="middle">서비스·임대·교육</text>
+  <text x="200" y="507" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">의료·프리랜서 포함</text>
+  <line x1="360" y1="442" x2="360" y2="556" stroke="#1A3270" stroke-width="2"/>
+  <text x="510" y="472" font-family="-apple-system, sans-serif" font-size="32" font-weight="900" fill="#EF4444" text-anchor="middle">7,500만원 이상</text>
+  <text x="510" y="507" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">복식부기 의무</text>
+  <line x1="660" y1="442" x2="660" y2="556" stroke="#1A3270" stroke-width="2"/>
+  <text x="800" y="472" font-family="-apple-system, sans-serif" font-size="32" font-weight="900" fill="#34D399" text-anchor="middle">7,500만원 미만</text>
+  <text x="800" y="507" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">간편장부 선택 가능</text>
+
+  <!-- Row 4: 전문직 -->
+  <rect x="30" y="570" width="1020" height="130" rx="8" fill="#3B1A1A"/>
+  <rect x="30" y="570" width="5" height="130" rx="2" fill="#EF4444"/>
+  <text x="200" y="615" font-family="-apple-system, sans-serif" font-size="17" font-weight="800" fill="#FFFFFF" text-anchor="middle">전문직</text>
+  <text x="200" y="643" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">의사·변호사·세무사·약사 등</text>
+  <line x1="360" y1="578" x2="360" y2="692" stroke="#0D2347" stroke-width="2"/>
+  <text x="510" y="625" font-family="-apple-system, sans-serif" font-size="24" font-weight="900" fill="#EF4444" text-anchor="middle">매출 무관 복식부기 의무</text>
+  <text x="510" y="655" font-family="-apple-system, sans-serif" font-size="14" fill="#EF4444" text-anchor="middle">수입금액에 관계없이 무조건 복식부기</text>
+  <line x1="660" y1="578" x2="660" y2="692" stroke="#0D2347" stroke-width="2"/>
+  <text x="800" y="625" font-family="-apple-system, sans-serif" font-size="24" font-weight="900" fill="#A0B4D0" text-anchor="middle">해당 없음</text>
+  <text x="800" y="655" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">간편장부 선택 불가</text>
+
+  <!-- Key warnings box -->
+  <rect x="30" y="714" width="1020" height="100" rx="12" fill="#1A3270"/>
+  <rect x="30" y="714" width="1020" height="100" rx="12" fill="none" stroke="#F59E0B" stroke-width="2"/>
+  <text x="540" y="752" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#F59E0B" text-anchor="middle">무기장 가산세 주의</text>
+  <text x="540" y="788" font-family="-apple-system, sans-serif" font-size="16" fill="#EAF2FF" text-anchor="middle">복식부기 의무자가 장부 미작성 시: 산출세액 × 20% 가산세 부과</text>
+
+  <!-- 3 stat boxes -->
+  <rect x="30" y="828" width="310" height="148" rx="12" fill="#0D2347"/>
+  <text x="185" y="874" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#34D399" text-anchor="middle">무기장 가산세 면제</text>
+  <text x="185" y="916" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="middle">4,800만원 미만</text>
+  <text x="185" y="948" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">전년도 수입금액 기준</text>
+
+  <rect x="360" y="828" width="310" height="148" rx="12" fill="#0D2347"/>
+  <text x="515" y="874" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#F59E0B" text-anchor="middle">기장세액공제</text>
+  <text x="515" y="916" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="middle">산출세액 20%</text>
+  <text x="515" y="948" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">복식부기 자발 신고 시 최대 100만원</text>
+
+  <rect x="690" y="828" width="360" height="148" rx="12" fill="#0D2347"/>
+  <text x="870" y="874" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#EF4444" text-anchor="middle">세금 상담 무료</text>
+  <text x="870" y="916" font-family="-apple-system, sans-serif" font-size="40" font-weight="900" fill="#FFFFFF" text-anchor="middle">☎ 126</text>
+  <text x="870" y="948" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">국세청 세금 상담 (평일 09~18시)</text>
+
+  <text x="540" y="1060" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준 | 기준: 2024년 수입금액 | hometax.go.kr | 정확한 유형은 홈택스 또는 세무사 확인</text>
+  <rect x="0" y="1072" width="1080" height="8" fill="#F59E0B"/>
+</svg>

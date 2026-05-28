@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- 배지 -->
+  <rect x="60" y="50" width="200" height="44" rx="22" fill="#F59E0B"/>
+  <text x="160" y="79" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#0B1F3B">신청 전 체크!</text>
+
+  <!-- 제목 -->
+  <text x="60" y="148" font-family="Arial,sans-serif" font-size="48" font-weight="900" fill="#FFFFFF">가족돌봄 지원금</text>
+  <text x="60" y="205" font-family="Arial,sans-serif" font-size="48" font-weight="900" fill="#FFFFFF">1분 체크리스트</text>
+
+  <rect x="60" y="235" width="120" height="4" rx="2" fill="#F59E0B"/>
+
+  <!-- 체크 항목 1 -->
+  <rect x="60" y="275" width="960" height="80" rx="14" fill="rgba(255,255,255,0.06)"/>
+  <rect x="85" y="298" width="36" height="36" rx="8" fill="#10B981"/>
+  <text x="103" y="325" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" fill="#FFFFFF">✓</text>
+  <text x="140" y="323" font-family="Arial,sans-serif" font-size="24" fill="#FFFFFF">돌봄 대상이 부모·배우자·자녀·배우자 부모에 해당</text>
+
+  <!-- 체크 항목 2 -->
+  <rect x="60" y="375" width="960" height="80" rx="14" fill="rgba(255,255,255,0.06)"/>
+  <rect x="85" y="398" width="36" height="36" rx="8" fill="#10B981"/>
+  <text x="103" y="425" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" fill="#FFFFFF">✓</text>
+  <text x="140" y="423" font-family="Arial,sans-serif" font-size="24" fill="#FFFFFF">근속 6개월 이상 확인 (가족돌봄휴직)</text>
+
+  <!-- 체크 항목 3 -->
+  <rect x="60" y="475" width="960" height="80" rx="14" fill="rgba(255,255,255,0.06)"/>
+  <rect x="85" y="498" width="36" height="36" rx="8" fill="#10B981"/>
+  <text x="103" y="525" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" fill="#FFFFFF">✓</text>
+  <text x="140" y="523" font-family="Arial,sans-serif" font-size="24" fill="#FFFFFF">휴직: 30일 전 서면 신청 / 휴가: 긴급 시 당일 가능</text>
+
+  <!-- 체크 항목 4 -->
+  <rect x="60" y="575" width="960" height="80" rx="14" fill="rgba(255,255,255,0.06)"/>
+  <rect x="85" y="598" width="36" height="36" rx="8" fill="#10B981"/>
+  <text x="103" y="625" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" fill="#FFFFFF">✓</text>
+  <text x="140" y="623" font-family="Arial,sans-serif" font-size="24" fill="#FFFFFF">긴급돌봄비용: 가족돌봄휴가 확인서 (사업주 발급) 준비</text>
+
+  <!-- 체크 항목 5 -->
+  <rect x="60" y="675" width="960" height="80" rx="14" fill="rgba(255,255,255,0.06)"/>
+  <rect x="85" y="698" width="36" height="36" rx="8" fill="#10B981"/>
+  <text x="103" y="725" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" fill="#FFFFFF">✓</text>
+  <text x="140" y="723" font-family="Arial,sans-serif" font-size="24" fill="#FFFFFF">경기도 돌봄수당: 매달 1~15일 신청 기간 확인</text>
+
+  <!-- 체크 항목 6 -->
+  <rect x="60" y="775" width="960" height="80" rx="14" fill="rgba(255,255,255,0.06)"/>
+  <rect x="85" y="798" width="36" height="36" rx="8" fill="#10B981"/>
+  <text x="103" y="825" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" fill="#FFFFFF">✓</text>
+  <text x="140" y="823" font-family="Arial,sans-serif" font-size="24" fill="#FFFFFF">서울 돌봄SOS: 120다산콜 또는 동 주민센터 연락</text>
+
+  <!-- 체크 항목 7 -->
+  <rect x="60" y="875" width="960" height="80" rx="14" fill="rgba(255,255,255,0.06)"/>
+  <rect x="85" y="898" width="36" height="36" rx="8" fill="#10B981"/>
+  <text x="103" y="925" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" fill="#FFFFFF">✓</text>
+  <text x="140" y="923" font-family="Arial,sans-serif" font-size="24" fill="#FFFFFF">소득 기준 (중위 150%/100%) 해당 여부 사전 확인</text>
+
+  <text x="60" y="1010" font-family="Arial,sans-serif" font-size="18" fill="#94A3B8">※ 지자체 예산·공고에 따라 변동될 수 있습니다</text>
+  <text x="60" y="1040" font-family="Arial,sans-serif" font-size="18" fill="#94A3B8">   신청 전 공식 공고/FAQ 확인 필수</text>
+</svg>

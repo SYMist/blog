@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#15803D"/>
+      <stop offset="100%" stop-color="#14532d"/>
+    </linearGradient>
+    <linearGradient id="tealGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0F766E"/>
+      <stop offset="100%" stop-color="#134E4A"/>
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#4c1d95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <circle cx="920" cy="160" r="220" fill="#0F766E" fill-opacity="0.08"/>
+  <circle cx="160" cy="920" r="180" fill="#7C3AED" fill-opacity="0.08"/>
+
+  <!-- Chips -->
+  <rect x="40" y="40" width="120" height="34" rx="17" fill="#0F766E" fill-opacity="0.3" stroke="#0F766E" stroke-width="1.5"/>
+  <text x="100" y="63" text-anchor="middle" fill="#99F6E4" font-size="14" font-weight="700" font-family="sans-serif">건강·의료</text>
+
+  <rect x="176" y="40" width="140" height="34" rx="17" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="246" y="63" text-anchor="middle" fill="#94A3B8" font-size="14" font-family="sans-serif">2026.05 기준</text>
+
+  <rect x="332" y="40" width="160" height="34" rx="17" fill="#14532d" stroke="#15803D" stroke-width="1.5"/>
+  <text x="412" y="63" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">3종 시력교정</text>
+
+  <!-- Title -->
+  <text x="540" y="180" text-anchor="middle" fill="#FFFFFF" font-size="42" font-weight="800" font-family="sans-serif">라섹 · 스마일라식 · ICL</text>
+  <text x="540" y="234" text-anchor="middle" fill="#FFFFFF" font-size="42" font-weight="800" font-family="sans-serif">3종 비용·회복 비교</text>
+  <text x="540" y="282" text-anchor="middle" fill="#99F6E4" font-size="22" font-weight="600" font-family="sans-serif">예산·휴가·근시별 결정 (2026)</text>
+
+  <rect x="200" y="310" width="680" height="3" rx="1.5" fill="#0F766E" fill-opacity="0.6"/>
+
+  <!-- Key stat -->
+  <rect x="160" y="330" width="760" height="80" rx="16" fill="#1e293b" fill-opacity="0.9" stroke="#334155" stroke-width="1.5"/>
+  <text x="540" y="368" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="700" font-family="sans-serif">비용 vs 회복기간 트레이드오프</text>
+  <text x="540" y="398" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">최대 6배 가격차 · 라섹 1~2주 vs ICL 즉시</text>
+
+  <!-- 3 cards stacked -->
+  <rect x="40" y="430" width="1000" height="155" rx="14" fill="url(#greenGrad)" fill-opacity="0.85" stroke="#15803D" stroke-width="2"/>
+  <text x="60" y="466" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">라섹 — 100~200만 (가성비 최고)</text>
+  <text x="60" y="498" fill="#86EFAC" font-size="18" font-weight="700" font-family="sans-serif">회복 3~7일 + 1~2개월 · 통증 큼</text>
+  <text x="60" y="530" fill="#CBD5E1" font-size="15" font-family="sans-serif">✅ 예산 적·가성비 최강 · 각막 보존도 우수</text>
+  <text x="60" y="558" fill="#CBD5E1" font-size="15" font-family="sans-serif">— 휴가 1~2주 가능 + 통증 감수 가능한 직장인용</text>
+
+  <rect x="40" y="595" width="1000" height="155" rx="14" fill="url(#tealGrad)" fill-opacity="0.85" stroke="#0F766E" stroke-width="2"/>
+  <text x="60" y="631" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">스마일라식 — 200~350만 (균형)</text>
+  <text x="60" y="663" fill="#99F6E4" font-size="18" font-weight="700" font-family="sans-serif">회복 1~3일 · 통증 적음</text>
+  <text x="60" y="695" fill="#CBD5E1" font-size="15" font-family="sans-serif">✅ 통증·회복·예산 균형 · 직장인 휴가 3~5일에 적합</text>
+  <text x="60" y="723" fill="#CBD5E1" font-size="15" font-family="sans-serif">— 각막 절편 영향 약간 · 영구적 변화 (가역성 X)</text>
+
+  <rect x="40" y="760" width="1000" height="155" rx="14" fill="url(#purpleGrad)" fill-opacity="0.85" stroke="#7C3AED" stroke-width="2"/>
+  <text x="60" y="796" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">ICL — 470~600만 (각막 보존·가역)</text>
+  <text x="60" y="828" fill="#DDD6FE" font-size="18" font-weight="700" font-family="sans-serif">회복 즉시~1일 · 통증 거의 없음 · 평생 검진</text>
+  <text x="60" y="860" fill="#CBD5E1" font-size="15" font-family="sans-serif">✅ 고도근시 가능 · 각막 보존 · 렌즈 제거 가능 (가역)</text>
+  <text x="60" y="888" fill="#CBD5E1" font-size="15" font-family="sans-serif">— 각막 480μm 이하·-8D+ 고도근시는 ICL 외 선택지 없음</text>
+
+  <!-- Bottom note -->
+  <rect x="40" y="940" width="1000" height="80" rx="12" fill="#1e293b" fill-opacity="0.7" stroke="#334155" stroke-width="1.5"/>
+  <text x="540" y="970" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="800" font-family="sans-serif">결정 변수 = 예산 + 휴가 + 근시 도수 + 각막 두께</text>
+  <text x="540" y="998" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">안과 정밀검사 후 본인 조건 기준 결정 · 병원별 30~50% 가격 차이 있음</text>
+
+  <text x="40" y="1060" fill="#64748B" font-size="13" font-family="sans-serif">essencial | 건강·의료 · 2026.05 기준 · 시력교정술은 의료행위 · 안과 전문의 정밀검사·상담 필수</text>
+</svg>

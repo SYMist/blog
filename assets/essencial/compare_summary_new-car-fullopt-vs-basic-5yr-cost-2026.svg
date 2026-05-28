@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 640">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#15803D"/>
+      <stop offset="100%" stop-color="#14532d"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E40AF"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="640" fill="url(#bg)"/>
+
+  <text x="540" y="58" text-anchor="middle" fill="#FFFFFF" font-size="30" font-weight="800" font-family="sans-serif">신차 풀옵션 vs 깡통 5년 TCO 비교</text>
+  <text x="540" y="92" text-anchor="middle" fill="#93C5FD" font-size="16" font-family="sans-serif">쏘나타급 중형 세단 · 연 1만 5천km · 2026.05 기준</text>
+
+  <!-- Key stat -->
+  <rect x="180" y="116" width="720" height="76" rx="14" fill="#1e293b" fill-opacity="0.9" stroke="#334155" stroke-width="1.5"/>
+  <text x="540" y="148" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="700" font-family="sans-serif">옵션비 1,300만원 → 5년 후 650만원만 회수</text>
+  <text x="540" y="180" text-anchor="middle" fill="#FFFFFF" font-size="26" font-weight="800" font-family="sans-serif">5년 TCO 차이 약 883만원 · 월 약 15만원</text>
+
+  <!-- Two cards -->
+  <rect x="40" y="216" width="495" height="370" rx="18" fill="url(#greenGrad)" fill-opacity="0.9" stroke="#15803D" stroke-width="2"/>
+  <text x="288" y="262" text-anchor="middle" fill="#FFFFFF" font-size="26" font-weight="800" font-family="sans-serif">깡통 (기본 트림)</text>
+  <text x="288" y="290" text-anchor="middle" fill="#86EFAC" font-size="15" font-family="sans-serif">쏘나타급 · 2,346만원 · 12km/L</text>
+  <line x1="70" y1="312" x2="505" y2="312" stroke="#14532d" stroke-width="1.5"/>
+  <text x="288" y="354" text-anchor="middle" fill="#86EFAC" font-size="28" font-weight="800" font-family="sans-serif">5년 TCO 약 2,927만원</text>
+  <text x="288" y="384" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="700" font-family="sans-serif">월 약 49만원</text>
+  <line x1="70" y1="406" x2="505" y2="406" stroke="#14532d" stroke-width="1.5"/>
+  <text x="80" y="438" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">✅ 옵션비 손실 0원</text>
+  <text x="80" y="464" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">✅ 연비 12km/L (무게↓)</text>
+  <text x="80" y="490" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">✅ 5년 자비 절감 883만원</text>
+  <text x="80" y="516" fill="#FFFFFF" font-size="14" font-family="sans-serif">— 안전·편의 옵션 제한적</text>
+  <rect x="80" y="538" width="416" height="32" rx="8" fill="#15803D" fill-opacity="0.4"/>
+  <text x="288" y="560" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">단기 보유·가성비 우선이면 선택</text>
+
+  <rect x="545" y="216" width="495" height="370" rx="18" fill="url(#blueGrad)" fill-opacity="0.9" stroke="#3B82F6" stroke-width="2"/>
+  <text x="793" y="262" text-anchor="middle" fill="#FFFFFF" font-size="26" font-weight="800" font-family="sans-serif">풀옵션 (최상위 트림)</text>
+  <text x="793" y="290" text-anchor="middle" fill="#BFDBFE" font-size="15" font-family="sans-serif">쏘나타급 · 3,646만원 · 11km/L</text>
+  <line x1="575" y1="312" x2="1010" y2="312" stroke="#1e3a8a" stroke-width="1.5"/>
+  <text x="793" y="354" text-anchor="middle" fill="#BFDBFE" font-size="28" font-weight="800" font-family="sans-serif">5년 TCO 약 3,810만원</text>
+  <text x="793" y="384" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="700" font-family="sans-serif">월 약 64만원</text>
+  <line x1="575" y1="406" x2="1010" y2="406" stroke="#1e3a8a" stroke-width="1.5"/>
+  <text x="585" y="438" fill="#67E8F9" font-size="14" font-weight="700" font-family="sans-serif">✅ 안전·편의 옵션 풀</text>
+  <text x="585" y="464" fill="#67E8F9" font-size="14" font-weight="700" font-family="sans-serif">✅ 절대 잔존가치 1,823만원</text>
+  <text x="585" y="490" fill="#FCA5A5" font-size="14" font-weight="700" font-family="sans-serif">❌ 옵션비 650만원 순손실</text>
+  <text x="585" y="516" fill="#FFFFFF" font-size="14" font-family="sans-serif">— 회수율 50% (안전 65%, HUD 30%)</text>
+  <rect x="585" y="538" width="416" height="32" rx="8" fill="#1E40AF" fill-opacity="0.4"/>
+  <text x="793" y="560" text-anchor="middle" fill="#BFDBFE" font-size="14" font-weight="700" font-family="sans-serif">5년+ 장기·편의 우선이면 선택</text>
+
+  <text x="40" y="618" fill="#64748B" font-size="13" font-family="sans-serif">essencial | 자동차 · 2026.05 기준 · 인기 옵션만 추가(약 430만원) 시 회수율 65% 최적</text>
+</svg>

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 배경 -->
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- 장식 원형 -->
+  <circle cx="900" cy="180" r="280" fill="#1A3270" opacity="0.4"/>
+  <circle cx="160" cy="900" r="200" fill="#0D2347" opacity="0.5"/>
+
+  <!-- 배지 -->
+  <rect x="60" y="60" width="180" height="52" rx="26" fill="#F59E0B"/>
+  <text x="150" y="93" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="28" font-weight="800" fill="#0B1F3B" text-anchor="middle">2026 최신</text>
+
+  <!-- 메인 제목 -->
+  <text x="60" y="200" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="72" font-weight="900" fill="#FFFFFF">일용직·아르바이트</text>
+  <text x="60" y="286" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="72" font-weight="900" fill="#FFFFFF">건강보험</text>
+  <text x="60" y="372" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="72" font-weight="900" fill="#34D399">가입 기준</text>
+  <text x="60" y="458" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="72" font-weight="900" fill="#FFFFFF">완전 정리</text>
+
+  <!-- 서브 텍스트 -->
+  <text x="60" y="540" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="36" fill="#EAF2FF">직장가입자 기준 · 피부양자 소득·재산 요건</text>
+  <text x="60" y="584" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="36" fill="#EAF2FF">90일 소급 신청 방법까지</text>
+
+  <!-- 구분선 -->
+  <rect x="60" y="620" width="540" height="4" rx="2" fill="#34D399"/>
+
+  <!-- 핵심 포인트 카드 -->
+  <rect x="60" y="652" width="960" height="200" rx="20" fill="#0D2347"/>
+
+  <!-- 포인트 1 -->
+  <text x="140" y="706" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="30" font-weight="800" fill="#34D399" text-anchor="middle">📋</text>
+  <text x="300" y="700" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">직장가입자 기준</text>
+  <text x="300" y="730" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="23" fill="#A0B4D0">1개월 이상 + 월 60시간 이상</text>
+
+  <rect x="80" y="752" width="440" height="2" fill="#1A3270"/>
+
+  <!-- 포인트 2 -->
+  <text x="300" y="796" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">피부양자 소득 기준</text>
+  <text x="300" y="826" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="23" fill="#A0B4D0">연 2,000만 원 이하 (2024년 강화)</text>
+
+  <!-- 수직 구분선 -->
+  <rect x="540" y="672" width="2" height="160" fill="#1A3270"/>
+
+  <!-- 포인트 3 -->
+  <text x="780" y="700" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">90일 소급 기한</text>
+  <text x="780" y="730" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="23" fill="#A0B4D0">취득일 이내 신청 → 소급 가능</text>
+
+  <rect x="560" y="752" width="440" height="2" fill="#1A3270"/>
+
+  <text x="780" y="796" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="700" fill="#F59E0B">금융소득 1,000만↓</text>
+  <text x="780" y="826" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="23" fill="#A0B4D0">피부양자 소득 계산서 제외</text>
+
+  <!-- 하단 칩 -->
+  <rect x="60" y="876" width="220" height="52" rx="26" fill="#E8F0FF"/>
+  <text x="170" y="909" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="700" fill="#1D4ED8" text-anchor="middle">직장가입자 기준</text>
+
+  <rect x="298" y="876" width="200" height="52" rx="26" fill="#E8F0FF"/>
+  <text x="398" y="909" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="700" fill="#1D4ED8" text-anchor="middle">피부양자 조건</text>
+
+  <rect x="516" y="876" width="200" height="52" rx="26" fill="#E8F0FF"/>
+  <text x="616" y="909" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="700" fill="#1D4ED8" text-anchor="middle">90일 소급신청</text>
+
+  <!-- 출처 -->
+  <text x="540" y="996" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#4A6080" text-anchor="middle">deluxo · 2026년 5월 기준</text>
+</svg>

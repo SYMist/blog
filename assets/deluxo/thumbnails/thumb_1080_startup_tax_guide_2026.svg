@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="60%" stop-color="#102A56"/>
+      <stop offset="100%" stop-color="#0B1F3B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#FBBF24"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="10" fill="url(#accent)"/>
+
+  <!-- Chips -->
+  <rect x="60" y="72" width="156" height="46" rx="23" fill="#1D4ED8"/>
+  <text x="138" y="102" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#E8F0FF" text-anchor="middle">2026 최신</text>
+
+  <rect x="228" y="72" width="220" height="46" rx="23" fill="#1D4ED8"/>
+  <text x="338" y="102" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#E8F0FF" text-anchor="middle">청년 최대 100%</text>
+
+  <rect x="460" y="72" width="220" height="46" rx="23" fill="#EF4444" opacity="0.8"/>
+  <text x="570" y="102" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF" text-anchor="middle">감면 신청 필수</text>
+
+  <!-- Main Title -->
+  <text x="540" y="226" font-family="-apple-system, sans-serif" font-size="54" font-weight="900" fill="#FFFFFF" text-anchor="middle">소상공인 창업 초기</text>
+  <text x="540" y="296" font-family="-apple-system, sans-serif" font-size="54" font-weight="900" fill="#FFFFFF" text-anchor="middle">세금 신고 완전 가이드</text>
+  <text x="540" y="366" font-family="-apple-system, sans-serif" font-size="54" font-weight="900" fill="#F59E0B" text-anchor="middle">(2026)</text>
+
+  <!-- Subtitle -->
+  <text x="540" y="424" font-family="-apple-system, sans-serif" font-size="24" font-weight="700" fill="#EAF2FF" text-anchor="middle">사업자등록·부가세·종소세·청년창업 감면 총정리</text>
+
+  <!-- Divider -->
+  <rect x="180" y="454" width="720" height="3" fill="#F59E0B" rx="2"/>
+
+  <!-- Key Stats Row -->
+  <rect x="60" y="494" width="290" height="160" rx="20" fill="#1A3270"/>
+  <text x="205" y="554" font-family="-apple-system, sans-serif" font-size="17" font-weight="700" fill="#F59E0B" text-anchor="middle">사업자등록 기한</text>
+  <text x="205" y="608" font-family="-apple-system, sans-serif" font-size="44" font-weight="900" fill="#FFFFFF" text-anchor="middle">20일</text>
+  <text x="205" y="638" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">개시 후 이내 의무</text>
+
+  <rect x="395" y="494" width="290" height="160" rx="20" fill="#1A3270"/>
+  <text x="540" y="554" font-family="-apple-system, sans-serif" font-size="17" font-weight="700" fill="#F59E0B" text-anchor="middle">비수도권 청년 감면</text>
+  <text x="540" y="608" font-family="-apple-system, sans-serif" font-size="44" font-weight="900" fill="#FFFFFF" text-anchor="middle">100%</text>
+  <text x="540" y="638" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">소득세 5년 전액 감면</text>
+
+  <rect x="730" y="494" width="290" height="160" rx="20" fill="#34D399" opacity="0.2"/>
+  <rect x="730" y="494" width="290" height="160" rx="20" fill="none" stroke="#34D399" stroke-width="2"/>
+  <text x="875" y="554" font-family="-apple-system, sans-serif" font-size="17" font-weight="700" fill="#34D399" text-anchor="middle">무신고 가산세</text>
+  <text x="875" y="608" font-family="-apple-system, sans-serif" font-size="44" font-weight="900" fill="#FFFFFF" text-anchor="middle">20%</text>
+  <text x="875" y="638" font-family="-apple-system, sans-serif" font-size="14" fill="#34D399" text-anchor="middle">부정 시 40%</text>
+
+  <!-- Info Row -->
+  <text x="540" y="732" font-family="-apple-system, sans-serif" font-size="21" font-weight="700" fill="#EAF2FF" text-anchor="middle">부가세 1월·7월 | 종소세 5월 | 원천세 매월</text>
+
+  <!-- Bottom Highlights -->
+  <rect x="60" y="770" width="960" height="130" rx="16" fill="#1A3270"/>
+  <text x="540" y="818" font-family="-apple-system, sans-serif" font-size="20" font-weight="700" fill="#F59E0B" text-anchor="middle">청년창업 세액감면은 종소세 신고 시 직접 신청 — 자동 미적용!</text>
+  <text x="540" y="852" font-family="-apple-system, sans-serif" font-size="18" fill="#EAF2FF" text-anchor="middle">사업자등록: hometax.go.kr | 신고: hometax.go.kr | 안내: nts.go.kr</text>
+  <text x="540" y="886" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">세금 신고 문의 ☎ 국세청 126</text>
+
+  <!-- Footer note -->
+  <text x="540" y="964" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준 | 개인 상황에 따라 달라질 수 있음</text>
+
+  <rect x="0" y="1070" width="1080" height="10" fill="url(#accent)"/>
+</svg>

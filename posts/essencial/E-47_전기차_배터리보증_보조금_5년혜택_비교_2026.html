@@ -1,0 +1,447 @@
+<!-- essencial_template_auto.html 기반 -->
+<!-- E-47: 전기차 배터리 보증 기간 비교 + 보조금 5년 혜택 시뮬레이션 (2026) -->
+
+<!-- ✅ Schema.org 구조화 데이터 -->
+<div style="display:none">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "전기차 배터리 보증 기간 비교 + 보조금 5년 혜택 시뮬레이션 (2026)",
+      "description": "현대·기아 10년/20만km vs 테슬라·BMW 8년/16만km. 2026년 국고보조금 최대 680만원 + 지자체 합산 혜택·5년 절감 시뮬레이션까지 한번에 정리.",
+      "datePublished": "2026-05-07",
+      "dateModified": "2026-05-07",
+      "author": {"@type": "Person", "name": "essencial"},
+      "publisher": {"@type": "Organization", "name": "essencial"}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "전기차 배터리 보증 기간은 브랜드마다 다른가요?", "acceptedAnswer": {"@type": "Answer", "text": "네. 현대·기아·제네시스는 개인 최초 구매 고객 기준 10년/20만km(SOH 70% 이상)를 보증합니다. 테슬라 모델3·Y는 8년/16만km, 모델S·X는 8년/24만km, BMW·벤츠는 8년/16만km입니다. 2026년 기준 현대·기아가 업계 최장 보증을 제공합니다."}},
+        {"@type": "Question", "name": "2026년 전기차 국고보조금은 얼마인가요?", "acceptedAnswer": {"@type": "Answer", "text": "중·대형 승용 기준 기본 최대 580만원이며, 내연기관 차량을 처분하고 전기차로 교체하면 전환지원금 100만원이 추가되어 최대 680만원까지 받을 수 있습니다. 지자체 보조금은 서울 150만원부터 지방 최대 1,100만원까지 지역별로 큰 차이가 있습니다."}},
+        {"@type": "Question", "name": "SOH 70%는 실제로 어떤 의미인가요?", "acceptedAnswer": {"@type": "Answer", "text": "SOH(State of Health)는 배터리 건강도입니다. 신차 기준 300km 주행이 가능한 배터리라면, 보증 기간 내 최소 210km(70%) 이상 주행 가능한 상태를 유지한다는 의미입니다. 실제로 5년 후 현대·기아 전기차는 85~90% 수준을 유지하는 경우가 많아 보증 기준보다 여유가 있습니다."}},
+        {"@type": "Question", "name": "보조금을 받고 2년 안에 차를 팔면 어떻게 되나요?", "acceptedAnswer": {"@type": "Answer", "text": "의무운행기간(지역별 2~5년) 내 차량을 판매·명의이전·폐차하면 보조금 전액 또는 일부를 환수합니다. 서울시는 2년 내 타지역 판매 시 지방비 전액 환수가 가능합니다. 단, 교통사고·천재지변으로 인한 불가피한 폐차는 면책됩니다."}},
+        {"@type": "Question", "name": "배터리 보증 기간이 지나면 교체 비용이 얼마나 드나요?", "acceptedAnswer": {"@type": "Answer", "text": "배터리 용량과 차종에 따라 다르지만, 현대 아이오닉5(72.6kWh) 기준 약 1,400~1,700만원, 테슬라 모델Y 롱레인지(75kWh)는 약 1,700~2,200만원입니다. 다만 5년 후 실제 성능 저하율은 5~15% 수준으로 대부분의 전기차는 보증 만료 이후에도 즉시 교체가 필요하지 않습니다."}},
+        {"@type": "Question", "name": "취득세 감면 140만원은 어떻게 신청하나요?", "acceptedAnswer": {"@type": "Answer", "text": "별도 신청 없이 전기차 등록 시 취득세에서 최대 140만원이 자동 공제됩니다. 단, 취득세 감면을 받은 후 1년 이내에 차량을 매각하거나 용도를 변경하면 추징될 수 있으므로 주의가 필요합니다. 이 혜택은 2026년 12월 31일까지 적용됩니다."}}
+      ]
+    }
+  ]
+}
+</script>
+</div>
+
+<style>
+  :root{
+    --pri:#1E40AF; --pri2:#1D4ED8;
+    --white:#FFFFFF; --text:#111827;
+    --muted:#4B5563; --border:#E5E7EB;
+    --bg:#F9FAFB; --accent:#EFF6FF;
+  }
+  .wrap{max-width:860px;margin:0 auto;line-height:1.8;color:var(--text);}
+  .meta{color:var(--muted);font-size:.95rem;margin:6px 0 18px;}
+  .badge{display:inline-block;background:var(--accent);border:1px solid #BFDBFE;padding:3px 10px;border-radius:999px;font-size:.85rem;margin-right:8px;}
+  .notice{background:#FFF7ED;border:1px solid #FED7AA;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .conclusion{background:#EFF6FF;border:1px solid #BFDBFE;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .toc{background:var(--bg);border:1px solid var(--border);padding:14px 16px;border-radius:12px;margin:16px 0 22px;}
+  .toc a{text-decoration:none;color:var(--pri);}
+  .toc ul{margin:8px 0 0 18px;}
+
+  .wrap a.btn,.wrap a.btn:link,.wrap a.btn:visited{
+    display:inline-flex;align-items:center;justify-content:center;
+    padding:10px 14px;border-radius:10px;border:1px solid var(--pri);
+    background:var(--pri) !important;color:var(--white) !important;
+    text-decoration:none !important;font-weight:800;
+  }
+  .wrap a.btn:hover{background:var(--pri2) !important;}
+  .wrap a.btn.secondary,.wrap a.btn.secondary:link,.wrap a.btn.secondary:visited{
+    background:var(--white) !important;color:var(--pri) !important;border-color:var(--pri) !important;
+  }
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 6px;}
+
+  table{width:100%;border-collapse:collapse;margin:14px 0 10px;}
+  th,td{border:1px solid var(--border);padding:10px;vertical-align:top;}
+  th{background:#F3F4F6;text-align:left;}
+  .small{font-size:.95rem;color:var(--muted);}
+  h1{margin:0 0 8px;line-height:1.25;}
+  h2{margin-top:30px;padding-top:8px;border-top:1px solid var(--border);}
+  h3{margin-top:16px;}
+  .q{font-weight:900;margin:14px 0 6px;}
+  .a{margin:0 0 10px;}
+  .highlight{background:#F0FDF4;border:1px solid #BBF7D0;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .warning{background:#FEF2F2;border:1px solid #FECACA;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .cost-sim{background:#FEFCE8;border:1px solid #FDE68A;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .scope{background:#F8FAFC;border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .scope ul{margin:4px 0 0 18px;}
+  .action-steps{background:#EFF6FF;border:1px solid #BFDBFE;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .action-steps ol{margin:8px 0 0 18px;}
+  .sources{background:var(--bg);border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:14px 0;font-size:.9rem;}
+  .sources ul{margin:4px 0 0 18px;}
+  .footer{margin-top:26px;padding-top:14px;border-top:1px solid var(--border);color:var(--muted);font-size:.95rem;}
+</style>
+
+<div class="wrap">
+  <h1>전기차 배터리 보증 기간 비교 + 보조금 5년 혜택 시뮬레이션 (2026)</h1>
+  <div class="meta">
+    <span class="badge">자동차</span>
+    <span class="badge">업데이트: 2026-05-07</span>
+  </div>
+
+  <div class="notice">
+    <strong>먼저 확인!</strong><br/>
+    2026년 전기차 보조금은 지자체별로 예산 소진 시 조기 마감됩니다. 서울·수도권은 상반기 내 소진 가능성이 있으므로 구매 계획이 있다면 일찍 신청하는 것이 유리합니다.
+  </div>
+
+  <p class="small">
+    현대·기아 전기차는 10년/20만km 배터리 보증으로 업계 최장 조건을 제공하며, 2026년 국고보조금 최대 680만원(전환지원금 포함)에 지자체 보조금·취득세 감면까지 합산하면 5년간 최대 1,600만원 이상 절감이 가능합니다. 브랜드별 보증 차이와 실제 혜택 계산을 한 번에 확인하세요.
+  </p>
+
+  <!-- ✅ 이 글의 범위 (스코핑) -->
+  <div class="scope">
+    <strong>이 글에서 다루는 것</strong>
+    <ul>
+      <li>브랜드별 배터리 보증 기간·km 기준·SOH 조건 비교 (2026년 기준)</li>
+      <li>2026년 국고보조금·지자체 보조금·세제혜택 현황 및 5년 혜택 시뮬레이션</li>
+      <li>보조금 환수·배터리 보증 면책 등 자주 놓치는 조건</li>
+    </ul>
+    <strong>다루지 않는 것</strong>
+    <ul>
+      <li>특정 차종의 주행거리·성능·디자인 비교 (제조사 공식 사이트 참고)</li>
+    </ul>
+  </div>
+
+  <!-- ✅ 섹션 1: 결론 먼저 -->
+  <div class="conclusion" id="top">
+    <h2 style="border-top:none;margin-top:0;">✅ 결론 먼저: 상황별 추천</h2>
+    <ul>
+      <li><strong>배터리 보증을 최대화하려면</strong> → <strong>현대·기아·제네시스</strong> (10년/20만km, 업계 최장)</li>
+      <li><strong>보조금을 최대한 받으려면</strong> → <strong>지방 거주자 우선</strong> (지자체 최대 1,100만원 추가, 합산 최대 1,680만원)</li>
+      <li><strong>내연차 처분 후 교체 시</strong> → <strong>전환지원금 100만원 추가</strong>, 5년 총 절감 최대 1,200만원 이상</li>
+    </ul>
+  </div>
+
+  <!-- ✅ 이미지 1: 비교 요약 카드 -->
+  <img src="compare_summary_ev-battery-warranty-subsidy-5year-2026.png" alt="전기차 배터리 보증 vs 보조금 5년 혜택 비교 요약" style="width:100%;margin:16px 0;" />
+
+  <div class="toc">
+    <strong>목차</strong>
+    <ul>
+      <li><a href="#warranty">1) 브랜드별 배터리 보증 비교표</a></li>
+      <li><a href="#subsidy">2) 2026년 보조금 현황</a></li>
+      <li><a href="#sim">3) 5년 혜택 시뮬레이션</a></li>
+      <li><a href="#steps">4) 보조금 신청 절차</a></li>
+      <li><a href="#docs">5) 신청 필요 서류</a></li>
+      <li><a href="#scenario">6) 상황별 추천 시나리오</a></li>
+      <li><a href="#caution">7) 주의사항</a></li>
+      <li><a href="#experience">자주 놓치는 포인트와 실수 사례</a></li>
+      <li><a href="#faq">8) FAQ</a></li>
+      <li><a href="#update">업데이트 로그</a></li>
+    </ul>
+  </div>
+
+  <!-- ✅ 섹션 2: 브랜드별 배터리 보증 비교 -->
+  <h2 id="warranty">1) 브랜드별 배터리 보증 비교표</h2>
+  <h3>보증 기간이 가장 긴 브랜드는 어디인가요?</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>브랜드</th>
+        <th>모델 예시</th>
+        <th>보증 기간</th>
+        <th>km 기준</th>
+        <th>SOH 기준</th>
+        <th>비고</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>현대</strong></td>
+        <td>아이오닉5·6, 코나</td>
+        <td><strong>10년</strong></td>
+        <td>20만km</td>
+        <td>70% 이상</td>
+        <td>개인 최초 구매 고객</td>
+      </tr>
+      <tr>
+        <td><strong>기아</strong></td>
+        <td>EV6·EV9·EV3</td>
+        <td><strong>10년</strong></td>
+        <td>16~20만km</td>
+        <td>70% 이상</td>
+        <td>개인 최초 구매 고객</td>
+      </tr>
+      <tr>
+        <td><strong>제네시스</strong></td>
+        <td>GV60·GV80e</td>
+        <td><strong>10년</strong></td>
+        <td>20만km</td>
+        <td>70% 이상</td>
+        <td>개인 최초 구매 고객</td>
+      </tr>
+      <tr>
+        <td><strong>테슬라</strong></td>
+        <td>모델3·Y</td>
+        <td>8년</td>
+        <td>16만km</td>
+        <td>70% 이상</td>
+        <td>표준 보증</td>
+      </tr>
+      <tr>
+        <td><strong>테슬라</strong></td>
+        <td>모델S·X</td>
+        <td>8년</td>
+        <td>24만km</td>
+        <td>70% 이상</td>
+        <td>장거리 모델</td>
+      </tr>
+      <tr>
+        <td><strong>BMW</strong></td>
+        <td>iX·i4·i5</td>
+        <td>8년</td>
+        <td>16만km</td>
+        <td>70% 이상</td>
+        <td>표준 보증</td>
+      </tr>
+      <tr>
+        <td><strong>벤츠</strong></td>
+        <td>EQS·EQE</td>
+        <td>8년</td>
+        <td>16만km</td>
+        <td>70% 이상</td>
+        <td>표준 보증</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="small">※ 2026년 5월 기준. 개인 최초 구매 조건은 최초 등록 차량 기준. 차종별 상세 조건은 각 제조사 공식 사이트 확인 필요.</p>
+
+  <h3>SOH 70%는 실제로 어느 정도 주행 가능하다는 뜻인가요?</h3>
+  <p>SOH(State of Health)는 배터리 건강도입니다. 예를 들어 아이오닉6의 공인 주행거리가 429km라면, 보증 기간 내 최소 300km(429km × 70%) 이상은 유지된다는 보장입니다. 5년 후 현대·기아 전기차의 실제 SOH는 평균 85~90% 수준으로 보증 기준보다 양호한 경우가 많습니다.</p>
+
+  <!-- ✅ 이미지 2: 비교 매트릭스 카드 -->
+  <img src="compare_matrix_ev-battery-warranty-subsidy-5year-2026.png" alt="전기차 배터리 보증 브랜드별 상세 비교 매트릭스" style="width:100%;margin:16px 0;" />
+
+  <!-- ✅ 섹션 3: 2026년 보조금 현황 -->
+  <h2 id="subsidy">2) 2026년 전기차 보조금 현황</h2>
+  <h3>국고보조금과 지자체 보조금을 합산하면 얼마나 받을 수 있나요?</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>보조금 종류</th>
+        <th>금액</th>
+        <th>조건</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>국고보조금 (기본)</strong></td>
+        <td>최대 580만원</td>
+        <td>중·대형 승용 기준</td>
+      </tr>
+      <tr>
+        <td><strong>전환지원금</strong></td>
+        <td>추가 100만원</td>
+        <td>내연차 처분 후 전기차 교체 시</td>
+      </tr>
+      <tr>
+        <td><strong>국고 합계</strong></td>
+        <td><strong>최대 680만원</strong></td>
+        <td>전환지원금 포함 시</td>
+      </tr>
+      <tr>
+        <td><strong>서울시 지자체</strong></td>
+        <td>150만원</td>
+        <td>서울 거주자</td>
+      </tr>
+      <tr>
+        <td><strong>지방 지자체</strong></td>
+        <td>최대 1,100만원</td>
+        <td>농어촌 지역 (지역별 큰 차이)</td>
+      </tr>
+      <tr>
+        <td><strong>취득세 감면</strong></td>
+        <td>최대 140만원</td>
+        <td>2026년 12월 31일까지</td>
+      </tr>
+      <tr>
+        <td><strong>서울 거주 합산 최대</strong></td>
+        <td><strong>약 970만원</strong></td>
+        <td>국고 680만원 + 서울 150만원 + 취득세 140만원</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="small">※ 2026년 5월 기준. 차종·지역·보조금 예산 잔액에 따라 달라집니다. 무공해차 통합누리집(ev.or.kr)에서 차종별 최신 보조금 확인 가능.</p>
+
+  <!-- ✅ 섹션 4: 5년 혜택 시뮬레이션 -->
+  <h2 id="sim">3) 5년 혜택 시뮬레이션</h2>
+  <h3>전기차 5년 동안 실제로 얼마나 절약되나요?</h3>
+  <div class="cost-sim">
+    <strong>예시: 현대 아이오닉6 구매 / 서울 거주 / 내연차 처분 교체 기준</strong><br/><br/>
+    <table>
+      <thead>
+        <tr><th>혜택 항목</th><th>금액</th><th>산출 기준</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>국고보조금 (전환지원금 포함)</td><td>680만원</td><td>기본 580만원 + 100만원</td></tr>
+        <tr><td>서울시 지자체 보조금</td><td>150만원</td><td>서울 거주 기준</td></tr>
+        <tr><td>취득세 감면</td><td>140만원</td><td>2026년 한시 혜택</td></tr>
+        <tr><td>5년 유류비 절감</td><td>약 500만원</td><td>휘발유 대비 월 약 8~10만원 절감 × 60개월</td></tr>
+        <tr><td>5년 정비비 절감</td><td>약 200만원</td><td>엔진오일·냉각수 등 내연기관 정비 불필요</td></tr>
+        <tr><td><strong>5년 총 혜택</strong></td><td><strong>약 1,670만원</strong></td><td></td></tr>
+      </tbody>
+    </table>
+    <p class="small">※ 유류비 절감은 휘발유 리터당 1,700원, 연비 12km/L 기준 vs 전기요금 kWh당 250원, 전비 6km/kWh 기준. 실제 주행 패턴에 따라 다릅니다.</p>
+  </div>
+
+  <h3>내연기관 차 대비 5년 순 비용 차이는 얼마나 되나요?</h3>
+  <table>
+    <thead>
+      <tr><th>항목</th><th>내연기관차</th><th>전기차 (서울 기준)</th><th>절감액</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>보조금·세제혜택</td><td>0원</td><td>970만원</td><td><strong>+970만원</strong></td></tr>
+      <tr><td>5년 유류비</td><td>약 1,000만원</td><td>약 200만원 (전기료)</td><td><strong>+800만원</strong></td></tr>
+      <tr><td>5년 정비비</td><td>약 300만원</td><td>약 100만원</td><td><strong>+200만원</strong></td></tr>
+      <tr><td><strong>5년 총 절감</strong></td><td colspan="2">-</td><td><strong>약 1,200만원</strong></td></tr>
+    </tbody>
+  </table>
+  <p class="small">※ 차량 구매 가격이 동일하다고 가정. 실제 전기차 구매 가격은 동급 내연기관 대비 높을 수 있으므로 가격 차이 반영 필요.</p>
+
+  <!-- ✅ 섹션 5: 보조금 신청 절차 -->
+  <h2 id="steps">4) 보조금 신청 절차</h2>
+  <h3>전기차 보조금 신청은 어떻게 하나요?</h3>
+  <ol>
+    <li><strong>구매 계약 체결</strong>: 판매점에서 전기차 구매 계약서 작성</li>
+    <li><strong>보조금 신청</strong>: ev.or.kr(무공해차 통합누리집) 또는 판매점 대행 신청 (대부분 판매점에서 대행)</li>
+    <li><strong>지자체 심사</strong>: 거주지 지방자치단체에서 대상자 선정 (약 1~2주)</li>
+    <li><strong>차량 출고 및 신규 등록</strong>: 등록 완료 후 증빙서류 제출 (등록 10일 이내)</li>
+    <li><strong>보조금 지급</strong>: 서류 심사 완료 후 14일 이내 계좌 입금</li>
+  </ol>
+  <p>보조금은 선착순 소진 방식으로 운영되므로 <strong>상반기 내 신청</strong>이 유리합니다. 특히 서울·경기 등 수도권은 조기 소진 이력이 있습니다.</p>
+
+  <!-- ✅ 섹션 6: 필요 서류 -->
+  <h2 id="docs">5) 보조금 신청 서류</h2>
+  <table>
+    <thead>
+      <tr><th>서류</th><th>필요 여부</th><th>비고</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>신분증</td><td>✅ 필수</td><td>주민등록증·운전면허증</td></tr>
+      <tr><td>주민등록등본</td><td>✅ 필수</td><td>거주지 확인용</td></tr>
+      <tr><td>차량 구매 계약서</td><td>✅ 필수</td><td>판매점 발행</td></tr>
+      <tr><td>인감증명서 또는 서명확인서</td><td>✅ 필수</td><td>인감 또는 서명</td></tr>
+      <tr><td>통장사본</td><td>✅ 필수</td><td>보조금 지급 계좌</td></tr>
+      <tr><td>내연차 처분 증빙</td><td>전환지원금 신청 시</td><td>폐차 또는 이전등록 확인서</td></tr>
+    </tbody>
+  </table>
+  <p class="small">※ 실제 서류는 지자체별로 추가 요구 사항이 있을 수 있습니다. 신청 전 거주지 구청·시청에 확인하세요.</p>
+
+  <!-- ✅ 섹션 7: 시나리오 추천 -->
+  <div class="highlight" id="scenario">
+    <h3>🔍 당신의 상황에 맞는 선택은?</h3>
+    <ul>
+      <li><strong>현대·기아 전기차를 처음 구매하는 경우</strong> → <strong>10년/20만km 최장 배터리 보증</strong>, 배터리 교체 걱정 없이 10년 탈 수 있는 조건</li>
+      <li><strong>지방(농어촌) 거주자가 전기차 구매 시</strong> → <strong>지자체 보조금 최대 1,100만원 추가</strong>, 국고+지자체 합산 최대 1,780만원 수령 가능</li>
+      <li><strong>기존 내연기관차를 처분하고 교체하는 경우</strong> → <strong>전환지원금 100만원 추가</strong>, 빠른 신청으로 보조금 선점 필요</li>
+      <li><strong>5년 이내 차량 판매 계획이 있는 경우</strong> → <strong>보조금 환수 조건 확인 필수</strong>, 의무운행기간 내 판매 시 환수 위험</li>
+      <li><strong>수입 전기차(테슬라·BMW)를 선호하는 경우</strong> → <strong>8년/16만km 배터리 보증</strong>, 보증 기간은 현대·기아보다 짧으나 브랜드 선택 우선순위에 따라 결정</li>
+    </ul>
+  </div>
+
+  <!-- ✅ 이미지 3: 시나리오 추천 카드 -->
+  <img src="scenario_ev-battery-warranty-subsidy-5year-2026.png" alt="전기차 배터리 보증 보조금 상황별 추천 가이드" style="width:100%;margin:16px 0;" />
+
+  <!-- ✅ 지금 바로 확인하는 순서 -->
+  <div class="action-steps">
+    <strong>지금 바로 확인하는 순서</strong>
+    <ol>
+      <li>거주지 지자체 보조금 금액 확인 → ev.or.kr 접속 후 지역·차종 선택</li>
+      <li>구매 예정 차종의 배터리 보증 조건 확인 → 제조사 공식 사이트 보증 페이지</li>
+      <li>내연차 처분 계획 여부 확인 → 전환지원금 100만원 추가 수령 가능</li>
+      <li>보조금 신청 마감 여부 확인 → 지자체 예산 소진 전 조기 신청</li>
+    </ol>
+  </div>
+
+  <!-- ✅ 인아티클 광고 (시나리오 추천 직후) -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5716436301710258"
+       crossorigin="anonymous"></script>
+  <ins class="adsbygoogle"
+       style="display:block; text-align:center;"
+       data-ad-layout="in-article"
+       data-ad-format="fluid"
+       data-ad-client="ca-pub-5716436301710258"
+       data-ad-slot="2039167138"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+  <!-- ✅ 섹션 8: 주의사항 -->
+  <h2 id="caution">7) 주의사항</h2>
+  <div class="warning">
+    <ul>
+      <li><strong>보조금 환수</strong>: 의무운행기간(지역별 2~5년) 내 차량 판매·명의이전·폐차 시 보조금 전액 또는 일부 환수. 서울시는 2년 내 타지역 판매 시 지방비 전액 환수 가능</li>
+      <li><strong>취득세 감면 추징</strong>: 취득세 감면 후 1년 이내 매각·용도변경 시 추징. 2026년 12월 31일까지 한시 혜택이므로 연내 출고 필수</li>
+      <li><strong>배터리 보증 면책</strong>: 충방전에 따른 자연 성능 저하, 물리적 손상(사고·침수·개조), 비공식 정비소 수리 시 보증 미적용</li>
+      <li><strong>지자체 보조금 조기 소진</strong>: 서울·경기는 상반기 내 소진 이력. 하반기 신청 시 지자체 보조금 없이 국고만 수령 가능</li>
+    </ul>
+  </div>
+
+  <div class="btns">
+    <a class="btn" href="https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&amp;csmSeq=1404&amp;ccfNo=2&amp;cciNo=1&amp;cnpClsNo=1" target="_blank" rel="noopener">전기차 보조금 법령 정보</a>
+    <a class="btn secondary" href="https://www.hyundai.com/kr/ko/customer-service/car-management-service/warranty-period/normal-period.html" target="_blank" rel="noopener">현대 배터리 보증 확인</a>
+    <a class="btn secondary" href="https://m.members.kia.com/kr/view/web/knet/knet_warranty_ev_guide.do" target="_blank" rel="noopener">기아 EV 보증 안내</a>
+  </div>
+
+  <!-- ✅ 자주 놓치는 포인트와 실수 사례 -->
+  <h2 id="experience">자주 놓치는 포인트와 실수 사례</h2>
+  <p>전기차 구매 후 뒤늦게 확인하는 경우 중 가장 많은 것은 배터리 보증 조건의 오해다. 10년/20만km 보증이 "10년 동안 배터리 성능이 유지된다"는 의미로 잘못 이해되는 사례가 많지만, 실제로는 SOH 70% 미만으로 저하될 경우에만 보증 수리가 적용된다. 자연 성능 저하(예: 10년 후 SOH 75%)는 보증 대상이 아니며, 사실상 배터리를 교체받기 위해서는 용량이 70% 아래로 떨어져야 한다.</p>
+  <p>지자체 보조금 차이를 모르고 구매를 결정하는 경우도 빈번하다. 같은 차종을 서울에서 구매하면 지자체 보조금이 150만원이지만, 지방 일부 지역에서는 800만원 이상인 경우가 있어 거주지 이전 여부에 따라 수백만 원의 혜택 차이가 발생한다. 구매 전 ev.or.kr에서 지역별 보조금을 반드시 비교하는 것이 중요하다.</p>
+  <p>보조금 환수 조건을 간과하고 2~3년 후 차량을 판매하다 환수 통보를 받는 사례도 발생한다. 의무운행기간은 지자체마다 다르며, 신청 당시 고지된 조건이 매각·이전 시 그대로 적용된다. 이사, 차량 교체 계획이 있는 구매자는 의무운행기간이 짧은 지역에서 구매하거나, 취득 후 보조금 환수 없이 처분 가능한 시점을 미리 계산해두는 것이 좋다.</p>
+  <p class="small">※ 위 사례는 공개된 소비자 사례와 제도 내용을 기반으로 작성하였습니다. 개인 상황에 따라 다를 수 있으며, 구매 전 해당 지자체 및 제조사 약관을 반드시 확인하세요.</p>
+
+  <!-- ✅ 섹션 9: FAQ -->
+  <h2 id="faq">8) FAQ</h2>
+  <p class="q">Q1. 전기차 배터리 보증 기간은 브랜드마다 다른가요?</p>
+  <p class="a">네. 현대·기아·제네시스는 개인 최초 구매 고객 기준 10년/20만km(SOH 70% 이상)를 보증합니다. 테슬라 모델3·Y는 8년/16만km, 모델S·X는 8년/24만km, BMW·벤츠는 8년/16만km입니다. 2026년 기준 현대·기아가 업계 최장 보증을 제공합니다.</p>
+
+  <p class="q">Q2. 2026년 전기차 국고보조금은 최대 얼마인가요?</p>
+  <p class="a">중·대형 승용 기준 기본 최대 580만원이며, 내연기관 차량을 처분하고 전기차로 교체하면 전환지원금 100만원이 추가되어 최대 680만원까지 받을 수 있습니다. 여기에 지자체 보조금(서울 150만원~지방 최대 1,100만원)과 취득세 감면(140만원)이 더해집니다.</p>
+
+  <p class="q">Q3. SOH 70%는 실제로 어떤 의미인가요?</p>
+  <p class="a">SOH(State of Health)는 배터리 건강도입니다. 신차 기준 300km 주행 가능한 배터리라면, 보증 기간 내 최소 210km(70%) 이상 주행 가능한 상태를 유지한다는 의미입니다. 실제로 5년 후 현대·기아 전기차는 85~90% 수준을 유지하는 경우가 많아 보증 기준보다 여유가 있습니다.</p>
+
+  <p class="q">Q4. 보조금을 받고 2년 안에 차를 팔면 어떻게 되나요?</p>
+  <p class="a">의무운행기간(지역별 2~5년) 내 차량을 판매·명의이전·폐차하면 보조금 전액 또는 일부를 환수합니다. 서울시는 2년 내 타지역 판매 시 지방비 전액 환수가 가능합니다. 단, 교통사고·천재지변으로 인한 불가피한 폐차는 면책됩니다.</p>
+
+  <p class="q">Q5. 배터리 보증 기간이 지나면 교체 비용이 얼마나 드나요?</p>
+  <p class="a">차종별로 다르지만 현대 아이오닉5(72.6kWh) 기준 약 1,400~1,700만원, 테슬라 모델Y 롱레인지(75kWh)는 약 1,700~2,200만원입니다. 다만 5년 후 실제 성능 저하율은 5~15% 수준으로 대부분의 전기차는 보증 만료 이후에도 즉시 교체가 필요하지 않습니다.</p>
+
+  <p class="q">Q6. 취득세 감면 140만원은 어떻게 신청하나요?</p>
+  <p class="a">별도 신청 없이 전기차 등록 시 취득세에서 최대 140만원이 자동 공제됩니다. 단, 취득세 감면을 받은 후 1년 이내에 차량을 매각하거나 용도를 변경하면 추징될 수 있으므로 주의가 필요합니다. 이 혜택은 2026년 12월 31일까지 적용됩니다.</p>
+
+  <p class="small">관련 글: <a href="#" target="_blank" rel="noopener">전기차 보조금·세금 혜택 총정리 — 차종별 실구매가 비교 (2026)</a> / <a href="#" target="_blank" rel="noopener">하이브리드 vs 전기차 유지비 비교 — 연료비·세금·보험료 총정리 (2026)</a></p>
+
+  <!-- ✅ 참고자료 / 출처 -->
+  <div class="sources">
+    <strong>참고자료 / 출처</strong>
+    <ul>
+      <li>현대자동차 — 고전압 배터리 보증 안내: https://www.hyundai.com/kr/ko/customer-service/car-management-service/warranty-period/normal-period.html</li>
+      <li>기아자동차 — EV 보증수리 안내: https://m.members.kia.com/kr/view/web/knet/knet_warranty_ev_guide.do</li>
+      <li>생활법령정보 — 전기자동차 보조금: https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1404&ccfNo=2&cciNo=1&cnpClsNo=1</li>
+    </ul>
+  </div>
+
+  <div class="btns">
+    <a class="btn" href="https://www.ev.or.kr" target="_blank" rel="noopener">무공해차 통합누리집 (보조금 조회)</a>
+  </div>
+
+  <!-- ✅ 이미지 4·5: 썸네일 -->
+  <img src="thumb_1080_ev-battery-warranty-subsidy-5year-2026.png" alt="전기차 배터리 보증 보조금 5년 혜택 비교 인포그래픽" style="width:100%;margin:16px 0;" />
+  <img src="thumb_1200x630_ev-battery-warranty-subsidy-5year-2026.png" alt="전기차 배터리 보증 브랜드별 비교 카드" style="width:100%;margin:16px 0;" />
+
+  <div class="footer" id="update">
+    <strong>업데이트 로그</strong><br/>
+    - 2026-05-07: 최초 발행<br/>
+    <span class="small">※ 보조금 금액·지자체 보조금 예산은 변동될 수 있습니다. 처리 전 ev.or.kr 또는 관할 지자체에 확인하세요. 개인 상황에 따라 다를 수 있으며, 구매 전 약관 확인이 필요합니다.</span>
+  </div>
+</div>

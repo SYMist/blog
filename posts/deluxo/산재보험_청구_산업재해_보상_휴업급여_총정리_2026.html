@@ -1,0 +1,478 @@
+<!-- 산재보험 청구·산업재해 보상·휴업급여 총정리 (2026) -->
+<!-- slug: work_injury -->
+<!-- Silo: 에이스 Silo 확장 + 문제해결형 (소상공인×법률 크로스) -->
+<!-- 내부링크: #32(고용보험), #49(4대보험), #1 -->
+
+<!-- ✅ Schema.org 구조화 데이터 -->
+<div style="display:none">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "산재보험 청구 산업재해 보상 휴업급여 총정리 2026",
+      "description": "2026년 산재보험 휴업급여(평균임금 70%, 하한 82,560원), 최고 보상기준(268,299원), 전속성 폐지, 플랫폼 종사자 확대, 직장복귀지원금(최대 80만), 자영업자 보험료 지원까지 총정리합니다.",
+      "datePublished": "2026-04-18",
+      "dateModified": "2026-04-18",
+      "author": {"@type": "Person", "name": "deluxo"},
+      "publisher": {"@type": "Organization", "name": "tistory.deluxo"}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "2026년 휴업급여는 얼마인가요?", "acceptedAnswer": {"@type": "Answer", "text": "1일 평균임금의 70%를 지급합니다. 다만 이 금액이 최저 보상기준(82,560원)보다 적으면 82,560원을 지급하며, 저소득자는 평균임금의 90%를 적용받을 수 있습니다. 최고 보상기준은 1일 268,299원입니다."}},
+        {"@type": "Question", "name": "배달 라이더도 산재보험을 받을 수 있나요?", "acceptedAnswer": {"@type": "Answer", "text": "네. 2023년 7월부터 시행된 전속성 요건 폐지가 2026년 완전 정착되어, 여러 플랫폼에서 일하는 노무제공자도 업무 중 재해가 발생하면 산재보험 보상을 받을 수 있습니다. 대리운전·퀵서비스·택시·화물차주·학습지 교사 등 모두 포함됩니다."}},
+        {"@type": "Question", "name": "직장 내 괴롭힘도 산재로 인정되나요?", "acceptedAnswer": {"@type": "Answer", "text": "네. 상급자의 폭언, 부당한 업무 배제, 따돌림 등으로 인한 우울증·공황장애·적응장애 등 정신질환이 업무상 재해로 인정됩니다. 2026년부터 명백한 증거(녹취·카톡·목격자 진술)가 있으면 '신속결정제도'가 적용되어 심사 기간이 120일 이내로 단축됩니다."}},
+        {"@type": "Question", "name": "산재 신청 시 사업주 확인이 필요한가요?", "acceptedAnswer": {"@type": "Answer", "text": "아니요. 2026년부터 사업주의 확인(날인) 절차가 폐지되어 노동자가 혼자서도 요양급여신청서를 제출할 수 있습니다. 근로복지공단 '고용·산재보험 토탈서비스'에서 온라인 신청이 가능합니다."}},
+        {"@type": "Question", "name": "자영업자도 산재보험에 가입할 수 있나요?", "acceptedAnswer": {"@type": "Answer", "text": "네. 1인 자영업자나 근로자를 사용하는 사업주도 임의가입이 가능합니다. 중기부는 보험료의 50~80%(최대 5년), 서울시는 등급에 따라 30~50%, 경기도 20~30%, 인천 10% 등 지자체별 지원이 있어 실질 부담이 크게 줄어듭니다."}}
+      ]
+    }
+  ]
+}
+</script>
+</div>
+
+<style>
+  :root{
+    --blue:#1D4ED8; --blue2:#1E40AF;
+    --white:#FFFFFF; --text:#111827;
+    --muted:#4B5563; --border:#E5E7EB;
+    --bg:#F9FAFB; --blueLight:#E8F0FF;
+  }
+  .wrap{max-width:860px;margin:0 auto;line-height:1.8;color:var(--text);}
+  .meta{color:var(--muted);font-size:.95rem;margin:6px 0 18px;}
+  .badge{display:inline-block;background:var(--blueLight);border:1px solid var(--border);padding:3px 10px;border-radius:999px;font-size:.85rem;margin-right:8px;}
+  .notice{background:#fff7ed;border:1px solid #fed7aa;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .lead{background:#f8fafc;border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .keysum{background:#fefce8;border:1px solid #fde68a;padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .summary{background:#eff6ff;border:1px solid #bfdbfe;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .toc{background:var(--bg);border:1px solid var(--border);padding:14px 16px;border-radius:12px;margin:16px 0 22px;}
+  .toc a{text-decoration:none;color:var(--blue);}
+  .toc ul{margin:8px 0 0 18px;}
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 6px;}
+  .wrap a.btn,.wrap a.btn:link,.wrap a.btn:visited{
+    display:inline-flex;align-items:center;justify-content:center;
+    padding:10px 14px;border-radius:10px;border:1px solid var(--blue);
+    background:var(--blue) !important;color:var(--white) !important;
+    text-decoration:none !important;font-weight:800;
+  }
+  .wrap a.btn:hover,.wrap a.btn:active,.wrap a.btn:focus{
+    background:var(--blue2) !important;border-color:var(--blue2) !important;color:var(--white) !important;
+  }
+  .wrap a.btn.secondary,.wrap a.btn.secondary:link,.wrap a.btn.secondary:visited{
+    background:var(--white) !important;color:var(--blue) !important;border-color:var(--blue) !important;
+  }
+  .wrap a.btn.secondary:hover,.wrap a.btn.secondary:active,.wrap a.btn.secondary:focus{
+    background:var(--bg) !important;color:var(--blue2) !important;border-color:var(--blue2) !important;
+  }
+  .wrap a.btn.gray,.wrap a.btn.gray:link,.wrap a.btn.gray:visited{
+    background:#111827 !important;border-color:#111827 !important;color:var(--white) !important;
+  }
+  .wrap a.btn.gray:hover,.wrap a.btn.gray:active,.wrap a.btn.gray:focus{
+    background:#0b1220 !important;border-color:#0b1220 !important;color:var(--white) !important;
+  }
+  table{width:100%;border-collapse:collapse;margin:14px 0 10px;}
+  th,td{border:1px solid var(--border);padding:10px;vertical-align:top;}
+  th{background:#F3F4F6;text-align:left;}
+  .small{font-size:.95rem;color:var(--muted);}
+  h1{margin:0 0 8px;line-height:1.25;}
+  h2{margin-top:30px;padding-top:8px;border-top:1px solid var(--border);}
+  h3{margin-top:16px;}
+  .q{font-weight:900;margin:14px 0 6px;}
+  .a{margin:0 0 10px;}
+  .tips{background:#f0fdf4;border:1px solid #bbf7d0;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .urgency{background:#fef2f2;border:1px solid #fca5a5;padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .target{background:#f0fdf4;border:1px solid #86efac;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .target ul{margin:8px 0 0 18px;}
+  .ad{background:#f9fafb;border:1px dashed var(--border);padding:10px 12px;border-radius:10px;margin:12px 0;}
+  .disclaimer{background:#fef2f2;border:1px solid #fecaca;padding:12px 14px;border-radius:12px;margin:14px 0;color:#991b1b;font-size:.9rem;}
+  .footer{margin-top:26px;padding-top:14px;border-top:1px solid var(--border);color:var(--muted);font-size:.95rem;}
+</style>
+
+<div class="wrap">
+  <h1>산재보험 청구·산업재해 보상·휴업급여 총정리 (2026 최신)</h1>
+  <div class="meta">
+    <span class="badge">키워드: 산재보험 청구</span>
+    <span class="badge">업데이트: 2026-04-18</span>
+  </div>
+
+  <div class="notice">
+    <strong>먼저 확인!</strong><br/>
+    산재보험 보상 기준은 매년 고시됩니다. 본 글은 2026년 기준이며, 개별 사건의 승인 여부는 근로복지공단 지사의 심사 결과에 따라 달라질 수 있으니 신청 전 공식 상담을 받으세요.
+  </div>
+
+  <p class="small">
+    2026년 산재보험 청구 절차, 휴업급여(평균임금 70%·하한 82,560원), 최고 보상기준(268,299원), 전속성 폐지에 따른 플랫폼 종사자 확대, 직장복귀지원금(최대 80만 원), 자영업자 보험료 지원까지 핵심을 총정리합니다.
+  </p>
+
+  <div class="lead">
+    "업무 중 다쳤는데 산재 신청을 어떻게 하지?", "배달 중 사고가 났는데 보상 받을 수 있을까?", "직장 내 괴롭힘으로 공황장애가 왔는데 산재가 될까?" — 2026년은 산재보험이 '일하는 모든 사람'을 보호하는 방향으로 크게 확장된 해입니다. 전속성 요건이 완전 폐지되고, 사업주 확인 절차도 없어져 노동자의 신청권이 대폭 강화되었습니다.
+  </div>
+
+  <div class="urgency">
+    <strong>왜 지금 확인해야 할까?</strong><br/>
+    2026년 최저임금 인상으로 휴업급여 하한액이 <strong>1일 82,560원</strong>(월 약 248만 원)으로 상향되었습니다. 전속성 폐지로 플랫폼 종사자도 보호받고, 사업주 날인이 폐지되어 본인이 직접 신청 가능합니다. 신청 기한은 재해 발생일로부터 <strong>3년</strong>이며, 미신청 시 월 최대 <strong>800만 원 이상</strong>의 보상을 놓칠 수 있습니다.
+  </div>
+
+  <div class="keysum">
+    <strong>핵심 요약 3줄</strong><br/>
+    1️⃣ 휴업급여 = 평균임금 × 70% (하한 82,560원 / 상한 268,299원) — 최저임금 연동<br/>
+    2️⃣ 전속성 폐지 완전 정착 → 배달·대리·퀵·화물·학습지 교사 등 플랫폼 종사자 전면 보호<br/>
+    3️⃣ 직장복귀지원금 월 45~80만(12개월) + 대체인력지원금 월 60만(6개월) 신설
+  </div>
+
+  <div class="summary" id="top">
+    <h2 style="border-top:none;margin-top:0;">✅ 5줄 요약(결론)</h2>
+    <ul>
+      <li><strong>대상</strong>: 근로자, 노무제공자(플랫폼 종사자), 임의가입 자영업자 — 업무상 재해(사고·질병·출퇴근·정신질환)</li>
+      <li><strong>휴업급여</strong>: 1일 평균임금의 70%, 최저 82,560원~최고 268,299원 (4일↑ 요양 시)</li>
+      <li><strong>요양급여</strong>: 치료비·수술비·약제비 전액 (병원으로 직접 지급)</li>
+      <li><strong>신청 방법</strong>: 근로복지공단 토탈서비스 온라인 신청 (사업주 확인 불요)</li>
+      <li><strong>이의 절차</strong>: 불승인 시 90일 이내 심사청구 → 재심사청구 → 행정소송</li>
+    </ul>
+
+    <div class="btns">
+      <a class="btn" href="https://total.comwel.or.kr" target="_blank" rel="noopener">고용·산재보험 토탈서비스</a>
+      <a class="btn gray" href="https://www.comwel.or.kr" target="_blank" rel="noopener">근로복지공단 공식</a>
+      <a class="btn secondary" href="https://www.moel.go.kr" target="_blank" rel="noopener">고용노동부 안내</a>
+    </div>
+    <p class="small">※ 문의 전화: 근로복지공단 ☎ 1588-0075</p>
+  </div>
+
+  <div class="target">
+    <strong>이런 상황이라면 지금 바로 신청하세요</strong>
+    <ul>
+      <li>업무 중 또는 출퇴근 길에 다쳐서 병원 치료를 받고 있다면</li>
+      <li>배달·대리·퀵서비스 등 플랫폼 노동 중 사고를 당했다면</li>
+      <li>직장 내 괴롭힘으로 우울증·공황장애 등 정신질환 진단을 받았다면</li>
+      <li>과로로 인한 뇌심혈관 질환(뇌출혈·심근경색 등)이 발생했다면</li>
+      <li>자영업자로 혼자 일하다 업무 중 부상을 당했는데 산재 가입 여부가 궁금하다면</li>
+    </ul>
+  </div>
+
+  <div class="toc">
+    <strong>목차</strong>
+    <ul>
+      <li><a href="#table">1) 산재 급여 종류·금액 한눈에 표</a></li>
+      <li><a href="#quick">→ 일반 근로자 vs 플랫폼 노무제공자 빠른 판단</a></li>
+      <li><a href="#how">2) 산재 청구 방법 (6단계)</a></li>
+      <li><a href="#pay">3) 휴업급여 계산법·상한·하한</a></li>
+      <li><a href="#platform">4) 플랫폼 종사자 전속성 폐지</a></li>
+      <li><a href="#mental">5) 정신질환·직장 내 괴롭힘 산재</a></li>
+      <li><a href="#employer">6) 자영업자 임의가입·지자체 지원</a></li>
+      <li><a href="#return">7) 직장복귀·직업재활 지원금</a></li>
+      <li><a href="#docs">8) 서류 체크리스트</a></li>
+      <li><a href="#case">9) 경험/사례</a></li>
+      <li><a href="#faq">10) FAQ</a></li>
+      <li><a href="#check">11) 1분 체크리스트</a></li>
+      <li><a href="#update">업데이트 로그</a></li>
+    </ul>
+  </div>
+
+  <h2 id="table">1) 산재 급여 종류·금액 한눈에 표</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>급여 종류</th><th>지급 기준</th><th>2026년 금액</th><th>비고</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>요양급여</strong></td>
+        <td>4일↑ 요양 시 치료비 전액</td>
+        <td>실비 (병원 직접 지급)</td>
+        <td>수술비·약제비·재활 포함</td>
+      </tr>
+      <tr>
+        <td><strong>휴업급여</strong></td>
+        <td>평균임금의 70%</td>
+        <td>1일 <strong>82,560원~268,299원</strong></td>
+        <td>저소득자 90% 특례</td>
+      </tr>
+      <tr>
+        <td><strong>장해급여</strong></td>
+        <td>1~14급 등급별</td>
+        <td>연금 or 일시금</td>
+        <td>1~3급: 연금만, 4~7급: 선택</td>
+      </tr>
+      <tr>
+        <td><strong>간병급여</strong></td>
+        <td>장해 1·2급 간병 필요 시</td>
+        <td>상시 46,250원/수시 30,830원</td>
+        <td>전문간병 80,670~97,420원</td>
+      </tr>
+      <tr>
+        <td><strong>유족급여</strong></td>
+        <td>사망 시 유족에게 지급</td>
+        <td>연금 (평균임금의 47~67%)</td>
+        <td>배우자·자녀·부모 순위</td>
+      </tr>
+      <tr>
+        <td><strong>장의비</strong></td>
+        <td>재해 사망 시</td>
+        <td><strong>1,394만~1,928만</strong></td>
+        <td>최저 13,943,000 / 최고 19,279,760</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="small">※ 최고 보상기준 금액(1일 268,299원)은 고소득자 상한이며, 최저(82,560원)는 최저임금 × 8시간 연동</p>
+
+  <div class="ad">광고 위치 1</div>
+
+  <h3 id="quick">일반 근로자 vs 플랫폼 노무제공자 10초 판단</h3>
+  <table>
+    <thead>
+      <tr><th></th><th>일반 근로자</th><th>플랫폼 노무제공자</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>가입 방식</strong></td><td>사업주가 의무 가입</td><td>플랫폼이 의무 신고</td></tr>
+      <tr><td><strong>전속성 요건</strong></td><td>해당 없음</td><td>2023.7 폐지 → 2026 정착</td></tr>
+      <tr><td><strong>보험료</strong></td><td>사업주 100% 부담</td><td>노무제공자 50% + 플랫폼 50%</td></tr>
+      <tr><td><strong>대표 직군</strong></td><td>회사 직원, 공장 근로자</td><td>배달·대리·퀵·화물·학습지 교사</td></tr>
+      <tr><td><strong>한 줄 요약</strong></td><td>"근로계약서 있으면 여기"</td><td>"여러 플랫폼 일해도 다 보호"</td></tr>
+    </tbody>
+  </table>
+
+  <img src="summary_card_1080_work_injury.png" alt="산재보험 청구 보상 휴업급여 요약 카드" />
+
+  <img src="quick_guide_1080_work_injury.png" alt="산재보험 일반 근로자 vs 플랫폼 종사자 빠른 판단 가이드" />
+
+  <h2 id="how">2) 산재 청구 방법 (6단계)</h2>
+  <ol>
+    <li><strong>사고 발생 및 병원 내원</strong>: 산재 지정 의료기관에서 진료 → 산재 여부 확인 (지정 병원은 공단 홈페이지 검색)</li>
+    <li><strong>요양급여신청서 작성</strong>: 공단 토탈서비스 로그인 → 신청서 작성 → 병원이 대행하거나 본인 직접 제출 (2026년 사업주 날인 절차 폐지)</li>
+    <li><strong>의학적 소견서 첨부</strong>: 산재 지정 의료기관 주치의가 발급한 소견서 + 진단서 제출</li>
+    <li><strong>현장 조사·업무 관련성 심사</strong>: 공단 지사 조사관이 사고 경위·업무 관련성 확인 (CCTV·동료 진술·업무 기록 활용)</li>
+    <li><strong>승인 및 급여 지급</strong>: 요양급여는 병원으로 직접 지급, 휴업급여는 본인 계좌로 월 단위 청구 수령</li>
+    <li><strong>불승인 시 이의 절차</strong>: 결정 통보 90일 이내 → 심사청구(공단 본부) → 재심사청구(외부 위원회) → 행정소송</li>
+  </ol>
+
+  <h2 id="pay">3) 휴업급여 계산법·상한·하한</h2>
+
+  <h3>기본 산정 공식</h3>
+  <div class="keysum">
+    <strong>1일 휴업급여 = 1일 평균임금 × 0.7</strong><br/>
+    <span class="small">※ 이 금액이 82,560원(최저 보상기준)보다 적으면 82,560원 지급</span>
+  </div>
+
+  <h3>저소득자 특례 (90% 지급)</h3>
+  <p>평균임금의 90%가 최저 보상기준(82,560원)의 80%(66,048원)보다 적은 경우 → 평균임금의 <strong>90%</strong>를 지급합니다. 단, 이 금액도 최저임금 일액보다 낮으면 최저임금액(82,560원)이 적용됩니다.</p>
+
+  <h3>계산 예시 (2026년 기준)</h3>
+  <table>
+    <thead>
+      <tr><th>평균임금(일)</th><th>70% 산정</th><th>적용 금액</th><th>월 환산(30일)</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>100,000원</td><td>70,000원</td><td><strong>82,560원</strong> (하한 적용)</td><td>약 247.7만</td></tr>
+      <tr><td>150,000원</td><td>105,000원</td><td>105,000원</td><td>315만</td></tr>
+      <tr><td>200,000원</td><td>140,000원</td><td>140,000원</td><td>420만</td></tr>
+      <tr><td>400,000원</td><td>280,000원</td><td><strong>268,299원</strong> (상한 적용)</td><td>약 804.9만</td></tr>
+    </tbody>
+  </table>
+  <p class="small">※ 만 61세↑ 고령자는 단계적 감액, 취업 중인 노령연금 수급자는 감액 유예 가능</p>
+
+  <img src="compare_card_1080_work_injury.png" alt="산재보험 2026 제도 변화 비교 카드" />
+
+  <h2 id="platform">4) 플랫폼 종사자 전속성 폐지 (2026 정착)</h2>
+
+  <h3>달라진 점</h3>
+  <p>과거 산재보험은 "한 사업장에 전적으로 소속"되어야 한다는 <strong>전속성 요건</strong>을 적용하여, 여러 플랫폼을 통해 일감을 받는 배달 라이더나 대리운전 기사들을 사각지대에 두었습니다. 2023년 7월 폐지 시작 → <strong>2026년 완전 정착</strong>으로 이제 복수 플랫폼 노동자도 업무 중 재해 시 보상을 받습니다.</p>
+
+  <h3>적용 확대 직군</h3>
+  <table>
+    <thead>
+      <tr><th>분류</th><th>직군</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>기존 확대</td><td>배달 종사자, 대리운전 기사, 퀵서비스 기사, 신용카드 모집인</td></tr>
+      <tr><td>추가 확대</td><td>탁송기사, 대리주차원, 관광통역안내사, 어린이통학버스 기사</td></tr>
+      <tr><td>운송·건설</td><td>일반 화물차주, 용차 화물차주, 건설현장 화물차주</td></tr>
+      <tr><td>전문·기타</td><td>소프트웨어 기술자(반프리), 가전제품 설치 기사, 학습지 교사</td></tr>
+    </tbody>
+  </table>
+
+  <h3>출퇴근 재해 인정 범위</h3>
+  <p>"통상적인 경로와 방법"으로 출퇴근하던 중 발생한 사고도 산재로 인정됩니다. 특히 다음 <strong>일상생활 필요 행위</strong>를 위한 경로 일탈도 보호됩니다.</p>
+  <ul>
+    <li>퇴근길 대형마트 식료품 구매</li>
+    <li>퇴근 후 직업훈련기관·학원에서 교육</li>
+    <li>선거권 행사(투표소 방문)</li>
+    <li>자녀 등하교·어린이집 데려다주기</li>
+    <li>병원·약국 방문 (본인 또는 가족)</li>
+    <li>가족 간병 이동</li>
+  </ul>
+  <p class="small">※ 음주·오락·범죄행위 관련 경로 일탈, 무면허 운전, 중앙선 침범 등 중대 법 위반 시 승인 제한</p>
+
+  <h2 id="mental">5) 정신질환·직장 내 괴롭힘 산재</h2>
+
+  <p>2026년부터 상급자의 폭언, 부당한 업무 배제, 따돌림 등으로 인한 <strong>우울증·공황장애·적응장애</strong>가 업무상 재해로 본격 인정됩니다.</p>
+
+  <h3>입증 3단계 전략</h3>
+  <ol>
+    <li><strong>법적 괴롭힘 요건 구체화</strong>: 지위 우위 이용 / 업무 적정 범위 초과 / 정신적 고통 → 육하원칙 기술</li>
+    <li><strong>시간적 인과관계 확보</strong>: 괴롭힘 직후 증상 발현을 보여주는 진료 기록·증상 일지 (사건 전 정신과 이력 없음을 건보 내역으로 증명하면 유리)</li>
+    <li><strong>전문가 소견 정밀성</strong>: 종합병원급 정신건강의학과 정밀 진단서 + "업무상 스트레스가 발병·악화의 주된 원인" 소견</li>
+  </ol>
+
+  <h3>신속결정제도 (Fast Track)</h3>
+  <p>명백한 증거(녹취·카톡·목격자 진술 등)가 있으면 <strong>120일 이내</strong> 심사 완료됩니다. 기존 6개월 이상 소요되던 기간을 대폭 단축하여 치료에 집중할 수 있도록 돕는 제도입니다.</p>
+
+  <img src="rejection_card_1080_work_injury.png" alt="산재 청구 탈락 실수 TOP 5" />
+
+  <h2 id="employer">6) 자영업자 임의가입·지자체 지원</h2>
+
+  <p>1인 자영업자나 근로자를 사용하는 사업주도 본인이 희망하면 산재보험에 <strong>임의가입</strong>할 수 있습니다. 지자체별 보험료 지원이 대폭 강화되어 실질 부담이 크게 줄었습니다.</p>
+
+  <table>
+    <thead>
+      <tr><th>지원 기관</th><th>대상</th><th>지원 내용</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>중소벤처기업부</strong></td><td>자영업자 고용보험 가입 소상공인</td><td>납부 보험료 <strong>50~80%</strong> (최대 5년)</td></tr>
+      <tr><td><strong>서울특별시</strong></td><td>서울 소재 산재보험 가입 소상공인</td><td>1~4등급 <strong>50%</strong> / 5~8등급 <strong>40%</strong> 환급</td></tr>
+      <tr><td><strong>경기도</strong></td><td>도내 1인 소상공인</td><td>월 납입 보험료의 <strong>20~30%</strong> 분기별 지원</td></tr>
+      <tr><td><strong>인천광역시</strong></td><td>인천 관내 1인 소상공인</td><td>월 고용보험료의 <strong>10%</strong> (최대 3년)</td></tr>
+    </tbody>
+  </table>
+  <p class="small">※ 중기부 + 지자체 지원은 <strong>중복 수령 가능</strong> — 소상공인24 포털에서 온라인 신청</p>
+
+  <div class="ad">광고 위치 2</div>
+
+  <h2 id="return">7) 직장복귀·직업재활 지원금</h2>
+
+  <p>산재보험의 최종 목표는 '일터로의 복귀'입니다. 산재 장해인(1~12급)을 요양 종결 후 원직장에 복귀시키는 사업주에게 다음 지원금이 지급됩니다.</p>
+
+  <table>
+    <thead>
+      <tr><th>지원금 종류</th><th>대상</th><th>지원 금액</th><th>지원 기간</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>직장복귀지원금</strong></td><td>장해 1~12급 원직복귀 유지 사업주</td><td>월 <strong>45~80만 원</strong></td><td>최대 12개월</td></tr>
+      <tr><td><strong>직장적응훈련비</strong></td><td>직무 전환·기술 숙련 훈련</td><td>월 최대 <strong>45만 원</strong></td><td>최대 3개월</td></tr>
+      <tr><td><strong>재활운동비</strong></td><td>기능 회복 운동 비용</td><td>월 최대 <strong>15만 원</strong></td><td>최대 3개월</td></tr>
+      <tr><td><strong>대체인력지원금</strong></td><td>50인 미만 사업장 대체인력 채용</td><td>대체인력 임금의 50% (월 <strong>60만 원</strong> 한도)</td><td>최대 6개월</td></tr>
+    </tbody>
+  </table>
+
+  <h3>산재 노동자 직업훈련 지원</h3>
+  <ul>
+    <li><strong>직업훈련비</strong>: 최대 <strong>600만 원</strong> 한도</li>
+    <li><strong>직업훈련수당</strong>: 1일 4시간↑ 훈련 이수일에 대해 최저임금 수준 지급</li>
+    <li><strong>중복 불가</strong>: 실업급여와 동시 수령 불가</li>
+  </ul>
+
+  <h2 id="docs">8) 서류 체크리스트</h2>
+  <h3>기본 서류</h3>
+  <ul>
+    <li>요양급여신청서 (공단 토탈서비스 온라인 작성)</li>
+    <li>의학적 소견서 + 진단서 (산재 지정 의료기관 발급)</li>
+    <li>사고 경위서 (육하원칙 기술)</li>
+    <li>신분증 사본</li>
+  </ul>
+  <h3>상황별 추가</h3>
+  <ul>
+    <li><strong>출퇴근 재해</strong>: 교통사고 경위·CCTV·블랙박스·목격자 진술</li>
+    <li><strong>정신질환 산재</strong>: 녹취·카톡·이메일·목격자 진술 + 정신건강의학과 정밀 진단서</li>
+    <li><strong>과로사·뇌심혈관 질환</strong>: 최근 12주 근무시간 기록·업무 일지·초과근무 증빙</li>
+    <li><strong>플랫폼 종사자</strong>: 플랫폼 계약 내역·배차 기록·업무 시간 증빙</li>
+    <li><strong>자영업자 임의가입자</strong>: 사업자등록증·가입 확인서</li>
+  </ul>
+
+  <h2 id="case">9) 경험/사례</h2>
+  <p>물류센터에서 일하던 B씨(42세)는 무거운 박스를 옮기다 허리 디스크가 파열되어 2개월간 요양을 받았습니다. 평균임금이 일 16만 원이었기 때문에 휴업급여로 1일 112,000원(16만 × 70%)을 받았고, 2개월 총 약 672만 원을 수령했습니다. 치료비는 병원에 직접 지급되어 본인 부담은 거의 없었습니다.</p>
+
+  <p>B씨가 가장 헷갈렸던 부분은 평균임금 계산 기준이었습니다. 사고 직전 3개월 임금의 총합을 그 기간 일수로 나누는 방식이었는데, 3개월 내 수당이나 상여금도 포함되는지 몰라서 신고 금액이 낮아질 뻔했다고 합니다. "급여명세서 3개월치 전부" 준비가 핵심이었습니다.</p>
+
+  <p>배달 라이더 C씨(29세)는 여러 배달 앱을 동시에 쓰며 일하다 비 오는 날 오토바이가 미끄러져 다리 골절상을 입었습니다. 예전 같으면 전속성 요건에 걸려 산재 인정이 어려웠겠지만, 2026년에는 자동으로 승인되었습니다. 다만 "업무 중 사고" 입증을 위해 앱의 배차 기록과 이동 경로 데이터를 캡처해 두었던 것이 결정적 증거가 되었다고 전했습니다.</p>
+
+  <img src="checklist_card_1080_work_injury.png" alt="산재 청구 전 1분 체크리스트" />
+
+  <h2 id="faq">10) FAQ</h2>
+  <h3>산재 불승인·탈락 사유 TOP 5</h3>
+  <ol>
+    <li><strong>업무 관련성 입증 부족</strong>: 사고 경위서가 부실하거나 증인·CCTV가 없으면 불승인 위험 — 동료 진술·업무 기록 확보 필수</li>
+    <li><strong>기존 질환으로 처리</strong>: 디스크·관절염 등은 "기존 질환 악화"로 보아 불승인 사례 많음 — 사고 전 건강보험 진료 이력 부재 증명</li>
+    <li><strong>3년 신청 기한 도과</strong>: 재해 발생일(또는 증상 인지일)로부터 3년 경과 시 청구 불가</li>
+    <li><strong>경로 일탈 중 사고</strong>: 음주·오락·범죄 관련 일탈 중 사고는 불승인 — 일상생활 필요 행위만 보호</li>
+    <li><strong>정신질환 인과관계 부족</strong>: 사건 전 정신과 진료 이력이 있으면 "개인적 소인"으로 판단될 위험 — 업무 스트레스가 악화 주된 원인임 소견 필수</li>
+  </ol>
+
+  <h3>중복수급·예외 조건</h3>
+  <ul>
+    <li><strong>건강보험 + 산재보험</strong>: 산재 승인 시 건보 적용된 치료비는 환수 (산재가 우선)</li>
+    <li><strong>휴업급여 + 평균임금 70% 유급휴직</strong>: 중복 불가 — 하나만 선택</li>
+    <li><strong>실업급여 + 직업훈련수당</strong>: 중복 불가</li>
+    <li><strong>민사 손해배상 + 산재</strong>: 산재 수령 후 남은 손해분에 대해 민사소송 가능</li>
+  </ul>
+
+  <h3>자주 묻는 질문</h3>
+  <p class="q">Q1. 산재 신청 기한은 얼마나 되나요?</p>
+  <p class="a">재해 발생일(또는 증상 인지일)로부터 3년입니다. 3년이 지나면 소멸시효가 완성되어 청구 불가하니 빠르게 신청하세요.</p>
+
+  <p class="q">Q2. 회사가 산재 신청을 막으려 하면 어떻게 하나요?</p>
+  <p class="a">2026년부터 사업주 확인(날인) 절차가 폐지되어 노동자가 혼자서도 신청할 수 있습니다. 회사가 "산재 대신 공상처리하자"며 회유해도 거절하고 공단에 직접 신청하세요.</p>
+
+  <p class="q">Q3. 출퇴근길 사고도 산재가 되나요?</p>
+  <p class="a">네. 통상적 경로·방법의 출퇴근 중 사고는 산재로 인정됩니다. 경로 일탈이어도 일상생활 필요 행위(육아·병원·마트 등)라면 보호됩니다.</p>
+
+  <p class="q">Q4. 산재 요양 기간이 끝나면 바로 복직해야 하나요?</p>
+  <p class="a">아니요. 치료 종결 후에도 장해가 남으면 장해급여를 받고, 직장복귀 시에는 사업주에게 지원금이 나오므로 원직 복귀가 유리합니다. 필요 시 직업훈련비(최대 600만)를 활용해 직무 전환도 가능합니다.</p>
+
+  <p class="q">Q5. 코로나19·독감 같은 감염병도 산재가 되나요?</p>
+  <p class="a">업무상 노출 증명이 가능하면 가능합니다. 의료진·공공서비스 종사자 등은 인정 사례가 많고, 일반 직장인도 집단 감염 이력이 있으면 신청 가능합니다.</p>
+
+  <p class="q">Q6. 장해등급은 어떻게 결정되나요?</p>
+  <p class="a">1~14급으로 구분되며, 장해 부위와 정도에 따라 공단 자문의가 판정합니다. 1~3급은 연금만, 4~7급은 연금·일시금 선택, 8~14급은 일시금만 지급됩니다.</p>
+
+  <p class="q">Q7. 과로사·과로 자살도 산재로 인정되나요?</p>
+  <p class="a">네. 발병 전 12주 평균 주 60시간↑ 또는 4주 평균 주 64시간↑ 초과근무 시 업무 관련성이 강하게 추정됩니다. 야간근무·휴일근무·교대근무도 가중 요인으로 반영됩니다.</p>
+
+  <p class="q">Q8. 산재 중에 급여는 어떻게 받나요?</p>
+  <p class="a">근로자는 휴업급여(평균임금 70%)를 공단에서 직접 받고, 회사에서는 급여 지급 의무가 없습니다. 다만 단체협약·취업규칙에 유급휴직 규정이 있으면 차액을 회사가 지급해야 합니다.</p>
+
+  <p class="q">Q9. 자영업자가 임의가입하면 보험료는 얼마인가요?</p>
+  <p class="a">업종별로 다르며, 평균적으로 월 5~15만 원 수준입니다. 중기부(50~80%) + 지자체(서울 최대 50%) 지원을 중복 받으면 실질 부담은 월 1~3만 원으로 낮아집니다.</p>
+
+  <p class="q">Q10. 산재 불승인 시 이의신청은 어떻게 하나요?</p>
+  <p class="a">결정 통보일로부터 90일 이내에 심사청구(공단 본부) → 재심사청구(재심사위원회) → 행정소송 순으로 진행합니다. 2026년 판례는 "개인적 소인이 있어도 업무가 질병을 촉발했다면 인과관계 인정"으로 노동자에게 우호적입니다.</p>
+
+  <div class="tips">
+    <strong>실전 팁</strong><br/>
+    사고 발생 즉시 <strong>현장 사진과 목격자 연락처</strong>를 확보하세요. CCTV는 보통 2주~1개월 후 자동 삭제되므로 최대한 빨리 보존 요청을 해야 합니다. 플랫폼 노동자는 앱의 배차 기록·이동 경로 데이터를 스크린샷으로 저장해두는 것이 결정적 증거가 됩니다.
+  </div>
+
+  <div class="disclaimer">
+    <strong>⚠️ 면책 고지</strong><br/>
+    본 글은 2026년 4월 18일 기준 공개된 근로복지공단·고용노동부 자료를 참고하여 작성되었으며, 일반적인 정보 제공을 목적으로 합니다. 개별 사건의 산재 승인 여부, 보상 금액, 이의신청 절차 등은 사건의 구체적 사정과 심사관 판단에 따라 달라질 수 있습니다. 구체적인 청구·소송·법적 대응을 고려 중이라면 반드시 근로복지공단 지사 또는 노무사·변호사 등 전문가의 상담을 받으시기 바랍니다. 본 글 내용을 근거로 한 신청·소송 결과에 대해 당 블로그는 책임지지 않습니다.
+  </div>
+
+  <h2 id="check">11) 신청 전 1분 체크리스트</h2>
+  <ul>
+    <li>재해 발생일로부터 3년 이내 확인</li>
+    <li>산재 지정 의료기관 진료 (공단 홈페이지 검색)</li>
+    <li>사고 경위서 육하원칙 기술 완료</li>
+    <li>증거(CCTV·목격자·녹취·앱 기록) 확보</li>
+    <li>근로복지공단 토탈서비스 온라인 접수 (사업주 날인 불요)</li>
+    <li>평균임금 산정: 최근 3개월 급여명세서 준비</li>
+    <li>지자체 보험료 지원 중복 신청 여부 확인</li>
+    <li>불승인 시 90일 이내 심사청구 기한 체크</li>
+  </ul>
+  <p class="small">관련 글: <a href="#">소상공인 고용보험·산재보험 지원금 신청 방법 총정리</a> / <a href="#">자영업자 4대보험 절감·적용제외 기준 총정리</a> / <a href="#">소상공인 지원금 신청 가이드</a></p>
+
+  <div class="ad">광고 위치 3</div>
+
+  <div class="tips">
+    <strong>참고/문의처</strong><br/>
+    공식 사이트: <a href="https://www.comwel.or.kr" target="_blank" rel="noopener">근로복지공단 (comwel.or.kr)</a><br/>
+    온라인 신청: <a href="https://total.comwel.or.kr" target="_blank" rel="noopener">고용·산재보험 토탈서비스</a><br/>
+    문의 전화: 근로복지공단 ☎ 1588-0075 / 고용노동부 ☎ 1350
+  </div>
+
+  <div class="footer" id="update">
+    <strong>업데이트 로그</strong><br/>
+    - 2026-04-18: 2026년 최저임금 연동 휴업급여 하한 82,560원·상한 268,299원 반영, 전속성 폐지 정착, 사업주 날인 폐지, 정신질환 신속결정제도(120일), 자영업자 지자체 지원 현황, 직장복귀지원금·대체인력지원금 반영<br/>
+    <span class="small">※ 산재 보상 기준은 매년 고시됩니다. 신청 전 근로복지공단 공식 사이트/상담 확인!</span>
+  </div>
+</div>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+    <linearGradient id="rowBg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.06)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0.02)"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <rect x="80" y="72" width="160" height="48" rx="24" fill="#F59E0B"/>
+  <text x="160" y="103" font-family="'Pretendard', sans-serif" font-size="22" font-weight="700" fill="#0B1F3B" text-anchor="middle">2026 최신</text>
+
+  <text x="80" y="185" font-family="'Pretendard', sans-serif" font-size="42" font-weight="800" fill="#FFFFFF">상속세·증여세 절세 핵심 정리</text>
+  <rect x="80" y="215" width="120" height="4" rx="2" fill="#F59E0B"/>
+
+  <!-- Row 1 -->
+  <rect x="60" y="260" width="960" height="105" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="100" y="300" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#F59E0B">일괄공제</text>
+  <text x="100" y="340" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">5억 → 7~8억 원으로 상향</text>
+
+  <!-- Row 2 -->
+  <rect x="60" y="385" width="960" height="105" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="100" y="425" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#F59E0B">배우자 공제</text>
+  <text x="100" y="465" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">5억 → 10억 원 (비과세 18억까지)</text>
+
+  <!-- Row 3 -->
+  <rect x="60" y="510" width="960" height="105" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="100" y="550" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#F59E0B">혼인·출산 증여</text>
+  <text x="100" y="590" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">1인 1.5억, 부부 합산 3억 비과세</text>
+
+  <!-- Row 4 -->
+  <rect x="60" y="635" width="960" height="105" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="100" y="675" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#F59E0B">10년 주기 증여</text>
+  <text x="100" y="715" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">배우자 6억 / 성인 5,000만 / 미성년 2,000만</text>
+
+  <!-- Row 5 (highlighted) -->
+  <rect x="60" y="760" width="960" height="105" rx="16" fill="rgba(245,158,11,0.15)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="800" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#F59E0B">가업승계 공제</text>
+  <text x="100" y="840" font-family="'Pretendard', sans-serif" font-size="24" font-weight="800" fill="#F59E0B">최대 600억 / 증여특례 120억까지 10%</text>
+
+  <!-- Row 6 -->
+  <rect x="60" y="885" width="960" height="105" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="100" y="925" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#F59E0B">연부연납</text>
+  <text x="100" y="965" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">최대 20년 분할 (금리 3.5%)</text>
+</svg>

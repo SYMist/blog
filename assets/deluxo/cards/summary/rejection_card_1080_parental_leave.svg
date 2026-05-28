@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#EF4444">육아휴직 급여 신청 실수 TOP 5</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#EF4444"/>
+
+  <rect x="60" y="130" width="960" height="160" rx="20" fill="rgba(239,68,68,0.08)"/>
+  <rect x="80" y="155" width="56" height="56" rx="28" fill="rgba(239,68,68,0.3)"/>
+  <text x="108" y="192" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="900" fill="#EF4444">1</text>
+  <text x="155" y="185" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">피보험 단위기간 180일 미충족</text>
+  <text x="155" y="225" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#94A3B8">고용보험 가입 기간이 180일 미만이면 급여 신청 자체가 불가</text>
+  <text x="155" y="260" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">확인: 고용보험 홈페이지에서 피보험 이력 사전 조회</text>
+
+  <rect x="60" y="308" width="960" height="160" rx="20" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="333" width="56" height="56" rx="28" fill="rgba(239,68,68,0.3)"/>
+  <text x="108" y="370" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="900" fill="#EF4444">2</text>
+  <text x="155" y="363" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">6+6 특례 기한 초과</text>
+  <text x="155" y="403" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#94A3B8">자녀가 만 18개월 지나면 특례 적용 불가 — 생일 역산 필수</text>
+  <text x="155" y="438" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">대응: 출생일+18개월 계산하여 부부 동시 휴직 시작일 확정</text>
+
+  <rect x="60" y="486" width="960" height="160" rx="20" fill="rgba(239,68,68,0.08)"/>
+  <rect x="80" y="511" width="56" height="56" rx="28" fill="rgba(239,68,68,0.3)"/>
+  <text x="108" y="548" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="900" fill="#EF4444">3</text>
+  <text x="155" y="541" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">급여 신청 시기 누락</text>
+  <text x="155" y="581" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#94A3B8">휴직 1개월 경과 후부터 매월 신청해야 함 — 12개월 지나면 소멸</text>
+  <text x="155" y="616" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">대응: 매월 급여 신청 캘린더에 알림 설정</text>
+
+  <rect x="60" y="664" width="960" height="160" rx="20" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="689" width="56" height="56" rx="28" fill="rgba(239,68,68,0.3)"/>
+  <text x="108" y="726" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="900" fill="#EF4444">4</text>
+  <text x="155" y="719" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">인천 장려금 거주 요건 미충족</text>
+  <text x="155" y="759" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#94A3B8">해당 구 1년 이상 계속 거주 필수 — 휴직 전 이사하면 자격 상실</text>
+  <text x="155" y="794" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">대응: 주소 이전 계획이 있으면 장려금 신청 후 이사</text>
+
+  <rect x="60" y="842" width="960" height="160" rx="20" fill="rgba(239,68,68,0.08)"/>
+  <rect x="80" y="867" width="56" height="56" rx="28" fill="rgba(239,68,68,0.3)"/>
+  <text x="108" y="904" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="900" fill="#EF4444">5</text>
+  <text x="155" y="897" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">복직 후 건보료 분납 미신청</text>
+  <text x="155" y="937" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#94A3B8">유예된 건보료가 한꺼번에 공제 → 복직 첫 달 월급 급감</text>
+  <text x="155" y="972" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">대응: 복직 전 인사팀에 건보료 분납(최대 10회) 미리 요청</text>
+
+  <rect x="60" y="1030" width="960" height="6" rx="3" fill="#EF4444"/>
+</svg>

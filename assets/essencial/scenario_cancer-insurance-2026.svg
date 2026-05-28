@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F5F3FF"/>
+      <stop offset="100%" stop-color="#FAF5FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg3)"/>
+
+  <text x="540" y="58" font-family="sans-serif" font-size="34" font-weight="900" fill="#111827" text-anchor="middle">암보험 상황별 추천 가이드</text>
+  <text x="540" y="93" font-family="sans-serif" font-size="20" fill="#6B7280" text-anchor="middle">60세 이후 갱신형 vs 비갱신형 | 나에게 맞는 선택은?</text>
+
+  <!-- 시나리오 1: 소득 있는 60세 -->
+  <rect x="50" y="125" width="980" height="130" rx="20" fill="#FFF" stroke="#C4B5FD" stroke-width="1.5"/>
+  <rect x="50" y="125" width="980" height="44" rx="20" fill="#7C3AED"/>
+  <rect x="50" y="149" width="980" height="20" fill="#7C3AED"/>
+  <text x="80" y="154" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFF">60세 전후, 소득이 있고 장기 안정 보장을 원함</text>
+  <text x="80" y="200" font-family="sans-serif" font-size="20" fill="#111827">→ <tspan font-weight="800">비갱신형 순수보장형</tspan> — 월 10만 원 고정, 20년납 완료 후 보험료 0원</text>
+  <text x="80" y="237" font-family="sans-serif" font-size="17" fill="#6B7280">80세 이후 소득 없는 시기에 보험료 부담 없이 100세까지 보장 · 총 납입액 2,400만 원</text>
+
+  <!-- 시나리오 2: 은퇴 직후 -->
+  <rect x="50" y="275" width="980" height="130" rx="20" fill="#FFF" stroke="#FDE68A" stroke-width="1.5"/>
+  <rect x="50" y="275" width="980" height="44" rx="20" fill="#B45309"/>
+  <rect x="50" y="299" width="980" height="20" fill="#B45309"/>
+  <text x="80" y="304" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFF">은퇴 직후, 당장 보험료가 큰 부담</text>
+  <text x="80" y="350" font-family="sans-serif" font-size="20" fill="#111827">→ <tspan font-weight="800">갱신형 (단기 목적)</tspan> — 월 4만 원으로 진입, 70세 이전 비갱신형 전환 계획 필수</text>
+  <text x="80" y="387" font-family="sans-serif" font-size="17" fill="#6B7280">초기 10년간 720만 원 차익 · 단 장기 유지 시 총 납입액 1.5억+ → 탈출 전략 필요</text>
+
+  <!-- 시나리오 3: 유병자 -->
+  <rect x="50" y="425" width="980" height="130" rx="20" fill="#FFF" stroke="#C4B5FD" stroke-width="1.5"/>
+  <rect x="50" y="425" width="980" height="44" rx="20" fill="#6D28D9"/>
+  <rect x="50" y="449" width="980" height="20" fill="#6D28D9"/>
+  <text x="80" y="454" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFF">고혈압·당뇨 등 만성질환 보유 (유병자)</text>
+  <text x="80" y="500" font-family="sans-serif" font-size="20" fill="#111827">→ <tspan font-weight="800">비갱신형 3.5.5 간편고지</tspan> — 5년 내 입원·수술 없으면 건강체 할인</text>
+  <text x="80" y="537" font-family="sans-serif" font-size="17" fill="#6B7280">2026년 고도화된 언더라이팅 → 유병자도 합리적 가격에 비갱신형 가입 가능</text>
+
+  <!-- 시나리오 4: 기존 보험 + 고가 치료 -->
+  <rect x="50" y="575" width="980" height="130" rx="20" fill="#FFF" stroke="#A7F3D0" stroke-width="1.5"/>
+  <rect x="50" y="575" width="980" height="44" rx="20" fill="#059669"/>
+  <rect x="50" y="599" width="980" height="20" fill="#059669"/>
+  <text x="80" y="604" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFF">기존 암보험 있음 + 중입자치료 등 고가 치료 대비 필요</text>
+  <text x="80" y="650" font-family="sans-serif" font-size="20" fill="#111827">→ <tspan font-weight="800">중입자치료비 특약 추가</tspan> — 월 2,000~3,400원으로 5,000만 원 보장</text>
+  <text x="80" y="687" font-family="sans-serif" font-size="17" fill="#6B7280">중입자 12회 5,000~7,000만(전액 비급여) · 실손보험은 통원 회당 20만 원 부족 → 필수 보완</text>
+
+  <!-- 시나리오 5: 70대 이상 -->
+  <rect x="50" y="725" width="980" height="130" rx="20" fill="#FFF" stroke="#FECACA" stroke-width="1.5"/>
+  <rect x="50" y="725" width="980" height="44" rx="20" fill="#DC2626"/>
+  <rect x="50" y="749" width="980" height="20" fill="#DC2626"/>
+  <text x="80" y="754" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFF">70대 이상, 일반 보험 가입이 어려움</text>
+  <text x="80" y="800" font-family="sans-serif" font-size="20" fill="#111827">→ <tspan font-weight="800">실버암보험 (갱신형)</tspan> — 80세까지 가입 가능, 무심사 인수, 100세 보장</text>
+  <text x="80" y="837" font-family="sans-serif" font-size="17" fill="#6B7280">10년 단위 갱신 · 고혈압·당뇨 무심사 인수 · 일부 상품 건강관리자금 지급</text>
+
+  <!-- 조합 전략 -->
+  <rect x="50" y="885" width="980" height="70" rx="16" fill="#7C3AED"/>
+  <text x="540" y="918" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFF" text-anchor="middle">최적 조합: 비갱신형 순수보장형(기본 진단비) + 갱신형 특약(중입자·표적항암)</text>
+  <text x="540" y="946" font-family="sans-serif" font-size="17" fill="#DDD6FE" text-anchor="middle">기본 보장은 확정 보험료로 안정 · 고가 치료비는 저렴한 갱신형 특약으로 유연하게 보완</text>
+
+  <!-- 경고 -->
+  <rect x="50" y="975" width="980" height="50" rx="12" fill="#FEF2F2" stroke="#FECACA" stroke-width="1"/>
+  <text x="540" y="1000" font-family="sans-serif" font-size="16" font-weight="700" fill="#991B1B" text-anchor="middle">면책 90일 + 감액 1~2년(50%) | 유사암 진단비 20% | 고지의무 위반 시 보험금 거절</text>
+  <text x="540" y="1020" font-family="sans-serif" font-size="14" fill="#991B1B" text-anchor="middle">기존 보험 해지 후 신규 가입 시 보장 공백 주의 — 반드시 중복 가입 후 해지</text>
+
+  <text x="540" y="1060" font-family="sans-serif" font-size="15" fill="#9CA3AF" text-anchor="middle">2026년 4월 기준 | 금융감독원·보험개발원·생명보험협회 공시 기반 | 가입 전 설계사 상담 권장</text>
+</svg>

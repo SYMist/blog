@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- 레이블 -->
+  <rect x="60" y="52" width="240" height="44" rx="22" fill="#34D399" opacity="0.18"/>
+  <text x="180" y="80" font-family="-apple-system,sans-serif" font-size="22" font-weight="700" fill="#34D399" text-anchor="middle">빠른 지원금 계산</text>
+
+  <!-- 제목 -->
+  <text x="540" y="158" font-family="-apple-system,sans-serif" font-size="50" font-weight="900" fill="#FFFFFF" text-anchor="middle">나는 얼마나 절감되나? 월별 계산</text>
+  <text x="540" y="210" font-family="-apple-system,sans-serif" font-size="32" font-weight="600" fill="#A0B4D0" text-anchor="middle">22% 경감 + 28% 지원 합산 기준 (2026)</text>
+
+  <line x1="60" y1="236" x2="1020" y2="236" stroke="#1A3270" stroke-width="2"/>
+
+  <!-- 계산 과정 설명 -->
+  <rect x="60" y="252" width="960" height="90" rx="14" fill="#1A3270"/>
+  <text x="540" y="288" font-family="-apple-system,sans-serif" font-size="26" font-weight="800" fill="#FFFFFF" text-anchor="middle">계산 공식: 원래 부과액 × (1 − 22%) × (1 − 28%)</text>
+  <text x="540" y="326" font-family="-apple-system,sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">22% 경감 후 잔액에 28% 국고지원 차감</text>
+
+  <!-- 표 헤더 -->
+  <rect x="60" y="358" width="960" height="50" rx="8" fill="#0D2347"/>
+  <text x="190" y="390" font-family="-apple-system,sans-serif" font-size="20" font-weight="700" fill="#A0B4D0" text-anchor="middle">원래 부과액</text>
+  <text x="370" y="390" font-family="-apple-system,sans-serif" font-size="20" font-weight="700" fill="#34D399" text-anchor="middle">22% 후</text>
+  <text x="570" y="390" font-family="-apple-system,sans-serif" font-size="20" font-weight="700" fill="#F59E0B" text-anchor="middle">28% 지원액</text>
+  <text x="770" y="390" font-family="-apple-system,sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle">실 납부액</text>
+  <text x="960" y="390" font-family="-apple-system,sans-serif" font-size="20" font-weight="700" fill="#EF4444" text-anchor="middle">절감률</text>
+
+  <!-- 데이터 행들 -->
+  <!-- 행 1 -->
+  <rect x="60" y="408" width="960" height="60" rx="0" fill="#0D2347"/>
+  <text x="190" y="444" font-family="-apple-system,sans-serif" font-size="24" fill="#FFFFFF" text-anchor="middle">100,000원</text>
+  <text x="370" y="444" font-family="-apple-system,sans-serif" font-size="24" fill="#34D399" text-anchor="middle">78,000원</text>
+  <text x="570" y="444" font-family="-apple-system,sans-serif" font-size="24" fill="#F59E0B" text-anchor="middle">−28,000원</text>
+  <text x="770" y="444" font-family="-apple-system,sans-serif" font-size="24" font-weight="900" fill="#FFFFFF" text-anchor="middle">50,000원</text>
+  <text x="960" y="444" font-family="-apple-system,sans-serif" font-size="24" font-weight="900" fill="#EF4444" text-anchor="middle">50%↓</text>
+  <line x1="60" y1="468" x2="1020" y2="468" stroke="#1A3270" stroke-width="1"/>
+
+  <!-- 행 2 -->
+  <rect x="60" y="468" width="960" height="60" rx="0" fill="#0B1F3B"/>
+  <text x="190" y="504" font-family="-apple-system,sans-serif" font-size="24" fill="#FFFFFF" text-anchor="middle">150,000원</text>
+  <text x="370" y="504" font-family="-apple-system,sans-serif" font-size="24" fill="#34D399" text-anchor="middle">117,000원</text>
+  <text x="570" y="504" font-family="-apple-system,sans-serif" font-size="24" fill="#F59E0B" text-anchor="middle">−42,000원</text>
+  <text x="770" y="504" font-family="-apple-system,sans-serif" font-size="24" font-weight="900" fill="#FFFFFF" text-anchor="middle">75,000원</text>
+  <text x="960" y="504" font-family="-apple-system,sans-serif" font-size="24" font-weight="900" fill="#EF4444" text-anchor="middle">50%↓</text>
+  <line x1="60" y1="528" x2="1020" y2="528" stroke="#1A3270" stroke-width="1"/>
+
+  <!-- 행 3 -->
+  <rect x="60" y="528" width="960" height="60" rx="0" fill="#0D2347"/>
+  <text x="190" y="564" font-family="-apple-system,sans-serif" font-size="24" fill="#FFFFFF" text-anchor="middle">200,000원</text>
+  <text x="370" y="564" font-family="-apple-system,sans-serif" font-size="24" fill="#34D399" text-anchor="middle">156,000원</text>
+  <text x="570" y="564" font-family="-apple-system,sans-serif" font-size="24" fill="#F59E0B" text-anchor="middle">−56,000원</text>
+  <text x="770" y="564" font-family="-apple-system,sans-serif" font-size="24" font-weight="900" fill="#FFFFFF" text-anchor="middle">100,000원</text>
+  <text x="960" y="564" font-family="-apple-system,sans-serif" font-size="24" font-weight="900" fill="#EF4444" text-anchor="middle">50%↓</text>
+  <line x1="60" y1="588" x2="1020" y2="588" stroke="#1A3270" stroke-width="1"/>
+
+  <!-- 행 4 -->
+  <rect x="60" y="588" width="960" height="60" rx="0" fill="#0B1F3B"/>
+  <text x="190" y="624" font-family="-apple-system,sans-serif" font-size="24" fill="#FFFFFF" text-anchor="middle">300,000원</text>
+  <text x="370" y="624" font-family="-apple-system,sans-serif" font-size="24" fill="#34D399" text-anchor="middle">234,000원</text>
+  <text x="570" y="624" font-family="-apple-system,sans-serif" font-size="24" fill="#F59E0B" text-anchor="middle">−84,000원</text>
+  <text x="770" y="624" font-family="-apple-system,sans-serif" font-size="24" font-weight="900" fill="#FFFFFF" text-anchor="middle">150,000원</text>
+  <text x="960" y="624" font-family="-apple-system,sans-serif" font-size="24" font-weight="900" fill="#EF4444" text-anchor="middle">50%↓</text>
+  <line x1="60" y1="648" x2="1020" y2="648" stroke="#1A3270" stroke-width="1"/>
+
+  <!-- 행 5 (정액 경계) -->
+  <rect x="60" y="648" width="960" height="60" rx="0" fill="#0D2347"/>
+  <text x="190" y="684" font-family="-apple-system,sans-serif" font-size="24" fill="#FFFFFF" text-anchor="middle">380,920원</text>
+  <text x="370" y="684" font-family="-apple-system,sans-serif" font-size="24" fill="#34D399" text-anchor="middle">297,117원</text>
+  <text x="570" y="684" font-family="-apple-system,sans-serif" font-size="20" fill="#F59E0B" text-anchor="middle">−106,657원(정액)</text>
+  <text x="770" y="684" font-family="-apple-system,sans-serif" font-size="24" font-weight="900" fill="#FFFFFF" text-anchor="middle">190,460원</text>
+  <text x="960" y="684" font-family="-apple-system,sans-serif" font-size="24" font-weight="900" fill="#EF4444" text-anchor="middle">50%↓</text>
+  <line x1="60" y1="708" x2="1020" y2="708" stroke="#1A3270" stroke-width="1"/>
+
+  <!-- 행 6 (지원 제외) -->
+  <rect x="60" y="708" width="960" height="60" rx="0" fill="#0B1F3B"/>
+  <text x="190" y="744" font-family="-apple-system,sans-serif" font-size="24" fill="#A0B4D0" text-anchor="middle">528,970원 이상</text>
+  <text x="370" y="744" font-family="-apple-system,sans-serif" font-size="24" fill="#34D399" text-anchor="middle">22% 경감</text>
+  <text x="570" y="744" font-family="-apple-system,sans-serif" font-size="20" fill="#EF4444" text-anchor="middle">국고지원 제외</text>
+  <text x="770" y="744" font-family="-apple-system,sans-serif" font-size="24" fill="#A0B4D0" text-anchor="middle">경감분만</text>
+  <text x="960" y="744" font-family="-apple-system,sans-serif" font-size="24" fill="#A0B4D0" text-anchor="middle">22%↓</text>
+
+  <!-- 소급 강조 -->
+  <rect x="60" y="786" width="960" height="80" rx="14" fill="#F59E0B" opacity="0.13"/>
+  <rect x="60" y="786" width="4" height="80" rx="2" fill="#F59E0B"/>
+  <text x="540" y="820" font-family="-apple-system,sans-serif" font-size="26" font-weight="900" fill="#F59E0B" text-anchor="middle">⚠ 최대 6개월 소급 — 20만 원 부과 시 6개월 환급 약 336,000원</text>
+  <text x="540" y="856" font-family="-apple-system,sans-serif" font-size="22" fill="#FFFFFF" text-anchor="middle">신청 전월부터 소급 적용 — 빠를수록 환급액 많아짐</text>
+
+  <!-- 문의 -->
+  <rect x="60" y="884" width="960" height="68" rx="14" fill="#0D2347"/>
+  <text x="540" y="914" font-family="-apple-system,sans-serif" font-size="22" fill="#FFFFFF" text-anchor="middle">신청: 관할 국민건강보험공단 지사 방문</text>
+  <text x="540" y="942" font-family="-apple-system,sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">고객센터 ☎ 1577-1000 (평일 09:00~18:00)</text>
+
+  <text x="540" y="1036" font-family="-apple-system,sans-serif" font-size="20" fill="#4B6080" text-anchor="middle">정부24·국민건강보험공단 기준 | 2026.05 기준</text>
+</svg>

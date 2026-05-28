@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#FBBF24"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="12" fill="url(#accent)"/>
+
+  <!-- Title -->
+  <text x="540" y="78" font-family="-apple-system, sans-serif" font-size="36" font-weight="900" fill="#FFFFFF" text-anchor="middle">나는 일반형? 우대형? 상황별 판단</text>
+  <text x="540" y="118" font-family="-apple-system, sans-serif" font-size="22" font-weight="700" fill="#F59E0B" text-anchor="middle">청년 미래적금 · 내 상황에서 선택하기</text>
+
+  <!-- Divider -->
+  <rect x="60" y="136" width="960" height="3" fill="#F59E0B" rx="2"/>
+
+  <!-- Table header -->
+  <rect x="60" y="154" width="960" height="56" rx="10" fill="#1A3270"/>
+  <text x="360" y="189" font-family="-apple-system, sans-serif" font-size="20" font-weight="900" fill="#F59E0B" text-anchor="middle">내 상황</text>
+  <text x="780" y="189" font-family="-apple-system, sans-serif" font-size="20" font-weight="900" fill="#F59E0B" text-anchor="middle">해당 유형</text>
+  <line x1="600" y1="154" x2="600" y2="210" stroke="#0B1F3B" stroke-width="2"/>
+
+  <!-- Row 1 -->
+  <rect x="60" y="214" width="960" height="114" rx="0" fill="#0F2348"/>
+  <rect x="60" y="322" width="960" height="2" fill="#1A3270"/>
+  <text x="360" y="256" font-family="-apple-system, sans-serif" font-size="18" fill="#EAF2FF" text-anchor="middle">연봉 3,600만원 이하</text>
+  <text x="360" y="282" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">가구소득 중위 150% 이하</text>
+  <text x="780" y="256" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#34D399" text-anchor="middle">우대형 ✔</text>
+  <text x="780" y="282" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">기여금 12% — 가장 유리</text>
+  <line x1="600" y1="214" x2="600" y2="324" stroke="#1A3270" stroke-width="2"/>
+
+  <!-- Row 2 -->
+  <rect x="60" y="324" width="960" height="114" rx="0" fill="#0B1F3B"/>
+  <rect x="60" y="432" width="960" height="2" fill="#1A3270"/>
+  <text x="360" y="366" font-family="-apple-system, sans-serif" font-size="18" fill="#EAF2FF" text-anchor="middle">연봉 3,600만원 초과~6,000만원 이하</text>
+  <text x="360" y="392" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">가구소득 중위 200% 이하</text>
+  <text x="780" y="366" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#F59E0B" text-anchor="middle">일반형</text>
+  <text x="780" y="392" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">기여금 6% — 그래도 유리</text>
+  <line x1="600" y1="324" x2="600" y2="434" stroke="#1A3270" stroke-width="2"/>
+
+  <!-- Row 3 -->
+  <rect x="60" y="434" width="960" height="114" rx="0" fill="#0F2348"/>
+  <rect x="60" y="542" width="960" height="2" fill="#1A3270"/>
+  <text x="360" y="476" font-family="-apple-system, sans-serif" font-size="18" fill="#EAF2FF" text-anchor="middle">중소기업 신규취업자</text>
+  <text x="360" y="502" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">입사 6개월 이내 + 일반형 소득 충족</text>
+  <text x="780" y="476" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#34D399" text-anchor="middle">우대형 적용 가능</text>
+  <text x="780" y="502" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">은행에서 자격 확인 후 결정</text>
+  <line x1="600" y1="434" x2="600" y2="544" stroke="#1A3270" stroke-width="2"/>
+
+  <!-- Row 4 -->
+  <rect x="60" y="544" width="960" height="114" rx="0" fill="#0B1F3B"/>
+  <rect x="60" y="652" width="960" height="2" fill="#1A3270"/>
+  <text x="360" y="586" font-family="-apple-system, sans-serif" font-size="18" fill="#EAF2FF" text-anchor="middle">연봉 6,000만원 초과</text>
+  <text x="360" y="612" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">또는 가구소득 중위 200% 초과</text>
+  <text x="780" y="586" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#FCA5A5" text-anchor="middle">가입 불가</text>
+  <text x="780" y="612" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">다른 금융상품 검토 필요</text>
+  <line x1="600" y1="544" x2="600" y2="654" stroke="#1A3270" stroke-width="2"/>
+
+  <!-- Row 5 -->
+  <rect x="60" y="654" width="960" height="114" rx="0" fill="#0F2348"/>
+  <text x="360" y="696" font-family="-apple-system, sans-serif" font-size="18" fill="#EAF2FF" text-anchor="middle">청년도약계좌 유지 중</text>
+  <text x="360" y="722" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">미래적금과 중복 가입 원한다</text>
+  <text x="780" y="696" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#FCA5A5" text-anchor="middle">중복 불가</text>
+  <text x="780" y="722" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">갈아타기 vs 유지 손익 계산 필요</text>
+  <line x1="600" y1="654" x2="600" y2="768" stroke="#1A3270" stroke-width="2"/>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="784" width="1080" height="272" fill="#0A1A35"/>
+  <text x="540" y="840" font-family="-apple-system, sans-serif" font-size="26" font-weight="900" fill="#F59E0B" text-anchor="middle">소득 기준 확인 방법</text>
+  <text x="540" y="876" font-family="-apple-system, sans-serif" font-size="20" fill="#EAF2FF" text-anchor="middle">홈택스 → 소득금액증명원 (전전년도 소득 기준 가능성)</text>
+  <text x="540" y="912" font-family="-apple-system, sans-serif" font-size="20" fill="#EAF2FF" text-anchor="middle">건강보험공단 앱 → 가구 중위소득 확인</text>
+  <text x="540" y="956" font-family="-apple-system, sans-serif" font-size="22" font-weight="700" fill="#34D399" text-anchor="middle">출시: 2026년 6월 예정 · 서민금융진흥원 ☎ 1397</text>
+  <text x="540" y="994" font-family="-apple-system, sans-serif" font-size="18" fill="#A0B4D0" text-anchor="middle">kinfa.or.kr · 세부 조건은 출시 공고에서 최종 확인 필수</text>
+  <text x="540" y="1024" font-family="-apple-system, sans-serif" font-size="16" fill="#6B7280" text-anchor="middle">※ 2026년 5월 기준 예정 정보 — 출시 후 변경 가능</text>
+
+  <rect x="0" y="1068" width="1080" height="12" fill="url(#accent)"/>
+</svg>

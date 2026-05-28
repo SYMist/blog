@@ -1,0 +1,39 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="#F8FAFC"/>
+
+  <!-- Card -->
+  <g filter="url(#shadow)">
+    <rect x="70" y="70" width="940" height="940" rx="24" fill="#FFFFFF" stroke="#E5E7EB"/>
+  </g>
+
+  <!-- Header -->
+  <text x="120" y="170" font-size="48" fill="#111827" font-weight="800" font-family="Pretendard, 'Noto Sans KR', sans-serif">신청 전 체크리스트</text>
+  <text x="120" y="230" font-size="28" fill="#6B7280" font-weight="600" font-family="Pretendard, 'Noto Sans KR', sans-serif">국민내일배움카드 1분 점검</text>
+
+  <!-- Divider -->
+  <line x1="120" y1="270" x2="960" y2="270" stroke="#E5E7EB"/>
+
+  <!-- Checklist Items -->
+  <g font-family="Pretendard, 'Noto Sans KR', sans-serif" fill="#111827" font-size="30">
+    <text x="170" y="360">□ 제외대상 아닌지 확인 (공무원·사학연금·75세 이상)</text>
+    <text x="170" y="430">□ HRD-Net 회원가입 및 본인 정보 등록</text>
+    <text x="170" y="500">□ 훈련과정 자부담률·수강시간 확인</text>
+    <text x="170" y="570">□ 140시간 이상 과정이면 고용센터 상담 예약</text>
+    <text x="170" y="640">□ 신분증·통장사본 등 기본 서류 준비</text>
+    <text x="170" y="710">□ 재직자·자영업자는 추가 서류 확인</text>
+    <text x="170" y="780">□ 수료 후 30일 내 만족도 조사 완료 기억</text>
+  </g>
+
+  <!-- Footer Note -->
+  <rect x="120" y="840" width="840" height="90" rx="12" fill="#F1F5F9"/>
+  <text x="150" y="895" font-size="24" fill="#4B5563" font-family="Pretendard, 'Noto Sans KR', sans-serif">
+    HRD-Net 공고 기준으로 최종 체크하세요
+  </text>
+</svg>

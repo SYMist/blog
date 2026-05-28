@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="40" y="36" width="260" height="44" rx="22" fill="#F59E0B"/>
+  <text x="170" y="65" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#0B1F3B">2026 정책 변화</text>
+  <text x="40" y="135" font-family="'Pretendard',sans-serif" font-size="44" font-weight="900" fill="#FFFFFF">자영업자 4대보험</text>
+  <text x="40" y="185" font-family="'Pretendard',sans-serif" font-size="44" font-weight="900" fill="#FFFFFF">달라진 점 6가지</text>
+  <rect x="40" y="210" width="120" height="4" rx="2" fill="#F59E0B"/>
+  <rect x="40" y="240" width="1000" height="55" rx="12" fill="rgba(245,158,11,0.2)"/>
+  <text x="240" y="275" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">항목</text>
+  <text x="540" y="275" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">변경 전</text>
+  <text x="840" y="275" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">2026년</text>
+  <rect x="40" y="305" width="1000" height="80" fill="rgba(255,255,255,0.06)"/>
+  <text x="70" y="352" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">건보 자동차 부과</text>
+  <text x="540" y="352" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">가액·배기량 부과</text>
+  <text x="840" y="352" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">전면 폐지</text>
+  <rect x="40" y="395" width="1000" height="80" fill="rgba(255,255,255,0.03)"/>
+  <text x="70" y="442" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">건보 재산 공제</text>
+  <text x="540" y="442" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">5,000만 원</text>
+  <text x="840" y="442" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">1억 원</text>
+  <rect x="40" y="485" width="1000" height="80" fill="rgba(255,255,255,0.06)"/>
+  <text x="70" y="532" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">건보 부과 방식</text>
+  <text x="540" y="532" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">60개 등급제</text>
+  <text x="840" y="532" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">정률제 추진</text>
+  <rect x="40" y="575" width="1000" height="80" fill="rgba(255,255,255,0.03)"/>
+  <text x="70" y="622" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">연금 상한액</text>
+  <text x="540" y="622" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">직전 연도 기준</text>
+  <text x="840" y="622" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">월 637만 원</text>
+  <rect x="40" y="665" width="1000" height="80" fill="rgba(255,255,255,0.06)"/>
+  <text x="70" y="712" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">소득정산 범위</text>
+  <text x="540" y="712" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">사업·근로소득만</text>
+  <text x="840" y="712" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">이자·배당·연금 포함</text>
+  <rect x="40" y="755" width="1000" height="80" fill="rgba(255,255,255,0.03)"/>
+  <text x="70" y="802" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">고용보험 신청</text>
+  <text x="540" y="802" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">기관 방문·서류</text>
+  <text x="840" y="802" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">소상공인24 온라인</text>
+  <rect x="40" y="870" width="1000" height="70" rx="16" fill="rgba(245,158,11,0.12)"/>
+  <text x="540" y="912" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">2026년 = 자영업자에게 유리한 방향으로 전면 개편</text>
+  <rect x="40" y="970" width="140" height="38" rx="19" fill="#E8F0FF"/>
+  <text x="110" y="995" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#1D4ED8">정책 변화</text>
+  <rect x="195" y="970" width="100" height="38" rx="19" fill="#E8F0FF"/>
+  <text x="245" y="995" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#1D4ED8">비교</text>
+  <rect x="310" y="970" width="100" height="38" rx="19" fill="#E8F0FF"/>
+  <text x="360" y="995" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#1D4ED8">2026</text>
+</svg>

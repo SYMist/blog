@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EFF6FF"/>
+      <stop offset="100%" stop-color="#F0F9FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg1)"/>
+
+  <text x="540" y="65" font-family="sans-serif" font-size="34" font-weight="900" fill="#111827" text-anchor="middle">자동차세 연납 vs 정기 납부 비교</text>
+  <text x="540" y="100" font-family="sans-serif" font-size="20" fill="#6B7280" text-anchor="middle">2026년 기준 | 공제율 5%, 잔여 일수 일할 계산</text>
+
+  <!-- 연납 카드 -->
+  <rect x="50" y="130" width="470" height="420" rx="24" fill="#FFF" stroke="#BFDBFE" stroke-width="2"/>
+  <rect x="50" y="130" width="470" height="65" rx="24" fill="#1E40AF"/>
+  <rect x="50" y="171" width="470" height="24" fill="#1E40AF"/>
+  <text x="285" y="173" font-family="sans-serif" font-size="28" font-weight="900" fill="#FFF" text-anchor="middle">연납 (1월 납부)</text>
+
+  <text x="80" y="245" font-family="sans-serif" font-size="20" fill="#111827"><tspan font-weight="700">실질 할인율</tspan></text>
+  <text x="480" y="245" font-family="sans-serif" font-size="24" font-weight="900" fill="#059669" text-anchor="end">약 4.58%</text>
+  <line x1="80" y1="263" x2="480" y2="263" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="80" y="295" font-family="sans-serif" font-size="20" fill="#111827"><tspan font-weight="700">납부 횟수</tspan></text>
+  <text x="480" y="295" font-family="sans-serif" font-size="22" font-weight="800" fill="#1E40AF" text-anchor="end">연 1회</text>
+  <line x1="80" y1="313" x2="480" y2="313" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="80" y="345" font-family="sans-serif" font-size="20" fill="#111827"><tspan font-weight="700">카드 무이자</tspan></text>
+  <text x="480" y="345" font-family="sans-serif" font-size="22" font-weight="800" fill="#1E40AF" text-anchor="end">최대 6개월</text>
+  <line x1="80" y1="363" x2="480" y2="363" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="80" y="395" font-family="sans-serif" font-size="20" fill="#111827"><tspan font-weight="700">쏘나타 1,998cc</tspan></text>
+  <text x="480" y="395" font-family="sans-serif" font-size="22" font-weight="900" fill="#059669" text-anchor="end">495,698원</text>
+  <line x1="80" y1="413" x2="480" y2="413" stroke="#E5E7EB" stroke-width="1"/>
+
+  <rect x="80" y="435" width="400" height="44" rx="12" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1"/>
+  <text x="280" y="463" font-family="sans-serif" font-size="18" font-weight="700" fill="#065F46" text-anchor="middle">23,782원 절약 (쏘나타 기준)</text>
+
+  <text x="285" y="520" font-family="sans-serif" font-size="16" fill="#6B7280" text-anchor="middle">신청: 1.16~1.31 / 위택스·앱·ARS</text>
+
+  <!-- 정기 납부 카드 -->
+  <rect x="560" y="130" width="470" height="420" rx="24" fill="#FFF" stroke="#FED7AA" stroke-width="2"/>
+  <rect x="560" y="130" width="470" height="65" rx="24" fill="#EA580C"/>
+  <rect x="560" y="171" width="470" height="24" fill="#EA580C"/>
+  <text x="795" y="173" font-family="sans-serif" font-size="28" font-weight="900" fill="#FFF" text-anchor="middle">정기 납부 (6·12월)</text>
+
+  <text x="590" y="245" font-family="sans-serif" font-size="20" fill="#111827"><tspan font-weight="700">할인율</tspan></text>
+  <text x="990" y="245" font-family="sans-serif" font-size="24" font-weight="900" fill="#DC2626" text-anchor="end">0%</text>
+  <line x1="590" y1="263" x2="990" y2="263" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="590" y="295" font-family="sans-serif" font-size="20" fill="#111827"><tspan font-weight="700">납부 횟수</tspan></text>
+  <text x="990" y="295" font-family="sans-serif" font-size="22" font-weight="800" fill="#EA580C" text-anchor="end">연 2회</text>
+  <line x1="590" y1="313" x2="990" y2="313" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="590" y="345" font-family="sans-serif" font-size="20" fill="#111827"><tspan font-weight="700">카드 무이자</tspan></text>
+  <text x="990" y="345" font-family="sans-serif" font-size="22" fill="#111827" text-anchor="end">별도 확인</text>
+  <line x1="590" y1="363" x2="990" y2="363" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="590" y="395" font-family="sans-serif" font-size="20" fill="#111827"><tspan font-weight="700">쏘나타 1,998cc</tspan></text>
+  <text x="990" y="395" font-family="sans-serif" font-size="22" font-weight="900" fill="#DC2626" text-anchor="end">519,480원</text>
+  <line x1="590" y1="413" x2="990" y2="413" stroke="#E5E7EB" stroke-width="1"/>
+
+  <rect x="590" y="435" width="400" height="44" rx="12" fill="#FEF2F2" stroke="#FECACA" stroke-width="1"/>
+  <text x="790" y="463" font-family="sans-serif" font-size="18" font-weight="700" fill="#991B1B" text-anchor="middle">할인 없이 전액 납부</text>
+
+  <text x="795" y="520" font-family="sans-serif" font-size="16" fill="#6B7280" text-anchor="middle">6월·12월 고지서 발행 → 납부</text>
+
+  <!-- 분기별 할인율 -->
+  <rect x="50" y="590" width="980" height="110" rx="20" fill="#FFF" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="540" y="625" font-family="sans-serif" font-size="22" font-weight="800" fill="#1E40AF" text-anchor="middle">분기별 실질 할인율 비교</text>
+  <rect x="80" y="645" width="210" height="40" rx="10" fill="#EFF6FF"/>
+  <text x="185" y="672" font-family="sans-serif" font-size="17" font-weight="700" fill="#1E40AF" text-anchor="middle">1월: 4.58%</text>
+  <rect x="310" y="645" width="210" height="40" rx="10" fill="#EFF6FF"/>
+  <text x="415" y="672" font-family="sans-serif" font-size="17" font-weight="700" fill="#1E40AF" text-anchor="middle">3월: 3.76%</text>
+  <rect x="540" y="645" width="210" height="40" rx="10" fill="#FEF3C7"/>
+  <text x="645" y="672" font-family="sans-serif" font-size="17" font-weight="700" fill="#92400E" text-anchor="middle">6월: 2.5%</text>
+  <rect x="770" y="645" width="210" height="40" rx="10" fill="#FEF2F2"/>
+  <text x="875" y="672" font-family="sans-serif" font-size="17" font-weight="700" fill="#991B1B" text-anchor="middle">9월: 1.25%</text>
+
+  <!-- 카드 무이자 요약 -->
+  <rect x="50" y="730" width="980" height="130" rx="20" fill="#FFF" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="540" y="765" font-family="sans-serif" font-size="22" font-weight="800" fill="#1E40AF" text-anchor="middle">카드 무이자 할부 TOP 3</text>
+  <rect x="80" y="785" width="290" height="55" rx="14" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1"/>
+  <text x="225" y="810" font-family="sans-serif" font-size="18" font-weight="800" fill="#065F46" text-anchor="middle">NH농협</text>
+  <text x="225" y="830" font-family="sans-serif" font-size="16" fill="#065F46" text-anchor="middle">최대 6개월 무이자</text>
+  <rect x="395" y="785" width="290" height="55" rx="14" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1"/>
+  <text x="540" y="810" font-family="sans-serif" font-size="18" font-weight="800" fill="#065F46" text-anchor="middle">BC카드</text>
+  <text x="540" y="830" font-family="sans-serif" font-size="16" fill="#065F46" text-anchor="middle">최대 5개월 무이자</text>
+  <rect x="710" y="785" width="290" height="55" rx="14" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1"/>
+  <text x="855" y="810" font-family="sans-serif" font-size="18" font-weight="800" fill="#065F46" text-anchor="middle">롯데카드</text>
+  <text x="855" y="830" font-family="sans-serif" font-size="16" fill="#065F46" text-anchor="middle">최대 5개월 무이자</text>
+
+  <!-- 추가 절세 -->
+  <rect x="50" y="890" width="470" height="70" rx="16" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+  <text x="285" y="925" font-family="sans-serif" font-size="17" font-weight="700" fill="#1E40AF" text-anchor="middle">차령 경감: 3년차~ 매년 5%↓ (최대 50%)</text>
+  <text x="285" y="948" font-family="sans-serif" font-size="15" fill="#1E40AF" text-anchor="middle">+ 연납 할인 중복 적용</text>
+
+  <rect x="560" y="890" width="470" height="70" rx="16" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+  <text x="795" y="925" font-family="sans-serif" font-size="17" font-weight="700" fill="#1E40AF" text-anchor="middle">전자고지 + 자동이체: 최대 1,600원 공제</text>
+  <text x="795" y="948" font-family="sans-serif" font-size="15" fill="#1E40AF" text-anchor="middle">일부 지자체 추가 혜택</text>
+
+  <text x="540" y="1010" font-family="sans-serif" font-size="16" fill="#9CA3AF" text-anchor="middle">2026년 3월 기준 | 지방세법 시행령 기반</text>
+  <text x="540" y="1040" font-family="sans-serif" font-size="16" fill="#9CA3AF" text-anchor="middle">카드사 프로모션은 분기별로 변동될 수 있습니다</text>
+</svg>

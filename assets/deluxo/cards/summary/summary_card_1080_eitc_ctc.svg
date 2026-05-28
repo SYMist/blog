@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="80" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="800" fill="#F59E0B">2026 근로장려금·자녀장려금 핵심 요약</text>
+  <rect x="60" y="110" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- 단독가구 -->
+  <rect x="60" y="145" width="960" height="130" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <rect x="80" y="165" width="120" height="40" rx="20" fill="#E8F0FF"/>
+  <text x="140" y="193" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#1D4ED8">단독가구</text>
+  <text x="80" y="240" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">소득 2,200만원 미만</text>
+  <text x="700" y="193" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#F59E0B">근로장려금 최대 165만원</text>
+  <text x="700" y="240" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">자녀장려금 해당 없음</text>
+
+  <!-- 홑벌이가구 -->
+  <rect x="60" y="295" width="960" height="130" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="315" width="140" height="40" rx="20" fill="#E8F0FF"/>
+  <text x="150" y="343" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#1D4ED8">홑벌이가구</text>
+  <text x="80" y="390" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">소득 3,200만원 미만</text>
+  <text x="700" y="343" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#F59E0B">근로 285만 + 자녀 100만</text>
+  <text x="700" y="390" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">합산 최대 385만원 (자녀 1명)</text>
+
+  <!-- 맞벌이가구 -->
+  <rect x="60" y="445" width="960" height="150" rx="16" fill="rgba(245,158,11,0.12)"/>
+  <rect x="80" y="465" width="140" height="40" rx="20" fill="#F59E0B"/>
+  <text x="150" y="493" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#0B1F3B">맞벌이가구</text>
+  <text x="80" y="540" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">소득 4,400만원 미만 (2026 완화)</text>
+  <text x="700" y="493" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="32" font-weight="900" fill="#F59E0B">최대 530만원</text>
+  <text x="700" y="540" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">근로 330만 + 자녀 200만(2명)</text>
+  <text x="540" y="575" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#22C55E">★ 2026년 소득 기준 3,800만→4,400만 완화</text>
+
+  <!-- 재산 기준 -->
+  <rect x="60" y="625" width="960" height="100" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="540" y="670" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#FFF">재산 기준: 가구원 전원 합계 2.4억원 미만</text>
+  <text x="540" y="705" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">1.7억~2.4억 미만 → 산정액 50% 지급 | 주택·토지·자동차·예금 포함</text>
+
+  <!-- 신청 기간 -->
+  <rect x="60" y="755" width="460" height="110" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="290" y="800" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#F59E0B">반기신청</text>
+  <text x="290" y="835" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">3월(하반기)·9월(상반기)</text>
+  <text x="290" y="855" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">→ 6월·12월 지급</text>
+
+  <rect x="560" y="755" width="460" height="110" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="790" y="800" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#F59E0B">정기신청</text>
+  <text x="790" y="835" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">5월 1일 ~ 6월 1일</text>
+  <text x="790" y="855" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">→ 8~9월 지급</text>
+
+  <!-- 신청처 -->
+  <rect x="60" y="895" width="960" height="80" rx="16" fill="rgba(245,158,11,0.15)"/>
+  <text x="540" y="945" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#F59E0B">홈택스 · 손택스 앱 · ARS 1544-9944</text>
+
+  <rect x="60" y="1010" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="700" fill="url(#bg)"/>
+
+  <text x="540" y="48" text-anchor="middle" fill="#FFFFFF" font-size="24" font-weight="800" font-family="sans-serif">증여 vs 상속 자산 규모별 세액 매트릭스</text>
+  <text x="540" y="74" text-anchor="middle" fill="#FCD34D" font-size="14" font-family="sans-serif">자녀 2명 균등 분배 · 단신 부모 가정 · 2026.05 기준</text>
+
+  <!-- Table header -->
+  <rect x="40" y="96" width="1000" height="44" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="150" y="124" text-anchor="middle" fill="#F8FAFC" font-size="14" font-weight="800" font-family="sans-serif">자산 규모</text>
+  <text x="400" y="124" text-anchor="middle" fill="#DDD6FE" font-size="14" font-weight="800" font-family="sans-serif">사전 증여 세액</text>
+  <text x="650" y="124" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="800" font-family="sans-serif">상속 세액</text>
+  <text x="870" y="124" text-anchor="middle" fill="#F8FAFC" font-size="14" font-weight="800" font-family="sans-serif">유리한 전략</text>
+
+  <!-- Row 1: 5억 -->
+  <rect x="40" y="144" width="1000" height="56" fill="#15803D" fill-opacity="0.4" stroke="#15803D" stroke-width="1.5"/>
+  <text x="150" y="180" text-anchor="middle" fill="#86EFAC" font-size="15" font-weight="800" font-family="sans-serif">5억원</text>
+  <text x="400" y="180" text-anchor="middle" fill="#FDBA74" font-size="14" font-weight="700" font-family="sans-serif">약 6,000만원</text>
+  <text x="650" y="180" text-anchor="middle" fill="#86EFAC" font-size="16" font-weight="800" font-family="sans-serif">0원</text>
+  <text x="870" y="180" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="800" font-family="sans-serif">상속 압도적</text>
+
+  <!-- Row 2: 10억 -->
+  <rect x="40" y="204" width="1000" height="56" fill="#15803D" fill-opacity="0.35" stroke="#15803D" stroke-width="1.5"/>
+  <text x="150" y="240" text-anchor="middle" fill="#86EFAC" font-size="15" font-weight="800" font-family="sans-serif">10억원</text>
+  <text x="400" y="240" text-anchor="middle" fill="#FDBA74" font-size="14" font-weight="700" font-family="sans-serif">약 1억 6,000만</text>
+  <text x="650" y="240" text-anchor="middle" fill="#86EFAC" font-size="16" font-weight="800" font-family="sans-serif">약 9,000만원</text>
+  <text x="870" y="240" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="800" font-family="sans-serif">상속 유리</text>
+
+  <!-- Row 3: 20억 손익분기 -->
+  <rect x="40" y="264" width="1000" height="56" fill="#FCD34D" fill-opacity="0.25" stroke="#FCD34D" stroke-width="2"/>
+  <text x="150" y="300" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="800" font-family="sans-serif">20억원</text>
+  <text x="400" y="300" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">약 4.5억원</text>
+  <text x="650" y="300" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">약 4.4억원</text>
+  <text x="870" y="300" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="800" font-family="sans-serif">손익분기점 ★</text>
+
+  <!-- Row 4: 30억 -->
+  <rect x="40" y="324" width="1000" height="56" fill="#7C3AED" fill-opacity="0.3" stroke="#7C3AED" stroke-width="1.5"/>
+  <text x="150" y="360" text-anchor="middle" fill="#DDD6FE" font-size="15" font-weight="800" font-family="sans-serif">30억원</text>
+  <text x="400" y="360" text-anchor="middle" fill="#DDD6FE" font-size="14" font-weight="700" font-family="sans-serif">약 8.4억원</text>
+  <text x="650" y="360" text-anchor="middle" fill="#FDBA74" font-size="14" font-weight="700" font-family="sans-serif">약 8.4억원</text>
+  <text x="870" y="360" text-anchor="middle" fill="#DDD6FE" font-size="14" font-weight="800" font-family="sans-serif">거의 동률</text>
+
+  <!-- Row 5: 50억 -->
+  <rect x="40" y="384" width="1000" height="56" fill="#7C3AED" fill-opacity="0.4" stroke="#7C3AED" stroke-width="1.5"/>
+  <text x="150" y="420" text-anchor="middle" fill="#DDD6FE" font-size="15" font-weight="800" font-family="sans-serif">50억원</text>
+  <text x="400" y="420" text-anchor="middle" fill="#DDD6FE" font-size="16" font-weight="800" font-family="sans-serif">약 16.4억원</text>
+  <text x="650" y="420" text-anchor="middle" fill="#FDBA74" font-size="14" font-weight="700" font-family="sans-serif">약 17.9억원</text>
+  <text x="870" y="420" text-anchor="middle" fill="#DDD6FE" font-size="14" font-weight="800" font-family="sans-serif">사전 증여 유리</text>
+
+  <!-- Note -->
+  <rect x="40" y="456" width="1000" height="84" rx="10" fill="#1e293b" fill-opacity="0.6" stroke="#334155" stroke-width="1.5"/>
+  <text x="60" y="484" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">손익분기점 결정 변수</text>
+  <text x="60" y="506" fill="#CBD5E1" font-size="12" font-family="sans-serif">증여 공제: 자녀 1인당 5천만 (10년 누계) · 상속 공제: 일괄공제 5억 (자녀 수 무관)</text>
+  <text x="60" y="528" fill="#CBD5E1" font-size="12" font-family="sans-serif">30억+ 구간에서 양쪽 최고세율(40~50%) 진입 → 10년 누계 분할 가능한 사전 증여가 우위</text>
+
+  <!-- Key points -->
+  <rect x="40" y="552" width="1000" height="116" rx="10" fill="#1e293b" fill-opacity="0.6" stroke="#334155" stroke-width="1.5"/>
+  <text x="60" y="580" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">사전 증여의 4가지 숨겨진 이점</text>
+  <text x="60" y="602" fill="#CBD5E1" font-size="12" font-family="sans-serif">① 자산 증가분 분리 (증여 후 상승분은 자녀 자산)</text>
+  <text x="60" y="622" fill="#CBD5E1" font-size="12" font-family="sans-serif">② 10년 누계 공제 재활용 (60→70→80→90세 4회)</text>
+  <text x="60" y="642" fill="#CBD5E1" font-size="12" font-family="sans-serif">③ 자녀 자금 필요 시점 일치 (결혼·주택·창업)</text>
+  <text x="60" y="662" fill="#CBD5E1" font-size="12" font-family="sans-serif">④ 사망 10년 이내 증여 합산 → 60대 일찍 시작 필수</text>
+
+  <text x="40" y="690" fill="#64748B" font-size="12" font-family="sans-serif">essencial | 2026.05 기준 · 누진공제 반영 추정치 · 본인 케이스는 홈택스 계산기 또는 세무사 상담 필수</text>
+</svg>

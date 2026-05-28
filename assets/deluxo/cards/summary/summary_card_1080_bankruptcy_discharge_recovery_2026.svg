@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#FBBF24"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="10" fill="url(#accent)"/>
+
+  <!-- Title -->
+  <text x="60" y="88" font-family="-apple-system, sans-serif" font-size="40" font-weight="900" fill="#FFFFFF">개인회생 면책 후</text>
+  <text x="60" y="136" font-family="-apple-system, sans-serif" font-size="40" font-weight="900" fill="#F59E0B">신용회복 단계별 타임라인</text>
+
+  <!-- Divider -->
+  <rect x="60" y="158" width="960" height="3" fill="#F59E0B" rx="2"/>
+
+  <!-- Notice bar -->
+  <rect x="60" y="176" width="960" height="50" rx="10" fill="#2D1F00"/>
+  <text x="540" y="208" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#FBBF24" text-anchor="middle">2025년 7월 시행 — 인가 후 1년 성실상환 → 공공기록 즉시 삭제 (기존 5년 → 1년)</text>
+
+  <!-- Stage 1: 삭제 직후 -->
+  <rect x="60" y="240" width="455" height="176" rx="14" fill="#1A3270"/>
+  <text x="287" y="286" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#F59E0B" text-anchor="middle">공공기록 삭제 직후</text>
+  <text x="287" y="316" font-family="-apple-system, sans-serif" font-size="44" font-weight="900" fill="#FFFFFF" text-anchor="middle">700점대 급등</text>
+  <text x="287" y="350" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">삭제 전 300~500점 → 삭제 후 700점+</text>
+  <text x="287" y="376" font-family="-apple-system, sans-serif" font-size="15" fill="#EAF2FF" text-anchor="middle">체크카드 + 서민금융 소액금융 가능</text>
+  <text x="287" y="402" font-family="-apple-system, sans-serif" font-size="14" fill="#6B8AB0" text-anchor="middle">신용카드 신규 발급 아직 어려움</text>
+
+  <!-- Stage 2: 2~3년 -->
+  <rect x="565" y="240" width="455" height="176" rx="14" fill="#1A3270"/>
+  <text x="792" y="286" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#F59E0B" text-anchor="middle">삭제 후 2~3년 (골든타임)</text>
+  <text x="792" y="316" font-family="-apple-system, sans-serif" font-size="44" font-weight="900" fill="#FFFFFF" text-anchor="middle">750~800점</text>
+  <text x="792" y="350" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">신용카드 발급 심사 가능</text>
+  <text x="792" y="376" font-family="-apple-system, sans-serif" font-size="15" fill="#EAF2FF" text-anchor="middle">2금융권 소액대출 / 마이너스 통장</text>
+  <text x="792" y="402" font-family="-apple-system, sans-serif" font-size="14" fill="#6B8AB0" text-anchor="middle">체크카드 6개월 실적 확보 후 신청</text>
+
+  <!-- Stage 3: 4~5년 -->
+  <rect x="60" y="430" width="455" height="176" rx="14" fill="#1D3A60"/>
+  <text x="287" y="476" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#F59E0B" text-anchor="middle">삭제 후 4~5년 (정상화)</text>
+  <text x="287" y="506" font-family="-apple-system, sans-serif" font-size="44" font-weight="900" fill="#FFFFFF" text-anchor="middle">800점 이상</text>
+  <text x="287" y="540" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">1금융권 소액대출 심사 가능</text>
+  <text x="287" y="566" font-family="-apple-system, sans-serif" font-size="15" fill="#EAF2FF" text-anchor="middle">신용카드 대부분 발급 / 전세대출</text>
+  <text x="287" y="592" font-family="-apple-system, sans-serif" font-size="14" fill="#6B8AB0" text-anchor="middle">소득 증빙 필수</text>
+
+  <!-- Stage 4: 5년+ -->
+  <rect x="565" y="430" width="455" height="176" rx="14" fill="#34D399" opacity="0.15"/>
+  <rect x="565" y="430" width="455" height="176" rx="14" fill="none" stroke="#34D399" stroke-width="2"/>
+  <text x="792" y="476" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#34D399" text-anchor="middle">삭제 후 5년+ (완전 정상화)</text>
+  <text x="792" y="506" font-family="-apple-system, sans-serif" font-size="44" font-weight="900" fill="#FFFFFF" text-anchor="middle">850점+</text>
+  <text x="792" y="540" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">주택담보대출 검토 가능</text>
+  <text x="792" y="566" font-family="-apple-system, sans-serif" font-size="15" fill="#EAF2FF" text-anchor="middle">대부분의 금융거래 정상화</text>
+  <text x="792" y="592" font-family="-apple-system, sans-serif" font-size="14" fill="#34D399" text-anchor="middle">재직 6개월+·연소득 3,000만원+ 필요</text>
+
+  <!-- Divider -->
+  <rect x="60" y="626" width="960" height="2" fill="#1A3270" rx="1"/>
+
+  <!-- Key actions -->
+  <text x="60" y="666" font-family="-apple-system, sans-serif" font-size="22" font-weight="800" fill="#F59E0B">🔑 핵심 실천 3가지 (전 단계 공통)</text>
+  <rect x="60" y="680" width="295" height="104" rx="12" fill="#1A3270"/>
+  <text x="207" y="718" font-family="-apple-system, sans-serif" font-size="17" font-weight="700" fill="#F59E0B" text-anchor="middle">① 체크카드</text>
+  <text x="207" y="744" font-family="-apple-system, sans-serif" font-size="15" fill="#EAF2FF" text-anchor="middle">월 30만원 이상</text>
+  <text x="207" y="768" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">6개월 이상 꾸준히</text>
+
+  <rect x="392" y="680" width="296" height="104" rx="12" fill="#1A3270"/>
+  <text x="540" y="718" font-family="-apple-system, sans-serif" font-size="17" font-weight="700" fill="#F59E0B" text-anchor="middle">② 비금융정보 제출</text>
+  <text x="540" y="744" font-family="-apple-system, sans-serif" font-size="15" fill="#EAF2FF" text-anchor="middle">통신비·공과금 납부</text>
+  <text x="540" y="768" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">KCB·NICE에 직접 제출</text>
+
+  <rect x="724" y="680" width="296" height="104" rx="12" fill="#1A3270"/>
+  <text x="872" y="718" font-family="-apple-system, sans-serif" font-size="17" font-weight="700" fill="#F59E0B" text-anchor="middle">③ 주거래은행 구축</text>
+  <text x="872" y="744" font-family="-apple-system, sans-serif" font-size="15" fill="#EAF2FF" text-anchor="middle">채권자 은행 피하기</text>
+  <text x="872" y="768" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">급여·적금·자동납부 집중</text>
+
+  <!-- Bottom note -->
+  <rect x="60" y="804" width="960" height="60" rx="12" fill="#EF4444" opacity="0.15"/>
+  <text x="540" y="838" font-family="-apple-system, sans-serif" font-size="17" font-weight="700" fill="#F87171" text-anchor="middle">⚠ 조기삭제 심사 중 단 1회 연체 시 자격 박탈 — 변제금 자동이체 필수</text>
+
+  <!-- Bottom note 2 -->
+  <text x="540" y="904" font-family="-apple-system, sans-serif" font-size="15" fill="#6B8AB0" text-anchor="middle">2026년 현행 기준 · 신용점수는 개인 상황에 따라 다릅니다</text>
+
+  <rect x="0" y="1068" width="1080" height="12" fill="url(#accent)"/>
+</svg>

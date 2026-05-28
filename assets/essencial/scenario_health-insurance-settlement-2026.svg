@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1700" fill="url(#bg)"/>
+
+  <rect x="60" y="50" width="300" height="40" rx="20" fill="#0F766E"/>
+  <text x="210" y="77" text-anchor="middle" fill="#FFFFFF" font-size="17" font-weight="800" font-family="sans-serif">시나리오 · 시뮬레이션 · 체크리스트</text>
+
+  <text x="60" y="155" fill="#FFFFFF" font-size="40" font-weight="800" font-family="sans-serif">내 상황별 정산 예측</text>
+  <text x="60" y="195" fill="#5EEAD4" font-size="20" font-weight="600" font-family="sans-serif">8개 시나리오 · 성과급 40.7만 추가납부 실전 계산</text>
+
+  <!-- 8 시나리오 카드 -->
+  <text x="60" y="250" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">8가지 상황별 정산 예측</text>
+
+  <!-- Row 1 -->
+  <rect x="60" y="280" width="260" height="200" rx="12" fill="url(#card)" stroke="#FCA5A5" stroke-width="2"/>
+  <text x="80" y="315" fill="#FCA5A5" font-size="15" font-weight="800" font-family="sans-serif">S1 · 성과급 1천만 수령</text>
+  <text x="80" y="345" fill="#CBD5E1" font-size="13" font-family="sans-serif">월 공제 미반영 불규칙</text>
+  <text x="80" y="368" fill="#CBD5E1" font-size="13" font-family="sans-serif">1,000만 × 3.595%</text>
+  <text x="80" y="391" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">→ 약 36만 추가 (건보)</text>
+  <text x="80" y="414" fill="#FFFFFF" font-size="16" font-weight="800" font-family="sans-serif">총 약 40.7만</text>
+  <text x="80" y="455" fill="#FCA5A5" font-size="12" font-weight="700" font-family="sans-serif">장기요양 포함·10회 분할</text>
+
+  <rect x="340" y="280" width="260" height="200" rx="12" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="360" y="315" fill="#86EFAC" font-size="15" font-weight="800" font-family="sans-serif">S2 · 육아휴직 6개월</text>
+  <text x="360" y="345" fill="#CBD5E1" font-size="13" font-family="sans-serif">무급 기간 보수 0</text>
+  <text x="360" y="368" fill="#CBD5E1" font-size="13" font-family="sans-serif">연 보수 대폭 감소</text>
+  <text x="360" y="391" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">→ 환급 발생</text>
+  <text x="360" y="414" fill="#FFFFFF" font-size="16" font-weight="800" font-family="sans-serif">수십만 원 환급</text>
+  <text x="360" y="455" fill="#86EFAC" font-size="12" font-weight="700" font-family="sans-serif">4월분에서 상계</text>
+
+  <rect x="620" y="280" width="260" height="200" rx="12" fill="url(#card)" stroke="#FCA5A5" stroke-width="2"/>
+  <text x="640" y="315" fill="#FCA5A5" font-size="15" font-weight="800" font-family="sans-serif">S3 · 연봉 10% 인상</text>
+  <text x="640" y="345" fill="#CBD5E1" font-size="13" font-family="sans-serif">상여금 없어도 인상분</text>
+  <text x="640" y="368" fill="#CBD5E1" font-size="13" font-family="sans-serif">전년 공제 &lt; 실보수</text>
+  <text x="640" y="391" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">→ 인상폭 비례 추가</text>
+  <text x="640" y="414" fill="#FFFFFF" font-size="16" font-weight="800" font-family="sans-serif">정상 범위 추가납부</text>
+  <text x="640" y="455" fill="#FCA5A5" font-size="12" font-weight="700" font-family="sans-serif">평균 수준</text>
+
+  <rect x="900" y="280" width="240" height="200" rx="12" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="920" y="315" fill="#86EFAC" font-size="15" font-weight="800" font-family="sans-serif">S4 · 이직 (공백 2개월)</text>
+  <text x="920" y="345" fill="#CBD5E1" font-size="13" font-family="sans-serif">무직 기간 보수 0</text>
+  <text x="920" y="368" fill="#CBD5E1" font-size="13" font-family="sans-serif">합산 보수 ↓</text>
+  <text x="920" y="391" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">→ 환급 가능성</text>
+  <text x="920" y="414" fill="#FFFFFF" font-size="16" font-weight="800" font-family="sans-serif">공백기 확인</text>
+  <text x="920" y="455" fill="#86EFAC" font-size="12" font-weight="700" font-family="sans-serif">직장 합산 재계산</text>
+
+  <!-- Row 2 -->
+  <rect x="60" y="500" width="260" height="200" rx="12" fill="url(#card)" stroke="#FCA5A5" stroke-width="2"/>
+  <text x="80" y="535" fill="#FCA5A5" font-size="15" font-weight="800" font-family="sans-serif">S5 · 부업 3,000만</text>
+  <text x="80" y="565" fill="#CBD5E1" font-size="13" font-family="sans-serif">블로그·배당 등</text>
+  <text x="80" y="588" fill="#CBD5E1" font-size="13" font-family="sans-serif">(3,000 − 2,000) ÷ 12</text>
+  <text x="80" y="611" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">→ 월 6만 소득월액</text>
+  <text x="80" y="634" fill="#FFFFFF" font-size="16" font-weight="800" font-family="sans-serif">연 72만 추가</text>
+  <text x="80" y="675" fill="#FCA5A5" font-size="12" font-weight="700" font-family="sans-serif">11월 정산 · 본인 100%</text>
+
+  <rect x="340" y="500" width="260" height="200" rx="12" fill="url(#card)" stroke="#FCA5A5" stroke-width="2"/>
+  <text x="360" y="535" fill="#FCA5A5" font-size="15" font-weight="800" font-family="sans-serif">S6 · 임대소득 신규</text>
+  <text x="360" y="565" fill="#CBD5E1" font-size="13" font-family="sans-serif">주택·상가 임대 개시</text>
+  <text x="360" y="588" fill="#CBD5E1" font-size="13" font-family="sans-serif">11월 소득월액 부과</text>
+  <text x="360" y="611" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">→ 피부양자 자격 위험</text>
+  <text x="360" y="634" fill="#FFFFFF" font-size="16" font-weight="800" font-family="sans-serif">경비 최대화 필수</text>
+  <text x="360" y="675" fill="#FCA5A5" font-size="12" font-weight="700" font-family="sans-serif">5월 종소세 전략과 연동</text>
+
+  <rect x="620" y="500" width="260" height="200" rx="12" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="640" y="535" fill="#86EFAC" font-size="15" font-weight="800" font-family="sans-serif">S7 · 폐업·실직</text>
+  <text x="640" y="565" fill="#CBD5E1" font-size="13" font-family="sans-serif">지역가입자 전환</text>
+  <text x="640" y="588" fill="#CBD5E1" font-size="13" font-family="sans-serif">해촉·휴폐업증명 제출</text>
+  <text x="640" y="611" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">→ 조정신청 즉시</text>
+  <text x="640" y="634" fill="#FFFFFF" font-size="16" font-weight="800" font-family="sans-serif">선제 환급 가능</text>
+  <text x="640" y="675" fill="#86EFAC" font-size="12" font-weight="700" font-family="sans-serif">11월 정산 전 처리</text>
+
+  <rect x="900" y="500" width="240" height="200" rx="12" fill="url(#card)" stroke="#FCD34D" stroke-width="2"/>
+  <text x="920" y="535" fill="#FCD34D" font-size="15" font-weight="800" font-family="sans-serif">S8 · 피부양자 탈락</text>
+  <text x="920" y="565" fill="#CBD5E1" font-size="13" font-family="sans-serif">소득·재산 초과</text>
+  <text x="920" y="588" fill="#CBD5E1" font-size="13" font-family="sans-serif">지역가입자 전환</text>
+  <text x="920" y="611" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">→ 부과 즉시 시작</text>
+  <text x="920" y="634" fill="#FFFFFF" font-size="16" font-weight="800" font-family="sans-serif">소급 부과 주의</text>
+  <text x="920" y="675" fill="#FCD34D" font-size="12" font-weight="700" font-family="sans-serif">자격 재충족 시 복원</text>
+
+  <!-- S1 · S5 상세 시뮬 -->
+  <text x="60" y="770" fill="#FFFFFF" font-size="24" font-weight="800" font-family="sans-serif">상세 시뮬레이션 (S1·S5)</text>
+
+  <rect x="60" y="795" width="540" height="280" rx="16" fill="url(#card)" stroke="#FCA5A5" stroke-width="2"/>
+  <text x="80" y="835" fill="#FCA5A5" font-size="20" font-weight="800" font-family="sans-serif">S1 — 성과급 1,000만 추가납부</text>
+
+  <g font-family="sans-serif">
+    <text x="80" y="875" fill="#CBD5E1" font-size="14">월 급여 500만 × 12</text>
+    <text x="580" y="875" text-anchor="end" fill="#FFFFFF" font-size="15" font-weight="700">= 6,000만 (공제 기준)</text>
+
+    <text x="80" y="905" fill="#CBD5E1" font-size="14">실제 연 보수</text>
+    <text x="580" y="905" text-anchor="end" fill="#FFFFFF" font-size="15" font-weight="700">7,000만 (성과급 합)</text>
+
+    <text x="80" y="935" fill="#CBD5E1" font-size="14">차액</text>
+    <text x="580" y="935" text-anchor="end" fill="#FCD34D" font-size="15" font-weight="700">+1,000만</text>
+
+    <text x="80" y="965" fill="#CBD5E1" font-size="14">본인 부담 × 3.595%</text>
+    <text x="580" y="965" text-anchor="end" fill="#FCA5A5" font-size="16" font-weight="800">약 35.95만</text>
+
+    <text x="80" y="1000" fill="#CBD5E1" font-size="14">장기요양 포함 (+13.14%)</text>
+    <text x="580" y="1000" text-anchor="end" fill="#FCA5A5" font-size="18" font-weight="800">약 40.7만 원</text>
+
+    <text x="80" y="1045" fill="#FCD34D" font-size="13" font-weight="700">→ 10회 분할 시 월 약 4.1만 — 6개월 간 체감</text>
+  </g>
+
+  <rect x="620" y="795" width="520" height="280" rx="16" fill="url(#card)" stroke="#FCA5A5" stroke-width="2"/>
+  <text x="640" y="835" fill="#FCA5A5" font-size="20" font-weight="800" font-family="sans-serif">S5 — 보수외소득 3,000만</text>
+
+  <g font-family="sans-serif">
+    <text x="640" y="875" fill="#CBD5E1" font-size="14">보수외소득 (블로그+배당)</text>
+    <text x="1120" y="875" text-anchor="end" fill="#FFFFFF" font-size="15" font-weight="700">3,000만</text>
+
+    <text x="640" y="905" fill="#CBD5E1" font-size="14">공제 (2,000만)</text>
+    <text x="1120" y="905" text-anchor="end" fill="#FFFFFF" font-size="15" font-weight="700">− 2,000만</text>
+
+    <text x="640" y="935" fill="#CBD5E1" font-size="14">초과분 월환산</text>
+    <text x="1120" y="935" text-anchor="end" fill="#FCD34D" font-size="15" font-weight="700">1,000만 ÷ 12 = 83.3만</text>
+
+    <text x="640" y="965" fill="#CBD5E1" font-size="14">× 7.19% (본인 100%)</text>
+    <text x="1120" y="965" text-anchor="end" fill="#FCA5A5" font-size="16" font-weight="800">월 약 59,900원</text>
+
+    <text x="640" y="1000" fill="#CBD5E1" font-size="14">연 환산</text>
+    <text x="1120" y="1000" text-anchor="end" fill="#FCA5A5" font-size="18" font-weight="800">약 72만 원/년</text>
+
+    <text x="640" y="1045" fill="#FCD34D" font-size="13" font-weight="700">→ 11월 정산에서 일괄 부과 · 사용자 부담 없음</text>
+  </g>
+
+  <!-- 6단계 체크리스트 -->
+  <text x="60" y="1130" fill="#FFFFFF" font-size="24" font-weight="800" font-family="sans-serif">5월 정산 전 6단계 체크리스트</text>
+
+  <rect x="60" y="1155" width="1080" height="450" rx="16" fill="url(#card)" stroke="#0F766E" stroke-width="2"/>
+
+  <g font-family="sans-serif">
+    <circle cx="100" cy="1210" r="22" fill="#0F766E"/>
+    <text x="100" y="1218" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800">1</text>
+    <text x="140" y="1205" fill="#FFFFFF" font-size="17" font-weight="700">[급여명세서] 5월 초 '건강보험정산' 또는 '연말정산' 항목 확인</text>
+    <text x="140" y="1228" fill="#CBD5E1" font-size="14">추가납부(+) 또는 환급(−) 숫자가 명시됨</text>
+
+    <circle cx="100" cy="1275" r="22" fill="#0F766E"/>
+    <text x="100" y="1283" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800">2</text>
+    <text x="140" y="1270" fill="#FFFFFF" font-size="17" font-weight="700">[공단 로그인] 민원여기요 → 보험료 조회·납부 → 정산 상세</text>
+    <text x="140" y="1293" fill="#CBD5E1" font-size="14">전년 보수총액 신고 내역과 실제 재산정 내역 확인</text>
+
+    <circle cx="100" cy="1340" r="22" fill="#0F766E"/>
+    <text x="100" y="1348" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800">3</text>
+    <text x="140" y="1335" fill="#FFFFFF" font-size="17" font-weight="700">[분할납부] 추가납부 ≥ 당월 보험료 → 자동 10회 확인</text>
+    <text x="140" y="1358" fill="#CBD5E1" font-size="14">부담 크면 12회로 연장, 여유 있으면 1회 일시납 가능</text>
+
+    <circle cx="100" cy="1405" r="22" fill="#0F766E"/>
+    <text x="100" y="1413" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800">4</text>
+    <text x="140" y="1400" fill="#FFFFFF" font-size="17" font-weight="700">[보수외소득 점검] 배당·임대·N잡 합산 2,000만 초과 여부</text>
+    <text x="140" y="1423" fill="#CBD5E1" font-size="14">초과 시 11월 소득월액 추가 부과 대비 (본인 100%)</text>
+
+    <circle cx="100" cy="1470" r="22" fill="#0F766E"/>
+    <text x="100" y="1478" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800">5</text>
+    <text x="140" y="1465" fill="#FFFFFF" font-size="17" font-weight="700">[종소세 연동] 5월 신고 시 경비·공제 최대화로 11월 건보료 절감</text>
+    <text x="140" y="1488" fill="#CBD5E1" font-size="14">필요경비 정상 계상 → 소득금액 ↓ → 소득월액 ↓</text>
+
+    <circle cx="100" cy="1535" r="22" fill="#0F766E"/>
+    <text x="100" y="1543" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800">6</text>
+    <text x="140" y="1530" fill="#FFFFFF" font-size="17" font-weight="700">[조정신청] 폐업·실직·소득 감소 발생 즉시 공단 신청</text>
+    <text x="140" y="1553" fill="#CBD5E1" font-size="14">해촉증명·휴폐업증명·소득금액증명 첨부 → 당월·차월부터 반영</text>
+  </g>
+
+  <text x="60" y="1670" fill="#64748B" font-size="14" font-family="sans-serif">essencial | 건강·의료 silo · 자료: 국민건강보험공단·1577-1000 (2026.04 기준)</text>
+</svg>

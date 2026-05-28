@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F5F3FF"/>
+      <stop offset="100%" stop-color="#FAF5FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg2)"/>
+
+  <text x="540" y="55" font-family="sans-serif" font-size="32" font-weight="900" fill="#111827" text-anchor="middle">60세 이후 보험료 폭등 시뮬레이션</text>
+  <text x="540" y="88" font-family="sans-serif" font-size="20" fill="#6B7280" text-anchor="middle">갱신형 vs 비갱신형 | 일반암 3,000만 원 보장 · 60세 남성 기준</text>
+
+  <!-- 보험료 폭등 테이블 -->
+  <rect x="40" y="115" width="1000" height="50" rx="12" fill="#7C3AED"/>
+  <text x="140" y="147" font-family="sans-serif" font-size="18" font-weight="800" fill="#FFF" text-anchor="middle">연령</text>
+  <text x="350" y="147" font-family="sans-serif" font-size="18" font-weight="800" fill="#FFF" text-anchor="middle">갱신형 월 보험료</text>
+  <text x="580" y="147" font-family="sans-serif" font-size="18" font-weight="800" fill="#FFF" text-anchor="middle">비갱신형 월 보험료</text>
+  <text x="800" y="147" font-family="sans-serif" font-size="18" font-weight="800" fill="#FFF" text-anchor="middle">갱신형 배율</text>
+  <text x="950" y="147" font-family="sans-serif" font-size="18" font-weight="800" fill="#FFF" text-anchor="middle">누적 차이</text>
+
+  <!-- Row 60세 -->
+  <rect x="40" y="170" width="1000" height="55" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="140" y="203" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="middle">60세 (가입)</text>
+  <text x="350" y="203" font-family="sans-serif" font-size="20" font-weight="900" fill="#059669" text-anchor="middle">~4만 원</text>
+  <text x="580" y="203" font-family="sans-serif" font-size="20" font-weight="700" fill="#111827" text-anchor="middle">~10만 원</text>
+  <text x="800" y="203" font-family="sans-serif" font-size="18" font-weight="700" fill="#059669" text-anchor="middle">1배</text>
+  <text x="950" y="203" font-family="sans-serif" font-size="17" fill="#059669" text-anchor="middle">갱신형 유리</text>
+
+  <!-- Row 70세 -->
+  <rect x="40" y="230" width="1000" height="55" fill="#FFF7ED" stroke="#FED7AA" stroke-width="1"/>
+  <text x="140" y="263" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="middle">70세 (1차 갱신)</text>
+  <text x="350" y="263" font-family="sans-serif" font-size="20" font-weight="900" fill="#DC2626" text-anchor="middle">~12만 원</text>
+  <text x="580" y="263" font-family="sans-serif" font-size="20" font-weight="700" fill="#7C3AED" text-anchor="middle">~10만 원</text>
+  <text x="800" y="263" font-family="sans-serif" font-size="18" font-weight="900" fill="#DC2626" text-anchor="middle">3배</text>
+  <text x="950" y="263" font-family="sans-serif" font-size="17" fill="#DC2626" text-anchor="middle">역전 시작</text>
+
+  <!-- Row 80세 -->
+  <rect x="40" y="290" width="1000" height="55" fill="#FEF2F2" stroke="#FECACA" stroke-width="1.5"/>
+  <text x="140" y="323" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="middle">80세 (2차 갱신)</text>
+  <text x="350" y="323" font-family="sans-serif" font-size="22" font-weight="900" fill="#DC2626" text-anchor="middle">~35만 원</text>
+  <text x="580" y="323" font-family="sans-serif" font-size="22" font-weight="900" fill="#059669" text-anchor="middle">0원 (완료)</text>
+  <text x="800" y="323" font-family="sans-serif" font-size="20" font-weight="900" fill="#DC2626" text-anchor="middle">8.8배</text>
+  <text x="950" y="323" font-family="sans-serif" font-size="17" font-weight="700" fill="#DC2626" text-anchor="middle">절벽 발생</text>
+
+  <!-- Row 90세 -->
+  <rect x="40" y="350" width="1000" height="55" fill="#FEF2F2" stroke="#FECACA" stroke-width="1"/>
+  <text x="140" y="383" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="middle">90세 (3차 갱신)</text>
+  <text x="350" y="383" font-family="sans-serif" font-size="22" font-weight="900" fill="#DC2626" text-anchor="middle">~80만 원+</text>
+  <text x="580" y="383" font-family="sans-serif" font-size="22" font-weight="900" fill="#059669" text-anchor="middle">0원</text>
+  <text x="800" y="383" font-family="sans-serif" font-size="20" font-weight="900" fill="#DC2626" text-anchor="middle">20배+</text>
+  <text x="950" y="383" font-family="sans-serif" font-size="17" font-weight="700" fill="#DC2626" text-anchor="middle">해지 위험</text>
+
+  <!-- 누적 납입액 비교 -->
+  <rect x="40" y="435" width="1000" height="160" rx="20" fill="#FFF" stroke="#C4B5FD" stroke-width="1.5"/>
+  <text x="540" y="468" font-family="sans-serif" font-size="24" font-weight="900" fill="#7C3AED" text-anchor="middle">100세까지 총 납입액 비교</text>
+
+  <rect x="70" y="490" width="440" height="80" rx="16" fill="#FEF2F2" stroke="#FECACA" stroke-width="1"/>
+  <text x="290" y="525" font-family="sans-serif" font-size="20" font-weight="800" fill="#991B1B" text-anchor="middle">갱신형 총 납입액</text>
+  <text x="290" y="557" font-family="sans-serif" font-size="28" font-weight="900" fill="#DC2626" text-anchor="middle">~1.5억 원+</text>
+
+  <rect x="570" y="490" width="440" height="80" rx="16" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1"/>
+  <text x="790" y="525" font-family="sans-serif" font-size="20" font-weight="800" fill="#065F46" text-anchor="middle">비갱신형 총 납입액</text>
+  <text x="790" y="557" font-family="sans-serif" font-size="28" font-weight="900" fill="#059669" text-anchor="middle">2,400만 원 (확정)</text>
+
+  <!-- 순수보장형 vs 만기환급형 -->
+  <rect x="40" y="625" width="1000" height="155" rx="20" fill="#FFF" stroke="#DDD6FE" stroke-width="1.5"/>
+  <text x="540" y="660" font-family="sans-serif" font-size="22" font-weight="900" fill="#7C3AED" text-anchor="middle">비갱신형 선택 시: 순수보장형 vs 만기환급형</text>
+
+  <rect x="70" y="680" width="440" height="75" rx="14" fill="#ECFDF5"/>
+  <text x="290" y="710" font-family="sans-serif" font-size="18" font-weight="800" fill="#065F46" text-anchor="middle">순수보장형 (추천)</text>
+  <text x="290" y="740" font-family="sans-serif" font-size="17" fill="#065F46" text-anchor="middle">보험료 저렴 · 위험 대비 본질에 충실</text>
+
+  <rect x="570" y="680" width="440" height="75" rx="14" fill="#FEF2F2"/>
+  <text x="790" y="710" font-family="sans-serif" font-size="18" font-weight="800" fill="#991B1B" text-anchor="middle">만기환급형 (비추천)</text>
+  <text x="790" y="740" font-family="sans-serif" font-size="17" fill="#991B1B" text-anchor="middle">보험료 1.5~6배 · 40년 후 환급금 가치 급락</text>
+
+  <!-- 중입자치료비 특약 -->
+  <rect x="40" y="810" width="1000" height="115" rx="20" fill="#FFF" stroke="#DDD6FE" stroke-width="1.5"/>
+  <text x="540" y="843" font-family="sans-serif" font-size="22" font-weight="900" fill="#7C3AED" text-anchor="middle">2026 필수 특약: 암치료비 보장 유형</text>
+
+  <rect x="70" y="860" width="290" height="50" rx="12" fill="#F5F3FF"/>
+  <text x="215" y="882" font-family="sans-serif" font-size="16" font-weight="700" fill="#7C3AED" text-anchor="middle">정액 보장형</text>
+  <text x="215" y="903" font-family="sans-serif" font-size="16" fill="#5B21B6" text-anchor="middle">최대 3억 (연 3,000만×10년)</text>
+
+  <rect x="395" y="860" width="290" height="50" rx="12" fill="#F5F3FF"/>
+  <text x="540" y="882" font-family="sans-serif" font-size="16" font-weight="700" fill="#7C3AED" text-anchor="middle">비례 보장형</text>
+  <text x="540" y="903" font-family="sans-serif" font-size="16" fill="#5B21B6" text-anchor="middle">연 1~1.5억 · 총 최대 15억</text>
+
+  <rect x="720" y="860" width="290" height="50" rx="12" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1"/>
+  <text x="865" y="882" font-family="sans-serif" font-size="16" font-weight="700" fill="#065F46" text-anchor="middle">중입자치료비 특약</text>
+  <text x="865" y="903" font-family="sans-serif" font-size="16" font-weight="900" fill="#059669" text-anchor="middle">5,000만 · 월 2,000~3,400원</text>
+
+  <!-- 유병자 가입 -->
+  <rect x="40" y="955" width="1000" height="55" rx="16" fill="#7C3AED"/>
+  <text x="540" y="985" font-family="sans-serif" font-size="18" font-weight="800" fill="#FFF" text-anchor="middle">유병자 가입: 3.N.5 간편고지 → 5년 내 입원·수술 없으면 건강체 할인 | 실버암보험 80세까지 가입 가능</text>
+
+  <text x="540" y="1055" font-family="sans-serif" font-size="15" fill="#9CA3AF" text-anchor="middle">2026년 4월 기준 | 보험개발원·금융감독원·생명보험협회 공시 기반 | 개인별 차이 있음</text>
+</svg>

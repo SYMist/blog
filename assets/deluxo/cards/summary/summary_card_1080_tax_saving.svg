@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="80" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="800" fill="#F59E0B">3대 절세 계좌 핵심 요약</text>
+  <rect x="60" y="110" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- 연금저축 -->
+  <rect x="60" y="140" width="960" height="250" rx="20" fill="rgba(255,255,255,0.06)"/>
+  <rect x="80" y="160" width="160" height="44" rx="22" fill="#F59E0B"/>
+  <text x="160" y="190" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#0B1F3B">연금저축</text>
+  <text x="80" y="240" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#FFF">세액공제 한도: 연 600만원</text>
+  <text x="80" y="280" font-family="'Pretendard',sans-serif" font-size="24" fill="#EAF2FF">공제율: 16.5% (5,500만원↓) / 13.2% (초과)</text>
+  <text x="80" y="320" font-family="'Pretendard',sans-serif" font-size="24" fill="#EAF2FF">위험자산 100% · 수수료 없음 · 누구나 가입</text>
+  <text x="80" y="360" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#F59E0B">→ 최대 환급 99만원</text>
+
+  <!-- IRP -->
+  <rect x="60" y="410" width="960" height="250" rx="20" fill="rgba(255,255,255,0.06)"/>
+  <rect x="80" y="430" width="100" height="44" rx="22" fill="#E8F0FF"/>
+  <text x="130" y="460" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#1D4ED8">IRP</text>
+  <text x="80" y="510" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#FFF">세액공제 한도: 합산 900만원</text>
+  <text x="80" y="550" font-family="'Pretendard',sans-serif" font-size="24" fill="#EAF2FF">연금저축 600 + IRP 300 = 합산 900만원</text>
+  <text x="80" y="590" font-family="'Pretendard',sans-serif" font-size="24" fill="#EAF2FF">위험자산 70%까지 · 소득자만 가입</text>
+  <text x="80" y="630" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#F59E0B">→ 추가 환급 49.5만원 (합계 148.5만원)</text>
+
+  <!-- ISA -->
+  <rect x="60" y="680" width="960" height="250" rx="20" fill="rgba(255,255,255,0.06)"/>
+  <rect x="80" y="700" width="100" height="44" rx="22" fill="#E8F0FF"/>
+  <text x="130" y="730" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#1D4ED8">ISA</text>
+  <text x="80" y="780" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#FFF">비과세: 순이익 200만원 (서민형 400만원)</text>
+  <text x="80" y="820" font-family="'Pretendard',sans-serif" font-size="24" fill="#EAF2FF">초과분 9.9% 분리과세 · 손익통산 가능</text>
+  <text x="80" y="860" font-family="'Pretendard',sans-serif" font-size="24" fill="#EAF2FF">만기 후 연금전환 → 전환공제 최대 300만원</text>
+  <text x="80" y="900" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#F59E0B">→ 전환공제 환급 최대 49.5만원</text>
+
+  <rect x="60" y="960" width="960" height="70" rx="16" fill="rgba(245,158,11,0.15)"/>
+  <text x="540" y="1005" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="32" font-weight="900" fill="#F59E0B">3대 계좌 합산 최대 환급: 198만원</text>
+</svg>

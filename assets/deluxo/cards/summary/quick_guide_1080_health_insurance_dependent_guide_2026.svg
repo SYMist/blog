@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="8" fill="#F59E0B"/>
+
+  <!-- Title -->
+  <text x="540" y="52" font-family="-apple-system, sans-serif" font-size="26" font-weight="900" fill="#F59E0B" text-anchor="middle">피부양자 자격 유지 — 소득·재산 빠른 판단표</text>
+  <text x="540" y="82" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">아래 6가지 기준을 순서대로 확인하세요 (2026년 기준)</text>
+
+  <!-- Table header -->
+  <rect x="30" y="100" width="1020" height="50" rx="8" fill="#1A3270"/>
+  <text x="200" y="132" font-family="-apple-system, sans-serif" font-size="16" font-weight="800" fill="#F59E0B" text-anchor="middle">확인 항목</text>
+  <text x="590" y="132" font-family="-apple-system, sans-serif" font-size="16" font-weight="800" fill="#34D399" text-anchor="middle">✅ 유지 조건</text>
+  <text x="870" y="132" font-family="-apple-system, sans-serif" font-size="16" font-weight="800" fill="#EF4444" text-anchor="middle">❌ 탈락 조건</text>
+  <line x1="370" y1="100" x2="370" y2="150" stroke="#0B1F3B" stroke-width="2"/>
+  <line x1="720" y1="100" x2="720" y2="150" stroke="#0B1F3B" stroke-width="2"/>
+
+  <!-- Row 1 -->
+  <rect x="30" y="158" width="1020" height="118" rx="8" fill="#1A3270"/>
+  <rect x="30" y="158" width="6" height="118" rx="3" fill="#34D399"/>
+  <text x="200" y="198" font-family="-apple-system, sans-serif" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle">합산소득</text>
+  <text x="200" y="222" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">(이자+배당+사업+근로+연금+기타)</text>
+  <text x="200" y="248" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">소득 기준 ①</text>
+  <line x1="370" y1="158" x2="370" y2="276" stroke="#0D2347" stroke-width="2"/>
+  <text x="545" y="198" font-family="-apple-system, sans-serif" font-size="18" font-weight="900" fill="#34D399" text-anchor="middle">연 2,000만원 이하</text>
+  <text x="545" y="228" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">→ 소득 기준 ① 통과</text>
+  <line x1="720" y1="158" x2="720" y2="276" stroke="#0D2347" stroke-width="2"/>
+  <text x="870" y="198" font-family="-apple-system, sans-serif" font-size="18" font-weight="900" fill="#EF4444" text-anchor="middle">연 2,000만원 초과</text>
+  <text x="870" y="228" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">→ 즉시 탈락</text>
+
+  <!-- Row 2 -->
+  <rect x="30" y="284" width="1020" height="118" rx="8" fill="#0D2347"/>
+  <rect x="30" y="284" width="6" height="118" rx="3" fill="#34D399"/>
+  <text x="200" y="324" font-family="-apple-system, sans-serif" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle">금융소득</text>
+  <text x="200" y="348" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">(이자소득 + 배당소득)</text>
+  <text x="200" y="372" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">소득 기준 ②</text>
+  <line x1="370" y1="284" x2="370" y2="402" stroke="#0B1F3B" stroke-width="2"/>
+  <text x="545" y="324" font-family="-apple-system, sans-serif" font-size="18" font-weight="900" fill="#34D399" text-anchor="middle">연 1,000만원 이하</text>
+  <text x="545" y="354" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">→ 소득 기준 ② 통과</text>
+  <line x1="720" y1="284" x2="720" y2="402" stroke="#0B1F3B" stroke-width="2"/>
+  <text x="870" y="324" font-family="-apple-system, sans-serif" font-size="18" font-weight="900" fill="#EF4444" text-anchor="middle">연 1,000만원 초과</text>
+  <text x="870" y="354" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">→ 합산 무관 탈락</text>
+
+  <!-- Row 3 -->
+  <rect x="30" y="410" width="1020" height="118" rx="8" fill="#1A3270"/>
+  <rect x="30" y="410" width="6" height="118" rx="3" fill="#34D399"/>
+  <text x="200" y="450" font-family="-apple-system, sans-serif" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle">사업소득</text>
+  <text x="200" y="474" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">(부업·프리랜서 포함)</text>
+  <text x="200" y="498" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">소득 기준 ③</text>
+  <line x1="370" y1="410" x2="370" y2="528" stroke="#0D2347" stroke-width="2"/>
+  <text x="545" y="450" font-family="-apple-system, sans-serif" font-size="18" font-weight="900" fill="#34D399" text-anchor="middle">연 500만원 이하</text>
+  <text x="545" y="480" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">→ 소득 기준 ③ 통과</text>
+  <line x1="720" y1="410" x2="720" y2="528" stroke="#0D2347" stroke-width="2"/>
+  <text x="870" y="450" font-family="-apple-system, sans-serif" font-size="18" font-weight="900" fill="#EF4444" text-anchor="middle">연 500만원 초과</text>
+  <text x="870" y="480" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">→ 합산 무관 탈락</text>
+
+  <!-- Row 4 -->
+  <rect x="30" y="536" width="1020" height="118" rx="8" fill="#0D2347"/>
+  <rect x="30" y="536" width="6" height="118" rx="3" fill="#F59E0B"/>
+  <text x="200" y="576" font-family="-apple-system, sans-serif" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle">재산세 과세표준</text>
+  <text x="200" y="600" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">(공시가격 × 60%)</text>
+  <text x="200" y="624" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">재산 기준 ①</text>
+  <line x1="370" y1="536" x2="370" y2="654" stroke="#0B1F3B" stroke-width="2"/>
+  <text x="545" y="576" font-family="-apple-system, sans-serif" font-size="18" font-weight="900" fill="#34D399" text-anchor="middle">9억원 이하</text>
+  <text x="545" y="606" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">→ 재산 기준 ① 통과</text>
+  <line x1="720" y1="536" x2="720" y2="654" stroke="#0B1F3B" stroke-width="2"/>
+  <text x="870" y="576" font-family="-apple-system, sans-serif" font-size="18" font-weight="900" fill="#EF4444" text-anchor="middle">9억원 초과</text>
+  <text x="870" y="606" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">→ 소득 무관 탈락</text>
+
+  <!-- Row 5 -->
+  <rect x="30" y="662" width="1020" height="118" rx="8" fill="#1A3270"/>
+  <rect x="30" y="662" width="6" height="118" rx="3" fill="#F59E0B"/>
+  <text x="200" y="702" font-family="-apple-system, sans-serif" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle">재산+소득 복합</text>
+  <text x="200" y="726" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">(과세표준 5.4억+소득)</text>
+  <text x="200" y="750" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">재산 기준 ②</text>
+  <line x1="370" y1="662" x2="370" y2="780" stroke="#0D2347" stroke-width="2"/>
+  <text x="545" y="695" font-family="-apple-system, sans-serif" font-size="15" font-weight="800" fill="#34D399" text-anchor="middle">5.4억 이하 또는</text>
+  <text x="545" y="720" font-family="-apple-system, sans-serif" font-size="15" font-weight="800" fill="#34D399" text-anchor="middle">소득 1,000만원 이하</text>
+  <text x="545" y="750" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">→ 재산 기준 ② 통과</text>
+  <line x1="720" y1="662" x2="720" y2="780" stroke="#0D2347" stroke-width="2"/>
+  <text x="870" y="695" font-family="-apple-system, sans-serif" font-size="15" font-weight="800" fill="#EF4444" text-anchor="middle">5.4억 초과 +</text>
+  <text x="870" y="720" font-family="-apple-system, sans-serif" font-size="15" font-weight="800" fill="#EF4444" text-anchor="middle">소득 1,000만원 초과</text>
+  <text x="870" y="750" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">→ 탈락</text>
+
+  <!-- Row 6: 부부 동반 -->
+  <rect x="30" y="788" width="1020" height="118" rx="8" fill="#0D2347"/>
+  <rect x="30" y="788" width="6" height="118" rx="3" fill="#EF4444"/>
+  <text x="200" y="828" font-family="-apple-system, sans-serif" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle">부부 동반 탈락</text>
+  <text x="200" y="852" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">(배우자 소득 포함 확인)</text>
+  <text x="200" y="876" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">특별 규정</text>
+  <line x1="370" y1="788" x2="370" y2="906" stroke="#0B1F3B" stroke-width="2"/>
+  <text x="545" y="828" font-family="-apple-system, sans-serif" font-size="15" font-weight="800" fill="#34D399" text-anchor="middle">배우자 포함</text>
+  <text x="545" y="852" font-family="-apple-system, sans-serif" font-size="15" font-weight="800" fill="#34D399" text-anchor="middle">모두 기준 충족</text>
+  <text x="545" y="876" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">→ 부부 모두 유지</text>
+  <line x1="720" y1="788" x2="720" y2="906" stroke="#0B1F3B" stroke-width="2"/>
+  <text x="870" y="828" font-family="-apple-system, sans-serif" font-size="15" font-weight="800" fill="#EF4444" text-anchor="middle">배우자 중 1인이라도</text>
+  <text x="870" y="852" font-family="-apple-system, sans-serif" font-size="15" font-weight="800" fill="#EF4444" text-anchor="middle">소득 기준 초과</text>
+  <text x="870" y="876" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">→ 부부 모두 탈락</text>
+
+  <text x="540" y="1000" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준 | nhis.or.kr | 국민건강보험공단 ☎1577-1000 | 개인 상황에 따라 다를 수 있음</text>
+  <rect x="0" y="1072" width="1080" height="8" fill="#F59E0B"/>
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F5F3FF"/>
+      <stop offset="100%" stop-color="#FAF5FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg3)"/>
+
+  <text x="540" y="60" font-family="sans-serif" font-size="34" font-weight="900" fill="#111827" text-anchor="middle">50대 실비보험 상황별 추천 가이드</text>
+  <text x="540" y="95" font-family="sans-serif" font-size="20" fill="#6B7280" text-anchor="middle">나의 의료 이용 성향에 맞는 최적의 선택은?</text>
+
+  <!-- 시나리오 1: 건강한 50대 -->
+  <rect x="50" y="125" width="980" height="130" rx="20" fill="#FFF" stroke="#A7F3D0" stroke-width="1.5"/>
+  <rect x="50" y="125" width="980" height="44" rx="20" fill="#059669"/>
+  <rect x="50" y="149" width="980" height="20" fill="#059669"/>
+  <text x="80" y="154" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFF">건강한 50대 — 연 병원 3회 미만, 비급여 거의 없음</text>
+  <text x="80" y="200" font-family="sans-serif" font-size="20" fill="#111827">→ <tspan font-weight="800">4세대 전환 추천</tspan> — 월 8만+원 절약, 차등제 1등급 할인(최대 11%)</text>
+  <text x="80" y="237" font-family="sans-serif" font-size="17" fill="#6B7280">연간 ~104만 원 가처분 소득 확보 · 1등급 유지 시 월 ~2.9만 원까지 인하 가능</text>
+
+  <!-- 시나리오 2: 도수치료 다량 이용자 -->
+  <rect x="50" y="275" width="980" height="130" rx="20" fill="#FFF" stroke="#FECACA" stroke-width="1.5"/>
+  <rect x="50" y="275" width="980" height="44" rx="20" fill="#DC2626"/>
+  <rect x="50" y="299" width="980" height="20" fill="#DC2626"/>
+  <text x="80" y="304" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFF">도수치료·물리치료 연 20회 이상 이용</text>
+  <text x="80" y="350" font-family="sans-serif" font-size="20" fill="#111827">→ <tspan font-weight="800">1·2세대 유지 추천</tspan> — 4세대 전환 시 50회·350만 한도 + 10회마다 증빙 필수</text>
+  <text x="80" y="387" font-family="sans-serif" font-size="17" fill="#6B7280">1세대는 횟수·금액 제한 없음 · 효과 미입증 시 11회차부터 보험금 거절 위험</text>
+
+  <!-- 시나리오 3: 중대질환 가족력 -->
+  <rect x="50" y="425" width="980" height="130" rx="20" fill="#FFF" stroke="#FECACA" stroke-width="1.5"/>
+  <rect x="50" y="425" width="980" height="44" rx="20" fill="#991B1B"/>
+  <rect x="50" y="449" width="980" height="20" fill="#991B1B"/>
+  <text x="80" y="454" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFF">중대질환 가족력 + 입원 가능성 높음</text>
+  <text x="80" y="500" font-family="sans-serif" font-size="20" fill="#111827">→ <tspan font-weight="800">1세대 유지 추천</tspan> — 입원 시 자기부담 0원의 가치가 연 100만 원 이상</text>
+  <text x="80" y="537" font-family="sans-serif" font-size="17" fill="#6B7280">4세대는 입원 시 자기부담 20~30% 발생 · 1세대 종신 보장의 안정성이 핵심</text>
+
+  <!-- 시나리오 4: 보험료 부담 큼 -->
+  <rect x="50" y="575" width="980" height="130" rx="20" fill="#FFF" stroke="#A7F3D0" stroke-width="1.5"/>
+  <rect x="50" y="575" width="980" height="44" rx="20" fill="#0D9488"/>
+  <rect x="50" y="599" width="980" height="20" fill="#0D9488"/>
+  <text x="80" y="604" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFF">보험료 월 10만 원+이 가계에 부담</text>
+  <text x="80" y="650" font-family="sans-serif" font-size="20" fill="#111827">→ <tspan font-weight="800">4세대 전환 추천</tspan> — 월 3.3만 원으로 고정비 대폭 축소</text>
+  <text x="80" y="687" font-family="sans-serif" font-size="17" fill="#6B7280">절감한 보험료를 의료비 비상금으로 저축 · 자기부담 대비 가능</text>
+
+  <!-- 시나리오 5: 5세대 전 전환 -->
+  <rect x="50" y="725" width="980" height="130" rx="20" fill="#FFF" stroke="#C4B5FD" stroke-width="1.5"/>
+  <rect x="50" y="725" width="980" height="44" rx="20" fill="#7C3AED"/>
+  <rect x="50" y="749" width="980" height="20" fill="#7C3AED"/>
+  <text x="80" y="754" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFF">5세대 출시(2026.04) 전 전환을 고민 중</text>
+  <text x="80" y="800" font-family="sans-serif" font-size="20" fill="#111827">→ <tspan font-weight="800">2026년 4월 전 4세대 전환</tspan> — 현재 보장 수준 5년간 확보</text>
+  <text x="80" y="837" font-family="sans-serif" font-size="17" fill="#6B7280">5세대: 경증 한도 5,000만→1,000만, 자기부담 30%→50% 축소 · 4세대가 보장 유리</text>
+
+  <!-- 손익 분기점 -->
+  <rect x="50" y="885" width="980" height="80" rx="16" fill="#FFF" stroke="#DDD6FE" stroke-width="1.5"/>
+  <text x="540" y="918" font-family="sans-serif" font-size="20" font-weight="900" fill="#7C3AED" text-anchor="middle">손익 분기점: 연간 비급여 의료비 ~100만 원</text>
+  <text x="540" y="948" font-family="sans-serif" font-size="17" fill="#6B7280" text-anchor="middle">100만 원 미만 → 4세대 유리 | 100만 원 이상 → 1세대 유지 검토</text>
+
+  <!-- 경고 -->
+  <rect x="50" y="985" width="980" height="40" rx="12" fill="#FEF2F2" stroke="#FECACA" stroke-width="1"/>
+  <text x="540" y="1012" font-family="sans-serif" font-size="16" font-weight="700" fill="#991B1B" text-anchor="middle">전환 후 되돌릴 수 없음 — 1·2·3세대는 판매 종료, 복원 불가</text>
+
+  <text x="540" y="1060" font-family="sans-serif" font-size="16" fill="#9CA3AF" text-anchor="middle">2026년 3월 기준 | 금융감독원·보험개발원 공시 기반 | 전환 전 반드시 설계사 상담 권장</text>
+</svg>

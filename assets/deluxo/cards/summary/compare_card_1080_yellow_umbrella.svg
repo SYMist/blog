@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="32" font-weight="800" fill="#F59E0B">퇴직소득세 vs 기타소득세 — 해지 유형 비교</text>
+  <rect x="60" y="98" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- Header -->
+  <rect x="60" y="120" width="470" height="55" rx="0" fill="rgba(16,185,129,0.25)"/>
+  <text x="295" y="155" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#10B981">정상 지급 / 간주해약</text>
+  <rect x="550" y="120" width="470" height="55" rx="0" fill="rgba(239,68,68,0.25)"/>
+  <text x="785" y="155" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#EF4444">임의해약 / 강제해약</text>
+
+  <!-- Row 1: 사유 -->
+  <rect x="60" y="180" width="470" height="90" rx="0" fill="rgba(16,185,129,0.08)"/>
+  <text x="80" y="215" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#10B981">사유</text>
+  <text x="80" y="248" font-family="'Pretendard',sans-serif" font-size="19" fill="#FFF">8대 법정 사유 (폐업·노령·재난 등)</text>
+
+  <rect x="550" y="180" width="470" height="90" rx="0" fill="rgba(239,68,68,0.08)"/>
+  <text x="570" y="215" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#EF4444">사유</text>
+  <text x="570" y="248" font-family="'Pretendard',sans-serif" font-size="19" fill="#FFF">자의 해지 / 12개월 연체 강제</text>
+
+  <!-- Row 2: 세금 -->
+  <rect x="60" y="275" width="470" height="90" rx="0" fill="rgba(16,185,129,0.12)"/>
+  <text x="80" y="310" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#10B981">세금</text>
+  <text x="80" y="343" font-family="'Pretendard',sans-serif" font-size="19" fill="#FFF">퇴직소득세 적용 (연분연승법)</text>
+
+  <rect x="550" y="275" width="470" height="90" rx="0" fill="rgba(239,68,68,0.12)"/>
+  <text x="570" y="310" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#EF4444">세금</text>
+  <text x="570" y="343" font-family="'Pretendard',sans-serif" font-size="19" fill="#FFF">기타소득세 16.5% 원천징수</text>
+
+  <!-- Row 3: 실질세율 -->
+  <rect x="60" y="370" width="470" height="90" rx="0" fill="rgba(16,185,129,0.08)"/>
+  <text x="80" y="405" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#10B981">실질세율</text>
+  <text x="80" y="438" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#10B981">10년 납입 시 실질 3~5%</text>
+
+  <rect x="550" y="370" width="470" height="90" rx="0" fill="rgba(239,68,68,0.08)"/>
+  <text x="570" y="405" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#EF4444">환급률</text>
+  <text x="570" y="438" font-family="'Pretendard',sans-serif" font-size="19" fill="#FFF">1~3회: 원금 80% / 7~12회: 100%</text>
+
+  <!-- Row 4: 종합과세 -->
+  <rect x="60" y="465" width="470" height="90" rx="0" fill="rgba(16,185,129,0.12)"/>
+  <text x="80" y="500" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#10B981">종합과세</text>
+  <text x="80" y="533" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#10B981">금융소득종합과세 미포함</text>
+
+  <rect x="550" y="465" width="470" height="90" rx="0" fill="rgba(239,68,68,0.12)"/>
+  <text x="570" y="500" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#EF4444">주의</text>
+  <text x="570" y="533" font-family="'Pretendard',sans-serif" font-size="19" font-weight="700" fill="#EF4444">해지 전 대출·유예·중간정산 먼저!</text>
+
+  <!-- 구분선 -->
+  <line x1="540" y1="180" x2="540" y2="555" stroke="rgba(255,255,255,0.1)" stroke-width="2"/>
+
+  <!-- 간주해약 활용 -->
+  <rect x="60" y="580" width="960" height="140" rx="20" fill="rgba(245,158,11,0.12)"/>
+  <rect x="80" y="600" width="180" height="40" rx="20" fill="#F59E0B"/>
+  <text x="170" y="628" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#0B1F3B">간주해약 활용</text>
+  <text x="280" y="628" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">— 임의해약이 아니라 퇴직소득세 적용!</text>
+  <text x="100" y="670" font-family="'Pretendard',sans-serif" font-size="22" fill="#FFF">법인 전환 · 가족 양도 · 대표 퇴임</text>
+  <text x="100" y="703" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">→ 퇴직소득세 적용 (기타소득세 16.5% 회피)</text>
+
+  <rect x="60" y="1050" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

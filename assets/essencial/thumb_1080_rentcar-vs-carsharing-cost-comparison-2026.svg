@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E40AF"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+    <linearGradient id="amberGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D97706"/>
+      <stop offset="100%" stop-color="#78350f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <circle cx="920" cy="160" r="220" fill="#1E40AF" fill-opacity="0.08"/>
+  <circle cx="160" cy="920" r="180" fill="#D97706" fill-opacity="0.08"/>
+
+  <!-- Chips -->
+  <rect x="40" y="40" width="110" height="34" rx="17" fill="#1E40AF" fill-opacity="0.3" stroke="#1E40AF" stroke-width="1.5"/>
+  <text x="95" y="63" text-anchor="middle" fill="#93C5FD" font-size="14" font-weight="700" font-family="sans-serif">자동차</text>
+
+  <rect x="166" y="40" width="140" height="34" rx="17" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="236" y="63" text-anchor="middle" fill="#94A3B8" font-size="14" font-family="sans-serif">2026.05 기준</text>
+
+  <rect x="322" y="40" width="160" height="34" rx="17" fill="#78350f" stroke="#D97706" stroke-width="1.5"/>
+  <text x="402" y="63" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">총비용 비교</text>
+
+  <!-- Title -->
+  <text x="540" y="188" text-anchor="middle" fill="#FFFFFF" font-size="46" font-weight="800" font-family="sans-serif">렌터카 vs 카셰어링</text>
+  <text x="540" y="244" text-anchor="middle" fill="#FFFFFF" font-size="46" font-weight="800" font-family="sans-serif">주말·장기 총비용 비교</text>
+  <text x="540" y="292" text-anchor="middle" fill="#93C5FD" font-size="24" font-weight="600" font-family="sans-serif">손익분기점 200km 완전 분석</text>
+
+  <rect x="200" y="316" width="680" height="3" rx="1.5" fill="#1E40AF" fill-opacity="0.6"/>
+
+  <!-- Key stat -->
+  <rect x="200" y="334" width="680" height="80" rx="16" fill="#1e293b" fill-opacity="0.9" stroke="#334155" stroke-width="1.5"/>
+  <text x="540" y="372" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="700" font-family="sans-serif">손익분기점</text>
+  <text x="540" y="402" text-anchor="middle" fill="#FFFFFF" font-size="26" font-weight="800" font-family="sans-serif">1박2일 200km → 이상이면 렌터카 유리</text>
+
+  <!-- Two cards -->
+  <rect x="40" y="434" width="480" height="510" rx="20" fill="url(#blueGrad)" fill-opacity="0.85" stroke="#1E40AF" stroke-width="2"/>
+  <text x="280" y="486" text-anchor="middle" fill="#FFFFFF" font-size="28" font-weight="800" font-family="sans-serif">렌터카</text>
+  <text x="280" y="514" text-anchor="middle" fill="#93C5FD" font-size="15" font-family="sans-serif">1박2일 7~12만원</text>
+  <line x1="70" y1="534" x2="480" y2="534" stroke="#1e3a8a" stroke-width="1.5"/>
+  <text x="280" y="568" text-anchor="middle" fill="#93C5FD" font-size="30" font-weight="800" font-family="sans-serif">월단기 20~25만원</text>
+  <line x1="70" y1="596" x2="480" y2="596" stroke="#1e3a8a" stroke-width="1.5"/>
+  <text x="80" y="630" fill="#4ADE80" font-size="15" font-weight="700" font-family="sans-serif">✅ 주행요금 없음</text>
+  <text x="80" y="658" fill="#4ADE80" font-size="15" font-weight="700" font-family="sans-serif">✅ 월단기: 보험·정비 포함</text>
+  <text x="80" y="686" fill="#94A3B8" font-size="15" font-family="sans-serif">❌ 만차 반납 의무</text>
+  <text x="80" y="714" fill="#94A3B8" font-size="15" font-family="sans-serif">❌ 최소 24시간 단위</text>
+  <line x1="70" y1="734" x2="480" y2="734" stroke="#1e3a8a" stroke-width="1.5"/>
+  <rect x="70" y="752" width="380" height="38" rx="10" fill="#1E40AF" fill-opacity="0.4"/>
+  <text x="260" y="777" text-anchor="middle" fill="#93C5FD" font-size="13" font-weight="700" font-family="sans-serif">200km+ · 장기 이용 시 유리</text>
+  <text x="280" y="836" text-anchor="middle" fill="#CBD5E1" font-size="14" font-family="sans-serif">100km 주행 총비용: 약 102,500원</text>
+  <text x="280" y="862" text-anchor="middle" fill="#CBD5E1" font-size="14" font-family="sans-serif">300km 주행 총비용: 약 127,500원</text>
+
+  <rect x="560" y="434" width="480" height="510" rx="20" fill="url(#amberGrad)" fill-opacity="0.85" stroke="#D97706" stroke-width="2"/>
+  <text x="800" y="486" text-anchor="middle" fill="#FFFFFF" font-size="28" font-weight="800" font-family="sans-serif">카셰어링 (쏘카·그린카)</text>
+  <text x="800" y="514" text-anchor="middle" fill="#FCD34D" font-size="15" font-family="sans-serif">1박2일 6~10만원</text>
+  <line x1="590" y1="534" x2="1000" y2="534" stroke="#78350f" stroke-width="1.5"/>
+  <text x="800" y="568" text-anchor="middle" fill="#FCD34D" font-size="30" font-weight="800" font-family="sans-serif">단거리·단시간 최적</text>
+  <line x1="590" y1="596" x2="1000" y2="596" stroke="#78350f" stroke-width="1.5"/>
+  <text x="600" y="630" fill="#4ADE80" font-size="15" font-weight="700" font-family="sans-serif">✅ 30분 단위 이용</text>
+  <text x="600" y="658" fill="#4ADE80" font-size="15" font-weight="700" font-family="sans-serif">✅ 쏘카존 주차 무료</text>
+  <text x="600" y="686" fill="#94A3B8" font-size="15" font-family="sans-serif">❌ 150~240원/km (30km 초과)</text>
+  <text x="600" y="714" fill="#94A3B8" font-size="15" font-family="sans-serif">❌ 지정존만 반납 가능</text>
+  <line x1="590" y1="734" x2="1000" y2="734" stroke="#78350f" stroke-width="1.5"/>
+  <rect x="590" y="752" width="380" height="38" rx="10" fill="#D97706" fill-opacity="0.4"/>
+  <text x="780" y="777" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">200km 이하 · 단시간 이용 시 유리</text>
+  <text x="800" y="836" text-anchor="middle" fill="#CBD5E1" font-size="14" font-family="sans-serif">100km 주행 총비용: 약 90,500원</text>
+  <text x="800" y="862" text-anchor="middle" fill="#CBD5E1" font-size="14" font-family="sans-serif">300km 주행 총비용: 약 130,500원</text>
+
+  <text x="40" y="1060" fill="#64748B" font-size="13" font-family="sans-serif">essencial | 자동차 비교 · 2026.05 기준 · 실제 비용은 차종·조건에 따라 달라집니다</text>
+</svg>

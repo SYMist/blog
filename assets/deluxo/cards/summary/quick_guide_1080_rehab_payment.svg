@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="800" fill="#F59E0B">내 변제금은 얼마? 빠른 계산</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- Header -->
+  <rect x="60" y="120" width="960" height="48" rx="0" fill="rgba(59,130,246,0.2)"/>
+  <text x="120" y="152" font-family="'Pretendard',sans-serif" font-size="17" font-weight="800" fill="#FFF">상황</text>
+  <text x="540" y="152" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" font-weight="800" fill="#FFF">계산식</text>
+  <text x="920" y="152" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" font-weight="800" fill="#F59E0B">월 변제금</text>
+
+  <!-- Row 1 -->
+  <rect x="60" y="172" width="960" height="80" rx="0" fill="rgba(255,255,255,0.06)"/>
+  <text x="80" y="206" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#3B82F6">1인, 월 220만</text>
+  <text x="400" y="206" font-family="'Pretendard',sans-serif" font-size="17" fill="#EAF2FF">220 - 154 (최저생계비)</text>
+  <text x="920" y="206" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">약 66만 원</text>
+  <text x="80" y="236" font-family="'Pretendard',sans-serif" font-size="15" fill="rgba(255,255,255,0.5)">주거비 미신청 시</text>
+
+  <!-- Row 2 -->
+  <rect x="60" y="256" width="960" height="80" rx="0" fill="rgba(59,130,246,0.08)"/>
+  <text x="80" y="290" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#3B82F6">1인, 월 220만, 서울</text>
+  <text x="400" y="290" font-family="'Pretendard',sans-serif" font-size="17" fill="#EAF2FF">220 - 154 - 31.5 (주거비)</text>
+  <text x="920" y="290" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">약 34.5만 원</text>
+  <text x="80" y="320" font-family="'Pretendard',sans-serif" font-size="15" fill="rgba(255,255,255,0.5)">주거비 추가 인정 적용</text>
+
+  <!-- Row 3 -->
+  <rect x="60" y="340" width="960" height="80" rx="0" fill="rgba(255,255,255,0.06)"/>
+  <text x="80" y="374" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#3B82F6">2인(배우자), 월 300만</text>
+  <text x="400" y="374" font-family="'Pretendard',sans-serif" font-size="17" fill="#EAF2FF">300 - 252 (2인 생계비)</text>
+  <text x="920" y="374" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">약 48만 원</text>
+  <text x="80" y="404" font-family="'Pretendard',sans-serif" font-size="15" fill="rgba(255,255,255,0.5)">부양가족 1명 포함</text>
+
+  <!-- Row 4 -->
+  <rect x="60" y="424" width="960" height="80" rx="0" fill="rgba(59,130,246,0.08)"/>
+  <text x="80" y="458" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#3B82F6">3인(자녀1), 월 350만</text>
+  <text x="400" y="458" font-family="'Pretendard',sans-serif" font-size="17" fill="#EAF2FF">350 - 322 (3인 생계비)</text>
+  <text x="920" y="458" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">약 28만 원</text>
+  <text x="80" y="488" font-family="'Pretendard',sans-serif" font-size="15" fill="rgba(255,255,255,0.5)">배우자 + 자녀 1명</text>
+
+  <!-- Row 5 -->
+  <rect x="60" y="508" width="960" height="80" rx="0" fill="rgba(255,255,255,0.06)"/>
+  <text x="80" y="542" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#3B82F6">4인(자녀2), 월 400만</text>
+  <text x="400" y="542" font-family="'Pretendard',sans-serif" font-size="17" fill="#EAF2FF">400 - 390 (4인 생계비)</text>
+  <text x="920" y="542" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">약 10만 원</text>
+  <text x="80" y="572" font-family="'Pretendard',sans-serif" font-size="15" fill="rgba(255,255,255,0.5)">배우자 + 자녀 2명</text>
+
+  <!-- Row 6 -->
+  <rect x="60" y="592" width="960" height="80" rx="0" fill="rgba(59,130,246,0.08)"/>
+  <text x="80" y="626" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#3B82F6">1인, 월 180만</text>
+  <text x="400" y="626" font-family="'Pretendard',sans-serif" font-size="17" fill="#EAF2FF">180 - 154 (최저생계비)</text>
+  <text x="920" y="626" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">약 26만 원</text>
+  <text x="80" y="656" font-family="'Pretendard',sans-serif" font-size="15" fill="rgba(255,255,255,0.5)">최저 변제금 수준</text>
+
+  <!-- Row 7 -->
+  <rect x="60" y="676" width="960" height="80" rx="0" fill="rgba(239,68,68,0.1)"/>
+  <text x="80" y="710" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#EF4444">1인, 월 154만 이하</text>
+  <text x="400" y="710" font-family="'Pretendard',sans-serif" font-size="17" fill="#EAF2FF">가용소득 0원</text>
+  <text x="920" y="710" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#EF4444">개인파산 검토</text>
+  <text x="80" y="740" font-family="'Pretendard',sans-serif" font-size="15" fill="rgba(239,68,68,0.7)">변제 능력 부족 → 파산·면책 절차 전환</text>
+
+  <!-- 안내 박스 -->
+  <rect x="60" y="780" width="960" height="85" rx="16" fill="rgba(245,158,11,0.1)"/>
+  <text x="540" y="815" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#F59E0B">추가 생계비(주거비·의료비·양육비) 신청 시 변제금 대폭 감소!</text>
+  <text x="540" y="848" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">위 금액은 기본 공식 기준 — 실제 변제금은 청산가치 보장 원칙에 따라 달라질 수 있음</text>
+
+  <!-- 하단 연락처 -->
+  <rect x="60" y="890" width="960" height="130" rx="20" fill="rgba(59,130,246,0.12)"/>
+  <text x="540" y="930" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#3B82F6">무료 상담 및 신청</text>
+  <text x="540" y="968" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">법률구조공단 132  ·  전자소송 ecfs.scourt.go.kr</text>
+  <text x="540" y="1000" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">신용회복위원회 1600-5500  ·  법률홈닥터 (대한변협)</text>
+
+  <rect x="60" y="1050" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

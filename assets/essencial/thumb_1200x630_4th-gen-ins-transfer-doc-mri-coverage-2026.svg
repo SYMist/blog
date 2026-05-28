@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#15803D"/>
+      <stop offset="100%" stop-color="#14532d"/>
+    </linearGradient>
+    <linearGradient id="redGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#DC2626"/>
+      <stop offset="100%" stop-color="#7f1d1d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <circle cx="1080" cy="100" r="200" fill="#DC2626" fill-opacity="0.07"/>
+  <circle cx="120" cy="540" r="160" fill="#15803D" fill-opacity="0.07"/>
+
+  <!-- Chips -->
+  <rect x="40" y="36" width="100" height="32" rx="16" fill="#7C3AED" fill-opacity="0.3" stroke="#7C3AED" stroke-width="1.5"/>
+  <text x="90" y="57" text-anchor="middle" fill="#DDD6FE" font-size="14" font-weight="700" font-family="sans-serif">보험 비교</text>
+
+  <rect x="156" y="36" width="140" height="32" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="226" y="57" text-anchor="middle" fill="#94A3B8" font-size="14" font-family="sans-serif">2026.05 기준</text>
+
+  <rect x="312" y="36" width="180" height="32" rx="16" fill="#7f1d1d" stroke="#DC2626" stroke-width="1.5"/>
+  <text x="402" y="57" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="700" font-family="sans-serif">5세대 출시 직후</text>
+
+  <!-- Title -->
+  <text x="600" y="130" text-anchor="middle" fill="#FFFFFF" font-size="38" font-weight="800" font-family="sans-serif">4세대 실손 전환 후 도수치료·MRI 변화</text>
+  <text x="600" y="178" text-anchor="middle" fill="#DDD6FE" font-size="26" font-weight="700" font-family="sans-serif">1~5세대 자기부담 시뮬레이션 (2026)</text>
+
+  <!-- Key stat bar -->
+  <rect x="200" y="198" width="800" height="62" rx="12" fill="#1e293b" fill-opacity="0.9" stroke="#334155" stroke-width="1.5"/>
+  <text x="600" y="226" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">도수치료 12만/회·연 24회 자기부담</text>
+  <text x="600" y="250" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">1세대 0원 vs 5세대 288만원 · 격차 288만</text>
+
+  <rect x="200" y="274" width="800" height="2" rx="1" fill="#DC2626" fill-opacity="0.4"/>
+
+  <!-- Two cards -->
+  <rect x="40" y="284" width="555" height="300" rx="16" fill="url(#greenGrad)" fill-opacity="0.8" stroke="#15803D" stroke-width="2"/>
+  <text x="317" y="324" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">유지 (1·2·3·4세대)</text>
+  <line x1="70" y1="338" x2="565" y2="338" stroke="#14532d" stroke-width="1.5"/>
+  <text x="317" y="382" text-anchor="middle" fill="#86EFAC" font-size="26" font-weight="800" font-family="sans-serif">자기부담 0~30%</text>
+  <text x="317" y="410" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="700" font-family="sans-serif">도수 0~86만·MRI 0~21만</text>
+  <line x1="70" y1="430" x2="565" y2="430" stroke="#14532d" stroke-width="1.5"/>
+  <text x="70" y="458" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">✅ 1·2세대 자부담 0~20% 압도적</text>
+  <text x="70" y="484" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">✅ 3·4세대 한도 350만 보장</text>
+  <text x="70" y="510" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">✅ MRI 연 300만 한도 (특약)</text>
+  <rect x="70" y="530" width="465" height="36" rx="8" fill="#15803D" fill-opacity="0.4"/>
+  <text x="302" y="554" text-anchor="middle" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">도수치료·MRI 사용자는 유지 권장</text>
+
+  <rect x="605" y="284" width="555" height="300" rx="16" fill="url(#redGrad)" fill-opacity="0.8" stroke="#DC2626" stroke-width="2"/>
+  <text x="882" y="324" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">5세대 전환 ⚠️</text>
+  <line x1="635" y1="338" x2="1130" y2="338" stroke="#7f1d1d" stroke-width="1.5"/>
+  <text x="882" y="382" text-anchor="middle" fill="#FCA5A5" font-size="26" font-weight="800" font-family="sans-serif">도수치료 100% 자비</text>
+  <text x="882" y="410" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="700" font-family="sans-serif">연 24회 = 약 288만원 자비</text>
+  <line x1="635" y1="430" x2="1130" y2="430" stroke="#7f1d1d" stroke-width="1.5"/>
+  <text x="635" y="458" fill="#FECACA" font-size="14" font-weight="700" font-family="sans-serif">❌ 도수치료 0% 보장 (비중증 비급여)</text>
+  <text x="635" y="484" fill="#FECACA" font-size="14" font-weight="700" font-family="sans-serif">❌ MRI 비중증 70만 자비</text>
+  <text x="635" y="510" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">✅ 월 보험료 약 25% 절감 (병원 안 씀)</text>
+  <rect x="635" y="530" width="465" height="36" rx="8" fill="#DC2626" fill-opacity="0.4"/>
+  <text x="867" y="554" text-anchor="middle" fill="#FECACA" font-size="13" font-weight="700" font-family="sans-serif">도수치료 자주 사용자 절대 금지</text>
+
+  <text x="40" y="610" fill="#64748B" font-size="13" font-family="sans-serif">essencial | 보험 비교 · 2026.05 기준 · 4세대 신규 가입 종료(05.06) · 4→5세대 도수치료 자주 사용 시 5년 940만 추가</text>
+</svg>

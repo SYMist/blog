@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="60%" stop-color="#102A56"/>
+      <stop offset="100%" stop-color="#0B1F3B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#FBBF24"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="10" fill="url(#accent)"/>
+
+  <!-- Chips -->
+  <rect x="60" y="72" width="156" height="46" rx="23" fill="#1D4ED8"/>
+  <text x="138" y="102" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#E8F0FF" text-anchor="middle">2026 최신</text>
+
+  <rect x="228" y="72" width="220" height="46" rx="23" fill="#1D4ED8"/>
+  <text x="338" y="102" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#E8F0FF" text-anchor="middle">청년 최대 100%</text>
+
+  <rect x="460" y="72" width="220" height="46" rx="23" fill="#EF4444" opacity="0.8"/>
+  <text x="570" y="102" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF" text-anchor="middle">감면 신청 필수</text>
+
+  <!-- Main title -->
+  <text x="60" y="198" font-family="-apple-system, sans-serif" font-size="50" font-weight="900" fill="#FFFFFF">소상공인 창업 세금 신고</text>
+  <text x="60" y="262" font-family="-apple-system, sans-serif" font-size="50" font-weight="900" fill="#F59E0B">완전 가이드 (2026)</text>
+
+  <!-- Subtitle -->
+  <text x="60" y="318" font-family="-apple-system, sans-serif" font-size="23" font-weight="700" fill="#EAF2FF">사업자등록·부가세·종소세·청년창업 감면 총정리</text>
+
+  <!-- Divider -->
+  <rect x="60" y="350" width="600" height="3" fill="#F59E0B" rx="2"/>
+
+  <!-- Bottom note -->
+  <text x="60" y="396" font-family="-apple-system, sans-serif" font-size="19" font-weight="600" fill="#A0B4D0">등록 20일 기한 | 청년 비수도권 100% | 부가세 무신고 20% 가산</text>
+
+  <!-- Right: Key stat cards -->
+  <rect x="840" y="68" width="320" height="148" rx="20" fill="#1A3270"/>
+  <text x="1000" y="122" font-family="-apple-system, sans-serif" font-size="19" font-weight="700" fill="#F59E0B" text-anchor="middle">사업자등록 기한</text>
+  <text x="1000" y="178" font-family="-apple-system, sans-serif" font-size="44" font-weight="900" fill="#FFFFFF" text-anchor="middle">20일</text>
+
+  <rect x="840" y="232" width="320" height="148" rx="20" fill="#1A3270"/>
+  <text x="1000" y="286" font-family="-apple-system, sans-serif" font-size="19" font-weight="700" fill="#F59E0B" text-anchor="middle">청년 비수도권 감면</text>
+  <text x="1000" y="350" font-family="-apple-system, sans-serif" font-size="44" font-weight="900" fill="#FFFFFF" text-anchor="middle">100%</text>
+
+  <rect x="840" y="396" width="320" height="148" rx="20" fill="#34D399" opacity="0.2"/>
+  <rect x="840" y="396" width="320" height="148" rx="20" fill="none" stroke="#34D399" stroke-width="2"/>
+  <text x="1000" y="450" font-family="-apple-system, sans-serif" font-size="19" font-weight="700" fill="#34D399" text-anchor="middle">무신고 가산세</text>
+  <text x="1000" y="512" font-family="-apple-system, sans-serif" font-size="38" font-weight="900" fill="#FFFFFF" text-anchor="middle">20%~</text>
+
+  <!-- Bottom accent bar -->
+  <rect x="0" y="620" width="1200" height="10" fill="url(#accent)"/>
+</svg>

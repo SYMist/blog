@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <rect x="60" y="60" width="380" height="44" rx="22" fill="#B45309"/>
+  <text x="250" y="90" text-anchor="middle" fill="#FFFFFF" font-size="19" font-weight="800" font-family="sans-serif">2026 종소세 → 사업자대출 한도</text>
+
+  <text x="60" y="200" fill="#FFFFFF" font-size="68" font-weight="800" font-family="sans-serif">신고가 한도를</text>
+  <text x="60" y="280" fill="#FCD34D" font-size="68" font-weight="800" font-family="sans-serif">결정한다</text>
+  <text x="60" y="340" fill="#FFFFFF" font-size="32" font-weight="600" font-family="sans-serif">절세 vs 한도 trade-off</text>
+
+  <!-- 3 key cards stacked -->
+  <rect x="60" y="400" width="960" height="180" rx="16" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="90" y="445" fill="#86EFAC" font-size="17" font-weight="700" font-family="sans-serif">한도 골든타임</text>
+  <text x="90" y="510" fill="#FFFFFF" font-size="50" font-weight="800" font-family="sans-serif">7월 중순부터</text>
+  <text x="990" y="445" text-anchor="end" fill="#86EFAC" font-size="16" font-weight="600" font-family="sans-serif">~ 다음해 4월</text>
+  <text x="990" y="510" text-anchor="end" fill="#CBD5E1" font-size="18" font-family="sans-serif">소득금액증명원 갱신</text>
+  <text x="90" y="555" fill="#86EFAC" font-size="15" font-weight="700" font-family="sans-serif">5월 신고 → 7월 반영 → 신청 적기</text>
+
+  <rect x="60" y="600" width="960" height="180" rx="16" fill="url(#card)" stroke="#FCD34D" stroke-width="2"/>
+  <text x="90" y="645" fill="#FCD34D" font-size="17" font-weight="700" font-family="sans-serif">소득 5천만 한도</text>
+  <text x="90" y="710" fill="#FFFFFF" font-size="52" font-weight="800" font-family="sans-serif">약 8,800만 원</text>
+  <text x="990" y="645" text-anchor="end" fill="#FCD34D" font-size="16" font-weight="600" font-family="sans-serif">DSR 40%</text>
+  <text x="990" y="710" text-anchor="end" fill="#CBD5E1" font-size="18" font-family="sans-serif">환산배수 2.5배</text>
+  <text x="90" y="755" fill="#FCD34D" font-size="15" font-weight="700" font-family="sans-serif">소득 1억 → 한도 약 1.75억</text>
+
+  <rect x="60" y="800" width="960" height="180" rx="16" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="90" y="845" fill="#86EFAC" font-size="17" font-weight="700" font-family="sans-serif">정책자금 최저금리</text>
+  <text x="90" y="910" fill="#FFFFFF" font-size="52" font-weight="800" font-family="sans-serif">2.96% · 1억</text>
+  <text x="990" y="845" text-anchor="end" fill="#86EFAC" font-size="16" font-weight="600" font-family="sans-serif">DSR 제외</text>
+  <text x="990" y="910" text-anchor="end" fill="#CBD5E1" font-size="18" font-family="sans-serif">시중 + 보증재단 병행</text>
+  <text x="90" y="955" fill="#86EFAC" font-size="15" font-weight="700" font-family="sans-serif">신규 사업자 · 신용 무관 가능</text>
+
+  <text x="60" y="1040" fill="#64748B" font-size="15" font-family="sans-serif">essencial | 대출·금융 silo · 2026.04 기준</text>
+</svg>

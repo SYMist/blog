@@ -1,0 +1,555 @@
+<div style="display:none">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "기초생활수급·차상위 지원 기준 총정리 2026 – 선정 조건·급여 금액",
+      "description": "2026년 기준중위소득 기반 기초생활수급자·차상위계층 선정 기준, 생계·의료·주거·교육급여 금액, 차상위 5가지 지원유형까지 한눈에 정리합니다.",
+      "datePublished": "2026-02-24",
+      "dateModified": "2026-02-24"
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "기초생활수급자와 차상위계층의 차이는 뭔가요?", "acceptedAnswer": {"@type": "Answer", "text": "기초생활수급자는 소득인정액이 기준중위소득 32~50% 이하로 생계·의료·주거·교육급여를 받는 가구입니다. 차상위계층은 수급자보다 소득이 약간 높지만 중위소득 50% 이하인 가구로, 의료비 경감·자활·양곡할인 등을 지원받습니다."}},
+        {"@type": "Question", "name": "소득인정액은 어떻게 계산하나요?", "acceptedAnswer": {"@type": "Answer", "text": "소득인정액 = 소득평가액 + 재산의 소득환산액입니다. 소득평가액은 실제소득에서 가구특성 지출과 근로소득공제를 뺀 금액이고, 재산 소득환산액은 재산에서 기본재산액과 부채를 빼고 환산율을 곱한 금액입니다."}},
+        {"@type": "Question", "name": "부양의무자 기준은 모든 급여에 적용되나요?", "acceptedAnswer": {"@type": "Answer", "text": "아닙니다. 2026년 기준 부양의무자 기준은 의료급여에만 적용됩니다. 생계·주거·교육급여는 부양의무자 기준이 폐지되어 본인 가구의 소득인정액만 충족하면 됩니다."}},
+        {"@type": "Question", "name": "기초수급자인데 일을 하면 자격이 박탈되나요?", "acceptedAnswer": {"@type": "Answer", "text": "근로소득이 생겨도 바로 탈락하지 않습니다. 근로소득공제가 적용되어 실제 소득 전부가 소득인정액에 반영되지 않습니다. 다만 소득인정액이 기준을 초과하면 해당 급여가 중단될 수 있습니다."}},
+        {"@type": "Question", "name": "차상위계층 확인서는 어디서 발급하나요?", "acceptedAnswer": {"@type": "Answer", "text": "주소지 관할 행정복지센터(주민센터)에서 차상위계층 확인사업을 신청하면 소득·재산 조사 후 자격이 확인됩니다. 복지로 온라인으로도 신청 가능합니다."}}
+      ]
+    }
+  ]
+}
+</script>
+</div>
+
+<style>
+  :root{
+    --blue:#1D4ED8; --blue2:#1E40AF;
+    --white:#FFFFFF; --text:#111827;
+    --muted:#4B5563; --border:#E5E7EB;
+    --bg:#F9FAFB; --blueLight:#E8F0FF;
+  }
+  .wrap{max-width:860px;margin:0 auto;line-height:1.8;color:var(--text);}
+  .meta{color:var(--muted);font-size:.95rem;margin:6px 0 18px;}
+  .badge{display:inline-block;background:var(--blueLight);border:1px solid var(--border);padding:3px 10px;border-radius:999px;font-size:.85rem;margin-right:8px;}
+  .notice{background:#fff7ed;border:1px solid #fed7aa;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .lead{background:#f8fafc;border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .keysum{background:#fefce8;border:1px solid #fde68a;padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .summary{background:#eff6ff;border:1px solid #bfdbfe;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .toc{background:var(--bg);border:1px solid var(--border);padding:14px 16px;border-radius:12px;margin:16px 0 22px;}
+  .toc a{text-decoration:none;color:var(--blue);}
+  .toc ul{margin:8px 0 0 18px;}
+
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 6px;}
+  .wrap a.btn,.wrap a.btn:link,.wrap a.btn:visited{
+    display:inline-flex;align-items:center;justify-content:center;
+    padding:10px 14px;border-radius:10px;border:1px solid var(--blue);
+    background:var(--blue) !important;color:var(--white) !important;
+    text-decoration:none !important;font-weight:800;
+  }
+  .wrap a.btn:hover,.wrap a.btn:active,.wrap a.btn:focus{
+    background:var(--blue2) !important;border-color:var(--blue2) !important;color:var(--white) !important;
+  }
+  .wrap a.btn.secondary,.wrap a.btn.secondary:link,.wrap a.btn.secondary:visited{
+    background:var(--white) !important;color:var(--blue) !important;border-color:var(--blue) !important;
+  }
+  .wrap a.btn.secondary:hover,.wrap a.btn.secondary:active,.wrap a.btn.secondary:focus{
+    background:var(--bg) !important;color:var(--blue2) !important;border-color:var(--blue2) !important;
+  }
+  .wrap a.btn.gray,.wrap a.btn.gray:link,.wrap a.btn.gray:visited{
+    background:#111827 !important;border-color:#111827 !important;color:var(--white) !important;
+  }
+  .wrap a.btn.gray:hover,.wrap a.btn.gray:active,.wrap a.btn.gray:focus{
+    background:#0b1220 !important;border-color:#0b1220 !important;color:var(--white) !important;
+  }
+
+  table{width:100%;border-collapse:collapse;margin:14px 0 10px;}
+  th,td{border:1px solid var(--border);padding:10px;vertical-align:top;}
+  th{background:#F3F4F6;text-align:left;}
+  .small{font-size:.95rem;color:var(--muted);}
+  h1{margin:0 0 8px;line-height:1.25;}
+  h2{margin-top:30px;padding-top:8px;border-top:1px solid var(--border);}
+  h3{margin-top:16px;}
+  .q{font-weight:900;margin:14px 0 6px;}
+  .a{margin:0 0 10px;}
+  .tips{background:#f0fdf4;border:1px solid #bbf7d0;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .ad{background:#f9fafb;border:1px dashed var(--border);padding:10px 12px;border-radius:10px;margin:12px 0;}
+  .footer{margin-top:26px;padding-top:14px;border-top:1px solid var(--border);color:var(--muted);font-size:.95rem;}
+</style>
+
+<div class="wrap">
+  <h1>기초생활수급·차상위 지원 기준 총정리 – 4인가구 생계급여 월 최대 208만원 (2026)</h1>
+  <div class="meta">
+    <span class="badge">키워드: 기초생활수급 차상위</span>
+    <span class="badge">업데이트: 2026-02-24</span>
+  </div>
+
+  <div class="notice">
+    <strong>먼저 확인!</strong><br/>
+    이 글은 2026년 보건복지부 고시 기준중위소득을 기준으로 작성되었습니다. 소득인정액은 개인 상황에 따라 다르므로 복지로 모의계산 또는 행정복지센터 상담을 통해 정확한 자격을 확인하세요.
+  </div>
+
+  <p class="small">
+    2026년 기초생활보장 수급자 선정 기준(생계·의료·주거·교육급여)과 차상위계층 5가지 지원유형을 한눈에 정리합니다. 기준중위소득 인상으로 수급 범위가 넓어졌습니다.
+  </p>
+
+  <div class="lead">
+    "나는 기초수급 대상일까, 차상위일까?" 기초생활보장제도와 차상위계층 지원은 다양한 복지 혜택의 출발점입니다. 하지만 소득인정액, 기준중위소득 비율, 부양의무자 기준 등이 복잡해서 내가 해당되는지 판단하기 어렵습니다. 이 글에서 2026년 기준으로 쉽게 정리해 드립니다.
+  </div>
+
+  <div class="keysum">
+    <strong>핵심 요약 3줄</strong><br/>
+    1. 생계급여 중위소득 32%, 의료 40%, 주거 48%, 교육 50% 이하 → <strong>4인가구 생계급여 기준 월 208만원</strong><br/>
+    2. 차상위계층 = 중위소득 50% 이하, 5가지 유형(확인·자활·의료·장애·한부모)으로 지원<br/>
+    3. 부양의무자 기준은 <strong>의료급여에만 적용</strong>, 나머지 급여는 폐지됨
+  </div>
+
+  <div class="summary" id="top">
+    <h2 style="border-top:none;margin-top:0;">5줄 요약(결론)</h2>
+    <ul>
+      <li><strong>기초수급</strong>: 소득인정액이 중위소득 32~50% 이하면 급여별로 선정 (생계 32%·의료 40%·주거 48%·교육 50%)</li>
+      <li><strong>차상위</strong>: 기초수급은 안 되지만 중위소득 50% 이하 → 의료비 경감·자활·양곡할인 등 지원</li>
+      <li><strong>신청 흐름</strong>: 행정복지센터 방문 또는 복지로 온라인 → 소득·재산 조사 → 선정 통지</li>
+      <li><strong>핵심 체크</strong>: 소득인정액 = 소득평가액 + 재산 소득환산액 (복지로 모의계산 가능)</li>
+      <li><strong>부양의무자</strong>: 의료급여만 적용, 생계·주거·교육급여는 본인 가구 소득인정액만 봄</li>
+    </ul>
+
+    <div class="btns">
+      <a class="btn" href="https://www.bokjiro.go.kr" target="_blank" rel="noopener">복지로 신청·모의계산</a>
+      <a class="btn gray" href="https://www.mohw.go.kr" target="_blank" rel="noopener">보건복지부 안내</a>
+      <a class="btn secondary" href="https://www.129.go.kr" target="_blank" rel="noopener">보건복지 상담센터</a>
+    </div>
+    <p class="small">※ 신청 전 복지로 모의계산으로 자격 확인을 권장합니다</p>
+  </div>
+
+  <div class="toc">
+    <strong>목차</strong>
+    <ul>
+      <li><a href="#table">1) 한눈에 표 – 급여별 선정 기준</a></li>
+      <li><a href="#quick">→ 나는 어디? 기초수급 vs 차상위 빠른 판단</a></li>
+      <li><a href="#median">2) 2026년 기준중위소득 표</a></li>
+      <li><a href="#income">3) 소득인정액 계산 방법</a></li>
+      <li><a href="#benefits">4) 급여별 상세 – 생계·의료·주거·교육</a></li>
+      <li><a href="#obligation">5) 부양의무자 기준 (의료급여)</a></li>
+      <li><a href="#chasangwi">6) 차상위계층 5가지 지원유형</a></li>
+      <li><a href="#extra">7) 추가 복지혜택 – 문화누리·양곡·희망저축</a></li>
+      <li><a href="#how">8) 신청 방법</a></li>
+      <li><a href="#docs">9) 서류 체크리스트</a></li>
+      <li><a href="#faq">10) FAQ</a></li>
+      <li><a href="#check">11) 1분 체크리스트</a></li>
+      <li><a href="#update">업데이트 로그</a></li>
+    </ul>
+  </div>
+
+  <!-- ============================================ -->
+  <h2 id="table">1) 한눈에 표 – 급여별 선정 기준 (2026)</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>급여 종류</th><th>중위소득 비율</th><th>1인가구 기준</th><th>4인가구 기준</th><th>부양의무자</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>생계급여</strong></td>
+        <td>32% 이하</td>
+        <td>820,556원</td>
+        <td>2,078,316원</td>
+        <td>폐지</td>
+      </tr>
+      <tr>
+        <td><strong>의료급여</strong></td>
+        <td>40% 이하</td>
+        <td>1,025,695원</td>
+        <td>2,597,895원</td>
+        <td><strong>적용</strong></td>
+      </tr>
+      <tr>
+        <td><strong>주거급여</strong></td>
+        <td>48% 이하</td>
+        <td>1,230,834원</td>
+        <td>3,117,474원</td>
+        <td>폐지</td>
+      </tr>
+      <tr>
+        <td><strong>교육급여</strong></td>
+        <td>50% 이하</td>
+        <td>1,282,119원</td>
+        <td>3,247,369원</td>
+        <td>폐지</td>
+      </tr>
+      <tr>
+        <td><strong>차상위계층</strong></td>
+        <td>50% 이하</td>
+        <td>1,282,119원</td>
+        <td>3,247,369원</td>
+        <td>유형별 상이</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="small">※ 소득인정액(소득평가액 + 재산 소득환산액)이 위 기준 이하여야 합니다</p>
+
+  <div class="ad">{광고 위치 1: 한눈에 표 아래}</div>
+
+  <!-- ============================================ -->
+  <h3 id="quick">나는 어디? 기초수급자 vs 차상위계층 10초 판단</h3>
+  <table>
+    <thead>
+      <tr><th></th><th>기초생활수급자</th><th>차상위계층</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>핵심 성격</strong></td><td>최저 생활 보장 대상</td><td>수급자 바로 윗단계 빈곤층</td></tr>
+      <tr><td><strong>소득 기준</strong></td><td>중위소득 32~50% 이하<br/>(급여별 차등)</td><td>중위소득 50% 이하<br/>(수급자 제외)</td></tr>
+      <tr><td><strong>주요 혜택</strong></td><td>생계·의료·주거·교육급여<br/>현금+바우처 직접 지급</td><td>의료비 경감·자활·양곡할인<br/>문화누리카드·에너지바우처</td></tr>
+      <tr><td><strong>한 줄 요약</strong></td><td>소득인정액이 매우 낮으면<br/>→ 생계비·의료비 직접 지원</td><td>수급자는 아니지만 빈곤층<br/>→ 간접 지원·감면 혜택</td></tr>
+    </tbody>
+  </table>
+  <p class="small">※ 기초수급 탈락해도 차상위로 지원받을 수 있습니다. 복지로 모의계산으로 확인하세요.</p>
+
+  <!-- ============================================ -->
+  <h2 id="median">2) 2026년 기준중위소득 표</h2>
+
+  <p>기준중위소득은 모든 복지제도의 기준이 되는 값입니다. 2026년에는 전년 대비 인상되어 수급 범위가 넓어졌습니다.</p>
+
+  <table>
+    <thead>
+      <tr><th>가구 규모</th><th>기준중위소득(월)</th><th>32%(생계)</th><th>40%(의료)</th><th>48%(주거)</th><th>50%(교육·차상위)</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>1인</strong></td>
+        <td>2,564,238원</td>
+        <td>820,556원</td>
+        <td>1,025,695원</td>
+        <td>1,230,834원</td>
+        <td>1,282,119원</td>
+      </tr>
+      <tr>
+        <td><strong>2인</strong></td>
+        <td>4,199,292원</td>
+        <td>1,343,773원</td>
+        <td>1,679,717원</td>
+        <td>2,015,660원</td>
+        <td>2,099,646원</td>
+      </tr>
+      <tr>
+        <td><strong>3인</strong></td>
+        <td>5,359,036원</td>
+        <td>1,714,892원</td>
+        <td>2,143,614원</td>
+        <td>2,572,337원</td>
+        <td>2,679,518원</td>
+      </tr>
+      <tr>
+        <td><strong>4인</strong></td>
+        <td>6,494,738원</td>
+        <td>2,078,316원</td>
+        <td>2,597,895원</td>
+        <td>3,117,474원</td>
+        <td>3,247,369원</td>
+      </tr>
+      <tr>
+        <td><strong>5인</strong></td>
+        <td>7,556,719원</td>
+        <td>2,418,150원</td>
+        <td>3,022,688원</td>
+        <td>3,627,225원</td>
+        <td>3,778,360원</td>
+      </tr>
+      <tr>
+        <td><strong>6인</strong></td>
+        <td>8,555,952원</td>
+        <td>2,737,905원</td>
+        <td>3,422,381원</td>
+        <td>4,106,857원</td>
+        <td>4,277,976원</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="small">※ 7인 이상 가구는 6인 가구와의 차액을 더해 산정합니다</p>
+
+  <!-- ============================================ -->
+  <h2 id="income">3) 소득인정액 계산 방법</h2>
+
+  <p>수급자·차상위 선정은 <strong>"소득인정액"</strong>이 기준입니다. 실제 월급이 아니라 소득과 재산을 합산한 금액입니다.</p>
+
+  <div class="keysum">
+    <strong>소득인정액 = 소득평가액 + 재산의 소득환산액</strong>
+  </div>
+
+  <h3>소득평가액</h3>
+  <p><strong>소득평가액 = 실제 소득 - 가구 특성별 지출비용 - 근로소득공제</strong></p>
+  <ul>
+    <li>실제 소득: 근로소득, 사업소득, 재산소득, 이전소득(연금 등) 합산</li>
+    <li>가구 특성별 지출: 장애인 추가비용, 만성질환 의료비 등 차감</li>
+    <li>근로소득공제: 근로·사업소득의 30% 공제 (일하면 일정 부분 제외)</li>
+  </ul>
+
+  <h3>재산의 소득환산액</h3>
+  <p><strong>재산 소득환산액 = (재산 - 기본재산액 - 부채) × 소득환산율</strong></p>
+  <ul>
+    <li>재산: 일반재산(주택·토지 등) + 금융재산 + 자동차</li>
+    <li>기본재산액: 지역별 차등 (대도시·중소도시·농어촌)</li>
+    <li>소득환산율: 일반재산 월 4.17%, 금융재산 월 6.26%, 자동차 월 100%</li>
+  </ul>
+
+  <div class="tips">
+    <strong>복지로 모의계산 활용하세요</strong><br/>
+    소득인정액 계산은 복잡합니다. 복지로(www.bokjiro.go.kr)에서 제공하는 모의계산 서비스를 이용하면 본인 가구의 소득인정액을 대략적으로 확인할 수 있습니다.
+  </div>
+
+  <!-- ============================================ -->
+  <h2 id="benefits">4) 급여별 상세 – 생계·의료·주거·교육</h2>
+
+  <h3>생계급여 (중위소득 32% 이하)</h3>
+  <ul>
+    <li><strong>지원 내용</strong>: 생계유지에 필요한 최저보장 금액 지급</li>
+    <li><strong>지급액</strong>: 선정기준액 - 소득인정액 = 실제 지급액</li>
+    <li><strong>4인가구 최대</strong>: 월 2,078,316원 (소득인정액 0원 기준)</li>
+    <li><strong>부양의무자</strong>: 폐지 → 본인 가구 소득인정액만 확인</li>
+  </ul>
+
+  <h3>의료급여 (중위소득 40% 이하)</h3>
+  <ul>
+    <li><strong>지원 내용</strong>: 의료비 부담 경감 (진료비 대부분 국가 부담)</li>
+    <li><strong>1종</strong>: 근로무능력자 → 입원·외래 본인부담 거의 없음</li>
+    <li><strong>2종</strong>: 근로능력자 포함 → 입원 10%, 외래 15% 본인부담</li>
+    <li><strong>부양의무자</strong>: <strong>적용</strong> (유일하게 부양의무자 기준 유지)</li>
+  </ul>
+
+  <h3>주거급여 (중위소득 48% 이하)</h3>
+  <ul>
+    <li><strong>임차가구</strong>: 지역·가구원수별 기준임대료 범위 내 실제 임차료 지원</li>
+    <li><strong>자가가구</strong>: 주택 노후도에 따라 수선유지급여 지급</li>
+    <li><strong>부양의무자</strong>: 폐지</li>
+  </ul>
+
+  <h3>교육급여 (중위소득 50% 이하)</h3>
+  <ul>
+    <li><strong>지원 내용</strong>: 초·중·고 학생 교육활동지원비 바우처</li>
+    <li><strong>2026년 금액</strong>: 초등 502,000원 / 중학 699,000원 / 고교 860,000원 (연)</li>
+    <li><strong>부양의무자</strong>: 폐지</li>
+  </ul>
+
+  <div class="ad">{광고 위치 2: 급여 상세 끝}</div>
+
+  <!-- ============================================ -->
+  <h2 id="obligation">5) 부양의무자 기준 (의료급여)</h2>
+
+  <p>2026년 현재 부양의무자 기준이 적용되는 급여는 <strong>의료급여뿐</strong>입니다. 부양의무자(직계혈족 및 그 배우자)의 소득·재산을 평가하여 부양능력을 판정합니다.</p>
+
+  <table>
+    <thead>
+      <tr><th>부양능력 판정</th><th>조건</th><th>결과</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>부양능력 없음</strong></td>
+        <td>판정소득액 &lt; 부양의무자 가구 중위소득 100%<br/>+ 재산 환산액 기준 미만</td>
+        <td>의료급여 선정 가능</td>
+      </tr>
+      <tr>
+        <td><strong>부양능력 미약</strong></td>
+        <td>판정소득액이 중위소득 100% 이상이나<br/>합산 기준 미만, 재산 기준 충족</td>
+        <td>부양비 일부 부담 시 선정</td>
+      </tr>
+      <tr>
+        <td><strong>부양능력 있음</strong></td>
+        <td>소득·재산이 기준 초과</td>
+        <td>의료급여 선정 불가</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="tips">
+    <strong>부양의무자 기준 폐지 대상</strong><br/>
+    장애인연금 수급자, 기초연금 수급 노인이 포함된 가구 등 일부 경우에는 의료급여도 부양의무자 기준이 면제됩니다. 해당 여부는 행정복지센터에서 확인하세요.
+  </div>
+
+  <!-- ============================================ -->
+  <h2 id="chasangwi">6) 차상위계층 5가지 지원유형</h2>
+
+  <p>차상위계층(중위소득 50% 이하, 기초수급 미해당)은 다음 5가지 법정 지원유형으로 나뉩니다.</p>
+
+  <table>
+    <thead>
+      <tr><th>지원유형</th><th>대상</th><th>주요 혜택</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>1. 확인사업</strong></td>
+        <td>중위소득 50% 이하 가구</td>
+        <td>정부양곡 할인, 요금감면 등 다양한 사업 연계<br/>(부양의무자 기준 없음)</td>
+      </tr>
+      <tr>
+        <td><strong>2. 자활(일자리)</strong></td>
+        <td>근로능력 있는 미취업자<br/>(중위소득 50% 이하)</td>
+        <td>자활근로사업 참여 → 인건비 지급<br/>교육·상담·취업 연계</td>
+      </tr>
+      <tr>
+        <td><strong>3. 본인부담경감<br/>(의료)</strong></td>
+        <td>희귀난치성·중증·만성질환자<br/>18세 미만 아동</td>
+        <td>의료비 본인부담금 경감<br/>(입원 14%, 외래 14% 수준)</td>
+      </tr>
+      <tr>
+        <td><strong>4. 장애(장애수당)</strong></td>
+        <td>장애정도 심한 차상위 장애인</td>
+        <td>장애수당·장애아동수당<br/>장애인연금 지급</td>
+      </tr>
+      <tr>
+        <td><strong>5. 한부모 가족</strong></td>
+        <td>저소득 모·부자가족<br/>조손가족</td>
+        <td>아동양육비·주거지원 등</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="small">※ 중위소득 50% 이하라도 자동 자격 부여가 아닙니다. 각 사업별 요건 충족 시 신청해야 합니다.</p>
+
+  <!-- ============================================ -->
+  <h2 id="extra">7) 추가 복지혜택</h2>
+
+  <h3>희망저축계좌 I·II (자산형성)</h3>
+  <table>
+    <thead>
+      <tr><th>구분</th><th>대상</th><th>본인 저축</th><th>정부 매칭</th><th>기간</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>희망저축계좌 I</strong></td>
+        <td>생계·의료급여 수급자<br/>(근로소득 있는 가구)</td>
+        <td>월 10만원</td>
+        <td>월 10만원</td>
+        <td>3년</td>
+      </tr>
+      <tr>
+        <td><strong>희망저축계좌 II</strong></td>
+        <td>주거·교육급여 수급자<br/>+ 차상위 가구</td>
+        <td>월 10만원</td>
+        <td>월 10만원</td>
+        <td>3년</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="small">※ 근로활동과 자립교육 이행 필수. 중도 해지 시 정부 지원금 회수 가능</p>
+
+  <h3>기타 혜택 정리</h3>
+  <ul>
+    <li><strong>문화누리카드</strong>: 6세 이상 기초수급·차상위 → 1인당 연 <strong>15만원</strong> (문화·관광·체육)</li>
+    <li><strong>정부양곡 할인</strong>: 시중가 약 90% 수준으로 쌀 구매 가능 (주민센터 신청)</li>
+    <li><strong>에너지 바우처</strong>: 중위소득 50% 이하 → 가스·전기료 지원</li>
+    <li><strong>통신비 감면</strong>: 이동통신 요금 월 최대 <strong>11,000원</strong> 감면</li>
+    <li><strong>공공임대 우선</strong>: LH·SH 공공임대주택 청약 시 우선순위</li>
+  </ul>
+
+  <!-- ============================================ -->
+  <h2 id="how">8) 신청 방법</h2>
+  <ol>
+    <li><strong>자격 확인</strong>: 복지로 모의계산 서비스로 소득인정액 대략 확인</li>
+    <li><strong>신청</strong>: 주소지 관할 행정복지센터(주민센터) 방문 또는 복지로 온라인 신청</li>
+    <li><strong>소득·재산 조사</strong>: 국민건강보험공단·국세청 등을 통해 가구 소득·재산 확인 (약 30일 소요)</li>
+    <li><strong>선정 통지</strong>: 급여 결정 및 차상위 자격 확인 결과 통보</li>
+    <li><strong>급여 지급</strong>: 생계급여 매월 20일 / 기타 급여 결정 후 순차 지급</li>
+  </ol>
+  <p class="small">※ 연중 상시 신청 가능. 소득·재산 변동 시 즉시 신고 필요</p>
+
+  <!-- ============================================ -->
+  <h2 id="docs">9) 서류 체크리스트</h2>
+  <h3>기본 서류</h3>
+  <ul>
+    <li>신분증 (신청인)</li>
+    <li>소득·재산 신고서 (주민센터 비치)</li>
+    <li>금융정보 등 제공동의서 (가구원 전원 서명)</li>
+    <li>통장 사본 (급여 입금용)</li>
+  </ul>
+  <h3>상황별 추가</h3>
+  <ul>
+    <li><strong>임차인</strong>: 임대차계약서</li>
+    <li><strong>근로소득자</strong>: 급여명세서 또는 소득증빙</li>
+    <li><strong>장애인</strong>: 장애등록증</li>
+    <li><strong>만성질환자</strong>: 진단서 (차상위 본인부담경감 신청 시)</li>
+    <li><strong>한부모 가족</strong>: 가족관계증명서, 혼인관계증명서</li>
+    <li><strong>부양의무자 관련</strong>: 부양의무자의 소득·재산 증빙 (의료급여 신청 시)</li>
+  </ul>
+
+  <!-- ============================================ -->
+  <h2 id="faq">10) FAQ</h2>
+
+  <h3>탈락 사유 TOP 5</h3>
+  <ol>
+    <li><strong>소득인정액 기준 초과</strong>: 근로소득 외에 재산 소득환산액이 높아 기준 초과하는 경우 가장 많음</li>
+    <li><strong>자동차 보유</strong>: 자동차는 소득환산율 100%가 적용되어 소득인정액을 크게 올림</li>
+    <li><strong>금융재산 과다</strong>: 예금·적금 등 금융재산의 환산율이 6.26%로 일반재산(4.17%)보다 높음</li>
+    <li><strong>부양의무자 기준 미충족</strong>: 의료급여 신청 시 자녀·부모의 소득이 높으면 탈락</li>
+    <li><strong>서류 미비·신고 누락</strong>: 가구원 동의서 미제출, 소득 변동 미신고 등</li>
+  </ol>
+
+  <h3>중복수급 가능/불가 정리</h3>
+  <ul>
+    <li><strong>중복 가능</strong>: 생계+의료+주거+교육급여 → 소득인정액만 충족하면 모두 수급 가능</li>
+    <li><strong>중복 가능</strong>: 기초수급 + 문화누리카드 + 에너지바우처 + 통신비감면</li>
+    <li><strong>택 1</strong>: 기초수급자와 차상위는 동시에 해당 불가 (수급자이면 차상위 아님)</li>
+    <li><strong>연계</strong>: 기초수급 탈락 시 차상위 자격으로 전환 가능 (별도 신청)</li>
+  </ul>
+
+  <h3>자주 묻는 질문</h3>
+  <p class="q">Q1. 기초생활수급자와 차상위계층의 차이는 뭔가요?</p>
+  <p class="a">기초수급자는 소득인정액이 중위소득 32~50% 이하로 생계·의료·주거·교육급여를 직접 받는 가구입니다. 차상위는 수급자보다 소득이 약간 높지만 중위소득 50% 이하인 가구로, 의료비 경감·자활·양곡할인 등 간접 지원을 받습니다.</p>
+
+  <p class="q">Q2. 소득인정액은 실제 월급과 같은 건가요?</p>
+  <p class="a">아닙니다. 소득인정액은 실제 소득(근로·사업·재산·이전소득)에서 공제를 빼고, 재산을 소득으로 환산한 금액까지 합한 것입니다. 월급이 낮아도 재산이 많으면 소득인정액이 높아질 수 있습니다.</p>
+
+  <p class="q">Q3. 부양의무자 기준은 모든 급여에 적용되나요?</p>
+  <p class="a">아닙니다. 2026년 기준 의료급여에만 적용됩니다. 생계·주거·교육급여는 부양의무자 기준이 폐지되어 본인 가구의 소득인정액만 충족하면 됩니다.</p>
+
+  <p class="q">Q4. 기초수급자인데 일을 하면 자격이 박탈되나요?</p>
+  <p class="a">바로 탈락하지 않습니다. 근로소득의 30%가 공제되어 실제 소득 전부가 반영되지 않습니다. 다만 소득인정액이 기준을 초과하면 해당 급여가 중단될 수 있습니다. 생계급여가 중단되어도 의료·주거급여는 유지될 수 있습니다.</p>
+
+  <p class="q">Q5. 자동차가 있으면 수급자가 될 수 없나요?</p>
+  <p class="a">자동차는 소득환산율 100%가 적용되어 소득인정액을 크게 올립니다. 다만 배기량 1,600cc 미만 또는 차량가액 200만원 미만, 장애인 사용 차량 등은 일반재산으로 환산(4.17%)하는 예외가 있습니다.</p>
+
+  <p class="q">Q6. 차상위계층 확인서는 어디서 발급하나요?</p>
+  <p class="a">주소지 관할 행정복지센터(주민센터)에서 차상위계층 확인사업을 신청하면 소득·재산 조사 후 자격이 확인됩니다. 복지로 온라인으로도 신청 가능합니다.</p>
+
+  <p class="q">Q7. 생계급여 지급액은 어떻게 결정되나요?</p>
+  <p class="a">선정기준액(중위소득 32%)에서 본인 가구 소득인정액을 뺀 금액이 지급됩니다. 예: 4인가구 소득인정액 100만원이면 2,078,316 - 1,000,000 = 약 107만원 지급.</p>
+
+  <p class="q">Q8. 기초수급 탈락하면 차상위 혜택도 못 받나요?</p>
+  <p class="a">아닙니다. 소득인정액이 중위소득 50% 이하이면 차상위 자격으로 전환 신청할 수 있습니다. 별도로 차상위 확인사업을 신청해야 합니다.</p>
+
+  <p class="q">Q9. 희망저축계좌는 아무나 가입할 수 있나요?</p>
+  <p class="a">희망저축계좌I은 생계·의료급여 수급자 중 근로소득이 있는 가구, II는 주거·교육급여 수급자 및 차상위 가구가 대상입니다. 근로활동과 자립교육 이행이 조건입니다.</p>
+
+  <p class="q">Q10. 외국인도 기초수급 신청이 가능한가요?</p>
+  <p class="a">원칙적으로 대한민국 국적자가 대상입니다. 다만 대한민국 국적 아동의 부모인 외국인, 난민 인정자, 결혼이민자 등 일부 외국인은 특례로 신청 가능합니다.</p>
+
+  <!-- ============================================ -->
+  <h2 id="check">11) 신청 전 1분 체크리스트</h2>
+  <ul>
+    <li>복지로 모의계산으로 소득인정액 확인</li>
+    <li>가구원 전원 금융정보 동의서 서명 준비</li>
+    <li>임대차계약서 등 재산 증빙서류 확인</li>
+    <li>자동차 보유 시 환산 예외 해당 여부 확인</li>
+    <li>의료급여 신청 시 부양의무자 소득 확인</li>
+    <li>주소지 관할 행정복지센터 또는 복지로에서 신청</li>
+  </ul>
+  <p class="small">관련 글: 긴급복지 지원금 신청 조건 / 주거급여 신청 방법 / 교육비 지원 신청 기준</p>
+
+  <div class="ad">{광고 위치 3: 글 하단}</div>
+
+  <div class="tips">
+    <strong>참고/문의처</strong><br/>
+    복지로: www.bokjiro.go.kr (신청·모의계산)<br/>
+    보건복지부: www.mohw.go.kr<br/>
+    보건복지 상담센터: ☎129<br/>
+    행정복지센터: 주소지 관할 주민센터
+  </div>
+
+  <div class="footer" id="update">
+    <strong>업데이트 로그</strong><br/>
+    - 2026-02-24: 2026년 기준중위소득 고시 기준 최초 작성<br/>
+    <span class="small">※ 개인 상황에 따라 소득인정액이 달라질 수 있습니다. 신청 전 복지로 모의계산 또는 행정복지센터 상담을 권장합니다.</span>
+  </div>
+</div>

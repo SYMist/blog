@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <rect x="80" y="100" width="280" height="46" rx="23" fill="#B45309"/>
+  <text x="220" y="132" text-anchor="middle" fill="#FFFFFF" font-size="19" font-weight="800" font-family="sans-serif">2026 사업자 대출 4채널 비교</text>
+
+  <text x="80" y="220" fill="#FFFFFF" font-size="58" font-weight="800" font-family="sans-serif">개인사업자 대출</text>
+  <text x="80" y="288" fill="#FFFFFF" font-size="58" font-weight="800" font-family="sans-serif">신용 vs 담보 전략</text>
+  <text x="80" y="348" fill="#FCD34D" font-size="32" font-weight="600" font-family="sans-serif">금리·한도·실행속도·자격 매트릭스</text>
+
+  <rect x="80" y="378" width="380" height="6" rx="3" fill="#B45309"/>
+
+  <text x="80" y="438" fill="#FCD34D" font-size="26" font-weight="700" font-family="sans-serif">5천만 1년 이자 격차 최대 180만원</text>
+  <text x="80" y="475" fill="#FCD34D" font-size="26" font-weight="700" font-family="sans-serif">정책자금 최저 2.9% 진입</text>
+
+  <!-- Big numbers grid -->
+  <rect x="80" y="525" width="430" height="170" rx="20" fill="#1e293b" stroke="#B45309" stroke-width="3"/>
+  <text x="295" y="575" text-anchor="middle" fill="#FCD34D" font-size="20" font-weight="700" font-family="sans-serif">신용대출 (시중)</text>
+  <text x="295" y="635" text-anchor="middle" fill="#FFFFFF" font-size="40" font-weight="800" font-family="sans-serif">4.8~6.5%</text>
+  <text x="295" y="670" text-anchor="middle" fill="#86EFAC" font-size="18" font-weight="600" font-family="sans-serif">1~3일 실행 · 한도 1~1.5억</text>
+
+  <rect x="540" y="525" width="430" height="170" rx="20" fill="#1e293b" stroke="#B45309" stroke-width="3"/>
+  <text x="755" y="575" text-anchor="middle" fill="#FCD34D" font-size="20" font-weight="700" font-family="sans-serif">담보대출 (시중)</text>
+  <text x="755" y="635" text-anchor="middle" fill="#FFFFFF" font-size="40" font-weight="800" font-family="sans-serif">3.8~5.2%</text>
+  <text x="755" y="670" text-anchor="middle" fill="#86EFAC" font-size="18" font-weight="600" font-family="sans-serif">LTV 40~70% · 10년 분할</text>
+
+  <rect x="80" y="725" width="430" height="170" rx="20" fill="#1e293b" stroke="#B45309" stroke-width="3"/>
+  <text x="295" y="775" text-anchor="middle" fill="#FCD34D" font-size="20" font-weight="700" font-family="sans-serif">청년고용연계 (최저)</text>
+  <text x="295" y="835" text-anchor="middle" fill="#FFFFFF" font-size="48" font-weight="800" font-family="sans-serif">약 2.9%</text>
+  <text x="295" y="870" text-anchor="middle" fill="#86EFAC" font-size="18" font-weight="600" font-family="sans-serif">정책자금 · 만 39세 이하</text>
+
+  <rect x="540" y="725" width="430" height="170" rx="20" fill="#1e293b" stroke="#B45309" stroke-width="3"/>
+  <text x="755" y="775" text-anchor="middle" fill="#FCD34D" font-size="20" font-weight="700" font-family="sans-serif">저금리 대환 (고정)</text>
+  <text x="755" y="835" text-anchor="middle" fill="#FFFFFF" font-size="44" font-weight="800" font-family="sans-serif">4.5%</text>
+  <text x="755" y="870" text-anchor="middle" fill="#86EFAC" font-size="18" font-weight="600" font-family="sans-serif">5천만 · NCB 919점 이하</text>
+
+  <text x="80" y="970" fill="#FFFFFF" font-size="26" font-weight="700" font-family="sans-serif">사업자 유형 8가지 + 종소세 한도 공식</text>
+  <text x="80" y="1010" fill="#FCD34D" font-size="22" font-weight="600" font-family="sans-serif">4채널 비교표 · 정책자금 5종 · 체크리스트 6단계</text>
+
+  <text x="80" y="1055" fill="#64748B" font-size="18" font-family="sans-serif">essencial | 대출·금융 silo</text>
+</svg>

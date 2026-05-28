@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><filter id="s" x="-4%" y="-4%" width="108%" height="108%"><feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#000" flood-opacity="0.08"/></filter></defs>
+  <rect width="1080" height="1080" rx="32" fill="#F0FAF9"/>
+  <rect x="40" y="40" width="1000" height="1000" rx="24" fill="#FFF" filter="url(#s)"/>
+
+  <!-- Header -->
+  <rect x="40" y="40" width="1000" height="100" rx="24" fill="#0F766E"/><rect x="40" y="95" width="1000" height="45" fill="#0F766E"/>
+  <text x="540" y="103" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="800" fill="#FFF">임플란트 건강보험 본인부담금 비교 요약</text>
+
+  <!-- 핵심 요약 -->
+  <rect x="80" y="175" width="920" height="65" rx="14" fill="#F0FDFA"/>
+  <text x="540" y="217" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#0F766E">만 65세 이상 | 평생 2개 | 부분 무치악 조건 | 2026년 수가 반영</text>
+
+  <!-- 비교 테이블 헤더 -->
+  <rect x="80" y="270" width="920" height="50" rx="12" fill="#0F766E"/>
+  <text x="280" y="302" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">가입자 유형</text>
+  <text x="560" y="302" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">본인부담률</text>
+  <text x="820" y="302" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">1개당 부담금</text>
+
+  <!-- Row 1: 일반 -->
+  <rect x="80" y="330" width="920" height="65" rx="0" fill="#FFF"/>
+  <line x1="80" y1="395" x2="1000" y2="395" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="280" y="372" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#111827">건강보험 일반</text>
+  <text x="560" y="372" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#0F766E">30%</text>
+  <text x="820" y="372" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="900" fill="#DC2626">약 39만 원</text>
+
+  <!-- Row 2: 의료급여 1종 -->
+  <rect x="80" y="395" width="920" height="65" rx="0" fill="#F9FAFB"/>
+  <line x1="80" y1="460" x2="1000" y2="460" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="280" y="437" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#111827">의료급여 1종</text>
+  <text x="560" y="437" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#0F766E">10%</text>
+  <text x="820" y="437" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="900" fill="#0F766E">약 13만 원</text>
+
+  <!-- Row 3: 의료급여 2종 -->
+  <rect x="80" y="460" width="920" height="65" rx="0" fill="#FFF"/>
+  <line x1="80" y1="525" x2="1000" y2="525" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="280" y="502" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#111827">의료급여 2종</text>
+  <text x="560" y="502" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#0F766E">20%</text>
+  <text x="820" y="502" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="900" fill="#0F766E">약 26만 원</text>
+
+  <!-- 2026 변경사항 -->
+  <rect x="80" y="560" width="920" height="55" rx="12" fill="#FFFBEB"/>
+  <text x="540" y="595" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#B45309">2026 변경: 수가 2.0% 인상 (환산지수 101.1원) + 지르코니아 급여 확대</text>
+
+  <!-- 보철 재료 비교 -->
+  <text x="80" y="665" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#111827">보철 재료 선택 (추가 비용 없음)</text>
+  <line x1="80" y1="685" x2="1000" y2="685" stroke="#E5E7EB" stroke-width="2"/>
+
+  <rect x="80" y="705" width="440" height="100" rx="16" fill="#F0FDFA" stroke="#99F6E4" stroke-width="2"/>
+  <text x="300" y="747" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#0F766E">PFM 크라운</text>
+  <text x="300" y="783" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" fill="#4B5563">내구성 우수 | 잇몸 경계 어두움</text>
+
+  <rect x="560" y="705" width="440" height="100" rx="16" fill="#0F766E"/>
+  <text x="780" y="747" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#FFF">지르코니아 크라운</text>
+  <text x="780" y="783" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" fill="#CCFBF1">자연치아 색감 | 최고 강도</text>
+
+  <!-- 주의사항 -->
+  <rect x="80" y="840" width="920" height="120" rx="16" fill="#FEF2F2" stroke="#FECACA" stroke-width="1.5"/>
+  <text x="100" y="878" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#DC2626">별도 비용 발생 항목</text>
+  <text x="100" y="912" font-family="'Pretendard',sans-serif" font-size="22" fill="#374151">뼈이식(치조골 이식): 30만~100만 원 (비급여)</text>
+  <text x="100" y="944" font-family="'Pretendard',sans-serif" font-size="22" fill="#374151">임시 치아 · 귀금속 보철물 · 3개째 임플란트: 전액 비급여</text>
+
+  <!-- Footer -->
+  <rect x="80" y="995" width="920" height="5" rx="2" fill="#0F766E"/>
+</svg>

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 660">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="redGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#DC2626"/>
+      <stop offset="100%" stop-color="#7f1d1d"/>
+    </linearGradient>
+    <linearGradient id="amberGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D97706"/>
+      <stop offset="100%" stop-color="#7C2D12"/>
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#4c1d95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="660" fill="url(#bg)"/>
+
+  <text x="540" y="58" text-anchor="middle" fill="#FFFFFF" font-size="28" font-weight="800" font-family="sans-serif">종신보험 해지 vs 감액완납 vs 연장 3종</text>
+  <text x="540" y="92" text-anchor="middle" fill="#DDD6FE" font-size="16" font-family="sans-serif">월 30만·15년·환급금 4,000만·사망 1억 시뮬레이션 · 2026.05</text>
+
+  <!-- Key stat -->
+  <rect x="160" y="116" width="760" height="76" rx="14" fill="#1e293b" fill-opacity="0.9" stroke="#334155" stroke-width="1.5"/>
+  <text x="540" y="148" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="700" font-family="sans-serif">결정 변수 = 자금 필요 vs 보장 필요 vs 보장 기간</text>
+  <text x="540" y="180" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">3종 모두 특약 소멸 · 되돌리기 불가</text>
+
+  <!-- 3 cards horizontal -->
+  <rect x="40" y="216" width="325" height="390" rx="18" fill="url(#redGrad)" fill-opacity="0.9" stroke="#DC2626" stroke-width="2"/>
+  <text x="202" y="260" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">해지</text>
+  <text x="202" y="286" text-anchor="middle" fill="#FCA5A5" font-size="13" font-family="sans-serif">즉시 환급금 수령</text>
+  <line x1="65" y1="306" x2="345" y2="306" stroke="#7f1d1d" stroke-width="1.5"/>
+  <text x="202" y="346" text-anchor="middle" fill="#FCA5A5" font-size="26" font-weight="800" font-family="sans-serif">4,000만원</text>
+  <text x="202" y="376" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700" font-family="sans-serif">보장 0원 (즉시 종료)</text>
+  <line x1="65" y1="396" x2="345" y2="396" stroke="#7f1d1d" stroke-width="1.5"/>
+  <text x="75" y="428" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">✅ 즉시 현금 확보</text>
+  <text x="75" y="452" fill="#FECACA" font-size="13" font-weight="700" font-family="sans-serif">❌ 사망보장 0원</text>
+  <text x="75" y="476" fill="#FECACA" font-size="13" font-weight="700" font-family="sans-serif">❌ 특약 소멸</text>
+  <text x="75" y="500" fill="#FFFFFF" font-size="13" font-family="sans-serif">— 환급률 약 74% (-26%)</text>
+  <text x="75" y="524" fill="#FFFFFF" font-size="13" font-family="sans-serif">— 5년 미만은 손실 큼</text>
+  <rect x="65" y="546" width="280" height="44" rx="8" fill="#DC2626" fill-opacity="0.4"/>
+  <text x="205" y="572" text-anchor="middle" fill="#FECACA" font-size="13" font-weight="700" font-family="sans-serif">자금 필요·보장 불필요만 선택</text>
+
+  <rect x="378" y="216" width="325" height="390" rx="18" fill="url(#amberGrad)" fill-opacity="0.9" stroke="#D97706" stroke-width="2"/>
+  <text x="540" y="260" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">감액완납</text>
+  <text x="540" y="286" text-anchor="middle" fill="#FCD34D" font-size="13" font-family="sans-serif">납입 중단 + 종신 보장 축소</text>
+  <line x1="403" y1="306" x2="683" y2="306" stroke="#7C2D12" stroke-width="1.5"/>
+  <text x="540" y="346" text-anchor="middle" fill="#FCD34D" font-size="22" font-weight="800" font-family="sans-serif">3,000~4,000만</text>
+  <text x="540" y="376" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700" font-family="sans-serif">사망보장 (종신 유지)</text>
+  <line x1="403" y1="396" x2="683" y2="396" stroke="#7C2D12" stroke-width="1.5"/>
+  <text x="413" y="428" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">✅ 보험료 0원</text>
+  <text x="413" y="452" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">✅ 평생 보장 유지</text>
+  <text x="413" y="476" fill="#FECACA" font-size="13" font-weight="700" font-family="sans-serif">❌ 보장 30~50% 축소</text>
+  <text x="413" y="500" fill="#FECACA" font-size="13" font-weight="700" font-family="sans-serif">❌ 특약 소멸</text>
+  <text x="413" y="524" fill="#FFFFFF" font-size="13" font-family="sans-serif">— 부담↓ + 일부 보장 OK</text>
+  <rect x="403" y="546" width="280" height="44" rx="8" fill="#D97706" fill-opacity="0.4"/>
+  <text x="543" y="572" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">부담↓ + 평생 일부 보장 원함</text>
+
+  <rect x="716" y="216" width="325" height="390" rx="18" fill="url(#purpleGrad)" fill-opacity="0.9" stroke="#7C3AED" stroke-width="2"/>
+  <text x="878" y="260" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">연장정기</text>
+  <text x="878" y="286" text-anchor="middle" fill="#DDD6FE" font-size="13" font-family="sans-serif">납입 중단 + 풀 보장 단축</text>
+  <line x1="741" y1="306" x2="1021" y2="306" stroke="#4c1d95" stroke-width="1.5"/>
+  <text x="878" y="346" text-anchor="middle" fill="#DDD6FE" font-size="26" font-weight="800" font-family="sans-serif">1억 유지</text>
+  <text x="878" y="376" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700" font-family="sans-serif">75~80세 만기 (단축)</text>
+  <line x1="741" y1="396" x2="1021" y2="396" stroke="#4c1d95" stroke-width="1.5"/>
+  <text x="751" y="428" fill="#DDD6FE" font-size="13" font-weight="700" font-family="sans-serif">✅ 보험료 0원</text>
+  <text x="751" y="452" fill="#DDD6FE" font-size="13" font-weight="700" font-family="sans-serif">✅ 사망보장 풀 유지</text>
+  <text x="751" y="476" fill="#FECACA" font-size="13" font-weight="700" font-family="sans-serif">❌ 만기 후 무보장</text>
+  <text x="751" y="500" fill="#FECACA" font-size="13" font-weight="700" font-family="sans-serif">❌ 특약 소멸</text>
+  <text x="751" y="524" fill="#FFFFFF" font-size="13" font-family="sans-serif">— 90세+ 장수 시 무보장 위험</text>
+  <rect x="741" y="546" width="280" height="44" rx="8" fill="#7C3AED" fill-opacity="0.4"/>
+  <text x="881" y="572" text-anchor="middle" fill="#DDD6FE" font-size="13" font-weight="700" font-family="sans-serif">자녀 대출 65~70대 종료 케이스</text>
+
+  <text x="40" y="638" fill="#64748B" font-size="13" font-family="sans-serif">essencial | 보험 비교 · 2026.05 기준 · 본인 케이스는 가입 보험사·금감원(1332) 사전 시뮬레이션 권장</text>
+</svg>

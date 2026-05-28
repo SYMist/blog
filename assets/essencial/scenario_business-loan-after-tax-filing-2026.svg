@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1700" fill="url(#bg)"/>
+
+  <rect x="60" y="50" width="300" height="40" rx="20" fill="#B45309"/>
+  <text x="210" y="77" text-anchor="middle" fill="#FFFFFF" font-size="17" font-weight="800" font-family="sans-serif">6개 사업자 유형별 최적 조합</text>
+
+  <text x="60" y="155" fill="#FFFFFF" font-size="40" font-weight="800" font-family="sans-serif">내 사업에 맞는 경로</text>
+  <text x="60" y="195" fill="#FCD34D" font-size="20" font-weight="600" font-family="sans-serif">매출·소득별 시나리오 · trade-off 시뮬 · 7단계 체크리스트</text>
+
+  <!-- 6 시나리오 카드 -->
+  <text x="60" y="250" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">6가지 사업자 유형별 최적 조합</text>
+
+  <!-- Row 1 -->
+  <rect x="60" y="280" width="350" height="250" rx="12" fill="url(#card)" stroke="#FCA5A5" stroke-width="2"/>
+  <text x="80" y="320" fill="#FCA5A5" font-size="16" font-weight="800" font-family="sans-serif">S1 · 음식점 매출 1억</text>
+  <text x="80" y="350" fill="#CBD5E1" font-size="13" font-family="sans-serif">신고 소득금액: 2,000만</text>
+  <text x="80" y="375" fill="#CBD5E1" font-size="13" font-family="sans-serif">시중은행 한도: 약 4천만</text>
+  <text x="80" y="410" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">▸ 정책자금 신규 1억(2.96%)</text>
+  <text x="80" y="435" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">▸ 보증재단 5천만(3.5%)</text>
+  <text x="80" y="460" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">▸ 시중은행 4천만 보조</text>
+  <text x="80" y="495" fill="#FFFFFF" font-size="18" font-weight="800" font-family="sans-serif">총 1.9억 / 평균 3.2%</text>
+
+  <rect x="430" y="280" width="350" height="250" rx="12" fill="url(#card)" stroke="#FCD34D" stroke-width="2"/>
+  <text x="450" y="320" fill="#FCD34D" font-size="16" font-weight="800" font-family="sans-serif">S2 · 프리랜서 매출 8천</text>
+  <text x="450" y="350" fill="#CBD5E1" font-size="13" font-family="sans-serif">신고 소득금액: 5,000만</text>
+  <text x="450" y="375" fill="#CBD5E1" font-size="13" font-family="sans-serif">시중은행 한도: 약 1.25억</text>
+  <text x="450" y="410" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">▸ 카카오·케이뱅크 1.25억</text>
+  <text x="450" y="435" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">▸ 정책자금 7천 병행</text>
+  <text x="450" y="460" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">▸ 비대면 3~4%대</text>
+  <text x="450" y="495" fill="#FFFFFF" font-size="18" font-weight="800" font-family="sans-serif">총 1.95억 / 3%대</text>
+
+  <rect x="800" y="280" width="350" height="250" rx="12" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="820" y="320" fill="#86EFAC" font-size="16" font-weight="800" font-family="sans-serif">S3 · 제조업 매출 5억</text>
+  <text x="820" y="350" fill="#CBD5E1" font-size="13" font-family="sans-serif">신고 소득금액: 1.5억</text>
+  <text x="820" y="375" fill="#CBD5E1" font-size="13" font-family="sans-serif">시중은행 한도: 최대 3억</text>
+  <text x="820" y="410" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">▸ 시중은행 3억(우대)</text>
+  <text x="820" y="435" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">▸ 정책자금 + 보증재단</text>
+  <text x="820" y="460" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">▸ 성장촉진 보증부대출</text>
+  <text x="820" y="495" fill="#FFFFFF" font-size="18" font-weight="800" font-family="sans-serif">총 4.5억+ 가능</text>
+
+  <!-- Row 2 -->
+  <rect x="60" y="550" width="350" height="250" rx="12" fill="url(#card)" stroke="#FCA5A5" stroke-width="2"/>
+  <text x="80" y="590" fill="#FCA5A5" font-size="16" font-weight="800" font-family="sans-serif">S4 · 신규 창업 매출 5천</text>
+  <text x="80" y="620" fill="#CBD5E1" font-size="13" font-family="sans-serif">신고 소득금액: 1,500만</text>
+  <text x="80" y="645" fill="#CBD5E1" font-size="13" font-family="sans-serif">시중은행 한도: 제한적</text>
+  <text x="80" y="680" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">▸ 정책자금 신규 1억</text>
+  <text x="80" y="705" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">▸ 보증재단 5천만</text>
+  <text x="80" y="730" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">▸ 케이뱅크 6개월 기준</text>
+  <text x="80" y="765" fill="#FFFFFF" font-size="18" font-weight="800" font-family="sans-serif">총 1.5억+ 목표</text>
+
+  <rect x="430" y="550" width="350" height="250" rx="12" fill="url(#card)" stroke="#FCD34D" stroke-width="2"/>
+  <text x="450" y="590" fill="#FCD34D" font-size="16" font-weight="800" font-family="sans-serif">S5 · 계절업종 매출 1.5억</text>
+  <text x="450" y="620" fill="#CBD5E1" font-size="13" font-family="sans-serif">신고 소득금액: 4,000만</text>
+  <text x="450" y="645" fill="#CBD5E1" font-size="13" font-family="sans-serif">변동성 큼 → 한도 보수적</text>
+  <text x="450" y="680" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">▸ 마이너스통장 한도성</text>
+  <text x="450" y="705" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">▸ 운전자금 정책자금</text>
+  <text x="450" y="730" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">▸ 비수기 대비 선제 확보</text>
+  <text x="450" y="765" fill="#FFFFFF" font-size="18" font-weight="800" font-family="sans-serif">총 1억 내외</text>
+
+  <rect x="800" y="550" width="350" height="250" rx="12" fill="url(#card)" stroke="#FCA5A5" stroke-width="2"/>
+  <text x="820" y="590" fill="#FCA5A5" font-size="16" font-weight="800" font-family="sans-serif">S6 · 절세 과다 매출 3억</text>
+  <text x="820" y="620" fill="#CBD5E1" font-size="13" font-family="sans-serif">신고 소득금액: 1,500만</text>
+  <text x="820" y="645" fill="#CBD5E1" font-size="13" font-family="sans-serif">한도 손실 1억+</text>
+  <text x="820" y="680" fill="#FCA5A5" font-size="14" font-weight="700" font-family="sans-serif">▲ 절세 효과 &lt; 한도 손실</text>
+  <text x="820" y="705" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">▸ 수정신고 경비 환원</text>
+  <text x="820" y="730" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">▸ 또는 다음 해 정상화</text>
+  <text x="820" y="765" fill="#FFFFFF" font-size="18" font-weight="800" font-family="sans-serif">진단 → 구조조정</text>
+
+  <!-- Trade-off 시뮬 -->
+  <text x="60" y="840" fill="#FFFFFF" font-size="24" font-weight="800" font-family="sans-serif">절세 vs 한도 Trade-off 시뮬레이션</text>
+
+  <rect x="60" y="865" width="540" height="290" rx="16" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="80" y="905" fill="#86EFAC" font-size="20" font-weight="800" font-family="sans-serif">A · 절세 우선</text>
+
+  <g font-family="sans-serif">
+    <text x="80" y="940" fill="#CBD5E1" font-size="14">매출 2억 · 경비 1.65억</text>
+    <text x="580" y="940" text-anchor="end" fill="#FFFFFF" font-size="14" font-weight="700">(+경비 1,500만)</text>
+
+    <text x="80" y="970" fill="#CBD5E1" font-size="14">신고 소득</text>
+    <text x="580" y="970" text-anchor="end" fill="#FCD34D" font-size="16" font-weight="800">3,500만 원</text>
+
+    <text x="80" y="1000" fill="#CBD5E1" font-size="14">세금</text>
+    <text x="580" y="1000" text-anchor="end" fill="#86EFAC" font-size="16" font-weight="800">약 300만 원</text>
+
+    <text x="80" y="1030" fill="#CBD5E1" font-size="14">대출 한도</text>
+    <text x="580" y="1030" text-anchor="end" fill="#FCA5A5" font-size="16" font-weight="800">약 8,000만 원</text>
+
+    <text x="80" y="1075" fill="#86EFAC" font-size="13" font-weight="700">▸ 자금 수요 없을 때 합리적</text>
+    <text x="80" y="1105" fill="#86EFAC" font-size="13" font-weight="700">▸ 다음 해 한도 회복 가능</text>
+    <text x="80" y="1135" fill="#86EFAC" font-size="13" font-weight="700">▸ 사업 안정·유지 단계</text>
+  </g>
+
+  <rect x="620" y="865" width="520" height="290" rx="16" fill="url(#card)" stroke="#FCD34D" stroke-width="2"/>
+  <text x="640" y="905" fill="#FCD34D" font-size="20" font-weight="800" font-family="sans-serif">B · 한도 우선</text>
+
+  <g font-family="sans-serif">
+    <text x="640" y="940" fill="#CBD5E1" font-size="14">매출 2억 · 경비 1.5억</text>
+    <text x="1120" y="940" text-anchor="end" fill="#FFFFFF" font-size="14" font-weight="700">(실비만 반영)</text>
+
+    <text x="640" y="970" fill="#CBD5E1" font-size="14">신고 소득</text>
+    <text x="1120" y="970" text-anchor="end" fill="#86EFAC" font-size="16" font-weight="800">5,000만 원</text>
+
+    <text x="640" y="1000" fill="#CBD5E1" font-size="14">세금</text>
+    <text x="1120" y="1000" text-anchor="end" fill="#FCA5A5" font-size="16" font-weight="800">약 600만 원 (+300)</text>
+
+    <text x="640" y="1030" fill="#CBD5E1" font-size="14">대출 한도</text>
+    <text x="1120" y="1030" text-anchor="end" fill="#86EFAC" font-size="16" font-weight="800">약 1.25억 (+4,500만)</text>
+
+    <text x="640" y="1075" fill="#FCD34D" font-size="13" font-weight="700">▸ 1년 내 대출 계획 있을 때</text>
+    <text x="640" y="1105" fill="#FCD34D" font-size="13" font-weight="700">▸ 사업 확장·인력 충원기</text>
+    <text x="640" y="1135" fill="#FCD34D" font-size="13" font-weight="700">▸ 주택 구입·임차 예정</text>
+  </g>
+
+  <!-- 7단계 체크리스트 -->
+  <text x="60" y="1210" fill="#FFFFFF" font-size="24" font-weight="800" font-family="sans-serif">5월 신고 → 7월 신청 7단계 체크리스트</text>
+
+  <rect x="60" y="1235" width="1080" height="400" rx="16" fill="url(#card)" stroke="#B45309" stroke-width="2"/>
+
+  <g font-family="sans-serif">
+    <circle cx="100" cy="1280" r="20" fill="#B45309"/>
+    <text x="100" y="1287" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="800">1</text>
+    <text x="140" y="1275" fill="#FFFFFF" font-size="16" font-weight="700">[사전 시뮬] 매출 × (1 − 경비율) → 신고 후 한도 예측</text>
+    <text x="140" y="1295" fill="#CBD5E1" font-size="13">1년 자금 계획 점검 → 한도 vs 절세 우선순위 결정</text>
+
+    <circle cx="100" cy="1335" r="20" fill="#B45309"/>
+    <text x="100" y="1342" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="800">2</text>
+    <text x="140" y="1330" fill="#FFFFFF" font-size="16" font-weight="700">[5.31 신고 마감] 무신고 20% 가산세 + 대출 거절 위험</text>
+    <text x="140" y="1350" fill="#CBD5E1" font-size="13">적격증빙만 경비 처리 · 가공 매출·차명 금지</text>
+
+    <circle cx="100" cy="1390" r="20" fill="#B45309"/>
+    <text x="100" y="1397" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="800">3</text>
+    <text x="140" y="1385" fill="#FFFFFF" font-size="16" font-weight="700">[7월 중순 갱신 확인] 홈택스 소득금액증명원 재발급</text>
+    <text x="140" y="1405" fill="#CBD5E1" font-size="13">완전 반영은 7월 중순 · 이전엔 부분 반영만 가능</text>
+
+    <circle cx="100" cy="1445" r="20" fill="#B45309"/>
+    <text x="100" y="1452" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="800">4</text>
+    <text x="140" y="1440" fill="#FFFFFF" font-size="16" font-weight="700">[4채널 한도 비교] 시중은행 + 정책자금 + 보증재단 + 마이너스</text>
+    <text x="140" y="1460" fill="#CBD5E1" font-size="13">정책자금·보증재단은 DSR 제외 → 시중은행과 병행 가능</text>
+
+    <circle cx="100" cy="1500" r="20" fill="#B45309"/>
+    <text x="100" y="1507" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="800">5</text>
+    <text x="140" y="1495" fill="#FFFFFF" font-size="16" font-weight="700">[대출이동제 검토] 기존 고금리 대출 보유 시 갈아타기</text>
+    <text x="140" y="1515" fill="#CBD5E1" font-size="13">10억 이하 · 승인율 10% 미만 감안 · 조건 맞으면 0.7%p 우대</text>
+
+    <circle cx="100" cy="1555" r="20" fill="#B45309"/>
+    <text x="100" y="1562" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="800">6</text>
+    <text x="140" y="1550" fill="#FFFFFF" font-size="16" font-weight="700">[이자 경비처리 준비] 사업용 통장 분리 · 약정서 보관</text>
+    <text x="140" y="1570" fill="#CBD5E1" font-size="13">사업 자산 초과 차입금 이자는 경비 불인정 주의</text>
+
+    <circle cx="100" cy="1610" r="20" fill="#B45309"/>
+    <text x="100" y="1617" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="800">7</text>
+    <text x="140" y="1605" fill="#FFFFFF" font-size="16" font-weight="700">[다음 해 재조정] 사업 확장·매출 증가 시 증액 갈아타기</text>
+    <text x="140" y="1625" fill="#CBD5E1" font-size="13">매년 7월 골든타임마다 재점검 · 금리 경쟁 심화 활용</text>
+  </g>
+
+  <text x="60" y="1675" fill="#64748B" font-size="14" font-family="sans-serif">essencial | 대출·금융 silo · 자료: 국세청·금융위·소진공·신용보증재단 (2026.04 기준)</text>
+</svg>

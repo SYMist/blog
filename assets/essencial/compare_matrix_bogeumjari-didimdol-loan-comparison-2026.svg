@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1700" fill="url(#bg)"/>
+
+  <!-- Header -->
+  <rect x="60" y="50" width="400" height="44" rx="22" fill="#B45309"/>
+  <text x="260" y="80" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">2026 보금자리론·디딤돌대출 상세 비교표</text>
+
+  <text x="60" y="162" fill="#FFFFFF" font-size="50" font-weight="800" font-family="sans-serif">항목별 완전 비교</text>
+  <text x="60" y="226" fill="#FCD34D" font-size="50" font-weight="800" font-family="sans-serif">디딤돌 vs 보금자리론</text>
+
+  <!-- Table Header -->
+  <rect x="60" y="266" width="280" height="56" rx="0" fill="#1e293b"/>
+  <text x="200" y="301" text-anchor="middle" fill="#94A3B8" font-size="17" font-weight="700" font-family="sans-serif">비교 항목</text>
+
+  <rect x="340" y="266" width="390" height="56" rx="0" fill="#064E3B"/>
+  <text x="535" y="298" text-anchor="middle" fill="#6EE7B7" font-size="22" font-weight="800" font-family="sans-serif">디딤돌대출</text>
+  <text x="535" y="315" text-anchor="middle" fill="#10B981" font-size="13" font-family="sans-serif">주택도시기금</text>
+
+  <rect x="730" y="266" width="410" height="56" rx="0" fill="#1E3A8A"/>
+  <text x="935" y="298" text-anchor="middle" fill="#93C5FD" font-size="22" font-weight="800" font-family="sans-serif">보금자리론</text>
+  <text x="935" y="315" text-anchor="middle" fill="#3B82F6" font-size="13" font-family="sans-serif">한국주택금융공사</text>
+
+  <!-- Row: 소득 한도 -->
+  <rect x="60" y="322" width="280" height="88" rx="0" fill="#0f172a" stroke="#334155" stroke-width="0.5"/>
+  <text x="200" y="366" text-anchor="middle" fill="#94A3B8" font-size="15" font-weight="600" font-family="sans-serif">소득 한도</text>
+
+  <rect x="340" y="322" width="390" height="88" rx="0" fill="#1a1a2e" stroke="#0F766E" stroke-width="0.5"/>
+  <text x="535" y="354" text-anchor="middle" fill="#6EE7B7" font-size="20" font-weight="700" font-family="sans-serif">6,000만원 이하</text>
+  <text x="535" y="378" text-anchor="middle" fill="#10B981" font-size="14" font-family="sans-serif">생애최초·2자녀이상 7,000만</text>
+  <text x="535" y="398" text-anchor="middle" fill="#10B981" font-size="14" font-family="sans-serif">신혼 8,500만</text>
+
+  <rect x="730" y="322" width="410" height="88" rx="0" fill="#1a1a2e" stroke="#1E40AF" stroke-width="0.5"/>
+  <text x="935" y="354" text-anchor="middle" fill="#93C5FD" font-size="20" font-weight="700" font-family="sans-serif">7,000만원 이하</text>
+  <text x="935" y="378" text-anchor="middle" fill="#3B82F6" font-size="14" font-family="sans-serif">신혼 8,500만</text>
+  <text x="935" y="398" text-anchor="middle" fill="#3B82F6" font-size="14" font-family="sans-serif">1자녀 9,000만 · 다자녀 1억</text>
+
+  <!-- Row: 금리 -->
+  <rect x="60" y="410" width="280" height="100" rx="0" fill="#0f172a" stroke="#334155" stroke-width="0.5"/>
+  <text x="200" y="462" text-anchor="middle" fill="#94A3B8" font-size="15" font-weight="600" font-family="sans-serif">기본 금리</text>
+
+  <rect x="340" y="410" width="390" height="100" rx="0" fill="#1a1a2e" stroke="#0F766E" stroke-width="0.5"/>
+  <text x="535" y="448" text-anchor="middle" fill="#6EE7B7" font-size="26" font-weight="800" font-family="sans-serif">2.85 ~ 4.15%</text>
+  <text x="535" y="474" text-anchor="middle" fill="#10B981" font-size="14" font-family="sans-serif">소득 구간별 차등</text>
+  <text x="535" y="498" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">최저 2.55% (신혼·생애최초)</text>
+
+  <rect x="730" y="410" width="410" height="100" rx="0" fill="#1a1a2e" stroke="#1E40AF" stroke-width="0.5"/>
+  <text x="935" y="448" text-anchor="middle" fill="#93C5FD" font-size="26" font-weight="800" font-family="sans-serif">4.60 ~ 5.00%</text>
+  <text x="935" y="474" text-anchor="middle" fill="#3B82F6" font-size="14" font-family="sans-serif">만기별 차등</text>
+  <text x="935" y="498" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">최저 3.60% (우대 최대 1.0%p)</text>
+
+  <!-- Row: 한도 -->
+  <rect x="60" y="510" width="280" height="88" rx="0" fill="#0f172a" stroke="#334155" stroke-width="0.5"/>
+  <text x="200" y="554" text-anchor="middle" fill="#94A3B8" font-size="15" font-weight="600" font-family="sans-serif">대출 한도</text>
+
+  <rect x="340" y="510" width="390" height="88" rx="0" fill="#1a1a2e" stroke="#0F766E" stroke-width="0.5"/>
+  <text x="535" y="545" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="700" font-family="sans-serif">최대 2억원</text>
+  <text x="535" y="568" text-anchor="middle" fill="#10B981" font-size="14" font-family="sans-serif">생애최초 2.4억</text>
+  <text x="535" y="588" text-anchor="middle" fill="#10B981" font-size="14" font-family="sans-serif">신혼·2자녀이상 3.2억</text>
+
+  <rect x="730" y="510" width="410" height="88" rx="0" fill="#1a1a2e" stroke="#1E40AF" stroke-width="0.5"/>
+  <text x="935" y="545" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="700" font-family="sans-serif">최대 3.6억원</text>
+  <text x="935" y="568" text-anchor="middle" fill="#3B82F6" font-size="14" font-family="sans-serif">생애최초 4.2억</text>
+  <text x="935" y="588" text-anchor="middle" fill="#3B82F6" font-size="14" font-family="sans-serif">다자녀·전세사기 4억</text>
+
+  <!-- Row: 주택가격 -->
+  <rect x="60" y="598" width="280" height="76" rx="0" fill="#0f172a" stroke="#334155" stroke-width="0.5"/>
+  <text x="200" y="640" text-anchor="middle" fill="#94A3B8" font-size="15" font-weight="600" font-family="sans-serif">주택 가격</text>
+
+  <rect x="340" y="598" width="390" height="76" rx="0" fill="#1a1a2e" stroke="#0F766E" stroke-width="0.5"/>
+  <text x="535" y="632" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="700" font-family="sans-serif">5억원 이하</text>
+  <text x="535" y="658" text-anchor="middle" fill="#10B981" font-size="14" font-family="sans-serif">신혼·2자녀이상 6억</text>
+
+  <rect x="730" y="598" width="410" height="76" rx="0" fill="#1a1a2e" stroke="#1E40AF" stroke-width="0.5"/>
+  <text x="935" y="632" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="700" font-family="sans-serif">6억원 이하</text>
+  <text x="935" y="658" text-anchor="middle" fill="#94A3B8" font-size="14" font-family="sans-serif">전 가구 동일</text>
+
+  <!-- Row: 무주택 -->
+  <rect x="60" y="674" width="280" height="76" rx="0" fill="#0f172a" stroke="#334155" stroke-width="0.5"/>
+  <text x="200" y="716" text-anchor="middle" fill="#94A3B8" font-size="15" font-weight="600" font-family="sans-serif">무주택 조건</text>
+
+  <rect x="340" y="674" width="390" height="76" rx="0" fill="#1a1a2e" stroke="#0F766E" stroke-width="0.5"/>
+  <text x="535" y="708" text-anchor="middle" fill="#FCA5A5" font-size="18" font-weight="700" font-family="sans-serif">세대원 전원 무주택</text>
+  <text x="535" y="732" text-anchor="middle" fill="#94A3B8" font-size="14" font-family="sans-serif">1주택자 신청 불가</text>
+
+  <rect x="730" y="674" width="410" height="76" rx="0" fill="#1a1a2e" stroke="#1E40AF" stroke-width="0.5"/>
+  <text x="935" y="708" text-anchor="middle" fill="#6EE7B7" font-size="18" font-weight="700" font-family="sans-serif">무주택 또는 1주택</text>
+  <text x="935" y="732" text-anchor="middle" fill="#94A3B8" font-size="14" font-family="sans-serif">3년 이내 처분 조건부</text>
+
+  <!-- Row: 만기 -->
+  <rect x="60" y="750" width="280" height="64" rx="0" fill="#0f172a" stroke="#334155" stroke-width="0.5"/>
+  <text x="200" y="787" text-anchor="middle" fill="#94A3B8" font-size="15" font-weight="600" font-family="sans-serif">최대 만기</text>
+
+  <rect x="340" y="750" width="390" height="64" rx="0" fill="#1a1a2e" stroke="#0F766E" stroke-width="0.5"/>
+  <text x="535" y="790" text-anchor="middle" fill="#6EE7B7" font-size="24" font-weight="800" font-family="sans-serif">30년</text>
+
+  <rect x="730" y="750" width="410" height="64" rx="0" fill="#1a1a2e" stroke="#1E40AF" stroke-width="0.5"/>
+  <text x="935" y="790" text-anchor="middle" fill="#93C5FD" font-size="24" font-weight="800" font-family="sans-serif">50년</text>
+
+  <!-- Row: 중도상환 -->
+  <rect x="60" y="814" width="280" height="76" rx="0" fill="#0f172a" stroke="#334155" stroke-width="0.5"/>
+  <text x="200" y="848" text-anchor="middle" fill="#94A3B8" font-size="15" font-weight="600" font-family="sans-serif">중도상환</text>
+  <text x="200" y="870" text-anchor="middle" fill="#94A3B8" font-size="15" font-weight="600" font-family="sans-serif">수수료</text>
+
+  <rect x="340" y="814" width="390" height="76" rx="0" fill="#1a1a2e" stroke="#0F766E" stroke-width="0.5"/>
+  <text x="535" y="850" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="700" font-family="sans-serif">3년 이내 0.6% 한도</text>
+  <text x="535" y="874" text-anchor="middle" fill="#10B981" font-size="14" font-family="sans-serif">3년 이후 면제</text>
+
+  <rect x="730" y="814" width="410" height="76" rx="0" fill="#1a1a2e" stroke="#1E40AF" stroke-width="0.5"/>
+  <text x="935" y="850" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="700" font-family="sans-serif">3년 이내 0.5% 한도</text>
+  <text x="935" y="874" text-anchor="middle" fill="#3B82F6" font-size="14" font-family="sans-serif">3년 이후 면제 (배려층 전면 면제)</text>
+
+  <!-- Row: 신용점수 -->
+  <rect x="60" y="890" width="280" height="64" rx="0" fill="#0f172a" stroke="#334155" stroke-width="0.5"/>
+  <text x="200" y="922" text-anchor="middle" fill="#94A3B8" font-size="15" font-weight="600" font-family="sans-serif">최저 신용점수</text>
+
+  <rect x="340" y="890" width="390" height="64" rx="0" fill="#1a1a2e" stroke="#0F766E" stroke-width="0.5"/>
+  <text x="535" y="926" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="700" font-family="sans-serif">NICE CB 350점 이상</text>
+
+  <rect x="730" y="890" width="410" height="64" rx="0" fill="#1a1a2e" stroke="#1E40AF" stroke-width="0.5"/>
+  <text x="935" y="926" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="700" font-family="sans-serif">271점 이상</text>
+
+  <!-- Row: DSR -->
+  <rect x="60" y="954" width="280" height="64" rx="0" fill="#0f172a" stroke="#334155" stroke-width="0.5"/>
+  <text x="200" y="986" text-anchor="middle" fill="#94A3B8" font-size="15" font-weight="600" font-family="sans-serif">DSR 규제</text>
+
+  <rect x="340" y="954" width="390" height="64" rx="0" fill="#1a1a2e" stroke="#0F766E" stroke-width="0.5"/>
+  <text x="535" y="990" text-anchor="middle" fill="#6EE7B7" font-size="20" font-weight="700" font-family="sans-serif">적용 제외 (정책금융)</text>
+
+  <rect x="730" y="954" width="410" height="64" rx="0" fill="#1a1a2e" stroke="#1E40AF" stroke-width="0.5"/>
+  <text x="935" y="990" text-anchor="middle" fill="#93C5FD" font-size="20" font-weight="700" font-family="sans-serif">적용 제외 (정책금융)</text>
+
+  <!-- Row: 신청처 -->
+  <rect x="60" y="1018" width="280" height="76" rx="0" fill="#0f172a" stroke="#334155" stroke-width="0.5"/>
+  <text x="200" y="1056" text-anchor="middle" fill="#94A3B8" font-size="15" font-weight="600" font-family="sans-serif">신청 채널</text>
+
+  <rect x="340" y="1018" width="390" height="76" rx="0" fill="#1a1a2e" stroke="#0F766E" stroke-width="0.5"/>
+  <text x="535" y="1050" text-anchor="middle" fill="#FFFFFF" font-size="17" font-weight="700" font-family="sans-serif">기금e든든 홈페이지</text>
+  <text x="535" y="1076" text-anchor="middle" fill="#10B981" font-size="14" font-family="sans-serif">수탁은행 7곳 (국민·농협·신한 등)</text>
+
+  <rect x="730" y="1018" width="410" height="76" rx="0" fill="#1a1a2e" stroke="#1E40AF" stroke-width="0.5"/>
+  <text x="935" y="1050" text-anchor="middle" fill="#FFFFFF" font-size="17" font-weight="700" font-family="sans-serif">HF 홈페이지 / 은행 방문</text>
+  <text x="935" y="1076" text-anchor="middle" fill="#3B82F6" font-size="14" font-family="sans-serif">아낌e-보금자리론 0.1%p 추가 할인</text>
+
+  <!-- 우대금리 박스 -->
+  <rect x="60" y="1140" width="1080" height="270" rx="16" fill="url(#card)" stroke="#FCD34D" stroke-width="2"/>
+  <text x="600" y="1182" text-anchor="middle" fill="#FCD34D" font-size="20" font-weight="800" font-family="sans-serif">주요 우대금리 비교</text>
+
+  <text x="90" y="1218" fill="#6EE7B7" font-size="18" font-weight="700" font-family="sans-serif">디딤돌대출 우대금리</text>
+  <text x="90" y="1246" fill="#FFFFFF" font-size="15" font-family="sans-serif">다자녀(3자녀이상) 0.7%p · 2자녀 0.5%p · 1자녀 0.3%p</text>
+  <text x="90" y="1270" fill="#FFFFFF" font-size="15" font-family="sans-serif">한부모(6,000만↓) 0.5%p · 다문화·장애인·신혼 0.2%p</text>
+  <text x="90" y="1294" fill="#FFFFFF" font-size="15" font-family="sans-serif">청약저축 0.3~0.5%p · 전자계약 0.1%p</text>
+
+  <text x="660" y="1218" fill="#93C5FD" font-size="18" font-weight="700" font-family="sans-serif">보금자리론 우대금리 (최대 1.0%p, 최대 2항목)</text>
+  <text x="660" y="1246" fill="#FFFFFF" font-size="15" font-family="sans-serif">전세사기피해자 1.0%p</text>
+  <text x="660" y="1270" fill="#FFFFFF" font-size="15" font-family="sans-serif">사회적배려층·3자녀이상 0.7%p</text>
+  <text x="660" y="1294" fill="#FFFFFF" font-size="15" font-family="sans-serif">2자녀 0.5%p · 신혼 0.3%p · 전자약정 0.1%p</text>
+
+  <line x1="640" y1="1150" x2="640" y2="1390" stroke="#334155" stroke-width="1"/>
+
+  <text x="60" y="1656" fill="#64748B" font-size="14" font-family="sans-serif">essencial | 대출·금융 silo · 한국주택금융공사 공시 (2026.05.01 기준) · 개인 상황에 따라 달라질 수 있음</text>
+</svg>

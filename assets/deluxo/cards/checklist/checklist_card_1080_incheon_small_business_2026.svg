@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <text x="540" y="118" font-family="'Pretendard', sans-serif" font-size="44" font-weight="900" fill="#F59E0B" text-anchor="middle">신청 전 1분 체크리스트</text>
+  <text x="540" y="196" font-family="'Pretendard', sans-serif" font-size="52" font-weight="900" fill="#FFFFFF" text-anchor="middle">인천 소상공인 8가지 점검</text>
+
+  <g font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#EAF2FF">
+    <rect x="60" y="268" width="44" height="44" rx="10" fill="#10B981"/>
+    <text x="82" y="300" fill="#FFFFFF" font-weight="900" text-anchor="middle">✓</text>
+    <text x="130" y="300">인천 소재 사업자등록 확인 (등록증 주소가 인천)</text>
+
+    <rect x="60" y="343" width="44" height="44" rx="10" fill="#10B981"/>
+    <text x="82" y="375" fill="#FFFFFF" font-weight="900" text-anchor="middle">✓</text>
+    <text x="130" y="375">상시근로자 기준 충족 (5인 미만 / 제조 10인 미만)</text>
+
+    <rect x="60" y="418" width="44" height="44" rx="10" fill="#10B981"/>
+    <text x="82" y="450" fill="#FFFFFF" font-weight="900" text-anchor="middle">✓</text>
+    <text x="130" y="450">신용 사전 조회 완료 (연체·불량 이력 없음)</text>
+
+    <rect x="60" y="493" width="44" height="44" rx="10" fill="#10B981"/>
+    <text x="82" y="525" fill="#FFFFFF" font-weight="900" text-anchor="middle">✓</text>
+    <text x="130" y="525">기존 보증·대출 현황 정리 (인천신보 잔액 확인)</text>
+
+    <rect x="60" y="568" width="44" height="44" rx="10" fill="#10B981"/>
+    <text x="82" y="600" fill="#FFFFFF" font-weight="900" text-anchor="middle">✓</text>
+    <text x="130" y="600">보증드림 앱 설치 및 회원가입 완료</text>
+
+    <rect x="60" y="643" width="44" height="44" rx="10" fill="#10B981"/>
+    <text x="82" y="675" fill="#FFFFFF" font-weight="900" text-anchor="middle">✓</text>
+    <text x="130" y="675">매출 증빙 서류 준비 (부가세 신고서 or 카드매출)</text>
+
+    <rect x="60" y="718" width="44" height="44" rx="10" fill="#10B981"/>
+    <text x="82" y="750" fill="#FFFFFF" font-weight="900" text-anchor="middle">✓</text>
+    <text x="130" y="750">인천e음 가맹점 등록 여부 확인 (미등록이면 즉시)</text>
+
+    <rect x="60" y="793" width="44" height="44" rx="10" fill="#10B981"/>
+    <text x="82" y="825" fill="#FFFFFF" font-weight="900" text-anchor="middle">✓</text>
+    <text x="130" y="825">자치구 추가 지원 공고 확인 (bizok.incheon.go.kr)</text>
+  </g>
+
+  <rect x="60" y="878" width="960" height="152" rx="20" fill="#F59E0B"/>
+  <text x="540" y="936" font-family="'Pretendard', sans-serif" font-size="30" font-weight="900" fill="#0B1F3B" text-anchor="middle">8개 모두 ✓면 신청 준비 완료</text>
+  <text x="540" y="994" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#0B1F3B" text-anchor="middle">인천신보 1577-3790 · 소상공인 통합 콜센터 1357</text>
+</svg>

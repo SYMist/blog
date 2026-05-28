@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#F59E0B">일반과세 vs 간이과세 한눈에 비교</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- 헤더 -->
+  <rect x="60" y="130" width="960" height="70" rx="16" fill="rgba(245,158,11,0.15)"/>
+  <text x="220" y="174" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#F59E0B">구분</text>
+  <text x="540" y="174" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#F59E0B">일반과세자</text>
+  <text x="860" y="174" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#F59E0B">간이과세자</text>
+
+  <!-- 매출 기준 -->
+  <rect x="60" y="212" width="960" height="90" rx="0" fill="rgba(255,255,255,0.04)"/>
+  <text x="220" y="265" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#EAF2FF">매출 기준</text>
+  <text x="540" y="250" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="600" fill="#FFF">1억 400만 원</text>
+  <text x="540" y="280" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#94A3B8">초과</text>
+  <text x="860" y="250" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="600" fill="#FFF">1억 400만 원</text>
+  <text x="860" y="280" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#94A3B8">이하</text>
+
+  <!-- 세율 -->
+  <rect x="60" y="314" width="960" height="90" rx="0" fill="rgba(59,130,246,0.08)"/>
+  <text x="220" y="367" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#EAF2FF">세율</text>
+  <text x="540" y="367" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">10% (단일)</text>
+  <text x="860" y="355" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">업종별 1.5~4%</text>
+  <text x="860" y="383" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#94A3B8">부가가치율 적용</text>
+
+  <!-- 환급 -->
+  <rect x="60" y="416" width="960" height="90" rx="0" fill="rgba(255,255,255,0.04)"/>
+  <text x="220" y="469" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#EAF2FF">환급</text>
+  <rect x="460" y="448" width="160" height="42" rx="21" fill="rgba(34,197,94,0.2)"/>
+  <text x="540" y="477" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#22C55E">가능</text>
+  <rect x="780" y="448" width="160" height="42" rx="21" fill="rgba(239,68,68,0.2)"/>
+  <text x="860" y="477" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#EF4444">불가</text>
+
+  <!-- 납부면제 -->
+  <rect x="60" y="518" width="960" height="90" rx="0" fill="rgba(59,130,246,0.08)"/>
+  <text x="220" y="571" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#EAF2FF">납부면제</text>
+  <text x="540" y="571" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="600" fill="#94A3B8">해당 없음</text>
+  <text x="860" y="560" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">4,800만 원 미만</text>
+  <text x="860" y="588" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#22C55E">납부 면제</text>
+
+  <!-- 세금계산서 -->
+  <rect x="60" y="620" width="960" height="90" rx="0" fill="rgba(255,255,255,0.04)"/>
+  <text x="220" y="673" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#EAF2FF">세금계산서</text>
+  <text x="540" y="673" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="600" fill="#FFF">발급 의무</text>
+  <text x="860" y="662" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="600" fill="#FFF">영수증 발급</text>
+  <text x="860" y="690" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#94A3B8">계산서 발급 가능</text>
+
+  <!-- 신고 횟수 -->
+  <rect x="60" y="722" width="960" height="90" rx="0" fill="rgba(59,130,246,0.08)"/>
+  <text x="220" y="775" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#EAF2FF">신고 횟수</text>
+  <text x="540" y="775" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">연 2회</text>
+  <text x="860" y="775" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">연 1회</text>
+
+  <!-- 핵심 절세 -->
+  <rect x="60" y="840" width="960" height="100" rx="0" fill="rgba(245,158,11,0.08)"/>
+  <text x="220" y="898" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#EAF2FF">핵심 절세</text>
+  <text x="540" y="885" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#FFF">매입세액 공제</text>
+  <text x="540" y="913" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#FFF">의제매입·조기환급</text>
+  <text x="860" y="885" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#FFF">간이과세 유지</text>
+  <text x="860" y="913" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#FFF">납부면제 활용</text>
+
+  <!-- 하단 강조 -->
+  <rect x="60" y="970" width="960" height="70" rx="16" fill="rgba(34,197,94,0.12)"/>
+  <text x="540" y="1014" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#22C55E">매출 1억 400만 원 전후 → 과세유형에 따라 절세 전략이 완전히 다릅니다</text>
+</svg>

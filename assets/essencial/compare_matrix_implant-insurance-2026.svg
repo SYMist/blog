@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><filter id="s" x="-4%" y="-4%" width="108%" height="108%"><feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#000" flood-opacity="0.08"/></filter></defs>
+  <rect width="1080" height="1080" rx="32" fill="#F0FAF9"/>
+  <rect x="40" y="40" width="1000" height="1000" rx="24" fill="#FFF" filter="url(#s)"/>
+
+  <!-- Header -->
+  <rect x="40" y="40" width="1000" height="100" rx="24" fill="#0F766E"/><rect x="40" y="95" width="1000" height="45" fill="#0F766E"/>
+  <text x="540" y="103" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="800" fill="#FFF">임플란트 건강보험 적용 조건 매트릭스</text>
+
+  <!-- 적용 대상 -->
+  <text x="80" y="195" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#0F766E">적용 조건 한눈에 보기</text>
+  <line x1="80" y1="215" x2="1000" y2="215" stroke="#E5E7EB" stroke-width="2"/>
+
+  <!-- 테이블 헤더 -->
+  <rect x="80" y="235" width="300" height="50" rx="0" fill="#0F766E"/>
+  <text x="230" y="267" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">조건</text>
+  <rect x="380" y="235" width="310" height="50" rx="0" fill="#059669"/>
+  <text x="535" y="267" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">적용 ✅</text>
+  <rect x="690" y="235" width="310" height="50" rx="0" fill="#DC2626"/>
+  <text x="845" y="267" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">미적용 ❌</text>
+
+  <!-- Row 1 -->
+  <rect x="80" y="285" width="300" height="60" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="230" y="323" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#111827">연령</text>
+  <rect x="380" y="285" width="310" height="60" fill="#ECFDF5" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="535" y="323" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#065F46">만 65세 이상</text>
+  <rect x="690" y="285" width="310" height="60" fill="#FEF2F2" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="845" y="323" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#991B1B">만 65세 미만</text>
+
+  <!-- Row 2 -->
+  <rect x="80" y="345" width="300" height="60" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="230" y="383" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#111827">치아 상태</text>
+  <rect x="380" y="345" width="310" height="60" fill="#ECFDF5" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="535" y="383" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#065F46">부분 무치악</text>
+  <rect x="690" y="345" width="310" height="60" fill="#FEF2F2" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="845" y="383" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#991B1B">완전 무치악</text>
+
+  <!-- Row 3 -->
+  <rect x="80" y="405" width="300" height="60" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="230" y="443" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#111827">개수</text>
+  <rect x="380" y="405" width="310" height="60" fill="#ECFDF5" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="535" y="443" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#065F46">평생 2개 이내</text>
+  <rect x="690" y="405" width="310" height="60" fill="#FEF2F2" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="845" y="443" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#991B1B">3개째부터 비급여</text>
+
+  <!-- Row 4 -->
+  <rect x="80" y="465" width="300" height="60" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="230" y="503" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#111827">보철 재료</text>
+  <rect x="380" y="465" width="310" height="60" fill="#ECFDF5" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="535" y="503" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#065F46">PFM / 지르코니아</text>
+  <rect x="690" y="465" width="310" height="60" fill="#FEF2F2" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="845" y="503" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#991B1B">금·귀금속 보철물</text>
+
+  <!-- Row 5 -->
+  <rect x="80" y="525" width="300" height="60" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="230" y="563" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#111827">식립 방식</text>
+  <rect x="380" y="525" width="310" height="60" fill="#ECFDF5" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="535" y="563" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#065F46">분리형 (표준)</text>
+  <rect x="690" y="525" width="310" height="60" fill="#FEF2F2" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="845" y="563" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#991B1B">일체형 / 상악골 관통</text>
+
+  <!-- 시술 3단계 -->
+  <text x="80" y="640" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#0F766E">시술 3단계 프로세스</text>
+  <line x1="80" y1="660" x2="1000" y2="660" stroke="#E5E7EB" stroke-width="2"/>
+
+  <!-- Step 1 -->
+  <rect x="80" y="680" width="280" height="140" rx="16" fill="#F0FDFA" stroke="#99F6E4" stroke-width="2"/>
+  <rect x="80" y="680" width="280" height="45" rx="16" fill="#0F766E"/><rect x="80" y="700" width="280" height="25" fill="#0F766E"/>
+  <text x="220" y="712" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">1단계</text>
+  <text x="220" y="755" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#111827">진단·계획 수립</text>
+  <text x="220" y="790" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#4B5563">대상자 등록 + 개수 차감</text>
+
+  <!-- Arrow 1 -->
+  <text x="385" y="760" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" fill="#0F766E">→</text>
+
+  <!-- Step 2 -->
+  <rect x="400" y="680" width="280" height="140" rx="16" fill="#F0FDFA" stroke="#99F6E4" stroke-width="2"/>
+  <rect x="400" y="680" width="280" height="45" rx="16" fill="#0F766E"/><rect x="400" y="700" width="280" height="25" fill="#0F766E"/>
+  <text x="540" y="712" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">2단계</text>
+  <text x="540" y="755" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#111827">고정체 식립 수술</text>
+  <text x="540" y="790" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#4B5563">수술비 + 재료비 수납</text>
+
+  <!-- Arrow 2 -->
+  <text x="705" y="760" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" fill="#0F766E">→</text>
+
+  <!-- Step 3 -->
+  <rect x="720" y="680" width="280" height="140" rx="16" fill="#F0FDFA" stroke="#99F6E4" stroke-width="2"/>
+  <rect x="720" y="680" width="280" height="45" rx="16" fill="#0F766E"/><rect x="720" y="700" width="280" height="25" fill="#0F766E"/>
+  <text x="860" y="712" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">3단계</text>
+  <text x="860" y="755" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#111827">보철(크라운) 장착</text>
+  <text x="860" y="790" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#4B5563">PFM or 지르코니아 선택</text>
+
+  <!-- 유지관리 -->
+  <rect x="80" y="855" width="920" height="100" rx="16" fill="#FFFBEB" stroke="#FDE68A" stroke-width="1.5"/>
+  <text x="100" y="893" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#B45309">유지관리 규정</text>
+  <text x="100" y="928" font-family="'Pretendard',sans-serif" font-size="22" fill="#374151">3개월 이내: 나사 풀림·교합 조정 무료 (진찰료만) | 3개월 이후: 보철 수리 비급여, 치주 치료 급여</text>
+
+  <!-- Footer -->
+  <text x="540" y="1000" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" fill="#9CA3AF">2026년 3월 기준 | 환산지수 101.1원 | 치과의원 기준</text>
+  <rect x="80" y="1015" width="920" height="5" rx="2" fill="#0F766E"/>
+</svg>

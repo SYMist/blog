@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+
+  <!-- Badge -->
+  <rect x="80" y="50" width="210" height="52" rx="26" fill="#DC2626"/>
+  <text x="185" y="85" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#FFF">탈락 TOP 5</text>
+
+  <!-- Title -->
+  <text x="80" y="165" font-family="'Pretendard',sans-serif" font-size="46" font-weight="900" fill="#FFF">소상공인 창업지원금</text>
+  <text x="80" y="223" font-family="'Pretendard',sans-serif" font-size="40" font-weight="800" fill="#EAF2FF">이것 때문에 탈락합니다</text>
+
+  <!-- Item 1 -->
+  <rect x="80" y="270" width="920" height="120" rx="16" fill="rgba(220,38,38,0.10)"/>
+  <rect x="100" y="295" width="56" height="56" rx="28" fill="#DC2626"/>
+  <text x="128" y="333" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="900" fill="#FFF">1</text>
+  <text x="180" y="325" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">교육 미이수</text>
+  <text x="180" y="363" font-family="'Pretendard',sans-serif" font-size="19" font-weight="600" fill="#EAF2FF">정책자금 확인서 미발급 → 신청 자체 불가</text>
+
+  <!-- Item 2 -->
+  <rect x="80" y="405" width="920" height="120" rx="16" fill="rgba(220,38,38,0.10)"/>
+  <rect x="100" y="430" width="56" height="56" rx="28" fill="#DC2626"/>
+  <text x="128" y="468" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="900" fill="#FFF">2</text>
+  <text x="180" y="460" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">사업 계획서 부실</text>
+  <text x="180" y="498" font-family="'Pretendard',sans-serif" font-size="19" font-weight="600" fill="#EAF2FF">사업성·혁신성 미입증 → 심사 탈락</text>
+
+  <!-- Item 3 -->
+  <rect x="80" y="540" width="920" height="120" rx="16" fill="rgba(220,38,38,0.10)"/>
+  <rect x="100" y="565" width="56" height="56" rx="28" fill="#DC2626"/>
+  <text x="128" y="603" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="900" fill="#FFF">3</text>
+  <text x="180" y="595" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">세금 체납</text>
+  <text x="180" y="633" font-family="'Pretendard',sans-serif" font-size="19" font-weight="600" fill="#EAF2FF">국세·지방세 체납 시 자격 상실 — 홈택스 사전 확인</text>
+
+  <!-- Item 4 -->
+  <rect x="80" y="675" width="920" height="120" rx="16" fill="rgba(220,38,38,0.10)"/>
+  <rect x="100" y="700" width="56" height="56" rx="28" fill="#DC2626"/>
+  <text x="128" y="738" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="900" fill="#FFF">4</text>
+  <text x="180" y="730" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">업력 기준 초과</text>
+  <text x="180" y="768" font-family="'Pretendard',sans-serif" font-size="19" font-weight="600" fill="#EAF2FF">초기 3년·도약 7년 기준 확인 → 해당 패키지 선택</text>
+
+  <!-- Item 5 -->
+  <rect x="80" y="810" width="920" height="120" rx="16" fill="rgba(220,38,38,0.10)"/>
+  <rect x="100" y="835" width="56" height="56" rx="28" fill="#DC2626"/>
+  <text x="128" y="873" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="900" fill="#FFF">5</text>
+  <text x="180" y="865" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">공고 시기 놓침</text>
+  <text x="180" y="903" font-family="'Pretendard',sans-serif" font-size="19" font-weight="600" fill="#EAF2FF">1~3월 집중 공고 미확인 → 접수 마감 후 발견</text>
+
+  <!-- Bottom Chips -->
+  <rect x="80" y="970" width="180" height="52" rx="26" fill="#E8F0FF"/>
+  <text x="170" y="1004" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#1D4ED8">탈락사유</text>
+  <rect x="290" y="970" width="130" height="52" rx="26" fill="#E8F0FF"/>
+  <text x="355" y="1004" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#1D4ED8">주의</text>
+  <rect x="450" y="970" width="130" height="52" rx="26" fill="#E8F0FF"/>
+  <text x="515" y="1004" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#1D4ED8">2026</text>
+
+  <!-- Bottom line -->
+  <rect x="80" y="1040" width="920" height="6" rx="3" fill="#DC2626"/>
+</svg>

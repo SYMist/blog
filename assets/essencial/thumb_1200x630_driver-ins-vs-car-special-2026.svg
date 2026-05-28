@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="tbg2" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#1E1033"/>
+      <stop offset="100%" stop-color="#2D1B69"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#tbg2)"/>
+
+  <rect x="60" y="75" width="260" height="46" rx="23" fill="#7C3AED"/>
+  <text x="190" y="105" font-family="sans-serif" font-size="22" font-weight="800" fill="#FFF" text-anchor="middle">2026 보험 비교</text>
+
+  <text x="600" y="225" font-family="sans-serif" font-size="44" font-weight="900" fill="#FFFFFF" text-anchor="middle">자녀 운전자보험 vs 자동차보험 특약</text>
+  <text x="600" y="290" font-family="sans-serif" font-size="28" fill="#E2E8F0" text-anchor="middle">뭐가 유리한지 비교 | 민사 배상 vs 형사 방어 (2026)</text>
+
+  <rect x="150" y="340" width="130" height="44" rx="22" fill="#F5F3FF"/>
+  <text x="215" y="368" font-family="sans-serif" font-size="17" font-weight="700" fill="#7C3AED" text-anchor="middle">민사배상</text>
+  <rect x="300" y="340" width="130" height="44" rx="22" fill="#F5F3FF"/>
+  <text x="365" y="368" font-family="sans-serif" font-size="17" font-weight="700" fill="#7C3AED" text-anchor="middle">형사방어</text>
+  <rect x="450" y="340" width="130" height="44" rx="22" fill="#F5F3FF"/>
+  <text x="515" y="368" font-family="sans-serif" font-size="17" font-weight="700" fill="#7C3AED" text-anchor="middle">경력인정</text>
+  <rect x="600" y="340" width="150" height="44" rx="22" fill="#F5F3FF"/>
+  <text x="675" y="368" font-family="sans-serif" font-size="17" font-weight="700" fill="#7C3AED" text-anchor="middle">12대중과실</text>
+  <rect x="770" y="340" width="130" height="44" rx="22" fill="#F5F3FF"/>
+  <text x="835" y="368" font-family="sans-serif" font-size="17" font-weight="700" fill="#7C3AED" text-anchor="middle">스쿨존</text>
+  <rect x="920" y="340" width="130" height="44" rx="22" fill="#F5F3FF"/>
+  <text x="985" y="368" font-family="sans-serif" font-size="17" font-weight="700" fill="#7C3AED" text-anchor="middle">단기특약</text>
+
+  <text x="600" y="490" font-family="sans-serif" font-size="19" fill="#A78BFA" text-anchor="middle">역할이 다르므로 둘 다 필수 | 변호사비 7,000만·합의금 2.5억·벌금 3,000만 | 경력인정 24% 할인</text>
+</svg>

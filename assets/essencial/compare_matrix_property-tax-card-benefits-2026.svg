@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1700" fill="url(#bg)"/>
+
+  <rect x="60" y="50" width="300" height="40" rx="20" fill="#B45309"/>
+  <text x="210" y="77" text-anchor="middle" fill="#FFFFFF" font-size="17" font-weight="800" font-family="sans-serif">9대 카드사 혜택 · 납부 채널</text>
+
+  <text x="60" y="155" fill="#FFFFFF" font-size="40" font-weight="800" font-family="sans-serif">카드사 · 혜택 · 채널 매트릭스</text>
+  <text x="60" y="195" fill="#FCD34D" font-size="20" font-weight="600" font-family="sans-serif">2026 재산세 7월 납부 · 확정 캐시백 vs 무이자 할부</text>
+
+  <!-- 9대 카드사 비교표 -->
+  <text x="60" y="250" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">① 9대 카드사 2026년 혜택</text>
+
+  <rect x="60" y="270" width="1080" height="560" rx="12" fill="url(#card)" stroke="#B45309" stroke-width="2"/>
+
+  <g font-family="sans-serif">
+    <!-- 헤더 -->
+    <rect x="60" y="270" width="1080" height="44" fill="#B45309"/>
+    <text x="140" y="298" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="800">카드사</text>
+    <text x="420" y="298" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="800">핵심 혜택</text>
+    <text x="760" y="298" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="800">무이자</text>
+    <text x="1000" y="298" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="800">조건</text>
+
+    <!-- 1: 롯데 -->
+    <text x="80" y="350" fill="#86EFAC" font-size="14" font-weight="800">롯데</text>
+    <text x="80" y="372" fill="#CBD5E1" font-size="12">LOCA Pro</text>
+    <text x="420" y="355" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700">최대 2% 캐시백</text>
+    <text x="420" y="375" text-anchor="middle" fill="#CBD5E1" font-size="11">국세·지방세</text>
+    <text x="760" y="365" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700">2~6개월</text>
+    <text x="1000" y="360" text-anchor="middle" fill="#FCD34D" font-size="12">시즌 커피 쿠폰</text>
+    <text x="1000" y="378" text-anchor="middle" fill="#CBD5E1" font-size="11">분할 기능</text>
+
+    <line x1="60" y1="395" x2="1140" y2="395" stroke="#334155" stroke-width="1"/>
+
+    <!-- 2: 삼성 -->
+    <text x="80" y="420" fill="#86EFAC" font-size="14" font-weight="800">삼성</text>
+    <text x="420" y="425" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700">0.5% 캐시백</text>
+    <text x="420" y="445" text-anchor="middle" fill="#CBD5E1" font-size="11">특정 카드·조건부</text>
+    <text x="760" y="435" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700">2~5개월</text>
+    <text x="1000" y="435" text-anchor="middle" fill="#CBD5E1" font-size="12">상품 확인</text>
+
+    <line x1="60" y1="465" x2="1140" y2="465" stroke="#334155" stroke-width="1"/>
+
+    <!-- 3: KB -->
+    <text x="80" y="485" fill="#86EFAC" font-size="14" font-weight="800">KB국민</text>
+    <text x="80" y="505" fill="#CBD5E1" font-size="12">신용·체크</text>
+    <text x="420" y="490" text-anchor="middle" fill="#86EFAC" font-size="13" font-weight="700">0.2% (월1만) / 7천원</text>
+    <text x="420" y="510" text-anchor="middle" fill="#CBD5E1" font-size="11">직장인보너스체크 정액</text>
+    <text x="760" y="500" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700">2~6개월</text>
+    <text x="1000" y="500" text-anchor="middle" fill="#CBD5E1" font-size="12">체크 정액 최고 효율</text>
+
+    <line x1="60" y1="530" x2="1140" y2="530" stroke="#334155" stroke-width="1"/>
+
+    <!-- 4: 신한 -->
+    <text x="80" y="555" fill="#FCD34D" font-size="14" font-weight="800">신한</text>
+    <text x="420" y="555" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700">체크 0.1% 캐시백</text>
+    <text x="420" y="575" text-anchor="middle" fill="#CBD5E1" font-size="11">1만 미만은 포인트</text>
+    <text x="760" y="565" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700">6·10·12월</text>
+    <text x="1000" y="560" text-anchor="middle" fill="#FCA5A5" font-size="12">자동이체 제외</text>
+    <text x="1000" y="578" text-anchor="middle" fill="#CBD5E1" font-size="11">5만↑ 슬림할부</text>
+
+    <line x1="60" y1="595" x2="1140" y2="595" stroke="#334155" stroke-width="1"/>
+
+    <!-- 5: BC -->
+    <text x="80" y="620" fill="#FCD34D" font-size="14" font-weight="800">BC</text>
+    <text x="80" y="638" fill="#CBD5E1" font-size="11">우리·IBK·NH·KB BC</text>
+    <text x="420" y="620" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="700">머니박스 3천~5만</text>
+    <text x="420" y="640" text-anchor="middle" fill="#CBD5E1" font-size="11">30만↑ 결제 시 추첨</text>
+    <text x="760" y="630" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700">2~3개월</text>
+    <text x="1000" y="625" text-anchor="middle" fill="#FCD34D" font-size="12">시즌 한정</text>
+    <text x="1000" y="643" text-anchor="middle" fill="#CBD5E1" font-size="11">응모 필요</text>
+
+    <line x1="60" y1="660" x2="1140" y2="660" stroke="#334155" stroke-width="1"/>
+
+    <!-- 6: NH -->
+    <text x="80" y="685" fill="#5EEAD4" font-size="14" font-weight="800">NH농협</text>
+    <text x="420" y="685" text-anchor="middle" fill="#5EEAD4" font-size="13" font-weight="700">고액 무이자 중점</text>
+    <text x="420" y="705" text-anchor="middle" fill="#CBD5E1" font-size="11">부분무이자 7~10개월</text>
+    <text x="760" y="695" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700">2~6개월</text>
+    <text x="1000" y="695" text-anchor="middle" fill="#CBD5E1" font-size="12">5만↑ 지방세</text>
+
+    <line x1="60" y1="725" x2="1140" y2="725" stroke="#334155" stroke-width="1"/>
+
+    <!-- 7: 하나 -->
+    <text x="80" y="750" fill="#FCD34D" font-size="14" font-weight="800">하나</text>
+    <text x="420" y="750" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="700">이벤트 할인쿠폰</text>
+    <text x="420" y="770" text-anchor="middle" fill="#CBD5E1" font-size="11">시즌별 공지</text>
+    <text x="760" y="760" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700">2~7개월</text>
+    <text x="1000" y="760" text-anchor="middle" fill="#CBD5E1" font-size="12">무이자 최장</text>
+
+    <line x1="60" y1="790" x2="1140" y2="790" stroke="#334155" stroke-width="1"/>
+
+    <!-- 8: 우리·현대 -->
+    <text x="80" y="815" fill="#CBD5E1" font-size="14" font-weight="800">우리·현대</text>
+    <text x="420" y="815" text-anchor="middle" fill="#CBD5E1" font-size="13" font-weight="700">상시 이벤트·M포인트</text>
+    <text x="760" y="815" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700">2~6개월</text>
+    <text x="1000" y="815" text-anchor="middle" fill="#CBD5E1" font-size="12">상품별 상이</text>
+  </g>
+
+  <!-- 납부 채널 비교 -->
+  <text x="60" y="870" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">② 납부 채널 비교</text>
+
+  <rect x="60" y="890" width="1080" height="280" rx="12" fill="url(#card)" stroke="#B45309" stroke-width="2"/>
+
+  <g font-family="sans-serif">
+    <rect x="60" y="890" width="1080" height="44" fill="#B45309"/>
+    <text x="180" y="918" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="800">채널</text>
+    <text x="520" y="918" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="800">특징</text>
+    <text x="920" y="918" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="800">카드 혜택</text>
+
+    <text x="80" y="965" fill="#FCD34D" font-size="14" font-weight="800">위택스 (전국)</text>
+    <text x="520" y="965" text-anchor="middle" fill="#FFFFFF" font-size="14">wetax.go.kr · 00:30~23:30</text>
+    <text x="920" y="965" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700">전부 적용</text>
+
+    <line x1="60" y1="985" x2="1140" y2="985" stroke="#334155" stroke-width="1"/>
+
+    <text x="80" y="1010" fill="#FCD34D" font-size="14" font-weight="800">ETAX (서울)</text>
+    <text x="520" y="1010" text-anchor="middle" fill="#FFFFFF" font-size="14">etax.seoul.go.kr · 서울시 전용</text>
+    <text x="920" y="1010" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700">별도 공지 페이지</text>
+
+    <line x1="60" y1="1030" x2="1140" y2="1030" stroke="#334155" stroke-width="1"/>
+
+    <text x="80" y="1055" fill="#FCD34D" font-size="14" font-weight="800">지로 (GIRO)</text>
+    <text x="520" y="1055" text-anchor="middle" fill="#FFFFFF" font-size="14">giro.or.kr · 고지서 기반</text>
+    <text x="920" y="1055" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700">무이자 통합 확인</text>
+
+    <line x1="60" y1="1075" x2="1140" y2="1075" stroke="#334155" stroke-width="1"/>
+
+    <text x="80" y="1100" fill="#FCD34D" font-size="14" font-weight="800">토스·카카오페이</text>
+    <text x="520" y="1100" text-anchor="middle" fill="#FFFFFF" font-size="14">앱 내 세금 납부 · QR</text>
+    <text x="920" y="1100" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700">포인트 이벤트 상시</text>
+
+    <line x1="60" y1="1120" x2="1140" y2="1120" stroke="#334155" stroke-width="1"/>
+
+    <text x="80" y="1145" fill="#FCA5A5" font-size="14" font-weight="800">가상계좌·현장</text>
+    <text x="520" y="1145" text-anchor="middle" fill="#FFFFFF" font-size="14">은행·편의점·주민센터</text>
+    <text x="920" y="1145" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="700">카드 혜택 불가</text>
+  </g>
+
+  <!-- 실적·포인트 주의사항 -->
+  <text x="60" y="1220" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">③ 실적·포인트 제외 주의사항</text>
+
+  <rect x="60" y="1240" width="540" height="220" rx="12" fill="url(#card)" stroke="#FCA5A5" stroke-width="2"/>
+  <text x="80" y="1280" fill="#FCA5A5" font-size="18" font-weight="800" font-family="sans-serif">▲ 대부분 카드 — 제외 대상</text>
+
+  <g font-family="sans-serif">
+    <text x="80" y="1315" fill="#FFFFFF" font-size="14">• 전월 실적 산정에서 제외</text>
+    <text x="80" y="1345" fill="#FFFFFF" font-size="14">• 포인트·마일리지 적립 제외</text>
+    <text x="80" y="1375" fill="#FFFFFF" font-size="14">• 자동이체는 캐시백 지급 제외</text>
+    <text x="80" y="1405" fill="#FCA5A5" font-size="13" font-weight="700">→ '이용실적 제외항목' 확인 필수</text>
+    <text x="80" y="1435" fill="#FCA5A5" font-size="13" font-weight="700">→ 수동 납부 + 이벤트 응모 필수</text>
+  </g>
+
+  <rect x="620" y="1240" width="520" height="220" rx="12" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="640" y="1280" fill="#86EFAC" font-size="18" font-weight="800" font-family="sans-serif">✓ 전자고지 세액공제 (별도)</text>
+
+  <g font-family="sans-serif">
+    <text x="640" y="1315" fill="#FFFFFF" font-size="14">• 종이→모바일·이메일 전환</text>
+    <text x="640" y="1345" fill="#FFFFFF" font-size="14">• 정기분 기한 내 납부 시</text>
+    <text x="640" y="1375" fill="#86EFAC" font-size="15" font-weight="800">세액공제 150~500원</text>
+    <text x="640" y="1405" fill="#86EFAC" font-size="15" font-weight="800">마일리지 최대 850원</text>
+    <text x="640" y="1435" fill="#FCD34D" font-size="13" font-weight="700">→ 누적 1천원 이상 '공짜 절감'</text>
+  </g>
+
+  <text x="60" y="1530" fill="#FCD34D" font-size="18" font-weight="800" font-family="sans-serif">④ 미납 시 가산금 체계 (반드시 피해야 할 함정)</text>
+
+  <g font-family="sans-serif">
+    <text x="60" y="1570" fill="#FCA5A5" font-size="16" font-weight="700">• 납부기한 경과 즉시 3% 가산금</text>
+    <text x="60" y="1600" fill="#FCA5A5" font-size="16" font-weight="700">• 이후 매월 0.75%씩 중가산금 (최대 60개월)</text>
+    <text x="60" y="1630" fill="#FCA5A5" font-size="16" font-weight="700">• 총 최대 48% 불어남 · 체납 시 신용평가 악영향·재산 압류 가능</text>
+  </g>
+
+  <text x="60" y="1680" fill="#64748B" font-size="14" font-family="sans-serif">essencial | 대출·금융 silo · 자료: 카드사 공식·위택스·ETAX·지로 (2026.04 기준)</text>
+</svg>

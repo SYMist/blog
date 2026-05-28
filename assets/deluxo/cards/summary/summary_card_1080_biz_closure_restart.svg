@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><filter id="s" x="-4%" y="-4%" width="108%" height="108%"><feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#000" flood-opacity="0.08"/></filter></defs>
+  <rect width="1080" height="1080" rx="32" fill="#F0F4FA"/>
+  <rect x="40" y="40" width="1000" height="1000" rx="24" fill="#FFF" filter="url(#s)"/>
+  <rect x="40" y="40" width="1000" height="100" rx="24" fill="#1D4ED8"/><rect x="40" y="95" width="1000" height="45" fill="#1D4ED8"/>
+  <text x="540" y="103" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="38" font-weight="800" fill="#FFF">소상공인 폐업 지원금·재기 지원 요약</text>
+
+  <!-- 총액 -->
+  <rect x="80" y="180" width="920" height="70" rx="14" fill="#EFF6FF"/>
+  <text x="540" y="225" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="800" fill="#1D4ED8">희망리턴패키지 — 폐업→재기 전 과정 지원 (최대 2,700만원)</text>
+
+  <!-- 원스톱폐업지원 -->
+  <text x="100" y="300" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#1D4ED8">원스톱폐업지원</text>
+  <line x1="80" y1="320" x2="1000" y2="320" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="100" y="358" font-family="'Pretendard',sans-serif" font-size="24" fill="#111827">점포철거비</text>
+  <text x="580" y="358" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#DC2626">최대 600만원 (평당 20만원)</text>
+  <text x="100" y="398" font-family="'Pretendard',sans-serif" font-size="24" fill="#111827">사업정리 컨설팅</text>
+  <text x="580" y="398" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#374151">최대 3분야 무료</text>
+  <text x="100" y="438" font-family="'Pretendard',sans-serif" font-size="24" fill="#111827">법률자문·채무조정</text>
+  <text x="580" y="438" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#374151">무료 (파산·회생 상담 포함)</text>
+
+  <!-- 특화취업지원 -->
+  <text x="100" y="505" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#059669">특화취업지원</text>
+  <line x1="80" y1="525" x2="1000" y2="525" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="100" y="563" font-family="'Pretendard',sans-serif" font-size="24" fill="#111827">직무교육 + 일경험 연계</text>
+  <text x="580" y="563" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#374151">폐업(예정) 소상공인, 만 15~69세</text>
+  <text x="100" y="603" font-family="'Pretendard',sans-serif" font-size="24" fill="#111827">전직장려수당</text>
+  <text x="580" y="603" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#DC2626">최대 100만원 (60만+40만)</text>
+
+  <!-- 재기사업화 -->
+  <text x="100" y="670" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#7C3AED">재기사업화</text>
+  <line x1="80" y1="690" x2="1000" y2="690" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="100" y="728" font-family="'Pretendard',sans-serif" font-size="24" fill="#111827">경영개선 (매출 10%↓)</text>
+  <text x="580" y="728" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#374151">전문가 진단 + 사업화자금 (차등)</text>
+  <text x="100" y="768" font-family="'Pretendard',sans-serif" font-size="24" fill="#111827">재창업</text>
+  <text x="580" y="768" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#DC2626">최대 2,000만원 (정부:자부담 2:1)</text>
+
+  <!-- 신청처 -->
+  <text x="100" y="840" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#374151">신청처</text>
+  <line x1="80" y1="860" x2="1000" y2="860" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="100" y="898" font-family="'Pretendard',sans-serif" font-size="24" fill="#111827">점포철거비 → 소상공인24 (sbiz24.kr)</text>
+  <text x="100" y="935" font-family="'Pretendard',sans-serif" font-size="24" fill="#111827">컨설팅·취업·재기 → 희망리턴패키지 (hope.sbiz.or.kr)</text>
+
+  <!-- Footer -->
+  <rect x="80" y="970" width="920" height="5" rx="2" fill="#1D4ED8"/>
+  <text x="540" y="1010" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" fill="#6B7280">2026년 희망리턴패키지 기준 | 선착순 예산 소진</text>
+</svg>

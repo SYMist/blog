@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="8" fill="#F59E0B"/>
+
+  <!-- Title -->
+  <text x="540" y="66" font-family="-apple-system, sans-serif" font-size="30" font-weight="900" fill="#FFFFFF" text-anchor="middle">전남 22개 시군 — 빠른 판단 가이드</text>
+  <text x="540" y="100" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0" text-anchor="middle">시군별 한도·금리가 다릅니다 — 내 사업장이 어느 시군인지 먼저 확인</text>
+  <line x1="60" y1="122" x2="1020" y2="122" stroke="#1A3270" stroke-width="2"/>
+
+  <!-- Table header -->
+  <rect x="60" y="140" width="960" height="48" rx="8" fill="#1A3270"/>
+  <text x="170" y="171" font-family="-apple-system, sans-serif" font-size="15" font-weight="700" fill="#F59E0B" text-anchor="middle">시군명</text>
+  <text x="360" y="171" font-family="-apple-system, sans-serif" font-size="15" font-weight="700" fill="#F59E0B" text-anchor="middle">최대 한도</text>
+  <text x="540" y="171" font-family="-apple-system, sans-serif" font-size="15" font-weight="700" fill="#F59E0B" text-anchor="middle">이차보전 금리</text>
+  <text x="720" y="171" font-family="-apple-system, sans-serif" font-size="15" font-weight="700" fill="#F59E0B" text-anchor="middle">기간</text>
+  <text x="920" y="171" font-family="-apple-system, sans-serif" font-size="15" font-weight="700" fill="#F59E0B" text-anchor="middle">신청처</text>
+
+  <!-- Row: 여수시 -->
+  <rect x="60" y="188" width="960" height="64" rx="0" fill="#0D2347"/>
+  <text x="170" y="218" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#34D399" text-anchor="middle">여수시</text>
+  <text x="170" y="238" font-family="-apple-system, sans-serif" font-size="12" fill="#A0B4D0" text-anchor="middle">전남 1위 한도</text>
+  <text x="360" y="225" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="middle">5,000만원</text>
+  <text x="540" y="225" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#34D399" text-anchor="middle">연 4%</text>
+  <text x="720" y="225" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">2년</text>
+  <text x="920" y="218" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">여수시청/</text>
+  <text x="920" y="238" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">전남신보 지점</text>
+
+  <!-- Row: 목포시 -->
+  <rect x="60" y="252" width="960" height="64" rx="0" fill="#102A56"/>
+  <text x="170" y="282" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#34D399" text-anchor="middle">목포시</text>
+  <text x="360" y="289" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="middle">3,000만원</text>
+  <text x="540" y="285" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#34D399" text-anchor="middle">연 3%</text>
+  <text x="720" y="285" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">2년</text>
+  <text x="920" y="282" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">목포시청/</text>
+  <text x="920" y="298" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">전남신보 지점</text>
+
+  <!-- Row: 광양시 -->
+  <rect x="60" y="316" width="960" height="64" rx="0" fill="#0D2347"/>
+  <text x="170" y="346" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#34D399" text-anchor="middle">광양시</text>
+  <text x="360" y="353" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="middle">3,000만원</text>
+  <text x="540" y="349" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#34D399" text-anchor="middle">연 4%</text>
+  <text x="720" y="349" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">2년</text>
+  <text x="920" y="346" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">광양시청/</text>
+  <text x="920" y="362" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">전남신보 지점</text>
+
+  <!-- Row: 구례군 -->
+  <rect x="60" y="380" width="960" height="64" rx="0" fill="#102A56"/>
+  <text x="170" y="410" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#34D399" text-anchor="middle">구례군</text>
+  <text x="170" y="430" font-family="-apple-system, sans-serif" font-size="12" fill="#F59E0B" text-anchor="middle">장기 이차보전</text>
+  <text x="360" y="417" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="middle">5,000만원</text>
+  <text x="540" y="413" font-family="-apple-system, sans-serif" font-size="16" fill="#34D399" text-anchor="middle">공고 확인</text>
+  <text x="720" y="413" font-family="-apple-system, sans-serif" font-size="16" fill="#F59E0B" text-anchor="middle">최대 3년</text>
+  <text x="920" y="410" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">구례군청/</text>
+  <text x="920" y="426" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">전남신보 지점</text>
+
+  <!-- Row: 기타 18개 시군 -->
+  <rect x="60" y="444" width="960" height="64" rx="0" fill="#0D2347"/>
+  <text x="170" y="470" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#A0B4D0" text-anchor="middle">기타 18개 시군</text>
+  <text x="170" y="490" font-family="-apple-system, sans-serif" font-size="12" fill="#A0B4D0" text-anchor="middle">(순천·나주·담양 등)</text>
+  <text x="360" y="477" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">시군 공고 확인</text>
+  <text x="540" y="477" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">시군별 상이</text>
+  <text x="720" y="477" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">시군별 상이</text>
+  <text x="920" y="470" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">해당 시군청</text>
+  <text x="920" y="490" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">bizinfo.go.kr</text>
+
+  <!-- Plus: 도 육성자금 -->
+  <rect x="60" y="530" width="960" height="70" rx="10" fill="#1A3270"/>
+  <rect x="60" y="530" width="960" height="70" rx="10" fill="none" stroke="#34D399" stroke-width="2"/>
+  <text x="540" y="558" font-family="-apple-system, sans-serif" font-size="15" font-weight="700" fill="#34D399" text-anchor="middle">+ 전남도 육성자금 (별도 신청 가능)</text>
+  <text x="540" y="582" font-family="-apple-system, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">최대 2,000만원 · 이차보전 연 1.5% · 전남신보(1588-3884) · 단, 시군 이차보전과 중복 불가</text>
+
+  <!-- 3 advice boxes -->
+  <rect x="60" y="630" width="290" height="150" rx="12" fill="#0D2347"/>
+  <text x="205" y="668" font-family="-apple-system, sans-serif" font-size="15" font-weight="800" fill="#F59E0B" text-anchor="middle">STEP 1</text>
+  <text x="205" y="694" font-family="-apple-system, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle">사업장 소재 시군</text>
+  <text x="205" y="716" font-family="-apple-system, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle">확인</text>
+  <text x="205" y="746" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">사업자등록증</text>
+  <text x="205" y="764" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">소재지 기준</text>
+
+  <rect x="394" y="630" width="292" height="150" rx="12" fill="#0D2347"/>
+  <text x="540" y="668" font-family="-apple-system, sans-serif" font-size="15" font-weight="800" fill="#F59E0B" text-anchor="middle">STEP 2</text>
+  <text x="540" y="694" font-family="-apple-system, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle">해당 시군 공고 검색</text>
+  <text x="540" y="716" font-family="-apple-system, sans-serif" font-size="14" fill="#34D399" text-anchor="middle">bizinfo.go.kr</text>
+  <text x="540" y="746" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">"[시군명] 소상공인"</text>
+  <text x="540" y="764" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">검색하면 바로 확인</text>
+
+  <rect x="730" y="630" width="290" height="150" rx="12" fill="#0D2347"/>
+  <text x="875" y="668" font-family="-apple-system, sans-serif" font-size="15" font-weight="800" fill="#F59E0B" text-anchor="middle">STEP 3</text>
+  <text x="875" y="694" font-family="-apple-system, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle">전남신보 상담 예약</text>
+  <text x="875" y="716" font-family="-apple-system, sans-serif" font-size="14" fill="#34D399" text-anchor="middle">1588-3884</text>
+  <text x="875" y="746" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">방문 전 전화 상담</text>
+  <text x="875" y="764" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">필요 서류 미리 확인</text>
+
+  <!-- Warning -->
+  <rect x="60" y="808" width="960" height="72" rx="10" fill="#0D2347"/>
+  <rect x="60" y="808" width="960" height="72" rx="10" fill="none" stroke="#EF4444" stroke-width="1.5"/>
+  <text x="540" y="836" font-family="-apple-system, sans-serif" font-size="15" font-weight="800" fill="#EF4444" text-anchor="middle">주의: 예산 소진 시 조기 마감</text>
+  <text x="540" y="862" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">22개 시군 마감일·예산이 모두 다름 — 공고 확인 즉시 신청이 원칙</text>
+
+  <!-- Footer -->
+  <text x="540" y="968" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준 | 전남신용보증재단 1588-3884 | bizinfo.go.kr 지역 공고 검색</text>
+  <rect x="0" y="1072" width="1080" height="8" fill="#F59E0B"/>
+</svg>

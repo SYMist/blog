@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="80" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="800" fill="#F59E0B">개인회생·개인파산 선택 전 체크리스트</text>
+  <rect x="60" y="110" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <rect x="60" y="145" width="960" height="110" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="195" font-family="'Pretendard',sans-serif" font-size="36" fill="#22C55E">☑</text>
+  <text x="150" y="195" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#FFF">정기 소득 유무 확인</text>
+  <text x="150" y="235" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">소득 있으면 회생, 없으면 파산 우선 검토</text>
+
+  <rect x="60" y="275" width="960" height="110" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="325" font-family="'Pretendard',sans-serif" font-size="36" fill="#22C55E">☑</text>
+  <text x="150" y="325" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#FFF">총 채무액 확인</text>
+  <text x="150" y="365" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">무담보 10억/담보 15억 초과 시 파산 검토</text>
+
+  <rect x="60" y="405" width="960" height="110" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="455" font-family="'Pretendard',sans-serif" font-size="36" fill="#22C55E">☑</text>
+  <text x="150" y="455" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#FFF">보유 재산 평가</text>
+  <text x="150" y="495" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">재산 유지 필요하면 회생, 재산 적으면 파산</text>
+
+  <rect x="60" y="535" width="960" height="110" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="585" font-family="'Pretendard',sans-serif" font-size="36" fill="#22C55E">☑</text>
+  <text x="150" y="585" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#FFF">도박·낭비 채무 여부</text>
+  <text x="150" y="625" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">해당되면 회생 추천 (파산은 면책 불허 가능)</text>
+
+  <rect x="60" y="665" width="960" height="110" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="715" font-family="'Pretendard',sans-serif" font-size="36" fill="#22C55E">☑</text>
+  <text x="150" y="715" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#FFF">직업·자격 제한 확인</text>
+  <text x="150" y="755" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">전문직·공무원이면 회생 선택 (파산은 자격 제한)</text>
+
+  <rect x="60" y="795" width="960" height="110" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="845" font-family="'Pretendard',sans-serif" font-size="36" fill="#22C55E">☑</text>
+  <text x="150" y="845" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#FFF">과거 면책 이력 확인</text>
+  <text x="150" y="885" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">회생 5년·파산 7년 경과 여부 확인</text>
+
+  <rect x="60" y="950" width="960" height="80" rx="16" fill="rgba(245,158,11,0.15)"/>
+  <text x="540" y="1000" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#F59E0B">법률구조공단(132) 무료 상담 먼저 받으세요!</text>
+</svg>

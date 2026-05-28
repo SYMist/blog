@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#FBBF24"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="10" fill="url(#accent)"/>
+
+  <!-- Title -->
+  <text x="60" y="88" font-family="-apple-system, sans-serif" font-size="40" font-weight="900" fill="#FFFFFF">신용회복 실패</text>
+  <text x="60" y="136" font-family="-apple-system, sans-serif" font-size="40" font-weight="900" fill="#F87171">실수 TOP5 — 절대 피할 것</text>
+
+  <!-- Divider -->
+  <rect x="60" y="158" width="960" height="3" fill="#EF4444" rx="2"/>
+
+  <!-- Mistake 1 -->
+  <rect x="60" y="182" width="960" height="148" rx="14" fill="#2D1515"/>
+  <rect x="60" y="182" width="8" height="148" rx="4" fill="#EF4444"/>
+  <text x="96" y="234" font-family="-apple-system, sans-serif" font-size="52" font-weight="900" fill="#F87171">01</text>
+  <text x="200" y="228" font-family="-apple-system, sans-serif" font-size="22" font-weight="800" fill="#F87171">조기삭제 심사 중 단 한 번의 연체</text>
+  <text x="200" y="262" font-family="-apple-system, sans-serif" font-size="17" fill="#EAF2FF">변제금 자동이체 설정 안 하고 잔액 부족으로 연체 발생</text>
+  <text x="200" y="310" font-family="-apple-system, sans-serif" font-size="16" fill="#FCA5A5">→ 1년 성실상환 자격 박탈 → 조기삭제 불가 → 다시 대기</text>
+
+  <!-- Mistake 2 -->
+  <rect x="60" y="344" width="960" height="148" rx="14" fill="#2D1515"/>
+  <rect x="60" y="344" width="8" height="148" rx="4" fill="#EF4444"/>
+  <text x="96" y="396" font-family="-apple-system, sans-serif" font-size="52" font-weight="900" fill="#F87171">02</text>
+  <text x="200" y="390" font-family="-apple-system, sans-serif" font-size="22" font-weight="800" fill="#F87171">채권자 은행에서 신용거래 재개 시도</text>
+  <text x="200" y="424" font-family="-apple-system, sans-serif" font-size="17" fill="#EAF2FF">과거 채무불이행 기록이 있는 은행에 신용카드·대출 신청</text>
+  <text x="200" y="472" font-family="-apple-system, sans-serif" font-size="16" fill="#FCA5A5">→ 내부 심사에서 자동 거절 → 거절 기록이 쌓여 신용점수 추가 하락</text>
+
+  <!-- Mistake 3 -->
+  <rect x="60" y="506" width="960" height="148" rx="14" fill="#2D1515"/>
+  <rect x="60" y="506" width="8" height="148" rx="4" fill="#F59E0B"/>
+  <text x="96" y="558" font-family="-apple-system, sans-serif" font-size="52" font-weight="900" fill="#FBBF24">03</text>
+  <text x="200" y="552" font-family="-apple-system, sans-serif" font-size="22" font-weight="800" fill="#FBBF24">공공기록 삭제 직후 무리한 대출 신청</text>
+  <text x="200" y="586" font-family="-apple-system, sans-serif" font-size="17" fill="#EAF2FF">점수가 오른 직후 여러 금융기관에 동시 대출 신청</text>
+  <text x="200" y="634" font-family="-apple-system, sans-serif" font-size="16" fill="#FCA5A5">→ 심사 조회 기록 누적 → 신용점수 추가 하락 → 악순환</text>
+
+  <!-- Mistake 4 -->
+  <rect x="60" y="668" width="460" height="148" rx="14" fill="#2D1515"/>
+  <rect x="60" y="668" width="8" height="148" rx="4" fill="#F59E0B"/>
+  <text x="96" y="720" font-family="-apple-system, sans-serif" font-size="52" font-weight="900" fill="#FBBF24">04</text>
+  <text x="200" y="714" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FBBF24">현금만 사용</text>
+  <text x="96" y="768" font-family="-apple-system, sans-serif" font-size="16" fill="#EAF2FF">체크카드 없이 5년 현금 생활</text>
+  <text x="96" y="800" font-family="-apple-system, sans-serif" font-size="15" fill="#FCA5A5">→ 금융거래 이력 없음 → 점수 정체</text>
+
+  <!-- Mistake 5 -->
+  <rect x="560" y="668" width="460" height="148" rx="14" fill="#2D1515"/>
+  <rect x="560" y="668" width="8" height="148" rx="4" fill="#F59E0B"/>
+  <text x="596" y="720" font-family="-apple-system, sans-serif" font-size="52" font-weight="900" fill="#FBBF24">05</text>
+  <text x="700" y="714" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FBBF24">소득 없이 고액 대출 시도</text>
+  <text x="596" y="768" font-family="-apple-system, sans-serif" font-size="16" fill="#EAF2FF">5년 지나도 소득 증빙 불가</text>
+  <text x="596" y="800" font-family="-apple-system, sans-serif" font-size="15" fill="#FCA5A5">→ 1금융권 계속 거절</text>
+
+  <!-- Bottom -->
+  <rect x="60" y="836" width="960" height="60" rx="12" fill="#0A1A35"/>
+  <text x="540" y="873" font-family="-apple-system, sans-serif" font-size="17" font-weight="700" fill="#EAF2FF" text-anchor="middle">신용회복은 전략이다 — 체크카드 실적·새 은행·비금융정보 제출 3가지 동시 실행</text>
+
+  <rect x="0" y="1068" width="1080" height="12" fill="url(#accent)"/>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <text x="540" y="130" font-family="'Pretendard', sans-serif" font-size="46" font-weight="900" fill="#F59E0B" text-anchor="middle">빠른 판단 가이드</text>
+  <text x="540" y="210" font-family="'Pretendard', sans-serif" font-size="58" font-weight="900" fill="#FFFFFF" text-anchor="middle">사업자 유형별 추천</text>
+
+  <rect x="60" y="270" width="960" height="170" rx="24" fill="#1A3270"/>
+  <text x="100" y="325" font-family="'Pretendard', sans-serif" font-size="34" font-weight="900" fill="#F59E0B">① 1인 사업자·프리랜서</text>
+  <text x="100" y="375" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#FFFFFF">장기렌트 / 운용리스 — 보험·정비 포함</text>
+  <text x="100" y="415" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF">부가세 환급 차량(9인승·경차·화물) 검토</text>
+
+  <rect x="60" y="460" width="960" height="170" rx="24" fill="#1A3270"/>
+  <text x="100" y="515" font-family="'Pretendard', sans-serif" font-size="34" font-weight="900" fill="#F59E0B">② 소규모 법인 / 중기업</text>
+  <text x="100" y="565" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#FFFFFF">운용리스 + 장기렌트 혼합</text>
+  <text x="100" y="605" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF">업무전용 자동차보험 의무 가입</text>
+
+  <rect x="60" y="650" width="960" height="170" rx="24" fill="#1A3270"/>
+  <text x="100" y="705" font-family="'Pretendard', sans-serif" font-size="34" font-weight="900" fill="#F59E0B">③ 영업용·운수·물류</text>
+  <text x="100" y="755" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#FFFFFF">장기렌트 / 금융리스 후 인수</text>
+  <text x="100" y="795" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF">부가세 100% 환급 · 영업용 번호판 활용</text>
+
+  <rect x="60" y="840" width="960" height="170" rx="24" fill="#F59E0B"/>
+  <text x="100" y="895" font-family="'Pretendard', sans-serif" font-size="34" font-weight="900" fill="#0B1F3B">④ 신규 창업(1년 이내)</text>
+  <text x="100" y="945" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#0B1F3B">장기렌트 — 신용 영향 적고 진입 장벽 낮음</text>
+  <text x="100" y="985" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#0B1F3B">DSR 미반영으로 추가 대출 한도 유지</text>
+</svg>

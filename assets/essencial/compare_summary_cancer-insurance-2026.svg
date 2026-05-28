@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F5F3FF"/>
+      <stop offset="100%" stop-color="#FAF5FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg1)"/>
+
+  <text x="540" y="58" font-family="sans-serif" font-size="34" font-weight="900" fill="#111827" text-anchor="middle">암보험 갱신형 vs 비갱신형 핵심 비교</text>
+  <text x="540" y="93" font-family="sans-serif" font-size="20" fill="#6B7280" text-anchor="middle">2026년 60세 남성 기준 | 일반암 3,000만 원 보장</text>
+
+  <!-- 갱신형 카드 -->
+  <rect x="50" y="125" width="470" height="510" rx="24" fill="#FFF" stroke="#FECACA" stroke-width="2"/>
+  <rect x="50" y="125" width="470" height="60" rx="24" fill="#DC2626"/>
+  <rect x="50" y="161" width="470" height="24" fill="#DC2626"/>
+  <text x="285" y="163" font-family="sans-serif" font-size="26" font-weight="900" fill="#FFF" text-anchor="middle">갱신형</text>
+
+  <text x="80" y="225" font-family="sans-serif" font-size="20" font-weight="700" fill="#111827">60세 월 보험료</text>
+  <text x="490" y="225" font-family="sans-serif" font-size="26" font-weight="900" fill="#059669" text-anchor="end">~4만 원</text>
+  <line x1="80" y1="242" x2="490" y2="242" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="80" y="275" font-family="sans-serif" font-size="20" font-weight="700" fill="#111827">70세 월 보험료</text>
+  <text x="490" y="275" font-family="sans-serif" font-size="24" font-weight="900" fill="#DC2626" text-anchor="end">~12만 원 (3배)</text>
+  <line x1="80" y1="292" x2="490" y2="292" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="80" y="325" font-family="sans-serif" font-size="20" font-weight="700" fill="#111827">80세 월 보험료</text>
+  <text x="490" y="325" font-family="sans-serif" font-size="24" font-weight="900" fill="#DC2626" text-anchor="end">~35만 원 (8.8배)</text>
+  <line x1="80" y1="342" x2="490" y2="342" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="80" y="375" font-family="sans-serif" font-size="20" font-weight="700" fill="#111827">100세 총 납입액</text>
+  <text x="490" y="375" font-family="sans-serif" font-size="26" font-weight="900" fill="#DC2626" text-anchor="end">~1.5억 원+</text>
+  <line x1="80" y1="392" x2="490" y2="392" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="80" y="425" font-family="sans-serif" font-size="20" font-weight="700" fill="#111827">납입 기간</text>
+  <text x="490" y="425" font-family="sans-serif" font-size="20" font-weight="700" fill="#DC2626" text-anchor="end">평생 (보장=납입)</text>
+  <line x1="80" y1="442" x2="490" y2="442" stroke="#E5E7EB" stroke-width="1"/>
+
+  <rect x="80" y="465" width="410" height="46" rx="12" fill="#FEF2F2" stroke="#FECACA" stroke-width="1"/>
+  <text x="285" y="495" font-family="sans-serif" font-size="18" font-weight="700" fill="#991B1B" text-anchor="middle">80세 이후 보험료 절벽 → 해지 위험</text>
+
+  <rect x="80" y="530" width="410" height="40" rx="10" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1"/>
+  <text x="285" y="557" font-family="sans-serif" font-size="16" font-weight="700" fill="#065F46" text-anchor="middle">장점: 초기 보험료 저렴, 진입 용이</text>
+
+  <!-- 비갱신형 카드 -->
+  <rect x="560" y="125" width="470" height="510" rx="24" fill="#FFF" stroke="#C4B5FD" stroke-width="2"/>
+  <rect x="560" y="125" width="470" height="60" rx="24" fill="#7C3AED"/>
+  <rect x="560" y="161" width="470" height="24" fill="#7C3AED"/>
+  <text x="795" y="163" font-family="sans-serif" font-size="26" font-weight="900" fill="#FFF" text-anchor="middle">비갱신형</text>
+
+  <text x="590" y="225" font-family="sans-serif" font-size="20" font-weight="700" fill="#111827">60세 월 보험료</text>
+  <text x="1000" y="225" font-family="sans-serif" font-size="26" font-weight="900" fill="#111827" text-anchor="end">~10만 원</text>
+  <line x1="590" y1="242" x2="1000" y2="242" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="590" y="275" font-family="sans-serif" font-size="20" font-weight="700" fill="#111827">70세 월 보험료</text>
+  <text x="1000" y="275" font-family="sans-serif" font-size="24" font-weight="900" fill="#7C3AED" text-anchor="end">~10만 원 (동일)</text>
+  <line x1="590" y1="292" x2="1000" y2="292" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="590" y="325" font-family="sans-serif" font-size="20" font-weight="700" fill="#111827">80세 월 보험료</text>
+  <text x="1000" y="325" font-family="sans-serif" font-size="24" font-weight="900" fill="#059669" text-anchor="end">0원 (납입 완료)</text>
+  <line x1="590" y1="342" x2="1000" y2="342" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="590" y="375" font-family="sans-serif" font-size="20" font-weight="700" fill="#111827">100세 총 납입액</text>
+  <text x="1000" y="375" font-family="sans-serif" font-size="26" font-weight="900" fill="#059669" text-anchor="end">2,400만 원</text>
+  <line x1="590" y1="392" x2="1000" y2="392" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="590" y="425" font-family="sans-serif" font-size="20" font-weight="700" fill="#111827">납입 기간</text>
+  <text x="1000" y="425" font-family="sans-serif" font-size="20" font-weight="700" fill="#059669" text-anchor="end">20년납 후 0원</text>
+  <line x1="590" y1="442" x2="1000" y2="442" stroke="#E5E7EB" stroke-width="1"/>
+
+  <rect x="590" y="465" width="410" height="46" rx="12" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1"/>
+  <text x="795" y="495" font-family="sans-serif" font-size="18" font-weight="700" fill="#065F46" text-anchor="middle">80세 이후 보험료 0원으로 안정 보장</text>
+
+  <rect x="590" y="530" width="410" height="40" rx="10" fill="#F5F3FF" stroke="#C4B5FD" stroke-width="1"/>
+  <text x="795" y="557" font-family="sans-serif" font-size="16" font-weight="700" fill="#5B21B6" text-anchor="middle">장점: 확정 보험료, 납입 면제 극대화</text>
+
+  <!-- 총 납입액 비교 -->
+  <rect x="50" y="665" width="980" height="110" rx="20" fill="#FFF" stroke="#C4B5FD" stroke-width="1.5"/>
+  <text x="540" y="700" font-family="sans-serif" font-size="24" font-weight="900" fill="#7C3AED" text-anchor="middle">100세까지 총 납입액 비교</text>
+  <rect x="80" y="720" width="440" height="40" rx="10" fill="#FEF2F2"/>
+  <text x="300" y="747" font-family="sans-serif" font-size="20" font-weight="900" fill="#DC2626" text-anchor="middle">갱신형: ~1.5억 원+</text>
+  <rect x="560" y="720" width="440" height="40" rx="10" fill="#ECFDF5"/>
+  <text x="780" y="747" font-family="sans-serif" font-size="20" font-weight="900" fill="#059669" text-anchor="middle">비갱신형: 2,400만 원 (6배+ 저렴)</text>
+
+  <!-- 추천 조합 전략 -->
+  <rect x="50" y="805" width="980" height="80" rx="20" fill="#7C3AED"/>
+  <text x="540" y="838" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFF" text-anchor="middle">추천 조합: 비갱신형(기본 진단비) + 갱신형 특약(중입자치료비 월 2,000~3,400원)</text>
+  <text x="540" y="868" font-family="sans-serif" font-size="18" fill="#DDD6FE" text-anchor="middle">기본 보장은 확정, 고가 치료비는 저렴한 갱신형 특약으로 보완</text>
+
+  <!-- 중입자치료비 특약 -->
+  <rect x="50" y="915" width="980" height="60" rx="16" fill="#FFF" stroke="#DDD6FE" stroke-width="1.5"/>
+  <text x="540" y="952" font-family="sans-serif" font-size="18" font-weight="700" fill="#7C3AED" text-anchor="middle">2026 필수 특약: 중입자치료비(1회 500만×12회=최대 7,000만 원) → 월 2,000~3,400원으로 5,000만 원 보장</text>
+
+  <!-- 경고 -->
+  <rect x="50" y="995" width="980" height="35" rx="10" fill="#FEF2F2" stroke="#FECACA" stroke-width="1"/>
+  <text x="540" y="1019" font-family="sans-serif" font-size="16" font-weight="700" fill="#991B1B" text-anchor="middle">면책기간 90일 + 감액기간 1~2년(50%) | 유사암은 진단비 20%만 지급</text>
+
+  <text x="540" y="1060" font-family="sans-serif" font-size="15" fill="#9CA3AF" text-anchor="middle">2026년 4월 기준 | 60세 남성 일반암 3,000만 원 보장 예시 | 개인별 차이 있음</text>
+</svg>

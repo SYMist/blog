@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <rect x="60" y="50" width="360" height="44" rx="22" fill="#0F766E"/>
+  <text x="240" y="80" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">2026 건강보험료 5월 정산</text>
+
+  <text x="60" y="175" fill="#FFFFFF" font-size="64" font-weight="800" font-family="sans-serif">환급 vs 추가납부</text>
+  <text x="60" y="248" fill="#5EEAD4" font-size="52" font-weight="800" font-family="sans-serif">5월 급여 뭐가 바뀌나</text>
+
+  <text x="60" y="310" fill="#94A3B8" font-size="22" font-weight="600" font-family="sans-serif">요율 7.19% + 장기요양 0.9448% 이중 인상 · 추가납부 60% vs 환급 20%</text>
+
+  <!-- 3 key metrics -->
+  <rect x="60" y="360" width="340" height="180" rx="16" fill="url(#card)" stroke="#FCA5A5" stroke-width="2"/>
+  <text x="230" y="400" text-anchor="middle" fill="#FCA5A5" font-size="16" font-weight="700" font-family="sans-serif">추가납부 평균</text>
+  <text x="230" y="460" text-anchor="middle" fill="#FFFFFF" font-size="46" font-weight="800" font-family="sans-serif">21.8만 원</text>
+  <text x="230" y="495" text-anchor="middle" fill="#FCA5A5" font-size="15" font-weight="600" font-family="sans-serif">대상자 60% · 환급의 2배</text>
+  <text x="230" y="520" text-anchor="middle" fill="#CBD5E1" font-size="14" font-family="sans-serif">2024년 귀속 기준</text>
+
+  <rect x="420" y="360" width="340" height="180" rx="16" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="590" y="400" text-anchor="middle" fill="#86EFAC" font-size="16" font-weight="700" font-family="sans-serif">환급 평균</text>
+  <text x="590" y="460" text-anchor="middle" fill="#FFFFFF" font-size="46" font-weight="800" font-family="sans-serif">11.5만 원</text>
+  <text x="590" y="495" text-anchor="middle" fill="#86EFAC" font-size="15" font-weight="600" font-family="sans-serif">대상자 20%</text>
+  <text x="590" y="520" text-anchor="middle" fill="#CBD5E1" font-size="14" font-family="sans-serif">휴직·퇴사 이력</text>
+
+  <rect x="780" y="360" width="360" height="180" rx="16" fill="url(#card)" stroke="#0F766E" stroke-width="2"/>
+  <text x="960" y="400" text-anchor="middle" fill="#5EEAD4" font-size="16" font-weight="700" font-family="sans-serif">2026 건강보험료율</text>
+  <text x="960" y="460" text-anchor="middle" fill="#FFFFFF" font-size="48" font-weight="800" font-family="sans-serif">7.19%</text>
+  <text x="960" y="495" text-anchor="middle" fill="#FCA5A5" font-size="15" font-weight="600" font-family="sans-serif">+0.1%p (약 1.48% ↑)</text>
+  <text x="960" y="520" text-anchor="middle" fill="#CBD5E1" font-size="14" font-family="sans-serif">본인 부담 3.595%</text>
+
+  <text x="60" y="590" fill="#64748B" font-size="14" font-family="sans-serif">essencial | 건강·의료 silo · 국민건강보험공단·보건복지부 (2026.04 기준)</text>
+</svg>

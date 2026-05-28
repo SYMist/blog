@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#FBBF24"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="12" fill="url(#accent)"/>
+
+  <!-- Title -->
+  <text x="540" y="78" font-family="-apple-system, sans-serif" font-size="34" font-weight="900" fill="#FFFFFF" text-anchor="middle">청년 미래적금 vs 청년 도약계좌</text>
+  <text x="540" y="116" font-family="-apple-system, sans-serif" font-size="22" font-weight="700" fill="#F59E0B" text-anchor="middle">도약계좌 보유자 — 갈아탈까 유지할까?</text>
+
+  <!-- Divider -->
+  <rect x="60" y="134" width="960" height="3" fill="#F59E0B" rx="2"/>
+
+  <!-- Compare table header -->
+  <rect x="60" y="152" width="960" height="56" rx="10" fill="#1A3270"/>
+  <text x="180" y="187" font-family="-apple-system, sans-serif" font-size="19" font-weight="700" fill="#A0B4D0" text-anchor="middle">항목</text>
+  <text x="480" y="187" font-family="-apple-system, sans-serif" font-size="19" font-weight="900" fill="#34D399" text-anchor="middle">청년 미래적금</text>
+  <text x="840" y="187" font-family="-apple-system, sans-serif" font-size="19" font-weight="900" fill="#EAF2FF" text-anchor="middle">청년 도약계좌</text>
+  <line x1="310" y1="152" x2="310" y2="208" stroke="#0B1F3B" stroke-width="2"/>
+  <line x1="660" y1="152" x2="660" y2="208" stroke="#0B1F3B" stroke-width="2"/>
+
+  <!-- Row 1 -->
+  <rect x="60" y="212" width="960" height="80" rx="0" fill="#0F2348"/>
+  <text x="180" y="258" font-family="-apple-system, sans-serif" font-size="18" fill="#A0B4D0" text-anchor="middle">상태</text>
+  <text x="480" y="258" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#34D399" text-anchor="middle">2026년 6월 출시 예정</text>
+  <text x="840" y="258" font-family="-apple-system, sans-serif" font-size="18" fill="#FCA5A5" text-anchor="middle">2025년 12월 종료</text>
+  <line x1="310" y1="212" x2="310" y2="292" stroke="#1A3270" stroke-width="2"/>
+  <line x1="660" y1="212" x2="660" y2="292" stroke="#1A3270" stroke-width="2"/>
+  <rect x="60" y="291" width="960" height="2" fill="#1A3270"/>
+
+  <!-- Row 2 -->
+  <rect x="60" y="293" width="960" height="80" rx="0" fill="#0B1F3B"/>
+  <text x="180" y="339" font-family="-apple-system, sans-serif" font-size="18" fill="#A0B4D0" text-anchor="middle">만기</text>
+  <text x="480" y="339" font-family="-apple-system, sans-serif" font-size="20" font-weight="900" fill="#EAF2FF" text-anchor="middle">3년</text>
+  <text x="840" y="339" font-family="-apple-system, sans-serif" font-size="20" font-weight="900" fill="#EAF2FF" text-anchor="middle">5년</text>
+  <line x1="310" y1="293" x2="310" y2="373" stroke="#1A3270" stroke-width="2"/>
+  <line x1="660" y1="293" x2="660" y2="373" stroke="#1A3270" stroke-width="2"/>
+  <rect x="60" y="372" width="960" height="2" fill="#1A3270"/>
+
+  <!-- Row 3 -->
+  <rect x="60" y="374" width="960" height="80" rx="0" fill="#0F2348"/>
+  <text x="180" y="420" font-family="-apple-system, sans-serif" font-size="18" fill="#A0B4D0" text-anchor="middle">월 납입 한도</text>
+  <text x="480" y="420" font-family="-apple-system, sans-serif" font-size="20" font-weight="900" fill="#EAF2FF" text-anchor="middle">최대 50만원</text>
+  <text x="840" y="420" font-family="-apple-system, sans-serif" font-size="20" font-weight="900" fill="#EAF2FF" text-anchor="middle">최대 70만원</text>
+  <line x1="310" y1="374" x2="310" y2="454" stroke="#1A3270" stroke-width="2"/>
+  <line x1="660" y1="374" x2="660" y2="454" stroke="#1A3270" stroke-width="2"/>
+  <rect x="60" y="453" width="960" height="2" fill="#1A3270"/>
+
+  <!-- Row 4 -->
+  <rect x="60" y="455" width="960" height="80" rx="0" fill="#0B1F3B"/>
+  <text x="180" y="501" font-family="-apple-system, sans-serif" font-size="18" fill="#A0B4D0" text-anchor="middle">정부기여금</text>
+  <text x="480" y="501" font-family="-apple-system, sans-serif" font-size="20" font-weight="900" fill="#34D399" text-anchor="middle">6~12%</text>
+  <text x="840" y="501" font-family="-apple-system, sans-serif" font-size="20" font-weight="900" fill="#EAF2FF" text-anchor="middle">3~6%</text>
+  <line x1="310" y1="455" x2="310" y2="535" stroke="#1A3270" stroke-width="2"/>
+  <line x1="660" y1="455" x2="660" y2="535" stroke="#1A3270" stroke-width="2"/>
+  <rect x="60" y="534" width="960" height="2" fill="#1A3270"/>
+
+  <!-- Row 5 -->
+  <rect x="60" y="536" width="960" height="80" rx="0" fill="#0F2348"/>
+  <text x="180" y="582" font-family="-apple-system, sans-serif" font-size="18" fill="#A0B4D0" text-anchor="middle">만기 수령액</text>
+  <text x="480" y="582" font-family="-apple-system, sans-serif" font-size="20" font-weight="900" fill="#EAF2FF" text-anchor="middle">약 2,080~2,200만원</text>
+  <text x="840" y="582" font-family="-apple-system, sans-serif" font-size="20" font-weight="900" fill="#EAF2FF" text-anchor="middle">최대 약 5,000만원</text>
+  <line x1="310" y1="536" x2="310" y2="616" stroke="#1A3270" stroke-width="2"/>
+  <line x1="660" y1="536" x2="660" y2="616" stroke="#1A3270" stroke-width="2"/>
+
+  <!-- Decision box -->
+  <rect x="60" y="636" width="960" height="320" rx="20" fill="#0F2348"/>
+  <text x="540" y="684" font-family="-apple-system, sans-serif" font-size="26" font-weight="900" fill="#F59E0B" text-anchor="middle">도약계좌 보유자 갈아타기 판단 기준</text>
+
+  <rect x="80" y="700" width="430" height="228" rx="16" fill="#1A3270"/>
+  <text x="295" y="738" font-family="-apple-system, sans-serif" font-size="20" font-weight="700" fill="#34D399" text-anchor="middle">✅ 유지 추천</text>
+  <text x="295" y="770" font-family="-apple-system, sans-serif" font-size="16" fill="#EAF2FF" text-anchor="middle">잔여 납입 기간 3년 미만</text>
+  <text x="295" y="798" font-family="-apple-system, sans-serif" font-size="16" fill="#EAF2FF" text-anchor="middle">특별 중도해지 사유 없음</text>
+  <text x="295" y="826" font-family="-apple-system, sans-serif" font-size="16" fill="#EAF2FF" text-anchor="middle">5,000만원 목표가 더 큰 경우</text>
+  <text x="295" y="854" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">만기 후 미래적금 신규 가입 가능</text>
+  <text x="295" y="906" font-family="-apple-system, sans-serif" font-size="14" fill="#6B7280" text-anchor="middle">(특별사유: 주택구입·혼인·출산·퇴직·폐업 등)</text>
+
+  <rect x="570" y="700" width="430" height="228" rx="16" fill="#1A3270"/>
+  <text x="785" y="738" font-family="-apple-system, sans-serif" font-size="20" font-weight="700" fill="#F59E0B" text-anchor="middle">⚠ 갈아타기 검토</text>
+  <text x="785" y="770" font-family="-apple-system, sans-serif" font-size="16" fill="#EAF2FF" text-anchor="middle">잔여 기간 5년 이상 남은 경우</text>
+  <text x="785" y="798" font-family="-apple-system, sans-serif" font-size="16" fill="#EAF2FF" text-anchor="middle">특별 중도해지 사유 해당</text>
+  <text x="785" y="826" font-family="-apple-system, sans-serif" font-size="16" fill="#EAF2FF" text-anchor="middle">3년 단기 목돈이 더 필요한 경우</text>
+  <text x="785" y="854" font-family="-apple-system, sans-serif" font-size="14" fill="#FCA5A5" text-anchor="middle">일반 중도해지 시 기여금·비과세 손실</text>
+  <text x="785" y="906" font-family="-apple-system, sans-serif" font-size="14" fill="#6B7280" text-anchor="middle">서민금융진흥원 ☎ 1397 상담 권장</text>
+
+  <rect x="0" y="1068" width="1080" height="12" fill="url(#accent)"/>
+</svg>

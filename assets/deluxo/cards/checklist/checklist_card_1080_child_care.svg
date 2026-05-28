@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#F59E0B">아이돌봄서비스 1분 체크리스트</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <rect x="60" y="120" width="960" height="90" rx="16" fill="rgba(239,68,68,0.08)"/>
+  <rect x="80" y="145" width="40" height="40" rx="8" fill="rgba(239,68,68,0.3)" stroke="#EF4444" stroke-width="2"/>
+  <text x="100" y="173" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#EF4444">!</text>
+  <text x="140" y="173" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">아동 연령 확인 (만 3개월 ~ 12세 이하)</text>
+
+  <rect x="60" y="222" width="960" height="90" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="247" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="275" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="275" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">양육 공백 사유 해당 여부 (맞벌이·질병·학업 등)</text>
+
+  <rect x="60" y="324" width="960" height="90" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="349" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="377" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="377" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">소득 재판정 완료 (매년 1월 30일까지 필수!)</text>
+
+  <rect x="60" y="426" width="960" height="90" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="451" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="479" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="479" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">국민행복카드 발급 완료</text>
+
+  <rect x="60" y="528" width="960" height="90" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="553" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="581" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="581" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">예치금 충전 (할인 전 총액 기준 넉넉히)</text>
+
+  <rect x="60" y="630" width="960" height="90" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="655" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="683" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="683" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">거주 지자체 추가 지원 사업 확인 (인천·경남 고성 등)</text>
+
+  <rect x="60" y="732" width="960" height="90" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="757" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="785" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="785" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">다자녀·취약계층 추가 할인 적용 여부</text>
+
+  <rect x="60" y="834" width="960" height="90" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="859" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="887" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="887" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">양육 공백 증빙 서류 준비 (자영업: 사업자등록증+소득증명)</text>
+
+  <rect x="60" y="940" width="960" height="70" rx="16" fill="rgba(245,158,11,0.15)"/>
+  <text x="540" y="984" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">신청: 복지로(bokjiro.go.kr) → 국민행복카드 → 아이돌봄(idolbom.go.kr)</text>
+
+  <rect x="60" y="1050" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

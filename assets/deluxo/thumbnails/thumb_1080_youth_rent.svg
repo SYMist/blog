@@ -1,0 +1,26 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1080" y2="1080" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <!-- Badge -->
+  <rect x="430" y="260" width="220" height="52" rx="26" fill="#F59E0B"/>
+  <text x="540" y="295" font-size="28" fill="#0B1F3B" font-weight="800" font-family="'Pretendard', sans-serif" text-anchor="middle">2026 최신</text>
+  <!-- Main text -->
+  <text x="540" y="460" font-size="82" fill="#FFFFFF" font-weight="900" font-family="'Pretendard', sans-serif" text-anchor="middle" letter-spacing="-1.5">청년 월세 지원</text>
+  <!-- Sub text -->
+  <text x="540" y="560" font-size="52" fill="#EAF2FF" font-weight="600" font-family="'Pretendard', sans-serif" text-anchor="middle" letter-spacing="-0.5">주거비 보조금</text>
+  <text x="540" y="630" font-size="52" fill="#EAF2FF" font-weight="600" font-family="'Pretendard', sans-serif" text-anchor="middle" letter-spacing="-0.5">신청 총정리</text>
+  <!-- Chips -->
+  <rect x="168" y="760" width="130" height="56" rx="32" fill="#E8F0FF"/>
+  <text x="233" y="797" font-size="30" fill="#1D4ED8" font-weight="700" font-family="'Pretendard', sans-serif" text-anchor="middle">월세</text>
+  <rect x="318" y="760" width="170" height="56" rx="32" fill="#E8F0FF"/>
+  <text x="403" y="797" font-size="30" fill="#1D4ED8" font-weight="700" font-family="'Pretendard', sans-serif" text-anchor="middle">주거급여</text>
+  <rect x="508" y="760" width="130" height="56" rx="32" fill="#E8F0FF"/>
+  <text x="573" y="797" font-size="30" fill="#1D4ED8" font-weight="700" font-family="'Pretendard', sans-serif" text-anchor="middle">청약</text>
+  <rect x="658" y="760" width="130" height="56" rx="32" fill="#E8F0FF"/>
+  <text x="723" y="797" font-size="30" fill="#1D4ED8" font-weight="700" font-family="'Pretendard', sans-serif" text-anchor="middle">대출</text>
+</svg>

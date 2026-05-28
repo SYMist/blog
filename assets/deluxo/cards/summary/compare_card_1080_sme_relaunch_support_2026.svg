@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="8" fill="#34D399"/>
+
+  <!-- Title -->
+  <text x="540" y="66" font-family="-apple-system, sans-serif" font-size="30" font-weight="900" fill="#FFFFFF" text-anchor="middle">희망리턴패키지 · 재도전특별자금 상세 비교</text>
+  <text x="540" y="100" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">두 제도의 지원 방식과 조건이 어떻게 다른지 한눈에</text>
+  <line x1="60" y1="122" x2="1020" y2="122" stroke="#1A3270" stroke-width="2"/>
+
+  <!-- Header row -->
+  <rect x="60" y="140" width="200" height="60" rx="0" fill="#1A3270"/>
+  <text x="160" y="177" font-family="-apple-system, sans-serif" font-size="14" font-weight="800" fill="#34D399" text-anchor="middle">구분</text>
+
+  <rect x="260" y="140" width="370" height="60" rx="0" fill="#1A3270"/>
+  <rect x="260" y="140" width="370" height="60" rx="0" fill="none" stroke="#34D399" stroke-width="1"/>
+  <text x="445" y="177" font-family="-apple-system, sans-serif" font-size="16" font-weight="900" fill="#34D399" text-anchor="middle">희망리턴패키지</text>
+
+  <rect x="630" y="140" width="390" height="60" rx="0" fill="#1A3270"/>
+  <rect x="630" y="140" width="390" height="60" rx="0" fill="none" stroke="#EF4444" stroke-width="1"/>
+  <text x="825" y="177" font-family="-apple-system, sans-serif" font-size="16" font-weight="900" fill="#EF4444" text-anchor="middle">재도전특별자금</text>
+
+  <!-- Row 1: 운영기관 -->
+  <rect x="60" y="200" width="200" height="64" rx="0" fill="#0D2347"/>
+  <text x="160" y="237" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#F59E0B" text-anchor="middle">운영기관</text>
+  <rect x="260" y="200" width="370" height="64" rx="0" fill="#0B1F3B"/>
+  <text x="445" y="237" font-family="-apple-system, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle">소상공인시장진흥공단 (소진공)</text>
+  <rect x="630" y="200" width="390" height="64" rx="0" fill="#0B1F3B"/>
+  <text x="825" y="237" font-family="-apple-system, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle">중소벤처기업진흥공단 (중진공)</text>
+
+  <!-- Row 2: 지원 방식 -->
+  <rect x="60" y="264" width="200" height="64" rx="0" fill="#0D2347"/>
+  <text x="160" y="301" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#F59E0B" text-anchor="middle">지원 방식</text>
+  <rect x="260" y="264" width="370" height="64" rx="0" fill="#111827"/>
+  <text x="445" y="293" font-family="-apple-system, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle">매칭 보조 (사업화 자금 + 컨설팅)</text>
+  <text x="445" y="314" font-family="-apple-system, sans-serif" font-size="12" fill="#F59E0B" text-anchor="middle">자부담 50% 필수</text>
+  <rect x="630" y="264" width="390" height="64" rx="0" fill="#111827"/>
+  <text x="825" y="293" font-family="-apple-system, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle">저금리 정책 융자 (대출)</text>
+  <text x="825" y="314" font-family="-apple-system, sans-serif" font-size="12" fill="#EF4444" text-anchor="middle">원리금 상환 필요</text>
+
+  <!-- Row 3: 최대 금액 -->
+  <rect x="60" y="328" width="200" height="64" rx="0" fill="#0D2347"/>
+  <text x="160" y="365" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#F59E0B" text-anchor="middle">최대 금액</text>
+  <rect x="260" y="328" width="370" height="64" rx="0" fill="#0B1F3B"/>
+  <text x="445" y="356" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#34D399" text-anchor="middle">2,600만원</text>
+  <text x="445" y="379" font-family="-apple-system, sans-serif" font-size="12" fill="#A0B4D0" text-anchor="middle">사업화 2,000 + 철거비 600</text>
+  <rect x="630" y="328" width="390" height="64" rx="0" fill="#0B1F3B"/>
+  <text x="825" y="356" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#EF4444" text-anchor="middle">7,000만원</text>
+  <text x="825" y="379" font-family="-apple-system, sans-serif" font-size="12" fill="#A0B4D0" text-anchor="middle">채무조정 성실이행자 최대 2억원</text>
+
+  <!-- Row 4: 금리/자부담 -->
+  <rect x="60" y="392" width="200" height="64" rx="0" fill="#0D2347"/>
+  <text x="160" y="429" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#F59E0B" text-anchor="middle">금리/자부담</text>
+  <rect x="260" y="392" width="370" height="64" rx="0" fill="#111827"/>
+  <text x="445" y="421" font-family="-apple-system, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle">총사업비 50% 자부담</text>
+  <text x="445" y="443" font-family="-apple-system, sans-serif" font-size="12" fill="#A0B4D0" text-anchor="middle">(자부담 70%는 현물 인정)</text>
+  <rect x="630" y="392" width="390" height="64" rx="0" fill="#111827"/>
+  <text x="825" y="421" font-family="-apple-system, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle">약 2.96% + 0.4~1.6%p (변동)</text>
+  <text x="825" y="443" font-family="-apple-system, sans-serif" font-size="12" fill="#A0B4D0" text-anchor="middle">5년 이내 상환 (거치 2년)</text>
+
+  <!-- Row 5: 주요 조건 -->
+  <rect x="60" y="456" width="200" height="80" rx="0" fill="#0D2347"/>
+  <text x="160" y="501" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#F59E0B" text-anchor="middle">주요 조건</text>
+  <rect x="260" y="456" width="370" height="80" rx="0" fill="#0B1F3B"/>
+  <text x="445" y="484" font-family="-apple-system, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="middle">폐업(예정) 소상공인</text>
+  <text x="445" y="504" font-family="-apple-system, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="middle">재창업형 / 업종전환형 / 창업도약형</text>
+  <text x="445" y="524" font-family="-apple-system, sans-serif" font-size="12" fill="#EF4444" text-anchor="middle">세금 체납 이력 없어야 함</text>
+  <rect x="630" y="456" width="390" height="80" rx="0" fill="#0B1F3B"/>
+  <text x="825" y="484" font-family="-apple-system, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="middle">폐업 후 5년 이내 / 재창업 7년 미만</text>
+  <text x="825" y="504" font-family="-apple-system, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="middle">재창업 교육 10시간 이수 필수</text>
+  <text x="825" y="524" font-family="-apple-system, sans-serif" font-size="12" fill="#EF4444" text-anchor="middle">세금 완납 증명서 필수</text>
+
+  <!-- Row 6: 신청처 -->
+  <rect x="60" y="536" width="200" height="64" rx="0" fill="#0D2347"/>
+  <text x="160" y="573" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#F59E0B" text-anchor="middle">신청처</text>
+  <rect x="260" y="536" width="370" height="64" rx="0" fill="#111827"/>
+  <text x="445" y="566" font-family="-apple-system, sans-serif" font-size="14" font-weight="800" fill="#34D399" text-anchor="middle">sbiz24.kr</text>
+  <text x="445" y="587" font-family="-apple-system, sans-serif" font-size="12" fill="#A0B4D0" text-anchor="middle">소상공인24 온라인 신청</text>
+  <rect x="630" y="536" width="390" height="64" rx="0" fill="#111827"/>
+  <text x="825" y="566" font-family="-apple-system, sans-serif" font-size="14" font-weight="800" fill="#EF4444" text-anchor="middle">kosmes.or.kr</text>
+  <text x="825" y="587" font-family="-apple-system, sans-serif" font-size="12" fill="#A0B4D0" text-anchor="middle">중소벤처기업진흥공단</text>
+
+  <!-- Both program box -->
+  <rect x="60" y="618" width="960" height="90" rx="12" fill="#1A3270"/>
+  <rect x="60" y="618" width="960" height="90" rx="12" fill="none" stroke="#34D399" stroke-width="2"/>
+  <text x="540" y="652" font-family="-apple-system, sans-serif" font-size="16" font-weight="800" fill="#34D399" text-anchor="middle">두 제도 병행 활용 가능 — 주관 기관이 달라 중복 신청 원칙적 허용</text>
+  <text x="540" y="678" font-family="-apple-system, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle">희망리턴패키지로 사업화 자금 수령 + 재도전특별자금으로 운영자금 조달</text>
+  <text x="540" y="697" font-family="-apple-system, sans-serif" font-size="12" fill="#F59E0B" text-anchor="middle">단, 동일 용도 자금 중복 수령은 환수 대상 → 각 기관 담당자 확인 권장</text>
+
+  <!-- Practical tip -->
+  <rect x="60" y="726" width="460" height="80" rx="12" fill="#0D2347"/>
+  <text x="290" y="758" font-family="-apple-system, sans-serif" font-size="14" font-weight="700" fill="#F59E0B" text-anchor="middle">실제 현금 자부담 계산</text>
+  <text x="290" y="780" font-family="-apple-system, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle">4,000만원 계획 → 본인 2,000만원 중</text>
+  <text x="290" y="798" font-family="-apple-system, sans-serif" font-size="13" fill="#34D399" text-anchor="middle">현물 1,400만원 → 현금 약 600만원</text>
+
+  <rect x="560" y="726" width="460" height="80" rx="12" fill="#0D2347"/>
+  <text x="790" y="758" font-family="-apple-system, sans-serif" font-size="14" font-weight="700" fill="#F59E0B" text-anchor="middle">문의</text>
+  <text x="790" y="780" font-family="-apple-system, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle">소상공인콜센터 ☎1533-0100</text>
+  <text x="790" y="798" font-family="-apple-system, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle">중소기업통합콜센터 ☎1357</text>
+
+  <!-- Footer -->
+  <text x="540" y="974" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준 | 지원 조건·금리·모집 기간은 공고에 따라 변동 가능</text>
+  <rect x="0" y="1072" width="1080" height="8" fill="#34D399"/>
+</svg>

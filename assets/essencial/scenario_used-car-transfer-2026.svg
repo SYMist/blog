@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EFF6FF"/>
+      <stop offset="100%" stop-color="#F0F9FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg3)"/>
+
+  <text x="540" y="62" font-family="sans-serif" font-size="34" font-weight="900" fill="#111827" text-anchor="middle">상황별 이전등록 방법 추천 가이드</text>
+  <text x="540" y="97" font-family="sans-serif" font-size="20" fill="#6B7280" text-anchor="middle">해당하는 상황을 찾아 최적의 방법을 확인하세요</text>
+
+  <!-- 시나리오 1 -->
+  <rect x="50" y="130" width="980" height="130" rx="20" fill="#FFF" stroke="#BFDBFE" stroke-width="1.5"/>
+  <rect x="50" y="130" width="980" height="46" rx="20" fill="#1E40AF"/>
+  <rect x="50" y="156" width="980" height="20" fill="#1E40AF"/>
+  <text x="80" y="160" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFF">개인 간 거래 + 시간 여유 있음</text>
+  <text x="80" y="205" font-family="sans-serif" font-size="20" fill="#111827">→ <tspan font-weight="800">셀프 등록 (자동차365 온라인)</tspan> — 대행료 0원, 매도비 0원</text>
+  <text x="80" y="238" font-family="sans-serif" font-size="17" fill="#6B7280">집에서 PC로 완료 가능 · 공동인증서 필요 · 절약: 3~5만 원</text>
+
+  <!-- 시나리오 2 -->
+  <rect x="50" y="280" width="980" height="130" rx="20" fill="#FFF" stroke="#BFDBFE" stroke-width="1.5"/>
+  <rect x="50" y="280" width="980" height="46" rx="20" fill="#1D4ED8"/>
+  <rect x="50" y="306" width="980" height="20" fill="#1D4ED8"/>
+  <text x="80" y="310" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFF">개인 간 거래 + 시간 부족</text>
+  <text x="80" y="355" font-family="sans-serif" font-size="20" fill="#111827">→ <tspan font-weight="800">행정사 대행</tspan> (대행료 3~5만 원)</text>
+  <text x="80" y="388" font-family="sans-serif" font-size="17" fill="#6B7280">매도비 없이 대행료만 발생 · 서류 오류 방지 · 1~3일 처리</text>
+
+  <!-- 시나리오 3 -->
+  <rect x="50" y="430" width="980" height="130" rx="20" fill="#FFF" stroke="#FED7AA" stroke-width="1.5"/>
+  <rect x="50" y="430" width="980" height="46" rx="20" fill="#EA580C"/>
+  <rect x="50" y="456" width="980" height="20" fill="#EA580C"/>
+  <text x="80" y="460" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFF">딜러 상사에서 구매 · 처음이라 복잡</text>
+  <text x="80" y="505" font-family="sans-serif" font-size="20" fill="#111827">→ <tspan font-weight="800">딜러 대행</tspan> (대행료 + 매도비 30~50만 원)</text>
+  <text x="80" y="538" font-family="sans-serif" font-size="17" fill="#6B7280">편리하지만 비용 최대 · 정산 영수증 반드시 요구 · 차액 미환급 주의</text>
+
+  <!-- 시나리오 4 -->
+  <rect x="50" y="580" width="980" height="130" rx="20" fill="#FFF" stroke="#A7F3D0" stroke-width="1.5"/>
+  <rect x="50" y="580" width="980" height="46" rx="20" fill="#059669"/>
+  <rect x="50" y="606" width="980" height="20" fill="#059669"/>
+  <text x="80" y="610" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFF">전기차 중고 구매</text>
+  <text x="80" y="655" font-family="sans-serif" font-size="20" fill="#111827">→ <tspan font-weight="800">셀프 등록 추천</tspan> — 취득세 140만 원 감면 + 공채 면제</text>
+  <text x="80" y="688" font-family="sans-serif" font-size="17" fill="#6B7280">2026.12까지 · 직접 감면 신청 가능 · 3,000만 원 차량 → 실납부 70만 원</text>
+
+  <!-- 시나리오 5 -->
+  <rect x="50" y="730" width="980" height="130" rx="20" fill="#FFF" stroke="#A7F3D0" stroke-width="1.5"/>
+  <rect x="50" y="730" width="980" height="46" rx="20" fill="#10B981"/>
+  <rect x="50" y="756" width="980" height="20" fill="#10B981"/>
+  <text x="80" y="760" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFF">경차 구매 (모닝·레이 등)</text>
+  <text x="80" y="805" font-family="sans-serif" font-size="20" fill="#111827">→ <tspan font-weight="800">셀프 등록 추천</tspan> — 취득세 75만 원 감면, 수수료만 부담</text>
+  <text x="80" y="838" font-family="sans-serif" font-size="17" fill="#6B7280">800만 원 경차 기준 취득세 0원 · 셀프 시 총비용 약 1.5만 원</text>
+
+  <!-- 하단 팁 -->
+  <rect x="50" y="890" width="980" height="60" rx="16" fill="#FEF2F2" stroke="#FECACA" stroke-width="1"/>
+  <text x="540" y="927" font-family="sans-serif" font-size="18" font-weight="700" fill="#991B1B" text-anchor="middle">15일 기한을 넘기면 범칙금 10만 원~최대 50만 원 — 달력에 D-day를 표시하세요</text>
+
+  <text x="540" y="1010" font-family="sans-serif" font-size="15" fill="#9CA3AF" text-anchor="middle">2026년 3월 기준 | 비영업용 승용차 취득세율 7%</text>
+  <text x="540" y="1040" font-family="sans-serif" font-size="15" fill="#9CA3AF" text-anchor="middle">공채·감면은 지역·차종에 따라 달라질 수 있습니다</text>
+</svg>

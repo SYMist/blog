@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+    <filter id="shadow" x="-4%" y="-4%" width="108%" height="108%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- Badge -->
+  <rect x="60" y="55" width="110" height="48" rx="24" fill="#F59E0B"/>
+  <text x="115" y="86" text-anchor="middle" font-family="'Pretendard', sans-serif" font-size="22" font-weight="700" fill="#0B1F3B">주의</text>
+
+  <!-- Title -->
+  <text x="60" y="165" font-family="'Pretendard', sans-serif" font-size="48" font-weight="800" fill="#FFFFFF">법인전환 실패 사유 TOP 5</text>
+
+  <!-- Divider -->
+  <rect x="60" y="190" width="120" height="4" rx="2" fill="#F87171"/>
+
+  <!-- Item 1 -->
+  <rect x="60" y="240" width="960" height="130" rx="20" fill="rgba(255,255,255,0.05)" filter="url(#shadow)"/>
+  <circle cx="120" cy="305" r="32" fill="rgba(248,113,113,0.15)"/>
+  <text x="120" y="315" text-anchor="middle" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#F87171">1</text>
+  <text x="175" y="293" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">자본금 &lt; 순자산가액</text>
+  <text x="175" y="330" font-family="'Pretendard', sans-serif" font-size="22" font-weight="400" fill="#94A3B8">세 혜택(이월과세) 적용 불가 — 자본금을 순자산 이상으로 설정</text>
+
+  <!-- Item 2 -->
+  <rect x="60" y="390" width="960" height="130" rx="20" fill="rgba(255,255,255,0.05)" filter="url(#shadow)"/>
+  <circle cx="120" cy="455" r="32" fill="rgba(248,113,113,0.15)"/>
+  <text x="120" y="465" text-anchor="middle" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#F87171">2</text>
+  <text x="175" y="443" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">설립 후 3개월 내 양도 미완료</text>
+  <text x="175" y="480" font-family="'Pretendard', sans-serif" font-size="22" font-weight="400" fill="#94A3B8">포괄양수도 기한 도과 시 이월과세 혜택 소멸</text>
+
+  <!-- Item 3 -->
+  <rect x="60" y="540" width="960" height="130" rx="20" fill="rgba(255,255,255,0.05)" filter="url(#shadow)"/>
+  <circle cx="120" cy="605" r="32" fill="rgba(248,113,113,0.15)"/>
+  <text x="120" y="615" text-anchor="middle" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#F87171">3</text>
+  <text x="175" y="593" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">정관에 퇴직금·보수 규정 미삽입</text>
+  <text x="175" y="630" font-family="'Pretendard', sans-serif" font-size="22" font-weight="400" fill="#94A3B8">임원 퇴직금 손금 부인 — 정관 필수 기재 사항</text>
+
+  <!-- Item 4 -->
+  <rect x="60" y="690" width="960" height="130" rx="20" fill="rgba(255,255,255,0.05)" filter="url(#shadow)"/>
+  <circle cx="120" cy="755" r="32" fill="rgba(248,113,113,0.15)"/>
+  <text x="120" y="765" text-anchor="middle" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#F87171">4</text>
+  <text x="175" y="743" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">가지급금 관리 실패 (인정이자 4.6%)</text>
+  <text x="175" y="780" font-family="'Pretendard', sans-serif" font-size="22" font-weight="400" fill="#94A3B8">대표 가지급금 → 인정이자 + 상여처분 이중 과세</text>
+
+  <!-- Item 5 -->
+  <rect x="60" y="840" width="960" height="130" rx="20" fill="rgba(255,255,255,0.05)" filter="url(#shadow)"/>
+  <circle cx="120" cy="905" r="32" fill="rgba(248,113,113,0.15)"/>
+  <text x="120" y="915" text-anchor="middle" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#F87171">5</text>
+  <text x="175" y="893" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">소규모 법인 3요건 충족 (20% 세율)</text>
+  <text x="175" y="930" font-family="'Pretendard', sans-serif" font-size="22" font-weight="400" fill="#94A3B8">부동산 임대 + 자기자본 50억↓ + 지배주주 80%↑ 해당 시 추가 과세</text>
+
+  <!-- Chips -->
+  <rect x="60" y="1000" width="100" height="46" rx="32" fill="#E8F0FF"/>
+  <text x="110" y="1030" text-anchor="middle" font-family="'Pretendard', sans-serif" font-size="20" font-weight="600" fill="#1D4ED8">실패</text>
+
+  <rect x="180" y="1000" width="100" height="46" rx="32" fill="#E8F0FF"/>
+  <text x="230" y="1030" text-anchor="middle" font-family="'Pretendard', sans-serif" font-size="20" font-weight="600" fill="#1D4ED8">사유</text>
+
+  <rect x="300" y="1000" width="100" height="46" rx="32" fill="#E8F0FF"/>
+  <text x="350" y="1030" text-anchor="middle" font-family="'Pretendard', sans-serif" font-size="20" font-weight="600" fill="#1D4ED8">확인</text>
+
+  <!-- Footer -->
+  <text x="1020" y="1055" text-anchor="end" font-family="'Pretendard', sans-serif" font-size="18" font-weight="400" fill="#475569">tistory.deluxo · 2026</text>
+</svg>

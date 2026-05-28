@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- 레이블 -->
+  <rect x="60" y="52" width="280" height="44" rx="22" fill="#34D399" opacity="0.18"/>
+  <text x="200" y="80" font-family="-apple-system,sans-serif" font-size="22" font-weight="700" fill="#34D399" text-anchor="middle">신청 전 1분 체크리스트</text>
+
+  <!-- 제목 -->
+  <text x="540" y="158" font-family="-apple-system,sans-serif" font-size="50" font-weight="900" fill="#FFFFFF" text-anchor="middle">가족돌봄휴직·휴가 신청 체크리스트</text>
+  <text x="540" y="210" font-family="-apple-system,sans-serif" font-size="32" font-weight="600" fill="#A0B4D0" text-anchor="middle">이것만 확인하면 거부 없이 진행 가능 (2026)</text>
+
+  <line x1="60" y1="236" x2="1020" y2="236" stroke="#1A3270" stroke-width="2"/>
+
+  <!-- 체크리스트 헤더 -->
+  <rect x="60" y="252" width="960" height="50" rx="10" fill="#1A3270"/>
+  <text x="300" y="284" font-family="-apple-system,sans-serif" font-size="22" font-weight="800" fill="#34D399" text-anchor="middle">가족돌봄휴직</text>
+  <text x="760" y="284" font-family="-apple-system,sans-serif" font-size="22" font-weight="800" fill="#F59E0B" text-anchor="middle">가족돌봄휴가</text>
+  <line x1="540" y1="252" x2="540" y2="302" stroke="#0D2347" stroke-width="2"/>
+
+  <!-- 체크 1 -->
+  <rect x="60" y="308" width="470" height="70" rx="10" fill="#0D2347"/>
+  <rect x="60" y="308" width="4" height="70" rx="2" fill="#34D399"/>
+  <text x="84" y="338" font-family="-apple-system,sans-serif" font-size="22" fill="#FFFFFF">☑ 근속기간 6개월 이상 확인</text>
+  <text x="84" y="364" font-family="-apple-system,sans-serif" font-size="18" fill="#A0B4D0">입사일 기준으로 계산</text>
+
+  <rect x="550" y="308" width="470" height="70" rx="10" fill="#0D2347"/>
+  <rect x="550" y="308" width="4" height="70" rx="2" fill="#F59E0B"/>
+  <text x="574" y="338" font-family="-apple-system,sans-serif" font-size="22" fill="#FFFFFF">☑ 근속 요건 없음 — 즉시 가능</text>
+  <text x="574" y="364" font-family="-apple-system,sans-serif" font-size="18" fill="#A0B4D0">입사 첫날도 신청 가능</text>
+
+  <!-- 체크 2 -->
+  <rect x="60" y="388" width="470" height="70" rx="10" fill="#0D2347"/>
+  <rect x="60" y="388" width="4" height="70" rx="2" fill="#34D399"/>
+  <text x="84" y="418" font-family="-apple-system,sans-serif" font-size="22" fill="#FFFFFF">☑ 돌봄 사유: 질병·사고·노령</text>
+  <text x="84" y="444" font-family="-apple-system,sans-serif" font-size="18" fill="#EF4444">자녀 양육은 해당 안 됨</text>
+
+  <rect x="550" y="388" width="470" height="70" rx="10" fill="#0D2347"/>
+  <rect x="550" y="388" width="4" height="70" rx="2" fill="#F59E0B"/>
+  <text x="574" y="418" font-family="-apple-system,sans-serif" font-size="22" fill="#FFFFFF">☑ 돌봄 사유: 질병·사고·노령 + 양육</text>
+  <text x="574" y="444" font-family="-apple-system,sans-serif" font-size="18" fill="#34D399">자녀 양육도 포함</text>
+
+  <!-- 체크 3 -->
+  <rect x="60" y="468" width="470" height="70" rx="10" fill="#0D2347"/>
+  <rect x="60" y="468" width="4" height="70" rx="2" fill="#34D399"/>
+  <text x="84" y="498" font-family="-apple-system,sans-serif" font-size="22" fill="#FFFFFF">☑ 개시 30일 전 서면 신청</text>
+  <text x="84" y="524" font-family="-apple-system,sans-serif" font-size="18" fill="#A0B4D0">이메일 or 내용증명 권장</text>
+
+  <rect x="550" y="468" width="470" height="70" rx="10" fill="#0D2347"/>
+  <rect x="550" y="468" width="4" height="70" rx="2" fill="#F59E0B"/>
+  <text x="574" y="498" font-family="-apple-system,sans-serif" font-size="22" fill="#FFFFFF">☑ 긴급 시 당일 신청 가능</text>
+  <text x="574" y="524" font-family="-apple-system,sans-serif" font-size="18" fill="#A0B4D0">사후 서면 제출로 보완</text>
+
+  <!-- 체크 4 -->
+  <rect x="60" y="548" width="960" height="70" rx="10" fill="#0D2347"/>
+  <rect x="60" y="548" width="4" height="70" rx="2" fill="#A0B4D0"/>
+  <text x="84" y="578" font-family="-apple-system,sans-serif" font-size="22" fill="#FFFFFF">☑ 해당 연도 휴직·휴가 누계 일수 확인 (90일 한도 계산)</text>
+  <text x="84" y="604" font-family="-apple-system,sans-serif" font-size="18" fill="#A0B4D0">두 제도 합산 → 연간 90일 초과 불가</text>
+
+  <!-- 체크 5 -->
+  <rect x="60" y="628" width="960" height="70" rx="10" fill="#0D2347"/>
+  <rect x="60" y="628" width="4" height="70" rx="2" fill="#A0B4D0"/>
+  <text x="84" y="658" font-family="-apple-system,sans-serif" font-size="22" fill="#FFFFFF">☑ 가족관계증명서 + 진단서 or 소견서 준비</text>
+  <text x="84" y="684" font-family="-apple-system,sans-serif" font-size="18" fill="#A0B4D0">조부모·손자녀는 다른 직계 부재 사유 추가 필요</text>
+
+  <!-- 체크 6 -->
+  <rect x="60" y="708" width="960" height="70" rx="10" fill="#0D2347"/>
+  <rect x="60" y="708" width="4" height="70" rx="2" fill="#A0B4D0"/>
+  <text x="84" y="738" font-family="-apple-system,sans-serif" font-size="22" fill="#FFFFFF">☑ 사업주 거부 가능 사유 4가지 해당 여부 확인</text>
+  <text x="84" y="764" font-family="-apple-system,sans-serif" font-size="18" fill="#A0B4D0">근속 6개월 미만 / 다른 가족 돌봄 가능 / 대체인력 불가 / 중대 경영 지장</text>
+
+  <!-- 핵심 안내 -->
+  <rect x="60" y="796" width="960" height="80" rx="14" fill="#34D399" opacity="0.12"/>
+  <rect x="60" y="796" width="4" height="80" rx="2" fill="#34D399"/>
+  <text x="540" y="832" font-family="-apple-system,sans-serif" font-size="26" font-weight="900" fill="#34D399" text-anchor="middle">모든 항목 ☑ 완료 → 사업주 거부 불가</text>
+  <text x="540" y="864" font-family="-apple-system,sans-serif" font-size="22" fill="#FFFFFF" text-anchor="middle">거부 시 고용노동부 ☎1350 신고 가능</text>
+
+  <!-- 공식 링크 -->
+  <rect x="60" y="894" width="960" height="68" rx="14" fill="#1A3270"/>
+  <text x="540" y="924" font-family="-apple-system,sans-serif" font-size="22" fill="#FFFFFF" text-anchor="middle">공식 안내: 찾기쉬운생활법령 easylaw.go.kr</text>
+  <text x="540" y="952" font-family="-apple-system,sans-serif" font-size="20" fill="#A0B4D0" text-anchor="middle">정부24 gov.kr → "가족돌봄휴직" 검색</text>
+
+  <text x="540" y="1036" font-family="-apple-system,sans-serif" font-size="20" fill="#4B6080" text-anchor="middle">남녀고용평등법 기준 | 2026.05 기준</text>
+</svg>

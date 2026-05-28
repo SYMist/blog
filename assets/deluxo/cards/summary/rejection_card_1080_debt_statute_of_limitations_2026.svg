@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- Header -->
+  <rect x="60" y="60" width="960" height="110" rx="16" fill="#EF4444" opacity="0.9"/>
+  <text x="540" y="108" font-family="-apple-system, sans-serif" font-size="38" font-weight="700" fill="#ffffff" text-anchor="middle">소멸시효 주장 실패 사유 TOP 5</text>
+  <text x="540" y="148" font-family="-apple-system, sans-serif" font-size="26" fill="#ffffff" text-anchor="middle">이 실수를 피해야 소멸시효 완성을 인정받을 수 있습니다</text>
+
+  <!-- Point 1 -->
+  <rect x="60" y="200" width="960" height="120" rx="12" fill="#0D2347"/>
+  <rect x="60" y="200" width="8" height="120" rx="4" fill="#EF4444"/>
+  <text x="100" y="246" font-family="-apple-system, sans-serif" font-size="28" font-weight="700" fill="#EF4444">① 이자 또는 원금 일부를 납부한 경우</text>
+  <text x="100" y="284" font-family="-apple-system, sans-serif" font-size="24" fill="#A0B4D0">납부 = 채무 승인 → 그 시점부터 소멸시효 재기산</text>
+  <text x="100" y="312" font-family="-apple-system, sans-serif" font-size="22" fill="#ffffff">금융기관이 이자 납부를 유도하는 이유가 바로 이것</text>
+
+  <!-- Point 2 -->
+  <rect x="60" y="332" width="960" height="120" rx="12" fill="#1A3270"/>
+  <rect x="60" y="332" width="8" height="120" rx="4" fill="#F59E0B"/>
+  <text x="100" y="378" font-family="-apple-system, sans-serif" font-size="28" font-weight="700" fill="#F59E0B">② 법원에서 원용(항변)을 하지 않은 경우</text>
+  <text x="100" y="416" font-family="-apple-system, sans-serif" font-size="24" fill="#A0B4D0">소멸시효 완성 ≠ 자동 소멸 — 채무자가 직접 주장해야</text>
+  <text x="100" y="444" font-family="-apple-system, sans-serif" font-size="22" fill="#ffffff">법원이 직권으로 인정해 주지 않음 — 서면으로 명시 필수</text>
+
+  <!-- Point 3 -->
+  <rect x="60" y="464" width="960" height="120" rx="12" fill="#0D2347"/>
+  <rect x="60" y="464" width="8" height="120" rx="4" fill="#EF4444"/>
+  <text x="100" y="510" font-family="-apple-system, sans-serif" font-size="28" font-weight="700" fill="#EF4444">③ 기산점 계산 오류</text>
+  <text x="100" y="548" font-family="-apple-system, sans-serif" font-size="24" fill="#A0B4D0">채권 발생일이 아닌 마지막 거래일부터 계산해야 함</text>
+  <text x="100" y="576" font-family="-apple-system, sans-serif" font-size="22" fill="#ffffff">분할 납부 약정은 각 회차 변제일부터 각각 별도 기산</text>
+
+  <!-- Point 4 -->
+  <rect x="60" y="596" width="960" height="120" rx="12" fill="#1A3270"/>
+  <rect x="60" y="596" width="8" height="120" rx="4" fill="#F59E0B"/>
+  <text x="100" y="642" font-family="-apple-system, sans-serif" font-size="28" font-weight="700" fill="#F59E0B">④ 시효 완성 후 "갚겠다"고 명시적 표현</text>
+  <text x="100" y="680" font-family="-apple-system, sans-serif" font-size="24" fill="#A0B4D0">문자·통화·서면 등 어떤 형식이든 포기 의사로 인정될 수 있음</text>
+  <text x="100" y="708" font-family="-apple-system, sans-serif" font-size="22" fill="#ffffff">2025 판례 변경 후에도 명시적 포기 의사는 여전히 유효</text>
+
+  <!-- Point 5 -->
+  <rect x="60" y="728" width="960" height="120" rx="12" fill="#0D2347"/>
+  <rect x="60" y="728" width="8" height="120" rx="4" fill="#EF4444"/>
+  <text x="100" y="774" font-family="-apple-system, sans-serif" font-size="28" font-weight="700" fill="#EF4444">⑤ 판결 채권을 단기시효로 착각</text>
+  <text x="100" y="812" font-family="-apple-system, sans-serif" font-size="24" fill="#A0B4D0">판결·화해로 확정된 채권은 모두 10년 — 단기는 10년으로 연장</text>
+  <text x="100" y="840" font-family="-apple-system, sans-serif" font-size="22" fill="#ffffff">판결 확정 후 10년 내 다시 강제집행 또는 소 제기 필요</text>
+
+  <!-- Footer -->
+  <text x="540" y="980" font-family="-apple-system, sans-serif" font-size="26" font-weight="700" fill="#F59E0B" text-anchor="middle">deluxo.co.kr</text>
+  <text x="540" y="1016" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">소멸시효 주장 실패 사유 TOP 5 | 2026년 최신</text>
+</svg>

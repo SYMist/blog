@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="80" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="800" fill="#F59E0B">채무조정 실수 TOP 5</text>
+  <rect x="60" y="110" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <rect x="60" y="145" width="960" height="160" rx="20" fill="rgba(239,68,68,0.12)"/>
+  <rect x="80" y="165" width="60" height="44" rx="22" fill="#EF4444"/>
+  <text x="110" y="195" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">1</text>
+  <text x="160" y="195" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#FFF">사설 업체에 먼저 연락</text>
+  <text x="160" y="240" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">수임료 200~500만 원 · 무자격 브로커 피해 다수</text>
+  <text x="160" y="280" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">신용회복위원회 1600-5500 무료 상담 먼저!</text>
+
+  <rect x="60" y="325" width="960" height="160" rx="20" fill="rgba(239,68,68,0.08)"/>
+  <rect x="80" y="345" width="60" height="44" rx="22" fill="#EF4444"/>
+  <text x="110" y="375" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">2</text>
+  <text x="160" y="375" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#FFF">제도 선택 오류</text>
+  <text x="160" y="420" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">워크아웃으로 해결 가능한데 바로 파산 신청 → 불이익</text>
+  <text x="160" y="460" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">단계적 접근: 프리워크아웃→워크아웃→회생→파산</text>
+
+  <rect x="60" y="505" width="960" height="160" rx="20" fill="rgba(239,68,68,0.12)"/>
+  <rect x="80" y="525" width="60" height="44" rx="22" fill="#EF4444"/>
+  <text x="110" y="555" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">3</text>
+  <text x="160" y="555" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#FFF">재산·소득 은닉 시도</text>
+  <text x="160" y="600" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">법원 조사에서 발각 → 면책 불허·사기파산죄 처벌</text>
+  <text x="160" y="640" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">모든 재산·채무를 정직하게 신고하세요!</text>
+
+  <rect x="60" y="685" width="960" height="160" rx="20" fill="rgba(239,68,68,0.08)"/>
+  <rect x="80" y="705" width="60" height="44" rx="22" fill="#EF4444"/>
+  <text x="110" y="735" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">4</text>
+  <text x="160" y="735" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#FFF">비면책 채권 간과</text>
+  <text x="160" y="780" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">세금·벌금·양육비·고의 불법행위 → 파산해도 면책 안 됨</text>
+  <text x="160" y="820" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">비면책 채권 비중 높으면 파산 실익 재검토!</text>
+
+  <rect x="60" y="865" width="960" height="160" rx="20" fill="rgba(239,68,68,0.12)"/>
+  <rect x="80" y="885" width="60" height="44" rx="22" fill="#EF4444"/>
+  <text x="110" y="915" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">5</text>
+  <text x="160" y="915" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#FFF">변제금 연체로 폐지</text>
+  <text x="160" y="960" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">개인회생 중 2회 이상 변제금 미납 → 인가 취소 위험</text>
+  <text x="160" y="1000" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">변제금 자동이체 설정 · 어려우면 변제계획 변경 신청!</text>
+</svg>

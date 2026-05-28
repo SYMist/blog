@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="blueG" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1E40AF"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <!-- Title -->
+  <text x="540" y="72" text-anchor="middle" fill="#E2E8F0" font-size="28" font-weight="700" font-family="sans-serif">자동차 리스 vs 장기렌트 — 핵심 비교 요약</text>
+  <rect x="340" y="86" width="400" height="3" rx="2" fill="#3B82F6" opacity="0.6"/>
+
+  <!-- 3 Key Number Cards -->
+  <g transform="translate(40,110)">
+    <!-- Card 1 -->
+    <rect x="0" y="0" width="310" height="130" rx="16" fill="#1e293b"/>
+    <rect x="0" y="0" width="310" height="5" rx="3" fill="#3B82F6"/>
+    <text x="155" y="40" text-anchor="middle" fill="#93C5FD" font-size="16" font-weight="600" font-family="sans-serif">비용 인정 한도 (리스=렌트)</text>
+    <text x="155" y="85" text-anchor="middle" fill="#FFFFFF" font-size="44" font-weight="800" font-family="sans-serif">연 1,500만 원</text>
+    <text x="155" y="115" text-anchor="middle" fill="#94A3B8" font-size="14" font-family="sans-serif">감가 800만 + 유지 700만</text>
+    <!-- Card 2 -->
+    <rect x="330" y="0" width="310" height="130" rx="16" fill="#1e293b"/>
+    <rect x="330" y="0" width="310" height="5" rx="3" fill="#10B981"/>
+    <text x="485" y="40" text-anchor="middle" fill="#6EE7B7" font-size="16" font-weight="600" font-family="sans-serif">렌트 부가세 공제 (경차·9인승)</text>
+    <text x="485" y="85" text-anchor="middle" fill="#FFFFFF" font-size="44" font-weight="800" font-family="sans-serif">10%</text>
+    <text x="485" y="115" text-anchor="middle" fill="#94A3B8" font-size="14" font-family="sans-serif">리스는 공제 불가</text>
+    <!-- Card 3 -->
+    <rect x="660" y="0" width="340" height="130" rx="16" fill="#1e293b"/>
+    <rect x="660" y="0" width="340" height="5" rx="3" fill="#F59E0B"/>
+    <text x="830" y="40" text-anchor="middle" fill="#FCD34D" font-size="16" font-weight="600" font-family="sans-serif">중도 해지 위약금</text>
+    <text x="830" y="85" text-anchor="middle" fill="#FFFFFF" font-size="44" font-weight="800" font-family="sans-serif">15~40%</text>
+    <text x="830" y="115" text-anchor="middle" fill="#94A3B8" font-size="14" font-family="sans-serif">승계 활용 시 0원</text>
+  </g>
+
+  <!-- 핵심 차이 6항목 비교 -->
+  <text x="540" y="290" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="700" font-family="sans-serif">핵심 차이 6가지</text>
+
+  <!-- Comparison bars -->
+  <g transform="translate(60,310)">
+    <!-- Headers -->
+    <rect x="0" y="0" width="960" height="40" rx="8" fill="#334155"/>
+    <text x="240" y="28" text-anchor="middle" fill="#93C5FD" font-size="16" font-weight="700" font-family="sans-serif">항목</text>
+    <text x="560" y="28" text-anchor="middle" fill="#60A5FA" font-size="16" font-weight="700" font-family="sans-serif">자동차 리스</text>
+    <text x="820" y="28" text-anchor="middle" fill="#34D399" font-size="16" font-weight="700" font-family="sans-serif">장기렌트</text>
+
+    <!-- Row 1 -->
+    <rect x="0" y="48" width="960" height="44" rx="6" fill="#1e293b"/>
+    <text x="240" y="77" text-anchor="middle" fill="#E2E8F0" font-size="15" font-weight="600" font-family="sans-serif">계약 성격</text>
+    <text x="560" y="77" text-anchor="middle" fill="#CBD5E1" font-size="15" font-family="sans-serif">금융상품 (여신)</text>
+    <text x="820" y="77" text-anchor="middle" fill="#CBD5E1" font-size="15" font-family="sans-serif">임대차 계약</text>
+
+    <!-- Row 2 -->
+    <rect x="0" y="98" width="960" height="44" rx="6" fill="#0f172a"/>
+    <text x="240" y="127" text-anchor="middle" fill="#E2E8F0" font-size="15" font-weight="600" font-family="sans-serif">번호판</text>
+    <text x="560" y="127" text-anchor="middle" fill="#60A5FA" font-size="15" font-weight="600" font-family="sans-serif">일반 번호판</text>
+    <text x="820" y="127" text-anchor="middle" fill="#CBD5E1" font-size="15" font-family="sans-serif">하·호·배 (렌터카)</text>
+
+    <!-- Row 3 -->
+    <rect x="0" y="148" width="960" height="44" rx="6" fill="#1e293b"/>
+    <text x="240" y="177" text-anchor="middle" fill="#E2E8F0" font-size="15" font-weight="600" font-family="sans-serif">보험·세금</text>
+    <text x="560" y="177" text-anchor="middle" fill="#CBD5E1" font-size="15" font-family="sans-serif">이용자 별도 납부</text>
+    <text x="820" y="177" text-anchor="middle" fill="#34D399" font-size="15" font-weight="600" font-family="sans-serif">월 렌트료에 포함</text>
+
+    <!-- Row 4 -->
+    <rect x="0" y="198" width="960" height="44" rx="6" fill="#0f172a"/>
+    <text x="240" y="227" text-anchor="middle" fill="#E2E8F0" font-size="15" font-weight="600" font-family="sans-serif">신용 영향</text>
+    <text x="560" y="227" text-anchor="middle" fill="#F87171" font-size="15" font-weight="600" font-family="sans-serif">대출 인식 → 하락 가능</text>
+    <text x="820" y="227" text-anchor="middle" fill="#34D399" font-size="15" font-weight="600" font-family="sans-serif">영향 없음</text>
+
+    <!-- Row 5 -->
+    <rect x="0" y="248" width="960" height="44" rx="6" fill="#1e293b"/>
+    <text x="240" y="277" text-anchor="middle" fill="#E2E8F0" font-size="15" font-weight="600" font-family="sans-serif">건보료 영향</text>
+    <text x="560" y="277" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="600" font-family="sans-serif">간접 영향 가능</text>
+    <text x="820" y="277" text-anchor="middle" fill="#34D399" font-size="15" font-weight="600" font-family="sans-serif">영향 없음 (비자산)</text>
+
+    <!-- Row 6 -->
+    <rect x="0" y="298" width="960" height="44" rx="6" fill="#0f172a"/>
+    <text x="240" y="327" text-anchor="middle" fill="#E2E8F0" font-size="15" font-weight="600" font-family="sans-serif">부가세 공제</text>
+    <text x="560" y="327" text-anchor="middle" fill="#F87171" font-size="15" font-weight="600" font-family="sans-serif">불가 (면세 금융)</text>
+    <text x="820" y="327" text-anchor="middle" fill="#34D399" font-size="15" font-weight="600" font-family="sans-serif">경차·9인승+ 가능</text>
+  </g>
+
+  <!-- Bottom: 결론 -->
+  <rect x="60" y="680" width="960" height="50" rx="12" fill="#1E40AF" opacity="0.3"/>
+  <text x="540" y="712" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="700" font-family="sans-serif">결론: 건보료·신용 관리 → 렌트 | 월 납입금 최소화 → 리스 | 경차·9인승 → 렌트 필수</text>
+
+  <!-- 차종별 월 납입금 비교 -->
+  <text x="540" y="775" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="700" font-family="sans-serif">차종별 월 납입금 비교 (48개월 기준)</text>
+
+  <!-- G80 -->
+  <g transform="translate(60,795)">
+    <rect x="0" y="0" width="300" height="120" rx="14" fill="#1e293b"/>
+    <rect x="12" y="10" width="8" height="30" rx="4" fill="#3B82F6"/>
+    <text x="30" y="30" fill="#93C5FD" font-size="14" font-weight="700" font-family="sans-serif">제네시스 G80 2.5T</text>
+    <text x="30" y="56" fill="#CBD5E1" font-size="13" font-family="sans-serif">리스: 591,600원/월</text>
+    <text x="30" y="78" fill="#CBD5E1" font-size="13" font-family="sans-serif">렌트: 610,870원/월</text>
+    <text x="30" y="105" fill="#FCD34D" font-size="12" font-weight="600" font-family="sans-serif">TCO → 렌트 유리 (세금·보험 포함)</text>
+  </g>
+
+  <!-- Grandeur -->
+  <g transform="translate(390,795)">
+    <rect x="0" y="0" width="300" height="120" rx="14" fill="#1e293b"/>
+    <rect x="12" y="10" width="8" height="30" rx="4" fill="#10B981"/>
+    <text x="30" y="30" fill="#6EE7B7" font-size="14" font-weight="700" font-family="sans-serif">그랜저 HEV 1.6</text>
+    <text x="30" y="56" fill="#CBD5E1" font-size="13" font-family="sans-serif">리스: 445,030원/월</text>
+    <text x="30" y="78" fill="#CBD5E1" font-size="13" font-family="sans-serif">렌트: 488,000원/월</text>
+    <text x="30" y="105" fill="#60A5FA" font-size="12" font-weight="600" font-family="sans-serif">월 납입금 → 리스 월 43,000원 저렴</text>
+  </g>
+
+  <!-- Ioniq 6 -->
+  <g transform="translate(720,795)">
+    <rect x="0" y="0" width="300" height="120" rx="14" fill="#1e293b"/>
+    <rect x="12" y="10" width="8" height="30" rx="4" fill="#A78BFA"/>
+    <text x="30" y="30" fill="#C4B5FD" font-size="14" font-weight="700" font-family="sans-serif">아이오닉 6 LR</text>
+    <text x="30" y="56" fill="#CBD5E1" font-size="13" font-family="sans-serif">리스: 522,640원/월</text>
+    <text x="30" y="78" fill="#CBD5E1" font-size="13" font-family="sans-serif">렌트: 575,300원/월</text>
+    <text x="30" y="105" fill="#FCD34D" font-size="12" font-weight="600" font-family="sans-serif">반납 → 렌트 / 인수 → 리스</text>
+  </g>
+
+  <!-- Warning -->
+  <rect x="60" y="935" width="960" height="44" rx="10" fill="#7F1D1D" opacity="0.4"/>
+  <text x="90" y="963" fill="#FCA5A5" font-size="15" font-weight="600" font-family="sans-serif">⚠ 2026년 업무전용 보험 미가입 시 비용 100% 손금불산입 — 리스는 직접 관리 필수, 렌트는 렌트사 통합 관리</text>
+
+  <!-- Footer -->
+  <text x="540" y="1010" text-anchor="middle" fill="#64748B" font-size="13" font-family="sans-serif">2026년 4월 기준 | 48개월·선납금 20~30%·연 2만km 기준 | essencial</text>
+  <rect x="60" y="1025" width="960" height="2" rx="1" fill="#334155"/>
+  <text x="540" y="1055" text-anchor="middle" fill="#475569" font-size="12" font-family="sans-serif">※ 견적은 금융사·렌트사별 조건에 따라 달라질 수 있습니다</text>
+</svg>

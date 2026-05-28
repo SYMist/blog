@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#F59E0B">육아휴직 급여 2025 vs 2026 변화</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <rect x="60" y="130" width="960" height="65" rx="16" fill="rgba(245,158,11,0.15)"/>
+  <text x="200" y="172" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#F59E0B">항목</text>
+  <text x="520" y="172" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#F59E0B">기존 (2024 이전)</text>
+  <text x="860" y="172" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#F59E0B">2025~2026</text>
+
+  <rect x="60" y="207" width="960" height="110" rx="0" fill="rgba(255,255,255,0.04)"/>
+  <text x="200" y="270" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#EAF2FF">상한액</text>
+  <text x="520" y="260" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#94A3B8">월 150만 원</text>
+  <text x="520" y="290" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#94A3B8">(단일)</text>
+  <text x="860" y="250" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#22C55E">250→200→160만 원</text>
+  <text x="860" y="280" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#22C55E">(계단식 대폭 인상)</text>
+
+  <rect x="60" y="329" width="960" height="110" rx="0" fill="rgba(59,130,246,0.08)"/>
+  <text x="200" y="392" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#EAF2FF">사후지급금</text>
+  <text x="520" y="382" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#94A3B8">급여의 25%</text>
+  <text x="520" y="412" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#94A3B8">복직 6개월 후 지급</text>
+  <rect x="790" y="373" width="140" height="40" rx="20" fill="rgba(34,197,94,0.2)"/>
+  <text x="860" y="400" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#22C55E">폐지</text>
+
+  <rect x="60" y="451" width="960" height="110" rx="0" fill="rgba(255,255,255,0.04)"/>
+  <text x="200" y="514" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#EAF2FF">6+6 특례 상한</text>
+  <text x="520" y="504" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#94A3B8">부모 각각</text>
+  <text x="520" y="534" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#94A3B8">최대 200만 원</text>
+  <text x="860" y="504" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#22C55E">부모 각각 최대</text>
+  <text x="860" y="534" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#22C55E">450만 원 (합산 900만)</text>
+
+  <rect x="60" y="573" width="960" height="110" rx="0" fill="rgba(59,130,246,0.08)"/>
+  <text x="200" y="636" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#EAF2FF">근로시간 단축 대상</text>
+  <text x="520" y="626" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#94A3B8">만 8세 이하</text>
+  <text x="860" y="616" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#22C55E">만 12세 이하</text>
+  <text x="860" y="646" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#22C55E">(초등 6학년까지)</text>
+
+  <rect x="60" y="695" width="960" height="110" rx="0" fill="rgba(255,255,255,0.04)"/>
+  <text x="200" y="758" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#EAF2FF">단축 급여 상한</text>
+  <text x="520" y="748" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#94A3B8">200만 / 150만</text>
+  <text x="860" y="748" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#22C55E">250만 / 160만 원</text>
+
+  <rect x="60" y="817" width="960" height="110" rx="0" fill="rgba(59,130,246,0.08)"/>
+  <text x="200" y="880" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#EAF2FF">비밀유지 의무</text>
+  <text x="520" y="880" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#94A3B8">없음</text>
+  <text x="860" y="870" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#22C55E">신설 (2026)</text>
+  <text x="860" y="900" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#22C55E">난임·단축 사실 보호</text>
+
+  <rect x="60" y="960" width="960" height="80" rx="16" fill="rgba(245,158,11,0.12)"/>
+  <text x="540" y="1010" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#F59E0B">2026년 = 상한액 인상 + 사후지급금 폐지 + 6+6 확대</text>
+</svg>

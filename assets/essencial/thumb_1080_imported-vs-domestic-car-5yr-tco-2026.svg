@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#15803D"/>
+      <stop offset="100%" stop-color="#14532d"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E40AF"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <circle cx="920" cy="160" r="220" fill="#1E40AF" fill-opacity="0.08"/>
+  <circle cx="160" cy="920" r="180" fill="#15803D" fill-opacity="0.08"/>
+
+  <!-- Chips -->
+  <rect x="40" y="40" width="100" height="34" rx="17" fill="#1E40AF" fill-opacity="0.3" stroke="#1E40AF" stroke-width="1.5"/>
+  <text x="90" y="63" text-anchor="middle" fill="#BFDBFE" font-size="14" font-weight="700" font-family="sans-serif">자동차</text>
+
+  <rect x="156" y="40" width="140" height="34" rx="17" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="226" y="63" text-anchor="middle" fill="#94A3B8" font-size="14" font-family="sans-serif">2026.05 기준</text>
+
+  <rect x="312" y="40" width="160" height="34" rx="17" fill="#14532d" stroke="#15803D" stroke-width="1.5"/>
+  <text x="392" y="63" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">5년 TCO 계산</text>
+
+  <!-- Title -->
+  <text x="540" y="180" text-anchor="middle" fill="#FFFFFF" font-size="46" font-weight="800" font-family="sans-serif">수입차 vs 국산차</text>
+  <text x="540" y="240" text-anchor="middle" fill="#FFFFFF" font-size="46" font-weight="800" font-family="sans-serif">5년 총비용 비교</text>
+  <text x="540" y="288" text-anchor="middle" fill="#93C5FD" font-size="24" font-weight="600" font-family="sans-serif">중형 세단 2.0L · 7만 5천km</text>
+
+  <rect x="200" y="316" width="680" height="3" rx="1.5" fill="#1E40AF" fill-opacity="0.6"/>
+
+  <!-- Key stat -->
+  <rect x="180" y="334" width="720" height="80" rx="16" fill="#1e293b" fill-opacity="0.9" stroke="#334155" stroke-width="1.5"/>
+  <text x="540" y="372" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="700" font-family="sans-serif">5년 TCO 격차</text>
+  <text x="540" y="402" text-anchor="middle" fill="#FFFFFF" font-size="24" font-weight="800" font-family="sans-serif">약 3,254만원 차이 · 월 약 54만원</text>
+
+  <!-- Two cards -->
+  <rect x="40" y="434" width="480" height="510" rx="20" fill="url(#greenGrad)" fill-opacity="0.85" stroke="#15803D" stroke-width="2"/>
+  <text x="280" y="486" text-anchor="middle" fill="#FFFFFF" font-size="26" font-weight="800" font-family="sans-serif">국산 중형</text>
+  <text x="280" y="514" text-anchor="middle" fill="#86EFAC" font-size="15" font-family="sans-serif">쏘나타 2.0급 · 3,300만원</text>
+  <line x1="70" y1="534" x2="480" y2="534" stroke="#14532d" stroke-width="1.5"/>
+  <text x="280" y="572" text-anchor="middle" fill="#86EFAC" font-size="28" font-weight="800" font-family="sans-serif">5년 약 3,776만원</text>
+  <text x="280" y="602" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="700" font-family="sans-serif">월 약 63만원</text>
+  <line x1="70" y1="624" x2="480" y2="624" stroke="#14532d" stroke-width="1.5"/>
+  <text x="80" y="654" fill="#86EFAC" font-size="15" font-weight="700" font-family="sans-serif">✅ 보험료 연 70만원</text>
+  <text x="80" y="682" fill="#86EFAC" font-size="15" font-weight="700" font-family="sans-serif">✅ 정비비 5년 280만원</text>
+  <text x="80" y="710" fill="#86EFAC" font-size="15" font-weight="700" font-family="sans-serif">✅ 잔존 50% (1,650만원)</text>
+  <line x1="70" y1="730" x2="480" y2="730" stroke="#14532d" stroke-width="1.5"/>
+  <rect x="70" y="748" width="380" height="38" rx="10" fill="#15803D" fill-opacity="0.4"/>
+  <text x="260" y="773" text-anchor="middle" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">총비용 절감이 우선이면 선택</text>
+  <text x="280" y="822" text-anchor="middle" fill="#CBD5E1" font-size="14" font-family="sans-serif">차량모델등급 약 16등급</text>
+  <text x="280" y="848" text-anchor="middle" fill="#CBD5E1" font-size="14" font-family="sans-serif">→ 자차보험료 50% 저렴</text>
+
+  <rect x="560" y="434" width="480" height="510" rx="20" fill="url(#blueGrad)" fill-opacity="0.85" stroke="#3B82F6" stroke-width="2"/>
+  <text x="800" y="486" text-anchor="middle" fill="#FFFFFF" font-size="26" font-weight="800" font-family="sans-serif">수입 중형</text>
+  <text x="800" y="514" text-anchor="middle" fill="#BFDBFE" font-size="15" font-family="sans-serif">BMW 320i급 · 6,200만원</text>
+  <line x1="590" y1="534" x2="1000" y2="534" stroke="#1e3a8a" stroke-width="1.5"/>
+  <text x="800" y="572" text-anchor="middle" fill="#BFDBFE" font-size="28" font-weight="800" font-family="sans-serif">5년 약 7,030만원</text>
+  <text x="800" y="602" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="700" font-family="sans-serif">월 약 117만원</text>
+  <line x1="590" y1="624" x2="1000" y2="624" stroke="#1e3a8a" stroke-width="1.5"/>
+  <text x="600" y="654" fill="#FCA5A5" font-size="15" font-weight="700" font-family="sans-serif">❌ 보험료 연 160만원</text>
+  <text x="600" y="682" fill="#FCA5A5" font-size="15" font-weight="700" font-family="sans-serif">❌ 정비비 5년 700만원</text>
+  <text x="600" y="710" fill="#FCA5A5" font-size="15" font-weight="700" font-family="sans-serif">❌ 잔존 40% (2,480만원)</text>
+  <line x1="590" y1="730" x2="1000" y2="730" stroke="#1e3a8a" stroke-width="1.5"/>
+  <rect x="590" y="748" width="380" height="38" rx="10" fill="#1E40AF" fill-opacity="0.4"/>
+  <text x="780" y="773" text-anchor="middle" fill="#BFDBFE" font-size="13" font-weight="700" font-family="sans-serif">사업자·장기 보유면 고려</text>
+  <text x="800" y="822" text-anchor="middle" fill="#CBD5E1" font-size="14" font-family="sans-serif">차량모델등급 약 6등급</text>
+  <text x="800" y="848" text-anchor="middle" fill="#CBD5E1" font-size="14" font-family="sans-serif">→ 절대 감가 2배 (3,720만원)</text>
+
+  <text x="40" y="1060" fill="#64748B" font-size="13" font-family="sans-serif">essencial | 자동차 · 2026.05 기준 · 중형 2.0L · 5년 7만 5천km · 실제 값은 차종·조건에 따라 다릅니다</text>
+</svg>

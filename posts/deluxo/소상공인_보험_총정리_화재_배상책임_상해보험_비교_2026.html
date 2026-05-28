@@ -1,0 +1,671 @@
+<!-- tistory_policy_template.html -->
+<!-- ✅ 티스토리 HTML 모드: 통째로 붙여넣고 { }만 수정 -->
+
+<!-- ✅ Schema.org 구조화 데이터 (검색 리치결과용) -->
+<div style="display:none">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "소상공인 보험 총정리 — 화재·배상책임·상해보험 비교·가입 가이드 (2026)",
+      "description": "2026년 소상공인 필수 보험 총정리. 화재보험·배상책임보험·풍수해보험·고용보험·노란우산 상해보험까지 의무 가입 여부, 보험료 지원, 보상 한도, 과태료를 한눈에 비교합니다.",
+      "datePublished": "2026-03-22",
+      "dateModified": "2026-03-22",
+      "author": {"@type": "Person", "name": "정책길잡이"},
+      "publisher": {"@type": "Organization", "name": "정책길잡이 블로그"}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "소상공인 화재보험은 의무인가요?", "acceptedAnswer": {"@type": "Answer", "text": "다중이용업소(PC방, 노래방, 고시원 등 24개 업종)와 100㎡ 이상 음식점·숙박업은 화재배상책임보험 또는 재난배상책임보험 가입이 법적 의무입니다. 미가입 시 최대 300만 원 과태료가 부과됩니다."}},
+        {"@type": "Question", "name": "정부가 소상공인 보험료를 지원해 주나요?", "acceptedAnswer": {"@type": "Answer", "text": "네. 2026년 사회안전망 지원 사업을 통해 풍수해·화재보험 가입 시 보험료의 50~92%를 정부·지자체가 부담합니다. 고용보험도 최대 80% 환급 지원됩니다."}},
+        {"@type": "Question", "name": "풍수해보험 보장 한도가 얼마인가요?", "acceptedAnswer": {"@type": "Answer", "text": "2026년부터 연간 보장 한도가 사고당 한도의 2배로 확대되었습니다. 사고당 5,000만 원이면 연간 1억 원까지 보장됩니다. 반복 재해에도 추가 보상이 가능합니다."}},
+        {"@type": "Question", "name": "노란우산공제 가입하면 보험도 되나요?", "acceptedAnswer": {"@type": "Answer", "text": "노란우산공제 가입 시 무료 단체상해보험이 자동 제공됩니다. 가입 후 2년간 상해 사망·후유장해 시 월 부금의 최대 150배(월 10만 원 납입 시 1,500만 원)를 보험금으로 받을 수 있습니다."}},
+        {"@type": "Question", "name": "민간 화재보험과 정부 지원 보험 중 뭐가 유리한가요?", "acceptedAnswer": {"@type": "Answer", "text": "정부 지원 보험은 보험료 부담이 적지만 보장 한도가 3~5천만 원으로 정해져 있습니다. 자산 가치가 큰 사업장이나 특수 위험(의료장비, 대형 주방 등)이 있는 경우 민간 종합보험의 특약을 추가하는 하이브리드 방식이 효과적입니다."}}
+      ]
+    }
+  ]
+}
+</script>
+</div>
+
+<style>
+  :root{
+    --blue:#1D4ED8; --blue2:#1E40AF;
+    --white:#FFFFFF; --text:#111827;
+    --muted:#4B5563; --border:#E5E7EB;
+    --bg:#F9FAFB; --blueLight:#E8F0FF;
+  }
+  .wrap{max-width:860px;margin:0 auto;line-height:1.8;color:var(--text);}
+  .meta{color:var(--muted);font-size:.95rem;margin:6px 0 18px;}
+  .badge{display:inline-block;background:var(--blueLight);border:1px solid var(--border);padding:3px 10px;border-radius:999px;font-size:.85rem;margin-right:8px;}
+  .notice{background:#fff7ed;border:1px solid #fed7aa;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .lead{background:#f8fafc;border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .keysum{background:#fefce8;border:1px solid #fde68a;padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .summary{background:#eff6ff;border:1px solid #bfdbfe;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .toc{background:var(--bg);border:1px solid var(--border);padding:14px 16px;border-radius:12px;margin:16px 0 22px;}
+  .toc a{text-decoration:none;color:var(--blue);}
+  .toc ul{margin:8px 0 0 18px;}
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 6px;}
+  .wrap a.btn,.wrap a.btn:link,.wrap a.btn:visited{
+    display:inline-flex;align-items:center;justify-content:center;
+    padding:10px 14px;border-radius:10px;border:1px solid var(--blue);
+    background:var(--blue) !important;color:var(--white) !important;
+    text-decoration:none !important;font-weight:800;
+  }
+  .wrap a.btn:hover,.wrap a.btn:active,.wrap a.btn:focus{
+    background:var(--blue2) !important;border-color:var(--blue2) !important;color:var(--white) !important;
+  }
+  .wrap a.btn.secondary,.wrap a.btn.secondary:link,.wrap a.btn.secondary:visited{
+    background:var(--white) !important;color:var(--blue) !important;border-color:var(--blue) !important;
+  }
+  .wrap a.btn.secondary:hover,.wrap a.btn.secondary:active,.wrap a.btn.secondary:focus{
+    background:var(--bg) !important;color:var(--blue2) !important;border-color:var(--blue2) !important;
+  }
+  .wrap a.btn.gray,.wrap a.btn.gray:link,.wrap a.btn.gray:visited{
+    background:#111827 !important;border-color:#111827 !important;color:var(--white) !important;
+  }
+  .wrap a.btn.gray:hover,.wrap a.btn.gray:active,.wrap a.btn.gray:focus{
+    background:#0b1220 !important;border-color:#0b1220 !important;color:var(--white) !important;
+  }
+  table{width:100%;border-collapse:collapse;margin:14px 0 10px;}
+  th,td{border:1px solid var(--border);padding:10px;vertical-align:top;}
+  th{background:#F3F4F6;text-align:left;}
+  .small{font-size:.95rem;color:var(--muted);}
+  h1{margin:0 0 8px;line-height:1.25;}
+  h2{margin-top:30px;padding-top:8px;border-top:1px solid var(--border);}
+  h3{margin-top:16px;}
+  .q{font-weight:900;margin:14px 0 6px;}
+  .a{margin:0 0 10px;}
+  .tips{background:#f0fdf4;border:1px solid #bbf7d0;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .ad{background:#f9fafb;border:1px dashed var(--border);padding:10px 12px;border-radius:10px;margin:12px 0;}
+  .footer{margin-top:26px;padding-top:14px;border-top:1px solid var(--border);color:var(--muted);font-size:.95rem;}
+</style>
+
+<div class="wrap">
+  <h1>소상공인 보험 총정리 — 화재·배상책임·상해보험 비교·가입 가이드 (2026)</h1>
+  <div class="meta">
+    <span class="badge">키워드: 소상공인 보험</span>
+    <span class="badge">업데이트: 2026-03-22</span>
+  </div>
+
+  <div class="notice">
+    <strong>먼저 확인!</strong><br/>
+    2026년부터 풍수해·지진보험 <strong>연간 보장 한도가 사고당 한도의 2배</strong>로 확대되었습니다. 또한 다중이용업소 화재배상책임보험 미가입 시 소방청 실시간 연동으로 <strong>즉각 행정 지도</strong> 대상이 됩니다. 의무 보험 가입 상태를 즉시 점검하세요.
+  </div>
+
+  <p class="small">
+    2026년 소상공인 필수 보험 총정리 — 화재보험·배상책임보험·풍수해보험 의무 가입 여부와 과태료, 고용보험료 80% 환급, 노란우산 무료 상해보험, 민간 종합보험 비교까지 한눈에 정리합니다.
+  </p>
+
+  <div class="lead">
+    "보험 가입은 나중에 하지" — 이 한 마디가 과태료 300만 원과 화재 시 수억 원 배상의 시작입니다. 2026년 소상공인 보험은 크게 바뀌었습니다. 풍수해보험 보장이 2배로 늘었고, 고용보험료를 최대 80% 돌려받으며, 노란우산공제만 가입해도 무료 상해보험이 따라옵니다. 문제는 <strong>"내 업종에 어떤 보험이 의무이고, 어디서 지원받을 수 있는지"</strong> 한눈에 정리된 정보가 없다는 것입니다.
+  </div>
+
+  <div class="keysum">
+    <strong>핵심 요약 3줄</strong><br/>
+    1. 다중이용업소(24개 업종) + 100㎡ 이상 음식점 → <strong>배상책임보험 의무</strong>, 미가입 시 과태료 <strong>최대 300만 원</strong><br/>
+    2. 정부 지원: 풍수해·화재보험료 <strong>50~92% 지원</strong> + 고용보험료 <strong>최대 80% 환급</strong> + 노란우산 <strong>무료 상해보험</strong><br/>
+    3. 민간 종합보험은 <strong>다이렉트 가입 시 25% 할인</strong> — 정부 보험 + 민간 특약 <strong>하이브리드 전략</strong>이 정답
+  </div>
+
+  <div class="summary" id="top">
+    <h2 style="border-top:none;margin-top:0;">✅ 5줄 요약(결론)</h2>
+    <ul>
+      <li><strong>의무 보험</strong>: 화재배상책임(24개 업종) + 재난배상책임(100㎡+) + 어린이놀이시설 + 가스사고 → <strong>즉시 가입 확인</strong></li>
+      <li><strong>정부 지원</strong>: 풍수해보험(시설 3천만+재고 2천만) + 화재보험(시설 2천만+집기 1천만+재고 2천만) 보험료 최대 92% 지원</li>
+      <li><strong>고용보험</strong>: 자영업자 고용보험료 <strong>80% 환급</strong> → 월 8,190원으로 폐업 시 실업급여 최대 <strong>202만 원×7개월</strong></li>
+      <li><strong>노란우산</strong>: 가입 즉시 <strong>무료 상해보험</strong>(월 부금×150배) + 소득공제 최대 <strong>600만 원</strong></li>
+      <li><strong>민간 보험</strong>: 정부 보험으로 기본 방어 → 고가 자산·특수 위험 사업장은 <strong>민간 특약 추가</strong></li>
+    </ul>
+
+    <div class="btns">
+      <a class="btn" href="https://www.sbiz.or.kr" target="_blank" rel="noopener">소상공인시장진흥공단</a>
+      <a class="btn gray" href="https://www.semas.or.kr" target="_blank" rel="noopener">소상공인연합회</a>
+      <a class="btn secondary" href="https://www.nrc.or.kr" target="_blank" rel="noopener">중소기업중앙회 (노란우산)</a>
+    </div>
+    <p class="small">※ 보험사·지자체별 조건이 다를 수 있습니다. 가입 전 공식 공고 확인 필수!</p>
+  </div>
+
+  <p class="small" style="text-align:center;">[이미지: 소상공인 보험 비교 요약 카드]</p>
+
+  <div class="toc">
+    <strong>목차</strong>
+    <ul>
+      <li><a href="#table">1) 보험 유형별 한눈에 비교표</a></li>
+      <li><a href="#quick">→ 나는 어디? 빠른 판단 가이드</a></li>
+      <li><a href="#mandatory">2) 의무 보험 — 미가입 시 과태료·행정처분</a></li>
+      <li><a href="#gov">3) 정부 지원 보험 — 풍수해·화재·고용보험</a></li>
+      <li><a href="#noran">4) 노란우산공제 무료 상해보험</a></li>
+      <li><a href="#private">5) 민간 종합보험 비교 — 삼성·현대·DB</a></li>
+      <li><a href="#hybrid">6) 하이브리드 가입 전략</a></li>
+      <li><a href="#incheon">7) 인천 특화 지원 정책</a></li>
+      <li><a href="#how">8) 가입 방법 (단계별)</a></li>
+      <li><a href="#docs">9) 서류 체크리스트</a></li>
+      <li><a href="#case">10) 경험/사례</a></li>
+      <li><a href="#mistake">11) 실수 TOP 5</a></li>
+      <li><a href="#faq">12) FAQ 10개</a></li>
+      <li><a href="#check">13) 1분 체크리스트</a></li>
+      <li><a href="#update">업데이트 로그</a></li>
+    </ul>
+  </div>
+
+  <h2 id="table">1) 보험 유형별 한눈에 비교표</h2>
+  <table>
+    <thead>
+      <tr><th>보험 유형</th><th>의무 여부</th><th>대상</th><th>보상 한도</th><th>보험료 지원</th><th>과태료</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>다중이용업소<br/>화재배상책임</strong></td>
+        <td><strong>의무</strong></td>
+        <td>PC방·노래방·고시원 등 24개 업종</td>
+        <td>대인 1인 1.5억<br/>대물 사고당 10억</td>
+        <td>-</td>
+        <td>최대 300만 원</td>
+      </tr>
+      <tr>
+        <td><strong>재난배상책임</strong></td>
+        <td><strong>의무</strong></td>
+        <td>100㎡ 이상 음식점·숙박업</td>
+        <td>화재·폭발·붕괴<br/>대인·대물 배상</td>
+        <td>-</td>
+        <td>최대 300만 원</td>
+      </tr>
+      <tr>
+        <td><strong>풍수해·지진보험</strong></td>
+        <td>임의 (권장)</td>
+        <td>지하·1층 사업장 우선</td>
+        <td>시설·집기 3천만<br/>재고 2천만</td>
+        <td><strong>50~92%</strong></td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td><strong>화재보험<br/>(정부 지원)</strong></td>
+        <td>임의 (권장)</td>
+        <td>전 사업장<br/>(2층 이상 포함)</td>
+        <td>시설 2천만<br/>집기 1천만+재고 2천만</td>
+        <td><strong>50~92%</strong></td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td><strong>자영업자<br/>고용보험</strong></td>
+        <td>임의 (강력 권장)</td>
+        <td>전 소상공인</td>
+        <td>실업급여<br/>월 109~202만 원</td>
+        <td><strong>50~80%</strong></td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td><strong>노란우산<br/>무료 상해보험</strong></td>
+        <td>자동 부여</td>
+        <td>공제 가입자 전원</td>
+        <td>월 부금×150배<br/>(최대 1,500만 원)</td>
+        <td><strong>전액 무료</strong></td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td><strong>민간 종합<br/>화재보험</strong></td>
+        <td>임의</td>
+        <td>전 사업장</td>
+        <td>수억 원대 가능<br/>(가입자 선택)</td>
+        <td>다이렉트 25% 할인</td>
+        <td>-</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="ad">{광고 위치 1}</div>
+
+  <h3 id="quick">나는 어디? 빠른 판단 가이드</h3>
+  <table>
+    <thead>
+      <tr><th>내 상황</th><th>필수 가입 보험</th><th>추천 추가 보험</th><th>월 예상 비용</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>PC방·노래방·고시원 운영</strong></td>
+        <td>화재배상책임보험 (의무)</td>
+        <td>풍수해보험 + 고용보험 + 노란우산</td>
+        <td>의무: 연 2~5만 원<br/>추가: 월 1~3만 원</td>
+      </tr>
+      <tr>
+        <td><strong>100㎡+ 음식점·카페</strong></td>
+        <td>재난배상책임보험 (의무)</td>
+        <td>화재보험(정부) + 음식물배상 특약</td>
+        <td>의무: 연 2만 원<br/>추가: 월 1~2만 원</td>
+      </tr>
+      <tr>
+        <td><strong>키즈카페·놀이방 운영</strong></td>
+        <td>어린이놀이시설 배상 (의무)</td>
+        <td>화재배상 + 시설물배상</td>
+        <td>의무: 연 5~10만 원<br/>추가: 월 2~3만 원</td>
+      </tr>
+      <tr>
+        <td><strong>지하·1층 소매점</strong></td>
+        <td>업종별 확인</td>
+        <td>풍수해보험(정부 지원) + 화재보험</td>
+        <td>정부 지원 후<br/>월 2천~5천 원</td>
+      </tr>
+      <tr>
+        <td><strong>2층 이상 사무실·학원</strong></td>
+        <td>업종별 확인</td>
+        <td>화재보험(정부) + 고용보험</td>
+        <td>정부 지원 후<br/>월 1~2만 원</td>
+      </tr>
+      <tr>
+        <td><strong>전통시장 점포</strong></td>
+        <td>업종별 확인</td>
+        <td>풍수해보험(정부 지원) 우선</td>
+        <td>정부 지원 후<br/>자기부담 최소</td>
+      </tr>
+      <tr>
+        <td><strong>1인 자영업 (배달·온라인)</strong></td>
+        <td>없음 (업종 확인)</td>
+        <td>고용보험 + 노란우산 (절세+상해)</td>
+        <td>월 8,190원~</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="small">※ 업종·면적·지역에 따라 의무 여부가 달라집니다. 소방서 또는 구청에 확인하세요.</p>
+
+  <p class="small" style="text-align:center;">[이미지: 소상공인 보험 빠른 판단 가이드 카드]</p>
+
+  <h2 id="mandatory">2) 의무 보험 — 미가입 시 과태료·행정처분</h2>
+
+  <h3>① 다중이용업소 화재배상책임보험</h3>
+  <p>'다중이용업소의 안전관리에 관한 특별법'에 따라 <strong>24개 업종</strong>(유흥주점, 단란주점, PC방, 노래방, 고시원, 산후조리원 등)은 화재배상책임보험 가입이 <strong>강제</strong>됩니다.</p>
+
+  <table>
+    <thead>
+      <tr><th>항목</th><th>내용</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>보상 원칙</strong></td><td><strong>무과실 책임</strong> — 원인 미상 화재도 피해자에게 보험금 지급</td></tr>
+      <tr><td><strong>대인 보상</strong></td><td>1인당 <strong>1억 5,000만 원</strong></td></tr>
+      <tr><td><strong>대물 보상</strong></td><td>사고당 <strong>10억 원</strong></td></tr>
+      <tr><td><strong>미가입 과태료</strong></td><td>10일 이내 10만 원 → 60일 초과 시 매일 6만 원 증액 → <strong>최대 300만 원</strong></td></tr>
+      <tr><td><strong>2026년 변경</strong></td><td>보험사 시스템과 <strong>소방청 데이터 실시간 연동</strong> → 누락·만료 즉각 행정지도</td></tr>
+    </tbody>
+  </table>
+
+  <h3>② 재난배상책임보험</h3>
+  <p>화재 + <strong>붕괴·폭발</strong>까지 포괄하는 보험으로, 1층 100㎡ 이상 음식점·숙박시설 등이 대상입니다. 연간 약 <strong>2만 원</strong> 수준의 보험료로 수억 원대 배상 책임을 방어할 수 있어 <strong>비용 대비 효율이 가장 높은</strong> 보험입니다.</p>
+
+  <p>2026년 정책 방향은 100㎡ 미만의 영세 소상공인에게도 재난배상책임보험 가입을 적극 권고하고 지원하는 것입니다.</p>
+
+  <h3>③ 업종별 추가 의무 보험</h3>
+  <table>
+    <thead>
+      <tr><th>보험 종류</th><th>가입 대상</th><th>보상 범위</th><th>과태료</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>어린이놀이시설 배상</strong></td>
+        <td>키즈카페, 식당 내 놀이방</td>
+        <td>어린이 사망 1인당 8,000만 원+</td>
+        <td>법령에 따른 과태료</td>
+      </tr>
+      <tr>
+        <td><strong>승강기 사고 배상</strong></td>
+        <td>승강기 설치 건물 관리 주체</td>
+        <td>기기 오작동 인명·재산 피해</td>
+        <td>관련 법령</td>
+      </tr>
+      <tr>
+        <td><strong>가스사고 배상</strong></td>
+        <td>일정 규모 이상 가스 사용 업소</td>
+        <td>가스 누출·폭발 피해</td>
+        <td>관련 법령</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p class="small" style="text-align:center;">[이미지: 의무 보험 vs 임의 보험 비교 카드]</p>
+
+  <h2 id="gov">3) 정부 지원 보험 — 풍수해·화재·고용보험</h2>
+
+  <h3>① 풍수해·지진보험 (2026 대폭 개편)</h3>
+  <p>2026년 1월 1일부터 시행된 개편안의 핵심:</p>
+  <ul>
+    <li><strong>연간 보장 한도 = 사고당 한도 × 2배</strong> — 여러 차례 재난에도 추가 보상 가능</li>
+    <li>예: 사고당 5,000만 원 → 1차 5,000만 원 보상 후, 2차 피해 4,000만 원도 <strong>전액 보상</strong></li>
+    <li><strong>연접 지역 기상특보</strong> 발령 시 피해 인정 기준 완화 — 행정 구역 경계 문제 해소</li>
+    <li>풍수해 사고 시 <strong>자기부담금 20만 원</strong> (경미한 피해보다 대형 재난 방어 목적)</li>
+  </ul>
+
+  <h3>② 사회안전망 지원 사업 (보험료 지원)</h3>
+  <p>소상공인연합회 + 행정안전부 협력 사업으로, <strong>보험료의 50~92%를 정부·지자체가 부담</strong>합니다.</p>
+
+  <table>
+    <thead>
+      <tr><th>사업장 위치</th><th>풍수해·지진보험</th><th>화재보험</th><th>비고</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>지하·1층</strong></td>
+        <td>시설·집기 3천만<br/>재고 2천만</td>
+        <td>시설 2천만<br/>집기 1천만+재고 2천만</td>
+        <td><strong>패키지</strong> 가입 지원</td>
+      </tr>
+      <tr>
+        <td><strong>2층 이상</strong></td>
+        <td>가입 불가</td>
+        <td>시설 2천만<br/>집기 1천만+재고 2천만</td>
+        <td>화재보험 단독 지원</td>
+      </tr>
+      <tr>
+        <td><strong>전통시장 점포</strong></td>
+        <td>시설·집기 3천만<br/>재고 2천만</td>
+        <td>지원 제외<br/>(별도 정책 활용)</td>
+        <td>풍수해 단독 지원</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="small">※ 보상 대상은 건물 자체가 아닌 <strong>시설·집기·재고자산</strong>입니다.</p>
+
+  <div class="ad">{광고 위치 2}</div>
+
+  <h3>③ 자영업자 고용보험료 환급</h3>
+  <p>2026년 중소벤처기업부는 소상공인이 납부하는 고용보험료의 <strong>50~80%를 최대 5년(60개월)</strong> 지원합니다.</p>
+
+  <table>
+    <thead>
+      <tr><th>기준 보수 등급</th><th>월 보험료 (2.25%)</th><th>정부 지원 비율</th><th>실제 부담액</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>1등급</strong></td><td>40,950원</td><td><strong>80%</strong></td><td><strong>8,190원</strong></td></tr>
+      <tr><td><strong>2등급</strong></td><td>46,800원</td><td><strong>80%</strong></td><td><strong>9,360원</strong></td></tr>
+      <tr><td>3등급</td><td>52,650원</td><td>60%</td><td>21,060원</td></tr>
+      <tr><td>4등급</td><td>58,500원</td><td>60%</td><td>23,400원</td></tr>
+      <tr><td>5~7등급</td><td>64,350~76,050원</td><td>50%</td><td>32,175~38,025원</td></tr>
+    </tbody>
+  </table>
+
+  <p><strong>폐업 시 실업급여</strong>: 가입 기간에 따라 월 <strong>109만~202만 원</strong>, 최대 <strong>7개월(210일)</strong> 지급. 단, 적자 지속·매출 감소 등 <strong>비자발적 폐업</strong>이어야 하며 최소 <strong>1년 이상 가입</strong> 필요.</p>
+
+  <h2 id="noran">4) 노란우산공제 무료 상해보험</h2>
+  <p>노란우산공제에 가입하면 <strong>무료 단체상해보험</strong>이 자동 제공됩니다. 보험료는 <strong>중소기업중앙회가 전액 부담</strong>합니다.</p>
+
+  <table>
+    <thead>
+      <tr><th>항목</th><th>내용</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>보장 기간</strong></td><td>가입 후 <strong>2년간</strong></td></tr>
+      <tr><td><strong>보장 범위</strong></td><td>상해로 인한 <strong>사망·후유장해</strong></td></tr>
+      <tr><td><strong>보험금</strong></td><td>월 납입 부금 × <strong>최대 150배</strong></td></tr>
+      <tr><td><strong>예시</strong></td><td>월 10만 원 납입 → 상해 사망 시 <strong>1,500만 원</strong></td></tr>
+      <tr><td><strong>소득공제</strong></td><td>연간 최대 <strong>600만 원</strong> (별도 혜택)</td></tr>
+      <tr><td><strong>보험료 부담</strong></td><td><strong>0원</strong> (중소기업중앙회 전액 부담)</td></tr>
+    </tbody>
+  </table>
+
+  <p>민간 상해보험 가입이 부담스러운 소기업 대표에게 <strong>필수적인 안전핀</strong> 역할을 합니다. 노란우산공제의 소득공제(600만 원) + 압류 금지 + 무료 상해보험을 동시에 활용하세요.</p>
+
+  <h2 id="private">5) 민간 종합보험 비교 — 삼성·현대·DB</h2>
+  <p>정부 보험이 보편적 위험을 방어한다면, 민간 보험은 각 사업장의 <strong>구체적 환경에 맞춘 정밀 방어</strong>를 합니다. 2026년 주요 손해보험사들은 <strong>다이렉트 상품(오프라인 대비 25% 할인)</strong>을 경쟁적으로 출시하고 있습니다.</p>
+
+  <table>
+    <thead>
+      <tr><th>비교 항목</th><th>삼성화재</th><th>현대해상</th><th>DB손해보험</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>핵심 강점</strong></td>
+        <td>업종별 맞춤 설계<br/>재조달가액 보상</td>
+        <td>보상 서비스 신속성<br/>브랜드 평판</td>
+        <td>배상책임 특약 다양<br/>경쟁력 있는 보험료</td>
+      </tr>
+      <tr>
+        <td><strong>특약 예시</strong></td>
+        <td>시설 수리비·전기 위험<br/>위조지폐 손해</td>
+        <td>음식물 배상(식중독)<br/>주차장 배상(발렛)</td>
+        <td>영업배상책임<br/>누수 손해 배상</td>
+      </tr>
+      <tr>
+        <td><strong>다이렉트 할인</strong></td>
+        <td>약 25%</td>
+        <td>약 20~25%</td>
+        <td>약 20~25%</td>
+      </tr>
+      <tr>
+        <td><strong>장기 계약 할인</strong></td>
+        <td>3년 이상 추가 할인</td>
+        <td>3년 이상 추가 할인</td>
+        <td>3년 이상 추가 할인</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p><strong>놓치기 쉬운 특약</strong>: 급배수시설 <strong>누수 손해 특약</strong>에 가입하면 사업장 내 누수 + 아래층 상점 피해까지 배상 가능 → 분쟁 사전 예방.</p>
+
+  <h3>민간 vs 정부 지원 보험 비교</h3>
+  <table>
+    <thead>
+      <tr><th>비교 항목</th><th>민간 종합 화재보험</th><th>정부 지원 보험</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>가입 편의성</strong></td><td>모바일/웹 24시간 간편 가입</td><td>지자체·기관 승인 절차 필요</td></tr>
+      <tr><td><strong>보상 한도</strong></td><td>수억 원대 가능 (선택)</td><td>정책 한도 3~5천만 원</td></tr>
+      <tr><td><strong>특약 다양성</strong></td><td>휴업 일당·도난·누수 등</td><td>재난 피해 보상에 집중</td></tr>
+      <tr><td><strong>보험료 부담</strong></td><td>전액 본인 (다이렉트 25% 할인)</td><td>정부·지자체 50~92% 지원</td></tr>
+    </tbody>
+  </table>
+
+  <p class="small" style="text-align:center;">[이미지: 민간 vs 정부 보험 비교 카드]</p>
+
+  <h2 id="hybrid">6) 하이브리드 가입 전략</h2>
+  <p>소상공인 보험의 <strong>정답은 정부 보험 + 민간 특약 조합</strong>입니다.</p>
+
+  <table>
+    <thead>
+      <tr><th>단계</th><th>행동</th><th>목적</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>1단계</strong></td>
+        <td>의무 보험 가입 상태 확인</td>
+        <td>과태료 방지 + 법적 의무 충족</td>
+      </tr>
+      <tr>
+        <td><strong>2단계</strong></td>
+        <td>정부 지원 풍수해·화재보험 가입</td>
+        <td>보험료 최소화 (50~92% 지원)</td>
+      </tr>
+      <tr>
+        <td><strong>3단계</strong></td>
+        <td>고용보험 가입 + 80% 환급 신청</td>
+        <td>폐업 시 실업급여 안전망 확보</td>
+      </tr>
+      <tr>
+        <td><strong>4단계</strong></td>
+        <td>노란우산공제 가입</td>
+        <td>절세(600만) + 무료 상해보험 + 퇴직금</td>
+      </tr>
+      <tr>
+        <td><strong>5단계</strong></td>
+        <td>민간 보험 특약 추가 (필요 시)</td>
+        <td>고가 자산·특수 위험 정밀 방어</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="tips">
+    <strong>5단계가 필요한 사업장</strong><br/>
+    · 고가 의료 장비 사용 병의원 → <strong>기물파손·도난 특약</strong><br/>
+    · 대형 음식점(주방 화재 위험) → <strong>휴업 일당 + 음식물배상 특약</strong><br/>
+    · 다층 건물 입주 → <strong>급배수 누수 손해 특약</strong><br/>
+    · 발렛파킹 운영 → <strong>주차장 배상 특약</strong>
+  </div>
+
+  <h2 id="incheon">7) 인천 특화 지원 정책</h2>
+  <table>
+    <thead>
+      <tr><th>지원 사업</th><th>대상·조건</th><th>내용</th><th>기관</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>노란우산 가입장려금</strong></td>
+        <td>인천 소재, 연 매출 3억 원 이하 신규 가입</td>
+        <td>월 2만 원 × 12회 = <strong>24만 원 추가 적립</strong></td>
+        <td>중소기업중앙회 인천본부</td>
+      </tr>
+      <tr>
+        <td><strong>1인 자영업자 고용보험료</strong></td>
+        <td>인천 소재 1인 자영업자</td>
+        <td>정부 80% + 지자체 추가 → <strong>본인 부담 0원 수준</strong></td>
+        <td>인천광역시</td>
+      </tr>
+      <tr>
+        <td><strong>희망인천 특례보증</strong></td>
+        <td>인천 소재 소상공인</td>
+        <td>업체당 최대 <strong>5,000만 원</strong> 융자</td>
+        <td>인천신용보증재단</td>
+      </tr>
+      <tr>
+        <td><strong>이차보전 지원</strong></td>
+        <td>특례보증 이용 소상공인</td>
+        <td>대출 이자 중 최대 <strong>2.0%</strong> 지원</td>
+        <td>인천 경제산업본부</td>
+      </tr>
+      <tr>
+        <td><strong>소공인 상생보험</strong></td>
+        <td>인천 소재 10인 미만 제조업체</td>
+        <td>상생 보험료 지원 (7개사 내외)</td>
+        <td>소상공인 서민금융복지지원센터</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="small">※ 예산 소진 시 조기 마감되므로 연초 빠른 신청이 유리합니다.</p>
+
+  <h2 id="how">8) 가입 방법 (단계별)</h2>
+
+  <h3>의무 보험 (화재배상·재난배상)</h3>
+  <ol>
+    <li><strong>가입 대상 확인</strong>: 소방서 또는 구청에 업종·면적 기준 확인</li>
+    <li><strong>보험사 선택</strong>: 손해보험사 비교 (다이렉트 25% 할인 활용)</li>
+    <li><strong>온라인 간편 가입</strong>: 보험사 홈페이지 또는 모바일 앱</li>
+    <li><strong>보험증권 보관</strong>: 사업장 비치 + PDF 저장</li>
+    <li><strong>갱신 알림 설정</strong>: 만료 30일 전 자동 갱신 설정 (과태료 방지)</li>
+  </ol>
+
+  <h3>정부 지원 보험 (풍수해·화재)</h3>
+  <ol>
+    <li><strong>소상공인 확인서</strong> 발급 (소상공인시장진흥공단)</li>
+    <li><strong>소상공인연합회</strong> 또는 지자체 창구에 지원 신청</li>
+    <li><strong>보험 가입</strong>: 지정 보험사를 통해 가입 (보험료 차액만 납부)</li>
+    <li><strong>지원금 확인</strong>: 보험료 50~92% 정부 지원 적용 여부 확인</li>
+  </ol>
+
+  <h3>고용보험 + 환급</h3>
+  <ol>
+    <li><strong>근로복지공단</strong>에 자영업자 고용보험 가입 신청</li>
+    <li><strong>기준 보수 등급</strong> 선택 (1~7등급, 낮을수록 지원 비율↑)</li>
+    <li><strong>보험료 납부</strong> 후 소상공인시장진흥공단에 <strong>환급 신청</strong></li>
+    <li>환급액 확인 (최대 80%, 최대 5년 지원)</li>
+  </ol>
+
+  <h2 id="docs">9) 서류 체크리스트</h2>
+  <h3>기본 서류 (공통)</h3>
+  <ul>
+    <li>사업자등록증 사본</li>
+    <li>대표자 신분증</li>
+    <li>소상공인 확인서 (소상공인시장진흥공단 발급)</li>
+    <li>사업장 임대차계약서</li>
+  </ul>
+  <h3>상황별 추가 서류</h3>
+  <ul>
+    <li><strong>풍수해보험 지원</strong>: 사업장 위치 증명 (지하·1층 확인)</li>
+    <li><strong>고용보험 환급</strong>: 고용보험 가입 확인서 + 보험료 납부 영수증</li>
+    <li><strong>인천 가입장려금</strong>: 인천 소재 확인 + 노란우산 신규 가입 확인서</li>
+    <li><strong>다중이용업소</strong>: 다중이용업소 영업 신고증 + 안전시설 완비증명</li>
+    <li><strong>어린이놀이시설</strong>: 안전검사 합격증명서</li>
+  </ul>
+
+  <div class="ad">{광고 위치 3}</div>
+
+  <h2 id="case">10) 경험/사례</h2>
+
+  <p>인천 부평구에서 분식점을 운영하는 김 사장님은 2025년까지 "작은 가게인데 무슨 보험"이라며 보험 가입을 미뤄왔습니다. 그런데 구청에서 재난배상책임보험 미가입 통지서가 날아왔고, 과태료 50만 원을 내야 할 상황이 됐습니다. 급히 보험사에 연락해 연간 2만 원짜리 재난배상책임보험에 가입했더니, 과태료보다 보험료가 25분의 1 수준이라는 걸 그때서야 알게 됐다고 합니다.</p>
+
+  <p>경기도 수원에서 PC방을 운영하는 박 사장님은 화재배상책임보험은 이미 가입돼 있었지만, 소상공인연합회를 통해 풍수해보험 정부 지원 사업이 있다는 걸 몰랐습니다. 지하 1층 사업장이라 패키지 가입 대상이었고, 보험료의 약 80%를 정부가 부담해 월 3천 원 정도만 내고 시설·재고 합계 5천만 원 보장을 받게 됐습니다. "이런 제도를 왜 아무도 안 알려주냐"며 주변 소상공인들에게 적극 홍보 중입니다.</p>
+
+  <p>서울 마포구에서 카페를 운영하는 이 대표님은 노란우산공제에 월 20만 원씩 납입하고 있었는데, 무료 상해보험이 포함돼 있다는 사실을 1년 뒤에야 알았습니다. 마침 매장 리모델링 중 사다리에서 낙상하는 사고가 있었는데, 다행히 가입 2년 이내여서 상해보험금 청구가 가능했습니다. 별도로 상해보험을 가입할 형편이 안 됐기에 "노란우산이 진짜 안전핀 역할을 했다"고 말합니다.</p>
+
+  <h2 id="mistake">11) 실수 TOP 5</h2>
+  <ol>
+    <li><strong>의무 보험 만료일 미확인</strong> — 자동 갱신 안 돼 있으면 만료 즉시 과태료 대상. 60일 초과 시 매일 6만 원씩 증가해 <strong>최대 300만 원</strong>. 만료 30일 전 갱신 알림 설정 필수.</li>
+    <li><strong>"작은 가게라 보험 필요 없다" 판단</strong> — 100㎡ 미만이라도 업종에 따라 의무 보험 대상일 수 있음. 소방서·구청에 확인 필수. 재난배상책임보험은 연간 2만 원으로 수억 원 방어.</li>
+    <li><strong>정부 지원 보험 존재 자체를 모름</strong> — 풍수해·화재보험 보험료 50~92% 지원, 고용보험 80% 환급 등 혜택을 놓치는 소상공인이 다수. 소상공인연합회·소상공인시장진흥공단 사이트 수시 확인.</li>
+    <li><strong>노란우산 상해보험 기간(2년) 경과</strong> — 가입 후 2년간만 무료 상해보험 적용. 기간 만료 후 별도 상해보험 가입 검토 필요. 추가 납입으로 기간 연장은 불가.</li>
+    <li><strong>민간 보험 특약 없이 정부 보험만 의존</strong> — 정부 보험 한도는 3~5천만 원. 고가 장비·대형 점포는 민간 보험 특약(누수·휴업·도난)으로 보완해야 보장 공백 없음.</li>
+  </ol>
+
+  <p class="small" style="text-align:center;">[이미지: 소상공인 보험 실수 TOP 5 카드]</p>
+
+  <h2 id="faq">12) FAQ 10개</h2>
+
+  <p class="q">Q1. 다중이용업소 24개 업종에 내 가게가 포함되는지 어떻게 확인하나요?</p>
+  <p class="a">'다중이용업소의 안전관리에 관한 특별법 시행령' 별표 1에 해당 업종이 나열돼 있습니다. 유흥주점, 단란주점, PC방, 노래방, 고시원, 산후조리원, 학원, 찜질방 등이 대표적입니다. 관할 소방서에 전화하면 바로 확인 가능합니다.</p>
+
+  <p class="q">Q2. 100㎡ 미만 음식점도 재난배상책임보험에 가입해야 하나요?</p>
+  <p class="a">법적 의무는 100㎡ 이상이지만, 2026년 정부 방침은 100㎡ 미만에게도 가입을 적극 권고하고 지원합니다. 연간 2만 원 수준이므로 비용 부담 없이 수억 원 배상 위험을 방어할 수 있습니다.</p>
+
+  <p class="q">Q3. 풍수해보험 자기부담금 20만 원은 매 사고마다 내나요?</p>
+  <p class="a">네, 풍수해 사고 발생 시 매 건당 20만 원의 자기부담금이 있습니다. 이는 경미한 피해 남발을 방지하고 대형 재난 보상에 집중하기 위한 설계입니다.</p>
+
+  <p class="q">Q4. 고용보험 환급은 어디서 신청하나요?</p>
+  <p class="a">근로복지공단에서 고용보험 가입 → 소상공인시장진흥공단에서 환급 신청. 두 기관의 절차가 분리돼 있으므로, 가입 후 반드시 환급 신청을 별도로 해야 합니다.</p>
+
+  <p class="q">Q5. 고용보험 등급은 바꿀 수 있나요?</p>
+  <p class="a">네, 경제 상황에 따라 1~7등급 중 변경 가능합니다. 낮은 등급일수록 정부 지원 비율이 높아(80%) 영세 소상공인에게 유리합니다. 근로복지공단에 변경 신청하세요.</p>
+
+  <p class="q">Q6. 노란우산 무료 상해보험은 갱신되나요?</p>
+  <p class="a">아닙니다. 가입 후 최초 2년간만 적용됩니다. 2년 경과 후에는 민간 상해보험을 별도로 가입하는 것이 안전합니다. 다만 노란우산의 소득공제·압류 금지·퇴직금 기능은 계속 유지됩니다.</p>
+
+  <p class="q">Q7. 전통시장 점포인데 화재보험 지원은 못 받나요?</p>
+  <p class="a">사회안전망 지원 사업에서는 전통시장 점포에 풍수해보험만 지원합니다. 화재보험은 시장 전체에 대한 별도 화재 안전 대책(시장정비사업 등)으로 운영되는 경우가 많아 해당 시장 관리사무소에 확인하세요.</p>
+
+  <p class="q">Q8. 민간 보험 다이렉트 가입과 설계사 가입, 보장에 차이가 있나요?</p>
+  <p class="a">보장 내용은 동일합니다. 다이렉트는 설계사 수수료가 빠져 약 25% 저렴하지만, 특약 조합을 직접 선택해야 합니다. 업종별 최적 특약 구성이 어려우면 설계사 상담 후 다이렉트로 가입하는 방법도 있습니다.</p>
+
+  <p class="q">Q9. 스마트 화재 감지 시스템을 설치하면 보험료 할인이 되나요?</p>
+  <p class="a">일부 보험사에서 스마트 화재 감지 장비 설치 사업장에 보험료 할인을 제공합니다. 또한 중소벤처기업부의 스마트상점 기술 보급 사업으로 장비 구입 시 최대 700만 원까지 지원받을 수 있어 이중 혜택이 가능합니다.</p>
+
+  <p class="q">Q10. 보험금 청구 시 가장 중요한 것은?</p>
+  <p class="a">사고 발생 즉시 <strong>사진·영상 촬영</strong>이 가장 중요합니다. 피해 현장, 손상된 시설·재고, 기상 상황 등을 기록해 두면 보험금 산정 시 유리합니다. 48시간 이내에 보험사에 사고 접수하고, 수리 전 반드시 보험사 현장 조사를 기다리세요.</p>
+
+  <h2 id="check">13) 신청 전 1분 체크리스트</h2>
+  <ul>
+    <li>내 업종이 <strong>의무 보험 대상</strong>인지 확인 (소방서·구청)</li>
+    <li>의무 보험 <strong>만료일</strong> 확인 + 갱신 알림 설정</li>
+    <li>정부 지원 <strong>풍수해·화재보험</strong> 가입 가능 여부 확인 (사업장 위치별)</li>
+    <li><strong>고용보험</strong> 가입 + 환급 신청 (최대 80%, 5년)</li>
+    <li><strong>노란우산공제</strong> 가입 여부 확인 (절세+무료 상해보험)</li>
+    <li>자산 가치 큰 사업장은 <strong>민간 보험 특약</strong> 검토</li>
+    <li><strong>소상공인 확인서</strong> 발급 (공단 홈페이지)</li>
+    <li>인천 소재: <strong>가입장려금·이차보전</strong> 추가 혜택 확인</li>
+  </ul>
+
+  <p class="small">관련 글: 소상공인 지원금 총정리 / 노란우산공제 가입·해지·절세 총정리 / 소상공인 고용보험·산재보험 지원금 신청 방법</p>
+
+  <p class="small" style="text-align:center;">[이미지: 소상공인 보험 1분 체크리스트 카드]</p>
+
+  <div class="tips">
+    <strong>참고/문의처</strong><br/>
+    소상공인시장진흥공단: <a href="https://www.sbiz.or.kr" target="_blank" rel="noopener">sbiz.or.kr</a> / 1357<br/>
+    소상공인연합회: <a href="https://www.semas.or.kr" target="_blank" rel="noopener">semas.or.kr</a><br/>
+    중소기업중앙회 (노란우산): <a href="https://www.nrc.or.kr" target="_blank" rel="noopener">nrc.or.kr</a> / 1666-9988<br/>
+    근로복지공단 (고용보험): <a href="https://www.comwel.or.kr" target="_blank" rel="noopener">comwel.or.kr</a> / 1588-0075<br/>
+    인천신용보증재단: 032-260-7000
+  </div>
+
+  <div class="footer" id="update">
+    <strong>업데이트 로그</strong><br/>
+    - 2026-03-22: 2026년 풍수해보험 개편(2배 보장), 고용보험 환급 확대, 인천 특화 정책 반영 초판 발행<br/>
+    <span class="small">※ 보험사·지자체별 조건이 다를 수 있어요. 가입 전 공식 공고/FAQ 확인!</span>
+  </div>
+</div>

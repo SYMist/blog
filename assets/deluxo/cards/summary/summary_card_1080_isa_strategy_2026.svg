@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <text x="540" y="108" font-family="'Pretendard', sans-serif" font-size="44" font-weight="900" fill="#F59E0B" text-anchor="middle">ISA 계좌 절세 핵심 요약</text>
+  <text x="540" y="162" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF" text-anchor="middle">2026년 현행 기준 · 비과세·분리과세·손익통산</text>
+
+  <!-- Row 1: 3 stat boxes -->
+  <rect x="60" y="192" width="293" height="220" rx="20" fill="#1A3270"/>
+  <text x="206" y="250" font-family="'Pretendard', sans-serif" font-size="20" font-weight="800" fill="#F59E0B" text-anchor="middle">서민형 비과세</text>
+  <text x="206" y="328" font-family="'Pretendard', sans-serif" font-size="46" font-weight="900" fill="#FFFFFF" text-anchor="middle">400만원</text>
+  <text x="206" y="388" font-family="'Pretendard', sans-serif" font-size="18" font-weight="600" fill="#EAF2FF" text-anchor="middle">일반형 200만원</text>
+
+  <rect x="393" y="192" width="293" height="220" rx="20" fill="#1A3270"/>
+  <text x="539" y="250" font-family="'Pretendard', sans-serif" font-size="20" font-weight="800" fill="#F59E0B" text-anchor="middle">분리과세율</text>
+  <text x="539" y="328" font-family="'Pretendard', sans-serif" font-size="46" font-weight="900" fill="#FFFFFF" text-anchor="middle">9.9%</text>
+  <text x="539" y="388" font-family="'Pretendard', sans-serif" font-size="18" font-weight="600" fill="#EAF2FF" text-anchor="middle">일반 15.4% 대비 절세</text>
+
+  <rect x="726" y="192" width="293" height="220" rx="20" fill="#F59E0B"/>
+  <text x="872" y="250" font-family="'Pretendard', sans-serif" font-size="20" font-weight="800" fill="#0B1F3B" text-anchor="middle">연금이전 추가공제</text>
+  <text x="872" y="328" font-family="'Pretendard', sans-serif" font-size="46" font-weight="900" fill="#0B1F3B" text-anchor="middle">최대 300만</text>
+  <text x="872" y="388" font-family="'Pretendard', sans-serif" font-size="18" font-weight="900" fill="#0B1F3B" text-anchor="middle">60일 이내 이전</text>
+
+  <!-- Row 2: 2 boxes -->
+  <rect x="60" y="442" width="455" height="150" rx="20" fill="#1A3270"/>
+  <text x="287" y="496" font-family="'Pretendard', sans-serif" font-size="20" font-weight="800" fill="#F59E0B" text-anchor="middle">납입 한도</text>
+  <text x="287" y="558" font-family="'Pretendard', sans-serif" font-size="30" font-weight="900" fill="#FFFFFF" text-anchor="middle">연 2,000만 / 총 1억</text>
+
+  <rect x="565" y="442" width="455" height="150" rx="20" fill="#1A3270"/>
+  <text x="792" y="496" font-family="'Pretendard', sans-serif" font-size="20" font-weight="800" fill="#F59E0B" text-anchor="middle">의무가입기간</text>
+  <text x="792" y="558" font-family="'Pretendard', sans-serif" font-size="36" font-weight="900" fill="#FFFFFF" text-anchor="middle">최소 3년</text>
+
+  <!-- Info Strip -->
+  <rect x="60" y="622" width="290" height="66" rx="33" fill="#1A3270"/>
+  <text x="205" y="663" font-family="'Pretendard', sans-serif" font-size="18" font-weight="700" fill="#EAF2FF" text-anchor="middle">손익통산 과세</text>
+
+  <rect x="395" y="622" width="290" height="66" rx="33" fill="#1A3270"/>
+  <text x="540" y="663" font-family="'Pretendard', sans-serif" font-size="18" font-weight="700" fill="#EAF2FF" text-anchor="middle">금소세 기준 제외</text>
+
+  <rect x="730" y="622" width="290" height="66" rx="33" fill="#1A3270"/>
+  <text x="875" y="663" font-family="'Pretendard', sans-serif" font-size="18" font-weight="700" fill="#EAF2FF" text-anchor="middle">미납분 이월 가능</text>
+
+  <!-- Bottom bar -->
+  <rect x="60" y="722" width="960" height="300" rx="24" fill="#F59E0B"/>
+  <text x="540" y="810" font-family="'Pretendard', sans-serif" font-size="28" font-weight="900" fill="#0B1F3B" text-anchor="middle">만기 후 60일 이내 연금계좌 이전 → 추가 세액공제</text>
+  <text x="540" y="870" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#0B1F3B" text-anchor="middle">총급여 5,500만↓ 기준 최대 49만 5,000원 환급</text>
+  <text x="540" y="940" font-family="'Pretendard', sans-serif" font-size="22" font-weight="600" fill="#0B1F3B" text-anchor="middle">금융위원회: fsc.go.kr | 국세청: nts.go.kr</text>
+</svg>

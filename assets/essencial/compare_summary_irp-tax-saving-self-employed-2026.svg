@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="amber" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#B45309"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+  </defs>
+  <rect width="860" height="900" fill="url(#bg)" rx="20"/>
+
+  <!-- Title -->
+  <rect x="30" y="25" width="220" height="38" rx="19" fill="#EF4444"/>
+  <text x="140" y="51" text-anchor="middle" fill="#FFF" font-size="18" font-weight="700" font-family="Pretendard,sans-serif">2026 절세 전략</text>
+  <text x="30" y="100" fill="#FFF" font-size="28" font-weight="900" font-family="Pretendard,sans-serif">50대 자영업자 IRP 절세 한눈에 보기</text>
+  <rect x="30" y="115" width="260" height="3" rx="2" fill="url(#amber)"/>
+
+  <!-- 3 Key Number Cards -->
+  <rect x="30" y="140" width="260" height="120" rx="16" fill="#1E293B" stroke="#D97706" stroke-width="2"/>
+  <text x="160" y="175" text-anchor="middle" fill="#FBBF24" font-size="15" font-weight="700" font-family="Pretendard,sans-serif">세액공제 한도</text>
+  <text x="160" y="218" text-anchor="middle" fill="#FFF" font-size="36" font-weight="900" font-family="Pretendard,sans-serif">900만 원</text>
+  <text x="160" y="248" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="Pretendard,sans-serif">연금저축600+IRP300</text>
+
+  <rect x="305" y="140" width="260" height="120" rx="16" fill="#1E293B" stroke="#22C55E" stroke-width="2"/>
+  <text x="435" y="175" text-anchor="middle" fill="#86EFAC" font-size="15" font-weight="700" font-family="Pretendard,sans-serif">ISA 전환 추가</text>
+  <text x="435" y="218" text-anchor="middle" fill="#FFF" font-size="36" font-weight="900" font-family="Pretendard,sans-serif">+300만 원</text>
+  <text x="435" y="248" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="Pretendard,sans-serif">총 1,200만 공제</text>
+
+  <rect x="580" y="140" width="250" height="120" rx="16" fill="#1E293B" stroke="#EF4444" stroke-width="2"/>
+  <text x="705" y="175" text-anchor="middle" fill="#FCA5A5" font-size="15" font-weight="700" font-family="Pretendard,sans-serif">최대 환급</text>
+  <text x="705" y="218" text-anchor="middle" fill="#FFF" font-size="36" font-weight="900" font-family="Pretendard,sans-serif">198만 원</text>
+  <text x="705" y="248" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="Pretendard,sans-serif">16.5% 적용 시</text>
+
+  <!-- 절세 공식 플로우 -->
+  <text x="30" y="300" fill="#FFF" font-size="20" font-weight="900" font-family="Pretendard,sans-serif">절세 3단계 공식</text>
+  <rect x="30" y="312" width="140" height="3" rx="2" fill="url(#amber)"/>
+
+  <!-- Step 1: 납입 -->
+  <rect x="30" y="330" width="250" height="90" rx="14" fill="#1E293B" stroke="#D97706" stroke-width="2"/>
+  <rect x="45" y="345" width="28" height="28" rx="14" fill="#D97706"/>
+  <text x="59" y="366" text-anchor="middle" fill="#FFF" font-size="14" font-weight="900" font-family="Pretendard,sans-serif">1</text>
+  <text x="85" y="365" fill="#FFF" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">납입 단계</text>
+  <text x="50" y="395" fill="#FBBF24" font-size="13" font-weight="600" font-family="Pretendard,sans-serif">연금저축 600만+IRP 300만</text>
+  <text x="50" y="413" fill="#94A3B8" font-size="12" font-family="Pretendard,sans-serif">= 세액공제 최대 148.5만</text>
+
+  <!-- Arrow -->
+  <text x="295" y="380" fill="#64748B" font-size="28" font-family="Pretendard,sans-serif">→</text>
+
+  <!-- Step 2: 운용 -->
+  <rect x="310" y="330" width="250" height="90" rx="14" fill="#1E293B" stroke="#22C55E" stroke-width="2"/>
+  <rect x="325" y="345" width="28" height="28" rx="14" fill="#22C55E"/>
+  <text x="339" y="366" text-anchor="middle" fill="#FFF" font-size="14" font-weight="900" font-family="Pretendard,sans-serif">2</text>
+  <text x="365" y="365" fill="#FFF" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">운용 단계</text>
+  <text x="330" y="395" fill="#86EFAC" font-size="13" font-weight="600" font-family="Pretendard,sans-serif">과세 이연 (세금 없이 복리)</text>
+  <text x="330" y="413" fill="#94A3B8" font-size="12" font-family="Pretendard,sans-serif">위험 70% + 안전 30%</text>
+
+  <!-- Arrow -->
+  <text x="575" y="380" fill="#64748B" font-size="28" font-family="Pretendard,sans-serif">→</text>
+
+  <!-- Step 3: 수령 -->
+  <rect x="590" y="330" width="240" height="90" rx="14" fill="#1E293B" stroke="#EF4444" stroke-width="2"/>
+  <rect x="605" y="345" width="28" height="28" rx="14" fill="#EF4444"/>
+  <text x="619" y="366" text-anchor="middle" fill="#FFF" font-size="14" font-weight="900" font-family="Pretendard,sans-serif">3</text>
+  <text x="645" y="365" fill="#FFF" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">수령 단계</text>
+  <text x="610" y="395" fill="#FCA5A5" font-size="13" font-weight="600" font-family="Pretendard,sans-serif">연 1,500만 이하 = 3.3~5.5%</text>
+  <text x="610" y="413" fill="#94A3B8" font-size="12" font-family="Pretendard,sans-serif">종신 수령 시 3.3% 고정</text>
+
+  <!-- 노란우산공제 시너지 -->
+  <text x="30" y="465" fill="#FFF" font-size="20" font-weight="900" font-family="Pretendard,sans-serif">+ 노란우산공제 소득공제 시너지</text>
+
+  <rect x="30" y="485" width="800" height="80" rx="14" fill="#1E293B" stroke="#FBBF24" stroke-width="1.5"/>
+  <text x="50" y="515" fill="#FBBF24" font-size="15" font-weight="700" font-family="Pretendard,sans-serif">소득 4,000만 이하</text>
+  <rect x="260" y="503" width="360" height="22" rx="11" fill="#D97706"/>
+  <text x="440" y="519" text-anchor="middle" fill="#FFF" font-size="14" font-weight="800" font-family="Pretendard,sans-serif">소득공제 600만 → 절세 약 158만 원</text>
+
+  <text x="50" y="550" fill="#94A3B8" font-size="15" font-weight="600" font-family="Pretendard,sans-serif">소득 6,000만~1억</text>
+  <rect x="260" y="538" width="240" height="22" rx="11" fill="#B45309"/>
+  <text x="380" y="554" text-anchor="middle" fill="#FFF" font-size="14" font-weight="800" font-family="Pretendard,sans-serif">소득공제 400만 → 약 105만</text>
+
+  <!-- 통합 절세 시뮬레이션 -->
+  <text x="30" y="605" fill="#FFF" font-size="20" font-weight="900" font-family="Pretendard,sans-serif">통합 절세 시뮬레이션 (소득 3,500만 기준)</text>
+  <rect x="30" y="617" width="200" height="3" rx="2" fill="url(#amber)"/>
+
+  <rect x="30" y="635" width="800" height="130" rx="14" fill="#1E293B"/>
+  <text x="50" y="665" fill="#FBBF24" font-size="14" font-weight="700" font-family="Pretendard,sans-serif">IRP+연금저축 세액공제</text>
+  <rect x="300" y="652" width="296" height="22" rx="11" fill="#D97706"/>
+  <text x="610" y="668" fill="#FFF" font-size="15" font-weight="800" font-family="Pretendard,sans-serif">148.5만 원</text>
+
+  <text x="50" y="700" fill="#86EFAC" font-size="14" font-weight="700" font-family="Pretendard,sans-serif">노란우산 소득공제</text>
+  <rect x="300" y="687" width="316" height="22" rx="11" fill="#22C55E"/>
+  <text x="630" y="703" fill="#FFF" font-size="15" font-weight="800" font-family="Pretendard,sans-serif">158만 원</text>
+
+  <text x="50" y="745" fill="#FFF" font-size="18" font-weight="900" font-family="Pretendard,sans-serif">합계</text>
+  <rect x="300" y="730" width="400" height="26" rx="13" fill="#EF4444"/>
+  <text x="500" y="749" text-anchor="middle" fill="#FFF" font-size="16" font-weight="900" font-family="Pretendard,sans-serif">연간 약 307만 원 절세!</text>
+
+  <!-- Warning -->
+  <rect x="30" y="785" width="800" height="55" rx="14" fill="#7F1D1D" stroke="#EF4444" stroke-width="2"/>
+  <text x="50" y="820" fill="#FCA5A5" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">⚠️ IRP 중도 해지 시 세액공제+수익에 16.5% 페널티 | ISA 전환 60일 기한 엄수</text>
+
+  <!-- Footer -->
+  <text x="30" y="878" fill="#64748B" font-size="16" font-family="Pretendard,sans-serif">essencial | 2026년 4월 기준</text>
+  <text x="830" y="878" text-anchor="end" fill="#64748B" font-size="16" font-family="Pretendard,sans-serif">대출·금융 비교</text>
+</svg>

@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="80" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="800" fill="#F59E0B">일반 vs 우대 수수료 — 얼마나 절약되나?</text>
+  <rect x="60" y="110" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- Header -->
+  <rect x="60" y="140" width="960" height="55" rx="0" fill="rgba(59,130,246,0.2)"/>
+  <text x="180" y="175" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#FFF">구분</text>
+  <text x="380" y="175" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#FFF">일반 수수료</text>
+  <text x="580" y="175" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#FFF">우대 수수료</text>
+  <text x="780" y="175" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#FFF">연간 절감액</text>
+  <text x="940" y="175" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#FFF">절감률</text>
+
+  <!-- 영세 -->
+  <rect x="60" y="200" width="960" height="100" rx="0" fill="rgba(255,255,255,0.06)"/>
+  <text x="180" y="240" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">영세</text>
+  <text x="180" y="268" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" fill="#EAF2FF">(연매출 2억)</text>
+  <text x="380" y="255" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#EF4444">2.2%</text>
+  <text x="380" y="280" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" fill="#EAF2FF">= 440만 원</text>
+  <text x="580" y="255" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#10B981">0.40%</text>
+  <text x="580" y="280" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" fill="#EAF2FF">= 80만 원</text>
+  <text x="780" y="255" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#F59E0B">360만 원</text>
+  <text x="940" y="255" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#10B981">-82%</text>
+
+  <!-- 중소1 -->
+  <rect x="60" y="305" width="960" height="100" rx="0" fill="rgba(255,255,255,0.04)"/>
+  <text x="180" y="345" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">중소1</text>
+  <text x="180" y="373" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" fill="#EAF2FF">(연매출 4억)</text>
+  <text x="380" y="360" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#EF4444">2.2%</text>
+  <text x="380" y="385" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" fill="#EAF2FF">= 880만 원</text>
+  <text x="580" y="360" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#10B981">1.00%</text>
+  <text x="580" y="385" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" fill="#EAF2FF">= 400만 원</text>
+  <text x="780" y="360" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#F59E0B">480만 원</text>
+  <text x="940" y="360" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#10B981">-55%</text>
+
+  <!-- 중소2 -->
+  <rect x="60" y="410" width="960" height="100" rx="0" fill="rgba(255,255,255,0.06)"/>
+  <text x="180" y="450" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">중소2</text>
+  <text x="180" y="478" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" fill="#EAF2FF">(연매출 8억)</text>
+  <text x="380" y="465" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#EF4444">2.2%</text>
+  <text x="380" y="490" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" fill="#EAF2FF">= 1,760만 원</text>
+  <text x="580" y="465" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#10B981">1.15%</text>
+  <text x="580" y="490" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" fill="#EAF2FF">= 920만 원</text>
+  <text x="780" y="465" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#F59E0B">840만 원</text>
+  <text x="940" y="465" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#10B981">-48%</text>
+
+  <!-- 중소3 -->
+  <rect x="60" y="515" width="960" height="100" rx="0" fill="rgba(255,255,255,0.04)"/>
+  <text x="180" y="555" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">중소3</text>
+  <text x="180" y="583" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" fill="#EAF2FF">(연매출 20억)</text>
+  <text x="380" y="570" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#EF4444">2.2%</text>
+  <text x="380" y="595" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" fill="#EAF2FF">= 4,400만 원</text>
+  <text x="580" y="570" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#10B981">1.45%</text>
+  <text x="580" y="595" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" fill="#EAF2FF">= 2,900만 원</text>
+  <text x="780" y="570" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#F59E0B">1,500만 원</text>
+  <text x="940" y="570" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#10B981">-34%</text>
+
+  <!-- 신규 환급 예시 -->
+  <rect x="60" y="650" width="960" height="200" rx="20" fill="rgba(16,185,129,0.12)"/>
+  <text x="540" y="700" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#10B981">신규 가맹점 환급 시뮬레이션</text>
+  <text x="100" y="750" font-family="'Pretendard',sans-serif" font-size="22" fill="#FFF">개업 7개월 · 카드매출 1억4000만 원 · 일반 2.2% 납부</text>
+  <text x="100" y="790" font-family="'Pretendard',sans-serif" font-size="22" fill="#FFF">영세 0.40% 적용 시 차액</text>
+  <text x="600" y="790" font-family="'Pretendard',sans-serif" font-size="32" font-weight="800" fill="#F59E0B">= 약 252만 원 환급</text>
+  <text x="100" y="830" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">2026년 3월 31일까지 자동 입금 · 별도 신청 불필요</text>
+
+  <!-- 전체 환급 규모 -->
+  <rect x="60" y="880" width="960" height="150" rx="20" fill="rgba(245,158,11,0.1)"/>
+  <text x="540" y="930" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#F59E0B">2025 하반기 신규 가맹점 총 환급 규모</text>
+  <text x="250" y="985" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" fill="#FFF">대상</text>
+  <text x="250" y="1015" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#EAF2FF">30만7000곳+</text>
+  <text x="540" y="985" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" fill="#FFF">총액</text>
+  <text x="540" y="1015" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#EAF2FF">643억3000만 원</text>
+  <text x="830" y="985" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" fill="#FFF">평균</text>
+  <text x="830" y="1015" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#EAF2FF">약 41만 원/곳</text>
+
+  <rect x="60" y="1040" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

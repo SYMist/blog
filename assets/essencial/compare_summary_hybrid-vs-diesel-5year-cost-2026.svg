@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1500" fill="url(#bg)"/>
+
+  <rect x="60" y="50" width="320" height="40" rx="20" fill="#1E40AF"/>
+  <text x="220" y="77" text-anchor="middle" fill="#FFFFFF" font-size="17" font-weight="800" font-family="sans-serif">2026 하이브리드 vs 디젤 5년 TCO</text>
+
+  <text x="60" y="155" fill="#FFFFFF" font-size="44" font-weight="800" font-family="sans-serif">5년 보유, 1,000만 원 차이</text>
+  <text x="60" y="200" fill="#93C5FD" font-size="22" font-weight="600" font-family="sans-serif">중형 SUV 4,000만 · 1.5만km/年 · 친환경 세제 12.31 일몰</text>
+
+  <!-- 메인 TCO 비교 카드 -->
+  <rect x="60" y="240" width="540" height="240" rx="16" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="80" y="285" fill="#86EFAC" font-size="20" font-weight="800" font-family="sans-serif">하이브리드 (HEV)</text>
+  <text x="80" y="320" fill="#CBD5E1" font-size="14" font-family="sans-serif">잔존율 55% · 친환경 세제 130만</text>
+  <text x="80" y="380" fill="#FFFFFF" font-size="56" font-weight="800" font-family="sans-serif">3,935 만</text>
+  <text x="80" y="415" fill="#86EFAC" font-size="16" font-weight="700" font-family="sans-serif">5년 순 TCO</text>
+  <text x="80" y="455" fill="#86EFAC" font-size="14" font-weight="600" font-family="sans-serif">▸ 도심·5년+ 보유·세제 활용 시 최적</text>
+
+  <rect x="620" y="240" width="520" height="240" rx="16" fill="url(#card)" stroke="#FCA5A5" stroke-width="2"/>
+  <text x="640" y="285" fill="#FCA5A5" font-size="20" font-weight="800" font-family="sans-serif">디젤 (Diesel)</text>
+  <text x="640" y="320" fill="#CBD5E1" font-size="14" font-family="sans-serif">잔존율 45% · 환경부담금 부과</text>
+  <text x="640" y="380" fill="#FFFFFF" font-size="56" font-weight="800" font-family="sans-serif">4,951 만</text>
+  <text x="640" y="415" fill="#FCA5A5" font-size="16" font-weight="700" font-family="sans-serif">5년 순 TCO (+1,016만)</text>
+  <text x="640" y="455" fill="#FCA5A5" font-size="14" font-weight="600" font-family="sans-serif">▸ 고속·견인·연 3만 km+ 시 검토</text>
+
+  <!-- 7개 항목 차이 바 차트 -->
+  <text x="60" y="525" fill="#FFFFFF" font-size="26" font-weight="800" font-family="sans-serif">디젤 추가 부담 항목별 차이 (5년)</text>
+  <text x="60" y="553" fill="#94A3B8" font-size="14" font-family="sans-serif">하이브리드 대비 디젤이 더 부담하는 금액 — 잔존가치는 디젤이 400만 손실</text>
+
+  <g font-family="sans-serif">
+    <text x="60" y="595" fill="#FFFFFF" font-size="16" font-weight="700">연료비</text>
+    <rect x="240" y="578" width="346" height="22" rx="4" fill="#FCA5A5"/>
+    <text x="606" y="595" fill="#FCA5A5" font-size="15" font-weight="700">+173만 (1,111 vs 938)</text>
+
+    <text x="60" y="635" fill="#FFFFFF" font-size="16" font-weight="700">정비비</text>
+    <rect x="240" y="618" width="300" height="22" rx="4" fill="#FCA5A5"/>
+    <text x="560" y="635" fill="#FCA5A5" font-size="15" font-weight="700">+150만 (DPF·EGR·요소수)</text>
+
+    <text x="60" y="675" fill="#FFFFFF" font-size="16" font-weight="700">신차 실구매가</text>
+    <rect x="240" y="658" width="280" height="22" rx="4" fill="#FCD34D"/>
+    <text x="540" y="675" fill="#FCD34D" font-size="15" font-weight="700">+170만 (4,200 vs 4,030)</text>
+
+    <text x="60" y="715" fill="#FFFFFF" font-size="16" font-weight="700">통행료</text>
+    <rect x="240" y="698" width="125" height="22" rx="4" fill="#FCD34D"/>
+    <text x="385" y="715" fill="#FCD34D" font-size="15" font-weight="700">+62.5만 (할인 25%)</text>
+
+    <text x="60" y="755" fill="#FFFFFF" font-size="16" font-weight="700">환경개선부담금</text>
+    <rect x="240" y="738" width="60" height="22" rx="4" fill="#F59E0B"/>
+    <text x="320" y="755" fill="#F59E0B" font-size="15" font-weight="700">+30만 (디젤만 부과)</text>
+
+    <text x="60" y="795" fill="#FFFFFF" font-size="16" font-weight="700">보험료</text>
+    <rect x="240" y="778" width="60" height="22" rx="4" fill="#F59E0B"/>
+    <text x="320" y="795" fill="#F59E0B" font-size="15" font-weight="700">+30만 (친환경 5% 할인)</text>
+
+    <text x="60" y="835" fill="#FFFFFF" font-size="16" font-weight="700">잔존가치 (5년 매각)</text>
+    <rect x="240" y="818" width="800" height="22" rx="4" fill="#92400E"/>
+    <text x="290" y="835" fill="#FCA5A5" font-size="15" font-weight="700">−400만 (디젤 1,800 vs HEV 2,200)</text>
+
+    <text x="60" y="880" fill="#86EFAC" font-size="15" font-weight="800">→ 합계 +1,016만 (디젤이 5년간 더 부담)</text>
+  </g>
+
+  <!-- 친환경 세제 일몰 -->
+  <rect x="60" y="910" width="540" height="220" rx="16" fill="url(#card)" stroke="#FCD34D" stroke-width="2"/>
+  <text x="80" y="950" fill="#FCD34D" font-size="22" font-weight="800" font-family="sans-serif">⚠ 친환경 세제 일몰 임박</text>
+
+  <g font-family="sans-serif">
+    <text x="80" y="985" fill="#FFFFFF" font-size="15" font-weight="700">개소세·취득세 감면</text>
+    <text x="580" y="985" text-anchor="end" fill="#FCA5A5" font-size="15" font-weight="800">2026.12.31 일몰</text>
+
+    <text x="80" y="1015" fill="#FFFFFF" font-size="15" font-weight="700">친환경 세제 합계</text>
+    <text x="580" y="1015" text-anchor="end" fill="#86EFAC" font-size="15" font-weight="800">최대 약 300만</text>
+
+    <text x="80" y="1045" fill="#FFFFFF" font-size="15" font-weight="700">통행료 할인</text>
+    <text x="580" y="1045" text-anchor="end" fill="#FCD34D" font-size="15" font-weight="800">2025: 40% → 2026: 30%</text>
+
+    <text x="80" y="1075" fill="#FFFFFF" font-size="15" font-weight="700">2027년 통행료</text>
+    <text x="580" y="1075" text-anchor="end" fill="#FCA5A5" font-size="15" font-weight="800">20%로 축소</text>
+
+    <text x="80" y="1110" fill="#FCD34D" font-size="13" font-weight="700">→ 2026년 내 신차 구매가 가장 유리</text>
+  </g>
+
+  <!-- 주행 패턴별 추천 -->
+  <rect x="620" y="910" width="520" height="220" rx="16" fill="url(#card)" stroke="#1E40AF" stroke-width="2"/>
+  <text x="640" y="950" fill="#93C5FD" font-size="22" font-weight="800" font-family="sans-serif">주행 패턴별 추천</text>
+
+  <g font-family="sans-serif">
+    <text x="640" y="985" fill="#86EFAC" font-size="15" font-weight="700">▸ 도심 단거리 (1만/年)</text>
+    <text x="1120" y="985" text-anchor="end" fill="#86EFAC" font-size="15" font-weight="800">하이브리드 압도</text>
+
+    <text x="640" y="1015" fill="#86EFAC" font-size="15" font-weight="700">▸ 출퇴근 (2만/年 혼합)</text>
+    <text x="1120" y="1015" text-anchor="end" fill="#86EFAC" font-size="15" font-weight="800">하이브리드 우위</text>
+
+    <text x="640" y="1045" fill="#FCA5A5" font-size="15" font-weight="700">▸ 장거리 (3만/年 고속)</text>
+    <text x="1120" y="1045" text-anchor="end" fill="#FCA5A5" font-size="15" font-weight="800">디젤 검토</text>
+
+    <text x="640" y="1075" fill="#FCA5A5" font-size="15" font-weight="700">▸ 견인·캠핑·험로</text>
+    <text x="1120" y="1075" text-anchor="end" fill="#FCA5A5" font-size="15" font-weight="800">디젤 적합</text>
+
+    <text x="640" y="1110" fill="#86EFAC" font-size="13" font-weight="700">→ 단기(3년) 매각: HEV 절대 우위 (잔존 +400)</text>
+  </g>
+
+  <!-- 단순 결론 박스 -->
+  <rect x="60" y="1160" width="1080" height="200" rx="16" fill="url(#card)" stroke="#1E40AF" stroke-width="2"/>
+  <text x="80" y="1200" fill="#93C5FD" font-size="22" font-weight="800" font-family="sans-serif">2026 하이브리드 우위 5대 포인트</text>
+
+  <g font-family="sans-serif">
+    <text x="80" y="1240" fill="#FFFFFF" font-size="16" font-weight="700">① 친환경 세제 약 130만 감면</text>
+    <text x="80" y="1275" fill="#FFFFFF" font-size="16" font-weight="700">② 5년 연료비 약 173만 절감</text>
+
+    <text x="600" y="1240" fill="#FFFFFF" font-size="16" font-weight="700">③ 5년 정비비 약 150만 절감</text>
+    <text x="600" y="1275" fill="#FFFFFF" font-size="16" font-weight="700">④ 5년 통행료 약 62.5만 절감</text>
+
+    <text x="80" y="1320" fill="#86EFAC" font-size="16" font-weight="800">⑤ 5년 후 매각가 +400만 (잔존율 55% vs 45%)</text>
+  </g>
+
+  <text x="60" y="1420" fill="#64748B" font-size="14" font-family="sans-serif">essencial | 자동차 silo · 자료: 한국에너지공단·오피넷·환경부·자동차365 (2026.04 기준)</text>
+</svg>

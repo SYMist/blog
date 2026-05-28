@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="80" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="800" fill="#F59E0B">소상공인 고용보험·산재보험 한눈에 보기</text>
+  <rect x="60" y="110" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- 고용보험 -->
+  <rect x="60" y="140" width="960" height="380" rx="20" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="160" width="160" height="44" rx="22" fill="#3B82F6"/>
+  <text x="160" y="190" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#FFF">고용보험</text>
+  <text x="260" y="190" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">보험료 최대 80% 환급 · 5년간</text>
+
+  <text x="100" y="240" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">등급별 자부담</text>
+  <text x="100" y="278" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">1등급 월 8,190원 (80%) → 연 98,280원으로 실업급여 확보</text>
+  <text x="100" y="310" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">3등급 월 21,060원 (60%) · 5등급 월 32,175원 (50%)</text>
+
+  <text x="100" y="358" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">실업급여</text>
+  <text x="100" y="396" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">가입 1년+ · 비자발적 폐업 시 기준보수 60% 지급</text>
+  <text x="100" y="428" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">120~210일 · 월 최대 202만 원</text>
+
+  <text x="100" y="476" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">연계 혜택</text>
+  <text x="100" y="510" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">정책자금 금리 0.1%p↓ · 희망리턴패키지 가점 · 점포철거비 600만</text>
+
+  <!-- 산재보험 -->
+  <rect x="60" y="540" width="960" height="200" rx="20" fill="rgba(16,185,129,0.12)"/>
+  <rect x="80" y="560" width="160" height="44" rx="22" fill="#10B981"/>
+  <text x="160" y="590" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#FFF">산재보험</text>
+  <text x="260" y="590" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">지자체 추가 지원</text>
+
+  <text x="100" y="640" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">인천 50% 일괄 · 경기 30~40% · 울산 15~30%</text>
+  <text x="100" y="672" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">중앙정부 환급과 중복 수혜 가능</text>
+  <text x="100" y="720" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">근로복지공단 가입 → 보험료 납부 → 지자체 환급 신청</text>
+
+  <!-- 바우처 -->
+  <rect x="60" y="760" width="960" height="170" rx="20" fill="rgba(245,158,11,0.12)"/>
+  <rect x="80" y="780" width="220" height="44" rx="22" fill="#F59E0B"/>
+  <text x="190" y="810" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#0B1F3B">경영안정 바우처</text>
+  <text x="320" y="810" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">2026년 신설</text>
+
+  <text x="100" y="860" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">1개사당 25만 원</text>
+  <text x="400" y="860" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">연 매출 1억 400만 미만 · 230만 개사</text>
+  <text x="100" y="900" font-family="'Pretendard',sans-serif" font-size="20" fill="#F59E0B">4대 보험료 납부 가능 → 고용보험 환급과 중복 수혜 OK</text>
+
+  <!-- 하단 -->
+  <rect x="60" y="950" width="960" height="90" rx="16" fill="rgba(239,68,68,0.1)"/>
+  <text x="100" y="990" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#EF4444">소급 불가!</text>
+  <text x="280" y="990" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">가입과 동시에 지원 신청 필수</text>
+  <text x="100" y="1025" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">6개월 연속 체납 → 보험 관계 강제 소멸 · 자동이체 설정!</text>
+
+  <rect x="60" y="1050" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

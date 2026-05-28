@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="8" fill="#F59E0B"/>
+
+  <!-- Title -->
+  <text x="540" y="70" font-family="-apple-system, sans-serif" font-size="36" font-weight="900" fill="#F59E0B" text-anchor="middle">임대사업자 신청 전 1분 체크리스트</text>
+  <text x="540" y="108" font-family="-apple-system, sans-serif" font-size="22" font-weight="700" fill="#A0B4D0" text-anchor="middle">등록 전 이 6가지만 확인하면 세제혜택 완전 수령 가능</text>
+
+  <!-- Item 1 -->
+  <rect x="60" y="142" width="960" height="110" rx="12" fill="#1A3270"/>
+  <rect x="60" y="142" width="6" height="110" rx="3" fill="#34D399"/>
+  <circle cx="118" cy="197" r="22" fill="#34D399"/>
+  <text x="118" y="204" font-family="-apple-system, sans-serif" font-size="20" font-weight="900" fill="#0B1F3B" text-anchor="middle">1</text>
+  <text x="158" y="185" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">임대 물건 유형 확인</text>
+  <text x="158" y="214" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">빌라·다세대·오피스텔·도시형생활주택 → 등록 가능 / 아파트 신규 단기 → 불가</text>
+
+  <!-- Item 2 -->
+  <rect x="60" y="268" width="960" height="110" rx="12" fill="#0D2347"/>
+  <rect x="60" y="268" width="6" height="110" rx="3" fill="#34D399"/>
+  <circle cx="118" cy="323" r="22" fill="#34D399"/>
+  <text x="118" y="330" font-family="-apple-system, sans-serif" font-size="20" font-weight="900" fill="#0B1F3B" text-anchor="middle">2</text>
+  <text x="158" y="311" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">공시가격 확인 (종부세 합산배제 요건)</text>
+  <text x="158" y="340" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">수도권 6억원 이하, 비수도권 3억원 이하 → 합산배제 가능 (realtyprice.kr 확인)</text>
+
+  <!-- Item 3 -->
+  <rect x="60" y="394" width="960" height="110" rx="12" fill="#1A3270"/>
+  <rect x="60" y="394" width="6" height="110" rx="3" fill="#F59E0B"/>
+  <circle cx="118" cy="449" r="22" fill="#F59E0B"/>
+  <text x="118" y="456" font-family="-apple-system, sans-serif" font-size="20" font-weight="900" fill="#0B1F3B" text-anchor="middle">3</text>
+  <text x="158" y="437" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">의무임대기간 선택 결정</text>
+  <text x="158" y="466" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">6년(소득세 30% 감면) vs 10년(75% 감면) — 매각 계획 고려하여 선택</text>
+
+  <!-- Item 4 -->
+  <rect x="60" y="520" width="960" height="110" rx="12" fill="#0D2347"/>
+  <rect x="60" y="520" width="6" height="110" rx="3" fill="#F59E0B"/>
+  <circle cx="118" cy="575" r="22" fill="#F59E0B"/>
+  <text x="118" y="582" font-family="-apple-system, sans-serif" font-size="20" font-weight="900" fill="#0B1F3B" text-anchor="middle">4</text>
+  <text x="158" y="563" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">렌트홈 공인인증서 로그인 가능 여부 확인</text>
+  <text x="158" y="592" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">renthome.go.kr 온라인 신청 — 공동인증서(구 공인인증서) 또는 간편인증 사용</text>
+
+  <!-- Item 5 -->
+  <rect x="60" y="646" width="960" height="110" rx="12" fill="#1A3270"/>
+  <rect x="60" y="646" width="6" height="110" rx="3" fill="#34D399"/>
+  <circle cx="118" cy="701" r="22" fill="#34D399"/>
+  <text x="118" y="708" font-family="-apple-system, sans-serif" font-size="20" font-weight="900" fill="#0B1F3B" text-anchor="middle">5</text>
+  <text x="158" y="689" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">임대소득 신고 방식 비교 (5월 신고 전)</text>
+  <text x="158" y="718" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">홈택스 모의계산 → 분리과세(14%) vs 종합과세 비교 후 유리한 방식 선택</text>
+
+  <!-- Item 6 -->
+  <rect x="60" y="772" width="960" height="110" rx="12" fill="#0D2347"/>
+  <rect x="60" y="772" width="6" height="110" rx="3" fill="#EF4444"/>
+  <circle cx="118" cy="827" r="22" fill="#EF4444"/>
+  <text x="118" y="834" font-family="-apple-system, sans-serif" font-size="20" font-weight="900" fill="#FFFFFF" text-anchor="middle">6</text>
+  <text x="158" y="815" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">종부세 합산배제 신고 일정 캘린더 등록</text>
+  <text x="158" y="844" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">매년 9월 16~30일 홈택스 신고 필수 — 자동 적용 아님! 스마트폰 알림 설정 권장</text>
+
+  <!-- Footer note -->
+  <text x="540" y="960" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준 | renthome.go.kr | hometax.go.kr | ☎ 1670-8004</text>
+  <rect x="0" y="1072" width="1080" height="8" fill="#F59E0B"/>
+</svg>

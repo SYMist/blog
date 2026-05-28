@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#F59E0B">정책자금 vs 보증대출 vs 시중은행</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- 금리 비교 -->
+  <rect x="60" y="120" width="960" height="260" rx="20" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="132" width="160" height="34" rx="17" fill="#1D4ED8"/>
+  <text x="160" y="156" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="800" fill="#FFF">금리 비교</text>
+
+  <rect x="80" y="180" width="290" height="90" rx="14" fill="rgba(245,158,11,0.15)"/>
+  <text x="225" y="212" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#F59E0B">정책자금</text>
+  <text x="225" y="250" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="900" fill="#FFF">3.36~4.96%</text>
+
+  <rect x="390" y="180" width="290" height="90" rx="14" fill="rgba(245,158,11,0.08)"/>
+  <text x="535" y="212" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#F59E0B">보증대출</text>
+  <text x="535" y="250" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="900" fill="#FFF">실질 2.5~3%</text>
+
+  <rect x="700" y="180" width="300" height="90" rx="14" fill="rgba(239,68,68,0.1)"/>
+  <text x="850" y="212" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#EF4444">시중은행</text>
+  <text x="850" y="250" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="900" fill="#FFF">4.01~5.38%</text>
+
+  <text x="540" y="350" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#F59E0B">보증대출(이차보전)이 실질 금리 가장 낮음 → 지자체 예산 선착순!</text>
+
+  <!-- 한도 비교 -->
+  <rect x="60" y="400" width="960" height="200" rx="20" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="412" width="160" height="34" rx="17" fill="#1D4ED8"/>
+  <text x="160" y="436" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="800" fill="#FFF">한도 비교</text>
+
+  <rect x="80" y="460" width="290" height="60" rx="14" fill="rgba(245,158,11,0.12)"/>
+  <text x="225" y="498" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">정책: 최대 10억</text>
+
+  <rect x="390" y="460" width="290" height="60" rx="14" fill="rgba(245,158,11,0.08)"/>
+  <text x="535" y="498" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">보증: 2천만~8억</text>
+
+  <rect x="700" y="460" width="300" height="60" rx="14" fill="rgba(255,255,255,0.06)"/>
+  <text x="850" y="498" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">은행: 신용별 상이</text>
+
+  <text x="540" y="570" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#EAF2FF">※ 정책자금 혁신성장촉진 = 시설 10억 | 일반경영 = 연 7,000만 | 보증대출 = 지역별 상이</text>
+
+  <!-- DSR 영향 -->
+  <rect x="60" y="620" width="960" height="200" rx="20" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="632" width="200" height="34" rx="17" fill="#1D4ED8"/>
+  <text x="180" y="656" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="800" fill="#FFF">DSR 영향</text>
+
+  <rect x="80" y="680" width="290" height="80" rx="14" fill="rgba(245,158,11,0.15)"/>
+  <text x="225" y="712" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#F59E0B">정책자금</text>
+  <text x="225" y="742" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="900" fill="#FFF">미적용 (사업자)</text>
+
+  <rect x="390" y="680" width="290" height="80" rx="14" fill="rgba(245,158,11,0.08)"/>
+  <text x="535" y="712" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#F59E0B">보증대출</text>
+  <text x="535" y="742" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="900" fill="#FFF">보증서 담보</text>
+
+  <rect x="700" y="680" width="300" height="80" rx="14" fill="rgba(239,68,68,0.1)"/>
+  <text x="850" y="712" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#EF4444">시중 가계대출</text>
+  <text x="850" y="742" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="900" fill="#FFF">DSR 100% 적용</text>
+
+  <text x="540" y="800" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" font-weight="700" fill="#F59E0B">사업 자금 = 사업자 대출로 조달해야 DSR 규제 회피</text>
+
+  <!-- 대환대출 -->
+  <rect x="60" y="840" width="960" height="180" rx="20" fill="rgba(245,158,11,0.08)"/>
+  <text x="540" y="880" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#F59E0B">대환대출 프로그램 (2026)</text>
+
+  <text x="200" y="935" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#EAF2FF">대상</text>
+  <text x="200" y="965" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="900" fill="#FFF">7%+ 고금리</text>
+
+  <text x="440" y="935" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#EAF2FF">전환 금리</text>
+  <text x="440" y="965" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#F59E0B">4.5% 고정</text>
+
+  <text x="680" y="935" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#EAF2FF">한도</text>
+  <text x="680" y="965" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="900" fill="#FFF">5,000만</text>
+
+  <text x="880" y="935" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#EAF2FF">상환</text>
+  <text x="880" y="965" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="900" fill="#FFF">10년 분할</text>
+
+  <rect x="60" y="1050" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

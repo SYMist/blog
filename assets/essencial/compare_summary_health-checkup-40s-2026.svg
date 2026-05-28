@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F0FDFA"/>
+      <stop offset="100%" stop-color="#CCFBF1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+
+  <!-- 상단 배지 -->
+  <rect x="40" y="40" width="200" height="44" rx="22" fill="#0F766E"/>
+  <text x="140" y="68" font-family="sans-serif" font-size="20" font-weight="700" fill="#FFF" text-anchor="middle">2026 최신 기준</text>
+
+  <!-- 제목 -->
+  <text x="540" y="140" font-family="sans-serif" font-size="42" font-weight="900" fill="#111827" text-anchor="middle">40대 건강검진 추가 항목</text>
+  <text x="540" y="195" font-family="sans-serif" font-size="42" font-weight="900" fill="#0F766E" text-anchor="middle">예산별 추천 조합</text>
+
+  <!-- 구분선 -->
+  <line x1="140" y1="230" x2="940" y2="230" stroke="#99F6E4" stroke-width="2"/>
+
+  <!-- 카드 1: 가성비 기본 -->
+  <rect x="60" y="270" width="960" height="200" rx="20" fill="#FFF" stroke="#E5E7EB" stroke-width="1.5"/>
+  <rect x="60" y="270" width="8" height="200" rx="4" fill="#10B981"/>
+  <text x="110" y="320" font-family="sans-serif" font-size="22" font-weight="800" fill="#10B981">💰 가성비 기본</text>
+  <text x="110" y="355" font-family="sans-serif" font-size="26" font-weight="800" fill="#111827">60~80만 원</text>
+  <text x="110" y="395" font-family="sans-serif" font-size="20" fill="#4B5563">국가검진 + 대장내시경 + 복부초음파</text>
+  <text x="110" y="430" font-family="sans-serif" font-size="18" fill="#6B7280">→ 검진전문기관 '플러스 패키지'</text>
+  <rect x="760" y="310" width="220" height="48" rx="24" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1"/>
+  <text x="870" y="340" font-family="sans-serif" font-size="18" font-weight="700" fill="#059669" text-anchor="middle">40대 초반 추천</text>
+
+  <!-- 카드 2: 심혈관 -->
+  <rect x="60" y="500" width="960" height="200" rx="20" fill="#FFF" stroke="#E5E7EB" stroke-width="1.5"/>
+  <rect x="60" y="500" width="8" height="200" rx="4" fill="#0F766E"/>
+  <text x="110" y="550" font-family="sans-serif" font-size="22" font-weight="800" fill="#0F766E">🫀 심혈관 정밀</text>
+  <text x="110" y="585" font-family="sans-serif" font-size="26" font-weight="800" fill="#111827">130~150만 원</text>
+  <text x="110" y="625" font-family="sans-serif" font-size="20" fill="#4B5563">+ 심장초음파 + 경동맥초음파 + 저선량 폐CT</text>
+  <text x="110" y="660" font-family="sans-serif" font-size="18" fill="#6B7280">→ 검진기관 '정밀 패키지'</text>
+  <rect x="760" y="540" width="220" height="48" rx="24" fill="#F0FDFA" stroke="#99F6E4" stroke-width="1"/>
+  <text x="870" y="570" font-family="sans-serif" font-size="18" font-weight="700" fill="#0F766E" text-anchor="middle">고혈압/당뇨 가족력</text>
+
+  <!-- 카드 3: 프리미엄 -->
+  <rect x="60" y="730" width="960" height="200" rx="20" fill="#FFF" stroke="#E5E7EB" stroke-width="1.5"/>
+  <rect x="60" y="730" width="8" height="200" rx="4" fill="#7C3AED"/>
+  <text x="110" y="780" font-family="sans-serif" font-size="22" font-weight="800" fill="#7C3AED">🧬 프리미엄 철저</text>
+  <text x="110" y="815" font-family="sans-serif" font-size="26" font-weight="800" fill="#111827">250~470만 원</text>
+  <text x="110" y="855" font-family="sans-serif" font-size="20" fill="#4B5563">+ 뇌MRI/MRA + 심장CT + 액체생검</text>
+  <text x="110" y="890" font-family="sans-serif" font-size="18" fill="#6B7280">→ 대학병원 프리미엄 검진</text>
+  <rect x="760" y="770" width="220" height="48" rx="24" fill="#F5F3FF" stroke="#C4B5FD" stroke-width="1"/>
+  <text x="870" y="800" font-family="sans-serif" font-size="18" font-weight="700" fill="#7C3AED" text-anchor="middle">암 가족력 있을 때</text>
+
+  <!-- 하단 출처 -->
+  <text x="540" y="1000" font-family="sans-serif" font-size="16" fill="#9CA3AF" text-anchor="middle">2026년 3월 기준 | 검진기관·대학병원 공개 수가 기반</text>
+  <text x="540" y="1030" font-family="sans-serif" font-size="16" fill="#9CA3AF" text-anchor="middle">실제 비용은 기관에 따라 차이가 있을 수 있습니다</text>
+</svg>

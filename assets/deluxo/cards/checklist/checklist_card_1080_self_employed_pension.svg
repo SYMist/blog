@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#F59E0B">자영업자 국민연금 1분 체크리스트</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <rect x="60" y="120" width="960" height="100" rx="16" fill="rgba(239,68,68,0.08)"/>
+  <rect x="80" y="148" width="40" height="40" rx="8" fill="rgba(239,68,68,0.3)" stroke="#EF4444" stroke-width="2"/>
+  <text x="100" y="176" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#EF4444">!</text>
+  <text x="140" y="168" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">내 가입 기간 확인</text>
+  <text x="140" y="198" font-family="'Pretendard',sans-serif" font-size="17" fill="#EAF2FF">10년 미만 → 임의계속가입 | 20년 미만 → 할증 진입 전략</text>
+
+  <rect x="60" y="232" width="960" height="100" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="260" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="288" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="280" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">납부 공백 기간 확인 → 추납 검토</text>
+  <text x="140" y="310" font-family="'Pretendard',sans-serif" font-size="17" fill="#EAF2FF">최대 119개월 소급 | 분할납 60개월 가능</text>
+
+  <rect x="60" y="344" width="960" height="100" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="372" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="400" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="392" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">기준소득 80만 원 미만 → 50% 지원 신청</text>
+  <text x="140" y="422" font-family="'Pretendard',sans-serif" font-size="17" fill="#EAF2FF">월 최대 45,000원 × 12개월 = 540,000원</text>
+
+  <rect x="60" y="456" width="960" height="100" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="484" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="512" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="504" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">군 복무·출산 크레딧 신청 여부 확인</text>
+  <text x="140" y="534" font-family="'Pretendard',sans-serif" font-size="17" fill="#EAF2FF">군 최대 12개월 + 출산 첫째부터 12개월 (무상 추가)</text>
+
+  <rect x="60" y="568" width="960" height="100" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="596" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="624" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="616" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">60세+ 사업 지속 → 감액 완화 확인 (6월~)</text>
+  <text x="140" y="646" font-family="'Pretendard',sans-serif" font-size="17" fill="#EAF2FF">월 509만 원 미만 소득 = 연금 전액 수령</text>
+
+  <rect x="60" y="680" width="960" height="100" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="708" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="736" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="728" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">건보 피부양자 2,000만 원 기준 확인</text>
+  <text x="140" y="758" font-family="'Pretendard',sans-serif" font-size="17" fill="#EAF2FF">연금+기타소득 초과 시 지역건보 전환 → 연기연금 검토</text>
+
+  <rect x="60" y="792" width="960" height="100" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="820" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="848" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="840" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">노란우산공제·연금저축 병행 → 3층 설계</text>
+  <text x="140" y="870" font-family="'Pretendard',sans-serif" font-size="17" fill="#EAF2FF">국민연금(기초) + 노란우산(퇴직금) + 연금저축(보충)</text>
+
+  <rect x="60" y="904" width="960" height="100" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="932" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="960" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="952" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">예상 수령액 조회 (공단 앱·누리집)</text>
+  <text x="140" y="982" font-family="'Pretendard',sans-serif" font-size="17" fill="#EAF2FF">'내 곁에 국민연금' 앱 | nps.or.kr | 전화 1355</text>
+
+  <rect x="60" y="1050" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

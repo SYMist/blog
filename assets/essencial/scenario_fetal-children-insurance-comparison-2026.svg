@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="720" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="540" y="50" text-anchor="middle" fill="#FFFFFF" font-size="24" font-weight="800" font-family="sans-serif">상황별 가입 추천 시나리오</text>
+  <text x="540" y="76" text-anchor="middle" fill="#A78BFA" font-size="14" font-family="sans-serif">5가지 상황 · 2026.05 기준</text>
+
+  <!-- Scenario 1 -->
+  <rect x="40" y="96" width="480" height="118" rx="10" fill="#3b0764" fill-opacity="0.6" stroke="#7C3AED" stroke-width="1.5"/>
+  <rect x="40" y="96" width="480" height="38" rx="10" fill="#7C3AED"/>
+  <rect x="40" y="120" width="480" height="14" fill="#7C3AED"/>
+  <text x="60" y="120" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">① 임신 13~22주 이내</text>
+  <text x="60" y="158" fill="#C4B5FD" font-size="13" font-weight="700" font-family="sans-serif">→ 태아보험 즉시 가입</text>
+  <text x="60" y="180" fill="#CBD5E1" font-size="12" font-family="sans-serif">22주 지나면 태아특약(선천성이상·미숙아) 영구 불가</text>
+  <text x="60" y="200" fill="#CBD5E1" font-size="12" font-family="sans-serif">1차 기형아 검사(NT검사) 전후 즉시 행동 권장</text>
+
+  <!-- Scenario 2 -->
+  <rect x="560" y="96" width="480" height="118" rx="10" fill="#134e4a" fill-opacity="0.6" stroke="#0F766E" stroke-width="1.5"/>
+  <rect x="560" y="96" width="480" height="38" rx="10" fill="#0F766E"/>
+  <rect x="560" y="120" width="480" height="14" fill="#0F766E"/>
+  <text x="580" y="120" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">② 임신 22주 이후 ~ 출산 전</text>
+  <text x="580" y="158" fill="#6EE7B7" font-size="13" font-weight="700" font-family="sans-serif">→ 어린이보험 즉시 가입 (태아특약 제외)</text>
+  <text x="580" y="180" fill="#CBD5E1" font-size="12" font-family="sans-serif">태아특약 없이 일반 어린이 보장만 가입 가능</text>
+  <text x="580" y="200" fill="#CBD5E1" font-size="12" font-family="sans-serif">출생 전 가입하면 선천성이상 진단 전 보장 확정</text>
+
+  <!-- Scenario 3 -->
+  <rect x="40" y="234" width="480" height="118" rx="10" fill="#134e4a" fill-opacity="0.6" stroke="#0F766E" stroke-width="1.5"/>
+  <rect x="40" y="234" width="480" height="38" rx="10" fill="#0F766E"/>
+  <rect x="40" y="258" width="480" height="14" fill="#0F766E"/>
+  <text x="60" y="258" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">③ 출생 직후 (0~6개월)</text>
+  <text x="60" y="296" fill="#6EE7B7" font-size="13" font-weight="700" font-family="sans-serif">→ 어린이보험 즉시 가입 (보험료 최저 시점)</text>
+  <text x="60" y="318" fill="#CBD5E1" font-size="12" font-family="sans-serif">0세 가입 = 전 연령 중 보험료 최저</text>
+  <text x="60" y="338" fill="#CBD5E1" font-size="12" font-family="sans-serif">비갱신형 종합 상품으로 월 3만~5만원 수준</text>
+
+  <!-- Scenario 4 -->
+  <rect x="560" y="234" width="480" height="118" rx="10" fill="#422006" fill-opacity="0.6" stroke="#D97706" stroke-width="1.5"/>
+  <rect x="560" y="234" width="480" height="38" rx="10" fill="#D97706"/>
+  <rect x="560" y="258" width="480" height="14" fill="#D97706"/>
+  <text x="580" y="258" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">④ 5세 이상 갱신형 보유 중</text>
+  <text x="580" y="296" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">→ 비갱신형으로 교체 검토</text>
+  <text x="580" y="318" fill="#CBD5E1" font-size="12" font-family="sans-serif">갱신형은 10~15년 후 보험료 급등 위험</text>
+  <text x="580" y="338" fill="#CBD5E1" font-size="12" font-family="sans-serif">현재 건강 상태 양호 시 비갱신형 교체가 유리</text>
+
+  <!-- Scenario 5 (full width) -->
+  <rect x="40" y="372" width="1000" height="118" rx="10" fill="#1e1b4b" fill-opacity="0.6" stroke="#4F46E5" stroke-width="1.5"/>
+  <rect x="40" y="372" width="1000" height="38" rx="10" fill="#4F46E5"/>
+  <rect x="40" y="396" width="1000" height="14" fill="#4F46E5"/>
+  <text x="60" y="396" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">⑤ 만기 설정 고민 중 (공통)</text>
+  <text x="60" y="434" fill="#A5B4FC" font-size="13" font-weight="700" font-family="sans-serif">→ 30세 만기 가입 + 계약전환제도 활용</text>
+  <text x="60" y="456" fill="#CBD5E1" font-size="12" font-family="sans-serif">30세 만기 = 보험료 가장 저렴 · 납입 부담 최소</text>
+  <text x="60" y="476" fill="#CBD5E1" font-size="12" font-family="sans-serif">만기 전 신청 시 건강 고지 없이 90·100세 만기로 전환 → 성인 이후 건강 상태 무관 장기 보장 확보</text>
+
+  <!-- Key Summary box -->
+  <rect x="40" y="510" width="1000" height="180" rx="10" fill="#1e293b" fill-opacity="0.8"/>
+  <text x="540" y="542" text-anchor="middle" fill="#F8FAFC" font-size="16" font-weight="800" font-family="sans-serif">핵심 결론 3줄 요약</text>
+  <text x="80" y="578" fill="#C4B5FD" font-size="14" font-weight="700" font-family="sans-serif">1.</text>
+  <text x="102" y="578" fill="#FFFFFF" font-size="14" font-family="sans-serif">임신 22주 이내라면 → 태아보험 즉시 (22주 지나면 태아특약 영구 불가)</text>
+  <text x="80" y="614" fill="#6EE7B7" font-size="14" font-weight="700" font-family="sans-serif">2.</text>
+  <text x="102" y="614" fill="#FFFFFF" font-size="14" font-family="sans-serif">22주 이후·출생 후라면 → 어린이보험 즉시 가입 (0세 = 보험료 최저)</text>
+  <text x="80" y="650" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">3.</text>
+  <text x="102" y="650" fill="#FFFFFF" font-size="14" font-family="sans-serif">만기는 30세로 설정 → 만기 전 계약전환으로 건강 무관 장기 보장 확보</text>
+
+  <text x="40" y="704" fill="#64748B" font-size="12" font-family="sans-serif">essencial | 보험 비교 silo · 2026.05 기준 · 개인 상황에 따라 다를 수 있으며 가입 전 약관 확인 필요</text>
+</svg>

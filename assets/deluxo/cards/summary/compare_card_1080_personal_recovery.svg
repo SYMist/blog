@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="60" y="50" width="180" height="44" rx="22" fill="#F59E0B"/>
+  <text x="150" y="79" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#0B1F3B">절차 흐름도</text>
+  <text x="60" y="148" font-family="'Pretendard',sans-serif" font-size="46" font-weight="900" fill="#FFFFFF">개인회생 절차 한눈에</text>
+  <rect x="60" y="175" width="120" height="4" rx="2" fill="#F59E0B"/>
+
+  <!-- Step 1 -->
+  <rect x="60" y="220" width="960" height="130" rx="16" fill="rgba(59,130,246,0.12)" stroke="#3B82F6" stroke-width="1"/>
+  <circle cx="120" cy="285" r="30" fill="#3B82F6"/>
+  <text x="120" y="294" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="900" fill="#FFFFFF">1</text>
+  <text x="175" y="270" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">개시 신청</text>
+  <text x="175" y="305" font-family="'Pretendard',sans-serif" font-size="20" fill="#94A3B8">법원에 개시신청서 + 채권자목록 + 재산목록 + 소득증빙 제출</text>
+  <text x="175" y="332" font-family="'Pretendard',sans-serif" font-size="18" fill="#60A5FA">비용: 인지대 28,800원 + 송달료</text>
+
+  <!-- Arrow -->
+  <text x="540" y="375" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" fill="#F59E0B">▼</text>
+
+  <!-- Step 2 -->
+  <rect x="60" y="395" width="960" height="130" rx="16" fill="rgba(16,185,129,0.12)" stroke="#10B981" stroke-width="1"/>
+  <circle cx="120" cy="460" r="30" fill="#10B981"/>
+  <text x="120" y="469" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="900" fill="#FFFFFF">2</text>
+  <text x="175" y="445" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">개시 결정 (1~2주)</text>
+  <text x="175" y="480" font-family="'Pretendard',sans-serif" font-size="20" fill="#94A3B8">회생위원 선임 · 추심·압류 즉시 중지</text>
+  <text x="175" y="507" font-family="'Pretendard',sans-serif" font-size="18" fill="#34D399">핵심 효과: 급여압류·가압류 멈춤</text>
+
+  <!-- Arrow -->
+  <text x="540" y="550" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" fill="#F59E0B">▼</text>
+
+  <!-- Step 3 -->
+  <rect x="60" y="570" width="960" height="130" rx="16" fill="rgba(245,158,11,0.12)" stroke="#F59E0B" stroke-width="1"/>
+  <circle cx="120" cy="635" r="30" fill="#F59E0B"/>
+  <text x="120" y="644" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="900" fill="#0B1F3B">3</text>
+  <text x="175" y="620" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">변제계획 인가 (2~4개월)</text>
+  <text x="175" y="655" font-family="'Pretendard',sans-serif" font-size="20" fill="#94A3B8">변제계획안 작성 → 채권자집회 → 법원 인가</text>
+  <text x="175" y="682" font-family="'Pretendard',sans-serif" font-size="18" fill="#FBBF24">가용소득 = 월소득 − 최저생계비(중위소득 60%)</text>
+
+  <!-- Arrow -->
+  <text x="540" y="725" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" fill="#F59E0B">▼</text>
+
+  <!-- Step 4 -->
+  <rect x="60" y="745" width="960" height="150" rx="16" fill="rgba(139,92,246,0.12)" stroke="#8B5CF6" stroke-width="1"/>
+  <circle cx="120" cy="820" r="30" fill="#8B5CF6"/>
+  <text x="120" y="829" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="900" fill="#FFFFFF">4</text>
+  <text x="175" y="800" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">변제 수행 → 면책 (3~5년)</text>
+  <text x="175" y="835" font-family="'Pretendard',sans-serif" font-size="20" fill="#94A3B8">인가된 계획대로 분할 상환 → 완료 후 면책신청</text>
+  <text x="175" y="862" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#A78BFA">잔여 채무 탕감! (비면책채권 제외)</text>
+  <text x="175" y="882" font-family="'Pretendard',sans-serif" font-size="16" fill="#94A3B8">2026년: 미성년자녀 2명+, 65세+, 30세 미만 등 3년 미만 단축 가능</text>
+
+  <text x="60" y="960" font-family="'Pretendard',sans-serif" font-size="18" fill="#94A3B8">※ 법원·사건에 따라 기간이 달라질 수 있습니다</text>
+</svg>

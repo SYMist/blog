@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- 배지 -->
+  <rect x="40" y="36" width="280" height="44" rx="22" fill="#F59E0B"/>
+  <text x="180" y="65" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#0B1F3B">신청 전 체크리스트</text>
+
+  <!-- 제목 -->
+  <text x="40" y="135" font-family="'Pretendard',sans-serif" font-size="44" font-weight="900" fill="#FFFFFF">부산·대구·광주</text>
+  <text x="40" y="185" font-family="'Pretendard',sans-serif" font-size="44" font-weight="900" fill="#FFFFFF">소상공인 지원금 신청 전</text>
+
+  <rect x="40" y="210" width="120" height="4" rx="2" fill="#F59E0B"/>
+
+  <!-- 체크 1 -->
+  <rect x="40" y="245" width="1000" height="80" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <rect x="70" y="265" width="40" height="40" rx="8" fill="#F59E0B"/>
+  <text x="90" y="294" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="900" fill="#0B1F3B">✓</text>
+  <text x="130" y="293" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">사업자등록 소재지가 부산·대구·광주인가?</text>
+
+  <!-- 체크 2 -->
+  <rect x="40" y="340" width="1000" height="80" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <rect x="70" y="360" width="40" height="40" rx="8" fill="#F59E0B"/>
+  <text x="90" y="389" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="900" fill="#0B1F3B">✓</text>
+  <text x="130" y="388" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">연 매출 기준을 확인했는가? (바우처 1억 400만, 영세 5억)</text>
+
+  <!-- 체크 3 -->
+  <rect x="40" y="435" width="1000" height="80" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <rect x="70" y="455" width="40" height="40" rx="8" fill="#F59E0B"/>
+  <text x="90" y="484" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="900" fill="#0B1F3B">✓</text>
+  <text x="130" y="483" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">전국 바우처(25만) + 지역 사업 중복 수혜 가능 여부 확인?</text>
+
+  <!-- 체크 4 -->
+  <rect x="40" y="530" width="1000" height="80" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <rect x="70" y="550" width="40" height="40" rx="8" fill="#F59E0B"/>
+  <text x="90" y="579" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="900" fill="#0B1F3B">✓</text>
+  <text x="130" y="578" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">홀·짝제 날짜 확인했는가? (사업자번호 끝자리)</text>
+
+  <!-- 체크 5 -->
+  <rect x="40" y="625" width="1000" height="80" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <rect x="70" y="645" width="40" height="40" rx="8" fill="#F59E0B"/>
+  <text x="90" y="674" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="900" fill="#0B1F3B">✓</text>
+  <text x="130" y="673" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">육아 관련 — 가족관계증명서·등본(무주택) 준비?</text>
+
+  <!-- 체크 6 -->
+  <rect x="40" y="720" width="1000" height="80" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <rect x="70" y="740" width="40" height="40" rx="8" fill="#F59E0B"/>
+  <text x="90" y="769" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="900" fill="#0B1F3B">✓</text>
+  <text x="130" y="768" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">이차보전 — 사업장 임대차계약서·재무제표 준비?</text>
+
+  <!-- 체크 7 -->
+  <rect x="40" y="815" width="1000" height="80" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <rect x="70" y="835" width="40" height="40" rx="8" fill="#F59E0B"/>
+  <text x="90" y="864" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="900" fill="#0B1F3B">✓</text>
+  <text x="130" y="863" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">소상공인24 마이데이터 연동으로 서류 간소화 완료?</text>
+
+  <!-- 체크 8 -->
+  <rect x="40" y="910" width="1000" height="80" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <rect x="70" y="930" width="40" height="40" rx="8" fill="#F59E0B"/>
+  <text x="90" y="959" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="900" fill="#0B1F3B">✓</text>
+  <text x="130" y="958" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">선착순 사업(광주 특례보증·미소금융) 마감 여부 확인?</text>
+
+  <!-- 칩 -->
+  <rect x="40" y="1020" width="140" height="38" rx="19" fill="#E8F0FF"/>
+  <text x="110" y="1045" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#1D4ED8">체크리스트</text>
+  <rect x="195" y="1020" width="100" height="38" rx="19" fill="#E8F0FF"/>
+  <text x="245" y="1045" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#1D4ED8">저장</text>
+  <rect x="310" y="1020" width="100" height="38" rx="19" fill="#E8F0FF"/>
+  <text x="360" y="1045" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#1D4ED8">2026</text>
+</svg>

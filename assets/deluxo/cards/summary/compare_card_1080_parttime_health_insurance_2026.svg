@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 배경 -->
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- 타이틀 -->
+  <rect x="60" y="54" width="960" height="100" rx="16" fill="#0D2347"/>
+  <text x="540" y="100" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="32" font-weight="800" fill="#F59E0B" text-anchor="middle">피부양자 등재 절차 비교</text>
+  <text x="540" y="138" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="28" font-weight="700" fill="#FFFFFF" text-anchor="middle">직장가입자 신고 vs 피부양자 등재</text>
+
+  <!-- 열 헤더 -->
+  <rect x="60" y="176" width="460" height="60" rx="12" fill="#34D399"/>
+  <text x="290" y="216" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="28" font-weight="800" fill="#0B1F3B" text-anchor="middle">직장가입자 신고 절차</text>
+
+  <rect x="560" y="176" width="460" height="60" rx="12" fill="#1A3270"/>
+  <text x="790" y="216" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF" text-anchor="middle">피부양자 등재 절차</text>
+
+  <!-- 직장가입자 신고 단계 -->
+  <rect x="60" y="256" width="460" height="90" rx="0" fill="#0D2347"/>
+  <circle cx="110" cy="301" r="22" fill="#34D399"/>
+  <text x="110" y="308" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="900" fill="#0B1F3B" text-anchor="middle">1</text>
+  <text x="290" y="293" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">조건 확인</text>
+  <text x="290" y="321" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="21" fill="#A0B4D0" text-anchor="middle">1개월 이상 + 월 60시간 이상</text>
+
+  <rect x="60" y="354" width="460" height="90" rx="0" fill="#102A56"/>
+  <circle cx="110" cy="399" r="22" fill="#34D399"/>
+  <text x="110" y="406" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="900" fill="#0B1F3B" text-anchor="middle">2</text>
+  <text x="290" y="391" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">사업주 신고서 작성</text>
+  <text x="290" y="419" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="21" fill="#A0B4D0" text-anchor="middle">자격 취득 신고서 작성</text>
+
+  <rect x="60" y="452" width="460" height="90" rx="0" fill="#0D2347"/>
+  <circle cx="110" cy="497" r="22" fill="#34D399"/>
+  <text x="110" y="504" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="900" fill="#0B1F3B" text-anchor="middle">3</text>
+  <text x="290" y="489" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">공단 제출</text>
+  <text x="290" y="517" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="21" fill="#A0B4D0" text-anchor="middle">취득일로부터 14일 이내</text>
+
+  <rect x="60" y="550" width="460" height="90" rx="0" fill="#102A56"/>
+  <circle cx="110" cy="595" r="22" fill="#34D399"/>
+  <text x="110" y="602" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="900" fill="#0B1F3B" text-anchor="middle">4</text>
+  <text x="290" y="587" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">보험료 산정·부과</text>
+  <text x="290" y="615" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="21" fill="#A0B4D0" text-anchor="middle">근로자 50% + 사업주 50%</text>
+
+  <!-- 피부양자 등재 단계 -->
+  <rect x="560" y="256" width="460" height="90" rx="0" fill="#0D2347"/>
+  <circle cx="610" cy="301" r="22" fill="#1D4ED8"/>
+  <text x="610" y="308" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="900" fill="#FFFFFF" text-anchor="middle">1</text>
+  <text x="790" y="293" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">소득·재산 요건 확인</text>
+  <text x="790" y="321" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="21" fill="#A0B4D0" text-anchor="middle">연 2,000만 원 이하 / 과세표준 5억4천</text>
+
+  <rect x="560" y="354" width="460" height="90" rx="0" fill="#102A56"/>
+  <circle cx="610" cy="399" r="22" fill="#1D4ED8"/>
+  <text x="610" y="406" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="900" fill="#FFFFFF" text-anchor="middle">2</text>
+  <text x="790" y="391" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">사업장 신청서 제출</text>
+  <text x="790" y="419" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="21" fill="#A0B4D0" text-anchor="middle">직장가입자 사업장(인사팀) 경유</text>
+
+  <rect x="560" y="452" width="460" height="90" rx="0" fill="#0D2347"/>
+  <circle cx="610" cy="497" r="22" fill="#1D4ED8"/>
+  <text x="610" y="504" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="900" fill="#FFFFFF" text-anchor="middle">3</text>
+  <text x="790" y="489" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">서류 제출</text>
+  <text x="790" y="517" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="21" fill="#A0B4D0" text-anchor="middle">가족관계증명서 + 주민등록등본</text>
+
+  <rect x="560" y="550" width="460" height="90" rx="0" fill="#102A56"/>
+  <circle cx="610" cy="595" r="22" fill="#F59E0B"/>
+  <text x="610" y="602" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="900" fill="#0B1F3B" text-anchor="middle">!</text>
+  <text x="790" y="587" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="700" fill="#F59E0B" text-anchor="middle">90일 이내 신청</text>
+  <text x="790" y="615" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="21" fill="#A0B4D0" text-anchor="middle">초과 시 신청일 기준 (소급 불가)</text>
+
+  <!-- 테두리 -->
+  <rect x="60" y="256" width="460" height="384" fill="none" stroke="#34D399" stroke-width="2"/>
+  <rect x="560" y="256" width="460" height="384" fill="none" stroke="#1A3270" stroke-width="2"/>
+
+  <!-- 결론 박스 -->
+  <rect x="60" y="666" width="960" height="110" rx="16" fill="#1A3270"/>
+  <text x="540" y="710" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="28" font-weight="800" fill="#F59E0B" text-anchor="middle">📌 핵심 차이점</text>
+  <text x="540" y="748" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="25" fill="#FFFFFF" text-anchor="middle">직장가입자 신고는 사업주 의무 — 아르바이트 본인이 요청 가능</text>
+  <text x="540" y="778" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" fill="#A0B4D0" text-anchor="middle">피부양자 등재는 90일 기한 내 신청해야 소급 혜택 가능</text>
+
+  <!-- 소요 시간 요약 -->
+  <rect x="60" y="796" width="460" height="90" rx="16" fill="#0D2347"/>
+  <text x="290" y="836" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="700" fill="#34D399" text-anchor="middle">직장가입자 신고 처리</text>
+  <text x="290" y="868" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="800" fill="#FFFFFF" text-anchor="middle">약 1~3 영업일</text>
+
+  <rect x="560" y="796" width="460" height="90" rx="16" fill="#0D2347"/>
+  <text x="790" y="836" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="700" fill="#34D399" text-anchor="middle">피부양자 등재 처리</text>
+  <text x="790" y="868" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="800" fill="#FFFFFF" text-anchor="middle">약 1~3 영업일</text>
+
+  <!-- 하단 출처 -->
+  <text x="540" y="940" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#4A6080" text-anchor="middle">국민건강보험공단 1577-1000 · 2026년 5월 기준 · deluxo</text>
+</svg>

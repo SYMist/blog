@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <rect x="60" y="60" width="400" height="44" rx="22" fill="#B45309"/>
+  <text x="260" y="90" text-anchor="middle" fill="#FFFFFF" font-size="19" font-weight="800" font-family="sans-serif">2026 보금자리론 vs 디딤돌대출</text>
+
+  <text x="60" y="208" fill="#FFFFFF" font-size="60" font-weight="800" font-family="sans-serif">보금자리론 vs 디딤돌</text>
+  <text x="60" y="282" fill="#FCD34D" font-size="62" font-weight="800" font-family="sans-serif">조건·금리·한도 비교</text>
+  <text x="60" y="348" fill="#FFFFFF" font-size="30" font-weight="600" font-family="sans-serif">소득과 주택가격이 상품을 결정한다</text>
+
+  <!-- Card 1: 디딤돌 -->
+  <rect x="60" y="400" width="960" height="178" rx="16" fill="url(#card)" stroke="#0F766E" stroke-width="2"/>
+  <text x="90" y="448" fill="#6EE7B7" font-size="17" font-weight="700" font-family="sans-serif">디딤돌대출 (주택도시기금)</text>
+  <text x="90" y="508" fill="#FFFFFF" font-size="48" font-weight="800" font-family="sans-serif">소득 6,000만↓ · 2.55%~</text>
+  <text x="990" y="448" text-anchor="end" fill="#6EE7B7" font-size="16" font-weight="600" font-family="sans-serif">한도 2~3.2억</text>
+  <text x="990" y="508" text-anchor="end" fill="#CBD5E1" font-size="18" font-family="sans-serif">주택 5억↓</text>
+  <text x="90" y="554" fill="#10B981" font-size="15" font-weight="700" font-family="sans-serif">신혼·생애최초 특별금리 · 세대원 전원 무주택 · DSR 제외</text>
+
+  <!-- Card 2: 보금자리론 -->
+  <rect x="60" y="598" width="960" height="178" rx="16" fill="url(#card)" stroke="#1E40AF" stroke-width="2"/>
+  <text x="90" y="646" fill="#93C5FD" font-size="17" font-weight="700" font-family="sans-serif">보금자리론 (한국주택금융공사)</text>
+  <text x="90" y="706" fill="#FFFFFF" font-size="48" font-weight="800" font-family="sans-serif">소득 7,000만↓ · 4.60%~</text>
+  <text x="990" y="646" text-anchor="end" fill="#93C5FD" font-size="16" font-weight="600" font-family="sans-serif">한도 3.6~4.2억</text>
+  <text x="990" y="706" text-anchor="end" fill="#CBD5E1" font-size="18" font-family="sans-serif">주택 6억↓</text>
+  <text x="90" y="752" fill="#3B82F6" font-size="15" font-weight="700" font-family="sans-serif">1주택자 가능(3년처분) · 만기 50년 · 우대금리 최대 1.0%p</text>
+
+  <!-- Card 3: 선택 기준 -->
+  <rect x="60" y="796" width="960" height="178" rx="16" fill="url(#card)" stroke="#FCD34D" stroke-width="2"/>
+  <text x="90" y="844" fill="#FCD34D" font-size="17" font-weight="700" font-family="sans-serif">상품 선택 기준 요약</text>
+  <text x="90" y="896" fill="#6EE7B7" font-size="40" font-weight="800" font-family="sans-serif">소득 6,000만↓ → 디딤돌</text>
+  <text x="990" y="844" text-anchor="end" fill="#FCD34D" font-size="16" font-weight="600" font-family="sans-serif">금리차 최대 2%p</text>
+  <text x="990" y="896" text-anchor="end" fill="#CBD5E1" font-size="18" font-family="sans-serif">동시 보유 불가</text>
+  <text x="90" y="950" fill="#93C5FD" font-size="28" font-weight="800" font-family="sans-serif">소득 초과·1주택 → 보금자리론</text>
+
+  <text x="60" y="1042" fill="#64748B" font-size="15" font-family="sans-serif">essencial | 대출·금융 silo · 2026.05 기준</text>
+</svg>

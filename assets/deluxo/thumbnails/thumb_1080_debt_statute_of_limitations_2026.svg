@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#FBBF24"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="900" cy="200" r="300" fill="#1A3270" opacity="0.4"/>
+  <circle cx="150" cy="900" r="200" fill="#0D2347" opacity="0.6"/>
+
+  <!-- Top chips -->
+  <rect x="60" y="70" width="160" height="50" rx="25" fill="url(#accent)"/>
+  <text x="140" y="101" font-family="-apple-system, sans-serif" font-size="24" font-weight="700" fill="#0B1F3B" text-anchor="middle">2026 최신</text>
+
+  <rect x="238" y="70" width="248" height="50" rx="25" fill="#1A3270"/>
+  <text x="362" y="101" font-family="-apple-system, sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">카드론은 5년</text>
+
+  <rect x="504" y="70" width="280" height="50" rx="25" fill="#1A3270"/>
+  <text x="644" y="101" font-family="-apple-system, sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">판례 변경 2025</text>
+
+  <!-- Main title -->
+  <text x="60" y="240" font-family="-apple-system, sans-serif" font-size="60" font-weight="700" fill="#ffffff">채무 소멸시효</text>
+  <text x="60" y="316" font-family="-apple-system, sans-serif" font-size="60" font-weight="700" fill="#ffffff">산정·중단·완성</text>
+
+  <!-- Subtitle -->
+  <text x="60" y="390" font-family="-apple-system, sans-serif" font-size="36" fill="#A0B4D0">완전 정리 · 2026년 기준</text>
+  <text x="60" y="434" font-family="-apple-system, sans-serif" font-size="32" fill="#A0B4D0">민법·상법·2025 대법원 판례 변경 포함</text>
+
+  <!-- Divider -->
+  <rect x="60" y="468" width="200" height="6" rx="3" fill="url(#accent)"/>
+
+  <!-- Key numbers -->
+  <rect x="60" y="496" width="190" height="130" rx="14" fill="#0D2347"/>
+  <text x="155" y="540" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">카드론·대출</text>
+  <text x="155" y="590" font-family="-apple-system, sans-serif" font-size="52" font-weight="700" fill="#F59E0B" text-anchor="middle">5년</text>
+  <text x="155" y="618" font-family="-apple-system, sans-serif" font-size="18" fill="#A0B4D0" text-anchor="middle">상사채권</text>
+
+  <rect x="268" y="496" width="190" height="130" rx="14" fill="#0D2347"/>
+  <text x="363" y="540" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">개인 차용</text>
+  <text x="363" y="590" font-family="-apple-system, sans-serif" font-size="52" font-weight="700" fill="#34D399" text-anchor="middle">10년</text>
+  <text x="363" y="618" font-family="-apple-system, sans-serif" font-size="18" fill="#A0B4D0" text-anchor="middle">민사채권</text>
+
+  <rect x="476" y="496" width="190" height="130" rx="14" fill="#0D2347"/>
+  <text x="571" y="540" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">임금·퇴직금</text>
+  <text x="571" y="590" font-family="-apple-system, sans-serif" font-size="52" font-weight="700" fill="#60A5FA" text-anchor="middle">3년</text>
+  <text x="571" y="618" font-family="-apple-system, sans-serif" font-size="18" fill="#A0B4D0" text-anchor="middle">근로기준법</text>
+
+  <rect x="684" y="496" width="336" height="130" rx="14" fill="#0D2347"/>
+  <text x="852" y="540" font-family="-apple-system, sans-serif" font-size="20" fill="#A0B4D0" text-anchor="middle">내용증명만으로는</text>
+  <text x="852" y="570" font-family="-apple-system, sans-serif" font-size="28" font-weight="700" fill="#EF4444" text-anchor="middle">중단 아님!</text>
+  <text x="852" y="606" font-family="-apple-system, sans-serif" font-size="20" fill="#A0B4D0" text-anchor="middle">6개월 내 소 제기 필수</text>
+
+  <!-- Key points -->
+  <text x="60" y="700" font-family="-apple-system, sans-serif" font-size="28" font-weight="700" fill="#F59E0B">핵심 포인트</text>
+  <text x="60" y="742" font-family="-apple-system, sans-serif" font-size="26" fill="#ffffff">▸ 이자 납부 1회만 해도 소멸시효 중단 (재기산)</text>
+  <text x="60" y="782" font-family="-apple-system, sans-serif" font-size="26" fill="#ffffff">▸ 시효 완성 = 자동 소멸 아님 — 원용(항변) 필수</text>
+  <text x="60" y="822" font-family="-apple-system, sans-serif" font-size="26" fill="#ffffff">▸ 2025 판례 변경: 일부변제 = 포기 추정 불가</text>
+  <text x="60" y="862" font-family="-apple-system, sans-serif" font-size="26" fill="#ffffff">▸ 판결 확정 채권은 10년으로 재기산</text>
+
+  <!-- Footer bar -->
+  <rect x="0" y="960" width="1080" height="120" fill="#0D2347" opacity="0.9"/>
+  <text x="540" y="1010" font-family="-apple-system, sans-serif" font-size="30" font-weight="700" fill="#F59E0B" text-anchor="middle">deluxo.co.kr</text>
+  <text x="540" y="1050" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">민법·상법 공식 기준 · 2026년 최신</text>
+</svg>

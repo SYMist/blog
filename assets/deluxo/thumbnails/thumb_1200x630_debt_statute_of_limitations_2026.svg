@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#FBBF24"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Decorative circle -->
+  <circle cx="1050" cy="100" r="250" fill="#1A3270" opacity="0.4"/>
+  <circle cx="100" cy="560" r="150" fill="#0D2347" opacity="0.5"/>
+
+  <!-- Chips -->
+  <rect x="60" y="50" width="140" height="44" rx="22" fill="url(#accent)"/>
+  <text x="130" y="79" font-family="-apple-system, sans-serif" font-size="22" font-weight="700" fill="#0B1F3B" text-anchor="middle">2026 최신</text>
+
+  <rect x="216" y="50" width="200" height="44" rx="22" fill="#1A3270"/>
+  <text x="316" y="79" font-family="-apple-system, sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">카드론 5년</text>
+
+  <rect x="432" y="50" width="240" height="44" rx="22" fill="#1A3270"/>
+  <text x="552" y="79" font-family="-apple-system, sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">판례 변경 2025</text>
+
+  <!-- Main title -->
+  <text x="60" y="178" font-family="-apple-system, sans-serif" font-size="56" font-weight="700" fill="#ffffff">채무 소멸시효 산정·중단·완성 완전 정리</text>
+  <text x="60" y="236" font-family="-apple-system, sans-serif" font-size="36" fill="#A0B4D0">민법·상법·2025 대법원 판례 변경 · 2026년 기준</text>
+
+  <!-- Accent bar -->
+  <rect x="60" y="260" width="200" height="6" rx="3" fill="url(#accent)"/>
+
+  <!-- 4 key info boxes -->
+  <rect x="60" y="286" width="170" height="120" rx="12" fill="#0D2347"/>
+  <text x="145" y="322" font-family="-apple-system, sans-serif" font-size="18" fill="#A0B4D0" text-anchor="middle">카드론·대출</text>
+  <text x="145" y="370" font-family="-apple-system, sans-serif" font-size="44" font-weight="700" fill="#F59E0B" text-anchor="middle">5년</text>
+  <text x="145" y="398" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">상사채권</text>
+
+  <rect x="246" y="286" width="170" height="120" rx="12" fill="#0D2347"/>
+  <text x="331" y="322" font-family="-apple-system, sans-serif" font-size="18" fill="#A0B4D0" text-anchor="middle">개인 차용</text>
+  <text x="331" y="370" font-family="-apple-system, sans-serif" font-size="44" font-weight="700" fill="#34D399" text-anchor="middle">10년</text>
+  <text x="331" y="398" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">민사채권</text>
+
+  <rect x="432" y="286" width="170" height="120" rx="12" fill="#0D2347"/>
+  <text x="517" y="322" font-family="-apple-system, sans-serif" font-size="18" fill="#A0B4D0" text-anchor="middle">임금·퇴직금</text>
+  <text x="517" y="370" font-family="-apple-system, sans-serif" font-size="44" font-weight="700" fill="#60A5FA" text-anchor="middle">3년</text>
+  <text x="517" y="398" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">근로기준법</text>
+
+  <rect x="618" y="286" width="200" height="120" rx="12" fill="#0D2347"/>
+  <text x="718" y="316" font-family="-apple-system, sans-serif" font-size="18" fill="#A0B4D0" text-anchor="middle">내용증명만</text>
+  <text x="718" y="344" font-family="-apple-system, sans-serif" font-size="26" font-weight="700" fill="#EF4444" text-anchor="middle">중단 아님!</text>
+  <text x="718" y="380" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">6개월 내 소 제기</text>
+  <text x="718" y="400" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">필수 (민법 제174조)</text>
+
+  <!-- Bottom bullets -->
+  <text x="60" y="470" font-family="-apple-system, sans-serif" font-size="24" fill="#ffffff">▸ 이자 납부 1회만 해도 소멸시효 중단  ▸ 시효 완성 후 원용(항변) 필수</text>
+  <text x="60" y="510" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0">2025 판례 변경: 일부변제=포기 추정 불가 · 판결 확정 채권은 10년 재기산</text>
+
+  <!-- Right panel -->
+  <rect x="840" y="130" width="310" height="400" rx="20" fill="#0D2347" opacity="0.9"/>
+  <text x="995" y="178" font-family="-apple-system, sans-serif" font-size="24" font-weight="700" fill="#F59E0B" text-anchor="middle">중단 방법</text>
+  <line x1="870" y1="196" x2="1120" y2="196" stroke="#1A3270" stroke-width="2"/>
+  <text x="995" y="232" font-family="-apple-system, sans-serif" font-size="20" fill="#34D399" text-anchor="middle">① 소 제기·지급명령</text>
+  <text x="995" y="258" font-family="-apple-system, sans-serif" font-size="18" fill="#A0B4D0" text-anchor="middle">가장 확실한 방법</text>
+  <line x1="870" y1="274" x2="1120" y2="274" stroke="#1A3270" stroke-width="1"/>
+  <text x="995" y="310" font-family="-apple-system, sans-serif" font-size="20" fill="#34D399" text-anchor="middle">② 압류·가압류</text>
+  <text x="995" y="336" font-family="-apple-system, sans-serif" font-size="18" fill="#A0B4D0" text-anchor="middle">보전처분 즉시 중단</text>
+  <line x1="870" y1="352" x2="1120" y2="352" stroke="#1A3270" stroke-width="1"/>
+  <text x="995" y="388" font-family="-apple-system, sans-serif" font-size="20" fill="#EF4444" text-anchor="middle">③ 채무자 이자 납부</text>
+  <text x="995" y="414" font-family="-apple-system, sans-serif" font-size="18" fill="#A0B4D0" text-anchor="middle">승인 = 중단!</text>
+  <line x1="870" y1="430" x2="1120" y2="430" stroke="#1A3270" stroke-width="1"/>
+  <text x="995" y="466" font-family="-apple-system, sans-serif" font-size="18" fill="#A0B4D0" text-anchor="middle">easylaw.go.kr</text>
+  <text x="995" y="490" font-family="-apple-system, sans-serif" font-size="18" fill="#A0B4D0" text-anchor="middle">법률구조공단 132</text>
+
+  <!-- Footer -->
+  <rect x="0" y="580" width="1200" height="50" fill="#0D2347" opacity="0.9"/>
+  <text x="600" y="612" font-family="-apple-system, sans-serif" font-size="24" font-weight="700" fill="#F59E0B" text-anchor="middle">deluxo.co.kr · 채무 소멸시효 완전 정리 | 2026년 최신</text>
+</svg>

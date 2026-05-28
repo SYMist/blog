@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <!-- Title -->
+  <text x="540" y="65" text-anchor="middle" fill="#E2E8F0" font-size="26" font-weight="700" font-family="sans-serif">리스 vs 장기렌트 — 세금·건보료·신용 비교 매트릭스</text>
+  <rect x="300" y="80" width="480" height="3" rx="2" fill="#3B82F6" opacity="0.6"/>
+
+  <!-- Section 1: 세금 처리 비교 -->
+  <text x="80" y="120" fill="#93C5FD" font-size="18" font-weight="700" font-family="sans-serif">01  세금 처리 구조 비교</text>
+
+  <g transform="translate(60,135)">
+    <!-- Headers -->
+    <rect x="0" y="0" width="960" height="36" rx="8" fill="#334155"/>
+    <text x="180" y="25" text-anchor="middle" fill="#93C5FD" font-size="14" font-weight="700" font-family="sans-serif">구분</text>
+    <text x="460" y="25" text-anchor="middle" fill="#60A5FA" font-size="14" font-weight="700" font-family="sans-serif">자동차 리스</text>
+    <text x="760" y="25" text-anchor="middle" fill="#34D399" font-size="14" font-weight="700" font-family="sans-serif">장기렌트</text>
+
+    <rect x="0" y="42" width="960" height="36" rx="4" fill="#1e293b"/>
+    <text x="180" y="66" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="600" font-family="sans-serif">비용 인정 한도</text>
+    <text x="460" y="66" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">연 1,500만 원 (동일)</text>
+    <text x="760" y="66" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">연 1,500만 원 (동일)</text>
+
+    <rect x="0" y="82" width="960" height="36" rx="4" fill="#0f172a"/>
+    <text x="180" y="106" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="600" font-family="sans-serif">세금계산서</text>
+    <text x="460" y="106" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="600" font-family="sans-serif">계산서 (면세)</text>
+    <text x="760" y="106" text-anchor="middle" fill="#34D399" font-size="13" font-weight="600" font-family="sans-serif">세금계산서 (과세)</text>
+
+    <rect x="0" y="122" width="960" height="36" rx="4" fill="#1e293b"/>
+    <text x="180" y="146" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="600" font-family="sans-serif">부가세 공제</text>
+    <text x="460" y="146" text-anchor="middle" fill="#F87171" font-size="13" font-weight="600" font-family="sans-serif">❌ 불가</text>
+    <text x="760" y="146" text-anchor="middle" fill="#34D399" font-size="13" font-weight="600" font-family="sans-serif">✅ 경차·9인승+ 10%</text>
+
+    <rect x="0" y="162" width="960" height="36" rx="4" fill="#0f172a"/>
+    <text x="180" y="186" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="600" font-family="sans-serif">감가상각비 이월</text>
+    <text x="460" y="186" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">연 800만 한도, 초과분 이월</text>
+    <text x="760" y="186" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">연 800만 한도, 초과분 이월</text>
+
+    <rect x="0" y="202" width="960" height="36" rx="4" fill="#1e293b"/>
+    <text x="180" y="226" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="600" font-family="sans-serif">업무전용 보험</text>
+    <text x="460" y="226" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="600" font-family="sans-serif">직접 관리 (누락 위험)</text>
+    <text x="760" y="226" text-anchor="middle" fill="#34D399" font-size="13" font-weight="600" font-family="sans-serif">렌트사 통합 관리</text>
+  </g>
+
+  <!-- Section 2: 건보료·신용·번호판 -->
+  <text x="80" y="410" fill="#93C5FD" font-size="18" font-weight="700" font-family="sans-serif">02  건보료·신용·번호판 숨은 변수</text>
+
+  <g transform="translate(60,425)">
+    <!-- 3 cards -->
+    <rect x="0" y="0" width="300" height="160" rx="14" fill="#1e293b"/>
+    <rect x="0" y="0" width="300" height="5" rx="3" fill="#EF4444"/>
+    <text x="150" y="35" text-anchor="middle" fill="#FCA5A5" font-size="15" font-weight="700" font-family="sans-serif">건강보험료</text>
+    <text x="150" y="62" text-anchor="middle" fill="#E2E8F0" font-size="13" font-family="sans-serif">2026 정률제 전환</text>
+    <text x="150" y="88" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">리스: 대출 정보 공유 → 간접 영향</text>
+    <text x="150" y="112" text-anchor="middle" fill="#34D399" font-size="13" font-weight="700" font-family="sans-serif">렌트: 비자산 → 건보료 0 영향</text>
+    <text x="150" y="142" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="sans-serif">4,000만 원+ 차량 지역가입자 필수 고려</text>
+
+    <rect x="330" y="0" width="300" height="160" rx="14" fill="#1e293b"/>
+    <rect x="330" y="0" width="300" height="5" rx="3" fill="#F59E0B"/>
+    <text x="480" y="35" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="700" font-family="sans-serif">신용점수</text>
+    <text x="480" y="62" text-anchor="middle" fill="#E2E8F0" font-size="13" font-family="sans-serif">대출·부채 비율 관리</text>
+    <text x="480" y="88" text-anchor="middle" fill="#F87171" font-size="13" font-weight="600" font-family="sans-serif">리스: 대출 인식 → 점수 하락</text>
+    <text x="480" y="112" text-anchor="middle" fill="#34D399" font-size="13" font-weight="700" font-family="sans-serif">렌트: 임대차 → 기록 없음</text>
+    <text x="480" y="142" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="sans-serif">주담대·사업대출 예정 시 렌트 우선</text>
+
+    <rect x="660" y="0" width="300" height="160" rx="14" fill="#1e293b"/>
+    <rect x="660" y="0" width="300" height="5" rx="3" fill="#8B5CF6"/>
+    <text x="810" y="35" text-anchor="middle" fill="#C4B5FD" font-size="15" font-weight="700" font-family="sans-serif">연두색 번호판 (법인)</text>
+    <text x="810" y="62" text-anchor="middle" fill="#E2E8F0" font-size="13" font-family="sans-serif">취득가 8,000만 원+ 법인차량</text>
+    <text x="810" y="88" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">리스: 취득가 그대로 적용</text>
+    <text x="810" y="112" text-anchor="middle" fill="#34D399" font-size="13" font-weight="700" font-family="sans-serif">렌트: 면세가로 8,400만까지 회피</text>
+    <text x="810" y="142" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="sans-serif">개인사업자는 번호판 대상 아님</text>
+  </g>
+
+  <!-- Section 3: 운행기록부 판단 흐름 -->
+  <text x="80" y="635" fill="#93C5FD" font-size="18" font-weight="700" font-family="sans-serif">03  운행기록부 작성 판단 흐름</text>
+
+  <g transform="translate(60,655)">
+    <!-- Flow chart -->
+    <rect x="0" y="0" width="250" height="60" rx="12" fill="#1E40AF"/>
+    <text x="125" y="26" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">연간 차량 관련 비용</text>
+    <text x="125" y="48" text-anchor="middle" fill="#DBEAFE" font-size="13" font-family="sans-serif">합산 금액 확인</text>
+
+    <!-- Arrow -->
+    <line x1="250" y1="30" x2="295" y2="30" stroke="#3B82F6" stroke-width="2"/>
+    <polygon points="295,24 307,30 295,36" fill="#3B82F6"/>
+
+    <!-- Branch 1 -->
+    <rect x="300" y="0" width="280" height="60" rx="12" fill="#065F46"/>
+    <text x="440" y="26" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">1,500만 원 이하</text>
+    <text x="440" y="48" text-anchor="middle" fill="#A7F3D0" font-size="13" font-family="sans-serif">→ 운행기록부 불필요, 전액 인정</text>
+
+    <!-- Branch 2 -->
+    <rect x="300" y="80" width="280" height="60" rx="12" fill="#7F1D1D"/>
+    <text x="440" y="106" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">1,500만 원 초과</text>
+    <text x="440" y="128" text-anchor="middle" fill="#FCA5A5" font-size="13" font-family="sans-serif">→ 운행기록부 필수 작성</text>
+
+    <!-- Arrow down -->
+    <line x1="125" y1="60" x2="125" y2="80" stroke="#3B82F6" stroke-width="2"/>
+    <line x1="125" y1="80" x2="125" y2="110" stroke="#3B82F6" stroke-width="2"/>
+    <line x1="125" y1="110" x2="300" y2="110" stroke="#3B82F6" stroke-width="2"/>
+
+    <!-- Result -->
+    <rect x="620" y="80" width="340" height="60" rx="12" fill="#1e293b"/>
+    <text x="790" y="106" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">미작성 시: 초과분 전액 불산입</text>
+    <text x="790" y="128" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">업무 사용 비율 증명 → 추가 인정</text>
+    <line x1="580" y1="110" x2="620" y2="110" stroke="#F59E0B" stroke-width="2"/>
+  </g>
+
+  <!-- Section 4: 전기차 세제 혜택 -->
+  <text x="80" y="830" fill="#93C5FD" font-size="18" font-weight="700" font-family="sans-serif">04  2026년 전기차 vs 하이브리드 세제 혜택</text>
+
+  <g transform="translate(60,848)">
+    <rect x="0" y="0" width="460" height="130" rx="14" fill="#1e293b"/>
+    <rect x="0" y="0" width="5" height="130" rx="3" fill="#3B82F6"/>
+    <text x="25" y="30" fill="#60A5FA" font-size="15" font-weight="700" font-family="sans-serif">전기/수소차</text>
+    <text x="25" y="56" fill="#CBD5E1" font-size="13" font-family="sans-serif">취득세 감면: 140만 원 (유지)</text>
+    <text x="25" y="78" fill="#CBD5E1" font-size="13" font-family="sans-serif">개소세 감면: 최대 300~400만 원</text>
+    <text x="25" y="100" fill="#CBD5E1" font-size="13" font-family="sans-serif">국고 보조금: 최대 680만 원</text>
+    <text x="25" y="122" fill="#94A3B8" font-size="11" font-family="sans-serif">내연기관→전기차 전환지원금 100만 원 신설</text>
+
+    <rect x="500" y="0" width="460" height="130" rx="14" fill="#1e293b"/>
+    <rect x="500" y="0" width="5" height="130" rx="3" fill="#F59E0B"/>
+    <text x="525" y="30" fill="#FCD34D" font-size="15" font-weight="700" font-family="sans-serif">하이브리드차</text>
+    <text x="525" y="56" fill="#F87171" font-size="13" font-weight="600" font-family="sans-serif">취득세 감면: 혜택 종료</text>
+    <text x="525" y="78" fill="#FCD34D" font-size="13" font-family="sans-serif">개소세 감면: 70만 원 (축소)</text>
+    <text x="525" y="100" fill="#F87171" font-size="13" font-weight="600" font-family="sans-serif">국고 보조금: 대상 아님</text>
+    <text x="525" y="122" fill="#94A3B8" font-size="11" font-family="sans-serif">과거 대비 월 이용료 소폭 상승 반영</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="540" y="1015" text-anchor="middle" fill="#64748B" font-size="13" font-family="sans-serif">2026년 4월 기준 | 국세청·건보공단·국토교통부 규정 반영 | essencial</text>
+  <rect x="60" y="1030" width="960" height="2" rx="1" fill="#334155"/>
+  <text x="540" y="1060" text-anchor="middle" fill="#475569" font-size="12" font-family="sans-serif">※ 개인의 세무 상황에 따라 유불리가 달라질 수 있습니다</text>
+</svg>

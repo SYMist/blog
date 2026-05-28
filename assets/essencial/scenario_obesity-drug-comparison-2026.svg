@@ -1,0 +1,196 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1700" fill="url(#bg)"/>
+
+  <rect x="60" y="50" width="320" height="40" rx="20" fill="#0F766E"/>
+  <text x="220" y="77" text-anchor="middle" fill="#FFFFFF" font-size="17" font-weight="800" font-family="sans-serif">시나리오·시뮬레이션·체크리스트</text>
+
+  <text x="60" y="155" fill="#FFFFFF" font-size="40" font-weight="800" font-family="sans-serif">내 상황별 약물 선택</text>
+  <text x="60" y="195" fill="#5EEAD4" font-size="20" font-weight="600" font-family="sans-serif">8개 시나리오 · 35세 BMI 32 시뮬 · 6단계 처방 절차</text>
+
+  <!-- 8 시나리오 카드 -->
+  <text x="60" y="250" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">8가지 상황별 약물 추천</text>
+
+  <!-- Row 1 -->
+  <rect x="60" y="280" width="260" height="200" rx="12" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="80" y="315" fill="#86EFAC" font-size="15" font-weight="800" font-family="sans-serif">S1 · BMI 35+ 동반질환</text>
+  <text x="80" y="345" fill="#CBD5E1" font-size="13" font-family="sans-serif">고혈압·당뇨·이상지질혈증</text>
+  <text x="80" y="368" fill="#CBD5E1" font-size="13" font-family="sans-serif">큰 폭 감량 + 심혈관 보호</text>
+  <text x="80" y="391" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">→ 위고비 (15% 감량)</text>
+  <text x="80" y="414" fill="#FFFFFF" font-size="16" font-weight="800" font-family="sans-serif">SELECT 4년 입증</text>
+  <text x="80" y="455" fill="#86EFAC" font-size="12" font-weight="700" font-family="sans-serif">월 45~55만 부담 가능 시</text>
+
+  <rect x="340" y="280" width="260" height="200" rx="12" fill="url(#card)" stroke="#FCD34D" stroke-width="2"/>
+  <text x="360" y="315" fill="#FCD34D" font-size="15" font-weight="800" font-family="sans-serif">S2 · BMI 28 + 예산 제약</text>
+  <text x="360" y="345" fill="#CBD5E1" font-size="13" font-family="sans-serif">동반질환 없음 · 월 20만↓</text>
+  <text x="360" y="368" fill="#CBD5E1" font-size="13" font-family="sans-serif">중도 비만 · 점진 감량</text>
+  <text x="360" y="391" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">→ 삭센다 또는 큐시미아</text>
+  <text x="360" y="414" fill="#FFFFFF" font-size="16" font-weight="800" font-family="sans-serif">월 15~25만</text>
+  <text x="360" y="455" fill="#FCD34D" font-size="12" font-weight="700" font-family="sans-serif">예산 우선 시 큐시미아</text>
+
+  <rect x="620" y="280" width="260" height="200" rx="12" fill="url(#card)" stroke="#5EEAD4" stroke-width="2"/>
+  <text x="640" y="315" fill="#5EEAD4" font-size="15" font-weight="800" font-family="sans-serif">S3 · 주사 거부감</text>
+  <text x="640" y="345" fill="#CBD5E1" font-size="13" font-family="sans-serif">매일/주1회 주사 부담</text>
+  <text x="640" y="368" fill="#CBD5E1" font-size="13" font-family="sans-serif">임신 가능성 無 · 피임 확실</text>
+  <text x="640" y="391" fill="#5EEAD4" font-size="13" font-weight="700" font-family="sans-serif">→ 큐시미아 (경구 캡슐)</text>
+  <text x="640" y="414" fill="#FFFFFF" font-size="16" font-weight="800" font-family="sans-serif">1일 1회 아침</text>
+  <text x="640" y="455" fill="#5EEAD4" font-size="12" font-weight="700" font-family="sans-serif">실온 보관·휴대 간편</text>
+
+  <rect x="900" y="280" width="240" height="200" rx="12" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="920" y="315" fill="#86EFAC" font-size="15" font-weight="800" font-family="sans-serif">S4 · 가임기 여성</text>
+  <text x="920" y="345" fill="#CBD5E1" font-size="13" font-family="sans-serif">향후 임신 계획</text>
+  <text x="920" y="368" fill="#CBD5E1" font-size="13" font-family="sans-serif">큐시미아 절대 금기</text>
+  <text x="920" y="391" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">→ 위고비 또는 삭센다</text>
+  <text x="920" y="414" fill="#FFFFFF" font-size="16" font-weight="800" font-family="sans-serif">중단 후 임신 권장</text>
+  <text x="920" y="455" fill="#86EFAC" font-size="12" font-weight="700" font-family="sans-serif">큐시미아 태아 기형 위험</text>
+
+  <!-- Row 2 -->
+  <rect x="60" y="500" width="260" height="200" rx="12" fill="url(#card)" stroke="#5EEAD4" stroke-width="2"/>
+  <text x="80" y="535" fill="#5EEAD4" font-size="15" font-weight="800" font-family="sans-serif">S5 · 갑상선암 가족력</text>
+  <text x="80" y="565" fill="#CBD5E1" font-size="13" font-family="sans-serif">수질암·MEN2 가족력</text>
+  <text x="80" y="588" fill="#CBD5E1" font-size="13" font-family="sans-serif">GLP-1 절대 금기</text>
+  <text x="80" y="611" fill="#5EEAD4" font-size="13" font-weight="700" font-family="sans-serif">→ 큐시미아 선택</text>
+  <text x="80" y="634" fill="#FFFFFF" font-size="16" font-weight="800" font-family="sans-serif">유일 가능 약물</text>
+  <text x="80" y="675" fill="#5EEAD4" font-size="12" font-weight="700" font-family="sans-serif">큐시미아 다른 금기 확인</text>
+
+  <rect x="340" y="500" width="260" height="200" rx="12" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="360" y="535" fill="#86EFAC" font-size="15" font-weight="800" font-family="sans-serif">S6 · 비용 효율 우선</text>
+  <text x="360" y="565" fill="#CBD5E1" font-size="13" font-family="sans-serif">단기 1년 사용 · 가성비</text>
+  <text x="360" y="588" fill="#CBD5E1" font-size="13" font-family="sans-serif">목표 7~10kg</text>
+  <text x="360" y="611" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">→ 큐시미아 (26만/kg)</text>
+  <text x="360" y="634" fill="#FFFFFF" font-size="16" font-weight="800" font-family="sans-serif">최저 비용</text>
+  <text x="360" y="675" fill="#86EFAC" font-size="12" font-weight="700" font-family="sans-serif">위고비 71만/kg 대비 1/3</text>
+
+  <rect x="620" y="500" width="260" height="200" rx="12" fill="url(#card)" stroke="#FCD34D" stroke-width="2"/>
+  <text x="640" y="535" fill="#FCD34D" font-size="15" font-weight="800" font-family="sans-serif">S7 · 삭센다 효과 부족</text>
+  <text x="640" y="565" fill="#CBD5E1" font-size="13" font-family="sans-serif">12주 후 5% 미만 감량</text>
+  <text x="640" y="588" fill="#CBD5E1" font-size="13" font-family="sans-serif">동일 GLP-1 계열 적응</text>
+  <text x="640" y="611" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">→ 위고비 전환 검토</text>
+  <text x="640" y="634" fill="#FFFFFF" font-size="16" font-weight="800" font-family="sans-serif">증량 효과 큼</text>
+  <text x="640" y="675" fill="#FCD34D" font-size="12" font-weight="700" font-family="sans-serif">의사 상담 후 전환</text>
+
+  <rect x="900" y="500" width="240" height="200" rx="12" fill="url(#card)" stroke="#FCA5A5" stroke-width="2"/>
+  <text x="920" y="535" fill="#FCA5A5" font-size="15" font-weight="800" font-family="sans-serif">S8 · 우울증·녹내장</text>
+  <text x="920" y="565" fill="#CBD5E1" font-size="13" font-family="sans-serif">큐시미아 신중 또는 금기</text>
+  <text x="920" y="588" fill="#CBD5E1" font-size="13" font-family="sans-serif">정신과적·안과적 위험</text>
+  <text x="920" y="611" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">→ 위고비·삭센다</text>
+  <text x="920" y="634" fill="#FFFFFF" font-size="16" font-weight="800" font-family="sans-serif">대체 선택</text>
+  <text x="920" y="675" fill="#FCA5A5" font-size="12" font-weight="700" font-family="sans-serif">정신과 기왕력 의사 고지</text>
+
+  <!-- 1인 시뮬레이션 상세 -->
+  <text x="60" y="770" fill="#FFFFFF" font-size="24" font-weight="800" font-family="sans-serif">1인 시뮬 — 35세 여성·BMI 32·목표 10kg</text>
+
+  <rect x="60" y="795" width="350" height="290" rx="16" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="80" y="835" fill="#86EFAC" font-size="20" font-weight="800" font-family="sans-serif">위고비 (68주)</text>
+
+  <g font-family="sans-serif">
+    <text x="80" y="875" fill="#CBD5E1" font-size="13">예상 감량률</text>
+    <text x="390" y="875" text-anchor="end" fill="#FFFFFF" font-size="14" font-weight="700">15%</text>
+
+    <text x="80" y="905" fill="#CBD5E1" font-size="13">예상 감량 kg</text>
+    <text x="390" y="905" text-anchor="end" fill="#86EFAC" font-size="16" font-weight="800">약 10.5kg</text>
+
+    <text x="80" y="935" fill="#CBD5E1" font-size="13">누적 약값</text>
+    <text x="390" y="935" text-anchor="end" fill="#FCA5A5" font-size="16" font-weight="800">약 750만 원</text>
+
+    <text x="80" y="965" fill="#CBD5E1" font-size="13">총 비용 (진료·검사 포함)</text>
+    <text x="390" y="965" text-anchor="end" fill="#FCA5A5" font-size="14" font-weight="700">800~900만</text>
+
+    <text x="80" y="1005" fill="#FCD34D" font-size="14" font-weight="800">1kg당 비용</text>
+    <text x="390" y="1005" text-anchor="end" fill="#FCA5A5" font-size="20" font-weight="800">약 71만 원</text>
+
+    <text x="80" y="1050" fill="#86EFAC" font-size="13" font-weight="700">▸ 절대 감량량 최대</text>
+  </g>
+
+  <rect x="430" y="795" width="350" height="290" rx="16" fill="url(#card)" stroke="#FCD34D" stroke-width="2"/>
+  <text x="450" y="835" fill="#FCD34D" font-size="20" font-weight="800" font-family="sans-serif">삭센다 (56주)</text>
+
+  <g font-family="sans-serif">
+    <text x="450" y="875" fill="#CBD5E1" font-size="13">예상 감량률</text>
+    <text x="760" y="875" text-anchor="end" fill="#FFFFFF" font-size="14" font-weight="700">7.5%</text>
+
+    <text x="450" y="905" fill="#CBD5E1" font-size="13">예상 감량 kg</text>
+    <text x="760" y="905" text-anchor="end" fill="#FCD34D" font-size="16" font-weight="800">약 5.3kg (목표 미달)</text>
+
+    <text x="450" y="935" fill="#CBD5E1" font-size="13">누적 약값</text>
+    <text x="760" y="935" text-anchor="end" fill="#FCD34D" font-size="16" font-weight="800">약 280만 원</text>
+
+    <text x="450" y="965" fill="#CBD5E1" font-size="13">전환 검토</text>
+    <text x="760" y="965" text-anchor="end" fill="#FCD34D" font-size="14" font-weight="700">위고비·큐시미아</text>
+
+    <text x="450" y="1005" fill="#FCD34D" font-size="14" font-weight="800">1kg당 비용</text>
+    <text x="760" y="1005" text-anchor="end" fill="#FCD34D" font-size="20" font-weight="800">약 53만 원</text>
+
+    <text x="450" y="1050" fill="#FCD34D" font-size="13" font-weight="700">▸ 효과 부족 시 12주 평가</text>
+  </g>
+
+  <rect x="800" y="795" width="340" height="290" rx="16" fill="url(#card)" stroke="#5EEAD4" stroke-width="2"/>
+  <text x="820" y="835" fill="#5EEAD4" font-size="20" font-weight="800" font-family="sans-serif">큐시미아 (52주)</text>
+
+  <g font-family="sans-serif">
+    <text x="820" y="875" fill="#CBD5E1" font-size="13">예상 감량률</text>
+    <text x="1120" y="875" text-anchor="end" fill="#FFFFFF" font-size="14" font-weight="700">10%</text>
+
+    <text x="820" y="905" fill="#CBD5E1" font-size="13">예상 감량 kg</text>
+    <text x="1120" y="905" text-anchor="end" fill="#5EEAD4" font-size="16" font-weight="800">약 7kg</text>
+
+    <text x="820" y="935" fill="#CBD5E1" font-size="13">누적 약값</text>
+    <text x="1120" y="935" text-anchor="end" fill="#86EFAC" font-size="16" font-weight="800">약 180만 원</text>
+
+    <text x="820" y="965" fill="#CBD5E1" font-size="13">월 평균</text>
+    <text x="1120" y="965" text-anchor="end" fill="#86EFAC" font-size="14" font-weight="700">약 15만</text>
+
+    <text x="820" y="1005" fill="#5EEAD4" font-size="14" font-weight="800">1kg당 비용</text>
+    <text x="1120" y="1005" text-anchor="end" fill="#86EFAC" font-size="20" font-weight="800">약 26만 원</text>
+
+    <text x="820" y="1050" fill="#5EEAD4" font-size="13" font-weight="700">▸ 가성비 최우수</text>
+  </g>
+
+  <!-- 6단계 처방 절차 -->
+  <text x="60" y="1140" fill="#FFFFFF" font-size="24" font-weight="800" font-family="sans-serif">처방 받기 6단계 절차</text>
+
+  <rect x="60" y="1165" width="1080" height="450" rx="16" fill="url(#card)" stroke="#0F766E" stroke-width="2"/>
+
+  <g font-family="sans-serif">
+    <circle cx="100" cy="1220" r="22" fill="#0F766E"/>
+    <text x="100" y="1228" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800">1</text>
+    <text x="140" y="1215" fill="#FFFFFF" font-size="17" font-weight="700">[BMI 자가 계산] 체중(kg) ÷ 키(m)² → 30 이상 또는 27+동반질환</text>
+    <text x="140" y="1238" fill="#CBD5E1" font-size="14">한국 비만학회 기준 25 이상이지만, 약 허가 기준은 BMI 30</text>
+
+    <circle cx="100" cy="1285" r="22" fill="#0F766E"/>
+    <text x="100" y="1293" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800">2</text>
+    <text x="140" y="1280" fill="#FFFFFF" font-size="17" font-weight="700">[금기 사전 점검] 갑상선암·MEN2·임신·녹내장·우울증 병력</text>
+    <text x="140" y="1303" fill="#CBD5E1" font-size="14">위고비·삭센다 vs 큐시미아 금기 다름 → 본인 상태에 맞는 약 선택</text>
+
+    <circle cx="100" cy="1350" r="22" fill="#0F766E"/>
+    <text x="100" y="1358" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800">3</text>
+    <text x="140" y="1345" fill="#FFFFFF" font-size="17" font-weight="700">[대면 진료 예약] 내과·가정의학과·비만클리닉 (비대면 금지)</text>
+    <text x="140" y="1368" fill="#CBD5E1" font-size="14">2024.12.16~ 비만치료제 비대면 처방 전면 금지</text>
+
+    <circle cx="100" cy="1415" r="22" fill="#0F766E"/>
+    <text x="100" y="1423" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800">4</text>
+    <text x="140" y="1410" fill="#FFFFFF" font-size="17" font-weight="700">[검사·교육] 체질량·체성분·기저질환 평가 + 자가주사 교육</text>
+    <text x="140" y="1433" fill="#CBD5E1" font-size="14">큐시미아: 임신검사 음성 확인 + 효과적 피임 확인</text>
+
+    <circle cx="100" cy="1480" r="22" fill="#0F766E"/>
+    <text x="100" y="1488" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800">5</text>
+    <text x="140" y="1475" fill="#FFFFFF" font-size="17" font-weight="700">[약국 수령] 처방전 지참 → 위고비·삭센다 냉장 유통</text>
+    <text x="140" y="1498" fill="#CBD5E1" font-size="14">사용 중 펜은 30일까지 실온 가능 · 큐시미아는 실온 보관</text>
+
+    <circle cx="100" cy="1545" r="22" fill="#0F766E"/>
+    <text x="100" y="1553" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800">6</text>
+    <text x="140" y="1540" fill="#FFFFFF" font-size="17" font-weight="700">[4주 후 재진료] 효과·부작용 평가 → 12주 5%↓ 시 중단/전환</text>
+    <text x="140" y="1563" fill="#CBD5E1" font-size="14">식이·운동·행동치료 병행 권장 · 단독 사용 효과 50% 수준</text>
+  </g>
+
+  <text x="60" y="1675" fill="#64748B" font-size="14" font-family="sans-serif">essencial | 건강·의료 silo · 자료: 식약처·대한비만학회·STEP/SCALE/CONQUER (2026.04 기준)</text>
+</svg>

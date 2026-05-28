@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#FBBF24"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="10" fill="url(#accent)"/>
+
+  <!-- Title -->
+  <text x="60" y="88" font-family="-apple-system, sans-serif" font-size="40" font-weight="900" fill="#FFFFFF">면책 후 신용회복</text>
+  <text x="60" y="136" font-family="-apple-system, sans-serif" font-size="40" font-weight="900" fill="#F59E0B">1분 체크리스트 8단계</text>
+
+  <!-- Divider -->
+  <rect x="60" y="158" width="960" height="3" fill="#F59E0B" rx="2"/>
+
+  <!-- Item 1 -->
+  <rect x="60" y="182" width="960" height="90" rx="12" fill="#1A3270"/>
+  <rect x="60" y="182" width="8" height="90" rx="4" fill="#34D399"/>
+  <text x="96" y="220" font-family="-apple-system, sans-serif" font-size="28" fill="#34D399">☐</text>
+  <text x="146" y="220" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">공공기록 삭제 여부 확인</text>
+  <text x="146" y="254" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">토스·카카오페이 앱 또는 한국신용정보원(kcredit.or.kr) 신용점수 조회</text>
+
+  <!-- Item 2 -->
+  <rect x="60" y="284" width="960" height="90" rx="12" fill="#1A3270"/>
+  <rect x="60" y="284" width="8" height="90" rx="4" fill="#34D399"/>
+  <text x="96" y="322" font-family="-apple-system, sans-serif" font-size="28" fill="#34D399">☐</text>
+  <text x="146" y="322" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">새 주거래은행(채권자 아닌 곳) 선택</text>
+  <text x="146" y="356" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">채무불이행 기록 있는 채권자 은행 피하기 — 새 은행에서 시작</text>
+
+  <!-- Item 3 -->
+  <rect x="60" y="386" width="960" height="90" rx="12" fill="#1A3270"/>
+  <rect x="60" y="386" width="8" height="90" rx="4" fill="#34D399"/>
+  <text x="96" y="424" font-family="-apple-system, sans-serif" font-size="28" fill="#34D399">☐</text>
+  <text x="146" y="424" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">체크카드 발급 및 월 30만원 이상 사용</text>
+  <text x="146" y="458" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">주거래은행 체크카드로 6개월 이상 꾸준히 사용 — 신용점수 회복 핵심</text>
+
+  <!-- Item 4 -->
+  <rect x="60" y="488" width="960" height="90" rx="12" fill="#1A3270"/>
+  <rect x="60" y="488" width="8" height="90" rx="4" fill="#34D399"/>
+  <text x="96" y="526" font-family="-apple-system, sans-serif" font-size="28" fill="#34D399">☐</text>
+  <text x="146" y="526" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">공과금·통신비 자동이체 설정</text>
+  <text x="146" y="560" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">주거래은행 계좌로 집중 — 급여이체·적금·자동납부 한 곳에</text>
+
+  <!-- Item 5 -->
+  <rect x="60" y="590" width="960" height="90" rx="12" fill="#1A3270"/>
+  <rect x="60" y="590" width="8" height="90" rx="4" fill="#34D399"/>
+  <text x="96" y="628" font-family="-apple-system, sans-serif" font-size="28" fill="#34D399">☐</text>
+  <text x="146" y="628" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">비금융정보 제출</text>
+  <text x="146" y="662" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">KCB(allcredit.co.kr) 또는 NICE(mycredit.co.kr)에 통신비·공과금 납부이력 등록</text>
+
+  <!-- Item 6 -->
+  <rect x="60" y="692" width="960" height="90" rx="12" fill="#1A3270"/>
+  <rect x="60" y="692" width="8" height="90" rx="4" fill="#34D399"/>
+  <text x="96" y="730" font-family="-apple-system, sans-serif" font-size="28" fill="#34D399">☐</text>
+  <text x="146" y="730" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">변제금 자동이체 설정 (잔액 부족 방지)</text>
+  <text x="146" y="764" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">자동이체 설정 후 매월 납부일 전 잔액 확인 필수 — 연체 1회도 금지</text>
+
+  <!-- Item 7 -->
+  <rect x="60" y="794" width="460" height="90" rx="12" fill="#1A3270"/>
+  <rect x="60" y="794" width="8" height="90" rx="4" fill="#FBBF24"/>
+  <text x="96" y="832" font-family="-apple-system, sans-serif" font-size="26" fill="#FBBF24">☐</text>
+  <text x="140" y="832" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">서민금융 상담 예약</text>
+  <text x="96" y="866" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0">신용회복위원회 1600-5500</text>
+
+  <!-- Item 8 -->
+  <rect x="560" y="794" width="460" height="90" rx="12" fill="#1A3270"/>
+  <rect x="560" y="794" width="8" height="90" rx="4" fill="#FBBF24"/>
+  <text x="596" y="832" font-family="-apple-system, sans-serif" font-size="26" fill="#FBBF24">☐</text>
+  <text x="640" y="832" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">신용점수 3개월마다 조회</text>
+  <text x="596" y="866" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0">추이 기록해 회복 속도 확인</text>
+
+  <!-- Bottom -->
+  <rect x="60" y="904" width="960" height="52" rx="10" fill="#0A1A35"/>
+  <text x="540" y="936" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#EAF2FF" text-anchor="middle">서민금융진흥원 1397 · 한국신용정보원 1544-1040 · 2026년 기준</text>
+
+  <rect x="0" y="1068" width="1080" height="12" fill="url(#accent)"/>
+</svg>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#4c1d95"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E40AF"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#15803D"/>
+      <stop offset="100%" stop-color="#14532d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <circle cx="920" cy="160" r="220" fill="#7C3AED" fill-opacity="0.08"/>
+  <circle cx="160" cy="920" r="180" fill="#15803D" fill-opacity="0.08"/>
+
+  <!-- Chips -->
+  <rect x="40" y="40" width="100" height="34" rx="17" fill="#7C3AED" fill-opacity="0.3" stroke="#7C3AED" stroke-width="1.5"/>
+  <text x="90" y="63" text-anchor="middle" fill="#DDD6FE" font-size="14" font-weight="700" font-family="sans-serif">보험 비교</text>
+
+  <rect x="156" y="40" width="140" height="34" rx="17" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="226" y="63" text-anchor="middle" fill="#94A3B8" font-size="14" font-family="sans-serif">2026.05 기준</text>
+
+  <rect x="312" y="40" width="160" height="34" rx="17" fill="#14532d" stroke="#15803D" stroke-width="1.5"/>
+  <text x="392" y="63" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">암종별 시뮬</text>
+
+  <!-- Title -->
+  <text x="540" y="180" text-anchor="middle" fill="#FFFFFF" font-size="40" font-weight="800" font-family="sans-serif">암진단비 · 수술비 ·</text>
+  <text x="540" y="234" text-anchor="middle" fill="#FFFFFF" font-size="40" font-weight="800" font-family="sans-serif">표적치료비 3종 비교</text>
+  <text x="540" y="282" text-anchor="middle" fill="#DDD6FE" font-size="22" font-weight="600" font-family="sans-serif">암종별 보장 시뮬레이션 (2026)</text>
+
+  <rect x="200" y="310" width="680" height="3" rx="1.5" fill="#7C3AED" fill-opacity="0.6"/>
+
+  <!-- Key stat -->
+  <rect x="160" y="330" width="760" height="80" rx="16" fill="#1e293b" fill-opacity="0.9" stroke="#334155" stroke-width="1.5"/>
+  <text x="540" y="368" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="700" font-family="sans-serif">암종별 총 보장 (5천만·300만·연 3천만 가입)</text>
+  <text x="540" y="398" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">갑상선 1,060만 vs 폐암 4기 9,600만</text>
+
+  <!-- 3 cards stacked -->
+  <rect x="40" y="430" width="1000" height="155" rx="14" fill="url(#purpleGrad)" fill-opacity="0.85" stroke="#7C3AED" stroke-width="2"/>
+  <text x="60" y="466" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">⭐ 1순위 진단비 — 5,000만원 (확진 시 일시금)</text>
+  <text x="60" y="498" fill="#DDD6FE" font-size="18" font-weight="700" font-family="sans-serif">모든 가입자 필수 · 초기 충격·생활비 대응</text>
+  <text x="60" y="530" fill="#CBD5E1" font-size="15" font-family="sans-serif">✅ 최초 1회 지급 · 월 약 2~4만 · 유사암은 10~20%만</text>
+  <text x="60" y="558" fill="#CBD5E1" font-size="15" font-family="sans-serif">— 가입 후 90일 면책 + 1~2년 감액기간 주의</text>
+
+  <rect x="40" y="595" width="1000" height="155" rx="14" fill="url(#greenGrad)" fill-opacity="0.85" stroke="#15803D" stroke-width="2"/>
+  <text x="60" y="631" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">2순위 표적치료비 — 연 3,000만원 (다년 누적)</text>
+  <text x="60" y="663" fill="#86EFAC" font-size="18" font-weight="700" font-family="sans-serif">고가 치료 장기 대비 · 폐·간·유방 가족력</text>
+  <text x="60" y="695" fill="#CBD5E1" font-size="15" font-family="sans-serif">✅ 표적·면역항암제 · 신기술(CAR-T 등) 보장 추세 · 월 3~5만</text>
+  <text x="60" y="723" fill="#CBD5E1" font-size="15" font-family="sans-serif">— 약관 명시 치료법만 보장 (보험사별 차이)</text>
+
+  <rect x="40" y="760" width="1000" height="155" rx="14" fill="url(#blueGrad)" fill-opacity="0.85" stroke="#3B82F6" stroke-width="2"/>
+  <text x="60" y="796" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">3순위 수술비 — 회당 300만원 (수술 시마다)</text>
+  <text x="60" y="828" fill="#BFDBFE" font-size="18" font-weight="700" font-family="sans-serif">일반암 수술 비용 충당 · 횟수 무제한</text>
+  <text x="60" y="860" fill="#CBD5E1" font-size="15" font-family="sans-serif">✅ 재수술도 회당 지급 · 월 약 1~2만 (최저 보험료)</text>
+  <text x="60" y="888" fill="#CBD5E1" font-size="15" font-family="sans-serif">— 유사암은 별도 특약 가입 필요</text>
+
+  <!-- Bottom note -->
+  <rect x="40" y="940" width="1000" height="80" rx="12" fill="#1e293b" fill-opacity="0.7" stroke="#334155" stroke-width="1.5"/>
+  <text x="540" y="970" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="800" font-family="sans-serif">권장 조합: 진단비 + 표적치료비 (월 5~9만)</text>
+  <text x="540" y="998" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">폐암 4기 약 9,000만+ 보장 · 보험료 여유 시 수술비 추가 풀 구성</text>
+
+  <text x="40" y="1060" fill="#64748B" font-size="13" font-family="sans-serif">essencial | 보험 비교 · 2026.05 기준 · 중복 가입 가능 (합산 한도 1억~2.5억) · 본인 약관 보험사·금감원(1332) 확인</text>
+</svg>

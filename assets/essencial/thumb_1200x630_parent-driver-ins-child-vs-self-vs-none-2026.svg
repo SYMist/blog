@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#15803D"/>
+      <stop offset="100%" stop-color="#14532d"/>
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#4c1d95"/>
+    </linearGradient>
+    <linearGradient id="redGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#DC2626"/>
+      <stop offset="100%" stop-color="#7f1d1d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <circle cx="1080" cy="100" r="200" fill="#7C3AED" fill-opacity="0.07"/>
+  <circle cx="120" cy="540" r="160" fill="#DC2626" fill-opacity="0.07"/>
+
+  <!-- Chips -->
+  <rect x="40" y="36" width="100" height="32" rx="16" fill="#7C3AED" fill-opacity="0.3" stroke="#7C3AED" stroke-width="1.5"/>
+  <text x="90" y="57" text-anchor="middle" fill="#DDD6FE" font-size="14" font-weight="700" font-family="sans-serif">보험 비교</text>
+
+  <rect x="156" y="36" width="140" height="32" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="226" y="57" text-anchor="middle" fill="#94A3B8" font-size="14" font-family="sans-serif">2026.05 기준</text>
+
+  <rect x="312" y="36" width="160" height="32" rx="16" fill="#14532d" stroke="#15803D" stroke-width="1.5"/>
+  <text x="392" y="57" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">3종 가입 비교</text>
+
+  <!-- Title -->
+  <text x="600" y="130" text-anchor="middle" fill="#FFFFFF" font-size="38" font-weight="800" font-family="sans-serif">부모 운전자보험 자녀·본인·미가입</text>
+  <text x="600" y="178" text-anchor="middle" fill="#DDD6FE" font-size="26" font-weight="700" font-family="sans-serif">65~70세 부모 사고 시뮬 (2026)</text>
+
+  <!-- Key stat bar -->
+  <rect x="200" y="198" width="800" height="62" rx="12" fill="#1e293b" fill-opacity="0.9" stroke="#334155" stroke-width="1.5"/>
+  <text x="600" y="226" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">어린이보호구역 사고 1건 자비 부담 격차</text>
+  <text x="600" y="250" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">미가입 6,500만 vs 가입 0~500만 (격차 6,000만+)</text>
+
+  <rect x="200" y="274" width="800" height="2" rx="1" fill="#7C3AED" fill-opacity="0.4"/>
+
+  <!-- 3 cards horizontal -->
+  <rect x="40" y="284" width="370" height="300" rx="16" fill="url(#greenGrad)" fill-opacity="0.85" stroke="#15803D" stroke-width="2"/>
+  <text x="225" y="324" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">자녀 대납</text>
+  <text x="225" y="350" text-anchor="middle" fill="#86EFAC" font-size="13" font-family="sans-serif">부모 명의 + 자녀 부담</text>
+  <line x1="70" y1="368" x2="380" y2="368" stroke="#14532d" stroke-width="1.5"/>
+  <text x="225" y="408" text-anchor="middle" fill="#86EFAC" font-size="22" font-weight="800" font-family="sans-serif">월 2~5만</text>
+  <text x="225" y="436" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">자녀 보호자 역할</text>
+  <line x1="70" y1="456" x2="380" y2="456" stroke="#14532d" stroke-width="1.5"/>
+  <text x="70" y="484" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">✅ 부모 거부 시 OK</text>
+  <text x="70" y="508" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">✅ 자녀 절차 보조</text>
+  <text x="70" y="532" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">❌ 자녀 소득공제 X</text>
+  <rect x="70" y="552" width="310" height="22" rx="6" fill="#15803D" fill-opacity="0.4"/>
+  <text x="225" y="568" text-anchor="middle" fill="#86EFAC" font-size="12" font-weight="700" font-family="sans-serif">자녀 보호자 역할 시</text>
+
+  <rect x="420" y="284" width="370" height="300" rx="16" fill="url(#purpleGrad)" fill-opacity="0.85" stroke="#7C3AED" stroke-width="2"/>
+  <text x="605" y="324" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">부모 본인 가입</text>
+  <text x="605" y="350" text-anchor="middle" fill="#DDD6FE" font-size="13" font-family="sans-serif">본인 명의·본인 부담</text>
+  <line x1="450" y1="368" x2="760" y2="368" stroke="#4c1d95" stroke-width="1.5"/>
+  <text x="605" y="408" text-anchor="middle" fill="#DDD6FE" font-size="22" font-weight="800" font-family="sans-serif">월 2~5만</text>
+  <text x="605" y="436" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">소득공제 적용</text>
+  <line x1="450" y1="456" x2="760" y2="456" stroke="#4c1d95" stroke-width="1.5"/>
+  <text x="450" y="484" fill="#DDD6FE" font-size="13" font-weight="700" font-family="sans-serif">✅ 일반적 가입 형태</text>
+  <text x="450" y="508" fill="#DDD6FE" font-size="13" font-weight="700" font-family="sans-serif">✅ 소득공제 가능</text>
+  <text x="450" y="532" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">❌ 80세+ 가입 어려움</text>
+  <rect x="450" y="552" width="310" height="22" rx="6" fill="#7C3AED" fill-opacity="0.4"/>
+  <text x="605" y="568" text-anchor="middle" fill="#DDD6FE" font-size="12" font-weight="700" font-family="sans-serif">부모 의지·연금 있을 때</text>
+
+  <rect x="800" y="284" width="370" height="300" rx="16" fill="url(#redGrad)" fill-opacity="0.85" stroke="#DC2626" stroke-width="2"/>
+  <text x="985" y="324" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">미가입 ⚠️</text>
+  <text x="985" y="350" text-anchor="middle" fill="#FCA5A5" font-size="13" font-family="sans-serif">사고 시 자비 부담</text>
+  <line x1="830" y1="368" x2="1140" y2="368" stroke="#7f1d1d" stroke-width="1.5"/>
+  <text x="985" y="408" text-anchor="middle" fill="#FCA5A5" font-size="22" font-weight="800" font-family="sans-serif">월 0원</text>
+  <text x="985" y="436" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">사고 1건 6,500만+ 자비</text>
+  <line x1="830" y1="456" x2="1140" y2="456" stroke="#7f1d1d" stroke-width="1.5"/>
+  <text x="830" y="484" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">✅ 보험료 0원</text>
+  <text x="830" y="508" fill="#FECACA" font-size="13" font-weight="700" font-family="sans-serif">❌ 12대 중과실 자비</text>
+  <text x="830" y="532" fill="#FECACA" font-size="13" font-weight="700" font-family="sans-serif">❌ 스쿨존 6,500만+</text>
+  <rect x="830" y="552" width="310" height="22" rx="6" fill="#DC2626" fill-opacity="0.4"/>
+  <text x="985" y="568" text-anchor="middle" fill="#FECACA" font-size="12" font-weight="700" font-family="sans-serif">월 1~2회 단거리만</text>
+
+  <text x="40" y="610" fill="#64748B" font-size="13" font-family="sans-serif">essencial | 보험 비교 · 2026.05 기준 · 음주·무면허 약관 면책 (가입해도 자비) · 자녀 명의로는 부모 보장 불가</text>
+</svg>

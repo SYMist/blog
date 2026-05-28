@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="8" fill="#EF4444"/>
+
+  <!-- Title -->
+  <text x="540" y="68" font-family="-apple-system, sans-serif" font-size="34" font-weight="900" fill="#EF4444" text-anchor="middle">저신용자 대출 거절 사유 TOP 5</text>
+  <text x="540" y="106" font-family="-apple-system, sans-serif" font-size="20" font-weight="700" fill="#A0B4D0" text-anchor="middle">이 중 하나만 걸려도 햇살론·소액생계비 신청 자동 거절</text>
+
+  <!-- Item 1 -->
+  <rect x="60" y="132" width="960" height="114" rx="12" fill="#1A3270"/>
+  <rect x="60" y="132" width="6" height="114" rx="3" fill="#EF4444"/>
+  <circle cx="118" cy="189" r="24" fill="#EF4444"/>
+  <text x="118" y="196" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="middle">1</text>
+  <text x="162" y="172" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">소득 증빙 불가 — 미신고·무소득 서류 미제출</text>
+  <text x="162" y="200" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">소득이 있어도 증빙 서류가 없으면 심사 불가 → 프리랜서·아르바이트는 통장 내역 + 건강보험료 납부확인서 제출</text>
+  <text x="162" y="228" font-family="-apple-system, sans-serif" font-size="16" fill="#EF4444">→ 무소득은 읍면동 주민센터 발급 무소득 확인서로 대체 가능</text>
+
+  <!-- Item 2 -->
+  <rect x="60" y="256" width="960" height="114" rx="12" fill="#0D2347"/>
+  <rect x="60" y="256" width="6" height="114" rx="3" fill="#EF4444"/>
+  <circle cx="118" cy="313" r="24" fill="#EF4444"/>
+  <text x="118" y="320" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="middle">2</text>
+  <text x="162" y="296" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">기존 정책대출 중복 — 햇살론·소액생계비 이용 중</text>
+  <text x="162" y="324" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">현재 햇살론 또는 소액생계비 대출을 이용 중이면 동일 계열 상품 추가 신청 불가</text>
+  <text x="162" y="352" font-family="-apple-system, sans-serif" font-size="16" fill="#EF4444">→ 기존 대출 상환 완료 후 재신청 or 다른 경로 검토 필요</text>
+
+  <!-- Item 3 -->
+  <rect x="60" y="380" width="960" height="114" rx="12" fill="#1A3270"/>
+  <rect x="60" y="380" width="6" height="114" rx="3" fill="#F59E0B"/>
+  <circle cx="118" cy="437" r="24" fill="#F59E0B"/>
+  <text x="118" y="444" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#0B1F3B" text-anchor="middle">3</text>
+  <text x="162" y="420" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">신용점수 조건 초과 — KCB 700점 초과</text>
+  <text x="162" y="448" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">햇살론 특례·소액생계비는 신용 하위 20% (KCB 700점↓) 전용 — 점수가 조금 높으면 신청 불가</text>
+  <text x="162" y="476" font-family="-apple-system, sans-serif" font-size="16" fill="#F59E0B">→ 조건 부합 시 햇살론 일반보증(연 10%↓) 신청 가능 여부 확인</text>
+
+  <!-- Item 4 -->
+  <rect x="60" y="504" width="960" height="114" rx="12" fill="#0D2347"/>
+  <rect x="60" y="504" width="6" height="114" rx="3" fill="#F59E0B"/>
+  <circle cx="118" cy="561" r="24" fill="#F59E0B"/>
+  <text x="118" y="568" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#0B1F3B" text-anchor="middle">4</text>
+  <text x="162" y="544" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">신청 시점 연체 진행 중 — 미해소 연체 있음</text>
+  <text x="162" y="572" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">현재 연체 중인 채무가 있으면 대출 상품 신청 자동 거절 — 연체 해소가 선행 조건</text>
+  <text x="162" y="600" font-family="-apple-system, sans-serif" font-size="16" fill="#F59E0B">→ 연체 중이라면 신용회복위원회 채무조정으로 경로 전환 검토</text>
+
+  <!-- Item 5 -->
+  <rect x="60" y="628" width="960" height="114" rx="12" fill="#1A3270"/>
+  <rect x="60" y="628" width="6" height="114" rx="3" fill="#A0B4D0"/>
+  <circle cx="118" cy="685" r="24" fill="#A0B4D0"/>
+  <text x="118" y="692" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#0B1F3B" text-anchor="middle">5</text>
+  <text x="162" y="668" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">채무조정·개인회생 진행 중 — 이중 신청</text>
+  <text x="162" y="696" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">신용회복위원회 워크아웃 또는 개인회생 진행 중인 상태에서 정책대출 중복 신청 불가</text>
+  <text x="162" y="724" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">→ 절차 완료 후 신용거래 회복 시점에 재신청 검토</text>
+
+  <!-- Warning box -->
+  <rect x="60" y="766" width="960" height="72" rx="12" fill="#2A1818"/>
+  <rect x="60" y="766" width="960" height="72" rx="12" fill="none" stroke="#EF4444" stroke-width="2"/>
+  <text x="540" y="800" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#EF4444" text-anchor="middle">신청 전 ☎1397로 본인 조건 확인하면 거절 가능성을 크게 줄일 수 있습니다</text>
+  <text x="540" y="826" font-family="-apple-system, sans-serif" font-size="16" fill="#EAF2FF" text-anchor="middle">서민금융진흥원 무료 상담 — 평일 09:00~18:00</text>
+
+  <text x="540" y="966" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준 | kinfa.or.kr | ccrs.or.kr | 개인 상황에 따라 다를 수 있음</text>
+  <rect x="0" y="1072" width="1080" height="8" fill="#EF4444"/>
+</svg>

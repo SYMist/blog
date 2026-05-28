@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E40AF"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+    <linearGradient id="amberGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D97706"/>
+      <stop offset="100%" stop-color="#78350f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <circle cx="1080" cy="100" r="200" fill="#1E40AF" fill-opacity="0.07"/>
+  <circle cx="120" cy="540" r="160" fill="#D97706" fill-opacity="0.07"/>
+
+  <!-- Chips -->
+  <rect x="40" y="36" width="110" height="32" rx="16" fill="#1E40AF" fill-opacity="0.35" stroke="#1E40AF" stroke-width="1.5"/>
+  <text x="95" y="57" text-anchor="middle" fill="#93C5FD" font-size="14" font-weight="700" font-family="sans-serif">자동차</text>
+
+  <rect x="166" y="36" width="140" height="32" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="236" y="57" text-anchor="middle" fill="#94A3B8" font-size="14" font-family="sans-serif">2026.05 기준</text>
+
+  <rect x="322" y="36" width="160" height="32" rx="16" fill="#78350f" stroke="#D97706" stroke-width="1.5"/>
+  <text x="402" y="57" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">총비용 비교</text>
+
+  <!-- Title -->
+  <text x="600" y="136" text-anchor="middle" fill="#FFFFFF" font-size="44" font-weight="800" font-family="sans-serif">렌터카 vs 카셰어링 총비용 비교</text>
+  <text x="600" y="178" text-anchor="middle" fill="#93C5FD" font-size="20" font-weight="600" font-family="sans-serif">주말 1박2일·장기 한달 손익분기점 완전 분석</text>
+
+  <!-- Key stat bar -->
+  <rect x="200" y="194" width="800" height="62" rx="12" fill="#1e293b" fill-opacity="0.9" stroke="#334155" stroke-width="1.5"/>
+  <text x="600" y="224" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">손익분기점</text>
+  <text x="600" y="248" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">1박2일 200km 기점 · 이하→카셰어링 / 이상→렌터카</text>
+
+  <rect x="200" y="270" width="800" height="2" rx="1" fill="#1E40AF" fill-opacity="0.4"/>
+
+  <!-- Two cards -->
+  <rect x="40" y="280" width="555" height="316" rx="16" fill="url(#blueGrad)" fill-opacity="0.8" stroke="#1E40AF" stroke-width="2"/>
+  <text x="317" y="320" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">렌터카 (1박2일 7~12만원)</text>
+  <line x1="70" y1="334" x2="565" y2="334" stroke="#1e3a8a" stroke-width="1.5"/>
+  <text x="317" y="374" text-anchor="middle" fill="#93C5FD" font-size="28" font-weight="800" font-family="sans-serif">장기 월단기 20~25만원</text>
+  <line x1="70" y1="396" x2="565" y2="396" stroke="#1e3a8a" stroke-width="1.5"/>
+  <text x="70" y="428" fill="#4ADE80" font-size="14" font-weight="700" font-family="sans-serif">✅ 주행요금 없음 (유류비만)</text>
+  <text x="70" y="454" fill="#4ADE80" font-size="14" font-weight="700" font-family="sans-serif">✅ 월단기: 보험·세금·정비 포함</text>
+  <text x="70" y="480" fill="#94A3B8" font-size="14" font-family="sans-serif">❌ 만차 반납 / 편도 추가 요금</text>
+  <rect x="70" y="498" width="465" height="30" rx="8" fill="#1E40AF" fill-opacity="0.4"/>
+  <text x="302" y="519" text-anchor="middle" fill="#93C5FD" font-size="13" font-weight="700" font-family="sans-serif">→ 200km+ 장거리 · 장기 이용 시 선택</text>
+
+  <rect x="605" y="280" width="555" height="316" rx="16" fill="url(#amberGrad)" fill-opacity="0.8" stroke="#D97706" stroke-width="2"/>
+  <text x="882" y="320" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">카셰어링 (1박2일 6~10만원)</text>
+  <line x1="635" y1="334" x2="1130" y2="334" stroke="#78350f" stroke-width="1.5"/>
+  <text x="882" y="374" text-anchor="middle" fill="#FCD34D" font-size="28" font-weight="800" font-family="sans-serif">단거리·단시간 이용 유리</text>
+  <line x1="635" y1="396" x2="1130" y2="396" stroke="#78350f" stroke-width="1.5"/>
+  <text x="635" y="428" fill="#4ADE80" font-size="14" font-weight="700" font-family="sans-serif">✅ 30분 단위 이용 / 주차비 무료</text>
+  <text x="635" y="454" fill="#4ADE80" font-size="14" font-weight="700" font-family="sans-serif">✅ 100km 이내 렌터카 대비 1~2만원 절약</text>
+  <text x="635" y="480" fill="#94A3B8" font-size="14" font-family="sans-serif">❌ 주행요금 150~240원/km (30km 초과)</text>
+  <rect x="635" y="498" width="465" height="30" rx="8" fill="#D97706" fill-opacity="0.4"/>
+  <text x="867" y="519" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">→ 200km 이하 단거리·단시간 이용 시 선택</text>
+
+  <text x="40" y="612" fill="#64748B" font-size="13" font-family="sans-serif">essencial | 자동차 비교 · 2026.05 기준 · 추정치이며 실제 비용은 차종·조건에 따라 달라집니다</text>
+</svg>

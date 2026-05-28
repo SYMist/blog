@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#F59E0B">전세사기 피해 지원 핵심 요약</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- 피해자 결정 -->
+  <rect x="60" y="130" width="960" height="150" rx="20" fill="rgba(239,68,68,0.08)"/>
+  <rect x="80" y="150" width="220" height="44" rx="22" fill="rgba(239,68,68,0.2)"/>
+  <text x="190" y="180" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#EF4444">피해자 결정</text>
+  <text x="80" y="224" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">보증금 5억 원 이하 + 대항력 + 사기 의도 확인</text>
+  <text x="80" y="258" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#94A3B8">위원회 의결 시 최대 7억 원 · 이중임대차 포함 (2026 개정)</text>
+
+  <!-- 보증금 회수 -->
+  <rect x="60" y="298" width="960" height="150" rx="20" fill="rgba(34,197,94,0.08)"/>
+  <rect x="80" y="318" width="220" height="44" rx="22" fill="rgba(34,197,94,0.2)"/>
+  <text x="190" y="348" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#22C55E">보증금 회수</text>
+  <text x="80" y="392" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">우선매수권 행사 (본인 또는 LH 양도)</text>
+  <text x="80" y="426" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">조세 채권 안분 특례 → 배당액 극대화</text>
+
+  <!-- 금융 지원 -->
+  <rect x="60" y="466" width="960" height="150" rx="20" fill="rgba(59,130,246,0.08)"/>
+  <rect x="80" y="486" width="220" height="44" rx="22" fill="rgba(59,130,246,0.15)"/>
+  <text x="190" y="516" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#60A5FA">금융 지원</text>
+  <text x="80" y="560" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">버팀목 대출 이자 24개월 전액 지원</text>
+  <text x="80" y="594" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">대환 대출 최대 4억 원 (연소득 1.3억 이하)</text>
+
+  <!-- 세제 감면 -->
+  <rect x="60" y="634" width="960" height="150" rx="20" fill="rgba(245,158,11,0.08)"/>
+  <rect x="80" y="654" width="220" height="44" rx="22" fill="rgba(245,158,11,0.15)"/>
+  <text x="190" y="684" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#F59E0B">세제 감면</text>
+  <text x="80" y="728" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">취득세 200만 원 면제 · 재산세 최대 50% 경감</text>
+  <text x="80" y="762" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#F59E0B">2026.12.31까지 한시 적용</text>
+
+  <!-- 인천 특화 -->
+  <rect x="60" y="802" width="960" height="190" rx="20" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="822" width="300" height="44" rx="22" fill="rgba(255,255,255,0.08)"/>
+  <text x="230" y="852" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#EAF2FF">인천 3,040억 특화</text>
+  <text x="80" y="896" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">이사비 150만 + 월세 40만×12개월 + 생계비 100만</text>
+  <text x="80" y="930" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">보증료 환급 + 심리 상담 + 천원주택 우선 공급</text>
+  <text x="80" y="964" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#94A3B8">법률 비용 최대 250만 원 · 무료 소송(중위소득 125% 이하)</text>
+
+  <rect x="60" y="1020" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

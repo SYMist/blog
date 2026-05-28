@@ -1,0 +1,477 @@
+<!-- E-34_종소세_신고후_사업자대출_한도_영향_시뮬레이션_2026.html -->
+<!-- essencial 블로그 | Silo: 대출·금융 | 템플릿: essencial_template_finance.html -->
+
+<!-- ✅ Schema.org 구조화 데이터 -->
+<div style="display:none">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "종소세 신고 후 사업자대출 한도 영향 시뮬레이션 (2026)",
+      "description": "5월 종소세 신고 결과가 7월 이후 사업자대출 한도·금리에 어떻게 반영되는지 시뮬레이션합니다. 신고 소득금액별 한도(2,000만~1.5억 구간), 절세 vs 한도 trade-off, 시중은행·정책자금·보증재단·2금융권 비교, 2026.3.18 대출이동제까지 총정리.",
+      "datePublished": "2026-04-25",
+      "dateModified": "2026-04-25",
+      "author": {"@type": "Person", "name": "essencial"},
+      "publisher": {"@type": "Organization", "name": "essencial"}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "종소세 신고 후 언제부터 한도 재산정이 가능한가요?", "acceptedAnswer": {"@type": "Answer", "text": "신고 직후 1~2주는 국세청 자료 반영이 지연됩니다. 6월 마지막 주~7월 첫째 주부터 소득금액증명원에 신고분이 반영되며, 완전 반영은 7월 중순 이후입니다. 따라서 7월 이후 ~ 다음해 4월이 사업자대출 신청 골든타임입니다."}},
+        {"@type": "Question", "name": "신고 소득금액 vs 매출 중 무엇이 한도 산정 기준인가요?", "acceptedAnswer": {"@type": "Answer", "text": "신고 소득금액(과세표준)이 기준입니다. 매출 1억이라도 필요경비 7천만 원을 차감해 소득금액이 3,000만 원이면 한도는 3,000만 원 기준으로 산정됩니다. 시중은행 환산배수 약 2.5배 적용 시 한도는 약 7,500만 원입니다."}},
+        {"@type": "Question", "name": "절세를 우선하면 대출 한도가 얼마나 줄어드나요?", "acceptedAnswer": {"@type": "Answer", "text": "필요경비를 1,500만 원 추가 처리해 신고 소득금액을 5,000만에서 3,500만으로 낮추면, 세금은 약 300만 원 절약되지만 대출 한도는 약 4,500만 원 감소합니다. 1년 내 자금 조달 계획이 있다면 한도 우선, 자기자본이 충분하다면 절세 우선이 합리적입니다."}},
+        {"@type": "Question", "name": "2026년 3월 시행된 개인사업자 대출이동제는 어떤 제도인가요?", "acceptedAnswer": {"@type": "Answer", "text": "2026.3.18부터 시행된 제도로, 10억 원 이하 개인사업자 신용대출(운전자금)을 만기·경과기간·증액 제한 없이 갈아탈 수 있습니다. 최소 100만 원부터 가능하며, 종소세 신고 후 갱신된 소득금액증명원으로 한도·금리를 재산정할 수 있습니다. 단, 2026년 3월 기준 실행액 107억 원으로 승인율은 10% 미만으로 알려져 있습니다."}},
+        {"@type": "Question", "name": "사업자대출 이자도 종소세 필요경비로 인정되나요?", "acceptedAnswer": {"@type": "Answer", "text": "사업 자금 용도 차입금의 이자는 필요경비로 인정됩니다. 단, 차입금이 사업용 자산 총액을 초과하는 부분의 이자는 경비 인정이 제한되며, 사업과 무관한 개인 용도 차입금 이자는 불인정입니다. 사업용 통장과 개인 통장을 분리 운영하고 대출 약정서·이자 납부 내역을 보관하세요. 원금은 경비 처리 불가입니다."}},
+        {"@type": "Question", "name": "신규 창업 1년차 사업자도 대출이 가능한가요?", "acceptedAnswer": {"@type": "Answer", "text": "시중은행은 한도가 매우 제한적입니다. 가장 유리한 경로는 소상공인 정책자금의 신규 사업자 대출(2.96% 금리·한도 1억 원)과 신용보증재단 보증서대출(개인 5,000만·법인 1억)을 병행하는 것입니다. 사업자등록 6개월 이상 보유 시 케이뱅크 사장님 신용대출(최저 4.10%)도 검토 가능합니다."}},
+        {"@type": "Question", "name": "DSR이 사업자대출에는 어떻게 적용되나요?", "acceptedAnswer": {"@type": "Answer", "text": "시중은행 사업자대출은 일반적으로 DSR 40% 이내를 기준으로 합니다. 산식은 (연간 총 대출 원리금 상환액 ÷ 연소득) × 100이며, 모든 대출(주담대·신용·사업자대출) 원리금이 합산됩니다. 단, 개인사업자 정책자금은 DSR 산정에서 제외되거나 별도 기준이 적용되며, 신용보증재단 보증서대출도 보증한도 내 별도 한도로 운영됩니다."}}
+      ]
+    }
+  ]
+}
+</script>
+</div>
+
+<style>
+  :root{
+    --pri:#B45309; --pri2:#D97706;
+    --white:#FFFFFF; --text:#111827;
+    --muted:#4B5563; --border:#E5E7EB;
+    --bg:#F9FAFB; --accent:#FEF3C7;
+  }
+  .wrap{max-width:860px;margin:0 auto;line-height:1.8;color:var(--text);}
+  .meta{color:var(--muted);font-size:.95rem;margin:6px 0 18px;}
+  .badge{display:inline-block;background:var(--accent);border:1px solid #FDE68A;padding:3px 10px;border-radius:999px;font-size:.85rem;margin-right:8px;}
+  .notice{background:#FFF7ED;border:1px solid #FED7AA;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .conclusion{background:#FEF3C7;border:1px solid #FDE68A;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .toc{background:var(--bg);border:1px solid var(--border);padding:14px 16px;border-radius:12px;margin:16px 0 22px;}
+  .toc a{text-decoration:none;color:var(--pri);}
+  .toc ul{margin:8px 0 0 18px;}
+
+  .wrap a.btn,.wrap a.btn:link,.wrap a.btn:visited{
+    display:inline-flex;align-items:center;justify-content:center;
+    padding:10px 14px;border-radius:10px;border:1px solid var(--pri);
+    background:var(--pri) !important;color:var(--white) !important;
+    text-decoration:none !important;font-weight:800;
+  }
+  .wrap a.btn:hover{background:var(--pri2) !important;}
+  .wrap a.btn.secondary,.wrap a.btn.secondary:link,.wrap a.btn.secondary:visited{
+    background:var(--white) !important;color:var(--pri) !important;border-color:var(--pri) !important;
+  }
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 6px;}
+
+  table{width:100%;border-collapse:collapse;margin:14px 0 10px;}
+  th,td{border:1px solid var(--border);padding:10px;vertical-align:top;}
+  th{background:#F3F4F6;text-align:left;}
+  .small{font-size:.95rem;color:var(--muted);}
+  h1{margin:0 0 8px;line-height:1.25;}
+  h2{margin-top:30px;padding-top:8px;border-top:1px solid var(--border);}
+  h3{margin-top:16px;}
+  .q{font-weight:900;margin:14px 0 6px;}
+  .a{margin:0 0 10px;}
+  .highlight{background:#FFFBEB;border:1px solid #FDE68A;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .warning{background:#FEF2F2;border:1px solid #FECACA;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .scope{background:#F8FAFC;border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .scope ul{margin:4px 0 0 18px;}
+  .action-steps{background:#FEF3C7;border:1px solid #FDE68A;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .action-steps ol{margin:8px 0 0 18px;}
+  .sources{background:var(--bg);border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:14px 0;font-size:.9rem;}
+  .sources ul{margin:4px 0 0 18px;}
+  .ad{background:#F9FAFB;border:1px dashed var(--border);padding:10px 12px;border-radius:10px;margin:12px 0;}
+  .footer{margin-top:26px;padding-top:14px;border-top:1px solid var(--border);color:var(--muted);font-size:.95rem;}
+</style>
+
+<div class="wrap">
+  <h1>종소세 신고 후 사업자대출 한도 영향 시뮬레이션 (2026)</h1>
+  <div class="meta">
+    <span class="badge">대출·금융</span>
+    <span class="badge">업데이트: 2026-04-25</span>
+  </div>
+
+  <div class="notice">
+    <strong>먼저 확인!</strong><br/>
+    5월 종소세 신고 결과는 약 1.5~2개월 시차로 사업자대출 한도·금리에 반영됩니다. <strong>7월 이후 ~ 다음해 4월</strong>이 갱신된 소득금액증명원으로 가장 좋은 조건을 끌어낼 수 있는 골든타임입니다. 매출 누락·가공 매출 신고는 대출 사기죄·세무조사 동시 위험을 동반하므로 절대 금지하세요. 본 글은 일반 정보 제공이며 개별 한도는 금융기관 심사 결과에 따릅니다.
+  </div>
+
+  <p class="small">
+    2025년 귀속 종소세 신고분이 사업자대출에 반영되는 흐름과 신고 소득금액별 한도 시뮬레이션, 절세 vs 한도 trade-off, 시중은행·정책자금·보증재단·2금융권 비교, 2026.3.18 시행 대출이동제 활용법까지 한 번에 정리합니다.
+  </p>
+
+  <!-- ✅ 이 글의 범위 (스코핑) -->
+  <div class="scope">
+    <strong>이 글에서 다루는 것</strong>
+    <ul>
+      <li>5월 신고 → 7월 이후 한도 반영 흐름과 골든타임 캘린더</li>
+      <li>신고 소득금액별 시중은행 한도 시뮬레이션 (2,000만~1.5억)</li>
+      <li>절세 vs 한도 trade-off 모델 시뮬레이션 (300만 절세 vs 4,500만 한도)</li>
+      <li>시중은행·정책자금·보증재단·2금융권 4채널 비교</li>
+      <li>2026.3.18 개인사업자 대출이동제와 6개 사업자 유형별 최적 조합</li>
+    </ul>
+    <strong>다루지 않는 것</strong>
+    <ul>
+      <li>법인사업자 (별도 신용평가 체계) · 가공 매출·차명 사업자 등 법 위반 행위</li>
+    </ul>
+  </div>
+
+  <!-- ✅ 섹션 1: 결론 먼저 -->
+  <div class="conclusion" id="top">
+    <h2 style="border-top:none;margin-top:0;">✅ 결론 먼저: 상황별 권장 전략</h2>
+    <ul>
+      <li><strong>1년 내 대출 계획 있음</strong>: <strong>한도 우선</strong> — 적격증빙 경비만 처리, 무리한 절세 자제</li>
+      <li><strong>자기자본 충분 · 사업 안정기</strong>: <strong>절세 우선</strong> — 한도는 다음 해 신고로 회복</li>
+      <li><strong>신고 소득 5,000만 원 이상</strong>: 시중은행 사장님대출 + 보증재단 + 정책자금 3종 병행 (한도 약 1.7억+)</li>
+      <li><strong>신고 소득 3,000만 미만</strong>: 시중은행 한도 협소 → <strong>정책자금(2.96%)</strong>·신용보증재단 우선</li>
+      <li><strong>신규 창업 1년차</strong>: 정책자금 신규 사업자 대출 <strong>1억 + 보증재단 5천만</strong> 우선 병행</li>
+      <li><strong>고금리 기존 대출 보유</strong>: 7월 이후 갱신된 소득금액증명원으로 <strong>대출이동제</strong> 활용 갈아타기</li>
+    </ul>
+    <p class="small">※ 본 결론은 신용 850점·기존 대출 없음 가정한 모델 시뮬레이션이며, 실제 한도는 은행 심사·업종·매출 안정성에 따라 달라집니다.</p>
+  </div>
+
+  <!-- ✅ 이미지 1: 비교 요약 -->
+  <p><img src="compare_summary_business-loan-after-tax-filing-2026.png" alt="2026 종소세 신고 후 사업자대출 한도 영향 시뮬레이션 요약" width="860"/></p>
+
+  <div class="toc">
+    <strong>목차</strong>
+    <ul>
+      <li><a href="#flow">1) 종소세 신고 → 대출 한도 반영 흐름과 골든타임</a></li>
+      <li><a href="#income">2) 소득의 종류와 증빙 위계 (소득금액증명원의 위력)</a></li>
+      <li><a href="#dsr">3) DSR·DTI와 사업자대출 한도 산정 공식</a></li>
+      <li><a href="#sim1">4) 시뮬레이션 1 — 신고 소득금액별 한도 (2,000만~1.5억)</a></li>
+      <li><a href="#sim2">5) 시뮬레이션 2 — 절세 vs 한도 trade-off</a></li>
+      <li><a href="#products">6) 2026 사업자대출 4채널 상품 비교</a></li>
+      <li><a href="#switch">7) 2026.3.18 개인사업자 대출이동제</a></li>
+      <li><a href="#scenario">8) 6개 사업자 유형별 시나리오</a></li>
+      <li><a href="#caution">9) 주의사항·체크리스트</a></li>
+      <li><a href="#faq">10) FAQ</a></li>
+      <li><a href="#update">업데이트 로그</a></li>
+    </ul>
+  </div>
+
+  <!-- ✅ 섹션 1: 신고-한도 흐름 -->
+  <h2 id="flow">1) 종소세 신고 → 대출 한도 반영 흐름과 골든타임</h2>
+  <table>
+    <thead>
+      <tr><th>시기</th><th>이벤트</th><th>대출 신청 가능 여부</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>2026.5.1 ~ 5.31</strong></td><td>종소세 신고 (성실신고 6.30까지)</td><td>전년도 소득금액증명원 활용</td></tr>
+      <tr><td><strong>2026.6 마지막 주 ~ 7 첫째 주</strong></td><td>국세청 자료 → NICE/KCB·금융결제원 반영 시작</td><td>부분 반영 — 일부 갱신 가능</td></tr>
+      <tr><td><strong>2026.7 중순</strong></td><td>소득금액증명원 완전 갱신</td><td><strong>골든타임 시작</strong></td></tr>
+      <tr><td><strong>2026.7 ~ 8</strong></td><td>신규 대출·갈아타기 적기</td><td>한도·금리 최적화 가능</td></tr>
+      <tr><td><strong>2026.9 ~ 10</strong></td><td>추석 전 운영자금 수요 대응</td><td>마이너스통장·운전자금 추가</td></tr>
+      <tr><td><strong>2026.12</strong></td><td>연말 결산 후 차년도 자금계획</td><td>증액·갈아타기 검토</td></tr>
+    </tbody>
+  </table>
+
+  <h3>2026년 종소세 주요 변경 (한도에도 영향)</h3>
+  <ul>
+    <li>6% 세율 구간: 1,200만 → <strong>1,400만 원 이하</strong> 확대</li>
+    <li>15% 세율 구간: <strong>1,400만 ~ 5,000만 원 이하</strong> 상향</li>
+    <li>월세 세액공제: 대상 주택 5억 → <strong>6억</strong>, 한도 <strong>연 2,000만 원</strong></li>
+    <li>주택청약 소득공제: 월 한도 10만 → <strong>25만 원</strong>, 연 한도 300만 원</li>
+  </ul>
+
+  <!-- ✅ 섹션 2: 소득 증빙 위계 -->
+  <h2 id="income">2) 소득의 종류와 증빙 위계</h2>
+  <table>
+    <thead>
+      <tr><th>위계</th><th>증빙 종류</th><th>한도 영향력</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>증빙소득 (최상)</strong></td>
+        <td>소득금액증명원·원천징수영수증·부가세 신고서</td>
+        <td>★★★★★ — 가장 강한 효력</td>
+      </tr>
+      <tr>
+        <td><strong>인정소득</strong></td>
+        <td>국민연금·건강보험료 납부내역 추정</td>
+        <td>★★★ — 보조 증빙</td>
+      </tr>
+      <tr>
+        <td><strong>추정소득</strong></td>
+        <td>카드 사용액·통장 입출금 분석</td>
+        <td>★★ — 한도 산정 약하게 반영</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="highlight">
+    <p><strong>매출 vs 소득금액 차이</strong> — 매출(수입금액)은 부가세 신고 기준이고, 소득금액(과세표준)은 매출에서 필요경비를 차감한 금액입니다. 사업자대출 한도는 <strong>소득금액 기준</strong>으로 산정되므로, 매출 1억이라도 신고 소득금액이 3,000만 원이면 한도는 3,000만 원 기준입니다.</p>
+  </div>
+
+  <div class="ad">광고 위치 1: 소득 위계 표 아래</div>
+
+  <!-- ✅ 섹션 3: DSR -->
+  <h2 id="dsr">3) DSR·DTI와 사업자대출 한도 산정 공식</h2>
+  <h3>DSR (총부채원리금상환비율)</h3>
+  <ul>
+    <li>산식: <strong>(연간 총 대출 원리금 상환액 ÷ 연소득) × 100</strong></li>
+    <li>시중은행 사업자대출 일반 기준: <strong>40% 이내</strong></li>
+    <li>모든 대출(주담대·신용·사업자) 원리금 합산</li>
+  </ul>
+
+  <h3>한도 산정 단순 공식</h3>
+  <div class="highlight">
+    <p><strong>한도 ≈ 연소득 × 환산배수(약 1.5~3배) − 기존 대출 원리금</strong></p>
+    <ul>
+      <li>일반 사업자: 환산배수 약 <strong>2.5배</strong></li>
+      <li>우량 사업자(신용 800+·5년 이상 운영): 환산배수 <strong>3~5배</strong></li>
+      <li>신규·매출 변동성 큰 사업자: 1.5배 이하</li>
+    </ul>
+  </div>
+
+  <h3>DSR 적용 예외 (한도 추가 가능 영역)</h3>
+  <ul>
+    <li><strong>개인사업자 정책자금</strong>: DSR 산정 제외 또는 별도 기준</li>
+    <li><strong>신용보증재단 보증서대출</strong>: 보증한도 내 별도 한도</li>
+    <li>일부 마이너스통장: DSR 적용 차등</li>
+  </ul>
+
+  <!-- ✅ 이미지 2: 비교 매트릭스 -->
+  <p><img src="compare_matrix_business-loan-after-tax-filing-2026.png" alt="신고 소득금액별 한도 시뮬레이션·4채널 상품 비교 매트릭스" width="860"/></p>
+
+  <!-- ✅ 섹션 4: 시뮬레이션 1 -->
+  <h2 id="sim1">4) 시뮬레이션 1 — 신고 소득금액별 한도 변화</h2>
+  <p class="small">가정: 자영업 5년차·신용 850점·기존 대출 없음·시중은행 일반 사업자 신용대출(연소득 약 2.5배 환산)</p>
+  <table>
+    <thead>
+      <tr><th>신고 소득금액</th><th>환산배수 2.5배</th><th>DSR 40% 한도 (5년 만기)</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>2,000만 원</td><td>5,000만 원</td><td>약 3,500만 원</td></tr>
+      <tr><td>3,000만 원</td><td>7,500만 원</td><td>약 5,200만 원</td></tr>
+      <tr><td><strong>5,000만 원</strong></td><td>1억 2,500만 원</td><td><strong>약 8,800만 원</strong></td></tr>
+      <tr><td>7,000만 원</td><td>1억 7,500만 원</td><td>약 1억 2,300만 원</td></tr>
+      <tr><td>1억 원</td><td>2억 5,000만 원</td><td>약 1억 7,500만 원</td></tr>
+      <tr><td>1.5억 원</td><td>3억 7,500만 원</td><td>약 2억 6,000만 원</td></tr>
+    </tbody>
+  </table>
+
+  <h3>핵심 인사이트</h3>
+  <ul>
+    <li>소득금액 <strong>3,000만 미만</strong>: 시중은행 한도 매우 제한적 → 정책자금·보증재단 우선</li>
+    <li>소득금액 <strong>5,000만 이상</strong>: 한도 1억 가시권</li>
+    <li>소득금액 <strong>1억 이상</strong>: 시중은행 사장님대출 최대 3억 한도 도달 가능</li>
+    <li>부수효과: 소득 ↑ → 신용평가 +20~50점 → 우대금리 0.1~0.3%p 추가</li>
+  </ul>
+
+  <!-- ✅ 섹션 5: 시뮬레이션 2 -->
+  <h2 id="sim2">5) 시뮬레이션 2 — 절세 vs 한도 trade-off</h2>
+  <p class="small">모델: 매출 2억 / 실제 필요경비 1.5억 / 추가 경비 처리 가능 1,500만 원 (적격증빙 보유)</p>
+  <table>
+    <thead>
+      <tr><th>구분</th><th>A 시나리오 (절세 우선)</th><th>B 시나리오 (한도 우선)</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>필요경비 인정</strong></td><td>1억 6,500만</td><td>1억 5,000만</td></tr>
+      <tr><td><strong>신고 소득금액</strong></td><td>3,500만</td><td>5,000만</td></tr>
+      <tr><td><strong>종소세 부담</strong></td><td>약 300만</td><td>약 600만</td></tr>
+      <tr><td><strong>사업자대출 환산 한도</strong></td><td>약 8,000만</td><td>약 1억 2,500만</td></tr>
+      <tr><td><strong>차이</strong></td><td colspan="2">세금 +300만 vs 한도 +4,500만</td></tr>
+    </tbody>
+  </table>
+
+  <div class="highlight">
+    <p><strong>해석</strong> — B(한도 우선)는 세금 300만 원 더 내지만 대출 한도가 4,500만 원 추가 확보됩니다. 이 4,500만 원을 연 4%로 조달한다고 가정하면 연 이자 180만 원이 추가 발생하므로, <strong>1년 내 자금 조달 계획이 있고 ROI가 4% 이상</strong>이면 B가 합리적입니다. 사업 확장 단계·주택구입 임박·인력 충원 계획이 있다면 한도 우선이 유리하고, 충분한 자기자본·자금 수요 없음이면 A가 정답입니다.</p>
+  </div>
+
+  <h3>결정 체크포인트</h3>
+  <ul>
+    <li>1년 내 신규 대출 필요? → 한도 우선</li>
+    <li>매출·인력 확장기? → 한도 우선</li>
+    <li>주택구입·임차 계획? → 한도 우선 (DSR 합산)</li>
+    <li>이미 자기자본 충분? → 절세 우선</li>
+  </ul>
+
+  <div class="ad">광고 위치 2: trade-off 표 아래</div>
+
+  <!-- ✅ 섹션 6: 4채널 상품 비교 -->
+  <h2 id="products">6) 2026 사업자대출 4채널 상품 비교</h2>
+
+  <h3>① 시중은행 사장님대출</h3>
+  <table>
+    <thead>
+      <tr><th>은행</th><th>한도</th><th>금리</th><th>비고</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>카카오뱅크</td><td>최대 3억</td><td>최저 3%대</td><td>비대면 신청</td></tr>
+      <tr><td>케이뱅크 사장님 신용대출</td><td>최대 3억</td><td>최저 4.10%</td><td>사업자 6개월 이상</td></tr>
+      <tr><td>KB국민은행</td><td>영업점 3억 / 비대면 2억</td><td>3.61~5.62%</td><td>비대면 0.3%p 우대</td></tr>
+      <tr><td>토스뱅크</td><td>별도</td><td>최저 3.61%</td><td>대출이동제 가능</td></tr>
+      <tr><td>우리·신한·하나·NH</td><td>은행별</td><td>3~6%대</td><td>갈아타기 0.7%p 우대(우리)</td></tr>
+    </tbody>
+  </table>
+
+  <h3>② 정책자금 (소상공인시장진흥공단)</h3>
+  <table>
+    <thead>
+      <tr><th>상품</th><th>금리</th><th>한도</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>신규 개인사업자</strong></td><td>최저 <strong>2.96%</strong></td><td>1억</td></tr>
+      <tr><td>경영안정자금</td><td>3.36~3.56% 변동</td><td>7,000만</td></tr>
+      <tr><td>대환대출</td><td>4.5% 고정</td><td>5,000만</td></tr>
+      <tr><td>저신용 희망대출</td><td>3~4%대</td><td>3,000만</td></tr>
+    </tbody>
+  </table>
+
+  <h3>③ 신용보증재단 보증서대출</h3>
+  <ul>
+    <li>개인사업자: 최대 <strong>5,000만</strong> · 법인: 최대 <strong>1억</strong></li>
+    <li>금리: <strong>2.0~4.5%</strong></li>
+    <li>운영자금 1인당 1억 한도</li>
+  </ul>
+
+  <h3>④ 2금융권 사업자대출</h3>
+  <ul>
+    <li><strong>개인사업자 햇살론</strong>: 연 10.5% 이내 + 보증료 1% (연소득 3,500만 이하 신용 무관)</li>
+    <li>저축은행 사업자대출: 12.6~19.9%, 한도 1,000~4,000만</li>
+    <li>시중은행·정책자금 우선 활용 후 차선</li>
+  </ul>
+
+  <h3>⑤ 2026 신규 — 성장촉진 보증부대출</h3>
+  <ul>
+    <li>총 <strong>3조 3,000억 원</strong> 규모</li>
+    <li>매출 성장 입증 사업자 대상</li>
+    <li>시중은행 + 신용보증재단 협력</li>
+  </ul>
+
+  <!-- ✅ 섹션 7: 대출이동제 -->
+  <h2 id="switch">7) 2026.3.18 개인사업자 대출이동제</h2>
+  <ul>
+    <li>대상: <strong>10억 원 이하 개인사업자 신용대출(운전자금)</strong></li>
+    <li>특징: 만기·경과기간·증액 제한 없음 (가계대출 갈아타기와 차이)</li>
+    <li>최소 100만 원부터 가능</li>
+  </ul>
+
+  <h3>활용 절차 4단계</h3>
+  <ol>
+    <li>기존 대출 보유 은행 정보 확인 (앱·홈페이지)</li>
+    <li>갈아타기 가능 은행·상품 비교 (각 은행 앱 + 토스·카카오뱅크 통합)</li>
+    <li>신규 대출 약정 → 기존 대출 자동 상환</li>
+    <li>중도상환수수료 면제·우대 적용 확인</li>
+  </ol>
+
+  <div class="warning">
+    <p><strong>한계</strong> — 2026년 3월 기준 실행액 107억 원으로 당초 1조 원 목표에 크게 미달했습니다. 시중은행 심사 까다로움으로 <strong>승인율 10% 미만</strong>으로 알려져 있어, 신용도·소득 요건 미충족 시 활용이 어려울 수 있습니다.</p>
+  </div>
+
+  <!-- ✅ 섹션 8: 6개 사업자 유형 시나리오 -->
+  <h2 id="scenario">8) 6개 사업자 유형별 시나리오</h2>
+  <div class="highlight">
+    <h3>🔍 매출·소득 구간별 최적 조합</h3>
+    <ul>
+      <li><strong>S1 · 음식점 매출 1억 / 소득 2천만</strong> → 시중은행 4천만 + <strong>정책자금 1억 + 보증재단 5천만</strong> = 약 1.9억</li>
+      <li><strong>S2 · 프리랜서 매출 8천 / 소득 5천만</strong> → 카카오·케이뱅크 1.25억 + 정책자금 7천만 병행</li>
+      <li><strong>S3 · 제조업 매출 5억 / 소득 1.5억</strong> → 시중은행 <strong>3억 + 정책자금 + 보증재단 1억</strong> = 4.5억+</li>
+      <li><strong>S4 · 신규 창업 매출 5천 / 소득 1.5천</strong> → <strong>정책자금 신규 1억 + 보증재단 5천</strong> 우선</li>
+      <li><strong>S5 · 계절업종 매출 1.5억 / 소득 4천</strong> → <strong>마이너스통장 + 운전자금 정책자금</strong> 병행</li>
+      <li><strong>S6 · 절세 과다 매출 3억 / 소득 1.5천</strong> → 한도 손실 진단 → <strong>수정신고 또는 다음 해 정상화 대기</strong></li>
+    </ul>
+  </div>
+
+  <h3>S1·S6 상세 시뮬</h3>
+  <div class="highlight">
+    <p><strong>S1 (음식점 매출 1억·소득 2천)</strong> — 시중은행 단독 약 4천만 → 정책자금 신규 사업자 1억(2.96%) + 보증재단 5천만(3.5% 가정) 병행 → <strong>총 1.9억 자금 조달</strong>, 평균 금리 약 3.2%</p>
+    <p><strong>S6 (절세 과다 매출 3억·소득 1.5천)</strong> — 매출 3억인데 소득 1,500만으로 신고 → 시중은행 한도 약 4천만에 그침. 절세 효과 약 200만 < 한도 손실 1억+. <strong>대안</strong>: 적격증빙 누락분 수정신고로 소득 5,000만 환원 → 한도 1.25억 회복 + 추가 세금 약 600만 부담</p>
+  </div>
+
+  <!-- ✅ 이미지 3: 시나리오 -->
+  <p><img src="scenario_business-loan-after-tax-filing-2026.png" alt="신고 소득별 6개 사업자 시나리오·골든타임 캘린더·체크리스트" width="860"/></p>
+
+  <!-- ✅ 행동 체크리스트 -->
+  <div class="action-steps">
+    <h3>지금 바로 확인하는 순서</h3>
+    <ol>
+      <li><strong>신고 소득금액 사전 시뮬</strong> — 매출 × (1 − 경비율) → 신고 후 한도 추정</li>
+      <li><strong>1년 자금 계획 점검</strong> — 신규 대출·주택·인력 확장 → 한도 vs 절세 우선순위 결정</li>
+      <li><strong>5.31 신고 마감 준수</strong> — 무신고 20% 가산세 + 대출 거절 위험</li>
+      <li><strong>7월 중순 소득금액증명원 갱신 확인</strong> — 홈택스 또는 정부24 발급</li>
+      <li><strong>4채널 한도 비교</strong> — 시중은행 + 정책자금(2.96%) + 보증재단 + 마이너스통장</li>
+      <li><strong>대출이동제 검토</strong> — 기존 고금리 대출 보유 시 갈아타기 시도 (승인율 10% 미만 감안)</li>
+      <li><strong>대출 이자 경비처리 자료 보관</strong> — 사업용 통장 분리 + 약정서·이자 납부 내역</li>
+    </ol>
+  </div>
+
+  <div class="ad">광고 위치 3: 체크리스트 아래 — CPC 최고 지점</div>
+
+  <!-- ✅ 신청 채널 CTA -->
+  <h2>대출 신청 공식 채널</h2>
+  <div class="btns">
+    <a class="btn" href="https://ols.sbiz.or.kr" target="_blank" rel="noopener">소상공인 정책자금 신청</a>
+    <a class="btn secondary" href="https://koreg.or.kr" target="_blank" rel="noopener">신용보증재단중앙회</a>
+    <a class="btn secondary" href="https://www.hometax.go.kr" target="_blank" rel="noopener">홈택스 소득금액증명원</a>
+  </div>
+
+  <!-- ✅ 섹션 9: 주의사항 -->
+  <h2 id="caution">9) 주의사항·체크리스트</h2>
+  <div class="warning">
+    <ul>
+      <li><strong>매출 누락 신고</strong> → 대출 사기죄 + 세무조사 동시 위험</li>
+      <li><strong>가공 매출 신고로 한도 부풀리기</strong> → 형사 처벌 가능</li>
+      <li><strong>차명 사업자등록</strong> → 사문서 위조</li>
+      <li><strong>적격증빙 미보유 경비 신고</strong> → 추후 세무조사 시 추징·가산세</li>
+      <li><strong>차입금이 사업용 자산 초과</strong> 부분 이자 → 경비 인정 제한</li>
+      <li><strong>종소세 체납</strong> → 신용평가 급락·대출 거절</li>
+      <li><strong>신고 직후 1~2주</strong> 국세청 자료 반영 지연 → 7월 중순 이후 신청 권장</li>
+      <li><strong>대출이동제 승인율 10% 미만</strong> — 신용·소득 요건 미충족 시 활용 곤란</li>
+    </ul>
+  </div>
+
+  <!-- ✅ 섹션 10: FAQ -->
+  <h2 id="faq">10) FAQ</h2>
+  <p class="q">Q1. 종소세 신고 후 언제부터 한도 재산정이 가능한가요?</p>
+  <p class="a">신고 직후 1~2주는 국세청 자료 반영이 지연됩니다. 6월 마지막 주~7월 첫째 주부터 소득금액증명원에 신고분이 반영되며, 완전 반영은 7월 중순 이후입니다. 따라서 7월 이후 ~ 다음해 4월이 사업자대출 신청 골든타임입니다.</p>
+
+  <p class="q">Q2. 신고 소득금액 vs 매출 중 무엇이 한도 산정 기준인가요?</p>
+  <p class="a">신고 소득금액(과세표준)이 기준입니다. 매출 1억이라도 필요경비 7천만 원을 차감해 소득금액이 3,000만 원이면 한도는 3,000만 원 기준으로 산정됩니다. 시중은행 환산배수 약 2.5배 적용 시 한도는 약 7,500만 원입니다.</p>
+
+  <p class="q">Q3. 절세를 우선하면 대출 한도가 얼마나 줄어드나요?</p>
+  <p class="a">필요경비를 1,500만 원 추가 처리해 신고 소득금액을 5,000만에서 3,500만으로 낮추면, 세금은 약 300만 원 절약되지만 대출 한도는 약 4,500만 원 감소합니다. 1년 내 자금 조달 계획이 있다면 한도 우선, 자기자본이 충분하다면 절세 우선이 합리적입니다.</p>
+
+  <p class="q">Q4. 2026년 3월 시행된 개인사업자 대출이동제는 어떤 제도인가요?</p>
+  <p class="a">2026.3.18부터 시행된 제도로, 10억 원 이하 개인사업자 신용대출(운전자금)을 만기·경과기간·증액 제한 없이 갈아탈 수 있습니다. 최소 100만 원부터 가능하며, 종소세 신고 후 갱신된 소득금액증명원으로 한도·금리를 재산정할 수 있습니다. 단, 2026년 3월 기준 실행액 107억 원으로 승인율은 10% 미만으로 알려져 있습니다.</p>
+
+  <p class="q">Q5. 사업자대출 이자도 종소세 필요경비로 인정되나요?</p>
+  <p class="a">사업 자금 용도 차입금의 이자는 필요경비로 인정됩니다. 단, 차입금이 사업용 자산 총액을 초과하는 부분의 이자는 경비 인정이 제한되며, 사업과 무관한 개인 용도 차입금 이자는 불인정입니다. 사업용 통장과 개인 통장을 분리 운영하고 대출 약정서·이자 납부 내역을 보관하세요. 원금은 경비 처리 불가입니다.</p>
+
+  <p class="q">Q6. 신규 창업 1년차 사업자도 대출이 가능한가요?</p>
+  <p class="a">시중은행은 한도가 매우 제한적입니다. 가장 유리한 경로는 소상공인 정책자금의 신규 사업자 대출(2.96% 금리·한도 1억 원)과 신용보증재단 보증서대출(개인 5,000만·법인 1억)을 병행하는 것입니다. 사업자등록 6개월 이상 보유 시 케이뱅크 사장님 신용대출(최저 4.10%)도 검토 가능합니다.</p>
+
+  <p class="q">Q7. DSR이 사업자대출에는 어떻게 적용되나요?</p>
+  <p class="a">시중은행 사업자대출은 일반적으로 DSR 40% 이내를 기준으로 합니다. 산식은 (연간 총 대출 원리금 상환액 ÷ 연소득) × 100이며, 모든 대출(주담대·신용·사업자대출) 원리금이 합산됩니다. 단, 개인사업자 정책자금은 DSR 산정에서 제외되거나 별도 기준이 적용되며, 신용보증재단 보증서대출도 보증한도 내 별도 한도로 운영됩니다.</p>
+
+  <p class="small">※ 본 글의 한도·금리는 모델 시뮬레이션이며, 실제 한도는 금융기관 심사·업종·매출 안정성·신용도에 따라 달라집니다. 대출 신청 전 각 금융기관 한도 조회를 활용하세요.</p>
+
+  <p class="small">관련 글: <a href="E-31_5월_종합소득세_사업자_근로자_환급_전략_비교_2026.html">5월 종합소득세 사업자 vs 근로자 환급 전략 (2026)</a> / <a href="E-30_개인사업자_대출_비교_신용대출_담보대출_금리_한도_2026.html">개인사업자 대출 비교: 신용 vs 담보 (2026)</a> / <a href="E-32_건강보험료_5월_정산_환급_추가납부_조건_비교_2026.html">건강보험료 5월 정산 환급 vs 추가납부 (2026)</a></p>
+
+  <!-- ✅ 참고자료/출처 -->
+  <div class="sources">
+    <strong>참고자료/출처</strong>
+    <ul>
+      <li>국세청 홈택스 — <a href="https://www.hometax.go.kr" target="_blank" rel="noopener">www.hometax.go.kr</a></li>
+      <li>정부24 — <a href="https://www.gov.kr" target="_blank" rel="noopener">www.gov.kr</a></li>
+      <li>금융위원회 — <a href="https://www.fsc.go.kr" target="_blank" rel="noopener">www.fsc.go.kr</a></li>
+      <li>금융감독원 — <a href="https://www.fss.or.kr" target="_blank" rel="noopener">www.fss.or.kr</a></li>
+      <li>소상공인시장진흥공단 — <a href="https://www.semas.or.kr" target="_blank" rel="noopener">www.semas.or.kr</a></li>
+      <li>소상공인 정책자금 — <a href="https://ols.sbiz.or.kr" target="_blank" rel="noopener">ols.sbiz.or.kr</a></li>
+      <li>신용보증재단중앙회 — <a href="https://koreg.or.kr" target="_blank" rel="noopener">koreg.or.kr</a></li>
+      <li>금융위 「개인사업자대출 여신심사 가이드라인」·「DSR 규제 고시」</li>
+    </ul>
+  </div>
+
+  <div class="btns">
+    <a class="btn" href="https://www.hometax.go.kr" target="_blank" rel="noopener">홈택스에서 소득금액증명원 발급</a>
+    <a class="btn secondary" href="https://ols.sbiz.or.kr" target="_blank" rel="noopener">정책자금 신청·자격 조회</a>
+  </div>
+
+  <div class="ad">광고 위치 4: 글 하단</div>
+
+  <div class="footer" id="update">
+    <strong>업데이트 로그</strong><br/>
+    - 2026-04-25: 최초 발행 (2026 종소세 개정·대출이동제 3.18 시행·정책자금 2.96%·성장촉진 보증부대출 3.3조 반영)<br/>
+    <span class="small">※ 사업자대출 한도·금리는 신용도·업종·매출 안정성·금융기관 정책에 따라 달라집니다. 본 글은 일반 정보 제공용이며 특정 금융상품 권유가 아닙니다. 대출 신청 전 각 금융기관 공식 안내·심사 결과를 확인하세요.</span>
+  </div>
+</div>

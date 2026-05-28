@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#F59E0B">내 상황에 맞는 대출 10초 판단</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- 상황 1 -->
+  <rect x="60" y="120" width="960" height="130" rx="16" fill="rgba(239,68,68,0.1)"/>
+  <rect x="80" y="140" width="280" height="40" rx="20" fill="#EF4444"/>
+  <text x="220" y="168" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#FFF">7% 이상 고금리 보유</text>
+  <text x="80" y="210" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">→ 대환대출</text>
+  <text x="320" y="210" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#F59E0B">4.5% 고정</text>
+  <text x="540" y="210" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">최대 5,000만 · 연 수십만 원 절감</text>
+
+  <!-- 상황 2 -->
+  <rect x="60" y="264" width="960" height="130" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="284" width="240" height="40" rx="20" fill="#1D4ED8"/>
+  <text x="200" y="312" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#FFF">비수도권 사업장</text>
+  <text x="80" y="356" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">→ 정책자금 + 이차보전</text>
+  <text x="480" y="356" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#F59E0B">3%대 초반</text>
+  <text x="680" y="356" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">지역 우대 0.2%p 추가</text>
+
+  <!-- 상황 3 -->
+  <rect x="60" y="408" width="960" height="130" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="428" width="320" height="40" rx="20" fill="rgba(245,158,11,0.3)"/>
+  <text x="240" y="456" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#F59E0B">디지털 전환 (키오스크 등)</text>
+  <text x="80" y="500" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">→ 혁신성장촉진자금</text>
+  <text x="440" y="500" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#F59E0B">3.76%</text>
+  <text x="600" y="500" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">시설 최대 10억 원</text>
+
+  <!-- 상황 4 -->
+  <rect x="60" y="552" width="960" height="130" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="572" width="300" height="40" rx="20" fill="#1D4ED8"/>
+  <text x="230" y="600" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#FFF">NCB 839점 이하 중저신용</text>
+  <text x="80" y="644" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">→ 신용취약소상공인자금</text>
+  <text x="480" y="644" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#F59E0B">4.96%</text>
+  <text x="620" y="644" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">3,000만 · 은행 거절 대안</text>
+
+  <!-- 상황 5 -->
+  <rect x="60" y="696" width="960" height="130" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="716" width="300" height="40" rx="20" fill="rgba(245,158,11,0.3)"/>
+  <text x="230" y="744" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#F59E0B">만 39세 이하 청년 사업자</text>
+  <text x="80" y="788" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">→ 청년고용연계자금</text>
+  <text x="440" y="788" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#F59E0B">3.36%</text>
+  <text x="580" y="788" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">기준금리 = 최저 금리</text>
+
+  <!-- 상황 6 -->
+  <rect x="60" y="840" width="960" height="130" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="860" width="340" height="40" rx="20" fill="#1D4ED8"/>
+  <text x="250" y="888" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#FFF">신용 양호 + 빠른 실행 필요</text>
+  <text x="80" y="932" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">→ 시중은행 신용대출</text>
+  <text x="440" y="932" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#EF4444">4.01~5.38%</text>
+  <text x="680" y="932" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">속도 빠름 · 금리 최고</text>
+
+  <rect x="60" y="990" width="960" height="40" rx="20" fill="rgba(245,158,11,0.15)"/>
+  <text x="540" y="1016" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#F59E0B">정책자금 → 이차보전 → 대환대출 순으로 검토하면 금리를 최소화할 수 있습니다</text>
+
+  <rect x="60" y="1050" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

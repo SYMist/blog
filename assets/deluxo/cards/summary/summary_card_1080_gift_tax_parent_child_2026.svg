@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- Header -->
+  <rect x="60" y="60" width="960" height="120" rx="16" fill="#0D2347"/>
+  <text x="540" y="110" font-family="-apple-system, sans-serif" font-size="36" font-weight="700" fill="#F59E0B" text-anchor="middle">부모 → 자녀 증여세 시뮬레이션</text>
+  <text x="540" y="156" font-family="-apple-system, sans-serif" font-size="28" fill="#A0B4D0" text-anchor="middle">직계존속 공제 5,000만원 적용 · 자진신고 3% 감면 · 2026년 기준</text>
+
+  <!-- Column Headers -->
+  <rect x="60" y="210" width="960" height="56" rx="8" fill="#1A3270"/>
+  <text x="200" y="246" font-family="-apple-system, sans-serif" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">증여가액</text>
+  <text x="430" y="246" font-family="-apple-system, sans-serif" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">과세표준</text>
+  <text x="670" y="246" font-family="-apple-system, sans-serif" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">산출세액</text>
+  <text x="890" y="246" font-family="-apple-system, sans-serif" font-size="26" font-weight="700" fill="#F59E0B" text-anchor="middle">납부세액</text>
+
+  <!-- Row 1: 1억 -->
+  <rect x="60" y="278" width="960" height="90" rx="8" fill="#0D2347"/>
+  <text x="200" y="318" font-family="-apple-system, sans-serif" font-size="30" font-weight="700" fill="#ffffff" text-anchor="middle">1억원</text>
+  <text x="200" y="348" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">세율 10%</text>
+  <text x="430" y="332" font-family="-apple-system, sans-serif" font-size="30" fill="#A0B4D0" text-anchor="middle">5,000만원</text>
+  <text x="670" y="332" font-family="-apple-system, sans-serif" font-size="30" fill="#A0B4D0" text-anchor="middle">500만원</text>
+  <text x="890" y="332" font-family="-apple-system, sans-serif" font-size="34" font-weight="700" fill="#34D399" text-anchor="middle">485만원</text>
+
+  <!-- Row 2: 3억 -->
+  <rect x="60" y="378" width="960" height="90" rx="8" fill="#1A3270"/>
+  <text x="200" y="418" font-family="-apple-system, sans-serif" font-size="30" font-weight="700" fill="#ffffff" text-anchor="middle">3억원</text>
+  <text x="200" y="448" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">세율 20%</text>
+  <text x="430" y="432" font-family="-apple-system, sans-serif" font-size="30" fill="#A0B4D0" text-anchor="middle">2억5,000만원</text>
+  <text x="670" y="432" font-family="-apple-system, sans-serif" font-size="30" fill="#A0B4D0" text-anchor="middle">4,000만원</text>
+  <text x="890" y="432" font-family="-apple-system, sans-serif" font-size="34" font-weight="700" fill="#34D399" text-anchor="middle">3,880만원</text>
+
+  <!-- Row 3: 5억 -->
+  <rect x="60" y="478" width="960" height="90" rx="8" fill="#0D2347"/>
+  <text x="200" y="518" font-family="-apple-system, sans-serif" font-size="30" font-weight="700" fill="#ffffff" text-anchor="middle">5억원</text>
+  <text x="200" y="548" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">세율 20%</text>
+  <text x="430" y="532" font-family="-apple-system, sans-serif" font-size="30" fill="#A0B4D0" text-anchor="middle">4억5,000만원</text>
+  <text x="670" y="532" font-family="-apple-system, sans-serif" font-size="30" fill="#A0B4D0" text-anchor="middle">8,000만원</text>
+  <text x="890" y="532" font-family="-apple-system, sans-serif" font-size="34" font-weight="700" fill="#34D399" text-anchor="middle">7,760만원</text>
+
+  <!-- Row 4: 3억 + 혼인 -->
+  <rect x="60" y="578" width="960" height="110" rx="8" fill="#1A3270"/>
+  <rect x="60" y="578" width="6" height="110" rx="3" fill="#F59E0B"/>
+  <text x="200" y="618" font-family="-apple-system, sans-serif" font-size="30" font-weight="700" fill="#F59E0B" text-anchor="middle">3억원</text>
+  <text x="200" y="648" font-family="-apple-system, sans-serif" font-size="22" fill="#F59E0B" text-anchor="middle">혼인·출산 공제</text>
+  <text x="200" y="672" font-family="-apple-system, sans-serif" font-size="22" fill="#F59E0B" text-anchor="middle">+1억 추가</text>
+  <text x="430" y="638" font-family="-apple-system, sans-serif" font-size="30" fill="#A0B4D0" text-anchor="middle">1억5,000만원</text>
+  <text x="670" y="638" font-family="-apple-system, sans-serif" font-size="30" fill="#A0B4D0" text-anchor="middle">2,000만원</text>
+  <text x="890" y="628" font-family="-apple-system, sans-serif" font-size="34" font-weight="700" fill="#F59E0B" text-anchor="middle">1,940만원</text>
+  <text x="890" y="662" font-family="-apple-system, sans-serif" font-size="22" fill="#F59E0B" text-anchor="middle">↓ 1,940만 절감!</text>
+
+  <!-- Divider line -->
+  <line x1="60" y1="710" x2="1020" y2="710" stroke="#1A3270" stroke-width="2"/>
+
+  <!-- Bottom info blocks -->
+  <rect x="60" y="726" width="308" height="100" rx="12" fill="#0D2347"/>
+  <text x="214" y="766" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">공제 기준</text>
+  <text x="214" y="798" font-family="-apple-system, sans-serif" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">10년 합산 5,000만원</text>
+
+  <rect x="386" y="726" width="308" height="100" rx="12" fill="#0D2347"/>
+  <text x="540" y="766" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">자진신고 감면</text>
+  <text x="540" y="798" font-family="-apple-system, sans-serif" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">산출세액의 3%</text>
+
+  <rect x="712" y="726" width="308" height="100" rx="12" fill="#0D2347"/>
+  <text x="866" y="766" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">신고 기한</text>
+  <text x="866" y="798" font-family="-apple-system, sans-serif" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">증여일 말일 + 3개월</text>
+
+  <!-- Bottom note -->
+  <rect x="60" y="846" width="960" height="64" rx="12" fill="#0D2347"/>
+  <text x="540" y="876" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">취득세(3.5~12%) 별도 · 부모 양쪽 증여액 합산 공제 · 조부모→손자녀 30% 할증</text>
+  <text x="540" y="900" font-family="-apple-system, sans-serif" font-size="20" fill="#A0B4D0" text-anchor="middle">출처: 국세청 nts.go.kr (2026년 기준)</text>
+
+  <!-- Footer -->
+  <text x="540" y="980" font-family="-apple-system, sans-serif" font-size="26" font-weight="700" fill="#F59E0B" text-anchor="middle">deluxo.co.kr</text>
+  <text x="540" y="1016" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">부모-자녀 증여세 시뮬레이션 | 2026년 최신</text>
+</svg>

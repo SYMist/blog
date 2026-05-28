@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="8" fill="#EF4444"/>
+
+  <!-- Title -->
+  <text x="540" y="72" font-family="-apple-system, sans-serif" font-size="36" font-weight="900" fill="#FFFFFF" text-anchor="middle">탈락·불선발 주요 사유 TOP 5</text>
+  <text x="540" y="110" font-family="-apple-system, sans-serif" font-size="21" font-weight="600" fill="#EF4444" text-anchor="middle">이 실수만 피해도 선발 가능성이 높아집니다</text>
+
+  <!-- Item 1 -->
+  <rect x="40" y="140" width="1000" height="148" rx="12" fill="#1A3270"/>
+  <rect x="40" y="140" width="8" height="148" rx="4" fill="#EF4444"/>
+  <text x="88" y="196" font-family="-apple-system, sans-serif" font-size="44" font-weight="900" fill="#EF4444">01</text>
+  <text x="170" y="196" font-family="-apple-system, sans-serif" font-size="22" font-weight="800" fill="#FFFFFF">자격 조건 미충족</text>
+  <text x="170" y="224" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0">공익활동형 신청 시 기초연금수급자 확인서 미첨부 또는 나이 착오</text>
+  <text x="170" y="250" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0">신청 전 주민센터에서 기초연금 수급 여부 반드시 확인할 것</text>
+
+  <!-- Item 2 -->
+  <rect x="40" y="300" width="1000" height="148" rx="12" fill="#102A56"/>
+  <rect x="40" y="300" width="8" height="148" rx="4" fill="#F59E0B"/>
+  <text x="88" y="356" font-family="-apple-system, sans-serif" font-size="44" font-weight="900" fill="#F59E0B">02</text>
+  <text x="170" y="356" font-family="-apple-system, sans-serif" font-size="22" font-weight="800" fill="#FFFFFF">제외 대상임에도 신청</text>
+  <text x="170" y="384" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0">직장 건강보험 가입자, 장기요양 1~5등급, 타 정부 일자리 2개 이상 동시 참여</text>
+  <text x="170" y="410" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0">조건 충족 여부를 먼저 파악하고 신청해야 서류 낭비 없음</text>
+
+  <!-- Item 3 -->
+  <rect x="40" y="460" width="1000" height="148" rx="12" fill="#1A3270"/>
+  <rect x="40" y="460" width="8" height="148" rx="4" fill="#34D399"/>
+  <text x="88" y="516" font-family="-apple-system, sans-serif" font-size="44" font-weight="900" fill="#34D399">03</text>
+  <text x="170" y="516" font-family="-apple-system, sans-serif" font-size="22" font-weight="800" fill="#FFFFFF">서류 누락 또는 자필서명 미비</text>
+  <text x="170" y="544" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0">동의서 자필서명 누락, 통장 사본 첨부 누락 등 서류 미비로 탈락</text>
+  <text x="170" y="570" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0">수행기관별 양식이 다르므로 방문 전 전화로 필요 서류 확인 권장</text>
+
+  <!-- Item 4 -->
+  <rect x="40" y="620" width="1000" height="148" rx="12" fill="#102A56"/>
+  <rect x="40" y="620" width="8" height="148" rx="4" fill="#60A5FA"/>
+  <text x="88" y="676" font-family="-apple-system, sans-serif" font-size="44" font-weight="900" fill="#60A5FA">04</text>
+  <text x="170" y="676" font-family="-apple-system, sans-serif" font-size="22" font-weight="800" fill="#FFFFFF">모집 기간 이후 신청</text>
+  <text x="170" y="704" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0">인기 지역·사업단은 10월 초 조기 마감되는 경우가 많음</text>
+  <text x="170" y="730" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0">매년 10월 초에 주민센터 또는 수행기관에 미리 문의해야 함</text>
+
+  <!-- Item 5 -->
+  <rect x="40" y="780" width="1000" height="148" rx="12" fill="#1A3270"/>
+  <rect x="40" y="780" width="8" height="148" rx="4" fill="#A78BFA"/>
+  <text x="88" y="836" font-family="-apple-system, sans-serif" font-size="44" font-weight="900" fill="#A78BFA">05</text>
+  <text x="170" y="836" font-family="-apple-system, sans-serif" font-size="22" font-weight="800" fill="#FFFFFF">사전 교육 불이수</text>
+  <text x="170" y="864" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0">선발 후 사전 교육을 받지 않으면 활동 자격이 취소됨</text>
+  <text x="170" y="890" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0">교육 일정 확인 후 일정 조율, 건강 상태도 미리 점검</text>
+
+  <!-- Footer -->
+  <text x="540" y="970" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0" text-anchor="middle">노인일자리 상담: ☎ 1544-3388 | seniwork.or.kr</text>
+  <text x="540" y="996" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준</text>
+
+  <rect x="0" y="1072" width="1080" height="8" fill="#EF4444"/>
+</svg>

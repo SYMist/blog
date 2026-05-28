@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <!-- Title -->
+  <text x="540" y="60" text-anchor="middle" fill="#FFFFFF" font-size="36" font-weight="900" font-family="Pretendard,sans-serif">상황별 전기차 추천 가이드</text>
+  <text x="540" y="95" text-anchor="middle" fill="#94A3B8" font-size="18" font-family="Pretendard,sans-serif">예산·생애주기·보유차에 따른 최적 선택 — 2026년 기준</text>
+
+  <!-- Scenario 1 -->
+  <rect x="60" y="125" width="960" height="135" rx="18" fill="#1E293B" stroke="#22C55E" stroke-width="2"/>
+  <rect x="80" y="143" width="50" height="50" rx="25" fill="#22C55E"/>
+  <text x="105" y="176" text-anchor="middle" fill="#FFF" font-size="24" font-weight="900" font-family="Pretendard,sans-serif">1</text>
+  <text x="148" y="165" fill="#86EFAC" font-size="19" font-weight="800" font-family="Pretendard,sans-serif">30세 청년 · 첫 차 · 예산 3천만 이내</text>
+  <text x="148" y="195" fill="#FFFFFF" font-size="22" font-weight="800" font-family="Pretendard,sans-serif">캐스퍼 일렉트릭 → 약 2,300만 원대</text>
+  <text x="148" y="222" fill="#94A3B8" font-size="15" font-family="Pretendard,sans-serif">국비 530만 + 서울 150만 + 청년 20% 가산 | 경차 혜택(보험·주차·통행료) 추가</text>
+  <text x="148" y="248" fill="#64748B" font-size="13" font-family="Pretendard,sans-serif">전환 지원금 해당 시 130만 추가 → 2천만 원대 초반 가능</text>
+
+  <!-- Scenario 2 -->
+  <rect x="60" y="275" width="960" height="135" rx="18" fill="#1E293B" stroke="#1D4ED8" stroke-width="2"/>
+  <rect x="80" y="293" width="50" height="50" rx="25" fill="#1D4ED8"/>
+  <text x="105" y="326" text-anchor="middle" fill="#FFF" font-size="24" font-weight="900" font-family="Pretendard,sans-serif">2</text>
+  <text x="148" y="315" fill="#93C5FD" font-size="19" font-weight="800" font-family="Pretendard,sans-serif">40대 · 가족용 SUV · 내연차 보유 중</text>
+  <text x="148" y="345" fill="#FFFFFF" font-size="22" font-weight="800" font-family="Pretendard,sans-serif">EV6 롱레인지 → 약 4,000만 원대</text>
+  <text x="148" y="372" fill="#94A3B8" font-size="15" font-family="Pretendard,sans-serif">국비 570만(최고) + 서울 190만 + 전환 130만 | 2자녀 시 +100만</text>
+  <text x="148" y="398" fill="#64748B" font-size="13" font-family="Pretendard,sans-serif">NCM 배터리로 국비 최대 수령 | 2027년부터 50% 보조금 구간</text>
+
+  <!-- Scenario 3 -->
+  <rect x="60" y="425" width="960" height="135" rx="18" fill="#1E293B" stroke="#8B5CF6" stroke-width="2"/>
+  <rect x="80" y="443" width="50" height="50" rx="25" fill="#8B5CF6"/>
+  <text x="105" y="476" text-anchor="middle" fill="#FFF" font-size="24" font-weight="900" font-family="Pretendard,sans-serif">3</text>
+  <text x="148" y="465" fill="#C4B5FD" font-size="19" font-weight="800" font-family="Pretendard,sans-serif">합리적 SUV · 젊은 감성</text>
+  <text x="148" y="495" fill="#FFFFFF" font-size="22" font-weight="800" font-family="Pretendard,sans-serif">기아 EV3 → 약 3,520만 원</text>
+  <text x="148" y="522" fill="#94A3B8" font-size="15" font-family="Pretendard,sans-serif">국비 530만 + 서울 150만 | 최신 E-GMP 플랫폼, 5,300만 미만 100% 보조금</text>
+  <text x="148" y="548" fill="#64748B" font-size="13" font-family="Pretendard,sans-serif">3천만 원대 중반 SUV — 가성비 최강 구간</text>
+
+  <!-- Scenario 4 -->
+  <rect x="60" y="575" width="460" height="135" rx="18" fill="#1E293B" stroke="#EF4444" stroke-width="2"/>
+  <rect x="80" y="593" width="50" height="50" rx="25" fill="#EF4444"/>
+  <text x="105" y="626" text-anchor="middle" fill="#FFF" font-size="24" font-weight="900" font-family="Pretendard,sans-serif">4</text>
+  <text x="148" y="615" fill="#FCA5A5" font-size="17" font-weight="800" font-family="Pretendard,sans-serif">테슬라 · 최대 보조금</text>
+  <text x="148" y="645" fill="#FFFFFF" font-size="20" font-weight="800" font-family="Pretendard,sans-serif">모델 3 LR RWD</text>
+  <text x="148" y="670" fill="#94A3B8" font-size="14" font-family="Pretendard,sans-serif">수입차 최고 국비 420만</text>
+  <text x="148" y="694" fill="#64748B" font-size="13" font-family="Pretendard,sans-serif">NCM 배터리 | LFP 모델Y는 불리</text>
+
+  <!-- Scenario 5 -->
+  <rect x="560" y="575" width="460" height="135" rx="18" fill="#1E293B" stroke="#F59E0B" stroke-width="2"/>
+  <rect x="580" y="593" width="50" height="50" rx="25" fill="#F59E0B"/>
+  <text x="605" y="626" text-anchor="middle" fill="#FFF" font-size="24" font-weight="900" font-family="Pretendard,sans-serif">5</text>
+  <text x="648" y="615" fill="#FDE68A" font-size="17" font-weight="800" font-family="Pretendard,sans-serif">대형 패밀리카 · 프리미엄</text>
+  <text x="648" y="645" fill="#FFFFFF" font-size="20" font-weight="800" font-family="Pretendard,sans-serif">아이오닉 9 / EV9</text>
+  <text x="648" y="670" fill="#94A3B8" font-size="14" font-family="Pretendard,sans-serif">50% 보조금, 약 6,900만</text>
+  <text x="648" y="694" fill="#64748B" font-size="13" font-family="Pretendard,sans-serif">8,500만 미만 → 보조금 대상</text>
+
+  <!-- Timeline -->
+  <rect x="60" y="730" width="960" height="90" rx="16" fill="#1E40AF" opacity="0.12"/>
+  <rect x="60" y="730" width="960" height="90" rx="16" stroke="#1D4ED8" stroke-width="2" fill="none"/>
+  <text x="540" y="765" text-anchor="middle" fill="#93C5FD" font-size="20" font-weight="800" font-family="Pretendard,sans-serif">2026년 구매 타이밍 전략</text>
+  <text x="540" y="800" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="700" font-family="Pretendard,sans-serif">1~2월 사전 계약 → 3~4월 인도 = 보조금 확보 가장 안전 | 45곳+ 상반기 소진</text>
+
+  <!-- 의사결정 체크 -->
+  <rect x="60" y="845" width="960" height="65" rx="14" fill="#1E293B" stroke="#334155" stroke-width="1.5"/>
+  <text x="540" y="872" text-anchor="middle" fill="#E2E8F0" font-size="17" font-weight="700" font-family="Pretendard,sans-serif">체크: ① 예산 한도는? ② 내연차 보유 중? ③ 청년/다자녀 해당? ④ NCM vs LFP?</text>
+  <text x="540" y="898" text-anchor="middle" fill="#94A3B8" font-size="15" font-family="Pretendard,sans-serif">ev.or.kr에서 거주 지자체 잔여 물량 확인 후 사전 계약 권장</text>
+
+  <!-- Insight -->
+  <rect x="60" y="935" width="960" height="55" rx="14" fill="#22C55E" opacity="0.12"/>
+  <rect x="60" y="935" width="960" height="55" rx="14" stroke="#22C55E" stroke-width="2" fill="none"/>
+  <text x="540" y="970" text-anchor="middle" fill="#FFFFFF" font-size="19" font-weight="800" font-family="Pretendard,sans-serif">2027년 기준 강화 전 마지막 전액 보조금 기회 — 5,000~5,300만 원대는 올해가 최적</text>
+
+  <!-- Footer -->
+  <text x="540" y="1050" text-anchor="middle" fill="#64748B" font-size="16" font-family="Pretendard,sans-serif">essencial | 2026년 4월 기준</text>
+</svg>

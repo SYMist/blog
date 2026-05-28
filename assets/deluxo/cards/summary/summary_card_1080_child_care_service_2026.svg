@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <text x="540" y="140" font-family="'Pretendard', sans-serif" font-size="46" font-weight="900" fill="#F59E0B" text-anchor="middle">2026 아이돌봄서비스 총정리</text>
+
+  <text x="540" y="230" font-family="'Pretendard', sans-serif" font-size="60" font-weight="900" fill="#FFFFFF" text-anchor="middle">정부지원·이용료</text>
+  <text x="540" y="310" font-family="'Pretendard', sans-serif" font-size="44" font-weight="600" fill="#EAF2FF" text-anchor="middle">한 번에 정리</text>
+
+  <rect x="60" y="380" width="310" height="240" rx="24" fill="#1A3270"/>
+  <text x="215" y="435" font-family="'Pretendard', sans-serif" font-size="30" font-weight="800" fill="#F59E0B" text-anchor="middle">시간당 단가</text>
+  <text x="215" y="500" font-family="'Pretendard', sans-serif" font-size="44" font-weight="900" fill="#FFFFFF" text-anchor="middle">12,790원</text>
+  <text x="215" y="548" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF" text-anchor="middle">시간제 일반형</text>
+  <text x="215" y="590" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF" text-anchor="middle">종합형 16,620원</text>
+
+  <rect x="385" y="380" width="310" height="240" rx="24" fill="#1A3270"/>
+  <text x="540" y="435" font-family="'Pretendard', sans-serif" font-size="30" font-weight="800" fill="#F59E0B" text-anchor="middle">가형 본인부담</text>
+  <text x="540" y="500" font-family="'Pretendard', sans-serif" font-size="44" font-weight="900" fill="#FFFFFF" text-anchor="middle">1,918원</text>
+  <text x="540" y="548" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF" text-anchor="middle">중위 75% 이하</text>
+  <text x="540" y="590" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF" text-anchor="middle">정부지원 85%</text>
+
+  <rect x="710" y="380" width="310" height="240" rx="24" fill="#1A3270"/>
+  <text x="865" y="435" font-family="'Pretendard', sans-serif" font-size="30" font-weight="800" fill="#F59E0B" text-anchor="middle">소득기준</text>
+  <text x="865" y="500" font-family="'Pretendard', sans-serif" font-size="44" font-weight="900" fill="#FFFFFF" text-anchor="middle">중위 250%</text>
+  <text x="865" y="548" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF" text-anchor="middle">2025 200% → 확대</text>
+  <text x="865" y="590" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF" text-anchor="middle">라형 신설(15%)</text>
+
+  <rect x="60" y="660" width="960" height="100" rx="20" fill="#F59E0B"/>
+  <text x="540" y="705" font-family="'Pretendard', sans-serif" font-size="34" font-weight="900" fill="#0B1F3B" text-anchor="middle">연 한도 일반 960·취약 1,080시간</text>
+  <text x="540" y="745" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#0B1F3B" text-anchor="middle">야간·휴일 50% 가산 / 1회 최소 2시간</text>
+
+  <rect x="60" y="790" width="300" height="80" rx="16" fill="#10B981"/>
+  <text x="210" y="840" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF" text-anchor="middle">다자녀 10% +</text>
+
+  <rect x="390" y="790" width="300" height="80" rx="16" fill="#10B981"/>
+  <text x="540" y="840" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF" text-anchor="middle">인구감소 5% +</text>
+
+  <rect x="720" y="790" width="300" height="80" rx="16" fill="#10B981"/>
+  <text x="870" y="840" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF" text-anchor="middle">국민행복카드</text>
+
+  <rect x="60" y="900" width="960" height="140" rx="20" fill="#1A3270"/>
+  <text x="540" y="950" font-family="'Pretendard', sans-serif" font-size="30" font-weight="800" fill="#F59E0B" text-anchor="middle">신청 14일 심사 → 매칭 3~4주</text>
+  <text x="540" y="1000" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF" text-anchor="middle">아이돌봄 콜센터 1577-2514 · idolbom.go.kr</text>
+</svg>

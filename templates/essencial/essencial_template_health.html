@@ -1,0 +1,342 @@
+<!-- essencial_template_health.html -->
+<!-- ✅ 건강·의료 비교형 콘텐츠 템플릿 -->
+<!-- 티스토리 HTML 모드: 통째로 붙여넣고 { }만 수정 -->
+
+<!-- ✅ Schema.org 구조화 데이터 -->
+<div style="display:none">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "{제목: A vs B 비교 30자 이내}",
+      "description": "{meta description: 비교 결론 포함 150자 이내}",
+      "datePublished": "{YYYY-MM-DD}",
+      "dateModified": "{YYYY-MM-DD}",
+      "author": {"@type": "Person", "name": "{블로그 운영자명}"},
+      "publisher": {"@type": "Organization", "name": "{블로그명}"}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "{Q1}", "acceptedAnswer": {"@type": "Answer", "text": "{A1}"}},
+        {"@type": "Question", "name": "{Q2}", "acceptedAnswer": {"@type": "Answer", "text": "{A2}"}},
+        {"@type": "Question", "name": "{Q3}", "acceptedAnswer": {"@type": "Answer", "text": "{A3}"}},
+        {"@type": "Question", "name": "{Q4}", "acceptedAnswer": {"@type": "Answer", "text": "{A4}"}},
+        {"@type": "Question", "name": "{Q5}", "acceptedAnswer": {"@type": "Answer", "text": "{A5}"}}
+      ]
+    }
+  ]
+}
+</script>
+</div>
+
+<style>
+  :root{
+    --pri:#0F766E; --pri2:#0D9488;
+    --white:#FFFFFF; --text:#111827;
+    --muted:#4B5563; --border:#E5E7EB;
+    --bg:#F9FAFB; --accent:#F0FDFA;
+  }
+  .wrap{max-width:860px;margin:0 auto;line-height:1.8;color:var(--text);}
+  .meta{color:var(--muted);font-size:.95rem;margin:6px 0 18px;}
+  .badge{display:inline-block;background:var(--accent);border:1px solid #99F6E4;padding:3px 10px;border-radius:999px;font-size:.85rem;margin-right:8px;}
+  .notice{background:#FFF7ED;border:1px solid #FED7AA;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .conclusion{background:#F0FDFA;border:1px solid #99F6E4;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .toc{background:var(--bg);border:1px solid var(--border);padding:14px 16px;border-radius:12px;margin:16px 0 22px;}
+  .toc a{text-decoration:none;color:var(--pri);}
+  .toc ul{margin:8px 0 0 18px;}
+
+  .wrap a.btn,.wrap a.btn:link,.wrap a.btn:visited{
+    display:inline-flex;align-items:center;justify-content:center;
+    padding:10px 14px;border-radius:10px;border:1px solid var(--pri);
+    background:var(--pri) !important;color:var(--white) !important;
+    text-decoration:none !important;font-weight:800;
+  }
+  .wrap a.btn:hover{background:var(--pri2) !important;}
+  .wrap a.btn.secondary,.wrap a.btn.secondary:link,.wrap a.btn.secondary:visited{
+    background:var(--white) !important;color:var(--pri) !important;border-color:var(--pri) !important;
+  }
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 6px;}
+
+  table{width:100%;border-collapse:collapse;margin:14px 0 10px;}
+  th,td{border:1px solid var(--border);padding:10px;vertical-align:top;}
+  th{background:#F3F4F6;text-align:left;}
+  .small{font-size:.95rem;color:var(--muted);}
+  h1{margin:0 0 8px;line-height:1.25;}
+  h2{margin-top:30px;padding-top:8px;border-top:1px solid var(--border);}
+  h3{margin-top:16px;}
+  .q{font-weight:900;margin:14px 0 6px;}
+  .a{margin:0 0 10px;}
+  .highlight{background:#ECFDF5;border:1px solid #A7F3D0;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .warning{background:#FEF2F2;border:1px solid #FECACA;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .scope{background:#F8FAFC;border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .scope ul{margin:4px 0 0 18px;}
+  .action-steps{background:#F0FDFA;border:1px solid #99F6E4;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .action-steps ol{margin:8px 0 0 18px;}
+  .sources{background:var(--bg);border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:14px 0;font-size:.9rem;}
+  .sources ul{margin:4px 0 0 18px;}
+  .ad{background:#F9FAFB;border:1px dashed var(--border);padding:10px 12px;border-radius:10px;margin:12px 0;}
+  .footer{margin-top:26px;padding-top:14px;border-top:1px solid var(--border);color:var(--muted);font-size:.95rem;}
+</style>
+
+<div class="wrap">
+  <h1>{시술/검사명} 비용 비교: {조건}별 실제 부담금 ({연도})</h1>
+  <div class="meta">
+    <span class="badge">건강·의료</span>
+    <span class="badge">업데이트: {YYYY-MM-DD}</span>
+  </div>
+
+  <div class="notice">
+    <strong>먼저 확인!</strong><br/>
+    {주의 문장: 병원/지역별 비용 차이, 건강보험 적용 기준 변동 가능성 등}
+  </div>
+
+  <p class="small">
+    {meta description: 비교 대상, 비용 범위, 보험 적용 여부 핵심 요약 1~2줄}
+  </p>
+
+  <!-- ✅ 이 글의 범위 (스코핑) -->
+  <div class="scope">
+    <strong>이 글에서 다루는 것</strong>
+    <ul>
+      <li>{다루는 내용 1: 예: 옵션별 비용 비교와 건강보험 적용 조건}</li>
+      <li>{다루는 내용 2: 예: 실비보험 청구 가능 여부와 필요 서류}</li>
+      <li>{다루는 내용 3: 예: 상황별 추천과 병원 찾는 방법}</li>
+    </ul>
+    <strong>다루지 않는 것</strong>
+    <ul>
+      <li>{미포함 1: 예: 특정 병원 추천이나 의학적 판단}</li>
+    </ul>
+  </div>
+
+  <!-- ✅ 섹션 1: 결론 먼저 (상황별 추천) -->
+  <div class="conclusion" id="top">
+    <h2 style="border-top:none;margin-top:0;">✅ 결론 먼저: 상황별 추천</h2>
+    <ul>
+      <li><strong>{상황A} (예: 건강보험 적용 대상)</strong>: {추천 + 예상 비용}</li>
+      <li><strong>{상황B} (예: 비급여 대상)</strong>: {추천 + 예상 비용}</li>
+      <li><strong>{상황C} (예: 실비보험 있는 경우)</strong>: {추천 + 예상 비용}</li>
+    </ul>
+    <p class="small">※ 아래 비교표에서 본인 상황에 맞는 비용을 확인하세요.</p>
+  </div>
+
+  <!-- ✅ 이미지 1: 비교 요약 카드 (결론 요약 아래) -->
+  <p><img src="compare_summary_{slug}.svg" alt="{A vs B 비교 요약}" width="860"/></p>
+
+  <div class="toc">
+    <strong>목차</strong>
+    <ul>
+      <li><a href="#cost">1) 비용 비교표</a></li>
+      <li><a href="#insurance">2) 건강보험·실비 적용 조건</a></li>
+      <li><a href="#detail">3) 항목별 상세 비교</a></li>
+      <li><a href="#where">4) 어디서 받나 (병원·기관 찾기)</a></li>
+      <li><a href="#caution">5) 주의사항·놓치기 쉬운 포인트</a></li>
+      <li><a href="#experience">자주 놓치는 포인트와 실수 사례</a></li>
+      <li><a href="#faq">6) FAQ</a></li>
+      <li><a href="#update">업데이트 로그</a></li>
+    </ul>
+  </div>
+
+  <!-- ✅ 섹션 2: 비용 비교표 -->
+  <h2 id="cost">1) 비용 비교표</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>구분</th>
+        <th>{옵션A}</th>
+        <th>{옵션B}</th>
+        <th>{옵션C (있을 경우)}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>평균 비용</strong></td>
+        <td>{금액A}</td>
+        <td>{금액B}</td>
+        <td>{금액C}</td>
+      </tr>
+      <tr>
+        <td><strong>건강보험 적용</strong></td>
+        <td>{적용 여부A}</td>
+        <td>{적용 여부B}</td>
+        <td>{적용 여부C}</td>
+      </tr>
+      <tr>
+        <td><strong>실비 청구</strong></td>
+        <td>{가능 여부A}</td>
+        <td>{가능 여부B}</td>
+        <td>{가능 여부C}</td>
+      </tr>
+      <tr>
+        <td><strong>본인부담금</strong></td>
+        <td>{실제 부담A}</td>
+        <td>{실제 부담B}</td>
+        <td>{실제 부담C}</td>
+      </tr>
+      <tr>
+        <td><strong>소요 시간</strong></td>
+        <td>{시간A}</td>
+        <td>{시간B}</td>
+        <td>{시간C}</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="small">※ {연도}년 {월}월 기준. 병원·지역에 따라 차이가 있을 수 있습니다.</p>
+
+  <!-- ✅ 이미지 2: 비교 매트릭스 카드 (비교표 아래) -->
+  <p><img src="compare_matrix_{slug}.svg" alt="{키워드} 항목별 비교표" width="860"/></p>
+
+  <!-- ✅ 섹션 3: 건강보험·실비 적용 조건 -->
+  <h2 id="insurance">2) 건강보험·실비 적용 조건</h2>
+  <h3>건강보험 적용 조건</h3>
+  <table>
+    <thead>
+      <tr><th>조건</th><th>적용 ✅</th><th>미적용 ❌</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>{조건1: 예: 연령}</strong></td>
+        <td>{적용 기준}</td>
+        <td>{미적용 기준}</td>
+      </tr>
+      <tr>
+        <td><strong>{조건2: 예: 진단명}</strong></td>
+        <td>{적용 기준}</td>
+        <td>{미적용 기준}</td>
+      </tr>
+      <tr>
+        <td><strong>{조건3: 예: 횟수 제한}</strong></td>
+        <td>{적용 기준}</td>
+        <td>{미적용 기준}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>실비보험 청구 가능 여부</h3>
+  <ul>
+    <li>{실비 적용 조건 1}</li>
+    <li>{실비 적용 조건 2}</li>
+    <li>{실비 청구 시 필요 서류}</li>
+  </ul>
+
+  <!-- ✅ 섹션 4: 항목별 상세 비교 -->
+  <h2 id="detail">3) 항목별 상세 비교</h2>
+  <h3>{비교 항목 1: 예: 효과/성능}</h3>
+  <p>{옵션A의 특징과 옵션B의 특징을 비교하여 서술}</p>
+
+  <h3>{비교 항목 2: 예: 부작용/리스크}</h3>
+  <p>{각 옵션의 리스크를 비교하여 서술}</p>
+
+  <h3>{비교 항목 3: 예: 시술 과정/소요 시간}</h3>
+  <p>{각 옵션의 과정을 비교하여 서술}</p>
+
+
+  <!-- ✅ 섹션 5: 시나리오 추천 (의사결정 핵심) -->
+  <div class="highlight">
+    <h3>🔍 당신의 상황에 맞는 선택은?</h3>
+    <ul>
+      <li><strong>{상황1: 예: "건강보험 적용 대상 + 비용 절감이 목표"}</strong> → <strong>{추천 옵션}</strong></li>
+      <li><strong>{상황2: 예: "실비보험 있고 + 빠른 시술 원함"}</strong> → <strong>{추천 옵션}</strong></li>
+      <li><strong>{상황3: 예: "보험 없고 + 장기적 효과 중시"}</strong> → <strong>{추천 옵션}</strong></li>
+    </ul>
+  </div>
+
+  <!-- ✅ 이미지 3: 시나리오 추천 카드 (시나리오 추천 아래) -->
+  <p><img src="scenario_{slug}.svg" alt="{키워드} 상황별 추천 가이드" width="860"/></p>
+
+  <!-- ✅ 지금 확인하는 순서 (행동 체크리스트) -->
+  <div class="action-steps">
+    <h3>지금 바로 확인하는 순서</h3>
+    <ol>
+      <li><strong>{단계1}</strong>: {예: 건강보험 적용 대상인지 확인 (나이·진단 기준)}</li>
+      <li><strong>{단계2}</strong>: {예: 실비보험 약관에서 해당 시술 보장 여부 확인}</li>
+      <li><strong>{단계3}</strong>: {예: 심평원에서 병원별 비용 비교}</li>
+      <li><strong>{단계4}</strong>: {예: 병원 방문 전 전화로 비급여 항목 가격 확인}</li>
+    </ol>
+  </div>
+
+  <!-- ✅ 인아티클 광고 (시나리오 추천 직후 — CPC 최고 지점) -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5716436301710258"
+       crossorigin="anonymous"></script>
+  <ins class="adsbygoogle"
+       style="display:block; text-align:center;"
+       data-ad-layout="in-article"
+       data-ad-format="fluid"
+       data-ad-client="ca-pub-5716436301710258"
+       data-ad-slot="2039167138"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+  <!-- ✅ 섹션 6: 어디서 받나 -->
+  <h2 id="where">4) 어디서 받나 (병원·기관 찾기)</h2>
+  <ul>
+    <li><strong>건강보험심사평가원</strong>: 병원별 비용 비교 가능</li>
+    <li><strong>{관련 기관/앱}</strong>: {설명}</li>
+  </ul>
+  <div class="btns">
+    <a class="btn" href="{심평원 또는 관련 기관 링크}" target="_blank" rel="noopener">{병원 찾기 / 비용 비교}</a>
+    <a class="btn secondary" href="{관련 링크}" target="_blank" rel="noopener">{추가 정보 확인}</a>
+  </div>
+
+  <!-- ✅ 섹션 7: 주의사항 -->
+  <h2 id="caution">5) 주의사항·놓치기 쉬운 포인트</h2>
+  <div class="warning">
+    <ul>
+      <li>{주의1: 예: 비급여 항목은 병원마다 가격 차이가 크다}</li>
+      <li>{주의2: 예: 실비 청구 시 진단서 vs 진료확인서 차이}</li>
+      <li>{주의3: 예: 건강보험 적용 횟수 제한 초과 시 전액 자부담}</li>
+    </ul>
+  </div>
+
+  <!-- ✅ 자주 놓치는 포인트와 실수 사례 (병원·보험사 공식 사이트에 없는 정보) — 가이드라인 §11 DO-6 #5 참조 -->
+  <!-- 톤: 3인칭 일반화 ("환자들이 자주 ~", "병원 안내에서 자주 발견되는 ~"). 사용자 직접 경험 있는 글에만 1인칭으로 손봄 -->
+  <h2 id="experience">자주 놓치는 포인트와 실수 사례</h2>
+  <p>{사례 1: 진료·시술·청구 시 자주 혼동되는 항목을 객관 톤으로 서술. 예: "건강보험 적용 항목과 비급여 항목이 한 진료에 함께 있어 청구 후 본인부담 추가가 발생하는 사례가 잦다. 진료 전 비급여 항목 안내서를 받아 확인하는 것이 권장된다."}</p>
+  <p>{사례 2: 의료기관·상담 안내에서 자주 발견되는 디테일. 예: "MRI는 건강보험 적용 시 부위별 가능 횟수가 정해져 있어, 의료기관 선택 전 본인 적용 횟수 확인이 필수다."}</p>
+  <p>{사례 3: 가입자들이 사후 후회하는 결정 또는 자주 추천되지 않는 옵션}</p>
+  <p class="small">※ AI 초안에 없는 사례·디테일을 2~3개 채우면 색인 평가가 달라집니다. **사용자 직접 경험이 있을 경우** H2 제목을 "본인 경험"으로 바꿔 1인칭 톤 사용 가능.</p>
+
+  <!-- ✅ 섹션 8: FAQ -->
+  <h2 id="faq">6) FAQ</h2>
+  <p class="q">Q1. {질문: 예: 건강보험 적용받으면 실제로 얼마 내나요?}</p>
+  <p class="a">{답변}</p>
+  <p class="q">Q2. {질문: 예: 실비보험으로 청구하려면 어떤 서류가 필요한가요?}</p>
+  <p class="a">{답변}</p>
+  <p class="q">Q3. {질문}</p>
+  <p class="a">{답변}</p>
+  <p class="q">Q4. {질문}</p>
+  <p class="a">{답변}</p>
+  <p class="q">Q5. {질문}</p>
+  <p class="a">{답변}</p>
+  <p class="q">Q6. {질문}</p>
+  <p class="a">{답변}</p>
+
+  <p class="small">※ 개인 건강 상태에 따라 적합한 시술/검사가 다를 수 있습니다. 전문의 상담을 권장합니다.</p>
+
+  <p class="small">관련 글: <a href="{내부링크1 주소}" target="_blank" rel="noopener">{내부링크1 문서 제목 — 같은 Silo 내 글}</a> / <a href="{내부링크2 주소}" target="_blank" rel="noopener">{내부링크2 문서 제목}</a></p>
+
+  <!-- ✅ 참고자료/출처 (E-E-A-T 신호) -->
+  <div class="sources">
+    <strong>참고자료/출처</strong>
+    <ul>
+      <li>{출처1: 예: 건강보험심사평가원 — 비급여 진료비 정보 (링크)}</li>
+      <li>{출처2: 예: 국민건강보험공단 — 임플란트 급여 안내 (링크)}</li>
+      <li>{출처3: 예: 관련 학회/기관 자료}</li>
+    </ul>
+  </div>
+
+  <div class="btns">
+    <a class="btn" href="{심평원 비용 비교}" target="_blank" rel="noopener">{병원별 비용 비교하기}</a>
+    <a class="btn secondary" href="{건보공단 자격 확인}" target="_blank" rel="noopener">{건강보험 적용 대상 확인}</a>
+  </div>
+
+
+  <div class="footer" id="update">
+    <strong>업데이트 로그</strong><br/>
+    - {YYYY-MM-DD}: {변경 내용}<br/>
+    <span class="small">※ 건강보험 적용 기준·비용은 변동될 수 있습니다. 시술 전 해당 병원에 확인하세요.</span>
+  </div>
+</div>

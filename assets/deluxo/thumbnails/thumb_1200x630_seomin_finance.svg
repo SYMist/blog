@@ -1,0 +1,20 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="80" y="80" width="180" height="50" rx="25" fill="#F59E0B"/>
+  <text x="170" y="113" font-size="28" fill="#0B1F3B" font-weight="700" font-family="Pretendard, 'Noto Sans KR', sans-serif" text-anchor="middle">2026 최신</text>
+  <text x="80" y="230" font-size="72" fill="#FFFFFF" font-weight="800" font-family="Pretendard, 'Noto Sans KR', sans-serif" letter-spacing="-1.5">햇살론·미소금융 신청 가이드</text>
+  <text x="80" y="320" font-size="46" fill="#EAF2FF" font-weight="600" font-family="Pretendard, 'Noto Sans KR', sans-serif" letter-spacing="-0.5">특례 금리 15.9% → 12.5% 인하</text>
+  <text x="80" y="390" font-size="46" fill="#EAF2FF" font-weight="600" font-family="Pretendard, 'Noto Sans KR', sans-serif" letter-spacing="-0.5">미소금융 창업 최대 7,000만원</text>
+  <rect x="80" y="460" width="120" height="48" rx="24" fill="#E8F0FF"/>
+  <text x="140" y="492" font-size="28" fill="#1D4ED8" font-weight="600" font-family="Pretendard, 'Noto Sans KR', sans-serif" text-anchor="middle">신청</text>
+  <rect x="220" y="460" width="120" height="48" rx="24" fill="#E8F0FF"/>
+  <text x="280" y="492" font-size="28" fill="#1D4ED8" font-weight="600" font-family="Pretendard, 'Noto Sans KR', sans-serif" text-anchor="middle">금리</text>
+  <rect x="360" y="460" width="120" height="48" rx="24" fill="#E8F0FF"/>
+  <text x="420" y="492" font-size="28" fill="#1D4ED8" font-weight="600" font-family="Pretendard, 'Noto Sans KR', sans-serif" text-anchor="middle">한도</text>
+</svg>

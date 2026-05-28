@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ECFDF5"/>
+      <stop offset="100%" stop-color="#F0FDFA"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg3)"/>
+
+  <!-- 제목 -->
+  <text x="540" y="62" font-family="sans-serif" font-size="34" font-weight="900" fill="#111827" text-anchor="middle">🔍 상황별 대상포진 백신 추천</text>
+  <text x="540" y="97" font-family="sans-serif" font-size="20" fill="#6B7280" text-anchor="middle">해당하는 상황을 찾아 추천 백신을 확인하세요</text>
+
+  <!-- 시나리오 1 -->
+  <rect x="50" y="130" width="980" height="145" rx="20" fill="#FFF" stroke="#A7F3D0" stroke-width="1.5"/>
+  <rect x="50" y="130" width="980" height="48" rx="20" fill="#10B981"/>
+  <rect x="50" y="158" width="980" height="20" fill="#10B981"/>
+  <text x="80" y="162" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFF">65세 이상 · 무료 접종 지자체 거주 · 만성질환 없음</text>
+  <text x="80" y="212" font-family="sans-serif" font-size="20" fill="#111827">→ <tspan font-weight="800">무료 생백신 접종</tspan> (0원)</text>
+  <text x="80" y="248" font-family="sans-serif" font-size="17" fill="#6B7280">예방률 51~70%라도 안 맞는 것보다 훨씬 낫습니다</text>
+
+  <!-- 시나리오 2 -->
+  <rect x="50" y="295" width="980" height="145" rx="20" fill="#FFF" stroke="#FCA5A5" stroke-width="1.5"/>
+  <rect x="50" y="295" width="980" height="48" rx="20" fill="#EF4444"/>
+  <rect x="50" y="323" width="980" height="20" fill="#EF4444"/>
+  <text x="80" y="327" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFF">65세 이상 · 당뇨/면역저하 환자</text>
+  <text x="80" y="377" font-family="sans-serif" font-size="20" fill="#111827">→ <tspan font-weight="800">싱그릭스(사백신) 자비 접종</tspan> (40~60만 원)</text>
+  <text x="80" y="413" font-family="sans-serif" font-size="17" fill="#6B7280">생백신 접종 불가 · 당뇨 환자 91.2% 예방률</text>
+
+  <!-- 시나리오 3 -->
+  <rect x="50" y="460" width="980" height="145" rx="20" fill="#FFF" stroke="#99F6E4" stroke-width="1.5"/>
+  <rect x="50" y="460" width="980" height="48" rx="20" fill="#0F766E"/>
+  <rect x="50" y="488" width="980" height="20" fill="#0F766E"/>
+  <text x="80" y="492" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFF">50~64세 · 예산 여유 있음</text>
+  <text x="80" y="542" font-family="sans-serif" font-size="20" fill="#111827">→ <tspan font-weight="800">싱그릭스 2회 접종</tspan> (40~60만 원)</text>
+  <text x="80" y="578" font-family="sans-serif" font-size="17" fill="#6B7280">97% 예방 · 50대 접종 시 40년+ 지속 기대 — 가장 효율적 시점</text>
+
+  <!-- 시나리오 4 -->
+  <rect x="50" y="625" width="980" height="145" rx="20" fill="#FFF" stroke="#FDE68A" stroke-width="1.5"/>
+  <rect x="50" y="625" width="980" height="48" rx="20" fill="#F59E0B"/>
+  <rect x="50" y="653" width="980" height="20" fill="#F59E0B"/>
+  <text x="80" y="657" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFF">50~64세 · 비용 부담됨</text>
+  <text x="80" y="707" font-family="sans-serif" font-size="20" fill="#111827">→ <tspan font-weight="800">스카이조스터 1회 접종</tspan> (10~16만 원)</text>
+  <text x="80" y="743" font-family="sans-serif" font-size="17" fill="#6B7280">가성비 선택 · 예방률 51~70% · 면역저하 아닌 경우</text>
+
+  <!-- 시나리오 5 -->
+  <rect x="50" y="790" width="980" height="145" rx="20" fill="#FFF" stroke="#C4B5FD" stroke-width="1.5"/>
+  <rect x="50" y="790" width="980" height="48" rx="20" fill="#7C3AED"/>
+  <rect x="50" y="818" width="980" height="20" fill="#7C3AED"/>
+  <text x="80" y="822" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFF">대상포진 앓은 경험 있음</text>
+  <text x="80" y="872" font-family="sans-serif" font-size="20" fill="#111827">→ 회복 6개월~1년 후 <tspan font-weight="800">싱그릭스 2회</tspan> (재발 방지)</text>
+  <text x="80" y="908" font-family="sans-serif" font-size="17" fill="#6B7280">이전 생백신 접종자도 싱그릭스 재접종 권장</text>
+
+  <!-- 하단 -->
+  <text x="540" y="1000" font-family="sans-serif" font-size="15" fill="#9CA3AF" text-anchor="middle">2026년 3월 기준 | 개인 건강 상태에 따라 적합한 백신이 다릅니다</text>
+  <text x="540" y="1030" font-family="sans-serif" font-size="15" fill="#9CA3AF" text-anchor="middle">접종 전 전문의 상담 권장</text>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#F59E0B">자영업자 국민연금 실수 TOP 5</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <rect x="60" y="120" width="960" height="168" rx="16" fill="rgba(239,68,68,0.1)"/>
+  <rect x="80" y="140" width="50" height="50" rx="25" fill="#EF4444"/>
+  <text x="105" y="174" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">1</text>
+  <text x="150" y="168" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#FFF">가입 기간 20년 미달 → 할증 혜택 놓침</text>
+  <text x="150" y="200" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">18~19년 차에서 멈추면 1년당 5% 할증을 전혀 못 받음</text>
+  <rect x="150" y="216" width="400" height="28" rx="14" fill="rgba(245,158,11,0.2)"/>
+  <text x="350" y="236" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="15" font-weight="700" fill="#F59E0B">25년 vs 20년 = 수령액 25% 차이</text>
+  <text x="150" y="270" font-family="'Pretendard',sans-serif" font-size="16" fill="#F59E0B">대안: 임의계속가입·추납으로 20년+ 확보</text>
+
+  <rect x="60" y="304" width="960" height="168" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="324" width="50" height="50" rx="25" fill="#EF4444"/>
+  <text x="105" y="358" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">2</text>
+  <text x="150" y="352" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#FFF">저소득 보험료 지원 미신청 → 54만 원 손해</text>
+  <text x="150" y="384" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">80만 원 미만 신고 시 50% 지원(월 최대 45,000원)인데 모르고 전액 납부</text>
+  <rect x="150" y="400" width="380" height="28" rx="14" fill="rgba(245,158,11,0.2)"/>
+  <text x="340" y="420" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="15" font-weight="700" fill="#F59E0B">12개월 × 45,000원 = 최대 540,000원</text>
+  <text x="150" y="454" font-family="'Pretendard',sans-serif" font-size="16" fill="#F59E0B">대안: 공단 지사·앱에서 즉시 신청 (조건 완화)</text>
+
+  <rect x="60" y="488" width="960" height="168" rx="16" fill="rgba(239,68,68,0.1)"/>
+  <rect x="80" y="508" width="50" height="50" rx="25" fill="#EF4444"/>
+  <text x="105" y="542" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">3</text>
+  <text x="150" y="536" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#FFF">추납 시기 늦춰 더 높은 요율 적용</text>
+  <text x="150" y="568" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">매년 +0.5%p 인상 → 늦을수록 같은 기간 소급에 더 많은 비용</text>
+  <rect x="150" y="584" width="420" height="28" rx="14" fill="rgba(245,158,11,0.2)"/>
+  <text x="360" y="604" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="15" font-weight="700" fill="#F59E0B">2026년 9.5% vs 2027년 10% vs 2033년 13%</text>
+  <text x="150" y="638" font-family="'Pretendard',sans-serif" font-size="16" fill="#F59E0B">대안: 수령액 시뮬레이션 후 가급적 빠른 추납</text>
+
+  <rect x="60" y="672" width="960" height="168" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="692" width="50" height="50" rx="25" fill="#EF4444"/>
+  <text x="105" y="726" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">4</text>
+  <text x="150" y="720" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#FFF">건보 피부양자 탈락 대비 안 함</text>
+  <text x="150" y="752" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">연금+기타소득 연 2,000만 원 초과 → 지역건보 전환 → 월 수만 원 추가</text>
+  <rect x="150" y="768" width="420" height="28" rx="14" fill="rgba(245,158,11,0.2)"/>
+  <text x="360" y="788" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="15" font-weight="700" fill="#F59E0B">연기연금(연 7.2% 가산) 또는 건보 임의계속(36개월)</text>
+  <text x="150" y="822" font-family="'Pretendard',sans-serif" font-size="16" fill="#F59E0B">대안: 수령 시기 조절로 2,000만 원 미만 유지</text>
+
+  <rect x="60" y="856" width="960" height="168" rx="16" fill="rgba(239,68,68,0.1)"/>
+  <rect x="80" y="876" width="50" height="50" rx="25" fill="#EF4444"/>
+  <text x="105" y="910" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">5</text>
+  <text x="150" y="904" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#FFF">재직자 감액 완화 몰라 수령 포기</text>
+  <text x="150" y="936" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">2026.6월부터 509만 원 미만이면 감액 없이 전액 수령 가능</text>
+  <rect x="150" y="952" width="400" height="28" rx="14" fill="rgba(245,158,11,0.2)"/>
+  <text x="350" y="972" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="15" font-weight="700" fill="#F59E0B">기존 감액 대상 65%(10만 명) 혜택</text>
+  <text x="150" y="1006" font-family="'Pretendard',sans-serif" font-size="16" fill="#F59E0B">대안: 자동 적용 — 별도 신청 불필요, 확인만!</text>
+
+  <rect x="60" y="1050" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#EF4444">다자녀 혜택 신청 실수 TOP 5</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#EF4444"/>
+
+  <!-- Item 1 -->
+  <rect x="60" y="120" width="960" height="160" rx="20" fill="rgba(239,68,68,0.08)"/>
+  <rect x="90" y="140" width="56" height="56" rx="28" fill="rgba(239,68,68,0.3)"/>
+  <text x="118" y="178" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#EF4444">1</text>
+  <text x="170" y="175" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">신청 자체를 안 함</text>
+  <text x="170" y="215" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#EAF2FF">모든 혜택이 '신청주의' — 대상이어도 신청 안 하면 0원.</text>
+  <text x="170" y="250" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">→ 정부24에서 '다자녀' 검색 후 대상 여부 확인</text>
+
+  <!-- Item 2 -->
+  <rect x="60" y="300" width="960" height="160" rx="20" fill="rgba(255,255,255,0.04)"/>
+  <rect x="90" y="320" width="56" height="56" rx="28" fill="rgba(239,68,68,0.3)"/>
+  <text x="118" y="358" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#EF4444">2</text>
+  <text x="170" y="355" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">이사 후 재신청 누락</text>
+  <text x="170" y="395" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#EAF2FF">전기·가스·수도 요금 감면은 이사 시 자동 이전 안 됨.</text>
+  <text x="170" y="430" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">→ 전입신고와 동시에 모든 감면 재신청 필수</text>
+
+  <!-- Item 3 -->
+  <rect x="60" y="480" width="960" height="160" rx="20" fill="rgba(239,68,68,0.08)"/>
+  <rect x="90" y="500" width="56" height="56" rx="28" fill="rgba(239,68,68,0.3)"/>
+  <text x="118" y="538" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#EF4444">3</text>
+  <text x="170" y="535" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">취득세 감면 사후 신청</text>
+  <text x="170" y="575" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#EAF2FF">차량 등록 전에 다자녀 감면 신청해야 함.</text>
+  <text x="170" y="610" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">→ 등록 후 환급 불가능한 경우 있음 — 구청 세무과 사전 방문</text>
+
+  <!-- Item 4 -->
+  <rect x="60" y="660" width="960" height="160" rx="20" fill="rgba(255,255,255,0.04)"/>
+  <rect x="90" y="680" width="56" height="56" rx="28" fill="rgba(239,68,68,0.3)"/>
+  <text x="118" y="718" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#EF4444">4</text>
+  <text x="170" y="715" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">국가장학금 신청 기한 경과</text>
+  <text x="170" y="755" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#EAF2FF">1학기 2~3월, 2학기 8~9월 기한 놓치면 해당 학기 미지원.</text>
+  <text x="170" y="790" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">→ 한국장학재단 앱 알림 설정 + 캘린더 등록</text>
+
+  <!-- Item 5 -->
+  <rect x="60" y="840" width="960" height="160" rx="20" fill="rgba(239,68,68,0.08)"/>
+  <rect x="90" y="860" width="56" height="56" rx="28" fill="rgba(239,68,68,0.3)"/>
+  <text x="118" y="898" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#EF4444">5</text>
+  <text x="170" y="895" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">K-패스 다자녀 유형 미등록</text>
+  <text x="170" y="935" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#EAF2FF">카드 발급만으로 자동 적용 아님, 다자녀 유형 별도 등록 필요.</text>
+  <text x="170" y="970" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">→ K-패스 앱에서 주민등록등본 인증 후 다자녀 유형 등록</text>
+
+  <rect x="60" y="1050" width="960" height="6" rx="3" fill="#EF4444"/>
+</svg>

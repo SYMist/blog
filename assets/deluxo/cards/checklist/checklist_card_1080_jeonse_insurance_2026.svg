@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <rect x="60" y="60" width="340" height="60" rx="30" fill="#10B981"/>
+  <text x="230" y="101" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF" text-anchor="middle">신청 전 1분 체크</text>
+
+  <text x="540" y="200" font-family="'Pretendard', sans-serif" font-size="58" font-weight="900" fill="#FFFFFF" text-anchor="middle">전세보증보험 8단계</text>
+
+  <rect x="60" y="270" width="960" height="80" rx="16" fill="#1A3270"/>
+  <text x="100" y="320" font-family="'Pretendard', sans-serif" font-size="36" font-weight="900" fill="#10B981">☑</text>
+  <text x="160" y="320" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">등기부등본 근저당·가압류 0건 확인</text>
+
+  <rect x="60" y="370" width="960" height="80" rx="16" fill="#1A3270"/>
+  <text x="100" y="420" font-family="'Pretendard', sans-serif" font-size="36" font-weight="900" fill="#10B981">☑</text>
+  <text x="160" y="420" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">안심전세앱 시세·공시가·126% 통과 확인</text>
+
+  <rect x="60" y="470" width="960" height="80" rx="16" fill="#1A3270"/>
+  <text x="100" y="520" font-family="'Pretendard', sans-serif" font-size="36" font-weight="900" fill="#10B981">☑</text>
+  <text x="160" y="520" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">계약서 특약: 가입 불가 시 계약 무효 삽입</text>
+
+  <rect x="60" y="570" width="960" height="80" rx="16" fill="#1A3270"/>
+  <text x="100" y="620" font-family="'Pretendard', sans-serif" font-size="36" font-weight="900" fill="#10B981">☑</text>
+  <text x="160" y="620" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">잔금일 당일 전입신고 + 확정일자 완료</text>
+
+  <rect x="60" y="670" width="960" height="80" rx="16" fill="#1A3270"/>
+  <text x="100" y="720" font-family="'Pretendard', sans-serif" font-size="36" font-weight="900" fill="#10B981">☑</text>
+  <text x="160" y="720" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">계약 1/2 경과 전 HUG·SGI·HF 신청</text>
+
+  <rect x="60" y="770" width="960" height="80" rx="16" fill="#1A3270"/>
+  <text x="100" y="820" font-family="'Pretendard', sans-serif" font-size="36" font-weight="900" fill="#10B981">☑</text>
+  <text x="160" y="820" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">소득·무주택 요건 시 정부24 보증료 지원</text>
+
+  <rect x="60" y="870" width="960" height="80" rx="16" fill="#1A3270"/>
+  <text x="100" y="920" font-family="'Pretendard', sans-serif" font-size="36" font-weight="900" fill="#10B981">☑</text>
+  <text x="160" y="920" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">임대인 변경·보증금 증액 시 즉시 조건변경</text>
+
+  <rect x="60" y="970" width="960" height="80" rx="16" fill="#F59E0B"/>
+  <text x="100" y="1020" font-family="'Pretendard', sans-serif" font-size="36" font-weight="900" fill="#0B1F3B">☑</text>
+  <text x="160" y="1020" font-family="'Pretendard', sans-serif" font-size="26" font-weight="800" fill="#0B1F3B">만기 6~2개월 전 내용증명 발송 준비</text>
+</svg>

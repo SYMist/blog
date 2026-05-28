@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <circle cx="900" cy="120" r="220" fill="#1A3270" opacity="0.3"/>
+
+  <!-- 제목 -->
+  <text x="60" y="90" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="42" font-weight="900" fill="#FFFFFF">허가 처리 vs 거부 처리 절차</text>
+  <text x="60" y="136" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="30" fill="#34D399">사업주 처리 흐름 비교</text>
+  <rect x="60" y="152" width="560" height="3" rx="2" fill="#34D399"/>
+
+  <!-- 칼럼 헤더 -->
+  <rect x="60" y="168" width="466" height="56" rx="10" fill="#0D2347"/>
+  <text x="293" y="204" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="800" fill="#34D399" text-anchor="middle">✅ 허가 처리</text>
+
+  <rect x="554" y="168" width="466" height="56" rx="10" fill="#0D2347"/>
+  <text x="787" y="204" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="800" fill="#EF4444" text-anchor="middle">❌ 거부 처리</text>
+
+  <!-- 단계 1 -->
+  <rect x="60" y="236" width="466" height="80" rx="10" fill="#112240"/>
+  <text x="293" y="268" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" font-weight="700" fill="#A0B4D0" text-anchor="middle">STEP 1</text>
+  <text x="293" y="296" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#FFFFFF" text-anchor="middle">신청서 접수 확인</text>
+
+  <rect x="554" y="236" width="466" height="80" rx="10" fill="#112240"/>
+  <text x="787" y="268" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" font-weight="700" fill="#A0B4D0" text-anchor="middle">STEP 1</text>
+  <text x="787" y="296" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#FFFFFF" text-anchor="middle">신청서 접수 확인</text>
+
+  <!-- 단계 2 -->
+  <rect x="60" y="328" width="466" height="80" rx="10" fill="#0F1E3A"/>
+  <text x="293" y="360" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" font-weight="700" fill="#A0B4D0" text-anchor="middle">STEP 2</text>
+  <text x="293" y="388" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#FFFFFF" text-anchor="middle">예외 사유 없음 확인</text>
+
+  <rect x="554" y="328" width="466" height="80" rx="10" fill="#0F1E3A"/>
+  <text x="787" y="360" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" font-weight="700" fill="#A0B4D0" text-anchor="middle">STEP 2</text>
+  <text x="787" y="388" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#FFFFFF" text-anchor="middle">예외 사유 해당 여부 검토</text>
+
+  <!-- 단계 3 -->
+  <rect x="60" y="420" width="466" height="80" rx="10" fill="#112240"/>
+  <text x="293" y="452" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" font-weight="700" fill="#A0B4D0" text-anchor="middle">STEP 3</text>
+  <text x="293" y="480" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#34D399" text-anchor="middle">서면 허가 통보</text>
+
+  <rect x="554" y="420" width="466" height="80" rx="10" fill="#112240"/>
+  <text x="787" y="452" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" font-weight="700" fill="#A0B4D0" text-anchor="middle">STEP 3</text>
+  <text x="787" y="480" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#EF4444" text-anchor="middle">서면 거부 통보 (사유 명시)</text>
+
+  <!-- 단계 4 -->
+  <rect x="60" y="512" width="466" height="80" rx="10" fill="#0F1E3A"/>
+  <text x="293" y="544" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" font-weight="700" fill="#A0B4D0" text-anchor="middle">STEP 4</text>
+  <text x="293" y="572" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#FFFFFF" text-anchor="middle">휴직 기간 업무 조정</text>
+
+  <rect x="554" y="512" width="466" height="80" rx="10" fill="#0F1E3A"/>
+  <text x="787" y="544" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" font-weight="700" fill="#A0B4D0" text-anchor="middle">STEP 4</text>
+  <text x="787" y="572" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#F59E0B" text-anchor="middle">대안 제시 (필수)</text>
+
+  <!-- 단계 5 -->
+  <rect x="60" y="604" width="466" height="80" rx="10" fill="#112240"/>
+  <text x="293" y="636" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" font-weight="700" fill="#A0B4D0" text-anchor="middle">STEP 5</text>
+  <text x="293" y="664" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#FFFFFF" text-anchor="middle">복귀 후 동일 업무 배치</text>
+
+  <rect x="554" y="604" width="466" height="80" rx="10" fill="#112240"/>
+  <text x="787" y="636" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" font-weight="700" fill="#A0B4D0" text-anchor="middle">STEP 5</text>
+  <text x="787" y="664" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#FFFFFF" text-anchor="middle">증빙 자료 보관</text>
+
+  <!-- 구분선 -->
+  <rect x="60" y="700" width="960" height="2" fill="#1A3270"/>
+
+  <!-- 핵심 원칙 -->
+  <rect x="60" y="716" width="960" height="100" rx="14" fill="#0D2347"/>
+  <text x="540" y="754" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="800" fill="#34D399" text-anchor="middle">허가든 거부든 서면 기록이 핵심</text>
+  <text x="540" y="786" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#FFFFFF" text-anchor="middle">구두 통보만으로는 노동청 진정 시 사업주에게 불리</text>
+
+  <!-- 소요 시간 -->
+  <rect x="60" y="830" width="460" height="90" rx="14" fill="#102A56"/>
+  <text x="290" y="866" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="700" fill="#34D399" text-anchor="middle">예외 사유 없으면</text>
+  <text x="290" y="898" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" fill="#FFFFFF" text-anchor="middle">1주 이내 허가 권장</text>
+
+  <rect x="540" y="830" width="480" height="90" rx="14" fill="#102A56"/>
+  <text x="780" y="866" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="700" fill="#F59E0B" text-anchor="middle">대체인력 사유 활용 시</text>
+  <text x="780" y="898" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" fill="#FFFFFF" text-anchor="middle">고용센터 구인 신청 후 14일+</text>
+
+  <!-- 출처 -->
+  <text x="540" y="1034" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" fill="#4A6080" text-anchor="middle">deluxo · 남녀고용평등과 일·가정 양립 지원에 관한 법률 · 2026년 5월 기준</text>
+</svg>

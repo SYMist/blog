@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="80" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="800" fill="#F59E0B">소상공인 카드수수료 우대·환급 한눈에 보기</text>
+  <rect x="60" y="110" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- 우대수수료율 -->
+  <rect x="60" y="140" width="960" height="340" rx="20" fill="rgba(255,255,255,0.06)"/>
+  <rect x="80" y="160" width="220" height="44" rx="22" fill="#3B82F6"/>
+  <text x="190" y="190" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#FFF">우대수수료율 2026</text>
+  <text x="320" y="190" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">308만7000곳 (95.7%) 적용</text>
+
+  <text x="100" y="240" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">영세 (3억 이하)</text>
+  <text x="460" y="240" font-family="'Pretendard',sans-serif" font-size="22" fill="#FFF">신용 0.40%  ·  체크 0.15%</text>
+
+  <text x="100" y="285" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#EAF2FF">중소1 (3~5억)</text>
+  <text x="460" y="285" font-family="'Pretendard',sans-serif" font-size="22" fill="#FFF">신용 1.00%  ·  체크 0.75%</text>
+
+  <text x="100" y="330" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#EAF2FF">중소2 (5~10억)</text>
+  <text x="460" y="330" font-family="'Pretendard',sans-serif" font-size="22" fill="#FFF">신용 1.15%  ·  체크 0.90%</text>
+
+  <text x="100" y="375" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#EAF2FF">중소3 (10~30억)</text>
+  <text x="460" y="375" font-family="'Pretendard',sans-serif" font-size="22" fill="#FFF">신용 1.45%  ·  체크 1.15%</text>
+
+  <text x="100" y="420" font-family="'Pretendard',sans-serif" font-size="18" fill="#F59E0B">PG사 하위가맹점 193만8000곳 + 택시 16만6000곳도 동일 적용</text>
+  <rect x="100" y="445" width="860" height="3" rx="1" fill="rgba(255,255,255,0.15)"/>
+  <text x="100" y="470" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">일반 수수료율(30억 초과): 카드사별 2.0~2.5% 수준</text>
+
+  <!-- 신규 환급 -->
+  <rect x="60" y="510" width="960" height="270" rx="20" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="530" width="220" height="44" rx="22" fill="#10B981"/>
+  <text x="190" y="560" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#FFF">신규 가맹점 환급</text>
+
+  <text x="100" y="610" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">총 환급 규모</text>
+  <text x="360" y="610" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#F59E0B">643억3000만 원</text>
+
+  <text x="100" y="655" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">대상: 15만9000곳 + PG 14만3000곳 + 택시 5,325곳</text>
+  <text x="100" y="695" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">평균 환급: 약 41만 원 / 가맹점</text>
+  <text x="100" y="735" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">환급 시기: 2026년 3월 31일까지 자동 입금</text>
+  <text x="100" y="765" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">별도 신청 불필요 · 카드사가 정산 계좌로 자동 송금</text>
+
+  <!-- 확인 방법 -->
+  <rect x="60" y="810" width="960" height="220" rx="20" fill="rgba(245,158,11,0.1)"/>
+  <text x="100" y="860" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#F59E0B">확인 방법 3가지</text>
+
+  <text x="100" y="910" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">1. 여신금융협회 통합조회</text>
+  <text x="520" y="910" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">사업자번호 입력 → 환급액 조회</text>
+
+  <text x="100" y="955" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">2. 카드사 홈페이지</text>
+  <text x="520" y="955" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">매입내역 → 수수료율·환급액</text>
+
+  <text x="100" y="1000" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">3. PG사 관리자 페이지</text>
+  <text x="520" y="1000" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">온라인 사업자 전용</text>
+
+  <rect x="60" y="1040" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

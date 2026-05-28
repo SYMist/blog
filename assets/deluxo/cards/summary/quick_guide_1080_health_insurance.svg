@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="80" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="800" fill="#F59E0B">내 상황에 맞는 건강보험 혜택은?</text>
+  <rect x="60" y="110" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <rect x="60" y="140" width="960" height="105" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <text x="100" y="180" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#3B82F6">퇴사·이직 후 보험료 이중 납부</text>
+  <text x="100" y="218" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">→ 과오납 환급 · The건강보험 앱에서 조회</text>
+
+  <rect x="60" y="255" width="960" height="105" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="295" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#3B82F6">병원비가 너무 많이 나왔다</text>
+  <text x="100" y="333" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">→ 본인부담상한제 초과 환급 · 지급동의계좌 등록!</text>
+
+  <rect x="60" y="370" width="960" height="105" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="410" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#10B981">도서·벽지 지역 거주</text>
+  <text x="100" y="448" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">→ 보험료 50% 경감 · 직권 적용 확인</text>
+
+  <rect x="60" y="485" width="960" height="105" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="525" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#10B981">농어촌 농업·어업 종사</text>
+  <text x="100" y="563" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">→ 보험료 22% 경감 · 농업인 확인서 제출</text>
+
+  <rect x="60" y="600" width="960" height="105" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="640" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#8B5CF6">65세 이상 / 장애인 / 한부모</text>
+  <text x="100" y="678" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">→ 10~30% 경감 · 직권 누락 시 관할 지사 신청</text>
+
+  <rect x="60" y="715" width="960" height="105" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="755" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#EAF2FF">휴직 중 (무급 / 육아)</text>
+  <text x="100" y="793" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">→ 무급 50% 경감 / 육아 하한액(월 20,160원)</text>
+
+  <rect x="60" y="830" width="960" height="105" rx="16" fill="rgba(245,158,11,0.12)"/>
+  <text x="100" y="870" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#F59E0B">소득이 작년보다 크게 줄었다</text>
+  <text x="100" y="908" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">→ 소득 정산 감액 신청 · 11월 확정 정산</text>
+
+  <rect x="60" y="945" width="960" height="95" rx="16" fill="rgba(239,68,68,0.1)"/>
+  <text x="100" y="985" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#EF4444">피부양자에서 탈락했다</text>
+  <text x="100" y="1018" font-family="'Pretendard',sans-serif" font-size="20" fill="#FFF">→ 전환 세대 경감 80→60→40→20% 단계 적용</text>
+
+  <rect x="60" y="1050" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

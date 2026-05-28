@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="700" fill="url(#bg)"/>
+
+  <text x="540" y="46" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">자산 이전 상황별 추천 시나리오</text>
+  <text x="540" y="70" text-anchor="middle" fill="#FCD34D" font-size="13" font-family="sans-serif">자산 규모·부모 연령·자녀 자금 필요 시점 변수 · 2026.05</text>
+
+  <!-- Scenario 1: 5억 이하 -->
+  <rect x="40" y="90" width="480" height="116" rx="10" fill="#14532d" fill-opacity="0.6" stroke="#15803D" stroke-width="1.5"/>
+  <rect x="40" y="90" width="480" height="36" rx="10" fill="#15803D"/>
+  <rect x="40" y="112" width="480" height="14" fill="#15803D"/>
+  <text x="60" y="114" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">① 자산 5억 이하 + 자녀 1~2명</text>
+  <text x="60" y="148" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">→ 상속 그대로 (일괄공제 5억으로 0원)</text>
+  <text x="60" y="170" fill="#CBD5E1" font-size="12" font-family="sans-serif">사전 증여 시 6,000만원 부담 발생 → 절대 불리</text>
+  <text x="60" y="192" fill="#CBD5E1" font-size="12" font-family="sans-serif">자녀공제 5억 개정안 시행 시 더 큰 자산도 비과세 가능</text>
+
+  <!-- Scenario 2: 5억~15억 -->
+  <rect x="560" y="90" width="480" height="116" rx="10" fill="#14532d" fill-opacity="0.5" stroke="#15803D" stroke-width="1.5"/>
+  <rect x="560" y="90" width="480" height="36" rx="10" fill="#15803D"/>
+  <rect x="560" y="112" width="480" height="14" fill="#15803D"/>
+  <text x="580" y="114" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">② 자산 5억~15억 + 60~70대 부모</text>
+  <text x="580" y="148" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">→ 상속 + 일부 사전 증여 혼합</text>
+  <text x="580" y="170" fill="#CBD5E1" font-size="12" font-family="sans-serif">자녀 자금 필요 시기에 5천만 공제 활용</text>
+  <text x="580" y="192" fill="#CBD5E1" font-size="12" font-family="sans-serif">상속 약 9천만 부담 vs 부분 증여로 감소 가능</text>
+
+  <!-- Scenario 3: 15억~30억 -->
+  <rect x="40" y="226" width="480" height="116" rx="10" fill="#422006" fill-opacity="0.6" stroke="#D97706" stroke-width="1.5"/>
+  <rect x="40" y="226" width="480" height="36" rx="10" fill="#D97706"/>
+  <rect x="40" y="248" width="480" height="14" fill="#D97706"/>
+  <text x="60" y="250" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">③ 자산 15억~30억 + 자녀 자금 필요</text>
+  <text x="60" y="284" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">→ 10년 누계 5천만 분할 증여 (60대 일찍 시작)</text>
+  <text x="60" y="306" fill="#CBD5E1" font-size="12" font-family="sans-serif">60→70→80세 3회 × 5천만 = 자녀당 1.5억 비과세</text>
+  <text x="60" y="328" fill="#CBD5E1" font-size="12" font-family="sans-serif">자녀 결혼·주택 자금 필요 시기에 정확히 일치</text>
+
+  <!-- Scenario 4: 30억+ -->
+  <rect x="560" y="226" width="480" height="116" rx="10" fill="#4c1d95" fill-opacity="0.6" stroke="#7C3AED" stroke-width="1.5"/>
+  <rect x="560" y="226" width="480" height="36" rx="10" fill="#7C3AED"/>
+  <rect x="560" y="248" width="480" height="14" fill="#7C3AED"/>
+  <text x="580" y="250" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">④ 자산 30억+ + 부동산 비중 큼</text>
+  <text x="580" y="284" fill="#DDD6FE" font-size="13" font-weight="700" font-family="sans-serif">→ 사전 증여 분할 (60→70→80세 3회)</text>
+  <text x="580" y="306" fill="#CBD5E1" font-size="12" font-family="sans-serif">자산 증가분 분리 효과 극대화 (부동산 상승기)</text>
+  <text x="580" y="328" fill="#CBD5E1" font-size="12" font-family="sans-serif">50억 시 사전 증여 16.4억 vs 상속 17.9억 = 1.5억 절감</text>
+
+  <!-- Scenario 5: 70대 이후 -->
+  <rect x="40" y="362" width="1000" height="116" rx="10" fill="#7f1d1d" fill-opacity="0.5" stroke="#DC2626" stroke-width="1.5"/>
+  <rect x="40" y="362" width="1000" height="36" rx="10" fill="#DC2626"/>
+  <rect x="40" y="384" width="1000" height="14" fill="#DC2626"/>
+  <text x="60" y="386" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">⑤ 70대 이상 + 사전 증여 미시작</text>
+  <text x="60" y="420" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">→ 상속 중심 + 일부 즉시 증여 (10년 합산 효과 인식)</text>
+  <text x="60" y="442" fill="#CBD5E1" font-size="12" font-family="sans-serif">사망 10년 이내 증여는 상속재산 합산 → 절세 효과 사라짐</text>
+  <text x="60" y="464" fill="#CBD5E1" font-size="12" font-family="sans-serif">건강 상태 확인 후 즉시 분할 증여 가능 (자녀 자금 필요 시기 우선)</text>
+
+  <!-- Summary -->
+  <rect x="40" y="496" width="1000" height="176" rx="10" fill="#1e293b" fill-opacity="0.8"/>
+  <text x="540" y="528" text-anchor="middle" fill="#F8FAFC" font-size="14" font-weight="800" font-family="sans-serif">핵심 결론 3줄 요약</text>
+  <text x="80" y="562" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">10억 이하</text>
+  <text x="250" y="562" fill="#FFFFFF" font-size="13" font-family="sans-serif">→ 상속 압도적 (일괄공제 5억으로 거의 0원 또는 9,000만원)</text>
+  <text x="80" y="594" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">손익분기 ~20억</text>
+  <text x="250" y="594" fill="#FFFFFF" font-size="13" font-family="sans-serif">→ 거의 동률 (자녀 자금 필요 시기에 따라 결정)</text>
+  <text x="80" y="626" fill="#DDD6FE" font-size="13" font-weight="700" font-family="sans-serif">30억 이상</text>
+  <text x="250" y="626" fill="#FFFFFF" font-size="13" font-family="sans-serif">→ 사전 증여 유리 (10년 분할 + 자산 증가분 분리, 60대 일찍 시작)</text>
+  <text x="80" y="654" fill="#94A3B8" font-size="12" font-family="sans-serif">※ 자녀공제 5억 개정안 시행 시 시뮬레이션 즉시 재검토 필요 · 1억+ 이전 시 세무사 상담 강력 권장</text>
+
+  <text x="40" y="686" fill="#64748B" font-size="12" font-family="sans-serif">essencial | 대출·금융 · 2026.05 기준 · 사망 10년 이내 증여는 상속재산 합산 (60대 일찍 시작 핵심)</text>
+</svg>

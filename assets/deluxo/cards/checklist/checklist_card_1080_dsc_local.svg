@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- Badge -->
+  <rect x="60" y="50" width="160" height="48" rx="24" fill="#F59E0B"/>
+  <text x="140" y="82" font-family="Pretendard, sans-serif" font-size="22" font-weight="700" fill="#0B1F3B" text-anchor="middle">필수 확인</text>
+
+  <!-- Title -->
+  <text x="60" y="155" font-family="Pretendard, sans-serif" font-size="44" font-weight="800" fill="#FFFFFF">신청 전 1분 체크리스트</text>
+
+  <!-- Chips -->
+  <rect x="60" y="180" width="85" height="40" rx="32" fill="#E8F0FF"/>
+  <text x="102" y="207" font-family="Pretendard, sans-serif" font-size="18" font-weight="600" fill="#1D4ED8" text-anchor="middle">체크</text>
+  <rect x="158" y="180" width="85" height="40" rx="32" fill="#E8F0FF"/>
+  <text x="200" y="207" font-family="Pretendard, sans-serif" font-size="18" font-weight="600" fill="#1D4ED8" text-anchor="middle">서류</text>
+  <rect x="256" y="180" width="85" height="40" rx="32" fill="#E8F0FF"/>
+  <text x="298" y="207" font-family="Pretendard, sans-serif" font-size="18" font-weight="600" fill="#1D4ED8" text-anchor="middle">신청</text>
+
+  <!-- Divider -->
+  <line x1="60" y1="250" x2="1020" y2="250" stroke="#FFFFFF" stroke-opacity="0.15" stroke-width="1"/>
+
+  <!-- Checklist Item 1 -->
+  <rect x="60" y="285" width="960" height="100" rx="18" fill="#FFFFFF" fill-opacity="0.07"/>
+  <rect x="90" y="310" width="50" height="50" rx="12" fill="#F59E0B"/>
+  <text x="115" y="345" font-family="Pretendard, sans-serif" font-size="28" font-weight="800" fill="#0B1F3B" text-anchor="middle">&#x2713;</text>
+  <text x="165" y="348" font-family="Pretendard, sans-serif" font-size="24" font-weight="600" fill="#FFFFFF">사업장 소재지 확인 (대전/세종/충남/충북)</text>
+
+  <!-- Checklist Item 2 -->
+  <rect x="60" y="405" width="960" height="100" rx="18" fill="#FFFFFF" fill-opacity="0.07"/>
+  <rect x="90" y="430" width="50" height="50" rx="12" fill="#F59E0B"/>
+  <text x="115" y="465" font-family="Pretendard, sans-serif" font-size="28" font-weight="800" fill="#0B1F3B" text-anchor="middle">&#x2713;</text>
+  <text x="165" y="468" font-family="Pretendard, sans-serif" font-size="24" font-weight="600" fill="#FFFFFF">소상공인 확인서 발급 가능 여부</text>
+
+  <!-- Checklist Item 3 -->
+  <rect x="60" y="525" width="960" height="100" rx="18" fill="#FFFFFF" fill-opacity="0.07"/>
+  <rect x="90" y="550" width="50" height="50" rx="12" fill="#F59E0B"/>
+  <text x="115" y="585" font-family="Pretendard, sans-serif" font-size="28" font-weight="800" fill="#0B1F3B" text-anchor="middle">&#x2713;</text>
+  <text x="165" y="588" font-family="Pretendard, sans-serif" font-size="24" font-weight="600" fill="#FFFFFF">기존 정책자금 잔액 . 연체 확인</text>
+
+  <!-- Checklist Item 4 -->
+  <rect x="60" y="645" width="960" height="100" rx="18" fill="#FFFFFF" fill-opacity="0.07"/>
+  <rect x="90" y="670" width="50" height="50" rx="12" fill="#F59E0B"/>
+  <text x="115" y="705" font-family="Pretendard, sans-serif" font-size="28" font-weight="800" fill="#0B1F3B" text-anchor="middle">&#x2713;</text>
+  <text x="165" y="708" font-family="Pretendard, sans-serif" font-size="24" font-weight="600" fill="#FFFFFF">보증드림 앱 설치 + 정보동의</text>
+
+  <!-- Checklist Item 5 -->
+  <rect x="60" y="765" width="960" height="100" rx="18" fill="#FFFFFF" fill-opacity="0.07"/>
+  <rect x="90" y="790" width="50" height="50" rx="12" fill="#F59E0B"/>
+  <text x="115" y="825" font-family="Pretendard, sans-serif" font-size="28" font-weight="800" fill="#0B1F3B" text-anchor="middle">&#x2713;</text>
+  <text x="165" y="828" font-family="Pretendard, sans-serif" font-size="24" font-weight="600" fill="#FFFFFF">분기별 접수 일정 확인</text>
+
+  <!-- Checklist Item 6 -->
+  <rect x="60" y="885" width="960" height="100" rx="18" fill="#FFFFFF" fill-opacity="0.07"/>
+  <rect x="90" y="910" width="50" height="50" rx="12" fill="#F59E0B"/>
+  <text x="115" y="945" font-family="Pretendard, sans-serif" font-size="28" font-weight="800" fill="#0B1F3B" text-anchor="middle">&#x2713;</text>
+  <text x="165" y="948" font-family="Pretendard, sans-serif" font-size="24" font-weight="600" fill="#FFFFFF">바우처 25만 원 별도 신청</text>
+
+  <!-- Footer -->
+  <text x="1020" y="1050" font-family="Pretendard, sans-serif" font-size="16" fill="#FFFFFF" fill-opacity="0.35" text-anchor="end">tistory.deluxo | 2026</text>
+</svg>

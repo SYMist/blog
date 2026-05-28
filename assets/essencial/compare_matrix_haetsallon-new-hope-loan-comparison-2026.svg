@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 780">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="780" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="540" y="52" text-anchor="middle" fill="#FFFFFF" font-size="26" font-weight="800" font-family="sans-serif">서민금융 3종 상세 비교표</text>
+  <text x="540" y="78" text-anchor="middle" fill="#D97706" font-size="15" font-family="sans-serif">2026.05 기준 · 서민금융진흥원·금융위원회</text>
+
+  <!-- Table Header -->
+  <rect x="40" y="100" width="1000" height="50" rx="8" fill="#1e293b"/>
+  <text x="180" y="131" text-anchor="middle" fill="#94A3B8" font-size="14" font-weight="600" font-family="sans-serif">항목</text>
+  <text x="430" y="131" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="800" font-family="sans-serif">햇살론 일반</text>
+  <text x="650" y="131" text-anchor="middle" fill="#C4B5FD" font-size="15" font-weight="800" font-family="sans-serif">햇살론 특례보증</text>
+  <text x="880" y="131" text-anchor="middle" fill="#6EE7B7" font-size="15" font-weight="800" font-family="sans-serif">새희망홀씨</text>
+
+  <!-- Vertical dividers in header -->
+  <line x1="300" y1="100" x2="300" y2="780" stroke="#334155" stroke-width="1"/>
+  <line x1="540" y1="100" x2="540" y2="780" stroke="#334155" stroke-width="1"/>
+  <line x1="760" y1="100" x2="760" y2="780" stroke="#334155" stroke-width="1"/>
+
+  <!-- Row 1: 관리 주체 -->
+  <rect x="40" y="150" width="1000" height="60" fill="#1e293b" fill-opacity="0.6"/>
+  <text x="180" y="186" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">관리 주체</text>
+  <text x="430" y="178" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="sans-serif">서민금융진흥원</text>
+  <text x="430" y="198" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">보증서 발급</text>
+  <text x="650" y="178" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="sans-serif">서민금융진흥원</text>
+  <text x="650" y="198" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">보증서 발급</text>
+  <text x="880" y="178" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="sans-serif">금융위원회 · 14개 은행</text>
+  <text x="880" y="198" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">은행 직접 취급</text>
+
+  <!-- Row 2: 소득 조건 -->
+  <rect x="40" y="210" width="1000" height="70" fill="#0f172a" fill-opacity="0.8"/>
+  <text x="180" y="250" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">소득 조건</text>
+  <text x="430" y="234" text-anchor="middle" fill="#4ADE80" font-size="13" font-weight="700" font-family="sans-serif">3,500만↓ (신용 무관)</text>
+  <text x="430" y="256" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">또는 4,500만↓</text>
+  <text x="430" y="272" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">+ 신용 하위 20%</text>
+  <text x="650" y="242" text-anchor="middle" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">3,500만↓</text>
+  <text x="650" y="264" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">+ 신용 하위 20%</text>
+  <text x="650" y="280" text-anchor="middle" fill="#CBD5E1" font-size="11" font-family="sans-serif">(두 조건 동시 충족)</text>
+  <text x="880" y="234" text-anchor="middle" fill="#6EE7B7" font-size="13" font-weight="700" font-family="sans-serif">4,000만↓</text>
+  <text x="880" y="256" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">또는 5,000만↓</text>
+  <text x="880" y="272" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">+ 신용 하위 20%</text>
+
+  <!-- Row 3: 금리 -->
+  <rect x="40" y="280" width="1000" height="65" fill="#1e293b" fill-opacity="0.6"/>
+  <text x="180" y="318" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">최고 금리</text>
+  <text x="430" y="306" text-anchor="middle" fill="#4ADE80" font-size="28" font-weight="800" font-family="sans-serif">연 10.0%</text>
+  <text x="430" y="334" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">보증료 2.5% 별도</text>
+  <text x="650" y="300" text-anchor="middle" fill="#FCA5A5" font-size="28" font-weight="800" font-family="sans-serif">연 12.5%</text>
+  <text x="650" y="326" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">사회적배려 9.9%↓</text>
+  <text x="650" y="341" text-anchor="middle" fill="#CBD5E1" font-size="11" font-family="sans-serif">(보증료 포함)</text>
+  <text x="880" y="306" text-anchor="middle" fill="#4ADE80" font-size="28" font-weight="800" font-family="sans-serif">연 10.5%</text>
+  <text x="880" y="334" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">은행별 CSS 기반 상이</text>
+
+  <!-- Row 4: 한도 -->
+  <rect x="40" y="345" width="1000" height="55" fill="#0f172a" fill-opacity="0.8"/>
+  <text x="180" y="378" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">대출 한도</text>
+  <text x="430" y="378" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">100만~1,500만</text>
+  <text x="650" y="378" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">100만~1,000만</text>
+  <text x="880" y="370" text-anchor="middle" fill="#FCD34D" font-size="22" font-weight="800" font-family="sans-serif">100만~3,500만</text>
+  <text x="880" y="392" text-anchor="middle" fill="#6EE7B7" font-size="12" font-weight="700" font-family="sans-serif">▲ 3종 중 최대</text>
+
+  <!-- Row 5: 기간 -->
+  <rect x="40" y="400" width="1000" height="50" fill="#1e293b" fill-opacity="0.6"/>
+  <text x="180" y="430" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">대출 기간</text>
+  <text x="430" y="430" text-anchor="middle" fill="#FFFFFF" font-size="15" font-family="sans-serif">5년 이내</text>
+  <text x="650" y="422" text-anchor="middle" fill="#FFFFFF" font-size="15" font-family="sans-serif">3년 또는 5년</text>
+  <text x="880" y="430" text-anchor="middle" fill="#FFFFFF" font-size="15" font-family="sans-serif">5년 이내</text>
+
+  <!-- Row 6: 보증료 -->
+  <rect x="40" y="450" width="1000" height="55" fill="#0f172a" fill-opacity="0.8"/>
+  <text x="180" y="482" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">보증료</text>
+  <text x="430" y="474" text-anchor="middle" fill="#FFFFFF" font-size="14" font-family="sans-serif">연 2.5% 이내</text>
+  <text x="430" y="494" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">(금리와 별도)</text>
+  <text x="650" y="474" text-anchor="middle" fill="#FFFFFF" font-size="14" font-family="sans-serif">연 5.4~5.5%</text>
+  <text x="650" y="494" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">(금리에 포함 표기)</text>
+  <text x="880" y="474" text-anchor="middle" fill="#6EE7B7" font-size="14" font-weight="700" font-family="sans-serif">없음</text>
+  <text x="880" y="494" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">(은행 직접 취급)</text>
+
+  <!-- Row 7: 중도상환 -->
+  <rect x="40" y="505" width="1000" height="50" fill="#1e293b" fill-opacity="0.6"/>
+  <text x="180" y="535" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">중도상환</text>
+  <text x="430" y="535" text-anchor="middle" fill="#4ADE80" font-size="14" font-weight="700" font-family="sans-serif">면제</text>
+  <text x="650" y="535" text-anchor="middle" fill="#4ADE80" font-size="14" font-weight="700" font-family="sans-serif">면제</text>
+  <text x="880" y="527" text-anchor="middle" fill="#FFFFFF" font-size="14" font-family="sans-serif">은행별 상이</text>
+  <text x="880" y="547" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">(대부분 면제)</text>
+
+  <!-- Row 8: 신청 -->
+  <rect x="40" y="555" width="1000" height="60" fill="#0f172a" fill-opacity="0.8"/>
+  <text x="180" y="590" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">신청 방법</text>
+  <text x="430" y="578" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="sans-serif">취급 은행 + 서민금융진흥원</text>
+  <text x="430" y="600" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">1397 상담 권장</text>
+  <text x="650" y="578" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="sans-serif">취급 은행 + 서민금융진흥원</text>
+  <text x="650" y="600" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">1397 상담 권장</text>
+  <text x="880" y="578" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="sans-serif">14개 은행 영업점 · 앱</text>
+  <text x="880" y="600" text-anchor="middle" fill="#6EE7B7" font-size="12" font-family="sans-serif">비대면 가능</text>
+
+  <!-- Bottom border -->
+  <rect x="40" y="615" width="1000" height="2" fill="#334155"/>
+
+  <!-- Bottom summary -->
+  <text x="540" y="650" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="700" font-family="sans-serif">핵심 선택 기준</text>
+  <text x="540" y="676" text-anchor="middle" fill="#FFFFFF" font-size="14" font-family="sans-serif">소득 · 신용점수 기준 충족 확인 → 한도 필요량 파악 → 최저 금리 상품 선택</text>
+  <text x="540" y="698" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">햇살론 일반(신용 무관) → 특례보증(최저신용) → 새희망홀씨(최대한도) 순서로 검토</text>
+
+  <text x="40" y="762" fill="#64748B" font-size="12" font-family="sans-serif">essencial | 대출·금융 silo · 2026.05 기준</text>
+</svg>

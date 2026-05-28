@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="amber" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#B45309"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <!-- Badge -->
+  <rect x="60" y="50" width="160" height="42" rx="21" fill="#EF4444"/>
+  <text x="140" y="78" text-anchor="middle" fill="#FFF" font-size="20" font-weight="700" font-family="Pretendard,sans-serif">2026 최신</text>
+
+  <!-- Title -->
+  <text x="540" y="165" text-anchor="middle" fill="#FFFFFF" font-size="50" font-weight="900" font-family="Pretendard,sans-serif">신용점수 700 vs 800</text>
+  <text x="540" y="225" text-anchor="middle" fill="#E2E8F0" font-size="36" font-weight="600" font-family="Pretendard,sans-serif">대출금리 실제 차이 비교</text>
+
+  <!-- Divider -->
+  <rect x="390" y="260" width="300" height="4" rx="2" fill="url(#amber)"/>
+
+  <!-- 800점 Card -->
+  <rect x="60" y="300" width="460" height="340" rx="20" fill="#1E293B" stroke="#22C55E" stroke-width="2"/>
+  <rect x="60" y="300" width="460" height="60" rx="20" fill="#22C55E"/>
+  <rect x="60" y="340" width="460" height="20" fill="#22C55E"/>
+  <text x="290" y="340" text-anchor="middle" fill="#FFF" font-size="28" font-weight="800" font-family="Pretendard,sans-serif">800점대 (우량)</text>
+
+  <text x="290" y="410" text-anchor="middle" fill="#86EFAC" font-size="22" font-weight="700" font-family="Pretendard,sans-serif">1금융권 · 인터넷은행</text>
+  <text x="290" y="460" text-anchor="middle" fill="#FFFFFF" font-size="48" font-weight="900" font-family="Pretendard,sans-serif">연 4~7%</text>
+  <text x="290" y="510" text-anchor="middle" fill="#94A3B8" font-size="20" font-family="Pretendard,sans-serif">우대금리 포함 시 최저 4%대</text>
+
+  <text x="290" y="560" text-anchor="middle" fill="#86EFAC" font-size="22" font-weight="700" font-family="Pretendard,sans-serif">2금융권</text>
+  <text x="290" y="600" text-anchor="middle" fill="#FFFFFF" font-size="36" font-weight="800" font-family="Pretendard,sans-serif">연 11~16%</text>
+
+  <!-- 700점 Card -->
+  <rect x="560" y="300" width="460" height="340" rx="20" fill="#1E293B" stroke="#F59E0B" stroke-width="2"/>
+  <rect x="560" y="300" width="460" height="60" rx="20" fill="#F59E0B"/>
+  <rect x="560" y="340" width="460" height="20" fill="#F59E0B"/>
+  <text x="790" y="340" text-anchor="middle" fill="#FFF" font-size="28" font-weight="800" font-family="Pretendard,sans-serif">700점대 (일반/중저)</text>
+
+  <text x="790" y="410" text-anchor="middle" fill="#FDE68A" font-size="22" font-weight="700" font-family="Pretendard,sans-serif">1금융권 · 인터넷은행</text>
+  <text x="790" y="460" text-anchor="middle" fill="#FFFFFF" font-size="48" font-weight="900" font-family="Pretendard,sans-serif">연 7~11%</text>
+  <text x="790" y="510" text-anchor="middle" fill="#94A3B8" font-size="20" font-family="Pretendard,sans-serif">우대 적용 후에도 8% 선</text>
+
+  <text x="790" y="560" text-anchor="middle" fill="#FDE68A" font-size="22" font-weight="700" font-family="Pretendard,sans-serif">2금융권</text>
+  <text x="790" y="600" text-anchor="middle" fill="#FFFFFF" font-size="36" font-weight="800" font-family="Pretendard,sans-serif">연 14~18%</text>
+
+  <!-- Bottom highlight -->
+  <rect x="60" y="680" width="960" height="120" rx="16" fill="#B45309" opacity="0.15"/>
+  <rect x="60" y="680" width="960" height="120" rx="16" stroke="#D97706" stroke-width="2" fill="none"/>
+  <text x="540" y="725" text-anchor="middle" fill="#FDE68A" font-size="26" font-weight="800" font-family="Pretendard,sans-serif">1억 원 · 5년 대출 기준 총 이자 차이</text>
+  <text x="540" y="775" text-anchor="middle" fill="#FFFFFF" font-size="48" font-weight="900" font-family="Pretendard,sans-serif">약 840만 원</text>
+
+  <!-- KCB/NICE Info -->
+  <rect x="60" y="840" width="460" height="100" rx="16" fill="#1E293B"/>
+  <text x="290" y="880" text-anchor="middle" fill="#94A3B8" font-size="20" font-weight="600" font-family="Pretendard,sans-serif">KCB 핵심 평가</text>
+  <text x="290" y="918" text-anchor="middle" fill="#FFFFFF" font-size="26" font-weight="800" font-family="Pretendard,sans-serif">신용 거래 형태 38%</text>
+
+  <rect x="560" y="840" width="460" height="100" rx="16" fill="#1E293B"/>
+  <text x="790" y="880" text-anchor="middle" fill="#94A3B8" font-size="20" font-weight="600" font-family="Pretendard,sans-serif">NICE 핵심 평가</text>
+  <text x="790" y="918" text-anchor="middle" fill="#FFFFFF" font-size="26" font-weight="800" font-family="Pretendard,sans-serif">상환 이력 30.6%</text>
+
+  <!-- Chips -->
+  <rect x="300" y="980" width="100" height="36" rx="18" fill="#FEF3C7"/>
+  <text x="350" y="1004" text-anchor="middle" fill="#92400E" font-size="17" font-weight="700" font-family="Pretendard,sans-serif">비교</text>
+  <rect x="420" y="980" width="100" height="36" rx="18" fill="#FEF3C7"/>
+  <text x="470" y="1004" text-anchor="middle" fill="#92400E" font-size="17" font-weight="700" font-family="Pretendard,sans-serif">금리</text>
+  <rect x="540" y="980" width="100" height="36" rx="18" fill="#FEF3C7"/>
+  <text x="590" y="1004" text-anchor="middle" fill="#92400E" font-size="17" font-weight="700" font-family="Pretendard,sans-serif">전략</text>
+  <rect x="660" y="980" width="130" height="36" rx="18" fill="#FEF3C7"/>
+  <text x="725" y="1004" text-anchor="middle" fill="#92400E" font-size="17" font-weight="700" font-family="Pretendard,sans-serif">신용점수</text>
+
+  <!-- Footer -->
+  <text x="540" y="1055" text-anchor="middle" fill="#64748B" font-size="16" font-family="Pretendard,sans-serif">essencial | 2026년 4월 기준</text>
+</svg>

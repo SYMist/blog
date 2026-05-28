@@ -1,0 +1,39 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="#F8FAFC"/>
+
+  <!-- Card -->
+  <g filter="url(#shadow)">
+    <rect x="70" y="70" width="940" height="940" rx="24" fill="#FFFFFF" stroke="#E5E7EB"/>
+  </g>
+
+  <!-- Header -->
+  <text x="120" y="170" font-size="48" fill="#111827" font-weight="800" font-family="Pretendard, 'Noto Sans KR', sans-serif">대환대출 체크리스트</text>
+  <text x="120" y="230" font-size="28" fill="#6B7280" font-weight="600" font-family="Pretendard, 'Noto Sans KR', sans-serif">신청 전 1분 점검</text>
+
+  <!-- Divider -->
+  <line x1="120" y1="270" x2="960" y2="270" stroke="#E5E7EB"/>
+
+  <!-- Checklist Items -->
+  <g font-family="Pretendard, 'Noto Sans KR', sans-serif" fill="#111827" font-size="30">
+    <text x="170" y="360">□ 7% 이상 고금리 대출 보유</text>
+    <text x="170" y="430">□ 신용점수/연체 이력 점검</text>
+    <text x="170" y="500">□ 세금·사회보험 체납 없음</text>
+    <text x="170" y="570">□ 지원대상 확인서 발급 준비</text>
+    <text x="170" y="640">□ 취급은행 방문 일정 확인</text>
+    <text x="170" y="710">□ 필수 서류 최신본 확보</text>
+    <text x="170" y="780">□ 폐업 예정 여부 확인(별도 프로그램)</text>
+  </g>
+
+  <!-- Footer Note -->
+  <rect x="120" y="840" width="840" height="90" rx="12" fill="#F1F5F9"/>
+  <text x="150" y="895" font-size="24" fill="#4B5563" font-family="Pretendard, 'Noto Sans KR', sans-serif">
+    접수 초기에 신청하면 승인 가능성↑
+  </text>
+</svg>

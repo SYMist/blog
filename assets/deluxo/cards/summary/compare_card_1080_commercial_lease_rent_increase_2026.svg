@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- 타이틀 -->
+  <rect x="60" y="54" width="960" height="100" rx="16" fill="#0D2347"/>
+  <text x="540" y="100" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="32" font-weight="800" fill="#F59E0B" text-anchor="middle">상가임대차 핵심 권리 비교</text>
+  <text x="540" y="138" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="28" font-weight="700" fill="#FFFFFF" text-anchor="middle">임대료 5% vs 갱신청구권 10년 vs 권리금 보호</text>
+
+  <!-- 헤더 -->
+  <rect x="60" y="176" width="960" height="52" rx="0" fill="#1A3270"/>
+  <text x="250" y="210" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="700" fill="#A0B4D0" text-anchor="middle">권리 종류</text>
+  <text x="520" y="210" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="700" fill="#A0B4D0" text-anchor="middle">환산보증금 기준 이하</text>
+  <text x="850" y="210" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="700" fill="#A0B4D0" text-anchor="middle">환산보증금 기준 초과</text>
+  <rect x="360" y="176" width="2" height="52" fill="#0B1F3B"/>
+  <rect x="670" y="176" width="2" height="52" fill="#0B1F3B"/>
+
+  <!-- 행 1: 임대료 인상 한도 -->
+  <rect x="60" y="228" width="960" height="120" rx="0" fill="#0D2347"/>
+  <text x="250" y="278" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="700" fill="#FFFFFF" text-anchor="middle">임대료 인상 한도</text>
+  <text x="250" y="308" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">(제11조)</text>
+  <text x="520" y="270" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="34" font-weight="900" fill="#34D399" text-anchor="middle">연 5% 이내</text>
+  <text x="520" y="306" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">인상 후 1년 이내 재차 불가</text>
+  <text x="850" y="270" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="28" font-weight="800" fill="#EF4444" text-anchor="middle">상한 없음</text>
+  <text x="850" y="306" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">당사자 자유 협의</text>
+  <rect x="360" y="228" width="2" height="120" fill="#1A3270"/>
+  <rect x="670" y="228" width="2" height="120" fill="#1A3270"/>
+
+  <!-- 행 2: 계약갱신청구권 -->
+  <rect x="60" y="348" width="960" height="120" rx="0" fill="#102A56"/>
+  <text x="250" y="398" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="700" fill="#FFFFFF" text-anchor="middle">계약갱신청구권</text>
+  <text x="250" y="428" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">(제10조)</text>
+  <text x="520" y="390" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="28" font-weight="800" fill="#34D399" text-anchor="middle">✅ 10년 보장</text>
+  <text x="520" y="422" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">만료 6개월~1개월 전 행사</text>
+  <text x="850" y="390" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="28" font-weight="800" fill="#34D399" text-anchor="middle">✅ 10년 보장</text>
+  <text x="850" y="422" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">동일하게 적용</text>
+  <rect x="360" y="348" width="2" height="120" fill="#0B1F3B"/>
+  <rect x="670" y="348" width="2" height="120" fill="#0B1F3B"/>
+
+  <!-- 행 3: 권리금 보호 -->
+  <rect x="60" y="468" width="960" height="120" rx="0" fill="#0D2347"/>
+  <text x="250" y="518" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="700" fill="#FFFFFF" text-anchor="middle">권리금 보호</text>
+  <text x="250" y="548" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">(제10조의4)</text>
+  <text x="520" y="510" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="800" fill="#34D399" text-anchor="middle">✅ 방해 금지</text>
+  <text x="520" y="542" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">소멸시효 임대차 종료 후 3년</text>
+  <text x="850" y="510" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="800" fill="#34D399" text-anchor="middle">✅ 동일 보호</text>
+  <text x="850" y="542" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">동일하게 적용</text>
+  <rect x="360" y="468" width="2" height="120" fill="#1A3270"/>
+  <rect x="670" y="468" width="2" height="120" fill="#1A3270"/>
+
+  <!-- 행 4: 묵시적 갱신 -->
+  <rect x="60" y="588" width="960" height="120" rx="0" fill="#102A56"/>
+  <text x="250" y="638" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="700" fill="#FFFFFF" text-anchor="middle">묵시적 갱신</text>
+  <text x="520" y="626" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="800" fill="#FFFFFF" text-anchor="middle">1년 자동 갱신</text>
+  <text x="520" y="656" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">임차인 해지 통지 → 3개월 후 효력</text>
+  <text x="850" y="626" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="800" fill="#FFFFFF" text-anchor="middle">동일 적용</text>
+  <text x="850" y="656" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">동일하게 적용</text>
+  <rect x="360" y="588" width="2" height="120" fill="#0B1F3B"/>
+  <rect x="670" y="588" width="2" height="120" fill="#0B1F3B"/>
+
+  <!-- 테두리 -->
+  <rect x="60" y="176" width="960" height="532" fill="none" stroke="#1A3270" stroke-width="2"/>
+
+  <!-- 결론 박스 -->
+  <rect x="60" y="730" width="960" height="100" rx="16" fill="#1A3270"/>
+  <text x="540" y="774" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="800" fill="#34D399" text-anchor="middle">✅ 환산보증금 초과 상가라도</text>
+  <text x="540" y="812" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="26" fill="#FFFFFF" text-anchor="middle">갱신·묵시적 갱신·권리금 보호는 동일하게 주장할 수 있습니다</text>
+
+  <!-- 출처 -->
+  <text x="540" y="930" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#4A6080" text-anchor="middle">상가건물 임대차보호법 제10조·제10조의4·제11조 · 2026년 5월 기준 · deluxo</text>
+</svg>

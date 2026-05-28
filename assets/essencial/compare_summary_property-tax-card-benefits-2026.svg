@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1500" fill="url(#bg)"/>
+
+  <rect x="60" y="50" width="300" height="40" rx="20" fill="#B45309"/>
+  <text x="210" y="77" text-anchor="middle" fill="#FFFFFF" font-size="17" font-weight="800" font-family="sans-serif">2026 재산세 7월 카드 납부 혜택</text>
+
+  <text x="60" y="155" fill="#FFFFFF" font-size="44" font-weight="800" font-family="sans-serif">카드 vs 캐시백 한눈에</text>
+  <text x="60" y="200" fill="#FCD34D" font-size="22" font-weight="600" font-family="sans-serif">7.16 ~ 7.31 · 수수료 0원 · 최대 2% 캐시백</text>
+
+  <!-- 4 key cards -->
+  <rect x="60" y="240" width="260" height="180" rx="16" fill="url(#card)" stroke="#B45309" stroke-width="2"/>
+  <text x="190" y="285" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="700" font-family="sans-serif">납부 기간</text>
+  <text x="190" y="340" text-anchor="middle" fill="#FFFFFF" font-size="36" font-weight="800" font-family="sans-serif">7.16 ~ 7.31</text>
+  <text x="190" y="370" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="600" font-family="sans-serif">1기분 · 주택 1/2</text>
+  <text x="190" y="395" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">2기 9.16~9.30</text>
+
+  <rect x="340" y="240" width="260" height="180" rx="16" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="470" y="285" text-anchor="middle" fill="#86EFAC" font-size="15" font-weight="700" font-family="sans-serif">카드 수수료</text>
+  <text x="470" y="340" text-anchor="middle" fill="#FFFFFF" font-size="44" font-weight="800" font-family="sans-serif">0 원</text>
+  <text x="470" y="370" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="600" font-family="sans-serif">전액 지자체 부담</text>
+  <text x="470" y="395" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">국세는 0.5~0.8%</text>
+
+  <rect x="620" y="240" width="260" height="180" rx="16" fill="url(#card)" stroke="#B45309" stroke-width="2"/>
+  <text x="750" y="285" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="700" font-family="sans-serif">최고 캐시백</text>
+  <text x="750" y="340" text-anchor="middle" fill="#FFFFFF" font-size="40" font-weight="800" font-family="sans-serif">최대 2%</text>
+  <text x="750" y="370" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="600" font-family="sans-serif">롯데 LOCA Pro</text>
+  <text x="750" y="395" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">40만 → 8,000원</text>
+
+  <rect x="900" y="240" width="240" height="180" rx="16" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="1020" y="285" text-anchor="middle" fill="#86EFAC" font-size="15" font-weight="700" font-family="sans-serif">소액 최고 효율</text>
+  <text x="1020" y="340" text-anchor="middle" fill="#FFFFFF" font-size="36" font-weight="800" font-family="sans-serif">7,000 원</text>
+  <text x="1020" y="370" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="600" font-family="sans-serif">KB 직장인보너스</text>
+  <text x="1020" y="395" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">정액 할인 (체크)</text>
+
+  <!-- 카드사별 캐시백 바 차트 -->
+  <text x="60" y="475" fill="#FFFFFF" font-size="26" font-weight="800" font-family="sans-serif">40만 원 납부 시 카드별 실제 수령액</text>
+  <text x="60" y="503" fill="#94A3B8" font-size="14" font-family="sans-serif">확정 캐시백 기준 — 이벤트성·무이자 할부는 별도 산정</text>
+
+  <g font-family="sans-serif">
+    <text x="60" y="545" fill="#FFFFFF" font-size="16" font-weight="700">롯데 LOCA Pro</text>
+    <rect x="260" y="528" width="340" height="22" rx="4" fill="#86EFAC"/>
+    <text x="620" y="545" fill="#86EFAC" font-size="15" font-weight="700">최대 8,000원 (2%)</text>
+
+    <text x="60" y="585" fill="#FFFFFF" font-size="16" font-weight="700">KB 직장인보너스</text>
+    <rect x="260" y="568" width="295" height="22" rx="4" fill="#86EFAC"/>
+    <text x="575" y="585" fill="#86EFAC" font-size="15" font-weight="700">7,000원 (정액)</text>
+
+    <text x="60" y="625" fill="#FFFFFF" font-size="16" font-weight="700">삼성카드</text>
+    <rect x="260" y="608" width="85" height="22" rx="4" fill="#FCD34D"/>
+    <text x="365" y="625" fill="#FCD34D" font-size="15" font-weight="700">2,000원 (0.5%)</text>
+
+    <text x="60" y="665" fill="#FFFFFF" font-size="16" font-weight="700">KB국민 (일반)</text>
+    <rect x="260" y="648" width="35" height="22" rx="4" fill="#F59E0B"/>
+    <text x="315" y="665" fill="#FCD34D" font-size="15" font-weight="700">800원 (0.2%)</text>
+
+    <text x="60" y="705" fill="#FFFFFF" font-size="16" font-weight="700">신한 체크</text>
+    <rect x="260" y="688" width="17" height="22" rx="4" fill="#F59E0B"/>
+    <text x="297" y="705" fill="#FCD34D" font-size="15" font-weight="700">400원 (0.1%)</text>
+
+    <text x="60" y="745" fill="#FFFFFF" font-size="16" font-weight="700">BC 머니박스</text>
+    <rect x="260" y="728" width="210" height="22" rx="4" fill="#92400E"/>
+    <text x="490" y="745" fill="#FCA5A5" font-size="15" font-weight="700">3,000 ~ 50,000원 (추첨)</text>
+
+    <text x="60" y="785" fill="#FCD34D" font-size="14" font-weight="700">※ 실효 수익률 순: 롯데 2% > KB정액 1.75% > 삼성 0.5% > KB일반 0.2% > 신한 0.1%</text>
+  </g>
+
+  <!-- 무이자 할부 요약 카드 -->
+  <rect x="60" y="820" width="540" height="310" rx="16" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="80" y="860" fill="#86EFAC" font-size="22" font-weight="800" font-family="sans-serif">▸ 확정 캐시백 (즉시 할인)</text>
+
+  <g font-family="sans-serif">
+    <text x="80" y="900" fill="#CBD5E1" font-size="14">롯데 LOCA Pro</text>
+    <text x="580" y="900" text-anchor="end" fill="#FFFFFF" font-size="15" font-weight="700">최대 2% · 분할 기능</text>
+
+    <text x="80" y="930" fill="#CBD5E1" font-size="14">삼성카드</text>
+    <text x="580" y="930" text-anchor="end" fill="#86EFAC" font-size="15" font-weight="700">0.5% (조건부)</text>
+
+    <text x="80" y="960" fill="#CBD5E1" font-size="14">KB국민카드</text>
+    <text x="580" y="960" text-anchor="end" fill="#FFFFFF" font-size="16" font-weight="800">0.2% (월 1만 한도)</text>
+
+    <text x="80" y="990" fill="#CBD5E1" font-size="14">KB 직장인보너스 체크</text>
+    <text x="580" y="990" text-anchor="end" fill="#86EFAC" font-size="16" font-weight="800">7,000원 정액</text>
+
+    <text x="80" y="1020" fill="#CBD5E1" font-size="14">신한 체크</text>
+    <text x="580" y="1020" text-anchor="end" fill="#86EFAC" font-size="14">0.1% 현금 캐시백</text>
+
+    <text x="80" y="1050" fill="#CBD5E1" font-size="14">BC카드 머니박스</text>
+    <text x="580" y="1050" text-anchor="end" fill="#FFFFFF" font-size="14">30만 이상 이벤트</text>
+  </g>
+  <text x="80" y="1110" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">✓ 현금 할인 효과 확실 · 자금 여유 있을 때 최우선</text>
+
+  <rect x="620" y="820" width="520" height="310" rx="16" fill="url(#card)" stroke="#FCD34D" stroke-width="2"/>
+  <text x="640" y="860" fill="#FCD34D" font-size="22" font-weight="800" font-family="sans-serif">▸ 무이자 할부 (현금흐름 이연)</text>
+
+  <g font-family="sans-serif">
+    <text x="640" y="900" fill="#CBD5E1" font-size="14">NH농협카드</text>
+    <text x="1120" y="900" text-anchor="end" fill="#FFFFFF" font-size="15" font-weight="700">2~6개월 (5만↑)</text>
+
+    <text x="640" y="930" fill="#CBD5E1" font-size="14">BC카드</text>
+    <text x="1120" y="930" text-anchor="end" fill="#86EFAC" font-size="15" font-weight="700">2~3개월 (5만↑)</text>
+
+    <text x="640" y="960" fill="#CBD5E1" font-size="14">하나카드</text>
+    <text x="1120" y="960" text-anchor="end" fill="#FFFFFF" font-size="16" font-weight="800">2~7개월</text>
+
+    <text x="640" y="990" fill="#CBD5E1" font-size="14">롯데·KB·우리·현대</text>
+    <text x="1120" y="990" text-anchor="end" fill="#FFFFFF" font-size="16" font-weight="800">2~6개월</text>
+
+    <text x="640" y="1020" fill="#CBD5E1" font-size="14">삼성카드</text>
+    <text x="1120" y="1020" text-anchor="end" fill="#FFFFFF" font-size="14">2~5개월</text>
+
+    <text x="640" y="1050" fill="#CBD5E1" font-size="14">신한 슬림할부</text>
+    <text x="1120" y="1050" text-anchor="end" fill="#FFFFFF" font-size="14">6·10·12개월 (5만↑)</text>
+  </g>
+  <text x="640" y="1110" fill="#FCA5A5" font-size="14" font-weight="700" font-family="sans-serif">⚠ 50만 6개월 무이자 환산 이익 약 1~2만 · 직접 할인 아님</text>
+
+  <!-- 2026 재산세 과세 기준 요약 -->
+  <rect x="60" y="1160" width="1080" height="200" rx="16" fill="url(#card)" stroke="#B45309" stroke-width="2"/>
+  <text x="80" y="1200" fill="#FCD34D" font-size="22" font-weight="800" font-family="sans-serif">2026 재산세 핵심 기준 (납부 전 체크)</text>
+
+  <g font-family="sans-serif">
+    <text x="80" y="1240" fill="#FFFFFF" font-size="16" font-weight="700">주택분 20만 이하</text>
+    <text x="570" y="1240" text-anchor="end" fill="#86EFAC" font-size="18" font-weight="800">7월 일괄 납부</text>
+
+    <text x="80" y="1275" fill="#FFFFFF" font-size="16" font-weight="700">세액 250만 초과</text>
+    <text x="570" y="1275" text-anchor="end" fill="#86EFAC" font-size="18" font-weight="800">2개월 분납 신청</text>
+
+    <text x="600" y="1240" fill="#FFFFFF" font-size="16" font-weight="700">공정시장가액비율 (1주택)</text>
+    <text x="1120" y="1240" text-anchor="end" fill="#FCD34D" font-size="16" font-weight="800">43% · 44% · 45%</text>
+
+    <text x="600" y="1275" fill="#FFFFFF" font-size="16" font-weight="700">과세표준 상한제</text>
+    <text x="1120" y="1275" text-anchor="end" fill="#86EFAC" font-size="16" font-weight="800">전년 대비 +5%</text>
+
+    <text x="80" y="1325" fill="#FCA5A5" font-size="14" font-weight="700">→ 미납 시 가산금 3% + 매월 0.75% (최대 60개월 · 총 최대 48%)</text>
+  </g>
+
+  <text x="60" y="1420" fill="#64748B" font-size="14" font-family="sans-serif">essencial | 대출·금융 silo · 자료: 위택스·ETAX·행정안전부·카드사 공식 (2026.04 기준)</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="tbg" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#tbg)"/>
+
+  <rect x="390" y="200" width="300" height="52" rx="26" fill="#1E40AF"/>
+  <text x="540" y="233" font-family="sans-serif" font-size="24" font-weight="800" fill="#FFF" text-anchor="middle">2026 환급 가이드</text>
+
+  <text x="540" y="370" font-family="sans-serif" font-size="58" font-weight="900" fill="#FFFFFF" text-anchor="middle">경차 유류세 환급</text>
+  <text x="540" y="450" font-family="sans-serif" font-size="52" font-weight="900" fill="#FFFFFF" text-anchor="middle">신청·대상·환급액</text>
+
+  <text x="540" y="540" font-family="sans-serif" font-size="32" fill="#E2E8F0" text-anchor="middle">연간 최대 30만 원 · 카드 3사 비교</text>
+
+  <rect x="190" y="630" width="130" height="48" rx="24" fill="#DBEAFE"/>
+  <text x="255" y="661" font-family="sans-serif" font-size="20" font-weight="700" fill="#1E40AF" text-anchor="middle">환급대상</text>
+  <rect x="340" y="630" width="130" height="48" rx="24" fill="#DBEAFE"/>
+  <text x="405" y="661" font-family="sans-serif" font-size="20" font-weight="700" fill="#1E40AF" text-anchor="middle">신청방법</text>
+  <rect x="490" y="630" width="130" height="48" rx="24" fill="#DBEAFE"/>
+  <text x="555" y="661" font-family="sans-serif" font-size="20" font-weight="700" fill="#1E40AF" text-anchor="middle">환급액</text>
+  <rect x="640" y="630" width="130" height="48" rx="24" fill="#DBEAFE"/>
+  <text x="705" y="661" font-family="sans-serif" font-size="20" font-weight="700" fill="#1E40AF" text-anchor="middle">카드비교</text>
+  <rect x="790" y="630" width="130" height="48" rx="24" fill="#DBEAFE"/>
+  <text x="855" y="661" font-family="sans-serif" font-size="20" font-weight="700" fill="#1E40AF" text-anchor="middle">추가혜택</text>
+
+  <text x="540" y="820" font-family="sans-serif" font-size="22" fill="#94A3B8" text-anchor="middle">휘발유·경유 250원/L | LPG 161원/L</text>
+  <text x="540" y="860" font-family="sans-serif" font-size="22" fill="#94A3B8" text-anchor="middle">경차사랑카드 신한·현대·롯데 3사 비교</text>
+</svg>

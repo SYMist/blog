@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="700" fill="url(#bg)"/>
+
+  <text x="540" y="46" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">비만약 4종 BMI·예산별 추천 시나리오</text>
+  <text x="540" y="70" text-anchor="middle" fill="#99F6E4" font-size="13" font-family="sans-serif">효과·가격·주사 거부감별 5종 · 2026.05</text>
+
+  <rect x="40" y="90" width="480" height="116" rx="10" fill="#4c1d95" fill-opacity="0.6" stroke="#7C3AED" stroke-width="1.5"/>
+  <rect x="40" y="90" width="480" height="36" rx="10" fill="#7C3AED"/>
+  <rect x="40" y="112" width="480" height="14" fill="#7C3AED"/>
+  <text x="60" y="114" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">A. BMI 35+ 고도비만 + 효과 최우선</text>
+  <text x="60" y="148" fill="#DDD6FE" font-size="13" font-weight="700" font-family="sans-serif">→ 마운자로 (-20.2%·SURMOUNT-5 임상 1위)</text>
+  <text x="60" y="170" fill="#CBD5E1" font-size="12" font-family="sans-serif">GLP-1 + GIP 이중작용 · 부작용 18%로 낮음</text>
+  <text x="60" y="192" fill="#CBD5E1" font-size="12" font-family="sans-serif">월 28~80만원 · 1년 600~900만원 예산 필요</text>
+
+  <rect x="560" y="90" width="480" height="116" rx="10" fill="#134E4A" fill-opacity="0.6" stroke="#0F766E" stroke-width="1.5"/>
+  <rect x="560" y="90" width="480" height="36" rx="10" fill="#0F766E"/>
+  <rect x="560" y="112" width="480" height="14" fill="#0F766E"/>
+  <text x="580" y="114" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">B. BMI 30~35 + 가성비 + 검증된 약</text>
+  <text x="580" y="148" fill="#99F6E4" font-size="13" font-weight="700" font-family="sans-serif">→ 위고비 (-14.9%·시장 점유 60%)</text>
+  <text x="580" y="170" fill="#CBD5E1" font-size="12" font-family="sans-serif">월 23~39만 · 주 1회 · 가격·효과·편의성 균형</text>
+  <text x="580" y="192" fill="#CBD5E1" font-size="12" font-family="sans-serif">임상 데이터·처방 경험 가장 풍부</text>
+
+  <rect x="40" y="226" width="480" height="116" rx="10" fill="#14532d" fill-opacity="0.6" stroke="#15803D" stroke-width="1.5"/>
+  <rect x="40" y="226" width="480" height="36" rx="10" fill="#15803D"/>
+  <rect x="40" y="248" width="480" height="14" fill="#15803D"/>
+  <text x="60" y="250" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">C. 주사 거부 + 가격 부담</text>
+  <text x="60" y="284" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">→ 큐시미아 경구 (-14.4%·월 15만원)</text>
+  <text x="60" y="306" fill="#CBD5E1" font-size="12" font-family="sans-serif">유일한 경구 캡슐 · 주사 부담 없음</text>
+  <text x="60" y="328" fill="#CBD5E1" font-size="12" font-family="sans-serif">녹내장·우울증 금기 · 안과 검진 필수</text>
+
+  <rect x="560" y="226" width="480" height="116" rx="10" fill="#422006" fill-opacity="0.6" stroke="#D97706" stroke-width="1.5"/>
+  <rect x="560" y="226" width="480" height="36" rx="10" fill="#D97706"/>
+  <rect x="560" y="248" width="480" height="14" fill="#D97706"/>
+  <text x="580" y="250" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">D. BMI 27~30 + 가벼운 시작</text>
+  <text x="580" y="284" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">→ 삭센다 (월 7~15만원·최저가)</text>
+  <text x="580" y="306" fill="#CBD5E1" font-size="12" font-family="sans-serif">효과는 -7.5%로 가장 약함 · 매일 주사 부담</text>
+  <text x="580" y="328" fill="#CBD5E1" font-size="12" font-family="sans-serif">가벼운 비만에 충분 · GLP-1 검증 약물</text>
+
+  <rect x="40" y="362" width="1000" height="116" rx="10" fill="#4c1d95" fill-opacity="0.6" stroke="#7C3AED" stroke-width="1.5"/>
+  <rect x="40" y="362" width="1000" height="36" rx="10" fill="#7C3AED"/>
+  <rect x="40" y="384" width="1000" height="14" fill="#7C3AED"/>
+  <text x="60" y="386" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">E. 당뇨 동반 비만</text>
+  <text x="60" y="420" fill="#DDD6FE" font-size="13" font-weight="700" font-family="sans-serif">→ 마운자로 (혈당 + 체중 동시 개선, GIP+GLP-1)</text>
+  <text x="60" y="442" fill="#CBD5E1" font-size="12" font-family="sans-serif">2형 당뇨 적응증으로는 보험 적용 가능한 경우 있음</text>
+  <text x="60" y="464" fill="#CBD5E1" font-size="12" font-family="sans-serif">비만 적응증은 비급여 · 의사 상담 후 처방 적응증 결정</text>
+
+  <rect x="40" y="496" width="1000" height="176" rx="10" fill="#1e293b" fill-opacity="0.8"/>
+  <text x="540" y="528" text-anchor="middle" fill="#F8FAFC" font-size="14" font-weight="800" font-family="sans-serif">핵심 결론 3줄 요약</text>
+  <text x="80" y="562" fill="#DDD6FE" font-size="13" font-weight="700" font-family="sans-serif">효과 최강 + 부작용 적음</text>
+  <text x="290" y="562" fill="#FFFFFF" font-size="13" font-family="sans-serif">→ 마운자로 (BMI 35+ · 월 28~80만)</text>
+  <text x="80" y="594" fill="#99F6E4" font-size="13" font-weight="700" font-family="sans-serif">가성비 + 시장 1위</text>
+  <text x="290" y="594" fill="#FFFFFF" font-size="13" font-family="sans-serif">→ 위고비 (BMI 30~35 · 월 23~39만)</text>
+  <text x="80" y="626" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">주사 거부 + 저비용</text>
+  <text x="290" y="626" fill="#FFFFFF" font-size="13" font-family="sans-serif">→ 큐시미아 경구 (월 15만·향정신성 부작용 주의)</text>
+  <text x="80" y="654" fill="#FCD34D" font-size="12" font-weight="700" font-family="sans-serif">⚠️ 4종 모두 비대면 처방 금지 (2024.12.02~) · 의사 상담 후 결정 · 약물 중단 시 1년 내 요요 위험</text>
+
+  <text x="40" y="686" fill="#64748B" font-size="12" font-family="sans-serif">essencial | 건강·의료 · 2026.05 기준 · 의료 자문 아님 · 비급여 전문의약품 · 의사 처방 필수</text>
+</svg>

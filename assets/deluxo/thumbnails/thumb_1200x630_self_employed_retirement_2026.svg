@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="1080" cy="130" r="160" fill="#F59E0B" opacity="0.05"/>
+  <circle cx="120" cy="530" r="120" fill="#34D399" opacity="0.05"/>
+
+  <!-- Top bar -->
+  <rect x="0" y="0" width="1200" height="8" fill="#F59E0B"/>
+
+  <!-- Chips -->
+  <rect x="60" y="42" width="148" height="38" rx="19" fill="#F59E0B"/>
+  <text x="134" y="67" font-family="-apple-system, sans-serif" font-size="17" font-weight="800" fill="#0B1F3B" text-anchor="middle">2026 최신</text>
+
+  <rect x="222" y="42" width="232" height="38" rx="19" fill="#1A3270"/>
+  <rect x="222" y="42" width="232" height="38" rx="19" fill="none" stroke="#34D399" stroke-width="1.5"/>
+  <text x="338" y="67" font-family="-apple-system, sans-serif" font-size="17" font-weight="700" fill="#34D399" text-anchor="middle">연간 238만원 절세</text>
+
+  <rect x="468" y="42" width="192" height="38" rx="19" fill="#1A3270"/>
+  <rect x="468" y="42" width="192" height="38" rx="19" fill="none" stroke="#F59E0B" stroke-width="1.5"/>
+  <text x="564" y="67" font-family="-apple-system, sans-serif" font-size="17" font-weight="700" fill="#F59E0B" text-anchor="middle">3축 통합 전략</text>
+
+  <!-- Main title -->
+  <text x="60" y="174" font-family="-apple-system, sans-serif" font-size="60" font-weight="900" fill="#FFFFFF">자영업자 노후 3축 설계</text>
+  <text x="60" y="228" font-family="-apple-system, sans-serif" font-size="25" font-weight="700" fill="#A0B4D0">노란우산+IRP+국민연금 통합 절세 전략 (2026)</text>
+
+  <!-- Divider -->
+  <line x1="60" y1="258" x2="1140" y2="258" stroke="#1A3270" stroke-width="2"/>
+
+  <!-- 3 pillar boxes + total -->
+  <rect x="60" y="278" width="258" height="172" rx="16" fill="#0D2347"/>
+  <text x="189" y="330" font-family="-apple-system, sans-serif" font-size="17" font-weight="700" fill="#F59E0B" text-anchor="middle">노란우산공제</text>
+  <text x="189" y="382" font-family="-apple-system, sans-serif" font-size="42" font-weight="900" fill="#FFFFFF" text-anchor="middle">~90만원</text>
+  <text x="189" y="430" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">소득공제 · 4,000만원↓ 기준</text>
+
+  <rect x="336" y="278" width="258" height="172" rx="16" fill="#0D2347"/>
+  <text x="465" y="330" font-family="-apple-system, sans-serif" font-size="17" font-weight="700" fill="#34D399" text-anchor="middle">IRP+연금저축</text>
+  <text x="465" y="382" font-family="-apple-system, sans-serif" font-size="42" font-weight="900" fill="#FFFFFF" text-anchor="middle">~148만원</text>
+  <text x="465" y="430" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">세액공제 · 900만원 한도</text>
+
+  <text x="650" y="376" font-family="-apple-system, sans-serif" font-size="54" font-weight="900" fill="#F59E0B" text-anchor="middle">+</text>
+
+  <rect x="712" y="278" width="428" height="172" rx="16" fill="#1A3270"/>
+  <rect x="712" y="278" width="428" height="172" rx="16" fill="none" stroke="#34D399" stroke-width="2"/>
+  <text x="926" y="330" font-family="-apple-system, sans-serif" font-size="17" font-weight="700" fill="#34D399" text-anchor="middle">연간 합산 절세</text>
+  <text x="926" y="398" font-family="-apple-system, sans-serif" font-size="68" font-weight="900" fill="#34D399" text-anchor="middle">238만원</text>
+  <text x="926" y="436" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">소득공제 + 세액공제 동시 수령</text>
+
+  <!-- Bottom note -->
+  <text x="600" y="592" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준 | 개인 소득 상황에 따라 실제 절세액 상이 | 세무사 상담 권장</text>
+  <rect x="0" y="622" width="1200" height="8" fill="#F59E0B"/>
+</svg>

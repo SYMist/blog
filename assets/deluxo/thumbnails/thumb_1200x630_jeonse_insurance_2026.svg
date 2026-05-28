@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)" rx="24"/>
+
+  <rect x="430" y="80" width="340" height="50" rx="25" fill="#F59E0B"/>
+  <text x="600" y="113" font-family="'Pretendard', sans-serif" font-size="26" font-weight="800" fill="#0B1F3B" text-anchor="middle">2026 전세보증보험</text>
+
+  <text x="600" y="240" font-family="'Pretendard', sans-serif" font-size="68" font-weight="900" fill="#FFFFFF" text-anchor="middle">HUG·SGI·HF 가입·반환 청구</text>
+
+  <text x="600" y="330" font-family="'Pretendard', sans-serif" font-size="40" font-weight="600" fill="#EAF2FF" text-anchor="middle">3대 기관 비교 · 지원 40만 원 총정리</text>
+
+  <rect x="100" y="430" width="280" height="52" rx="24" fill="#E8F0FF"/>
+  <text x="240" y="464" font-family="'Pretendard', sans-serif" font-size="28" font-weight="700" fill="#1D4ED8" text-anchor="middle">HUG 7억</text>
+
+  <rect x="420" y="430" width="360" height="52" rx="24" fill="#E8F0FF"/>
+  <text x="600" y="464" font-family="'Pretendard', sans-serif" font-size="28" font-weight="700" fill="#1D4ED8" text-anchor="middle">요율 0.115~0.154%</text>
+
+  <rect x="820" y="430" width="280" height="52" rx="24" fill="#E8F0FF"/>
+  <text x="960" y="464" font-family="'Pretendard', sans-serif" font-size="28" font-weight="700" fill="#1D4ED8" text-anchor="middle">지원 40만</text>
+
+  <rect x="350" y="510" width="500" height="52" rx="24" fill="#F59E0B"/>
+  <text x="600" y="544" font-family="'Pretendard', sans-serif" font-size="28" font-weight="700" fill="#0B1F3B" text-anchor="middle">임대인 의무화 · 이행청구 2개월 내</text>
+</svg>

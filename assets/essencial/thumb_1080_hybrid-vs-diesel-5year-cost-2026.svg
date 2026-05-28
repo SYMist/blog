@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <rect x="60" y="60" width="340" height="44" rx="22" fill="#1E40AF"/>
+  <text x="230" y="90" text-anchor="middle" fill="#FFFFFF" font-size="19" font-weight="800" font-family="sans-serif">2026 하이브리드 vs 디젤</text>
+
+  <text x="60" y="200" fill="#FFFFFF" font-size="64" font-weight="800" font-family="sans-serif">5년 보유 시</text>
+  <text x="60" y="280" fill="#93C5FD" font-size="68" font-weight="800" font-family="sans-serif">1,000만 차이</text>
+  <text x="60" y="340" fill="#FFFFFF" font-size="32" font-weight="600" font-family="sans-serif">중형 SUV 4,000만·1.5만km/年</text>
+
+  <!-- 3 key cards stacked -->
+  <rect x="60" y="400" width="960" height="180" rx="16" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="90" y="445" fill="#86EFAC" font-size="17" font-weight="700" font-family="sans-serif">하이브리드 5년 순 TCO</text>
+  <text x="90" y="510" fill="#FFFFFF" font-size="50" font-weight="800" font-family="sans-serif">3,935 만 원</text>
+  <text x="990" y="445" text-anchor="end" fill="#86EFAC" font-size="16" font-weight="600" font-family="sans-serif">잔존율 55%</text>
+  <text x="990" y="510" text-anchor="end" fill="#CBD5E1" font-size="18" font-family="sans-serif">친환경 세제 130만</text>
+  <text x="90" y="555" fill="#86EFAC" font-size="15" font-weight="700" font-family="sans-serif">도심·5년+·세제 활용 시 최적</text>
+
+  <rect x="60" y="600" width="960" height="180" rx="16" fill="url(#card)" stroke="#FCA5A5" stroke-width="2"/>
+  <text x="90" y="645" fill="#FCA5A5" font-size="17" font-weight="700" font-family="sans-serif">디젤 5년 순 TCO (+1,016만)</text>
+  <text x="90" y="710" fill="#FFFFFF" font-size="50" font-weight="800" font-family="sans-serif">4,951 만 원</text>
+  <text x="990" y="645" text-anchor="end" fill="#FCA5A5" font-size="16" font-weight="600" font-family="sans-serif">잔존율 45%</text>
+  <text x="990" y="710" text-anchor="end" fill="#CBD5E1" font-size="18" font-family="sans-serif">환경부담금 부과</text>
+  <text x="90" y="755" fill="#FCA5A5" font-size="15" font-weight="700" font-family="sans-serif">고속·견인·연 3만 km+ 시 검토</text>
+
+  <rect x="60" y="800" width="960" height="180" rx="16" fill="url(#card)" stroke="#FCD34D" stroke-width="2"/>
+  <text x="90" y="845" fill="#FCD34D" font-size="17" font-weight="700" font-family="sans-serif">친환경 세제 일몰 임박</text>
+  <text x="90" y="910" fill="#FFFFFF" font-size="50" font-weight="800" font-family="sans-serif">2026.12.31</text>
+  <text x="990" y="845" text-anchor="end" fill="#FCD34D" font-size="16" font-weight="600" font-family="sans-serif">개소세 감면 마감</text>
+  <text x="990" y="910" text-anchor="end" fill="#CBD5E1" font-size="18" font-family="sans-serif">2027 통행료 20%</text>
+  <text x="90" y="955" fill="#FCD34D" font-size="15" font-weight="700" font-family="sans-serif">2026년 내 신차 구매가 가장 유리</text>
+
+  <text x="60" y="1040" fill="#64748B" font-size="15" font-family="sans-serif">essencial | 자동차 silo · 2026.04 기준</text>
+</svg>

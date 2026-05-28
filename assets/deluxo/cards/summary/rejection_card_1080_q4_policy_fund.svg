@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#EF4444">4분기 정책자금 탈락 사유 TOP 5</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#EF4444"/>
+
+  <!-- Item 1 -->
+  <rect x="60" y="120" width="960" height="160" rx="20" fill="rgba(239,68,68,0.08)"/>
+  <rect x="90" y="140" width="56" height="56" rx="28" fill="rgba(239,68,68,0.3)"/>
+  <text x="118" y="178" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#EF4444">1</text>
+  <text x="170" y="175" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">세금 체납</text>
+  <text x="170" y="215" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#EAF2FF">국세·지방세 체납은 즉시 탈락. 4분기 납부 기한 겹침 주의.</text>
+  <text x="170" y="250" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">→ 신청 전 완납 증명서 반드시 확인</text>
+
+  <!-- Item 2 -->
+  <rect x="60" y="300" width="960" height="160" rx="20" fill="rgba(255,255,255,0.04)"/>
+  <rect x="90" y="320" width="56" height="56" rx="28" fill="rgba(239,68,68,0.3)"/>
+  <text x="118" y="358" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#EF4444">2</text>
+  <text x="170" y="355" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">중복 신청</text>
+  <text x="170" y="395" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#EAF2FF">하나의 정책자금 심사 진행 중 다른 자금 동시 신청 불가.</text>
+  <text x="170" y="430" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">→ 심사 완료 후 순차 신청해야 함</text>
+
+  <!-- Item 3 -->
+  <rect x="60" y="480" width="960" height="160" rx="20" fill="rgba(239,68,68,0.08)"/>
+  <rect x="90" y="500" width="56" height="56" rx="28" fill="rgba(239,68,68,0.3)"/>
+  <text x="118" y="538" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#EF4444">3</text>
+  <text x="170" y="535" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">서류 미비·마이데이터 미연동</text>
+  <text x="170" y="575" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#EAF2FF">가점 증빙 누락 시 우대 혜택 0원. 서류 미비 시 보완 요청 지연.</text>
+  <text x="170" y="610" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">→ 소상공인24 마이데이터 연동 + 증빙 사전 업로드</text>
+
+  <!-- Item 4 -->
+  <rect x="60" y="660" width="960" height="160" rx="20" fill="rgba(255,255,255,0.04)"/>
+  <rect x="90" y="680" width="56" height="56" rx="28" fill="rgba(239,68,68,0.3)"/>
+  <text x="118" y="718" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#EF4444">4</text>
+  <text x="170" y="715" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">업력 미달</text>
+  <text x="170" y="755" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#EAF2FF">일반경영안정자금은 업력 1년 이상 필수.</text>
+  <text x="170" y="790" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">→ 업력 1년 미만은 창업초기자금 또는 청년 전용 자금 확인</text>
+
+  <!-- Item 5 -->
+  <rect x="60" y="840" width="960" height="160" rx="20" fill="rgba(239,68,68,0.08)"/>
+  <rect x="90" y="860" width="56" height="56" rx="28" fill="rgba(239,68,68,0.3)"/>
+  <text x="118" y="898" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#EF4444">5</text>
+  <text x="170" y="895" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#FFF">접수 지연 (수 분 내 마감)</text>
+  <text x="170" y="935" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#EAF2FF">직접대출은 접수 시작 3분 내 마감. 준비 없이는 신청 불가.</text>
+  <text x="170" y="970" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">→ 공고일 캘린더 등록 + 접수 5분 전 대기 + 서류 사전 완비</text>
+
+  <rect x="60" y="1050" width="960" height="6" rx="3" fill="#EF4444"/>
+</svg>

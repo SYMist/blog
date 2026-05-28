@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="8" fill="#F59E0B"/>
+
+  <!-- Title -->
+  <text x="540" y="70" font-family="-apple-system, sans-serif" font-size="34" font-weight="900" fill="#F59E0B" text-anchor="middle">신청 소요 기간 + 절세 시뮬레이션</text>
+  <text x="540" y="108" font-family="-apple-system, sans-serif" font-size="22" font-weight="700" fill="#A0B4D0" text-anchor="middle">임대사업자 등록 — 단계별 처리 기간 정리</text>
+
+  <!-- Step flow -->
+  <!-- Step 1 -->
+  <rect x="60" y="138" width="960" height="72" rx="10" fill="#1A3270"/>
+  <rect x="60" y="138" width="6" height="72" rx="3" fill="#F59E0B"/>
+  <text x="100" y="167" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#F59E0B">STEP 1</text>
+  <text x="100" y="193" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">렌트홈 온라인 신청</text>
+  <text x="900" y="182" font-family="-apple-system, sans-serif" font-size="24" font-weight="900" fill="#34D399" text-anchor="middle">즉시</text>
+
+  <!-- Arrow -->
+  <text x="540" y="230" font-family="-apple-system, sans-serif" font-size="20" fill="#A0B4D0" text-anchor="middle">▼</text>
+
+  <!-- Step 2 -->
+  <rect x="60" y="242" width="960" height="72" rx="10" fill="#1A3270"/>
+  <rect x="60" y="242" width="6" height="72" rx="3" fill="#F59E0B"/>
+  <text x="100" y="271" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#F59E0B">STEP 2</text>
+  <text x="100" y="297" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">임대사업자등록증 발급</text>
+  <text x="900" y="286" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="middle">3~7영업일</text>
+
+  <!-- Arrow -->
+  <text x="540" y="334" font-family="-apple-system, sans-serif" font-size="20" fill="#A0B4D0" text-anchor="middle">▼</text>
+
+  <!-- Step 3 -->
+  <rect x="60" y="346" width="960" height="72" rx="10" fill="#1A3270"/>
+  <rect x="60" y="346" width="6" height="72" rx="3" fill="#F59E0B"/>
+  <text x="100" y="375" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#F59E0B">STEP 3</text>
+  <text x="100" y="401" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">임대조건 신고 완료</text>
+  <text x="900" y="386" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#EF4444" text-anchor="middle">임대 개시 전 필수</text>
+
+  <!-- Arrow -->
+  <text x="540" y="438" font-family="-apple-system, sans-serif" font-size="20" fill="#A0B4D0" text-anchor="middle">▼</text>
+
+  <!-- Step 4 -->
+  <rect x="60" y="450" width="960" height="72" rx="10" fill="#1A3270"/>
+  <rect x="60" y="450" width="6" height="72" rx="3" fill="#34D399"/>
+  <text x="100" y="479" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#34D399">STEP 4</text>
+  <text x="100" y="505" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">임대소득 신고 (홈택스)</text>
+  <text x="900" y="494" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF" text-anchor="middle">매년 5월</text>
+
+  <!-- Arrow -->
+  <text x="540" y="542" font-family="-apple-system, sans-serif" font-size="20" fill="#A0B4D0" text-anchor="middle">▼</text>
+
+  <!-- Step 5 -->
+  <rect x="60" y="554" width="960" height="72" rx="10" fill="#1A3270"/>
+  <rect x="60" y="554" width="6" height="72" rx="3" fill="#34D399"/>
+  <text x="100" y="583" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#34D399">STEP 5</text>
+  <text x="100" y="609" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">종부세 합산배제 신고 (홈택스)</text>
+  <text x="900" y="598" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#F59E0B" text-anchor="middle">매년 9월 16~30일</text>
+
+  <!-- Simulation box -->
+  <rect x="60" y="660" width="960" height="220" rx="16" fill="#0D2347"/>
+  <rect x="60" y="660" width="960" height="4" rx="2" fill="#F59E0B"/>
+  <text x="540" y="698" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#F59E0B" text-anchor="middle">절세 시뮬레이션 — 연 임대수입 2,000만원·분리과세 기준</text>
+
+  <!-- 3 columns -->
+  <text x="200" y="734" font-family="-apple-system, sans-serif" font-size="17" font-weight="700" fill="#A0B4D0" text-anchor="middle">미등록</text>
+  <text x="200" y="768" font-family="-apple-system, sans-serif" font-size="32" font-weight="900" fill="#9CA3AF" text-anchor="middle">112만원</text>
+  <text x="200" y="792" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">필요경비 50%</text>
+
+  <line x1="360" y1="724" x2="360" y2="850" stroke="#1A3270" stroke-width="2"/>
+
+  <text x="540" y="734" font-family="-apple-system, sans-serif" font-size="17" font-weight="700" fill="#34D399" text-anchor="middle">6년 등록</text>
+  <text x="540" y="768" font-family="-apple-system, sans-serif" font-size="32" font-weight="900" fill="#34D399" text-anchor="middle">약 39만원</text>
+  <text x="540" y="792" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">필요경비 60%+감면 30%</text>
+
+  <line x1="720" y1="724" x2="720" y2="850" stroke="#1A3270" stroke-width="2"/>
+
+  <text x="900" y="734" font-family="-apple-system, sans-serif" font-size="17" font-weight="700" fill="#F59E0B" text-anchor="middle">10년 등록</text>
+  <text x="900" y="768" font-family="-apple-system, sans-serif" font-size="32" font-weight="900" fill="#F59E0B" text-anchor="middle">약 14만원</text>
+  <text x="900" y="792" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">필요경비 60%+감면 75%</text>
+
+  <rect x="100" y="826" width="880" height="36" rx="8" fill="#1A3270"/>
+  <text x="540" y="850" font-family="-apple-system, sans-serif" font-size="17" font-weight="700" fill="#FFFFFF" text-anchor="middle">미등록 대비 10년 등록 → 연 98만원, 10년간 약 980만원 절세</text>
+
+  <!-- Footer -->
+  <text x="540" y="960" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준 | 개인 상황에 따라 달라질 수 있음</text>
+  <rect x="0" y="1072" width="1080" height="8" fill="#F59E0B"/>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <text x="540" y="78" font-family="'Pretendard', sans-serif" font-size="38" font-weight="900" fill="#F59E0B" text-anchor="middle">재해 발생 직후 즉시 행동 체크리스트</text>
+  <text x="540" y="126" font-family="'Pretendard', sans-serif" font-size="22" font-weight="700" fill="#EAF2FF" text-anchor="middle">이 8가지만 지키면 산재 실수 없다</text>
+
+  <!-- Item 1 -->
+  <rect x="60" y="148" width="960" height="106" rx="16" fill="#1A3270"/>
+  <text x="106" y="196" font-family="'Pretendard', sans-serif" font-size="32" font-weight="900" fill="#F59E0B">☐</text>
+  <text x="158" y="196" font-family="'Pretendard', sans-serif" font-size="24" font-weight="900" fill="#FFFFFF">산재 지정 의료기관 즉시 방문</text>
+  <text x="158" y="234" font-family="'Pretendard', sans-serif" font-size="19" font-weight="600" fill="#A0B4D0">초진 소견서에 '취업 불가' 여부 기재 요청 — 휴업급여 핵심 서류</text>
+
+  <!-- Item 2 -->
+  <rect x="60" y="264" width="960" height="106" rx="16" fill="#162C5A"/>
+  <text x="106" y="312" font-family="'Pretendard', sans-serif" font-size="32" font-weight="900" fill="#F59E0B">☐</text>
+  <text x="158" y="312" font-family="'Pretendard', sans-serif" font-size="24" font-weight="900" fill="#FFFFFF">사고 날짜·시간·장소·목격자 즉시 메모 + 현장 사진</text>
+  <text x="158" y="350" font-family="'Pretendard', sans-serif" font-size="19" font-weight="600" fill="#A0B4D0">업무 지시 문자·이메일·근무표 등 증거 자료 즉시 수집</text>
+
+  <!-- Item 3 -->
+  <rect x="60" y="380" width="960" height="106" rx="16" fill="#1A3270"/>
+  <text x="106" y="428" font-family="'Pretendard', sans-serif" font-size="32" font-weight="900" fill="#EF4444">☐</text>
+  <text x="158" y="428" font-family="'Pretendard', sans-serif" font-size="24" font-weight="900" fill="#FFFFFF">요양급여 + 휴업급여 동시 신청</text>
+  <text x="158" y="466" font-family="'Pretendard', sans-serif" font-size="19" font-weight="600" fill="#A0B4D0">소멸시효 별도 진행 — 같은 날 같은 창구에서 동시 접수 필수</text>
+
+  <!-- Item 4 -->
+  <rect x="60" y="496" width="960" height="106" rx="16" fill="#162C5A"/>
+  <text x="106" y="544" font-family="'Pretendard', sans-serif" font-size="32" font-weight="900" fill="#F59E0B">☐</text>
+  <text x="158" y="544" font-family="'Pretendard', sans-serif" font-size="24" font-weight="900" fill="#FFFFFF">특수고용·일용직이면 공단에 적용 대상 여부 먼저 확인</text>
+  <text x="158" y="582" font-family="'Pretendard', sans-serif" font-size="19" font-weight="600" fill="#A0B4D0">택배·퀵기사·학습지강사 등 2023년 이후 적용 확대 — 사업주 말만 믿지 말 것</text>
+
+  <!-- Item 5 -->
+  <rect x="60" y="612" width="960" height="106" rx="16" fill="#1A3270"/>
+  <text x="106" y="660" font-family="'Pretendard', sans-serif" font-size="32" font-weight="900" fill="#F59E0B">☐</text>
+  <text x="158" y="660" font-family="'Pretendard', sans-serif" font-size="24" font-weight="900" fill="#FFFFFF">사업주가 거부해도 근로복지공단에 단독 신청</text>
+  <text x="158" y="698" font-family="'Pretendard', sans-serif" font-size="19" font-weight="600" fill="#A0B4D0">사업주 직인·확인 없어도 접수 가능 — 방해 시 고용노동부 신고</text>
+
+  <!-- Item 6 -->
+  <rect x="60" y="728" width="960" height="106" rx="16" fill="#162C5A"/>
+  <text x="106" y="776" font-family="'Pretendard', sans-serif" font-size="32" font-weight="900" fill="#F59E0B">☐</text>
+  <text x="158" y="776" font-family="'Pretendard', sans-serif" font-size="24" font-weight="900" fill="#FFFFFF">요양 중 알바 시 반드시 공단에 사전 신고 후 부분 청구</text>
+  <text x="158" y="814" font-family="'Pretendard', sans-serif" font-size="19" font-weight="600" fill="#A0B4D0">신고 없이 은폐하면 전액 환수 + 형사처벌 — (평균임금-취업일임금)×80%</text>
+
+  <!-- Item 7 -->
+  <rect x="60" y="844" width="960" height="106" rx="16" fill="#1A3270"/>
+  <text x="106" y="892" font-family="'Pretendard', sans-serif" font-size="32" font-weight="900" fill="#EF4444">☐</text>
+  <text x="158" y="892" font-family="'Pretendard', sans-serif" font-size="24" font-weight="900" fill="#FFFFFF">불승인 통보 즉시 달력에 90일 후 날짜 표시</text>
+  <text x="158" y="930" font-family="'Pretendard', sans-serif" font-size="19" font-weight="600" fill="#A0B4D0">기한 초과 시 처분 확정 — 심사청구서 즉시 접수 준비</text>
+
+  <!-- Item 8 -->
+  <rect x="60" y="960" width="960" height="106" rx="16" fill="#EF4444"/>
+  <text x="106" y="1008" font-family="'Pretendard', sans-serif" font-size="32" font-weight="900" fill="#FFFFFF">☐</text>
+  <text x="158" y="1008" font-family="'Pretendard', sans-serif" font-size="24" font-weight="900" fill="#FFFFFF">치료 종결 후 후유증 있으면 장해급여 즉시 신청</text>
+  <text x="158" y="1046" font-family="'Pretendard', sans-serif" font-size="19" font-weight="700" fill="#FFD6D6">장해급여 소멸시효 5년 — 치유된 날 다음날부터 진행 ✕ 방치 금지</text>
+</svg>

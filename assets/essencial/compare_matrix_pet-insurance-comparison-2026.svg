@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="720" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="540" y="48" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">펫보험 3사 상세 비교 매트릭스</text>
+  <text x="540" y="72" text-anchor="middle" fill="#A78BFA" font-size="13" font-family="sans-serif">2026.05 기준 · 말티즈 1세 암컷 보상비율 70%</text>
+
+  <!-- Header row -->
+  <rect x="40" y="84" width="1000" height="44" rx="8" fill="#1e293b"/>
+  <text x="170" y="112" text-anchor="middle" fill="#94A3B8" font-size="13" font-weight="600" font-family="sans-serif">비교 항목</text>
+  <text x="450" y="112" text-anchor="middle" fill="#C4B5FD" font-size="14" font-weight="800" font-family="sans-serif">삼성화재</text>
+  <text x="660" y="112" text-anchor="middle" fill="#6EE7B7" font-size="14" font-weight="800" font-family="sans-serif">메리츠화재</text>
+  <text x="890" y="112" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="800" font-family="sans-serif">DB손해보험</text>
+
+  <!-- Column dividers -->
+  <line x1="330" y1="84" x2="330" y2="664" stroke="#334155" stroke-width="1"/>
+  <line x1="570" y1="84" x2="570" y2="664" stroke="#334155" stroke-width="1"/>
+  <line x1="760" y1="84" x2="760" y2="664" stroke="#334155" stroke-width="1"/>
+
+  <!-- Row 1: 상품명 -->
+  <rect x="40" y="128" width="1000" height="44" fill="#1e293b" fill-opacity="0.5"/>
+  <text x="170" y="155" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">상품명</text>
+  <text x="450" y="155" text-anchor="middle" fill="#FFFFFF" font-size="12" font-family="sans-serif">다이렉트 반려견보험</text>
+  <text x="660" y="155" text-anchor="middle" fill="#FFFFFF" font-size="12" font-family="sans-serif">펫퍼민트</text>
+  <text x="890" y="155" text-anchor="middle" fill="#FFFFFF" font-size="12" font-family="sans-serif">펫블리 반려견보험</text>
+
+  <!-- Row 2: 월 보험료 -->
+  <rect x="40" y="172" width="1000" height="52" fill="#0f172a" fill-opacity="0.8"/>
+  <text x="170" y="200" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">월 보험료</text>
+  <text x="170" y="216" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="sans-serif">(말티즈 1세 70%)</text>
+  <text x="450" y="207" text-anchor="middle" fill="#4ADE80" font-size="18" font-weight="800" font-family="sans-serif">29,827원 🏆</text>
+  <text x="660" y="207" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800" font-family="sans-serif">36,820원</text>
+  <text x="890" y="207" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800" font-family="sans-serif">33,560원</text>
+
+  <!-- Row 3: 수술 한도 -->
+  <rect x="40" y="224" width="1000" height="44" fill="#1e293b" fill-opacity="0.5"/>
+  <text x="170" y="251" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">1일 수술 한도</text>
+  <text x="450" y="251" text-anchor="middle" fill="#4ADE80" font-size="14" font-weight="700" font-family="sans-serif">300만원 🏆</text>
+  <text x="660" y="251" text-anchor="middle" fill="#FFFFFF" font-size="14" font-family="sans-serif">250만원</text>
+  <text x="890" y="251" text-anchor="middle" fill="#FFFFFF" font-size="14" font-family="sans-serif">250만원</text>
+
+  <!-- Row 4: 통원 한도 -->
+  <rect x="40" y="268" width="1000" height="44" fill="#0f172a" fill-opacity="0.8"/>
+  <text x="170" y="295" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">1일 통원·입원 한도</text>
+  <text x="450" y="295" text-anchor="middle" fill="#FFFFFF" font-size="14" font-family="sans-serif">15만원</text>
+  <text x="660" y="295" text-anchor="middle" fill="#FFFFFF" font-size="14" font-family="sans-serif">15만원</text>
+  <text x="890" y="295" text-anchor="middle" fill="#4ADE80" font-size="14" font-weight="700" font-family="sans-serif">30만원 🏆</text>
+
+  <!-- Row 5: 연간 한도 -->
+  <rect x="40" y="312" width="1000" height="44" fill="#1e293b" fill-opacity="0.5"/>
+  <text x="170" y="339" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">연간 보장 한도</text>
+  <text x="450" y="339" text-anchor="middle" fill="#FFFFFF" font-size="14" font-family="sans-serif">1,500만원</text>
+  <text x="660" y="339" text-anchor="middle" fill="#4ADE80" font-size="14" font-weight="700" font-family="sans-serif">2,000만원 🏆</text>
+  <text x="890" y="339" text-anchor="middle" fill="#4ADE80" font-size="14" font-weight="700" font-family="sans-serif">2,000만원 🏆</text>
+
+  <!-- Row 6: 자기부담금 -->
+  <rect x="40" y="356" width="1000" height="44" fill="#0f172a" fill-opacity="0.8"/>
+  <text x="170" y="383" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">자기부담금 / 보상비율</text>
+  <text x="450" y="383" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="sans-serif">3만원 / 70%</text>
+  <text x="660" y="383" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="sans-serif">3만원 / 70%</text>
+  <text x="890" y="383" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="sans-serif">3만원 / 70%</text>
+
+  <!-- Row 7: 면책기간 -->
+  <rect x="40" y="400" width="1000" height="44" fill="#1e293b" fill-opacity="0.5"/>
+  <text x="170" y="427" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">면책기간</text>
+  <text x="450" y="427" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="sans-serif">30일 (특정 질환 90일)</text>
+  <text x="660" y="427" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="sans-serif">30일</text>
+  <text x="890" y="427" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="sans-serif">30일</text>
+
+  <!-- Row 8: 현장 청구 -->
+  <rect x="40" y="444" width="1000" height="44" fill="#0f172a" fill-opacity="0.8"/>
+  <text x="170" y="471" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">현장 청구</text>
+  <text x="450" y="471" text-anchor="middle" fill="#FCA5A5" font-size="14" font-family="sans-serif">❌ 불가</text>
+  <text x="660" y="471" text-anchor="middle" fill="#4ADE80" font-size="14" font-weight="700" font-family="sans-serif">✅ 400개 병원 🏆</text>
+  <text x="890" y="471" text-anchor="middle" fill="#FCA5A5" font-size="14" font-family="sans-serif">❌ 불가</text>
+
+  <!-- Row 9: 특화 -->
+  <rect x="40" y="488" width="1000" height="52" fill="#1e293b" fill-opacity="0.5"/>
+  <text x="170" y="516" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">특화 보장</text>
+  <text x="450" y="508" text-anchor="middle" fill="#4ADE80" font-size="12" font-family="sans-serif">카드 결제 10% 할인</text>
+  <text x="450" y="530" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">동물등록증 5% 할인</text>
+  <text x="660" y="508" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">국내 원조 (2018 출시)</text>
+  <text x="660" y="530" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">다빈도 질환 포함</text>
+  <text x="890" y="508" text-anchor="middle" fill="#4ADE80" font-size="12" font-family="sans-serif">MRI·CT 100만원 특약</text>
+  <text x="890" y="530" text-anchor="middle" fill="#4ADE80" font-size="12" font-family="sans-serif">장례지원비·개물림 벌금</text>
+
+  <!-- Bottom summary -->
+  <rect x="40" y="556" width="1000" height="2" fill="#334155"/>
+  <rect x="40" y="566" width="1000" height="130" rx="8" fill="#1e293b" fill-opacity="0.6"/>
+  <text x="540" y="596" text-anchor="middle" fill="#F8FAFC" font-size="14" font-weight="800" font-family="sans-serif">선택 기준 요약</text>
+  <text x="80" y="624" fill="#C4B5FD" font-size="13" font-weight="700" font-family="sans-serif">보험료 최저</text>
+  <text x="210" y="624" fill="#CBD5E1" font-size="13" font-family="sans-serif">→ 삼성화재 (29,827원)</text>
+  <text x="80" y="650" fill="#6EE7B7" font-size="13" font-weight="700" font-family="sans-serif">통원 많음</text>
+  <text x="210" y="650" fill="#CBD5E1" font-size="13" font-family="sans-serif">→ DB손해보험 (통원 30만원 업계 최고)</text>
+  <text x="80" y="676" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">청구 편의</text>
+  <text x="210" y="676" fill="#CBD5E1" font-size="13" font-family="sans-serif">→ 메리츠화재 (400개 제휴병원 현장 청구)</text>
+
+  <text x="40" y="708" fill="#64748B" font-size="12" font-family="sans-serif">essencial | 보험 비교 · 2026.05 기준</text>
+</svg>

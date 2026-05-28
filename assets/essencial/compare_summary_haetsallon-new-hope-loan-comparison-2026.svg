@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="card1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="720" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="540" y="58" text-anchor="middle" fill="#FFFFFF" font-size="28" font-weight="800" font-family="sans-serif">2026 서민금융 3종 비교 요약</text>
+  <text x="540" y="90" text-anchor="middle" fill="#D97706" font-size="17" font-family="sans-serif">햇살론 일반 · 햇살론 특례보증 · 새희망홀씨 — 2026.05 기준</text>
+
+  <!-- Divider -->
+  <rect x="60" y="108" width="960" height="2" rx="1" fill="#B45309" fill-opacity="0.5"/>
+
+  <!-- Col 1: 햇살론 일반 -->
+  <rect x="60" y="128" width="300" height="560" rx="14" fill="url(#card1)" stroke="#B45309" stroke-width="2"/>
+  <rect x="60" y="128" width="300" height="52" rx="14" fill="#B45309"/>
+  <rect x="60" y="166" width="300" height="14" fill="#B45309"/>
+  <text x="210" y="162" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800" font-family="sans-serif">햇살론 일반보증</text>
+
+  <text x="210" y="222" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">대상 소득</text>
+  <text x="210" y="250" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700" font-family="sans-serif">연 3,500만↓ (신용 무관)</text>
+  <text x="210" y="272" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">또는 4,500만↓ + 신용 하위 20%</text>
+
+  <line x1="90" y1="292" x2="330" y2="292" stroke="#334155" stroke-width="1"/>
+
+  <text x="210" y="318" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">최고 금리</text>
+  <text x="210" y="356" text-anchor="middle" fill="#4ADE80" font-size="48" font-weight="800" font-family="sans-serif">10%</text>
+  <text x="210" y="380" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">보증료 연 2.5% 별도</text>
+
+  <line x1="90" y1="400" x2="330" y2="400" stroke="#334155" stroke-width="1"/>
+
+  <text x="210" y="426" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">대출 한도</text>
+  <text x="210" y="464" text-anchor="middle" fill="#FFFFFF" font-size="40" font-weight="800" font-family="sans-serif">1,500만</text>
+
+  <line x1="90" y1="488" x2="330" y2="488" stroke="#334155" stroke-width="1"/>
+
+  <text x="210" y="514" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">기간 / 특징</text>
+  <text x="210" y="540" text-anchor="middle" fill="#FFFFFF" font-size="14" font-family="sans-serif">5년 이내</text>
+  <text x="210" y="562" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">신용점수 무관 신청 가능</text>
+  <text x="210" y="582" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">중도상환 수수료 없음</text>
+  <text x="210" y="602" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">서민금융진흥원 보증</text>
+
+  <rect x="90" y="628" width="240" height="36" rx="8" fill="#B45309" fill-opacity="0.2" stroke="#B45309" stroke-width="1"/>
+  <text x="210" y="651" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">고금리 대환 우선 검토</text>
+
+  <!-- Col 2: 햇살론 특례보증 -->
+  <rect x="390" y="128" width="300" height="560" rx="14" fill="url(#card1)" stroke="#7C3AED" stroke-width="2"/>
+  <rect x="390" y="128" width="300" height="52" rx="14" fill="#7C3AED"/>
+  <rect x="390" y="166" width="300" height="14" fill="#7C3AED"/>
+  <text x="540" y="162" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800" font-family="sans-serif">햇살론 특례보증</text>
+
+  <text x="540" y="222" text-anchor="middle" fill="#C4B5FD" font-size="14" font-weight="700" font-family="sans-serif">대상 소득</text>
+  <text x="540" y="250" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700" font-family="sans-serif">연 3,500만↓</text>
+  <text x="540" y="272" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">+ 신용 하위 20% (두 조건 동시)</text>
+
+  <line x1="420" y1="292" x2="660" y2="292" stroke="#334155" stroke-width="1"/>
+
+  <text x="540" y="318" text-anchor="middle" fill="#C4B5FD" font-size="14" font-weight="700" font-family="sans-serif">최고 금리</text>
+  <text x="540" y="356" text-anchor="middle" fill="#FCA5A5" font-size="48" font-weight="800" font-family="sans-serif">12.5%</text>
+  <text x="540" y="380" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">사회적배려 대상자 9.9%↓</text>
+
+  <line x1="420" y1="400" x2="660" y2="400" stroke="#334155" stroke-width="1"/>
+
+  <text x="540" y="426" text-anchor="middle" fill="#C4B5FD" font-size="14" font-weight="700" font-family="sans-serif">대출 한도</text>
+  <text x="540" y="464" text-anchor="middle" fill="#FFFFFF" font-size="40" font-weight="800" font-family="sans-serif">1,000만</text>
+
+  <line x1="420" y1="488" x2="660" y2="488" stroke="#334155" stroke-width="1"/>
+
+  <text x="540" y="514" text-anchor="middle" fill="#C4B5FD" font-size="14" font-weight="700" font-family="sans-serif">기간 / 특징</text>
+  <text x="540" y="540" text-anchor="middle" fill="#FFFFFF" font-size="14" font-family="sans-serif">3년 또는 5년</text>
+  <text x="540" y="562" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">최저신용자도 접근 가능</text>
+  <text x="540" y="582" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">중도상환 수수료 없음</text>
+  <text x="540" y="602" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">구 햇살론15 개편 상품</text>
+
+  <rect x="420" y="628" width="240" height="36" rx="8" fill="#7C3AED" fill-opacity="0.2" stroke="#7C3AED" stroke-width="1"/>
+  <text x="540" y="651" text-anchor="middle" fill="#C4B5FD" font-size="13" font-weight="700" font-family="sans-serif">최저신용자 전용 긴급 대출</text>
+
+  <!-- Col 3: 새희망홀씨 -->
+  <rect x="720" y="128" width="300" height="560" rx="14" fill="url(#card1)" stroke="#0F766E" stroke-width="2"/>
+  <rect x="720" y="128" width="300" height="52" rx="14" fill="#0F766E"/>
+  <rect x="720" y="166" width="300" height="14" fill="#0F766E"/>
+  <text x="870" y="162" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800" font-family="sans-serif">새희망홀씨</text>
+
+  <text x="870" y="222" text-anchor="middle" fill="#6EE7B7" font-size="14" font-weight="700" font-family="sans-serif">대상 소득</text>
+  <text x="870" y="250" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700" font-family="sans-serif">연 4,000만↓</text>
+  <text x="870" y="272" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">또는 5,000만↓ + 신용 하위 20%</text>
+
+  <line x1="750" y1="292" x2="990" y2="292" stroke="#334155" stroke-width="1"/>
+
+  <text x="870" y="318" text-anchor="middle" fill="#6EE7B7" font-size="14" font-weight="700" font-family="sans-serif">최고 금리</text>
+  <text x="870" y="356" text-anchor="middle" fill="#4ADE80" font-size="48" font-weight="800" font-family="sans-serif">10.5%</text>
+  <text x="870" y="380" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">은행 CSS 기반 · 우대금리 적용</text>
+
+  <line x1="750" y1="400" x2="990" y2="400" stroke="#334155" stroke-width="1"/>
+
+  <text x="870" y="426" text-anchor="middle" fill="#6EE7B7" font-size="14" font-weight="700" font-family="sans-serif">대출 한도</text>
+  <text x="870" y="464" text-anchor="middle" fill="#FCD34D" font-size="40" font-weight="800" font-family="sans-serif">3,500만</text>
+
+  <line x1="750" y1="488" x2="990" y2="488" stroke="#334155" stroke-width="1"/>
+
+  <text x="870" y="514" text-anchor="middle" fill="#6EE7B7" font-size="14" font-weight="700" font-family="sans-serif">기간 / 특징</text>
+  <text x="870" y="540" text-anchor="middle" fill="#FFFFFF" font-size="14" font-family="sans-serif">5년 이내</text>
+  <text x="870" y="562" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">14개 은행 직접 취급</text>
+  <text x="870" y="582" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">보증료 없음 · 모바일 신청 가능</text>
+  <text x="870" y="602" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">2026 공급 목표 5.1조원</text>
+
+  <rect x="750" y="628" width="240" height="36" rx="8" fill="#0F766E" fill-opacity="0.2" stroke="#0F766E" stroke-width="1"/>
+  <text x="870" y="651" text-anchor="middle" fill="#6EE7B7" font-size="13" font-weight="700" font-family="sans-serif">3종 중 최대 한도 · 은행 직접 취급</text>
+
+  <!-- Footer -->
+  <text x="60" y="708" fill="#64748B" font-size="13" font-family="sans-serif">essencial | 대출·금융 silo · 2026.05 기준 · 서민금융진흥원·금융위원회 자료</text>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="tbg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#tbg2)" rx="16"/>
+
+  <!-- Decorative -->
+  <circle cx="100" cy="100" r="180" fill="#0F766E" fill-opacity="0.12"/>
+  <circle cx="1100" cy="530" r="200" fill="#7C3AED" fill-opacity="0.08"/>
+
+  <!-- Badge -->
+  <rect x="60" y="50" width="220" height="46" rx="23" fill="#EF4444"/>
+  <text x="170" y="80" text-anchor="middle" fill="#FFFFFF" font-family="sans-serif" font-size="22" font-weight="700">2026 최신 비교</text>
+
+  <!-- Main text -->
+  <text x="600" y="220" text-anchor="middle" fill="#FFFFFF" font-family="sans-serif" font-size="56" font-weight="900">위고비 vs 마운자로</text>
+
+  <!-- Sub text -->
+  <text x="600" y="300" text-anchor="middle" fill="#E2E8F0" font-family="sans-serif" font-size="30">가격·보험적용·감량 효과 — 비만 신약 선택 가이드</text>
+
+  <!-- Key stats -->
+  <rect x="120" y="360" width="280" height="100" rx="16" fill="#FFFFFF" fill-opacity="0.08"/>
+  <text x="260" y="400" text-anchor="middle" fill="#99F6E4" font-family="sans-serif" font-size="18" font-weight="600">위고비 유지 비용</text>
+  <text x="260" y="440" text-anchor="middle" fill="#FFFFFF" font-family="sans-serif" font-size="28" font-weight="800">38만~42만 원/월</text>
+
+  <rect x="430" y="360" width="340" height="100" rx="16" fill="#FFFFFF" fill-opacity="0.08"/>
+  <text x="600" y="400" text-anchor="middle" fill="#99F6E4" font-family="sans-serif" font-size="18" font-weight="600">마운자로 평균 감량</text>
+  <text x="600" y="440" text-anchor="middle" fill="#FFFFFF" font-family="sans-serif" font-size="28" font-weight="800">22.5% (72주)</text>
+
+  <rect x="800" y="360" width="280" height="100" rx="16" fill="#FFFFFF" fill-opacity="0.08"/>
+  <text x="940" y="400" text-anchor="middle" fill="#99F6E4" font-family="sans-serif" font-size="18" font-weight="600">건강보험</text>
+  <text x="940" y="440" text-anchor="middle" fill="#FFFFFF" font-family="sans-serif" font-size="28" font-weight="800">비급여 (당뇨 예정)</text>
+
+  <!-- Chips -->
+  <rect x="310" y="510" width="110" height="38" rx="19" fill="#FEF3C7"/>
+  <text x="365" y="535" text-anchor="middle" fill="#92400E" font-family="sans-serif" font-size="17" font-weight="700">가격</text>
+  <rect x="440" y="510" width="110" height="38" rx="19" fill="#FEF3C7"/>
+  <text x="495" y="535" text-anchor="middle" fill="#92400E" font-family="sans-serif" font-size="17" font-weight="700">보험</text>
+  <rect x="570" y="510" width="110" height="38" rx="19" fill="#FEF3C7"/>
+  <text x="625" y="535" text-anchor="middle" fill="#92400E" font-family="sans-serif" font-size="17" font-weight="700">감량</text>
+  <rect x="700" y="510" width="110" height="38" rx="19" fill="#FEF3C7"/>
+  <text x="755" y="535" text-anchor="middle" fill="#92400E" font-family="sans-serif" font-size="17" font-weight="700">부작용</text>
+
+  <!-- Watermark -->
+  <text x="600" y="600" text-anchor="middle" fill="#FFFFFF" fill-opacity="0.3" font-family="sans-serif" font-size="18">essencial</text>
+</svg>

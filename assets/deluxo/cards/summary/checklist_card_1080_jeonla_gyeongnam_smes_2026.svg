@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="8" fill="#34D399"/>
+
+  <!-- Title -->
+  <text x="540" y="66" font-family="-apple-system, sans-serif" font-size="32" font-weight="900" fill="#FFFFFF" text-anchor="middle">1분 신청 전 체크리스트</text>
+  <text x="540" y="100" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0" text-anchor="middle">전라·경남 소상공인 지원금 — 아래 6개 항목을 먼저 확인하세요</text>
+  <line x1="60" y1="122" x2="1020" y2="122" stroke="#1A3270" stroke-width="2"/>
+
+  <!-- Step 1 -->
+  <rect x="60" y="146" width="960" height="96" rx="12" fill="#0D2347"/>
+  <rect x="60" y="146" width="6" height="96" rx="3" fill="#34D399"/>
+  <text x="118" y="196" font-family="-apple-system, sans-serif" font-size="34" font-weight="900" fill="#34D399">✓</text>
+  <text x="164" y="188" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">사업장 소재지 확인</text>
+  <text x="164" y="216" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0">내 사업장이 전북·전남·경남 중 어느 시도·시군인지 사업자등록증으로 확인</text>
+  <text x="164" y="234" font-family="-apple-system, sans-serif" font-size="13" fill="#34D399">→ 소재지 시군의 이차보전 공고를 먼저 확인 (bizinfo.go.kr)</text>
+
+  <!-- Step 2 -->
+  <rect x="60" y="258" width="960" height="96" rx="12" fill="#0D2347"/>
+  <rect x="60" y="258" width="6" height="96" rx="3" fill="#34D399"/>
+  <text x="118" y="308" font-family="-apple-system, sans-serif" font-size="34" font-weight="900" fill="#34D399">✓</text>
+  <text x="164" y="300" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">사업자등록 기간 충족 여부</text>
+  <text x="164" y="328" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0">전남 도 육성자금: 3개월 이상 | 경남 긴급경영: 공고별 상이</text>
+  <text x="164" y="346" font-family="-apple-system, sans-serif" font-size="13" fill="#34D399">→ 개업일 기준 계산 — 미충족이면 도래 후 신청</text>
+
+  <!-- Step 3 -->
+  <rect x="60" y="370" width="960" height="96" rx="12" fill="#0D2347"/>
+  <rect x="60" y="370" width="6" height="96" rx="3" fill="#F59E0B"/>
+  <text x="118" y="420" font-family="-apple-system, sans-serif" font-size="34" font-weight="900" fill="#F59E0B">✓</text>
+  <text x="164" y="412" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">업종 코드 지원 가능 여부</text>
+  <text x="164" y="440" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0">유흥·사행성·도박 업종은 지원 불가 | 업태·업종코드 확인 필수</text>
+  <text x="164" y="458" font-family="-apple-system, sans-serif" font-size="13" fill="#F59E0B">→ 해당 공고문 "지원 제외 업종" 목록과 대조</text>
+
+  <!-- Step 4 -->
+  <rect x="60" y="482" width="960" height="96" rx="12" fill="#0D2347"/>
+  <rect x="60" y="482" width="6" height="96" rx="3" fill="#F59E0B"/>
+  <text x="118" y="532" font-family="-apple-system, sans-serif" font-size="34" font-weight="900" fill="#F59E0B">✓</text>
+  <text x="164" y="524" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">기존 보증 잔액 확인</text>
+  <text x="164" y="552" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0">신용보증재단 잔여 보증 한도가 있어야 신규 보증서 발급 가능</text>
+  <text x="164" y="570" font-family="-apple-system, sans-serif" font-size="13" fill="#F59E0B">→ 전남신보(1588-3884) / 경남신보(1644-2900) 전화 확인</text>
+
+  <!-- Step 5 -->
+  <rect x="60" y="594" width="960" height="96" rx="12" fill="#0D2347"/>
+  <rect x="60" y="594" width="6" height="96" rx="3" fill="#EF4444"/>
+  <text x="118" y="644" font-family="-apple-system, sans-serif" font-size="34" font-weight="900" fill="#EF4444">✓</text>
+  <text x="164" y="636" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">신용·연체 이력 점검</text>
+  <text x="164" y="664" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0">연체 또는 금융 불량 이력이 있으면 심사 탈락 — 사전 정리 필수</text>
+  <text x="164" y="682" font-family="-apple-system, sans-serif" font-size="13" fill="#EF4444">→ 신용조회(나이스지키미·올크레딧) 후 연체 해결 먼저</text>
+
+  <!-- Step 6 -->
+  <rect x="60" y="706" width="960" height="96" rx="12" fill="#0D2347"/>
+  <rect x="60" y="706" width="6" height="96" rx="3" fill="#EF4444"/>
+  <text x="118" y="756" font-family="-apple-system, sans-serif" font-size="34" font-weight="900" fill="#EF4444">✓</text>
+  <text x="164" y="748" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">도 육성자금·시군 이차보전 중복 불가 확인</text>
+  <text x="164" y="776" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0">전남: 도 육성자금과 시군 이차보전은 같은 대출에 동시 수혜 불가</text>
+  <text x="164" y="794" font-family="-apple-system, sans-serif" font-size="13" fill="#EF4444">→ 한도·금리 비교 후 유리한 사업 하나만 선택</text>
+
+  <!-- Final action -->
+  <rect x="60" y="830" width="960" height="84" rx="12" fill="#1A3270"/>
+  <rect x="60" y="830" width="960" height="84" rx="12" fill="none" stroke="#34D399" stroke-width="2"/>
+  <text x="540" y="862" font-family="-apple-system, sans-serif" font-size="16" font-weight="800" fill="#34D399" text-anchor="middle">6개 항목 모두 OK → 신청 진행</text>
+  <text x="540" y="890" font-family="-apple-system, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">bizinfo.go.kr 공고 확인 → 신보 상담 예약 → 서류 준비 → 신청</text>
+
+  <!-- Footer -->
+  <text x="540" y="974" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준 | 소상공인통합콜센터 ☎1533-0100 | 전남신보 1588-3884 | 경남신보 1644-2900</text>
+  <rect x="0" y="1072" width="1080" height="8" fill="#34D399"/>
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- Header -->
+  <rect x="60" y="60" width="960" height="120" rx="16" fill="#0D2347"/>
+  <text x="540" y="110" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="34" font-weight="800" fill="#FFFFFF" text-anchor="middle">전기차 보조금·세제혜택</text>
+  <text x="540" y="154" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="28" font-weight="600" fill="#A0B4D0" text-anchor="middle">2026년 지원 종류별 금액 요약</text>
+
+  <!-- Row 1: 국비보조금 -->
+  <rect x="60" y="210" width="960" height="120" rx="14" fill="#1A3270"/>
+  <rect x="60" y="210" width="8" height="120" rx="4" fill="#34D399"/>
+  <text x="100" y="261" font-family="-apple-system, sans-serif" font-size="26" font-weight="800" fill="#34D399">국비보조금</text>
+  <text x="100" y="300" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0">중·대형 최대 580만원 / 소형 530만원 / 초소형 200만원</text>
+  <text x="980" y="280" font-family="-apple-system, sans-serif" font-size="38" font-weight="900" fill="#34D399" text-anchor="end">580만</text>
+
+  <!-- Row 2: 전환지원금 -->
+  <rect x="60" y="346" width="960" height="110" rx="14" fill="#0D2347"/>
+  <rect x="60" y="346" width="8" height="110" rx="4" fill="#F59E0B"/>
+  <text x="100" y="393" font-family="-apple-system, sans-serif" font-size="26" font-weight="800" fill="#F59E0B">내연차 전환지원금</text>
+  <text x="100" y="430" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0">3년 이상 내연차 처분 후 전기차 구매 시 추가</text>
+  <text x="980" y="420" font-family="-apple-system, sans-serif" font-size="38" font-weight="900" fill="#F59E0B" text-anchor="end">+100만</text>
+
+  <!-- Row 3: 취득세 감면 -->
+  <rect x="60" y="472" width="470" height="110" rx="14" fill="#1A3270"/>
+  <rect x="60" y="472" width="8" height="110" rx="4" fill="#A0B4D0"/>
+  <text x="100" y="519" font-family="-apple-system, sans-serif" font-size="26" font-weight="800" fill="#FFFFFF">취득세 감면</text>
+  <text x="100" y="554" font-family="-apple-system, sans-serif" font-size="21" fill="#A0B4D0">2026.12.31까지</text>
+  <text x="510" y="540" font-family="-apple-system, sans-serif" font-size="38" font-weight="900" fill="#FFFFFF" text-anchor="end">최대 140만</text>
+
+  <!-- Row 3: 개소세 감면 -->
+  <rect x="550" y="472" width="470" height="110" rx="14" fill="#1A3270"/>
+  <rect x="550" y="472" width="8" height="110" rx="4" fill="#A0B4D0"/>
+  <text x="590" y="519" font-family="-apple-system, sans-serif" font-size="26" font-weight="800" fill="#FFFFFF">개소세 감면</text>
+  <text x="590" y="554" font-family="-apple-system, sans-serif" font-size="21" fill="#A0B4D0">2026.12.31까지</text>
+  <text x="1000" y="540" font-family="-apple-system, sans-serif" font-size="38" font-weight="900" fill="#FFFFFF" text-anchor="end">최대 300만</text>
+
+  <!-- Row 4: 지방보조금 -->
+  <rect x="60" y="598" width="960" height="110" rx="14" fill="#0D2347"/>
+  <rect x="60" y="598" width="8" height="110" rx="4" fill="#60A5FA"/>
+  <text x="100" y="645" font-family="-apple-system, sans-serif" font-size="26" font-weight="800" fill="#60A5FA">지방보조금</text>
+  <text x="100" y="682" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0">서울 150만 / 경기 100~350만 / 농어촌 최대 1,100만</text>
+  <text x="980" y="672" font-family="-apple-system, sans-serif" font-size="28" font-weight="800" fill="#60A5FA" text-anchor="end">지역별 상이</text>
+
+  <!-- Total box -->
+  <rect x="60" y="730" width="960" height="120" rx="16" fill="#34D399" fill-opacity="0.15"/>
+  <rect x="60" y="730" width="960" height="4" rx="2" fill="#34D399"/>
+  <text x="540" y="785" font-family="-apple-system, sans-serif" font-size="30" font-weight="800" fill="#34D399" text-anchor="middle">조건 모두 충족 시 보조금+세제 합산</text>
+  <text x="540" y="833" font-family="-apple-system, sans-serif" font-size="48" font-weight="900" fill="#FFFFFF" text-anchor="middle">최대 약 1,200만원 이상 절감</text>
+
+  <!-- Price tier note -->
+  <rect x="60" y="876" width="960" height="80" rx="12" fill="#1A3270"/>
+  <text x="540" y="910" font-family="-apple-system, sans-serif" font-size="22" font-weight="700" fill="#F59E0B" text-anchor="middle">가격 기준: 5,300만 미만 100% / 5,300~8,500만 50% / 8,500만 이상 미지원</text>
+  <text x="540" y="942" font-family="-apple-system, sans-serif" font-size="20" fill="#A0B4D0" text-anchor="middle">※ 지방보조금 예산 소진 시 조기 마감 — 신청 전 공고 필수 확인</text>
+
+  <!-- Footer -->
+  <text x="540" y="1010" font-family="-apple-system, sans-serif" font-size="20" fill="#A0B4D0" text-anchor="middle">deluxo | 2026-05-20 기준</text>
+  <text x="540" y="1048" font-family="-apple-system, sans-serif" font-size="20" fill="#A0B4D0" text-anchor="middle">※ 실제 수령액은 차량 모델·지역·개인 조건에 따라 다릅니다</text>
+</svg>

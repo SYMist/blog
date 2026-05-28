@@ -1,0 +1,59 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="#F8FAFC"/>
+
+  <!-- Card -->
+  <g filter="url(#shadow)">
+    <rect x="70" y="70" width="940" height="940" rx="24" fill="#FFFFFF" stroke="#E5E7EB"/>
+  </g>
+
+  <!-- Header -->
+  <text x="120" y="170" font-size="48" fill="#111827" font-weight="800" font-family="Pretendard, 'Noto Sans KR', sans-serif">재난적 의료비 지원 요약표</text>
+  <text x="120" y="230" font-size="28" fill="#6B7280" font-weight="600" font-family="Pretendard, 'Noto Sans KR', sans-serif">소득구간 · 지원비율 · 한도 한눈에 정리</text>
+
+  <!-- Divider -->
+  <line x1="120" y1="270" x2="960" y2="270" stroke="#E5E7EB"/>
+
+  <!-- Table-like rows -->
+  <g font-family="Pretendard, 'Noto Sans KR', sans-serif">
+    <text x="120" y="340" font-size="30" fill="#111827" font-weight="700">기초·차상위</text>
+    <text x="340" y="340" font-size="28" fill="#374151">100만원 초과 시 80% 지원</text>
+
+    <line x1="120" y1="380" x2="960" y2="380" stroke="#F1F5F9"/>
+
+    <text x="120" y="440" font-size="30" fill="#111827" font-weight="700">중위 50% 이하</text>
+    <text x="340" y="440" font-size="28" fill="#374151">200만원 초과 시 70% 지원</text>
+
+    <line x1="120" y1="480" x2="960" y2="480" stroke="#F1F5F9"/>
+
+    <text x="120" y="540" font-size="30" fill="#111827" font-weight="700">중위 100% 이하</text>
+    <text x="340" y="540" font-size="28" fill="#374151">연소득 10% 초과 시 50~60% 지원</text>
+
+    <line x1="120" y1="580" x2="960" y2="580" stroke="#F1F5F9"/>
+
+    <text x="120" y="640" font-size="30" fill="#111827" font-weight="700">연간 한도</text>
+    <text x="340" y="640" font-size="28" fill="#374151">최대 5,000만원 (비급여 포함)</text>
+
+    <line x1="120" y1="680" x2="960" y2="680" stroke="#F1F5F9"/>
+
+    <text x="120" y="740" font-size="30" fill="#111827" font-weight="700">신청처</text>
+    <text x="340" y="740" font-size="28" fill="#374151">건강보험공단 지사 / 신청지원기관 51곳</text>
+
+    <line x1="120" y1="780" x2="960" y2="780" stroke="#F1F5F9"/>
+
+    <text x="120" y="840" font-size="30" fill="#111827" font-weight="700">신청 기한</text>
+    <text x="340" y="840" font-size="28" fill="#374151">퇴원일로부터 180일 이내</text>
+  </g>
+
+  <!-- Footer Note -->
+  <rect x="120" y="890" width="840" height="90" rx="12" fill="#F1F5F9"/>
+  <text x="150" y="945" font-size="24" fill="#4B5563" font-family="Pretendard, 'Noto Sans KR', sans-serif">
+    2026년 기준 · 민간보험 보상액 차감 후 실질 부담액 기준 산정
+  </text>
+</svg>

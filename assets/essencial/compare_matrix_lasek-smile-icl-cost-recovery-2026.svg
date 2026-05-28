@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="720" fill="url(#bg)"/>
+
+  <text x="540" y="48" text-anchor="middle" fill="#FFFFFF" font-size="24" font-weight="800" font-family="sans-serif">3종 시력교정술 비용·회복·통증·각막 매트릭스</text>
+  <text x="540" y="74" text-anchor="middle" fill="#99F6E4" font-size="14" font-family="sans-serif">양안 기준 · 2026.05 안과 평균</text>
+
+  <!-- Header -->
+  <rect x="40" y="96" width="1000" height="44" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="170" y="124" text-anchor="middle" fill="#F8FAFC" font-size="14" font-weight="800" font-family="sans-serif">비교 항목</text>
+  <text x="410" y="124" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="800" font-family="sans-serif">라섹 (가성비)</text>
+  <text x="660" y="124" text-anchor="middle" fill="#99F6E4" font-size="14" font-weight="800" font-family="sans-serif">스마일라식 (균형)</text>
+  <text x="920" y="124" text-anchor="middle" fill="#DDD6FE" font-size="14" font-weight="800" font-family="sans-serif">ICL (각막 보존)</text>
+
+  <!-- Row 1: 양안 비용 -->
+  <rect x="40" y="144" width="1000" height="48" fill="#0f172a" fill-opacity="0.5"/>
+  <text x="55" y="174" fill="#F1F5F9" font-size="13" font-weight="700" font-family="sans-serif">양안 비용</text>
+  <text x="410" y="174" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">100~200만</text>
+  <text x="660" y="174" text-anchor="middle" fill="#99F6E4" font-size="14" font-weight="700" font-family="sans-serif">200~350만</text>
+  <text x="920" y="174" text-anchor="middle" fill="#DDD6FE" font-size="14" font-weight="700" font-family="sans-serif">470~600만</text>
+
+  <!-- Row 2: 회복 -->
+  <rect x="40" y="196" width="1000" height="48" fill="#1e293b" fill-opacity="0.4"/>
+  <text x="55" y="226" fill="#F1F5F9" font-size="13" font-weight="700" font-family="sans-serif">회복 + 시력 안정</text>
+  <text x="410" y="226" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">3~7일 + 1~2개월</text>
+  <text x="660" y="226" text-anchor="middle" fill="#99F6E4" font-size="14" font-weight="700" font-family="sans-serif">1~3일</text>
+  <text x="920" y="226" text-anchor="middle" fill="#DDD6FE" font-size="14" font-weight="700" font-family="sans-serif">즉시~1일</text>
+
+  <!-- Row 3: 통증 -->
+  <rect x="40" y="248" width="1000" height="48" fill="#0f172a" fill-opacity="0.5"/>
+  <text x="55" y="278" fill="#F1F5F9" font-size="13" font-weight="700" font-family="sans-serif">통증 강도</text>
+  <text x="410" y="278" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="700" font-family="sans-serif">⭐⭐⭐⭐ 큼</text>
+  <text x="660" y="278" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">⭐⭐ 적음</text>
+  <text x="920" y="278" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">⭐ 거의 없음</text>
+
+  <!-- Row 4: 활동 제한 -->
+  <rect x="40" y="300" width="1000" height="48" fill="#1e293b" fill-opacity="0.4"/>
+  <text x="55" y="330" fill="#F1F5F9" font-size="13" font-weight="700" font-family="sans-serif">활동 제한</text>
+  <text x="410" y="330" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">1~2주</text>
+  <text x="660" y="330" text-anchor="middle" fill="#99F6E4" font-size="14" font-weight="700" font-family="sans-serif">3~5일</text>
+  <text x="920" y="330" text-anchor="middle" fill="#DDD6FE" font-size="14" font-weight="700" font-family="sans-serif">1~2일</text>
+
+  <!-- Row 5: 각막 요구 -->
+  <rect x="40" y="352" width="1000" height="48" fill="#0f172a" fill-opacity="0.5"/>
+  <text x="55" y="382" fill="#F1F5F9" font-size="13" font-weight="700" font-family="sans-serif">각막 두께 요구</text>
+  <text x="410" y="382" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">480μm+</text>
+  <text x="660" y="382" text-anchor="middle" fill="#99F6E4" font-size="14" font-weight="700" font-family="sans-serif">480μm+</text>
+  <text x="920" y="382" text-anchor="middle" fill="#DDD6FE" font-size="14" font-weight="700" font-family="sans-serif">제한 없음</text>
+
+  <!-- Row 6: 고도근시 -->
+  <rect x="40" y="404" width="1000" height="48" fill="#1e293b" fill-opacity="0.4"/>
+  <text x="55" y="434" fill="#F1F5F9" font-size="13" font-weight="700" font-family="sans-serif">고도근시 (-8D+)</text>
+  <text x="410" y="434" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="700" font-family="sans-serif">부적합</text>
+  <text x="660" y="434" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="700" font-family="sans-serif">부적합</text>
+  <text x="920" y="434" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">적합</text>
+
+  <!-- Row 7: 가역성 -->
+  <rect x="40" y="456" width="1000" height="48" fill="#0f172a" fill-opacity="0.5"/>
+  <text x="55" y="486" fill="#F1F5F9" font-size="13" font-weight="700" font-family="sans-serif">가역성 (수술 후 복구)</text>
+  <text x="410" y="486" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="700" font-family="sans-serif">X (영구)</text>
+  <text x="660" y="486" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="700" font-family="sans-serif">X (영구)</text>
+  <text x="920" y="486" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">O (렌즈 제거)</text>
+
+  <!-- Row 8: 정기 검진 -->
+  <rect x="40" y="508" width="1000" height="48" fill="#1e293b" fill-opacity="0.4"/>
+  <text x="55" y="538" fill="#F1F5F9" font-size="13" font-weight="700" font-family="sans-serif">정기 검진</text>
+  <text x="410" y="538" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">6개월~1년</text>
+  <text x="660" y="538" text-anchor="middle" fill="#99F6E4" font-size="14" font-weight="700" font-family="sans-serif">6개월~1년</text>
+  <text x="920" y="538" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">6개월 (평생)</text>
+
+  <!-- Note -->
+  <rect x="40" y="568" width="1000" height="104" rx="10" fill="#1e293b" fill-opacity="0.6" stroke="#334155" stroke-width="1.5"/>
+  <text x="60" y="594" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">의사결정 핵심 변수 4가지</text>
+  <text x="60" y="618" fill="#CBD5E1" font-size="12" font-family="sans-serif">① 예산: 200만 이하 라섹 / 200~400만 스마일 / 400만+ ICL</text>
+  <text x="60" y="638" fill="#CBD5E1" font-size="12" font-family="sans-serif">② 휴가 일정: 1~2주 라섹 / 3~5일 스마일 / 1~2일 ICL</text>
+  <text x="60" y="658" fill="#CBD5E1" font-size="12" font-family="sans-serif">③ 각막 두께: 480μm 이하 ICL 외 선택지 없음 / ④ 고도근시 -8D+ ICL 필수</text>
+
+  <text x="40" y="708" fill="#64748B" font-size="12" font-family="sans-serif">essencial | 2026.05 기준 · 본인 안 상태·안과 정밀검사 후 결정 필수 · 같은 수술도 병원별 30~50% 가격 차이</text>
+</svg>

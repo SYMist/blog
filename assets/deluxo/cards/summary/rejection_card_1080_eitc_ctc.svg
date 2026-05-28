@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="80" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="800" fill="#F59E0B">근로장려금 탈락 사유 TOP 5</text>
+  <rect x="60" y="110" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <rect x="60" y="145" width="960" height="160" rx="20" fill="rgba(239,68,68,0.12)"/>
+  <rect x="80" y="165" width="60" height="44" rx="22" fill="#EF4444"/>
+  <text x="110" y="195" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">1</text>
+  <text x="160" y="195" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#FFF">재산 합계 2.4억원 초과</text>
+  <text x="160" y="240" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">예금·자동차·부동산 합산 — 금융자산 누락이 가장 흔함</text>
+  <text x="160" y="280" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">전년도 6.1 기준 재산을 미리 확인하세요</text>
+
+  <rect x="60" y="325" width="960" height="160" rx="20" fill="rgba(239,68,68,0.08)"/>
+  <rect x="80" y="345" width="60" height="44" rx="22" fill="#EF4444"/>
+  <text x="110" y="375" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">2</text>
+  <text x="160" y="375" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#FFF">부부 합산 소득 기준 초과</text>
+  <text x="160" y="420" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">배우자 소득을 누락하고 계산하면 기준 초과 가능</text>
+  <text x="160" y="460" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">부부 합산 소득을 정확히 확인하세요</text>
+
+  <rect x="60" y="505" width="960" height="160" rx="20" fill="rgba(239,68,68,0.12)"/>
+  <rect x="80" y="525" width="60" height="44" rx="22" fill="#EF4444"/>
+  <text x="110" y="555" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">3</text>
+  <text x="160" y="555" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#FFF">전문직 사업소득 보유</text>
+  <text x="160" y="600" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">변호사·의사·세무사·건축사 등 전문직은 소득 무관 제외</text>
+  <text x="160" y="640" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">전문직 폐업 후 근로소득만 있으면 신청 가능</text>
+
+  <rect x="60" y="685" width="960" height="160" rx="20" fill="rgba(239,68,68,0.08)"/>
+  <rect x="80" y="705" width="60" height="44" rx="22" fill="#EF4444"/>
+  <text x="110" y="735" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">4</text>
+  <text x="160" y="735" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#FFF">다른 거주자의 부양자녀</text>
+  <text x="160" y="780" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">부모에게 부양받는 자녀가 독립으로 신청하면 탈락</text>
+  <text x="160" y="820" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">세대 분리·독립 생계 여부를 먼저 확인</text>
+
+  <rect x="60" y="865" width="960" height="160" rx="20" fill="rgba(239,68,68,0.12)"/>
+  <rect x="80" y="885" width="60" height="44" rx="22" fill="#EF4444"/>
+  <text x="110" y="915" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">5</text>
+  <text x="160" y="915" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#FFF">신청 기한 경과 (12월 1일 이후)</text>
+  <text x="160" y="960" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">정기·기한 후 신청 모두 놓치면 해당 연도 장려금 소멸</text>
+  <text x="160" y="1000" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">캘린더에 신청 마감일을 미리 등록하세요</text>
+</svg>

@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1700" fill="url(#bg)"/>
+
+  <rect x="60" y="50" width="280" height="40" rx="20" fill="#B45309"/>
+  <text x="200" y="77" text-anchor="middle" fill="#FFFFFF" font-size="17" font-weight="800" font-family="sans-serif">시나리오 · 계산 · 체크리스트</text>
+
+  <text x="60" y="155" fill="#FFFFFF" font-size="40" font-weight="800" font-family="sans-serif">내 상황별 최적 신고 경로</text>
+  <text x="60" y="195" fill="#FCD34D" font-size="20" font-weight="600" font-family="sans-serif">8개 시나리오 · 프리랜서 환급 54만 실전 공식</text>
+
+  <!-- 시나리오 8개 카드 -->
+  <text x="60" y="250" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">8가지 상황별 전략</text>
+
+  <!-- Row 1 -->
+  <rect x="60" y="280" width="260" height="200" rx="12" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="80" y="315" fill="#86EFAC" font-size="15" font-weight="800" font-family="sans-serif">S1 · 프리랜서 3,000만</text>
+  <text x="80" y="345" fill="#CBD5E1" font-size="13" font-family="sans-serif">원천징수 99만 (3.3%)</text>
+  <text x="80" y="368" fill="#CBD5E1" font-size="13" font-family="sans-serif">단순경비율 75% 적용</text>
+  <text x="80" y="391" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">→ 산출세액 ≒ 45만</text>
+  <text x="80" y="414" fill="#FFFFFF" font-size="16" font-weight="800" font-family="sans-serif">환급 약 54만</text>
+  <text x="80" y="455" fill="#86EFAC" font-size="12" font-weight="700" font-family="sans-serif">모두채움 대상 · 단순 수정</text>
+
+  <rect x="340" y="280" width="260" height="200" rx="12" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="360" y="315" fill="#86EFAC" font-size="15" font-weight="800" font-family="sans-serif">S2 · 1인 사업 5천만</text>
+  <text x="360" y="345" fill="#CBD5E1" font-size="13" font-family="sans-serif">과표 5,000만 · 15%</text>
+  <text x="360" y="368" fill="#CBD5E1" font-size="13" font-family="sans-serif">노란우산 200만 공제</text>
+  <text x="360" y="391" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">→ 산출세액 약 624만</text>
+  <text x="360" y="414" fill="#FFFFFF" font-size="16" font-weight="800" font-family="sans-serif">과표 −200만 효과</text>
+  <text x="360" y="455" fill="#86EFAC" font-size="12" font-weight="700" font-family="sans-serif">기장 유지 + 경비 확보</text>
+
+  <rect x="620" y="280" width="260" height="200" rx="12" fill="url(#card)" stroke="#FCD34D" stroke-width="2"/>
+  <text x="640" y="315" fill="#FCD34D" font-size="15" font-weight="800" font-family="sans-serif">S3 · 고소득 사업 1억</text>
+  <text x="640" y="345" fill="#CBD5E1" font-size="13" font-family="sans-serif">과표 8,800만 초과 35%</text>
+  <text x="640" y="368" fill="#CBD5E1" font-size="13" font-family="sans-serif">IRP+연금 900만 최대</text>
+  <text x="640" y="391" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">→ 세액 −118.8만</text>
+  <text x="640" y="414" fill="#FFFFFF" font-size="16" font-weight="800" font-family="sans-serif">성실신고 대상 검토</text>
+  <text x="640" y="455" fill="#FCD34D" font-size="12" font-weight="700" font-family="sans-serif">기장 필수 · 세무사 권장</text>
+
+  <rect x="900" y="280" width="240" height="200" rx="12" fill="url(#card)" stroke="#FCD34D" stroke-width="2"/>
+  <text x="920" y="315" fill="#FCD34D" font-size="15" font-weight="800" font-family="sans-serif">S4 · 창업 2년차 청년</text>
+  <text x="920" y="345" fill="#CBD5E1" font-size="13" font-family="sans-serif">창업중기 감면 50~100%</text>
+  <text x="920" y="368" fill="#CBD5E1" font-size="13" font-family="sans-serif">수도권 외 · 청년 100%</text>
+  <text x="920" y="391" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">→ 최대 5년 감면</text>
+  <text x="920" y="414" fill="#FFFFFF" font-size="16" font-weight="800" font-family="sans-serif">최대 '0원' 신고</text>
+  <text x="920" y="455" fill="#FCD34D" font-size="12" font-weight="700" font-family="sans-serif">조세특례제한법 제6조</text>
+
+  <!-- Row 2 -->
+  <rect x="60" y="500" width="260" height="200" rx="12" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="80" y="535" fill="#86EFAC" font-size="15" font-weight="800" font-family="sans-serif">S5 · 근로자 월세 80만</text>
+  <text x="80" y="565" fill="#CBD5E1" font-size="13" font-family="sans-serif">연 960만 + 관리비 포함</text>
+  <text x="80" y="588" fill="#CBD5E1" font-size="13" font-family="sans-serif">총급여 8천만 이하</text>
+  <text x="80" y="611" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">→ 경정청구 15~17%</text>
+  <text x="80" y="634" fill="#FFFFFF" font-size="16" font-weight="800" font-family="sans-serif">환급 약 132~163만</text>
+  <text x="80" y="675" fill="#86EFAC" font-size="12" font-weight="700" font-family="sans-serif">5년 소급 가능</text>
+
+  <rect x="340" y="500" width="260" height="200" rx="12" fill="url(#card)" stroke="#FCD34D" stroke-width="2"/>
+  <text x="360" y="535" fill="#FCD34D" font-size="15" font-weight="800" font-family="sans-serif">S6 · 근로자 + 부업</text>
+  <text x="360" y="565" fill="#CBD5E1" font-size="13" font-family="sans-serif">근로 5천 + 프리랜서 1천</text>
+  <text x="360" y="588" fill="#CBD5E1" font-size="13" font-family="sans-serif">합산 과표 급증</text>
+  <text x="360" y="611" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">→ 추가납부 가능성</text>
+  <text x="360" y="634" fill="#FFFFFF" font-size="16" font-weight="800" font-family="sans-serif">반드시 합산 신고</text>
+  <text x="360" y="675" fill="#FCA5A5" font-size="12" font-weight="700" font-family="sans-serif">누락 시 20% 가산세</text>
+
+  <rect x="620" y="500" width="260" height="200" rx="12" fill="url(#card)" stroke="#FCA5A5" stroke-width="2"/>
+  <text x="640" y="535" fill="#FCA5A5" font-size="15" font-weight="800" font-family="sans-serif">S7 · 기타소득 강연</text>
+  <text x="640" y="565" fill="#CBD5E1" font-size="13" font-family="sans-serif">원천 8.8% 또는 22%</text>
+  <text x="640" y="588" fill="#CBD5E1" font-size="13" font-family="sans-serif">연 300만 초과분 합산</text>
+  <text x="640" y="611" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">→ 분리과세 vs 합산</text>
+  <text x="640" y="634" fill="#FFFFFF" font-size="16" font-weight="800" font-family="sans-serif">300만 이하 선택적</text>
+  <text x="640" y="675" fill="#FCA5A5" font-size="12" font-weight="700" font-family="sans-serif">3.3% 원천 적용 여부 확인</text>
+
+  <rect x="900" y="500" width="240" height="200" rx="12" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="920" y="535" fill="#86EFAC" font-size="15" font-weight="800" font-family="sans-serif">S8 · 근로+임대+배당</text>
+  <text x="920" y="565" fill="#CBD5E1" font-size="13" font-family="sans-serif">이자·배당 2천만 초과</text>
+  <text x="920" y="588" fill="#CBD5E1" font-size="13" font-family="sans-serif">임대소득 2천만 초과</text>
+  <text x="920" y="611" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">→ 합산 과세 필수</text>
+  <text x="920" y="634" fill="#FFFFFF" font-size="16" font-weight="800" font-family="sans-serif">세무사 컨설팅 권장</text>
+  <text x="920" y="675" fill="#86EFAC" font-size="12" font-weight="700" font-family="sans-serif">분리 vs 종합 시뮬</text>
+
+  <!-- 환급 공식 -->
+  <text x="60" y="770" fill="#FFFFFF" font-size="24" font-weight="800" font-family="sans-serif">프리랜서 3,000만 환급 공식 (S1 상세)</text>
+
+  <rect x="60" y="795" width="1080" height="280" rx="16" fill="url(#card)" stroke="#FCD34D" stroke-width="2"/>
+
+  <g font-family="sans-serif">
+    <text x="80" y="835" fill="#FCD34D" font-size="18" font-weight="800">① 총수입금액</text>
+    <text x="800" y="835" text-anchor="end" fill="#FFFFFF" font-size="18" font-weight="800">30,000,000 원</text>
+
+    <text x="80" y="870" fill="#FCD34D" font-size="18" font-weight="800">② 단순경비율 75% 차감</text>
+    <text x="800" y="870" text-anchor="end" fill="#FCA5A5" font-size="18" font-weight="800">− 22,500,000 원</text>
+
+    <text x="80" y="905" fill="#FCD34D" font-size="18" font-weight="800">③ 종합소득금액 (사업)</text>
+    <text x="800" y="905" text-anchor="end" fill="#FFFFFF" font-size="18" font-weight="800">7,500,000 원</text>
+
+    <text x="80" y="940" fill="#FCD34D" font-size="18" font-weight="800">④ 기본·인적공제 차감</text>
+    <text x="800" y="940" text-anchor="end" fill="#FCA5A5" font-size="18" font-weight="800">− 1,500,000 원 이상</text>
+
+    <text x="80" y="975" fill="#FCD34D" font-size="18" font-weight="800">⑤ 산출세액 (과표 × 6%)</text>
+    <text x="800" y="975" text-anchor="end" fill="#FFFFFF" font-size="18" font-weight="800">약 45만 이하</text>
+
+    <text x="80" y="1010" fill="#FCD34D" font-size="18" font-weight="800">⑥ 원천징수 세액 (3.3%)</text>
+    <text x="800" y="1010" text-anchor="end" fill="#86EFAC" font-size="18" font-weight="800">990,000 원</text>
+
+    <text x="80" y="1050" fill="#86EFAC" font-size="22" font-weight="800">⑦ 최종 환급 (⑥ − ⑤)</text>
+    <text x="800" y="1050" text-anchor="end" fill="#86EFAC" font-size="26" font-weight="800">≒ 540,000 원</text>
+  </g>
+
+  <!-- 6단계 체크리스트 -->
+  <text x="60" y="1130" fill="#FFFFFF" font-size="24" font-weight="800" font-family="sans-serif">홈택스 신고 전 6단계 체크리스트</text>
+
+  <rect x="60" y="1155" width="1080" height="450" rx="16" fill="url(#card)" stroke="#B45309" stroke-width="2"/>
+
+  <g font-family="sans-serif">
+    <circle cx="100" cy="1210" r="22" fill="#B45309"/>
+    <text x="100" y="1218" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800">1</text>
+    <text x="140" y="1205" fill="#FFFFFF" font-size="17" font-weight="700">[소득 구분] 사업·근로·기타·이자·배당·임대 전부 리스트화</text>
+    <text x="140" y="1228" fill="#CBD5E1" font-size="14">홈택스 '소득·지급명세서' 메뉴로 일괄 조회</text>
+
+    <circle cx="100" cy="1275" r="22" fill="#B45309"/>
+    <text x="100" y="1283" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800">2</text>
+    <text x="140" y="1270" fill="#FFFFFF" font-size="17" font-weight="700">[경비 레버] 사업자 → 기장 vs 경비율 중 유리한 쪽 선택</text>
+    <text x="140" y="1293" fill="#CBD5E1" font-size="14">단순경비율은 자동계산, 기장은 증빙 원본 필수</text>
+
+    <circle cx="100" cy="1340" r="22" fill="#B45309"/>
+    <text x="100" y="1348" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800">3</text>
+    <text x="140" y="1335" fill="#FFFFFF" font-size="17" font-weight="700">[공제 추가] 연금·IRP·노란우산·기부금 누락 확인</text>
+    <text x="140" y="1358" fill="#CBD5E1" font-size="14">연말정산 후 추가분 → 경정청구로 5년 소급</text>
+
+    <circle cx="100" cy="1405" r="22" fill="#B45309"/>
+    <text x="100" y="1413" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800">4</text>
+    <text x="140" y="1400" fill="#FFFFFF" font-size="17" font-weight="700">[감면 검토] 창업중기·중소기업 세액감면 대상 여부</text>
+    <text x="140" y="1423" fill="#CBD5E1" font-size="14">청년 + 수도권 외 → 최대 5년 100% 감면</text>
+
+    <circle cx="100" cy="1470" r="22" fill="#B45309"/>
+    <text x="100" y="1478" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800">5</text>
+    <text x="140" y="1465" fill="#FFFFFF" font-size="17" font-weight="700">[납부·분납] 1천만 원 초과 → 2개월 분납 (7.31까지)</text>
+    <text x="140" y="1488" fill="#CBD5E1" font-size="14">카드 납부 수수료 0.8% · 계좌 이체 권장</text>
+
+    <circle cx="100" cy="1535" r="22" fill="#B45309"/>
+    <text x="100" y="1543" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800">6</text>
+    <text x="140" y="1530" fill="#FFFFFF" font-size="17" font-weight="700">[검토·수정] 신고 후 3년 내 수정신고, 5년 내 경정청구</text>
+    <text x="140" y="1553" fill="#CBD5E1" font-size="14">6월 성실신고 대상자는 6.30까지 별도 마감</text>
+  </g>
+
+  <text x="60" y="1670" fill="#64748B" font-size="14" font-family="sans-serif">essencial | 대출·금융 silo · 자료: 국세청 홈택스·조세특례제한법 (2026.04 기준)</text>
+</svg>

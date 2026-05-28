@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <rect x="410" y="200" width="260" height="56" rx="28" fill="#F59E0B"/>
+  <text x="540" y="236" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#0B1F3B" text-anchor="middle">2026 최신</text>
+
+  <text x="540" y="430" font-family="'Pretendard', sans-serif" font-size="82" font-weight="900" fill="#FFFFFF" text-anchor="middle">상속세·증여세</text>
+
+  <text x="540" y="540" font-family="'Pretendard', sans-serif" font-size="52" font-weight="600" fill="#EAF2FF" text-anchor="middle">사업 승계·가족 증여</text>
+  <text x="540" y="610" font-family="'Pretendard', sans-serif" font-size="52" font-weight="600" fill="#EAF2FF" text-anchor="middle">절세 전략 총정리</text>
+
+  <rect x="155" y="760" width="200" height="60" rx="32" fill="#E8F0FF"/>
+  <text x="255" y="799" font-family="'Pretendard', sans-serif" font-size="30" font-weight="700" fill="#1D4ED8" text-anchor="middle">공제확대</text>
+
+  <rect x="395" y="760" width="260" height="60" rx="32" fill="#E8F0FF"/>
+  <text x="525" y="799" font-family="'Pretendard', sans-serif" font-size="30" font-weight="700" fill="#1D4ED8" text-anchor="middle">가업승계600억</text>
+
+  <rect x="695" y="760" width="220" height="60" rx="32" fill="#E8F0FF"/>
+  <text x="805" y="799" font-family="'Pretendard', sans-serif" font-size="30" font-weight="700" fill="#1D4ED8" text-anchor="middle">증여전략</text>
+</svg>

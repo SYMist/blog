@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#F59E0B">다자녀(2자녀) 혜택 한눈에 비교표</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- Header -->
+  <rect x="60" y="120" width="240" height="50" rx="0" fill="rgba(245,158,11,0.25)"/>
+  <rect x="300" y="120" width="300" height="50" rx="0" fill="rgba(245,158,11,0.25)"/>
+  <rect x="600" y="120" width="210" height="50" rx="0" fill="rgba(245,158,11,0.25)"/>
+  <rect x="810" y="120" width="210" height="50" rx="0" fill="rgba(245,158,11,0.25)"/>
+  <text x="180" y="152" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">분야</text>
+  <text x="450" y="152" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">혜택</text>
+  <text x="705" y="152" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">2자녀</text>
+  <text x="915" y="152" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">3자녀+</text>
+
+  <!-- Row 1 -->
+  <rect x="60" y="170" width="960" height="70" rx="0" fill="rgba(59,130,246,0.1)"/>
+  <text x="180" y="212" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">주택 특별공급</text>
+  <text x="450" y="212" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#EAF2FF">미성년 자녀 가점</text>
+  <text x="705" y="212" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#FFF">25점</text>
+  <text x="915" y="212" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#EAF2FF">35~40점</text>
+
+  <!-- Row 2 -->
+  <rect x="60" y="240" width="960" height="70" rx="0" fill="rgba(255,255,255,0.04)"/>
+  <text x="180" y="282" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">디딤돌 대출</text>
+  <text x="450" y="282" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#EAF2FF">우대 금리</text>
+  <text x="705" y="282" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#FFF">0.5%p↓</text>
+  <text x="915" y="282" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#EAF2FF">0.7%p↓</text>
+
+  <!-- Row 3 -->
+  <rect x="60" y="310" width="960" height="70" rx="0" fill="rgba(59,130,246,0.1)"/>
+  <text x="180" y="352" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">취득세(7인승+)</text>
+  <text x="450" y="352" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#EAF2FF">자동차 감면</text>
+  <text x="705" y="352" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#FFF">50%↓</text>
+  <text x="915" y="352" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#EAF2FF">100% 면제</text>
+
+  <!-- Row 4 -->
+  <rect x="60" y="380" width="960" height="70" rx="0" fill="rgba(255,255,255,0.04)"/>
+  <text x="180" y="422" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">국가장학금</text>
+  <text x="450" y="422" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#EAF2FF">1~3구간</text>
+  <text x="705" y="422" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#FFF">610만 원</text>
+  <text x="915" y="422" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#EAF2FF">전액 지원</text>
+
+  <!-- Row 5 -->
+  <rect x="60" y="450" width="960" height="70" rx="0" fill="rgba(59,130,246,0.1)"/>
+  <text x="180" y="492" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">K-패스</text>
+  <text x="450" y="492" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#EAF2FF">교통비 환급</text>
+  <text x="705" y="492" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#FFF">30%</text>
+  <text x="915" y="492" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#EAF2FF">50%</text>
+
+  <!-- Row 6 -->
+  <rect x="60" y="520" width="960" height="70" rx="0" fill="rgba(255,255,255,0.04)"/>
+  <text x="180" y="562" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">전기요금</text>
+  <text x="450" y="562" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#EAF2FF">월 할인</text>
+  <text x="705" y="562" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#FFF">30%↓</text>
+  <text x="915" y="562" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#EAF2FF">30%↓</text>
+
+  <!-- Row 7 -->
+  <rect x="60" y="590" width="960" height="70" rx="0" fill="rgba(59,130,246,0.1)"/>
+  <text x="180" y="632" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">보육수당</text>
+  <text x="450" y="632" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#EAF2FF">비과세(인당)</text>
+  <text x="705" y="632" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#FFF">월 20만 원</text>
+  <text x="915" y="632" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#EAF2FF">월 20만 원</text>
+
+  <!-- Row 8 -->
+  <rect x="60" y="660" width="960" height="70" rx="0" fill="rgba(255,255,255,0.04)"/>
+  <text x="180" y="702" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">첫만남이용권</text>
+  <text x="450" y="702" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#EAF2FF">둘째 자녀</text>
+  <text x="705" y="702" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#FFF">300만 원</text>
+  <text x="915" y="702" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#EAF2FF">300만 원</text>
+
+  <!-- Bottom highlight -->
+  <rect x="60" y="760" width="960" height="120" rx="20" fill="rgba(245,158,11,0.1)"/>
+  <text x="540" y="805" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#F59E0B">2026년 다자녀 기준 = 2자녀</text>
+  <text x="540" y="845" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="600" fill="#EAF2FF">전국 17개 광역자치단체 2자녀 완전 전환 · 신청주의 — 모르면 못 받습니다</text>
+
+  <!-- Footer -->
+  <rect x="60" y="920" width="960" height="60" rx="16" fill="rgba(245,158,11,0.15)"/>
+  <text x="540" y="958" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">정부24(gov.kr) · 한국장학재단(kosaf.go.kr) · LH 청약센터</text>
+
+  <rect x="60" y="1050" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

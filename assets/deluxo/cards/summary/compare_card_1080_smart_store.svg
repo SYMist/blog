@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="80" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="800" fill="#F59E0B">구입형 vs 렌탈형 vs S/W형 비교</text>
+  <rect x="60" y="110" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- Header -->
+  <rect x="60" y="130" width="960" height="55" rx="0" fill="rgba(59,130,246,0.2)"/>
+  <text x="180" y="165" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="800" fill="#FFF">항목</text>
+  <text x="420" y="165" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="800" fill="#3B82F6">구입형</text>
+  <text x="660" y="165" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="800" fill="#10B981">렌탈형</text>
+  <text x="900" y="165" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="800" fill="#8B5CF6">S/W형</text>
+
+  <!-- 대표 기기 -->
+  <rect x="60" y="190" width="960" height="80" rx="0" fill="rgba(255,255,255,0.06)"/>
+  <text x="180" y="237" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#F59E0B">대표 기기</text>
+  <text x="420" y="225" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">키오스크</text>
+  <text x="420" y="250" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">테이블오더·AI CCTV</text>
+  <text x="660" y="225" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">서빙로봇</text>
+  <text x="660" y="250" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">조리로봇</text>
+  <text x="900" y="225" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">매출분석</text>
+  <text x="900" y="250" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">경영관리 솔루션</text>
+
+  <!-- 지원 한도 -->
+  <rect x="60" y="275" width="960" height="80" rx="0" fill="rgba(255,255,255,0.04)"/>
+  <text x="180" y="322" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#F59E0B">지원 한도</text>
+  <text x="420" y="322" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">최대 700만 원</text>
+  <text x="660" y="310" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">연 350만 원</text>
+  <text x="660" y="335" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">(2년간)</text>
+  <text x="900" y="310" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">연 30만 원</text>
+  <text x="900" y="335" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">(2년간)</text>
+
+  <!-- 국비 비율 -->
+  <rect x="60" y="360" width="960" height="80" rx="0" fill="rgba(255,255,255,0.06)"/>
+  <text x="180" y="407" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#F59E0B">국비 비율</text>
+  <text x="420" y="395" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">일반 70%</text>
+  <text x="420" y="420" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">우대 80%</text>
+  <text x="660" y="395" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">일반 70%</text>
+  <text x="660" y="420" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">우대 80%</text>
+  <text x="900" y="407" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#10B981">100%</text>
+
+  <!-- 자부담(700만 기준) -->
+  <rect x="60" y="445" width="960" height="80" rx="0" fill="rgba(255,255,255,0.04)"/>
+  <text x="180" y="480" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#F59E0B">자부담</text>
+  <text x="180" y="505" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="14" fill="#EAF2FF">(700만 기준)</text>
+  <text x="420" y="480" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">일반 210만</text>
+  <text x="420" y="505" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">우대 140만</text>
+  <text x="660" y="480" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">연 105만</text>
+  <text x="660" y="505" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">우대 70만</text>
+  <text x="900" y="492" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#10B981">0원</text>
+
+  <!-- 의무 기간 -->
+  <rect x="60" y="530" width="960" height="80" rx="0" fill="rgba(255,255,255,0.06)"/>
+  <text x="180" y="577" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#F59E0B">의무 기간</text>
+  <text x="420" y="577" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">2년</text>
+  <text x="660" y="577" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">1년</text>
+  <text x="900" y="577" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">2년</text>
+
+  <!-- 추천 대상 -->
+  <rect x="60" y="615" width="960" height="90" rx="0" fill="rgba(255,255,255,0.04)"/>
+  <text x="180" y="667" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#F59E0B">추천 대상</text>
+  <text x="420" y="650" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">장비 소유 원하는</text>
+  <text x="420" y="675" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">음식점·소매점</text>
+  <text x="660" y="650" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">초기비용 부담</text>
+  <text x="660" y="675" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">인건비 절감 필요</text>
+  <text x="900" y="650" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">디지털 전환 첫걸음</text>
+  <text x="900" y="675" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#FFF">데이터 기반 경영</text>
+
+  <!-- 구분선 -->
+  <line x1="300" y1="190" x2="300" y2="705" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <line x1="540" y1="190" x2="540" y2="705" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <line x1="780" y1="190" x2="780" y2="705" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+
+  <!-- 연계 지원 조합 -->
+  <rect x="60" y="730" width="960" height="50" rx="0" fill="rgba(59,130,246,0.2)"/>
+  <text x="540" y="762" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#FFF">연계 지원 조합</text>
+
+  <rect x="60" y="785" width="960" height="120" rx="20" fill="rgba(245,158,11,0.12)"/>
+  <text x="540" y="830" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#F59E0B">스마트상점 700만 + AI 활용 2,000만 + 바우처 25만</text>
+  <text x="540" y="870" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">= 최대 2,725만 원 지원 가능</text>
+  <text x="540" y="895" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">각 사업별 별도 신청 · 중복 수혜 가능</text>
+
+  <!-- 하단 -->
+  <rect x="60" y="930" width="960" height="80" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="540" y="965" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">신청: 소상공인24(sbiz24.kr) · 1357</text>
+  <text x="540" y="995" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">소상공인진흥공단 지역센터 방문 접수도 가능</text>
+
+  <rect x="60" y="1050" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

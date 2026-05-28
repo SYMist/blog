@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#F59E0B">신용점수별 추천 채널 빠른 판단</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- 고신용 -->
+  <rect x="60" y="130" width="960" height="270" rx="20" fill="rgba(34,197,94,0.08)"/>
+  <rect x="80" y="155" width="340" height="50" rx="25" fill="rgba(34,197,94,0.2)"/>
+  <text x="250" y="188" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#22C55E">고신용 (KCB 900점 이상)</text>
+  <text x="80" y="238" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">예상 금리: 4.0 ~ 5.5%</text>
+  <text x="80" y="276" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">추천 채널: 5대 시중은행 우선</text>
+  <text x="80" y="314" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">핵심 전략: 금리인하요구권 + 주기형 대출</text>
+  <text x="80" y="362" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#F59E0B">→ 시중은행 최저 금리 확보 + 대환 플랫폼 비교 병행</text>
+
+  <!-- 중신용 -->
+  <rect x="60" y="418" width="960" height="270" rx="20" fill="rgba(59,130,246,0.08)"/>
+  <rect x="80" y="443" width="340" height="50" rx="25" fill="rgba(59,130,246,0.15)"/>
+  <text x="250" y="476" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#60A5FA">중신용 (700 ~ 899점)</text>
+  <text x="80" y="526" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">예상 금리: 5.5 ~ 11.0%</text>
+  <text x="80" y="564" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">추천 채널: 인터넷은행 + 대환 플랫폼</text>
+  <text x="80" y="602" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">핵심 전략: 중도상환 0원 활용 + 금리 비교 갈아타기</text>
+  <text x="80" y="650" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#F59E0B">→ 카카오 700점대 평균 7.80% · 대환 시 1.6%p↓ 가능</text>
+
+  <!-- 저신용 -->
+  <rect x="60" y="706" width="960" height="270" rx="20" fill="rgba(239,68,68,0.08)"/>
+  <rect x="80" y="731" width="340" height="50" rx="25" fill="rgba(239,68,68,0.15)"/>
+  <text x="250" y="764" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#EF4444">저신용 (700점 미만)</text>
+  <text x="80" y="814" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">예상 금리: 9.0 ~ 15.0%</text>
+  <text x="80" y="852" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">추천 채널: 햇살론 + 사잇돌 정책 상품</text>
+  <text x="80" y="890" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">핵심 전략: 정책금융 우선 + 성실 상환 → 점수 회복</text>
+  <text x="80" y="938" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#F59E0B">→ 햇살론 특례 12.5% · 배려대상 실질 5~6%</text>
+
+  <rect x="60" y="1006" width="960" height="40" rx="10" fill="rgba(245,158,11,0.12)"/>
+  <text x="540" y="1034" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#F59E0B">같은 목적이라도 신용점수에 따라 최적 채널이 완전히 다릅니다</text>
+</svg>

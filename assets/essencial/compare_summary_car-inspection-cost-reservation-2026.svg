@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 1400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="860" height="1400" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="430" y="50" text-anchor="middle" fill="#93C5FD" font-size="16" font-weight="600" font-family="sans-serif">essencial | 자동차 정기검사 총정리</text>
+  <text x="430" y="90" text-anchor="middle" fill="#FFFFFF" font-size="28" font-weight="800" font-family="sans-serif">핵심 숫자 한눈에 보기 (2026)</text>
+
+  <!-- 4 Key Number Cards -->
+  <g transform="translate(40,120)">
+    <!-- Card 1: 비용 -->
+    <rect x="0" y="0" width="185" height="120" rx="14" fill="#1e293b"/>
+    <rect x="0" y="0" width="185" height="4" rx="2" fill="#3B82F6"/>
+    <text x="92" y="35" text-anchor="middle" fill="#93C5FD" font-size="13" font-weight="600" font-family="sans-serif">소형 승용 검사비</text>
+    <text x="92" y="72" text-anchor="middle" fill="#FFFFFF" font-size="30" font-weight="800" font-family="sans-serif">23,000원</text>
+    <text x="92" y="100" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">TS 공단 직영 기준</text>
+
+    <!-- Card 2: 유효기간 -->
+    <rect x="200" y="0" width="185" height="120" rx="14" fill="#1e293b"/>
+    <rect x="200" y="0" width="185" height="4" rx="2" fill="#34D399"/>
+    <text x="292" y="35" text-anchor="middle" fill="#6EE7B7" font-size="13" font-weight="600" font-family="sans-serif">신차 최초 검사</text>
+    <text x="292" y="72" text-anchor="middle" fill="#FFFFFF" font-size="30" font-weight="800" font-family="sans-serif">5년</text>
+    <text x="292" y="100" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">이후 매 2년마다</text>
+
+    <!-- Card 3: 검사 기간 -->
+    <rect x="400" y="0" width="185" height="120" rx="14" fill="#1e293b"/>
+    <rect x="400" y="0" width="185" height="4" rx="2" fill="#FBBF24"/>
+    <text x="492" y="35" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="600" font-family="sans-serif">검사 가능 기간</text>
+    <text x="492" y="72" text-anchor="middle" fill="#FFFFFF" font-size="30" font-weight="800" font-family="sans-serif">122일</text>
+    <text x="492" y="100" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">만료 전 90일~후 31일</text>
+
+    <!-- Card 4: 과태료 -->
+    <rect x="600" y="0" width="185" height="120" rx="14" fill="#1e293b"/>
+    <rect x="600" y="0" width="185" height="4" rx="2" fill="#F87171"/>
+    <text x="692" y="35" text-anchor="middle" fill="#FCA5A5" font-size="13" font-weight="600" font-family="sans-serif">과태료 최대</text>
+    <text x="692" y="72" text-anchor="middle" fill="#FFFFFF" font-size="30" font-weight="800" font-family="sans-serif">60만 원</text>
+    <text x="692" y="100" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">+ 운행정지명령</text>
+  </g>
+
+  <!-- 수수료 비교 테이블 -->
+  <text x="430" y="290" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="700" font-family="sans-serif">차종별 검사 수수료 (TS 공단 직영)</text>
+
+  <g transform="translate(60,310)">
+    <!-- Header -->
+    <rect x="0" y="0" width="740" height="38" rx="8" fill="#334155"/>
+    <text x="120" y="25" text-anchor="middle" fill="#93C5FD" font-size="14" font-weight="700" font-family="sans-serif">차종</text>
+    <text x="330" y="25" text-anchor="middle" fill="#93C5FD" font-size="14" font-weight="700" font-family="sans-serif">정기검사</text>
+    <text x="540" y="25" text-anchor="middle" fill="#93C5FD" font-size="14" font-weight="700" font-family="sans-serif">종합검사</text>
+
+    <!-- Row 1 -->
+    <rect x="0" y="44" width="740" height="36" rx="0" fill="#1e293b"/>
+    <text x="120" y="68" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">경차 (1,000cc 미만)</text>
+    <text x="330" y="68" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="600" font-family="sans-serif">17,000원</text>
+    <text x="540" y="68" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="600" font-family="sans-serif">48,000원</text>
+
+    <!-- Row 2 -->
+    <rect x="0" y="82" width="740" height="36" rx="0" fill="#253044"/>
+    <text x="120" y="106" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">소형 승용 (15인 이하)</text>
+    <text x="330" y="106" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="800" font-family="sans-serif">23,000원</text>
+    <text x="540" y="106" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="800" font-family="sans-serif">54,000원</text>
+
+    <!-- Row 3 -->
+    <rect x="0" y="120" width="740" height="36" rx="0" fill="#1e293b"/>
+    <text x="120" y="144" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">중형 (승합·화물)</text>
+    <text x="330" y="144" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="600" font-family="sans-serif">26,500원</text>
+    <text x="540" y="144" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="600" font-family="sans-serif">56,000원</text>
+
+    <!-- Row 4 -->
+    <rect x="0" y="158" width="740" height="36" rx="0" fill="#253044"/>
+    <text x="120" y="182" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">대형 (대형 승합·화물)</text>
+    <text x="330" y="182" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="600" font-family="sans-serif">29,000원</text>
+    <text x="540" y="182" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="600" font-family="sans-serif">65,000원</text>
+  </g>
+
+  <!-- 공단 vs 민간 비교 -->
+  <text x="430" y="560" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="700" font-family="sans-serif">TS 공단 vs 민간 검사소</text>
+
+  <g transform="translate(60,580)">
+    <!-- 공단 카드 -->
+    <rect x="0" y="0" width="350" height="180" rx="16" fill="#1e293b"/>
+    <rect x="0" y="0" width="350" height="4" rx="2" fill="#3B82F6"/>
+    <text x="175" y="35" text-anchor="middle" fill="#60A5FA" font-size="18" font-weight="700" font-family="sans-serif">TS 공단 직영</text>
+    <text x="175" y="65" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">23,000원</text>
+    <text x="175" y="95" text-anchor="middle" fill="#34D399" font-size="14" font-weight="600" font-family="sans-serif">감면 혜택 적용 가능</text>
+    <text x="175" y="120" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">장애인 중증 50% / 경증 30%</text>
+    <text x="175" y="142" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">다자녀·기초수급자 감면</text>
+    <text x="175" y="168" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="600" font-family="sans-serif">예약 경쟁 심함</text>
+
+    <!-- 민간 카드 -->
+    <rect x="390" y="0" width="350" height="180" rx="16" fill="#1e293b"/>
+    <rect x="390" y="0" width="350" height="4" rx="2" fill="#F59E0B"/>
+    <text x="565" y="35" text-anchor="middle" fill="#FBBF24" font-size="18" font-weight="700" font-family="sans-serif">민간 지정검사소</text>
+    <text x="565" y="65" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">28,000~43,000원</text>
+    <text x="565" y="95" text-anchor="middle" fill="#F87171" font-size="14" font-weight="600" font-family="sans-serif">감면 혜택 불가</text>
+    <text x="565" y="120" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">시설 이용료 +5,000~20,000원</text>
+    <text x="565" y="142" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">당일·즉시 수검 가능</text>
+    <text x="565" y="168" text-anchor="middle" fill="#34D399" font-size="13" font-weight="600" font-family="sans-serif">예약 쉬움</text>
+  </g>
+
+  <!-- 과태료 체계 -->
+  <text x="430" y="810" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="700" font-family="sans-serif">과태료 체계 — 검사 미수검 시</text>
+
+  <g transform="translate(60,830)">
+    <!-- Bar 1 -->
+    <rect x="0" y="0" width="180" height="70" rx="12" fill="#1e293b"/>
+    <rect x="0" y="0" width="180" height="4" rx="2" fill="#FBBF24"/>
+    <text x="90" y="30" text-anchor="middle" fill="#FCD34D" font-size="12" font-weight="600" font-family="sans-serif">30일 이내</text>
+    <text x="90" y="55" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">4만 원</text>
+
+    <!-- Arrow -->
+    <polygon points="190,35 200,28 200,42" fill="#475569"/>
+
+    <!-- Bar 2 -->
+    <rect x="210" y="0" width="230" height="70" rx="12" fill="#1e293b"/>
+    <rect x="210" y="0" width="230" height="4" rx="2" fill="#F59E0B"/>
+    <text x="325" y="30" text-anchor="middle" fill="#FBBF24" font-size="12" font-weight="600" font-family="sans-serif">31~114일</text>
+    <text x="325" y="55" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800" font-family="sans-serif">4만 + 3일마다 2만</text>
+
+    <!-- Arrow -->
+    <polygon points="450,35 460,28 460,42" fill="#475569"/>
+
+    <!-- Bar 3 -->
+    <rect x="470" y="0" width="270" height="70" rx="12" fill="#1e293b"/>
+    <rect x="470" y="0" width="270" height="4" rx="2" fill="#EF4444"/>
+    <text x="605" y="30" text-anchor="middle" fill="#FCA5A5" font-size="12" font-weight="600" font-family="sans-serif">115일 이상</text>
+    <text x="605" y="55" text-anchor="middle" fill="#F87171" font-size="22" font-weight="800" font-family="sans-serif">최대 60만 원</text>
+  </g>
+
+  <!-- 1년 이상 경고 -->
+  <rect x="60" y="920" width="740" height="50" rx="12" fill="#7F1D1D" opacity="0.5"/>
+  <text x="430" y="952" text-anchor="middle" fill="#FCA5A5" font-size="16" font-weight="700" font-family="sans-serif">1년 이상 미수검 → 60만 원 + 운행정지명령 (위반 시 형사처벌)</text>
+
+  <!-- 결론 -->
+  <rect x="60" y="1000" width="740" height="70" rx="16" fill="#1E40AF" opacity="0.3"/>
+  <text x="430" y="1030" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="700" font-family="sans-serif">과태료 60만 원 vs 검사 비용 23,000원</text>
+  <text x="430" y="1055" text-anchor="middle" fill="#FCD34D" font-size="16" font-weight="600" font-family="sans-serif">검사 비용의 26배 — 만료일 확인만으로 피할 수 있습니다</text>
+
+  <!-- 유효기간 시각화 -->
+  <text x="430" y="1120" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="700" font-family="sans-serif">검사 가능 기간 = 122일</text>
+
+  <g transform="translate(60,1140)">
+    <rect x="0" y="0" width="740" height="60" rx="10" fill="#1e293b"/>
+    <!-- 90일 전 구간 -->
+    <rect x="20" y="10" width="440" height="40" rx="8" fill="#1E40AF" opacity="0.5"/>
+    <text x="240" y="36" text-anchor="middle" fill="#93C5FD" font-size="14" font-weight="700" font-family="sans-serif">만료 90일 전</text>
+    <!-- 만료일 표시 -->
+    <line x1="460" y1="5" x2="460" y2="55" stroke="#FCD34D" stroke-width="3"/>
+    <text x="460" y="75" text-anchor="middle" fill="#FCD34D" font-size="12" font-weight="700" font-family="sans-serif">만료일</text>
+    <!-- 31일 후 구간 -->
+    <rect x="465" y="10" width="210" height="40" rx="8" fill="#34D399" opacity="0.3"/>
+    <text x="570" y="36" text-anchor="middle" fill="#6EE7B7" font-size="14" font-weight="700" font-family="sans-serif">만료 후 31일</text>
+  </g>
+
+  <text x="430" y="1260" text-anchor="middle" fill="#34D399" font-size="15" font-weight="600" font-family="sans-serif">조기 수검해도 유효기간 만료일 변동 없음 → 일찍 받아도 손해 없음</text>
+
+  <!-- 감면 혜택 요약 -->
+  <g transform="translate(60,1290)">
+    <rect x="0" y="0" width="240" height="44" rx="10" fill="#1e293b"/>
+    <text x="120" y="28" text-anchor="middle" fill="#34D399" font-size="14" font-weight="700" font-family="sans-serif">장애인 중증: 50% 감면</text>
+
+    <rect x="255" y="0" width="240" height="44" rx="10" fill="#1e293b"/>
+    <text x="375" y="28" text-anchor="middle" fill="#60A5FA" font-size="14" font-weight="700" font-family="sans-serif">장애인 경증: 30% 감면</text>
+
+    <rect x="510" y="0" width="230" height="44" rx="10" fill="#1e293b"/>
+    <text x="625" y="28" text-anchor="middle" fill="#FBBF24" font-size="14" font-weight="700" font-family="sans-serif">다자녀·수급자 감면</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="430" y="1380" text-anchor="middle" fill="#64748B" font-size="13" font-family="sans-serif">essencial | 2026년 기준 | TS 공단·국토교통부 자료</text>
+</svg>

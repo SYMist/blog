@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="60" y="50" width="180" height="44" rx="22" fill="#F59E0B"/>
+  <text x="150" y="79" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#0B1F3B">2026 최신</text>
+  <text x="60" y="150" font-family="'Pretendard',sans-serif" font-size="48" font-weight="900" fill="#FFFFFF">개인회생 비용·기간·면책</text>
+  <text x="60" y="210" font-family="'Pretendard',sans-serif" font-size="48" font-weight="900" fill="#FFFFFF">핵심 요약</text>
+  <rect x="60" y="240" width="120" height="4" rx="2" fill="#F59E0B"/>
+
+  <rect x="60" y="280" width="960" height="110" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <rect x="80" y="300" width="8" height="70" rx="4" fill="#3B82F6"/>
+  <text x="110" y="330" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">법원비용</text>
+  <text x="110" y="365" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">인지대 28,800원 + 송달료 (채권자 5명 = 약 30만원)</text>
+
+  <rect x="60" y="410" width="960" height="110" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <rect x="80" y="430" width="8" height="70" rx="4" fill="#10B981"/>
+  <text x="110" y="460" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">수임료</text>
+  <text x="110" y="495" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">103만원~ (채무액별 차등) + 부가세 10%</text>
+
+  <rect x="60" y="540" width="960" height="110" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <rect x="80" y="560" width="8" height="70" rx="4" fill="#F59E0B"/>
+  <text x="110" y="590" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">변제기간</text>
+  <text x="110" y="625" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">3년(원칙) · 최대 5년 · 2026년 단축 대상 확대</text>
+
+  <rect x="60" y="670" width="960" height="110" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <rect x="80" y="690" width="8" height="70" rx="4" fill="#8B5CF6"/>
+  <text x="110" y="720" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">최저생계비 (2026)</text>
+  <text x="110" y="755" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">1인 약 1,528,542원/월 (전년 대비 7.2% 인상)</text>
+
+  <rect x="60" y="800" width="960" height="110" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <rect x="80" y="820" width="8" height="70" rx="4" fill="#EC4899"/>
+  <text x="110" y="850" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">면책 조건</text>
+  <text x="110" y="885" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">변제 완료 → 잔여 채무 탕감 (비면책채권 7가지 제외)</text>
+
+  <rect x="60" y="940" width="120" height="40" rx="20" fill="#E8F0FF"/>
+  <text x="120" y="967" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#1D4ED8">비용</text>
+  <rect x="200" y="940" width="120" height="40" rx="20" fill="#E8F0FF"/>
+  <text x="260" y="967" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#1D4ED8">기간</text>
+  <rect x="340" y="940" width="120" height="40" rx="20" fill="#E8F0FF"/>
+  <text x="400" y="967" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#1D4ED8">면책</text>
+
+  <text x="60" y="1040" font-family="'Pretendard',sans-serif" font-size="18" fill="#94A3B8">※ 법원·사건에 따라 비용과 기간이 달라질 수 있습니다</text>
+</svg>

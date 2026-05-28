@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="700" fill="url(#bg)"/>
+
+  <text x="540" y="46" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">수입차 vs 국산차 상황별 추천 시나리오</text>
+  <text x="540" y="70" text-anchor="middle" fill="#93C5FD" font-size="13" font-family="sans-serif">5년 TCO 기준 · 사업자·장기보유·일본브랜드 변수 반영 · 2026.05 기준</text>
+
+  <!-- Scenario 1 -->
+  <rect x="40" y="90" width="480" height="116" rx="10" fill="#14532d" fill-opacity="0.6" stroke="#15803D" stroke-width="1.5"/>
+  <rect x="40" y="90" width="480" height="36" rx="10" fill="#15803D"/>
+  <rect x="40" y="112" width="480" height="14" fill="#15803D"/>
+  <text x="60" y="114" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">① 5년 총비용 절감이 최우선</text>
+  <text x="60" y="148" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">→ 국산차 압도적 유리 (5년 3,254만원 절감)</text>
+  <text x="60" y="170" fill="#CBD5E1" font-size="12" font-family="sans-serif">월 환산 약 54만원 차이 · 보험료·정비비에서 격차 큼</text>
+  <text x="60" y="192" fill="#CBD5E1" font-size="12" font-family="sans-serif">단기 보유일수록 초기 감가·취득세 격차가 직접 손실로 반영</text>
+
+  <!-- Scenario 2 -->
+  <rect x="560" y="90" width="480" height="116" rx="10" fill="#1e3a8a" fill-opacity="0.6" stroke="#1E40AF" stroke-width="1.5"/>
+  <rect x="560" y="90" width="480" height="36" rx="10" fill="#1E40AF"/>
+  <rect x="560" y="112" width="480" height="14" fill="#1E40AF"/>
+  <text x="580" y="114" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">② 사업자(법인·개인사업자) 비용 처리 가능</text>
+  <text x="580" y="148" fill="#BFDBFE" font-size="13" font-weight="700" font-family="sans-serif">→ 수입차 합리적 (연 462만원 절세 효과)</text>
+  <text x="580" y="170" fill="#CBD5E1" font-size="12" font-family="sans-serif">업무용 차량 한도 연 1,500만원 · 70% 비용 인정</text>
+  <text x="580" y="192" fill="#CBD5E1" font-size="12" font-family="sans-serif">5년 누적 약 2,310만원 절세 → TCO 격차 일부 상쇄</text>
+
+  <!-- Scenario 3 -->
+  <rect x="40" y="226" width="480" height="116" rx="10" fill="#1e3a8a" fill-opacity="0.6" stroke="#1E40AF" stroke-width="1.5"/>
+  <rect x="40" y="226" width="480" height="36" rx="10" fill="#1E40AF"/>
+  <rect x="40" y="248" width="480" height="14" fill="#1E40AF"/>
+  <text x="60" y="250" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">③ 7년 이상 장기 보유 계획</text>
+  <text x="60" y="284" fill="#BFDBFE" font-size="13" font-weight="700" font-family="sans-serif">→ 수입차 격차 축소 (초기 급감가 분산)</text>
+  <text x="60" y="306" fill="#CBD5E1" font-size="12" font-family="sans-serif">첫 1~3년 급감가 구간을 시간으로 분산</text>
+  <text x="60" y="328" fill="#CBD5E1" font-size="12" font-family="sans-serif">정비비도 누적 평균화 → 연 환산 부담 감소</text>
+
+  <!-- Scenario 4 -->
+  <rect x="560" y="226" width="480" height="116" rx="10" fill="#422006" fill-opacity="0.6" stroke="#D97706" stroke-width="1.5"/>
+  <rect x="560" y="226" width="480" height="36" rx="10" fill="#D97706"/>
+  <rect x="560" y="248" width="480" height="14" fill="#D97706"/>
+  <text x="580" y="250" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">④ 일본 수입차(렉서스·토요타) 고려</text>
+  <text x="580" y="284" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">→ 국산과 격차 좁혀짐 (TCO 약 1,500만원)</text>
+  <text x="580" y="306" fill="#CBD5E1" font-size="12" font-family="sans-serif">잔존가치 52~57% (독일 40% vs 국산 50%)</text>
+  <text x="580" y="328" fill="#CBD5E1" font-size="12" font-family="sans-serif">정비비도 독일 대비 30~40% 낮음</text>
+
+  <!-- Scenario 5 (full width) -->
+  <rect x="40" y="362" width="1000" height="116" rx="10" fill="#14532d" fill-opacity="0.6" stroke="#15803D" stroke-width="1.5"/>
+  <rect x="40" y="362" width="1000" height="36" rx="10" fill="#15803D"/>
+  <rect x="40" y="384" width="1000" height="14" fill="#15803D"/>
+  <text x="60" y="386" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">⑤ 연 1만km 이하 + 3년 내 교체 예정 (단기 보유)</text>
+  <text x="60" y="420" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">→ 국산차 명확히 유리 (단기 손실 폭 큼)</text>
+  <text x="60" y="442" fill="#CBD5E1" font-size="12" font-family="sans-serif">3년 보유 시 수입 잔존 50~55% vs 국산 60~65% — 절대 감가 격차 약 1,600만원 차이</text>
+  <text x="60" y="464" fill="#CBD5E1" font-size="12" font-family="sans-serif">짧은 보유에선 보험료·정비비 누적 효과가 작아 신차 가격·취득세 손실이 직접 노출</text>
+
+  <!-- Summary box -->
+  <rect x="40" y="496" width="1000" height="176" rx="10" fill="#1e293b" fill-opacity="0.8"/>
+  <text x="540" y="528" text-anchor="middle" fill="#F8FAFC" font-size="14" font-weight="800" font-family="sans-serif">핵심 결론 3줄 요약</text>
+  <text x="80" y="562" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">5년 TCO 차이</text>
+  <text x="250" y="562" fill="#FFFFFF" font-size="13" font-family="sans-serif">→ 약 3,254만원 (월 54만원) · 단순 구매가의 1.1배 격차</text>
+  <text x="80" y="594" fill="#BFDBFE" font-size="13" font-weight="700" font-family="sans-serif">보험료 격차 원인</text>
+  <text x="250" y="594" fill="#FFFFFF" font-size="13" font-family="sans-serif">→ 차량모델등급 10등급 차이 (국산 16 vs 수입 6) = 자차 약 50% 격차</text>
+  <text x="80" y="626" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">수입차가 맞는 경우</text>
+  <text x="250" y="626" fill="#FFFFFF" font-size="13" font-family="sans-serif">→ 사업자 절세 / 7년+ 장기 / 일본 수입(잔존가치 회복) / 만족도 가치</text>
+  <text x="80" y="654" fill="#94A3B8" font-size="12" font-family="sans-serif">※ 본 시뮬레이션은 중형 세단 2.0L · 5년 7만 5천km · 휘발유 1,700원/L 가정. 실제 비용은 모델·조건에 따라 다름.</text>
+
+  <text x="40" y="686" fill="#64748B" font-size="12" font-family="sans-serif">essencial | 자동차 · 2026.05 기준 · 추정치이며 실제 비용은 보험사·차종·운전이력에 따라 다를 수 있습니다</text>
+</svg>

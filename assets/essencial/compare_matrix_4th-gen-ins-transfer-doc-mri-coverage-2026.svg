@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="720" fill="url(#bg)"/>
+
+  <text x="540" y="48" text-anchor="middle" fill="#FFFFFF" font-size="24" font-weight="800" font-family="sans-serif">세대별 도수치료·MRI 자기부담 매트릭스</text>
+  <text x="540" y="74" text-anchor="middle" fill="#DDD6FE" font-size="14" font-family="sans-serif">도수치료 12만/회·연 24회 + MRI 70만/회 기준 · 2026.05</text>
+
+  <!-- Table header -->
+  <rect x="40" y="96" width="1000" height="44" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="120" y="124" text-anchor="middle" fill="#F8FAFC" font-size="14" font-weight="800" font-family="sans-serif">세대</text>
+  <text x="320" y="124" text-anchor="middle" fill="#F8FAFC" font-size="14" font-weight="800" font-family="sans-serif">자기부담</text>
+  <text x="540" y="124" text-anchor="middle" fill="#F8FAFC" font-size="14" font-weight="800" font-family="sans-serif">도수치료 연 24회</text>
+  <text x="780" y="124" text-anchor="middle" fill="#F8FAFC" font-size="14" font-weight="800" font-family="sans-serif">MRI 1회</text>
+  <text x="970" y="124" text-anchor="middle" fill="#F8FAFC" font-size="14" font-weight="800" font-family="sans-serif">월 보험료</text>
+
+  <!-- Row 1: 1세대 -->
+  <rect x="40" y="144" width="1000" height="56" fill="#15803D" fill-opacity="0.4" stroke="#15803D" stroke-width="1.5"/>
+  <text x="120" y="180" text-anchor="middle" fill="#86EFAC" font-size="15" font-weight="800" font-family="sans-serif">1세대</text>
+  <text x="320" y="180" text-anchor="middle" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">0~10%</text>
+  <text x="540" y="180" text-anchor="middle" fill="#86EFAC" font-size="16" font-weight="800" font-family="sans-serif">0원</text>
+  <text x="780" y="180" text-anchor="middle" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">0~7만</text>
+  <text x="970" y="180" text-anchor="middle" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">8~12만</text>
+
+  <!-- Row 2: 2세대 -->
+  <rect x="40" y="204" width="1000" height="56" fill="#15803D" fill-opacity="0.3" stroke="#15803D" stroke-width="1.5"/>
+  <text x="120" y="240" text-anchor="middle" fill="#86EFAC" font-size="15" font-weight="800" font-family="sans-serif">2세대</text>
+  <text x="320" y="240" text-anchor="middle" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">10~20%</text>
+  <text x="540" y="240" text-anchor="middle" fill="#86EFAC" font-size="16" font-weight="800" font-family="sans-serif">약 58만</text>
+  <text x="780" y="240" text-anchor="middle" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">14만</text>
+  <text x="970" y="240" text-anchor="middle" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">6~9만</text>
+
+  <!-- Row 3: 3세대 -->
+  <rect x="40" y="264" width="1000" height="56" fill="#0e7490" fill-opacity="0.4" stroke="#0e7490" stroke-width="1.5"/>
+  <text x="120" y="300" text-anchor="middle" fill="#67E8F9" font-size="15" font-weight="800" font-family="sans-serif">3세대</text>
+  <text x="320" y="300" text-anchor="middle" fill="#67E8F9" font-size="13" font-weight="700" font-family="sans-serif">30% (비급여)</text>
+  <text x="540" y="300" text-anchor="middle" fill="#67E8F9" font-size="16" font-weight="800" font-family="sans-serif">약 86만</text>
+  <text x="780" y="300" text-anchor="middle" fill="#67E8F9" font-size="13" font-weight="700" font-family="sans-serif">21만</text>
+  <text x="970" y="300" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">5~7만</text>
+
+  <!-- Row 4: 4세대 -->
+  <rect x="40" y="324" width="1000" height="56" fill="#D97706" fill-opacity="0.4" stroke="#D97706" stroke-width="1.5"/>
+  <text x="120" y="360" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="800" font-family="sans-serif">4세대</text>
+  <text x="320" y="360" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">30% + 할증</text>
+  <text x="540" y="360" text-anchor="middle" fill="#FCD34D" font-size="16" font-weight="800" font-family="sans-serif">86만 + α</text>
+  <text x="780" y="360" text-anchor="middle" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">21만</text>
+  <text x="970" y="360" text-anchor="middle" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">3~5만</text>
+
+  <!-- Row 5: 5세대 -->
+  <rect x="40" y="384" width="1000" height="56" fill="#DC2626" fill-opacity="0.4" stroke="#DC2626" stroke-width="1.5"/>
+  <text x="120" y="420" text-anchor="middle" fill="#FCA5A5" font-size="15" font-weight="800" font-family="sans-serif">5세대 (신규)</text>
+  <text x="320" y="420" text-anchor="middle" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">도수 100% 자비</text>
+  <text x="540" y="420" text-anchor="middle" fill="#FCA5A5" font-size="16" font-weight="800" font-family="sans-serif">288만원 ⚠️</text>
+  <text x="780" y="420" text-anchor="middle" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">21~70만</text>
+  <text x="970" y="420" text-anchor="middle" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">2~4만</text>
+
+  <!-- Highlight summary -->
+  <rect x="40" y="460" width="1000" height="60" fill="#FCD34D" fill-opacity="0.2" stroke="#FCD34D" stroke-width="2"/>
+  <text x="55" y="484" fill="#FCD34D" font-size="14" font-weight="800" font-family="sans-serif">최대 격차 (1세대 vs 5세대 · 도수치료 연 24회 기준)</text>
+  <text x="55" y="508" fill="#FFFFFF" font-size="14" font-family="sans-serif">→ 1세대 0원 vs 5세대 288만원 · 격차 약 288만원/년 · 5년 누적 약 1,440만원</text>
+
+  <!-- Key points -->
+  <rect x="40" y="532" width="1000" height="140" rx="10" fill="#1e293b" fill-opacity="0.6" stroke="#334155" stroke-width="1.5"/>
+  <text x="60" y="558" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">결정 변수 4가지</text>
+  <text x="60" y="582" fill="#CBD5E1" font-size="12" font-family="sans-serif">① 현재 가입 세대 (1·2세대는 유지, 3·4세대는 도수 사용량별 판단)</text>
+  <text x="60" y="604" fill="#CBD5E1" font-size="12" font-family="sans-serif">② 도수치료 연 사용 횟수 (12회 이하 4세대 전환 유리, 20회+ 3세대 유지)</text>
+  <text x="60" y="626" fill="#CBD5E1" font-size="12" font-family="sans-serif">③ MRI 사용 빈도 (5세대 전환 시 비중증 MRI 70만 자비)</text>
+  <text x="60" y="648" fill="#CBD5E1" font-size="12" font-family="sans-serif">④ 3대 비급여 특약 가입 여부 (3·4세대 특약 미가입자는 보장 0원)</text>
+
+  <text x="40" y="708" fill="#64748B" font-size="12" font-family="sans-serif">essencial | 2026.05 기준 · 보험사·약관별 차이 · 본인 케이스는 가입사 또는 금감원(1332) 시뮬레이션</text>
+</svg>

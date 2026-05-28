@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="940" cy="200" r="240" fill="#34D399" opacity="0.04"/>
+  <circle cx="140" cy="900" r="200" fill="#F59E0B" opacity="0.05"/>
+
+  <!-- Top bar -->
+  <rect x="0" y="0" width="1080" height="8" fill="#34D399"/>
+
+  <!-- Chips -->
+  <rect x="60" y="80" width="148" height="42" rx="21" fill="#F59E0B"/>
+  <text x="134" y="107" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#0B1F3B" text-anchor="middle">2026 최신</text>
+
+  <rect x="224" y="80" width="230" height="42" rx="21" fill="#1A3270"/>
+  <rect x="224" y="80" width="230" height="42" rx="21" fill="none" stroke="#34D399" stroke-width="2"/>
+  <text x="339" y="107" font-family="-apple-system, sans-serif" font-size="17" font-weight="700" fill="#34D399" text-anchor="middle">창업자금 7,000만원</text>
+
+  <rect x="470" y="80" width="220" height="42" rx="21" fill="#1A3270"/>
+  <rect x="470" y="80" width="220" height="42" rx="21" fill="none" stroke="#EF4444" stroke-width="2"/>
+  <text x="580" y="107" font-family="-apple-system, sans-serif" font-size="17" font-weight="700" fill="#EF4444" text-anchor="middle">인허가 3~5일</text>
+
+  <!-- Main title -->
+  <text x="60" y="216" font-family="-apple-system, sans-serif" font-size="56" font-weight="900" fill="#FFFFFF">음식점·카페</text>
+  <text x="60" y="280" font-family="-apple-system, sans-serif" font-size="56" font-weight="900" fill="#FFFFFF">창업자금·인허가</text>
+  <text x="60" y="336" font-family="-apple-system, sans-serif" font-size="24" font-weight="700" fill="#A0B4D0">업종별 총정리 (2026) — 영업신고 + 정책자금 한번에</text>
+
+  <!-- 3 key stat boxes -->
+  <rect x="60" y="390" width="292" height="200" rx="16" fill="#0D2347"/>
+  <text x="206" y="438" font-family="-apple-system, sans-serif" font-size="17" font-weight="700" fill="#34D399" text-anchor="middle">정책자금 금리</text>
+  <text x="206" y="492" font-family="-apple-system, sans-serif" font-size="38" font-weight="900" fill="#FFFFFF" text-anchor="middle">연 3.36%</text>
+  <text x="206" y="530" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">~3.56% (2026 기준)</text>
+  <text x="206" y="556" font-family="-apple-system, sans-serif" font-size="13" fill="#34D399" text-anchor="middle">시중은행 대비 연 1~2%p 저렴</text>
+  <text x="206" y="576" font-family="-apple-system, sans-serif" font-size="12" fill="#A0B4D0" text-anchor="middle">경영안정자금 기준</text>
+
+  <rect x="394" y="390" width="292" height="200" rx="16" fill="#0D2347"/>
+  <text x="540" y="438" font-family="-apple-system, sans-serif" font-size="17" font-weight="700" fill="#F59E0B" text-anchor="middle">정책자금 한도</text>
+  <text x="540" y="492" font-family="-apple-system, sans-serif" font-size="38" font-weight="900" fill="#FFFFFF" text-anchor="middle">7,000만원</text>
+  <text x="540" y="530" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">상시근로자 5인 미만</text>
+  <text x="540" y="556" font-family="-apple-system, sans-serif" font-size="13" fill="#F59E0B" text-anchor="middle">ols.semas.or.kr 신청</text>
+  <text x="540" y="576" font-family="-apple-system, sans-serif" font-size="12" fill="#A0B4D0" text-anchor="middle">전국 78개 지역센터 가능</text>
+
+  <rect x="728" y="390" width="292" height="200" rx="16" fill="#0D2347"/>
+  <text x="874" y="438" font-family="-apple-system, sans-serif" font-size="17" font-weight="700" fill="#EF4444" text-anchor="middle">영업신고 처리기간</text>
+  <text x="874" y="492" font-family="-apple-system, sans-serif" font-size="38" font-weight="900" fill="#FFFFFF" text-anchor="middle">3~5일</text>
+  <text x="874" y="530" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">수수료 28,000원</text>
+  <text x="874" y="556" font-family="-apple-system, sans-serif" font-size="13" fill="#EF4444" text-anchor="middle">구청·보건소 위생과</text>
+  <text x="874" y="576" font-family="-apple-system, sans-serif" font-size="12" fill="#A0B4D0" text-anchor="middle">카페·한식당·제과점 공통</text>
+
+  <!-- Key info box -->
+  <rect x="60" y="608" width="960" height="108" rx="16" fill="#1A3270"/>
+  <text x="540" y="652" font-family="-apple-system, sans-serif" font-size="21" font-weight="800" fill="#F59E0B" text-anchor="middle">카페는 주류 판매 불가 — 맥주 팔려면 일반음식점으로 신고</text>
+  <text x="540" y="692" font-family="-apple-system, sans-serif" font-size="17" fill="#EAF2FF" text-anchor="middle">개업 직후 정책자금 신청해야 예산 선착순 소진 전 확보 가능</text>
+
+  <!-- 추가 정보 2박스 -->
+  <rect x="60" y="734" width="460" height="160" rx="16" fill="#3B1A1A"/>
+  <rect x="60" y="734" width="460" height="160" rx="16" fill="none" stroke="#EF4444" stroke-width="1.5"/>
+  <text x="290" y="778" font-family="-apple-system, sans-serif" font-size="17" font-weight="700" fill="#EF4444" text-anchor="middle">정책자금 탈락 주의</text>
+  <text x="290" y="810" font-family="-apple-system, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle">사업계획서에 항목별 금액</text>
+  <text x="290" y="836" font-family="-apple-system, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle">구체적으로 기재 필수</text>
+  <text x="290" y="868" font-family="-apple-system, sans-serif" font-size="13" fill="#EF4444" text-anchor="middle">'운영자금' 한 마디는 탈락 요인</text>
+
+  <rect x="560" y="734" width="460" height="160" rx="16" fill="#0D2347"/>
+  <text x="790" y="778" font-family="-apple-system, sans-serif" font-size="17" font-weight="700" fill="#34D399" text-anchor="middle">소상공인통합콜센터</text>
+  <text x="790" y="832" font-family="-apple-system, sans-serif" font-size="52" font-weight="900" fill="#FFFFFF" text-anchor="middle">☎ 1533-0100</text>
+  <text x="790" y="870" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">무료 | 평일 09:00~18:00</text>
+
+  <!-- Bottom note -->
+  <text x="540" y="988" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준 | ols.semas.or.kr | 분기별 금리 변동 | 신청 전 최신 공고 확인</text>
+  <rect x="0" y="1072" width="1080" height="8" fill="#34D399"/>
+</svg>

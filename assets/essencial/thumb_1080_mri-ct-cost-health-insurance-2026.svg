@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <rect x="80" y="100" width="240" height="46" rx="23" fill="#0F766E"/>
+  <text x="200" y="132" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">2026 건강보험 개정</text>
+
+  <text x="80" y="220" fill="#FFFFFF" font-size="62" font-weight="800" font-family="sans-serif">MRI vs CT</text>
+  <text x="80" y="290" fill="#5EEAD4" font-size="38" font-weight="600" font-family="sans-serif">비용 비교 2026</text>
+
+  <rect x="80" y="320" width="380" height="6" rx="3" fill="#0F766E"/>
+
+  <text x="80" y="385" fill="#5EEAD4" font-size="28" font-weight="700" font-family="sans-serif">건강보험 적용 조건</text>
+  <text x="80" y="425" fill="#5EEAD4" font-size="28" font-weight="700" font-family="sans-serif">본인부담금 차이</text>
+
+  <!-- Big numbers grid -->
+  <rect x="80" y="475" width="430" height="170" rx="20" fill="#1e293b" stroke="#0F766E" stroke-width="3"/>
+  <text x="295" y="525" text-anchor="middle" fill="#5EEAD4" font-size="20" font-weight="700" font-family="sans-serif">단순 두통 선별급여</text>
+  <text x="295" y="585" text-anchor="middle" fill="#FFFFFF" font-size="48" font-weight="800" font-family="sans-serif">80%</text>
+  <text x="295" y="620" text-anchor="middle" fill="#FCA5A5" font-size="18" font-weight="600" font-family="sans-serif">환자 부담</text>
+
+  <rect x="540" y="475" width="430" height="170" rx="20" fill="#1e293b" stroke="#0F766E" stroke-width="3"/>
+  <text x="755" y="525" text-anchor="middle" fill="#5EEAD4" font-size="20" font-weight="700" font-family="sans-serif">5세대 비급여 자부담</text>
+  <text x="755" y="585" text-anchor="middle" fill="#FFFFFF" font-size="48" font-weight="800" font-family="sans-serif">50%</text>
+  <text x="755" y="620" text-anchor="middle" fill="#FCD34D" font-size="18" font-weight="600" font-family="sans-serif">4세대 30%→ 상향</text>
+
+  <rect x="80" y="675" width="430" height="170" rx="20" fill="#1e293b" stroke="#0F766E" stroke-width="3"/>
+  <text x="295" y="725" text-anchor="middle" fill="#5EEAD4" font-size="20" font-weight="700" font-family="sans-serif">의원 뇌 MRI 급여</text>
+  <text x="295" y="785" text-anchor="middle" fill="#FFFFFF" font-size="48" font-weight="800" font-family="sans-serif">8~12만</text>
+  <text x="295" y="820" text-anchor="middle" fill="#2DD4BF" font-size="18" font-weight="600" font-family="sans-serif">상급종합 22~30만</text>
+
+  <rect x="540" y="675" width="430" height="170" rx="20" fill="#1e293b" stroke="#0F766E" stroke-width="3"/>
+  <text x="755" y="725" text-anchor="middle" fill="#5EEAD4" font-size="20" font-weight="700" font-family="sans-serif">뇌 MRI 비급여 편차</text>
+  <text x="755" y="785" text-anchor="middle" fill="#FFFFFF" font-size="44" font-weight="800" font-family="sans-serif">9만~100만+</text>
+  <text x="755" y="820" text-anchor="middle" fill="#F87171" font-size="18" font-weight="600" font-family="sans-serif">병원별 10배 차이</text>
+
+  <text x="80" y="920" fill="#FFFFFF" font-size="26" font-weight="700" font-family="sans-serif">의원·병원·종합·상급종합 종별 비교</text>
+  <text x="80" y="960" fill="#5EEAD4" font-size="22" font-weight="600" font-family="sans-serif">5세대 실손 변화 + 조영제 안전 가이드</text>
+
+  <text x="80" y="1030" fill="#64748B" font-size="18" font-family="sans-serif">essencial | 건강·의료 silo</text>
+</svg>

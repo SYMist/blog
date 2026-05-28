@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#FBBF24"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="12" fill="url(#accent)"/>
+
+  <!-- Title -->
+  <text x="60" y="90" font-family="-apple-system, sans-serif" font-size="38" font-weight="900" fill="#FFFFFF">보험 유형 4가지 한눈에 비교</text>
+  <text x="60" y="132" font-family="-apple-system, sans-serif" font-size="26" font-weight="700" fill="#F59E0B">순수보장형 · 만기환급형 · 무해지환급형 · 적립형</text>
+
+  <!-- Divider -->
+  <rect x="60" y="154" width="960" height="3" fill="#F59E0B" rx="2"/>
+
+  <!-- Card 1: 순수보장형 -->
+  <rect x="60" y="172" width="460" height="190" rx="16" fill="#1A3270"/>
+  <text x="290" y="212" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#F59E0B" text-anchor="middle">순수보장형</text>
+  <text x="290" y="248" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#EAF2FF" text-anchor="middle">보험료: 가장 저렴 (기준치)</text>
+  <text x="290" y="278" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">만기 환급금: 0원</text>
+  <text x="290" y="306" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">차액 투자 시 가장 유리</text>
+  <text x="290" y="342" font-family="-apple-system, sans-serif" font-size="15" fill="#34D399" text-anchor="middle">✔ 예산 제한 · 저축 의지 있는 경우</text>
+
+  <!-- Card 2: 만기환급형 -->
+  <rect x="560" y="172" width="460" height="190" rx="16" fill="#1A3270"/>
+  <text x="790" y="212" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#F59E0B" text-anchor="middle">만기환급형</text>
+  <text x="790" y="248" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#EAF2FF" text-anchor="middle">보험료: 1.5~6배 비쌈</text>
+  <text x="790" y="278" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">만기 환급금: 납입 원금(명목)</text>
+  <text x="790" y="306" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">물가상승률 미반영 — 실질 수익 없음</text>
+  <text x="790" y="342" font-family="-apple-system, sans-serif" font-size="15" fill="#FCA5A5" text-anchor="middle">⚠ 저축 의지 없는 경우에만 고려</text>
+
+  <!-- Card 3: 무해지환급형 -->
+  <rect x="60" y="382" width="460" height="190" rx="16" fill="#1A3270"/>
+  <text x="290" y="422" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#F59E0B" text-anchor="middle">무해지환급형</text>
+  <text x="290" y="458" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#EAF2FF" text-anchor="middle">보험료: 순수보장형보다 저렴</text>
+  <text x="290" y="488" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">납입 기간 중 해지환급금: 0원</text>
+  <text x="290" y="516" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">완납 후 환급 가능</text>
+  <text x="290" y="552" font-family="-apple-system, sans-serif" font-size="15" fill="#FCA5A5" text-anchor="middle">⚠ 장기 유지 확실할 때만 선택</text>
+
+  <!-- Card 4: 적립형 -->
+  <rect x="560" y="382" width="460" height="190" rx="16" fill="#1A3270"/>
+  <text x="790" y="422" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#F59E0B" text-anchor="middle">적립형 (연금·저축보험)</text>
+  <text x="790" y="458" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#EAF2FF" text-anchor="middle">보험료: 중간~비쌈</text>
+  <text x="790" y="488" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">보장 + 저축 동시, 연금 전환 가능</text>
+  <text x="790" y="516" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">10년 이상 유지 시 비과세 혜택</text>
+  <text x="790" y="552" font-family="-apple-system, sans-serif" font-size="15" fill="#34D399" text-anchor="middle">✔ 노후 자금 + 비과세 목적</text>
+
+  <!-- Divider -->
+  <rect x="60" y="590" width="960" height="2" fill="#1A3270" rx="2"/>
+
+  <!-- Renewal section -->
+  <text x="540" y="634" font-family="-apple-system, sans-serif" font-size="28" font-weight="900" fill="#FFFFFF" text-anchor="middle">갱신형 vs 비갱신형</text>
+
+  <rect x="60" y="652" width="460" height="130" rx="16" fill="#0F2348"/>
+  <text x="290" y="692" font-family="-apple-system, sans-serif" font-size="20" font-weight="700" fill="#FCA5A5" text-anchor="middle">갱신형</text>
+  <text x="290" y="722" font-family="-apple-system, sans-serif" font-size="15" fill="#EAF2FF" text-anchor="middle">주기마다 보험료 재산정 (나이·건강 기준)</text>
+  <text x="290" y="750" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">의료실비보험은 갱신형만 존재</text>
+  <text x="290" y="768" font-family="-apple-system, sans-serif" font-size="14" fill="#FCA5A5" text-anchor="middle">그 외에는 대부분 불리</text>
+
+  <rect x="560" y="652" width="460" height="130" rx="16" fill="#0F2348"/>
+  <text x="790" y="692" font-family="-apple-system, sans-serif" font-size="20" font-weight="700" fill="#34D399" text-anchor="middle">비갱신형</text>
+  <text x="790" y="722" font-family="-apple-system, sans-serif" font-size="15" fill="#EAF2FF" text-anchor="middle">가입 시 보험료 고정, 만기까지 동일</text>
+  <text x="790" y="750" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">갱신 거절·보험료 인상 위험 없음</text>
+  <text x="790" y="768" font-family="-apple-system, sans-serif" font-size="14" fill="#34D399" text-anchor="middle">대부분의 경우 비갱신형이 유리</text>
+
+  <!-- Bottom key message -->
+  <rect x="60" y="808" width="960" height="120" rx="20" fill="#1A3270"/>
+  <text x="540" y="856" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#F59E0B" text-anchor="middle">전문가 공통 의견</text>
+  <text x="540" y="892" font-family="-apple-system, sans-serif" font-size="18" fill="#EAF2FF" text-anchor="middle">"순수보장형으로 가입하고 절약한 차액을 적금·투자에 넣는 것이</text>
+  <text x="540" y="916" font-family="-apple-system, sans-serif" font-size="18" fill="#EAF2FF" text-anchor="middle">수익률 측면에서 유리하다" — 보험은 보장, 저축은 저축으로 분리</text>
+
+  <!-- Bottom accent bar -->
+  <rect x="0" y="1068" width="1080" height="12" fill="url(#accent)"/>
+</svg>

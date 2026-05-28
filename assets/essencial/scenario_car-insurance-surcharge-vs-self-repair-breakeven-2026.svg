@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="700" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="540" y="46" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">자차보험 할증 vs 자비수리 상황별 추천 시나리오</text>
+  <text x="540" y="70" text-anchor="middle" fill="#93C5FD" font-size="13" font-family="sans-serif">손익분기점 · 환입 제도 · 2026.05 기준</text>
+
+  <!-- Scenario 1 -->
+  <rect x="40" y="90" width="480" height="116" rx="10" fill="#14532d" fill-opacity="0.6" stroke="#15803D" stroke-width="1.5"/>
+  <rect x="40" y="90" width="480" height="36" rx="10" fill="#15803D"/>
+  <rect x="40" y="112" width="480" height="14" fill="#15803D"/>
+  <text x="60" y="114" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">① 수리비 60만원 이하 (소액 스크래치·접촉사고)</text>
+  <text x="60" y="148" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">→ 자비수리 유리 (보험처리 총비용이 더 높음)</text>
+  <text x="60" y="170" fill="#CBD5E1" font-size="12" font-family="sans-serif">자비 50만원 vs 보험처리 62만원(자기부담금 20+할증 42) — 자비가 12만원 저렴</text>
+  <text x="60" y="192" fill="#CBD5E1" font-size="12" font-family="sans-serif">무사고 할인·사고 기록 유지 효과까지 포함하면 자비수리가 훨씬 유리</text>
+
+  <!-- Scenario 2 -->
+  <rect x="560" y="90" width="480" height="116" rx="10" fill="#4c1d95" fill-opacity="0.6" stroke="#7C3AED" stroke-width="1.5"/>
+  <rect x="560" y="90" width="480" height="36" rx="10" fill="#7C3AED"/>
+  <rect x="560" y="112" width="480" height="14" fill="#7C3AED"/>
+  <text x="580" y="114" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">② 수리비 100만원 이상 (대형 사고)</text>
+  <text x="580" y="148" fill="#DDD6FE" font-size="13" font-weight="700" font-family="sans-serif">→ 보험처리 유리 (38만원 이상 절약)</text>
+  <text x="580" y="170" fill="#CBD5E1" font-size="12" font-family="sans-serif">자비 100만원 vs 보험처리 62만원 — 보험처리로 38만원 절약 (연 70만원 기준)</text>
+  <text x="580" y="192" fill="#CBD5E1" font-size="12" font-family="sans-serif">수리비가 클수록 보험처리 절약폭 증가 — 150만원 78만원, 200만원 118만원 절약</text>
+
+  <!-- Scenario 3 -->
+  <rect x="40" y="226" width="480" height="116" rx="10" fill="#14532d" fill-opacity="0.6" stroke="#15803D" stroke-width="1.5"/>
+  <rect x="40" y="226" width="480" height="36" rx="10" fill="#15803D"/>
+  <rect x="40" y="248" width="480" height="14" fill="#15803D"/>
+  <text x="60" y="250" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">③ 3년 무사고 기록 유지 중인 경우</text>
+  <text x="60" y="284" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">→ 소액이면 자비수리로 무사고 기록 지킬 것</text>
+  <text x="60" y="306" fill="#CBD5E1" font-size="12" font-family="sans-serif">무사고 할인은 매년 갱신 시 누적 — 기록 보호 가치가 큼</text>
+  <text x="60" y="328" fill="#CBD5E1" font-size="12" font-family="sans-serif">향후 타 보험사 이전 시에도 사고 이력이 영향을 미침</text>
+
+  <!-- Scenario 4 -->
+  <rect x="560" y="226" width="480" height="116" rx="10" fill="#422006" fill-opacity="0.6" stroke="#D97706" stroke-width="1.5"/>
+  <rect x="560" y="226" width="480" height="36" rx="10" fill="#D97706"/>
+  <rect x="560" y="248" width="480" height="14" fill="#D97706"/>
+  <text x="580" y="250" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">④ 보험 청구 후 손익 재계산에서 자비가 나은 경우</text>
+  <text x="580" y="284" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">→ 갱신 3개월 전까지 환입 신청으로 해결</text>
+  <text x="580" y="306" fill="#CBD5E1" font-size="12" font-family="sans-serif">받은 보험금을 보험사에 반환하면 사고 기록 삭제 + 할증 면제</text>
+  <text x="580" y="328" fill="#CBD5E1" font-size="12" font-family="sans-serif">갱신일 확인 필수 — 갱신일 3개월 이전까지만 환입 가능</text>
+
+  <!-- Scenario 5 (full width) -->
+  <rect x="40" y="362" width="1000" height="116" rx="10" fill="#1e1b4b" fill-opacity="0.6" stroke="#4F46E5" stroke-width="1.5"/>
+  <rect x="40" y="362" width="1000" height="36" rx="10" fill="#4F46E5"/>
+  <rect x="40" y="384" width="1000" height="14" fill="#4F46E5"/>
+  <text x="60" y="386" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">⑤ 이미 사고 이력이 1건 있는 상태에서 추가 사고 발생</text>
+  <text x="60" y="420" fill="#A5B4FC" font-size="13" font-weight="700" font-family="sans-serif">→ 2건 시 할증 37%로 급등 — 수리비 작으면 자비, 크면 보험처리</text>
+  <text x="60" y="442" fill="#CBD5E1" font-size="12" font-family="sans-serif">연 70만원 기준 사고 2건 할증: 25.9만원/년 × 3년 = 77.7만원 → 손익분기점이 대폭 상승</text>
+  <text x="60" y="464" fill="#CBD5E1" font-size="12" font-family="sans-serif">3건 이상 발생 시 공동인수 위험 → 가능한 소액 사고는 자비처리로 이력 관리 필수</text>
+
+  <!-- Summary box -->
+  <rect x="40" y="496" width="1000" height="176" rx="10" fill="#1e293b" fill-opacity="0.8"/>
+  <text x="540" y="528" text-anchor="middle" fill="#F8FAFC" font-size="14" font-weight="800" font-family="sans-serif">핵심 결론 3줄 요약</text>
+  <text x="80" y="562" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">60만원 이하 수리비</text>
+  <text x="250" y="562" fill="#FFFFFF" font-size="13" font-family="sans-serif">→ 자비수리 (보험처리 총비용 62만원+가 더 비쌈)</text>
+  <text x="80" y="594" fill="#DDD6FE" font-size="13" font-weight="700" font-family="sans-serif">100만원 이상 수리비</text>
+  <text x="250" y="594" fill="#FFFFFF" font-size="13" font-family="sans-serif">→ 보험처리 유리 (38만원+ 절약, 수리비 클수록 격차 확대)</text>
+  <text x="80" y="626" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">청구 후 후회되면</text>
+  <text x="250" y="626" fill="#FFFFFF" font-size="13" font-family="sans-serif">→ 갱신 3개월 전까지 환입 신청 (사고 기록 삭제 가능)</text>
+  <text x="80" y="654" fill="#94A3B8" font-size="12" font-family="sans-serif">※ 손익분기점은 연 보험료에 따라 다름. 연 40만원→44만원, 연 100만원→80만원</text>
+
+  <text x="40" y="686" fill="#64748B" font-size="12" font-family="sans-serif">essencial | 보험 비교 · 2026.05 기준 · 추정치이며 실제 비용은 보험사·계약 조건에 따라 다를 수 있습니다</text>
+</svg>

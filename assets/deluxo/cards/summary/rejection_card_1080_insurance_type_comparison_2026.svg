@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#FBBF24"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="12" fill="url(#accent)"/>
+
+  <!-- Title -->
+  <text x="540" y="78" font-family="-apple-system, sans-serif" font-size="38" font-weight="900" fill="#FFFFFF" text-anchor="middle">보험 유형 선택 실수 TOP 5</text>
+  <text x="540" y="118" font-family="-apple-system, sans-serif" font-size="22" font-weight="700" fill="#F59E0B" text-anchor="middle">이 실수만 피해도 수백만 원을 아낄 수 있다</text>
+
+  <!-- Divider -->
+  <rect x="60" y="136" width="960" height="3" fill="#F59E0B" rx="2"/>
+
+  <!-- Mistake 1 -->
+  <rect x="60" y="154" width="960" height="142" rx="16" fill="#1A3270"/>
+  <circle cx="112" cy="225" r="32" fill="#EF4444"/>
+  <text x="112" y="233" font-family="-apple-system, sans-serif" font-size="26" font-weight="900" fill="#FFFFFF" text-anchor="middle">1</text>
+  <text x="170" y="202" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#FCA5A5">만기환급형을 "원금 보장"으로 오해</text>
+  <text x="170" y="234" font-family="-apple-system, sans-serif" font-size="17" fill="#EAF2FF">환급금은 납입 원금의 명목 반환 — 물가상승률 반영 시 실질 가치 크게 감소</text>
+  <text x="170" y="264" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">20년 후 1,920만 원의 실질 가치 → 약 1,064만 원 (연 물가상승률 3% 기준)</text>
+
+  <!-- Mistake 2 -->
+  <rect x="60" y="310" width="960" height="142" rx="16" fill="#1A3270"/>
+  <circle cx="112" cy="381" r="32" fill="#EF4444"/>
+  <text x="112" y="389" font-family="-apple-system, sans-serif" font-size="26" font-weight="900" fill="#FFFFFF" text-anchor="middle">2</text>
+  <text x="170" y="358" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#FCA5A5">갱신형 장기 보험료 인상폭 미확인</text>
+  <text x="170" y="390" font-family="-apple-system, sans-serif" font-size="17" fill="#EAF2FF">30대 월 3만 원 → 50대 월 10만 원 이상으로 오르는 사례 다수</text>
+  <text x="170" y="420" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">갱신 주기(3년·5년)마다 나이·위험률 기준 재산정 — 건강 나빠지면 갱신 거절도 가능</text>
+
+  <!-- Mistake 3 -->
+  <rect x="60" y="466" width="960" height="142" rx="16" fill="#1A3270"/>
+  <circle cx="112" cy="537" r="32" fill="#EF4444"/>
+  <text x="112" y="545" font-family="-apple-system, sans-serif" font-size="26" font-weight="900" fill="#FFFFFF" text-anchor="middle">3</text>
+  <text x="170" y="514" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#FCA5A5">무해지환급형 가입 후 중도해지</text>
+  <text x="170" y="546" font-family="-apple-system, sans-serif" font-size="17" fill="#EAF2FF">납입 기간 중 해지 시 환급금 0원 — 납입한 보험료 전액 소멸</text>
+  <text x="170" y="576" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">소득·건강 변화 가능성 있다면 순수보장형이 더 안전한 선택</text>
+
+  <!-- Mistake 4 -->
+  <rect x="60" y="622" width="960" height="142" rx="16" fill="#1A3270"/>
+  <circle cx="112" cy="693" r="32" fill="#EF4444"/>
+  <text x="112" y="701" font-family="-apple-system, sans-serif" font-size="26" font-weight="900" fill="#FFFFFF" text-anchor="middle">4</text>
+  <text x="170" y="670" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#FCA5A5">적립형(저축보험) 단기 해지</text>
+  <text x="170" y="702" font-family="-apple-system, sans-serif" font-size="17" fill="#EAF2FF">초기 사업비(수수료) 차감으로 10년 이하 해지 시 납입액보다 적게 환급</text>
+  <text x="170" y="732" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">10년 이상 유지할 자신이 없다면 은행 적금이 더 안전</text>
+
+  <!-- Mistake 5 -->
+  <rect x="60" y="778" width="960" height="142" rx="16" fill="#1A3270"/>
+  <circle cx="112" cy="849" r="32" fill="#EF4444"/>
+  <text x="112" y="857" font-family="-apple-system, sans-serif" font-size="26" font-weight="900" fill="#FFFFFF" text-anchor="middle">5</text>
+  <text x="170" y="826" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#FCA5A5">순수보장형 선택 후 차액을 그냥 소비</text>
+  <text x="170" y="858" font-family="-apple-system, sans-serif" font-size="17" fill="#EAF2FF">유형 선택은 맞았지만 절약한 차액을 따로 운용하지 않으면 의미 없음</text>
+  <text x="170" y="888" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">차액 자동이체 설정 → 적금·투자 계좌에 즉시 분리 보관 권장</text>
+
+  <!-- Bottom accent bar -->
+  <rect x="0" y="1068" width="1080" height="12" fill="url(#accent)"/>
+</svg>

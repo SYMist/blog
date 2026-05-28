@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="720" fill="url(#bg)"/>
+
+  <text x="540" y="48" text-anchor="middle" fill="#FFFFFF" font-size="24" font-weight="800" font-family="sans-serif">다른 종합소득별 분리·종합 세액 매트릭스</text>
+  <text x="540" y="74" text-anchor="middle" fill="#FCD34D" font-size="14" font-family="sans-serif">임대료 연 1,500만원 · 미등록 가정 · 2026.05 기준</text>
+
+  <!-- Table header -->
+  <rect x="40" y="96" width="1000" height="44" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="180" y="124" text-anchor="middle" fill="#F8FAFC" font-size="14" font-weight="800" font-family="sans-serif">다른 종합소득</text>
+  <text x="430" y="124" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="800" font-family="sans-serif">분리과세 14%</text>
+  <text x="640" y="124" text-anchor="middle" fill="#DDD6FE" font-size="14" font-weight="800" font-family="sans-serif">종합과세 누진</text>
+  <text x="820" y="124" text-anchor="middle" fill="#F8FAFC" font-size="14" font-weight="800" font-family="sans-serif">차액</text>
+  <text x="980" y="124" text-anchor="middle" fill="#F8FAFC" font-size="14" font-weight="800" font-family="sans-serif">유리</text>
+
+  <!-- Row 1: 0 -->
+  <rect x="40" y="144" width="1000" height="50" fill="#7C3AED" fill-opacity="0.35" stroke="#7C3AED" stroke-width="1.5"/>
+  <text x="180" y="176" text-anchor="middle" fill="#DDD6FE" font-size="14" font-weight="800" font-family="sans-serif">0원 (전업)</text>
+  <text x="430" y="176" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">약 77만원</text>
+  <text x="640" y="176" text-anchor="middle" fill="#DDD6FE" font-size="16" font-weight="800" font-family="sans-serif">약 30만원</text>
+  <text x="820" y="176" text-anchor="middle" fill="#DDD6FE" font-size="14" font-weight="700" font-family="sans-serif">-47만원</text>
+  <text x="980" y="176" text-anchor="middle" fill="#DDD6FE" font-size="14" font-weight="800" font-family="sans-serif">종합</text>
+
+  <!-- Row 2: 2천만 -->
+  <rect x="40" y="198" width="1000" height="50" fill="#7C3AED" fill-opacity="0.3" stroke="#7C3AED" stroke-width="1.5"/>
+  <text x="180" y="230" text-anchor="middle" fill="#DDD6FE" font-size="14" font-weight="800" font-family="sans-serif">2천만원 (저소득)</text>
+  <text x="430" y="230" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">약 77만원</text>
+  <text x="640" y="230" text-anchor="middle" fill="#DDD6FE" font-size="16" font-weight="800" font-family="sans-serif">약 60만원</text>
+  <text x="820" y="230" text-anchor="middle" fill="#DDD6FE" font-size="14" font-weight="700" font-family="sans-serif">-17만원</text>
+  <text x="980" y="230" text-anchor="middle" fill="#DDD6FE" font-size="14" font-weight="800" font-family="sans-serif">종합</text>
+
+  <!-- Row 3: 3천만 손익분기 -->
+  <rect x="40" y="252" width="1000" height="50" fill="#FCD34D" fill-opacity="0.25" stroke="#FCD34D" stroke-width="2"/>
+  <text x="180" y="284" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="800" font-family="sans-serif">3천만원 ★</text>
+  <text x="430" y="284" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">약 77만원</text>
+  <text x="640" y="284" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">약 77만원</text>
+  <text x="820" y="284" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">0원</text>
+  <text x="980" y="284" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="800" font-family="sans-serif">손익분기</text>
+
+  <!-- Row 4: 4천만 -->
+  <rect x="40" y="306" width="1000" height="50" fill="#D97706" fill-opacity="0.3" stroke="#D97706" stroke-width="1.5"/>
+  <text x="180" y="338" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="800" font-family="sans-serif">4천만원 (중소득)</text>
+  <text x="430" y="338" text-anchor="middle" fill="#FCD34D" font-size="16" font-weight="800" font-family="sans-serif">약 77만원</text>
+  <text x="640" y="338" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="700" font-family="sans-serif">약 113만원</text>
+  <text x="820" y="338" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">+36만원</text>
+  <text x="980" y="338" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="800" font-family="sans-serif">분리</text>
+
+  <!-- Row 5: 6천만 -->
+  <rect x="40" y="360" width="1000" height="50" fill="#D97706" fill-opacity="0.35" stroke="#D97706" stroke-width="1.5"/>
+  <text x="180" y="392" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="800" font-family="sans-serif">6천만원 (근로 평균)</text>
+  <text x="430" y="392" text-anchor="middle" fill="#FCD34D" font-size="16" font-weight="800" font-family="sans-serif">약 77만원</text>
+  <text x="640" y="392" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="700" font-family="sans-serif">약 180만원</text>
+  <text x="820" y="392" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">+103만원</text>
+  <text x="980" y="392" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="800" font-family="sans-serif">분리</text>
+
+  <!-- Row 6: 1억 -->
+  <rect x="40" y="414" width="1000" height="50" fill="#D97706" fill-opacity="0.4" stroke="#D97706" stroke-width="1.5"/>
+  <text x="180" y="446" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="800" font-family="sans-serif">1억원 (고소득)</text>
+  <text x="430" y="446" text-anchor="middle" fill="#FCD34D" font-size="16" font-weight="800" font-family="sans-serif">약 77만원</text>
+  <text x="640" y="446" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="700" font-family="sans-serif">약 263만원</text>
+  <text x="820" y="446" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">+186만원</text>
+  <text x="980" y="446" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="800" font-family="sans-serif">분리</text>
+
+  <!-- Note: 2001만원 갈림길 -->
+  <rect x="40" y="478" width="1000" height="84" rx="10" fill="#7f1d1d" fill-opacity="0.4" stroke="#DC2626" stroke-width="1.5"/>
+  <text x="60" y="504" fill="#FCA5A5" font-size="14" font-weight="800" font-family="sans-serif">임대료 2,001만원 갈림길 (분리과세 불가)</text>
+  <text x="60" y="528" fill="#CBD5E1" font-size="12" font-family="sans-serif">2,000만 (분리·등록) 약 56만 vs 2,001만 (종합 의무·다른소득 6천) 약 240만 → +184만 추가</text>
+  <text x="60" y="550" fill="#CBD5E1" font-size="12" font-family="sans-serif">임대료 단 1원 차이로 큰 부담 발생 → 2천만 한도 직전 임대료 책정 시 신중 시뮬레이션 필요</text>
+
+  <!-- Key points -->
+  <rect x="40" y="574" width="1000" height="100" rx="10" fill="#1e293b" fill-opacity="0.6" stroke="#334155" stroke-width="1.5"/>
+  <text x="60" y="600" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">핵심 결정 변수 3가지</text>
+  <text x="60" y="624" fill="#CBD5E1" font-size="12" font-family="sans-serif">① 임대료 수입 (2천만 이하 분리과세 선택 가능)</text>
+  <text x="60" y="644" fill="#CBD5E1" font-size="12" font-family="sans-serif">② 다른 종합소득 (3천만 미만 종합 유리, 3천만+ 분리 유리)</text>
+  <text x="60" y="664" fill="#CBD5E1" font-size="12" font-family="sans-serif">③ 등록임대사업자 여부 (필요경비 +10%p, 공제 200→400만원)</text>
+
+  <text x="40" y="708" fill="#64748B" font-size="12" font-family="sans-serif">essencial | 2026.05 기준 · 미등록 가정 · 본인 케이스는 홈택스 분리·종합 예상세액 비교 서비스 활용</text>
+</svg>

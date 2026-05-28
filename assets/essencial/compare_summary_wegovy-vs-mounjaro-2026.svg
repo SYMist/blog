@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0F766E"/>
+      <stop offset="100%" stop-color="#065F46"/>
+    </linearGradient>
+    <linearGradient id="cardBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="url(#bg)" rx="24"/>
+
+  <!-- Badge -->
+  <rect x="40" y="40" width="160" height="44" rx="22" fill="#EF4444"/>
+  <text x="120" y="68" text-anchor="middle" fill="#FFFFFF" font-family="sans-serif" font-size="20" font-weight="700">2026 최신</text>
+
+  <!-- Title -->
+  <text x="540" y="140" text-anchor="middle" fill="#FFFFFF" font-family="sans-serif" font-size="46" font-weight="800">위고비 vs 마운자로</text>
+  <text x="540" y="195" text-anchor="middle" fill="#E2E8F0" font-family="sans-serif" font-size="28">비만 신약 핵심 비교 요약</text>
+
+  <!-- Divider -->
+  <line x1="200" y1="230" x2="880" y2="230" stroke="#99F6E4" stroke-width="2" stroke-opacity="0.5"/>
+
+  <!-- Left Card: 위고비 -->
+  <rect x="60" y="260" width="460" height="540" rx="20" fill="url(#cardBg)" stroke="#99F6E4" stroke-opacity="0.3"/>
+  <rect x="60" y="260" width="460" height="64" rx="20" fill="#FFFFFF" fill-opacity="0.1"/>
+  <text x="290" y="300" text-anchor="middle" fill="#FFFFFF" font-family="sans-serif" font-size="30" font-weight="800">위고비 (Wegovy)</text>
+
+  <text x="100" y="370" fill="#99F6E4" font-family="sans-serif" font-size="20" font-weight="700">성분</text>
+  <text x="100" y="400" fill="#FFFFFF" font-family="sans-serif" font-size="22">세마글루티드 (GLP-1 단일)</text>
+
+  <text x="100" y="450" fill="#99F6E4" font-family="sans-serif" font-size="20" font-weight="700">체중 감량</text>
+  <text x="100" y="480" fill="#FFFFFF" font-family="sans-serif" font-size="36" font-weight="800">평균 14.9%</text>
+  <text x="100" y="510" fill="#E2E8F0" font-family="sans-serif" font-size="18">68주 · STEP 1 임상</text>
+
+  <text x="100" y="560" fill="#99F6E4" font-family="sans-serif" font-size="20" font-weight="700">월 비용 (유지)</text>
+  <text x="100" y="595" fill="#FFFFFF" font-family="sans-serif" font-size="32" font-weight="800">38만~42만 원</text>
+  <text x="100" y="625" fill="#E2E8F0" font-family="sans-serif" font-size="18">초기 22만 원부터 (인하 후)</text>
+
+  <text x="100" y="675" fill="#99F6E4" font-family="sans-serif" font-size="20" font-weight="700">강점</text>
+  <text x="100" y="705" fill="#FFFFFF" font-family="sans-serif" font-size="20">심혈관 사건 20% 감소</text>
+  <text x="100" y="735" fill="#FFFFFF" font-family="sans-serif" font-size="20">초기 비용 부담 낮음</text>
+
+  <!-- Right Card: 마운자로 -->
+  <rect x="560" y="260" width="460" height="540" rx="20" fill="url(#cardBg)" stroke="#99F6E4" stroke-opacity="0.3"/>
+  <rect x="560" y="260" width="460" height="64" rx="20" fill="#FFFFFF" fill-opacity="0.1"/>
+  <text x="790" y="300" text-anchor="middle" fill="#FFFFFF" font-family="sans-serif" font-size="30" font-weight="800">마운자로 (Mounjaro)</text>
+
+  <text x="600" y="370" fill="#99F6E4" font-family="sans-serif" font-size="20" font-weight="700">성분</text>
+  <text x="600" y="400" fill="#FFFFFF" font-family="sans-serif" font-size="22">티르제파타이드 (GIP+GLP-1)</text>
+
+  <text x="600" y="450" fill="#99F6E4" font-family="sans-serif" font-size="20" font-weight="700">체중 감량</text>
+  <text x="600" y="480" fill="#FFFFFF" font-family="sans-serif" font-size="36" font-weight="800">평균 22.5%</text>
+  <text x="600" y="510" fill="#E2E8F0" font-family="sans-serif" font-size="18">72주 · SURMOUNT-1 임상</text>
+
+  <text x="600" y="560" fill="#99F6E4" font-family="sans-serif" font-size="20" font-weight="700">월 비용 (유지)</text>
+  <text x="600" y="595" fill="#FFFFFF" font-family="sans-serif" font-size="32" font-weight="800">55만~65만 원</text>
+  <text x="600" y="625" fill="#E2E8F0" font-family="sans-serif" font-size="18">초기 30만 원부터</text>
+
+  <text x="600" y="675" fill="#99F6E4" font-family="sans-serif" font-size="20" font-weight="700">강점</text>
+  <text x="600" y="705" fill="#FFFFFF" font-family="sans-serif" font-size="20">비만 수술급 감량 효과</text>
+  <text x="600" y="735" fill="#FFFFFF" font-family="sans-serif" font-size="20">당뇨 급여 등재 예정</text>
+
+  <!-- VS circle -->
+  <circle cx="540" cy="530" r="36" fill="#EF4444"/>
+  <text x="540" y="540" text-anchor="middle" fill="#FFFFFF" font-family="sans-serif" font-size="26" font-weight="800">VS</text>
+
+  <!-- Bottom chips -->
+  <rect x="240" y="840" width="120" height="40" rx="20" fill="#FEF3C7"/>
+  <text x="300" y="866" text-anchor="middle" fill="#92400E" font-family="sans-serif" font-size="18" font-weight="700">가격 비교</text>
+
+  <rect x="390" y="840" width="140" height="40" rx="20" fill="#FEF3C7"/>
+  <text x="460" y="866" text-anchor="middle" fill="#92400E" font-family="sans-serif" font-size="18" font-weight="700">보험 적용</text>
+
+  <rect x="560" y="840" width="140" height="40" rx="20" fill="#FEF3C7"/>
+  <text x="630" y="866" text-anchor="middle" fill="#92400E" font-family="sans-serif" font-size="18" font-weight="700">감량 효과</text>
+
+  <!-- Footer note -->
+  <text x="540" y="940" text-anchor="middle" fill="#E2E8F0" font-family="sans-serif" font-size="18">2026년 3월 기준 · 비급여 · 전문의 처방 필수</text>
+
+  <!-- Watermark -->
+  <text x="540" y="1040" text-anchor="middle" fill="#FFFFFF" fill-opacity="0.4" font-family="sans-serif" font-size="16">essencial</text>
+</svg>

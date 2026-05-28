@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="8" fill="#34D399"/>
+
+  <!-- Title -->
+  <text x="540" y="66" font-family="-apple-system, sans-serif" font-size="30" font-weight="900" fill="#FFFFFF" text-anchor="middle">나는 어디? — 10초 판단 가이드</text>
+  <text x="540" y="100" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">재창업 지원 vs 취업 전환 vs 재도전 자금 — 내 상황에 맞는 프로그램 찾기</text>
+  <line x1="60" y1="122" x2="1020" y2="122" stroke="#1A3270" stroke-width="2"/>
+
+  <!-- 3 columns -->
+  <!-- Col 1: 재창업 지원 -->
+  <rect x="60" y="140" width="300" height="600" rx="14" fill="#0D2347"/>
+  <rect x="60" y="140" width="300" height="600" rx="14" fill="none" stroke="#34D399" stroke-width="2"/>
+  <text x="210" y="182" font-family="-apple-system, sans-serif" font-size="18" font-weight="900" fill="#34D399" text-anchor="middle">재창업 지원</text>
+  <text x="210" y="206" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">희망리턴패키지 재기사업화</text>
+  <line x1="80" y1="222" x2="340" y2="222" stroke="#1A3270" stroke-width="1"/>
+
+  <text x="210" y="252" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#F59E0B" text-anchor="middle">핵심 성격</text>
+  <text x="210" y="274" font-family="-apple-system, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle">새 사업 시작 지원</text>
+
+  <text x="210" y="308" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#F59E0B" text-anchor="middle">주요 대상</text>
+  <text x="210" y="330" font-family="-apple-system, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle">재창업 예정자</text>
+  <text x="210" y="350" font-family="-apple-system, sans-serif" font-size="12" fill="#A0B4D0" text-anchor="middle">(폐업 후 사업자 없는 자 등)</text>
+
+  <text x="210" y="384" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#F59E0B" text-anchor="middle">받는 지원</text>
+  <text x="210" y="406" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#34D399" text-anchor="middle">최대 2,600만원</text>
+  <text x="210" y="428" font-family="-apple-system, sans-serif" font-size="12" fill="#A0B4D0" text-anchor="middle">사업화 2,000 + 철거비 600</text>
+
+  <text x="210" y="462" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#F59E0B" text-anchor="middle">자부담</text>
+  <text x="210" y="484" font-family="-apple-system, sans-serif" font-size="13" fill="#EF4444" text-anchor="middle">총사업비의 50% 필요</text>
+  <text x="210" y="504" font-family="-apple-system, sans-serif" font-size="12" fill="#A0B4D0" text-anchor="middle">(70%는 현물 인정)</text>
+
+  <text x="210" y="538" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#F59E0B" text-anchor="middle">선택 기준</text>
+  <text x="210" y="564" font-family="-apple-system, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle">다시 창업할 계획이라면</text>
+  <text x="210" y="584" font-family="-apple-system, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle">이 프로그램을 선택</text>
+
+  <rect x="90" y="660" width="240" height="60" rx="10" fill="#34D399"/>
+  <text x="210" y="696" font-family="-apple-system, sans-serif" font-size="14" font-weight="900" fill="#0B1F3B" text-anchor="middle">sbiz24.kr 신청</text>
+
+  <!-- Col 2: 취업 전환 -->
+  <rect x="390" y="140" width="300" height="600" rx="14" fill="#0D2347"/>
+  <text x="540" y="182" font-family="-apple-system, sans-serif" font-size="18" font-weight="900" fill="#F59E0B" text-anchor="middle">취업 전환 지원</text>
+  <text x="540" y="206" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">희망리턴패키지 특화취업지원</text>
+  <line x1="410" y1="222" x2="670" y2="222" stroke="#1A3270" stroke-width="1"/>
+
+  <text x="540" y="252" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#34D399" text-anchor="middle">핵심 성격</text>
+  <text x="540" y="274" font-family="-apple-system, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle">취업으로 전환 지원</text>
+
+  <text x="540" y="308" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#34D399" text-anchor="middle">주요 대상</text>
+  <text x="540" y="330" font-family="-apple-system, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle">취업 의사 있는 폐업자</text>
+  <text x="540" y="350" font-family="-apple-system, sans-serif" font-size="12" fill="#A0B4D0" text-anchor="middle">(만 15~69세)</text>
+
+  <text x="540" y="384" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#34D399" text-anchor="middle">받는 지원</text>
+  <text x="540" y="406" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#F59E0B" text-anchor="middle">최대 135만원</text>
+  <text x="540" y="428" font-family="-apple-system, sans-serif" font-size="12" fill="#A0B4D0" text-anchor="middle">전직수당 100 + 참여수당 35</text>
+
+  <text x="540" y="462" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#34D399" text-anchor="middle">자부담</text>
+  <text x="540" y="484" font-family="-apple-system, sans-serif" font-size="13" fill="#34D399" text-anchor="middle">없음</text>
+  <text x="540" y="504" font-family="-apple-system, sans-serif" font-size="12" fill="#A0B4D0" text-anchor="middle">(교육 무료 + 수당 지급)</text>
+
+  <text x="540" y="538" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#34D399" text-anchor="middle">선택 기준</text>
+  <text x="540" y="564" font-family="-apple-system, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle">직장으로 돌아가고 싶다면</text>
+  <text x="540" y="584" font-family="-apple-system, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle">이 프로그램을 선택</text>
+
+  <rect x="420" y="660" width="240" height="60" rx="10" fill="#F59E0B"/>
+  <text x="540" y="696" font-family="-apple-system, sans-serif" font-size="14" font-weight="900" fill="#0B1F3B" text-anchor="middle">sbiz24.kr 신청</text>
+
+  <!-- Col 3: 재도전 자금 -->
+  <rect x="720" y="140" width="300" height="600" rx="14" fill="#0D2347"/>
+  <text x="870" y="182" font-family="-apple-system, sans-serif" font-size="18" font-weight="900" fill="#EF4444" text-anchor="middle">재도전 자금</text>
+  <text x="870" y="206" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">재도전특별자금 (중진공)</text>
+  <line x1="740" y1="222" x2="1000" y2="222" stroke="#1A3270" stroke-width="1"/>
+
+  <text x="870" y="252" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#F59E0B" text-anchor="middle">핵심 성격</text>
+  <text x="870" y="274" font-family="-apple-system, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle">저금리 창업 자금</text>
+
+  <text x="870" y="308" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#F59E0B" text-anchor="middle">주요 대상</text>
+  <text x="870" y="330" font-family="-apple-system, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle">재창업 후 자금 부족자</text>
+  <text x="870" y="350" font-family="-apple-system, sans-serif" font-size="12" fill="#A0B4D0" text-anchor="middle">(폐업 후 5년 이내)</text>
+
+  <text x="870" y="384" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#F59E0B" text-anchor="middle">받는 지원</text>
+  <text x="870" y="406" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#EF4444" text-anchor="middle">최대 7,000만원</text>
+  <text x="870" y="428" font-family="-apple-system, sans-serif" font-size="12" fill="#A0B4D0" text-anchor="middle">대출 (금리 약 3% 내외)</text>
+
+  <text x="870" y="462" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#F59E0B" text-anchor="middle">조건</text>
+  <text x="870" y="484" font-family="-apple-system, sans-serif" font-size="13" fill="#EF4444" text-anchor="middle">교육 10h 이수 + 세금 완납</text>
+  <text x="870" y="504" font-family="-apple-system, sans-serif" font-size="12" fill="#A0B4D0" text-anchor="middle">(원리금 상환 필요)</text>
+
+  <text x="870" y="538" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#F59E0B" text-anchor="middle">선택 기준</text>
+  <text x="870" y="564" font-family="-apple-system, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle">창업 후 자금 추가로</text>
+  <text x="870" y="584" font-family="-apple-system, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle">필요하다면</text>
+
+  <rect x="750" y="660" width="240" height="60" rx="10" fill="#EF4444"/>
+  <text x="870" y="696" font-family="-apple-system, sans-serif" font-size="14" font-weight="900" fill="#FFFFFF" text-anchor="middle">kosmes.or.kr</text>
+
+  <!-- Bottom note -->
+  <rect x="60" y="764" width="960" height="70" rx="12" fill="#1A3270"/>
+  <text x="540" y="794" font-family="-apple-system, sans-serif" font-size="14" font-weight="800" fill="#34D399" text-anchor="middle">재기사업화 + 재도전특별자금 병행 가능 (주관 기관 다름)</text>
+  <text x="540" y="820" font-family="-apple-system, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle">재기사업화와 특화취업지원은 원칙상 중복 신청 어려움 — 재창업 or 취업 중 선택</text>
+
+  <!-- Footer -->
+  <text x="540" y="974" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준 | 소상공인24 sbiz24.kr | 중진공 kosmes.or.kr | 콜센터 1357 / 1533-0100</text>
+  <rect x="0" y="1072" width="1080" height="8" fill="#34D399"/>
+</svg>

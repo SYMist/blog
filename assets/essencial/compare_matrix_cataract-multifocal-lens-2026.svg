@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <!-- Title -->
+  <text x="540" y="60" text-anchor="middle" fill="#FFFFFF" font-size="36" font-weight="900" font-family="Pretendard,sans-serif">다초점 렌즈 5종 비교 매트릭스</text>
+  <text x="540" y="95" text-anchor="middle" fill="#94A3B8" font-size="18" font-family="Pretendard,sans-serif">백내장 수술 렌즈 선택 가이드 — 2026년 4월 기준</text>
+
+  <!-- Table Header -->
+  <rect x="40" y="120" width="1000" height="48" rx="12" fill="#0F766E"/>
+  <text x="120" y="150" text-anchor="middle" fill="#FFF" font-size="15" font-weight="800" font-family="Pretendard,sans-serif">비교 항목</text>
+  <text x="270" y="150" text-anchor="middle" fill="#FFF" font-size="15" font-weight="800" font-family="Pretendard,sans-serif">팬옵틱스</text>
+  <text x="430" y="150" text-anchor="middle" fill="#FFF" font-size="15" font-weight="800" font-family="Pretendard,sans-serif">시너지</text>
+  <text x="590" y="150" text-anchor="middle" fill="#FFF" font-size="15" font-weight="800" font-family="Pretendard,sans-serif">퓨어See</text>
+  <text x="750" y="150" text-anchor="middle" fill="#FFF" font-size="15" font-weight="800" font-family="Pretendard,sans-serif">아이핸스</text>
+  <text x="910" y="150" text-anchor="middle" fill="#FFF" font-size="15" font-weight="800" font-family="Pretendard,sans-serif">리사트리</text>
+
+  <!-- Row 1: 제조사 -->
+  <rect x="40" y="174" width="1000" height="46" fill="#1E293B"/>
+  <text x="120" y="203" text-anchor="middle" fill="#94A3B8" font-size="15" font-weight="600" font-family="Pretendard,sans-serif">제조사</text>
+  <text x="270" y="203" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="700" font-family="Pretendard,sans-serif">알콘</text>
+  <text x="430" y="203" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="700" font-family="Pretendard,sans-serif">J&amp;J</text>
+  <text x="590" y="203" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="700" font-family="Pretendard,sans-serif">J&amp;J</text>
+  <text x="750" y="203" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="700" font-family="Pretendard,sans-serif">J&amp;J</text>
+  <text x="910" y="203" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="700" font-family="Pretendard,sans-serif">칼자이스</text>
+
+  <!-- Row 2: 가격 -->
+  <rect x="40" y="224" width="1000" height="46" fill="#0F172A"/>
+  <text x="120" y="253" text-anchor="middle" fill="#94A3B8" font-size="15" font-weight="600" font-family="Pretendard,sans-serif">가격 (단안)</text>
+  <text x="270" y="253" text-anchor="middle" fill="#5EEAD4" font-size="17" font-weight="800" font-family="Pretendard,sans-serif">~300만</text>
+  <text x="430" y="253" text-anchor="middle" fill="#5EEAD4" font-size="17" font-weight="800" font-family="Pretendard,sans-serif">280~300만</text>
+  <text x="590" y="253" text-anchor="middle" fill="#5EEAD4" font-size="17" font-weight="800" font-family="Pretendard,sans-serif">240~280만</text>
+  <text x="750" y="253" text-anchor="middle" fill="#86EFAC" font-size="17" font-weight="800" font-family="Pretendard,sans-serif">100~150만</text>
+  <text x="910" y="253" text-anchor="middle" fill="#5EEAD4" font-size="17" font-weight="800" font-family="Pretendard,sans-serif">250~300만</text>
+
+  <!-- Row 3: 광학 구조 -->
+  <rect x="40" y="274" width="1000" height="46" fill="#1E293B"/>
+  <text x="120" y="303" text-anchor="middle" fill="#94A3B8" font-size="15" font-weight="600" font-family="Pretendard,sans-serif">광학 구조</text>
+  <text x="270" y="303" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700" font-family="Pretendard,sans-serif">4중 다초점</text>
+  <text x="430" y="303" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700" font-family="Pretendard,sans-serif">다초점+EDOF</text>
+  <text x="590" y="303" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700" font-family="Pretendard,sans-serif">굴절형 연속</text>
+  <text x="750" y="303" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700" font-family="Pretendard,sans-serif">단초점+강화</text>
+  <text x="910" y="303" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700" font-family="Pretendard,sans-serif">3중 초점</text>
+
+  <!-- Row 4: 원거리 -->
+  <rect x="40" y="324" width="1000" height="46" fill="#0F172A"/>
+  <text x="120" y="353" text-anchor="middle" fill="#94A3B8" font-size="15" font-weight="600" font-family="Pretendard,sans-serif">원거리</text>
+  <text x="270" y="353" text-anchor="middle" fill="#86EFAC" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">★★★★</text>
+  <text x="430" y="353" text-anchor="middle" fill="#86EFAC" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">★★★★</text>
+  <text x="590" y="353" text-anchor="middle" fill="#86EFAC" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">★★★★</text>
+  <text x="750" y="353" text-anchor="middle" fill="#86EFAC" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">★★★★★</text>
+  <text x="910" y="353" text-anchor="middle" fill="#86EFAC" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">★★★★</text>
+
+  <!-- Row 5: 중간거리 60cm -->
+  <rect x="40" y="374" width="1000" height="46" fill="#1E293B"/>
+  <text x="120" y="403" text-anchor="middle" fill="#94A3B8" font-size="15" font-weight="600" font-family="Pretendard,sans-serif">중간 60cm</text>
+  <rect x="225" y="389" width="90" height="26" rx="13" fill="#0F766E"/>
+  <text x="270" y="407" text-anchor="middle" fill="#FFF" font-size="14" font-weight="800" font-family="Pretendard,sans-serif">최강</text>
+  <text x="430" y="403" text-anchor="middle" fill="#86EFAC" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">★★★★</text>
+  <text x="590" y="403" text-anchor="middle" fill="#86EFAC" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">★★★★</text>
+  <text x="750" y="403" text-anchor="middle" fill="#FDE68A" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">★★★</text>
+  <text x="910" y="403" text-anchor="middle" fill="#86EFAC" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">★★★★</text>
+
+  <!-- Row 6: 근거리 33cm -->
+  <rect x="40" y="424" width="1000" height="46" fill="#0F172A"/>
+  <text x="120" y="453" text-anchor="middle" fill="#94A3B8" font-size="15" font-weight="600" font-family="Pretendard,sans-serif">근거리 33cm</text>
+  <text x="270" y="453" text-anchor="middle" fill="#86EFAC" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">★★★★</text>
+  <rect x="385" y="439" width="90" height="26" rx="13" fill="#3B82F6"/>
+  <text x="430" y="457" text-anchor="middle" fill="#FFF" font-size="14" font-weight="800" font-family="Pretendard,sans-serif">최강</text>
+  <text x="590" y="453" text-anchor="middle" fill="#FDE68A" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">★★★</text>
+  <text x="750" y="453" text-anchor="middle" fill="#F87171" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">★★</text>
+  <text x="910" y="453" text-anchor="middle" fill="#86EFAC" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">★★★★</text>
+
+  <!-- Row 7: 빛번짐 -->
+  <rect x="40" y="474" width="1000" height="46" fill="#1E293B"/>
+  <text x="120" y="503" text-anchor="middle" fill="#94A3B8" font-size="15" font-weight="600" font-family="Pretendard,sans-serif">빛번짐</text>
+  <text x="270" y="503" text-anchor="middle" fill="#FDE68A" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">보통</text>
+  <text x="430" y="503" text-anchor="middle" fill="#FDE68A" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">보통</text>
+  <rect x="545" y="489" width="90" height="26" rx="13" fill="#8B5CF6"/>
+  <text x="590" y="507" text-anchor="middle" fill="#FFF" font-size="14" font-weight="800" font-family="Pretendard,sans-serif">최소</text>
+  <rect x="705" y="489" width="90" height="26" rx="13" fill="#22C55E"/>
+  <text x="750" y="507" text-anchor="middle" fill="#FFF" font-size="14" font-weight="800" font-family="Pretendard,sans-serif">없음</text>
+  <text x="910" y="503" text-anchor="middle" fill="#FDE68A" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">보통</text>
+
+  <!-- Row 8: 난시 교정 -->
+  <rect x="40" y="524" width="1000" height="46" fill="#0F172A"/>
+  <text x="120" y="553" text-anchor="middle" fill="#94A3B8" font-size="15" font-weight="600" font-family="Pretendard,sans-serif">난시 교정</text>
+  <text x="270" y="553" text-anchor="middle" fill="#86EFAC" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">토릭 有</text>
+  <text x="430" y="553" text-anchor="middle" fill="#86EFAC" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">토릭 有</text>
+  <text x="590" y="553" text-anchor="middle" fill="#F87171" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">없음</text>
+  <text x="750" y="553" text-anchor="middle" fill="#F87171" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">없음</text>
+  <rect x="865" y="539" width="90" height="26" rx="13" fill="#F59E0B"/>
+  <text x="910" y="557" text-anchor="middle" fill="#FFF" font-size="14" font-weight="800" font-family="Pretendard,sans-serif">최우수</text>
+
+  <!-- Row 9: 추천 대상 -->
+  <rect x="40" y="574" width="1000" height="50" fill="#1E293B"/>
+  <text x="120" y="605" text-anchor="middle" fill="#94A3B8" font-size="15" font-weight="600" font-family="Pretendard,sans-serif">추천 대상</text>
+  <text x="270" y="605" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700" font-family="Pretendard,sans-serif">사무직·PC</text>
+  <text x="430" y="605" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700" font-family="Pretendard,sans-serif">독서·폰</text>
+  <text x="590" y="605" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700" font-family="Pretendard,sans-serif">야간운전</text>
+  <text x="750" y="605" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700" font-family="Pretendard,sans-serif">비용절감</text>
+  <text x="910" y="605" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700" font-family="Pretendard,sans-serif">난시교정</text>
+
+  <!-- 실손보험 보상 시뮬레이션 -->
+  <text x="540" y="670" text-anchor="middle" fill="#5EEAD4" font-size="22" font-weight="800" font-family="Pretendard,sans-serif">실손보험 보상 시뮬레이션 — 다초점 300만 원 수술 시</text>
+
+  <!-- Sim Table Header -->
+  <rect x="40" y="690" width="1000" height="40" rx="10" fill="#334155"/>
+  <text x="170" y="716" text-anchor="middle" fill="#E2E8F0" font-size="15" font-weight="700" font-family="Pretendard,sans-serif">실손 세대</text>
+  <text x="380" y="716" text-anchor="middle" fill="#E2E8F0" font-size="15" font-weight="700" font-family="Pretendard,sans-serif">입원 처리 시</text>
+  <text x="600" y="716" text-anchor="middle" fill="#E2E8F0" font-size="15" font-weight="700" font-family="Pretendard,sans-serif">통원 처리 시 (판례 후)</text>
+  <text x="850" y="716" text-anchor="middle" fill="#E2E8F0" font-size="15" font-weight="700" font-family="Pretendard,sans-serif">실질 본인부담</text>
+
+  <!-- Sim Row 1 -->
+  <rect x="40" y="734" width="1000" height="44" fill="#1E293B"/>
+  <text x="170" y="762" text-anchor="middle" fill="#86EFAC" font-size="15" font-weight="700" font-family="Pretendard,sans-serif">1~2세대</text>
+  <text x="380" y="762" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="700" font-family="Pretendard,sans-serif">240~270만 보상</text>
+  <text x="600" y="762" text-anchor="middle" fill="#FDE68A" font-size="16" font-weight="700" font-family="Pretendard,sans-serif">25~30만 보상</text>
+  <text x="850" y="762" text-anchor="middle" fill="#F87171" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">270만 원</text>
+
+  <!-- Sim Row 2 -->
+  <rect x="40" y="782" width="1000" height="44" fill="#0F172A"/>
+  <text x="170" y="810" text-anchor="middle" fill="#FDE68A" font-size="15" font-weight="700" font-family="Pretendard,sans-serif">3세대</text>
+  <text x="380" y="810" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="700" font-family="Pretendard,sans-serif">210만 보상</text>
+  <text x="600" y="810" text-anchor="middle" fill="#FDE68A" font-size="16" font-weight="700" font-family="Pretendard,sans-serif">14~21만 보상</text>
+  <text x="850" y="810" text-anchor="middle" fill="#F87171" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">279만 원</text>
+
+  <!-- Sim Row 3 -->
+  <rect x="40" y="830" width="1000" height="44" fill="#1E293B"/>
+  <text x="170" y="858" text-anchor="middle" fill="#FCA5A5" font-size="15" font-weight="700" font-family="Pretendard,sans-serif">4세대</text>
+  <text x="380" y="858" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="700" font-family="Pretendard,sans-serif">입원 거의 불인정</text>
+  <text x="600" y="858" text-anchor="middle" fill="#FDE68A" font-size="16" font-weight="700" font-family="Pretendard,sans-serif">14~20만 보상</text>
+  <text x="850" y="858" text-anchor="middle" fill="#F87171" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">280만 원+</text>
+
+  <!-- Warning -->
+  <rect x="40" y="895" width="1000" height="60" rx="12" fill="#EF4444" opacity="0.1"/>
+  <rect x="40" y="895" width="1000" height="60" rx="12" stroke="#F87171" stroke-width="1.5" fill="none"/>
+  <text x="540" y="932" text-anchor="middle" fill="#FCA5A5" font-size="18" font-weight="700" font-family="Pretendard,sans-serif">4세대 실손 300만+ 수령 → 다음해 보험료 300% 할증(4배) | 양안 같은 해 수술 시 합산 주의</text>
+
+  <!-- Legend -->
+  <circle cx="260" cy="990" r="7" fill="#86EFAC"/>
+  <text x="276" y="995" fill="#94A3B8" font-size="14" font-family="Pretendard,sans-serif">우수/유리</text>
+  <circle cx="380" cy="990" r="7" fill="#FDE68A"/>
+  <text x="396" y="995" fill="#94A3B8" font-size="14" font-family="Pretendard,sans-serif">보통</text>
+  <circle cx="475" cy="990" r="7" fill="#F87171"/>
+  <text x="491" y="995" fill="#94A3B8" font-size="14" font-family="Pretendard,sans-serif">부족/불리</text>
+  <rect x="575" y="982" width="60" height="18" rx="9" fill="#0F766E"/>
+  <text x="605" y="995" text-anchor="middle" fill="#FFF" font-size="12" font-weight="700" font-family="Pretendard,sans-serif">최강</text>
+  <text x="645" y="995" fill="#94A3B8" font-size="14" font-family="Pretendard,sans-serif">해당 항목 1위</text>
+
+  <!-- Footer -->
+  <text x="540" y="1055" text-anchor="middle" fill="#64748B" font-size="15" font-family="Pretendard,sans-serif">essencial | 2026년 4월 기준 심평원·대법원 판례 반영</text>
+</svg>

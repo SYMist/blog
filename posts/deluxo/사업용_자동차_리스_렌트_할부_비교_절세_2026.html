@@ -1,0 +1,467 @@
+<!-- tistory_policy_template.html -->
+<!-- ✅ 티스토리 HTML 모드: 통째로 붙여넣고 { }만 수정 -->
+
+<!-- ✅ Schema.org 구조화 데이터 -->
+<div style="display:none">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "사업용 자동차 리스 vs 렌트 vs 할부 비교·절세 전략 (2026)",
+      "description": "2026년 사업용 자동차 리스·렌트·할부 3가지 방식의 비용·세금·DSR·보험·번호판 차이를 한눈에 비교. 연간 1,500만 원 비용 인정 한도, 업무전용보험, 운행기록부, 전기차 보조금까지 절세 전략 총정리.",
+      "datePublished": "2026-03-24",
+      "dateModified": "2026-03-24",
+      "author": {"@type": "Person", "name": "정책길잡이"},
+      "publisher": {"@type": "Organization", "name": "정책길잡이 블로그"}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "사업용 자동차 비용은 연간 얼마까지 인정되나요?", "acceptedAnswer": {"@type": "Answer", "text": "감가상각비(또는 임차료 상당액) 800만 원 + 유지관리비 700만 원 = 연간 총 1,500만 원까지 인정됩니다. 운행기록부를 작성하면 1,500만 원 초과분도 업무 사용 비율만큼 추가 인정 가능합니다."}},
+        {"@type": "Question", "name": "리스와 렌트 중 어떤 게 절세에 유리한가요?", "acceptedAnswer": {"@type": "Answer", "text": "리스는 리스료의 93%가 감가상각비로 간주되고, 렌트는 렌탈료의 70%가 감가상각비로 간주됩니다. 부가세 환급이 가능한 경차·9인승 이상은 렌트가 유리하고, DSR 부담 없이 일반 번호판을 원하면 운용 리스가 유리합니다."}},
+        {"@type": "Question", "name": "업무전용 자동차보험에 가입 안 하면 어떻게 되나요?", "acceptedAnswer": {"@type": "Answer", "text": "2026년부터 복식부기의무자가 업무전용 자동차보험에 미가입하면 차량 관련 비용이 전액 불인정(0%)됩니다. 임직원만 운전 가능한 보험에 반드시 가입해야 합니다."}},
+        {"@type": "Question", "name": "연두색 번호판은 어떤 차에 부착하나요?", "acceptedAnswer": {"@type": "Answer", "text": "법인 소유 또는 1년 이상 리스·렌트 차량 중 취득가액 8,000만 원 이상인 승용차에 부착됩니다. 공급가액과 기준가격 중 높은 금액 기준이며, 할인으로 8,000만 원 이하로 낮춰도 적용됩니다."}},
+        {"@type": "Question", "name": "전기차로 바꾸면 보조금을 얼마나 받나요?", "acceptedAnswer": {"@type": "Answer", "text": "2026년 기준 인천시 승용 전기차 최대 1,200만 원, 서울시 약 754만 원, 경기도 약 830만 원입니다. 내연기관 폐차 후 전환 시 100~130만 원 추가 지원금도 있습니다. 취득세 최대 140만 원 감면도 별도 적용됩니다."}}
+      ]
+    }
+  ]
+}
+</script>
+</div>
+
+<style>
+  :root{
+    --blue:#1D4ED8; --blue2:#1E40AF;
+    --white:#FFFFFF; --text:#111827;
+    --muted:#4B5563; --border:#E5E7EB;
+    --bg:#F9FAFB; --blueLight:#E8F0FF;
+  }
+  .wrap{max-width:860px;margin:0 auto;line-height:1.8;color:var(--text);}
+  .meta{color:var(--muted);font-size:.95rem;margin:6px 0 18px;}
+  .badge{display:inline-block;background:var(--blueLight);border:1px solid var(--border);padding:3px 10px;border-radius:999px;font-size:.85rem;margin-right:8px;}
+  .notice{background:#fff7ed;border:1px solid #fed7aa;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .lead{background:#f8fafc;border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .keysum{background:#fefce8;border:1px solid #fde68a;padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .summary{background:#eff6ff;border:1px solid #bfdbfe;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .toc{background:var(--bg);border:1px solid var(--border);padding:14px 16px;border-radius:12px;margin:16px 0 22px;}
+  .toc a{text-decoration:none;color:var(--blue);}
+  .toc ul{margin:8px 0 0 18px;}
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 6px;}
+  .wrap a.btn,.wrap a.btn:link,.wrap a.btn:visited{
+    display:inline-flex;align-items:center;justify-content:center;
+    padding:10px 14px;border-radius:10px;border:1px solid var(--blue);
+    background:var(--blue) !important;color:var(--white) !important;
+    text-decoration:none !important;font-weight:800;
+  }
+  .wrap a.btn:hover,.wrap a.btn:active,.wrap a.btn:focus{
+    background:var(--blue2) !important;border-color:var(--blue2) !important;color:var(--white) !important;
+  }
+  .wrap a.btn.secondary,.wrap a.btn.secondary:link,.wrap a.btn.secondary:visited{
+    background:var(--white) !important;color:var(--blue) !important;border-color:var(--blue) !important;
+  }
+  .wrap a.btn.secondary:hover,.wrap a.btn.secondary:active,.wrap a.btn.secondary:focus{
+    background:var(--bg) !important;color:var(--blue2) !important;border-color:var(--blue2) !important;
+  }
+  .wrap a.btn.gray,.wrap a.btn.gray:link,.wrap a.btn.gray:visited{
+    background:#111827 !important;border-color:#111827 !important;color:var(--white) !important;
+  }
+  .wrap a.btn.gray:hover,.wrap a.btn.gray:active,.wrap a.btn.gray:focus{
+    background:#0b1220 !important;border-color:#0b1220 !important;color:var(--white) !important;
+  }
+  table{width:100%;border-collapse:collapse;margin:14px 0 10px;}
+  th,td{border:1px solid var(--border);padding:10px;vertical-align:top;}
+  th{background:#F3F4F6;text-align:left;}
+  .small{font-size:.95rem;color:var(--muted);}
+  h1{margin:0 0 8px;line-height:1.25;}
+  h2{margin-top:30px;padding-top:8px;border-top:1px solid var(--border);}
+  h3{margin-top:16px;}
+  .q{font-weight:900;margin:14px 0 6px;}
+  .a{margin:0 0 10px;}
+  .tips{background:#f0fdf4;border:1px solid #bbf7d0;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .ad{background:#f9fafb;border:1px dashed var(--border);padding:10px 12px;border-radius:10px;margin:12px 0;}
+  .footer{margin-top:26px;padding-top:14px;border-top:1px solid var(--border);color:var(--muted);font-size:.95rem;}
+</style>
+
+<div class="wrap">
+  <h1>사업용 자동차 리스 vs 렌트 vs 할부 비교·절세 전략 (2026)</h1>
+  <div class="meta">
+    <span class="badge">키워드: 사업용 자동차 리스 렌트</span>
+    <span class="badge">업데이트: 2026-03-24</span>
+  </div>
+
+  <div class="notice">
+    <strong>먼저 확인!</strong><br/>
+    2026년부터 복식부기의무자가 <strong>업무전용 자동차보험 미가입 시 차량 비용 전액 불인정(0%)</strong>됩니다. 또한 스트레스 DSR 3단계 전면 시행으로 할부 구매 시 <strong>대출 한도가 최대 1.2억 원 축소</strong>될 수 있습니다. 차량 취득 방식 선택 전 반드시 확인하세요.
+  </div>
+
+  <p class="small">
+    2026년 사업용 자동차 리스·렌트·할부 3가지 방식 비교 — 소유권·번호판·보험·DSR·부가세 환급 차이, 연간 1,500만 원 비용 인정 한도, 운행기록부 작성법, 전기차 보조금 최대 1,200만 원까지 절세 전략을 총정리합니다.
+  </p>
+
+  <div class="lead">
+    "리스가 나은가, 렌트가 나은가" — 사업용 차량을 고를 때 가장 많이 하는 질문입니다. 하지만 2026년에는 이 선택이 단순한 월 납입금 비교를 넘어 <strong>DSR 대출 한도, 세금 비용 처리, 보험 경력, 번호판</strong>까지 좌우합니다. 잘못 선택하면 연간 수백만 원 손해, 제대로 선택하면 <strong>연간 1,500만 원 비용 인정 + 전기차 보조금 1,200만 원</strong>까지 절약 가능합니다.
+  </div>
+
+  <div class="keysum">
+    <strong>핵심 요약 3줄</strong><br/>
+    1. 비용 인정 한도: 감가상각비(임차료) <strong>800만 원</strong> + 유지관리비 <strong>700만 원</strong> = 연간 <strong>1,500만 원</strong> (운행기록부 작성 시 초과분도 인정)<br/>
+    2. DSR 부담: 할부 = <strong>부채 인식</strong>(대출 한도↓) / 렌트 = <strong>부채 미인식</strong>(재무 건전성 유지) / 리스 = 금융 리스 시 부채 포함 우려<br/>
+    3. 부가세 환급: 경차·9인승+ 승합·화물차만 가능 — 렌트(세금계산서 발행) &gt; 할부(가능) &gt; 리스(면세, 환급 불가)
+  </div>
+
+  <div class="summary" id="top">
+    <h2 style="border-top:none;margin-top:0;">✅ 5줄 요약(결론)</h2>
+    <ul>
+      <li><strong>DSR 걱정 + 관리 편의</strong>: <strong>장기 렌트</strong> → 부채 미인식, 보험·정비 대행, 사고 시 할증 없음</li>
+      <li><strong>일반 번호판 + 경력 유지</strong>: <strong>운용 리스</strong> → 하·허·호 번호판 없음, 리스료 93% 비용 처리</li>
+      <li><strong>장기 보유(10년+)</strong>: <strong>할부/일시불</strong> → 총비용 최저, 감가상각 800만 원/년 비용 처리</li>
+      <li><strong>필수 요건</strong>: 업무전용보험 가입 + 비용 1,500만 원 초과 시 <strong>운행기록부 필수</strong></li>
+      <li><strong>전기차 전환</strong>: 인천 최대 <strong>1,200만 원</strong>, 서울 <strong>754만 원</strong> + 취득세 <strong>140만 원</strong> 감면</li>
+    </ul>
+
+    <div class="btns">
+      <a class="btn" href="https://www.hometax.go.kr" target="_blank" rel="noopener">국세청 홈택스</a>
+      <a class="btn gray" href="https://www.ev.or.kr" target="_blank" rel="noopener">무공해차 통합누리집</a>
+      <a class="btn secondary" href="https://www.sbiz.or.kr" target="_blank" rel="noopener">소상공인시장진흥공단</a>
+    </div>
+    <p class="small">※ 세법·보조금은 연도·지역별로 변동될 수 있습니다. 가입·신청 전 공식 공고 확인 필수!</p>
+    <p class="small">※ 이 글은 일반적인 세무 정보를 정리한 것이며, 개별 상황에 따라 다를 수 있습니다. 구체적인 절세 전략은 세무사와 상담하시기 바랍니다.</p>
+  </div>
+
+  <p class="small" style="text-align:center;">[이미지: 사업용 자동차 리스 vs 렌트 vs 할부 비교 요약 카드]</p>
+
+  <div class="toc">
+    <strong>목차</strong>
+    <ul>
+      <li><a href="#table">1) 리스·렌트·할부 한눈에 비교표</a></li>
+      <li><a href="#quick">→ 나는 어디? 빠른 판단 가이드</a></li>
+      <li><a href="#cost">2) 연간 비용 인정 한도 — 1,500만 원의 비밀</a></li>
+      <li><a href="#insurance">3) 업무전용보험 + 운행기록부 — 필수 요건</a></li>
+      <li><a href="#dsr">4) DSR 규제와 재무 영향</a></li>
+      <li><a href="#vat">5) 부가세 환급 — 차종별 전략</a></li>
+      <li><a href="#green">6) 연두색 번호판 — 8,000만 원 기준</a></li>
+      <li><a href="#ev">7) 전기차 보조금·세제 혜택</a></li>
+      <li><a href="#how">8) 실천 방법 (단계별)</a></li>
+      <li><a href="#docs">9) 서류 체크리스트</a></li>
+      <li><a href="#case">10) 경험/사례</a></li>
+      <li><a href="#mistake">11) 실수 TOP 5</a></li>
+      <li><a href="#faq">12) FAQ 10개</a></li>
+      <li><a href="#check">13) 1분 체크리스트</a></li>
+      <li><a href="#update">업데이트 로그</a></li>
+    </ul>
+  </div>
+
+  <h2 id="table">1) 리스·렌트·할부 한눈에 비교표</h2>
+  <table>
+    <thead>
+      <tr><th>비교 항목</th><th>장기 렌트</th><th>운용 리스</th><th>할부/일시불</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>소유 명의</strong></td><td>렌트사 (임대차)</td><td>리스사 (금융 거래)</td><td><strong>이용자 (직접 소유)</strong></td></tr>
+      <tr><td><strong>번호판</strong></td><td>하·허·호 (전용)</td><td><strong>일반 번호판</strong></td><td><strong>일반 번호판</strong></td></tr>
+      <tr><td><strong>DSR 부채 인식</strong></td><td><strong>미인식 ✓</strong></td><td>금융 리스 시 포함 우려</td><td>부채 인식 (한도↓)</td></tr>
+      <tr><td><strong>보험 운영</strong></td><td>렌트사 요율<br/>(사고 시 할증 없음)</td><td>개인/법인 요율<br/>(사고 시 할증)</td><td>개인/법인 요율<br/>(사고 시 할증)</td></tr>
+      <tr><td><strong>보험 경력</strong></td><td>경력 단절 가능</td><td><strong>경력 유지</strong></td><td><strong>경력 유지</strong></td></tr>
+      <tr><td><strong>비용 처리</strong></td><td>렌탈료의 <strong>70%</strong><br/>= 감가상각비</td><td>리스료의 <strong>93%</strong><br/>= 감가상각비</td><td>감가상각비<br/>직접 계산</td></tr>
+      <tr><td><strong>부가세 환급</strong></td><td>경차/승합 <strong>가능</strong><br/>(세금계산서)</td><td><strong>불가능</strong><br/>(면세 계산서)</td><td>경차/승합 <strong>가능</strong><br/>(세금계산서)</td></tr>
+      <tr><td><strong>유지 관리</strong></td><td>렌트사 대행<br/>(정비 포함 가능)</td><td>이용자 직접 관리</td><td>이용자 직접 관리</td></tr>
+      <tr><td><strong>총비용 (장기)</strong></td><td>중간~높음</td><td>중간</td><td><strong>최저 (10년+ 보유 시)</strong></td></tr>
+      <tr><td><strong>추천 대상</strong></td><td>DSR 부담 사업자<br/>초보 운전·다수 직원</td><td>전문직·임원<br/>품위 유지 필요</td><td>장기 보유 계획<br/>안정 운전자</td></tr>
+    </tbody>
+  </table>
+
+  <div class="ad">{광고 위치 1}</div>
+
+  <h3 id="quick">나는 어디? 빠른 판단 가이드</h3>
+  <table>
+    <thead>
+      <tr><th>내 상황</th><th>추천 방식</th><th>핵심 이유</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>사업 확장 대출이 필요하다</strong></td><td><strong>장기 렌트</strong></td><td>DSR 부채 미인식 → 대출 한도 보호</td></tr>
+      <tr><td><strong>직원 여러 명이 운전한다</strong></td><td><strong>장기 렌트</strong></td><td>사고 시 보험 할증 없음 + 관리 대행</td></tr>
+      <tr><td><strong>일반 번호판이 필요하다</strong></td><td><strong>운용 리스</strong></td><td>하·허·호 없음, 대외 품위 유지</td></tr>
+      <tr><td><strong>경차/9인승 승합 운행</strong></td><td><strong>렌트 또는 할부</strong></td><td>부가세 10% 매입세액공제 가능</td></tr>
+      <tr><td><strong>10년 이상 장기 보유 계획</strong></td><td><strong>할부/일시불</strong></td><td>리스·렌트 수수료 없어 총비용 최저</td></tr>
+      <tr><td><strong>전기차 전환 고려 중</strong></td><td><strong>렌트 또는 리스</strong></td><td>배터리 감가 리스크를 렌트사·리스사가 부담</td></tr>
+      <tr><td><strong>8,000만 원+ 고가 차량</strong></td><td>방식 무관<br/>(연두색 번호판 부착)</td><td>리스·렌트·구매 모두 연두색 번호판 적용</td></tr>
+    </tbody>
+  </table>
+  <p class="small">※ 세무·금융 상황에 따라 달라질 수 있습니다. 세무사 상담 권장.</p>
+
+  <p class="small" style="text-align:center;">[이미지: 사업용 자동차 빠른 판단 가이드 카드]</p>
+
+  <h2 id="cost">2) 연간 비용 인정 한도 — 1,500만 원의 비밀</h2>
+  <p>업무용 승용차 관련 비용은 <strong>감가상각비(또는 임차료 상당액)</strong>와 <strong>유지관리비</strong>로 나뉩니다.</p>
+
+  <table>
+    <thead>
+      <tr><th>항목</th><th>연간 인정 한도</th><th>초과 시 처리</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>감가상각비 (구매)</strong></td>
+        <td><strong>800만 원</strong></td>
+        <td>초과분 다음 해로 이월 공제<br/>(연 800만 원씩 소진까지)</td>
+      </tr>
+      <tr>
+        <td><strong>임차료 상당액</strong><br/>(리스/렌트)</td>
+        <td><strong>800만 원</strong></td>
+        <td>리스: 리스료의 <strong>93%</strong> = 감가상각비<br/>렌트: 렌탈료의 <strong>70%</strong> = 감가상각비</td>
+      </tr>
+      <tr>
+        <td><strong>유지관리비</strong><br/>(유류비·보험·수리 등)</td>
+        <td><strong>700만 원</strong></td>
+        <td>운행일지 미작성 시 700만 원 한도</td>
+      </tr>
+      <tr>
+        <td><strong>합계</strong></td>
+        <td><strong>1,500만 원</strong></td>
+        <td>운행기록부 작성 시 초과분도<br/><strong>업무 비율만큼 추가 인정</strong></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="tips">
+    <strong>핵심 포인트</strong><br/>
+    · 고가 차량(5,000만 원+)은 감가상각 800만 원 한도로 인해 <strong>6년 이상</strong> 걸려야 전액 비용 처리 가능<br/>
+    · 리스료 93% vs 렌트료 70% → 같은 월 납입금이면 <strong>리스가 비용 인정 비율이 높음</strong><br/>
+    · 비용 명세서 미제출 또는 허위 제출 시 <strong>손금산입액의 1% 가산세</strong>
+  </div>
+
+  <h2 id="insurance">3) 업무전용보험 + 운행기록부 — 필수 요건</h2>
+
+  <h3>업무전용 자동차보험 (2026년 강화)</h3>
+  <table>
+    <thead>
+      <tr><th>항목</th><th>내용</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>대상</strong></td><td>복식부기의무자 (법인 + 일정 규모 이상 개인사업자)</td></tr>
+      <tr><td><strong>조건</strong></td><td><strong>임직원만 운전 가능</strong>한 보험 가입</td></tr>
+      <tr><td><strong>미가입 시</strong></td><td>차량 관련 비용 <strong>전액 불인정 (0%)</strong></td></tr>
+      <tr><td><strong>목적</strong></td><td>가족 등 비업무 운전자의 사적 이용 차단</td></tr>
+    </tbody>
+  </table>
+
+  <h3>운행기록부 작성 기준</h3>
+  <ul>
+    <li>연간 비용 <strong>1,500만 원 이하</strong>: 운행기록부 <strong>불필요</strong> (전액 인정)</li>
+    <li>연간 비용 <strong>1,500만 원 초과</strong>: 운행기록부 <strong>필수</strong> → 업무 사용 비율만큼 추가 인정</li>
+    <li>미작성 시: 1,500만 원까지만 인정, 초과분 불인정</li>
+    <li>기록 항목: 일자, 출발지·도착지, 주행 거리, 업무 내용, 사용자</li>
+  </ul>
+
+  <div class="ad">{광고 위치 2}</div>
+
+  <h2 id="dsr">4) DSR 규제와 재무 영향</h2>
+  <p>2026년 <strong>스트레스 DSR 3단계</strong>가 전면 시행되면서, 차량 취득 방식이 대출 한도에 미치는 영향이 커졌습니다.</p>
+
+  <table>
+    <thead>
+      <tr><th>취득 방식</th><th>DSR 반영</th><th>대출 한도 영향</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>할부 구매</strong></td>
+        <td>기타 대출로 <strong>포함</strong></td>
+        <td>주담대·신용대출 한도 <strong>최대 1.2억 축소</strong></td>
+      </tr>
+      <tr>
+        <td><strong>운용 리스</strong></td>
+        <td>현재 비용 처리<br/>(금융 리스는 포함 우려)</td>
+        <td>금융당국 범위 확대 <strong>검토 중</strong></td>
+      </tr>
+      <tr>
+        <td><strong>장기 렌트</strong></td>
+        <td>서비스 이용 = <strong>미포함</strong></td>
+        <td>신용 한도 <strong>영향 없음</strong></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p><strong>결론</strong>: 사업 확장을 위해 대규모 대출이 필요한 사업자라면 <strong>장기 렌트</strong>가 재무적으로 가장 안전한 선택입니다.</p>
+
+  <p class="small" style="text-align:center;">[이미지: 리스 vs 렌트 vs 할부 비교 카드]</p>
+
+  <h2 id="vat">5) 부가세 환급 — 차종별 전략</h2>
+
+  <table>
+    <thead>
+      <tr><th>구분</th><th>공제 가능 (환급 대상)</th><th>공제 불가능</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>차종</strong></td>
+        <td>· 경차 (모닝, 레이, 캐스퍼)<br/>· 9인승+ 승합 (카니발 9인승)<br/>· 화물차 (포터, 봉고)</td>
+        <td>· 8인승 이하 일반 승용차<br/>· 캠핑카·트레일러<br/>· 125cc 초과 이륜차</td>
+      </tr>
+      <tr>
+        <td><strong>취득 방식별</strong></td>
+        <td>· <strong>렌트</strong>: 세금계산서 발행 → 환급 ○<br/>· <strong>할부</strong>: 세금계산서 발행 → 환급 ○</td>
+        <td>· <strong>리스</strong>: 면세 계산서 → 환급 ✕</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p><strong>핵심</strong>: 경차·9인승 승합·화물차를 운용한다면 <strong>렌트나 할부</strong>로 취득해야 부가세 10% 환급 가능. 리스는 면세 상품이라 환급받을 세액 자체가 없습니다.</p>
+
+  <h2 id="green">6) 연두색 번호판 — 8,000만 원 기준</h2>
+
+  <table>
+    <thead>
+      <tr><th>항목</th><th>내용</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>대상</strong></td><td>법인 소유 + 1년 이상 리스·렌트 승용차</td></tr>
+      <tr><td><strong>가액 기준</strong></td><td>공급가액 vs 기준가격 중 <strong>높은 금액</strong> ≥ 8,000만 원</td></tr>
+      <tr><td><strong>중고차</strong></td><td>기준가격 × 잔가율 ≥ 8,000만 원 시 부착</td></tr>
+      <tr><td><strong>승계·연장</strong></td><td>리스/렌트 승계·연장 시에도 가액 초과 시 <strong>연두색 변경 필수</strong></td></tr>
+      <tr><td><strong>제외 대상</strong></td><td>경차, 9인승+ 승합, 화물차</td></tr>
+    </tbody>
+  </table>
+
+  <p class="small">※ 할인으로 실구매가를 8,000만 원 이하로 낮춰도 공급가액·기준가격 기준이므로 적용됩니다.</p>
+
+  <h2 id="ev">7) 전기차 보조금·세제 혜택</h2>
+  <p>2026년 사업용 차량을 전기차로 전환하면 <strong>보조금 + 세금 감면 + 보험료 절약</strong> 3중 혜택을 받을 수 있습니다.</p>
+
+  <table>
+    <thead>
+      <tr><th>지역</th><th>승용 전기차</th><th>화물 전기차</th><th>추가 지원</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>인천</strong></td><td>최대 <strong>1,200만 원</strong></td><td>최대 <strong>1,643만 원</strong></td><td>소상공인 국비 30% 추가</td></tr>
+      <tr><td><strong>서울</strong></td><td>약 <strong>754만 원</strong></td><td>약 <strong>1,500만 원</strong></td><td>전환지원금 130만 원 포함</td></tr>
+      <tr><td><strong>경기</strong></td><td>약 <strong>830만 원</strong></td><td>약 <strong>1,830만 원</strong></td><td>폐차 연계 시 130만 원 추가</td></tr>
+    </tbody>
+  </table>
+
+  <h3>세제 혜택</h3>
+  <ul>
+    <li><strong>취득세 감면</strong>: 전기차 최대 <strong>140만 원</strong></li>
+    <li><strong>개별소비세 감면</strong>: 전기차 <strong>300만 원</strong> / 수소차 <strong>400만 원</strong></li>
+    <li><strong>하이브리드</strong>: 2025년 말 세제 혜택 일몰 → 2026년은 <strong>순수 전기차·수소차가 유리</strong></li>
+  </ul>
+
+  <div class="tips">
+    <strong>전기차 + 렌트/리스 조합이 좋은 이유</strong><br/>
+    배터리 감가에 따른 중고차 가치 하락 리스크를 <strong>렌트사·리스사가 부담</strong> → 사업자는 가치 하락 걱정 없이 운용 가능.
+  </div>
+
+  <h2 id="how">8) 실천 방법 (단계별)</h2>
+  <ol>
+    <li><strong>취득 방식 결정</strong>: DSR 영향·번호판·보험 경력·부가세 환급 여부 판단 (빠른 판단 가이드 참고)</li>
+    <li><strong>차종 선택</strong>: 부가세 환급 가능 차종(경차·승합·화물) 여부 + 전기차 보조금 적용 여부 확인</li>
+    <li><strong>업무전용보험 가입</strong>: 복식부기의무자 필수 — 미가입 시 비용 0% 인정</li>
+    <li><strong>운행기록부 준비</strong>: 비용 1,500만 원 초과 예상 시 기록부 양식 준비 (국세청 서식)</li>
+    <li><strong>비용 처리</strong>: 감가상각비 800만 원 + 유지관리비 700만 원 한도 내 분기별 정리</li>
+    <li><strong>전기차 보조금 신청</strong>: 무공해차 통합누리집(ev.or.kr) → 지자체 공고 확인 → 구매·출고 후 신청</li>
+  </ol>
+
+  <h2 id="docs">9) 서류 체크리스트</h2>
+  <h3>기본 서류 (공통)</h3>
+  <ul>
+    <li>사업자등록증 사본</li>
+    <li>업무전용 자동차보험 가입 증명</li>
+    <li>차량등록증 사본</li>
+    <li>리스/렌트 계약서 (해당 시)</li>
+  </ul>
+  <h3>비용 처리 시</h3>
+  <ul>
+    <li>업무용 승용차 운행기록부 (1,500만 원 초과 시 필수)</li>
+    <li>업무용 승용차 관련 비용 명세서 (세무 신고 시 첨부)</li>
+    <li>감가상각비 계산서 (할부·일시불 구매 시)</li>
+    <li>부가세 매입세액공제: 세금계산서 (렌트·할부, 경차/승합/화물 한정)</li>
+  </ul>
+  <h3>전기차 보조금 신청 시</h3>
+  <ul>
+    <li>차량 출고 확인서 + 자동차등록증</li>
+    <li>보조금 지급 신청서 (지자체 양식)</li>
+    <li>내연기관 폐차 증명서 (전환지원금 신청 시)</li>
+  </ul>
+
+  <h2 id="case">10) 경험/사례</h2>
+
+  <p>인천에서 물류 회사를 운영하는 최 대표님은 2025년까지 할부로 포터 2대를 굴렸습니다. 2026년에 3대째를 추가할 때 DSR 규제에 걸려 운영자금 대출이 2,000만 원이나 줄어든다는 걸 은행에서 통보받았습니다. 급히 장기 렌트로 전환했더니 DSR에 영향 없이 대출 한도를 유지할 수 있었고, 렌트료에 보험·정비가 포함돼 관리 부담도 크게 줄었습니다. "할부가 무조건 싸다"는 고정관념이 깨졌다고 합니다.</p>
+
+  <p>서울 강남에서 변호사 사무실을 운영하는 박 변호사님은 고객 미팅이 잦아 차량 품위가 중요했습니다. 렌트 번호판(하·허·호)이 부담돼 운용 리스를 선택했고, 일반 번호판으로 운행하면서 리스료 93%를 비용으로 처리해 소득세를 절감하고 있습니다. 다만 사고 시 보험 할증이 직접 적용되므로 블랙박스와 안전운전에 더 신경 쓰게 됐다고 합니다.</p>
+
+  <p>경기도 수원에서 카페를 운영하는 이 사장님은 배달용 경차(레이)를 렌트로 이용 중입니다. 경차는 부가세 환급이 가능한 차종이라 렌트 세금계산서로 매 분기 부가세 10%를 돌려받고 있습니다. 연간 약 40만 원의 부가세를 환급받으니 "이걸 왜 이제 알았냐"며 주변 자영업자들에게 적극 추천 중입니다.</p>
+
+  <h2 id="mistake">11) 실수 TOP 5</h2>
+  <ol>
+    <li><strong>업무전용보험 미가입으로 비용 전액 불인정</strong> — 복식부기의무자가 임직원 전용 보험에 가입 안 하면 차량 비용 <strong>0%</strong> 인정. 매년 수백만 원 세금 손해. 보험 가입 상태 즉시 확인.</li>
+    <li><strong>리스로 경차 취득 → 부가세 환급 불가</strong> — 경차·9인승+·화물차는 렌트·할부로 취득해야 부가세 10% 환급 가능. 리스는 면세 계산서라 환급 자체가 불가.</li>
+    <li><strong>할부 구매 후 DSR에 걸려 대출 한도 축소</strong> — 할부는 기타 대출로 인식돼 주담대·신용대출 한도 최대 1.2억 감소 가능. 대출 계획 있으면 렌트 먼저 검토.</li>
+    <li><strong>운행기록부 안 쓰고 1,500만 원 초과 비용 청구</strong> — 1,500만 원 초과 시 운행기록부 없으면 초과분 불인정 + 비용 명세서 허위 시 <strong>1% 가산세</strong>.</li>
+    <li><strong>연두색 번호판 피하려고 할인 가액 맞추기</strong> — 공급가액과 기준가격 중 높은 금액 기준이므로 실구매가를 낮춰도 적용됨. 적발 시 세무조사 + 비용 부인 위험.</li>
+  </ol>
+
+  <p class="small" style="text-align:center;">[이미지: 사업용 자동차 실수 TOP 5 카드]</p>
+
+  <h2 id="faq">12) FAQ 10개</h2>
+
+  <p class="q">Q1. 개인사업자도 업무전용보험에 가입해야 하나요?</p>
+  <p class="a">복식부기의무자(일정 매출 이상)인 경우 의무입니다. 간편장부 대상자는 현재 의무는 아니지만, 가입하면 비용 인정 비율이 높아져 세금 절감에 유리합니다.</p>
+
+  <p class="q">Q2. 렌트 기간 중 보험 경력이 단절되면 나중에 얼마나 불리한가요?</p>
+  <p class="a">렌트 기간 동안 개인 보험 가입 이력이 없어지므로, 추후 자차 구매 시 신규 가입자 요율(할증)이 적용될 수 있습니다. 3년 렌트 후 자차 전환 시 보험료가 연 20~30만 원 높아지는 경우도 있으므로 장기 계획을 세우세요.</p>
+
+  <p class="q">Q3. 운행기록부는 어떤 양식으로 써야 하나요?</p>
+  <p class="a">국세청에서 제공하는 '업무용 승용차 운행기록부' 양식을 사용합니다. 일자, 출발지·도착지, 주행 거리, 업무 내용을 기재하면 됩니다. 엑셀이나 전용 앱으로 관리하면 편합니다.</p>
+
+  <p class="q">Q4. 리스료의 93%와 렌트료의 70%는 어떤 의미인가요?</p>
+  <p class="a">세법상 리스료 중 93%를 감가상각비로 간주하고, 렌트료 중 70%를 감가상각비로 간주합니다. 이 금액이 연 800만 원 한도 내에서 비용으로 인정되며, 초과분은 이월 공제됩니다.</p>
+
+  <p class="q">Q5. 차량 2대를 운용하면 한도도 2배인가요?</p>
+  <p class="a">네, 비용 인정 한도는 <strong>차량 1대당</strong> 1,500만 원입니다. 2대면 최대 3,000만 원까지 비용 처리 가능합니다. 단, 각 차량별로 업무전용보험 가입과 운행기록부 관리가 필요합니다.</p>
+
+  <p class="q">Q6. 수소차 보조금은 얼마나 되나요?</p>
+  <p class="a">인천시 기준 수소승용차 3,250만 원, 수소화물차 최대 4억 5천만 원입니다. 대형 물류 사업자에게 특히 유리하며, 개별소비세 400만 원 감면도 별도 적용됩니다.</p>
+
+  <p class="q">Q7. 카니발 9인승은 부가세 환급이 되나요?</p>
+  <p class="a">네, 9인승 이상 승합차로 분류되므로 부가세 매입세액공제가 가능합니다. 다만 7인승 모델은 일반 승용차로 분류돼 공제 불가입니다. 구매 시 인승 수를 반드시 확인하세요.</p>
+
+  <p class="q">Q8. 운용 리스와 금융 리스의 차이는?</p>
+  <p class="a">운용 리스는 리스 기간 후 반납 가능하고 비용 처리가 간편합니다. 금융 리스는 사실상 할부와 유사해 자산·부채로 인식되며 DSR에 포함될 수 있습니다. 절세 목적이면 <strong>운용 리스</strong>를 선택하세요.</p>
+
+  <p class="q">Q9. 전기차를 렌트하면 보조금도 받나요?</p>
+  <p class="a">네, 렌트사가 보조금을 신청해 차량 가격에 반영하므로 이용자는 보조금만큼 할인된 렌트료를 냅니다. 다만 보조금 반영 후에도 월 렌트료가 얼마인지 계약 시 정확히 확인하세요.</p>
+
+  <p class="q">Q10. 중고 전기차도 보조금 대상인가요?</p>
+  <p class="a">2026년 기준 중고 전기차는 국비 보조금 대상이 아닙니다. 지자체별로 일부 지원하는 경우가 있으니 해당 지자체 환경과에 확인하세요. 신차 구매 또는 신차 렌트·리스가 보조금 활용에 유리합니다.</p>
+
+  <h2 id="check">13) 신청 전 1분 체크리스트</h2>
+  <ul>
+    <li><strong>업무전용보험</strong> 가입 상태 확인 (복식부기의무자 필수)</li>
+    <li><strong>DSR 영향</strong> 확인 — 대출 계획 있으면 렌트 우선 검토</li>
+    <li><strong>부가세 환급</strong> 가능 차종인지 확인 (경차·9인승+·화물)</li>
+    <li>리스 시 <strong>운용 리스 vs 금융 리스</strong> 구분 확인</li>
+    <li>연간 비용 <strong>1,500만 원 초과</strong> 예상 시 운행기록부 준비</li>
+    <li>8,000만 원 이상 차량은 <strong>연두색 번호판</strong> 필수 (방식 무관)</li>
+    <li><strong>전기차 보조금</strong> 잔여 물량 확인 (ev.or.kr)</li>
+    <li><strong>비용 명세서</strong> 세무 신고 시 첨부 준비</li>
+  </ul>
+
+  <p class="small">관련 글: 소상공인 지원금 총정리 / 노란우산공제 가입·해지·절세 총정리 / 종합소득세 절세 전략</p>
+
+  <p class="small" style="text-align:center;">[이미지: 사업용 자동차 1분 체크리스트 카드]</p>
+
+  <div class="ad">{광고 위치 3}</div>
+
+  <div class="tips">
+    <strong>참고/문의처</strong><br/>
+    국세청 홈택스: <a href="https://www.hometax.go.kr" target="_blank" rel="noopener">hometax.go.kr</a> / 126<br/>
+    무공해차 통합누리집: <a href="https://www.ev.or.kr" target="_blank" rel="noopener">ev.or.kr</a><br/>
+    소상공인시장진흥공단: <a href="https://www.sbiz.or.kr" target="_blank" rel="noopener">sbiz.or.kr</a> / 1357<br/>
+  </div>
+
+  <div class="footer" id="update">
+    <strong>업데이트 로그</strong><br/>
+    - 2026-03-24: 2026년 업무전용보험 강화, DSR 3단계 반영, 전기차 보조금 업데이트 초판 발행<br/>
+    <span class="small">※ 세법·보조금은 연도별로 변동될 수 있어요. 구체적인 절세는 세무사 상담 권장!</span>
+  </div>
+</div>

@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="tealGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0F766E"/>
+      <stop offset="100%" stop-color="#134E4A"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#15803D"/>
+      <stop offset="100%" stop-color="#14532d"/>
+    </linearGradient>
+    <linearGradient id="amberGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D97706"/>
+      <stop offset="100%" stop-color="#78350F"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <circle cx="1080" cy="100" r="200" fill="#0F766E" fill-opacity="0.07"/>
+  <circle cx="120" cy="540" r="160" fill="#15803D" fill-opacity="0.07"/>
+
+  <rect x="40" y="36" width="120" height="32" rx="16" fill="#0F766E" fill-opacity="0.3" stroke="#0F766E" stroke-width="1.5"/>
+  <text x="100" y="57" text-anchor="middle" fill="#99F6E4" font-size="14" font-weight="700" font-family="sans-serif">건강·의료</text>
+
+  <rect x="176" y="36" width="140" height="32" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="246" y="57" text-anchor="middle" fill="#94A3B8" font-size="14" font-family="sans-serif">2026.05 기준</text>
+
+  <rect x="332" y="36" width="180" height="32" rx="16" fill="#14532d" stroke="#15803D" stroke-width="1.5"/>
+  <text x="422" y="57" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">5세대 실손 영향</text>
+
+  <text x="600" y="130" text-anchor="middle" fill="#FFFFFF" font-size="40" font-weight="800" font-family="sans-serif">도수치료 한방 vs 양방 vs 정형외과</text>
+  <text x="600" y="178" text-anchor="middle" fill="#99F6E4" font-size="26" font-weight="700" font-family="sans-serif">실비 보장 차이 (2026)</text>
+
+  <rect x="200" y="198" width="800" height="62" rx="12" fill="#1e293b" fill-opacity="0.9" stroke="#334155" stroke-width="1.5"/>
+  <text x="600" y="226" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">실손 세대 vs 치료 분류 트레이드오프</text>
+  <text x="600" y="250" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">5세대 도수 제외 · 2026.07 관리급여 4만원</text>
+
+  <rect x="200" y="274" width="800" height="2" rx="1" fill="#0F766E" fill-opacity="0.4"/>
+
+  <rect x="40" y="284" width="370" height="300" rx="16" fill="url(#tealGrad)" fill-opacity="0.85" stroke="#0F766E" stroke-width="2"/>
+  <text x="225" y="324" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">정형외과 도수치료</text>
+  <text x="225" y="350" text-anchor="middle" fill="#99F6E4" font-size="13" font-family="sans-serif">물리치료사 시행 · 비급여</text>
+  <line x1="70" y1="368" x2="380" y2="368" stroke="#134E4A" stroke-width="1.5"/>
+  <text x="225" y="408" text-anchor="middle" fill="#99F6E4" font-size="22" font-weight="800" font-family="sans-serif">평균 11만/회</text>
+  <text x="225" y="436" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">1~4세대 연 50회·350만</text>
+  <line x1="70" y1="456" x2="380" y2="456" stroke="#134E4A" stroke-width="1.5"/>
+  <text x="70" y="484" fill="#99F6E4" font-size="13" font-weight="700" font-family="sans-serif">✅ 1~4세대 실손 강력</text>
+  <text x="70" y="508" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">❌ 5세대 보장 제외</text>
+  <text x="70" y="532" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">❌ 2026.07 관리급여 95%</text>
+  <rect x="70" y="552" width="310" height="22" rx="6" fill="#0F766E" fill-opacity="0.4"/>
+  <text x="225" y="568" text-anchor="middle" fill="#99F6E4" font-size="12" font-weight="700" font-family="sans-serif">1~4세대 실손·만성통증</text>
+
+  <rect x="420" y="284" width="370" height="300" rx="16" fill="url(#greenGrad)" fill-opacity="0.85" stroke="#15803D" stroke-width="2"/>
+  <text x="605" y="324" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">한방 추나요법</text>
+  <text x="605" y="350" text-anchor="middle" fill="#86EFAC" font-size="13" font-family="sans-serif">한의사 직접 · 건보 급여</text>
+  <line x1="450" y1="368" x2="760" y2="368" stroke="#14532d" stroke-width="1.5"/>
+  <text x="605" y="408" text-anchor="middle" fill="#86EFAC" font-size="22" font-weight="800" font-family="sans-serif">1.5~3만/회</text>
+  <text x="605" y="436" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">건보 연 20회</text>
+  <line x1="450" y1="456" x2="760" y2="456" stroke="#14532d" stroke-width="1.5"/>
+  <text x="450" y="484" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">✅ 건강보험 급여</text>
+  <text x="450" y="508" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">✅ 5세대도 자동 보장</text>
+  <text x="450" y="532" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">❌ 연 20회 한도</text>
+  <rect x="450" y="552" width="310" height="22" rx="6" fill="#15803D" fill-opacity="0.4"/>
+  <text x="605" y="568" text-anchor="middle" fill="#86EFAC" font-size="12" font-weight="700" font-family="sans-serif">5세대·실손 미가입</text>
+
+  <rect x="800" y="284" width="370" height="300" rx="16" fill="url(#amberGrad)" fill-opacity="0.85" stroke="#D97706" stroke-width="2"/>
+  <text x="985" y="324" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">한방 비급여 약침</text>
+  <text x="985" y="350" text-anchor="middle" fill="#FCD34D" font-size="13" font-family="sans-serif">약침·봉침·뜸 · 비급여</text>
+  <line x1="830" y1="368" x2="1140" y2="368" stroke="#78350F" stroke-width="1.5"/>
+  <text x="985" y="408" text-anchor="middle" fill="#FCD34D" font-size="22" font-weight="800" font-family="sans-serif">5~15만/회</text>
+  <text x="985" y="436" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">실손 거의 X</text>
+  <line x1="830" y1="456" x2="1140" y2="456" stroke="#78350F" stroke-width="1.5"/>
+  <text x="830" y="484" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">✅ 횟수 제한 없음</text>
+  <text x="830" y="508" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">❌ 본인 100% 부담</text>
+  <text x="830" y="532" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">❌ 2~5세대 실손 X</text>
+  <rect x="830" y="552" width="310" height="22" rx="6" fill="#D97706" fill-opacity="0.4"/>
+  <text x="985" y="568" text-anchor="middle" fill="#FCD34D" font-size="12" font-weight="700" font-family="sans-serif">1세대 가입자만 제한 보장</text>
+
+  <text x="40" y="610" fill="#64748B" font-size="13" font-family="sans-serif">essencial | 건강·의료 · 2026.05 기준 · 보험사·약관 직접 확인 필요 · 의료 자문 아님 · 추나요법은 2019.04 건보 급여</text>
+</svg>

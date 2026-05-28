@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- Badge -->
+  <rect x="60" y="50" width="160" height="48" rx="24" fill="#F59E0B"/>
+  <text x="140" y="82" font-family="Pretendard, sans-serif" font-size="22" font-weight="700" fill="#0B1F3B" text-anchor="middle">2026 최신</text>
+
+  <!-- Title -->
+  <text x="60" y="150" font-family="Pretendard, sans-serif" font-size="42" font-weight="800" fill="#FFFFFF">대전·세종·충청</text>
+  <text x="60" y="205" font-family="Pretendard, sans-serif" font-size="42" font-weight="800" fill="#FFFFFF">소상공인 지원금 한눈에</text>
+
+  <!-- Chips -->
+  <rect x="60" y="230" width="105" height="40" rx="32" fill="#E8F0FF"/>
+  <text x="112" y="257" font-family="Pretendard, sans-serif" font-size="18" font-weight="600" fill="#1D4ED8" text-anchor="middle">지역별</text>
+  <rect x="178" y="230" width="85" height="40" rx="32" fill="#E8F0FF"/>
+  <text x="220" y="257" font-family="Pretendard, sans-serif" font-size="18" font-weight="600" fill="#1D4ED8" text-anchor="middle">비교</text>
+  <rect x="276" y="230" width="105" height="40" rx="32" fill="#E8F0FF"/>
+  <text x="328" y="257" font-family="Pretendard, sans-serif" font-size="18" font-weight="600" fill="#1D4ED8" text-anchor="middle">총정리</text>
+
+  <!-- Divider -->
+  <line x1="60" y1="295" x2="1020" y2="295" stroke="#FFFFFF" stroke-opacity="0.15" stroke-width="1"/>
+
+  <!-- 대전 Section -->
+  <rect x="60" y="320" width="960" height="115" rx="16" fill="#FFFFFF" fill-opacity="0.07"/>
+  <text x="90" y="358" font-family="Pretendard, sans-serif" font-size="26" font-weight="700" fill="#F59E0B">대전</text>
+  <text x="90" y="390" font-family="Pretendard, sans-serif" font-size="19" fill="#FFFFFF" fill-opacity="0.9">특례보증 7,000만 원</text>
+  <text x="370" y="390" font-family="Pretendard, sans-serif" font-size="19" fill="#FFFFFF" fill-opacity="0.9">이차보전 2.7%</text>
+  <text x="600" y="390" font-family="Pretendard, sans-serif" font-size="19" fill="#FFFFFF" fill-opacity="0.9">인건비 150만 원</text>
+  <line x1="90" y1="410" x2="990" y2="410" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1"/>
+
+  <!-- 세종 Section -->
+  <rect x="60" y="455" width="960" height="115" rx="16" fill="#FFFFFF" fill-opacity="0.07"/>
+  <text x="90" y="493" font-family="Pretendard, sans-serif" font-size="26" font-weight="700" fill="#F59E0B">세종</text>
+  <text x="90" y="525" font-family="Pretendard, sans-serif" font-size="19" fill="#FFFFFF" fill-opacity="0.9">정책자금 600억</text>
+  <text x="340" y="525" font-family="Pretendard, sans-serif" font-size="19" fill="#FFFFFF" fill-opacity="0.9">한도 7,000만 원</text>
+  <text x="590" y="525" font-family="Pretendard, sans-serif" font-size="19" fill="#FFFFFF" fill-opacity="0.9">이차보전 2.0%</text>
+
+  <!-- 충남 Section -->
+  <rect x="60" y="590" width="960" height="115" rx="16" fill="#FFFFFF" fill-opacity="0.07"/>
+  <text x="90" y="628" font-family="Pretendard, sans-serif" font-size="26" font-weight="700" fill="#F59E0B">충남</text>
+  <text x="90" y="660" font-family="Pretendard, sans-serif" font-size="19" fill="#FFFFFF" fill-opacity="0.9">보증 1.3조</text>
+  <text x="280" y="660" font-family="Pretendard, sans-serif" font-size="19" fill="#FFFFFF" fill-opacity="0.9">한도 1.5억</text>
+  <text x="480" y="660" font-family="Pretendard, sans-serif" font-size="19" fill="#FFFFFF" fill-opacity="0.9">재창업 800만 원</text>
+
+  <!-- 충북 Section -->
+  <rect x="60" y="725" width="960" height="115" rx="16" fill="#FFFFFF" fill-opacity="0.07"/>
+  <text x="90" y="763" font-family="Pretendard, sans-serif" font-size="26" font-weight="700" fill="#F59E0B">충북</text>
+  <text x="90" y="795" font-family="Pretendard, sans-serif" font-size="19" fill="#FFFFFF" fill-opacity="0.9">육성자금 2,000억</text>
+  <text x="370" y="795" font-family="Pretendard, sans-serif" font-size="19" fill="#FFFFFF" fill-opacity="0.9">한도 7,000만 원</text>
+  <text x="620" y="795" font-family="Pretendard, sans-serif" font-size="19" fill="#FFFFFF" fill-opacity="0.9">이차보전 2%</text>
+
+  <!-- 공통 Section -->
+  <rect x="60" y="865" width="960" height="90" rx="16" fill="#F59E0B" fill-opacity="0.12"/>
+  <rect x="90" y="878" width="70" height="32" rx="16" fill="#F59E0B"/>
+  <text x="125" y="900" font-family="Pretendard, sans-serif" font-size="16" font-weight="700" fill="#0B1F3B" text-anchor="middle">공통</text>
+  <text x="180" y="900" font-family="Pretendard, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">바우처 25만 원</text>
+  <text x="180" y="935" font-family="Pretendard, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">고효율기기 480만 원</text>
+
+  <!-- Footer -->
+  <text x="1020" y="1050" font-family="Pretendard, sans-serif" font-size="16" fill="#FFFFFF" fill-opacity="0.35" text-anchor="end">tistory.deluxo | 2026</text>
+</svg>

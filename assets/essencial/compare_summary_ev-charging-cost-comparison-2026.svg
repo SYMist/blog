@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 640">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#15803D"/>
+      <stop offset="100%" stop-color="#14532d"/>
+    </linearGradient>
+    <linearGradient id="redGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#DC2626"/>
+      <stop offset="100%" stop-color="#7f1d1d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="640" fill="url(#bg)"/>
+
+  <text x="540" y="58" text-anchor="middle" fill="#FFFFFF" font-size="30" font-weight="800" font-family="sans-serif">전기차 충전 5종 비용 비교 (5년)</text>
+  <text x="540" y="92" text-anchor="middle" fill="#93C5FD" font-size="16" font-family="sans-serif">전비 5.5km/kWh · 연 1만 5천km · 환경부·한전 2026.05 기준</text>
+
+  <!-- Key stat -->
+  <rect x="160" y="116" width="760" height="76" rx="14" fill="#1e293b" fill-opacity="0.9" stroke="#334155" stroke-width="1.5"/>
+  <text x="540" y="148" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="700" font-family="sans-serif">단가 격차 (가정 심야 → 민간 비회원)</text>
+  <text x="540" y="180" text-anchor="middle" fill="#FFFFFF" font-size="26" font-weight="800" font-family="sans-serif">약 6.7배 · 5년 누적 약 546만원 차이</text>
+
+  <!-- Two cards -->
+  <rect x="40" y="216" width="495" height="370" rx="18" fill="url(#greenGrad)" fill-opacity="0.9" stroke="#15803D" stroke-width="2"/>
+  <text x="288" y="262" text-anchor="middle" fill="#FFFFFF" font-size="26" font-weight="800" font-family="sans-serif">가정 심야 충전 (BEST)</text>
+  <text x="288" y="290" text-anchor="middle" fill="#86EFAC" font-size="15" font-family="sans-serif">한전 별도 계량기 · 23~9시 적용</text>
+  <line x1="70" y1="312" x2="505" y2="312" stroke="#14532d" stroke-width="1.5"/>
+  <text x="288" y="354" text-anchor="middle" fill="#86EFAC" font-size="30" font-weight="800" font-family="sans-serif">5년 약 95만원</text>
+  <text x="288" y="384" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="700" font-family="sans-serif">약 70원/kWh · 월 약 1만 6천원</text>
+  <line x1="70" y1="406" x2="505" y2="406" stroke="#14532d" stroke-width="1.5"/>
+  <text x="80" y="438" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">✅ 가솔린 대비 5년 약 968만원 절감</text>
+  <text x="80" y="464" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">✅ 충전기 설치 후 자동 충전</text>
+  <text x="80" y="490" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">✅ 가장 안정적인 충전 환경</text>
+  <text x="80" y="516" fill="#FFFFFF" font-size="14" font-family="sans-serif">— 단, 별도 계량기 신청 필수</text>
+  <rect x="80" y="538" width="416" height="32" rx="8" fill="#15803D" fill-opacity="0.4"/>
+  <text x="288" y="560" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">아파트 전용·단독·빌라 거주자에 추천</text>
+
+  <rect x="545" y="216" width="495" height="370" rx="18" fill="url(#redGrad)" fill-opacity="0.9" stroke="#DC2626" stroke-width="2"/>
+  <text x="793" y="262" text-anchor="middle" fill="#FFFFFF" font-size="26" font-weight="800" font-family="sans-serif">민간 급속 비회원 (WORST)</text>
+  <text x="793" y="290" text-anchor="middle" fill="#FCA5A5" font-size="15" font-family="sans-serif">GS차지비·차지비·티맵 등 비회원</text>
+  <line x1="575" y1="312" x2="1010" y2="312" stroke="#7f1d1d" stroke-width="1.5"/>
+  <text x="793" y="354" text-anchor="middle" fill="#FCA5A5" font-size="30" font-weight="800" font-family="sans-serif">5년 약 641만원</text>
+  <text x="793" y="384" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="700" font-family="sans-serif">약 470원/kWh · 월 약 10만 7천원</text>
+  <line x1="575" y1="406" x2="1010" y2="406" stroke="#7f1d1d" stroke-width="1.5"/>
+  <text x="585" y="438" fill="#FECACA" font-size="14" font-weight="700" font-family="sans-serif">❌ 가정 심야 대비 5년 546만원 추가</text>
+  <text x="585" y="464" fill="#FECACA" font-size="14" font-weight="700" font-family="sans-serif">❌ 가솔린 대비 절감 422만원에 그침</text>
+  <text x="585" y="490" fill="#FECACA" font-size="14" font-weight="700" font-family="sans-serif">❌ 회원 가입 시 30~40% 인하 가능</text>
+  <text x="585" y="516" fill="#FFFFFF" font-size="14" font-family="sans-serif">— 출장·여행 시 어쩔 수 없는 선택</text>
+  <rect x="585" y="538" width="416" height="32" rx="8" fill="#DC2626" fill-opacity="0.4"/>
+  <text x="793" y="560" text-anchor="middle" fill="#FECACA" font-size="14" font-weight="700" font-family="sans-serif">최소 회원 가입 1~2곳 필수</text>
+
+  <text x="40" y="618" fill="#64748B" font-size="13" font-family="sans-serif">essencial | 자동차 · 2026.05 기준 · 차종·계절·운전 패턴에 따라 실제 비용 다름</text>
+</svg>

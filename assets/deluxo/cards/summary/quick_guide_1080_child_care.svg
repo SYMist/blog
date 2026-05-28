@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#F59E0B">내 소득이면 얼마? 10초 판단</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- 가형 -->
+  <rect x="60" y="120" width="960" height="160" rx="16" fill="rgba(59,130,246,0.15)"/>
+  <rect x="80" y="140" width="100" height="44" rx="22" fill="#1D4ED8"/>
+  <text x="130" y="170" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#FFF">가형</text>
+  <text x="200" y="170" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">중위소득 75% 이하</text>
+  <text x="80" y="215" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">미취학 A형</text>
+  <text x="300" y="215" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#F59E0B">1,918원/시간</text>
+  <text x="560" y="215" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">85% 지원</text>
+  <text x="80" y="255" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#F59E0B">인천: 본인부담 100% 환급 → 실질 무료</text>
+
+  <!-- 나형 -->
+  <rect x="60" y="296" width="960" height="140" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="316" width="100" height="44" rx="22" fill="rgba(245,158,11,0.3)"/>
+  <text x="130" y="346" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">나형</text>
+  <text x="200" y="346" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">중위소득 120% 이하</text>
+  <text x="80" y="390" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">미취학 A형</text>
+  <text x="300" y="390" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#F59E0B">5,116원/시간</text>
+  <text x="560" y="390" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">60% 지원</text>
+  <text x="80" y="420" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#F59E0B">인천: 50% 추가 환급 → 전체의 약 20%만 부담</text>
+
+  <!-- 다형 -->
+  <rect x="60" y="452" width="960" height="140" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="472" width="100" height="44" rx="22" fill="#1D4ED8"/>
+  <text x="130" y="502" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#FFF">다형</text>
+  <text x="200" y="502" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">중위소득 150% 이하</text>
+  <text x="80" y="546" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">미취학 A형</text>
+  <text x="300" y="546" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#F59E0B">8,952원/시간</text>
+  <text x="560" y="546" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">30% 지원</text>
+  <text x="80" y="576" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#F59E0B">인천: 20% 추가 환급</text>
+
+  <!-- 라형 -->
+  <rect x="60" y="608" width="960" height="140" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="628" width="100" height="44" rx="22" fill="rgba(245,158,11,0.3)"/>
+  <text x="130" y="658" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">라형</text>
+  <text x="200" y="658" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">중위소득 250% 이하</text>
+  <rect x="460" y="636" width="180" height="30" rx="15" fill="rgba(245,158,11,0.3)"/>
+  <text x="550" y="658" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" font-weight="800" fill="#F59E0B">2026 확대!</text>
+  <text x="80" y="702" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">미취학 A형</text>
+  <text x="300" y="702" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#F59E0B">10,870원/시간</text>
+  <text x="560" y="702" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">15% 지원</text>
+  <text x="80" y="732" font-family="'Pretendard',sans-serif" font-size="18" font-weight="600" fill="#EAF2FF">고소득 맞벌이도 정부 지원 대상</text>
+
+  <!-- 마형 -->
+  <rect x="60" y="764" width="960" height="120" rx="16" fill="rgba(239,68,68,0.08)"/>
+  <rect x="80" y="784" width="100" height="44" rx="22" fill="#EF4444"/>
+  <text x="130" y="814" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#FFF">마형</text>
+  <text x="200" y="814" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">250% 초과 / 양육공백 없음</text>
+  <text x="80" y="858" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">전액 본인 부담</text>
+  <text x="380" y="858" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#EF4444">12,790원/시간</text>
+
+  <!-- 팁 -->
+  <rect x="60" y="900" width="960" height="60" rx="16" fill="rgba(245,158,11,0.15)"/>
+  <text x="540" y="938" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">다자녀(2자녀+) → 본인부담 10% 추가 감면 자동 적용!</text>
+
+  <rect x="60" y="976" width="960" height="60" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <text x="540" y="1014" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">종합형(돌봄+가사) = 시간당 16,620원 | 질병감염아동 = 15,340원</text>
+
+  <rect x="60" y="1050" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <text x="540" y="130" font-family="'Pretendard', sans-serif" font-size="46" font-weight="900" fill="#F59E0B" text-anchor="middle">2026 주택 공제 5종 비교</text>
+  <text x="540" y="210" font-family="'Pretendard', sans-serif" font-size="48" font-weight="900" fill="#FFFFFF" text-anchor="middle">한 눈에 보기</text>
+
+  <rect x="60" y="270" width="960" height="130" rx="20" fill="#1A3270"/>
+  <text x="100" y="320" font-family="'Pretendard', sans-serif" font-size="30" font-weight="900" fill="#F59E0B">① 월세 세액공제</text>
+  <text x="100" y="365" font-family="'Pretendard', sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">17%·15% · 연 1,000만 한도 · 최대 170만</text>
+
+  <rect x="60" y="420" width="960" height="130" rx="20" fill="#1A3270"/>
+  <text x="100" y="470" font-family="'Pretendard', sans-serif" font-size="30" font-weight="900" fill="#F59E0B">② 월세 현금영수증</text>
+  <text x="100" y="515" font-family="'Pretendard', sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">소득공제 30% · 카드 등 합산 한도</text>
+
+  <rect x="60" y="570" width="960" height="130" rx="20" fill="#1A3270"/>
+  <text x="100" y="620" font-family="'Pretendard', sans-serif" font-size="30" font-weight="900" fill="#F59E0B">③ 주택임차차입금</text>
+  <text x="100" y="665" font-family="'Pretendard', sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">원리금 40% · 한도 400만 (청약 합산)</text>
+
+  <rect x="60" y="720" width="960" height="130" rx="20" fill="#1A3270"/>
+  <text x="100" y="770" font-family="'Pretendard', sans-serif" font-size="30" font-weight="900" fill="#F59E0B">④ 장기주택저당</text>
+  <text x="100" y="815" font-family="'Pretendard', sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">이자 전액 · 한도 600~2,000만 (NEW)</text>
+
+  <rect x="60" y="870" width="960" height="170" rx="20" fill="#F59E0B"/>
+  <text x="100" y="920" font-family="'Pretendard', sans-serif" font-size="30" font-weight="900" fill="#0B1F3B">⑤ 주택청약저축</text>
+  <text x="100" y="965" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#0B1F3B">월 25만 · 납입 40% · 연 300만 인정</text>
+  <text x="100" y="1010" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#0B1F3B">2025부터 배우자 가능 · 5년 내 해지 6.6%</text>
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+    <filter id="shadow" x="-4%" y="-4%" width="108%" height="108%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- Badge -->
+  <rect x="60" y="55" width="160" height="48" rx="24" fill="#F59E0B"/>
+  <text x="140" y="86" text-anchor="middle" font-family="'Pretendard', sans-serif" font-size="22" font-weight="700" fill="#0B1F3B">빠른 판단</text>
+
+  <!-- Title -->
+  <text x="60" y="165" font-family="'Pretendard', sans-serif" font-size="46" font-weight="800" fill="#FFFFFF">법인전환 유리한지 10초 판단</text>
+
+  <!-- Divider -->
+  <rect x="60" y="190" width="120" height="4" rx="2" fill="#F59E0B"/>
+
+  <!-- Row 1 -->
+  <rect x="60" y="240" width="960" height="160" rx="20" fill="rgba(255,255,255,0.05)" filter="url(#shadow)"/>
+  <rect x="90" y="265" width="8" height="110" rx="4" fill="#34D399"/>
+  <text x="125" y="295" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">연 소득 5,000만↑ + 성실신고 기준 근접</text>
+  <rect x="125" y="315" width="240" height="40" rx="20" fill="rgba(52,211,153,0.15)"/>
+  <text x="245" y="342" text-anchor="middle" font-family="'Pretendard', sans-serif" font-size="22" font-weight="700" fill="#34D399">→ 전환 적극 검토</text>
+  <text x="125" y="382" font-family="'Pretendard', sans-serif" font-size="20" font-weight="400" fill="#94A3B8">세율 격차가 커 법인전환 실익이 가장 큰 구간</text>
+
+  <!-- Row 2 -->
+  <rect x="60" y="420" width="960" height="160" rx="20" fill="rgba(255,255,255,0.05)" filter="url(#shadow)"/>
+  <rect x="90" y="445" width="8" height="110" rx="4" fill="#60A5FA"/>
+  <text x="125" y="475" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">부동산 없음 + 소규모 사업장</text>
+  <rect x="125" y="495" width="340" height="40" rx="20" fill="rgba(96,165,250,0.15)"/>
+  <text x="295" y="522" text-anchor="middle" font-family="'Pretendard', sans-serif" font-size="22" font-weight="700" fill="#60A5FA">→ 포괄양수도 (40일, 40만 원)</text>
+  <text x="125" y="562" font-family="'Pretendard', sans-serif" font-size="20" font-weight="400" fill="#94A3B8">가장 빠르고 저렴한 전환 방식</text>
+
+  <!-- Row 3 -->
+  <rect x="60" y="600" width="960" height="160" rx="20" fill="rgba(255,255,255,0.05)" filter="url(#shadow)"/>
+  <rect x="90" y="625" width="8" height="110" rx="4" fill="#FBBF24"/>
+  <text x="125" y="655" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">고가 부동산 포함 사업장</text>
+  <rect x="125" y="675" width="300" height="40" rx="20" fill="rgba(251,191,36,0.15)"/>
+  <text x="275" y="702" text-anchor="middle" font-family="'Pretendard', sans-serif" font-size="22" font-weight="700" fill="#FBBF24">→ 현물출자 (2~3개월)</text>
+  <text x="125" y="742" font-family="'Pretendard', sans-serif" font-size="20" font-weight="400" fill="#94A3B8">양도세 이월과세 + 취득세 감면 가능</text>
+
+  <!-- Row 4 -->
+  <rect x="60" y="780" width="960" height="160" rx="20" fill="rgba(255,255,255,0.05)" filter="url(#shadow)"/>
+  <rect x="90" y="805" width="8" height="110" rx="4" fill="#F87171"/>
+  <text x="125" y="835" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">1인 부동산 임대업</text>
+  <rect x="125" y="855" width="370" height="40" rx="20" fill="rgba(248,113,113,0.15)"/>
+  <text x="310" y="882" text-anchor="middle" font-family="'Pretendard', sans-serif" font-size="22" font-weight="700" fill="#F87171">→ 소규모법인 규제 주의 (20%)</text>
+  <text x="125" y="922" font-family="'Pretendard', sans-serif" font-size="20" font-weight="400" fill="#94A3B8">추가 과세 부담으로 오히려 불리할 수 있음</text>
+
+  <!-- Chips -->
+  <rect x="60" y="975" width="100" height="46" rx="32" fill="#E8F0FF"/>
+  <text x="110" y="1005" text-anchor="middle" font-family="'Pretendard', sans-serif" font-size="20" font-weight="600" fill="#1D4ED8">유리</text>
+
+  <rect x="180" y="975" width="100" height="46" rx="32" fill="#E8F0FF"/>
+  <text x="230" y="1005" text-anchor="middle" font-family="'Pretendard', sans-serif" font-size="20" font-weight="600" fill="#1D4ED8">불리</text>
+
+  <rect x="300" y="975" width="100" height="46" rx="32" fill="#E8F0FF"/>
+  <text x="350" y="1005" text-anchor="middle" font-family="'Pretendard', sans-serif" font-size="20" font-weight="600" fill="#1D4ED8">주의</text>
+
+  <!-- Footer -->
+  <text x="1020" y="1040" text-anchor="end" font-family="'Pretendard', sans-serif" font-size="18" font-weight="400" fill="#475569">tistory.deluxo · 2026</text>
+</svg>

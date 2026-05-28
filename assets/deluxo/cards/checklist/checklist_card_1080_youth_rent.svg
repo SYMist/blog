@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+    <linearGradient id="rowBg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.06)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0.02)"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <!-- Badge -->
+  <rect x="80" y="72" width="170" height="48" rx="24" fill="#F59E0B"/>
+  <text x="165" y="103" font-family="'Pretendard', sans-serif" font-size="22" font-weight="700" fill="#0B1F3B" text-anchor="middle">필수 확인</text>
+
+  <!-- Title -->
+  <text x="80" y="190" font-family="'Pretendard', sans-serif" font-size="42" font-weight="800" fill="#FFFFFF">신청 전 1분 체크리스트</text>
+
+  <!-- Divider -->
+  <rect x="80" y="220" width="120" height="4" rx="2" fill="#F59E0B"/>
+
+  <!-- Checklist Item 1 -->
+  <rect x="60" y="280" width="960" height="100" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <rect x="100" y="312" width="36" height="36" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <path d="M110 332 L118 340 L130 322" stroke="#F59E0B" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="155" y="339" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#FFFFFF">연령 확인 (만19~34 국토부 / 만19~39 서울)</text>
+
+  <!-- Checklist Item 2 -->
+  <rect x="60" y="395" width="960" height="100" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <rect x="100" y="427" width="36" height="36" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <path d="M110 447 L118 455 L130 437" stroke="#F59E0B" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="155" y="454" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#FFFFFF">부모와 별도 거주 + 전입신고 완료</text>
+
+  <!-- Checklist Item 3 -->
+  <rect x="60" y="510" width="960" height="100" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <rect x="100" y="542" width="36" height="36" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <path d="M110 562 L118 570 L130 552" stroke="#F59E0B" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="155" y="569" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#FFFFFF">보증금·월세 기준 충족</text>
+
+  <!-- Checklist Item 4 -->
+  <rect x="60" y="625" width="960" height="100" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <rect x="100" y="657" width="36" height="36" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <path d="M110 677 L118 685 L130 667" stroke="#F59E0B" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="155" y="684" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#FFFFFF">소득 중위60%↓ + 원가구 중위100%↓</text>
+
+  <!-- Checklist Item 5 -->
+  <rect x="60" y="740" width="960" height="100" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <rect x="100" y="772" width="36" height="36" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <path d="M110 792 L118 800 L130 782" stroke="#F59E0B" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="155" y="799" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#FFFFFF">확정일자 + 3개월 이체내역 준비</text>
+
+  <!-- Checklist Item 6 -->
+  <rect x="60" y="855" width="960" height="100" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <rect x="100" y="887" width="36" height="36" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <path d="M110 907 L118 915 L130 897" stroke="#F59E0B" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="155" y="914" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#FFFFFF">복지로 모의 계산 완료</text>
+</svg>

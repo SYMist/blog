@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 980">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="amber" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#B45309"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+  </defs>
+  <rect width="860" height="980" fill="url(#bg)" rx="20"/>
+
+  <text x="30" y="45" fill="#FFF" font-size="24" font-weight="900" font-family="Pretendard,sans-serif">IRP vs 연금저축 vs 노란우산공제 비교표</text>
+  <rect x="30" y="57" width="200" height="3" rx="2" fill="url(#amber)"/>
+
+  <!-- Header -->
+  <rect x="30" y="75" width="200" height="40" rx="8" fill="#374151"/>
+  <rect x="230" y="75" width="210" height="40" fill="#D97706"/>
+  <rect x="440" y="75" width="210" height="40" fill="#22C55E"/>
+  <rect x="650" y="75" width="180" height="40" rx="8" fill="#FBBF24"/>
+  <text x="130" y="101" text-anchor="middle" fill="#94A3B8" font-size="14" font-weight="700" font-family="Pretendard,sans-serif">비교 항목</text>
+  <text x="335" y="101" text-anchor="middle" fill="#FFF" font-size="14" font-weight="800" font-family="Pretendard,sans-serif">IRP</text>
+  <text x="545" y="101" text-anchor="middle" fill="#FFF" font-size="14" font-weight="800" font-family="Pretendard,sans-serif">연금저축</text>
+  <text x="740" y="101" text-anchor="middle" fill="#1E293B" font-size="14" font-weight="800" font-family="Pretendard,sans-serif">노란우산공제</text>
+
+  <!-- Row 1 -->
+  <rect x="30" y="119" width="200" height="38" fill="#1E293B"/>
+  <rect x="230" y="119" width="210" height="38" fill="#1E293B"/>
+  <rect x="440" y="119" width="210" height="38" fill="#1E293B"/>
+  <rect x="650" y="119" width="180" height="38" fill="#1E293B"/>
+  <text x="50" y="144" fill="#FBBF24" font-size="13" font-weight="700" font-family="Pretendard,sans-serif">❶ 공제 방식</text>
+  <text x="335" y="144" text-anchor="middle" fill="#E2E8F0" font-size="13" font-family="Pretendard,sans-serif">세액공제</text>
+  <text x="545" y="144" text-anchor="middle" fill="#E2E8F0" font-size="13" font-family="Pretendard,sans-serif">세액공제</text>
+  <rect x="670" y="131" width="120" height="20" rx="10" fill="#FBBF24" opacity="0.2"/>
+  <text x="740" y="144" text-anchor="middle" fill="#FBBF24" font-size="13" font-weight="800" font-family="Pretendard,sans-serif">소득공제 ★</text>
+
+  <!-- Row 2 -->
+  <rect x="30" y="161" width="200" height="38" fill="#162032"/>
+  <rect x="230" y="161" width="210" height="38" fill="#162032"/>
+  <rect x="440" y="161" width="210" height="38" fill="#162032"/>
+  <rect x="650" y="161" width="180" height="38" fill="#162032"/>
+  <text x="50" y="186" fill="#FBBF24" font-size="13" font-weight="700" font-family="Pretendard,sans-serif">❷ 단독 한도</text>
+  <rect x="270" y="173" width="100" height="20" rx="10" fill="#D97706" opacity="0.25"/>
+  <text x="335" y="186" text-anchor="middle" fill="#FBBF24" font-size="13" font-weight="800" font-family="Pretendard,sans-serif">900만 원 ★</text>
+  <text x="545" y="186" text-anchor="middle" fill="#E2E8F0" font-size="13" font-family="Pretendard,sans-serif">600만 원</text>
+  <text x="740" y="186" text-anchor="middle" fill="#E2E8F0" font-size="13" font-family="Pretendard,sans-serif">200~600만</text>
+
+  <!-- Row 3 -->
+  <rect x="30" y="203" width="200" height="38" fill="#1E293B"/>
+  <rect x="230" y="203" width="210" height="38" fill="#1E293B"/>
+  <rect x="440" y="203" width="210" height="38" fill="#1E293B"/>
+  <rect x="650" y="203" width="180" height="38" fill="#1E293B"/>
+  <text x="50" y="228" fill="#FBBF24" font-size="13" font-weight="700" font-family="Pretendard,sans-serif">❸ 공제율</text>
+  <text x="335" y="228" text-anchor="middle" fill="#E2E8F0" font-size="13" font-family="Pretendard,sans-serif">16.5%/13.2%</text>
+  <text x="545" y="228" text-anchor="middle" fill="#E2E8F0" font-size="13" font-family="Pretendard,sans-serif">16.5%/13.2%</text>
+  <text x="740" y="228" text-anchor="middle" fill="#E2E8F0" font-size="13" font-family="Pretendard,sans-serif">소득세율(15~45%)</text>
+
+  <!-- Row 4 -->
+  <rect x="30" y="245" width="200" height="38" fill="#162032"/>
+  <rect x="230" y="245" width="210" height="38" fill="#162032"/>
+  <rect x="440" y="245" width="210" height="38" fill="#162032"/>
+  <rect x="650" y="245" width="180" height="38" fill="#162032"/>
+  <text x="50" y="270" fill="#FBBF24" font-size="13" font-weight="700" font-family="Pretendard,sans-serif">❹ 위험자산 한도</text>
+  <text x="335" y="270" text-anchor="middle" fill="#E2E8F0" font-size="13" font-family="Pretendard,sans-serif">70% (안전 30% 의무)</text>
+  <rect x="470" y="257" width="120" height="20" rx="10" fill="#22C55E" opacity="0.25"/>
+  <text x="545" y="270" text-anchor="middle" fill="#86EFAC" font-size="13" font-weight="800" font-family="Pretendard,sans-serif">제한없음 100% ★</text>
+  <text x="740" y="270" text-anchor="middle" fill="#E2E8F0" font-size="13" font-family="Pretendard,sans-serif">복리이자(원금보장)</text>
+
+  <!-- Row 5 -->
+  <rect x="30" y="287" width="200" height="38" fill="#1E293B"/>
+  <rect x="230" y="287" width="210" height="38" fill="#1E293B"/>
+  <rect x="440" y="287" width="210" height="38" fill="#1E293B"/>
+  <rect x="650" y="287" width="180" height="38" fill="#1E293B"/>
+  <text x="50" y="312" fill="#FBBF24" font-size="13" font-weight="700" font-family="Pretendard,sans-serif">❺ 중도 인출</text>
+  <text x="335" y="312" text-anchor="middle" fill="#FCA5A5" font-size="13" font-family="Pretendard,sans-serif">불가(법정 사유만)</text>
+  <rect x="470" y="299" width="120" height="20" rx="10" fill="#22C55E" opacity="0.25"/>
+  <text x="545" y="312" text-anchor="middle" fill="#86EFAC" font-size="13" font-weight="800" font-family="Pretendard,sans-serif">상대적 자유 ★</text>
+  <text x="740" y="312" text-anchor="middle" fill="#FCA5A5" font-size="13" font-family="Pretendard,sans-serif">폐업·사망 시만</text>
+
+  <!-- Row 6 -->
+  <rect x="30" y="329" width="200" height="38" fill="#162032"/>
+  <rect x="230" y="329" width="210" height="38" fill="#162032"/>
+  <rect x="440" y="329" width="210" height="38" fill="#162032"/>
+  <rect x="650" y="329" width="180" height="38" fill="#162032"/>
+  <text x="50" y="354" fill="#FBBF24" font-size="13" font-weight="700" font-family="Pretendard,sans-serif">❻ 수령 시 과세</text>
+  <text x="335" y="354" text-anchor="middle" fill="#E2E8F0" font-size="13" font-family="Pretendard,sans-serif">3.3~5.5%</text>
+  <text x="545" y="354" text-anchor="middle" fill="#E2E8F0" font-size="13" font-family="Pretendard,sans-serif">3.3~5.5%</text>
+  <text x="740" y="354" text-anchor="middle" fill="#E2E8F0" font-size="13" font-family="Pretendard,sans-serif">퇴직소득세</text>
+
+  <!-- 세액공제 환급 시뮬레이션 -->
+  <text x="30" y="410" fill="#FFF" font-size="20" font-weight="900" font-family="Pretendard,sans-serif">세액공제 환급 시뮬레이션</text>
+  <rect x="30" y="422" width="160" height="3" rx="2" fill="url(#amber)"/>
+
+  <rect x="30" y="440" width="800" height="100" rx="14" fill="#1E293B"/>
+  <!-- 4500만 이하 -->
+  <text x="50" y="475" fill="#FBBF24" font-size="14" font-weight="700" font-family="Pretendard,sans-serif">소득 4,500만 이하 (16.5%)</text>
+  <rect x="320" y="462" width="445" height="22" rx="11" fill="#D97706"/>
+  <text x="542" y="478" text-anchor="middle" fill="#FFF" font-size="14" font-weight="800" font-family="Pretendard,sans-serif">900만 × 16.5% = 148.5만 원 환급</text>
+  <!-- 4500만 초과 -->
+  <text x="50" y="520" fill="#94A3B8" font-size="14" font-weight="700" font-family="Pretendard,sans-serif">소득 4,500만 초과 (13.2%)</text>
+  <rect x="320" y="507" width="356" height="22" rx="11" fill="#B45309"/>
+  <text x="498" y="523" text-anchor="middle" fill="#FFF" font-size="14" font-weight="800" font-family="Pretendard,sans-serif">900만 × 13.2% = 118.8만 원 환급</text>
+
+  <!-- ISA 전환 공식 -->
+  <text x="30" y="585" fill="#FFF" font-size="20" font-weight="900" font-family="Pretendard,sans-serif">ISA→IRP 전환 추가 공제</text>
+  <rect x="30" y="597" width="140" height="3" rx="2" fill="url(#amber)"/>
+
+  <rect x="30" y="615" width="390" height="110" rx="14" fill="#1E293B" stroke="#22C55E" stroke-width="2"/>
+  <text x="225" y="648" text-anchor="middle" fill="#86EFAC" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">기본 공제</text>
+  <text x="225" y="680" text-anchor="middle" fill="#FFF" font-size="28" font-weight="900" font-family="Pretendard,sans-serif">900만 원</text>
+  <text x="225" y="710" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="Pretendard,sans-serif">연금저축+IRP</text>
+
+  <text x="430" y="680" fill="#FBBF24" font-size="28" font-weight="900" font-family="Pretendard,sans-serif">+</text>
+
+  <rect x="460" y="615" width="370" height="110" rx="14" fill="#1E293B" stroke="#D97706" stroke-width="2"/>
+  <text x="645" y="648" text-anchor="middle" fill="#FBBF24" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">ISA 전환 추가</text>
+  <text x="645" y="680" text-anchor="middle" fill="#FFF" font-size="28" font-weight="900" font-family="Pretendard,sans-serif">+300만 원</text>
+  <text x="645" y="710" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="Pretendard,sans-serif">전환액의 10%, 최대 300만</text>
+
+  <rect x="30" y="740" width="800" height="50" rx="14" fill="#D97706"/>
+  <text x="430" y="772" text-anchor="middle" fill="#FFF" font-size="18" font-weight="900" font-family="Pretendard,sans-serif">= 총 1,200만 원 공제 → 최대 198만 원 환급 (16.5%)</text>
+
+  <!-- 수령 과세 -->
+  <text x="30" y="830" fill="#FFF" font-size="20" font-weight="900" font-family="Pretendard,sans-serif">연금 수령 시 세율 (연 1,500만 원 이하)</text>
+
+  <rect x="30" y="850" width="180" height="55" rx="12" fill="#1E293B"/>
+  <text x="120" y="875" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="700" font-family="Pretendard,sans-serif">55~69세</text>
+  <text x="120" y="898" text-anchor="middle" fill="#FFF" font-size="20" font-weight="900" font-family="Pretendard,sans-serif">5.5%</text>
+
+  <rect x="225" y="850" width="180" height="55" rx="12" fill="#1E293B"/>
+  <text x="315" y="875" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="700" font-family="Pretendard,sans-serif">70~79세</text>
+  <text x="315" y="898" text-anchor="middle" fill="#FFF" font-size="20" font-weight="900" font-family="Pretendard,sans-serif">4.4%</text>
+
+  <rect x="420" y="850" width="180" height="55" rx="12" fill="#1E293B"/>
+  <text x="510" y="875" text-anchor="middle" fill="#E2E8F0" font-size="13" font-weight="700" font-family="Pretendard,sans-serif">80세 이상</text>
+  <text x="510" y="898" text-anchor="middle" fill="#FFF" font-size="20" font-weight="900" font-family="Pretendard,sans-serif">3.3%</text>
+
+  <rect x="615" y="850" width="215" height="55" rx="12" fill="#1E293B" stroke="#FBBF24" stroke-width="2"/>
+  <text x="722" y="875" text-anchor="middle" fill="#FBBF24" font-size="13" font-weight="700" font-family="Pretendard,sans-serif">종신 수령</text>
+  <text x="722" y="898" text-anchor="middle" fill="#FBBF24" font-size="20" font-weight="900" font-family="Pretendard,sans-serif">3.3% ★</text>
+
+  <text x="30" y="960" fill="#64748B" font-size="14" font-family="Pretendard,sans-serif">essencial | 2026년 4월 기준</text>
+</svg>

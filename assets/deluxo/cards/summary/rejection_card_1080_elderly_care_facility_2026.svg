@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <text x="540" y="130" font-family="'Pretendard', sans-serif" font-size="46" font-weight="900" fill="#EF4444" text-anchor="middle">⚠ 입소 거절·비용 함정 TOP 5</text>
+  <text x="540" y="210" font-family="'Pretendard', sans-serif" font-size="54" font-weight="900" fill="#FFFFFF" text-anchor="middle">이것만은 피하세요</text>
+
+  <rect x="60" y="270" width="960" height="140" rx="20" fill="#1A3270"/>
+  <text x="100" y="325" font-family="'Pretendard', sans-serif" font-size="30" font-weight="900" fill="#EF4444">① 등급 미판정 입소 시도</text>
+  <text x="100" y="375" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF">장기요양 인정서 없으면 시설급여 불가</text>
+
+  <rect x="60" y="430" width="960" height="140" rx="20" fill="#1A3270"/>
+  <text x="100" y="485" font-family="'Pretendard', sans-serif" font-size="30" font-weight="900" fill="#EF4444">② 3~5등급 시설 사유 부족</text>
+  <text x="100" y="535" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF">가족 수발 곤란·주거 열악 입증 못 하면 거절</text>
+
+  <rect x="60" y="590" width="960" height="140" rx="20" fill="#1A3270"/>
+  <text x="100" y="645" font-family="'Pretendard', sans-serif" font-size="30" font-weight="900" fill="#EF4444">③ 비급여 명세서 미확인</text>
+  <text x="100" y="695" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF">계약 후 식비·기저귀 추가 청구로 분쟁</text>
+
+  <rect x="60" y="750" width="960" height="140" rx="20" fill="#1A3270"/>
+  <text x="100" y="805" font-family="'Pretendard', sans-serif" font-size="30" font-weight="900" fill="#EF4444">④ 1·2인실 자동 입소</text>
+  <text x="100" y="855" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF">상급침실료 월 +75~150만 부담 급증</text>
+
+  <rect x="60" y="910" width="960" height="140" rx="20" fill="#F59E0B"/>
+  <text x="100" y="965" font-family="'Pretendard', sans-serif" font-size="30" font-weight="900" fill="#0B1F3B">⑤ 본인부담 감경 갱신 누락</text>
+  <text x="100" y="1015" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#0B1F3B">매년 기준 변경 → 미갱신 시 일반 20% 환원</text>
+</svg>

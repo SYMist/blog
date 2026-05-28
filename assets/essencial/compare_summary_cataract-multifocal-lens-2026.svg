@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0F766E"/>
+      <stop offset="100%" stop-color="#0D9488"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <!-- Badge -->
+  <rect x="60" y="45" width="160" height="42" rx="21" fill="#EF4444"/>
+  <text x="140" y="73" text-anchor="middle" fill="#FFF" font-size="20" font-weight="700" font-family="Pretendard,sans-serif">2026 최신</text>
+
+  <!-- Title -->
+  <text x="540" y="140" text-anchor="middle" fill="#FFFFFF" font-size="44" font-weight="900" font-family="Pretendard,sans-serif">백내장 다초점 렌즈 비교</text>
+  <text x="540" y="190" text-anchor="middle" fill="#E2E8F0" font-size="30" font-weight="600" font-family="Pretendard,sans-serif">수술 비용·렌즈 선택·실비 적용 총정리</text>
+  <rect x="390" y="210" width="300" height="4" rx="2" fill="url(#teal)"/>
+
+  <!-- Price Range Bar -->
+  <rect x="60" y="240" width="960" height="85" rx="16" fill="#0F766E" opacity="0.18"/>
+  <rect x="60" y="240" width="960" height="85" rx="16" stroke="#0D9488" stroke-width="2" fill="none"/>
+  <text x="200" y="275" text-anchor="middle" fill="#5EEAD4" font-size="20" font-weight="700" font-family="Pretendard,sans-serif">다초점 렌즈 단안 가격</text>
+  <text x="200" y="308" text-anchor="middle" fill="#FFFFFF" font-size="18" font-family="Pretendard,sans-serif">전국 평균 220만 원</text>
+  <!-- price bar -->
+  <rect x="380" y="265" width="620" height="8" rx="4" fill="#1E293B"/>
+  <rect x="380" y="265" width="90" height="8" rx="4" fill="#22C55E"/>
+  <text x="380" y="300" fill="#86EFAC" font-size="14" font-weight="600" font-family="Pretendard,sans-serif">29만</text>
+  <rect x="380" y="265" width="620" height="8" rx="4" fill="none" stroke="#334155" stroke-width="1"/>
+  <circle cx="600" cy="269" r="6" fill="#FDE68A"/>
+  <text x="600" y="300" text-anchor="middle" fill="#FDE68A" font-size="14" font-weight="600" font-family="Pretendard,sans-serif">220만(평균)</text>
+  <circle cx="1000" cy="269" r="6" fill="#F87171"/>
+  <text x="1000" y="300" text-anchor="end" fill="#FCA5A5" font-size="14" font-weight="600" font-family="Pretendard,sans-serif">680만</text>
+
+  <!-- 5 Lens Cards: 2 + 2 + 1 -->
+  <!-- Row 1 -->
+  <rect x="60" y="345" width="460" height="145" rx="16" fill="#1E293B" stroke="#0D9488" stroke-width="2"/>
+  <rect x="80" y="362" width="48" height="48" rx="24" fill="#0D9488"/>
+  <text x="104" y="393" text-anchor="middle" fill="#FFF" font-size="22" font-weight="900" font-family="Pretendard,sans-serif">1</text>
+  <text x="145" y="383" fill="#5EEAD4" font-size="20" font-weight="800" font-family="Pretendard,sans-serif">팬옵틱스 (알콘)</text>
+  <text x="145" y="410" fill="#94A3B8" font-size="15" font-family="Pretendard,sans-serif">4중 다초점 | 60cm 중간거리 최적화</text>
+  <text x="400" y="383" text-anchor="end" fill="#FFFFFF" font-size="26" font-weight="900" font-family="Pretendard,sans-serif">~300만</text>
+  <rect x="80" y="430" width="420" height="44" rx="10" fill="#0F172A"/>
+  <text x="290" y="458" text-anchor="middle" fill="#E2E8F0" font-size="16" font-weight="600" font-family="Pretendard,sans-serif">사무직·모니터 작업 | 근거리 ★★★★ 중간 ★★★★★</text>
+
+  <rect x="560" y="345" width="460" height="145" rx="16" fill="#1E293B" stroke="#3B82F6" stroke-width="2"/>
+  <rect x="580" y="362" width="48" height="48" rx="24" fill="#3B82F6"/>
+  <text x="604" y="393" text-anchor="middle" fill="#FFF" font-size="22" font-weight="900" font-family="Pretendard,sans-serif">2</text>
+  <text x="645" y="383" fill="#93C5FD" font-size="20" font-weight="800" font-family="Pretendard,sans-serif">시너지 (J&amp;J)</text>
+  <text x="645" y="410" fill="#94A3B8" font-size="15" font-family="Pretendard,sans-serif">다초점+EDOF 결합 | 근거리 최강</text>
+  <text x="900" y="383" text-anchor="end" fill="#FFFFFF" font-size="26" font-weight="900" font-family="Pretendard,sans-serif">280~300만</text>
+  <rect x="580" y="430" width="420" height="44" rx="10" fill="#0F172A"/>
+  <text x="790" y="458" text-anchor="middle" fill="#E2E8F0" font-size="16" font-weight="600" font-family="Pretendard,sans-serif">독서·스마트폰 | 근거리 ★★★★★ 중간 ★★★★</text>
+
+  <!-- Row 2 -->
+  <rect x="60" y="510" width="300" height="145" rx="16" fill="#1E293B" stroke="#8B5CF6" stroke-width="2"/>
+  <rect x="80" y="527" width="42" height="42" rx="21" fill="#8B5CF6"/>
+  <text x="101" y="555" text-anchor="middle" fill="#FFF" font-size="20" font-weight="900" font-family="Pretendard,sans-serif">3</text>
+  <text x="135" y="548" fill="#C4B5FD" font-size="18" font-weight="800" font-family="Pretendard,sans-serif">퓨어See (J&amp;J)</text>
+  <text x="80" y="580" fill="#94A3B8" font-size="14" font-family="Pretendard,sans-serif">굴절형 | 빛번짐 최소</text>
+  <text x="80" y="610" fill="#FFFFFF" font-size="22" font-weight="900" font-family="Pretendard,sans-serif">240~280만</text>
+  <text x="80" y="638" fill="#E2E8F0" font-size="14" font-weight="600" font-family="Pretendard,sans-serif">야간 운전 추천</text>
+
+  <rect x="390" y="510" width="300" height="145" rx="16" fill="#1E293B" stroke="#22C55E" stroke-width="2"/>
+  <rect x="410" y="527" width="42" height="42" rx="21" fill="#22C55E"/>
+  <text x="431" y="555" text-anchor="middle" fill="#FFF" font-size="20" font-weight="900" font-family="Pretendard,sans-serif">4</text>
+  <text x="465" y="548" fill="#86EFAC" font-size="18" font-weight="800" font-family="Pretendard,sans-serif">아이핸스 (J&amp;J)</text>
+  <text x="410" y="580" fill="#94A3B8" font-size="14" font-family="Pretendard,sans-serif">단초점+강화 | 눈부심 無</text>
+  <text x="410" y="610" fill="#FFFFFF" font-size="22" font-weight="900" font-family="Pretendard,sans-serif">100~150만</text>
+  <text x="410" y="638" fill="#E2E8F0" font-size="14" font-weight="600" font-family="Pretendard,sans-serif">비용 절감 + 돋보기 병용</text>
+
+  <rect x="720" y="510" width="300" height="145" rx="16" fill="#1E293B" stroke="#F59E0B" stroke-width="2"/>
+  <rect x="740" y="527" width="42" height="42" rx="21" fill="#F59E0B"/>
+  <text x="761" y="555" text-anchor="middle" fill="#FFF" font-size="20" font-weight="900" font-family="Pretendard,sans-serif">5</text>
+  <text x="795" y="548" fill="#FDE68A" font-size="18" font-weight="800" font-family="Pretendard,sans-serif">리사트리 (자이스)</text>
+  <text x="740" y="580" fill="#94A3B8" font-size="14" font-family="Pretendard,sans-serif">3중 초점 | 난시 교정 우수</text>
+  <text x="740" y="610" fill="#FFFFFF" font-size="22" font-weight="900" font-family="Pretendard,sans-serif">250~300만</text>
+  <text x="740" y="638" fill="#E2E8F0" font-size="14" font-weight="600" font-family="Pretendard,sans-serif">균형형 | 유럽 점유율 1위</text>
+
+  <!-- Insurance Section -->
+  <rect x="60" y="685" width="960" height="165" rx="16" fill="#EF4444" opacity="0.08"/>
+  <rect x="60" y="685" width="960" height="165" rx="16" stroke="#F87171" stroke-width="2" fill="none"/>
+  <text x="540" y="722" text-anchor="middle" fill="#FCA5A5" font-size="22" font-weight="800" font-family="Pretendard,sans-serif">⚠ 실손보험 핵심 변화</text>
+
+  <!-- 3 mini info blocks -->
+  <rect x="80" y="742" width="290" height="88" rx="12" fill="#1E293B"/>
+  <text x="225" y="772" text-anchor="middle" fill="#F87171" font-size="16" font-weight="700" font-family="Pretendard,sans-serif">대법원 판례 (2022)</text>
+  <text x="225" y="798" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800" font-family="Pretendard,sans-serif">통원 처리 확정</text>
+  <text x="225" y="820" text-anchor="middle" fill="#94A3B8" font-size="14" font-family="Pretendard,sans-serif">1일 20~30만 원 한도</text>
+
+  <rect x="395" y="742" width="290" height="88" rx="12" fill="#1E293B"/>
+  <text x="540" y="772" text-anchor="middle" fill="#F87171" font-size="16" font-weight="700" font-family="Pretendard,sans-serif">4세대 비급여 차등제</text>
+  <text x="540" y="798" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800" font-family="Pretendard,sans-serif">300만+ → 보험료 4배</text>
+  <text x="540" y="820" text-anchor="middle" fill="#94A3B8" font-size="14" font-family="Pretendard,sans-serif">양안 시 합산 주의</text>
+
+  <rect x="710" y="742" width="290" height="88" rx="12" fill="#1E293B"/>
+  <text x="855" y="772" text-anchor="middle" fill="#86EFAC" font-size="16" font-weight="700" font-family="Pretendard,sans-serif">노인 개안 지원</text>
+  <text x="855" y="798" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800" font-family="Pretendard,sans-serif">60세+ 저소득 전액</text>
+  <text x="855" y="820" text-anchor="middle" fill="#94A3B8" font-size="14" font-family="Pretendard,sans-serif">단초점만 · 사전 신청</text>
+
+  <!-- Key Insight -->
+  <rect x="60" y="880" width="960" height="70" rx="14" fill="#0F766E" opacity="0.15"/>
+  <rect x="60" y="880" width="960" height="70" rx="14" stroke="#0D9488" stroke-width="2" fill="none"/>
+  <text x="540" y="923" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="Pretendard,sans-serif">비싼 렌즈 ≠ 좋은 렌즈 — 내 생활 패턴에 맞는 렌즈가 정답</text>
+
+  <!-- Chips -->
+  <rect x="280" y="975" width="100" height="34" rx="17" fill="#F0FDFA"/>
+  <text x="330" y="998" text-anchor="middle" fill="#0F766E" font-size="16" font-weight="700" font-family="Pretendard,sans-serif">비교</text>
+  <rect x="396" y="975" width="110" height="34" rx="17" fill="#F0FDFA"/>
+  <text x="451" y="998" text-anchor="middle" fill="#0F766E" font-size="16" font-weight="700" font-family="Pretendard,sans-serif">다초점</text>
+  <rect x="522" y="975" width="100" height="34" rx="17" fill="#F0FDFA"/>
+  <text x="572" y="998" text-anchor="middle" fill="#0F766E" font-size="16" font-weight="700" font-family="Pretendard,sans-serif">비용</text>
+  <rect x="638" y="975" width="100" height="34" rx="17" fill="#F0FDFA"/>
+  <text x="688" y="998" text-anchor="middle" fill="#0F766E" font-size="16" font-weight="700" font-family="Pretendard,sans-serif">실비</text>
+
+  <!-- Footer -->
+  <text x="540" y="1055" text-anchor="middle" fill="#64748B" font-size="16" font-family="Pretendard,sans-serif">essencial | 2026년 4월 기준 심평원 데이터</text>
+</svg>

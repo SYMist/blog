@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="8" fill="#F59E0B"/>
+
+  <!-- Title -->
+  <text x="540" y="68" font-family="-apple-system, sans-serif" font-size="34" font-weight="900" fill="#F59E0B" text-anchor="middle">2026년 청년창업 세액감면 지역별 감면율</text>
+  <text x="540" y="106" font-family="-apple-system, sans-serif" font-size="21" font-weight="700" fill="#A0B4D0" text-anchor="middle">만 15~34세 청년 | 동일 업종 최초 창업 | 첫 소득연도~5년</text>
+
+  <!-- Region Cards -->
+  <!-- Card 1: 비수도권 -->
+  <rect x="40" y="136" width="300" height="340" rx="20" fill="#1A3270"/>
+  <rect x="40" y="136" width="300" height="8" rx="4" fill="#34D399"/>
+  <text x="190" y="196" font-family="-apple-system, sans-serif" font-size="19" font-weight="800" fill="#34D399" text-anchor="middle">비수도권</text>
+  <text x="190" y="224" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">+ 수도권 인구감소지역</text>
+  <text x="190" y="316" font-family="-apple-system, sans-serif" font-size="72" font-weight="900" fill="#FFFFFF" text-anchor="middle">100%</text>
+  <text x="190" y="360" font-family="-apple-system, sans-serif" font-size="19" font-weight="700" fill="#34D399" text-anchor="middle">소득세 전액 감면</text>
+  <text x="190" y="400" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">예: 대전·부산·전주 창업</text>
+  <text x="190" y="434" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">+ 고용 증가 기업도 100%</text>
+  <text x="190" y="460" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#34D399" text-anchor="middle">★ 최고 혜택</text>
+
+  <!-- Card 2: 수도권 비과밀 -->
+  <rect x="390" y="136" width="300" height="340" rx="20" fill="#1A3270"/>
+  <rect x="390" y="136" width="300" height="8" rx="4" fill="#F59E0B"/>
+  <text x="540" y="196" font-family="-apple-system, sans-serif" font-size="19" font-weight="800" fill="#F59E0B" text-anchor="middle">수도권 비과밀억제권역</text>
+  <text x="540" y="224" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">수도권 과밀억제권역 外</text>
+  <text x="540" y="316" font-family="-apple-system, sans-serif" font-size="72" font-weight="900" fill="#FFFFFF" text-anchor="middle">75%</text>
+  <text x="540" y="360" font-family="-apple-system, sans-serif" font-size="19" font-weight="700" fill="#F59E0B" text-anchor="middle">소득세 75% 감면</text>
+  <text x="540" y="400" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">예: 화성·용인·김포 창업</text>
+  <text x="540" y="434" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">일반(35세↑): 25% 감면</text>
+  <text x="540" y="460" font-family="-apple-system, sans-serif" font-size="16" fill="#EAF2FF" text-anchor="middle">2026년 기준 변경</text>
+
+  <!-- Card 3: 수도권 과밀 -->
+  <rect x="740" y="136" width="300" height="340" rx="20" fill="#1A3270"/>
+  <rect x="740" y="136" width="300" height="8" rx="4" fill="#EF4444"/>
+  <text x="890" y="196" font-family="-apple-system, sans-serif" font-size="19" font-weight="800" fill="#EF4444" text-anchor="middle">수도권 과밀억제권역</text>
+  <text x="890" y="224" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">서울·과천·성남·안양 등</text>
+  <text x="890" y="316" font-family="-apple-system, sans-serif" font-size="72" font-weight="900" fill="#FFFFFF" text-anchor="middle">50%</text>
+  <text x="890" y="360" font-family="-apple-system, sans-serif" font-size="19" font-weight="700" fill="#EF4444" text-anchor="middle">소득세 50% 감면</text>
+  <text x="890" y="400" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">예: 강남·홍대·명동 창업</text>
+  <text x="890" y="434" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">일반(35세↑): 해당 없음</text>
+  <text x="890" y="460" font-family="-apple-system, sans-serif" font-size="16" fill="#EF4444" text-anchor="middle">혜택 축소</text>
+
+  <!-- Divider -->
+  <rect x="40" y="500" width="1000" height="2" fill="#1A3270"/>
+
+  <!-- Eligible Sectors -->
+  <text x="540" y="542" font-family="-apple-system, sans-serif" font-size="24" font-weight="900" fill="#F59E0B" text-anchor="middle">대상 업종 포함 vs 제외</text>
+
+  <rect x="40" y="558" width="480" height="200" rx="16" fill="#0D2347"/>
+  <text x="280" y="598" font-family="-apple-system, sans-serif" font-size="19" font-weight="800" fill="#34D399" text-anchor="middle">✅ 감면 대상 업종</text>
+  <text x="280" y="630" font-family="-apple-system, sans-serif" font-size="16" fill="#EAF2FF" text-anchor="middle">제조업 / 건설업 / 정보통신업</text>
+  <text x="280" y="656" font-family="-apple-system, sans-serif" font-size="16" fill="#EAF2FF" text-anchor="middle">음식점업 / 미용업(헤어)</text>
+  <text x="280" y="682" font-family="-apple-system, sans-serif" font-size="16" fill="#EAF2FF" text-anchor="middle">체력단련시설(헬스장) 등 18개</text>
+  <text x="280" y="710" font-family="-apple-system, sans-serif" font-size="14" fill="#34D399" text-anchor="middle">조세특례제한법 제6조 별표 기준</text>
+  <text x="280" y="740" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">카페는 음식점 코드 등록 시 포함 가능</text>
+
+  <rect x="560" y="558" width="480" height="200" rx="16" fill="#2A1A1A"/>
+  <text x="800" y="598" font-family="-apple-system, sans-serif" font-size="19" font-weight="800" fill="#EF4444" text-anchor="middle">❌ 감면 제외 업종</text>
+  <text x="800" y="630" font-family="-apple-system, sans-serif" font-size="16" fill="#EAF2FF" text-anchor="middle">비알코올 음료점(카페 기본코드)</text>
+  <text x="800" y="656" font-family="-apple-system, sans-serif" font-size="16" fill="#EAF2FF" text-anchor="middle">필라테스·요가(기타교육서비스)</text>
+  <text x="800" y="682" font-family="-apple-system, sans-serif" font-size="16" fill="#EAF2FF" text-anchor="middle">부동산업 / 금융·보험업</text>
+  <text x="800" y="710" font-family="-apple-system, sans-serif" font-size="16" fill="#EAF2FF" text-anchor="middle">도소매업(일부) / 오락·숙박업</text>
+  <text x="800" y="740" font-family="-apple-system, sans-serif" font-size="14" fill="#EF4444" text-anchor="middle">업종 코드 착오로 감면 상실 사례 多</text>
+
+  <!-- Bottom Note -->
+  <rect x="40" y="780" width="1000" height="72" rx="12" fill="#1A3270"/>
+  <text x="540" y="814" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#F59E0B" text-anchor="middle">연간 감면 한도 최대 5억원 | 첫 소득 발생 연도부터 5년 적용</text>
+  <text x="540" y="840" font-family="-apple-system, sans-serif" font-size="16" fill="#EAF2FF" text-anchor="middle">종소세 신고 시 "창업중소기업 세액감면 신청서" 직접 첨부 필수 — 자동 미적용</text>
+
+  <text x="540" y="964" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준 | 조세특례제한법 제6조 | 국세청 ☎ 126</text>
+  <rect x="0" y="1072" width="1080" height="8" fill="#F59E0B"/>
+</svg>

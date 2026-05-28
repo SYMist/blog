@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- Badge -->
+  <rect x="60" y="50" width="160" height="48" rx="24" fill="#F59E0B"/>
+  <text x="140" y="82" font-family="Pretendard, sans-serif" font-size="22" font-weight="700" fill="#0B1F3B" text-anchor="middle">10초 판단</text>
+
+  <!-- Title -->
+  <text x="60" y="155" font-family="Pretendard, sans-serif" font-size="44" font-weight="800" fill="#FFFFFF">우리 지역 지원금</text>
+  <text x="60" y="210" font-family="Pretendard, sans-serif" font-size="44" font-weight="800" fill="#FFFFFF">빠른 판단</text>
+
+  <!-- Chips -->
+  <rect x="60" y="235" width="85" height="40" rx="32" fill="#E8F0FF"/>
+  <text x="102" y="262" font-family="Pretendard, sans-serif" font-size="18" font-weight="600" fill="#1D4ED8" text-anchor="middle">대전</text>
+  <rect x="158" y="235" width="85" height="40" rx="32" fill="#E8F0FF"/>
+  <text x="200" y="262" font-family="Pretendard, sans-serif" font-size="18" font-weight="600" fill="#1D4ED8" text-anchor="middle">세종</text>
+  <rect x="256" y="235" width="85" height="40" rx="32" fill="#E8F0FF"/>
+  <text x="298" y="262" font-family="Pretendard, sans-serif" font-size="18" font-weight="600" fill="#1D4ED8" text-anchor="middle">충남</text>
+  <rect x="354" y="235" width="85" height="40" rx="32" fill="#E8F0FF"/>
+  <text x="396" y="262" font-family="Pretendard, sans-serif" font-size="18" font-weight="600" fill="#1D4ED8" text-anchor="middle">충북</text>
+
+  <!-- Divider -->
+  <line x1="60" y1="305" x2="1020" y2="305" stroke="#FFFFFF" stroke-opacity="0.15" stroke-width="1"/>
+
+  <!-- 대전 Card -->
+  <rect x="60" y="335" width="960" height="145" rx="20" fill="#FFFFFF" fill-opacity="0.07"/>
+  <rect x="90" y="360" width="90" height="40" rx="20" fill="#F59E0B"/>
+  <text x="135" y="387" font-family="Pretendard, sans-serif" font-size="22" font-weight="700" fill="#0B1F3B" text-anchor="middle">대전</text>
+  <text x="200" y="387" font-family="Pretendard, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF" fill-opacity="0.6">-></text>
+  <text x="90" y="440" font-family="Pretendard, sans-serif" font-size="24" font-weight="600" fill="#FFFFFF">인건비 . 임대료 직접 지원이 필요할 때</text>
+
+  <!-- 세종 Card -->
+  <rect x="60" y="505" width="960" height="145" rx="20" fill="#FFFFFF" fill-opacity="0.07"/>
+  <rect x="90" y="530" width="90" height="40" rx="20" fill="#F59E0B"/>
+  <text x="135" y="557" font-family="Pretendard, sans-serif" font-size="22" font-weight="700" fill="#0B1F3B" text-anchor="middle">세종</text>
+  <text x="200" y="557" font-family="Pretendard, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF" fill-opacity="0.6">-></text>
+  <text x="90" y="610" font-family="Pretendard, sans-serif" font-size="24" font-weight="600" fill="#FFFFFF">창업 6개월 이내 초기 자금이 필요할 때</text>
+
+  <!-- 충남 Card -->
+  <rect x="60" y="675" width="960" height="145" rx="20" fill="#FFFFFF" fill-opacity="0.07"/>
+  <rect x="90" y="700" width="90" height="40" rx="20" fill="#F59E0B"/>
+  <text x="135" y="727" font-family="Pretendard, sans-serif" font-size="22" font-weight="700" fill="#0B1F3B" text-anchor="middle">충남</text>
+  <text x="200" y="727" font-family="Pretendard, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF" fill-opacity="0.6">-></text>
+  <text x="90" y="780" font-family="Pretendard, sans-serif" font-size="24" font-weight="600" fill="#FFFFFF">대규모 자금(1.5억) . 재창업이 필요할 때</text>
+
+  <!-- 충북 Card -->
+  <rect x="60" y="845" width="960" height="145" rx="20" fill="#FFFFFF" fill-opacity="0.07"/>
+  <rect x="90" y="870" width="90" height="40" rx="20" fill="#F59E0B"/>
+  <text x="135" y="897" font-family="Pretendard, sans-serif" font-size="22" font-weight="700" fill="#0B1F3B" text-anchor="middle">충북</text>
+  <text x="200" y="897" font-family="Pretendard, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF" fill-opacity="0.6">-></text>
+  <text x="90" y="950" font-family="Pretendard, sans-serif" font-size="24" font-weight="600" fill="#FFFFFF">안정적 이차보전(5년)을 원할 때</text>
+
+  <!-- Footer -->
+  <text x="1020" y="1050" font-family="Pretendard, sans-serif" font-size="16" fill="#FFFFFF" fill-opacity="0.35" text-anchor="end">tistory.deluxo | 2026</text>
+</svg>

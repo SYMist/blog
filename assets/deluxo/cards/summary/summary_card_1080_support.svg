@@ -1,0 +1,54 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="#F8FAFC"/>
+
+  <!-- Card -->
+  <g filter="url(#shadow)">
+    <rect x="70" y="70" width="940" height="940" rx="24" fill="#FFFFFF" stroke="#E5E7EB"/>
+  </g>
+
+  <!-- Header -->
+  <text x="120" y="170" font-size="46" fill="#111827" font-weight="800" font-family="Pretendard, 'Noto Sans KR', sans-serif">2026 소상공인 지원금 요약</text>
+  <text x="120" y="230" font-size="28" fill="#6B7280" font-weight="600" font-family="Pretendard, 'Noto Sans KR', sans-serif">대상 · 유형 · 신청 핵심</text>
+
+  <!-- Divider -->
+  <line x1="120" y1="270" x2="960" y2="270" stroke="#E5E7EB"/>
+
+  <!-- Rows -->
+  <g font-family="Pretendard, 'Noto Sans KR', sans-serif">
+    <text x="120" y="340" font-size="30" fill="#111827" font-weight="700">대상</text>
+    <text x="260" y="340" font-size="28" fill="#374151">소상공인 요건(인원·업종·매출) 충족</text>
+
+    <line x1="120" y1="380" x2="960" y2="380" stroke="#F1F5F9"/>
+
+    <text x="120" y="440" font-size="30" fill="#111827" font-weight="700">직접지원</text>
+    <text x="260" y="440" font-size="28" fill="#374151">경영안정 바우처 25만원 등</text>
+
+    <line x1="120" y1="480" x2="960" y2="480" stroke="#F1F5F9"/>
+
+    <text x="120" y="540" font-size="30" fill="#111827" font-weight="700">금융지원</text>
+    <text x="260" y="540" font-size="28" fill="#374151">정책자금 3조 3,620억 규모</text>
+
+    <line x1="120" y1="580" x2="960" y2="580" stroke="#F1F5F9"/>
+
+    <text x="120" y="640" font-size="30" fill="#111827" font-weight="700">신청처</text>
+    <text x="260" y="640" font-size="28" fill="#374151">소상공인24 / 정책자금 OLS</text>
+
+    <line x1="120" y1="680" x2="960" y2="680" stroke="#F1F5F9"/>
+
+    <text x="120" y="740" font-size="30" fill="#111827" font-weight="700">주의</text>
+    <text x="260" y="740" font-size="28" fill="#374151">중복수혜·체납·휴업/폐업 제외 가능</text>
+  </g>
+
+  <!-- Footer Note -->
+  <rect x="120" y="840" width="840" height="90" rx="12" fill="#F1F5F9"/>
+  <text x="150" y="895" font-size="24" fill="#4B5563" font-family="Pretendard, 'Noto Sans KR', sans-serif">
+    세부 요건은 공고 기준으로 최종 확인
+  </text>
+</svg>

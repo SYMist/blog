@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#15803D"/>
+      <stop offset="100%" stop-color="#14532d"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E40AF"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+    <linearGradient id="amberGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D97706"/>
+      <stop offset="100%" stop-color="#7C2D12"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <circle cx="920" cy="160" r="220" fill="#1E40AF" fill-opacity="0.08"/>
+  <circle cx="160" cy="920" r="180" fill="#15803D" fill-opacity="0.08"/>
+
+  <!-- Chips -->
+  <rect x="40" y="40" width="100" height="34" rx="17" fill="#1E40AF" fill-opacity="0.3" stroke="#1E40AF" stroke-width="1.5"/>
+  <text x="90" y="63" text-anchor="middle" fill="#BFDBFE" font-size="14" font-weight="700" font-family="sans-serif">자동차</text>
+
+  <rect x="156" y="40" width="140" height="34" rx="17" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="226" y="63" text-anchor="middle" fill="#94A3B8" font-size="14" font-family="sans-serif">2026.05 기준</text>
+
+  <rect x="312" y="40" width="150" height="34" rx="17" fill="#14532d" stroke="#15803D" stroke-width="1.5"/>
+  <text x="387" y="63" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">3종 처리 비교</text>
+
+  <!-- Title -->
+  <text x="540" y="180" text-anchor="middle" fill="#FFFFFF" font-size="44" font-weight="800" font-family="sans-serif">자차 · 상대 · 자비</text>
+  <text x="540" y="234" text-anchor="middle" fill="#FFFFFF" font-size="44" font-weight="800" font-family="sans-serif">3종 처리 비교</text>
+  <text x="540" y="282" text-anchor="middle" fill="#93C5FD" font-size="22" font-weight="600" font-family="sans-serif">사고 상황별 손익 가이드 (2026)</text>
+
+  <rect x="200" y="310" width="680" height="3" rx="1.5" fill="#1E40AF" fill-opacity="0.6"/>
+
+  <!-- Key stat -->
+  <rect x="160" y="330" width="760" height="80" rx="16" fill="#1e293b" fill-opacity="0.9" stroke="#334155" stroke-width="1.5"/>
+  <text x="540" y="368" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="700" font-family="sans-serif">손익분기점 (연 70만원 기준)</text>
+  <text x="540" y="398" text-anchor="middle" fill="#FFFFFF" font-size="24" font-weight="800" font-family="sans-serif">수리비 62만원 → 자비 vs 자차</text>
+
+  <!-- 3 cards stacked -->
+  <rect x="40" y="430" width="1000" height="155" rx="14" fill="url(#greenGrad)" fill-opacity="0.85" stroke="#15803D" stroke-width="2"/>
+  <text x="60" y="466" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">① 상대보험 (상대 과실 100% 시)</text>
+  <text x="60" y="498" fill="#86EFAC" font-size="18" font-weight="700" font-family="sans-serif">본인 0원 · 사고 기록 없음 · 할증 없음</text>
+  <text x="60" y="530" fill="#CBD5E1" font-size="15" font-family="sans-serif">✅ 본인 부담 0원 · 무사고 할인 유지 · 가장 명확한 BEST 선택</text>
+  <text x="60" y="558" fill="#CBD5E1" font-size="15" font-family="sans-serif">— 즉시 상대 보험사 연락 + 과실비율 확인이 핵심 (협의 2주~2개월)</text>
+
+  <rect x="40" y="595" width="1000" height="155" rx="14" fill="url(#blueGrad)" fill-opacity="0.85" stroke="#3B82F6" stroke-width="2"/>
+  <text x="60" y="631" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">② 자차보험 (본인 과실 + 수리비 큼)</text>
+  <text x="60" y="663" fill="#BFDBFE" font-size="18" font-weight="700" font-family="sans-serif">자기부담금 20~50만 + 3년 할증</text>
+  <text x="60" y="695" fill="#CBD5E1" font-size="15" font-family="sans-serif">✅ 큰 수리비 부담↓ · 환입 신청 가능 (갱신 3개월 전까지)</text>
+  <text x="60" y="723" fill="#CBD5E1" font-size="15" font-family="sans-serif">— 수리비 &gt; 62만원 (연 70만 기준 손익분기점) 시 유리</text>
+
+  <rect x="40" y="760" width="1000" height="155" rx="14" fill="url(#amberGrad)" fill-opacity="0.85" stroke="#D97706" stroke-width="2"/>
+  <text x="60" y="796" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">③ 자비수리 (본인 과실 + 수리비 작음)</text>
+  <text x="60" y="828" fill="#FCD34D" font-size="18" font-weight="700" font-family="sans-serif">수리비 전액 즉시 부담 · 기록 없음</text>
+  <text x="60" y="860" fill="#CBD5E1" font-size="15" font-family="sans-serif">✅ 본인 사고 기록 없음 · 무사고 할인 유지 · 즉시 처리</text>
+  <text x="60" y="888" fill="#CBD5E1" font-size="15" font-family="sans-serif">— 수리비 &lt; 62만원 시 자차 대비 12만원+ 절약</text>
+
+  <!-- Bottom note -->
+  <rect x="40" y="940" width="1000" height="80" rx="12" fill="#1e293b" fill-opacity="0.7" stroke="#334155" stroke-width="1.5"/>
+  <text x="540" y="970" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="800" font-family="sans-serif">결정 변수 = 과실비율 + 수리비 규모</text>
+  <text x="540" y="998" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">상대 과실 → 상대보험 / 본인 과실 + 큰 수리 → 자차 / 본인 과실 + 작은 수리 → 자비</text>
+
+  <text x="40" y="1060" fill="#64748B" font-size="13" font-family="sans-serif">essencial | 자동차 · 2026.05 기준 · 손익분기점은 연 보험료 따라 다름 (40만→44만, 70만→62만, 100만→80만)</text>
+</svg>

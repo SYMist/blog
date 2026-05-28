@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1500" fill="url(#bg)"/>
+
+  <!-- Header -->
+  <rect x="60" y="50" width="220" height="40" rx="20" fill="#0F766E"/>
+  <text x="170" y="77" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800" font-family="sans-serif">2026 건강보험 개정 반영</text>
+  <text x="60" y="155" fill="#FFFFFF" font-size="44" font-weight="800" font-family="sans-serif">MRI vs CT — 핵심 숫자 한눈에</text>
+  <text x="60" y="200" fill="#5EEAD4" font-size="22" font-weight="600" font-family="sans-serif">급여 기준·본인부담·5세대 실손까지</text>
+
+  <!-- 4 Key Cards -->
+  <rect x="60" y="240" width="260" height="180" rx="16" fill="url(#card)" stroke="#0F766E" stroke-width="2"/>
+  <text x="190" y="285" text-anchor="middle" fill="#5EEAD4" font-size="15" font-weight="700" font-family="sans-serif">단순 두통 선별급여</text>
+  <text x="190" y="340" text-anchor="middle" fill="#FFFFFF" font-size="42" font-weight="800" font-family="sans-serif">80%</text>
+  <text x="190" y="370" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="600" font-family="sans-serif">환자 본인부담</text>
+  <text x="190" y="395" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">2026 기준 강화</text>
+
+  <rect x="340" y="240" width="260" height="180" rx="16" fill="url(#card)" stroke="#0F766E" stroke-width="2"/>
+  <text x="470" y="285" text-anchor="middle" fill="#5EEAD4" font-size="15" font-weight="700" font-family="sans-serif">5세대 비급여 자부담</text>
+  <text x="470" y="340" text-anchor="middle" fill="#FFFFFF" font-size="42" font-weight="800" font-family="sans-serif">50%</text>
+  <text x="470" y="370" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="600" font-family="sans-serif">4세대 30%→ 상향</text>
+  <text x="470" y="395" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">2026.04 시행</text>
+
+  <rect x="620" y="240" width="260" height="180" rx="16" fill="url(#card)" stroke="#0F766E" stroke-width="2"/>
+  <text x="750" y="285" text-anchor="middle" fill="#5EEAD4" font-size="15" font-weight="700" font-family="sans-serif">뇌 MRI 비급여 편차</text>
+  <text x="750" y="340" text-anchor="middle" fill="#FFFFFF" font-size="36" font-weight="800" font-family="sans-serif">9만~100만</text>
+  <text x="750" y="370" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="600" font-family="sans-serif">병원별 10배 차이</text>
+  <text x="750" y="395" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">심평원 공시</text>
+
+  <rect x="900" y="240" width="240" height="180" rx="16" fill="url(#card)" stroke="#0F766E" stroke-width="2"/>
+  <text x="1020" y="285" text-anchor="middle" fill="#5EEAD4" font-size="15" font-weight="700" font-family="sans-serif">조영제 부작용률</text>
+  <text x="1020" y="340" text-anchor="middle" fill="#FFFFFF" font-size="42" font-weight="800" font-family="sans-serif">0.7%</text>
+  <text x="1020" y="370" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="600" font-family="sans-serif">재발 위험 68배</text>
+  <text x="1020" y="395" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">고위험군 관리 필수</text>
+
+  <!-- 종별 부담률 -->
+  <text x="60" y="475" fill="#FFFFFF" font-size="26" font-weight="800" font-family="sans-serif">의료기관 종별 뇌 MRI 본인부담 (급여)</text>
+  <text x="60" y="503" fill="#94A3B8" font-size="14" font-family="sans-serif">뇌 MRI 급여 수가 30~45만 원 기준 · 조영제 별도</text>
+
+  <g font-family="sans-serif">
+    <text x="60" y="545" fill="#FFFFFF" font-size="16" font-weight="700">의원(1차)</text>
+    <rect x="200" y="528" width="240" height="22" rx="4" fill="#5EEAD4"/>
+    <text x="460" y="545" fill="#5EEAD4" font-size="15" font-weight="700">8~12만 원 (30%)</text>
+
+    <text x="60" y="585" fill="#FFFFFF" font-size="16" font-weight="700">병원</text>
+    <rect x="200" y="568" width="320" height="22" rx="4" fill="#2DD4BF"/>
+    <text x="540" y="585" fill="#5EEAD4" font-size="15" font-weight="700">10~16만 원 (30~40%)</text>
+
+    <text x="60" y="625" fill="#FFFFFF" font-size="16" font-weight="700">종합병원</text>
+    <rect x="200" y="608" width="440" height="22" rx="4" fill="#14B8A6"/>
+    <text x="660" y="625" fill="#5EEAD4" font-size="15" font-weight="700">14~22만 원 (40~50%)</text>
+
+    <text x="60" y="665" fill="#FFFFFF" font-size="16" font-weight="700">상급종합</text>
+    <rect x="200" y="648" width="600" height="22" rx="4" fill="#0F766E"/>
+    <text x="820" y="665" fill="#5EEAD4" font-size="15" font-weight="700">22~30만 원 (60%)</text>
+
+    <text x="60" y="705" fill="#FCD34D" font-size="14" font-weight="700">※ 상급종합은 의원 대비 약 2배 부담 — 급성기 아니면 2차 병원 권장</text>
+  </g>
+
+  <!-- CT vs MRI 핵심 비교 -->
+  <rect x="60" y="740" width="540" height="320" rx="16" fill="url(#card)" stroke="#0F766E" stroke-width="2"/>
+  <text x="80" y="780" fill="#5EEAD4" font-size="22" font-weight="800" font-family="sans-serif">CT — 빠르고 저렴</text>
+
+  <g font-family="sans-serif">
+    <text x="80" y="820" fill="#CBD5E1" font-size="14">에너지</text>
+    <text x="560" y="820" text-anchor="end" fill="#FFFFFF" font-size="15" font-weight="700">X선(이온화 방사선)</text>
+
+    <text x="80" y="850" fill="#CBD5E1" font-size="14">촬영 시간</text>
+    <text x="560" y="850" text-anchor="end" fill="#FFFFFF" font-size="15" font-weight="700">2~10분</text>
+
+    <text x="80" y="880" fill="#CBD5E1" font-size="14">급여 시 평균 비용</text>
+    <text x="560" y="880" text-anchor="end" fill="#2DD4BF" font-size="16" font-weight="800">3~10만 원대</text>
+
+    <text x="80" y="910" fill="#CBD5E1" font-size="14">강점 영역</text>
+    <text x="560" y="910" text-anchor="end" fill="#FFFFFF" font-size="14">폐·뼈·급성출혈</text>
+
+    <text x="80" y="945" fill="#CBD5E1" font-size="14">제약</text>
+    <text x="560" y="945" text-anchor="end" fill="#FCA5A5" font-size="14">방사선 피폭 누적</text>
+  </g>
+  <text x="80" y="1020" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">✓ 응급실·외상·폐 검사 1순위</text>
+
+  <rect x="620" y="740" width="520" height="320" rx="16" fill="url(#card)" stroke="#14B8A6" stroke-width="2"/>
+  <text x="640" y="780" fill="#14B8A6" font-size="22" font-weight="800" font-family="sans-serif">MRI — 정밀·무방사선</text>
+
+  <g font-family="sans-serif">
+    <text x="640" y="820" fill="#CBD5E1" font-size="14">에너지</text>
+    <text x="1120" y="820" text-anchor="end" fill="#FFFFFF" font-size="15" font-weight="700">자기장 + RF</text>
+
+    <text x="640" y="850" fill="#CBD5E1" font-size="14">촬영 시간</text>
+    <text x="1120" y="850" text-anchor="end" fill="#FFFFFF" font-size="15" font-weight="700">20~60분</text>
+
+    <text x="640" y="880" fill="#CBD5E1" font-size="14">급여 시 평균 비용</text>
+    <text x="1120" y="880" text-anchor="end" fill="#2DD4BF" font-size="16" font-weight="800">10~40만 원대</text>
+
+    <text x="640" y="910" fill="#CBD5E1" font-size="14">강점 영역</text>
+    <text x="1120" y="910" text-anchor="end" fill="#FFFFFF" font-size="14">뇌·신경·디스크·인대</text>
+
+    <text x="640" y="945" fill="#CBD5E1" font-size="14">제약</text>
+    <text x="1120" y="945" text-anchor="end" fill="#FCA5A5" font-size="14">금속·심박조율기 금기</text>
+  </g>
+  <text x="640" y="1020" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">✓ 뇌·척추·종양·연부조직 정밀 1순위</text>
+
+  <!-- 5세대 실손 요약 -->
+  <rect x="60" y="1090" width="1080" height="260" rx="16" fill="url(#card)" stroke="#0F766E" stroke-width="2"/>
+  <text x="80" y="1130" fill="#5EEAD4" font-size="22" font-weight="800" font-family="sans-serif">5세대 실손의료보험 (2026.04~) 핵심 변화</text>
+
+  <g font-family="sans-serif">
+    <text x="80" y="1175" fill="#FFFFFF" font-size="16" font-weight="700">비급여 MRI·CT 자기부담</text>
+    <text x="570" y="1175" text-anchor="end" fill="#F87171" font-size="18" font-weight="800">30% → 50%</text>
+
+    <text x="80" y="1210" fill="#FFFFFF" font-size="16" font-weight="700">100만 원 MRI 시 환급</text>
+    <text x="570" y="1210" text-anchor="end" fill="#FCD34D" font-size="18" font-weight="800">70만 → 50만</text>
+
+    <text x="600" y="1175" fill="#FFFFFF" font-size="16" font-weight="700">통원 한도</text>
+    <text x="1120" y="1175" text-anchor="end" fill="#2DD4BF" font-size="16" font-weight="800">연간 통합 1,000만</text>
+
+    <text x="600" y="1210" fill="#FFFFFF" font-size="16" font-weight="700">재가입 주기</text>
+    <text x="1120" y="1210" text-anchor="end" fill="#FCA5A5" font-size="16" font-weight="800">15년 → 3년 단축</text>
+
+    <text x="80" y="1255" fill="#FFFFFF" font-size="16" font-weight="700">비급여 보험료 차등제</text>
+    <text x="570" y="1255" text-anchor="end" fill="#F87171" font-size="16" font-weight="800">최대 300% 할증</text>
+
+    <text x="600" y="1255" fill="#FFFFFF" font-size="16" font-weight="700">무청구 할인</text>
+    <text x="1120" y="1255" text-anchor="end" fill="#2DD4BF" font-size="16" font-weight="800">약 5%</text>
+
+    <text x="80" y="1310" fill="#FCD34D" font-size="14" font-weight="700">→ 의학적 필요성(진료기록부 신경학적 증상 기재)이 비용 절감의 출발점</text>
+  </g>
+
+  <text x="60" y="1420" fill="#64748B" font-size="14" font-family="sans-serif">essencial | 건강·의료 silo · 자료: 복지부·심평원·건보공단·금감원 (2026.04 기준)</text>
+</svg>

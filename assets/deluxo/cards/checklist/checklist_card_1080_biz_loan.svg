@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="80" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="800" fill="#F59E0B">운영자금 대출 신청 전 체크리스트</text>
+  <rect x="60" y="110" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <rect x="60" y="140" width="960" height="100" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="191" font-family="'Pretendard',sans-serif" font-size="34" fill="#22C55E">☑</text>
+  <text x="150" y="185" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">상시근로자 5인 미만 확인</text>
+  <text x="150" y="220" font-family="'Pretendard',sans-serif" font-size="19" fill="#EAF2FF">제조·건설·운수·광업은 10인 미만</text>
+
+  <rect x="60" y="250" width="960" height="100" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="301" font-family="'Pretendard',sans-serif" font-size="34" fill="#22C55E">☑</text>
+  <text x="150" y="295" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">제외 업종 해당 여부 확인</text>
+  <text x="150" y="330" font-family="'Pretendard',sans-serif" font-size="19" fill="#EAF2FF">유흥업·부동산임대업 등 제외</text>
+
+  <rect x="60" y="360" width="960" height="100" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="411" font-family="'Pretendard',sans-serif" font-size="34" fill="#22C55E">☑</text>
+  <text x="150" y="405" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">접수 일정·마감 여부 공고에서 확인</text>
+  <text x="150" y="440" font-family="'Pretendard',sans-serif" font-size="19" fill="#EAF2FF">2분기: 4/6(월) 10:00 (일반·청년·장애인)</text>
+
+  <rect x="60" y="470" width="960" height="100" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="521" font-family="'Pretendard',sans-serif" font-size="34" fill="#22C55E">☑</text>
+  <text x="150" y="515" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">기본 서류 준비</text>
+  <text x="150" y="550" font-family="'Pretendard',sans-serif" font-size="19" fill="#EAF2FF">사업자등록증·신분증·통장사본·부가세 증명원</text>
+
+  <rect x="60" y="580" width="960" height="100" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="631" font-family="'Pretendard',sans-serif" font-size="34" fill="#22C55E">☑</text>
+  <text x="150" y="625" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">자금별 추가 서류 준비</text>
+  <text x="150" y="660" font-family="'Pretendard',sans-serif" font-size="19" fill="#EAF2FF">재해확인서/4대보험/근로계약서/장애인증 등</text>
+
+  <rect x="60" y="690" width="960" height="100" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="741" font-family="'Pretendard',sans-serif" font-size="34" fill="#22C55E">☑</text>
+  <text x="150" y="735" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">정책자금 시스템 회원가입·인증서 등록</text>
+  <text x="150" y="770" font-family="'Pretendard',sans-serif" font-size="19" fill="#EAF2FF">ols.semas.or.kr — 접수일 당일 가입하면 시간 부족!</text>
+
+  <rect x="60" y="800" width="960" height="100" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <text x="100" y="851" font-family="'Pretendard',sans-serif" font-size="34" fill="#22C55E">☑</text>
+  <text x="150" y="845" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">중복 신청 가능 여부 확인</text>
+  <text x="150" y="880" font-family="'Pretendard',sans-serif" font-size="19" fill="#EAF2FF">동일·유사 자금 중복 제한 여부 공고문에서 확인</text>
+
+  <rect x="60" y="920" width="960" height="100" rx="16" fill="rgba(59,130,246,0.15)"/>
+  <text x="100" y="971" font-family="'Pretendard',sans-serif" font-size="34" fill="#3B82F6">🔗</text>
+  <text x="150" y="968" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#3B82F6">ols.semas.or.kr 접속 확인!</text>
+</svg>

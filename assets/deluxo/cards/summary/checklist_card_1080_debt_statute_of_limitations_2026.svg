@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- Header -->
+  <rect x="60" y="60" width="960" height="110" rx="16" fill="#0D2347"/>
+  <text x="540" y="108" font-family="-apple-system, sans-serif" font-size="38" font-weight="700" fill="#34D399" text-anchor="middle">소멸시효 확인 1분 체크리스트</text>
+  <text x="540" y="148" font-family="-apple-system, sans-serif" font-size="26" fill="#A0B4D0" text-anchor="middle">채권자·채무자 모두 확인하세요</text>
+
+  <!-- Creditor section -->
+  <rect x="60" y="200" width="455" height="520" rx="16" fill="#0D2347"/>
+  <text x="287" y="246" font-family="-apple-system, sans-serif" font-size="28" font-weight="700" fill="#60A5FA" text-anchor="middle">채권자 체크리스트</text>
+  <line x1="100" y1="262" x2="475" y2="262" stroke="#1A3270" stroke-width="2"/>
+
+  <text x="100" y="300" font-family="-apple-system, sans-serif" font-size="22" fill="#34D399">☑</text>
+  <text x="130" y="300" font-family="-apple-system, sans-serif" font-size="22" fill="#ffffff">채권 유형 확인 (상사 5년/민사 10년)</text>
+  <text x="100" y="340" font-family="-apple-system, sans-serif" font-size="22" fill="#34D399">☑</text>
+  <text x="130" y="340" font-family="-apple-system, sans-serif" font-size="22" fill="#ffffff">기산점(마지막 거래일) 정확히 확인</text>
+  <text x="100" y="380" font-family="-apple-system, sans-serif" font-size="22" fill="#34D399">☑</text>
+  <text x="130" y="380" font-family="-apple-system, sans-serif" font-size="22" fill="#ffffff">내용증명 발송 (6개월 유예 시작)</text>
+  <text x="100" y="420" font-family="-apple-system, sans-serif" font-size="22" fill="#34D399">☑</text>
+  <text x="130" y="420" font-family="-apple-system, sans-serif" font-size="22" fill="#ffffff">6개월 내 지급명령 또는 소 제기</text>
+  <text x="100" y="460" font-family="-apple-system, sans-serif" font-size="22" fill="#34D399">☑</text>
+  <text x="130" y="460" font-family="-apple-system, sans-serif" font-size="22" fill="#ffffff">판결 확정 후 10년마다 갱신</text>
+  <text x="100" y="500" font-family="-apple-system, sans-serif" font-size="22" fill="#34D399">☑</text>
+  <text x="130" y="500" font-family="-apple-system, sans-serif" font-size="22" fill="#ffffff">채무자 승인 증빙(이자납부 내역) 확보</text>
+
+  <rect x="80" y="560" width="415" height="130" rx="10" fill="#1A3270"/>
+  <text x="287" y="598" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">필요 서류</text>
+  <text x="287" y="628" font-family="-apple-system, sans-serif" font-size="20" fill="#ffffff" text-anchor="middle">차용증·거래내역·채무자 인적사항</text>
+  <text x="287" y="656" font-family="-apple-system, sans-serif" font-size="20" fill="#ffffff" text-anchor="middle">승인 증빙 (이체 내역·문자 등)</text>
+  <text x="287" y="682" font-family="-apple-system, sans-serif" font-size="20" fill="#ffffff" text-anchor="middle">지급명령 신청서</text>
+
+  <!-- Debtor section -->
+  <rect x="565" y="200" width="455" height="520" rx="16" fill="#1A3270"/>
+  <text x="792" y="246" font-family="-apple-system, sans-serif" font-size="28" font-weight="700" fill="#EF4444" text-anchor="middle">채무자 체크리스트</text>
+  <line x1="605" y1="262" x2="980" y2="262" stroke="#0D2347" stroke-width="2"/>
+
+  <text x="605" y="300" font-family="-apple-system, sans-serif" font-size="22" fill="#34D399">☑</text>
+  <text x="635" y="300" font-family="-apple-system, sans-serif" font-size="22" fill="#ffffff">채권 유형·기산점부터 확인</text>
+  <text x="605" y="340" font-family="-apple-system, sans-serif" font-size="22" fill="#34D399">☑</text>
+  <text x="635" y="340" font-family="-apple-system, sans-serif" font-size="22" fill="#ffffff">이자·원금 납부 이력 체크</text>
+  <text x="605" y="380" font-family="-apple-system, sans-serif" font-size="22" fill="#EF4444">⚠</text>
+  <text x="635" y="380" font-family="-apple-system, sans-serif" font-size="22" fill="#EF4444">납부 전 법률 전문가 상담 필수</text>
+  <text x="605" y="420" font-family="-apple-system, sans-serif" font-size="22" fill="#34D399">☑</text>
+  <text x="635" y="420" font-family="-apple-system, sans-serif" font-size="22" fill="#ffffff">소송 시 원용(항변) 서면 준비</text>
+  <text x="605" y="460" font-family="-apple-system, sans-serif" font-size="22" fill="#34D399">☑</text>
+  <text x="635" y="460" font-family="-apple-system, sans-serif" font-size="22" fill="#ffffff">시효 임박 시 채무 인정 표현 삼가</text>
+  <text x="605" y="500" font-family="-apple-system, sans-serif" font-size="22" fill="#34D399">☑</text>
+  <text x="635" y="500" font-family="-apple-system, sans-serif" font-size="22" fill="#ffffff">문자·통화도 증거가 될 수 있음</text>
+
+  <rect x="585" y="560" width="415" height="130" rx="10" fill="#0D2347"/>
+  <text x="792" y="598" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">상담처</text>
+  <text x="792" y="628" font-family="-apple-system, sans-serif" font-size="22" fill="#ffffff" text-anchor="middle">대한법률구조공단 ☎ 132</text>
+  <text x="792" y="656" font-family="-apple-system, sans-serif" font-size="20" fill="#A0B4D0" text-anchor="middle">평일 09:00~18:00 · 무료 법률 상담</text>
+  <text x="792" y="682" font-family="-apple-system, sans-serif" font-size="20" fill="#A0B4D0" text-anchor="middle">easylaw.go.kr 온라인 정보 확인</text>
+
+  <!-- Bottom note -->
+  <rect x="60" y="750" width="960" height="70" rx="12" fill="#0D2347"/>
+  <text x="540" y="780" font-family="-apple-system, sans-serif" font-size="24" font-weight="700" fill="#F59E0B" text-anchor="middle">법적 판단이 필요한 경우 반드시 전문가 상담</text>
+  <text x="540" y="810" font-family="-apple-system, sans-serif" font-size="20" fill="#A0B4D0" text-anchor="middle">소멸시효는 개인 상황에 따라 결론이 달라질 수 있습니다</text>
+
+  <!-- Footer -->
+  <text x="540" y="980" font-family="-apple-system, sans-serif" font-size="26" font-weight="700" fill="#F59E0B" text-anchor="middle">deluxo.co.kr</text>
+  <text x="540" y="1016" font-family="-apple-system, sans-serif" font-size="22" fill="#A0B4D0" text-anchor="middle">소멸시효 확인 1분 체크리스트 | 2026년 최신</text>
+</svg>

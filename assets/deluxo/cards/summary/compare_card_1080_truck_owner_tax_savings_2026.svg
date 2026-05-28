@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="8" fill="#F59E0B"/>
+
+  <!-- Title -->
+  <text x="540" y="68" font-family="-apple-system, sans-serif" font-size="32" font-weight="900" fill="#FFFFFF" text-anchor="middle">4등급 경유 화물차 → 전기화물차 전환</text>
+  <text x="540" y="106" font-family="-apple-system, sans-serif" font-size="21" font-weight="600" fill="#F59E0B" text-anchor="middle">최대 절감 시뮬레이션 (2026 기준)</text>
+
+  <!-- Section 1: 절감 시뮬레이션 -->
+  <text x="60" y="152" font-family="-apple-system, sans-serif" font-size="22" font-weight="800" fill="#34D399">5톤 이하 차량 전환 시 최대 절감 시나리오</text>
+
+  <rect x="40" y="166" width="1000" height="48" rx="6" fill="#1D4ED8"/>
+  <text x="200" y="196" font-family="-apple-system, sans-serif" font-size="17" font-weight="800" fill="#FFFFFF" text-anchor="middle">혜택 항목</text>
+  <text x="540" y="196" font-family="-apple-system, sans-serif" font-size="17" font-weight="800" fill="#FFFFFF" text-anchor="middle">지원 금액</text>
+  <text x="860" y="196" font-family="-apple-system, sans-serif" font-size="17" font-weight="800" fill="#FFFFFF" text-anchor="middle">비고</text>
+
+  <rect x="40" y="222" width="1000" height="62" rx="4" fill="#1A3270"/>
+  <text x="200" y="258" font-family="-apple-system, sans-serif" font-size="17" fill="#EAF2FF" text-anchor="middle">조기폐차 1차 지원금</text>
+  <text x="540" y="258" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#F59E0B" text-anchor="middle">~200만원</text>
+  <text x="860" y="258" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">차량기준가액 70%</text>
+
+  <rect x="40" y="292" width="1000" height="62" rx="4" fill="#102A56"/>
+  <text x="200" y="328" font-family="-apple-system, sans-serif" font-size="17" fill="#EAF2FF" text-anchor="middle">조기폐차 2차 지원금 (전기차 전환)</text>
+  <text x="540" y="328" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#F59E0B" text-anchor="middle">~100만원</text>
+  <text x="860" y="328" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">기준가액 30%</text>
+
+  <rect x="40" y="362" width="1000" height="62" rx="4" fill="#1A3270"/>
+  <text x="200" y="398" font-family="-apple-system, sans-serif" font-size="17" fill="#EAF2FF" text-anchor="middle">중형 전기화물차 보조금 (국비)</text>
+  <text x="540" y="398" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#F59E0B" text-anchor="middle">최대 4,000만원</text>
+  <text x="860" y="398" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">1.5~5톤 기준</text>
+
+  <rect x="40" y="432" width="1000" height="62" rx="4" fill="#102A56"/>
+  <text x="200" y="468" font-family="-apple-system, sans-serif" font-size="17" fill="#EAF2FF" text-anchor="middle">지자체 보조금 (예: 서울 기준)</text>
+  <text x="540" y="468" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#F59E0B" text-anchor="middle">~1,000만원</text>
+  <text x="860" y="468" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">지역마다 상이</text>
+
+  <rect x="40" y="502" width="1000" height="62" rx="4" fill="#1A3270"/>
+  <text x="200" y="538" font-family="-apple-system, sans-serif" font-size="17" fill="#EAF2FF" text-anchor="middle">취득세 50% 감면 (차량가 1억 기준)</text>
+  <text x="540" y="538" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#F59E0B" text-anchor="middle">250만원</text>
+  <text x="860" y="538" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">2028년까지</text>
+
+  <!-- Total -->
+  <rect x="40" y="572" width="1000" height="70" rx="8" fill="#1D4ED8"/>
+  <text x="200" y="614" font-family="-apple-system, sans-serif" font-size="20" font-weight="900" fill="#FFFFFF" text-anchor="middle">합계 절감</text>
+  <text x="540" y="610" font-family="-apple-system, sans-serif" font-size="32" font-weight="900" fill="#F59E0B" text-anchor="middle">최대 5,550만원+</text>
+  <text x="860" y="614" font-family="-apple-system, sans-serif" font-size="15" fill="#E8F0FF" text-anchor="middle">예산 소진 전 신청 필수</text>
+
+  <!-- Divider -->
+  <rect x="40" y="664" width="1000" height="2" fill="#F59E0B" opacity="0.3"/>
+
+  <!-- Section 2: 신청 소요 기간 -->
+  <text x="60" y="704" font-family="-apple-system, sans-serif" font-size="22" font-weight="800" fill="#60A5FA">신청 → 수령 소요 기간</text>
+
+  <rect x="40" y="718" width="477" height="130" rx="12" fill="#1A3270"/>
+  <text x="278" y="760" font-family="-apple-system, sans-serif" font-size="19" font-weight="800" fill="#F59E0B" text-anchor="middle">전기화물차 보조금</text>
+  <text x="278" y="788" font-family="-apple-system, sans-serif" font-size="17" fill="#EAF2FF" text-anchor="middle">신청 → 심사: 1~2주</text>
+  <text x="278" y="812" font-family="-apple-system, sans-serif" font-size="17" fill="#EAF2FF" text-anchor="middle">출고 후 지급: 2~4주</text>
+
+  <rect x="563" y="718" width="477" height="130" rx="12" fill="#1A3270"/>
+  <text x="801" y="760" font-family="-apple-system, sans-serif" font-size="19" font-weight="800" fill="#F59E0B" text-anchor="middle">조기폐차 지원금</text>
+  <text x="801" y="788" font-family="-apple-system, sans-serif" font-size="17" fill="#EAF2FF" text-anchor="middle">신청 → 검사: 1~2주</text>
+  <text x="801" y="812" font-family="-apple-system, sans-serif" font-size="17" fill="#EAF2FF" text-anchor="middle">폐차 후 지급: 2~3주</text>
+
+  <!-- Warning -->
+  <rect x="40" y="872" width="1000" height="100" rx="12" fill="#1D4ED8" opacity="0.2"/>
+  <rect x="40" y="872" width="1000" height="100" rx="12" fill="none" stroke="#EF4444" stroke-width="2"/>
+  <text x="540" y="912" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#EF4444" text-anchor="middle">⚠ 의무운행 기간 주의</text>
+  <text x="540" y="940" font-family="-apple-system, sans-serif" font-size="17" fill="#EAF2FF" text-anchor="middle">전기화물차 보조금 수령 후 2~5년 내 매각·폐차 시 보조금 환수 가능</text>
+
+  <!-- Footer -->
+  <text x="540" y="1002" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준 | 지자체별 보조금 금액은 ev.or.kr에서 확인</text>
+
+  <rect x="0" y="1072" width="1080" height="8" fill="#F59E0B"/>
+</svg>

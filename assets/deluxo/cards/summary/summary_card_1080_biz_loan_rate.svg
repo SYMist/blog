@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#F59E0B">소상공인 대출 금리 비교 요약</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- 정책자금 -->
+  <rect x="60" y="120" width="960" height="200" rx="20" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="132" width="140" height="34" rx="17" fill="#1D4ED8"/>
+  <text x="150" y="156" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="800" fill="#FFF">정책자금</text>
+
+  <text x="80" y="200" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">일반경영안정</text>
+  <text x="350" y="200" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#F59E0B">3.96%</text>
+  <text x="500" y="200" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">한도 7,000만</text>
+
+  <text x="80" y="240" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">혁신성장촉진</text>
+  <text x="350" y="240" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#F59E0B">3.76%</text>
+  <text x="500" y="240" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">한도 10억(시설)</text>
+
+  <text x="80" y="280" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">청년고용연계</text>
+  <text x="350" y="280" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#F59E0B">3.36%</text>
+  <text x="500" y="280" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">한도 7,000만 · 39세↓</text>
+
+  <!-- 보증대출 -->
+  <rect x="60" y="340" width="960" height="160" rx="20" fill="rgba(245,158,11,0.08)"/>
+  <rect x="80" y="352" width="220" height="34" rx="17" fill="#F59E0B"/>
+  <text x="190" y="376" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="800" fill="#0B1F3B">보증대출(이차보전)</text>
+
+  <text x="80" y="420" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">대전 특례보증</text>
+  <text x="350" y="420" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#F59E0B">2.5~3.0%</text>
+  <text x="560" y="420" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">7,000만 · 2.7%p 지원</text>
+
+  <text x="80" y="460" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">경기도 사회적경제</text>
+  <text x="350" y="460" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#F59E0B">협약-2.5%</text>
+  <text x="560" y="460" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">8억 통합 · 2.5%p 지원</text>
+
+  <!-- 시중은행 -->
+  <rect x="60" y="520" width="960" height="120" rx="20" fill="rgba(239,68,68,0.08)"/>
+  <rect x="80" y="532" width="160" height="34" rx="17" fill="#EF4444"/>
+  <text x="160" y="556" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="800" fill="#FFF">시중은행</text>
+
+  <text x="80" y="600" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">5대 은행 신용대출</text>
+  <text x="350" y="600" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#EF4444">4.01~5.38%</text>
+  <text x="600" y="600" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">14개월 만에 4%대 돌파</text>
+
+  <!-- 대환대출 -->
+  <rect x="60" y="660" width="960" height="120" rx="20" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="672" width="140" height="34" rx="17" fill="#1D4ED8"/>
+  <text x="150" y="696" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="800" fill="#FFF">대환대출</text>
+
+  <text x="80" y="740" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">고금리(7%+) → 전환</text>
+  <text x="350" y="740" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#F59E0B">4.5% 고정</text>
+  <text x="560" y="740" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">최대 5,000만 · 10년 분할</text>
+
+  <!-- 금리 우대 -->
+  <rect x="60" y="800" width="960" height="120" rx="20" fill="rgba(245,158,11,0.15)"/>
+  <text x="540" y="840" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#F59E0B">금리 우대 최대 0.8%p</text>
+  <text x="200" y="885" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#EAF2FF">정책 0.2%p</text>
+  <text x="400" y="885" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#EAF2FF">안전망 0.2%p</text>
+  <text x="600" y="885" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#EAF2FF">지역 0.2%p</text>
+  <text x="800" y="885" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#EAF2FF">성실상환 0.3%p</text>
+
+  <!-- 핵심 수치 -->
+  <rect x="60" y="940" width="460" height="80" rx="16" fill="rgba(245,158,11,0.2)"/>
+  <text x="290" y="975" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">정책자금 총 3조 3,620억 원</text>
+  <text x="290" y="1005" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" font-weight="600" fill="#EAF2FF">역대 최대 · 비수도권 60%+ 배정</text>
+
+  <rect x="540" y="940" width="480" height="80" rx="16" fill="rgba(245,158,11,0.2)"/>
+  <text x="780" y="975" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">마이데이터 연 1,680억 절감</text>
+  <text x="780" y="1005" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" font-weight="600" fill="#EAF2FF">자동 금리 인하 · 2026.2.26 시행</text>
+
+  <rect x="60" y="1050" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

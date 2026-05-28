@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <rect x="60" y="50" width="380" height="44" rx="22" fill="#B45309"/>
+  <text x="250" y="80" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">2026 재산세 7월 · 카드 혜택 비교</text>
+
+  <text x="60" y="175" fill="#FFFFFF" font-size="64" font-weight="800" font-family="sans-serif">재산세 카드</text>
+  <text x="60" y="248" fill="#FCD34D" font-size="56" font-weight="800" font-family="sans-serif">캐시백 최대 2%</text>
+
+  <text x="60" y="310" fill="#94A3B8" font-size="22" font-weight="600" font-family="sans-serif">7.16~7.31 · 수수료 0원 · 9대 카드사 확정 캐시백 vs 무이자 총정리</text>
+
+  <!-- 3 key cards -->
+  <rect x="60" y="360" width="340" height="180" rx="16" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="230" y="400" text-anchor="middle" fill="#86EFAC" font-size="16" font-weight="700" font-family="sans-serif">최고 캐시백</text>
+  <text x="230" y="460" text-anchor="middle" fill="#FFFFFF" font-size="46" font-weight="800" font-family="sans-serif">롯데 2%</text>
+  <text x="230" y="495" text-anchor="middle" fill="#86EFAC" font-size="15" font-weight="600" font-family="sans-serif">LOCA Professional</text>
+  <text x="230" y="520" text-anchor="middle" fill="#CBD5E1" font-size="14" font-family="sans-serif">40만 → 8,000원</text>
+
+  <rect x="420" y="360" width="340" height="180" rx="16" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="590" y="400" text-anchor="middle" fill="#86EFAC" font-size="16" font-weight="700" font-family="sans-serif">소액 최고 효율</text>
+  <text x="590" y="460" text-anchor="middle" fill="#FFFFFF" font-size="46" font-weight="800" font-family="sans-serif">KB 7,000원</text>
+  <text x="590" y="495" text-anchor="middle" fill="#86EFAC" font-size="15" font-weight="600" font-family="sans-serif">직장인보너스 체크</text>
+  <text x="590" y="520" text-anchor="middle" fill="#CBD5E1" font-size="14" font-family="sans-serif">정액 · 실효 4.67%</text>
+
+  <rect x="780" y="360" width="360" height="180" rx="16" fill="url(#card)" stroke="#B45309" stroke-width="2"/>
+  <text x="960" y="400" text-anchor="middle" fill="#FCD34D" font-size="16" font-weight="700" font-family="sans-serif">카드 수수료</text>
+  <text x="960" y="460" text-anchor="middle" fill="#FFFFFF" font-size="48" font-weight="800" font-family="sans-serif">0 원</text>
+  <text x="960" y="495" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="600" font-family="sans-serif">지방세 전액 지자체 부담</text>
+  <text x="960" y="520" text-anchor="middle" fill="#CBD5E1" font-size="14" font-family="sans-serif">무이자 할부 2~12개월</text>
+
+  <text x="60" y="590" fill="#64748B" font-size="14" font-family="sans-serif">essencial | 대출·금융 silo · 위택스·카드사 공식 (2026.04 기준)</text>
+</svg>

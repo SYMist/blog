@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+    <filter id="shadow" x="-4%" y="-4%" width="108%" height="108%">
+      <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="url(#bg)" rx="0"/>
+
+  <!-- Badge -->
+  <rect x="60" y="50" width="160" height="44" rx="22" fill="#F59E0B"/>
+  <text x="140" y="79" text-anchor="middle" font-family="'Pretendard', sans-serif" font-size="20" font-weight="700" fill="#0B1F3B">2026 최신</text>
+
+  <!-- Title -->
+  <text x="60" y="145" font-family="'Pretendard', sans-serif" font-size="42" font-weight="800" fill="#FFFFFF">사업자 카드 7종 핵심 비교</text>
+
+  <!-- Divider -->
+  <line x1="60" y1="170" x2="1020" y2="170" stroke="#F59E0B" stroke-width="3" stroke-opacity="0.6"/>
+
+  <!-- Card 1 -->
+  <rect x="60" y="200" width="960" height="90" rx="16" fill="#FFFFFF" fill-opacity="0.07"/>
+  <text x="90" y="240" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#F59E0B">KB 탄탄대로 비즈</text>
+  <text x="90" y="272" font-family="'Pretendard', sans-serif" font-size="20" fill="#FFFFFF" fill-opacity="0.85">운영비 5% + 선택 20% 적립</text>
+
+  <!-- Card 2 -->
+  <rect x="60" y="305" width="960" height="90" rx="16" fill="#FFFFFF" fill-opacity="0.05"/>
+  <text x="90" y="345" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#F59E0B">삼성 BIZ iD BENEFIT</text>
+  <text x="90" y="377" font-family="'Pretendard', sans-serif" font-size="20" fill="#FFFFFF" fill-opacity="0.85">4대보험 1.5%, 월 한도 30만 원</text>
+
+  <!-- Card 3 -->
+  <rect x="60" y="410" width="960" height="90" rx="16" fill="#FFFFFF" fill-opacity="0.07"/>
+  <text x="90" y="450" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#F59E0B">신한 Npay biz</text>
+  <text x="90" y="482" font-family="'Pretendard', sans-serif" font-size="20" fill="#FFFFFF" fill-opacity="0.85">온라인 1.5% 무제한 + 4대보험 5%</text>
+
+  <!-- Card 4 -->
+  <rect x="60" y="515" width="960" height="90" rx="16" fill="#FFFFFF" fill-opacity="0.05"/>
+  <text x="90" y="555" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#F59E0B">롯데 LOCA LIKIT 1.2</text>
+  <text x="90" y="587" font-family="'Pretendard', sans-serif" font-size="20" fill="#FFFFFF" fill-opacity="0.85">전 가맹점 1.2% 실적·한도 무관</text>
+
+  <!-- Card 5 -->
+  <rect x="60" y="620" width="960" height="90" rx="16" fill="#FFFFFF" fill-opacity="0.07"/>
+  <text x="90" y="660" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#F59E0B">현대 D</text>
+  <text x="90" y="692" font-family="'Pretendard', sans-serif" font-size="20" fill="#FFFFFF" fill-opacity="0.85">음식점·배달앱 10%</text>
+
+  <!-- Card 6 -->
+  <rect x="60" y="725" width="960" height="90" rx="16" fill="#FFFFFF" fill-opacity="0.05"/>
+  <text x="90" y="765" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#F59E0B">신한 Mr.Life</text>
+  <text x="90" y="797" font-family="'Pretendard', sans-serif" font-size="20" fill="#FFFFFF" fill-opacity="0.85">공과금 10%</text>
+
+  <!-- Card 7 -->
+  <rect x="60" y="830" width="960" height="90" rx="16" fill="#FFFFFF" fill-opacity="0.07"/>
+  <text x="90" y="870" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#F59E0B">현대 MY BUSINESS M</text>
+  <text x="90" y="902" font-family="'Pretendard', sans-serif" font-size="20" fill="#FFFFFF" fill-opacity="0.85">포인트 현금화 0% 차감</text>
+
+  <!-- Chips -->
+  <rect x="60" y="960" width="96" height="42" rx="32" fill="#E8F0FF"/>
+  <text x="108" y="988" text-anchor="middle" font-family="'Pretendard', sans-serif" font-size="18" font-weight="600" fill="#1D4ED8">비교</text>
+
+  <rect x="176" y="960" width="96" height="42" rx="32" fill="#E8F0FF"/>
+  <text x="224" y="988" text-anchor="middle" font-family="'Pretendard', sans-serif" font-size="18" font-weight="600" fill="#1D4ED8">추천</text>
+
+  <rect x="292" y="960" width="96" height="42" rx="32" fill="#E8F0FF"/>
+  <text x="340" y="988" text-anchor="middle" font-family="'Pretendard', sans-serif" font-size="18" font-weight="600" fill="#1D4ED8">혜택</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0F766E"/>
+      <stop offset="100%" stop-color="#0D9488"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <rect x="370" y="120" width="340" height="50" rx="25" fill="#EF4444"/>
+  <text x="540" y="153" text-anchor="middle" fill="#FFF" font-size="24" font-weight="800" font-family="Pretendard,sans-serif">2026 비교분석</text>
+
+  <text x="540" y="280" text-anchor="middle" fill="#FFFFFF" font-size="68" font-weight="900" font-family="Pretendard,sans-serif">백내장 수술</text>
+
+  <text x="540" y="380" text-anchor="middle" fill="#FFFFFF" font-size="60" font-weight="900" font-family="Pretendard,sans-serif">다초점 렌즈 비교</text>
+
+  <rect x="340" y="415" width="400" height="5" rx="3" fill="url(#teal)"/>
+
+  <text x="540" y="500" text-anchor="middle" fill="#E2E8F0" font-size="36" font-weight="600" font-family="Pretendard,sans-serif">수술 비용·실비 적용 총정리</text>
+
+  <!-- Price Cards -->
+  <rect x="120" y="555" width="380" height="130" rx="18" fill="#1E293B" stroke="#0D9488" stroke-width="2"/>
+  <text x="310" y="605" text-anchor="middle" fill="#5EEAD4" font-size="22" font-weight="700" font-family="Pretendard,sans-serif">전국 평균</text>
+  <text x="310" y="655" text-anchor="middle" fill="#FFFFFF" font-size="36" font-weight="900" font-family="Pretendard,sans-serif">한쪽 220만 원</text>
+
+  <rect x="580" y="555" width="380" height="130" rx="18" fill="#1E293B" stroke="#F59E0B" stroke-width="2"/>
+  <text x="770" y="605" text-anchor="middle" fill="#FDE68A" font-size="22" font-weight="700" font-family="Pretendard,sans-serif">가격 격차</text>
+  <text x="770" y="655" text-anchor="middle" fill="#FFFFFF" font-size="36" font-weight="900" font-family="Pretendard,sans-serif">29만~680만 원</text>
+
+  <!-- Tags -->
+  <rect x="200" y="740" width="120" height="44" rx="22" fill="#F0FDFA"/>
+  <text x="260" y="770" text-anchor="middle" fill="#0F766E" font-size="20" font-weight="700" font-family="Pretendard,sans-serif">비교</text>
+  <rect x="340" y="740" width="120" height="44" rx="22" fill="#F0FDFA"/>
+  <text x="400" y="770" text-anchor="middle" fill="#0F766E" font-size="20" font-weight="700" font-family="Pretendard,sans-serif">다초점</text>
+  <rect x="480" y="740" width="100" height="44" rx="22" fill="#F0FDFA"/>
+  <text x="530" y="770" text-anchor="middle" fill="#0F766E" font-size="20" font-weight="700" font-family="Pretendard,sans-serif">실비</text>
+  <rect x="600" y="740" width="120" height="44" rx="22" fill="#F0FDFA"/>
+  <text x="660" y="770" text-anchor="middle" fill="#0F766E" font-size="20" font-weight="700" font-family="Pretendard,sans-serif">백내장</text>
+  <rect x="740" y="740" width="140" height="44" rx="22" fill="#F0FDFA"/>
+  <text x="810" y="770" text-anchor="middle" fill="#0F766E" font-size="20" font-weight="700" font-family="Pretendard,sans-serif">팬옵틱스</text>
+
+  <text x="540" y="920" text-anchor="middle" fill="#64748B" font-size="22" font-family="Pretendard,sans-serif">essencial | 2026년 4월 기준</text>
+</svg>

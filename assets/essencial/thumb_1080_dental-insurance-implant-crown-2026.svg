@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <rect x="80" y="100" width="160" height="42" rx="21" fill="#EF4444"/>
+  <text x="160" y="128" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800" font-family="sans-serif">2026 최신</text>
+
+  <text x="540" y="250" text-anchor="middle" fill="#FFFFFF" font-size="52" font-weight="800" font-family="sans-serif">치아보험 비교</text>
+  <text x="540" y="320" text-anchor="middle" fill="#FFFFFF" font-size="52" font-weight="800" font-family="sans-serif">임플란트·크라운</text>
+  <text x="540" y="390" text-anchor="middle" fill="#FFFFFF" font-size="52" font-weight="800" font-family="sans-serif">보장 조건별 추천</text>
+
+  <text x="540" y="460" text-anchor="middle" fill="#E2E8F0" font-size="28" font-weight="600" font-family="sans-serif">4사 비교 — 무제한 vs 한도형</text>
+
+  <rect x="340" y="490" width="400" height="3" rx="2" fill="#7C3AED" opacity="0.5"/>
+
+  <rect x="175" y="520" width="140" height="38" rx="19" fill="#FEF3C7"/>
+  <text x="245" y="545" text-anchor="middle" fill="#92400E" font-size="16" font-weight="700" font-family="sans-serif">임플란트</text>
+  <rect x="335" y="520" width="140" height="38" rx="19" fill="#FEF3C7"/>
+  <text x="405" y="545" text-anchor="middle" fill="#92400E" font-size="16" font-weight="700" font-family="sans-serif">크라운</text>
+  <rect x="495" y="520" width="140" height="38" rx="19" fill="#FEF3C7"/>
+  <text x="565" y="545" text-anchor="middle" fill="#92400E" font-size="16" font-weight="700" font-family="sans-serif">보장조건</text>
+  <rect x="655" y="520" width="170" height="38" rx="19" fill="#FEF3C7"/>
+  <text x="740" y="545" text-anchor="middle" fill="#92400E" font-size="16" font-weight="700" font-family="sans-serif">면책·감액</text>
+
+  <!-- Key Cards -->
+  <g transform="translate(80,600)">
+    <rect x="0" y="0" width="440" height="180" rx="20" fill="#1e293b"/>
+    <rect x="0" y="0" width="440" height="5" rx="3" fill="#7C3AED"/>
+    <text x="220" y="40" text-anchor="middle" fill="#C4B5FD" font-size="20" font-weight="700" font-family="sans-serif">삼성화재·DB손보</text>
+    <text x="220" y="72" text-anchor="middle" fill="#FFFFFF" font-size="26" font-weight="800" font-family="sans-serif">임플란트 무제한</text>
+    <text x="220" y="100" text-anchor="middle" fill="#CBD5E1" font-size="16" font-family="sans-serif">크라운 무제한 + 치조골 이식</text>
+    <text x="220" y="135" text-anchor="middle" fill="#FCD34D" font-size="16" font-weight="600" font-family="sans-serif">50대+ 다수 치아 상실 대비</text>
+    <text x="220" y="165" text-anchor="middle" fill="#34D399" font-size="15" font-weight="600" font-family="sans-serif">리스크 완전 제거</text>
+  </g>
+
+  <g transform="translate(560,600)">
+    <rect x="0" y="0" width="440" height="180" rx="20" fill="#1e293b"/>
+    <rect x="0" y="0" width="440" height="5" rx="3" fill="#34D399"/>
+    <text x="220" y="40" text-anchor="middle" fill="#6EE7B7" font-size="20" font-weight="700" font-family="sans-serif">라이나·라이프플래닛</text>
+    <text x="220" y="72" text-anchor="middle" fill="#FFFFFF" font-size="26" font-weight="800" font-family="sans-serif">임플란트 연 3개</text>
+    <text x="220" y="100" text-anchor="middle" fill="#CBD5E1" font-size="16" font-family="sans-serif">라이나: 재식립 100만 원 특약</text>
+    <text x="220" y="135" text-anchor="middle" fill="#FCD34D" font-size="16" font-weight="600" font-family="sans-serif">20~40대 관리 양호</text>
+    <text x="220" y="165" text-anchor="middle" fill="#34D399" font-size="15" font-weight="600" font-family="sans-serif">보험료 효율 최고</text>
+  </g>
+
+  <rect x="230" y="830" width="620" height="56" rx="16" fill="#7C3AED" opacity="0.3"/>
+  <text x="540" y="865" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="700" font-family="sans-serif">면책 90일 · 감액 2년 · 진단형이면 즉시 100%</text>
+
+  <text x="540" y="980" text-anchor="middle" fill="#64748B" font-size="16" font-family="sans-serif">essencial | 비교형 콘텐츠</text>
+</svg>

@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 760">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="760" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="540" y="50" text-anchor="middle" fill="#FFFFFF" font-size="24" font-weight="800" font-family="sans-serif">내 상황에 맞는 연금 선택 시나리오</text>
+  <text x="540" y="76" text-anchor="middle" fill="#D97706" font-size="14" font-family="sans-serif">연령·자산·직업별 주택연금·농지연금 최적 선택 — 2026.05 기준</text>
+  <rect x="40" y="92" width="1000" height="2" rx="1" fill="#B45309" fill-opacity="0.4"/>
+
+  <!-- Scenario 1 -->
+  <rect x="40" y="108" width="480" height="118" rx="12" fill="url(#card)" stroke="#B45309" stroke-width="1.5"/>
+  <rect x="40" y="108" width="48" height="118" rx="12" fill="#B45309" fill-opacity="0.3"/>
+  <rect x="72" y="108" width="16" height="118" fill="#B45309" fill-opacity="0.3"/>
+  <text x="64" y="173" text-anchor="middle" fill="#FCD34D" font-size="22" font-weight="800" font-family="sans-serif">1</text>
+  <text x="108" y="134" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">57세 도시 거주자, 공시가 4억 주택 보유</text>
+  <text x="108" y="158" fill="#FCD34D" font-size="16" font-weight="800" font-family="sans-serif">→ 주택연금 (57세 기준 약 58만원/월)</text>
+  <text x="108" y="182" fill="#CBD5E1" font-size="13" font-family="sans-serif">55세 이상·12억↓ 충족. 월 생활비 보완에 적합</text>
+  <text x="108" y="202" fill="#94A3B8" font-size="12" font-family="sans-serif">초기보증료 1.0% (400만원) 확인 후 가입 진행</text>
+
+  <!-- Scenario 2 -->
+  <rect x="560" y="108" width="480" height="118" rx="12" fill="url(#card)" stroke="#0F766E" stroke-width="1.5"/>
+  <rect x="560" y="108" width="48" height="118" rx="12" fill="#0F766E" fill-opacity="0.3"/>
+  <rect x="592" y="108" width="16" height="118" fill="#0F766E" fill-opacity="0.3"/>
+  <text x="584" y="173" text-anchor="middle" fill="#6EE7B7" font-size="22" font-weight="800" font-family="sans-serif">2</text>
+  <text x="628" y="134" fill="#6EE7B7" font-size="13" font-weight="700" font-family="sans-serif">62세 농업인, 논·밭 2억원, 영농경력 10년</text>
+  <text x="628" y="158" fill="#FCD34D" font-size="16" font-weight="800" font-family="sans-serif">→ 농지연금 종신형 (약 85만원/월)</text>
+  <text x="628" y="182" fill="#CBD5E1" font-size="13" font-family="sans-serif">60세+ 조건 충족. 영농 계속하며 연금 수령 가능</text>
+  <text x="628" y="202" fill="#94A3B8" font-size="12" font-family="sans-serif">기간형 10년 선택 시 약 200만원/월로 증가</text>
+
+  <!-- Scenario 3 -->
+  <rect x="40" y="244" width="480" height="118" rx="12" fill="url(#card)" stroke="#7C3AED" stroke-width="1.5"/>
+  <rect x="40" y="244" width="48" height="118" rx="12" fill="#7C3AED" fill-opacity="0.3"/>
+  <rect x="72" y="244" width="16" height="118" fill="#7C3AED" fill-opacity="0.3"/>
+  <text x="64" y="309" text-anchor="middle" fill="#C4B5FD" font-size="22" font-weight="800" font-family="sans-serif">3</text>
+  <text x="108" y="270" fill="#C4B5FD" font-size="13" font-weight="700" font-family="sans-serif">65세, 주택 3억 + 농지 2억 동시 보유</text>
+  <text x="108" y="294" fill="#FCD34D" font-size="16" font-weight="800" font-family="sans-serif">→ 두 연금 동시 가입 (월 약 163만원)</text>
+  <text x="108" y="318" fill="#CBD5E1" font-size="13" font-family="sans-serif">주택연금 75.8만 + 농지연금 약 88만 병행</text>
+  <text x="108" y="338" fill="#94A3B8" font-size="12" font-family="sans-serif">담보 자산이 달라 동시 가입 가능</text>
+
+  <!-- Scenario 4 -->
+  <rect x="560" y="244" width="480" height="118" rx="12" fill="url(#card)" stroke="#EF4444" stroke-width="1.5"/>
+  <rect x="560" y="244" width="48" height="118" rx="12" fill="#EF4444" fill-opacity="0.2"/>
+  <rect x="592" y="244" width="16" height="118" fill="#EF4444" fill-opacity="0.2"/>
+  <text x="584" y="309" text-anchor="middle" fill="#FCA5A5" font-size="22" font-weight="800" font-family="sans-serif">4</text>
+  <text x="628" y="270" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">60세, 공시가 15억 주택 보유 (주택연금 불가)</text>
+  <text x="628" y="294" fill="#FCD34D" font-size="16" font-weight="800" font-family="sans-serif">→ 소형 이사 후 주택연금 재가입 검토</text>
+  <text x="628" y="318" fill="#CBD5E1" font-size="13" font-family="sans-serif">12억 초과로 주택연금 가입 불가 상태</text>
+  <text x="628" y="338" fill="#94A3B8" font-size="12" font-family="sans-serif">12억↓ 주택으로 이사 후 가입 전략 유효</text>
+
+  <!-- Scenario 5 -->
+  <rect x="40" y="380" width="1000" height="118" rx="12" fill="url(#card)" stroke="#B45309" stroke-width="2"/>
+  <rect x="40" y="380" width="48" height="118" rx="12" fill="#B45309" fill-opacity="0.3"/>
+  <rect x="72" y="380" width="16" height="118" fill="#B45309" fill-opacity="0.3"/>
+  <text x="64" y="445" text-anchor="middle" fill="#FCD34D" font-size="22" font-weight="800" font-family="sans-serif">5</text>
+  <text x="108" y="406" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">65세 은퇴 농업인, 도시 이주 계획 — 최적 순서</text>
+  <text x="108" y="430" fill="#FCD34D" font-size="16" font-weight="800" font-family="sans-serif">→ 농지연금 먼저 가입 → 도시 이주 → 주택연금 추가</text>
+  <text x="108" y="454" fill="#FFFFFF" font-size="13" font-family="sans-serif">① 농지연금 계약 확정 → ② 도시 주택 구매 → ③ 주택연금 신청</text>
+  <text x="108" y="474" fill="#94A3B8" font-size="12" font-family="sans-serif">순서를 바꾸면 영농의무 충돌 가능 — 한국농어촌공사 사전 상담 필수</text>
+
+  <!-- Divider -->
+  <rect x="40" y="516" width="1000" height="2" rx="1" fill="#334155"/>
+
+  <!-- Summary box -->
+  <rect x="40" y="528" width="1000" height="190" rx="12" fill="#1e293b" fill-opacity="0.8"/>
+  <text x="540" y="558" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="800" font-family="sans-serif">선택 핵심 체크포인트</text>
+
+  <text x="80" y="588" fill="#6EE7B7" font-size="14" font-weight="700" font-family="sans-serif">① 연령</text>
+  <text x="80" y="608" fill="#CBD5E1" font-size="13" font-family="sans-serif">55세+ → 주택연금 가능 / 60세+ 농업인 → 농지연금 가능 / 55~59세 농업인 → 주택연금만 가능</text>
+
+  <text x="80" y="638" fill="#6EE7B7" font-size="14" font-weight="700" font-family="sans-serif">② 자산 유형</text>
+  <text x="80" y="658" fill="#CBD5E1" font-size="13" font-family="sans-serif">주택(공시가 12억↓) → 주택연금 / 논·밭·과수원 → 농지연금 / 두 자산 → 동시 가입</text>
+
+  <text x="80" y="688" fill="#6EE7B7" font-size="14" font-weight="700" font-family="sans-serif">③ 수령액 목표</text>
+  <text x="80" y="708" fill="#CBD5E1" font-size="13" font-family="sans-serif">300만원 이상 필요 → 주택연금(고가 주택) 유리 / 농지 고가라도 농지연금 상한 300만원</text>
+
+  <!-- Footer -->
+  <text x="40" y="748" fill="#64748B" font-size="12" font-family="sans-serif">essencial | 대출·금융 silo · 2026.05 기준 · 개인 상황에 따라 다를 수 있으며 가입 전 약관 확인 필요</text>
+</svg>

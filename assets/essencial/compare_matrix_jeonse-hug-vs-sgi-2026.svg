@@ -1,0 +1,202 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 1050">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="amber" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#B45309"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+  </defs>
+  <rect width="860" height="1050" fill="url(#bg)" rx="20"/>
+
+  <!-- Title -->
+  <text x="30" y="50" fill="#FFF" font-size="26" font-weight="900" font-family="Pretendard,sans-serif">HUG vs SGI 항목별 비교표</text>
+  <rect x="30" y="62" width="200" height="3" rx="2" fill="url(#amber)"/>
+
+  <!-- Comparison Table -->
+  <!-- Header -->
+  <rect x="30" y="85" width="250" height="42" rx="8" fill="#374151"/>
+  <rect x="290" y="85" width="270" height="42" rx="8" fill="#D97706"/>
+  <rect x="570" y="85" width="260" height="42" rx="8" fill="#22C55E"/>
+  <text x="155" y="113" text-anchor="middle" fill="#94A3B8" font-size="16" font-weight="700" font-family="Pretendard,sans-serif">비교 항목</text>
+  <text x="425" y="113" text-anchor="middle" fill="#FFF" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">HUG (주택도시보증공사)</text>
+  <text x="700" y="113" text-anchor="middle" fill="#FFF" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">SGI (서울보증보험)</text>
+
+  <!-- Row 1: 성격 -->
+  <rect x="30" y="133" width="250" height="40" rx="0" fill="#1E293B"/>
+  <rect x="290" y="133" width="270" height="40" fill="#1E293B"/>
+  <rect x="570" y="133" width="260" height="40" fill="#1E293B"/>
+  <text x="50" y="159" fill="#FBBF24" font-size="14" font-weight="700" font-family="Pretendard,sans-serif">❶ 성격</text>
+  <text x="425" y="159" text-anchor="middle" fill="#E2E8F0" font-size="14" font-weight="600" font-family="Pretendard,sans-serif">공적 보증기관</text>
+  <text x="700" y="159" text-anchor="middle" fill="#E2E8F0" font-size="14" font-weight="600" font-family="Pretendard,sans-serif">민간 보증보험사</text>
+
+  <!-- Row 2: 보증한도 -->
+  <rect x="30" y="177" width="250" height="40" fill="#162032"/>
+  <rect x="290" y="177" width="270" height="40" fill="#162032"/>
+  <rect x="570" y="177" width="260" height="40" fill="#162032"/>
+  <text x="50" y="203" fill="#FBBF24" font-size="14" font-weight="700" font-family="Pretendard,sans-serif">❷ 보증 한도 (수도권)</text>
+  <text x="425" y="203" text-anchor="middle" fill="#E2E8F0" font-size="14" font-weight="700" font-family="Pretendard,sans-serif">최대 7억 원</text>
+  <rect x="610" y="190" width="80" height="22" rx="11" fill="#22C55E" opacity="0.2"/>
+  <text x="700" y="203" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="800" font-family="Pretendard,sans-serif">제한 없음 ★</text>
+
+  <!-- Row 3: 아파트 보증료 -->
+  <rect x="30" y="221" width="250" height="40" fill="#1E293B"/>
+  <rect x="290" y="221" width="270" height="40" fill="#1E293B"/>
+  <rect x="570" y="221" width="260" height="40" fill="#1E293B"/>
+  <text x="50" y="247" fill="#FBBF24" font-size="14" font-weight="700" font-family="Pretendard,sans-serif">❸ 아파트 보증료 (연)</text>
+  <rect x="340" y="234" width="100" height="22" rx="11" fill="#D97706" opacity="0.2"/>
+  <text x="425" y="247" text-anchor="middle" fill="#FBBF24" font-size="14" font-weight="800" font-family="Pretendard,sans-serif">0.115~0.128% ★</text>
+  <text x="700" y="247" text-anchor="middle" fill="#E2E8F0" font-size="14" font-weight="600" font-family="Pretendard,sans-serif">0.192%</text>
+
+  <!-- Row 4: 비아파트 보증료 -->
+  <rect x="30" y="265" width="250" height="40" fill="#162032"/>
+  <rect x="290" y="265" width="270" height="40" fill="#162032"/>
+  <rect x="570" y="265" width="260" height="40" fill="#162032"/>
+  <text x="50" y="291" fill="#FBBF24" font-size="14" font-weight="700" font-family="Pretendard,sans-serif">❹ 비아파트 보증료 (연)</text>
+  <rect x="340" y="278" width="110" height="22" rx="11" fill="#D97706" opacity="0.2"/>
+  <text x="425" y="291" text-anchor="middle" fill="#FBBF24" font-size="14" font-weight="800" font-family="Pretendard,sans-serif">0.139~0.154% ★</text>
+  <text x="700" y="291" text-anchor="middle" fill="#E2E8F0" font-size="14" font-weight="600" font-family="Pretendard,sans-serif">0.218%</text>
+
+  <!-- Row 5: 주택가격 산정 -->
+  <rect x="30" y="309" width="250" height="40" fill="#1E293B"/>
+  <rect x="290" y="309" width="270" height="40" fill="#1E293B"/>
+  <rect x="570" y="309" width="260" height="40" fill="#1E293B"/>
+  <text x="50" y="335" fill="#FBBF24" font-size="14" font-weight="700" font-family="Pretendard,sans-serif">❺ 주택가격 산정</text>
+  <text x="425" y="335" text-anchor="middle" fill="#E2E8F0" font-size="14" font-weight="600" font-family="Pretendard,sans-serif">공시가 126% 룰 (엄격)</text>
+  <rect x="620" y="322" width="120" height="22" rx="11" fill="#22C55E" opacity="0.2"/>
+  <text x="700" y="335" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="800" font-family="Pretendard,sans-serif">KB시세·감정가 ★</text>
+
+  <!-- Row 6: 심사 특징 -->
+  <rect x="30" y="353" width="250" height="40" fill="#162032"/>
+  <rect x="290" y="353" width="270" height="40" fill="#162032"/>
+  <rect x="570" y="353" width="260" height="40" fill="#162032"/>
+  <text x="50" y="379" fill="#FBBF24" font-size="14" font-weight="700" font-family="Pretendard,sans-serif">❻ 심사 특징</text>
+  <text x="425" y="379" text-anchor="middle" fill="#E2E8F0" font-size="14" font-weight="600" font-family="Pretendard,sans-serif">주택 담보가치+전세가율</text>
+  <text x="700" y="379" text-anchor="middle" fill="#E2E8F0" font-size="14" font-weight="600" font-family="Pretendard,sans-serif">임대인 신용+DSR 40%</text>
+
+  <!-- Row 7: 심사 기간 -->
+  <rect x="30" y="397" width="250" height="40" fill="#1E293B"/>
+  <rect x="290" y="397" width="270" height="40" fill="#1E293B"/>
+  <rect x="570" y="397" width="260" height="40" fill="#1E293B"/>
+  <text x="50" y="423" fill="#FBBF24" font-size="14" font-weight="700" font-family="Pretendard,sans-serif">❼ 심사 기간</text>
+  <rect x="355" y="410" width="100" height="22" rx="11" fill="#D97706" opacity="0.2"/>
+  <text x="425" y="423" text-anchor="middle" fill="#FBBF24" font-size="14" font-weight="800" font-family="Pretendard,sans-serif">3~7영업일 ★</text>
+  <text x="700" y="423" text-anchor="middle" fill="#E2E8F0" font-size="14" font-weight="600" font-family="Pretendard,sans-serif">5~10영업일</text>
+
+  <!-- Row 8: 핵심 장점 -->
+  <rect x="30" y="441" width="250" height="40" fill="#162032"/>
+  <rect x="290" y="441" width="270" height="40" fill="#162032"/>
+  <rect x="570" y="441" width="260" height="40" fill="#162032"/>
+  <text x="50" y="467" fill="#FBBF24" font-size="14" font-weight="700" font-family="Pretendard,sans-serif">❽ 핵심 장점</text>
+  <text x="425" y="467" text-anchor="middle" fill="#E2E8F0" font-size="14" font-weight="600" font-family="Pretendard,sans-serif">보증료 저렴, 공적 신뢰</text>
+  <text x="700" y="467" text-anchor="middle" fill="#E2E8F0" font-size="14" font-weight="600" font-family="Pretendard,sans-serif">고액 전세 가능</text>
+
+  <!-- Row 9: 핵심 단점 -->
+  <rect x="30" y="485" width="250" height="40" fill="#1E293B"/>
+  <rect x="290" y="485" width="270" height="40" fill="#1E293B"/>
+  <rect x="570" y="485" width="260" height="40" fill="#1E293B"/>
+  <text x="50" y="511" fill="#FBBF24" font-size="14" font-weight="700" font-family="Pretendard,sans-serif">❾ 핵심 단점</text>
+  <text x="425" y="511" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="600" font-family="Pretendard,sans-serif">126% 룰 까다로움</text>
+  <text x="700" y="511" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="600" font-family="Pretendard,sans-serif">보증료 높음, 심사 복잡</text>
+
+  <!-- SGI LTV 차등 보증료 -->
+  <text x="30" y="565" fill="#FFF" font-size="22" font-weight="900" font-family="Pretendard,sans-serif">SGI LTV별 보증료 차등 체계</text>
+  <rect x="30" y="577" width="150" height="3" rx="2" fill="url(#amber)"/>
+
+  <!-- LTV Cards -->
+  <rect x="30" y="595" width="250" height="110" rx="14" fill="#1E293B" stroke="#22C55E" stroke-width="2"/>
+  <text x="155" y="625" text-anchor="middle" fill="#86EFAC" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">LTV 70% 이하</text>
+  <text x="155" y="660" text-anchor="middle" fill="#FFF" font-size="24" font-weight="900" font-family="Pretendard,sans-serif">20% 할인</text>
+  <text x="155" y="690" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="Pretendard,sans-serif">아파트 약 0.154%</text>
+
+  <rect x="305" y="595" width="250" height="110" rx="14" fill="#1E293B" stroke="#D97706" stroke-width="2"/>
+  <text x="430" y="625" text-anchor="middle" fill="#FBBF24" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">LTV 70~90%</text>
+  <text x="430" y="660" text-anchor="middle" fill="#FFF" font-size="24" font-weight="900" font-family="Pretendard,sans-serif">기본 요율</text>
+  <text x="430" y="690" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="Pretendard,sans-serif">아파트 0.192%</text>
+
+  <rect x="580" y="595" width="250" height="110" rx="14" fill="#1E293B" stroke="#EF4444" stroke-width="2"/>
+  <text x="705" y="625" text-anchor="middle" fill="#FCA5A5" font-size="16" font-weight="800" font-family="Pretendard,sans-serif">LTV 90% 초과</text>
+  <text x="705" y="660" text-anchor="middle" fill="#FFF" font-size="24" font-weight="900" font-family="Pretendard,sans-serif">10% 할증</text>
+  <text x="705" y="690" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="Pretendard,sans-serif">아파트 약 0.211%</text>
+
+  <!-- 보증료 시뮬레이션 -->
+  <text x="30" y="745" fill="#FFF" font-size="22" font-weight="900" font-family="Pretendard,sans-serif">보증금별 연간 보증료 시뮬레이션</text>
+  <rect x="30" y="757" width="200" height="3" rx="2" fill="url(#amber)"/>
+
+  <!-- Simulation Table -->
+  <rect x="30" y="775" width="170" height="36" rx="0" fill="#374151"/>
+  <rect x="200" y="775" width="160" height="36" fill="#D97706"/>
+  <rect x="360" y="775" width="160" height="36" fill="#D97706"/>
+  <rect x="520" y="775" width="160" height="36" fill="#22C55E"/>
+  <rect x="680" y="775" width="150" height="36" fill="#22C55E"/>
+  <text x="115" y="799" text-anchor="middle" fill="#94A3B8" font-size="13" font-weight="700" font-family="Pretendard,sans-serif">보증금</text>
+  <text x="280" y="799" text-anchor="middle" fill="#FFF" font-size="13" font-weight="700" font-family="Pretendard,sans-serif">HUG 아파트</text>
+  <text x="440" y="799" text-anchor="middle" fill="#FFF" font-size="13" font-weight="700" font-family="Pretendard,sans-serif">HUG 빌라</text>
+  <text x="600" y="799" text-anchor="middle" fill="#FFF" font-size="13" font-weight="700" font-family="Pretendard,sans-serif">SGI 기본</text>
+  <text x="755" y="799" text-anchor="middle" fill="#FFF" font-size="13" font-weight="700" font-family="Pretendard,sans-serif">SGI 할인</text>
+
+  <!-- Row: 2억 -->
+  <rect x="30" y="815" width="170" height="34" fill="#1E293B"/>
+  <rect x="200" y="815" width="160" height="34" fill="#1E293B"/>
+  <rect x="360" y="815" width="160" height="34" fill="#1E293B"/>
+  <rect x="520" y="815" width="160" height="34" fill="#1E293B"/>
+  <rect x="680" y="815" width="150" height="34" fill="#1E293B"/>
+  <text x="115" y="837" text-anchor="middle" fill="#FFF" font-size="14" font-weight="700" font-family="Pretendard,sans-serif">2억 원</text>
+  <text x="280" y="837" text-anchor="middle" fill="#FBBF24" font-size="14" font-weight="700" font-family="Pretendard,sans-serif">23~26만</text>
+  <text x="440" y="837" text-anchor="middle" fill="#FBBF24" font-size="14" font-weight="700" font-family="Pretendard,sans-serif">28~31만</text>
+  <text x="600" y="837" text-anchor="middle" fill="#E2E8F0" font-size="14" font-weight="600" font-family="Pretendard,sans-serif">38만</text>
+  <text x="755" y="837" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="600" font-family="Pretendard,sans-serif">31만</text>
+
+  <!-- Row: 3억 -->
+  <rect x="30" y="853" width="170" height="34" fill="#162032"/>
+  <rect x="200" y="853" width="160" height="34" fill="#162032"/>
+  <rect x="360" y="853" width="160" height="34" fill="#162032"/>
+  <rect x="520" y="853" width="160" height="34" fill="#162032"/>
+  <rect x="680" y="853" width="150" height="34" fill="#162032"/>
+  <text x="115" y="875" text-anchor="middle" fill="#FFF" font-size="14" font-weight="700" font-family="Pretendard,sans-serif">3억 원</text>
+  <text x="280" y="875" text-anchor="middle" fill="#FBBF24" font-size="14" font-weight="700" font-family="Pretendard,sans-serif">35~38만</text>
+  <text x="440" y="875" text-anchor="middle" fill="#FBBF24" font-size="14" font-weight="700" font-family="Pretendard,sans-serif">42~46만</text>
+  <text x="600" y="875" text-anchor="middle" fill="#E2E8F0" font-size="14" font-weight="600" font-family="Pretendard,sans-serif">58만</text>
+  <text x="755" y="875" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="600" font-family="Pretendard,sans-serif">46만</text>
+
+  <!-- Row: 5억 -->
+  <rect x="30" y="891" width="170" height="34" fill="#1E293B"/>
+  <rect x="200" y="891" width="160" height="34" fill="#1E293B"/>
+  <rect x="360" y="891" width="160" height="34" fill="#1E293B"/>
+  <rect x="520" y="891" width="160" height="34" fill="#1E293B"/>
+  <rect x="680" y="891" width="150" height="34" fill="#1E293B"/>
+  <text x="115" y="913" text-anchor="middle" fill="#FFF" font-size="14" font-weight="700" font-family="Pretendard,sans-serif">5억 원</text>
+  <text x="280" y="913" text-anchor="middle" fill="#FBBF24" font-size="14" font-weight="700" font-family="Pretendard,sans-serif">57~64만</text>
+  <text x="440" y="913" text-anchor="middle" fill="#FBBF24" font-size="14" font-weight="700" font-family="Pretendard,sans-serif">70~77만</text>
+  <text x="600" y="913" text-anchor="middle" fill="#E2E8F0" font-size="14" font-weight="600" font-family="Pretendard,sans-serif">96만</text>
+  <text x="755" y="913" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="600" font-family="Pretendard,sans-serif">77만</text>
+
+  <!-- Row: 7억 -->
+  <rect x="30" y="929" width="170" height="34" fill="#162032"/>
+  <rect x="200" y="929" width="160" height="34" fill="#162032"/>
+  <rect x="360" y="929" width="160" height="34" fill="#162032"/>
+  <rect x="520" y="929" width="160" height="34" fill="#162032"/>
+  <rect x="680" y="929" width="150" height="34" fill="#162032"/>
+  <text x="115" y="951" text-anchor="middle" fill="#FFF" font-size="14" font-weight="700" font-family="Pretendard,sans-serif">7억 원</text>
+  <text x="280" y="951" text-anchor="middle" fill="#FBBF24" font-size="14" font-weight="700" font-family="Pretendard,sans-serif">81~90만</text>
+  <text x="440" y="951" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="700" font-family="Pretendard,sans-serif">한도 초과</text>
+  <text x="600" y="951" text-anchor="middle" fill="#E2E8F0" font-size="14" font-weight="600" font-family="Pretendard,sans-serif">134만</text>
+  <text x="755" y="951" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="600" font-family="Pretendard,sans-serif">108만</text>
+
+  <!-- Row: 10억 -->
+  <rect x="30" y="967" width="170" height="34" fill="#1E293B"/>
+  <rect x="200" y="967" width="160" height="34" fill="#1E293B"/>
+  <rect x="360" y="967" width="160" height="34" fill="#1E293B"/>
+  <rect x="520" y="967" width="160" height="34" fill="#1E293B"/>
+  <rect x="680" y="967" width="150" height="34" fill="#1E293B"/>
+  <text x="115" y="989" text-anchor="middle" fill="#FFF" font-size="14" font-weight="700" font-family="Pretendard,sans-serif">10억 원</text>
+  <text x="280" y="989" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="700" font-family="Pretendard,sans-serif">한도 초과</text>
+  <text x="440" y="989" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="700" font-family="Pretendard,sans-serif">한도 초과</text>
+  <text x="600" y="989" text-anchor="middle" fill="#E2E8F0" font-size="14" font-weight="600" font-family="Pretendard,sans-serif">192만</text>
+  <text x="755" y="989" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="600" font-family="Pretendard,sans-serif">154만</text>
+
+  <!-- Footer -->
+  <text x="30" y="1035" fill="#64748B" font-size="14" font-family="Pretendard,sans-serif">essencial | 2026년 4월 기준 · HUG 할인 시 0.154%, SGI LTV 70% 이하 기준</text>
+</svg>

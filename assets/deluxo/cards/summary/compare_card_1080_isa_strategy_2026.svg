@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <text x="540" y="108" font-family="'Pretendard', sans-serif" font-size="44" font-weight="900" fill="#F59E0B" text-anchor="middle">ISA 유형별 한 눈에 비교</text>
+  <text x="540" y="162" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#EAF2FF" text-anchor="middle">일반형 · 서민형 · 청년형 · 국내투자형</text>
+
+  <!-- Header Row -->
+  <rect x="60" y="200" width="170" height="110" rx="0" fill="#1A3270"/>
+  <text x="145" y="263" font-family="'Pretendard', sans-serif" font-size="20" font-weight="800" fill="#EAF2FF" text-anchor="middle">구분</text>
+
+  <rect x="238" y="200" width="200" height="110" rx="0" fill="#1D4ED8"/>
+  <text x="338" y="263" font-family="'Pretendard', sans-serif" font-size="20" font-weight="900" fill="#FFFFFF" text-anchor="middle">일반형</text>
+
+  <rect x="446" y="200" width="200" height="110" rx="0" fill="#1E40AF"/>
+  <text x="546" y="263" font-family="'Pretendard', sans-serif" font-size="20" font-weight="900" fill="#FFFFFF" text-anchor="middle">서민형</text>
+
+  <rect x="654" y="200" width="200" height="110" rx="0" fill="#F59E0B"/>
+  <text x="754" y="263" font-family="'Pretendard', sans-serif" font-size="20" font-weight="900" fill="#0B1F3B" text-anchor="middle">청년형</text>
+
+  <rect x="862" y="200" width="158" height="110" rx="0" fill="#1A3270"/>
+  <text x="941" y="255" font-family="'Pretendard', sans-serif" font-size="18" font-weight="800" fill="#EAF2FF" text-anchor="middle">국내</text>
+  <text x="941" y="291" font-family="'Pretendard', sans-serif" font-size="18" font-weight="800" fill="#EAF2FF" text-anchor="middle">투자형</text>
+
+  <!-- Row: 자격 (y=318, h=130) -->
+  <rect x="60" y="318" width="170" height="130" rx="0" fill="#162C5A"/>
+  <text x="145" y="390" font-family="'Pretendard', sans-serif" font-size="18" font-weight="800" fill="#EAF2FF" text-anchor="middle">자격</text>
+
+  <rect x="238" y="318" width="200" height="130" rx="0" fill="#0F2247"/>
+  <text x="338" y="372" font-family="'Pretendard', sans-serif" font-size="16" font-weight="700" fill="#EAF2FF" text-anchor="middle">만 19세↑</text>
+  <text x="338" y="404" font-family="'Pretendard', sans-serif" font-size="16" font-weight="700" fill="#EAF2FF" text-anchor="middle">소득 무관</text>
+
+  <rect x="446" y="318" width="200" height="130" rx="0" fill="#0F2247"/>
+  <text x="546" y="360" font-family="'Pretendard', sans-serif" font-size="15" font-weight="700" fill="#EAF2FF" text-anchor="middle">총급여 5,000만↓</text>
+  <text x="546" y="390" font-family="'Pretendard', sans-serif" font-size="15" font-weight="700" fill="#EAF2FF" text-anchor="middle">또는 종소득</text>
+  <text x="546" y="420" font-family="'Pretendard', sans-serif" font-size="15" font-weight="700" fill="#EAF2FF" text-anchor="middle">3,800만↓</text>
+
+  <rect x="654" y="318" width="200" height="130" rx="0" fill="#0F2247"/>
+  <text x="754" y="366" font-family="'Pretendard', sans-serif" font-size="16" font-weight="700" fill="#EAF2FF" text-anchor="middle">만 19~34세</text>
+  <text x="754" y="398" font-family="'Pretendard', sans-serif" font-size="16" font-weight="700" fill="#EAF2FF" text-anchor="middle">총급여 7,500만↓</text>
+
+  <rect x="862" y="318" width="158" height="130" rx="0" fill="#0F2247"/>
+  <text x="941" y="372" font-family="'Pretendard', sans-serif" font-size="15" font-weight="700" fill="#EAF2FF" text-anchor="middle">금소세 대상자</text>
+  <text x="941" y="404" font-family="'Pretendard', sans-serif" font-size="15" font-weight="700" fill="#EAF2FF" text-anchor="middle">포함 전체</text>
+
+  <!-- Row: 비과세 한도 (y=456, h=120) -->
+  <rect x="60" y="456" width="170" height="120" rx="0" fill="#162C5A"/>
+  <text x="145" y="524" font-family="'Pretendard', sans-serif" font-size="17" font-weight="800" fill="#EAF2FF" text-anchor="middle">비과세</text>
+
+  <rect x="238" y="456" width="200" height="120" rx="0" fill="#1A3270"/>
+  <text x="338" y="524" font-family="'Pretendard', sans-serif" font-size="24" font-weight="900" fill="#FFFFFF" text-anchor="middle">200만원</text>
+
+  <rect x="446" y="456" width="200" height="120" rx="0" fill="#1A3270"/>
+  <text x="546" y="524" font-family="'Pretendard', sans-serif" font-size="24" font-weight="900" fill="#F59E0B" text-anchor="middle">400만원</text>
+
+  <rect x="654" y="456" width="200" height="120" rx="0" fill="#1A3270"/>
+  <text x="754" y="510" font-family="'Pretendard', sans-serif" font-size="20" font-weight="900" fill="#FFFFFF" text-anchor="middle">200만원</text>
+  <text x="754" y="548" font-family="'Pretendard', sans-serif" font-size="15" font-weight="700" fill="#F59E0B" text-anchor="middle">+소득공제 10%</text>
+
+  <rect x="862" y="456" width="158" height="120" rx="0" fill="#1A3270"/>
+  <text x="941" y="524" font-family="'Pretendard', sans-serif" font-size="18" font-weight="700" fill="#EAF2FF" text-anchor="middle">일반형 동일</text>
+
+  <!-- Row: 특이사항 (y=584, h=140) -->
+  <rect x="60" y="584" width="170" height="140" rx="0" fill="#162C5A"/>
+  <text x="145" y="660" font-family="'Pretendard', sans-serif" font-size="17" font-weight="800" fill="#EAF2FF" text-anchor="middle">특이사항</text>
+
+  <rect x="238" y="584" width="200" height="140" rx="0" fill="#0F2247"/>
+  <text x="338" y="640" font-family="'Pretendard', sans-serif" font-size="15" font-weight="700" fill="#EAF2FF" text-anchor="middle">신분증만으로</text>
+  <text x="338" y="672" font-family="'Pretendard', sans-serif" font-size="15" font-weight="700" fill="#EAF2FF" text-anchor="middle">즉시 개설 가능</text>
+
+  <rect x="446" y="584" width="200" height="140" rx="0" fill="#0F2247"/>
+  <text x="546" y="630" font-family="'Pretendard', sans-serif" font-size="15" font-weight="700" fill="#EAF2FF" text-anchor="middle">소득확인증명서 필요</text>
+  <text x="546" y="662" font-family="'Pretendard', sans-serif" font-size="15" font-weight="700" fill="#EAF2FF" text-anchor="middle">일반형→서민형</text>
+  <text x="546" y="694" font-family="'Pretendard', sans-serif" font-size="15" font-weight="700" fill="#EAF2FF" text-anchor="middle">전환 신청 가능</text>
+
+  <rect x="654" y="584" width="200" height="140" rx="0" fill="#0F2247"/>
+  <text x="754" y="636" font-family="'Pretendard', sans-serif" font-size="15" font-weight="700" fill="#F59E0B" text-anchor="middle">2026.06 출시 목표</text>
+  <text x="754" y="668" font-family="'Pretendard', sans-serif" font-size="15" font-weight="700" fill="#EAF2FF" text-anchor="middle">일반형 ISA와</text>
+  <text x="754" y="700" font-family="'Pretendard', sans-serif" font-size="15" font-weight="700" fill="#EAF2FF" text-anchor="middle">중복 불가</text>
+
+  <rect x="862" y="584" width="158" height="140" rx="0" fill="#0F2247"/>
+  <text x="941" y="636" font-family="'Pretendard', sans-serif" font-size="15" font-weight="700" fill="#F59E0B" text-anchor="middle">2026 신설</text>
+  <text x="941" y="668" font-family="'Pretendard', sans-serif" font-size="15" font-weight="700" fill="#EAF2FF" text-anchor="middle">국내 주식·ETF</text>
+  <text x="941" y="700" font-family="'Pretendard', sans-serif" font-size="15" font-weight="700" fill="#EAF2FF" text-anchor="middle">한정 투자</text>
+
+  <!-- Bottom bar -->
+  <rect x="60" y="760" width="960" height="260" rx="20" fill="#F59E0B"/>
+  <text x="540" y="840" font-family="'Pretendard', sans-serif" font-size="28" font-weight="900" fill="#0B1F3B" text-anchor="middle">공통: 연 2,000만원 납입 · 의무기간 3년 · 분리과세 9.9%</text>
+  <text x="540" y="900" font-family="'Pretendard', sans-serif" font-size="22" font-weight="700" fill="#0B1F3B" text-anchor="middle">만기 후 연금계좌 이전 시 최대 300만원 추가 세액공제</text>
+  <text x="540" y="980" font-family="'Pretendard', sans-serif" font-size="19" font-weight="700" fill="#0B1F3B" text-anchor="middle">※ 한도 확대안(연 4,000만·총 2억)은 국회 통과 후 시행</text>
+</svg>

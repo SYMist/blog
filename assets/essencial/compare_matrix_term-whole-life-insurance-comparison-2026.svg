@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="700" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="540" y="46" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">종신보험 vs 정기보험 상세 비교 매트릭스</text>
+  <text x="540" y="70" text-anchor="middle" fill="#A78BFA" font-size="13" font-family="sans-serif">50대 기준 · 사망보험금 1억원 · 20년납 추정 예시 | 2026.05</text>
+
+  <!-- Header -->
+  <rect x="40" y="84" width="1000" height="44" rx="8" fill="#1e293b"/>
+  <text x="200" y="111" text-anchor="middle" fill="#94A3B8" font-size="13" font-weight="600" font-family="sans-serif">비교 항목</text>
+  <text x="580" y="111" text-anchor="middle" fill="#C4B5FD" font-size="14" font-weight="800" font-family="sans-serif">종신보험</text>
+  <text x="880" y="111" text-anchor="middle" fill="#6EE7B7" font-size="14" font-weight="800" font-family="sans-serif">정기보험</text>
+
+  <line x1="380" y1="84" x2="380" y2="640" stroke="#334155" stroke-width="1"/>
+  <line x1="760" y1="84" x2="760" y2="640" stroke="#334155" stroke-width="1"/>
+
+  <!-- Row 1: 보장 기간 -->
+  <rect x="40" y="128" width="1000" height="44" fill="#1e293b" fill-opacity="0.5"/>
+  <text x="200" y="155" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">보장 기간</text>
+  <text x="570" y="155" text-anchor="middle" fill="#4ADE80" font-size="14" font-weight="700" font-family="sans-serif">평생 (사망 시점 무관)</text>
+  <text x="870" y="155" text-anchor="middle" fill="#FFFFFF" font-size="14" font-family="sans-serif">계약 기간만 (10·20·30년 등)</text>
+
+  <!-- Row 2: 월 보험료 -->
+  <rect x="40" y="172" width="1000" height="52" fill="#0f172a" fill-opacity="0.8"/>
+  <text x="200" y="200" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">월 보험료</text>
+  <text x="200" y="216" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="sans-serif">(50세 남성, 1억)</text>
+  <text x="570" y="208" text-anchor="middle" fill="#FCA5A5" font-size="18" font-weight="800" font-family="sans-serif">약 12만~18만원</text>
+  <text x="870" y="208" text-anchor="middle" fill="#4ADE80" font-size="18" font-weight="800" font-family="sans-serif">약 4만~7만원 🏆</text>
+
+  <!-- Row 3: 보험료 배율 -->
+  <rect x="40" y="224" width="1000" height="44" fill="#1e293b" fill-opacity="0.5"/>
+  <text x="200" y="251" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">보험료 배율</text>
+  <text x="570" y="251" text-anchor="middle" fill="#FCA5A5" font-size="14" font-family="sans-serif">정기보험의 2~3배</text>
+  <text x="870" y="251" text-anchor="middle" fill="#4ADE80" font-size="14" font-weight="700" font-family="sans-serif">기준 (저렴)</text>
+
+  <!-- Row 4: 해약환급금 -->
+  <rect x="40" y="268" width="1000" height="44" fill="#0f172a" fill-opacity="0.8"/>
+  <text x="200" y="295" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">해약환급금</text>
+  <text x="570" y="295" text-anchor="middle" fill="#4ADE80" font-size="14" font-weight="700" font-family="sans-serif">있음 (납입액의 60~100%)</text>
+  <text x="870" y="295" text-anchor="middle" fill="#94A3B8" font-size="14" font-family="sans-serif">없거나 극소</text>
+
+  <!-- Row 5: 20년 납입 총액 -->
+  <rect x="40" y="312" width="1000" height="44" fill="#1e293b" fill-opacity="0.5"/>
+  <text x="200" y="339" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">20년 납입 총액</text>
+  <text x="570" y="339" text-anchor="middle" fill="#FFFFFF" font-size="14" font-family="sans-serif">약 2,880만~4,320만원</text>
+  <text x="870" y="339" text-anchor="middle" fill="#4ADE80" font-size="14" font-weight="700" font-family="sans-serif">약 960만~1,680만원</text>
+
+  <!-- Row 6: 상품 구조 -->
+  <rect x="40" y="356" width="1000" height="44" fill="#0f172a" fill-opacity="0.8"/>
+  <text x="200" y="383" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">상품 구조</text>
+  <text x="570" y="383" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="sans-serif">복잡 (특약·납입기간·환급형 선택)</text>
+  <text x="870" y="383" text-anchor="middle" fill="#4ADE80" font-size="13" font-weight="700" font-family="sans-serif">단순 (기간·금액만 선택)</text>
+
+  <!-- Row 7: 50대 신규 가입 -->
+  <rect x="40" y="400" width="1000" height="44" fill="#1e293b" fill-opacity="0.5"/>
+  <text x="200" y="427" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">50대 신규 가입</text>
+  <text x="570" y="427" text-anchor="middle" fill="#FCD34D" font-size="13" font-family="sans-serif">가능 (단, 보험료 급등 — 신중)</text>
+  <text x="870" y="427" text-anchor="middle" fill="#4ADE80" font-size="13" font-weight="700" font-family="sans-serif">가능 (합리적 보험료)</text>
+
+  <!-- Row 8: 주요 활용 -->
+  <rect x="40" y="444" width="1000" height="44" fill="#0f172a" fill-opacity="0.8"/>
+  <text x="200" y="471" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="sans-serif">주요 활용</text>
+  <text x="570" y="471" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="sans-serif">상속·장례비·평생 보장</text>
+  <text x="870" y="471" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="sans-serif">피부양자 보장·부채 대비</text>
+
+  <!-- Bottom summary -->
+  <rect x="40" y="502" width="1000" height="2" fill="#334155"/>
+  <rect x="40" y="512" width="1000" height="160" rx="8" fill="#1e293b" fill-opacity="0.6"/>
+  <text x="540" y="542" text-anchor="middle" fill="#F8FAFC" font-size="14" font-weight="800" font-family="sans-serif">50대 선택 기준 3줄 요약</text>
+  <text x="80" y="574" fill="#6EE7B7" font-size="13" font-weight="700" font-family="sans-serif">피부양자·부채 있음</text>
+  <text x="250" y="574" fill="#CBD5E1" font-size="13" font-family="sans-serif">→ 정기보험 (자녀 독립·부채 완납 시점까지 저렴하게 보장)</text>
+  <text x="80" y="606" fill="#C4B5FD" font-size="13" font-weight="700" font-family="sans-serif">상속·장례비 목적</text>
+  <text x="250" y="606" fill="#CBD5E1" font-size="13" font-family="sans-serif">→ 종신보험 소액 (3천만원 수준) + 정기보험 고액 병행</text>
+  <text x="80" y="638" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">50대 후반 신규</text>
+  <text x="250" y="638" fill="#CBD5E1" font-size="13" font-family="sans-serif">→ 정기보험 우선 (종신보험 신규 가입 보험료 매우 높음)</text>
+
+  <text x="40" y="686" fill="#64748B" font-size="12" font-family="sans-serif">essencial | 보험 비교 · 2026.05 기준</text>
+</svg>

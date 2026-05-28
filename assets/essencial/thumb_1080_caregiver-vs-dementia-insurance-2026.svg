@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <rect x="80" y="100" width="260" height="46" rx="23" fill="#7C3AED"/>
+  <text x="210" y="132" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">2026 초고령사회 진입</text>
+
+  <text x="80" y="220" fill="#FFFFFF" font-size="58" font-weight="800" font-family="sans-serif">간병보험</text>
+  <text x="80" y="285" fill="#A78BFA" font-size="42" font-weight="600" font-family="sans-serif">vs</text>
+  <text x="80" y="350" fill="#FFFFFF" font-size="58" font-weight="800" font-family="sans-serif">치매보험</text>
+
+  <rect x="80" y="380" width="380" height="6" rx="3" fill="#7C3AED"/>
+
+  <text x="80" y="445" fill="#C4B5FD" font-size="28" font-weight="700" font-family="sans-serif">50대 이후 보험 우선순위</text>
+
+  <!-- Number grid -->
+  <rect x="80" y="495" width="430" height="170" rx="20" fill="#1e293b" stroke="#7C3AED" stroke-width="3"/>
+  <text x="295" y="545" text-anchor="middle" fill="#C4B5FD" font-size="20" font-weight="700" font-family="sans-serif">1순위 간병보험</text>
+  <text x="295" y="605" text-anchor="middle" fill="#FFFFFF" font-size="40" font-weight="800" font-family="sans-serif">일당 15만</text>
+  <text x="295" y="640" text-anchor="middle" fill="#FCA5A5" font-size="18" font-weight="600" font-family="sans-serif">+ 재가급여 50만</text>
+
+  <rect x="540" y="495" width="430" height="170" rx="20" fill="#1e293b" stroke="#7C3AED" stroke-width="3"/>
+  <text x="755" y="545" text-anchor="middle" fill="#C4B5FD" font-size="20" font-weight="700" font-family="sans-serif">3순위 치매보험</text>
+  <text x="755" y="605" text-anchor="middle" fill="#FFFFFF" font-size="40" font-weight="800" font-family="sans-serif">월 100만</text>
+  <text x="755" y="640" text-anchor="middle" fill="#34D399" font-size="18" font-weight="600" font-family="sans-serif">중증 시 종신 지급</text>
+
+  <rect x="80" y="695" width="430" height="170" rx="20" fill="#1e293b" stroke="#7C3AED" stroke-width="3"/>
+  <text x="295" y="745" text-anchor="middle" fill="#C4B5FD" font-size="20" font-weight="700" font-family="sans-serif">2등급 한도 인상</text>
+  <text x="295" y="805" text-anchor="middle" fill="#FFFFFF" font-size="44" font-weight="800" font-family="sans-serif">+11.89%</text>
+  <text x="295" y="840" text-anchor="middle" fill="#FCD34D" font-size="18" font-weight="600" font-family="sans-serif">월 2,331,200원</text>
+
+  <rect x="540" y="695" width="430" height="170" rx="20" fill="#1e293b" stroke="#7C3AED" stroke-width="3"/>
+  <text x="755" y="745" text-anchor="middle" fill="#C4B5FD" font-size="20" font-weight="700" font-family="sans-serif">50대 초반 월납</text>
+  <text x="755" y="805" text-anchor="middle" fill="#FFFFFF" font-size="40" font-weight="800" font-family="sans-serif">1.5~2.2만</text>
+  <text x="755" y="840" text-anchor="middle" fill="#34D399" font-size="18" font-weight="600" font-family="sans-serif">20년 납 100세 만기</text>
+
+  <text x="80" y="940" fill="#FFFFFF" font-size="26" font-weight="700" font-family="sans-serif">간편심사 3·10·5 / 3·5·5 / 3·3·5</text>
+  <text x="80" y="980" fill="#A78BFA" font-size="22" font-weight="600" font-family="sans-serif">유병자도 가입 가능</text>
+
+  <text x="80" y="1030" fill="#64748B" font-size="18" font-family="sans-serif">essencial | 보험 silo</text>
+</svg>

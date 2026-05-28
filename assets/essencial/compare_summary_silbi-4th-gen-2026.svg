@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F5F3FF"/>
+      <stop offset="100%" stop-color="#FAF5FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg1)"/>
+
+  <text x="540" y="60" font-family="sans-serif" font-size="34" font-weight="900" fill="#111827" text-anchor="middle">실비보험 1세대 vs 4세대 핵심 비교</text>
+  <text x="540" y="95" font-family="sans-serif" font-size="20" fill="#6B7280" text-anchor="middle">2026년 50대 기준 | 보험료·자기부담·재가입 한눈에 비교</text>
+
+  <!-- 1세대 카드 -->
+  <rect x="50" y="130" width="470" height="540" rx="24" fill="#FFF" stroke="#FECACA" stroke-width="2"/>
+  <rect x="50" y="130" width="470" height="60" rx="24" fill="#DC2626"/>
+  <rect x="50" y="166" width="470" height="24" fill="#DC2626"/>
+  <text x="285" y="168" font-family="sans-serif" font-size="26" font-weight="900" fill="#FFF" text-anchor="middle">1세대 (구실손)</text>
+
+  <text x="80" y="230" font-family="sans-serif" font-size="20" font-weight="700" fill="#111827">월 보험료 (50대)</text>
+  <text x="490" y="230" font-family="sans-serif" font-size="28" font-weight="900" fill="#DC2626" text-anchor="end">~12만 원</text>
+  <line x1="80" y1="248" x2="490" y2="248" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="80" y="285" font-family="sans-serif" font-size="20" font-weight="700" fill="#111827">연간 보험료</text>
+  <text x="490" y="285" font-family="sans-serif" font-size="24" font-weight="900" fill="#DC2626" text-anchor="end">~144만 원</text>
+  <line x1="80" y1="303" x2="490" y2="303" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="80" y="340" font-family="sans-serif" font-size="20" font-weight="700" fill="#111827">자기부담률</text>
+  <text x="490" y="340" font-family="sans-serif" font-size="24" font-weight="900" fill="#059669" text-anchor="end">0원~5,000원</text>
+  <line x1="80" y1="358" x2="490" y2="358" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="80" y="395" font-family="sans-serif" font-size="20" font-weight="700" fill="#111827">재가입 주기</text>
+  <text x="490" y="395" font-family="sans-serif" font-size="24" font-weight="900" fill="#059669" text-anchor="end">없음 (종신)</text>
+  <line x1="80" y1="413" x2="490" y2="413" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="80" y="450" font-family="sans-serif" font-size="20" font-weight="700" fill="#111827">비급여 관리</text>
+  <text x="490" y="450" font-family="sans-serif" font-size="22" font-weight="700" fill="#111827" text-anchor="end">통합 보장</text>
+  <line x1="80" y1="468" x2="490" y2="468" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="80" y="505" font-family="sans-serif" font-size="20" font-weight="700" fill="#111827">도수치료</text>
+  <text x="490" y="505" font-family="sans-serif" font-size="20" font-weight="700" fill="#059669" text-anchor="end">제한 없음</text>
+  <line x1="80" y1="523" x2="490" y2="523" stroke="#E5E7EB" stroke-width="1"/>
+
+  <rect x="80" y="545" width="410" height="46" rx="12" fill="#FEF2F2" stroke="#FECACA" stroke-width="1"/>
+  <text x="285" y="575" font-family="sans-serif" font-size="18" font-weight="700" fill="#991B1B" text-anchor="middle">보험료 폭증이 최대 단점</text>
+
+  <rect x="80" y="610" width="410" height="40" rx="10" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1"/>
+  <text x="285" y="637" font-family="sans-serif" font-size="16" font-weight="700" fill="#065F46" text-anchor="middle">자기부담 거의 없음 · 종신 보장</text>
+
+  <!-- 4세대 카드 -->
+  <rect x="560" y="130" width="470" height="540" rx="24" fill="#FFF" stroke="#C4B5FD" stroke-width="2"/>
+  <rect x="560" y="130" width="470" height="60" rx="24" fill="#7C3AED"/>
+  <rect x="560" y="166" width="470" height="24" fill="#7C3AED"/>
+  <text x="795" y="168" font-family="sans-serif" font-size="26" font-weight="900" fill="#FFF" text-anchor="middle">4세대 (차등제)</text>
+
+  <text x="590" y="230" font-family="sans-serif" font-size="20" font-weight="700" fill="#111827">월 보험료 (50대)</text>
+  <text x="1000" y="230" font-family="sans-serif" font-size="28" font-weight="900" fill="#059669" text-anchor="end">~3.3만 원</text>
+  <line x1="590" y1="248" x2="1000" y2="248" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="590" y="285" font-family="sans-serif" font-size="20" font-weight="700" fill="#111827">연간 보험료</text>
+  <text x="1000" y="285" font-family="sans-serif" font-size="24" font-weight="900" fill="#059669" text-anchor="end">~39.3만 원</text>
+  <line x1="590" y1="303" x2="1000" y2="303" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="590" y="340" font-family="sans-serif" font-size="20" font-weight="700" fill="#111827">자기부담률</text>
+  <text x="1000" y="340" font-family="sans-serif" font-size="24" font-weight="900" fill="#DC2626" text-anchor="end">급여 20% / 비급여 30%</text>
+  <line x1="590" y1="358" x2="1000" y2="358" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="590" y="395" font-family="sans-serif" font-size="20" font-weight="700" fill="#111827">재가입 주기</text>
+  <text x="1000" y="395" font-family="sans-serif" font-size="24" font-weight="900" fill="#DC2626" text-anchor="end">5년</text>
+  <line x1="590" y1="413" x2="1000" y2="413" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="590" y="450" font-family="sans-serif" font-size="20" font-weight="700" fill="#111827">비급여 관리</text>
+  <text x="1000" y="450" font-family="sans-serif" font-size="22" font-weight="700" fill="#7C3AED" text-anchor="end">차등제 1~5등급</text>
+  <line x1="590" y1="468" x2="1000" y2="468" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="590" y="505" font-family="sans-serif" font-size="20" font-weight="700" fill="#111827">도수치료</text>
+  <text x="1000" y="505" font-family="sans-serif" font-size="20" font-weight="700" fill="#DC2626" text-anchor="end">50회·350만 한도</text>
+  <line x1="590" y1="523" x2="1000" y2="523" stroke="#E5E7EB" stroke-width="1"/>
+
+  <rect x="590" y="545" width="410" height="46" rx="12" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1"/>
+  <text x="795" y="575" font-family="sans-serif" font-size="18" font-weight="700" fill="#065F46" text-anchor="middle">보험료 70% 절감이 최대 장점</text>
+
+  <rect x="590" y="610" width="410" height="40" rx="10" fill="#F5F3FF" stroke="#C4B5FD" stroke-width="1"/>
+  <text x="795" y="637" font-family="sans-serif" font-size="16" font-weight="700" fill="#5B21B6" text-anchor="middle">1등급 시 추가 최대 11% 할인</text>
+
+  <!-- 절감 효과 요약 -->
+  <rect x="50" y="700" width="980" height="120" rx="20" fill="#FFF" stroke="#C4B5FD" stroke-width="1.5"/>
+  <text x="540" y="738" font-family="sans-serif" font-size="26" font-weight="900" fill="#7C3AED" text-anchor="middle">전환 시 연간 절감 효과</text>
+  <rect x="80" y="760" width="290" height="44" rx="12" fill="#ECFDF5"/>
+  <text x="225" y="790" font-family="sans-serif" font-size="20" font-weight="900" fill="#059669" text-anchor="middle">월 ~8.7만 원 절약</text>
+  <rect x="395" y="760" width="290" height="44" rx="12" fill="#ECFDF5"/>
+  <text x="540" y="790" font-family="sans-serif" font-size="20" font-weight="900" fill="#059669" text-anchor="middle">연 ~104.7만 원 절약</text>
+  <rect x="710" y="760" width="290" height="44" rx="12" fill="#F5F3FF"/>
+  <text x="855" y="790" font-family="sans-serif" font-size="20" font-weight="900" fill="#7C3AED" text-anchor="middle">10년 ~1,047만 원</text>
+
+  <!-- 핵심 판단 기준 -->
+  <rect x="50" y="850" width="980" height="80" rx="20" fill="#7C3AED"/>
+  <text x="540" y="885" font-family="sans-serif" font-size="22" font-weight="800" fill="#FFF" text-anchor="middle">판단 기준: 연간 비급여 의료비 100만 원 미만이면 4세대 유리</text>
+  <text x="540" y="915" font-family="sans-serif" font-size="18" fill="#DDD6FE" text-anchor="middle">100만 원 이상이면 자기부담 + 차등제 할증으로 실익 감소 → 1세대 유지 검토</text>
+
+  <!-- 5세대 경고 -->
+  <rect x="50" y="960" width="980" height="50" rx="16" fill="#FEF2F2" stroke="#FECACA" stroke-width="1"/>
+  <text x="540" y="992" font-family="sans-serif" font-size="18" font-weight="700" fill="#991B1B" text-anchor="middle">2026.04 5세대 출시 예정 — 경증 보장 더 축소 → 4세대 전환은 지금이 적기</text>
+
+  <text x="540" y="1055" font-family="sans-serif" font-size="16" fill="#9CA3AF" text-anchor="middle">2026년 3월 기준 | 50대 남성 평균 | 개인별 차이 있음</text>
+</svg>

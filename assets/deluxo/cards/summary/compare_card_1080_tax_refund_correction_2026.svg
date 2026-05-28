@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <text x="540" y="130" font-family="'Pretendard', sans-serif" font-size="46" font-weight="900" fill="#F59E0B" text-anchor="middle">2026 환급·경비 4대 핵심</text>
+  <text x="540" y="210" font-family="'Pretendard', sans-serif" font-size="54" font-weight="900" fill="#FFFFFF" text-anchor="middle">한눈에 보기</text>
+
+  <rect x="60" y="270" width="960" height="170" rx="24" fill="#1A3270"/>
+  <text x="100" y="325" font-family="'Pretendard', sans-serif" font-size="32" font-weight="900" fill="#F59E0B">① 환급가산금 3.1%</text>
+  <text x="100" y="375" font-family="'Pretendard', sans-serif" font-size="30" font-weight="800" fill="#FFFFFF">연 3.5% → 3.1% 인하</text>
+  <text x="100" y="415" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF">시효 5년 · 불복 승소 40일 초과 1.5배</text>
+
+  <rect x="60" y="460" width="960" height="170" rx="24" fill="#1A3270"/>
+  <text x="100" y="515" font-family="'Pretendard', sans-serif" font-size="32" font-weight="900" fill="#F59E0B">② 경정청구 5년</text>
+  <text x="100" y="565" font-family="'Pretendard', sans-serif" font-size="30" font-weight="800" fill="#FFFFFF">법정기한 경과 후 5년 / 후발 3개월</text>
+  <text x="100" y="605" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF">세무서 결정 2개월 · 가산세 없음</text>
+
+  <rect x="60" y="650" width="960" height="170" rx="24" fill="#1A3270"/>
+  <text x="100" y="705" font-family="'Pretendard', sans-serif" font-size="32" font-weight="900" fill="#F59E0B">③ 적격증빙 3만 원 룰</text>
+  <text x="100" y="755" font-family="'Pretendard', sans-serif" font-size="30" font-weight="800" fill="#FFFFFF">세금계산서·카드전표·현금영수증</text>
+  <text x="100" y="795" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF">위반 시 증빙불비 2% · 쪼개기는 부인</text>
+
+  <rect x="60" y="840" width="960" height="170" rx="24" fill="#F59E0B"/>
+  <text x="100" y="895" font-family="'Pretendard', sans-serif" font-size="32" font-weight="900" fill="#0B1F3B">④ 업무용차 1,500만 한도</text>
+  <text x="100" y="945" font-family="'Pretendard', sans-serif" font-size="30" font-weight="800" fill="#0B1F3B">운행기록부 無 → 초과분 부인</text>
+  <text x="100" y="985" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#0B1F3B">감가상각 정액 5년 · 연 800만 한도</text>
+</svg>

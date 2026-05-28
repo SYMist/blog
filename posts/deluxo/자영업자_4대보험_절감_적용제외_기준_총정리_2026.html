@@ -1,0 +1,508 @@
+<!-- tistory_policy_template.html -->
+<!-- ✅ 티스토리 HTML 모드: 통째로 붙여넣기 -->
+
+<!-- ✅ Schema.org 구조화 데이터 -->
+<div style="display:none">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "자영업자 4대보험 절감·적용제외 기준 총정리 (2026)",
+      "description": "2026년 자영업자 4대보험 보험료를 줄이는 방법과 적용 제외 기준을 총정리합니다. 건강보험 재산·자동차 부과 폐지, 국민연금 50% 지원, 두루누리 80% 환급까지 실전 절감 전략을 안내합니다.",
+      "datePublished": "2026-04-05",
+      "dateModified": "2026-04-05",
+      "author": {"@type": "Person", "name": "델룩소"},
+      "publisher": {"@type": "Organization", "name": "tistory.deluxo"}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "자영업자 건강보험 자동차 보험료가 폐지됐나요?", "acceptedAnswer": {"@type": "Answer", "text": "네, 2026년부터 지역가입자의 자동차 보험료가 전면 폐지되었습니다. 차량 가액·배기량과 관계없이 자동차에 대한 부과 점수가 삭제되어, 업무용 차량을 보유한 자영업자의 보험료가 크게 줄었습니다."}},
+        {"@type": "Question", "name": "두루누리 사회보험료 지원은 얼마나 받을 수 있나요?", "acceptedAnswer": {"@type": "Answer", "text": "10명 미만 사업장에서 월 보수 270만 원 미만 신규 가입 근로자와 사업주에게 보험료의 80%를 지원합니다. 월 230만 원 근로자 기준 사업주·근로자 각각 연 120만 원 이상 절감 효과가 있습니다."}},
+        {"@type": "Question", "name": "자영업자 고용보험료 지원은 어떻게 받나요?", "acceptedAnswer": {"@type": "Answer", "text": "소상공인24에서 고용보험 가입 후 보험료를 납부하면, 정부가 50~80%를 최대 5년간 사후 환급합니다. 인천 등 일부 지자체는 10% 추가 지원하여 본인 부담을 10~40% 수준까지 낮출 수 있습니다."}},
+        {"@type": "Question", "name": "건강보험 피부양자 자격은 어떤 조건에서 박탈되나요?", "acceptedAnswer": {"@type": "Answer", "text": "사업자등록이 있으면 필요경비 차감 후 소득이 1원이라도 발생하면 즉시 탈락합니다. 사업자등록 없는 프리랜서는 사업소득 500만 원까지 유지됩니다. 재산과표 9억 원 초과 시 소득 무관 제외됩니다."}},
+        {"@type": "Question", "name": "직원을 월 60시간 미만으로 고용하면 4대보험 안 들어도 되나요?", "acceptedAnswer": {"@type": "Answer", "text": "국민연금·건강보험·고용보험은 월 60시간(주 15시간) 미만 단시간 근로자는 적용 제외입니다. 다만 산재보험은 모든 근로자에게 의무 적용되며, 3개월 이상 계속 근무 시 국민연금은 가입 대상으로 전환될 수 있습니다."}}
+      ]
+    }
+  ]
+}
+</script>
+</div>
+
+<style>
+  :root{
+    --blue:#1D4ED8; --blue2:#1E40AF;
+    --white:#FFFFFF; --text:#111827;
+    --muted:#4B5563; --border:#E5E7EB;
+    --bg:#F9FAFB; --blueLight:#E8F0FF;
+  }
+  .wrap{max-width:860px;margin:0 auto;line-height:1.8;color:var(--text);}
+  .meta{color:var(--muted);font-size:.95rem;margin:6px 0 18px;}
+  .badge{display:inline-block;background:var(--blueLight);border:1px solid var(--border);padding:3px 10px;border-radius:999px;font-size:.85rem;margin-right:8px;}
+  .notice{background:#fff7ed;border:1px solid #fed7aa;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .lead{background:#f8fafc;border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .keysum{background:#fefce8;border:1px solid #fde68a;padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .summary{background:#eff6ff;border:1px solid #bfdbfe;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .toc{background:var(--bg);border:1px solid var(--border);padding:14px 16px;border-radius:12px;margin:16px 0 22px;}
+  .toc a{text-decoration:none;color:var(--blue);}
+  .toc ul{margin:8px 0 0 18px;}
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 6px;}
+  .wrap a.btn,.wrap a.btn:link,.wrap a.btn:visited{
+    display:inline-flex;align-items:center;justify-content:center;
+    padding:10px 14px;border-radius:10px;border:1px solid var(--blue);
+    background:var(--blue) !important;color:var(--white) !important;
+    text-decoration:none !important;font-weight:800;
+  }
+  .wrap a.btn:hover,.wrap a.btn:active,.wrap a.btn:focus{
+    background:var(--blue2) !important;border-color:var(--blue2) !important;color:var(--white) !important;
+  }
+  .wrap a.btn.secondary,.wrap a.btn.secondary:link,.wrap a.btn.secondary:visited{
+    background:var(--white) !important;color:var(--blue) !important;border-color:var(--blue) !important;
+  }
+  .wrap a.btn.secondary:hover,.wrap a.btn.secondary:active,.wrap a.btn.secondary:focus{
+    background:var(--bg) !important;color:var(--blue2) !important;border-color:var(--blue2) !important;
+  }
+  .wrap a.btn.gray,.wrap a.btn.gray:link,.wrap a.btn.gray:visited{
+    background:#111827 !important;border-color:#111827 !important;color:var(--white) !important;
+  }
+  .wrap a.btn.gray:hover,.wrap a.btn.gray:active,.wrap a.btn.gray:focus{
+    background:#0b1220 !important;border-color:#0b1220 !important;color:var(--white) !important;
+  }
+  table{width:100%;border-collapse:collapse;margin:14px 0 10px;}
+  th,td{border:1px solid var(--border);padding:10px;vertical-align:top;}
+  th{background:#F3F4F6;text-align:left;}
+  .small{font-size:.95rem;color:var(--muted);}
+  h1{margin:0 0 8px;line-height:1.25;}
+  h2{margin-top:30px;padding-top:8px;border-top:1px solid var(--border);}
+  h3{margin-top:16px;}
+  .q{font-weight:900;margin:14px 0 6px;}
+  .a{margin:0 0 10px;}
+  .tips{background:#f0fdf4;border:1px solid #bbf7d0;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .urgency{background:#fef2f2;border:1px solid #fca5a5;padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .target{background:#f0fdf4;border:1px solid #86efac;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .target ul{margin:8px 0 0 18px;}
+  .ad{background:#f9fafb;border:1px dashed var(--border);padding:10px 12px;border-radius:10px;margin:12px 0;}
+  .footer{margin-top:26px;padding-top:14px;border-top:1px solid var(--border);color:var(--muted);font-size:.95rem;}
+</style>
+
+<div class="wrap">
+  <h1>자영업자 4대보험 절감·적용제외 기준 총정리 (2026 최신)</h1>
+  <div class="meta">
+    <span class="badge">키워드: 자영업자 4대보험</span>
+    <span class="badge">업데이트: 2026-04-05</span>
+  </div>
+
+  <div class="notice">
+    <strong>먼저 확인!</strong><br/>
+    4대보험 요율·지원 기준은 연도별로 변동됩니다. 본문은 2026년 4월 기준이며, 정확한 보험료는 국민건강보험공단·국민연금공단 공식 사이트에서 확인하세요.
+  </div>
+
+  <p class="small">
+    2026년 자영업자 4대보험 절감 방법과 적용 제외 기준을 총정리합니다. 건강보험 자동차 부과 폐지, 재산 공제 1억 원 확대, 국민연금 50% 지원, 두루누리 80% 환급까지 — 아는 만큼 돌려받는 실전 절감 전략입니다.
+  </p>
+
+  <div class="lead">
+    "4대보험을 꼭 이만큼 내야 하나?" — 자영업자라면 매달 빠져나가는 보험료를 보며 한 번쯤 의문을 가져봤을 겁니다. 2026년에는 건강보험 자동차 부과 전면 폐지, 재산 기본 공제 1억 원 확대 등 자영업자에게 유리한 변화가 쏟아지고 있습니다. 문제는 이 혜택을 모르면 그대로 다 내야 한다는 점입니다.
+  </div>
+
+  <div class="urgency">
+    <strong>왜 지금 확인해야 할까?</strong><br/>
+    2026년 건강보험 자동차 보험료가 <strong>전면 폐지</strong>되고 재산 기본 공제가 <strong>1억 원으로 확대</strong>되면서, 약 333만 세대가 평균 월 2.5만 원을 절감하고 있습니다. 국민연금 50% 지원(월 최대 46,350원)과 두루누리 80% 환급까지 합치면, <strong>모르고 넘기면 연간 수십만~수백만 원 손해</strong>입니다.
+  </div>
+
+  <div class="keysum">
+    <strong>핵심 요약 3줄</strong><br/>
+    ① 건강보험 — 자동차 부과 폐지 + 재산 공제 1억 확대 → 333만 세대 평균 월 2.5만 원 절감 <br/>
+    ② 국민연금 — 저소득 지역가입자 보험료 50% 지원(월 최대 46,350원, 12개월) <br/>
+    ③ 두루누리 — 10인 미만 사업장 신규 가입자 보험료 80% 환급(연 120만 원+ 절감)
+  </div>
+
+  <div class="summary" id="top">
+    <h2 style="border-top:none;margin-top:0;">✅ 5줄 요약(결론)</h2>
+    <ul>
+      <li><strong>건강보험</strong>: 자동차 부과 전면 폐지 + 재산 기본 공제 5천만→1억 원 확대 → 월 최대 10.1만 원 절감</li>
+      <li><strong>국민연금</strong>: 보험료율 9%(전액 본인 부담), 저소득자 50% 지원(월 최대 46,350원 × 12개월)</li>
+      <li><strong>고용보험</strong>: 임의가입 → 정부 50~80% 환급(최대 5년) + 지자체 추가 10~50% → 본인 부담 10~40%</li>
+      <li><strong>적용 제외</strong>: 월 60시간 미만(국민연금·건강·고용), 만 65세↑ 신규(고용), 산재보험은 제외 없음</li>
+      <li><strong>두루누리</strong>: 10인 미만·월 270만 미만 신규 가입 → 사업주+근로자 각 80% 지원(연 120만 원+ 절감)</li>
+    </ul>
+
+    <div class="btns">
+      <a class="btn" href="https://www.nhis.or.kr" target="_blank" rel="noopener">건강보험공단 바로가기</a>
+      <a class="btn gray" href="https://www.nps.or.kr" target="_blank" rel="noopener">국민연금공단</a>
+      <a class="btn secondary" href="https://www.sbiz24.kr" target="_blank" rel="noopener">소상공인24</a>
+    </div>
+    <p class="small">※ 보험료 산정 기준은 개인 소득·재산에 따라 달라집니다. 공단 상담(☎ 1577-1000)을 권장합니다.</p>
+  </div>
+
+  <div class="target">
+    <strong>이런 상황이라면 지금 바로 확인하세요</strong>
+    <ul>
+      <li>매달 빠져나가는 건강보험료가 부담인데 자동차·재산 부과 변경 내용을 아직 모른다면</li>
+      <li>직원을 고용하고 있는데 두루누리 지원으로 보험료 80%를 돌려받을 수 있다는 걸 몰랐다면</li>
+      <li>폐업 시 실업급여를 받고 싶은데 고용보험에 아직 가입하지 않았다면</li>
+      <li>아르바이트를 쓰고 있는데 4대보험 가입 의무가 있는지 헷갈린다면</li>
+      <li>가족이 함께 일하는 가게인데 배우자·자녀의 보험 적용이 어떻게 되는지 궁금하다면</li>
+    </ul>
+  </div>
+
+  <div class="toc">
+    <strong>목차</strong>
+    <ul>
+      <li><a href="#table">1) 한눈에 표 — 4대보험 보험료·절감 비교</a></li>
+      <li><a href="#quick">→ 나는 어디? 빠른 판단 가이드</a></li>
+      <li><a href="#health">2) 건강보험 — 자동차 폐지·재산 공제·소득정산</a></li>
+      <li><a href="#pension">3) 국민연금 — 보험료 50% 지원·피부양자 전략</a></li>
+      <li><a href="#employ">4) 고용보험 — 50~80% 환급·실업급여 안전망</a></li>
+      <li><a href="#accident">5) 산재보험 — 1인 자영업자도 가입 가능</a></li>
+      <li><a href="#exclude">6) 적용 제외 기준 — 월 60시간·연령·가족</a></li>
+      <li><a href="#dururi">7) 두루누리 — 사업주+근로자 80% 지원</a></li>
+      <li><a href="#case">8) 경험/사례</a></li>
+      <li><a href="#faq">9) FAQ · 탈락 사유 TOP 5</a></li>
+      <li><a href="#check">10) 신청 전 1분 체크리스트</a></li>
+      <li><a href="#update">업데이트 로그</a></li>
+    </ul>
+  </div>
+
+  <h2 id="table">1) 한눈에 표 — 4대보험 보험료율·절감 방법 비교</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>보험</th><th>보험료율</th><th>자영업자 부담</th><th>2026 핵심 절감 포인트</th><th>절감 효과</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>건강보험</strong></td>
+        <td>7.09%</td>
+        <td>전액 본인</td>
+        <td>자동차 부과 폐지 + 재산 공제 1억 확대</td>
+        <td>333만 세대 평균 월 2.5만↓</td>
+      </tr>
+      <tr>
+        <td><strong>국민연금</strong></td>
+        <td>9%</td>
+        <td>전액 본인</td>
+        <td>저소득자 50% 지원(월 최대 46,350원)</td>
+        <td>12개월간 최대 55.6만 원</td>
+      </tr>
+      <tr>
+        <td><strong>고용보험</strong></td>
+        <td>등급별 선택</td>
+        <td>전액 본인(임의가입)</td>
+        <td>정부 50~80% + 지자체 10~50% 환급</td>
+        <td>본인 부담 10~40%까지 축소</td>
+      </tr>
+      <tr>
+        <td><strong>산재보험</strong></td>
+        <td>업종별 차등</td>
+        <td>전액 본인(임의가입)</td>
+        <td>1인 자영업자 가입 가능, 무과실 보상</td>
+        <td>업무상 재해 치료비·휴업급여</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="ad">광고 위치 1</div>
+
+  <!-- ✅ 이미지 1: 요약표 카드 -->
+  <img src="summary_card_1080_biz_insurance.png" alt="자영업자 4대보험 보험료율 절감 방법 요약" />
+
+  <h3 id="quick">나는 어디? 빠른 판단 가이드</h3>
+  <table>
+    <thead>
+      <tr><th></th><th>1인 자영업자</th><th>직원 고용 자영업자</th><th>가족 경영(배우자·자녀)</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>핵심 관심</strong></td><td>내 보험료 줄이기</td><td>직원 보험료 부담 줄이기</td><td>가족의 보험 적용 여부</td></tr>
+      <tr><td><strong>우선 확인</strong></td><td>건강보험 재산 공제<br/>국민연금 50% 지원</td><td>두루누리 80% 환급<br/>적용 제외 기준</td><td>피부양자 자격 유지<br/>동거 친족 가입 기준</td></tr>
+      <tr><td><strong>추천 전략</strong></td><td>고용보험 임의가입<br/>(50~80% 환급)</td><td>신규 채용 시 두루누리<br/>+ 고용보험 지원 동시 활용</td><td>사업자등록 전 소득 임계점 확인<br/>→ 피부양자 유지 or 전환 판단</td></tr>
+    </tbody>
+  </table>
+
+  <!-- ✅ 이미지 2: 빠른 판단 가이드 -->
+  <img src="quick_guide_1080_biz_insurance.png" alt="자영업자 4대보험 빠른 판단 가이드" />
+
+  <h2 id="health">2) 건강보험 — 자동차 폐지·재산 공제·소득정산</h2>
+
+  <h3>2026년 핵심 변화: 재산·자동차 부과 혁신</h3>
+  <table>
+    <thead>
+      <tr><th>항목</th><th>변경 전</th><th>2026년</th><th>효과</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>재산 기본 공제</strong></td>
+        <td>5,000만 원</td>
+        <td><strong>1억 원</strong></td>
+        <td>재산과표 1억 이하(시가 약 2.4억) → 재산 보험료 면제</td>
+      </tr>
+      <tr>
+        <td><strong>자동차 보험료</strong></td>
+        <td>가액·배기량 기준 부과</td>
+        <td><strong>전면 폐지</strong></td>
+        <td>생계형 탑차·업무용 차량 보유 자영업자 직접 절감</td>
+      </tr>
+      <tr>
+        <td><strong>부과 방식</strong></td>
+        <td>60개 등급제</td>
+        <td><strong>정률제 추진</strong></td>
+        <td>재산 규모 비례 → 투명한 산정</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="small">→ 약 <strong>333만 세대</strong> 평균 월 <strong>2.5만 원 인하</strong>, 자산 비중 높은 은퇴 자영업자 월 최대 <strong>10.1만 원 절감</strong></p>
+
+  <h3>소득정산제도 — 소득 줄었으면 보험료도 줄인다</h3>
+  <ul>
+    <li><strong>원리</strong>: 5월 종합소득세 신고 결과 → 11월 보험료 사후 정산</li>
+    <li><strong>소득 감소 시</strong>: 국세청 자료 전달 전이라도 소득 감소 증빙 제출 → 보험료 <strong>즉시 감액 신청</strong> 가능</li>
+    <li><strong>정산 범위</strong>: 사업·근로소득 + 이자·배당·연금·기타소득까지 확대 (2025년 1월~)</li>
+  </ul>
+
+  <h3>피부양자 자격 — "단 1원"의 경계선</h3>
+  <table>
+    <thead>
+      <tr><th>구분</th><th>소득 기준</th><th>재산 기준</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>사업자등록 있음</strong></td>
+        <td>필요경비 차감 후 소득 <strong>1원이라도</strong> → 즉시 탈락</td>
+        <td rowspan="3">과표 5.4억 초과~9억 이하: 소득 기준 1,000만 원으로 하향<br/>과표 9억 초과: 소득 무관 <strong>무조건 제외</strong></td>
+      </tr>
+      <tr>
+        <td><strong>사업자등록 없음</strong><br/>(프리랜서)</td>
+        <td>사업소득 <strong>500만 원</strong>까지 유지</td>
+      </tr>
+      <tr>
+        <td><strong>공통</strong></td>
+        <td>연 종합소득 <strong>2,000만 원</strong> 초과 → 무조건 탈락<br/>(금융소득은 1,000만 원 초과 시에만 합산)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- ✅ 이미지 3: 정책 비교·변화 카드 -->
+  <img src="compare_card_1080_biz_insurance.png" alt="자영업자 건강보험 2026년 변화 비교 카드" />
+
+  <h2 id="pension">3) 국민연금 — 보험료 50% 지원 + 상·하한액</h2>
+
+  <h3>2026년 보험료 산정 기준</h3>
+  <table>
+    <thead>
+      <tr><th>항목</th><th>2026년 기준</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>보험료율</strong></td><td>기준소득월액의 <strong>9%</strong> (지역가입자 전액 부담)</td></tr>
+      <tr><td><strong>상한액</strong></td><td>월 637만 원 → 최대 보험료 <strong>월 573,300원</strong></td></tr>
+      <tr><td><strong>하한액</strong></td><td>월 40만 원 → 최소 보험료 <strong>월 36,000원</strong></td></tr>
+    </tbody>
+  </table>
+
+  <h3>저소득 지역가입자 보험료 50% 지원</h3>
+  <ul>
+    <li><strong>지원 내용</strong>: 납부 보험료의 <strong>50%</strong>를 국가가 대납, 월 최대 <strong>46,350원</strong></li>
+    <li><strong>지원 기간</strong>: 생애 최대 <strong>12개월</strong></li>
+    <li><strong>자격 조건</strong>: 재산세 과세표준 6억 원 이하 + 종합소득 1,680만 원 이하</li>
+    <li><strong>효과</strong>: 연금 가입 기간 확보 → 노령연금 수급액 증가</li>
+  </ul>
+
+  <div class="ad">광고 위치 2</div>
+
+  <h2 id="employ">4) 고용보험 — 50~80% 환급으로 실업급여 확보</h2>
+
+  <h3>자영업자 고용보험료 지원 구조</h3>
+  <table>
+    <thead>
+      <tr><th>지원 주체</th><th>대상</th><th>지원 수준</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>중앙정부(중기부)</strong></td>
+        <td>고용보험 가입 소상공인 전체</td>
+        <td>납부 보험료의 <strong>50~80%</strong> 환급 (최대 5년)</td>
+      </tr>
+      <tr>
+        <td><strong>인천광역시</strong></td>
+        <td>인천 소재 1인 자영업자</td>
+        <td><strong>10% 추가</strong> 지원 (중복 수혜 가능)</td>
+      </tr>
+      <tr>
+        <td><strong>기타 지자체</strong></td>
+        <td>각 시·도별 자체 기준</td>
+        <td>10~50% 추가 (예산에 따라 변동)</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="small">→ 정부+지자체 결합 시 본인 실질 부담 <strong>10~40%</strong>까지 축소</p>
+
+  <h3>신청 및 환급 절차</h3>
+  <ul>
+    <li><strong>신청</strong>: 소상공인24(sbiz24.kr) → 사업자번호 입력 → 등급 선택(1~7등급)</li>
+    <li><strong>납부</strong>: 매월 보험료 납부 → 약 2개월 후 등록 계좌로 환급금 입금</li>
+    <li><strong>실업급여</strong>: 가입 1년 이상 + 적자·매출 감소·건강 악화 등 정당 사유 폐업 시 수급</li>
+  </ul>
+
+  <h2 id="accident">5) 산재보험 — 1인 자영업자도 가입 가능</h2>
+  <ul>
+    <li><strong>가입 대상</strong>: 1인 자영업자, 근로자 고용 사업주 본인, 배달 라이더·퀵서비스 등 노무제공자</li>
+    <li><strong>핵심 특징</strong>: <strong>무과실 책임</strong> — 본인 부주의 사고도 업무 연관성 있으면 보상</li>
+    <li><strong>보장 범위</strong>: 치료비 전액 + 휴업급여 + 장해급여 + 간병급여</li>
+    <li><strong>장점</strong>: 민간 보험 대비 소멸 시효 길고, 법적 보장 범위 확정 → 안정적</li>
+  </ul>
+
+  <h2 id="exclude">6) 적용 제외 기준 — 누가 안 들어도 되나?</h2>
+
+  <h3>근로 형태별 적용 제외</h3>
+  <table>
+    <thead>
+      <tr><th>보험</th><th>적용 제외 기준</th><th>주의사항</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>국민연금</strong></td>
+        <td>월 60시간 미만, 1개월 미만 일용직, 만 60세 이상</td>
+        <td>3개월↑ 계속 근무 시 60시간 미만도 가입 가능</td>
+      </tr>
+      <tr>
+        <td><strong>건강보험</strong></td>
+        <td>월 60시간 미만, 1개월 미만 일용직, 의료급여 수급자</td>
+        <td>비상근 임원은 보수 지급 여부에 따라 결정</td>
+      </tr>
+      <tr>
+        <td><strong>고용보험</strong></td>
+        <td>월 60시간(주 15시간) 미만, 만 65세↑ 신규 고용</td>
+        <td>일용직은 근로 일수 무관 고용보험 가입 원칙</td>
+      </tr>
+      <tr>
+        <td><strong>산재보험</strong></td>
+        <td><strong>적용 제외 사실상 없음</strong> (모든 근로자)</td>
+        <td>가사 서비스 등 일부 특수 직종만 제외</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>특수 관계인 및 임원</h3>
+  <ul>
+    <li><strong>동거 친족(가족 경영)</strong>: 원칙적으로 고용·산재 미적용, 단 출퇴근·급여 확인되면 예외적 가입 가능</li>
+    <li><strong>법인 무보수 대표</strong>: 국민연금·건강보험 직장가입자에서 제외 → 지역가입자 또는 피부양자 가능</li>
+    <li><strong>법인 유보수 대표</strong>: 보수 발생 시 즉시 사업장가입자 전환</li>
+    <li><strong>외국인</strong>: 국민연금 상호주의 적용 (해당 국가 기준에 따라 제외 가능)</li>
+  </ul>
+
+  <h2 id="dururi">7) 두루누리 사회보험료 지원 — 연 120만 원+ 절감</h2>
+  <table>
+    <thead>
+      <tr><th>항목</th><th>기준</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>사업장 규모</strong></td><td>근로자 수 <strong>10명 미만</strong></td></tr>
+      <tr><td><strong>근로자 보수</strong></td><td>월 평균 <strong>270만 원 미만</strong></td></tr>
+      <tr><td><strong>지원 대상</strong></td><td><strong>신규 가입자</strong> (직전 1년간 고용보험·국민연금 이력 없는 자)</td></tr>
+      <tr><td><strong>지원율</strong></td><td>보험료의 <strong>80%</strong> 지원 (사업주+근로자 각각)</td></tr>
+      <tr><td><strong>제외 기준</strong></td><td>재산과표 6억 원↑ 또는 종합소득 4,300만 원↑</td></tr>
+    </tbody>
+  </table>
+  <p class="small">→ 월 230만 원 근로자 기준, 사업주·근로자 각각 <strong>연 120만 원 이상</strong> 절감</p>
+
+  <div class="tips">
+    <strong>두루누리 + 국민연금 지원 동시 활용 전략</strong><br/>
+    사업주 본인은 '저소득 지역가입자 국민연금 50% 지원'을 받고, 고용한 근로자에 대해서는 '두루누리 80% 지원'을 동시에 적용하면 사업장 전체의 보험료를 최대한 절감할 수 있습니다.
+  </div>
+
+  <h2 id="case">8) 경험/사례</h2>
+  <p>서울 마포에서 1인 카페를 운영하는 사장님은 건강보험 자동차 부과 폐지로 월 3만 원 가까이 줄었는데, 이전에는 영업용 소형 밴 때문에 추가로 부과되던 금액이었습니다. 자동 반영이라 따로 신청할 필요가 없었고, 4월 고지서에서 바로 확인할 수 있었다고 합니다.</p>
+  <p>인천 남동구에서 반찬가게를 하는 사장님은 고용보험에 가입한 뒤 정부 80%와 인천시 10% 지원을 동시에 받아, 본인 부담이 월 1만 원대로 줄었습니다. 3년 넘게 유지하다가 건강 문제로 폐업했을 때 실업급여를 6개월간 받으면서 재창업 준비를 할 수 있었다고 합니다.</p>
+  <p>대구에서 음식점을 운영하며 직원 2명을 둔 사장님은 두루누리를 몰라서 2년간 보험료를 전액 냈는데, 뒤늦게 신청해서 월 20만 원씩 환급받기 시작했습니다. 직원이 신규 가입 대상인지 확인하는 것이 핵심이고, 소상공인24에서 간편하게 신청했다고 합니다.</p>
+
+  <!-- ✅ 이미지 4: 탈락 사유 TOP 5 카드 -->
+  <img src="rejection_card_1080_biz_insurance.png" alt="자영업자 4대보험 절감 탈락 사유 TOP 5" />
+
+  <h2 id="faq">9) FAQ · 탈락 사유 TOP 5</h2>
+  <h3>탈락 사유 TOP 5</h3>
+  <ol>
+    <li><strong>재산·소득 기준 초과</strong> — 국민연금 지원(재산과표 6억·종합소득 1,680만), 두루누리(재산과표 6억·종합소득 4,300만) 각각 기준이 다름</li>
+    <li><strong>신규 가입자 조건 미충족</strong> — 두루누리는 직전 1년간 고용보험·연금 이력 없는 '신규 가입자'만 80% 지원, 기존 가입자는 대상 외</li>
+    <li><strong>피부양자 소득 임계점 초과</strong> — 사업자등록 후 소득 1원 발생 시 건강보험 피부양자 즉시 탈락</li>
+    <li><strong>고용보험 등급 선택 오류</strong> — 낮은 등급 선택 시 보험료는 줄지만 폐업 후 실업급여액도 낮아짐</li>
+    <li><strong>환급 신청 누락</strong> — 고용보험료는 먼저 납부 후 사후 환급 방식, 신청하지 않으면 환급 불가</li>
+  </ol>
+
+  <h3>중복 수혜·예외 조건</h3>
+  <ul>
+    <li><strong>두루누리 + 국민연금 지원</strong>: 사업주 본인(지역가입자 지원) + 근로자(두루누리) 동시 적용 가능</li>
+    <li><strong>고용보험 정부 + 지자체</strong>: 중앙정부 50~80% + 지자체 추가 지원 중복 수혜 가능</li>
+    <li><strong>피부양자 금융소득</strong>: 이자·배당소득은 연 1,000만 원 초과 시에만 종합소득에 합산</li>
+  </ul>
+
+  <h3>자주 묻는 질문</h3>
+  <p class="q">Q1. 건강보험 자동차 부과 폐지는 별도 신청이 필요한가요?</p>
+  <p class="a">아닙니다. 자동 반영되어 고지서에서 바로 확인됩니다. 기존에 자동차로 부과되던 점수가 삭제된 상태로 산정됩니다.</p>
+
+  <p class="q">Q2. 소득이 줄었는데 건강보험료가 아직 높습니다. 어떻게 하나요?</p>
+  <p class="a">소득정산제도에 따라 5월 종소세 신고 후 11월에 자동 정산됩니다. 급하면 소득 감소 증빙을 건강보험공단에 제출하여 즉시 감액 신청할 수 있습니다.</p>
+
+  <p class="q">Q3. 국민연금 보험료 50% 지원은 납부 예외 기간에도 받을 수 있나요?</p>
+  <p class="a">납부 예외 상태에서 다시 경제 활동을 시작하며 납부를 재개할 때 신청할 수 있습니다. 생애 최대 12개월까지 지원됩니다.</p>
+
+  <p class="q">Q4. 아르바이트를 주 14시간만 쓰면 4대보험 안 들어도 되나요?</p>
+  <p class="a">국민연금·건강·고용보험은 월 60시간(주 15시간) 미만이면 적용 제외입니다. 다만 산재보험은 모든 근로자에게 의무이며, 3개월 이상 계속 근무 시 국민연금은 가입 전환될 수 있습니다.</p>
+
+  <p class="q">Q5. 배우자가 가게에서 같이 일하는데 고용보험 가입이 되나요?</p>
+  <p class="a">원칙적으로 동거 친족은 고용·산재보험 가입 대상이 아닙니다. 다만 일반 근로자와 동일하게 출퇴근하고 급여를 받는 것이 확인되면 예외적으로 가입 가능합니다.</p>
+
+  <p class="q">Q6. 법인 대표인데 급여를 안 받으면 건강보험 피부양자가 되나요?</p>
+  <p class="a">법인 무보수 대표이사는 직장가입자에서 제외되어, 다른 직장의 피부양자가 되거나 지역가입자로 전환됩니다. 보수를 받기 시작하면 즉시 사업장가입자가 됩니다.</p>
+
+  <p class="q">Q7. 고용보험 등급은 뭘 선택해야 유리한가요?</p>
+  <p class="a">1~7등급 중 높은 등급일수록 보험료는 높지만 폐업 시 실업급여도 많아집니다. 정부가 50~80% 환급해주므로 가능하면 높은 등급이 유리합니다.</p>
+
+  <p class="q">Q8. 두루누리 지원을 받다가 직원 보수가 270만 원을 넘으면?</p>
+  <p class="a">월 평균 보수가 270만 원 이상이 되면 지원 대상에서 제외됩니다. 다만 일시적 초과(상여금 등)가 아닌 평균 기준이므로, 연간 평균으로 판단됩니다.</p>
+
+  <p class="q">Q9. 건강보험 재산 공제 1억 원은 어떤 재산까지 포함되나요?</p>
+  <p class="a">건강보험 재산 부과 기준인 재산세 과세표준이 대상입니다. 과표 1억 원은 시가 약 2.4억 원 수준이며, 이 이하의 재산만 보유한 경우 재산 보험료가 면제됩니다.</p>
+
+  <p class="q">Q10. 프리랜서인데 사업자등록을 하면 보험료가 올라가나요?</p>
+  <p class="a">사업자등록 후 소득이 1원이라도 발생하면 건강보험 피부양자 자격이 탈락합니다. 등록 전 사업소득 500만 원까지는 피부양자 유지가 가능하므로, 등록 시점을 신중하게 결정하세요.</p>
+
+  <div class="tips">
+    <strong>실전 팁</strong><br/>
+    ① 건강보험 자동차 폐지는 자동 반영 — 별도 신청 불필요<br/>
+    ② 고용보험 환급은 '사후 환급' — 먼저 납부하고 약 2개월 후 입금<br/>
+    ③ 사업자등록 전에 피부양자 자격 유지 여부를 반드시 확인하세요
+  </div>
+
+  <!-- ✅ 이미지 5: 체크리스트 카드 -->
+  <img src="checklist_card_1080_biz_insurance.png" alt="자영업자 4대보험 절감 신청 전 체크리스트" />
+
+  <h2 id="check">10) 신청 전 1분 체크리스트</h2>
+  <ul>
+    <li>건강보험 자동차 부과 폐지 — 고지서에서 반영 여부 확인</li>
+    <li>재산 기본 공제 1억 원 적용 여부 확인 (건강보험공단 ☎ 1577-1000)</li>
+    <li>국민연금 50% 지원 자격 — 재산과표 6억·종합소득 1,680만 이하 확인</li>
+    <li>고용보험 임의가입 → 소상공인24에서 등급 선택 후 신청</li>
+    <li>직원 고용 시 두루누리 80% 지원 대상 여부 확인 (10인 미만·270만 미만·신규)</li>
+    <li>피부양자 자격 — 사업자등록 전 소득 임계점 확인</li>
+  </ul>
+  <p class="small">관련 글: <a href="#">자영업자 고용보험 신청 방법</a> / <a href="#">건강보험료 줄이는 법</a> / <a href="#">소상공인 지원금 총정리</a></p>
+
+  <div class="ad">광고 위치 3</div>
+
+  <div class="tips">
+    <strong>참고/문의처</strong><br/>
+    국민건강보험공단: <a href="https://www.nhis.or.kr" target="_blank" rel="noopener">nhis.or.kr</a> (☎ 1577-1000)<br/>
+    국민연금공단: <a href="https://www.nps.or.kr" target="_blank" rel="noopener">nps.or.kr</a> (☎ 1355)<br/>
+    소상공인24: <a href="https://www.sbiz24.kr" target="_blank" rel="noopener">sbiz24.kr</a><br/>
+    근로복지공단(산재): <a href="https://www.comwel.or.kr" target="_blank" rel="noopener">comwel.or.kr</a> (☎ 1588-0075)<br/>
+    두루누리 안내: <a href="https://insurancesupport.or.kr" target="_blank" rel="noopener">insurancesupport.or.kr</a>
+  </div>
+
+  <div class="footer" id="update">
+    <strong>업데이트 로그</strong><br/>
+    - 2026-04-05: 2026년 4월 기준 최초 작성 (건강보험 자동차 폐지·재산 공제 확대 반영)<br/>
+    <span class="small">※ 보험료율·지원 기준은 연도별로 변동됩니다. 공단 공식 사이트에서 최신 정보를 확인하세요.</span>
+  </div>
+</div>

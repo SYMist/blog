@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="8" fill="#EF4444"/>
+
+  <!-- Title -->
+  <text x="540" y="68" font-family="-apple-system, sans-serif" font-size="36" font-weight="900" fill="#EF4444" text-anchor="middle">자영업자 노후 절세 혜택 상실 TOP 5</text>
+  <text x="540" y="106" font-family="-apple-system, sans-serif" font-size="20" font-weight="700" fill="#A0B4D0" text-anchor="middle">이 중 하나만 걸려도 연간 수십~수백만 원 손실</text>
+
+  <!-- Item 1 -->
+  <rect x="60" y="132" width="960" height="114" rx="12" fill="#1A3270"/>
+  <rect x="60" y="132" width="6" height="114" rx="3" fill="#EF4444"/>
+  <circle cx="118" cy="189" r="24" fill="#EF4444"/>
+  <text x="118" y="196" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="middle">1</text>
+  <text x="162" y="172" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">노란우산 납입 후 종소세 신고 시 납입 확인서 미첨부</text>
+  <text x="162" y="200" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">소득공제는 자동 반영이 아님 — 종소세 신고 시 납입 확인서 직접 첨부 필수</text>
+  <text x="162" y="228" font-family="-apple-system, sans-serif" font-size="16" fill="#EF4444">→ 연간 수십~90만원 소득공제 미수령</text>
+
+  <!-- Item 2 -->
+  <rect x="60" y="256" width="960" height="114" rx="12" fill="#0D2347"/>
+  <rect x="60" y="256" width="6" height="114" rx="3" fill="#EF4444"/>
+  <circle cx="118" cy="313" r="24" fill="#EF4444"/>
+  <text x="118" y="320" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="middle">2</text>
+  <text x="162" y="296" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">IRP 중도인출 — 세액공제 전액 반환 + 기타소득세 16.5%</text>
+  <text x="162" y="324" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">60세 이전 중도인출 시 받은 세액공제 소급 환수 + 기타소득세 추가 부과</text>
+  <text x="162" y="352" font-family="-apple-system, sans-serif" font-size="16" fill="#EF4444">→ 세 혜택 전체 소멸, 실질적으로 손해</text>
+
+  <!-- Item 3 -->
+  <rect x="60" y="380" width="960" height="114" rx="12" fill="#1A3270"/>
+  <rect x="60" y="380" width="6" height="114" rx="3" fill="#F59E0B"/>
+  <circle cx="118" cy="437" r="24" fill="#F59E0B"/>
+  <text x="118" y="444" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#0B1F3B" text-anchor="middle">3</text>
+  <text x="162" y="420" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">국민연금 소득 감소 시 감액 신청 미이행</text>
+  <text x="162" y="448" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">소득이 줄었는데 신고 안 하면 이전 소득 기준 보험료 계속 납부 — 1년 이상 지속</text>
+  <text x="162" y="476" font-family="-apple-system, sans-serif" font-size="16" fill="#F59E0B">→ 연간 수십만원 과잉 납부 지속 가능</text>
+
+  <!-- Item 4 -->
+  <rect x="60" y="504" width="960" height="114" rx="12" fill="#0D2347"/>
+  <rect x="60" y="504" width="6" height="114" rx="3" fill="#F59E0B"/>
+  <circle cx="118" cy="561" r="24" fill="#F59E0B"/>
+  <text x="118" y="568" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#0B1F3B" text-anchor="middle">4</text>
+  <text x="162" y="544" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">IRP+연금저축 900만원 초과 납입 — 초과분 공제 불가</text>
+  <text x="162" y="572" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">합산 900만원 초과분은 세액공제 없이 납입 — 추후 수령 시 세율 불리하게 적용</text>
+  <text x="162" y="600" font-family="-apple-system, sans-serif" font-size="16" fill="#F59E0B">→ 한도 내 납입이 효율적, 초과분은 일반 펀드 등 별도 운용 권장</text>
+
+  <!-- Item 5 -->
+  <rect x="60" y="628" width="960" height="114" rx="12" fill="#1A3270"/>
+  <rect x="60" y="628" width="6" height="114" rx="3" fill="#A0B4D0"/>
+  <circle cx="118" cy="685" r="24" fill="#A0B4D0"/>
+  <text x="118" y="692" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#0B1F3B" text-anchor="middle">5</text>
+  <text x="162" y="668" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">노란우산 소득공제 한도 착각 — 초과분 납입 후 공제 미적용</text>
+  <text x="162" y="696" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">소득 구간에 따라 한도가 다름 (4,000만원↓: 600만원 / 1억↑: 200만원)</text>
+  <text x="162" y="724" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0">→ 초과 납입분은 공제 없이 적립되어 비효율적</text>
+
+  <!-- Warning box -->
+  <rect x="60" y="766" width="960" height="72" rx="12" fill="#2A1818"/>
+  <rect x="60" y="766" width="960" height="72" rx="12" fill="none" stroke="#EF4444" stroke-width="2"/>
+  <text x="540" y="800" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#EF4444" text-anchor="middle">연간 공제 신청은 5월 종소세 신고 시 납입 확인서 첨부로만 적용</text>
+  <text x="540" y="826" font-family="-apple-system, sans-serif" font-size="16" fill="#EAF2FF" text-anchor="middle">홈택스 자동 연동 아님 — 납입 확인서 직접 발급·첨부 필수</text>
+
+  <text x="540" y="960" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준 | yumam.kbiz.or.kr | nps.or.kr | 세무사 상담 권장</text>
+  <rect x="0" y="1072" width="1080" height="8" fill="#EF4444"/>
+</svg>

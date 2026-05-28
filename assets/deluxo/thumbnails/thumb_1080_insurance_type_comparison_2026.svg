@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#FBBF24"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="12" fill="url(#accent)"/>
+
+  <!-- Chips -->
+  <rect x="60" y="140" width="164" height="54" rx="27" fill="#1D4ED8"/>
+  <text x="142" y="174" font-family="-apple-system, sans-serif" font-size="22" font-weight="800" fill="#E8F0FF" text-anchor="middle">2026 최신</text>
+
+  <rect x="236" y="140" width="210" height="54" rx="27" fill="#1D4ED8"/>
+  <text x="341" y="174" font-family="-apple-system, sans-serif" font-size="22" font-weight="800" fill="#E8F0FF" text-anchor="middle">유형별 비교</text>
+
+  <rect x="458" y="140" width="260" height="54" rx="27" fill="#34D399" opacity="0.8"/>
+  <text x="588" y="174" font-family="-apple-system, sans-serif" font-size="22" font-weight="800" fill="#0B1F3B" text-anchor="middle">차액 시뮬레이션</text>
+
+  <!-- Main title -->
+  <text x="60" y="310" font-family="-apple-system, sans-serif" font-size="70" font-weight="900" fill="#FFFFFF">순수보장형</text>
+  <text x="60" y="400" font-family="-apple-system, sans-serif" font-size="70" font-weight="900" fill="#FFFFFF">vs 만기환급형</text>
+  <text x="60" y="490" font-family="-apple-system, sans-serif" font-size="70" font-weight="900" fill="#F59E0B">어떤 게 유리할까</text>
+
+  <!-- Subtitle -->
+  <text x="60" y="572" font-family="-apple-system, sans-serif" font-size="30" font-weight="700" fill="#EAF2FF">적립형 · 무해지환급형 · 갱신형 비교</text>
+  <text x="60" y="618" font-family="-apple-system, sans-serif" font-size="30" font-weight="700" fill="#EAF2FF">2026년 총정리</text>
+
+  <!-- Divider -->
+  <rect x="60" y="654" width="960" height="4" fill="#F59E0B" rx="2"/>
+
+  <!-- Key facts row -->
+  <rect x="60" y="686" width="290" height="140" rx="20" fill="#1A3270"/>
+  <text x="205" y="742" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#F59E0B" text-anchor="middle">보험료 차이</text>
+  <text x="205" y="796" font-family="-apple-system, sans-serif" font-size="44" font-weight="900" fill="#FFFFFF" text-anchor="middle">2배</text>
+
+  <rect x="395" y="686" width="290" height="140" rx="20" fill="#1A3270"/>
+  <text x="540" y="742" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#F59E0B" text-anchor="middle">차액 20년 투자</text>
+  <text x="540" y="796" font-family="-apple-system, sans-serif" font-size="36" font-weight="900" fill="#FFFFFF" text-anchor="middle">+1,470만원</text>
+
+  <rect x="730" y="686" width="290" height="140" rx="20" fill="#34D399" opacity="0.2"/>
+  <rect x="730" y="686" width="290" height="140" rx="20" fill="none" stroke="#34D399" stroke-width="2"/>
+  <text x="875" y="742" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#34D399" text-anchor="middle">전문가 권장</text>
+  <text x="875" y="796" font-family="-apple-system, sans-serif" font-size="30" font-weight="900" fill="#FFFFFF" text-anchor="middle">순수보장형</text>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="848" width="1080" height="220" fill="#0A1A35"/>
+  <text x="540" y="918" font-family="-apple-system, sans-serif" font-size="26" font-weight="700" fill="#EAF2FF" text-anchor="middle">보험료 차액 투자 시뮬레이션 수록</text>
+  <text x="540" y="966" font-family="-apple-system, sans-serif" font-size="22" font-weight="600" fill="#F59E0B" text-anchor="middle">물가상승률 반영 실질 환급금 + 갱신형 인상 패턴</text>
+  <text x="540" y="1014" font-family="-apple-system, sans-serif" font-size="18" fill="#A0B4D0" text-anchor="middle">※ 이 글의 수치는 예시입니다. 가입 전 약관·상품설명서 확인 필수</text>
+  <text x="540" y="1046" font-family="-apple-system, sans-serif" font-size="18" fill="#6B7280" text-anchor="middle">금감원 금융소비자 포털 fine.fss.or.kr ☎ 1332</text>
+
+  <rect x="0" y="1068" width="1080" height="12" fill="url(#accent)"/>
+</svg>

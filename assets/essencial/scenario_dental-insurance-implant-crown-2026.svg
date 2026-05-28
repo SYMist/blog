@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 1300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="860" height="1300" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="430" y="45" text-anchor="middle" fill="#C4B5FD" font-size="14" font-weight="600" font-family="sans-serif">essencial | 상황별 추천 가이드</text>
+  <text x="430" y="80" text-anchor="middle" fill="#FFFFFF" font-size="24" font-weight="800" font-family="sans-serif">치아보험 — 나에게 맞는 상품은?</text>
+
+  <!-- Scenario 1 -->
+  <g transform="translate(40,110)">
+    <rect x="0" y="0" width="380" height="150" rx="16" fill="#1e293b"/>
+    <rect x="0" y="0" width="380" height="4" rx="2" fill="#7C3AED"/>
+    <rect x="15" y="18" width="28" height="28" rx="14" fill="#5B21B6"/>
+    <text x="29" y="38" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">1</text>
+    <text x="58" y="38" fill="#C4B5FD" font-size="14" font-weight="700" font-family="sans-serif">50대+, 임플란트 다수 예상</text>
+    <text x="15" y="65" fill="#CBD5E1" font-size="12" font-family="sans-serif">치주질환 이력, 잇몸 상태 불량</text>
+    <text x="15" y="92" fill="#34D399" font-size="14" font-weight="700" font-family="sans-serif">→ 삼성화재 / DB손보</text>
+    <text x="15" y="115" fill="#94A3B8" font-size="11" font-family="sans-serif">임플란트 무제한 + 치조골 이식술 담보</text>
+    <text x="15" y="138" fill="#FCD34D" font-size="11" font-weight="600" font-family="sans-serif">다수 치아 상실 리스크 완전 제거</text>
+  </g>
+
+  <!-- Scenario 2 -->
+  <g transform="translate(440,110)">
+    <rect x="0" y="0" width="380" height="150" rx="16" fill="#1e293b"/>
+    <rect x="0" y="0" width="380" height="4" rx="2" fill="#34D399"/>
+    <rect x="15" y="18" width="28" height="28" rx="14" fill="#065F46"/>
+    <text x="29" y="38" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">2</text>
+    <text x="58" y="38" fill="#6EE7B7" font-size="14" font-weight="700" font-family="sans-serif">30대, 치아 관리 양호</text>
+    <text x="15" y="65" fill="#CBD5E1" font-size="12" font-family="sans-serif">보험료 절약이 우선, 예방 차원</text>
+    <text x="15" y="92" fill="#34D399" font-size="14" font-weight="700" font-family="sans-serif">→ 라이프플래닛</text>
+    <text x="15" y="115" fill="#94A3B8" font-size="11" font-family="sans-serif">낮은 사업비 = 보험료 대비 효율 최고</text>
+    <text x="15" y="138" fill="#94A3B8" font-size="11" font-family="sans-serif">임플란트 연 3개면 충분</text>
+  </g>
+
+  <!-- Scenario 3 -->
+  <g transform="translate(40,280)">
+    <rect x="0" y="0" width="380" height="150" rx="16" fill="#1e293b"/>
+    <rect x="0" y="0" width="380" height="4" rx="2" fill="#F59E0B"/>
+    <rect x="15" y="18" width="28" height="28" rx="14" fill="#92400E"/>
+    <text x="29" y="38" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">3</text>
+    <text x="58" y="38" fill="#FBBF24" font-size="14" font-weight="700" font-family="sans-serif">40대, 기존 임플란트 있음</text>
+    <text x="15" y="65" fill="#CBD5E1" font-size="12" font-family="sans-serif">재식립 가능성이 걱정</text>
+    <text x="15" y="92" fill="#34D399" font-size="14" font-weight="700" font-family="sans-serif">→ 라이나생명</text>
+    <text x="15" y="115" fill="#94A3B8" font-size="11" font-family="sans-serif">재식립 임플란트 특약 (최대 100만 원)</text>
+    <text x="15" y="138" fill="#FCD34D" font-size="11" font-weight="600" font-family="sans-serif">업계 유일 재식립 보장</text>
+  </g>
+
+  <!-- Scenario 4 -->
+  <g transform="translate(440,280)">
+    <rect x="0" y="0" width="380" height="150" rx="16" fill="#1e293b"/>
+    <rect x="0" y="0" width="380" height="4" rx="2" fill="#3B82F6"/>
+    <rect x="15" y="18" width="28" height="28" rx="14" fill="#1E40AF"/>
+    <text x="29" y="38" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">4</text>
+    <text x="58" y="38" fill="#60A5FA" font-size="14" font-weight="700" font-family="sans-serif">치아 우수 + 즉시 보장 필요</text>
+    <text x="15" y="65" fill="#CBD5E1" font-size="12" font-family="sans-serif">면책·감액 기다릴 수 없는 상황</text>
+    <text x="15" y="92" fill="#34D399" font-size="14" font-weight="700" font-family="sans-serif">→ 진단형 가입</text>
+    <text x="15" y="115" fill="#94A3B8" font-size="11" font-family="sans-serif">면책·감액 없이 즉시 100% 보장</text>
+    <text x="15" y="138" fill="#34D399" font-size="11" font-weight="600" font-family="sans-serif">보험료도 무진단형보다 저렴</text>
+  </g>
+
+  <!-- Scenario 5 -->
+  <g transform="translate(40,450)">
+    <rect x="0" y="0" width="380" height="150" rx="16" fill="#1e293b"/>
+    <rect x="0" y="0" width="380" height="4" rx="2" fill="#EF4444"/>
+    <rect x="15" y="18" width="28" height="28" rx="14" fill="#991B1B"/>
+    <text x="29" y="38" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">5</text>
+    <text x="58" y="38" fill="#FCA5A5" font-size="14" font-weight="700" font-family="sans-serif">65세+, 보험료 부담 큼</text>
+    <text x="15" y="65" fill="#CBD5E1" font-size="12" font-family="sans-serif">고령 가입, 세금 절세도 중요</text>
+    <text x="15" y="92" fill="#34D399" font-size="14" font-weight="700" font-family="sans-serif">→ DB손보 (70세 가입 가능)</text>
+    <text x="15" y="115" fill="#94A3B8" font-size="11" font-family="sans-serif">세액공제 12% (연 100만 원 한도)</text>
+    <text x="15" y="138" fill="#94A3B8" font-size="11" font-family="sans-serif">고령층 접근성 최고</text>
+  </g>
+
+  <!-- Scenario 6 -->
+  <g transform="translate(440,450)">
+    <rect x="0" y="0" width="380" height="150" rx="16" fill="#1e293b"/>
+    <rect x="0" y="0" width="380" height="4" rx="2" fill="#10B981"/>
+    <rect x="15" y="18" width="28" height="28" rx="14" fill="#065F46"/>
+    <text x="29" y="38" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">6</text>
+    <text x="58" y="38" fill="#6EE7B7" font-size="14" font-weight="700" font-family="sans-serif">직장인, 절세 목적 병행</text>
+    <text x="15" y="65" fill="#CBD5E1" font-size="12" font-family="sans-serif">보장성보험 세액공제 활용</text>
+    <text x="15" y="92" fill="#34D399" font-size="14" font-weight="700" font-family="sans-serif">→ DB손보</text>
+    <text x="15" y="115" fill="#94A3B8" font-size="11" font-family="sans-serif">연말정산 세액공제 12%</text>
+    <text x="15" y="138" fill="#94A3B8" font-size="11" font-family="sans-serif">보장 + 절세 두 마리 토끼</text>
+  </g>
+
+  <!-- 5단계 체크리스트 -->
+  <rect x="40" y="640" width="780" height="36" rx="10" fill="#7C3AED" opacity="0.2"/>
+  <text x="430" y="665" text-anchor="middle" fill="#C4B5FD" font-size="16" font-weight="700" font-family="sans-serif">지금 바로 확인하는 5단계</text>
+
+  <g transform="translate(60,695)">
+    <rect x="0" y="0" width="740" height="50" rx="12" fill="#1e293b"/>
+    <rect x="0" y="0" width="4" height="50" rx="2" fill="#7C3AED"/>
+    <rect x="18" y="11" width="28" height="28" rx="14" fill="#5B21B6"/>
+    <text x="32" y="31" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">1</text>
+    <text x="60" y="25" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">실손24에서 기존 보험 조회</text>
+    <text x="60" y="43" fill="#94A3B8" font-size="12" font-family="sans-serif">이미 치아보험 가입 여부·보장 범위 확인</text>
+
+    <rect x="0" y="58" width="740" height="50" rx="12" fill="#253044"/>
+    <rect x="0" y="58" width="4" height="50" rx="2" fill="#34D399"/>
+    <rect x="18" y="69" width="28" height="28" rx="14" fill="#065F46"/>
+    <text x="32" y="89" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">2</text>
+    <text x="60" y="83" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">비교표로 필요한 보장 파악</text>
+    <text x="60" y="101" fill="#94A3B8" font-size="12" font-family="sans-serif">임플란트 무제한 필요? 크라운 한도 충분?</text>
+
+    <rect x="0" y="116" width="740" height="50" rx="12" fill="#1e293b"/>
+    <rect x="0" y="116" width="4" height="50" rx="2" fill="#F59E0B"/>
+    <rect x="18" y="127" width="28" height="28" rx="14" fill="#92400E"/>
+    <text x="32" y="147" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">3</text>
+    <text x="60" y="141" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">진단형 vs 무진단형 결정</text>
+    <text x="60" y="159" fill="#94A3B8" font-size="12" font-family="sans-serif">치아 우수 → 진단형 / 빠른 가입 → 무진단형</text>
+
+    <rect x="0" y="174" width="740" height="50" rx="12" fill="#253044"/>
+    <rect x="0" y="174" width="4" height="50" rx="2" fill="#3B82F6"/>
+    <rect x="18" y="185" width="28" height="28" rx="14" fill="#1E40AF"/>
+    <text x="32" y="205" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">4</text>
+    <text x="60" y="199" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">보험다모아에서 보험료 비교</text>
+    <text x="60" y="217" fill="#94A3B8" font-size="12" font-family="sans-serif">동일 조건으로 4사 보험료 직접 비교</text>
+
+    <rect x="0" y="232" width="740" height="50" rx="12" fill="#1e293b"/>
+    <rect x="0" y="232" width="4" height="50" rx="2" fill="#EF4444"/>
+    <rect x="18" y="243" width="28" height="28" rx="14" fill="#991B1B"/>
+    <text x="32" y="263" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">5</text>
+    <text x="60" y="257" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">함정 항목 체크 후 가입</text>
+    <text x="60" y="275" fill="#94A3B8" font-size="12" font-family="sans-serif">고지의무·감액기간·갱신 구조 최종 확인</text>
+  </g>
+
+  <!-- 핵심 결론 -->
+  <rect x="60" y="1010" width="740" height="80" rx="16" fill="#7C3AED" opacity="0.25"/>
+  <text x="430" y="1042" text-anchor="middle" fill="#FFFFFF" font-size="17" font-weight="700" font-family="sans-serif">임플란트 다수 → 무제한형 | 관리 양호 → 한도형</text>
+  <text x="430" y="1072" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="600" font-family="sans-serif">예정이율 하락으로 보험료 계속 인상 중 — 빠른 가입이 유리</text>
+
+  <!-- Warning -->
+  <rect x="60" y="1110" width="740" height="50" rx="12" fill="#7F1D1D" opacity="0.3"/>
+  <text x="430" y="1132" text-anchor="middle" fill="#FCA5A5" font-size="13" font-weight="700" font-family="sans-serif">고지의무 위반 주의: 1년 내 충치치료·5년 내 치주질환 발치·틀니 착용</text>
+  <text x="430" y="1150" text-anchor="middle" fill="#FCA5A5" font-size="12" font-family="sans-serif">빅데이터 질병 이력 조회 강화 → 정확한 고지 필수</text>
+
+  <!-- 면책 문구 -->
+  <rect x="60" y="1185" width="740" height="60" rx="12" fill="#1e293b"/>
+  <text x="430" y="1210" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="sans-serif">본 글은 일반적인 정보 제공 목적이며, 특정 보험 상품을 추천하는 것이 아닙니다.</text>
+  <text x="430" y="1228" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="sans-serif">보험 가입·변경 시 반드시 약관을 확인하고, 필요 시 전문 설계사와 상담하시기 바랍니다.</text>
+
+  <!-- Footer -->
+  <text x="430" y="1285" text-anchor="middle" fill="#64748B" font-size="13" font-family="sans-serif">essencial | 2026년 4월 기준 | 보험다모아·보험사 약관 참고</text>
+</svg>

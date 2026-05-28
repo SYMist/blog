@@ -1,0 +1,480 @@
+<!-- 개인사업자 법인전환 — 절세 효과·비용·절차 총정리 (2026) -->
+<!-- slug: corp_convert -->
+<!-- Silo: 소상공인×절세 / 고CPC -->
+<!-- 내부링크: #24(종소세), #30(노란우산), #44(부가세) -->
+
+<!-- ✅ Schema.org 구조화 데이터 -->
+<div style="display:none">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "개인사업자 법인전환 절세 효과 비용 절차 총정리 2026",
+      "description": "2026년 법인세 1%p 인상에도 개인사업자 법인전환이 유리한 이유를 세율 비교·절세 효과·전환 비용·절차·가업승계까지 총정리합니다.",
+      "datePublished": "2026-04-13",
+      "dateModified": "2026-04-13",
+      "author": {"@type": "Person", "name": "deluxo"},
+      "publisher": {"@type": "Organization", "name": "tistory.deluxo"}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "2026년 법인세율이 인상됐는데도 법인전환이 유리한가요?", "acceptedAnswer": {"@type": "Answer", "text": "네. 법인세 1%p 인상 후에도 과표 2억 이하 실효세율은 11%이며, 개인 최고세율 49.5%와의 격차는 여전히 22%p 이상입니다. 소득이 클수록 법인전환의 절세 효과가 큽니다."}},
+        {"@type": "Question", "name": "법인전환 비용은 얼마나 드나요?", "acceptedAnswer": {"@type": "Answer", "text": "자본금 2,800만 원 기준 비과밀지역 약 40만 원(등록세+교육세+법무사·세무사 수수료)이며, 과밀억제권역은 등록세 3배 중과로 비용이 크게 증가합니다."}},
+        {"@type": "Question", "name": "성실신고확인대상이면 법인전환해야 하나요?", "acceptedAnswer": {"@type": "Answer", "text": "성실신고대상(도소매 15억·제조 7.5억·임대 5억 이상)이 되면 세무 리스크와 비용이 급증하므로 법인전환을 적극 검토해야 합니다. 다만 1인 부동산 법인은 소규모 법인 규제로 실익이 낮을 수 있습니다."}},
+        {"@type": "Question", "name": "법인전환 시 양도소득세를 내야 하나요?", "acceptedAnswer": {"@type": "Answer", "text": "이월과세(조특법 32조)를 적용하면 양도소득세를 법인이 자산을 처분할 때까지 유예할 수 있습니다. 단, 5년 내 사업 폐지 또는 주식 50% 이상 처분 시 추징됩니다."}},
+        {"@type": "Question", "name": "가업승계를 위해 법인전환이 필수인가요?", "acceptedAnswer": {"@type": "Answer", "text": "가업승계 주식 증여세 과세특례(120억까지 10%)는 법인 주식에만 적용됩니다. 개인사업자는 이 특례를 받을 수 없어 법인전환이 사실상 필수입니다."}}
+      ]
+    }
+  ]
+}
+</script>
+</div>
+
+<style>
+  :root{
+    --blue:#1D4ED8; --blue2:#1E40AF;
+    --white:#FFFFFF; --text:#111827;
+    --muted:#4B5563; --border:#E5E7EB;
+    --bg:#F9FAFB; --blueLight:#E8F0FF;
+  }
+  .wrap{max-width:860px;margin:0 auto;line-height:1.8;color:var(--text);}
+  .meta{color:var(--muted);font-size:.95rem;margin:6px 0 18px;}
+  .badge{display:inline-block;background:var(--blueLight);border:1px solid var(--border);padding:3px 10px;border-radius:999px;font-size:.85rem;margin-right:8px;}
+  .notice{background:#fff7ed;border:1px solid #fed7aa;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .lead{background:#f8fafc;border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .keysum{background:#fefce8;border:1px solid #fde68a;padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .summary{background:#eff6ff;border:1px solid #bfdbfe;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .toc{background:var(--bg);border:1px solid var(--border);padding:14px 16px;border-radius:12px;margin:16px 0 22px;}
+  .toc a{text-decoration:none;color:var(--blue);}
+  .toc ul{margin:8px 0 0 18px;}
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 6px;}
+  .wrap a.btn,.wrap a.btn:link,.wrap a.btn:visited{
+    display:inline-flex;align-items:center;justify-content:center;
+    padding:10px 14px;border-radius:10px;border:1px solid var(--blue);
+    background:var(--blue) !important;color:var(--white) !important;
+    text-decoration:none !important;font-weight:800;
+  }
+  .wrap a.btn:hover,.wrap a.btn:active,.wrap a.btn:focus{
+    background:var(--blue2) !important;border-color:var(--blue2) !important;color:var(--white) !important;
+  }
+  .wrap a.btn.secondary,.wrap a.btn.secondary:link,.wrap a.btn.secondary:visited{
+    background:var(--white) !important;color:var(--blue) !important;border-color:var(--blue) !important;
+  }
+  .wrap a.btn.secondary:hover,.wrap a.btn.secondary:active,.wrap a.btn.secondary:focus{
+    background:var(--bg) !important;color:var(--blue2) !important;border-color:var(--blue2) !important;
+  }
+  .wrap a.btn.gray,.wrap a.btn.gray:link,.wrap a.btn.gray:visited{
+    background:#111827 !important;border-color:#111827 !important;color:var(--white) !important;
+  }
+  .wrap a.btn.gray:hover,.wrap a.btn.gray:active,.wrap a.btn.gray:focus{
+    background:#0b1220 !important;border-color:#0b1220 !important;color:var(--white) !important;
+  }
+  table{width:100%;border-collapse:collapse;margin:14px 0 10px;}
+  th,td{border:1px solid var(--border);padding:10px;vertical-align:top;}
+  th{background:#F3F4F6;text-align:left;}
+  .small{font-size:.95rem;color:var(--muted);}
+  h1{margin:0 0 8px;line-height:1.25;}
+  h2{margin-top:30px;padding-top:8px;border-top:1px solid var(--border);}
+  h3{margin-top:16px;}
+  .q{font-weight:900;margin:14px 0 6px;}
+  .a{margin:0 0 10px;}
+  .tips{background:#f0fdf4;border:1px solid #bbf7d0;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .urgency{background:#fef2f2;border:1px solid #fca5a5;padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .target{background:#f0fdf4;border:1px solid #86efac;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .target ul{margin:8px 0 0 18px;}
+  .ad{background:#f9fafb;border:1px dashed var(--border);padding:10px 12px;border-radius:10px;margin:12px 0;}
+  .footer{margin-top:26px;padding-top:14px;border-top:1px solid var(--border);color:var(--muted);font-size:.95rem;}
+</style>
+
+<div class="wrap">
+  <h1>개인사업자 법인전환 — 절세 효과·비용·절차 총정리 (2026)</h1>
+  <div class="meta">
+    <span class="badge">키워드: 개인사업자 법인전환</span>
+    <span class="badge">업데이트: 2026-04-13</span>
+  </div>
+
+  <div class="notice">
+    <strong>먼저 확인!</strong><br/>
+    법인전환은 세무·법무·노무가 복합적으로 얽히는 고도의 경영 행위입니다. 이 글은 2026년 개정 세법 기준 참고 자료이며, 반드시 세무사·법무사와 상담 후 진행하세요.
+  </div>
+
+  <p class="small">
+    2026년 법인세 1%p 인상에도 개인사업자 법인전환이 유리한 이유를 세율 비교·절세 효과·전환 비용·절차·가업승계까지 총정리합니다.
+  </p>
+
+  <div class="lead">
+    "법인세율이 올랐으니 이제 법인전환 안 해도 되는 거 아닌가요?" — 가장 많이 받는 질문입니다. 결론부터 말하면, 2026년 법인세 인상 후에도 개인 최고세율 49.5%와 법인 실효세율 11~22%의 격차는 여전히 22%p 이상입니다. 연 소득 5,000만 원만 넘어도 법인이 유리해지기 시작하고, 성실신고확인대상에 해당하면 법인전환을 진지하게 검토해야 합니다.
+  </div>
+
+  <div class="urgency">
+    <strong>왜 지금 검토해야 할까?</strong><br/>
+    법인전환 취득세 감면(지특법 57조의2) 일몰 기한이 <strong>2027년 12월 31일</strong>까지입니다. 2026년 상반기에 전환하면 감면 혜택을 온전히 받을 수 있지만, 일몰 이후에는 부동산 취득세 전액 부담 가능성이 있습니다.
+  </div>
+
+  <div class="keysum">
+    <strong>핵심 요약 3줄</strong><br/>
+    ① 법인세 인상 후에도 과표 2억 이하 실효세율 11% — 개인 최고 49.5%와 격차 22%p↑<br/>
+    ② 전환 비용: 비과밀 약 40만 원(자본금 2,800만 기준) — 과밀억제권역은 등록세 3배 중과<br/>
+    ③ 가업승계 주식 증여 120억까지 10% 저율 과세 — 개인사업자는 이 특례 적용 불가
+  </div>
+
+  <div class="summary" id="top">
+    <h2 style="border-top:none;margin-top:0;">✅ 5줄 요약(결론)</h2>
+    <ul>
+      <li><strong>절세 효과</strong>: 연 소득 5,000만 원↑이면 법인이 유리, 1억↑이면 연간 수백만 원 절감</li>
+      <li><strong>전환 방식</strong>: 부동산 없으면 사업포괄양수도(40일) / 부동산 있으면 현물출자(2~3개월)</li>
+      <li><strong>조세 특례</strong>: 양도세 이월과세 + 취득세 감면 — 일몰 2027.12.31까지</li>
+      <li><strong>주의</strong>: 가지급금 발생 시 인정이자 4.6% + 상여 처분 → 자금 관리 체계 필수</li>
+      <li><strong>가업승계</strong>: 법인 주식 증여 120억까지 10% — 개인사업자는 적용 불가</li>
+    </ul>
+
+    <div class="btns">
+      <a class="btn" href="https://www.hometax.go.kr" target="_blank" rel="noopener">홈택스 법인 설립 신고</a>
+      <a class="btn gray" href="https://www.startbiz.go.kr" target="_blank" rel="noopener">온라인 법인설립 시스템</a>
+      <a class="btn secondary" href="https://www.nts.go.kr" target="_blank" rel="noopener">국세청 세법 안내</a>
+    </div>
+    <p class="small">※ 법인전환은 개인 상황에 따라 실익이 크게 달라집니다. 반드시 전문가 상담 후 진행하세요.</p>
+  </div>
+
+  <div class="target">
+    <strong>이런 상황이라면 법인전환을 검토하세요</strong>
+    <ul>
+      <li>종합소득세 신고 때마다 세금이 수천만 원씩 나와서 부담이 크다면</li>
+      <li>매출이 성실신고확인대상 기준(도소매 15억·제조 7.5억·임대 5억)에 가까워졌다면</li>
+      <li>사업용 부동산을 보유하고 있어 양도세 이월과세 혜택이 필요하다면</li>
+      <li>자녀에게 가업을 물려줄 계획이 있는데 증여세가 걱정된다면</li>
+      <li>투자 유치나 관공서 입찰을 위해 법인 자격이 필요하다면</li>
+    </ul>
+  </div>
+
+  <div class="toc">
+    <strong>목차</strong>
+    <ul>
+      <li><a href="#table">1) 개인 vs 법인 세율 비교표</a></li>
+      <li><a href="#when">2) 법인전환 유리한 시점 — 성실신고·소득 기준</a></li>
+      <li><a href="#method">3) 전환 방식 3가지 비교</a></li>
+      <li><a href="#tax">4) 조세 특례 — 이월과세·취득세 감면</a></li>
+      <li><a href="#employ">5) 통합고용세액공제 2026 개편</a></li>
+      <li><a href="#risk">6) 법인 운영 리스크 — 가지급금·이중과세</a></li>
+      <li><a href="#succession">7) 가업승계·증여세 절감</a></li>
+      <li><a href="#how">8) 전환 절차 타임라인</a></li>
+      <li><a href="#docs">9) 서류 체크리스트</a></li>
+      <li><a href="#case">10) 경험/사례</a></li>
+      <li><a href="#faq">11) FAQ</a></li>
+      <li><a href="#check">12) 1분 체크리스트</a></li>
+      <li><a href="#update">업데이트 로그</a></li>
+    </ul>
+  </div>
+
+  <h2 id="table">1) 개인 vs 법인 세율 비교표 (2026년 기준)</h2>
+
+  <h3>법인세율 (2026년~ 전 구간 1%p 인상)</h3>
+  <table>
+    <thead>
+      <tr><th>과세표준</th><th>법인세(국세)</th><th>지방소득세</th><th>실질 합산 세율</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>2억 원 이하</td><td>10%</td><td>1.0%</td><td><strong>11.0%</strong></td></tr>
+      <tr><td>2억~200억 원</td><td>20%</td><td>2.0%</td><td><strong>22.0%</strong></td></tr>
+      <tr><td>200억~3,000억 원</td><td>22%</td><td>2.2%</td><td>24.2%</td></tr>
+      <tr><td>3,000억 원 초과</td><td>25%</td><td>2.5%</td><td>27.5%</td></tr>
+    </tbody>
+  </table>
+
+  <h3>개인 종합소득세 (8단계 누진)</h3>
+  <table>
+    <thead>
+      <tr><th>과세표준</th><th>세율</th><th>지방세 포함</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1,400만 원 이하</td><td>6%</td><td>6.6%</td></tr>
+      <tr><td>1,400~5,000만 원</td><td>15%</td><td>16.5%</td></tr>
+      <tr><td>5,000~8,800만 원</td><td>24%</td><td>26.4%</td></tr>
+      <tr><td>8,800만~1.5억 원</td><td>35%</td><td>38.5%</td></tr>
+      <tr><td>1.5~3억 원</td><td>38%</td><td>41.8%</td></tr>
+      <tr><td>3~5억 원</td><td>40%</td><td>44.0%</td></tr>
+      <tr><td>5~10억 원</td><td>42%</td><td>46.2%</td></tr>
+      <tr><td>10억 원 초과</td><td>45%</td><td><strong>49.5%</strong></td></tr>
+    </tbody>
+  </table>
+  <p class="small">※ 같은 과표 1억 원 기준: 개인 약 38.5% vs 법인 11~22% → <strong>격차 16.5~27.5%p</strong></p>
+
+  <div class="ad">{광고 위치 1: 세율 비교표 아래}</div>
+
+  <!-- ✅ 이미지 1: 요약표 카드 -->
+  <img src="summary_card_1080_corp_convert.png" alt="개인사업자 법인전환 절세 효과 비용 절차 요약" />
+
+  <!-- ✅ 이미지 2: 빠른 판단 가이드 -->
+  <img src="quick_guide_1080_corp_convert.png" alt="개인사업자 법인전환 유리한지 빠른 판단 가이드" />
+
+  <h2 id="when">2) 법인전환 유리한 시점 — 성실신고·소득 기준</h2>
+
+  <h3>성실신고확인대상 수입금액 기준</h3>
+  <table>
+    <thead>
+      <tr><th>업종</th><th>기준 금액</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>농업·광업·도소매·부동산매매</td><td><strong>15억 원</strong> 이상</td></tr>
+      <tr><td>제조·숙박·음식·건설·운수·IT</td><td><strong>7.5억 원</strong> 이상</td></tr>
+      <tr><td>부동산 임대·전문서비스·교육</td><td><strong>5억 원</strong> 이상</td></tr>
+    </tbody>
+  </table>
+
+  <h3>성실신고대상이 되면 어떤 일이?</h3>
+  <ul>
+    <li>세무대리인의 장부 확인 의무 → 추가 세무 비용 발생</li>
+    <li>단순 경비율 적용 불가 → 모든 비용 증빙 필요</li>
+    <li>세무조사 우선 대상 가능성 ↑</li>
+    <li>가공 경비 검증 대폭 강화</li>
+  </ul>
+
+  <h3>⚠️ 소규모 법인 규제 주의 (2026년~)</h3>
+  <p>다음 3가지를 <strong>모두</strong> 충족하면 '성실신고확인대상 소규모 법인'으로 분류되어 2억 이하 구간도 <strong>20% 세율</strong>이 적용됩니다.</p>
+  <ul>
+    <li>지배주주 + 특수관계인 지분율 50% 초과</li>
+    <li>부동산 임대업 또는 이자·배당 소득이 매출의 50% 이상</li>
+    <li>상시 근로자 수 5인 미만</li>
+  </ul>
+  <p class="small">→ 단순히 성실신고 회피 목적의 <strong>'1인 부동산 법인' 전환은 2026년 세법에서 실익이 크게 낮아집니다.</strong></p>
+
+  <h2 id="method">3) 전환 방식 3가지 비교</h2>
+  <table>
+    <thead>
+      <tr><th>구분</th><th>사업포괄양수도 (일반)</th><th>사업포괄양수도 (세혜택)</th><th>현물출자</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>적합 상황</strong></td><td>부동산 없음, 소규모</td><td>부동산 포함, 세혜택 필요</td><td>고가 부동산, 현금 부족</td></tr>
+      <tr><td><strong>메커니즘</strong></td><td>신설 법인에 자산·부채 포괄 매각</td><td>좌동 + 조특법 세혜택 적용</td><td>자산 출자 → 주식 발행</td></tr>
+      <tr><td><strong>자본금 요건</strong></td><td>자유</td><td>순자산가액 이상 필수</td><td>출자 자산 감정가액</td></tr>
+      <tr><td><strong>양도세</strong></td><td>발생</td><td>이월과세 가능</td><td>이월과세 가능</td></tr>
+      <tr><td><strong>부가세</strong></td><td>면제 (포괄 양도 요건 충족 시)</td><td>면제</td><td>면제</td></tr>
+      <tr><td><strong>소요 기간</strong></td><td>약 40일</td><td>약 40일</td><td>2~3개월</td></tr>
+      <tr><td><strong>비용</strong></td><td>약 40만 원~</td><td>약 40만 원~ + 세무 컨설팅</td><td>감정평가 수수료 + 법원 검수인</td></tr>
+    </tbody>
+  </table>
+
+  <!-- ✅ 이미지 3: 정책 비교·변화 카드 -->
+  <img src="compare_card_1080_corp_convert.png" alt="개인사업자 법인전환 방식 3가지 비교 카드" />
+
+  <h2 id="tax">4) 조세 특례 — 이월과세·취득세 감면</h2>
+
+  <h3>양도소득세 이월과세 (조특법 제32조)</h3>
+  <table>
+    <thead>
+      <tr><th>항목</th><th>내용</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>효과</td><td>개인 → 법인 자산 이전 시 양도세를 <strong>법인이 자산 처분할 때까지 유예</strong></td></tr>
+      <tr><td>요건</td><td>소비성 서비스업 제외, 법인 설립일로부터 <strong>3개월 이내</strong> 포괄 양도 완료</td></tr>
+      <tr><td>사후 관리</td><td>5년 내 사업 폐지 또는 주식 50%↑ 처분 시 <strong>이자 상당액 + 추징</strong></td></tr>
+      <tr><td>2026 변경</td><td>50% 미만 처분 시에도 비율만큼 과세 가능 (구체화)</td></tr>
+    </tbody>
+  </table>
+
+  <h3>취득세 감면 (지특법 제57조의2)</h3>
+  <table>
+    <thead>
+      <tr><th>구분</th><th>2025년 이전</th><th>2026년~</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>수도권 외 청년 창업</td><td>100% 감면</td><td><strong>75% 감면</strong> (최저한세 적용)</td></tr>
+      <tr><td>창업 벤처기업 (4년 내)</td><td>75% 감면</td><td>75% 유지</td></tr>
+      <tr><td>일반 법인전환</td><td>재설계 감면율</td><td>일몰 연장 + 사후관리 강화</td></tr>
+      <tr><td><strong>일몰 기한</strong></td><td>-</td><td><strong>2027년 12월 31일</strong></td></tr>
+    </tbody>
+  </table>
+  <p class="small">※ 과밀억제권역에서는 등록세가 3배 중과됩니다. 비과밀지역 전환이 비용 면에서 유리합니다.</p>
+
+  <h2 id="employ">5) 통합고용세액공제 2026 개편</h2>
+  <table>
+    <thead>
+      <tr><th>항목</th><th>기존</th><th>2026년~</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>공제 구조</td><td>채용 인원 단순 합산</td><td><strong>연차별 차등</strong> (1년차↓ 2~3년차↑)</td></tr>
+      <tr><td>예시 (수도권 밖 청년)</td><td>연 균등 공제</td><td>1년차 1,000만 / 2년차 1,900만 / 3년차 2,000만</td></tr>
+      <tr><td>사후 관리</td><td>2년 내 1명↓ → 전액 추징</td><td><strong>감소 인원분만 추징</strong> (유지분은 계속 공제)</td></tr>
+      <tr><td>상시근로자 기준</td><td>일반</td><td>실제 근무 1년↑ 근로자만 포함 (단기 채용 남용 방지)</td></tr>
+    </tbody>
+  </table>
+  <p class="small">→ 법인전환 후 장기 고용을 유지하면 <strong>2~3년차에 대폭 확대된 공제</strong>로 법인세 실효세율을 크게 낮출 수 있습니다.</p>
+
+  <h2 id="risk">6) 법인 운영 리스크 — 가지급금·이중과세</h2>
+
+  <h3>가지급금 — 법인 자금의 '독소 조항'</h3>
+  <table>
+    <thead>
+      <tr><th>리스크</th><th>내용</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>인정이자</td><td>가지급금에 <strong>연 4.6%</strong> 인정이자 계상 → 법인 익금 산입 → 법인세 ↑</td></tr>
+      <tr><td>지급이자 손금불산입</td><td>차입금 있는 상태에서 가지급금 존재 → 비율만큼 이자 비용 경비 처리 불가</td></tr>
+      <tr><td>상여 처분</td><td>인정이자 미납부 → 대표자 소득세 부과 / 퇴직 시 미정리분 → <strong>상여 처분 = 소득세 폭탄</strong></td></tr>
+    </tbody>
+  </table>
+
+  <h3>이중과세 완화 장치</h3>
+  <ul>
+    <li><strong>배당소득 Gross-up</strong>: 법인 단계 납부 세액 일부를 개인 소득세에서 공제</li>
+    <li><strong>퇴직금 활용</strong>: 분류 과세 + 근속연수 분산 → 가장 효율적인 자산 회수 수단</li>
+    <li><strong>자본준비금 감액 배당</strong>: 일정 요건 충족 시 비과세 가능</li>
+    <li><strong>고배당 분리과세 (2026~)</strong>: 상장법인 주주 대상 14~35% 누진세율 선택 적용</li>
+  </ul>
+
+  <div class="ad">{광고 위치 2: 리스크 섹션 아래}</div>
+
+  <h2 id="succession">7) 가업승계·증여세 절감</h2>
+
+  <h3>가업승계 주식 증여세 과세특례 (생전 증여)</h3>
+  <table>
+    <thead>
+      <tr><th>항목</th><th>내용</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>요건</td><td>60세↑ 부모, 10년↑ 경영 기업의 주식을 자녀에게 증여</td></tr>
+      <tr><td>공제</td><td>증여세 과세가액에서 10억 원 공제</td></tr>
+      <tr><td>세율</td><td>과표 120억까지 <strong>10%</strong> / 초과분 <strong>20%</strong></td></tr>
+      <tr><td>일반 증여세</td><td>최고 <strong>50%</strong> → 격차 최대 40%p</td></tr>
+      <tr><td>개인사업자</td><td><strong>이 특례 적용 불가</strong> (주식이 없으므로)</td></tr>
+    </tbody>
+  </table>
+
+  <h3>가업상속공제 (사후 상속)</h3>
+  <ul>
+    <li>30년↑ 가업 영위 시 최대 <strong>600억 원</strong> 상속세 과세가액 공제</li>
+    <li>개인사업자도 가능하나, 자산 개별 평가·승계 요건이 법인보다 훨씬 까다롭고 비효율적</li>
+  </ul>
+  <p class="small">→ 가업승계를 계획한다면 <strong>주식 가치가 낮을 때 법인전환 후 미리 지분 이전</strong>하는 것이 2026년 핵심 전략입니다.</p>
+
+  <h2 id="how">8) 전환 절차 타임라인 (세혜택 사업포괄양수도 기준)</h2>
+  <ol>
+    <li><strong>D-30 | 사전 진단·결산</strong>: 순자산가액 가결산, 법인전환 실익(세율 차이·지원금) 시뮬레이션, 세무사·법무사 상담</li>
+    <li><strong>D-Day | 법인 설립·등기</strong>: 자본금 확정(순자산가액↑), 정관에 퇴직금·임원 보수 규정 삽입, 법인 등기 완료</li>
+    <li><strong>D+10 | 사업포괄양수도 계약</strong>: 개인↔법인 포괄 양수도 계약 체결, 공증 또는 확정일자</li>
+    <li><strong>D+30 | 자산 명의 이전</strong>: 이월과세 + 취득세 감면 신청서 제출, 부동산 소유권 이전 등기</li>
+    <li><strong>D+40 | 사업자 전환 완료</strong>: 개인사업자 폐업 신고 → 법인 사업자 등록증 교부, 근로자 고용 승계 + 4대 보험 신고</li>
+  </ol>
+
+  <!-- ✅ 이미지 4: 탈락 사유 TOP 5 카드 -->
+  <img src="rejection_card_1080_corp_convert.png" alt="개인사업자 법인전환 실패 사유 TOP 5" />
+
+  <h2 id="docs">9) 서류 체크리스트</h2>
+  <h3>기본 서류</h3>
+  <ul>
+    <li>사업자등록증 사본</li>
+    <li>최근 3년 재무제표 (또는 종합소득세 신고서)</li>
+    <li>순자산가액 산정 자료 (세무사 작성)</li>
+    <li>법인 정관 (퇴직금·임원 보수 규정 포함)</li>
+    <li>법인 설립 등기 서류 (주주명부, 발기인 동의서 등)</li>
+  </ul>
+  <h3>상황별 추가</h3>
+  <ul>
+    <li>부동산 포함: 감정평가서 + 이월과세 신청서 + 취득세 감면 신청서</li>
+    <li>현물출자: 감정평가기관 감정서 + 법원 검수인 조사 승인서</li>
+    <li>근로자 승계: 근로계약서 변경 동의서 + 4대 보험 변경 신고서</li>
+    <li>과밀억제권역: 등록세 3배 중과 납부 증빙</li>
+  </ul>
+
+  <h2 id="case">10) 경험/사례</h2>
+  <p>서울에서 도소매업을 운영하던 A 씨는 매출이 14억 원에 달해 성실신고확인대상 직전이었습니다. 종합소득세로 연간 약 4,000만 원을 납부하고 있었는데, 세무사와 시뮬레이션한 결과 법인전환 시 법인세 + 대표자 급여 소득세 합산이 약 2,500만 원으로 줄어드는 것을 확인했습니다. 사업포괄양수도 방식으로 진행했고, 부동산이 없어 전체 절차가 약 35일 만에 완료되었습니다. 다만 과밀억제권역(서울)이라 등록세가 3배 중과되어 비과밀지역보다 설립 비용이 높았다고 합니다.</p>
+
+  <p>충남에서 제조업을 하는 B 씨는 공장 부동산(시가 8억 원)을 포함해 현물출자 방식으로 법인전환을 진행했습니다. 감정평가에 2주, 법원 검수인 조사에 3주가 걸려 총 2개월 반이 소요되었습니다. 이월과세를 적용받아 양도세는 유예되었고, 취득세 감면(비과밀 감면율 적용)도 받아 초기 비용을 크게 줄였습니다. 다만 감정평가 수수료가 약 200만 원 나왔고, 법무사·세무사 수수료를 합치면 총 약 400만 원의 비용이 들었다고 합니다.</p>
+
+  <p>가업승계를 준비하던 C 씨는 20년 운영한 인테리어 사업을 법인전환한 뒤, 주식 가치가 낮은 초기 시점에 자녀에게 지분 30%를 증여했습니다. 가업승계 주식 증여세 과세특례를 적용받아 증여세율 10%만 부담했는데, 개인사업자 상태로 사업체를 넘겼다면 일반 증여세율 최대 50%가 적용되어 수억 원 차이가 났을 것이라고 합니다. "법인전환의 진짜 가치는 절세보다 가업승계에 있다"고 강조했습니다.</p>
+
+  <h2 id="faq">11) FAQ</h2>
+  <h3>실패·주의 사유 TOP 5</h3>
+  <ol>
+    <li>자본금을 순자산가액보다 낮게 설정 → 세혜택(이월과세) 적용 불가</li>
+    <li>법인 설립 후 3개월 이내 포괄 양도 미완료 → 이월과세 요건 불충족</li>
+    <li>정관에 퇴직금·임원 보수 규정 미삽입 → 추후 절세 수단 활용 불가</li>
+    <li>가지급금 관리 실패 → 인정이자 4.6% + 상여 처분으로 세금 폭탄</li>
+    <li>소규모 법인 3요건 충족 → 2억 이하도 20% 세율 적용</li>
+  </ol>
+
+  <h3>이중과세·예외 조건</h3>
+  <ul>
+    <li>법인세 + 배당소득세 이중과세 → Gross-up 제도로 일부 완화</li>
+    <li>퇴직금은 분류과세 → 종합소득 합산 안 됨 (가장 유리한 자산 회수 경로)</li>
+    <li>이월과세 적용 후 5년 내 주식 처분 시 비율만큼 추징 (2026년 구체화)</li>
+    <li>노란우산공제는 개인사업자와 법인 대표 모두 가입 가능</li>
+  </ul>
+
+  <h3>자주 묻는 질문</h3>
+  <p class="q">Q1. 연 소득 얼마부터 법인전환이 유리한가요?</p>
+  <p class="a">일반적으로 과세표준 5,000만 원(개인 세율 24% 구간)부터 법인(11%)과 격차가 벌어지기 시작합니다. 1억 원 이상이면 연간 수백만 원의 절세 효과가 나타나며, 정확한 실익은 업종·비용 구조에 따라 다르므로 세무사 시뮬레이션이 필수입니다.</p>
+
+  <p class="q">Q2. 법인전환하면 노란우산공제는 해지해야 하나요?</p>
+  <p class="a">아닙니다. 법인 대표이사도 노란우산공제에 가입 유지할 수 있습니다. 다만 법인 대표의 소득공제 한도(연 300~500만 원)는 개인사업자와 동일하게 적용됩니다.</p>
+
+  <p class="q">Q3. 직원들의 고용 승계는 어떻게 하나요?</p>
+  <p class="a">사업포괄양수도 시 기존 근로계약이 법인으로 자동 승계됩니다. 다만 근로계약서 변경 동의를 받고, 4대 보험 사업장 변경 신고를 해야 합니다.</p>
+
+  <p class="q">Q4. 법인전환 비용 40만 원은 어떤 항목인가요?</p>
+  <p class="a">자본금 2,800만 원 기준 비과밀지역에서 등록세·교육세·법무사 수수료를 합산한 금액입니다. 과밀억제권역은 등록세 3배 중과, 부동산 포함 시 감정평가 수수료가 추가됩니다.</p>
+
+  <p class="q">Q5. 법인 설립 후 바로 자금을 인출해도 되나요?</p>
+  <p class="a">법인 자금은 대표자 개인 재산과 엄격히 분리됩니다. 급여·배당·퇴직금 등 적법한 경로로만 인출해야 하며, 용도 불명 인출은 가지급금(인정이자 4.6%)이 됩니다.</p>
+
+  <p class="q">Q6. 1인 법인도 통합고용세액공제를 받을 수 있나요?</p>
+  <p class="a">대표이사 1인만 있는 법인은 '상시근로자'에 대표자가 포함되지 않으므로 공제 대상이 아닙니다. 직원을 채용해야 공제가 적용됩니다.</p>
+
+  <p class="q">Q7. 법인카드 사적 사용이 적발되면?</p>
+  <p class="a">2026년부터 AI 소비 패턴 분석으로 실시간 모니터링됩니다. 성형외과·해외여행·입시학원 등 사적 사용분은 손금 불산입 + 대표자 상여 처분으로 소득세가 추가 부과됩니다.</p>
+
+  <p class="q">Q8. 부동산 없이 법인전환하는 게 더 유리한가요?</p>
+  <p class="a">부동산 없으면 사업포괄양수도로 40일 내 완료, 비용도 40만 원 수준으로 간단합니다. 부동산이 있으면 현물출자(2~3개월, 수백만 원)가 필요하므로 비용·기간 면에서 확실히 부동산 없는 쪽이 간편합니다.</p>
+
+  <p class="q">Q9. 법인전환 후 성실신고 의무가 완전히 사라지나요?</p>
+  <p class="a">개인으로서의 성실신고 의무는 소멸합니다. 다만 '소규모 법인 3요건'(지분 50%↑ + 임대/이자배당 50%↑ + 근로자 5인↓)을 모두 충족하면 법인 단계에서 별도 규제가 적용됩니다.</p>
+
+  <p class="q">Q10. 가업승계를 안 할 건데도 법인전환해야 하나요?</p>
+  <p class="a">가업승계 외에도 ① 세율 격차(최대 22%p) ② 자본 조달 용이 ③ 대외 신인도 ④ 세액공제 활용 등 장점이 많습니다. 다만 자금 관리의 엄격함과 이중과세 부담도 있으므로, 연 소득·업종·향후 계획을 종합적으로 고려해야 합니다.</p>
+
+  <div class="tips">
+    <strong>실전 팁</strong><br/>
+    ① 법인 설립 시 정관에 <strong>퇴직금·임원 보수 규정</strong>을 반드시 넣으세요 — 나중에 추가하면 소급 적용이 어렵습니다.<br/>
+    ② 자본금은 순자산가액 이상으로 설정해야 이월과세 등 세혜택을 받을 수 있습니다.<br/>
+    ③ 법인 설립 후 <strong>3개월 이내</strong>에 포괄 양도를 완료해야 이월과세가 적용됩니다 — 일정 관리가 핵심입니다.
+  </div>
+
+  <!-- ✅ 이미지 5: 체크리스트 카드 -->
+  <img src="checklist_card_1080_corp_convert.png" alt="개인사업자 법인전환 전 1분 체크리스트" />
+
+  <h2 id="check">12) 신청 전 1분 체크리스트</h2>
+  <ul>
+    <li>연 소득 5,000만 원 이상 또는 성실신고대상 기준 도달 여부 확인</li>
+    <li>소규모 법인 3요건 해당 여부 확인 (해당 시 세율 20% 주의)</li>
+    <li>부동산 포함 여부 → 포괄양수도 vs 현물출자 방식 결정</li>
+    <li>자본금 ≥ 순자산가액 확인 (세혜택 요건)</li>
+    <li>취득세 감면 일몰(2027.12.31) 전 전환 완료 가능 여부</li>
+    <li>정관에 퇴직금·임원 보수 규정 삽입 여부</li>
+    <li>세무사·법무사 상담 완료</li>
+  </ul>
+  <p class="small">관련 글: <a href="#">종합소득세 신고 총정리</a> / <a href="#">노란우산공제 가입·해지</a> / <a href="#">부가가치세 신고 총정리</a> / <a href="#">소상공인 지원금 종류 총정리</a></p>
+
+  <div class="ad">{광고 위치 3: 체크리스트 아래}</div>
+
+  <div class="tips">
+    <strong>참고/문의처</strong><br/>
+    온라인 법인설립 시스템: <a href="https://www.startbiz.go.kr" target="_blank" rel="noopener">www.startbiz.go.kr</a><br/>
+    홈택스 법인 신고: <a href="https://www.hometax.go.kr" target="_blank" rel="noopener">www.hometax.go.kr</a><br/>
+    국세청 세법 안내: <a href="https://www.nts.go.kr" target="_blank" rel="noopener">www.nts.go.kr</a><br/>
+    문의 전화: 국세상담센터 ☎ 126
+  </div>
+
+  <div style="background:#fff3cd;border:1px solid #ffc107;padding:12px 14px;border-radius:12px;margin:14px 0;">
+    <strong>면책 안내</strong><br/>
+    이 글은 2026년 4월 기준 개정 세법 및 공개된 정보를 바탕으로 정리한 참고 자료입니다. 법인전환의 절세 효과는 개인의 업종·소득·자산 구조에 따라 크게 달라지며, 세율·감면율·공제 한도는 정책 변경에 따라 변동될 수 있습니다. 반드시 세무사·법무사 등 전문가와 상담 후 의사결정하시기 바랍니다.
+  </div>
+
+  <div class="footer" id="update">
+    <strong>업데이트 로그</strong><br/>
+    - 2026-04-13: 2026년 법인세율 환원 반영, 소규모 법인 규제·통합고용세액공제 개편·취득세 감면 일몰 연장 반영<br/>
+    <span class="small">※ 세법은 매년 개정됩니다. 신청 전 국세청 공식 안내를 확인하세요!</span>
+  </div>
+</div>

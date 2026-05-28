@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#F59E0B">리스 vs 렌트 vs 할부 한눈에 비교</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- 헤더 -->
+  <rect x="60" y="120" width="960" height="50" rx="16" fill="rgba(245,158,11,0.15)"/>
+  <text x="180" y="152" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#F59E0B">비교 항목</text>
+  <text x="420" y="152" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#F59E0B">장기 렌트</text>
+  <text x="650" y="152" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#F59E0B">운용 리스</text>
+  <text x="880" y="152" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#F59E0B">할부/일시불</text>
+
+  <!-- 소유 -->
+  <rect x="60" y="178" width="960" height="60" rx="0" fill="rgba(59,130,246,0.12)"/>
+  <text x="100" y="214" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#FFF">소유 명의</text>
+  <text x="420" y="214" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#EAF2FF">렌트사</text>
+  <text x="650" y="214" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#EAF2FF">리스사</text>
+  <text x="880" y="214" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" font-weight="700" fill="#F59E0B">이용자(직접 소유)</text>
+
+  <!-- 번호판 -->
+  <rect x="60" y="244" width="960" height="60" rx="0" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="280" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#FFF">번호판</text>
+  <text x="420" y="280" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#EAF2FF">하·허·호 전용</text>
+  <text x="650" y="280" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" font-weight="700" fill="#F59E0B">일반 번호판</text>
+  <text x="880" y="280" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" font-weight="700" fill="#F59E0B">일반 번호판</text>
+
+  <!-- DSR -->
+  <rect x="60" y="310" width="960" height="60" rx="0" fill="rgba(59,130,246,0.12)"/>
+  <text x="100" y="346" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#FFF">DSR 부채</text>
+  <text x="420" y="346" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" font-weight="700" fill="#F59E0B">미인식 ✓</text>
+  <text x="650" y="346" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#EAF2FF">금융리스 시 포함</text>
+  <text x="880" y="346" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#EF4444">부채 인식↓</text>
+
+  <!-- 보험 -->
+  <rect x="60" y="376" width="960" height="60" rx="0" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="412" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#FFF">보험 할증</text>
+  <text x="420" y="412" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" font-weight="700" fill="#F59E0B">없음 ✓</text>
+  <text x="650" y="412" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#EAF2FF">할증 있음</text>
+  <text x="880" y="412" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#EAF2FF">할증 있음</text>
+
+  <!-- 비용 처리 -->
+  <rect x="60" y="442" width="960" height="60" rx="0" fill="rgba(59,130,246,0.12)"/>
+  <text x="100" y="478" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#FFF">비용 처리</text>
+  <text x="420" y="478" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#EAF2FF">렌탈료의 70%</text>
+  <text x="650" y="478" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" font-weight="700" fill="#F59E0B">리스료의 93%</text>
+  <text x="880" y="478" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#EAF2FF">감가상각비</text>
+
+  <!-- 부가세 -->
+  <rect x="60" y="508" width="960" height="60" rx="0" fill="rgba(255,255,255,0.04)"/>
+  <text x="100" y="544" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#FFF">부가세 환급</text>
+  <text x="420" y="544" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" font-weight="700" fill="#F59E0B">경차/승합 가능</text>
+  <text x="650" y="544" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" fill="#EF4444">불가능</text>
+  <text x="880" y="544" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="17" font-weight="700" fill="#F59E0B">경차/승합 가능</text>
+
+  <!-- 비용 인정 한도 -->
+  <rect x="60" y="590" width="960" height="200" rx="20" fill="rgba(245,158,11,0.08)"/>
+  <text x="540" y="630" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#F59E0B">연간 비용 인정 한도</text>
+
+  <rect x="100" y="650" width="280" height="100" rx="14" fill="rgba(59,130,246,0.1)"/>
+  <text x="240" y="690" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">감가상각/임차료</text>
+  <text x="240" y="726" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="900" fill="#F59E0B">800만 원</text>
+
+  <text x="430" y="710" font-family="'Pretendard',sans-serif" font-size="30" fill="#F59E0B">+</text>
+
+  <rect x="470" y="650" width="260" height="100" rx="14" fill="rgba(59,130,246,0.1)"/>
+  <text x="600" y="690" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">유지관리비</text>
+  <text x="600" y="726" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="900" fill="#F59E0B">700만 원</text>
+
+  <text x="780" y="710" font-family="'Pretendard',sans-serif" font-size="30" fill="#F59E0B">=</text>
+
+  <rect x="810" y="650" width="190" height="100" rx="14" fill="rgba(245,158,11,0.2)"/>
+  <text x="905" y="690" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">합계</text>
+  <text x="905" y="726" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="900" fill="#F59E0B">1,500만</text>
+
+  <!-- 필수 요건 -->
+  <rect x="60" y="810" width="960" height="210" rx="20" fill="rgba(239,68,68,0.08)"/>
+  <text x="540" y="850" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#EF4444">필수 요건 (미충족 시 비용 0%)</text>
+
+  <rect x="100" y="870" width="860" height="50" rx="12" fill="rgba(239,68,68,0.1)"/>
+  <text x="140" y="902" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">✓ 업무전용 자동차보험 가입 (임직원만 운전 가능)</text>
+
+  <rect x="100" y="930" width="860" height="50" rx="12" fill="rgba(255,255,255,0.04)"/>
+  <text x="140" y="962" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#FFF">✓ 1,500만 원 초과 시 운행기록부 작성 필수</text>
+
+  <rect x="100" y="990" width="860" height="20" rx="10" fill="rgba(245,158,11,0.15)"/>
+  <text x="540" y="1006" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="14" font-weight="700" fill="#F59E0B">비용 명세서 허위 제출 시 손금산입액의 1% 가산세</text>
+
+  <rect x="60" y="1050" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

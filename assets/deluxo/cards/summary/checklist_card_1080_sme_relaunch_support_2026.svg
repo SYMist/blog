@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="8" fill="#34D399"/>
+
+  <!-- Title -->
+  <text x="540" y="66" font-family="-apple-system, sans-serif" font-size="32" font-weight="900" fill="#FFFFFF" text-anchor="middle">소상공인 재창업 지원금 신청 전 1분 체크리스트</text>
+  <text x="540" y="100" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0" text-anchor="middle">신청 전 아래 6가지를 먼저 확인하세요</text>
+  <line x1="60" y1="122" x2="1020" y2="122" stroke="#1A3270" stroke-width="2"/>
+
+  <!-- Check 1 -->
+  <rect x="60" y="146" width="960" height="96" rx="12" fill="#0D2347"/>
+  <rect x="60" y="146" width="6" height="96" rx="3" fill="#34D399"/>
+  <text x="118" y="200" font-family="-apple-system, sans-serif" font-size="34" font-weight="900" fill="#34D399">✓</text>
+  <text x="164" y="188" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">폐업 사실 확인 또는 폐업 예정 상태인가?</text>
+  <text x="164" y="216" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0">폐업증명서(홈택스 발급) 준비 또는 폐업 예정자는 원스톱폐업지원 병행 가능</text>
+  <text x="164" y="234" font-family="-apple-system, sans-serif" font-size="13" fill="#34D399">→ hometax.go.kr에서 폐업사실증명 발급</text>
+
+  <!-- Check 2 -->
+  <rect x="60" y="258" width="960" height="96" rx="12" fill="#0D2347"/>
+  <rect x="60" y="258" width="6" height="96" rx="3" fill="#34D399"/>
+  <text x="118" y="312" font-family="-apple-system, sans-serif" font-size="34" font-weight="900" fill="#34D399">✓</text>
+  <text x="164" y="300" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">세금 체납 이력 없음 확인 완료</text>
+  <text x="164" y="328" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0">국세·지방세 체납 이력이 하나라도 있으면 즉시 탈락 — 반드시 먼저 확인</text>
+  <text x="164" y="346" font-family="-apple-system, sans-serif" font-size="13" fill="#34D399">→ 홈택스(hometax.go.kr) + 위택스(wetax.go.kr) 동시 확인</text>
+
+  <!-- Check 3 -->
+  <rect x="60" y="370" width="960" height="96" rx="12" fill="#0D2347"/>
+  <rect x="60" y="370" width="6" height="96" rx="3" fill="#F59E0B"/>
+  <text x="118" y="424" font-family="-apple-system, sans-serif" font-size="34" font-weight="900" fill="#F59E0B">✓</text>
+  <text x="164" y="412" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">재창업 vs 취업 전환 방향 결정 완료</text>
+  <text x="164" y="440" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0">재기사업화와 특화취업지원은 원칙상 중복 신청 어려움 — 방향을 먼저 결정</text>
+  <text x="164" y="458" font-family="-apple-system, sans-serif" font-size="13" fill="#F59E0B">→ 재창업: 재기사업화 / 취업전환: 특화취업지원 / 자금: 재도전특별자금</text>
+
+  <!-- Check 4 -->
+  <rect x="60" y="482" width="960" height="96" rx="12" fill="#0D2347"/>
+  <rect x="60" y="482" width="6" height="96" rx="3" fill="#F59E0B"/>
+  <text x="118" y="536" font-family="-apple-system, sans-serif" font-size="34" font-weight="900" fill="#F59E0B">✓</text>
+  <text x="164" y="524" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">사업계획서 초안 준비 (재기사업화 필수)</text>
+  <text x="164" y="552" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0">폐업 원인 분석 + 재창업 전략 + 예상 매출 계획 포함 — 없으면 즉시 반려</text>
+  <text x="164" y="570" font-family="-apple-system, sans-serif" font-size="13" fill="#F59E0B">→ 소진공 지역센터에서 무료 작성 지원 가능</text>
+
+  <!-- Check 5 -->
+  <rect x="60" y="594" width="960" height="96" rx="12" fill="#0D2347"/>
+  <rect x="60" y="594" width="6" height="96" rx="3" fill="#EF4444"/>
+  <text x="118" y="648" font-family="-apple-system, sans-serif" font-size="34" font-weight="900" fill="#EF4444">✓</text>
+  <text x="164" y="636" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">점포 철거비 신청 시 임대차 계약 해지 전 확인</text>
+  <text x="164" y="664" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0">폐업 완료 후 원상복구가 이미 끝났다면 철거비 지원 불가 — 폐업 결정 즉시 신청</text>
+  <text x="164" y="682" font-family="-apple-system, sans-serif" font-size="13" fill="#EF4444">→ 소상공인시장진흥공단 지역센터 먼저 문의</text>
+
+  <!-- Check 6 -->
+  <rect x="60" y="706" width="960" height="96" rx="12" fill="#0D2347"/>
+  <rect x="60" y="706" width="6" height="96" rx="3" fill="#EF4444"/>
+  <text x="118" y="760" font-family="-apple-system, sans-serif" font-size="34" font-weight="900" fill="#EF4444">✓</text>
+  <text x="164" y="748" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">소상공인24 회원가입 및 최신 공고 확인</text>
+  <text x="164" y="776" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0">재기사업화는 예산 소진 시 조기 마감 — 모집 공고 기간을 먼저 확인하고 신청</text>
+  <text x="164" y="794" font-family="-apple-system, sans-serif" font-size="13" fill="#EF4444">→ sbiz24.kr 접속 → 회원가입 → 공고 확인 → 신청</text>
+
+  <!-- Final action -->
+  <rect x="60" y="828" width="960" height="84" rx="12" fill="#1A3270"/>
+  <rect x="60" y="828" width="960" height="84" rx="12" fill="none" stroke="#34D399" stroke-width="2"/>
+  <text x="540" y="862" font-family="-apple-system, sans-serif" font-size="16" font-weight="800" fill="#34D399" text-anchor="middle">모두 OK → sbiz24.kr 에서 신청 시작</text>
+  <text x="540" y="890" font-family="-apple-system, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">소상공인24 신청 | 재도전자금은 kosmes.or.kr 별도 진행 | 문의 ☎1357 / ☎1533-0100</text>
+
+  <!-- Footer -->
+  <text x="540" y="974" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준 | 소상공인24 sbiz24.kr | 중진공 kosmes.or.kr</text>
+  <rect x="0" y="1072" width="1080" height="8" fill="#34D399"/>
+</svg>

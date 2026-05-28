@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1200" height="630" rx="24" fill="url(#bg)"/>
+
+  <rect x="60" y="50" width="260" height="44" rx="22" fill="rgba(245,158,11,0.2)"/>
+  <text x="190" y="80" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#F59E0B">2026 개혁 반영</text>
+
+  <text x="60" y="170" font-family="'Pretendard',sans-serif" font-size="68" font-weight="900" fill="#FFFFFF">자영업자 국민연금</text>
+
+  <text x="60" y="230" font-family="'Pretendard',sans-serif" font-size="40" font-weight="600" fill="#EAF2FF">수령액 계산·임의가입·납부 전략</text>
+
+  <rect x="60" y="270" width="180" height="44" rx="22" fill="#E8F0FF"/>
+  <text x="150" y="300" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#1D4ED8">수령액</text>
+
+  <rect x="260" y="270" width="220" height="44" rx="22" fill="#E8F0FF"/>
+  <text x="370" y="300" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#1D4ED8">임의가입</text>
+
+  <rect x="500" y="270" width="200" height="44" rx="22" fill="#E8F0FF"/>
+  <text x="600" y="300" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#1D4ED8">납부전략</text>
+
+  <rect x="800" y="100" width="360" height="480" rx="20" fill="rgba(245,158,11,0.08)"/>
+
+  <text x="980" y="180" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="52" font-weight="900" fill="#FFF">9.5%</text>
+  <text x="980" y="215" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="600" fill="#F59E0B">보험료율 (→13%)</text>
+
+  <text x="980" y="300" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="52" font-weight="900" fill="#FFF">43%</text>
+  <text x="980" y="335" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="600" fill="#F59E0B">소득대체율 고정</text>
+
+  <text x="980" y="420" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="52" font-weight="900" fill="#FFF">5%/년</text>
+  <text x="980" y="455" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="600" fill="#F59E0B">20년+ 할증</text>
+
+  <text x="980" y="530" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">감액 완화 509만 원</text>
+  <text x="980" y="560" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">크레딧 확대 · 지원 50%</text>
+
+  <text x="60" y="400" font-family="'Pretendard',sans-serif" font-size="32" font-weight="700" fill="#EAF2FF">보험료 9.5% 전액 본인 부담</text>
+  <text x="60" y="445" font-family="'Pretendard',sans-serif" font-size="32" font-weight="700" fill="#EAF2FF">20년+ 가입 = 연 5% 할증</text>
+  <text x="60" y="490" font-family="'Pretendard',sans-serif" font-size="32" font-weight="700" fill="#EAF2FF">물가 연동 평생 수령</text>
+
+  <text x="60" y="570" font-family="'Pretendard',sans-serif" font-size="24" font-weight="600" fill="#F59E0B">국민연금공단 nps.or.kr · 전화 1355 · 내 곁에 국민연금 앱</text>
+</svg>

@@ -1,0 +1,425 @@
+<!-- tistory_policy_template.html 기반 -->
+<!-- ✅ 티스토리 HTML 모드에서만 붙여넣기 — 기본모드 전환 절대 금지 -->
+
+<div style="display:none">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "ISA 절세 총정리 — 비과세·연금공제 300만 받는 법 (2026)",
+      "description": "ISA 계좌 서민형 비과세 400만원, 만기 후 연금계좌 이전 시 추가 세액공제 최대 300만원 — 2026년 ISA 유형·납입 한도·만기 출금 전략 3가지 총정리",
+      "datePublished": "2026-04-29",
+      "dateModified": "2026-04-29",
+      "author": {"@type": "Person", "name": "deluxo"},
+      "publisher": {"@type": "Organization", "name": "deluxo"}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "ISA 서민형 비과세 한도는 얼마인가요?", "acceptedAnswer": {"@type": "Answer", "text": "2026년 4월 현재 서민형 비과세 한도는 400만원입니다. 총급여 5,000만원 이하 근로자 또는 종합소득 3,800만원 이하 사업자가 대상입니다. 개정안(연 4,000만·총 2억·비과세 1,000만)은 국회 통과 시점에 따라 시행일이 달라질 수 있습니다."}},
+        {"@type": "Question", "name": "ISA 만기 후 연금계좌로 이전하면 세액공제를 더 받을 수 있나요?", "acceptedAnswer": {"@type": "Answer", "text": "만기일로부터 60일 이내에 IRP 또는 연금저축 계좌로 이전하면 이전 금액의 10%, 최대 300만원의 추가 세액공제를 받을 수 있습니다. 기존 연금계좌 세액공제 한도(연 900만원)와 별도로 적용되어, 해당 연도 최대 1,200만원까지 세액공제가 가능합니다."}},
+        {"@type": "Question", "name": "ISA 3년 의무기간 중 돈이 필요하면 어떻게 하나요?", "acceptedAnswer": {"@type": "Answer", "text": "의무기간 중에도 납입한 원금 범위 내에서 중도인출이 자유롭습니다. 단, 수익금(이자·배당·평가차익)은 만기 전 인출이 불가합니다. 의무기간 전 전액 해지하면 비과세·분리과세 혜택이 전액 소멸하고 15.4% 일반 세율이 소급 적용됩니다."}},
+        {"@type": "Question", "name": "ISA 롤링 전략이란 무엇인가요?", "acceptedAnswer": {"@type": "Answer", "text": "3년 의무기간 충족 후 ISA를 해지하고, 비과세 한도·납입 한도를 초기화하여 신규 ISA를 재가입하는 전략입니다. 3년마다 반복하면 비과세 혜택을 반영구적으로 활용할 수 있습니다. 해지 시 만기 자금 일부를 60일 이내 연금계좌로 이전해 추가 세액공제를 받는 복합 전략과 함께 활용하면 효과가 극대화됩니다."}},
+        {"@type": "Question", "name": "금융소득종합과세 대상자도 ISA에 가입할 수 있나요?", "acceptedAnswer": {"@type": "Answer", "text": "직전 3개 과세연도 중 1회라도 금융소득종합과세 대상자(연 금융소득 2,000만원 초과)였다면 일반형·서민형·청년형 ISA 신규 가입이 불가합니다. 단, 2026년부터 신설된 국내투자형 ISA는 금융소득종합과세 대상자도 가입할 수 있으며, 국내 주식·ETF·공모펀드에 한해 투자 가능합니다."}}
+      ]
+    }
+  ]
+}
+</script>
+</div>
+
+<style>
+  :root{
+    --blue:#1D4ED8; --blue2:#1E40AF;
+    --white:#FFFFFF; --text:#111827;
+    --muted:#4B5563; --border:#E5E7EB;
+    --bg:#F9FAFB; --blueLight:#E8F0FF;
+  }
+  .wrap{max-width:860px;margin:0 auto;line-height:1.8;color:var(--text);}
+  .meta{color:var(--muted);font-size:.95rem;margin:6px 0 18px;}
+  .badge{display:inline-block;background:var(--blueLight);border:1px solid var(--border);padding:3px 10px;border-radius:999px;font-size:.85rem;margin-right:8px;}
+  .notice{background:#fff7ed;border:1px solid #fed7aa;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .lead{background:#f8fafc;border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .keysum{background:#fefce8;border:1px solid #fde68a;padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .summary{background:#eff6ff;border:1px solid #bfdbfe;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .toc{background:var(--bg);border:1px solid var(--border);padding:14px 16px;border-radius:12px;margin:16px 0 22px;}
+  .toc a{text-decoration:none;color:var(--blue);}
+  .toc ul{margin:8px 0 0 18px;}
+
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 6px;}
+  .wrap a.btn,.wrap a.btn:link,.wrap a.btn:visited{
+    display:inline-flex;align-items:center;justify-content:center;
+    padding:10px 14px;border-radius:10px;border:1px solid var(--blue);
+    background:var(--blue) !important;color:var(--white) !important;
+    text-decoration:none !important;font-weight:800;
+  }
+  .wrap a.btn:hover,.wrap a.btn:active,.wrap a.btn:focus{background:var(--blue2) !important;border-color:var(--blue2) !important;color:var(--white) !important;}
+  .wrap a.btn.secondary,.wrap a.btn.secondary:link,.wrap a.btn.secondary:visited{background:var(--white) !important;color:var(--blue) !important;border-color:var(--blue) !important;}
+  .wrap a.btn.secondary:hover,.wrap a.btn.secondary:active,.wrap a.btn.secondary:focus{background:var(--bg) !important;color:var(--blue2) !important;border-color:var(--blue2) !important;}
+  .wrap a.btn.gray,.wrap a.btn.gray:link,.wrap a.btn.gray:visited{background:#111827 !important;border-color:#111827 !important;color:var(--white) !important;}
+  .wrap a.btn.gray:hover,.wrap a.btn.gray:active,.wrap a.btn.gray:focus{background:#0b1220 !important;border-color:#0b1220 !important;color:var(--white) !important;}
+
+  table{width:100%;border-collapse:collapse;margin:14px 0 10px;}
+  th,td{border:1px solid var(--border);padding:10px;vertical-align:top;}
+  th{background:#F3F4F6;text-align:left;}
+  .small{font-size:.95rem;color:var(--muted);}
+  h1{margin:0 0 8px;line-height:1.25;}
+  h2{margin-top:30px;padding-top:8px;border-top:1px solid var(--border);}
+  h3{margin-top:16px;}
+  .q{font-weight:900;margin:14px 0 6px;}
+  .a{margin:0 0 10px;}
+  .tips{background:#f0fdf4;border:1px solid #bbf7d0;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .urgency{background:#fef2f2;border:1px solid #fca5a5;padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .target{background:#f0fdf4;border:1px solid #86efac;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .target ul{margin:8px 0 0 18px;}
+  .disclaimer{background:#f1f5f9;border:1px solid #cbd5e1;padding:12px 14px;border-radius:12px;margin:12px 0 14px;font-size:.93rem;color:var(--muted);}
+  .footer{margin-top:26px;padding-top:14px;border-top:1px solid var(--border);color:var(--muted);font-size:.95rem;}
+</style>
+
+<div class="wrap">
+  <h1>ISA 절세 총정리 — 비과세·연금공제 300만 받는 법 (2026)</h1>
+  <div class="meta">
+    <span class="badge">키워드: ISA 계좌 절세</span>
+    <span class="badge">업데이트: 2026-04-29</span>
+  </div>
+
+  <div class="notice">
+    <strong>먼저 확인!</strong><br/>
+    ISA 비과세 한도·납입 한도 확대안(연 4,000만·총 2억)은 2026년 4월 현재 국회 통과 전 입법 추진 단계입니다. 현재 시행 중인 기준(연 2,000만·총 1억)과 구분해서 확인하세요. 청년형·국민성장 ISA는 2026년 6월 출시 목표이며, 일정이 변경될 수 있습니다.
+  </div>
+
+  <p class="small">
+    ISA(개인종합자산관리계좌)는 하나의 계좌에 예금·ETF·주식·펀드를 담아 비과세·분리과세·손익통산 혜택을 받는 절세 계좌입니다. 2026년 서민형 비과세 한도 400만원에 만기 후 연금계좌 이전 시 추가 세액공제 최대 300만원까지 — 전략을 제대로 쓰면 수익의 세금을 크게 줄일 수 있습니다.
+  </p>
+
+  <div class="lead">
+    ISA의 핵심은 세 가지입니다. 첫째, 계좌 안에서 난 손익을 합쳐서 순이익에만 과세하는 손익통산. 둘째, 순이익 일정 금액을 세금 없이 가져가는 비과세. 셋째, 나머지 수익도 일반 15.4% 대신 9.9%로만 과세하는 분리과세입니다. 3년 의무기간을 채운 후 어떻게 출금하느냐에 따라 절세 효과가 크게 달라집니다.
+  </div>
+
+  <div class="urgency">
+    <strong>지금 가입하지 않으면 놓치는 것들</strong><br/>
+    ISA는 가입일부터 3년 의무기간이 시작됩니다. 올해 개설하지 않으면 3년 후 비과세 혜택 사용 시점이 그만큼 늦어집니다. 청년형 ISA(2026년 6월 출시 목표)는 만 34세 이하 조건이 있으므로 나이 조건이 되는 분은 6월 이후 바로 개설을 검토하세요. 또한 서민형은 직전 3개 과세연도 중 1회 이상 조건을 충족해야 하므로 올해 소득 기준을 미리 확인해 두세요.
+  </div>
+
+  <div class="keysum">
+    <strong>핵심 요약 3줄</strong><br/>
+    서민형 ISA: 비과세 400만원 + 초과분 9.9% 분리과세 — 일반 계좌 대비 최대 수십만 원 절세<br/>
+    만기 전략 3가지: 분리과세 출금 / 롤링(재가입) / 연금계좌 이전(60일, 최대 300만원 추가 공제)<br/>
+    납입 한도 현행: 연 2,000만원·총 1억원 / 개정안: 연 4,000만·총 2억 (국회 통과 후 시행)
+  </div>
+
+  <div class="summary" id="top">
+    <h2 style="border-top:none;margin-top:0;">✅ 5줄 요약(결론)</h2>
+    <ul>
+      <li><strong>서민형</strong>: 총급여 5,000만원 이하(종소득 3,800만 이하) — 비과세 400만원 + 9.9% 분리과세</li>
+      <li><strong>일반형</strong>: 만 19세 이상 거주자 누구나 — 비과세 200만원 + 9.9% 분리과세</li>
+      <li><strong>만기 전략</strong>: ①분리과세 출금 ②롤링(재가입) ③연금이전(60일 이내 최대 300만원 추가 세액공제)</li>
+      <li><strong>납입 한도</strong>: 연 2,000만원·총 1억원 (미납분 이월 가능, 개정안 국회 통과 시 확대)</li>
+      <li><strong>주의</strong>: 3년 의무기간 미충족 해지 → 비과세·분리과세 전액 소멸, 15.4% 소급 적용</li>
+    </ul>
+
+    <div class="btns">
+      <a class="btn" href="https://www.fsc.go.kr/po020201/27339" target="_blank" rel="noopener">금융위원회 ISA 안내</a>
+      <a class="btn gray" href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7875" target="_blank" rel="noopener">국세청 세액공제 한도</a>
+      <a class="btn secondary" href="https://www.hometax.go.kr" target="_blank" rel="noopener">홈택스 소득확인증명서</a>
+    </div>
+    <p class="small">※ 신청 전 본인 소득 기준과 현재 적용 중인 한도를 반드시 확인하세요.</p>
+  </div>
+
+  <div class="target">
+    <strong>이런 상황이라면 지금 바로 확인하세요</strong>
+    <ul>
+      <li>총급여 5,000만원 이하 직장인인데 아직 ISA가 없다면 — 서민형 비과세 400만원을 매년 놓치는 중</li>
+      <li>기존 ISA 만기가 3개월 이내인데 연금계좌 이전을 고려하지 않았다면 — 60일 기한 놓치면 추가 공제 소멸</li>
+      <li>만 19~34세이고 총급여 7,500만원 이하라면 — 2026년 6월 출시 청년형 ISA 소득공제 10% 검토</li>
+      <li>ISA에서 ETF 수익이 나는데 일반 계좌와 과세 차이를 몰랐다면 — 손익통산 효과 재확인 필요</li>
+      <li>연 금융소득이 2,000만원에 근접해 종합과세 걱정이 있다면 — ISA 내 수익은 기준금액 산정 제외</li>
+    </ul>
+  </div>
+
+  <div class="toc">
+    <strong>목차</strong>
+    <ul>
+      <li><a href="#table">1) 한눈에 표(유형별 비교)</a></li>
+      <li><a href="#quick">→ 나는 어디? 만기 전략 10초 판단</a></li>
+      <li><a href="#detail">2) 유형별 상세 안내</a></li>
+      <li><a href="#how">3) 개설 방법</a></li>
+      <li><a href="#strategy">4) 만기 출금 전략 3가지</a></li>
+      <li><a href="#docs">5) 서류 체크리스트</a></li>
+      <li><a href="#case">6) 경험/사례</a></li>
+      <li><a href="#faq">7) FAQ(실수 TOP5 포함)</a></li>
+      <li><a href="#check">8) 신청 전 1분 체크리스트</a></li>
+      <li><a href="#update">업데이트 로그</a></li>
+    </ul>
+  </div>
+
+  <h2 id="table">1) 한눈에 표 (가입자 유형별 비교)</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>구분</th><th>자격 조건</th><th>비과세 한도</th><th>납입 한도</th><th>의무기간</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>일반형</strong></td>
+        <td>만 19세 이상 국내 거주자 (소득 무관)</td>
+        <td>200만원</td>
+        <td>연 2,000만원 / 총 1억원</td>
+        <td>3년</td>
+      </tr>
+      <tr>
+        <td><strong>서민형</strong></td>
+        <td>총급여 5,000만원 이하<br/>또는 종합소득 3,800만원 이하<br/>또는 농어민</td>
+        <td><strong>400만원</strong></td>
+        <td>연 2,000만원 / 총 1억원</td>
+        <td>3년</td>
+      </tr>
+      <tr>
+        <td><strong>청년형</strong></td>
+        <td>만 19~34세<br/>총급여 7,500만원 이하</td>
+        <td>200만원<br/>+ 납입액의 10% 소득공제 (연 최대 200만원)</td>
+        <td>연 2,000만원 / 총 1억원</td>
+        <td>3년</td>
+      </tr>
+      <tr>
+        <td><strong>국내투자형</strong></td>
+        <td>성인 거주자 전체<br/>(금융소득종합과세 대상자 가능)</td>
+        <td>일반형과 동일</td>
+        <td>연 2,000만원 / 총 1억원</td>
+        <td>3년</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="small">※ 청년형·국민성장형 ISA는 2026년 6월 출시 목표(미확정). 금융소득종합과세 대상자는 일반형·서민형·청년형 신규 가입 불가.</p>
+
+  <!-- ✅ 인아티클 광고 (한눈에 표 직후) -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5716436301710258"
+       crossorigin="anonymous"></script>
+  <ins class="adsbygoogle"
+       style="display:block; text-align:center;"
+       data-ad-layout="in-article"
+       data-ad-format="fluid"
+       data-ad-client="ca-pub-5716436301710258"
+       data-ad-slot="7020031076"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+  <h3 id="quick">나는 어디? 만기 전략 10초 판단</h3>
+  <table>
+    <thead>
+      <tr><th></th><th>전략 A: 분리과세 출금</th><th>전략 B: 롤링(재가입)</th><th>전략 C: 연금계좌 이전</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>성격</strong></td><td>만기 후 현금 수령</td><td>해지 후 신규 ISA 재가입</td><td>만기 자금 → IRP·연금저축</td></tr>
+      <tr><td><strong>핵심 혜택</strong></td><td>9.9% 저율 과세</td><td>비과세 한도 초기화</td><td>이전액 10% 세액공제 (최대 300만원)</td></tr>
+      <tr><td><strong>기한</strong></td><td>만기 후 자유</td><td>해지 후 신규 개설</td><td><strong>만기일로부터 60일 이내</strong></td></tr>
+      <tr><td><strong>이런 분께</strong></td><td>단기 자금 필요<br/>고소득자</td><td>장기 투자자<br/>비과세 한도 소진</td><td>은퇴 자산 적립 중<br/>직장인·사업자</td></tr>
+    </tbody>
+  </table>
+  <p class="small">※ 전략 B+C 복합: 만기 자금 일부를 60일 이내 연금계좌로 이전 + 나머지로 신규 ISA 재가입. 절세 극대화.</p>
+
+  <!-- ✅ 이미지 1: 요약표 카드 -->
+  <img src="summary_card_1080_isa_strategy_2026.png" alt="ISA 계좌 절세 신청 조건 서류 요약" style="width:100%;max-width:600px;display:block;margin:16px auto;" />
+
+  <!-- ✅ 이미지 2: 빠른 판단 가이드 -->
+  <img src="quick_guide_1080_isa_strategy_2026.png" alt="ISA 계좌 만기 전략 빠른 판단 가이드" style="width:100%;max-width:600px;display:block;margin:16px auto;" />
+
+  <h2 id="detail">2) 유형별 상세 안내</h2>
+
+  <h3>① 중개형 ISA (신규 가입자 대부분 선택)</h3>
+  <p>2021년 도입된 중개형 ISA는 가입자가 직접 국내 상장 주식·ETF·펀드·리츠·채권 등을 운용하는 방식입니다. 수수료가 없고(주식 매매 수수료 별도), 해외 지수 추종 ETF(S&P500·나스닥 등)도 담을 수 있어 신규 가입자의 대부분이 중개형을 선택합니다. 증권사 앱에서 비대면으로 개설하며 5~10분이면 완료됩니다.</p>
+
+  <h3>② 손익통산 — ISA 최대 장점</h3>
+  <p>일반 계좌에서는 A 상품에서 수익이 나면 그 수익에만 세금을 내고, B 상품에서 손실이 나도 서로 상쇄해 주지 않습니다. ISA는 계좌 안 모든 상품의 수익과 손실을 합쳐 순이익에만 과세합니다.</p>
+  <ul>
+    <li>예시: S&P500 ETF 손실 500만원 + 나스닥 ETF 수익 500만원 → ISA는 세금 0원 / 일반 계좌는 77만원 세금</li>
+    <li>예시: 서민형 ISA, 나스닥 수익 1,000만원 + 베트남 펀드 손실 350만원 → 순이익 650만원 - 비과세 400만원 = 과세 250만원 × 9.9% = 24만 7,500원 (일반 계좌 대비 약 75만원 절세)</li>
+  </ul>
+
+  <h3>③ 납입 한도와 미납분 이월</h3>
+  <p>연간 한도(현행 2,000만원)를 채우지 못하면 미납분이 다음 해로 이월됩니다. 2026년에 1,000만원만 납입했다면, 2027년에는 기본 2,000만원 + 이월 1,000만원 = 최대 3,000만원을 납입할 수 있습니다. 목돈이 생겼을 때 한 번에 넣을 수 있어 유연하게 활용됩니다.</p>
+
+  <h3>④ 2026년 신규 ISA 유형 (출시 예정)</h3>
+  <table>
+    <thead>
+      <tr><th>유형</th><th>자격</th><th>주요 혜택</th><th>시기</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>국민성장 ISA</strong></td>
+        <td>소득·연령 무관 성인 거주자</td>
+        <td>국내 주식·ETF·BDC 투자, 기존 ISA와 중복 가능</td>
+        <td>2026년 6월 목표</td>
+      </tr>
+      <tr>
+        <td><strong>청년형 ISA</strong></td>
+        <td>만 19~34세, 총급여 7,500만원 이하</td>
+        <td>납입액 10% 소득공제 (연 최대 200만원)</td>
+        <td>2026년 6월 목표</td>
+      </tr>
+      <tr>
+        <td><strong>국내투자형 ISA</strong></td>
+        <td>금융소득종합과세 대상자 포함 전체</td>
+        <td>국내 주식·ETF·공모펀드 한정 투자</td>
+        <td>2026년 시행</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- ✅ 이미지 3: 정책 비교·변화 카드 -->
+  <img src="compare_card_1080_isa_strategy_2026.png" alt="ISA 계좌 유형별 비교 카드" style="width:100%;max-width:600px;display:block;margin:16px auto;" />
+
+  <h2 id="how">3) 개설 방법</h2>
+  <ol>
+    <li><strong>유형 확인</strong>: 소득 수준으로 일반형·서민형·청년형 중 해당 유형 결정. 서민형은 홈택스에서 소득확인증명서 사전 발급</li>
+    <li><strong>증권사 앱 설치</strong>: 미래에셋·삼성·KB·한국투자·신한 등 원하는 증권사 앱 다운로드</li>
+    <li><strong>비대면 개설</strong>: 앱에서 ISA 계좌 선택 → 중개형·신탁형·일임형 선택 → 유형 선택(일반/서민/청년) → 본인인증 → 약관 동의 (5~10분 소요)</li>
+    <li><strong>납입</strong>: 연간 한도 내 자유 납입 (매월 정액 의무 없음, 목돈 일시납 가능)</li>
+    <li><strong>운용</strong>: 중개형의 경우 국내 상장 주식·ETF·펀드 등 직접 매매. 신탁형·일임형은 금융사 위탁</li>
+  </ol>
+  <p class="small">※ 1인 1계좌 원칙. 금융기관 이전(기관 변경)은 의무기간·납입 이력 유지하며 가능.</p>
+
+  <h2 id="strategy">4) 만기 출금 전략 3가지 상세</h2>
+
+  <h3>전략 A — 만기 후 분리과세 출금</h3>
+  <p>3년 의무기간 충족 후 출금하면 순이익에서 비과세 한도를 뺀 금액에 9.9%만 과세됩니다. ISA 내 수익은 금융소득종합과세 기준금액(연 2,000만원) 산정에 포함되지 않으므로, 다른 금융소득이 많은 고소득자에게 특히 유리합니다. 단기 자금이 필요하거나 비과세 한도를 아직 소진하지 않은 경우 적합합니다.</p>
+
+  <h3>전략 B — 롤링(만기 해지 후 재가입)</h3>
+  <p>3년 의무기간 후 ISA를 해지하면 비과세 한도(일반형 200만원, 서민형 400만원)와 납입 한도가 초기화됩니다. 신규 ISA를 다시 개설해 같은 과정을 반복하면 비과세 혜택을 반영구적으로 활용할 수 있습니다. 단, 보유 ETF·주식은 매도 후 재매수가 필요해 매매 비용이 발생하고 타이밍 리스크가 있습니다.</p>
+
+  <h3>전략 C — 만기 자금 연금계좌 이전 (세액공제 극대화)</h3>
+  <p>만기일로부터 60일 이내에 IRP 또는 연금저축 계좌로 이전하면 이전 금액의 10%, 최대 300만원의 추가 세액공제를 받을 수 있습니다. 이 300만원은 기존 연금계좌 세액공제 한도(연 900만원)와 별도로 적용되어, 해당 연도 최대 1,200만원까지 세액공제가 가능합니다. 이전된 자금은 55세 이후 연금 수령 시 3.3~5.5%의 연금소득세만 부과돼 ISA 분리과세 9.9%보다 낮습니다.</p>
+
+  <table>
+    <thead>
+      <tr><th>이전 금액</th><th>추가 세액공제</th><th>환급액 (16.5%, 총급여 5,500만↓)</th><th>환급액 (13.2%, 5,500만 초과)</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1,000만원</td><td>100만원</td><td>16만 5,000원</td><td>13만 2,000원</td></tr>
+      <tr><td>2,000만원</td><td>200만원</td><td>33만원</td><td>26만 4,000원</td></tr>
+      <tr><td>3,000만원 이상</td><td><strong>300만원 (최대)</strong></td><td><strong>49만 5,000원</strong></td><td>39만 6,000원</td></tr>
+    </tbody>
+  </table>
+  <p class="small">※ 60일 초과 이전 시 추가 세액공제 혜택 소멸. 본인 명의 IRP 또는 연금저축 계좌에만 이전 가능.</p>
+
+  <h2 id="docs">5) 서류 체크리스트</h2>
+  <h3>기본 서류 (일반형)</h3>
+  <ul>
+    <li>신분증 (주민등록증 또는 운전면허증)</li>
+    <li>비대면 개설 시 금융거래목적 확인서 (앱 내 작성)</li>
+  </ul>
+  <h3>상황별 추가 서류</h3>
+  <ul>
+    <li>서민형 신청 시: 소득확인증명서 (홈택스 hometax.go.kr에서 발급)</li>
+    <li>청년형 신청 시: 소득확인증명서 + 나이 증빙 (신분증)</li>
+    <li>연금계좌 이전 시: IRP 또는 연금저축 계좌번호, 이전 신청서 (해지 증권사에서 진행)</li>
+  </ul>
+  <p class="small">※ 기관 이전(타 증권사로) 시 보유 상품을 현금화한 뒤 이전하는 게 일반적이므로 투자 상품 정리를 먼저 하세요.</p>
+
+  <h2 id="case">6) 경험/사례</h2>
+
+  <p>2023년 중개형 ISA를 개설한 30대 직장인 이 씨는 총급여 4,400만원으로 서민형 자격을 갖추고, 매년 2,000만원씩 납입해 S&P500 추종 국내 상장 ETF를 운용했다. 3년이 지난 2026년 초 만기를 앞두고, 일반 계좌였다면 납부해야 할 세금이 예상 수익 800만원 기준으로 약 123만원(800만 × 15.4%)이었다. ISA를 통해 서민형 비과세 400만원을 제하고 나머지 400만원에 9.9%를 적용하니 약 39만 6,000원으로 세금이 줄었다. 절세 효과만 83만원이 넘었다.</p>
+
+  <p>만기 후 고민했던 부분은 연금계좌 이전 60일 기한이었다. 만기일은 3월 초였는데, 연말정산이 이미 끝난 시점이라 "지금 이전해도 세액공제를 올해 연말정산에서 받을 수 있나?"라는 질문이 생겼다. 증권사 고객센터에 문의하니 "이전 시점이 속한 과세연도의 연말정산(내년 초 신고)에서 반영된다"는 답변을 받았다. 즉 3월에 이전하면 2027년 초 연말정산에서 추가 세액공제 최대 300만원을 받을 수 있다.</p>
+
+  <p>결국 만기 자금 중 3,000만원을 IRP로 이전하고, 나머지로 신규 ISA를 재개설하는 전략 B+C 복합 방식을 선택했다. IRP 이전으로 추가 세액공제 300만원을 받아 16.5% 기준 49만 5,000원이 추가 환급됐고, 새 ISA는 비과세 한도가 초기화되어 서민형 400만원이 다시 시작됐다. 전체 운용 기간을 통해 절세 효과가 130만원 이상이었다.</p>
+
+  <!-- ✅ 이미지 4: 탈락 사유 TOP 5 카드 -->
+  <img src="rejection_card_1080_isa_strategy_2026.png" alt="ISA 계좌 절세 실패 사유 TOP 5" style="width:100%;max-width:600px;display:block;margin:16px auto;" />
+
+  <h2 id="faq">7) FAQ</h2>
+
+  <h3>절세 실패 TOP 5</h3>
+  <ol>
+    <li><strong>3년 의무기간 미충족 해지</strong>: 3년이 되기 2주 전이라도 해지하면 비과세·분리과세 혜택 전액 소멸, 15.4% 소급 적용. "조금만 더 기다리자"가 수십만 원을 지킵니다.</li>
+    <li><strong>연금계좌 이전 60일 기한 초과</strong>: 만기일로부터 60일을 하루라도 넘기면 추가 세액공제 혜택이 사라집니다. 만기일을 캘린더에 표시하고 이전 계획을 미리 세워두세요.</li>
+    <li><strong>금융소득종합과세 대상자인데 일반형 신청</strong>: 직전 3개 과세연도 중 1회라도 금융소득종합과세 대상이었으면 일반형·서민형 가입이 불가합니다. 국내투자형 ISA를 이용하세요.</li>
+    <li><strong>중도 수익금 인출 시도</strong>: 의무기간 중 원금 범위 내 중도인출은 가능하지만 수익금(배당·평가차익 등)은 만기 전 인출 불가합니다. 억지로 인출 시도 시 오류 또는 해지로 이어질 수 있습니다.</li>
+    <li><strong>1인 1계좌 원칙 위반</strong>: 같은 유형(중개형·신탁형·일임형)으로 2개 이상 개설 불가합니다. 타 기관 이전은 가능하지만 동시에 두 계좌를 유지하면 가입이 무효화될 수 있습니다.</li>
+  </ol>
+
+  <h3>중복수급·예외 조건</h3>
+  <ul>
+    <li>ISA + 연금저축 + IRP: 각 계좌는 별개 제도이므로 동시 보유 가능. 만기 후 연금계좌 이전 시 최대 1,200만원 세액공제도 동시에 가능.</li>
+    <li>국민성장 ISA + 일반형 ISA: 중복 가입 가능 (2026년 6월 출시 후 적용). 청년형 ISA는 국민성장 ISA와 중복 불가.</li>
+    <li>중도 해지 예외: 사망·해외 이주·3개월 이상 입원 치료 필요 질병·퇴직·사업 폐업 — 해당 사유 시 의무기간 미충족이어도 세제 혜택 유지.</li>
+  </ul>
+
+  <h3>자주 묻는 질문</h3>
+  <p class="q">Q1. 서민형과 일반형 중 어떻게 선택하나요?</p>
+  <p class="a">직전 3개 과세연도 중 1회 이상 총급여 5,000만원 이하(또는 종합소득 3,800만원 이하)라면 서민형을 선택하세요. 비과세 한도가 200만원→400만원으로 2배입니다. 일반형으로 가입했다가 서민형 자격을 갖추면 해당 기관에서 전환 신청이 가능합니다.</p>
+
+  <p class="q">Q2. 납입 한도 확대(연 4,000만·총 2억)는 언제 적용되나요?</p>
+  <p class="a">2026년 4월 현재 국회 통과 전 입법 추진 단계입니다. 국회 통과 후 별도 시행일을 지정하므로, 현재는 연 2,000만·총 1억 기준이 적용됩니다. 개정 확정 시 금융위원회 공지를 확인하세요.</p>
+
+  <p class="q">Q3. 해외 주식(미국 주식 직접투자)도 ISA에 담을 수 있나요?</p>
+  <p class="a">직접 해외 주식(예: 애플, 테슬라)은 ISA에 편입 불가합니다. 단, 국내에 상장된 해외 ETF(TIGER 미국S&P500, KODEX 나스닥100 등)는 중개형 ISA에서 투자 가능합니다. 이를 통해 해외 지수 투자와 ISA 세제 혜택을 동시에 누릴 수 있습니다.</p>
+
+  <p class="q">Q4. ISA 수익이 금융소득종합과세에 포함되나요?</p>
+  <p class="a">포함되지 않습니다. ISA 내 수익은 종합과세 기준금액(연 2,000만원) 산정에서 제외됩니다. 다른 금융소득이 1,800만원이고 ISA 내 수익이 500만원이라도 종합과세 대상이 되지 않습니다.</p>
+
+  <p class="q">Q5. 롤링 전략 시 ETF를 그대로 옮길 수 있나요?</p>
+  <p class="a">현물 이전이 아니라, 기존 ISA에서 ETF를 매도한 뒤 현금으로 새 ISA에 납입해 다시 매수하는 방식입니다. 이 과정에서 ETF 매도·매수 수수료가 발생하고, 매도 시점과 재매수 시점 사이의 가격 변동 리스크가 있습니다.</p>
+
+  <p class="q">Q6. 청년형 ISA 소득공제 10%는 어떻게 받나요?</p>
+  <p class="a">2026년 6월 출시 후 청년형 ISA를 개설하면 해당 연도 납입금의 10%가 소득공제됩니다. 연 최대 200만원까지 공제되므로 연 2,000만원 납입 시 200만원 소득공제 → 세율 16.5% 기준 33만원 세금 환급 효과입니다. 기존 일반형 ISA가 있다면 해지 후 청년형으로 전환해야 합니다(중복 불가).</p>
+
+  <p class="q">Q7. 연금계좌 이전 시 IRP와 연금저축 중 어디로 보내는 게 유리한가요?</p>
+  <p class="a">세액공제 혜택 자체는 동일합니다. 차이는 인출 유연성입니다. IRP는 만 55세 이후 연금 수령 외 중도 인출 시 기타소득세(16.5%)가 부과되지만, 연금저축은 세액공제 받은 원금 이외 금액 한해 일부 유연한 인출이 가능합니다. 은퇴 자금으로 묶어두려면 IRP, 유연성을 원하면 연금저축이 유리합니다.</p>
+
+  <p class="q">Q8. 서민형 자격을 가입 후에 잃으면 어떻게 되나요?</p>
+  <p class="a">이미 서민형으로 개설한 경우 이후 소득이 기준을 초과하더라도 계좌 자체는 유지됩니다. 다만 추가 납입 시점의 유형이 변경될 수 있으므로, 소득 변화 후에는 해당 증권사에 문의해 유형 현황을 확인하세요.</p>
+
+  <p class="q">Q9. 손익통산은 연도별로 하나요, 만기에 한 번에 하나요?</p>
+  <p class="a">만기(해지) 시점에 계좌 내 전체 수익·손실을 통산합니다. 연도 중간에 확정된 수익·손실도 만기 때까지 누적해서 계산하므로, 장기 보유할수록 손익통산 효과가 크게 나타납니다.</p>
+
+  <p class="q">Q10. 기존에 신탁형 ISA인데 중개형으로 바꿀 수 있나요?</p>
+  <p class="a">같은 유형 간 변경은 금융기관 이전(기관 변경)으로 가능합니다. 단, 신탁형→중개형으로의 유형 전환은 현행 제도상 기관 이전을 통해 처리하며, 보유 상품을 현금화한 뒤 이전하는 게 일반적입니다. 의무기간과 납입 이력은 그대로 승계됩니다.</p>
+
+  <div class="tips">
+    <strong>실전 팁</strong><br/>
+    ISA 만기 60일 전에 반드시 전략을 결정하세요. 연금계좌 이전을 원한다면 IRP 또는 연금저축 계좌를 미리 개설해 두어야 하고, 이전 신청은 기존 ISA를 운용한 증권사에서 진행합니다. 전략 B(롤링)를 선택할 경우 ETF 매도 시점을 과세 기준일(12월 말) 이후로 조정하는 것이 절세에 유리할 수 있습니다.
+  </div>
+
+  <!-- ✅ 이미지 5: 체크리스트 카드 -->
+  <img src="checklist_card_1080_isa_strategy_2026.png" alt="ISA 계좌 신청 전 1분 체크리스트" style="width:100%;max-width:600px;display:block;margin:16px auto;" />
+
+  <h2 id="check">8) 신청 전 1분 체크리스트</h2>
+  <ul>
+    <li>소득 수준 확인 → 일반형·서민형·청년형 유형 결정</li>
+    <li>서민형/청년형이면 홈택스에서 소득확인증명서 발급</li>
+    <li>금융소득종합과세 해당 여부 확인 (해당 시 국내투자형 ISA)</li>
+    <li>기존 ISA 계좌 유무 확인 (1인 1계좌 원칙)</li>
+    <li>운용 방식 결정 (중개형: 직접 투자 / 신탁형: 위탁 / 일임형: 전액 맡김)</li>
+    <li>만기 전략 사전 결정 (출금·롤링·연금이전 중 선택)</li>
+    <li>연금이전 예정 시 IRP 또는 연금저축 계좌 사전 개설</li>
+    <li>만기일로부터 60일 캘린더 등록 (연금이전 기한 관리)</li>
+  </ul>
+
+  <p class="small">관련 글: <a href="{연금저축_IRP_ISA_세액공제_절세전략_주소}" target="_blank" rel="noopener">연금저축·IRP·ISA 세액공제·절세전략 총정리 (2026)</a> / <a href="{종합소득세_환급_경정청구_주소}" target="_blank" rel="noopener">종합소득세 환급·경정청구·경비 처리 총정리 (2026)</a></p>
+
+  <div class="tips">
+    <strong>참고/문의처</strong><br/>
+    금융위원회 ISA 안내: <a href="https://www.fsc.go.kr/po020201/27339" target="_blank" rel="noopener">fsc.go.kr</a><br/>
+    국세청 연금계좌 세액공제: <a href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7875" target="_blank" rel="noopener">nts.go.kr</a><br/>
+    홈택스 소득확인증명서 발급: <a href="https://www.hometax.go.kr" target="_blank" rel="noopener">hometax.go.kr</a><br/>
+    금융감독원 금융소비자 정보포털(파인): <a href="https://fine.fss.or.kr" target="_blank" rel="noopener">fine.fss.or.kr</a><br/>
+    금융소비자보호 통합 콜센터: 1332
+  </div>
+
+  <div class="disclaimer">
+    본 글은 공식 법령·금융위원회 자료·보도자료를 기반으로 작성한 정보성 안내입니다. 세제 혜택·공제 금액은 개인 소득 수준·과세 상황에 따라 달라질 수 있으며, 법령 개정에 따라 내용이 변경될 수 있습니다. 최종 투자·절세 결정 전에는 담당 증권사 및 세무 전문가와 개인별 상황을 확인하시기 바랍니다.
+  </div>
+
+  <div class="footer" id="update">
+    <strong>업데이트 로그</strong><br/>
+    - 2026-04-29: ISA 현행 제도(2026.04 기준)·만기 전략·2026년 신규 유형(청년형·국민성장·국내투자형) 정리. 납입 한도 확대안(국회 통과 전)은 별도 구분 표기<br/>
+    <span class="small">※ ISA 비과세 한도·납입 한도·신규 유형 시행일은 입법 일정에 따라 달라질 수 있습니다. 신청 전 금융위원회 공지를 확인하세요.</span>
+  </div>
+</div>
+
+<!-- 태그: ISA계좌 개인종합자산관리계좌 ISA절세 비과세한도 만기전략 세액공제 신청방법 손익통산 연금저축 IRP 연금계좌이전 절세전략 직장인절세 2026지원금 -->

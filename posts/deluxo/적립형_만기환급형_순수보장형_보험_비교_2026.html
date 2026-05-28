@@ -1,0 +1,380 @@
+<!-- tistory_policy_template.html 기반 — insurance_type_comparison_2026 -->
+
+<!-- ✅ Schema.org 구조화 데이터 -->
+<div style="display:none">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "적립형 vs 만기환급형 vs 순수보장형 보험 비교 — 어떤 게 유리할까 (2026)",
+      "description": "순수보장형·만기환급형·무해지환급형·적립형 보험의 보험료·환급금·장단점을 한눈에 비교합니다. 40세 남성 암보험 기준 보험료 차액 투자 시뮬레이션, 갱신형 vs 비갱신형 판단 기준 포함.",
+      "datePublished": "2026-05-03",
+      "dateModified": "2026-05-03",
+      "author": {"@type": "Person", "name": "deluxo"},
+      "publisher": {"@type": "Organization", "name": "tistory.deluxo"}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "순수보장형과 만기환급형 중 어떤 게 더 유리한가요?", "acceptedAnswer": {"@type": "Answer", "text": "대부분의 경우 순수보장형이 유리합니다. 만기환급형은 보험료가 1.5~6배 높고, 환급금도 물가상승률을 반영하지 않아 20년 후 실질 가치가 크게 줄어듭니다. 절약한 차액을 적금이나 투자에 활용하면 만기환급형 환급금보다 더 높은 수익을 기대할 수 있습니다."}},
+        {"@type": "Question", "name": "무해지환급형 보험은 어떤 경우에 선택하나요?", "acceptedAnswer": {"@type": "Answer", "text": "장기간(보통 10~20년) 중도해지 없이 유지할 자신이 있고, 보험료를 최대한 낮추고 싶은 경우에 선택합니다. 납입 기간 중 해지하면 환급금이 0원이므로, 소득·건강 상태 변화 가능성이 있다면 신중하게 결정해야 합니다."}},
+        {"@type": "Question", "name": "갱신형과 비갱신형 중 어떤 걸 선택해야 하나요?", "acceptedAnswer": {"@type": "Answer", "text": "의료실비보험을 제외하고는 비갱신형이 대부분 유리합니다. 갱신형은 처음 보험료가 저렴하지만 나이와 건강 기준으로 주기적으로 보험료가 오르고, 건강 상태가 나빠지면 갱신 거절될 수도 있습니다. 의료실비보험은 갱신형만 존재하므로 선택지가 없습니다."}},
+        {"@type": "Question", "name": "적립형 보험(저축보험·연금보험)은 적금보다 유리한가요?", "acceptedAnswer": {"@type": "Answer", "text": "단순 수익률만 보면 초기 사업비가 많이 차감돼 10년 이하 단기에는 적금보다 불리합니다. 단, 10년 이상 유지 시 이자소득세 비과세 혜택(15.4% 절세)과 연금 전환 기능이 장점입니다. 노후 자금 준비에 특화된 선택지입니다."}},
+        {"@type": "Question", "name": "보험 유형은 어디서 비교할 수 있나요?", "acceptedAnswer": {"@type": "Answer", "text": "금융감독원 금융소비자 정보 포털(fine.fss.or.kr)과 생명보험협회 공시실(pub.insure.or.kr), 손해보험협회 공시실(pub.knia.or.kr)에서 보험사별 상품의 보험료·환급금을 무료로 비교할 수 있습니다."}}
+      ]
+    }
+  ]
+}
+</script>
+</div>
+
+<style>
+  :root{
+    --blue:#1D4ED8; --blue2:#1E40AF;
+    --white:#FFFFFF; --text:#111827;
+    --muted:#4B5563; --border:#E5E7EB;
+    --bg:#F9FAFB; --blueLight:#E8F0FF;
+  }
+  .wrap{max-width:860px;margin:0 auto;line-height:1.8;color:var(--text);}
+  .meta{color:var(--muted);font-size:.95rem;margin:6px 0 18px;}
+  .badge{display:inline-block;background:var(--blueLight);border:1px solid var(--border);padding:3px 10px;border-radius:999px;font-size:.85rem;margin-right:8px;}
+  .notice{background:#fff7ed;border:1px solid #fed7aa;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .lead{background:#f8fafc;border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .keysum{background:#fefce8;border:1px solid #fde68a;padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .summary{background:#eff6ff;border:1px solid #bfdbfe;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .toc{background:var(--bg);border:1px solid var(--border);padding:14px 16px;border-radius:12px;margin:16px 0 22px;}
+  .toc a{text-decoration:none;color:var(--blue);}
+  .toc ul{margin:8px 0 0 18px;}
+
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 6px;}
+  .wrap a.btn,.wrap a.btn:link,.wrap a.btn:visited{
+    display:inline-flex;align-items:center;justify-content:center;
+    padding:10px 14px;border-radius:10px;border:1px solid var(--blue);
+    background:var(--blue) !important;color:var(--white) !important;
+    text-decoration:none !important;font-weight:800;
+  }
+  .wrap a.btn:hover,.wrap a.btn:active,.wrap a.btn:focus{
+    background:var(--blue2) !important;border-color:var(--blue2) !important;color:var(--white) !important;
+  }
+  .wrap a.btn.secondary,.wrap a.btn.secondary:link,.wrap a.btn.secondary:visited{
+    background:var(--white) !important;color:var(--blue) !important;border-color:var(--blue) !important;
+  }
+  .wrap a.btn.secondary:hover,.wrap a.btn.secondary:active,.wrap a.btn.secondary:focus{
+    background:var(--bg) !important;color:var(--blue2) !important;border-color:var(--blue2) !important;
+  }
+  .wrap a.btn.gray,.wrap a.btn.gray:link,.wrap a.btn.gray:visited{
+    background:#111827 !important;border-color:#111827 !important;color:var(--white) !important;
+  }
+  .wrap a.btn.gray:hover,.wrap a.btn.gray:active,.wrap a.btn.gray:focus{
+    background:#0b1220 !important;border-color:#0b1220 !important;color:var(--white) !important;
+  }
+
+  table{width:100%;border-collapse:collapse;margin:14px 0 10px;}
+  th,td{border:1px solid var(--border);padding:10px;vertical-align:top;}
+  th{background:#F3F4F6;text-align:left;}
+  .small{font-size:.95rem;color:var(--muted);}
+  h1{margin:0 0 8px;line-height:1.25;}
+  h2{margin-top:30px;padding-top:8px;border-top:1px solid var(--border);}
+  h3{margin-top:16px;}
+  .q{font-weight:900;margin:14px 0 6px;}
+  .a{margin:0 0 10px;}
+  .tips{background:#f0fdf4;border:1px solid #bbf7d0;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .urgency{background:#fef2f2;border:1px solid #fca5a5;padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .target{background:#f0fdf4;border:1px solid #86efac;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .target ul{margin:8px 0 0 18px;}
+  .disclaimer{background:#f8fafc;border:1px solid #cbd5e1;padding:12px 14px;border-radius:12px;margin:16px 0;font-size:.93rem;color:var(--muted);}
+  .footer{margin-top:26px;padding-top:14px;border-top:1px solid var(--border);color:var(--muted);font-size:.95rem;}
+</style>
+
+<div class="wrap">
+  <h1>적립형 vs 만기환급형 vs 순수보장형 보험 비교 — 어떤 게 유리할까 (2026)</h1>
+  <div class="meta">
+    <span class="badge">키워드: 보험 유형 비교</span>
+    <span class="badge">업데이트: 2026-05-03</span>
+  </div>
+
+  <div class="notice">
+    <strong>먼저 확인!</strong><br/>
+    실제 보험료·환급금·보장 내용은 보험사·상품·가입 시기·개인 조건에 따라 크게 다릅니다. 이 글의 수치는 일반적인 예시이며, 정확한 비교는 생명·손해보험협회 공시실에서 확인하세요.
+  </div>
+
+  <p class="small">
+    순수보장형·만기환급형·무해지환급형·적립형 보험의 보험료와 환급금, 장단점을 한눈에 비교합니다. 갱신형 vs 비갱신형 판단 기준, 보험료 차액 투자 시뮬레이션, 상황별 추천까지 2026년 기준으로 정리합니다.
+  </p>
+
+  <div class="lead">
+    보험에 가입하려는데 설계사마다 다른 유형을 권유해 혼란스러운 경우가 많다. "돈을 돌려받는 게 낫지 않냐"는 말에 만기환급형을 선택하지만, 실제로는 보험료 차액을 따로 굴리는 편이 더 유리한 경우가 대부분이다. 이 글에서는 보험협회 공시실 기준 실제 수치를 바탕으로 유형별 기회비용을 직접 계산해 정리한다.
+  </div>
+
+  <div class="urgency">
+    <strong>왜 지금 확인해야 할까?</strong><br/>
+    보험은 한 번 가입하면 10~30년간 유지되는 장기 계약입니다. 유형 선택을 잘못하면 월 수십만 원의 기회비용이 수십 년간 누적됩니다. 만기환급형 vs 순수보장형의 경우 20년 기준 차액이 1,000만 원 이상 날 수 있어, 가입 전 꼭 비교해야 합니다.
+  </div>
+
+  <div class="keysum">
+    <strong>핵심 요약 3줄</strong><br/>
+    ① 순수보장형이 동일 보장 기준 가장 저렴 — 절약한 차액을 연 4% 적금에 넣으면 20년 후 만기환급금 이상<br/>
+    ② 만기환급형은 명목 원금만 돌려줌 — 물가상승률(3%) 반영 시 20년 후 실질 가치 절반 수준으로 하락<br/>
+    ③ 의료실비보험만 갱신형이 의무 — 그 외 보장성 보험은 비갱신형이 장기적으로 유리
+  </div>
+
+  <div class="summary" id="top">
+    <h2 style="border-top:none;margin-top:0;">✅ 5줄 요약(결론)</h2>
+    <ul>
+      <li><strong>순수보장형</strong>: 동일 보장 대비 가장 저렴. 절약한 보험료 차액을 따로 저축·투자할 의지가 있다면 가장 유리</li>
+      <li><strong>만기환급형</strong>: 보험료가 1.5~6배 비싸고 환급금은 물가 미반영 — 강제 저축 효과 외에 특별한 메리트 없음</li>
+      <li><strong>갱신형 vs 비갱신형</strong>: 의료실비는 갱신형만 존재, 그 외는 비갱신형이 보험료 변동 없어 유리</li>
+      <li><strong>무해지환급형</strong>: 납입 기간 중 해지하면 환급금 0원 — 장기 유지가 확실할 때만 선택</li>
+      <li><strong>보험 유형 비교</strong>: 금감원 금융소비자 포털(fine.fss.or.kr) 또는 생명보험협회 공시실에서 무료 비교 가능</li>
+    </ul>
+
+    <div class="btns">
+      <a class="btn" href="https://fine.fss.or.kr" target="_blank" rel="noopener">금감원 금융소비자 포털</a>
+      <a class="btn gray" href="https://pub.insure.or.kr" target="_blank" rel="noopener">생명보험협회 공시실</a>
+      <a class="btn secondary" href="https://pub.knia.or.kr" target="_blank" rel="noopener">손해보험협회 공시실</a>
+    </div>
+    <p class="small">※ 보험 가입 전 반드시 약관·상품설명서를 직접 확인하세요.</p>
+  </div>
+
+  <div class="target">
+    <strong>이런 상황이라면 지금 비교하세요</strong>
+    <ul>
+      <li>보험 설계사에게 만기환급형을 권유받았는데 정말 유리한지 확인하고 싶다면</li>
+      <li>지금 내는 보험료가 너무 비싸 순수보장형으로 갈아타는 게 나은지 고민 중이라면</li>
+      <li>연금보험·저축보험(적립형)과 은행 적금 중 어디에 넣을지 결정해야 한다면</li>
+    </ul>
+  </div>
+
+  <div class="toc">
+    <strong>목차</strong>
+    <ul>
+      <li><a href="#table">1) 보험 유형 한눈에 비교표</a></li>
+      <li><a href="#quick">→ 나는 어떤 유형? 10초 판단</a></li>
+      <li><a href="#how">2) 유형별 선택 단계</a></li>
+      <li><a href="#docs">3) 가입 전 확인 체크리스트</a></li>
+      <li><a href="#case">4) 보험료 차액 시뮬레이션 (실측 정보)</a></li>
+      <li><a href="#faq">5) FAQ</a></li>
+      <li><a href="#check">6) 1분 최종 체크리스트</a></li>
+      <li><a href="#update">업데이트 로그</a></li>
+    </ul>
+  </div>
+
+  <h2 id="table">1) 보험 유형 한눈에 비교표</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>유형</th><th>월 보험료<br/>(예시·상대값)</th><th>만기 환급금</th><th>핵심 장점</th><th>핵심 단점</th><th>추천 대상</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>순수보장형</strong></td>
+        <td>가장 저렴<br/>(예: 4만 원)</td>
+        <td>없음 (0원)</td>
+        <td>동일 보장 최저 비용, 차액 투자 가능</td>
+        <td>만기 시 돌려받는 돈 없음</td>
+        <td>예산 제한, 저축 의지 있는 경우</td>
+      </tr>
+      <tr>
+        <td><strong>만기환급형</strong></td>
+        <td>1.5~6배 비쌈<br/>(예: 8만 원)</td>
+        <td>납입 원금(명목) 환급</td>
+        <td>강제 저축 효과, 원금 회수 가능</td>
+        <td>기회비용 높음, 물가상승률 미반영, 중도해지 손실</td>
+        <td>저축 의지 없는 경우, 원금 보장 원하는 경우</td>
+      </tr>
+      <tr>
+        <td><strong>무해지환급형</strong></td>
+        <td>순수보장형보다 저렴</td>
+        <td>납입 완료 후 환급<br/>(납입 중 0원)</td>
+        <td>보험료 가장 저렴</td>
+        <td>납입 기간 중 해지 시 환급금 전혀 없음</td>
+        <td>장기 유지 확실 + 보험료 절약 최우선</td>
+      </tr>
+      <tr>
+        <td><strong>적립형</strong><br/>(저축·연금·변액보험)</td>
+        <td>중간~비쌈</td>
+        <td>적립금 수령 (사업비 차감)</td>
+        <td>보장+저축 동시, 10년+ 비과세 혜택, 연금 전환 가능</td>
+        <td>초기 사업비 높음, 조기 해지 시 원금 손실</td>
+        <td>노후 자금 준비 + 비과세 혜택 원하는 장기 유지자</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="small">※ 위 보험료 예시는 40세 남성 암보험 기준 일반적 수치입니다. 실제 보험료는 보험사·나이·건강상태에 따라 다릅니다. (2026년 5월 기준)</p>
+
+  <!-- ✅ 인아티클 광고 (한눈에 표 직후) -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5716436301710258"
+       crossorigin="anonymous"></script>
+  <ins class="adsbygoogle"
+       style="display:block; text-align:center;"
+       data-ad-layout="in-article"
+       data-ad-format="fluid"
+       data-ad-client="ca-pub-5716436301710258"
+       data-ad-slot="7020031076"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+  <h3 id="quick">나는 어떤 유형? 상황별 10초 판단</h3>
+  <table>
+    <thead>
+      <tr><th>내 상황</th><th>추천 유형</th><th>이유</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>보험료 예산이 빠듯하다</td><td><strong>순수보장형</strong></td><td>최저 비용으로 충분한 보장 확보</td></tr>
+      <tr><td>저축을 따로 할 의지가 없다</td><td><strong>만기환급형</strong></td><td>강제 저축 효과 (수익률은 낮음 주의)</td></tr>
+      <tr><td>장기 유지 확실 + 보험료 절약 최우선</td><td><strong>무해지환급형</strong></td><td>동일 보장 기준 가장 저렴한 보험료</td></tr>
+      <tr><td>노후 자금 + 비과세 혜택이 필요하다</td><td><strong>적립형 (연금보험)</strong></td><td>10년+ 유지 시 이자소득세 비과세</td></tr>
+      <tr><td>의료실비보험이 필요하다</td><td><strong>갱신형 (선택 없음)</strong></td><td>실비보험은 갱신형만 존재</td></tr>
+      <tr><td>보장성 보험 (암·CI 등)에서 갱신 vs 비갱신 선택</td><td><strong>비갱신형</strong></td><td>보험료 고정, 갱신 거절 위험 없음</td></tr>
+    </tbody>
+  </table>
+  <p class="small">※ 자신의 상황에 맞는 유형을 선택한 뒤 생명보험협회 공시실에서 보험사별 상품을 비교하세요.</p>
+
+  <!-- ✅ 이미지 1: 요약표 카드 -->
+  <img src="summary_card_1080_insurance_type_comparison_2026.png" alt="적립형 만기환급형 순수보장형 보험 유형 비교 요약" style="width:100%;margin:16px 0;" />
+
+  <!-- ✅ 이미지 2: 빠른 판단 가이드 -->
+  <img src="quick_guide_1080_insurance_type_comparison_2026.png" alt="보험 유형 상황별 10초 판단 가이드" style="width:100%;margin:16px 0;" />
+
+  <h2 id="how">2) 보험 유형별 선택 단계</h2>
+  <ol>
+    <li><strong>보장 목적 확인</strong>: 암·질병·상해 등 보장 범위 결정 — 보장성 보험인지, 저축+보장 결합(적립형)인지 먼저 분리</li>
+    <li><strong>갱신형 vs 비갱신형 결정</strong>: 의료실비는 갱신형만 존재. 그 외 보장성 보험은 비갱신형이 장기적으로 유리</li>
+    <li><strong>환급 구조 비교</strong>: 순수보장형·만기환급형·무해지환급형 중 선택 — 월 보험료 차액과 20년 기회비용을 직접 계산</li>
+    <li><strong>공시실 비교</strong>: 생명보험협회(pub.insure.or.kr) 또는 손해보험협회(pub.knia.or.kr)에서 동일 보장 조건의 보험사별 보험료·환급금 무료 비교</li>
+    <li><strong>설계서 요청·약관 확인</strong>: 설계사에게 순수보장형·만기환급형 두 가지 설계서를 동시에 요청해 비교 후 결정</li>
+  </ol>
+
+  <!-- ✅ 이미지 3: 비교 카드 -->
+  <img src="compare_card_1080_insurance_type_comparison_2026.png" alt="순수보장형 vs 만기환급형 보험료 차액 비교 카드" style="width:100%;margin:16px 0;" />
+
+  <h2 id="docs">3) 가입 전 확인 체크리스트</h2>
+  <h3>기본 확인 사항</h3>
+  <ul>
+    <li>보험료: 동일 보장 기준 순수보장형·만기환급형 두 가지 설계서 비교 요청</li>
+    <li>환급금: 납입 완료 시 환급금이 있는지, 중도해지 시 환급금 수준 확인</li>
+    <li>갱신 여부: 일정 기간마다 보험료가 오르는 갱신형인지 확인</li>
+    <li>보장 기간: 만기 설정 (80세·90세·100세 등)과 납입 기간 확인</li>
+    <li>주요 면부책 조건: 보장 제외 사유(면책 기간, 기왕증 등) 약관에서 확인</li>
+  </ul>
+  <h3>상황별 추가 확인</h3>
+  <ul>
+    <li>만기환급형 선택 시: 중도해지 환급금 표 (납입 연도별 환급률) 반드시 확인</li>
+    <li>무해지환급형 선택 시: 납입 기간 중 해지환급금이 0원임을 설계서로 확인</li>
+    <li>적립형(연금·저축보험) 선택 시: 최초 납입 후 10년 이상 유지 가능한지, 비과세 요건(월 150만 원 이하 등) 확인</li>
+    <li>변액보험 선택 시: 원금 손실 가능성, 최저사망보험금 보증 조건 확인</li>
+  </ul>
+
+  <h2 id="case">4) 보험료 차액 시뮬레이션 (실측 정보)</h2>
+
+  <h3>① 40세 남성 암보험 기준 20년 보험료 차액 투자 비교 (2026년 5월 기준)</h3>
+  <table>
+    <thead>
+      <tr><th>항목</th><th>순수보장형</th><th>만기환급형</th><th>차이</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>월 보험료 (예시)</td><td>약 40,000원</td><td>약 80,000원</td><td>+40,000원</td></tr>
+      <tr><td>20년 총 납입액</td><td>약 960만 원</td><td>약 1,920만 원</td><td>+960만 원</td></tr>
+      <tr><td>만기 환급금</td><td>0원</td><td>약 1,920만 원</td><td>—</td></tr>
+      <tr><td>차액 40,000원 × 연 4% 적금 20년 납입 시</td><td colspan="3">약 1,470만 원 (세전) — 만기환급형 환급금의 76% 수준</td></tr>
+      <tr><td>차액 40,000원 × 연 6% 투자 20년 납입 시</td><td colspan="3">약 1,850만 원 (세전) — 만기환급형 환급금과 유사하거나 초과</td></tr>
+    </tbody>
+  </table>
+  <p class="small">※ 위 수치는 보험협회 공시 데이터 기반 일반적 예시입니다. 실제 보험료와 환급금은 보험사·상품·개인 조건에 따라 다릅니다. (2026년 5월 기준)</p>
+
+  <h3>② 물가상승률을 반영한 만기환급금의 실질 가치</h3>
+  <p>만기환급형의 환급금은 명목 금액을 기준으로 돌려준다. 연 물가상승률 3%를 가정하면 20년 후 1,920만 원의 실질 구매력은 현재 약 1,064만 원 수준으로 줄어든다. 즉, "원금을 돌려받는다"는 표현은 명목상으로만 성립하며, 실질 구매력은 상당 부분 감소한다는 점을 가입 전에 인식해야 한다.</p>
+
+  <h3>③ 자주 혼동되는 포인트</h3>
+  <p>만기환급형을 "원금 보장 상품"으로 이해하는 사례가 많지만, 보험에서 말하는 환급금은 납입한 보험료 총액을 돌려주는 것이지 운용 수익이 포함된 개념이 아니다. 또한 중도해지 시에는 해지환급금이 납입액보다 적으므로, 만기까지 유지하지 않으면 오히려 손해가 된다. 반면 순수보장형은 해지해도 추가 손실이 없고, 그동안 보장은 정상적으로 제공됐다는 점에서 본질이 다르다.</p>
+
+  <h3>④ 갱신형 보험료 인상 패턴</h3>
+  <p>갱신형 보험의 경우 갱신 주기(3년·5년 등)마다 나이와 경험 위험률을 반영해 보험료가 재산정된다. 30대에 월 3만 원이던 보험료가 50대에 월 10만 원 이상으로 오르는 사례도 있다. 건강 상태가 나빠진 후에는 갱신 거절이나 보험료 대폭 인상이 발생할 수 있어, 장기적으로 보장이 필요한 질병·암 등은 비갱신형으로 가입하는 것이 안정적이다.</p>
+
+  <!-- ✅ 이미지 4: 실수 TOP5 카드 -->
+  <img src="rejection_card_1080_insurance_type_comparison_2026.png" alt="보험 유형 선택 실수 TOP5" style="width:100%;margin:16px 0;" />
+
+  <h2 id="faq">5) FAQ</h2>
+
+  <h3>보험 유형 선택 실수 TOP5</h3>
+  <ol>
+    <li>만기환급형의 환급금을 수익으로 오해 — 물가상승률 반영 시 실질 수익 없음</li>
+    <li>갱신형 보험의 장기 보험료 인상폭을 계산하지 않고 가입</li>
+    <li>무해지환급형 가입 후 중도해지 — 납입 기간 중 환급금 0원으로 전액 손실</li>
+    <li>적립형(저축보험)을 단기로 해지 — 초기 사업비 차감으로 원금 손실</li>
+    <li>순수보장형과 만기환급형의 차액을 따로 운용하지 않고 소비 — 보험 선택은 맞았지만 절약 효과 사라짐</li>
+  </ol>
+
+  <h3>자주 묻는 질문</h3>
+  <p class="q">Q1. 순수보장형과 만기환급형 중 어떤 게 더 유리한가요?</p>
+  <p class="a">대부분의 경우 순수보장형이 유리합니다. 만기환급형은 보험료가 1.5~6배 높고 환급금도 물가를 반영하지 않아 실질 수익이 없습니다. 절약한 차액을 적금이나 투자에 활용하면 만기환급형 환급금보다 더 높은 금액을 기대할 수 있습니다. 단, 저축 의지가 전혀 없다면 만기환급형의 강제 저축 효과가 도움이 될 수 있습니다.</p>
+
+  <p class="q">Q2. 무해지환급형은 어떤 경우에 적합한가요?</p>
+  <p class="a">장기간 중도해지 없이 납입을 완료할 자신이 있고, 보험료를 최대한 낮추고 싶은 경우에 적합합니다. 납입 기간 중 해지하면 환급금이 0원이므로 소득이나 건강 상태 변화 가능성이 있다면 순수보장형이 더 안전합니다.</p>
+
+  <p class="q">Q3. 갱신형과 비갱신형은 어떻게 다른가요?</p>
+  <p class="a">갱신형은 일정 기간마다 나이·건강 기준으로 보험료가 재산정됩니다. 초기 보험료는 저렴하지만 나이가 들수록 크게 오릅니다. 비갱신형은 가입 시 보험료가 만기까지 고정됩니다. 의료실비보험을 제외한 보장성 보험에서는 비갱신형이 장기적으로 유리한 경우가 많습니다.</p>
+
+  <p class="q">Q4. 적립형 보험(저축보험·연금보험)은 은행 적금보다 유리한가요?</p>
+  <p class="a">단순 수익률만 보면 초기 사업비가 차감돼 10년 이하 단기에는 은행 적금보다 불리합니다. 10년 이상 유지 시 이자소득세 비과세(15.4%) 혜택이 적용돼 세후 수익률이 역전될 수 있습니다. 노후 자금 준비와 비과세 혜택 활용이 목적이라면 의미 있는 선택지입니다.</p>
+
+  <p class="q">Q5. 보험 유형은 어디서 무료로 비교할 수 있나요?</p>
+  <p class="a">금융감독원 금융소비자 정보 포털(fine.fss.or.kr ☎ 1332), 생명보험협회 공시실(pub.insure.or.kr), 손해보험협회 공시실(pub.knia.or.kr)에서 보험사별 보험료·환급금을 무료로 비교할 수 있습니다. 별도 회원가입 없이 조회 가능합니다.</p>
+
+  <p class="q">Q6. 만기환급형을 중도해지하면 손해인가요?</p>
+  <p class="a">네, 중도해지 시 해지환급금이 총 납입액보다 적어 손해를 봅니다. 납입 기간이 짧을수록 손실이 크고, 납입 기간이 길수록 해지환급금이 납입액에 가까워집니다. 중도해지를 고려하고 있다면 애초에 순수보장형이 더 적합합니다.</p>
+
+  <p class="q">Q7. 변액보험은 적립형에 포함되나요? 원금 보장이 되나요?</p>
+  <p class="a">변액보험은 적립형의 일종으로, 납입 보험료 일부를 주식·채권 등 펀드에 투자합니다. 운용 성과에 따라 환급금이 달라지며 원금 손실도 가능합니다. 다만 최저사망보험금(예: 납입액의 100%)을 보증하는 상품이 많으므로 약관에서 최저보증 조건을 확인해야 합니다.</p>
+
+  <p class="q">Q8. 보험 유형과 갱신형·비갱신형은 별도로 선택할 수 있나요?</p>
+  <p class="a">네, 별도로 선택합니다. 예를 들어 "비갱신형 순수보장형", "갱신형 만기환급형" 등 조합이 가능합니다. 다만 보험 유형(순수보장형·만기환급형 등)은 상품에 따라 갱신형 또는 비갱신형만 선택 가능한 경우도 있으므로 설계서에서 확인이 필요합니다.</p>
+
+  <p class="q">Q9. 보험료가 같다면 순수보장형과 만기환급형 중 어디서 가입해야 하나요?</p>
+  <p class="a">보험료가 동일하다면 일반적으로 만기환급형이 유리합니다. 그러나 현실에서 동일한 보장에 동일한 보험료인 경우는 없으며, 만기환급형은 항상 순수보장형보다 비쌉니다. 설계사가 "같다"고 설명한다면 보장 범위가 다르거나 조건이 다를 가능성이 높으므로 설계서를 꼼꼼히 비교해야 합니다.</p>
+
+  <p class="q">Q10. 지금 가입한 만기환급형을 순수보장형으로 바꿀 수 있나요?</p>
+  <p class="a">동일 보험사에서 유형 변경은 일반적으로 불가합니다. 기존 보험을 해지하고 새로 가입해야 하는데, 해지 시 환급금 손실과 재가입 시 건강 상태·나이에 따른 보험료 인상 위험이 있습니다. 변경을 고려하고 있다면 금감원 금융소비자보호처(☎ 1332)에 먼저 상담하는 것을 권장합니다.</p>
+
+  <div class="tips">
+    <strong>실전 팁</strong><br/>
+    보험 설계사에게 방문 상담 시 "순수보장형과 만기환급형 두 가지 설계서를 동시에 보여달라"고 요청하면 월 보험료 차이와 20년 기대 수익을 직접 비교할 수 있습니다. 금융감독원 금융소비자 포털(fine.fss.or.kr)에서는 보험설계사 없이 보험사별 보험료를 직접 조회·비교할 수 있습니다.
+  </div>
+
+  <!-- ✅ 이미지 5: 체크리스트 카드 -->
+  <img src="checklist_card_1080_insurance_type_comparison_2026.png" alt="보험 유형 선택 전 1분 체크리스트" style="width:100%;margin:16px 0;" />
+
+  <h2 id="check">6) 1분 최종 체크리스트</h2>
+  <ul>
+    <li>동일 보장 기준 순수보장형·만기환급형 두 가지 설계서 비교 완료</li>
+    <li>갱신형 여부 확인 (갱신형이라면 20년·30년 후 보험료 시뮬레이션 요청)</li>
+    <li>중도해지 시 환급금 표 확인 (무해지환급형이라면 납입 기간 중 0원 확인)</li>
+    <li>만기환급형 선택 시: 차액(순수보장형 대비)을 따로 저축·투자할 계획 없음을 인정한 경우만 선택</li>
+    <li>적립형(저축·연금보험) 선택 시: 10년 이상 유지 가능 여부 확인</li>
+    <li>가입 전 금감원 금융소비자 포털(fine.fss.or.kr ☎ 1332) 또는 보험협회 공시실에서 보험사별 비교 완료</li>
+  </ul>
+  <p class="small">관련 글: <a href="#" target="_blank" rel="noopener">실비보험 갱신형 보험료 인상 대처법 — 유지 vs 해지 판단 기준 (2026)</a> / <a href="#" target="_blank" rel="noopener">암보험 비교 — 순수보장형 vs 만기환급형 어떤 게 나을까 (2026)</a></p>
+
+  <div class="tips">
+    <strong>참고·문의처</strong><br/>
+    금감원 금융소비자 포털: <a href="https://fine.fss.or.kr" target="_blank" rel="noopener">fine.fss.or.kr</a><br/>
+    생명보험협회 공시실: <a href="https://pub.insure.or.kr" target="_blank" rel="noopener">pub.insure.or.kr</a><br/>
+    손해보험협회 공시실: <a href="https://pub.knia.or.kr" target="_blank" rel="noopener">pub.knia.or.kr</a><br/>
+    금융소비자보호처 문의: ☎ 1332
+  </div>
+
+  <div class="disclaimer">
+    <strong>면책 안내</strong><br/>
+    이 글은 일반적인 보험 유형 비교 안내를 목적으로 작성되었습니다. 실제 보험료·환급금·보장 내용은 보험사·상품·가입 시기·개인 조건에 따라 크게 다를 수 있습니다. 가입 전 반드시 약관 및 상품설명서를 직접 확인하고, 보험설계사 또는 금융감독원 금융소비자보호처(☎ 1332)에 상담하시기 바랍니다. 이 글의 정보는 투자·보험 계약 권유가 아닙니다.
+  </div>
+
+  <div class="footer" id="update">
+    <strong>업데이트 로그</strong><br/>
+    - 2026-05-03: 최초 발행 (2026년 5월 기준 보험협회 공시 데이터 반영)<br/>
+    <span class="small">※ 보험료·환급금·갱신 조건은 보험사 공시에 따라 변동될 수 있습니다. 가입 전 공시실 재확인을 권장합니다.</span>
+  </div>
+</div>

@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="8" fill="#F59E0B"/>
+
+  <!-- Title -->
+  <text x="540" y="66" font-family="-apple-system, sans-serif" font-size="32" font-weight="900" fill="#FFFFFF" text-anchor="middle">화물차 사업자 세금 절감 혜택 총정리</text>
+  <text x="540" y="104" font-family="-apple-system, sans-serif" font-size="21" font-weight="600" fill="#F59E0B" text-anchor="middle">2026년 기준 | 취득세·자동차세·보조금</text>
+
+  <!-- Header Row -->
+  <rect x="40" y="130" width="1000" height="50" rx="8" fill="#1D4ED8"/>
+  <text x="175" y="161" font-family="-apple-system, sans-serif" font-size="17" font-weight="800" fill="#FFFFFF" text-anchor="middle">혜택 종류</text>
+  <text x="430" y="161" font-family="-apple-system, sans-serif" font-size="17" font-weight="800" fill="#FFFFFF" text-anchor="middle">지원 금액</text>
+  <text x="680" y="161" font-family="-apple-system, sans-serif" font-size="17" font-weight="800" fill="#FFFFFF" text-anchor="middle">신청처</text>
+  <text x="930" y="161" font-family="-apple-system, sans-serif" font-size="17" font-weight="800" fill="#FFFFFF" text-anchor="middle">유효기간</text>
+
+  <!-- Row 1 -->
+  <rect x="40" y="188" width="1000" height="100" rx="6" fill="#1A3270"/>
+  <rect x="40" y="188" width="8" height="100" rx="4" fill="#34D399"/>
+  <text x="175" y="232" font-family="-apple-system, sans-serif" font-size="19" font-weight="800" fill="#34D399" text-anchor="middle">전기·수소차 취득세 감면</text>
+  <text x="175" y="260" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">구매 시 1회</text>
+  <text x="430" y="232" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#F59E0B" text-anchor="middle">취득세 50% 감면</text>
+  <text x="430" y="258" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">5,000만원 → 125만원 절감</text>
+  <text x="680" y="244" font-family="-apple-system, sans-serif" font-size="16" fill="#EAF2FF" text-anchor="middle">차량등록사업소</text>
+  <text x="930" y="244" font-family="-apple-system, sans-serif" font-size="16" fill="#34D399" text-anchor="middle">2028.12 까지</text>
+
+  <!-- Row 2 -->
+  <rect x="40" y="296" width="1000" height="100" rx="6" fill="#102A56"/>
+  <rect x="40" y="296" width="8" height="100" rx="4" fill="#60A5FA"/>
+  <text x="175" y="340" font-family="-apple-system, sans-serif" font-size="19" font-weight="800" fill="#60A5FA" text-anchor="middle">영업용 자동차세</text>
+  <text x="175" y="366" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">노란 번호판 화물차</text>
+  <text x="430" y="332" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#F59E0B" text-anchor="middle">10톤 이하 연 28,500원</text>
+  <text x="430" y="358" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">차령 10년+ → 14,250원 (50% 경감)</text>
+  <text x="680" y="352" font-family="-apple-system, sans-serif" font-size="16" fill="#EAF2FF" text-anchor="middle">자동 적용</text>
+  <text x="930" y="352" font-family="-apple-system, sans-serif" font-size="16" fill="#60A5FA" text-anchor="middle">매년 상시</text>
+
+  <!-- Row 3 -->
+  <rect x="40" y="404" width="1000" height="100" rx="6" fill="#1A3270"/>
+  <rect x="40" y="404" width="8" height="100" rx="4" fill="#A78BFA"/>
+  <text x="175" y="442" font-family="-apple-system, sans-serif" font-size="19" font-weight="800" fill="#A78BFA" text-anchor="middle">중·대형 전기화물차 보조금</text>
+  <text x="175" y="468" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">1.5톤 이상</text>
+  <text x="430" y="444" font-family="-apple-system, sans-serif" font-size="20" font-weight="900" fill="#F59E0B" text-anchor="middle">국비 최대 6,000만원</text>
+  <text x="430" y="470" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">중형 4,000만 / 대형 6,000만 + 지자체</text>
+  <text x="680" y="460" font-family="-apple-system, sans-serif" font-size="16" fill="#EAF2FF" text-anchor="middle">ev.or.kr</text>
+  <text x="930" y="460" font-family="-apple-system, sans-serif" font-size="16" fill="#A78BFA" text-anchor="middle">예산 소진 시까지</text>
+
+  <!-- Row 4 -->
+  <rect x="40" y="512" width="1000" height="100" rx="6" fill="#102A56"/>
+  <rect x="40" y="512" width="8" height="100" rx="4" fill="#F59E0B"/>
+  <text x="175" y="552" font-family="-apple-system, sans-serif" font-size="19" font-weight="800" fill="#F59E0B" text-anchor="middle">조기폐차 (4등급)</text>
+  <text x="175" y="578" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">노후 경유 화물차</text>
+  <text x="430" y="552" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#F59E0B" text-anchor="middle">최대 800만원</text>
+  <text x="430" y="578" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">1차+전기차 전환 시 2차 합산</text>
+  <text x="680" y="568" font-family="-apple-system, sans-serif" font-size="16" fill="#EAF2FF" text-anchor="middle">mecar.or.kr</text>
+  <text x="930" y="568" font-family="-apple-system, sans-serif" font-size="16" fill="#34D399" text-anchor="middle">상시 지원</text>
+
+  <!-- Row 5 (5등급 종료) -->
+  <rect x="40" y="620" width="1000" height="100" rx="6" fill="#1A3270"/>
+  <rect x="40" y="620" width="8" height="100" rx="4" fill="#EF4444"/>
+  <text x="175" y="660" font-family="-apple-system, sans-serif" font-size="19" font-weight="800" fill="#EF4444" text-anchor="middle">조기폐차 (5등급)</text>
+  <text x="175" y="686" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">2026년 마감!</text>
+  <text x="430" y="660" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#F59E0B" text-anchor="middle">최대 300만원</text>
+  <text x="430" y="686" font-family="-apple-system, sans-serif" font-size="15" fill="#EF4444" text-anchor="middle">차량기준가액 100%</text>
+  <text x="680" y="674" font-family="-apple-system, sans-serif" font-size="16" fill="#EAF2FF" text-anchor="middle">mecar.or.kr</text>
+  <text x="930" y="668" font-family="-apple-system, sans-serif" font-size="16" fill="#EF4444" text-anchor="middle">2026년 종료</text>
+
+  <!-- Row 6 -->
+  <rect x="40" y="728" width="1000" height="100" rx="6" fill="#102A56"/>
+  <rect x="40" y="728" width="8" height="100" rx="4" fill="#F472B6"/>
+  <text x="175" y="772" font-family="-apple-system, sans-serif" font-size="19" font-weight="800" fill="#F472B6" text-anchor="middle">유가보조금</text>
+  <text x="175" y="798" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">경유·LPG 영업용</text>
+  <text x="430" y="772" font-family="-apple-system, sans-serif" font-size="20" font-weight="900" fill="#F59E0B" text-anchor="middle">월 40~50만원+(대형 기준)</text>
+  <text x="430" y="798" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">카드 즉시 차감형 (2026 개편)</text>
+  <text x="680" y="788" font-family="-apple-system, sans-serif" font-size="16" fill="#EAF2FF" text-anchor="middle">카드사 신청</text>
+  <text x="930" y="788" font-family="-apple-system, sans-serif" font-size="16" fill="#34D399" text-anchor="middle">상시</text>
+
+  <!-- Dividers -->
+  <line x1="310" y1="130" x2="310" y2="836" stroke="#1D4ED8" stroke-width="1" opacity="0.5"/>
+  <line x1="545" y1="130" x2="545" y2="836" stroke="#1D4ED8" stroke-width="1" opacity="0.5"/>
+  <line x1="800" y1="130" x2="800" y2="836" stroke="#1D4ED8" stroke-width="1" opacity="0.5"/>
+
+  <!-- Footer -->
+  <rect x="40" y="854" width="1000" height="2" fill="#F59E0B" opacity="0.4"/>
+  <text x="540" y="898" font-family="-apple-system, sans-serif" font-size="18" font-weight="700" fill="#F59E0B" text-anchor="middle">유가보조금 ☎ 1588-8713 | 조기폐차 ☎ 1577-7121</text>
+  <text x="540" y="926" font-family="-apple-system, sans-serif" font-size="16" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준 | 지자체별·예산별 상이 — 신청 전 공식 공고 확인</text>
+
+  <rect x="0" y="1072" width="1080" height="8" fill="#F59E0B"/>
+</svg>

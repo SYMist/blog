@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#A855F7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- Chip -->
+  <rect x="440" y="80" width="200" height="36" rx="18" fill="#7C3AED" fill-opacity="0.3" stroke="#7C3AED" stroke-width="1.5"/>
+  <text x="540" y="103" text-anchor="middle" fill="#C4B5FD" font-size="14" font-weight="700" font-family="sans-serif">보험 비교 · 2026</text>
+
+  <!-- Title -->
+  <text x="540" y="196" text-anchor="middle" fill="#FFFFFF" font-size="54" font-weight="800" font-family="sans-serif">태아보험</text>
+  <text x="540" y="262" text-anchor="middle" fill="#FFFFFF" font-size="54" font-weight="800" font-family="sans-serif">vs 어린이보험</text>
+
+  <!-- Subtitle -->
+  <text x="540" y="320" text-anchor="middle" fill="#94A3B8" font-size="24" font-family="sans-serif">가입시기 · 보장범위 · 만기 전략</text>
+
+  <!-- Divider -->
+  <rect x="200" y="352" width="680" height="3" rx="1.5" fill="url(#purpleGrad)"/>
+
+  <!-- 2 Column key points -->
+  <rect x="80" y="380" width="430" height="280" rx="14" fill="#3b0764" fill-opacity="0.5" stroke="#7C3AED" stroke-width="2"/>
+  <text x="295" y="420" text-anchor="middle" fill="#C4B5FD" font-size="18" font-weight="800" font-family="sans-serif">태아보험</text>
+  <text x="295" y="456" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">임신 22주 이내 가입</text>
+  <text x="120" y="502" fill="#4ADE80" font-size="15" font-weight="700" font-family="sans-serif">✅ 선천성이상 수술·입원비</text>
+  <text x="120" y="534" fill="#4ADE80" font-size="15" font-weight="700" font-family="sans-serif">✅ 미숙아 인큐베이터 비용</text>
+  <text x="120" y="566" fill="#4ADE80" font-size="15" font-weight="700" font-family="sans-serif">✅ 산모 특약 (유산·조산)</text>
+  <text x="295" y="620" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">월 4만~7만원</text>
+  <text x="295" y="645" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">종합형 기준</text>
+
+  <rect x="570" y="380" width="430" height="280" rx="14" fill="#134e4a" fill-opacity="0.5" stroke="#0F766E" stroke-width="2"/>
+  <text x="785" y="420" text-anchor="middle" fill="#6EE7B7" font-size="18" font-weight="800" font-family="sans-serif">어린이보험</text>
+  <text x="785" y="456" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">출생 후 0세 ~ 만 15세</text>
+  <text x="610" y="502" fill="#FCA5A5" font-size="15" font-weight="700" font-family="sans-serif">❌ 태아 특약 불가</text>
+  <text x="610" y="534" fill="#4ADE80" font-size="15" font-weight="700" font-family="sans-serif">✅ 일반 어린이 보장 동일</text>
+  <text x="610" y="566" fill="#4ADE80" font-size="15" font-weight="700" font-family="sans-serif">✅ 계약전환 가능 (30세 만기)</text>
+  <text x="785" y="620" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">월 3만~5만원</text>
+  <text x="785" y="645" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">0세 비갱신형 기준</text>
+
+  <!-- VS badge -->
+  <circle cx="540" cy="520" r="44" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <text x="540" y="530" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">VS</text>
+
+  <!-- Key action -->
+  <rect x="80" y="690" width="920" height="90" rx="12" fill="#1e293b" fill-opacity="0.8"/>
+  <text x="540" y="728" text-anchor="middle" fill="#FCD34D" font-size="20" font-weight="800" font-family="sans-serif">22주 이내라면 지금 즉시 · 출생 후라면 0세에 즉시</text>
+  <text x="540" y="760" text-anchor="middle" fill="#94A3B8" font-size="15" font-family="sans-serif">만기는 30세 설정 → 계약전환으로 건강 무관 장기 보장</text>
+
+  <!-- Bottom -->
+  <text x="540" y="830" text-anchor="middle" fill="#475569" font-size="16" font-family="sans-serif">essencial | 2026.05 기준</text>
+
+  <!-- Decorative elements -->
+  <circle cx="80" cy="900" r="120" fill="#7C3AED" fill-opacity="0.06"/>
+  <circle cx="1000" cy="180" r="100" fill="#0F766E" fill-opacity="0.06"/>
+</svg>

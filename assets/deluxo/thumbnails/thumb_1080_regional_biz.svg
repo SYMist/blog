@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- 배지 -->
+  <rect x="340" y="160" width="400" height="56" rx="28" fill="#F59E0B"/>
+  <text x="540" y="197" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#0B1F3B">2026 최신 · 비수도권 우대</text>
+
+  <!-- 메인 텍스트 -->
+  <text x="540" y="340" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="82" font-weight="900" fill="#FFFFFF">부산·대구·광주</text>
+  <text x="540" y="440" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="82" font-weight="900" fill="#FFFFFF">소상공인 지원금</text>
+
+  <!-- 서브 텍스트 -->
+  <text x="540" y="540" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="52" font-weight="600" fill="#EAF2FF">지역별 핵심 혜택</text>
+  <text x="540" y="610" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="52" font-weight="600" fill="#EAF2FF">한눈에 비교 총정리</text>
+
+  <!-- 칩 -->
+  <rect x="200" y="700" width="140" height="48" rx="24" fill="#E8F0FF"/>
+  <text x="270" y="731" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="700" fill="#1D4ED8">부산</text>
+  <rect x="365" y="700" width="140" height="48" rx="24" fill="#E8F0FF"/>
+  <text x="435" y="731" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="700" fill="#1D4ED8">대구</text>
+  <rect x="530" y="700" width="140" height="48" rx="24" fill="#E8F0FF"/>
+  <text x="600" y="731" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="700" fill="#1D4ED8">광주</text>
+  <rect x="695" y="700" width="180" height="48" rx="24" fill="#E8F0FF"/>
+  <text x="785" y="731" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="700" fill="#1D4ED8">신청 방법</text>
+
+  <!-- 하단 강조 -->
+  <rect x="190" y="810" width="700" height="80" rx="16" fill="rgba(245,158,11,0.15)"/>
+  <text x="540" y="860" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="700" fill="#F59E0B">놓치면 수백만 원 손해!</text>
+</svg>

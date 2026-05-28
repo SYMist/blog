@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="redGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#DC2626"/>
+      <stop offset="100%" stop-color="#7f1d1d"/>
+    </linearGradient>
+    <linearGradient id="amberGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D97706"/>
+      <stop offset="100%" stop-color="#7C2D12"/>
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#4c1d95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <circle cx="920" cy="160" r="220" fill="#7C3AED" fill-opacity="0.08"/>
+  <circle cx="160" cy="920" r="180" fill="#DC2626" fill-opacity="0.08"/>
+
+  <!-- Chips -->
+  <rect x="40" y="40" width="100" height="34" rx="17" fill="#7C3AED" fill-opacity="0.3" stroke="#7C3AED" stroke-width="1.5"/>
+  <text x="90" y="63" text-anchor="middle" fill="#DDD6FE" font-size="14" font-weight="700" font-family="sans-serif">보험 비교</text>
+
+  <rect x="156" y="40" width="140" height="34" rx="17" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="226" y="63" text-anchor="middle" fill="#94A3B8" font-size="14" font-family="sans-serif">2026.05 기준</text>
+
+  <rect x="312" y="40" width="160" height="34" rx="17" fill="#14532d" stroke="#15803D" stroke-width="1.5"/>
+  <text x="392" y="63" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">15년차 시뮬</text>
+
+  <!-- Title -->
+  <text x="540" y="180" text-anchor="middle" fill="#FFFFFF" font-size="44" font-weight="800" font-family="sans-serif">종신보험 해지 vs</text>
+  <text x="540" y="234" text-anchor="middle" fill="#FFFFFF" font-size="44" font-weight="800" font-family="sans-serif">감액완납 vs 연장</text>
+  <text x="540" y="282" text-anchor="middle" fill="#DDD6FE" font-size="22" font-weight="600" font-family="sans-serif">3종 손익 비교 (2026)</text>
+
+  <rect x="200" y="310" width="680" height="3" rx="1.5" fill="#7C3AED" fill-opacity="0.6"/>
+
+  <!-- Key stat -->
+  <rect x="160" y="330" width="760" height="80" rx="16" fill="#1e293b" fill-opacity="0.9" stroke="#334155" stroke-width="1.5"/>
+  <text x="540" y="368" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="700" font-family="sans-serif">월 30만·15년차·환급금 4,000만·사망 1억 기준</text>
+  <text x="540" y="398" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">3종 모두 특약 소멸 · 되돌리기 불가</text>
+
+  <!-- 3 cards stacked -->
+  <rect x="40" y="430" width="1000" height="155" rx="14" fill="url(#redGrad)" fill-opacity="0.85" stroke="#DC2626" stroke-width="2"/>
+  <text x="60" y="466" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">① 해지 — 즉시 현금 4,000만원</text>
+  <text x="60" y="498" fill="#FCA5A5" font-size="18" font-weight="700" font-family="sans-serif">보장 0원 · 특약 소멸 · 환급률 74%</text>
+  <text x="60" y="530" fill="#CBD5E1" font-size="15" font-family="sans-serif">✅ 자금 즉시 확보 · 자녀 독립·연금 충분 시 합리적</text>
+  <text x="60" y="558" fill="#CBD5E1" font-size="15" font-family="sans-serif">— 7년 미만 해지 시 환급률 50~70% 손실 큼</text>
+
+  <rect x="40" y="595" width="1000" height="155" rx="14" fill="url(#amberGrad)" fill-opacity="0.85" stroke="#D97706" stroke-width="2"/>
+  <text x="60" y="631" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">② 감액완납 — 사망보장 3,000~4,000만 종신</text>
+  <text x="60" y="663" fill="#FCD34D" font-size="18" font-weight="700" font-family="sans-serif">보험료 0원 · 평생 일부 보장 유지</text>
+  <text x="60" y="695" fill="#CBD5E1" font-size="15" font-family="sans-serif">✅ 부담↓ + 평생 보장 · 50~60대 부담 완화에 적합</text>
+  <text x="60" y="723" fill="#CBD5E1" font-size="15" font-family="sans-serif">— 보장 30~50% 축소 · 특약 소멸 (별도 가입 필요)</text>
+
+  <rect x="40" y="760" width="1000" height="155" rx="14" fill="url(#purpleGrad)" fill-opacity="0.85" stroke="#7C3AED" stroke-width="2"/>
+  <text x="60" y="796" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">③ 연장정기 — 1억 풀 유지 + 75~80세 만기</text>
+  <text x="60" y="828" fill="#DDD6FE" font-size="18" font-weight="700" font-family="sans-serif">보험료 0원 · 사망보장 100% 유지</text>
+  <text x="60" y="860" fill="#CBD5E1" font-size="15" font-family="sans-serif">✅ 사망보장 풀 · 자녀 학자금·대출 65~70대 종료에 적합</text>
+  <text x="60" y="888" fill="#CBD5E1" font-size="15" font-family="sans-serif">— 90세+ 장수 시 만기 후 무보장 · 특약 소멸</text>
+
+  <!-- Bottom note -->
+  <rect x="40" y="940" width="1000" height="80" rx="12" fill="#1e293b" fill-opacity="0.7" stroke="#334155" stroke-width="1.5"/>
+  <text x="540" y="970" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="800" font-family="sans-serif">결정 변수 = 자금 필요 + 보장 필요 + 보장 기간</text>
+  <text x="540" y="998" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">자금 즉시 → 해지 / 부담↓ 평생 → 감액완납 / 풀 보장 만기 OK → 연장정기</text>
+
+  <text x="40" y="1060" fill="#64748B" font-size="13" font-family="sans-serif">essencial | 보험 비교 · 2026.05 기준 · 보험사·약관별 차이 · 본인 케이스 가입사 직접 시뮬레이션 필수</text>
+</svg>

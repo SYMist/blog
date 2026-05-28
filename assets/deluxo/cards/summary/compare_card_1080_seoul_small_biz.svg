@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="80" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="800" fill="#F59E0B">서울시 종합지원 8개 사업 비교</text>
+  <rect x="60" y="110" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- Header -->
+  <rect x="60" y="130" width="960" height="50" rx="0" fill="rgba(59,130,246,0.2)"/>
+  <text x="200" y="162" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#FFF">사업명</text>
+  <text x="460" y="162" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#FFF">지원금액</text>
+  <text x="660" y="162" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#FFF">대상</text>
+  <text x="900" y="162" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#FFF">비고</text>
+
+  <!-- 창업 -->
+  <rect x="60" y="186" width="960" height="4" rx="2" fill="#3B82F6"/>
+  <text x="80" y="215" font-family="'Pretendard',sans-serif" font-size="16" font-weight="700" fill="#3B82F6">창업</text>
+
+  <rect x="60" y="225" width="960" height="80" rx="0" fill="rgba(255,255,255,0.06)"/>
+  <text x="200" y="260" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#FFF">스타트업 패키지</text>
+  <text x="460" y="260" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#F59E0B">300만</text>
+  <text x="660" y="255" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" fill="#EAF2FF">예비·초기</text>
+  <text x="660" y="278" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" fill="#EAF2FF">소상공인</text>
+  <text x="900" y="260" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" fill="#EAF2FF">교육+컨설팅+자금</text>
+
+  <rect x="60" y="310" width="960" height="80" rx="0" fill="rgba(255,255,255,0.04)"/>
+  <text x="200" y="345" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#FFF">창업 특화</text>
+  <text x="460" y="345" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#F59E0B">200만</text>
+  <text x="660" y="345" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" fill="#EAF2FF">업종별 맞춤</text>
+  <text x="900" y="345" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" fill="#EAF2FF">분야별 멘토링</text>
+
+  <rect x="60" y="395" width="960" height="80" rx="0" fill="rgba(255,255,255,0.06)"/>
+  <text x="200" y="430" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#FFF">청년 특화</text>
+  <text x="460" y="430" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#F59E0B">250만</text>
+  <text x="660" y="430" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" fill="#EAF2FF">39세 이하</text>
+  <text x="900" y="430" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" fill="#EAF2FF">창업교육 필수</text>
+
+  <rect x="60" y="480" width="960" height="80" rx="0" fill="rgba(255,255,255,0.04)"/>
+  <text x="200" y="515" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#FFF">시니어 특화</text>
+  <text x="460" y="515" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#F59E0B">250만</text>
+  <text x="660" y="515" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" fill="#EAF2FF">50세 이상</text>
+  <text x="900" y="515" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" fill="#EAF2FF">경험 기반 창업</text>
+
+  <!-- 성장 -->
+  <rect x="60" y="566" width="960" height="4" rx="2" fill="#10B981"/>
+  <text x="80" y="595" font-family="'Pretendard',sans-serif" font-size="16" font-weight="700" fill="#10B981">성장</text>
+
+  <rect x="60" y="605" width="960" height="80" rx="0" fill="rgba(255,255,255,0.06)"/>
+  <text x="200" y="640" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#FFF">디지털전환</text>
+  <text x="460" y="640" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#F59E0B">300만+100만</text>
+  <text x="660" y="640" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" fill="#EAF2FF">40~65세 미만</text>
+  <text x="900" y="640" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" fill="#EAF2FF">500명 확대</text>
+
+  <!-- 위기 -->
+  <rect x="60" y="691" width="960" height="4" rx="2" fill="#EF4444"/>
+  <text x="80" y="720" font-family="'Pretendard',sans-serif" font-size="16" font-weight="700" fill="#EF4444">위기</text>
+
+  <rect x="60" y="730" width="960" height="80" rx="0" fill="rgba(255,255,255,0.04)"/>
+  <text x="200" y="765" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#FFF">위기극복 패키지</text>
+  <text x="460" y="765" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#F59E0B">300만</text>
+  <text x="660" y="765" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" fill="#EAF2FF">매출 급감</text>
+  <text x="900" y="765" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" fill="#EAF2FF">컨설팅+자금</text>
+
+  <rect x="60" y="815" width="960" height="80" rx="0" fill="rgba(255,255,255,0.06)"/>
+  <text x="200" y="850" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#FFF">폐업지원</text>
+  <text x="460" y="850" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#F59E0B">300만</text>
+  <text x="660" y="850" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" fill="#EAF2FF">폐업 예정자</text>
+  <text x="900" y="850" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" fill="#EAF2FF">원상복구비 포함</text>
+
+  <!-- 재도전 -->
+  <rect x="60" y="901" width="960" height="4" rx="2" fill="#8B5CF6"/>
+  <text x="80" y="930" font-family="'Pretendard',sans-serif" font-size="16" font-weight="700" fill="#8B5CF6">재도전</text>
+
+  <rect x="60" y="940" width="960" height="80" rx="0" fill="rgba(255,255,255,0.04)"/>
+  <text x="200" y="975" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#FFF">재기지원</text>
+  <text x="460" y="975" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#F59E0B">200만</text>
+  <text x="660" y="975" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" fill="#EAF2FF">폐업 후 재창업</text>
+  <text x="900" y="975" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" fill="#EAF2FF">재창업 교육 필수</text>
+
+  <rect x="60" y="1040" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

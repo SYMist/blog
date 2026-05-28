@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#F59E0B">나는 어디? 분야별 빠른 판단 가이드</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- Card 1 -->
+  <rect x="60" y="120" width="460" height="180" rx="20" fill="rgba(59,130,246,0.12)"/>
+  <text x="80" y="160" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">내 집 마련 준비 중</text>
+  <text x="80" y="195" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#EAF2FF">→ 다자녀 특별공급 + 디딤돌 대출</text>
+  <text x="80" y="230" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">가점 25점 + 금리 0.5%p↓</text>
+  <text x="80" y="265" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">한도 3.2억 · 대상 주택 6억↓</text>
+
+  <!-- Card 2 -->
+  <rect x="560" y="120" width="460" height="180" rx="20" fill="rgba(245,158,11,0.1)"/>
+  <text x="580" y="160" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">자동차 구매 예정</text>
+  <text x="580" y="195" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#EAF2FF">→ 취득세 감면 + 전기차 보조금</text>
+  <text x="580" y="230" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">7인승+ 취득세 50%↓</text>
+  <text x="580" y="265" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">전기·수소차 100만 원 보조금</text>
+
+  <!-- Card 3 -->
+  <rect x="60" y="320" width="460" height="180" rx="20" fill="rgba(245,158,11,0.1)"/>
+  <text x="80" y="360" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">대학생 자녀 있음</text>
+  <text x="80" y="395" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#EAF2FF">→ 국가장학금 다자녀 유형</text>
+  <text x="80" y="430" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">연 최대 610만 원</text>
+  <text x="80" y="465" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">8구간 이하 지원 (기초수급 전액)</text>
+
+  <!-- Card 4 -->
+  <rect x="560" y="320" width="460" height="180" rx="20" fill="rgba(59,130,246,0.12)"/>
+  <text x="580" y="360" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">맞벌이 + 초등 자녀</text>
+  <text x="580" y="395" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#EAF2FF">→ 아이돌봄 + 초등돌봄교실</text>
+  <text x="580" y="430" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">돌봄 우선 선정</text>
+  <text x="580" y="465" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">본인부담 10% 추가 감면</text>
+
+  <!-- Card 5 -->
+  <rect x="60" y="520" width="460" height="180" rx="20" fill="rgba(59,130,246,0.12)"/>
+  <text x="80" y="560" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">인천 거주</text>
+  <text x="80" y="595" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#EAF2FF">→ 1억+ 아이드림 + 아이모아카드</text>
+  <text x="80" y="630" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">출생~18세 총 1억 원+ 지원</text>
+  <text x="80" y="665" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">천사 840만 + 꿈 수당 1,980만</text>
+
+  <!-- Card 6 -->
+  <rect x="560" y="520" width="460" height="180" rx="20" fill="rgba(245,158,11,0.1)"/>
+  <text x="580" y="560" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">출퇴근 대중교통 이용</text>
+  <text x="580" y="595" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#EAF2FF">→ K-패스 다자녀 유형</text>
+  <text x="580" y="630" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">교통비 30% 환급</text>
+  <text x="580" y="665" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">앱에서 다자녀 유형 등록 필수</text>
+
+  <!-- Bottom summary -->
+  <rect x="60" y="740" width="960" height="240" rx="24" fill="rgba(245,158,11,0.08)"/>
+  <text x="540" y="790" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#FFF">2자녀 핵심 혜택 TOP 3</text>
+  <text x="200" y="850" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="44" font-weight="900" fill="#FFF">25점</text>
+  <text x="200" y="890" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#EAF2FF">특별공급 가점</text>
+  <text x="540" y="850" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="44" font-weight="900" fill="#FFF">610만</text>
+  <text x="540" y="890" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#EAF2FF">장학금/년</text>
+  <text x="880" y="850" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="44" font-weight="900" fill="#FFF">50%↓</text>
+  <text x="880" y="890" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#EAF2FF">취득세 감면</text>
+  <text x="540" y="955" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#F59E0B">모든 혜택은 '신청주의' — 대상이어도 신청 안 하면 0원</text>
+
+  <rect x="60" y="1050" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Decorative circle -->
+  <circle cx="1080" cy="120" r="160" fill="#34D399" opacity="0.04"/>
+
+  <!-- Top bar -->
+  <rect x="0" y="0" width="1200" height="8" fill="#34D399"/>
+
+  <!-- Chips -->
+  <rect x="60" y="42" width="148" height="38" rx="19" fill="#F59E0B"/>
+  <text x="134" y="67" font-family="-apple-system, sans-serif" font-size="17" font-weight="800" fill="#0B1F3B" text-anchor="middle">2026 최신</text>
+
+  <rect x="222" y="42" width="220" height="38" rx="19" fill="#1A3270"/>
+  <rect x="222" y="42" width="220" height="38" rx="19" fill="none" stroke="#34D399" stroke-width="1.5"/>
+  <text x="332" y="67" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#34D399" text-anchor="middle">전남 최대 5,000만원</text>
+
+  <rect x="456" y="42" width="200" height="38" rx="19" fill="#1A3270"/>
+  <rect x="456" y="42" width="200" height="38" rx="19" fill="none" stroke="#EF4444" stroke-width="1.5"/>
+  <text x="556" y="67" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#EF4444" text-anchor="middle">경남 최대 1억원</text>
+
+  <!-- Main title -->
+  <text x="60" y="156" font-family="-apple-system, sans-serif" font-size="50" font-weight="900" fill="#FFFFFF">전라·경남 소상공인 지원금 지역별 총정리</text>
+  <text x="60" y="206" font-family="-apple-system, sans-serif" font-size="21" font-weight="700" fill="#A0B4D0">전북·전남·경남 + 전국공통 정책자금 — 2026년 기준 · 시군별 한도·금리 비교</text>
+
+  <!-- Divider -->
+  <line x1="60" y1="230" x2="1140" y2="230" stroke="#1A3270" stroke-width="2"/>
+
+  <!-- 3 boxes -->
+  <rect x="60" y="248" width="220" height="180" rx="14" fill="#0D2347"/>
+  <text x="170" y="288" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#F59E0B" text-anchor="middle">전라남도</text>
+  <text x="170" y="324" font-family="-apple-system, sans-serif" font-size="26" font-weight="900" fill="#FFFFFF" text-anchor="middle">최대 5,000만</text>
+  <text x="170" y="358" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">이차보전 연 1.5~4%</text>
+  <text x="170" y="378" font-family="-apple-system, sans-serif" font-size="12" fill="#34D399" text-anchor="middle">전남신보 1588-3884</text>
+  <text x="170" y="398" font-family="-apple-system, sans-serif" font-size="11" fill="#A0B4D0" text-anchor="middle">22개 시군 각각 상이</text>
+
+  <rect x="296" y="248" width="220" height="180" rx="14" fill="#0D2347"/>
+  <text x="406" y="288" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#F59E0B" text-anchor="middle">경상남도</text>
+  <text x="406" y="324" font-family="-apple-system, sans-serif" font-size="26" font-weight="900" fill="#FFFFFF" text-anchor="middle">최대 1억원</text>
+  <text x="406" y="358" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">경영안정자금 기준</text>
+  <text x="406" y="378" font-family="-apple-system, sans-serif" font-size="12" fill="#34D399" text-anchor="middle">경남신보 1644-2900</text>
+  <text x="406" y="398" font-family="-apple-system, sans-serif" font-size="11" fill="#A0B4D0" text-anchor="middle">보증드림앱 비대면 가능</text>
+
+  <text x="570" y="348" font-family="-apple-system, sans-serif" font-size="36" font-weight="900" fill="#EF4444" text-anchor="middle">+</text>
+
+  <rect x="612" y="248" width="528" height="180" rx="14" fill="#1A3270"/>
+  <rect x="612" y="248" width="528" height="180" rx="14" fill="none" stroke="#34D399" stroke-width="2"/>
+  <text x="876" y="286" font-family="-apple-system, sans-serif" font-size="14" font-weight="700" fill="#34D399" text-anchor="middle">전국 공통 소상공인 정책자금 (SEMAS)</text>
+  <text x="876" y="324" font-family="-apple-system, sans-serif" font-size="24" font-weight="900" fill="#FFFFFF" text-anchor="middle">연 3.36~3.56%</text>
+  <text x="876" y="358" font-family="-apple-system, sans-serif" font-size="22" font-weight="800" fill="#F59E0B" text-anchor="middle">최대 7,000만원</text>
+  <text x="876" y="390" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">ols.semas.or.kr | 전북·전남·경남 모두 신청 가능</text>
+  <text x="876" y="410" font-family="-apple-system, sans-serif" font-size="13" fill="#34D399" text-anchor="middle">비수도권 0.2%p 추가 금리 우대 | 지역 지원과 별개 신청</text>
+
+  <!-- Bottom note -->
+  <text x="600" y="590" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준 | 예산 소진 시 조기 마감 | 공고 확인 즉시 신청 | 소상공인통합콜센터 ☎1533-0100</text>
+  <rect x="0" y="622" width="1200" height="8" fill="#34D399"/>
+</svg>

@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F5F3FF"/>
+      <stop offset="100%" stop-color="#FAF5FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg2)"/>
+
+  <text x="540" y="55" font-family="sans-serif" font-size="32" font-weight="900" fill="#111827" text-anchor="middle">실비보험 세대별 비교 매트릭스</text>
+  <text x="540" y="88" font-family="sans-serif" font-size="20" fill="#6B7280" text-anchor="middle">2026년 50대 기준 | 보험료·자기부담·차등제·재가입 종합 비교</text>
+
+  <!-- 테이블 헤더 -->
+  <rect x="40" y="115" width="1000" height="50" rx="12" fill="#7C3AED"/>
+  <text x="160" y="147" font-family="sans-serif" font-size="18" font-weight="800" fill="#FFF" text-anchor="middle">비교 항목</text>
+  <text x="370" y="147" font-family="sans-serif" font-size="18" font-weight="800" fill="#FFF" text-anchor="middle">1세대 (구실손)</text>
+  <text x="570" y="147" font-family="sans-serif" font-size="18" font-weight="800" fill="#FFF" text-anchor="middle">2세대 (표준화)</text>
+  <text x="770" y="147" font-family="sans-serif" font-size="18" font-weight="800" fill="#FFF" text-anchor="middle">3세대 (착한)</text>
+  <text x="940" y="147" font-family="sans-serif" font-size="18" font-weight="800" fill="#FFF" text-anchor="middle">4세대 (차등제)</text>
+
+  <!-- Row 1: 월 보험료 -->
+  <rect x="40" y="170" width="1000" height="55" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="160" y="203" font-family="sans-serif" font-size="17" font-weight="700" fill="#111827" text-anchor="middle">월 보험료</text>
+  <text x="370" y="203" font-family="sans-serif" font-size="20" font-weight="900" fill="#DC2626" text-anchor="middle">~12만 원</text>
+  <text x="570" y="203" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="middle">~8만 원</text>
+  <text x="770" y="203" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="middle">~5만 원</text>
+  <text x="940" y="203" font-family="sans-serif" font-size="20" font-weight="900" fill="#059669" text-anchor="middle">~3.3만 원</text>
+
+  <!-- Row 2: 자기부담 (급여) -->
+  <rect x="40" y="230" width="1000" height="55" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="160" y="263" font-family="sans-serif" font-size="17" font-weight="700" fill="#111827" text-anchor="middle">자기부담(급여)</text>
+  <text x="370" y="263" font-family="sans-serif" font-size="18" font-weight="700" fill="#059669" text-anchor="middle">0~5,000원</text>
+  <text x="570" y="263" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="middle">10~20%</text>
+  <text x="770" y="263" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="middle">10~20%</text>
+  <text x="940" y="263" font-family="sans-serif" font-size="18" font-weight="700" fill="#DC2626" text-anchor="middle">20%</text>
+
+  <!-- Row 3: 자기부담 (비급여) -->
+  <rect x="40" y="290" width="1000" height="55" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="160" y="323" font-family="sans-serif" font-size="17" font-weight="700" fill="#111827" text-anchor="middle">자기부담(비급여)</text>
+  <text x="370" y="323" font-family="sans-serif" font-size="18" font-weight="700" fill="#059669" text-anchor="middle">0~5,000원</text>
+  <text x="570" y="323" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="middle">20%</text>
+  <text x="770" y="323" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="middle">20~30%</text>
+  <text x="940" y="323" font-family="sans-serif" font-size="18" font-weight="700" fill="#DC2626" text-anchor="middle">30%</text>
+
+  <!-- Row 4: 갱신 주기 -->
+  <rect x="40" y="350" width="1000" height="55" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="160" y="383" font-family="sans-serif" font-size="17" font-weight="700" fill="#111827" text-anchor="middle">갱신 주기</text>
+  <text x="370" y="383" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="middle">3~5년</text>
+  <text x="570" y="383" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="middle">1~3년</text>
+  <text x="770" y="383" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="middle">1년</text>
+  <text x="940" y="383" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="middle">1년</text>
+
+  <!-- Row 5: 재가입 주기 -->
+  <rect x="40" y="410" width="1000" height="55" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="160" y="443" font-family="sans-serif" font-size="17" font-weight="700" fill="#111827" text-anchor="middle">재가입 주기</text>
+  <text x="370" y="443" font-family="sans-serif" font-size="18" font-weight="900" fill="#059669" text-anchor="middle">없음 (종신)</text>
+  <text x="570" y="443" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="middle">15년</text>
+  <text x="770" y="443" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="middle">15년</text>
+  <text x="940" y="443" font-family="sans-serif" font-size="18" font-weight="900" fill="#DC2626" text-anchor="middle">5년</text>
+
+  <!-- Row 6: 도수치료 -->
+  <rect x="40" y="470" width="1000" height="55" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="160" y="503" font-family="sans-serif" font-size="17" font-weight="700" fill="#111827" text-anchor="middle">도수치료</text>
+  <text x="370" y="503" font-family="sans-serif" font-size="18" font-weight="700" fill="#059669" text-anchor="middle">제한 없음</text>
+  <text x="570" y="503" font-family="sans-serif" font-size="18" font-weight="700" fill="#059669" text-anchor="middle">제한 없음</text>
+  <text x="770" y="503" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="middle">특약 분리</text>
+  <text x="940" y="503" font-family="sans-serif" font-size="18" font-weight="700" fill="#DC2626" text-anchor="middle">50회·350만</text>
+
+  <!-- 비급여 차등제 등급별 보험료 -->
+  <rect x="40" y="555" width="1000" height="220" rx="20" fill="#FFF" stroke="#C4B5FD" stroke-width="1.5"/>
+  <text x="540" y="590" font-family="sans-serif" font-size="24" font-weight="900" fill="#7C3AED" text-anchor="middle">4세대 비급여 차등제 등급별 보험료 (50대 기준)</text>
+
+  <rect x="70" y="610" width="180" height="60" rx="12" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1"/>
+  <text x="160" y="635" font-family="sans-serif" font-size="16" font-weight="800" fill="#065F46" text-anchor="middle">1등급 (0원)</text>
+  <text x="160" y="660" font-family="sans-serif" font-size="20" font-weight="900" fill="#059669" text-anchor="middle">~2.9만 (-11%)</text>
+
+  <rect x="270" y="610" width="180" height="60" rx="12" fill="#F0FDF4" stroke="#BBF7D0" stroke-width="1"/>
+  <text x="360" y="635" font-family="sans-serif" font-size="16" font-weight="800" fill="#065F46" text-anchor="middle">2등급 (~100만)</text>
+  <text x="360" y="660" font-family="sans-serif" font-size="20" font-weight="900" fill="#059669" text-anchor="middle">~3.3만 (0%)</text>
+
+  <rect x="470" y="610" width="180" height="60" rx="12" fill="#FEF2F2" stroke="#FECACA" stroke-width="1"/>
+  <text x="560" y="635" font-family="sans-serif" font-size="16" font-weight="800" fill="#991B1B" text-anchor="middle">3등급 (100~150만)</text>
+  <text x="560" y="660" font-family="sans-serif" font-size="20" font-weight="900" fill="#DC2626" text-anchor="middle">~6.6만 (2배)</text>
+
+  <rect x="670" y="610" width="160" height="60" rx="12" fill="#FEF2F2" stroke="#FECACA" stroke-width="1"/>
+  <text x="750" y="635" font-family="sans-serif" font-size="16" font-weight="800" fill="#991B1B" text-anchor="middle">4등급 (150~300만)</text>
+  <text x="750" y="660" font-family="sans-serif" font-size="20" font-weight="900" fill="#DC2626" text-anchor="middle">~9.8만 (3배)</text>
+
+  <rect x="850" y="610" width="160" height="60" rx="12" fill="#FEF2F2" stroke="#FECACA" stroke-width="1.5"/>
+  <text x="930" y="635" font-family="sans-serif" font-size="16" font-weight="800" fill="#991B1B" text-anchor="middle">5등급 (300만+)</text>
+  <text x="930" y="660" font-family="sans-serif" font-size="20" font-weight="900" fill="#DC2626" text-anchor="middle">~13.1만 (4배)</text>
+
+  <text x="540" y="715" font-family="sans-serif" font-size="16" fill="#DC2626" text-anchor="middle">5등급이 되면 4세대 보험료(~13.1만)가 1세대(~12만)보다 더 비싸지는 역전 현상 발생</text>
+  <text x="540" y="745" font-family="sans-serif" font-size="16" fill="#7C3AED" text-anchor="middle">1등급 할인율: 흥국화재 11% (최고) vs NH농협손보 4.1% (최저) — 보험사 선택 중요</text>
+
+  <!-- 4세대 vs 5세대 -->
+  <rect x="40" y="800" width="1000" height="150" rx="20" fill="#FFF" stroke="#DDD6FE" stroke-width="1.5"/>
+  <text x="540" y="835" font-family="sans-serif" font-size="22" font-weight="900" fill="#7C3AED" text-anchor="middle">4세대 vs 5세대 (2026.04 출시 예정) 보장 비교</text>
+
+  <rect x="70" y="855" width="440" height="70" rx="14" fill="#F5F3FF"/>
+  <text x="290" y="882" font-family="sans-serif" font-size="17" font-weight="700" fill="#7C3AED" text-anchor="middle">4세대: 경증 한도 5,000만 · 자기부담 30%</text>
+  <text x="290" y="910" font-family="sans-serif" font-size="17" font-weight="700" fill="#7C3AED" text-anchor="middle">통원 1일 최대 20만 원</text>
+
+  <text x="540" y="895" font-family="sans-serif" font-size="28" font-weight="900" fill="#6B7280">→</text>
+
+  <rect x="570" y="855" width="440" height="70" rx="14" fill="#FEF2F2"/>
+  <text x="790" y="882" font-family="sans-serif" font-size="17" font-weight="700" fill="#DC2626" text-anchor="middle">5세대: 경증 한도 1,000만 · 자기부담 50%</text>
+  <text x="790" y="910" font-family="sans-serif" font-size="17" font-weight="700" fill="#DC2626" text-anchor="middle">통원 10만 원 이하 검토 중</text>
+
+  <rect x="40" y="975" width="1000" height="45" rx="12" fill="#7C3AED"/>
+  <text x="540" y="1004" font-family="sans-serif" font-size="18" font-weight="800" fill="#FFF" text-anchor="middle">5세대 출시 전(2026.04) 4세대 전환 → 현재 보장 5년간 확보 가능</text>
+
+  <text x="540" y="1060" font-family="sans-serif" font-size="16" fill="#9CA3AF" text-anchor="middle">2026년 3월 기준 | 보험개발원·금융감독원 공시 자료 기반 | 개인별 차이 있음</text>
+</svg>

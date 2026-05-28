@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="540" y="85" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="38" font-weight="800" fill="#F59E0B" text-anchor="middle">2026년 세율 완전 비교</text>
+  <text x="540" y="140" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="46" font-weight="900" fill="#FFFFFF" text-anchor="middle">종합소득세 vs 법인세율</text>
+  <line x1="80" y1="165" x2="1000" y2="165" stroke="#1A3270" stroke-width="2"/>
+
+  <!-- Section: 종합소득세 -->
+  <text x="100" y="210" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="30" font-weight="800" fill="#EF4444">개인사업자 — 종합소득세율 (2026년)</text>
+
+  <!-- Tax rows -->
+  <rect x="80" y="225" width="920" height="52" rx="6" fill="#0D2347"/>
+  <text x="100" y="258" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" fill="#A0B4D0">1,400만원 이하</text>
+  <text x="820" y="258" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="28" font-weight="800" fill="#34D399" text-anchor="middle">6%</text>
+
+  <rect x="80" y="282" width="920" height="52" rx="6" fill="#102A56"/>
+  <text x="100" y="315" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" fill="#A0B4D0">1,400만~5,000만원</text>
+  <text x="820" y="315" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="28" font-weight="800" fill="#F59E0B" text-anchor="middle">15%</text>
+
+  <rect x="80" y="339" width="920" height="52" rx="6" fill="#0D2347"/>
+  <text x="100" y="372" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" fill="#A0B4D0">5,000만~8,800만원</text>
+  <text x="820" y="372" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="28" font-weight="800" fill="#F59E0B" text-anchor="middle">24%</text>
+
+  <rect x="80" y="396" width="920" height="52" rx="6" fill="#102A56"/>
+  <text x="100" y="429" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" fill="#A0B4D0">8,800만~1억 5,000만원</text>
+  <text x="820" y="429" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="28" font-weight="800" fill="#EF4444" text-anchor="middle">35%</text>
+
+  <rect x="80" y="453" width="920" height="52" rx="6" fill="#0D2347"/>
+  <text x="100" y="486" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" fill="#A0B4D0">1억 5,000만~3억원</text>
+  <text x="820" y="486" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="28" font-weight="800" fill="#EF4444" text-anchor="middle">38%</text>
+
+  <rect x="80" y="510" width="920" height="52" rx="6" fill="#102A56"/>
+  <text x="100" y="543" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" fill="#A0B4D0">3억~5억원 / 5억~10억원</text>
+  <text x="820" y="543" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="28" font-weight="800" fill="#EF4444" text-anchor="middle">40% / 42%</text>
+
+  <rect x="80" y="567" width="920" height="52" rx="6" fill="#0D2347"/>
+  <text x="100" y="600" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" fill="#A0B4D0">10억원 초과</text>
+  <text x="820" y="600" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="32" font-weight="900" fill="#EF4444" text-anchor="middle">45%</text>
+
+  <!-- Divider -->
+  <line x1="80" y1="638" x2="1000" y2="638" stroke="#1A3270" stroke-width="2"/>
+
+  <!-- Section: 법인세 -->
+  <text x="100" y="678" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="30" font-weight="800" fill="#34D399">법인 — 법인세율 (2026년 1월 1일 이후, 1%p 인상)</text>
+
+  <rect x="80" y="693" width="920" height="55" rx="6" fill="#0D2347"/>
+  <text x="100" y="727" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" fill="#A0B4D0">2억원 이하</text>
+  <text x="820" y="727" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="32" font-weight="900" fill="#34D399" text-anchor="middle">10%</text>
+
+  <rect x="80" y="753" width="920" height="55" rx="6" fill="#102A56"/>
+  <text x="100" y="787" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" fill="#A0B4D0">2억~200억원</text>
+  <text x="820" y="787" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="32" font-weight="900" fill="#34D399" text-anchor="middle">20%</text>
+
+  <rect x="80" y="813" width="920" height="55" rx="6" fill="#0D2347"/>
+  <text x="100" y="847" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" fill="#A0B4D0">200억~3,000억원 / 3,000억 초과</text>
+  <text x="820" y="847" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="28" font-weight="800" fill="#F59E0B" text-anchor="middle">22% / 25%</text>
+
+  <!-- Key Insight -->
+  <rect x="80" y="888" width="920" height="100" rx="12" fill="#34D399" fill-opacity="0.15" stroke="#34D399" stroke-width="1.5"/>
+  <text x="540" y="928" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="28" font-weight="700" fill="#34D399" text-anchor="middle">순이익 2억 기준: 개인 38% vs 법인 10~20%</text>
+  <text x="540" y="968" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="30" font-weight="900" fill="#F59E0B" text-anchor="middle">세율 차이만 18~28%p — 연간 최대 3,450만원 절세</text>
+
+  <text x="540" y="1045" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" fill="#4B6A9A" text-anchor="middle">출처: 국세청 (nts.go.kr) 2026년 법인세 기본정보</text>
+</svg>

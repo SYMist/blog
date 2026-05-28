@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <!-- Title -->
+  <text x="540" y="70" text-anchor="middle" fill="#FFFFFF" font-size="38" font-weight="900" font-family="Pretendard,sans-serif">50대 무릎 수술 상황별 추천</text>
+  <text x="540" y="108" text-anchor="middle" fill="#94A3B8" font-size="20" font-family="Pretendard,sans-serif">KL 등급·보험·활동량에 따른 최적 전략</text>
+
+  <!-- Scenario 1 -->
+  <rect x="60" y="145" width="960" height="140" rx="18" fill="#1E293B" stroke="#0D9488" stroke-width="2"/>
+  <rect x="80" y="165" width="300" height="34" rx="17" fill="#0D9488"/>
+  <text x="230" y="188" text-anchor="middle" fill="#FFF" font-size="16" font-weight="700" font-family="Pretendard,sans-serif">50대 후반 · KL 3~4 · 건보 가능</text>
+  <text x="80" y="228" fill="#E2E8F0" font-size="22" font-weight="700" font-family="Pretendard,sans-serif">추천: 로봇 전치환술</text>
+  <text x="80" y="262" fill="#94A3B8" font-size="17" font-family="Pretendard,sans-serif">급여 수술비(본인부담 ~120만) + 로봇료(비급여) | 정밀도로 재수술 방지</text>
+
+  <!-- Scenario 2 -->
+  <rect x="60" y="305" width="960" height="140" rx="18" fill="#1E293B" stroke="#8B5CF6" stroke-width="2"/>
+  <rect x="80" y="325" width="300" height="34" rx="17" fill="#8B5CF6"/>
+  <text x="230" y="348" text-anchor="middle" fill="#FFF" font-size="16" font-weight="700" font-family="Pretendard,sans-serif">50대 초반 · KL 2~3 · 수술 미루기</text>
+  <text x="80" y="388" fill="#E2E8F0" font-size="22" font-weight="700" font-family="Pretendard,sans-serif">추천: 줄기세포 또는 BMAC</text>
+  <text x="80" y="422" fill="#94A3B8" font-size="17" font-family="Pretendard,sans-serif">카티스템 800~1,000만(비급여) 또는 BMAC 280만(실손 가능) | 수술 10년+ 지연</text>
+
+  <!-- Scenario 3 -->
+  <rect x="60" y="465" width="960" height="140" rx="18" fill="#1E293B" stroke="#22C55E" stroke-width="2"/>
+  <rect x="80" y="485" width="300" height="34" rx="17" fill="#22C55E"/>
+  <text x="230" y="508" text-anchor="middle" fill="#FFF" font-size="16" font-weight="700" font-family="Pretendard,sans-serif">1~2세대 실손 보유 · 재활 중시</text>
+  <text x="80" y="548" fill="#E2E8F0" font-size="22" font-weight="700" font-family="Pretendard,sans-serif">추천: 기존 실손 유지 + 도수치료 활용</text>
+  <text x="80" y="582" fill="#94A3B8" font-size="17" font-family="Pretendard,sans-serif">1세대 연 30회·2세대 연 180회 보장 | 5세대 전환 시 보장 대폭 축소</text>
+
+  <!-- Scenario 4 -->
+  <rect x="60" y="625" width="960" height="140" rx="18" fill="#1E293B" stroke="#F59E0B" stroke-width="2"/>
+  <rect x="80" y="645" width="260" height="34" rx="17" fill="#F59E0B"/>
+  <text x="210" y="668" text-anchor="middle" fill="#FFF" font-size="16" font-weight="700" font-family="Pretendard,sans-serif">양쪽 모두 심한 상태</text>
+  <text x="80" y="708" fill="#E2E8F0" font-size="22" font-weight="700" font-family="Pretendard,sans-serif">추천: 양측 전치환술</text>
+  <text x="80" y="742" fill="#94A3B8" font-size="17" font-family="Pretendard,sans-serif">평균 1,088만 원 | 한 번 입원으로 해결 | 입원·검사비 통합 절감</text>
+
+  <!-- Scenario 5 -->
+  <rect x="60" y="785" width="960" height="140" rx="18" fill="#1E293B" stroke="#3B82F6" stroke-width="2"/>
+  <rect x="80" y="805" width="260" height="34" rx="17" fill="#3B82F6"/>
+  <text x="210" y="828" text-anchor="middle" fill="#FFF" font-size="16" font-weight="700" font-family="Pretendard,sans-serif">비용 최소화 · 한쪽만 손상</text>
+  <text x="80" y="868" fill="#E2E8F0" font-size="22" font-weight="700" font-family="Pretendard,sans-serif">추천: 부분치환술</text>
+  <text x="80" y="902" fill="#94A3B8" font-size="17" font-family="Pretendard,sans-serif">평균 460만 원 | 빠른 회복 | 단, 활동량 많으면 재수술(1,001만) 위험 고려</text>
+
+  <!-- Bottom -->
+  <text x="540" y="985" text-anchor="middle" fill="#0D9488" font-size="22" font-weight="800" font-family="Pretendard,sans-serif">첫 수술의 선택이 향후 30년의 비용을 결정합니다</text>
+  <text x="540" y="1050" text-anchor="middle" fill="#64748B" font-size="16" font-family="Pretendard,sans-serif">essencial | 2026년 4월 기준</text>
+</svg>

@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="8" fill="#34D399"/>
+
+  <!-- Title -->
+  <text x="540" y="66" font-family="-apple-system, sans-serif" font-size="30" font-weight="900" fill="#FFFFFF" text-anchor="middle">이차보전 vs 일반 대출 — 이자 절감 비교</text>
+  <text x="540" y="100" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0" text-anchor="middle">지원금 신청 전 이자 절감액을 먼저 계산해보세요</text>
+  <line x1="60" y1="122" x2="1020" y2="122" stroke="#1A3270" stroke-width="2"/>
+
+  <!-- Comparison boxes -->
+  <rect x="60" y="146" width="430" height="200" rx="14" fill="#0D2347"/>
+  <text x="275" y="188" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#EF4444" text-anchor="middle">일반 시중은행 대출</text>
+  <text x="275" y="234" font-family="-apple-system, sans-serif" font-size="46" font-weight="900" fill="#FFFFFF" text-anchor="middle">연 6~8%</text>
+  <text x="275" y="274" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">2,000만원 × 2년 기준</text>
+  <text x="275" y="296" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#EF4444" text-anchor="middle">이자 약 240~320만원</text>
+  <text x="275" y="322" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">2026년 시중은행 소상공인 대출 평균</text>
+
+  <text x="540" y="258" font-family="-apple-system, sans-serif" font-size="40" font-weight="900" fill="#34D399" text-anchor="middle">→</text>
+
+  <rect x="590" y="146" width="430" height="200" rx="14" fill="#1A3270"/>
+  <rect x="590" y="146" width="430" height="200" rx="14" fill="none" stroke="#34D399" stroke-width="2"/>
+  <text x="805" y="188" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#34D399" text-anchor="middle">전남도 육성자금 이차보전</text>
+  <text x="805" y="234" font-family="-apple-system, sans-serif" font-size="46" font-weight="900" fill="#FFFFFF" text-anchor="middle">연 1.5%</text>
+  <text x="805" y="274" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">2,000만원 × 2년 기준</text>
+  <text x="805" y="296" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#34D399" text-anchor="middle">이자 약 60만원</text>
+  <text x="805" y="322" font-family="-apple-system, sans-serif" font-size="13" fill="#34D399" text-anchor="middle">도가 이자 차액을 보전해주는 구조</text>
+
+  <!-- Saving highlight -->
+  <rect x="60" y="370" width="960" height="86" rx="12" fill="#102A56"/>
+  <rect x="60" y="370" width="960" height="86" rx="12" fill="none" stroke="#F59E0B" stroke-width="2"/>
+  <text x="540" y="402" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#F59E0B" text-anchor="middle">절감 효과</text>
+  <text x="540" y="436" font-family="-apple-system, sans-serif" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="middle">2,000만원 대출 시 2년간 약 180~260만원 이자 절감</text>
+
+  <!-- 실측 소요기간 table -->
+  <text x="60" y="498" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">실측 소요기간 (서류 완비 기준)</text>
+  <line x1="60" y1="514" x2="1020" y2="514" stroke="#1A3270" stroke-width="1.5"/>
+
+  <!-- Table header -->
+  <rect x="60" y="528" width="960" height="44" rx="8" fill="#1A3270"/>
+  <text x="200" y="556" font-family="-apple-system, sans-serif" font-size="14" font-weight="700" fill="#34D399" text-anchor="middle">단계</text>
+  <text x="520" y="556" font-family="-apple-system, sans-serif" font-size="14" font-weight="700" fill="#34D399" text-anchor="middle">소요 일수</text>
+  <text x="860" y="556" font-family="-apple-system, sans-serif" font-size="14" font-weight="700" fill="#34D399" text-anchor="middle">비고</text>
+
+  <!-- Rows -->
+  <rect x="60" y="572" width="960" height="52" rx="0" fill="#0D2347"/>
+  <text x="200" y="604" font-family="-apple-system, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">공고 확인·서류 준비</text>
+  <text x="520" y="604" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#F59E0B" text-anchor="middle">1~5일</text>
+  <text x="860" y="604" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">bizinfo.go.kr 지역 공고 검색</text>
+
+  <rect x="60" y="624" width="960" height="52" rx="0" fill="#102A56"/>
+  <text x="200" y="656" font-family="-apple-system, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">신청서 작성·상담 예약</text>
+  <text x="520" y="656" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#F59E0B" text-anchor="middle">1~3일</text>
+  <text x="860" y="656" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">방문 또는 온라인 예약</text>
+
+  <rect x="60" y="676" width="960" height="52" rx="0" fill="#0D2347"/>
+  <text x="200" y="708" font-family="-apple-system, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">서류 검토·보증 심사</text>
+  <text x="520" y="708" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#F59E0B" text-anchor="middle">7~14일</text>
+  <text x="860" y="708" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">신용보증재단 기준</text>
+
+  <rect x="60" y="728" width="960" height="52" rx="0" fill="#102A56"/>
+  <text x="200" y="760" font-family="-apple-system, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">대출 실행</text>
+  <text x="520" y="760" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#F59E0B" text-anchor="middle">3~7일</text>
+  <text x="860" y="760" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">보증서 발급 후 협약 은행</text>
+
+  <rect x="60" y="780" width="960" height="52" rx="0" fill="#1A3270"/>
+  <rect x="60" y="780" width="960" height="52" fill="none" stroke="#34D399" stroke-width="1.5"/>
+  <text x="200" y="812" font-family="-apple-system, sans-serif" font-size="15" font-weight="800" fill="#34D399" text-anchor="middle">합계</text>
+  <text x="520" y="812" font-family="-apple-system, sans-serif" font-size="20" font-weight="900" fill="#34D399" text-anchor="middle">약 2~4주</text>
+  <text x="860" y="812" font-family="-apple-system, sans-serif" font-size="13" fill="#34D399" text-anchor="middle">서류 완비 기준</text>
+
+  <!-- Tip -->
+  <rect x="60" y="858" width="960" height="76" rx="10" fill="#0D2347"/>
+  <text x="540" y="884" font-family="-apple-system, sans-serif" font-size="15" font-weight="800" fill="#F59E0B" text-anchor="middle">소요기간 단축 팁</text>
+  <text x="540" y="908" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">사업자등록증·임대차계약서·최근 3개월 매출 자료를 미리 준비하면 심사 기간이 단축됩니다</text>
+
+  <!-- Footer -->
+  <text x="540" y="974" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준 | 금리는 시점에 따라 변동 | 소상공인통합콜센터 ☎1533-0100</text>
+  <rect x="0" y="1072" width="1080" height="8" fill="#34D399"/>
+</svg>

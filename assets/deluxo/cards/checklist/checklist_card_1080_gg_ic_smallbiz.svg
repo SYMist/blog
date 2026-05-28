@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><filter id="s" x="-4%" y="-4%" width="108%" height="108%"><feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#000" flood-opacity="0.08"/></filter></defs>
+  <rect width="1080" height="1080" rx="32" fill="#F0F4FA"/>
+  <rect x="40" y="40" width="1000" height="1000" rx="24" fill="#FFF" filter="url(#s)"/>
+  <rect x="40" y="40" width="1000" height="100" rx="24" fill="#1D4ED8"/><rect x="40" y="95" width="1000" height="45" fill="#1D4ED8"/>
+  <text x="540" y="103" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="38" font-weight="800" fill="#FFF">경기도·인천 소상공인 지원금 체크리스트</text>
+
+  <!-- 공통 -->
+  <text x="100" y="205" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#1D4ED8">공통 확인 사항</text>
+  <line x1="80" y1="225" x2="1000" y2="225" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="100" y="268" font-family="'Pretendard',sans-serif" font-size="26" fill="#111827">□  사업장 소재지 확인 (경기도 or 인천)</text>
+  <text x="100" y="310" font-family="'Pretendard',sans-serif" font-size="26" fill="#111827">□  국세·지방세 완납 확인 (홈택스)</text>
+  <text x="100" y="352" font-family="'Pretendard',sans-serif" font-size="26" fill="#111827">□  신용불량·연체 기록 없는지 확인</text>
+  <text x="100" y="394" font-family="'Pretendard',sans-serif" font-size="26" fill="#111827">□  사업자등록증 + 재무제표 + 임대차계약서 준비</text>
+
+  <!-- 경기도 -->
+  <text x="100" y="460" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#1D4ED8">경기도</text>
+  <line x1="80" y1="480" x2="1000" y2="480" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="100" y="520" font-family="'Pretendard',sans-serif" font-size="26" fill="#111827">□  이지원 앱 설치 + 보증심사 신청</text>
+  <text x="100" y="562" font-family="'Pretendard',sans-serif" font-size="26" fill="#111827">□  g-money.gg.go.kr 에서 융자 접수</text>
+  <text x="100" y="604" font-family="'Pretendard',sans-serif" font-size="26" fill="#111827">□  우대금리 대상이면 인증서 준비</text>
+  <text x="100" y="638" font-family="'Pretendard',sans-serif" font-size="22" fill="#6B7280">    (여성기업·장애인기업·벤처·가족친화 확인서)</text>
+
+  <!-- 인천 -->
+  <text x="100" y="705" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#92400E">인천</text>
+  <line x1="80" y1="725" x2="1000" y2="725" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="100" y="765" font-family="'Pretendard',sans-serif" font-size="26" fill="#111827">□  보증드림 앱 설치 또는 재단 지점 확인</text>
+  <text x="100" y="807" font-family="'Pretendard',sans-serif" font-size="26" fill="#111827">□  매출액 증빙 (부가가치세 과세표준증명원)</text>
+  <text x="100" y="849" font-family="'Pretendard',sans-serif" font-size="26" fill="#111827">□  비대면 자동심사 서류 업로드 준비</text>
+
+  <!-- 바우처 -->
+  <rect x="80" y="890" width="920" height="70" rx="14" fill="#EFF6FF"/>
+  <text x="540" y="933" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#1D4ED8">+ 전국공통 바우처 25만원: 소상공인24(sbiz24.kr) 별도 신청</text>
+
+  <!-- Footer -->
+  <rect x="80" y="975" width="920" height="5" rx="2" fill="#1D4ED8"/>
+</svg>

@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 760">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="760" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="540" y="50" text-anchor="middle" fill="#FFFFFF" font-size="24" font-weight="800" font-family="sans-serif">태아보험 vs 어린이보험 상세 비교표</text>
+  <text x="540" y="76" text-anchor="middle" fill="#A78BFA" font-size="14" font-family="sans-serif">2026.05 기준 · 주요 손해보험사 상품 기준</text>
+
+  <!-- Header -->
+  <rect x="40" y="92" width="1000" height="48" rx="8" fill="#1e293b"/>
+  <text x="190" y="122" text-anchor="middle" fill="#94A3B8" font-size="14" font-weight="600" font-family="sans-serif">비교 항목</text>
+  <text x="560" y="122" text-anchor="middle" fill="#C4B5FD" font-size="15" font-weight="800" font-family="sans-serif">태아보험 (22주 이내)</text>
+  <text x="860" y="122" text-anchor="middle" fill="#6EE7B7" font-size="15" font-weight="800" font-family="sans-serif">어린이보험 (출생 후)</text>
+
+  <line x1="330" y1="92" x2="330" y2="720" stroke="#334155" stroke-width="1"/>
+  <line x1="700" y1="92" x2="700" y2="720" stroke="#334155" stroke-width="1"/>
+
+  <!-- Row 1: 가입 시기 -->
+  <rect x="40" y="140" width="1000" height="52" fill="#1e293b" fill-opacity="0.5"/>
+  <text x="190" y="171" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">가입 시기</text>
+  <text x="515" y="163" text-anchor="middle" fill="#C4B5FD" font-size="14" font-weight="700" font-family="sans-serif">임신 22주 이내</text>
+  <text x="515" y="183" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">1차 기형아 검사 전후 즉시 권장</text>
+  <text x="860" y="163" text-anchor="middle" fill="#6EE7B7" font-size="14" font-weight="700" font-family="sans-serif">출생 후 0세~만 15세</text>
+  <text x="860" y="183" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">0세가 보험료 최저</text>
+
+  <!-- Row 2: 태아 특약 -->
+  <rect x="40" y="192" width="1000" height="68" fill="#0f172a" fill-opacity="0.8"/>
+  <text x="190" y="230" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">태아 특약</text>
+  <text x="515" y="212" text-anchor="middle" fill="#4ADE80" font-size="13" font-weight="700" font-family="sans-serif">✅ 선천성이상 · 미숙아 · 주산기질환</text>
+  <text x="515" y="234" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">NICU 입원비 포함</text>
+  <text x="515" y="252" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">산모 특약 (유산·조산·임신중독증)</text>
+  <text x="860" y="230" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="700" font-family="sans-serif">❌ 태아 특약 가입 불가</text>
+  <text x="860" y="252" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">선천성이상 진단 후 부담보 가능</text>
+
+  <!-- Row 3: 일반 보장 -->
+  <rect x="40" y="260" width="1000" height="52" fill="#1e293b" fill-opacity="0.5"/>
+  <text x="190" y="291" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">일반 어린이 보장</text>
+  <text x="515" y="291" text-anchor="middle" fill="#4ADE80" font-size="14" font-weight="700" font-family="sans-serif">✅ 동일</text>
+  <text x="860" y="291" text-anchor="middle" fill="#4ADE80" font-size="14" font-weight="700" font-family="sans-serif">✅ 포함</text>
+
+  <!-- Row 4: 보험료 -->
+  <rect x="40" y="312" width="1000" height="60" fill="#0f172a" fill-opacity="0.8"/>
+  <text x="190" y="347" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">월 보험료 (종합형)</text>
+  <text x="515" y="335" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">월 4만~7만원</text>
+  <text x="515" y="359" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">태아특약 추가 시 5,000~10,000원↑</text>
+  <text x="860" y="335" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">월 3만~5만원</text>
+  <text x="860" y="359" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">0세 기준, 비갱신형</text>
+
+  <!-- Row 5: 갱신 구조 -->
+  <rect x="40" y="372" width="1000" height="52" fill="#1e293b" fill-opacity="0.5"/>
+  <text x="190" y="403" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">갱신 구조</text>
+  <text x="515" y="395" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="sans-serif">비갱신형 권장</text>
+  <text x="515" y="415" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">갱신형 선택 가능 (장기 비효율)</text>
+  <text x="860" y="395" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="sans-serif">비갱신형 권장</text>
+  <text x="860" y="415" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">갱신형 10년 후 보험료 급등 주의</text>
+
+  <!-- Row 6: 만기 -->
+  <rect x="40" y="424" width="1000" height="52" fill="#0f172a" fill-opacity="0.8"/>
+  <text x="190" y="455" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">만기 선택</text>
+  <text x="515" y="447" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="sans-serif">30 / 80 / 90 / 100세</text>
+  <text x="515" y="467" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">30세 + 계약전환 전략 권장</text>
+  <text x="860" y="447" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="sans-serif">30 / 80 / 90 / 100세</text>
+  <text x="860" y="467" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">동일 전략 적용 가능</text>
+
+  <!-- Row 7: 계약전환 -->
+  <rect x="40" y="476" width="1000" height="60" fill="#1e293b" fill-opacity="0.5"/>
+  <text x="190" y="511" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">계약전환제도</text>
+  <text x="515" y="499" text-anchor="middle" fill="#4ADE80" font-size="13" font-weight="700" font-family="sans-serif">✅ 건강 고지 없이 90·100세 전환</text>
+  <text x="515" y="519" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">만기 전 신청 필수</text>
+  <text x="860" y="499" text-anchor="middle" fill="#4ADE80" font-size="13" font-weight="700" font-family="sans-serif">✅ 동일 (30세 만기 가입 시)</text>
+  <text x="860" y="519" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="sans-serif">성인 후 건강 상태 무관 장기 보장</text>
+
+  <!-- Bottom summary -->
+  <rect x="40" y="548" width="1000" height="2" fill="#334155"/>
+  <rect x="40" y="558" width="1000" height="140" rx="8" fill="#1e293b" fill-opacity="0.6"/>
+  <text x="540" y="590" text-anchor="middle" fill="#C4B5FD" font-size="15" font-weight="800" font-family="sans-serif">핵심 선택 기준</text>
+  <text x="80" y="620" fill="#4ADE80" font-size="14" font-weight="700" font-family="sans-serif">임신 22주 이내</text>
+  <text x="220" y="620" fill="#CBD5E1" font-size="14" font-family="sans-serif">→ 태아보험 즉시 가입 (22주 지나면 태아특약 영구 불가)</text>
+  <text x="80" y="648" fill="#6EE7B7" font-size="14" font-weight="700" font-family="sans-serif">22주 이후 · 출생 후</text>
+  <text x="240" y="648" fill="#CBD5E1" font-size="14" font-family="sans-serif">→ 어린이보험 즉시 가입 (0세 = 보험료 최저)</text>
+  <text x="80" y="676" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">만기 전략</text>
+  <text x="175" y="676" fill="#CBD5E1" font-size="14" font-family="sans-serif">→ 30세 만기 가입 후 계약전환 (건강 고지 없이 장기 보장 확보)</text>
+
+  <text x="40" y="744" fill="#64748B" font-size="12" font-family="sans-serif">essencial | 보험 비교 silo · 2026.05 기준</text>
+</svg>

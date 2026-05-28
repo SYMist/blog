@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <rect x="60" y="50" width="380" height="44" rx="22" fill="#B45309"/>
+  <text x="250" y="80" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">2026 종소세 → 사업자대출 한도</text>
+
+  <text x="60" y="175" fill="#FFFFFF" font-size="60" font-weight="800" font-family="sans-serif">신고가 한도를</text>
+  <text x="60" y="248" fill="#FCD34D" font-size="60" font-weight="800" font-family="sans-serif">결정한다</text>
+
+  <text x="60" y="310" fill="#94A3B8" font-size="22" font-weight="600" font-family="sans-serif">소득 5천만 → 한도 8,800만 · 절세 vs 한도 trade-off 시뮬</text>
+
+  <!-- 3 key cards -->
+  <rect x="60" y="360" width="340" height="180" rx="16" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="230" y="400" text-anchor="middle" fill="#86EFAC" font-size="16" font-weight="700" font-family="sans-serif">한도 골든타임</text>
+  <text x="230" y="460" text-anchor="middle" fill="#FFFFFF" font-size="46" font-weight="800" font-family="sans-serif">7월 중순~</text>
+  <text x="230" y="495" text-anchor="middle" fill="#86EFAC" font-size="15" font-weight="600" font-family="sans-serif">소득금액증명원 갱신 후</text>
+  <text x="230" y="520" text-anchor="middle" fill="#CBD5E1" font-size="14" font-family="sans-serif">~ 다음해 4월</text>
+
+  <rect x="420" y="360" width="340" height="180" rx="16" fill="url(#card)" stroke="#FCD34D" stroke-width="2"/>
+  <text x="590" y="400" text-anchor="middle" fill="#FCD34D" font-size="16" font-weight="700" font-family="sans-serif">소득 5,000만 한도</text>
+  <text x="590" y="460" text-anchor="middle" fill="#FFFFFF" font-size="46" font-weight="800" font-family="sans-serif">약 8,800만</text>
+  <text x="590" y="495" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="600" font-family="sans-serif">DSR 40% · 5년 만기</text>
+  <text x="590" y="520" text-anchor="middle" fill="#CBD5E1" font-size="14" font-family="sans-serif">환산배수 2.5배</text>
+
+  <rect x="780" y="360" width="360" height="180" rx="16" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="960" y="400" text-anchor="middle" fill="#86EFAC" font-size="16" font-weight="700" font-family="sans-serif">정책자금 최저</text>
+  <text x="960" y="460" text-anchor="middle" fill="#FFFFFF" font-size="48" font-weight="800" font-family="sans-serif">2.96%</text>
+  <text x="960" y="495" text-anchor="middle" fill="#86EFAC" font-size="15" font-weight="600" font-family="sans-serif">신규 사업자 한도 1억</text>
+  <text x="960" y="520" text-anchor="middle" fill="#CBD5E1" font-size="14" font-family="sans-serif">DSR 산정 제외</text>
+
+  <text x="60" y="590" fill="#64748B" font-size="14" font-family="sans-serif">essencial | 대출·금융 silo · 국세청·소진공·금융위 (2026.04 기준)</text>
+</svg>

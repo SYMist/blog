@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="40" y="36" width="280" height="44" rx="22" fill="#F59E0B"/>
+  <text x="180" y="65" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#0B1F3B">신청 전 체크리스트</text>
+  <text x="40" y="135" font-family="'Pretendard',sans-serif" font-size="44" font-weight="900" fill="#FFFFFF">자영업자 4대보험 절감</text>
+  <text x="40" y="185" font-family="'Pretendard',sans-serif" font-size="44" font-weight="900" fill="#FFFFFF">확인하셨나요?</text>
+  <rect x="40" y="210" width="120" height="4" rx="2" fill="#F59E0B"/>
+  <rect x="40" y="245" width="1000" height="80" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <rect x="70" y="265" width="40" height="40" rx="8" fill="#F59E0B"/>
+  <text x="90" y="294" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="900" fill="#0B1F3B">✓</text>
+  <text x="130" y="293" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">건보 자동차 부과 폐지 — 고지서 반영 확인</text>
+  <rect x="40" y="340" width="1000" height="80" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <rect x="70" y="360" width="40" height="40" rx="8" fill="#F59E0B"/>
+  <text x="90" y="389" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="900" fill="#0B1F3B">✓</text>
+  <text x="130" y="388" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">재산 공제 1억 원 적용 여부 (건보공단 1577-1000)</text>
+  <rect x="40" y="435" width="1000" height="80" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <rect x="70" y="455" width="40" height="40" rx="8" fill="#F59E0B"/>
+  <text x="90" y="484" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="900" fill="#0B1F3B">✓</text>
+  <text x="130" y="483" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">국민연금 50% 지원 자격 (과표 6억·소득 1,680만 이하)</text>
+  <rect x="40" y="530" width="1000" height="80" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <rect x="70" y="550" width="40" height="40" rx="8" fill="#F59E0B"/>
+  <text x="90" y="579" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="900" fill="#0B1F3B">✓</text>
+  <text x="130" y="578" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">고용보험 임의가입 → 소상공인24에서 등급 선택</text>
+  <rect x="40" y="625" width="1000" height="80" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <rect x="70" y="645" width="40" height="40" rx="8" fill="#F59E0B"/>
+  <text x="90" y="674" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="900" fill="#0B1F3B">✓</text>
+  <text x="130" y="673" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">직원 두루누리 대상? (10인 미만·270만 미만·신규)</text>
+  <rect x="40" y="720" width="1000" height="80" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <rect x="70" y="740" width="40" height="40" rx="8" fill="#F59E0B"/>
+  <text x="90" y="769" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="900" fill="#0B1F3B">✓</text>
+  <text x="130" y="768" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">피부양자 자격 — 사업자등록 전 소득 임계점 확인</text>
+  <rect x="40" y="815" width="1000" height="80" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <rect x="70" y="835" width="40" height="40" rx="8" fill="#F59E0B"/>
+  <text x="90" y="864" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="900" fill="#0B1F3B">✓</text>
+  <text x="130" y="863" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">소득 줄었으면 건보 감액 신청 (소득정산제도 활용)</text>
+  <rect x="40" y="1020" width="140" height="38" rx="19" fill="#E8F0FF"/>
+  <text x="110" y="1045" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#1D4ED8">체크리스트</text>
+  <rect x="195" y="1020" width="100" height="38" rx="19" fill="#E8F0FF"/>
+  <text x="245" y="1045" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#1D4ED8">저장</text>
+  <rect x="310" y="1020" width="100" height="38" rx="19" fill="#E8F0FF"/>
+  <text x="360" y="1045" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#1D4ED8">2026</text>
+</svg>

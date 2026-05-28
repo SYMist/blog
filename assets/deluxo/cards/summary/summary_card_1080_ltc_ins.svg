@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+    <linearGradient id="rowBg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.06)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0.02)"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <rect x="80" y="72" width="160" height="48" rx="24" fill="#F59E0B"/>
+  <text x="160" y="103" font-family="'Pretendard', sans-serif" font-size="22" font-weight="700" fill="#0B1F3B" text-anchor="middle">2026 최신</text>
+
+  <text x="80" y="185" font-family="'Pretendard', sans-serif" font-size="42" font-weight="800" fill="#FFFFFF">장기요양보험 핵심 정리</text>
+  <rect x="80" y="215" width="120" height="4" rx="2" fill="#F59E0B"/>
+
+  <!-- Row 1 -->
+  <rect x="60" y="260" width="960" height="105" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="100" y="300" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#F59E0B">등급 체계</text>
+  <text x="100" y="340" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">6단계 (1등급 95점↑ ~ 인지지원 45점↓)</text>
+
+  <!-- Row 2 -->
+  <rect x="60" y="385" width="960" height="105" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="100" y="425" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#F59E0B">1등급 재가 한도</text>
+  <text x="100" y="465" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">월 2,512,900원 (+24.7만 인상)</text>
+
+  <!-- Row 3 -->
+  <rect x="60" y="510" width="960" height="105" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="100" y="550" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#F59E0B">시설 본인부담</text>
+  <text x="100" y="590" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">1등급 월 55.8만 + 비급여 40~50만</text>
+
+  <!-- Row 4 -->
+  <rect x="60" y="635" width="960" height="105" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="100" y="675" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#F59E0B">유효기간 연장</text>
+  <text x="100" y="715" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">1등급 5년 / 2~4등급 4년 (갱신 후)</text>
+
+  <!-- Row 5 (highlighted) -->
+  <rect x="60" y="760" width="960" height="105" rx="16" fill="rgba(245,158,11,0.15)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="800" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#F59E0B">감경 제도</text>
+  <text x="100" y="840" font-family="'Pretendard', sans-serif" font-size="24" font-weight="800" fill="#F59E0B">기초수급자 0% / 60%감경 재가6% 시설8%</text>
+
+  <!-- Row 6 -->
+  <rect x="60" y="885" width="960" height="105" rx="16" fill="url(#rowBg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="100" y="925" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#F59E0B">통합돌봄법</text>
+  <text x="100" y="965" font-family="'Pretendard', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">2026.03.27 시행 — 원스톱 통합지원센터</text>
+</svg>

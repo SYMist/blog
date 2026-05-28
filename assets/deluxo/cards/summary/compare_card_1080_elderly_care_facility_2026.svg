@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <text x="540" y="130" font-family="'Pretendard', sans-serif" font-size="46" font-weight="900" fill="#F59E0B" text-anchor="middle">2026 요양원 4대 핵심</text>
+  <text x="540" y="210" font-family="'Pretendard', sans-serif" font-size="54" font-weight="900" fill="#FFFFFF" text-anchor="middle">한눈에 보기</text>
+
+  <rect x="60" y="270" width="960" height="170" rx="24" fill="#1A3270"/>
+  <text x="100" y="325" font-family="'Pretendard', sans-serif" font-size="32" font-weight="900" fill="#F59E0B">① 비용 구조</text>
+  <text x="100" y="375" font-family="'Pretendard', sans-serif" font-size="30" font-weight="800" fill="#FFFFFF">공단 80% + 본인 20% + 비급여</text>
+  <text x="100" y="415" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF">1등급 다인실 월 본인 약 54만 + 식비 30~50만</text>
+
+  <rect x="60" y="460" width="960" height="170" rx="24" fill="#1A3270"/>
+  <text x="100" y="515" font-family="'Pretendard', sans-serif" font-size="32" font-weight="900" fill="#F59E0B">② 본인부담 감경</text>
+  <text x="100" y="565" font-family="'Pretendard', sans-serif" font-size="30" font-weight="800" fill="#FFFFFF">60% 감경 → 8% · 40% 감경 → 12%</text>
+  <text x="100" y="605" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF">기초수급 0% · 매년 기준 갱신 확인 필수</text>
+
+  <rect x="60" y="650" width="960" height="170" rx="24" fill="#1A3270"/>
+  <text x="100" y="705" font-family="'Pretendard', sans-serif" font-size="32" font-weight="900" fill="#F59E0B">③ 비급여(시설별 격차)</text>
+  <text x="100" y="755" font-family="'Pretendard', sans-serif" font-size="30" font-weight="800" fill="#FFFFFF">식비 일 13,500원 · 1인실 월 +150만</text>
+  <text x="100" y="795" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF">입소 전 서면 명세서 필수 · 3~5곳 비교</text>
+
+  <rect x="60" y="840" width="960" height="170" rx="24" fill="#F59E0B"/>
+  <text x="100" y="895" font-family="'Pretendard', sans-serif" font-size="32" font-weight="900" fill="#0B1F3B">④ 2026 변경</text>
+  <text x="100" y="945" font-family="'Pretendard', sans-serif" font-size="30" font-weight="800" fill="#0B1F3B">보험료율 0.9448% · 재가 한도 +20만</text>
+  <text x="100" y="985" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#0B1F3B">장기근속장려금 3년 → 1년 · 종사자 처우개선</text>
+</svg>

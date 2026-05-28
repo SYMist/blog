@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#F59E0B">내 상황별 연금 전략 10초 판단</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- 상황 1 -->
+  <rect x="60" y="120" width="960" height="136" rx="16" fill="rgba(239,68,68,0.1)"/>
+  <rect x="80" y="140" width="360" height="40" rx="20" fill="#EF4444"/>
+  <text x="260" y="168" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#FFF">가입 10년 미만 + 60세 가까움</text>
+  <text x="80" y="218" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">→ 임의계속가입 (65세까지)</text>
+  <text x="600" y="218" font-family="'Pretendard',sans-serif" font-size="18" fill="#F59E0B">수급권 확보 — 미가입 시 연금 0원</text>
+
+  <!-- 상황 2 -->
+  <rect x="60" y="272" width="960" height="136" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="292" width="280" height="40" rx="20" fill="#1D4ED8"/>
+  <text x="220" y="320" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#FFF">가입 기간 18~19년</text>
+  <text x="80" y="370" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">→ 임의계속 or 추납으로 20년 달성</text>
+  <text x="700" y="370" font-family="'Pretendard',sans-serif" font-size="18" fill="#F59E0B">할증 연 5% 진입!</text>
+
+  <!-- 상황 3 -->
+  <rect x="60" y="424" width="960" height="136" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="444" width="340" height="40" rx="20" fill="rgba(245,158,11,0.3)"/>
+  <text x="250" y="472" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#F59E0B">사업 중단으로 납부 공백</text>
+  <text x="80" y="522" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">→ 추납 (최대 119개월 소급)</text>
+  <text x="580" y="522" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">분할납 최대 60개월 · 이자 없음</text>
+
+  <!-- 상황 4 -->
+  <rect x="60" y="576" width="960" height="136" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="596" width="340" height="40" rx="20" fill="#1D4ED8"/>
+  <text x="250" y="624" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#FFF">기준소득 80만 원 미만</text>
+  <text x="80" y="674" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">→ 저소득 보험료 50% 지원 신청</text>
+  <text x="650" y="674" font-family="'Pretendard',sans-serif" font-size="18" fill="#F59E0B">월 최대 45,000원 × 12개월</text>
+
+  <!-- 상황 5 -->
+  <rect x="60" y="728" width="960" height="136" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="748" width="360" height="40" rx="20" fill="rgba(245,158,11,0.3)"/>
+  <text x="260" y="776" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#F59E0B">60세 이후에도 사업 운영 중</text>
+  <text x="80" y="826" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">→ 재직자 감액 완화 확인 (2026.6~)</text>
+  <text x="680" y="826" font-family="'Pretendard',sans-serif" font-size="18" fill="#F59E0B">509만 원 미만 = 전액 수령</text>
+
+  <!-- 상황 6 -->
+  <rect x="60" y="880" width="960" height="136" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="900" width="340" height="40" rx="20" fill="#1D4ED8"/>
+  <text x="250" y="928" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#FFF">출산·군 복무 경력 있음</text>
+  <text x="80" y="978" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">→ 크레딧 신청 (무상 기간 추가)</text>
+  <text x="600" y="978" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">출산 첫째 12개월 + 군 최대 12개월</text>
+
+  <rect x="60" y="1034" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

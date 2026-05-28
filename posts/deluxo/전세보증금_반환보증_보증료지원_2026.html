@@ -1,0 +1,463 @@
+<!-- tistory_policy_template.html -->
+<!-- 전세보증금 반환보증·보증료 지원 정리 (2026) -->
+
+<!-- Schema.org 구조화 데이터 -->
+<div style="display:none">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "전세보증금 반환보증 보증료 지원 신청 방법 총정리 (2026)",
+      "description": "HUG·HF·SGI 전세보증금 반환보증 비교부터 보증료 최대 40만원 환급 신청 방법까지. 2026년 전세신탁 제도 변화와 지자체별 지원 현황을 정리했습니다.",
+      "datePublished": "2026-02-26",
+      "dateModified": "2026-02-26",
+      "author": {"@type": "Person", "name": "louisville"},
+      "publisher": {"@type": "Organization", "name": "louisville blog"}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "전세보증금 반환보증 꼭 가입해야 하나요?", "acceptedAnswer": {"@type": "Answer", "text": "법적 의무는 아니지만, 전세사기 피해 예방을 위해 가입을 강력히 권장합니다. 보증료 지원사업을 통해 최대 40만원까지 환급받을 수 있어 비용 부담도 줄었습니다."}},
+        {"@type": "Question", "name": "HUG, HF, SGI 중 어떤 상품이 가장 저렴한가요?", "acceptedAnswer": {"@type": "Answer", "text": "HF(한국주택금융공사)가 LTV 70% 이하 기준 연 0.04%로 가장 낮습니다. HUG는 약 0.115~0.154%, SGI는 0.192~0.218%이나 각종 할인을 적용하면 차이가 줄어듭니다."}},
+        {"@type": "Question", "name": "보증료 지원 최대 얼마나 받을 수 있나요?", "acceptedAnswer": {"@type": "Answer", "text": "청년·신혼부부는 기납부 보증료 전액 최대 40만원, 일반 임차인은 납부 보증료의 90%를 최대 40만원까지 환급받을 수 있습니다."}},
+        {"@type": "Question", "name": "전세보증금 반환보증 신청 시기는 언제까지인가요?", "acceptedAnswer": {"@type": "Answer", "text": "HUG와 HF는 임대차 계약 기간의 절반이 지나기 전까지, SGI는 계약일로부터 10개월 이내에 신청해야 합니다."}},
+        {"@type": "Question", "name": "보증료 지원은 어디서 신청하나요?", "acceptedAnswer": {"@type": "Answer", "text": "정부24 포털에서 '전세보증금 반환보증 보증료 지원'을 검색하거나, HUG 안심전세 포털, 주소지 관할 주민센터에서 신청할 수 있습니다."}}
+      ]
+    }
+  ]
+}
+</script>
+</div>
+
+<style>
+  :root{
+    --blue:#1D4ED8; --blue2:#1E40AF;
+    --white:#FFFFFF; --text:#111827;
+    --muted:#4B5563; --border:#E5E7EB;
+    --bg:#F9FAFB; --blueLight:#E8F0FF;
+  }
+  .wrap{max-width:860px;margin:0 auto;line-height:1.8;color:var(--text);}
+  .meta{color:var(--muted);font-size:.95rem;margin:6px 0 18px;}
+  .badge{display:inline-block;background:var(--blueLight);border:1px solid var(--border);padding:3px 10px;border-radius:999px;font-size:.85rem;margin-right:8px;}
+  .notice{background:#fff7ed;border:1px solid #fed7aa;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .lead{background:#f8fafc;border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .keysum{background:#fefce8;border:1px solid #fde68a;padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .summary{background:#eff6ff;border:1px solid #bfdbfe;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .toc{background:var(--bg);border:1px solid var(--border);padding:14px 16px;border-radius:12px;margin:16px 0 22px;}
+  .toc a{text-decoration:none;color:var(--blue);}
+  .toc ul{margin:8px 0 0 18px;}
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 6px;}
+  .wrap a.btn,.wrap a.btn:link,.wrap a.btn:visited{
+    display:inline-flex;align-items:center;justify-content:center;
+    padding:10px 14px;border-radius:10px;border:1px solid var(--blue);
+    background:var(--blue) !important;color:var(--white) !important;
+    text-decoration:none !important;font-weight:800;
+  }
+  .wrap a.btn:hover,.wrap a.btn:active,.wrap a.btn:focus{
+    background:var(--blue2) !important;border-color:var(--blue2) !important;color:var(--white) !important;
+  }
+  .wrap a.btn.secondary,.wrap a.btn.secondary:link,.wrap a.btn.secondary:visited{
+    background:var(--white) !important;color:var(--blue) !important;border-color:var(--blue) !important;
+  }
+  .wrap a.btn.secondary:hover,.wrap a.btn.secondary:active,.wrap a.btn.secondary:focus{
+    background:var(--bg) !important;color:var(--blue2) !important;border-color:var(--blue2) !important;
+  }
+  .wrap a.btn.gray,.wrap a.btn.gray:link,.wrap a.btn.gray:visited{
+    background:#111827 !important;border-color:#111827 !important;color:var(--white) !important;
+  }
+  .wrap a.btn.gray:hover,.wrap a.btn.gray:active,.wrap a.btn.gray:focus{
+    background:#0b1220 !important;border-color:#0b1220 !important;color:var(--white) !important;
+  }
+  table{width:100%;border-collapse:collapse;margin:14px 0 10px;}
+  th,td{border:1px solid var(--border);padding:10px;vertical-align:top;}
+  th{background:#F3F4F6;text-align:left;}
+  .small{font-size:.95rem;color:var(--muted);}
+  h1{margin:0 0 8px;line-height:1.25;}
+  h2{margin-top:30px;padding-top:8px;border-top:1px solid var(--border);}
+  h3{margin-top:16px;}
+  .q{font-weight:900;margin:14px 0 6px;}
+  .a{margin:0 0 10px;}
+  .tips{background:#f0fdf4;border:1px solid #bbf7d0;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .ad{background:#f9fafb;border:1px dashed var(--border);padding:10px 12px;border-radius:10px;margin:12px 0;}
+  .footer{margin-top:26px;padding-top:14px;border-top:1px solid var(--border);color:var(--muted);font-size:.95rem;}
+</style>
+
+<div class="wrap">
+  <h1>전세보증금 반환보증·보증료 지원 신청 총정리 (2026 최신)</h1>
+  <div class="meta">
+    <span class="badge">키워드: 전세보증금 반환보증</span>
+    <span class="badge">업데이트: 2026-02-26</span>
+  </div>
+
+  <div class="notice">
+    <strong>먼저 확인!</strong><br/>
+    보증료 지원은 지자체 예산 범위 내에서 선착순 지급되므로, 지역별로 조기 소진될 수 있습니다. 반드시 거주지 관할 지자체 공고를 확인하세요.
+  </div>
+
+  <p class="small">
+    전세보증금 반환보증 3대 기관(HUG·HF·SGI) 비교, 보증료 최대 40만원 환급 방법, 2026년 전세신탁 제도 변화까지 한번에 정리했습니다.
+  </p>
+
+  <div class="lead">
+    전세사기 뉴스를 볼 때마다 남 일 같지 않으시죠? 전세보증금 반환보증은 집주인이 보증금을 돌려주지 못할 때 보증기관이 대신 지급해주는 제도입니다. 2024년부터는 국토부와 지자체가 보증료까지 돌려주고 있어서 비용 부담도 많이 줄었어요. 다만 기관별로 요율·한도·신청 시기가 다르기 때문에 내 상황에 맞는 상품을 고르는 게 중요합니다.
+  </div>
+
+  <div class="keysum">
+    <strong>핵심 요약 3줄</strong><br/>
+    1. 전세보증금 반환보증은 HUG·HF·SGI 3곳에서 가입 가능, 요율은 HF가 가장 저렴(연 0.04%~)<br/>
+    2. 국토부 + 지자체 보증료 지원 통해 청년·신혼부부는 최대 40만원 전액 환급<br/>
+    3. 2026년 하반기 전세신탁 제도 도입 예정 — 보증금 사전 예치로 사고 시 즉시 반환 가능
+  </div>
+
+  <div class="summary" id="top">
+    <h2 style="border-top:none;margin-top:0;">5줄 요약(결론)</h2>
+    <ul>
+      <li><strong>가입 가능</strong>: HUG·HF·SGI 3곳 모두 아파트·빌라·오피스텔 등 대부분 주택 대상</li>
+      <li><strong>보증금 한도</strong>: HUG·HF 수도권 7억원/비수도권 5억원, SGI는 한도 제한 없음(비아파트 10억원 이하)</li>
+      <li><strong>보증료 환급</strong>: 정부24에서 신청 → 청년·신혼 전액(최대 40만원), 일반 90%(최대 40만원)</li>
+      <li><strong>서울·경기·대구·부산 등</strong>: 지자체별 추가 지원 병행, 예산 소진 시 조기 마감</li>
+      <li><strong>주의</strong>: HUG·HF는 계약기간 절반 전까지 신청해야 하며, 전입신고·확정일자 필수</li>
+    </ul>
+
+    <div class="btns">
+      <a class="btn" href="https://www.gov.kr" target="_blank" rel="noopener">정부24 보증료 지원 신청</a>
+      <a class="btn gray" href="https://www.khug.or.kr/jeonse" target="_blank" rel="noopener">HUG 안심전세 포털</a>
+      <a class="btn secondary" href="https://www.hf.go.kr" target="_blank" rel="noopener">HF 전세지킴 보증</a>
+    </div>
+    <p class="small">※ 신청 전 공식 공고/FAQ 확인 필수</p>
+  </div>
+
+  <div class="toc">
+    <strong>목차</strong>
+    <ul>
+      <li><a href="#quick">나는 어디? HUG vs HF vs SGI 빠른 판단</a></li>
+      <li><a href="#table">1) 보증기관별 한눈에 비교표</a></li>
+      <li><a href="#fee">2) 보증료 계산법과 할인 제도</a></li>
+      <li><a href="#subsidy">3) 국토부 보증료 지원사업 (최대 40만원)</a></li>
+      <li><a href="#local">4) 지자체별 보증료 지원 현황</a></li>
+      <li><a href="#trust">5) 2026 전세신탁 제도 — 무엇이 바뀌나</a></li>
+      <li><a href="#how">6) 신청 방법 (보증 가입 + 보증료 환급)</a></li>
+      <li><a href="#docs">7) 서류 체크리스트</a></li>
+      <li><a href="#faq">8) FAQ</a></li>
+      <li><a href="#check">9) 신청 전 1분 체크리스트</a></li>
+      <li><a href="#update">업데이트 로그</a></li>
+    </ul>
+  </div>
+
+  <!-- 빠른 판단 가이드 -->
+  <h3 id="quick">나는 어디? HUG vs HF vs SGI 10초 판단</h3>
+  <table>
+    <thead>
+      <tr><th></th><th>HUG</th><th>HF (전세지킴)</th><th>SGI</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>핵심 성격</strong></td><td>가장 대중적, 앱으로 간편 신청</td><td>요율이 가장 낮음</td><td>고액 보증금·기간 경과 시 유리</td></tr>
+      <tr><td><strong>보증금 한도</strong></td><td>수도권 7억/비수도권 5억</td><td>수도권 7억/비수도권 5억</td><td>한도 없음(비아파트 10억 이하)</td></tr>
+      <tr><td><strong>요율(연)</strong></td><td>0.115~0.154%</td><td>0.04~0.18%</td><td>0.192~0.218%</td></tr>
+      <tr><td><strong>신청 기한</strong></td><td>계약기간 절반 전</td><td>계약기간 절반 전</td><td>계약일로부터 10개월 내</td></tr>
+      <tr><td><strong>한 줄 요약</strong></td><td>빠르고 간편하게 가입하고 싶다면</td><td>보증료를 최대한 아끼고 싶다면</td><td>보증금이 7억 넘거나 계약 중반 넘겼다면</td></tr>
+    </tbody>
+  </table>
+  <p class="small">※ 정확한 요율과 조건은 각 기관 공식 사이트에서 확인하세요.</p>
+
+  <h2 id="table">1) 보증기관별 한눈에 비교표</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>구분</th><th>HUG</th><th>HF (전세지킴)</th><th>SGI</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>운영기관</strong></td>
+        <td>주택도시보증공사</td>
+        <td>한국주택금융공사</td>
+        <td>서울보증보험</td>
+      </tr>
+      <tr>
+        <td><strong>보증금 한도</strong></td>
+        <td>수도권 7억원<br/>비수도권 5억원</td>
+        <td>수도권 7억원<br/>비수도권 5억원</td>
+        <td>제한 없음<br/>(비아파트 10억원 이하)</td>
+      </tr>
+      <tr>
+        <td><strong>LTV 조건</strong></td>
+        <td>선순위+보증금 ≤ 주택가격 60%</td>
+        <td>선순위+보증금 ≤ 주택가격 90%</td>
+        <td>선순위+보증금 ≤ 주택가격</td>
+      </tr>
+      <tr>
+        <td><strong>보증료 요율(연)</strong></td>
+        <td>0.115~0.154%</td>
+        <td>LTV 70% 이하 0.04%<br/>70~80% 0.11%<br/>80~90% 0.18%</td>
+        <td>아파트 0.192%<br/>기타 주택 0.218%</td>
+      </tr>
+      <tr>
+        <td><strong>할인 제도</strong></td>
+        <td>저소득 50%, 신혼 50%<br/>청년 10%, 온라인 3%</td>
+        <td>우대가구 0.02%p 추가 할인</td>
+        <td>채권양도 20%, LTV 60% 이하 20%<br/>LTV 50% 이하 30%</td>
+      </tr>
+      <tr>
+        <td><strong>신청 시기</strong></td>
+        <td>계약기간 절반 전<br/>보증금 5% 이상 납부</td>
+        <td>계약기간 절반 전<br/>보증금 5% 이상 납부</td>
+        <td>계약일로부터 10개월 내</td>
+      </tr>
+      <tr>
+        <td><strong>필수 조건</strong></td>
+        <td>전입신고 + 확정일자</td>
+        <td>전입신고 + 확정일자</td>
+        <td>전입신고 + 확정일자</td>
+      </tr>
+      <tr>
+        <td><strong>대상 주택</strong></td>
+        <td>아파트·빌라·오피스텔·도시형생활주택</td>
+        <td>모든 주택 유형</td>
+        <td>아파트·빌라·오피스텔·단독주택</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="ad">{광고 위치 1: 비교표 아래}</div>
+
+  <h2 id="fee">2) 보증료 계산법과 할인 제도</h2>
+
+  <h3>보증료 계산 공식</h3>
+  <div class="keysum">
+    <strong>보증료 = 보증금 × 요율 × 계약기간 ÷ 365일</strong><br/>
+    HF는 (보증금 − 선순위채권) × 요율 × 보증기간 ÷ 365일로 계산
+  </div>
+
+  <h3>계산 예시 — 서울 아파트, 보증금 3억원, 2년 계약</h3>
+  <table>
+    <thead>
+      <tr><th>기관</th><th>요율</th><th>2년 보증료</th><th>할인 적용 시</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>HUG</strong></td><td>0.128%(중간값)</td><td>약 76만 8천원</td><td>청년 10% → 약 69만원<br/>신혼 50% → 약 38만 4천원</td></tr>
+      <tr><td><strong>HF</strong></td><td>0.04%(LTV 70%↓)</td><td>약 24만원</td><td>우대가구 → 약 12만원</td></tr>
+      <tr><td><strong>SGI</strong></td><td>0.192%(아파트)</td><td>약 115만 2천원</td><td>채권양도+LTV할인 → 약 92만원</td></tr>
+    </tbody>
+  </table>
+  <p class="small">※ 위 금액은 개략적인 예시이며, 실제 보증료는 주택 감정가·선순위 채권 등에 따라 달라집니다.</p>
+
+  <div class="tips">
+    <strong>실전 팁</strong><br/>
+    LTV가 70% 이하라면 HF가 압도적으로 저렴합니다. 다만 HF는 은행 지점 방문이 필요한 경우가 많아서, 온라인으로 빠르게 가입하고 싶다면 HUG 앱을 추천합니다. 보증료 지원 환급까지 받으면 실질 부담은 더 줄어듭니다.
+  </div>
+
+  <h2 id="subsidy">3) 국토부 보증료 지원사업 (최대 40만원 환급)</h2>
+
+  <p>국토교통부는 2024년 3월부터 전세보증금 반환보증 보증료를 환급하는 지원사업을 시행하고 있습니다.</p>
+
+  <table>
+    <thead>
+      <tr><th>구분</th><th>청년·신혼부부</th><th>일반 임차인</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>대상</strong></td><td>청년(19~39세)<br/>신혼부부(혼인 7년 이내)</td><td>무주택 임차인</td></tr>
+      <tr><td><strong>환급 비율</strong></td><td>기납부 보증료 <strong>전액</strong></td><td>기납부 보증료의 <strong>90%</strong></td></tr>
+      <tr><td><strong>환급 한도</strong></td><td>최대 40만원</td><td>최대 40만원</td></tr>
+      <tr><td><strong>신청 방법</strong></td><td colspan="2">정부24 또는 HUG 안심전세 포털 온라인 신청 / 주민센터 방문</td></tr>
+      <tr><td><strong>지급 방식</strong></td><td colspan="2">본인 계좌로 이체 (지자체 예산 범위 내)</td></tr>
+    </tbody>
+  </table>
+  <p class="small">※ 2025년 3월 31일 이후 보증 가입자는 최대 40만원, 이전 가입자는 최대 30만원 한도가 적용됩니다.</p>
+
+  <h2 id="local">4) 지자체별 보증료 지원 현황</h2>
+
+  <p>국토부 사업 외에도 각 지자체가 자체 예산으로 보증료를 추가 지원합니다. 대표적인 지역을 정리했습니다.</p>
+
+  <h3>서울특별시</h3>
+  <ul>
+    <li><strong>대상</strong>: 서울시 거주 무주택자, 임차보증금 3억원 이하</li>
+    <li><strong>소득 기준</strong>: 청년(19~39세) 연소득 5천만원 이하 / 일반 6천만원 이하 / 신혼부부 합산 7,500만원 이하</li>
+    <li><strong>지원금</strong>: 청년·신혼 전액(최대 40만원), 일반 90%(최대 40만원)</li>
+    <li><strong>신청</strong>: 정부24 온라인 또는 관할 구청 방문</li>
+  </ul>
+
+  <h3>경기도 (구리시 사례)</h3>
+  <ul>
+    <li><strong>사업 기간</strong>: 2026년 1월 1일 ~ 예산 소진 시</li>
+    <li><strong>대상</strong>: 보증 효력 유효한 반환보증 가입 무주택자, 보증금 3억원 이하</li>
+    <li><strong>소득 기준</strong>: 서울과 동일(청년 5천만원 / 일반 6천만원 / 신혼 7,500만원)</li>
+    <li><strong>신청</strong>: 정부24 온라인 + 동 행정복지센터 방문</li>
+  </ul>
+
+  <h3>기타 지자체 (대구·부산·부천·화성·진주 등)</h3>
+  <ul>
+    <li>대부분 임차보증금 3억원 이하, 무주택 거주자 대상</li>
+    <li>청년·신혼 전액 / 일반 90%, 최대 40만원 환급 구조 동일</li>
+    <li>지자체별 예산과 세부 소득 기준이 다르므로 <strong>해당 지자체 공고 확인 필수</strong></li>
+  </ul>
+
+  <div class="tips">
+    <strong>지역별 팁</strong><br/>
+    보증료 지원은 국토부 사업과 지자체 사업이 통합 운영되는 경우가 많습니다. 정부24에서 신청하면 거주지 기준으로 자동 배정되니 별도로 구분할 필요 없이 한 번만 신청하면 됩니다. 다만 예산이 한정되어 있으므로 보증 가입 후 가능한 빨리 신청하는 것이 좋습니다.
+  </div>
+
+  <div class="ad">{광고 위치 2: 지자체 현황 아래}</div>
+
+  <h2 id="trust">5) 2026 전세신탁 제도 — 무엇이 바뀌나</h2>
+
+  <p>정부는 전세사기 예방의 근본 대책으로 <strong>전세신탁 제도</strong>를 2026년 하반기부터 도입할 계획입니다.</p>
+
+  <table>
+    <thead>
+      <tr><th>구분</th><th>기존 보증보험</th><th>전세신탁(2026 도입 예정)</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>작동 방식</strong></td><td>사고 발생 후 보증기관이 대위변제</td><td>보증금 일부를 미리 신탁 예치 → 사고 시 즉시 반환</td></tr>
+      <tr><td><strong>적용 대상</strong></td><td>임차인 자발적 가입</td><td>초기에는 민간임대사업자 대상 선택제</td></tr>
+      <tr><td><strong>보증료 부담</strong></td><td>임차인이 전액 부담</td><td>예치 금액만큼 보증료 절감 (임대인 인센티브)</td></tr>
+      <tr><td><strong>일정</strong></td><td>-</td><td>2026년 2분기 시행령 개정 → 하반기 시행</td></tr>
+    </tbody>
+  </table>
+  <p class="small">※ 전세신탁 제도는 시행령 개정 진행 중이며, 세부 내용은 변경될 수 있습니다. 국토교통부 공고를 확인하세요.</p>
+
+  <h2 id="how">6) 신청 방법</h2>
+
+  <h3>STEP 1. 전세보증금 반환보증 가입</h3>
+  <ol>
+    <li><strong>전입신고 + 확정일자</strong>: 주민센터에서 전입신고 후 확정일자 받기 (온라인도 가능)</li>
+    <li><strong>기관 선택</strong>: HUG / HF / SGI 중 본인 상황에 맞는 기관 선택 (위 빠른 판단 가이드 참고)</li>
+    <li><strong>서류 준비</strong>: 임대차계약서, 등기부등본, 주민등록등본, 보증금 납부 영수증 등</li>
+    <li><strong>신청</strong>: HUG 앱·홈페이지 / HF 은행 지점·홈페이지 / SGI 홈페이지에서 접수</li>
+    <li><strong>심사 → 보증서 발급</strong>: 주택 감정·권리분석 후 보증서 발급 (보통 3~7영업일)</li>
+  </ol>
+
+  <h3>STEP 2. 보증료 환급 신청</h3>
+  <ol>
+    <li><strong>보증 가입 완료 확인</strong>: 보증서와 보증료 납부 영수증 확보</li>
+    <li><strong>정부24 접속</strong>: '전세보증금 반환보증 보증료 지원' 검색</li>
+    <li><strong>신청서 작성</strong>: 인적사항, 보증 정보, 계좌 정보 입력</li>
+    <li><strong>서류 첨부</strong>: 보증서 사본, 보증료 납부 증빙, 임대차계약서, 소득증명 등</li>
+    <li><strong>환급 수령</strong>: 지자체 심사 후 본인 계좌로 입금 (약 2~4주 소요)</li>
+  </ol>
+
+  <div class="btns">
+    <a class="btn" href="https://www.gov.kr" target="_blank" rel="noopener">정부24 보증료 환급 신청</a>
+    <a class="btn secondary" href="https://www.khug.or.kr/jeonse" target="_blank" rel="noopener">HUG 안심전세 포털</a>
+  </div>
+
+  <div class="ad">{광고 위치 3: 신청 방법 끝}</div>
+
+  <h2 id="docs">7) 서류 체크리스트</h2>
+  <h3>기본 서류 (보증 가입 시)</h3>
+  <ul>
+    <li>임대차계약서 사본</li>
+    <li>전세금 지급 영수증 (계약금 5% 이상 납부 확인)</li>
+    <li>주민등록등본 (전입신고 확인용)</li>
+    <li>전입신고 및 확정일자 확인서</li>
+    <li>건물 등기사항전부증명서 (등기부등본)</li>
+    <li>신분증 사본</li>
+  </ul>
+  <h3>보증료 환급 신청 시 추가 서류</h3>
+  <ul>
+    <li>보증서 사본 (HUG/HF/SGI 발급분)</li>
+    <li>보증료 납부 영수증 (HF 가입자는 별도 발급 필요)</li>
+    <li>소득금액증명서 (국세청 홈택스 발급)</li>
+    <li>본인 명의 통장 사본</li>
+  </ul>
+  <h3>상황별 추가</h3>
+  <ul>
+    <li><strong>신혼부부</strong>: 혼인관계증명서</li>
+    <li><strong>청년</strong>: 별도 추가 서류 없음 (주민등록등본으로 연령 확인)</li>
+    <li><strong>HF 가입자</strong>: 보증료 납부 증빙 별도 발급 (HF 고객센터 또는 취급 은행)</li>
+  </ul>
+
+  <h2 id="case">8) 경험/사례</h2>
+  <ul>
+    <li><strong>신청 소요 시간</strong>: HUG 앱으로 보증 가입 신청 시 서류 업로드까지 약 20분, 보증서 발급까지 5영업일 소요</li>
+    <li><strong>헷갈렸던 포인트</strong>: HF 보증료 납부 영수증을 은행에서 따로 받아야 하는데, 이걸 모르고 보증서만 가지고 환급 신청했다가 보완 요청을 받음</li>
+    <li><strong>비용 실감</strong>: 보증금 2억 5천만원 기준 HUG 보증료 약 64만원 납부 → 청년 할인 10% 적용 후 약 57만 6천원 → 보증료 지원으로 40만원 환급 → 실부담 약 17만 6천원</li>
+  </ul>
+
+  <div class="tips">
+    <strong>실전 팁</strong><br/>
+    보증 가입할 때 등기부등본은 발급일 기준 1개월 이내여야 합니다. 미리 떼둔 것이 기한이 지나 다시 발급하는 경우가 꽤 있으니, 신청 직전에 인터넷등기소에서 새로 발급하는 게 안전합니다.
+  </div>
+
+  <h2 id="faq">9) FAQ</h2>
+
+  <h3>가입 거절 사유 TOP 5</h3>
+  <ol>
+    <li><strong>LTV 초과</strong> — 선순위 채권(근저당) + 보증금 합계가 주택가격의 기준 비율을 넘는 경우 (HUG 60%, HF 90%)</li>
+    <li><strong>신청 기한 경과</strong> — 계약기간 절반이 지난 후 신청 (HUG·HF), 계약일로부터 10개월 초과 (SGI)</li>
+    <li><strong>전입신고·확정일자 미비</strong> — 이사 후 전입신고를 하지 않았거나 확정일자를 받지 않은 경우</li>
+    <li><strong>보증금 한도 초과</strong> — 수도권 7억원 / 비수도권 5억원 초과 주택(HUG·HF 해당)</li>
+    <li><strong>등록임대사업자 주택 거주</strong> — 임대사업자가 이미 보증보험에 가입 의무가 있는 경우 중복 가입 불가</li>
+  </ol>
+
+  <h3>중복수급·예외 조건</h3>
+  <ul>
+    <li><strong>보증 중복 가입</strong>: 동일 주택에 HUG·HF·SGI 중복 가입은 불가. 1개 기관만 선택</li>
+    <li><strong>보증료 지원 중복</strong>: 국토부 사업과 지자체 사업은 통합 운영되어 이중 수급 불가</li>
+    <li><strong>갱신 계약</strong>: 전세 갱신 시 보증도 재가입해야 하며, 보증료 지원도 다시 신청 가능</li>
+    <li><strong>외국인·재외국민</strong>: 대부분 지자체에서 지원 대상에서 제외</li>
+  </ul>
+
+  <h3>자주 묻는 질문</h3>
+  <p class="q">Q1. 집주인 동의 없이도 보증에 가입할 수 있나요?</p>
+  <p class="a">네, 전세보증금 반환보증은 임차인 단독으로 가입할 수 있습니다. 다만 HUG의 경우 임대인의 보증금반환 채권양도 약정 동의가 필요할 수 있으니 기관에 확인하세요.</p>
+
+  <p class="q">Q2. 보증 가입 후 이사하면 어떻게 되나요?</p>
+  <p class="a">해당 주택에서 퇴거하면 보증 효력이 종료됩니다. 새 주택에서 다시 가입해야 하며, 미사용 기간에 대한 보증료 일부가 환급될 수 있습니다.</p>
+
+  <p class="q">Q3. 빌라(다세대주택)도 보증 가입이 가능한가요?</p>
+  <p class="a">네, HUG·HF·SGI 모두 빌라(연립·다세대)를 보증 대상으로 포함합니다. 다만 LTV 기준이 엄격하게 적용되므로 등기부등본의 근저당 설정 내역을 먼저 확인하세요.</p>
+
+  <p class="q">Q4. 보증금이 7억원을 넘으면 어떻게 하나요?</p>
+  <p class="a">SGI는 보증금 한도 제한이 없으므로(비아파트 10억원 이하) SGI를 선택하면 됩니다. 아파트의 경우 금액 제한 없이 가입 가능합니다.</p>
+
+  <p class="q">Q5. 계약기간 절반이 이미 지났는데 가입할 수 있나요?</p>
+  <p class="a">HUG·HF는 불가하지만, SGI는 계약일로부터 10개월 이내라면 가입할 수 있습니다. 기한이 넘었다면 SGI를 확인해보세요.</p>
+
+  <p class="q">Q6. 보증료 환급은 얼마나 걸리나요?</p>
+  <p class="a">정부24로 신청 후 지자체 심사를 거쳐 보통 2~4주 이내에 본인 계좌로 입금됩니다. 서류 보완 요청이 있으면 더 걸릴 수 있습니다.</p>
+
+  <p class="q">Q7. 전세 갱신 시에도 보증료 지원을 다시 받을 수 있나요?</p>
+  <p class="a">네, 갱신 계약에 따라 보증을 재가입하면 보증료 지원도 다시 신청할 수 있습니다. 매 계약 건당 1회 신청 가능합니다.</p>
+
+  <p class="q">Q8. 보증에 가입했는데 집주인이 보증금을 안 돌려주면?</p>
+  <p class="a">임대차 계약 종료 후 보증금을 반환받지 못하면 보증기관에 보증금 지급을 청구합니다. 보증기관이 먼저 보증금을 지급하고, 임대인에게 구상권을 행사합니다.</p>
+
+  <p class="q">Q9. 오피스텔도 보증 가입이 가능한가요?</p>
+  <p class="a">네, HUG·HF·SGI 모두 주거용 오피스텔을 대상으로 합니다. 다만 업무용 오피스텔은 제외될 수 있으니 용도를 확인하세요.</p>
+
+  <p class="q">Q10. 보증료 지원 예산이 소진되면 어떻게 되나요?</p>
+  <p class="a">해당 지자체의 예산이 소진되면 그 해 지원이 중단됩니다. 다음 연도 예산이 편성되면 다시 신청할 수 있으므로 지자체 공고를 확인하세요.</p>
+
+  <h2 id="check">10) 신청 전 1분 체크리스트</h2>
+  <ul>
+    <li>무주택 임차인인가? (주택 소유 시 대상 제외)</li>
+    <li>전입신고 + 확정일자 완료했는가?</li>
+    <li>계약기간 절반이 아직 지나지 않았는가? (SGI는 10개월)</li>
+    <li>선순위 채권 + 보증금이 LTV 기준 이내인가? (등기부등본 확인)</li>
+    <li>임대차계약서, 보증금 납부 영수증, 등기부등본 준비됐는가?</li>
+    <li>보증료 환급 신청을 위한 소득증명서 발급했는가?</li>
+  </ul>
+
+  <div class="btns">
+    <a class="btn" href="https://www.gov.kr" target="_blank" rel="noopener">정부24 바로가기</a>
+    <a class="btn secondary" href="#top">5줄 요약으로 돌아가기</a>
+  </div>
+
+  <p class="small">관련 글: 주거급여 신청 방법과 지급 기준 (2026) / 기초생활수급·차상위 지원 기준 정리</p>
+
+  <div class="tips">
+    <strong>경험담</strong><br/>
+    처음 전세 계약할 때 반환보증이라는 게 있는 줄도 몰랐는데, 주변에서 전세사기 뉴스를 보고 부랴부랴 알아봤어요. 보증료가 부담됐지만 HF 전세지킴 보증이 요율이 낮다는 걸 알고 은행 방문해서 가입했습니다. 정부24에서 환급 신청까지 하고 나니 실제 부담은 10만원대로 줄었어요. 괜히 아꼈다가 보증금 날릴 뻔한 것보다 훨씬 낫다는 생각이 들더라고요.
+  </div>
+
+  <div class="ad">{광고 위치 4: 글 하단}</div>
+
+  <div class="footer" id="update">
+    <strong>업데이트 로그</strong><br/>
+    - 2026-02-26: 최초 작성 — HUG·HF·SGI 비교, 국토부·지자체 보증료 지원, 2026 전세신탁 제도 포함<br/>
+    <span class="small">※ 보증료 지원은 지자체 예산에 따라 조기 소진될 수 있어요. 신청 전 공식 공고/FAQ 확인!</span>
+  </div>
+</div>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <rect x="60" y="60" width="320" height="44" rx="22" fill="#B45309"/>
+  <text x="220" y="90" text-anchor="middle" fill="#FFFFFF" font-size="19" font-weight="800" font-family="sans-serif">2026 종합소득세 신고</text>
+
+  <text x="60" y="200" fill="#FFFFFF" font-size="70" font-weight="800" font-family="sans-serif">5월 종소세</text>
+  <text x="60" y="280" fill="#FCD34D" font-size="52" font-weight="800" font-family="sans-serif">사업자 vs 근로자</text>
+  <text x="60" y="340" fill="#FCD34D" font-size="52" font-weight="800" font-family="sans-serif">환급 전략 비교</text>
+
+  <!-- 3 key cards stacked -->
+  <rect x="60" y="400" width="960" height="180" rx="16" fill="url(#card)" stroke="#B45309" stroke-width="2"/>
+  <text x="90" y="445" fill="#FCD34D" font-size="17" font-weight="700" font-family="sans-serif">신고 기간</text>
+  <text x="90" y="510" fill="#FFFFFF" font-size="50" font-weight="800" font-family="sans-serif">5.1 ~ 6.1</text>
+  <text x="990" y="445" text-anchor="end" fill="#FCA5A5" font-size="16" font-weight="600" font-family="sans-serif">성실신고 6.30까지</text>
+  <text x="990" y="510" text-anchor="end" fill="#CBD5E1" font-size="18" font-family="sans-serif">무신고 가산세 20%</text>
+  <text x="90" y="555" fill="#86EFAC" font-size="15" font-weight="700" font-family="sans-serif">모두채움 대상자 700만 명</text>
+
+  <rect x="60" y="600" width="960" height="180" rx="16" fill="url(#card)" stroke="#B45309" stroke-width="2"/>
+  <text x="90" y="645" fill="#FCD34D" font-size="17" font-weight="700" font-family="sans-serif">연금저축+IRP 세액공제</text>
+  <text x="90" y="710" fill="#FFFFFF" font-size="50" font-weight="800" font-family="sans-serif">최대 148.5만</text>
+  <text x="990" y="645" text-anchor="end" fill="#86EFAC" font-size="16" font-weight="600" font-family="sans-serif">900만 × 16.5%</text>
+  <text x="990" y="710" text-anchor="end" fill="#CBD5E1" font-size="18" font-family="sans-serif">소득 5,500만 이하</text>
+  <text x="90" y="755" fill="#86EFAC" font-size="15" font-weight="700" font-family="sans-serif">사업자·근로자 공통 레버</text>
+
+  <rect x="60" y="800" width="960" height="180" rx="16" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="90" y="845" fill="#86EFAC" font-size="17" font-weight="700" font-family="sans-serif">프리랜서 3,000만 환급</text>
+  <text x="90" y="910" fill="#FFFFFF" font-size="52" font-weight="800" font-family="sans-serif">약 54만 원</text>
+  <text x="990" y="845" text-anchor="end" fill="#86EFAC" font-size="16" font-weight="600" font-family="sans-serif">단순경비율 75%</text>
+  <text x="990" y="910" text-anchor="end" fill="#CBD5E1" font-size="18" font-family="sans-serif">원천 3.3% 초과분</text>
+  <text x="90" y="955" fill="#86EFAC" font-size="15" font-weight="700" font-family="sans-serif">홈택스 모두채움 10분 제출</text>
+
+  <text x="60" y="1040" fill="#64748B" font-size="15" font-family="sans-serif">essencial | 대출·금융 silo · 2026.04 기준</text>
+</svg>

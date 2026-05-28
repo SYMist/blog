@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#F59E0B">2026 은행별 신용대출 금리 비교</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- 헤더 -->
+  <rect x="60" y="130" width="960" height="65" rx="16" fill="rgba(245,158,11,0.15)"/>
+  <text x="200" y="172" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">은행</text>
+  <text x="440" y="172" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">금리 범위 (연)</text>
+  <text x="680" y="172" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">전월 대비</text>
+  <text x="900" y="172" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">중도상환수수료</text>
+
+  <!-- KB -->
+  <rect x="60" y="207" width="960" height="75" rx="0" fill="rgba(255,255,255,0.04)"/>
+  <text x="200" y="253" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">KB국민</text>
+  <text x="440" y="253" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">4.01% ~ 5.38%</text>
+  <text x="680" y="253" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EF4444">+0.25%p</text>
+  <text x="900" y="253" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#94A3B8">0.11~0.18%</text>
+
+  <!-- 신한 -->
+  <rect x="60" y="294" width="960" height="75" rx="0" fill="rgba(59,130,246,0.08)"/>
+  <text x="200" y="340" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">신한</text>
+  <text x="440" y="340" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">3.83% ~ 5.73%</text>
+  <text x="680" y="340" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EF4444">+0.25%p</text>
+  <text x="900" y="340" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#94A3B8">0.13~0.17%</text>
+
+  <!-- 하나 -->
+  <rect x="60" y="381" width="960" height="75" rx="0" fill="rgba(255,255,255,0.04)"/>
+  <text x="200" y="427" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">하나</text>
+  <text x="440" y="427" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">4.01% ~ 5.38%</text>
+  <text x="680" y="427" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EF4444">+0.26%p</text>
+  <text x="900" y="427" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#94A3B8">0.05%</text>
+
+  <!-- 우리 -->
+  <rect x="60" y="468" width="960" height="75" rx="0" fill="rgba(59,130,246,0.08)"/>
+  <text x="200" y="514" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">우리</text>
+  <text x="440" y="514" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">4.01% ~ 5.38%</text>
+  <text x="680" y="514" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EF4444">+0.26%p</text>
+  <text x="900" y="514" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#94A3B8">공시 확인</text>
+
+  <!-- NH -->
+  <rect x="60" y="555" width="960" height="75" rx="0" fill="rgba(255,255,255,0.04)"/>
+  <text x="200" y="601" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">NH농협</text>
+  <text x="440" y="601" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">4.10% ~ 5.50%</text>
+  <text x="680" y="601" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#EF4444">상승세</text>
+  <text x="900" y="601" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#94A3B8">공시 확인</text>
+
+  <!-- 구분선 -->
+  <rect x="60" y="648" width="960" height="4" rx="2" fill="#F59E0B" opacity="0.3"/>
+
+  <!-- 토스 -->
+  <rect x="60" y="664" width="960" height="75" rx="0" fill="rgba(34,197,94,0.06)"/>
+  <text x="200" y="710" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#22C55E">토스뱅크</text>
+  <text x="440" y="710" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">5.15% ~ 15.0%</text>
+  <text x="680" y="710" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#94A3B8">—</text>
+  <rect x="830" y="693" width="140" height="36" rx="18" fill="rgba(34,197,94,0.2)"/>
+  <text x="900" y="718" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#22C55E">0원</text>
+
+  <!-- 카카오 -->
+  <rect x="60" y="751" width="960" height="75" rx="0" fill="rgba(34,197,94,0.12)"/>
+  <text x="200" y="797" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#22C55E">카카오뱅크</text>
+  <text x="440" y="797" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFF">5.18% ~ 15.0%</text>
+  <text x="680" y="797" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#94A3B8">—</text>
+  <rect x="830" y="780" width="140" height="36" rx="18" fill="rgba(34,197,94,0.2)"/>
+  <text x="900" y="805" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#22C55E">0원</text>
+
+  <!-- 하단 요약 -->
+  <rect x="60" y="860" width="960" height="180" rx="20" fill="rgba(245,158,11,0.08)"/>
+  <text x="540" y="910" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#F59E0B">핵심 수치</text>
+  <text x="270" y="970" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="42" font-weight="900" fill="#FFF">4.01%</text>
+  <text x="270" y="1010" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#EAF2FF">시중은행 최저</text>
+  <text x="540" y="970" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="42" font-weight="900" fill="#FFF">1.6%p↓</text>
+  <text x="540" y="1010" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#EAF2FF">대환 평균 인하</text>
+  <text x="810" y="970" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="42" font-weight="900" fill="#FFF">61만</text>
+  <text x="810" y="1010" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="600" fill="#EAF2FF">연간 절감(원)</text>
+</svg>

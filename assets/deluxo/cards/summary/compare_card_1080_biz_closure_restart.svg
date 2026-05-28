@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><filter id="s" x="-4%" y="-4%" width="108%" height="108%"><feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#000" flood-opacity="0.08"/></filter></defs>
+  <rect width="1080" height="1080" rx="32" fill="#F0F4FA"/>
+  <rect x="40" y="40" width="1000" height="1000" rx="24" fill="#FFF" filter="url(#s)"/>
+  <rect x="40" y="40" width="1000" height="100" rx="24" fill="#7C3AED"/><rect x="40" y="95" width="1000" height="45" fill="#7C3AED"/>
+  <text x="540" y="103" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="38" font-weight="800" fill="#FFF">희망리턴패키지 전체 구성 (2026)</text>
+
+  <!-- Total -->
+  <rect x="80" y="180" width="920" height="70" rx="14" fill="#EDE9FE"/>
+  <text x="540" y="225" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="800" fill="#7C3AED">폐업 → 정리 → 재기까지 한 번에 지원</text>
+
+  <!-- Flow chart style -->
+  <!-- Step 1 -->
+  <rect x="80" y="285" width="920" height="130" rx="16" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+  <rect x="100" y="305" width="60" height="60" rx="30" fill="#1D4ED8"/>
+  <text x="130" y="345" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#FFF">1</text>
+  <text x="190" y="330" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#1D4ED8">원스톱폐업지원</text>
+  <text x="190" y="365" font-family="'Pretendard',sans-serif" font-size="22" fill="#111827">점포철거비 최대 600만원 + 컨설팅 3분야 + 법률·채무조정</text>
+  <text x="190" y="395" font-family="'Pretendard',sans-serif" font-size="20" fill="#6B7280">신청: 소상공인24 (sbiz24.kr) | 2026.01~ 상시 접수</text>
+
+  <!-- Arrow -->
+  <text x="540" y="440" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" fill="#9CA3AF">▼</text>
+
+  <!-- Step 2 -->
+  <rect x="80" y="455" width="440" height="180" rx="16" fill="#F0FDF4" stroke="#BBF7D0" stroke-width="1.5"/>
+  <rect x="100" y="475" width="60" height="60" rx="30" fill="#059669"/>
+  <text x="130" y="515" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#FFF">2A</text>
+  <text x="190" y="500" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#059669">취업 전환</text>
+  <text x="100" y="545" font-family="'Pretendard',sans-serif" font-size="22" fill="#111827">직무교육 + 일경험 연계</text>
+  <text x="100" y="578" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#DC2626">전직장려수당 100만원</text>
+  <text x="100" y="610" font-family="'Pretendard',sans-serif" font-size="18" fill="#6B7280">수료 60만 + 근속30일 40만</text>
+
+  <!-- Step 2B -->
+  <rect x="560" y="455" width="440" height="180" rx="16" fill="#F5F3FF" stroke="#DDD6FE" stroke-width="1.5"/>
+  <rect x="580" y="475" width="60" height="60" rx="30" fill="#7C3AED"/>
+  <text x="610" y="515" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#FFF">2B</text>
+  <text x="670" y="500" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#7C3AED">재창업</text>
+  <text x="580" y="545" font-family="'Pretendard',sans-serif" font-size="22" fill="#111827">전문가 진단 + 멘토링</text>
+  <text x="580" y="578" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#DC2626">사업화자금 최대 2,000만원</text>
+  <text x="580" y="610" font-family="'Pretendard',sans-serif" font-size="18" fill="#6B7280">정부:자부담 2:1 매칭</text>
+
+  <!-- OR text -->
+  <text x="540" y="550" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#9CA3AF">or</text>
+
+  <!-- Arrow -->
+  <text x="540" y="665" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" fill="#9CA3AF">▼</text>
+
+  <!-- 총 혜택 합산 -->
+  <rect x="80" y="680" width="920" height="120" rx="16" fill="#FEF3C7" stroke="#FDE68A" stroke-width="1.5"/>
+  <text x="540" y="725" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#92400E">총 혜택 합산 (최대치 기준)</text>
+  <text x="540" y="770" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" fill="#111827">철거비 600만 + 전직장려수당 100만 + 재창업 2,000만 = <tspan font-weight="800" fill="#DC2626">최대 2,700만원</tspan></text>
+
+  <!-- 주요 조건 -->
+  <text x="100" y="845" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#374151">핵심 주의사항</text>
+  <line x1="80" y1="865" x2="1000" y2="865" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="100" y="900" font-family="'Pretendard',sans-serif" font-size="22" fill="#DC2626">⚠ 철거비: 반드시 승인 후 철거 (자력철거 불가)</text>
+  <text x="100" y="935" font-family="'Pretendard',sans-serif" font-size="22" fill="#DC2626">⚠ 재기사업화: 자부담금 현금 30% 이상 준비 필수</text>
+  <text x="100" y="970" font-family="'Pretendard',sans-serif" font-size="22" fill="#DC2626">⚠ 전 프로그램 선착순 예산 소진 방식</text>
+
+  <!-- Footer -->
+  <rect x="80" y="1000" width="920" height="5" rx="2" fill="#7C3AED"/>
+</svg>

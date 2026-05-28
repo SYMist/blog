@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EFF6FF"/>
+      <stop offset="100%" stop-color="#F0F9FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg2)"/>
+
+  <text x="540" y="60" font-family="sans-serif" font-size="32" font-weight="900" fill="#111827" text-anchor="middle">배기량별 세액 · 1월 연납 절감액 매트릭스</text>
+  <text x="540" y="95" font-family="sans-serif" font-size="20" fill="#6B7280" text-anchor="middle">2026년 기준 | 비영업용 승용차 | 지방교육세 포함</text>
+
+  <!-- 헤더 -->
+  <rect x="40" y="120" width="1000" height="55" rx="12" fill="#1E40AF"/>
+  <text x="130" y="155" font-family="sans-serif" font-size="18" font-weight="800" fill="#FFF" text-anchor="middle">차종</text>
+  <text x="290" y="155" font-family="sans-serif" font-size="18" font-weight="800" fill="#FFF" text-anchor="middle">배기량</text>
+  <text x="440" y="155" font-family="sans-serif" font-size="18" font-weight="800" fill="#FFF" text-anchor="middle">cc당 세율</text>
+  <text x="600" y="155" font-family="sans-serif" font-size="18" font-weight="800" fill="#FFF" text-anchor="middle">연간 세액</text>
+  <text x="760" y="155" font-family="sans-serif" font-size="18" font-weight="800" fill="#FFF" text-anchor="middle">1월 연납 할인</text>
+  <text x="920" y="155" font-family="sans-serif" font-size="18" font-weight="800" fill="#FFF" text-anchor="middle">실납부액</text>
+
+  <!-- 경차 -->
+  <rect x="40" y="180" width="1000" height="60" rx="0" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="130" y="216" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="middle">경차 (모닝)</text>
+  <text x="290" y="216" font-family="sans-serif" font-size="18" fill="#111827" text-anchor="middle">998cc</text>
+  <text x="440" y="216" font-family="sans-serif" font-size="18" fill="#111827" text-anchor="middle">104원</text>
+  <text x="600" y="216" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="middle">103,792원</text>
+  <text x="760" y="216" font-family="sans-serif" font-size="18" font-weight="700" fill="#059669" text-anchor="middle">-4,753원</text>
+  <text x="920" y="216" font-family="sans-serif" font-size="18" font-weight="800" fill="#1E40AF" text-anchor="middle">99,039원</text>
+
+  <!-- 준중형 -->
+  <rect x="40" y="245" width="1000" height="60" rx="0" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="130" y="281" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="middle">아반떼</text>
+  <text x="290" y="281" font-family="sans-serif" font-size="18" fill="#111827" text-anchor="middle">1,598cc</text>
+  <text x="440" y="281" font-family="sans-serif" font-size="18" fill="#111827" text-anchor="middle">182원</text>
+  <text x="600" y="281" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="middle">290,836원</text>
+  <text x="760" y="281" font-family="sans-serif" font-size="18" font-weight="700" fill="#059669" text-anchor="middle">-13,318원</text>
+  <text x="920" y="281" font-family="sans-serif" font-size="18" font-weight="800" fill="#1E40AF" text-anchor="middle">277,518원</text>
+
+  <!-- 중형 -->
+  <rect x="40" y="310" width="1000" height="60" rx="0" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1.5"/>
+  <text x="130" y="346" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="middle">쏘나타</text>
+  <text x="290" y="346" font-family="sans-serif" font-size="18" fill="#111827" text-anchor="middle">1,998cc</text>
+  <text x="440" y="346" font-family="sans-serif" font-size="18" fill="#111827" text-anchor="middle">260원</text>
+  <text x="600" y="346" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="middle">519,480원</text>
+  <text x="760" y="346" font-family="sans-serif" font-size="20" font-weight="900" fill="#059669" text-anchor="middle">-23,782원</text>
+  <text x="920" y="346" font-family="sans-serif" font-size="18" font-weight="800" fill="#1E40AF" text-anchor="middle">495,698원</text>
+
+  <!-- 대형 -->
+  <rect x="40" y="375" width="1000" height="60" rx="0" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="130" y="411" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="middle">그랜저</text>
+  <text x="290" y="411" font-family="sans-serif" font-size="18" fill="#111827" text-anchor="middle">2,497cc</text>
+  <text x="440" y="411" font-family="sans-serif" font-size="18" fill="#111827" text-anchor="middle">260원</text>
+  <text x="600" y="411" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="middle">649,220원</text>
+  <text x="760" y="411" font-family="sans-serif" font-size="18" font-weight="700" fill="#059669" text-anchor="middle">-29,718원</text>
+  <text x="920" y="411" font-family="sans-serif" font-size="18" font-weight="800" fill="#1E40AF" text-anchor="middle">619,502원</text>
+
+  <!-- 전기차 -->
+  <rect x="40" y="440" width="1000" height="60" rx="0" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+  <text x="130" y="476" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="middle">전기차</text>
+  <text x="290" y="476" font-family="sans-serif" font-size="18" fill="#6B7280" text-anchor="middle">정액</text>
+  <text x="440" y="476" font-family="sans-serif" font-size="18" fill="#6B7280" text-anchor="middle">-</text>
+  <text x="600" y="476" font-family="sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="middle">130,000원</text>
+  <text x="760" y="476" font-family="sans-serif" font-size="18" font-weight="700" fill="#059669" text-anchor="middle">-5,954원</text>
+  <text x="920" y="476" font-family="sans-serif" font-size="18" font-weight="800" fill="#1E40AF" text-anchor="middle">124,046원</text>
+
+  <!-- 차령 경감 테이블 -->
+  <rect x="40" y="540" width="1000" height="200" rx="20" fill="#FFF" stroke="#BFDBFE" stroke-width="1.5"/>
+  <text x="540" y="575" font-family="sans-serif" font-size="22" font-weight="900" fill="#1E40AF" text-anchor="middle">차령 경감 제도 (3년차부터 적용)</text>
+
+  <rect x="70" y="595" width="120" height="40" rx="10" fill="#EFF6FF"/>
+  <text x="130" y="621" font-family="sans-serif" font-size="15" font-weight="700" fill="#1E40AF" text-anchor="middle">3년차: -5%</text>
+  <rect x="205" y="595" width="120" height="40" rx="10" fill="#EFF6FF"/>
+  <text x="265" y="621" font-family="sans-serif" font-size="15" font-weight="700" fill="#1E40AF" text-anchor="middle">5년차: -15%</text>
+  <rect x="340" y="595" width="120" height="40" rx="10" fill="#EFF6FF"/>
+  <text x="400" y="621" font-family="sans-serif" font-size="15" font-weight="700" fill="#1E40AF" text-anchor="middle">7년차: -25%</text>
+  <rect x="475" y="595" width="120" height="40" rx="10" fill="#EFF6FF"/>
+  <text x="535" y="621" font-family="sans-serif" font-size="15" font-weight="700" fill="#1E40AF" text-anchor="middle">9년차: -35%</text>
+  <rect x="610" y="595" width="135" height="40" rx="10" fill="#ECFDF5"/>
+  <text x="678" y="621" font-family="sans-serif" font-size="15" font-weight="700" fill="#059669" text-anchor="middle">12년차+: -50%</text>
+
+  <text x="540" y="670" font-family="sans-serif" font-size="17" fill="#111827" text-anchor="middle">예: 쏘나타 12년차 → 519,480 × 50% = 259,740원</text>
+  <text x="540" y="700" font-family="sans-serif" font-size="17" fill="#111827" text-anchor="middle">→ 1월 연납 시: 259,740 - 11,891 = <tspan font-weight="800" fill="#059669">247,849원</tspan> (신차 대비 약 54% 절약)</text>
+
+  <!-- 카드사 비교 -->
+  <rect x="40" y="770" width="1000" height="180" rx="20" fill="#FFF" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="540" y="805" font-family="sans-serif" font-size="22" font-weight="900" fill="#1E40AF" text-anchor="middle">카드사별 무이자 할부 기간</text>
+
+  <rect x="70" y="825" width="220" height="50" rx="12" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1"/>
+  <text x="180" y="848" font-family="sans-serif" font-size="16" font-weight="800" fill="#065F46" text-anchor="middle">NH농협: 2~6개월</text>
+  <text x="180" y="868" font-family="sans-serif" font-size="13" fill="#065F46" text-anchor="middle">부분: ~24개월</text>
+
+  <rect x="310" y="825" width="220" height="50" rx="12" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1"/>
+  <text x="420" y="848" font-family="sans-serif" font-size="16" font-weight="800" fill="#065F46" text-anchor="middle">BC: 2~5개월</text>
+  <text x="420" y="868" font-family="sans-serif" font-size="13" fill="#065F46" text-anchor="middle">부분: ~12개월</text>
+
+  <rect x="550" y="825" width="220" height="50" rx="12" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1"/>
+  <text x="660" y="848" font-family="sans-serif" font-size="16" font-weight="800" fill="#065F46" text-anchor="middle">롯데: 2~5개월</text>
+  <text x="660" y="868" font-family="sans-serif" font-size="13" fill="#065F46" text-anchor="middle">부분 무이자 없음</text>
+
+  <rect x="790" y="825" width="220" height="50" rx="12" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+  <text x="900" y="848" font-family="sans-serif" font-size="16" font-weight="800" fill="#1E40AF" text-anchor="middle">신한/KB/삼성/현대/하나</text>
+  <text x="900" y="868" font-family="sans-serif" font-size="13" fill="#1E40AF" text-anchor="middle">공통: 2~3개월</text>
+
+  <text x="540" y="925" font-family="sans-serif" font-size="15" fill="#DC2626" text-anchor="middle">주의: 무이자 할부 시 포인트·마일리지 적립 불가 (대부분 카드사)</text>
+
+  <text x="540" y="1010" font-family="sans-serif" font-size="16" fill="#9CA3AF" text-anchor="middle">2026년 3월 기준 | 지방세법·각 카드사 공지 기반</text>
+  <text x="540" y="1040" font-family="sans-serif" font-size="16" fill="#9CA3AF" text-anchor="middle">카드사 프로모션은 분기별로 변동될 수 있습니다</text>
+</svg>

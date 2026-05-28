@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <text x="540" y="140" font-family="'Pretendard', sans-serif" font-size="46" font-weight="900" fill="#F59E0B" text-anchor="middle">2026 종소세 환급 총정리</text>
+
+  <text x="540" y="230" font-family="'Pretendard', sans-serif" font-size="60" font-weight="900" fill="#FFFFFF" text-anchor="middle">환급·경정청구·경비</text>
+  <text x="540" y="310" font-family="'Pretendard', sans-serif" font-size="44" font-weight="600" fill="#EAF2FF" text-anchor="middle">한 번에 정리</text>
+
+  <rect x="60" y="380" width="310" height="240" rx="24" fill="#1A3270"/>
+  <text x="215" y="435" font-family="'Pretendard', sans-serif" font-size="30" font-weight="800" fill="#F59E0B" text-anchor="middle">환급가산금</text>
+  <text x="215" y="500" font-family="'Pretendard', sans-serif" font-size="44" font-weight="900" fill="#FFFFFF" text-anchor="middle">연 3.1%</text>
+  <text x="215" y="548" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF" text-anchor="middle">2024 3.5% → 인하</text>
+  <text x="215" y="590" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF" text-anchor="middle">승소 후 40일 초과 1.5배</text>
+
+  <rect x="385" y="380" width="310" height="240" rx="24" fill="#1A3270"/>
+  <text x="540" y="435" font-family="'Pretendard', sans-serif" font-size="30" font-weight="800" fill="#F59E0B" text-anchor="middle">경정청구</text>
+  <text x="540" y="500" font-family="'Pretendard', sans-serif" font-size="44" font-weight="900" fill="#FFFFFF" text-anchor="middle">5년 이내</text>
+  <text x="540" y="548" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF" text-anchor="middle">심사 2개월</text>
+  <text x="540" y="590" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF" text-anchor="middle">후발적 사유 3개월</text>
+
+  <rect x="710" y="380" width="310" height="240" rx="24" fill="#1A3270"/>
+  <text x="865" y="435" font-family="'Pretendard', sans-serif" font-size="30" font-weight="800" fill="#F59E0B" text-anchor="middle">환급 입금</text>
+  <text x="865" y="500" font-family="'Pretendard', sans-serif" font-size="44" font-weight="900" fill="#FFFFFF" text-anchor="middle">6월 말</text>
+  <text x="865" y="548" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF" text-anchor="middle">5월 정기신고 기준</text>
+  <text x="865" y="590" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF" text-anchor="middle">경정청구 결정+30일</text>
+
+  <rect x="60" y="660" width="960" height="100" rx="20" fill="#F59E0B"/>
+  <text x="540" y="705" font-family="'Pretendard', sans-serif" font-size="34" font-weight="900" fill="#0B1F3B" text-anchor="middle">적격증빙 3만 원 · 추진비 1만 원</text>
+  <text x="540" y="745" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#0B1F3B" text-anchor="middle">위반 시 증빙불비 2% 가산세</text>
+
+  <rect x="60" y="790" width="300" height="80" rx="16" fill="#10B981"/>
+  <text x="210" y="840" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF" text-anchor="middle">업무용차 1,500만</text>
+
+  <rect x="390" y="790" width="300" height="80" rx="16" fill="#10B981"/>
+  <text x="540" y="840" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF" text-anchor="middle">추진비 3,600만</text>
+
+  <rect x="720" y="790" width="300" height="80" rx="16" fill="#10B981"/>
+  <text x="870" y="840" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF" text-anchor="middle">IRP 900만</text>
+
+  <rect x="60" y="900" width="960" height="140" rx="20" fill="#1A3270"/>
+  <text x="540" y="950" font-family="'Pretendard', sans-serif" font-size="30" font-weight="800" fill="#F59E0B" text-anchor="middle">월세·중기취업자 감면 5년 소급 가능</text>
+  <text x="540" y="1000" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF" text-anchor="middle">연말정산 누락분 홈택스에서 한 번에 회복</text>
+</svg>

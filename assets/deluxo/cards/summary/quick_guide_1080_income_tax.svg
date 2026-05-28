@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="80" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="800" fill="#F59E0B">단순경비율 vs 기준경비율 빠른 판단</text>
+  <rect x="60" y="110" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- 헤더 -->
+  <rect x="60" y="145" width="300" height="60" rx="0" fill="rgba(255,255,255,0.12)"/>
+  <text x="210" y="183" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#FFF">구분</text>
+  <rect x="360" y="145" width="330" height="60" rx="0" fill="rgba(34,197,94,0.2)"/>
+  <text x="525" y="183" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#22C55E">단순경비율</text>
+  <rect x="690" y="145" width="330" height="60" rx="0" fill="rgba(239,68,68,0.15)"/>
+  <text x="855" y="183" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#EF4444">기준경비율</text>
+
+  <!-- 경비 인정 -->
+  <rect x="60" y="215" width="300" height="90" rx="0" fill="rgba(255,255,255,0.06)"/>
+  <text x="210" y="268" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">경비 인정</text>
+  <rect x="360" y="215" width="330" height="90" rx="0" fill="rgba(255,255,255,0.03)"/>
+  <text x="525" y="255" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#22C55E">매출의 60~70%</text>
+  <text x="525" y="285" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">자동 인정</text>
+  <rect x="690" y="215" width="330" height="90" rx="0" fill="rgba(255,255,255,0.03)"/>
+  <text x="855" y="255" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#EF4444">매출의 10~20%</text>
+  <text x="855" y="285" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">+ 적격증빙만 추가</text>
+
+  <!-- 대상 기준 -->
+  <rect x="60" y="315" width="300" height="90" rx="0" fill="rgba(255,255,255,0.06)"/>
+  <text x="210" y="368" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">대상 기준</text>
+  <rect x="360" y="315" width="330" height="90" rx="0" fill="rgba(255,255,255,0.03)"/>
+  <text x="525" y="355" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">직전연도 수입</text>
+  <text x="525" y="385" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#22C55E">2,400만원 이하</text>
+  <rect x="690" y="315" width="330" height="90" rx="0" fill="rgba(255,255,255,0.03)"/>
+  <text x="855" y="355" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">직전연도 수입</text>
+  <text x="855" y="385" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#EF4444">2,400만원 초과</text>
+
+  <!-- 증빙 -->
+  <rect x="60" y="415" width="300" height="80" rx="0" fill="rgba(255,255,255,0.06)"/>
+  <text x="210" y="463" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">증빙 필요</text>
+  <rect x="360" y="415" width="330" height="80" rx="0" fill="rgba(255,255,255,0.03)"/>
+  <text x="525" y="463" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#22C55E">불필요</text>
+  <rect x="690" y="415" width="330" height="80" rx="0" fill="rgba(255,255,255,0.03)"/>
+  <text x="855" y="463" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#EF4444">적격증빙 필수</text>
+
+  <!-- 세금 부담 -->
+  <rect x="60" y="505" width="300" height="80" rx="0" fill="rgba(255,255,255,0.06)"/>
+  <text x="210" y="553" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">세금 부담</text>
+  <rect x="360" y="505" width="330" height="80" rx="0" fill="rgba(255,255,255,0.03)"/>
+  <text x="525" y="543" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#22C55E">낮음</text>
+  <text x="525" y="573" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="700" fill="#F59E0B">환급 가능성 높음</text>
+  <rect x="690" y="505" width="330" height="80" rx="0" fill="rgba(255,255,255,0.03)"/>
+  <text x="855" y="543" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#EF4444">높음</text>
+  <text x="855" y="573" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" fill="#EAF2FF">추가 납부 가능성</text>
+
+  <!-- 신고 난이도 -->
+  <rect x="60" y="595" width="300" height="80" rx="0" fill="rgba(255,255,255,0.06)"/>
+  <text x="210" y="643" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">신고 난이도</text>
+  <rect x="360" y="595" width="330" height="80" rx="0" fill="rgba(34,197,94,0.1)"/>
+  <text x="525" y="643" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#22C55E">쉬움 (셀프 가능)</text>
+  <rect x="690" y="595" width="330" height="80" rx="0" fill="rgba(239,68,68,0.1)"/>
+  <text x="855" y="643" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#EF4444">세무사 권장</text>
+
+  <!-- 환급 시뮬레이션 -->
+  <rect x="60" y="715" width="960" height="140" rx="20" fill="rgba(34,197,94,0.12)"/>
+  <text x="540" y="760" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#22C55E">단순경비율 프리랜서 환급 시뮬레이션</text>
+  <text x="540" y="800" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" fill="#FFF">연소득 2,400만원 → 원천징수 79.2만원 → 실제 세액 42.7만원</text>
+  <text x="540" y="835" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#F59E0B">약 36.5만원 환급 (환급률 46%)</text>
+
+  <!-- 판단 기준 -->
+  <rect x="60" y="885" width="960" height="90" rx="20" fill="rgba(245,158,11,0.15)"/>
+  <text x="540" y="925" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#F59E0B">2024년 수입 2,400만원 이하 → 단순경비율</text>
+  <text x="540" y="960" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">초과 → 기준경비율 (장부 기장 적극 고려)</text>
+
+  <rect x="60" y="1010" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

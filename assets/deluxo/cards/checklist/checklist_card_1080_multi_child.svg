@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#F59E0B">다자녀(2자녀) 혜택 신청 전 1분 체크리스트</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <rect x="60" y="120" width="960" height="85" rx="16" fill="rgba(239,68,68,0.08)"/>
+  <rect x="80" y="140" width="40" height="40" rx="8" fill="rgba(239,68,68,0.3)" stroke="#EF4444" stroke-width="2"/>
+  <text x="100" y="168" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#EF4444">!</text>
+  <text x="140" y="168" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">미성년 자녀 2명 이상 = 다자녀 확인</text>
+
+  <rect x="60" y="217" width="960" height="85" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="237" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="265" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="265" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">정부24에서 거주지 기준 혜택 목록 확인</text>
+
+  <rect x="60" y="314" width="960" height="85" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="334" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="362" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="362" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">주택 특별공급 가점 산정 (미성년 25점 + 영유아 가점)</text>
+
+  <rect x="60" y="411" width="960" height="85" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="431" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="459" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="459" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">디딤돌 대출 소득 요건 확인 (부부합산 7,000만 원↓)</text>
+
+  <rect x="60" y="508" width="960" height="85" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="528" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="556" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="556" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">자동차 구매 시 취득세 감면 사전 신청 (등록 전 필수!)</text>
+
+  <rect x="60" y="605" width="960" height="85" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="625" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="653" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="653" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">국가장학금 다자녀 유형 신청 기한 확인 (1학기 2~3월)</text>
+
+  <rect x="60" y="702" width="960" height="85" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="722" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="750" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="750" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">K-패스 앱에서 다자녀 유형 등록</text>
+
+  <rect x="60" y="799" width="960" height="85" rx="16" fill="rgba(59,130,246,0.12)"/>
+  <rect x="80" y="819" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="847" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="847" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">전기·가스·수도 요금 감면 신청 (이사 시 재신청 필수)</text>
+
+  <rect x="60" y="896" width="960" height="85" rx="16" fill="rgba(255,255,255,0.04)"/>
+  <rect x="80" y="916" width="40" height="40" rx="8" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="2"/>
+  <text x="100" y="944" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">✓</text>
+  <text x="140" y="944" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFF">보육수당 비과세 자녀 수 회사에 정확히 신고</text>
+
+  <rect x="60" y="1000" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

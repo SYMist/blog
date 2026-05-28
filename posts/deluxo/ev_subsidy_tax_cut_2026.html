@@ -1,0 +1,398 @@
+<!-- ev_subsidy_tax_cut_2026.html -->
+<!-- ✅ 티스토리 HTML 모드: 통째로 붙여넣고 이미지 삽입 후 발행 -->
+
+<!-- ✅ Schema.org 구조화 데이터 -->
+<div style="display:none">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "전기차 보조금·취득세 감면 총정리 (2026)",
+      "description": "전기차 개인 구매 국비보조금 최대 580만원·지방보조금·취득세 최대 140만원·개소세 최대 300만원 — 신청 조건·금액·절차 총정리.",
+      "datePublished": "2026-05-20",
+      "dateModified": "2026-05-20",
+      "author": {"@type": "Person", "name": "deluxo"},
+      "publisher": {"@type": "Organization", "name": "deluxo"}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "전기차 보조금 국비는 얼마인가요?", "acceptedAnswer": {"@type": "Answer", "text": "2026년 기준 중·대형 전기승용차는 국비 최대 580만원입니다. 소형은 530만원, 초소형은 200만원이며, 내연차를 3년 이상 보유 후 처분하면 전환지원금 100만원이 추가됩니다."}},
+        {"@type": "Question", "name": "하이브리드도 전기차 보조금을 받을 수 있나요?", "acceptedAnswer": {"@type": "Answer", "text": "하이브리드 차량은 국비보조금 및 지방보조금 대상이 아닙니다. 개별소비세(개소세) 감면은 최대 70만원으로 2026.12.31까지 유지되지만, 취득세 감면은 2024.12.31 종료되어 현재 미적용입니다."}},
+        {"@type": "Question", "name": "전기차 취득세 감면은 얼마나 되나요?", "acceptedAnswer": {"@type": "Answer", "text": "2026년 기준 전기차 취득세는 최대 140만원 공제됩니다. 개별소비세 감면은 최대 300만원으로, 세제 혜택만 합산해도 최대 약 569만원이 절감됩니다. 두 혜택 모두 2026.12.31까지 적용됩니다."}},
+        {"@type": "Question", "name": "전기차 보조금 신청은 어디서 하나요?", "acceptedAnswer": {"@type": "Answer", "text": "국비보조금은 무공해차 통합 누리집(ev.or.kr) 또는 구매 딜러사를 통해 신청합니다. 지방보조금은 해당 지방자치단체에 별도 신청해야 하며, 차량 등록 후 10일 이내 서류를 제출해야 합니다."}},
+        {"@type": "Question", "name": "보조금 받은 전기차를 빨리 팔면 어떻게 되나요?", "acceptedAnswer": {"@type": "Answer", "text": "보조금 수령 후 2년 이내에 차량을 판매·폐차하면 보조금 전액이 환수됩니다. 2년 이후에는 환수 규정이 적용되지 않습니다."}}
+      ]
+    }
+  ]
+}
+</script>
+</div>
+
+<style>
+  :root{
+    --blue:#1D4ED8; --blue2:#1E40AF;
+    --white:#FFFFFF; --text:#111827;
+    --muted:#4B5563; --border:#E5E7EB;
+    --bg:#F9FAFB; --blueLight:#E8F0FF;
+  }
+  .wrap{max-width:860px;margin:0 auto;line-height:1.8;color:var(--text);}
+  .meta{color:var(--muted);font-size:.95rem;margin:6px 0 18px;}
+  .badge{display:inline-block;background:var(--blueLight);border:1px solid var(--border);padding:3px 10px;border-radius:999px;font-size:.85rem;margin-right:8px;}
+  .notice{background:#fff7ed;border:1px solid #fed7aa;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .lead{background:#f8fafc;border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .keysum{background:#fefce8;border:1px solid #fde68a;padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .summary{background:#eff6ff;border:1px solid #bfdbfe;padding:14px 16px;border-radius:12px;margin:14px 0 18px;}
+  .toc{background:var(--bg);border:1px solid var(--border);padding:14px 16px;border-radius:12px;margin:16px 0 22px;}
+  .toc a{text-decoration:none;color:var(--blue);}
+  .toc ul{margin:8px 0 0 18px;}
+
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 6px;}
+  .wrap a.btn,.wrap a.btn:link,.wrap a.btn:visited{
+    display:inline-flex;align-items:center;justify-content:center;
+    padding:10px 14px;border-radius:10px;border:1px solid var(--blue);
+    background:var(--blue) !important;color:var(--white) !important;
+    text-decoration:none !important;font-weight:800;
+  }
+  .wrap a.btn:hover,.wrap a.btn:active,.wrap a.btn:focus{
+    background:var(--blue2) !important;border-color:var(--blue2) !important;color:var(--white) !important;
+  }
+  .wrap a.btn.secondary,.wrap a.btn.secondary:link,.wrap a.btn.secondary:visited{
+    background:var(--white) !important;color:var(--blue) !important;border-color:var(--blue) !important;
+  }
+  .wrap a.btn.secondary:hover,.wrap a.btn.secondary:active,.wrap a.btn.secondary:focus{
+    background:var(--bg) !important;color:var(--blue2) !important;border-color:var(--blue2) !important;
+  }
+  .wrap a.btn.gray,.wrap a.btn.gray:link,.wrap a.btn.gray:visited{
+    background:#111827 !important;border-color:#111827 !important;color:var(--white) !important;
+  }
+  .wrap a.btn.gray:hover,.wrap a.btn.gray:active,.wrap a.btn.gray:focus{
+    background:#0b1220 !important;border-color:#0b1220 !important;color:var(--white) !important;
+  }
+
+  table{width:100%;border-collapse:collapse;margin:14px 0 10px;}
+  th,td{border:1px solid var(--border);padding:10px;vertical-align:top;}
+  th{background:#F3F4F6;text-align:left;}
+  .small{font-size:.95rem;color:var(--muted);}
+  h1{margin:0 0 8px;line-height:1.25;}
+  h2{margin-top:30px;padding-top:8px;border-top:1px solid var(--border);}
+  h3{margin-top:16px;}
+  .q{font-weight:900;margin:14px 0 6px;}
+  .a{margin:0 0 10px;}
+  .tips{background:#f0fdf4;border:1px solid #bbf7d0;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .urgency{background:#fef2f2;border:1px solid #fca5a5;padding:12px 14px;border-radius:12px;margin:10px 0 14px;}
+  .target{background:#f0fdf4;border:1px solid #86efac;padding:12px 14px;border-radius:12px;margin:12px 0 14px;}
+  .target ul{margin:8px 0 0 18px;}
+  .footer{margin-top:26px;padding-top:14px;border-top:1px solid var(--border);color:var(--muted);font-size:.95rem;}
+  .disclaimer{background:#f9fafb;border:1px solid var(--border);padding:12px 14px;border-radius:12px;margin:18px 0 10px;font-size:.93rem;color:var(--muted);}
+</style>
+
+<div class="wrap">
+  <h1>전기차 보조금·취득세 감면 총정리 (2026) — 국비 최대 680만+세제 569만 신청법</h1>
+  <div class="meta">
+    <span class="badge">키워드: 전기차 보조금</span>
+    <span class="badge">업데이트: 2026-05-20</span>
+  </div>
+
+  <div class="notice">
+    <strong>먼저 확인!</strong><br/>
+    지방보조금은 지역별 예산 소진 시 조기 마감됩니다. 구매 전 해당 지자체 공고를 반드시 확인하세요. 차량 가격에 따라 보조금 지급률(100% / 50% / 미지원)이 달라집니다.
+  </div>
+
+  <p class="small">
+    전기차 개인 구매 시 받을 수 있는 국비보조금 최대 580만원(내연차 전환 시 +100만), 지방보조금, 취득세 최대 140만원 감면, 개소세 최대 300만원 감면 — 신청 조건·절차·서류를 한곳에 정리했습니다.
+  </p>
+
+  <div class="lead">
+    전기차를 구매할 때 보조금과 세제혜택을 합산하면 최대 1,000만원 이상 절감이 가능하지만, 차량 가격 기준·내연차 보유 기간·지역별 예산 소진 여부에 따라 수령액이 크게 달라집니다. 정부 공식 안내에는 없는 가격 구간별 실수령 시뮬레이션과 신청~입금까지 실제 소요 기간을 이 글에서 확인하세요.
+  </div>
+
+  <div class="urgency">
+    <strong>올해 안에 구매해야 하는 이유</strong><br/>
+    취득세 감면(최대 140만원)과 개소세 감면(최대 300만원)은 <strong>2026년 12월 31일까지</strong>만 적용됩니다. 연말 이후 구매분은 세제 혜택이 사라질 수 있어, 올해 구매를 고려 중이라면 연말 전 계약이 유리합니다.
+  </div>
+
+  <div class="keysum">
+    <strong>핵심 요약 3줄</strong><br/>
+    ① 전기차 국비보조금: 중·대형 최대 580만원 (내연차 전환지원금 +100만 = 최대 680만원)<br/>
+    ② 세제혜택: 취득세 최대 140만+개소세 최대 300만 = 합계 최대 569만원 (2026.12.31까지)<br/>
+    ③ 지방보조금: 서울 150만~농어촌 최대 1,100만 (지역별 예산 소진 시 조기 마감)
+  </div>
+
+  <div class="summary" id="top">
+    <h2 style="border-top:none;margin-top:0;">✅ 5줄 요약(결론)</h2>
+    <ul>
+      <li><strong>국비보조금</strong>: 중·대형 최대 580만원 / 소형 530만원 / 초소형 200만원 (차량 가격 5,300만 미만 100% 지급)</li>
+      <li><strong>내연차 전환지원금</strong>: +100만원 (3년 이상 내연차 폐차·판매 후 전기차 구매 시, 하이브리드 처분 불가)</li>
+      <li><strong>신청 흐름</strong>: 구매계약 → 딜러/지자체 보조금 신청 → 등록 후 10일 이내 서류 제출 → 14일 내 지급</li>
+      <li><strong>세제혜택 기간</strong>: 취득세·개소세 감면 모두 2026.12.31까지 — 연말 전 계약이 유리</li>
+      <li><strong>주의</strong>: 보조금 수령 후 2년 내 판매·폐차 시 전액 환수 / 하이브리드 취득세 감면은 2024년 종료</li>
+    </ul>
+
+    <div class="btns">
+      <a class="btn" href="https://www.ev.or.kr" target="_blank" rel="noopener">무공해차 통합 누리집 (보조금 공고)</a>
+      <a class="btn gray" href="https://easylaw.go.kr" target="_blank" rel="noopener">취득세 감면 법령 확인</a>
+      <a class="btn secondary" href="https://www.me.go.kr" target="_blank" rel="noopener">환경부 친환경차 정책</a>
+    </div>
+    <p class="small">※ 신청 전 공식 공고 및 지역 공고 확인 필수</p>
+  </div>
+
+  <div class="target">
+    <strong>이런 상황이라면 지금 바로 확인하세요</strong>
+    <ul>
+      <li>3년 이상 타던 내연차를 처분하고 전기차로 바꿀 계획이라면 — 전환지원금 100만원 추가 수령 가능</li>
+      <li>예산이 5,300만원 이하인 전기차를 구매할 예정이라면 — 보조금 100% 지급 대상</li>
+      <li>차상위계층이거나 만 19~34세 청년이라면 — 국비보조금 추가 20% 우대</li>
+      <li>다자녀(2자녀 이상)가구라면 — 최대 300만원 별도 지원 가능</li>
+      <li>올해 안에 차 교체를 계획 중이라면 — 세제혜택 2026.12.31 만료 전 계약이 유리</li>
+    </ul>
+  </div>
+
+  <div class="toc">
+    <strong>목차</strong>
+    <ul>
+      <li><a href="#table">1) 한눈에 표(지원 종류·금액·신청처)</a></li>
+      <li><a href="#quick">→ 전기차 vs 하이브리드 지원 비교</a></li>
+      <li><a href="#how">2) 신청 방법</a></li>
+      <li><a href="#docs">3) 서류 체크리스트</a></li>
+      <li><a href="#case">4) 정부 안내에 없는 실측 정보</a></li>
+      <li><a href="#faq">5) FAQ</a></li>
+      <li><a href="#check">6) 1분 체크리스트</a></li>
+      <li><a href="#update">업데이트 로그</a></li>
+    </ul>
+  </div>
+
+  <h2 id="table">1) 한눈에 표 (지원 종류·금액·신청처)</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>지원 종류</th><th>대상</th><th>금액</th><th>신청처</th><th>기간</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>국비보조금</strong></td>
+        <td>전기승용차 (BEV) 개인 구매자</td>
+        <td>중·대형 최대 580만원<br/>소형 530만원<br/>초소형 200만원</td>
+        <td>ev.or.kr / 딜러사</td>
+        <td>연중 (예산 소진 시 조기 마감)</td>
+      </tr>
+      <tr>
+        <td><strong>내연차 전환지원금</strong></td>
+        <td>3년 이상 내연차 폐차·판매 후 전기차 구매</td>
+        <td>+100만원 추가</td>
+        <td>딜러사·지자체</td>
+        <td>연중</td>
+      </tr>
+      <tr>
+        <td><strong>지방보조금</strong></td>
+        <td>각 지자체 거주 전기차 구매자</td>
+        <td>서울 150만 / 경기 100~350만<br/>농어촌 최대 1,100만</td>
+        <td>해당 지방자치단체</td>
+        <td>지역별 예산 소진 시 마감</td>
+      </tr>
+      <tr>
+        <td><strong>취득세 감면</strong></td>
+        <td>전기차 신규 등록자</td>
+        <td>최대 140만원 공제</td>
+        <td>차량 등록 시 자동 적용</td>
+        <td>2026.12.31까지</td>
+      </tr>
+      <tr>
+        <td><strong>개소세 감면</strong></td>
+        <td>전기차 구매자 (하이브리드 70만 별도)</td>
+        <td>최대 300만원 감면</td>
+        <td>구매 계약 시 자동 반영</td>
+        <td>2026.12.31까지</td>
+      </tr>
+      <tr>
+        <td><strong>우대 지원</strong></td>
+        <td>차상위계층 / 청년(19~34세) / 다자녀</td>
+        <td>+20% 추가 (차상위·청년)<br/>최대 300만원 (다자녀)</td>
+        <td>국비보조금 신청 시 함께</td>
+        <td>연중</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- ✅ 인아티클 광고 (한눈에 표 직후) -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5716436301710258"
+       crossorigin="anonymous"></script>
+  <ins class="adsbygoogle"
+       style="display:block; text-align:center;"
+       data-ad-layout="in-article"
+       data-ad-format="fluid"
+       data-ad-client="ca-pub-5716436301710258"
+       data-ad-slot="7020031076"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+  <!-- ✅ 이미지 1: 요약표 카드 (5줄 요약 아래) -->
+  <img src="summary_card_1080_ev_subsidy_tax_cut_2026.svg" alt="전기차 보조금 취득세 감면 신청 조건 금액 요약" style="width:100%;margin:16px 0;" />
+
+  <h3 id="quick">전기차 vs 하이브리드 지원 10초 비교</h3>
+  <table>
+    <thead>
+      <tr><th></th><th>전기차 (BEV)</th><th>하이브리드 (HEV/PHEV)</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>국비보조금</strong></td><td>최대 580만원 ✅</td><td>해당 없음 ❌</td></tr>
+      <tr><td><strong>지방보조금</strong></td><td>지역별 최대 1,100만원 ✅</td><td>해당 없음 ❌</td></tr>
+      <tr><td><strong>취득세 감면</strong></td><td>최대 140만원 ✅</td><td>2024.12.31 종료 ❌</td></tr>
+      <tr><td><strong>개소세 감면</strong></td><td>최대 300만원 ✅</td><td>최대 70만원 ⚠️</td></tr>
+      <tr><td><strong>전환지원금</strong></td><td>+100만원 ✅</td><td>해당 없음 ❌</td></tr>
+      <tr><td><strong>총 최대 혜택</strong></td><td><strong>약 1,200만원 이상</strong></td><td><strong>약 70만원</strong></td></tr>
+    </tbody>
+  </table>
+  <p class="small">※ 지방보조금은 지역에 따라 크게 다릅니다. 위 비교는 참고용이며 공식 공고 기준으로 확인하세요.</p>
+
+  <!-- ✅ 이미지 2: 빠른 판단 가이드 -->
+  <img src="quick_guide_1080_ev_subsidy_tax_cut_2026.svg" alt="전기차 vs 하이브리드 보조금 지원 비교 판단 가이드" style="width:100%;margin:16px 0;" />
+
+  <h2 id="how">2) 신청 방법</h2>
+  <ol>
+    <li><strong>구매계약 체결</strong>: 딜러에게 보조금 신청 의사를 먼저 밝히고 계약서에 보조금 조건 명시</li>
+    <li><strong>보조금 신청 접수</strong>: 딜러사가 대행하거나, 직접 무공해차 통합 누리집(ev.or.kr)·지자체에 신청</li>
+    <li><strong>차량 등록</strong>: 계약 후 출고·등록 완료 (등록 후 10일 이내 서류 제출 필수)</li>
+    <li><strong>서류 제출 및 심사</strong>: 기본 서류 + 전환지원금 해당 시 처분 증빙 제출 → 지자체 심사 (3~7일)</li>
+    <li><strong>보조금 지급</strong>: 심사 통과 후 14일 이내 신청자 통장 입금</li>
+  </ol>
+  <p class="small">※ 세제혜택(취득세·개소세 감면)은 별도 신청 없이 구매·등록 시 자동 적용됩니다.</p>
+
+  <!-- ✅ 이미지 3: 비교 카드 -->
+  <img src="compare_card_1080_ev_subsidy_tax_cut_2026.svg" alt="전기차 보조금 차량 가격별 지급률 비교" style="width:100%;margin:16px 0;" />
+
+  <h2 id="docs">3) 서류 체크리스트</h2>
+  <h3>기본 서류</h3>
+  <ul>
+    <li>자동차 등록증 사본 (신규 등록 후 발급)</li>
+    <li>신분증 (주민등록증·운전면허증)</li>
+    <li>본인 명의 통장 사본</li>
+    <li>차량 구매 계약서 사본</li>
+  </ul>
+  <h3>상황별 추가 서류</h3>
+  <ul>
+    <li><strong>내연차 전환지원금 신청 시</strong>: 기존 차량 폐차인수증 또는 양도증명서 (3년 이상 보유 확인용)</li>
+    <li><strong>차상위계층 우대 시</strong>: 차상위계층 확인서 (주민센터 발급)</li>
+    <li><strong>청년 우대(19~34세) 시</strong>: 별도 서류 없음 (신분증으로 연령 확인)</li>
+    <li><strong>다자녀 지원 신청 시</strong>: 가족관계증명서 (자녀 2명 이상 확인)</li>
+    <li><strong>법인 명의 구매 시</strong>: 사업자등록증, 법인 인감증명서 등 추가 (법인 기준 별도 적용)</li>
+  </ul>
+
+  <h2 id="case">4) 정부 안내에 없는 실측 정보</h2>
+
+  <h3>① 신청부터 입금까지 실제 소요 시간</h3>
+  <table>
+    <thead>
+      <tr><th>단계</th><th>소요 기간</th><th>비고</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>구매계약 → 출고·등록</td><td>1~4주</td><td>차량 재고·모델에 따라 상이</td></tr>
+      <tr><td>서류 제출 (등록 후 10일 이내)</td><td>즉시</td><td>기간 내 미제출 시 지원 취소 가능</td></tr>
+      <tr><td>지자체 심사</td><td>3~7일</td><td>서류 보완 요청 시 +3~5일 추가</td></tr>
+      <tr><td>보조금 지급</td><td>심사 후 14일 이내</td><td>통장 입금</td></tr>
+      <tr><td><strong>합계 (등록 후)</strong></td><td><strong>약 2~3주</strong></td><td>지자체 처리 속도에 따라 변동</td></tr>
+    </tbody>
+  </table>
+
+  <h3>② 자주 혼동되는 포인트</h3>
+  <p>하이브리드 취득세 감면이 2024년 종료됐다는 사실을 모르고 구매 시 적용될 것으로 기대하다가 실망하는 사례가 있다. 하이브리드는 2025년부터 취득세 감면이 없으며, 개소세 감면(최대 70만원)만 2026.12.31까지 남아있다. 반면 순수 전기차(BEV)는 취득세·개소세 모두 감면 혜택이 유지된다.</p>
+  <p>내연차 전환지원금 신청 시 가족간 거래로 차를 처분한 경우는 인정되지 않는다. 반드시 중고차 딜러 매도나 공식 폐차장 폐차로 처분해야 하며, 처분 증빙서류(폐차인수증 또는 이전등록 서류)를 반드시 보관해야 한다.</p>
+
+  <h3>③ 가격 구간별 실수령 시뮬레이션</h3>
+  <p>서울 거주자가 5,000만원짜리 아이오닉6를 구매하고 3년 이상 보유한 내연차를 폐차하는 경우: 국비보조금 580만원 + 서울 지방보조금 150만원 + 내연차 전환지원금 100만원 + 취득세 감면 약 140만원 + 개소세 감면 약 300만원 = 실질 절감액 약 1,270만원(세전 기준). 반면 같은 조건에서 7,000만원 전기차를 구매하면 국비보조금은 50%인 290만원만 지급되고, 지방보조금도 비율 적용되어 총 절감액이 절반 이하로 줄어든다.</p>
+
+  <h3>④ 공식 가이드에 없는 운영 팁</h3>
+  <p>지방보조금은 지자체별 연간 예산이 정해져 있어 인기 지역(서울·경기)은 상반기에 예산이 소진되는 경우가 많다. 특히 경기도 일부 시군은 3~4월에 이미 마감되는 사례도 있다. 구매 계획이 있다면 해당 지자체 홈페이지에서 현재 보조금 예산 잔액 여부를 먼저 확인하는 것이 가장 확실하다. 차량 출고 후 서류 제출 기한(10일 이내)을 놓치면 지원이 취소될 수 있으므로, 출고 당일 바로 서류 준비에 들어가는 것이 안전하다.</p>
+
+  <!-- ✅ 이미지 4: 탈락 사유 TOP 5 카드 -->
+  <img src="rejection_card_1080_ev_subsidy_tax_cut_2026.svg" alt="전기차 보조금 탈락 사유 TOP 5" style="width:100%;margin:16px 0;" />
+
+  <h2 id="faq">5) FAQ</h2>
+  <h3>보조금 탈락 사유 TOP 5</h3>
+  <ol>
+    <li>차량 가격 8,500만원 이상 구매 (보조금 대상 제외)</li>
+    <li>내연차 전환지원금 — 보유 기간 3년 미만</li>
+    <li>내연차 전환지원금 — 가족간 거래로 처분 (인정 불가)</li>
+    <li>서류 제출 기한(등록 후 10일 이내) 초과</li>
+    <li>보조금 수령 후 2년 이내 차량 판매·폐차 (전액 환수)</li>
+  </ol>
+
+  <h3>중복 지원·예외 조건</h3>
+  <ul>
+    <li>국비보조금과 지방보조금은 중복 수령 가능 (별도 신청 필요)</li>
+    <li>세제혜택(취득세·개소세 감면)은 보조금과 중복 적용 가능</li>
+    <li>동일인이 같은 차종을 2대 이상 구매할 경우 1대만 보조금 지원</li>
+  </ul>
+
+  <h3>자주 묻는 질문</h3>
+  <p class="q">Q1. 전기차 보조금을 국비와 지방으로 모두 받을 수 있나요?</p>
+  <p class="a">네, 국비보조금(최대 580만원)과 지방보조금은 별도로 신청하면 중복 수령이 가능합니다. 다만 지방보조금은 해당 지자체에 따로 신청해야 합니다. 서울 거주자는 최대 국비 580만+서울 150만=730만원까지 수령 가능합니다.</p>
+
+  <p class="q">Q2. 하이브리드 차량도 보조금이 있나요?</p>
+  <p class="a">하이브리드(HEV·PHEV)는 국비보조금과 지방보조금 대상이 아닙니다. 세제혜택으로는 개소세 감면(최대 70만원)이 2026.12.31까지 유지되지만, 취득세 감면은 2024년 이후 종료되었습니다.</p>
+
+  <p class="q">Q3. 차량 가격이 5,300만원을 넘으면 보조금을 못 받나요?</p>
+  <p class="a">5,300만원 이상 8,500만원 미만 차량은 국비보조금의 50%만 지급됩니다. 예를 들어 6,000만원 차량이라면 중·대형 기준 보조금 580만원의 50%인 290만원을 수령합니다. 8,500만원 이상은 보조금 대상에서 제외됩니다.</p>
+
+  <p class="q">Q4. 내연차 전환지원금이란 무엇인가요?</p>
+  <p class="a">3년 이상 등록된 내연기관차(가솔린·디젤)를 폐차 또는 중고 매도 후 전기차를 구매하면 국비보조금에 100만원이 추가로 지급되는 제도입니다. 하이브리드 차량을 처분하거나 가족에게 양도하는 경우는 인정되지 않습니다.</p>
+
+  <p class="q">Q5. 차상위계층이나 청년이면 얼마나 더 받나요?</p>
+  <p class="a">차상위계층(차상위 확인서 소지자)이거나 만 19~34세 청년이라면 국비보조금 기본 금액에 20%가 추가 지급됩니다. 예를 들어 중·대형 기본 보조금이 580만원이라면, 추가 20%인 약 116만원을 더 받아 최대 약 696만원까지 가능합니다.</p>
+
+  <p class="q">Q6. 취득세 감면은 신청해야 하나요?</p>
+  <p class="a">취득세 감면은 별도 신청 없이 차량 등록 시 자동으로 적용됩니다. 개소세 감면도 구매 계약 시 자동 반영됩니다. 단, 이 혜택들은 2026년 12월 31일까지만 적용되므로 연내 등록이 필요합니다.</p>
+
+  <p class="q">Q7. 2년 내 팔면 보조금 전액을 돌려줘야 하나요?</p>
+  <p class="a">보조금 수령일로부터 2년 이내에 차량을 판매하거나 폐차하면 받은 보조금 전액을 환수합니다. 2년이 지나면 처분해도 환수 대상이 아닙니다. 사고로 인한 전손 처리는 별도 기준이 적용되니 담당 기관에 문의하세요.</p>
+
+  <p class="q">Q8. 지방보조금은 거주지 기준인가요?</p>
+  <p class="a">네, 지방보조금은 차량을 등록하는 지자체 관할 기준으로 지급됩니다. 예를 들어 서울에 주민등록이 되어 있어도 경기도에 차를 등록하면 경기도 기준 지방보조금을 받게 됩니다. 주민등록 소재지와 차량 등록 지자체를 함께 고려해야 합니다.</p>
+
+  <p class="q">Q9. 다자녀 가구 전기차 지원은 어떻게 신청하나요?</p>
+  <p class="a">자녀 2명 이상을 둔 다자녀가구는 국비보조금 신청 시 가족관계증명서를 제출하면 최대 300만원의 추가 지원을 받을 수 있습니다. 지자체별로 별도 다자녀 보조금을 운영하는 경우도 있으니 해당 지자체 공고를 확인하세요.</p>
+
+  <p class="q">Q10. 법인이 전기차를 사면 개인보조금을 받을 수 있나요?</p>
+  <p class="a">법인은 개인 보조금 기준과 다르게 적용됩니다. 법인용 전기차 보조금은 별도 공고가 있으며, 대수 제한과 조건이 다릅니다. 법인 명의 구매는 무공해차 통합 누리집(ev.or.kr) 또는 지자체 담당 부서에 별도 문의하세요.</p>
+
+  <div class="tips">
+    <strong>실전 팁</strong><br/>
+    구매 전 ev.or.kr에서 해당 차종의 보조금 확정 여부를 먼저 조회하세요. 차량 모델마다 환경부 인증 시점이 달라 보조금 금액이 다를 수 있으며, 연도 중간에 보조금 단가가 변경되기도 합니다. 딜러 말만 믿지 말고 공식 공고를 직접 확인하는 것이 중요합니다.
+  </div>
+
+  <!-- ✅ 이미지 5: 체크리스트 카드 -->
+  <img src="checklist_card_1080_ev_subsidy_tax_cut_2026.svg" alt="전기차 보조금 신청 전 1분 체크리스트" style="width:100%;margin:16px 0;" />
+
+  <h2 id="check">6) 신청 전 1분 체크리스트</h2>
+  <ul>
+    <li>구매 차량이 전기승용차(BEV) 대상인지 확인 (하이브리드는 보조금 없음)</li>
+    <li>차량 가격이 8,500만원 미만인지 확인 (이상은 미지원)</li>
+    <li>해당 지자체 보조금 예산이 남아 있는지 공고 확인</li>
+    <li>내연차 전환지원금 해당 여부 확인 (3년 이상 내연차 보유 여부)</li>
+    <li>기본 서류 사전 준비 (등록증·신분증·통장·계약서)</li>
+    <li>차량 등록 후 10일 이내 서류 제출 일정 확인</li>
+    <li>2년 내 차량 처분 계획 없음 확인 (조기 처분 시 환수)</li>
+  </ul>
+  <p class="small">관련 글: <a href="PLACEHOLDER_URL_1" target="_blank" rel="noopener">사업용 자동차 리스 vs 렌트 vs 할부 비교·절세 전략 (2026)</a> / <a href="PLACEHOLDER_URL_2" target="_blank" rel="noopener">자동차보험 비교·업무용 차량 보험료 절감 방법 (2026)</a></p>
+
+  <div class="tips">
+    <strong>참고/문의처</strong><br/>
+    보조금 공식 공고: 무공해차 통합 누리집 ev.or.kr<br/>
+    지방보조금 문의: 해당 지방자치단체 환경·교통 담당 부서<br/>
+    취득세·개소세 문의: 국세청 홈택스 / 환경부 콜센터 1661-0970
+  </div>
+
+  <div class="disclaimer">
+    ※ 이 글은 공개된 정부 공고 및 법령 정보를 정리한 참고용 콘텐츠입니다. 보조금 금액·조건은 지역별·연도별 공고에 따라 변동될 수 있으며, 실제 신청 전 공식 공고와 담당 기관의 안내를 반드시 확인하세요.
+  </div>
+
+  <div class="footer" id="update">
+    <strong>업데이트 로그</strong><br/>
+    - 2026-05-20: 최초 발행 (2026년 전기차 보조금·세제혜택 기준 정리)<br/>
+    <span class="small">※ 지방보조금은 지역별 예산 소진 시 조기 마감되므로 신청 전 공식 공고 확인 필수!</span>
+  </div>
+</div>

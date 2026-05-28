@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <text x="540" y="140" font-family="'Pretendard', sans-serif" font-size="46" font-weight="900" fill="#F59E0B" text-anchor="middle">2026 노인요양시설 총정리</text>
+
+  <text x="540" y="230" font-family="'Pretendard', sans-serif" font-size="60" font-weight="900" fill="#FFFFFF" text-anchor="middle">비용·국가부담</text>
+  <text x="540" y="310" font-family="'Pretendard', sans-serif" font-size="44" font-weight="600" fill="#EAF2FF" text-anchor="middle">한 번에 정리</text>
+
+  <rect x="60" y="380" width="310" height="240" rx="24" fill="#1A3270"/>
+  <text x="215" y="435" font-family="'Pretendard', sans-serif" font-size="30" font-weight="800" fill="#F59E0B" text-anchor="middle">월 본인부담</text>
+  <text x="215" y="500" font-family="'Pretendard', sans-serif" font-size="44" font-weight="900" fill="#FFFFFF" text-anchor="middle">80~110만</text>
+  <text x="215" y="548" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF" text-anchor="middle">1등급 다인실 기준</text>
+  <text x="215" y="590" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF" text-anchor="middle">급여 20% + 비급여</text>
+
+  <rect x="385" y="380" width="310" height="240" rx="24" fill="#1A3270"/>
+  <text x="540" y="435" font-family="'Pretendard', sans-serif" font-size="30" font-weight="800" fill="#F59E0B" text-anchor="middle">공단부담</text>
+  <text x="540" y="500" font-family="'Pretendard', sans-serif" font-size="44" font-weight="900" fill="#FFFFFF" text-anchor="middle">80%</text>
+  <text x="540" y="548" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF" text-anchor="middle">시설급여 일반</text>
+  <text x="540" y="590" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF" text-anchor="middle">기초수급 100%</text>
+
+  <rect x="710" y="380" width="310" height="240" rx="24" fill="#1A3270"/>
+  <text x="865" y="435" font-family="'Pretendard', sans-serif" font-size="30" font-weight="800" fill="#F59E0B" text-anchor="middle">보험료율</text>
+  <text x="865" y="500" font-family="'Pretendard', sans-serif" font-size="44" font-weight="900" fill="#FFFFFF" text-anchor="middle">0.9448%</text>
+  <text x="865" y="548" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF" text-anchor="middle">2025 0.9182% → 인상</text>
+  <text x="865" y="590" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF" text-anchor="middle">월평균 18,362원</text>
+
+  <rect x="60" y="660" width="960" height="100" rx="20" fill="#F59E0B"/>
+  <text x="540" y="705" font-family="'Pretendard', sans-serif" font-size="34" font-weight="900" fill="#0B1F3B" text-anchor="middle">감경 신청 시 본인부담 8~12%</text>
+  <text x="540" y="745" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#0B1F3B" text-anchor="middle">기초수급자는 0% (비급여 제외)</text>
+
+  <rect x="60" y="790" width="300" height="80" rx="16" fill="#10B981"/>
+  <text x="210" y="840" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF" text-anchor="middle">1·2등급 시설</text>
+
+  <rect x="390" y="790" width="300" height="80" rx="16" fill="#10B981"/>
+  <text x="540" y="840" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF" text-anchor="middle">3~5등급 재가</text>
+
+  <rect x="720" y="790" width="300" height="80" rx="16" fill="#10B981"/>
+  <text x="870" y="840" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF" text-anchor="middle">인지지원 치매전담</text>
+
+  <rect x="60" y="900" width="960" height="140" rx="20" fill="#1A3270"/>
+  <text x="540" y="950" font-family="'Pretendard', sans-serif" font-size="30" font-weight="800" fill="#F59E0B" text-anchor="middle">신청 30일 이내 등급 판정 → 즉시 입소</text>
+  <text x="540" y="1000" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF" text-anchor="middle">건보공단 1577-1000 · longtermcare.or.kr</text>
+</svg>

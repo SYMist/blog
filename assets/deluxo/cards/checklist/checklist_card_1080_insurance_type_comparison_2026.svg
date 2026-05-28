@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#FBBF24"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="12" fill="url(#accent)"/>
+
+  <!-- Title -->
+  <text x="540" y="78" font-family="-apple-system, sans-serif" font-size="38" font-weight="900" fill="#FFFFFF" text-anchor="middle">보험 가입 전 1분 체크리스트</text>
+  <text x="540" y="118" font-family="-apple-system, sans-serif" font-size="22" font-weight="700" fill="#F59E0B" text-anchor="middle">이 6가지만 확인하면 후회 없는 선택 가능</text>
+
+  <!-- Divider -->
+  <rect x="60" y="136" width="960" height="3" fill="#F59E0B" rx="2"/>
+
+  <!-- Checklist items -->
+  <!-- Item 1 -->
+  <rect x="60" y="154" width="960" height="112" rx="16" fill="#1A3270"/>
+  <rect x="80" y="178" width="48" height="48" rx="12" fill="#34D399" opacity="0.2"/>
+  <rect x="80" y="178" width="48" height="48" rx="12" fill="none" stroke="#34D399" stroke-width="2"/>
+  <text x="104" y="209" font-family="-apple-system, sans-serif" font-size="28" font-weight="900" fill="#34D399" text-anchor="middle">☐</text>
+  <text x="152" y="194" font-family="-apple-system, sans-serif" font-size="21" font-weight="900" fill="#EAF2FF">순수보장형·만기환급형 두 가지 설계서 동시 비교 요청</text>
+  <text x="152" y="224" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0">설계사에게 두 유형을 나란히 보여달라고 요청 — 월 보험료 차이와 20년 차액 직접 확인</text>
+
+  <!-- Item 2 -->
+  <rect x="60" y="280" width="960" height="112" rx="16" fill="#1A3270"/>
+  <rect x="80" y="304" width="48" height="48" rx="12" fill="#34D399" opacity="0.2"/>
+  <rect x="80" y="304" width="48" height="48" rx="12" fill="none" stroke="#34D399" stroke-width="2"/>
+  <text x="104" y="335" font-family="-apple-system, sans-serif" font-size="28" font-weight="900" fill="#34D399" text-anchor="middle">☐</text>
+  <text x="152" y="320" font-family="-apple-system, sans-serif" font-size="21" font-weight="900" fill="#EAF2FF">갱신형 여부 확인 및 20~30년 후 보험료 시뮬레이션 요청</text>
+  <text x="152" y="350" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0">갱신형이라면 현재 나이 + 20년 후 예상 보험료 설계서에 기재 요청</text>
+
+  <!-- Item 3 -->
+  <rect x="60" y="406" width="960" height="112" rx="16" fill="#1A3270"/>
+  <rect x="80" y="430" width="48" height="48" rx="12" fill="#34D399" opacity="0.2"/>
+  <rect x="80" y="430" width="48" height="48" rx="12" fill="none" stroke="#34D399" stroke-width="2"/>
+  <text x="104" y="461" font-family="-apple-system, sans-serif" font-size="28" font-weight="900" fill="#34D399" text-anchor="middle">☐</text>
+  <text x="152" y="446" font-family="-apple-system, sans-serif" font-size="21" font-weight="900" fill="#EAF2FF">중도해지 환급금 표 확인</text>
+  <text x="152" y="476" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0">무해지환급형이라면 납입 기간 중 0원임을 설계서에서 직접 확인</text>
+
+  <!-- Item 4 -->
+  <rect x="60" y="532" width="960" height="112" rx="16" fill="#1A3270"/>
+  <rect x="80" y="556" width="48" height="48" rx="12" fill="#34D399" opacity="0.2"/>
+  <rect x="80" y="556" width="48" height="48" rx="12" fill="none" stroke="#34D399" stroke-width="2"/>
+  <text x="104" y="587" font-family="-apple-system, sans-serif" font-size="28" font-weight="900" fill="#34D399" text-anchor="middle">☐</text>
+  <text x="152" y="572" font-family="-apple-system, sans-serif" font-size="21" font-weight="900" fill="#EAF2FF">만기환급형 선택 시: 차액 운용 계획 없음을 인정한 경우만 선택</text>
+  <text x="152" y="602" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0">차액을 따로 적금·투자할 의지가 있다면 순수보장형이 더 유리</text>
+
+  <!-- Item 5 -->
+  <rect x="60" y="658" width="960" height="112" rx="16" fill="#1A3270"/>
+  <rect x="80" y="682" width="48" height="48" rx="12" fill="#34D399" opacity="0.2"/>
+  <rect x="80" y="682" width="48" height="48" rx="12" fill="none" stroke="#34D399" stroke-width="2"/>
+  <text x="104" y="713" font-family="-apple-system, sans-serif" font-size="28" font-weight="900" fill="#34D399" text-anchor="middle">☐</text>
+  <text x="152" y="698" font-family="-apple-system, sans-serif" font-size="21" font-weight="900" fill="#EAF2FF">적립형(저축·연금보험): 10년 이상 유지 가능 여부 판단</text>
+  <text x="152" y="728" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0">10년 미만 해지 가능성 있다면 은행 적금이 더 안전하고 수익률도 높을 수 있음</text>
+
+  <!-- Item 6 -->
+  <rect x="60" y="784" width="960" height="112" rx="16" fill="#1A3270"/>
+  <rect x="80" y="808" width="48" height="48" rx="12" fill="#34D399" opacity="0.2"/>
+  <rect x="80" y="808" width="48" height="48" rx="12" fill="none" stroke="#34D399" stroke-width="2"/>
+  <text x="104" y="839" font-family="-apple-system, sans-serif" font-size="28" font-weight="900" fill="#34D399" text-anchor="middle">☐</text>
+  <text x="152" y="824" font-family="-apple-system, sans-serif" font-size="21" font-weight="900" fill="#EAF2FF">금감원 포털·보험협회 공시실에서 보험사별 비교 완료</text>
+  <text x="152" y="854" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0">fine.fss.or.kr ☎ 1332 / pub.insure.or.kr / pub.knia.or.kr — 무료, 회원가입 불필요</text>
+
+  <!-- Bottom accent bar -->
+  <rect x="0" y="1068" width="1080" height="12" fill="url(#accent)"/>
+</svg>

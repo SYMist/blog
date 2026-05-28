@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="8" fill="#34D399"/>
+
+  <!-- Title -->
+  <text x="540" y="56" font-family="-apple-system, sans-serif" font-size="28" font-weight="900" fill="#FFFFFF" text-anchor="middle">경비처리 전 vs 후 — 절세 시뮬레이션</text>
+  <text x="540" y="90" font-family="-apple-system, sans-serif" font-size="17" font-weight="700" fill="#A0B4D0" text-anchor="middle">2026년 종합소득세 | 1인 사업자 인적공제 180만원 적용</text>
+
+  <!-- Case header row -->
+  <rect x="30" y="108" width="1020" height="44" rx="8" fill="#1A3270"/>
+  <text x="200" y="136" font-family="-apple-system, sans-serif" font-size="15" font-weight="700" fill="#A0B4D0" text-anchor="middle">구분</text>
+  <text x="510" y="136" font-family="-apple-system, sans-serif" font-size="15" font-weight="700" fill="#EF4444" text-anchor="middle">경비율 신고 (기준경비율)</text>
+  <text x="820" y="136" font-family="-apple-system, sans-serif" font-size="15" font-weight="700" fill="#34D399" text-anchor="middle">장부 신고 (실제 경비)</text>
+
+  <!-- Case 1: 서비스업 매출 8,000만원 -->
+  <rect x="30" y="158" width="1020" height="260" rx="12" fill="#0D2347"/>
+  <rect x="30" y="158" width="5" height="260" rx="2" fill="#F59E0B"/>
+  <text x="200" y="202" font-family="-apple-system, sans-serif" font-size="17" font-weight="800" fill="#F59E0B" text-anchor="middle">서비스업</text>
+  <text x="200" y="228" font-family="-apple-system, sans-serif" font-size="26" font-weight="900" fill="#FFFFFF" text-anchor="middle">매출 8,000만원</text>
+  <text x="200" y="256" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">프리랜서·컨설팅 업종</text>
+  <line x1="360" y1="164" x2="360" y2="410" stroke="#1A3270" stroke-width="1.5"/>
+  <text x="510" y="200" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">기준경비율 30% 적용</text>
+  <text x="510" y="226" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">경비 2,400만원 인정</text>
+  <text x="510" y="258" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">과세표준 약 5,420만원</text>
+  <text x="510" y="300" font-family="-apple-system, sans-serif" font-size="24" font-weight="900" fill="#EF4444" text-anchor="middle">세액 약 724만원</text>
+  <text x="510" y="330" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">세율 24% 구간 적용</text>
+  <line x1="660" y1="164" x2="660" y2="410" stroke="#1A3270" stroke-width="1.5"/>
+  <text x="820" y="200" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">실제 경비 3,400만원</text>
+  <text x="820" y="226" font-family="-apple-system, sans-serif" font-size="14" fill="#34D399" text-anchor="middle">+1,000만원 추가 인정</text>
+  <text x="820" y="258" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">과세표준 약 4,420만원</text>
+  <text x="820" y="300" font-family="-apple-system, sans-serif" font-size="24" font-weight="900" fill="#34D399" text-anchor="middle">세액 약 537만원</text>
+  <text x="820" y="330" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">세율 15% 구간으로 하락</text>
+
+  <!-- Savings highlight -->
+  <rect x="30" y="426" width="1020" height="72" rx="10" fill="#1A3270"/>
+  <rect x="30" y="426" width="1020" height="72" rx="10" fill="none" stroke="#34D399" stroke-width="2"/>
+  <text x="540" y="462" font-family="-apple-system, sans-serif" font-size="22" font-weight="800" fill="#34D399" text-anchor="middle">경비 1,000만원 추가 인정 → 절세액 약 187만원</text>
+  <text x="540" y="487" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">세율 구간이 24%→15%로 낮아진 효과 포함</text>
+
+  <!-- Case 2: 음식점 매출 5,000만원 -->
+  <rect x="30" y="510" width="1020" height="240" rx="12" fill="#0D2347"/>
+  <rect x="30" y="510" width="5" height="240" rx="2" fill="#F59E0B"/>
+  <text x="200" y="554" font-family="-apple-system, sans-serif" font-size="17" font-weight="800" fill="#F59E0B" text-anchor="middle">음식점업</text>
+  <text x="200" y="580" font-family="-apple-system, sans-serif" font-size="26" font-weight="900" fill="#FFFFFF" text-anchor="middle">매출 5,000만원</text>
+  <text x="200" y="608" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">카페·식당 업종</text>
+  <line x1="360" y1="516" x2="360" y2="742" stroke="#1A3270" stroke-width="1.5"/>
+  <text x="510" y="554" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">단순경비율 85.6% 적용</text>
+  <text x="510" y="580" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">경비 4,280만원 인정</text>
+  <text x="510" y="610" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">과세표준 약 540만원</text>
+  <text x="510" y="650" font-family="-apple-system, sans-serif" font-size="24" font-weight="900" fill="#EF4444" text-anchor="middle">세액 약 32만원</text>
+  <line x1="660" y1="516" x2="660" y2="742" stroke="#1A3270" stroke-width="1.5"/>
+  <text x="820" y="554" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">실제 경비 4,500만원</text>
+  <text x="820" y="580" font-family="-apple-system, sans-serif" font-size="14" fill="#34D399" text-anchor="middle">+220만원 추가 인정</text>
+  <text x="820" y="610" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">과세표준 약 320만원</text>
+  <text x="820" y="650" font-family="-apple-system, sans-serif" font-size="24" font-weight="900" fill="#34D399" text-anchor="middle">세액 약 19만원</text>
+
+  <!-- Savings highlight 2 -->
+  <rect x="30" y="758" width="1020" height="60" rx="10" fill="#1A3270"/>
+  <rect x="30" y="758" width="1020" height="60" rx="10" fill="none" stroke="#34D399" stroke-width="1.5"/>
+  <text x="540" y="795" font-family="-apple-system, sans-serif" font-size="20" font-weight="800" fill="#34D399" text-anchor="middle">경비 추가 인정 → 절세액 약 13만원 (경비율 높은 업종은 효과 소폭)</text>
+
+  <!-- Bottom note -->
+  <rect x="30" y="834" width="1020" height="70" rx="10" fill="#102A56"/>
+  <text x="540" y="868" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#F59E0B" text-anchor="middle">단순경비율이 높은 업종(음식점 등)은 실제 경비가 비율 이하일 수 있음</text>
+  <text x="540" y="893" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">반면 기준경비율 적용 업종(제조·서비스)은 실제 경비 입증 시 절세 효과 큼</text>
+
+  <text x="540" y="1000" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">이 시뮬레이션은 단순화된 예시이며, 실제 세액은 각종 공제·가산세·업종별 경비율에 따라 달라집니다</text>
+  <text x="540" y="1024" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준 | 정확한 세금 계산은 세무사 또는 국세청 ☎126</text>
+  <rect x="0" y="1072" width="1080" height="8" fill="#34D399"/>
+</svg>

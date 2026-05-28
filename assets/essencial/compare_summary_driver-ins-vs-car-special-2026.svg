@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F5F3FF"/>
+      <stop offset="100%" stop-color="#FAF5FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg1)"/>
+
+  <text x="540" y="55" font-family="sans-serif" font-size="32" font-weight="900" fill="#111827" text-anchor="middle">자동차보험 특약 vs 운전자보험 핵심 비교</text>
+  <text x="540" y="88" font-family="sans-serif" font-size="20" fill="#6B7280" text-anchor="middle">2026년 기준 | 역할이 다르므로 둘 다 필요합니다</text>
+
+  <!-- 자동차보험 카드 -->
+  <rect x="50" y="118" width="470" height="460" rx="24" fill="#FFF" stroke="#BFDBFE" stroke-width="2"/>
+  <rect x="50" y="118" width="470" height="56" rx="24" fill="#1E40AF"/>
+  <rect x="50" y="150" width="470" height="24" fill="#1E40AF"/>
+  <text x="285" y="155" font-family="sans-serif" font-size="24" font-weight="900" fill="#FFF" text-anchor="middle">자동차보험 특약</text>
+
+  <text x="80" y="210" font-family="sans-serif" font-size="20" font-weight="700" fill="#111827">보장 영역</text>
+  <text x="490" y="210" font-family="sans-serif" font-size="22" font-weight="900" fill="#1E40AF" text-anchor="end">민사 (대인·대물 배상)</text>
+  <line x1="80" y1="226" x2="490" y2="226" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="80" y="258" font-family="sans-serif" font-size="20" font-weight="700" fill="#111827">변호사 비용</text>
+  <text x="490" y="258" font-family="sans-serif" font-size="22" font-weight="900" fill="#DC2626" text-anchor="end">미보장</text>
+  <line x1="80" y1="274" x2="490" y2="274" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="80" y="306" font-family="sans-serif" font-size="20" font-weight="700" fill="#111827">형사 합의금</text>
+  <text x="490" y="306" font-family="sans-serif" font-size="22" font-weight="900" fill="#DC2626" text-anchor="end">미보장</text>
+  <line x1="80" y1="322" x2="490" y2="322" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="80" y="354" font-family="sans-serif" font-size="20" font-weight="700" fill="#111827">벌금</text>
+  <text x="490" y="354" font-family="sans-serif" font-size="22" font-weight="900" fill="#DC2626" text-anchor="end">미보장</text>
+  <line x1="80" y1="370" x2="490" y2="370" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="80" y="402" font-family="sans-serif" font-size="20" font-weight="700" fill="#111827">보험료 (21세↓)</text>
+  <text x="490" y="402" font-family="sans-serif" font-size="22" font-weight="900" fill="#DC2626" text-anchor="end">2~3배 폭등</text>
+  <line x1="80" y1="418" x2="490" y2="418" stroke="#E5E7EB" stroke-width="1"/>
+
+  <rect x="80" y="435" width="410" height="46" rx="12" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+  <text x="285" y="465" font-family="sans-serif" font-size="17" font-weight="700" fill="#1E40AF" text-anchor="middle">상대방 피해 배상 = 필수 가입</text>
+
+  <rect x="80" y="498" width="410" height="40" rx="10" fill="#FEF2F2" stroke="#FECACA" stroke-width="1"/>
+  <text x="285" y="525" font-family="sans-serif" font-size="16" font-weight="700" fill="#991B1B" text-anchor="middle">12대 중과실·스쿨존 형사 비용 미보장</text>
+
+  <!-- 운전자보험 카드 -->
+  <rect x="560" y="118" width="470" height="460" rx="24" fill="#FFF" stroke="#C4B5FD" stroke-width="2"/>
+  <rect x="560" y="118" width="470" height="56" rx="24" fill="#7C3AED"/>
+  <rect x="560" y="150" width="470" height="24" fill="#7C3AED"/>
+  <text x="795" y="155" font-family="sans-serif" font-size="24" font-weight="900" fill="#FFF" text-anchor="middle">운전자보험</text>
+
+  <text x="590" y="210" font-family="sans-serif" font-size="20" font-weight="700" fill="#111827">보장 영역</text>
+  <text x="1000" y="210" font-family="sans-serif" font-size="22" font-weight="900" fill="#7C3AED" text-anchor="end">형사 (벌금·합의금·변호사)</text>
+  <line x1="590" y1="226" x2="1000" y2="226" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="590" y="258" font-family="sans-serif" font-size="20" font-weight="700" fill="#111827">변호사 비용</text>
+  <text x="1000" y="258" font-family="sans-serif" font-size="22" font-weight="900" fill="#059669" text-anchor="end">최대 7,000만 원</text>
+  <line x1="590" y1="274" x2="1000" y2="274" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="590" y="306" font-family="sans-serif" font-size="20" font-weight="700" fill="#111827">형사 합의금</text>
+  <text x="1000" y="306" font-family="sans-serif" font-size="22" font-weight="900" fill="#059669" text-anchor="end">최대 2~2.5억 원</text>
+  <line x1="590" y1="322" x2="1000" y2="322" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="590" y="354" font-family="sans-serif" font-size="20" font-weight="700" fill="#111827">벌금</text>
+  <text x="1000" y="354" font-family="sans-serif" font-size="22" font-weight="900" fill="#059669" text-anchor="end">최대 3,000만 원</text>
+  <line x1="590" y1="370" x2="1000" y2="370" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="590" y="402" font-family="sans-serif" font-size="20" font-weight="700" fill="#111827">월 보험료</text>
+  <text x="1000" y="402" font-family="sans-serif" font-size="22" font-weight="900" fill="#059669" text-anchor="end">~1만 원대 (연령 무관)</text>
+  <line x1="590" y1="418" x2="1000" y2="418" stroke="#E5E7EB" stroke-width="1"/>
+
+  <rect x="590" y="435" width="410" height="46" rx="12" fill="#F5F3FF" stroke="#C4B5FD" stroke-width="1"/>
+  <text x="795" y="465" font-family="sans-serif" font-size="17" font-weight="700" fill="#5B21B6" text-anchor="middle">운전자 본인 형사 방어 = 필수 가입</text>
+
+  <rect x="590" y="498" width="410" height="40" rx="10" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1"/>
+  <text x="795" y="525" font-family="sans-serif" font-size="16" font-weight="700" fill="#065F46" text-anchor="middle">2026년 경찰 조사 단계부터 보장</text>
+
+  <!-- 결론 -->
+  <rect x="50" y="608" width="980" height="75" rx="20" fill="#7C3AED"/>
+  <text x="540" y="640" font-family="sans-serif" font-size="22" font-weight="800" fill="#FFF" text-anchor="middle">결론: 자동차보험(민사) + 운전자보험(형사) = 둘 다 필수</text>
+  <text x="540" y="670" font-family="sans-serif" font-size="18" fill="#DDD6FE" text-anchor="middle">역할이 다르므로 하나만 가입하면 나머지 영역이 무방비 상태</text>
+
+  <!-- 경력인정 -->
+  <rect x="50" y="710" width="980" height="100" rx="20" fill="#FFF" stroke="#C4B5FD" stroke-width="1.5"/>
+  <text x="540" y="745" font-family="sans-serif" font-size="22" font-weight="900" fill="#7C3AED" text-anchor="middle">경력인정 대상자 등록 → 최대 24% 할인</text>
+  <rect x="80" y="760" width="290" height="36" rx="10" fill="#ECFDF5"/>
+  <text x="225" y="785" font-family="sans-serif" font-size="17" font-weight="700" fill="#065F46" text-anchor="middle">1년 → 7% 할인</text>
+  <rect x="395" y="760" width="290" height="36" rx="10" fill="#ECFDF5"/>
+  <text x="540" y="785" font-family="sans-serif" font-size="17" font-weight="700" fill="#065F46" text-anchor="middle">2년 → 14% 할인</text>
+  <rect x="710" y="760" width="290" height="36" rx="10" fill="#059669"/>
+  <text x="855" y="785" font-family="sans-serif" font-size="17" font-weight="700" fill="#FFF" text-anchor="middle">3년 → 24% 할인</text>
+
+  <!-- 연령별 인상 -->
+  <rect x="50" y="840" width="980" height="100" rx="20" fill="#FFF" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="540" y="873" font-family="sans-serif" font-size="20" font-weight="900" fill="#111827" text-anchor="middle">자녀 연령별 자동차보험 인상폭 (부부 한정 대비)</text>
+  <rect x="80" y="888" width="290" height="36" rx="10" fill="#EFF6FF"/>
+  <text x="225" y="913" font-family="sans-serif" font-size="17" font-weight="700" fill="#1E40AF" text-anchor="middle">30세+ → +10~30%</text>
+  <rect x="395" y="888" width="290" height="36" rx="10" fill="#FFF7ED"/>
+  <text x="540" y="913" font-family="sans-serif" font-size="17" font-weight="700" fill="#9A3412" text-anchor="middle">24~26세 → +50~80%</text>
+  <rect x="710" y="888" width="290" height="36" rx="10" fill="#FEF2F2"/>
+  <text x="855" y="913" font-family="sans-serif" font-size="17" font-weight="700" fill="#991B1B" text-anchor="middle">21세↓ → 2~3배 폭등</text>
+
+  <!-- 경고 -->
+  <rect x="50" y="970" width="980" height="40" rx="12" fill="#FEF2F2" stroke="#FECACA" stroke-width="1"/>
+  <text x="540" y="997" font-family="sans-serif" font-size="16" font-weight="700" fill="#991B1B" text-anchor="middle">무면허·음주 운전은 자동차보험·운전자보험 모두 보장 제외</text>
+
+  <text x="540" y="1055" font-family="sans-serif" font-size="15" fill="#9CA3AF" text-anchor="middle">2026년 4월 기준 | 보험사·상품별 보장 한도·보험료 차이 있음</text>
+</svg>

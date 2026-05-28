@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 1350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="860" height="1350" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="430" y="45" text-anchor="middle" fill="#93C5FD" font-size="14" font-weight="600" font-family="sans-serif">essencial | 상황별 추천 가이드</text>
+  <text x="430" y="80" text-anchor="middle" fill="#FFFFFF" font-size="24" font-weight="800" font-family="sans-serif">자동차 정기검사 — 나에게 맞는 행동은?</text>
+
+  <!-- Scenario 1 -->
+  <g transform="translate(40,110)">
+    <rect x="0" y="0" width="380" height="140" rx="16" fill="#1e293b"/>
+    <rect x="0" y="0" width="380" height="4" rx="2" fill="#3B82F6"/>
+    <rect x="15" y="18" width="28" height="28" rx="14" fill="#1E40AF"/>
+    <text x="29" y="38" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">1</text>
+    <text x="58" y="38" fill="#60A5FA" font-size="14" font-weight="700" font-family="sans-serif">만료 3개월+ 남음</text>
+    <text x="15" y="68" fill="#CBD5E1" font-size="12" font-family="sans-serif">여유 있게 준비할 수 있는 상황</text>
+    <text x="15" y="95" fill="#34D399" font-size="14" font-weight="700" font-family="sans-serif">→ TS 공단 예약</text>
+    <text x="15" y="118" fill="#94A3B8" font-size="11" font-family="sans-serif">저렴 + 감면 적용 가능</text>
+    <text x="15" y="135" fill="#94A3B8" font-size="11" font-family="sans-serif">화~목 오후 14~16시 추천</text>
+  </g>
+
+  <!-- Scenario 2 -->
+  <g transform="translate(440,110)">
+    <rect x="0" y="0" width="380" height="140" rx="16" fill="#1e293b"/>
+    <rect x="0" y="0" width="380" height="4" rx="2" fill="#F59E0B"/>
+    <rect x="15" y="18" width="28" height="28" rx="14" fill="#92400E"/>
+    <text x="29" y="38" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">2</text>
+    <text x="58" y="38" fill="#FBBF24" font-size="14" font-weight="700" font-family="sans-serif">만료 1개월 이내 + 공단 만석</text>
+    <text x="15" y="68" fill="#CBD5E1" font-size="12" font-family="sans-serif">과태료 위험 구간 진입</text>
+    <text x="15" y="95" fill="#34D399" font-size="14" font-weight="700" font-family="sans-serif">→ 민간 검사소 당일 수검</text>
+    <text x="15" y="118" fill="#94A3B8" font-size="11" font-family="sans-serif">추가 2만 원 &lt; 과태료 4만 원</text>
+    <text x="15" y="135" fill="#FCD34D" font-size="11" font-weight="600" font-family="sans-serif">과태료 방지가 우선!</text>
+  </g>
+
+  <!-- Scenario 3 -->
+  <g transform="translate(40,270)">
+    <rect x="0" y="0" width="380" height="140" rx="16" fill="#1e293b"/>
+    <rect x="0" y="0" width="380" height="4" rx="2" fill="#34D399"/>
+    <rect x="15" y="18" width="28" height="28" rx="14" fill="#065F46"/>
+    <text x="29" y="38" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">3</text>
+    <text x="58" y="38" fill="#6EE7B7" font-size="14" font-weight="700" font-family="sans-serif">장애인·다자녀·수급자</text>
+    <text x="15" y="68" fill="#CBD5E1" font-size="12" font-family="sans-serif">감면 혜택 대상자</text>
+    <text x="15" y="95" fill="#34D399" font-size="14" font-weight="700" font-family="sans-serif">→ 반드시 TS 공단 직영</text>
+    <text x="15" y="118" fill="#94A3B8" font-size="11" font-family="sans-serif">중증 50% / 경증 30% 감면</text>
+    <text x="15" y="135" fill="#F87171" font-size="11" font-weight="600" font-family="sans-serif">민간 검사소 감면 불가</text>
+  </g>
+
+  <!-- Scenario 4 -->
+  <g transform="translate(440,270)">
+    <rect x="0" y="0" width="380" height="140" rx="16" fill="#1e293b"/>
+    <rect x="0" y="0" width="380" height="4" rx="2" fill="#8B5CF6"/>
+    <rect x="15" y="18" width="28" height="28" rx="14" fill="#5B21B6"/>
+    <text x="29" y="38" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">4</text>
+    <text x="58" y="38" fill="#C4B5FD" font-size="14" font-weight="700" font-family="sans-serif">디젤 차량</text>
+    <text x="15" y="68" fill="#CBD5E1" font-size="12" font-family="sans-serif">배출가스 부적합 위험 높음</text>
+    <text x="15" y="95" fill="#34D399" font-size="14" font-weight="700" font-family="sans-serif">→ 검사 전 30분 고속주행</text>
+    <text x="15" y="118" fill="#94A3B8" font-size="11" font-family="sans-serif">DPF 재생 + 요소수 확인</text>
+    <text x="15" y="135" fill="#94A3B8" font-size="11" font-family="sans-serif">엔진오일 교환 주기 점검</text>
+  </g>
+
+  <!-- Scenario 5 -->
+  <g transform="translate(40,430)">
+    <rect x="0" y="0" width="380" height="140" rx="16" fill="#1e293b"/>
+    <rect x="0" y="0" width="380" height="4" rx="2" fill="#10B981"/>
+    <rect x="15" y="18" width="28" height="28" rx="14" fill="#065F46"/>
+    <text x="29" y="38" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">5</text>
+    <text x="58" y="38" fill="#6EE7B7" font-size="14" font-weight="700" font-family="sans-serif">전기차</text>
+    <text x="15" y="68" fill="#CBD5E1" font-size="12" font-family="sans-serif">2026년 BMS 검사 의무화</text>
+    <text x="15" y="95" fill="#34D399" font-size="14" font-weight="700" font-family="sans-serif">→ OTA 업데이트 + 리콜 조치</text>
+    <text x="15" y="118" fill="#94A3B8" font-size="11" font-family="sans-serif">SOH·충방전 이력 정밀 분석</text>
+    <text x="15" y="135" fill="#F87171" font-size="11" font-weight="600" font-family="sans-serif">리콜 미이행 1.5년 → 부적합</text>
+  </g>
+
+  <!-- Scenario 6 -->
+  <g transform="translate(440,430)">
+    <rect x="0" y="0" width="380" height="140" rx="16" fill="#1e293b"/>
+    <rect x="0" y="0" width="380" height="4" rx="2" fill="#F87171"/>
+    <rect x="15" y="18" width="28" height="28" rx="14" fill="#991B1B"/>
+    <text x="29" y="38" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">6</text>
+    <text x="58" y="38" fill="#FCA5A5" font-size="14" font-weight="700" font-family="sans-serif">해외 출장·입원 등 부득이</text>
+    <text x="15" y="68" fill="#CBD5E1" font-size="12" font-family="sans-serif">검사 기간 내 수검 불가</text>
+    <text x="15" y="95" fill="#34D399" font-size="14" font-weight="700" font-family="sans-serif">→ 유예(연장) 신청</text>
+    <text x="15" y="118" fill="#94A3B8" font-size="11" font-family="sans-serif">정부24 온라인 또는 시·군·구청</text>
+    <text x="15" y="135" fill="#FCD34D" font-size="11" font-weight="600" font-family="sans-serif">유예 종료 후 31일 내 수검 필수</text>
+  </g>
+
+  <!-- 5단계 체크리스트 -->
+  <rect x="40" y="605" width="780" height="36" rx="10" fill="#1E40AF" opacity="0.25"/>
+  <text x="430" y="630" text-anchor="middle" fill="#93C5FD" font-size="16" font-weight="700" font-family="sans-serif">지금 바로 확인하는 5단계</text>
+
+  <g transform="translate(60,660)">
+    <!-- Step 1 -->
+    <rect x="0" y="0" width="740" height="55" rx="12" fill="#1e293b"/>
+    <rect x="0" y="0" width="4" height="55" rx="2" fill="#3B82F6"/>
+    <rect x="18" y="14" width="28" height="28" rx="14" fill="#1E40AF"/>
+    <text x="32" y="34" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">1</text>
+    <text x="60" y="28" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">검사 대상 확인</text>
+    <text x="60" y="46" fill="#94A3B8" font-size="12" font-family="sans-serif">TS 사이버검사소에서 차량번호 입력 → 유효기간 조회</text>
+
+    <!-- Step 2 -->
+    <rect x="0" y="65" width="740" height="55" rx="12" fill="#253044"/>
+    <rect x="0" y="65" width="4" height="55" rx="2" fill="#34D399"/>
+    <rect x="18" y="79" width="28" height="28" rx="14" fill="#065F46"/>
+    <text x="32" y="99" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">2</text>
+    <text x="60" y="93" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">만료일 확인</text>
+    <text x="60" y="111" fill="#94A3B8" font-size="12" font-family="sans-serif">90일 전부터 수검 가능 → 달력에 표시</text>
+
+    <!-- Step 3 -->
+    <rect x="0" y="130" width="740" height="55" rx="12" fill="#1e293b"/>
+    <rect x="0" y="130" width="4" height="55" rx="2" fill="#FBBF24"/>
+    <rect x="18" y="144" width="28" height="28" rx="14" fill="#92400E"/>
+    <text x="32" y="164" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">3</text>
+    <text x="60" y="158" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">예약</text>
+    <text x="60" y="176" fill="#94A3B8" font-size="12" font-family="sans-serif">TS 사이버검사소 or 네이버 → 화~목 오후 추천</text>
+
+    <!-- Step 4 -->
+    <rect x="0" y="195" width="740" height="55" rx="12" fill="#253044"/>
+    <rect x="0" y="195" width="4" height="55" rx="2" fill="#8B5CF6"/>
+    <rect x="18" y="209" width="28" height="28" rx="14" fill="#5B21B6"/>
+    <text x="32" y="229" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">4</text>
+    <text x="60" y="223" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">사전 점검</text>
+    <text x="60" y="241" fill="#94A3B8" font-size="12" font-family="sans-serif">등화장치 5분 자가 점검 (전조등·방향등·제동등·번호판등)</text>
+
+    <!-- Step 5 -->
+    <rect x="0" y="260" width="740" height="55" rx="12" fill="#1e293b"/>
+    <rect x="0" y="260" width="4" height="55" rx="2" fill="#F87171"/>
+    <rect x="18" y="274" width="28" height="28" rx="14" fill="#991B1B"/>
+    <text x="32" y="294" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800" font-family="sans-serif">5</text>
+    <text x="60" y="288" fill="#FFFFFF" font-size="14" font-weight="700" font-family="sans-serif">수검</text>
+    <text x="60" y="306" fill="#94A3B8" font-size="12" font-family="sans-serif">디지털 문진표 미리 작성 → 현장 15분 이내 완료</text>
+  </g>
+
+  <!-- 시간대 전략 -->
+  <rect x="40" y="1000" width="780" height="32" rx="8" fill="#F59E0B" opacity="0.15"/>
+  <text x="430" y="1023" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="700" font-family="sans-serif">예약 시간대 전략</text>
+
+  <g transform="translate(40,1050)">
+    <rect x="0" y="0" width="380" height="90" rx="14" fill="#1e293b"/>
+    <rect x="0" y="0" width="380" height="4" rx="2" fill="#F87171"/>
+    <text x="190" y="30" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="700" font-family="sans-serif">피크 타임 (피하세요)</text>
+    <text x="190" y="55" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">월요일·금요일</text>
+    <text x="190" y="78" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">월말</text>
+
+    <rect x="400" y="0" width="380" height="90" rx="14" fill="#1e293b"/>
+    <rect x="400" y="0" width="380" height="4" rx="2" fill="#34D399"/>
+    <text x="590" y="30" text-anchor="middle" fill="#6EE7B7" font-size="14" font-weight="700" font-family="sans-serif">추천 시간대</text>
+    <text x="590" y="55" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="800" font-family="sans-serif">화~목요일 오후 14:00~16:00</text>
+    <text x="590" y="78" text-anchor="middle" fill="#34D399" font-size="13" font-family="sans-serif">대기 시간 최소</text>
+  </g>
+
+  <!-- 핵심 결론 -->
+  <rect x="60" y="1180" width="740" height="80" rx="16" fill="#1E40AF" opacity="0.3"/>
+  <text x="430" y="1215" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="700" font-family="sans-serif">만료일만 확인하면 과태료 60만 원을 피할 수 있습니다</text>
+  <text x="430" y="1245" text-anchor="middle" fill="#FCD34D" font-size="15" font-weight="600" font-family="sans-serif">TS 사이버검사소에서 지금 바로 유효기간을 조회하세요</text>
+
+  <!-- Warning -->
+  <rect x="60" y="1280" width="740" height="30" rx="8" fill="#7F1D1D" opacity="0.3"/>
+  <text x="430" y="1301" text-anchor="middle" fill="#FCA5A5" font-size="12" font-weight="600" font-family="sans-serif">2026년부터 완전 예약제 — 현장 접수 불가, 반드시 사전 예약 필수</text>
+
+  <!-- Footer -->
+  <text x="430" y="1340" text-anchor="middle" fill="#64748B" font-size="13" font-family="sans-serif">essencial | 2026년 기준 | TS 공단·국토교통부 자료</text>
+</svg>

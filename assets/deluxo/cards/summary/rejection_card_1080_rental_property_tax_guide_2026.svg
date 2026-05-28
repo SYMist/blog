@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="8" fill="#EF4444"/>
+
+  <!-- Title -->
+  <text x="540" y="70" font-family="-apple-system, sans-serif" font-size="36" font-weight="900" fill="#EF4444" text-anchor="middle">세제혜택 상실 TOP 5 사유</text>
+  <text x="540" y="108" font-family="-apple-system, sans-serif" font-size="22" font-weight="700" fill="#A0B4D0" text-anchor="middle">이 실수를 하면 받은 세금 혜택이 모두 추징됩니다</text>
+
+  <!-- TOP 1 -->
+  <rect x="60" y="138" width="960" height="136" rx="12" fill="#1A1A2E"/>
+  <rect x="60" y="138" width="8" height="136" rx="4" fill="#EF4444"/>
+  <text x="130" y="182" font-family="-apple-system, sans-serif" font-size="32" font-weight="900" fill="#EF4444">TOP 1</text>
+  <text x="130" y="218" font-family="-apple-system, sans-serif" font-size="24" font-weight="900" fill="#FFFFFF">의무기간 전 임의 말소</text>
+  <text x="130" y="256" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0">소득세·취득세 감면액 전액 추징 + 과태료. 임차인 동의 합의 말소 시 예외 가능</text>
+
+  <!-- TOP 2 -->
+  <rect x="60" y="290" width="960" height="136" rx="12" fill="#0D1B35"/>
+  <rect x="60" y="290" width="8" height="136" rx="4" fill="#F59E0B"/>
+  <text x="130" y="334" font-family="-apple-system, sans-serif" font-size="32" font-weight="900" fill="#F59E0B">TOP 2</text>
+  <text x="130" y="370" font-family="-apple-system, sans-serif" font-size="24" font-weight="900" fill="#FFFFFF">임대료 5% 초과 인상</text>
+  <text x="130" y="408" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0">2년마다 5% 이내 상한 위반 시 의무기간 불인정, 세제혜택 환급 요구 가능</text>
+
+  <!-- TOP 3 -->
+  <rect x="60" y="442" width="960" height="136" rx="12" fill="#1A1A2E"/>
+  <rect x="60" y="442" width="8" height="136" rx="4" fill="#EF4444"/>
+  <text x="130" y="486" font-family="-apple-system, sans-serif" font-size="32" font-weight="900" fill="#EF4444">TOP 3</text>
+  <text x="130" y="522" font-family="-apple-system, sans-serif" font-size="24" font-weight="900" fill="#FFFFFF">임대조건 신고 누락</text>
+  <text x="130" y="560" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0">임대 개시 전 렌트홈·지자체에 임대조건 신고 필수. 신고 없이 임대 시 과태료</text>
+
+  <!-- TOP 4 -->
+  <rect x="60" y="594" width="960" height="136" rx="12" fill="#0D1B35"/>
+  <rect x="60" y="594" width="8" height="136" rx="4" fill="#F59E0B"/>
+  <text x="130" y="638" font-family="-apple-system, sans-serif" font-size="32" font-weight="900" fill="#F59E0B">TOP 4</text>
+  <text x="130" y="674" font-family="-apple-system, sans-serif" font-size="24" font-weight="900" fill="#FFFFFF">종부세 합산배제 신고 누락</text>
+  <text x="130" y="712" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0">자동 적용 아님! 매년 9월 16~30일 홈택스에서 별도 신고 필수</text>
+
+  <!-- TOP 5 -->
+  <rect x="60" y="746" width="960" height="136" rx="12" fill="#1A1A2E"/>
+  <rect x="60" y="746" width="8" height="136" rx="4" fill="#EF4444"/>
+  <text x="130" y="790" font-family="-apple-system, sans-serif" font-size="32" font-weight="900" fill="#EF4444">TOP 5</text>
+  <text x="130" y="826" font-family="-apple-system, sans-serif" font-size="24" font-weight="900" fill="#FFFFFF">임대소득 미신고</text>
+  <text x="130" y="864" font-family="-apple-system, sans-serif" font-size="17" fill="#A0B4D0">무신고 가산세 20% 부과. 국세청은 렌트홈·임대차계약 정보로 임대소득 파악 중</text>
+
+  <!-- Footer -->
+  <text x="540" y="960" font-family="-apple-system, sans-serif" font-size="15" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준 | 상담: 렌트홈 ☎ 1670-8004 | 국세청 ☎ 1330</text>
+  <rect x="0" y="1072" width="1080" height="8" fill="#EF4444"/>
+</svg>

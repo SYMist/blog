@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="8" fill="#34D399"/>
+
+  <!-- Title -->
+  <text x="540" y="52" font-family="-apple-system, sans-serif" font-size="28" font-weight="900" fill="#34D399" text-anchor="middle">건강보험 피부양자 탈락 기준 한눈에</text>
+  <text x="540" y="84" font-family="-apple-system, sans-serif" font-size="16" font-weight="600" fill="#A0B4D0" text-anchor="middle">소득 3가지 · 재산 2가지 · 부양관계 — 하나라도 초과하면 탈락 (2026년 기준)</text>
+
+  <!-- Row 1: 합산소득 2,000만원 -->
+  <rect x="30" y="100" width="1020" height="118" rx="10" fill="#1A3270"/>
+  <rect x="30" y="100" width="6" height="118" rx="3" fill="#34D399"/>
+  <circle cx="86" cy="159" r="22" fill="#34D399"/>
+  <text x="86" y="167" font-family="-apple-system, sans-serif" font-size="18" font-weight="900" fill="#0B1F3B" text-anchor="middle">1</text>
+  <text x="125" y="142" font-family="-apple-system, sans-serif" font-size="19" font-weight="800" fill="#FFFFFF">연 합산소득 초과</text>
+  <text x="125" y="170" font-family="-apple-system, sans-serif" font-size="32" font-weight="900" fill="#34D399">2,000만원</text>
+  <text x="125" y="196" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0">이자+배당+사업+근로+연금+기타소득 합산 | 소득 기준 ①</text>
+
+  <!-- Row 2: 금융소득 1,000만원 -->
+  <rect x="30" y="226" width="1020" height="118" rx="10" fill="#0D2347"/>
+  <rect x="30" y="226" width="6" height="118" rx="3" fill="#34D399"/>
+  <circle cx="86" cy="285" r="22" fill="#34D399"/>
+  <text x="86" y="293" font-family="-apple-system, sans-serif" font-size="18" font-weight="900" fill="#0B1F3B" text-anchor="middle">2</text>
+  <text x="125" y="268" font-family="-apple-system, sans-serif" font-size="19" font-weight="800" fill="#FFFFFF">금융소득(이자+배당) 초과</text>
+  <text x="125" y="296" font-family="-apple-system, sans-serif" font-size="32" font-weight="900" fill="#34D399">1,000만원</text>
+  <text x="125" y="322" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0">합산소득 기준과 별개 — 이것만 초과해도 탈락 | 소득 기준 ②</text>
+
+  <!-- Row 3: 사업소득 500만원 -->
+  <rect x="30" y="352" width="1020" height="118" rx="10" fill="#1A3270"/>
+  <rect x="30" y="352" width="6" height="118" rx="3" fill="#34D399"/>
+  <circle cx="86" cy="411" r="22" fill="#34D399"/>
+  <text x="86" y="419" font-family="-apple-system, sans-serif" font-size="18" font-weight="900" fill="#0B1F3B" text-anchor="middle">3</text>
+  <text x="125" y="394" font-family="-apple-system, sans-serif" font-size="19" font-weight="800" fill="#FFFFFF">사업소득 초과</text>
+  <text x="125" y="422" font-family="-apple-system, sans-serif" font-size="32" font-weight="900" fill="#34D399">500만원</text>
+  <text x="125" y="448" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0">부업·프리랜서 수입 포함 | 합산소득 기준과 별개 | 소득 기준 ③</text>
+
+  <!-- Row 4: 재산 9억 -->
+  <rect x="30" y="478" width="1020" height="118" rx="10" fill="#0D2347"/>
+  <rect x="30" y="478" width="6" height="118" rx="3" fill="#F59E0B"/>
+  <circle cx="86" cy="537" r="22" fill="#F59E0B"/>
+  <text x="86" y="545" font-family="-apple-system, sans-serif" font-size="18" font-weight="900" fill="#0B1F3B" text-anchor="middle">4</text>
+  <text x="125" y="520" font-family="-apple-system, sans-serif" font-size="19" font-weight="800" fill="#FFFFFF">재산세 과세표준 단독 초과</text>
+  <text x="125" y="548" font-family="-apple-system, sans-serif" font-size="32" font-weight="900" fill="#F59E0B">9억원</text>
+  <text x="125" y="574" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0">공시가격 × 60% = 과세표준 | 아파트 공시가 15억원 → 탈락 | 재산 기준 ①</text>
+
+  <!-- Row 5: 재산 5.4억 + 소득 1천만 -->
+  <rect x="30" y="604" width="1020" height="118" rx="10" fill="#1A3270"/>
+  <rect x="30" y="604" width="6" height="118" rx="3" fill="#F59E0B"/>
+  <circle cx="86" cy="663" r="22" fill="#F59E0B"/>
+  <text x="86" y="671" font-family="-apple-system, sans-serif" font-size="18" font-weight="900" fill="#0B1F3B" text-anchor="middle">5</text>
+  <text x="125" y="646" font-family="-apple-system, sans-serif" font-size="19" font-weight="800" fill="#FFFFFF">재산세 과세표준+소득 복합 기준</text>
+  <text x="125" y="674" font-family="-apple-system, sans-serif" font-size="24" font-weight="900" fill="#F59E0B">5.4억원 초과 + 소득 1,000만원 초과</text>
+  <text x="125" y="700" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0">재산과 소득이 동시에 기준 초과 시 탈락 | 재산 기준 ②</text>
+
+  <!-- Row 6: 부부 동반 탈락 -->
+  <rect x="30" y="730" width="1020" height="118" rx="10" fill="#0D2347"/>
+  <rect x="30" y="730" width="6" height="118" rx="3" fill="#EF4444"/>
+  <circle cx="86" cy="789" r="22" fill="#EF4444"/>
+  <text x="86" y="797" font-family="-apple-system, sans-serif" font-size="18" font-weight="900" fill="#FFFFFF" text-anchor="middle">6</text>
+  <text x="125" y="772" font-family="-apple-system, sans-serif" font-size="19" font-weight="800" fill="#FFFFFF">부부 동반 탈락</text>
+  <text x="125" y="800" font-family="-apple-system, sans-serif" font-size="24" font-weight="900" fill="#EF4444">배우자 중 1인 소득 초과 → 두 명 모두 탈락</text>
+  <text x="125" y="826" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0">재산 기준은 개인별 산정 | 소득 기준만 동반 적용</text>
+
+  <!-- Row 7: 부양관계 상실 -->
+  <rect x="30" y="856" width="1020" height="118" rx="10" fill="#1A3270"/>
+  <rect x="30" y="856" width="6" height="118" rx="3" fill="#EF4444"/>
+  <circle cx="86" cy="915" r="22" fill="#EF4444"/>
+  <text x="86" y="923" font-family="-apple-system, sans-serif" font-size="18" font-weight="900" fill="#FFFFFF" text-anchor="middle">7</text>
+  <text x="125" y="898" font-family="-apple-system, sans-serif" font-size="19" font-weight="800" fill="#FFFFFF">부양관계 상실</text>
+  <text x="125" y="926" font-family="-apple-system, sans-serif" font-size="24" font-weight="900" fill="#EF4444">이혼 · 분가 등 직계관계 소멸</text>
+  <text x="125" y="952" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0">직계존비속·형제자매·배우자 등 부양관계 소멸 시 즉시 탈락</text>
+
+  <text x="540" y="1010" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준 | nhis.or.kr | 국민건강보험공단 ☎1577-1000 | 개인 상황에 따라 다를 수 있음</text>
+  <rect x="0" y="1072" width="1080" height="8" fill="#34D399"/>
+</svg>

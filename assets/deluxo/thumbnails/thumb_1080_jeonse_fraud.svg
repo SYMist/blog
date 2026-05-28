@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+
+  <rect x="80" y="120" width="280" height="52" rx="26" fill="rgba(245,158,11,0.2)"/>
+  <text x="220" y="154" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#F59E0B">2026 최신</text>
+
+  <text x="80" y="290" font-family="'Pretendard',sans-serif" font-size="82" font-weight="900" fill="#FFFFFF">전세사기</text>
+  <text x="80" y="390" font-family="'Pretendard',sans-serif" font-size="82" font-weight="900" fill="#FFFFFF">피해 대응</text>
+
+  <text x="80" y="480" font-family="'Pretendard',sans-serif" font-size="52" font-weight="600" fill="#EAF2FF">보증금 회수·지원제도</text>
+  <text x="80" y="545" font-family="'Pretendard',sans-serif" font-size="52" font-weight="600" fill="#EAF2FF">총정리</text>
+
+  <rect x="80" y="600" width="220" height="52" rx="26" fill="#E8F0FF"/>
+  <text x="190" y="634" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="700" fill="#1D4ED8">우선매수권</text>
+
+  <rect x="320" y="600" width="220" height="52" rx="26" fill="#E8F0FF"/>
+  <text x="430" y="634" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="700" fill="#1D4ED8">세제 감면</text>
+
+  <rect x="560" y="600" width="220" height="52" rx="26" fill="#E8F0FF"/>
+  <text x="670" y="634" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="700" fill="#1D4ED8">금융 지원</text>
+
+  <rect x="60" y="720" width="960" height="300" rx="24" fill="rgba(245,158,11,0.08)"/>
+  <text x="540" y="770" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="700" fill="#F59E0B">핵심 수치</text>
+
+  <text x="200" y="840" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="52" font-weight="900" fill="#FFF">279억</text>
+  <text x="200" y="885" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="600" fill="#EAF2FF">추경 보전 예산</text>
+
+  <text x="540" y="840" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="52" font-weight="900" fill="#FFF">3,040억</text>
+  <text x="540" y="885" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="600" fill="#EAF2FF">인천 주거안정</text>
+
+  <text x="880" y="840" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="52" font-weight="900" fill="#FFF">4억</text>
+  <text x="880" y="885" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="600" fill="#EAF2FF">대환 대출 한도</text>
+
+  <text x="540" y="990" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#F59E0B">취득세 면제 + 재산세 50% 감면 + 법률 250만 원</text>
+</svg>

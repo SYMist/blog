@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- 배지 -->
+  <rect x="60" y="50" width="220" height="44" rx="22" fill="#F59E0B"/>
+  <text x="170" y="79" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#0B1F3B">기존 vs 2026</text>
+
+  <!-- 메인 제목 -->
+  <text x="60" y="150" font-family="'Pretendard',sans-serif" font-size="52" font-weight="900" fill="#FFFFFF">주택청약 제도</text>
+  <text x="60" y="210" font-family="'Pretendard',sans-serif" font-size="52" font-weight="900" fill="#FFFFFF">이렇게 달라졌다</text>
+
+  <!-- 구분선 -->
+  <rect x="60" y="240" width="120" height="4" rx="2" fill="#F59E0B"/>
+
+  <!-- 컬럼 헤더 -->
+  <rect x="60" y="280" width="280" height="50" rx="14" fill="rgba(255,255,255,0.06)"/>
+  <text x="200" y="312" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#94A3B8">항목</text>
+  <rect x="370" y="280" width="300" height="50" rx="14" fill="rgba(255,255,255,0.06)"/>
+  <text x="520" y="312" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#94A3B8">기존</text>
+  <rect x="700" y="280" width="320" height="50" rx="14" fill="rgba(245,158,11,0.15)"/>
+  <text x="860" y="312" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#F59E0B">2026</text>
+
+  <!-- Row 1: 납입 한도 -->
+  <rect x="60" y="355" width="960" height="110" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <rect x="80" y="375" width="54" height="54" rx="27" fill="#F59E0B"/>
+  <text x="107" y="412" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#0B1F3B">1</text>
+  <text x="155" y="400" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">납입 한도</text>
+  <text x="520" y="400" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="600" fill="#94A3B8">월 10만 원</text>
+  <text x="520" y="435" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#64748B">연 120만 인정</text>
+  <text x="860" y="400" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFFFFF">월 25만 원</text>
+  <text x="860" y="435" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#F59E0B">연 300만 인정</text>
+
+  <!-- Row 2: 소득공제 -->
+  <rect x="60" y="485" width="960" height="110" rx="16" fill="rgba(255,255,255,0.05)"/>
+  <rect x="80" y="505" width="54" height="54" rx="27" fill="#F59E0B"/>
+  <text x="107" y="542" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#0B1F3B">2</text>
+  <text x="155" y="530" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">소득공제</text>
+  <text x="520" y="530" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="600" fill="#94A3B8">연 240만</text>
+  <text x="520" y="565" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#64748B">40% 공제</text>
+  <text x="860" y="530" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFFFFF">연 300만</text>
+  <text x="860" y="565" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#F59E0B">40% 공제</text>
+
+  <!-- Row 3: 다자녀 -->
+  <rect x="60" y="615" width="960" height="110" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <rect x="80" y="635" width="54" height="54" rx="27" fill="#F59E0B"/>
+  <text x="107" y="672" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#0B1F3B">3</text>
+  <text x="155" y="660" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">다자녀</text>
+  <text x="520" y="660" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="600" fill="#94A3B8">3자녀↑</text>
+  <text x="520" y="695" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#64748B">특공 적용</text>
+  <text x="860" y="660" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFFFFF">2자녀↑ 완화</text>
+  <text x="860" y="695" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#F59E0B">대상 확대</text>
+
+  <!-- Row 4: 부부 청약 -->
+  <rect x="60" y="745" width="960" height="110" rx="16" fill="rgba(255,255,255,0.05)"/>
+  <rect x="80" y="765" width="54" height="54" rx="27" fill="#F59E0B"/>
+  <text x="107" y="802" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#0B1F3B">4</text>
+  <text x="155" y="790" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">부부 청약</text>
+  <text x="520" y="790" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="600" fill="#94A3B8">중복 불가</text>
+  <text x="520" y="825" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#64748B">1세대 1건만</text>
+  <text x="860" y="790" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFFFFF">중복 허용</text>
+  <text x="860" y="825" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#F59E0B">부부 각각 가능</text>
+
+  <!-- Row 5: 신생아 특공 -->
+  <rect x="60" y="875" width="960" height="110" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <rect x="80" y="895" width="54" height="54" rx="27" fill="#F59E0B"/>
+  <text x="107" y="932" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#0B1F3B">5</text>
+  <text x="155" y="920" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">신생아 특공</text>
+  <text x="520" y="920" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="600" fill="#94A3B8">미시행</text>
+  <text x="520" y="955" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#64748B">별도 제도 없음</text>
+  <text x="860" y="920" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#FFFFFF">20%↑ 배정</text>
+  <text x="860" y="955" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#F59E0B">2년 이내 출산 가구</text>
+
+  <!-- 칩 -->
+  <rect x="60" y="1010" width="100" height="36" rx="18" fill="#E8F0FF"/>
+  <text x="110" y="1034" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#1D4ED8">변화</text>
+  <rect x="180" y="1010" width="100" height="36" rx="18" fill="#E8F0FF"/>
+  <text x="230" y="1034" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#1D4ED8">비교</text>
+  <rect x="300" y="1010" width="100" height="36" rx="18" fill="#E8F0FF"/>
+  <text x="350" y="1034" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="700" fill="#1D4ED8">2026</text>
+</svg>

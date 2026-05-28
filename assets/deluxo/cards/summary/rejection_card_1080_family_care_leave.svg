@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- 배지 -->
+  <rect x="60" y="50" width="180" height="44" rx="22" fill="#EF4444"/>
+  <text x="150" y="79" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF">탈락 주의!</text>
+
+  <!-- 제목 -->
+  <text x="60" y="148" font-family="Arial,sans-serif" font-size="48" font-weight="900" fill="#FFFFFF">가족돌봄 지원금</text>
+  <text x="60" y="205" font-family="Arial,sans-serif" font-size="48" font-weight="900" fill="#FFFFFF">탈락 사유 TOP 5</text>
+
+  <rect x="60" y="235" width="120" height="4" rx="2" fill="#EF4444"/>
+
+  <!-- TOP 1 -->
+  <rect x="60" y="275" width="960" height="130" rx="16" fill="rgba(239,68,68,0.1)" stroke="#EF4444" stroke-width="1"/>
+  <circle cx="120" cy="340" r="32" fill="#EF4444"/>
+  <text x="120" y="349" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" font-weight="900" fill="#FFFFFF">1</text>
+  <text x="175" y="320" font-family="Arial,sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">근속기간 미달 (6개월 미만)</text>
+  <text x="175" y="355" font-family="Arial,sans-serif" font-size="20" fill="#94A3B8">가족돌봄휴직은 계속 근로기간 6개월 이상 필수.</text>
+  <text x="175" y="385" font-family="Arial,sans-serif" font-size="20" fill="#94A3B8">수습·인턴 기간 포함 여부는 인사팀에 사전 확인</text>
+
+  <!-- TOP 2 -->
+  <rect x="60" y="425" width="960" height="130" rx="16" fill="rgba(239,68,68,0.08)" stroke="rgba(239,68,68,0.5)" stroke-width="1"/>
+  <circle cx="120" cy="490" r="32" fill="rgba(239,68,68,0.8)"/>
+  <text x="120" y="499" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" font-weight="900" fill="#FFFFFF">2</text>
+  <text x="175" y="470" font-family="Arial,sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">돌봄 대상 범위 착각</text>
+  <text x="175" y="505" font-family="Arial,sans-serif" font-size="20" fill="#94A3B8">부모·배우자·자녀·배우자 부모만 해당.</text>
+  <text x="175" y="535" font-family="Arial,sans-serif" font-size="20" fill="#94A3B8">형제자매·조부모(직계존속 아닌 경우)는 대상 외</text>
+
+  <!-- TOP 3 -->
+  <rect x="60" y="575" width="960" height="130" rx="16" fill="rgba(239,68,68,0.06)" stroke="rgba(239,68,68,0.4)" stroke-width="1"/>
+  <circle cx="120" cy="640" r="32" fill="rgba(239,68,68,0.6)"/>
+  <text x="120" y="649" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" font-weight="900" fill="#FFFFFF">3</text>
+  <text x="175" y="620" font-family="Arial,sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">사유 증빙 미비</text>
+  <text x="175" y="655" font-family="Arial,sans-serif" font-size="20" fill="#94A3B8">긴급돌봄비용 신청 시 격리통지서·휴원통지서 미첨부하면 반려.</text>
+  <text x="175" y="685" font-family="Arial,sans-serif" font-size="20" fill="#94A3B8">사유별 증빙서류 꼼꼼히 준비</text>
+
+  <!-- TOP 4 -->
+  <rect x="60" y="725" width="960" height="120" rx="16" fill="rgba(239,68,68,0.04)" stroke="rgba(239,68,68,0.3)" stroke-width="1"/>
+  <circle cx="120" cy="785" r="32" fill="rgba(239,68,68,0.4)"/>
+  <text x="120" y="794" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" font-weight="900" fill="#FFFFFF">4</text>
+  <text x="175" y="770" font-family="Arial,sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">소득 기준 초과</text>
+  <text x="175" y="805" font-family="Arial,sans-serif" font-size="20" fill="#94A3B8">경기 돌봄수당 중위 150%, 서울 SOS 무료 중위 100% 이하</text>
+  <text x="175" y="830" font-family="Arial,sans-serif" font-size="20" fill="#94A3B8">건강보험료 기준으로 사전 확인 필수</text>
+
+  <!-- TOP 5 -->
+  <rect x="60" y="865" width="960" height="120" rx="16" fill="rgba(239,68,68,0.03)" stroke="rgba(239,68,68,0.2)" stroke-width="1"/>
+  <circle cx="120" cy="925" r="32" fill="rgba(239,68,68,0.3)"/>
+  <text x="120" y="934" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" font-weight="900" fill="#FFFFFF">5</text>
+  <text x="175" y="910" font-family="Arial,sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">신청 기간 경과</text>
+  <text x="175" y="945" font-family="Arial,sans-serif" font-size="20" fill="#94A3B8">경기도 돌봄수당은 매달 1~15일에만 신청 가능.</text>
+  <text x="175" y="970" font-family="Arial,sans-serif" font-size="20" fill="#94A3B8">16일 이후 신청 시 다음 달로 밀림</text>
+
+  <text x="60" y="1040" font-family="Arial,sans-serif" font-size="18" fill="#94A3B8">※ 신청 전 공식 공고/FAQ 확인 필수</text>
+</svg>

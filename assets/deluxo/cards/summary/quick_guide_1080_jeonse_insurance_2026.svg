@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <text x="540" y="130" font-family="'Pretendard', sans-serif" font-size="46" font-weight="900" fill="#F59E0B" text-anchor="middle">빠른 판단 가이드</text>
+  <text x="540" y="210" font-family="'Pretendard', sans-serif" font-size="58" font-weight="900" fill="#FFFFFF" text-anchor="middle">나는 어느 기관?</text>
+
+  <rect x="60" y="270" width="960" height="170" rx="24" fill="#1A3270"/>
+  <text x="100" y="325" font-family="'Pretendard', sans-serif" font-size="34" font-weight="900" fill="#F59E0B">① HUG 전세보증금반환보증</text>
+  <text x="100" y="375" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#FFFFFF">일반 전세 · 공시가 126% 이내 · 보증금 7억 이하</text>
+  <text x="100" y="415" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF">요율 0.115~0.154% · 청년 60% 할인 + 모바일 3%</text>
+
+  <rect x="60" y="460" width="960" height="170" rx="24" fill="#1A3270"/>
+  <text x="100" y="515" font-family="'Pretendard', sans-serif" font-size="34" font-weight="900" fill="#F59E0B">② SGI 전세금보장신용보험</text>
+  <text x="100" y="565" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#FFFFFF">고액 아파트 · 신축 빌라 · 공인중개사 중개 필수</text>
+  <text x="100" y="605" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF">126% 룰 미적용 · KB시세 기반</text>
+
+  <rect x="60" y="650" width="960" height="170" rx="24" fill="#1A3270"/>
+  <text x="100" y="705" font-family="'Pretendard', sans-serif" font-size="34" font-weight="900" fill="#F59E0B">③ HF 전세지킴보증</text>
+  <text x="100" y="755" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#FFFFFF">HF 전세자금대출 이용·예정자 세트 상품</text>
+  <text x="100" y="795" font-family="'Pretendard', sans-serif" font-size="26" font-weight="600" fill="#EAF2FF">보증금 5% 이상 납입 세대주 · 심사 3~7일</text>
+
+  <rect x="60" y="840" width="960" height="170" rx="24" fill="#F59E0B"/>
+  <text x="100" y="895" font-family="'Pretendard', sans-serif" font-size="34" font-weight="900" fill="#0B1F3B">④ 국가 보증료 지원</text>
+  <text x="100" y="945" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#0B1F3B">보증금 3억 이하 · 무주택 · 소득요건 충족</text>
+  <text x="100" y="985" font-family="'Pretendard', sans-serif" font-size="26" font-weight="700" fill="#0B1F3B">기납부 100% · 최대 40만 원 환급</text>
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="700" fill="url(#bg)"/>
+
+  <text x="540" y="46" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">도수치료·추나요법 상황별 추천 시나리오</text>
+  <text x="540" y="70" text-anchor="middle" fill="#99F6E4" font-size="13" font-family="sans-serif">실손 세대·치료 빈도·예산별 5종 · 2026.05</text>
+
+  <rect x="40" y="90" width="480" height="116" rx="10" fill="#134E4A" fill-opacity="0.6" stroke="#0F766E" stroke-width="1.5"/>
+  <rect x="40" y="90" width="480" height="36" rx="10" fill="#0F766E"/>
+  <rect x="40" y="112" width="480" height="14" fill="#0F766E"/>
+  <text x="60" y="114" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">A. 만성 요통 + 1~2세대 실손</text>
+  <text x="60" y="148" fill="#99F6E4" font-size="13" font-weight="700" font-family="sans-serif">→ 정형외과 도수치료 (연 50회·350만원·본인 0~10%)</text>
+  <text x="60" y="170" fill="#CBD5E1" font-size="12" font-family="sans-serif">1세대는 30회 후 180일 면책기간 주의</text>
+  <text x="60" y="192" fill="#CBD5E1" font-size="12" font-family="sans-serif">2세대는 50회·350만원까지 자유롭게 청구</text>
+
+  <rect x="560" y="90" width="480" height="116" rx="10" fill="#134E4A" fill-opacity="0.6" stroke="#0F766E" stroke-width="1.5"/>
+  <rect x="560" y="90" width="480" height="36" rx="10" fill="#0F766E"/>
+  <rect x="560" y="112" width="480" height="14" fill="#0F766E"/>
+  <text x="580" y="114" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">B. 4세대 실손 + 10회 이상 필요</text>
+  <text x="580" y="148" fill="#99F6E4" font-size="13" font-weight="700" font-family="sans-serif">→ 도수치료 + 추가 서류 미리 준비</text>
+  <text x="580" y="170" fill="#CBD5E1" font-size="12" font-family="sans-serif">의사소견서·검사기록지·도수치료기록지 필수</text>
+  <text x="580" y="192" fill="#CBD5E1" font-size="12" font-family="sans-serif">9회에서 멈추지 말고 50회까지 활용 가능</text>
+
+  <rect x="40" y="226" width="480" height="116" rx="10" fill="#14532d" fill-opacity="0.6" stroke="#15803D" stroke-width="1.5"/>
+  <rect x="40" y="226" width="480" height="36" rx="10" fill="#15803D"/>
+  <rect x="40" y="248" width="480" height="14" fill="#15803D"/>
+  <text x="60" y="250" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">C. 5세대 실손 + 척추·관절 만성통증</text>
+  <text x="60" y="284" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">→ 한방 추나요법 주 + 자비 도수치료 보완</text>
+  <text x="60" y="306" fill="#CBD5E1" font-size="12" font-family="sans-serif">5세대는 도수치료 보장 X · 추나요법 건보 연 20회</text>
+  <text x="60" y="328" fill="#CBD5E1" font-size="12" font-family="sans-serif">본인부담 30~40%로 회당 1만~2만원 가능</text>
+
+  <rect x="560" y="226" width="480" height="116" rx="10" fill="#14532d" fill-opacity="0.6" stroke="#15803D" stroke-width="1.5"/>
+  <rect x="560" y="226" width="480" height="36" rx="10" fill="#15803D"/>
+  <rect x="560" y="248" width="480" height="14" fill="#15803D"/>
+  <text x="580" y="250" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">D. 실손 미가입 + 통증 관리</text>
+  <text x="580" y="284" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">→ 한방 추나요법 (최저가)</text>
+  <text x="580" y="306" fill="#CBD5E1" font-size="12" font-family="sans-serif">회당 1.5~3만원 + 건보 본인부담 30~40%</text>
+  <text x="580" y="328" fill="#CBD5E1" font-size="12" font-family="sans-serif">도수치료 자비 부담(회당 11만)보다 4~5배 저렴</text>
+
+  <rect x="40" y="362" width="1000" height="116" rx="10" fill="#422006" fill-opacity="0.6" stroke="#D97706" stroke-width="1.5"/>
+  <rect x="40" y="362" width="1000" height="36" rx="10" fill="#D97706"/>
+  <rect x="40" y="384" width="1000" height="14" fill="#D97706"/>
+  <text x="60" y="386" fill="#FFFFFF" font-size="13" font-weight="800" font-family="sans-serif">E. 2026.07 이후 도수치료 검토 (관리급여 전환)</text>
+  <text x="60" y="420" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">→ 추나요법 20회 + 관리급여 도수 24회 + 자비 보완</text>
+  <text x="60" y="442" fill="#CBD5E1" font-size="12" font-family="sans-serif">관리급여 회당 4만원·연 24회·본인부담 95% (실손 의존도 급감)</text>
+  <text x="60" y="464" fill="#CBD5E1" font-size="12" font-family="sans-serif">한방 추나 20회·정형외과 관리급여 24회 = 연 44회 보장 + 남는 6회는 자비</text>
+
+  <rect x="40" y="496" width="1000" height="176" rx="10" fill="#1e293b" fill-opacity="0.8"/>
+  <text x="540" y="528" text-anchor="middle" fill="#F8FAFC" font-size="14" font-weight="800" font-family="sans-serif">핵심 결론 3줄 요약</text>
+  <text x="80" y="562" fill="#99F6E4" font-size="13" font-weight="700" font-family="sans-serif">1~4세대 실손 + 만성통증</text>
+  <text x="290" y="562" fill="#FFFFFF" font-size="13" font-family="sans-serif">→ 정형외과 도수치료 (연 50회·350만)</text>
+  <text x="80" y="594" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">5세대·실손 미가입</text>
+  <text x="290" y="594" fill="#FFFFFF" font-size="13" font-family="sans-serif">→ 한방 추나요법 (건보 급여·연 20회·1~2만원)</text>
+  <text x="80" y="626" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">2026.07 관리급여 전환</text>
+  <text x="290" y="626" fill="#FFFFFF" font-size="13" font-family="sans-serif">→ 추나 20회 + 도수 24회 병행 (병원 점검 필수)</text>
+  <text x="80" y="654" fill="#94A3B8" font-size="12" font-family="sans-serif">※ 5세대 한 번 전환하면 4세대 복귀 불가 · 본인 통증 이력·치료 빈도 고려한 신중한 결정 필요</text>
+
+  <text x="40" y="686" fill="#64748B" font-size="12" font-family="sans-serif">essencial | 건강·의료 · 2026.05 기준 · 의료 자문 아님 · 보험사·약관 직접 확인 필요</text>
+</svg>

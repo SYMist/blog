@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="80" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="800" fill="#F59E0B">내 상황에 맞는 제도 10초 판단</text>
+  <rect x="60" y="110" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- 헤더 -->
+  <rect x="60" y="140" width="400" height="55" fill="rgba(255,255,255,0.12)"/>
+  <rect x="460" y="140" width="280" height="55" fill="rgba(232,240,255,0.15)"/>
+  <rect x="740" y="140" width="280" height="55" fill="rgba(245,158,11,0.15)"/>
+  <text x="260" y="175" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#FFF">내 상황</text>
+  <text x="600" y="175" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#FFF">개인회생</text>
+  <text x="880" y="175" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="800" fill="#FFF">개인파산</text>
+
+  <!-- Row 1 -->
+  <rect x="60" y="195" width="400" height="70" fill="rgba(255,255,255,0.04)"/>
+  <rect x="460" y="195" width="280" height="70" fill="rgba(255,255,255,0.02)"/>
+  <rect x="740" y="195" width="280" height="70" fill="rgba(255,255,255,0.02)"/>
+  <text x="260" y="238" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">정기 소득이 있다</text>
+  <text x="600" y="238" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#22C55E">✓ 적합</text>
+  <text x="880" y="238" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">—</text>
+
+  <!-- Row 2 -->
+  <rect x="60" y="265" width="400" height="70" fill="rgba(255,255,255,0.06)"/>
+  <rect x="460" y="265" width="280" height="70" fill="rgba(255,255,255,0.04)"/>
+  <rect x="740" y="265" width="280" height="70" fill="rgba(255,255,255,0.04)"/>
+  <text x="260" y="308" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">소득 없다 / 변제 불가</text>
+  <text x="600" y="308" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">—</text>
+  <text x="880" y="308" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#F59E0B">✓ 적합</text>
+
+  <!-- Row 3 -->
+  <rect x="60" y="335" width="400" height="70" fill="rgba(255,255,255,0.04)"/>
+  <rect x="460" y="335" width="280" height="70" fill="rgba(255,255,255,0.02)"/>
+  <rect x="740" y="335" width="280" height="70" fill="rgba(255,255,255,0.02)"/>
+  <text x="260" y="378" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">집·차를 지키고 싶다</text>
+  <text x="600" y="378" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#22C55E">✓ 적합</text>
+  <text x="880" y="378" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">—</text>
+
+  <!-- Row 4 -->
+  <rect x="60" y="405" width="400" height="70" fill="rgba(255,255,255,0.06)"/>
+  <rect x="460" y="405" width="280" height="70" fill="rgba(255,255,255,0.04)"/>
+  <rect x="740" y="405" width="280" height="70" fill="rgba(255,255,255,0.04)"/>
+  <text x="260" y="448" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">재산이 거의 없다</text>
+  <text x="600" y="448" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">—</text>
+  <text x="880" y="448" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#F59E0B">✓ 적합</text>
+
+  <!-- Row 5 -->
+  <rect x="60" y="475" width="400" height="70" fill="rgba(255,255,255,0.04)"/>
+  <rect x="460" y="475" width="280" height="70" fill="rgba(255,255,255,0.02)"/>
+  <rect x="740" y="475" width="280" height="70" fill="rgba(255,255,255,0.02)"/>
+  <text x="260" y="518" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">채무 10억 초과</text>
+  <text x="600" y="518" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">—</text>
+  <text x="880" y="518" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#F59E0B">✓ 적합</text>
+
+  <!-- Row 6 -->
+  <rect x="60" y="545" width="400" height="70" fill="rgba(255,255,255,0.06)"/>
+  <rect x="460" y="545" width="280" height="70" fill="rgba(255,255,255,0.04)"/>
+  <rect x="740" y="545" width="280" height="70" fill="rgba(255,255,255,0.04)"/>
+  <text x="260" y="588" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">도박·낭비로 빚 늘었다</text>
+  <text x="600" y="588" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#22C55E">✓ 적합</text>
+  <text x="880" y="588" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#EF4444">면책 불허 위험</text>
+
+  <!-- Row 7 -->
+  <rect x="60" y="615" width="400" height="70" fill="rgba(255,255,255,0.04)"/>
+  <rect x="460" y="615" width="280" height="70" fill="rgba(255,255,255,0.02)"/>
+  <rect x="740" y="615" width="280" height="70" fill="rgba(255,255,255,0.02)"/>
+  <text x="260" y="658" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">전문직·공무원 자격 필요</text>
+  <text x="600" y="658" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#22C55E">✓ 적합</text>
+  <text x="880" y="658" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#EF4444">자격 제한</text>
+
+  <!-- Row 8 -->
+  <rect x="60" y="685" width="400" height="70" fill="rgba(255,255,255,0.06)"/>
+  <rect x="460" y="685" width="280" height="70" fill="rgba(255,255,255,0.04)"/>
+  <rect x="740" y="685" width="280" height="70" fill="rgba(255,255,255,0.04)"/>
+  <text x="260" y="728" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">빨리 끝내고 싶다</text>
+  <text x="600" y="728" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">3~5년</text>
+  <text x="880" y="728" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="800" fill="#F59E0B">✓ 6개월~1년</text>
+
+  <rect x="60" y="800" width="960" height="80" rx="20" fill="rgba(255,255,255,0.06)"/>
+  <text x="540" y="850" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="700" fill="#EAF2FF">※ 실제 판단은 개인 상황에 따라 다릅니다. 반드시 전문가 상담을 받으세요.</text>
+
+  <rect x="60" y="940" width="960" height="6" rx="3" fill="#F59E0B"/>
+  <text x="540" y="1000" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#EAF2FF">2026년 기준 · louisville blog</text>
+</svg>

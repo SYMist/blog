@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+    <filter id="s" x="-4%" y="-4%" width="108%" height="108%">
+      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#000" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+
+  <!-- Card -->
+  <rect x="40" y="40" width="1000" height="1000" rx="24" fill="rgba(255,255,255,0.06)" filter="url(#s)"/>
+
+  <!-- Header -->
+  <text x="540" y="120" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="44" font-weight="800" fill="#F59E0B">변제금 계산 전 체크리스트</text>
+  <line x1="80" y1="150" x2="1000" y2="150" stroke="rgba(255,255,255,0.15)" stroke-width="2"/>
+
+  <!-- Checklist Items -->
+  <g font-family="'Pretendard',sans-serif" fill="#FFFFFF">
+    <!-- Item 1 -->
+    <text x="100" y="230" font-size="36" fill="#22C55E" font-weight="700">☑</text>
+    <text x="150" y="230" font-size="28" font-weight="600">월 세후 소득 확인</text>
+    <text x="150" y="265" font-size="22" fill="#94A3B8">(급여명세서/종소세 신고서)</text>
+
+    <!-- Item 2 -->
+    <text x="100" y="340" font-size="36" fill="#22C55E" font-weight="700">☑</text>
+    <text x="150" y="340" font-size="28" font-weight="600">가구원 수 확인 → 해당 최저생계비(60%) 파악</text>
+
+    <!-- Item 3 -->
+    <text x="100" y="425" font-size="36" fill="#22C55E" font-weight="700">☑</text>
+    <text x="150" y="425" font-size="28" font-weight="600">추가 생계비 항목 확인</text>
+    <text x="150" y="460" font-size="22" fill="#94A3B8">(주거비·의료비·양육비)</text>
+
+    <!-- Item 4 -->
+    <text x="100" y="535" font-size="36" fill="#22C55E" font-weight="700">☑</text>
+    <text x="150" y="535" font-size="28" font-weight="600">보유 재산 목록 정리 → 면제재산 신청 항목 체크</text>
+
+    <!-- Item 5 -->
+    <text x="100" y="620" font-size="36" fill="#22C55E" font-weight="700">☑</text>
+    <text x="150" y="620" font-size="28" font-weight="600">청산가치 보장 원칙 충족 확인</text>
+    <text x="150" y="655" font-size="22" fill="#94A3B8">(총 변제액 ≥ 재산)</text>
+
+    <!-- Item 6 -->
+    <text x="100" y="730" font-size="36" fill="#22C55E" font-weight="700">☑</text>
+    <text x="150" y="730" font-size="28" font-weight="600">변제 기간 결정 (3년 vs 5년 / 단축 특례 해당?)</text>
+
+    <!-- Item 7 -->
+    <text x="100" y="815" font-size="36" fill="#22C55E" font-weight="700">☑</text>
+    <text x="150" y="815" font-size="28" font-weight="600">마이데이터 부채증명서 통합 발급으로 채권 확인</text>
+  </g>
+
+  <!-- Bottom Link Box -->
+  <rect x="80" y="880" width="920" height="70" rx="14" fill="rgba(29,78,216,0.25)"/>
+  <text x="540" y="925" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="700" fill="#93C5FD">전자소송 ecfs.scourt.go.kr 지금 확인!</text>
+
+  <!-- Gold Bar -->
+  <rect x="80" y="980" width="920" height="6" rx="3" fill="#F59E0B"/>
+</svg>

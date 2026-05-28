@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1200" height="630" rx="24" fill="url(#bg)"/>
+
+  <!-- 배지 -->
+  <rect x="60" y="40" width="320" height="50" rx="25" fill="#F59E0B"/>
+  <text x="220" y="74" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#0B1F3B">2026 최신 · 제도 대개편</text>
+
+  <!-- 메인 텍스트 -->
+  <text x="60" y="170" font-family="'Pretendard',sans-serif" font-size="68" font-weight="900" fill="#FFF">주택청약 가점·당첨</text>
+  <text x="60" y="250" font-family="'Pretendard',sans-serif" font-size="68" font-weight="900" fill="#FFF">전략 총정리</text>
+
+  <!-- 서브 텍스트 -->
+  <text x="60" y="310" font-family="'Pretendard',sans-serif" font-size="40" font-weight="600" fill="#EAF2FF">납입 25만 원 + 배우자 합산 + 신생아 특공</text>
+
+  <!-- 칩 (rx=24) -->
+  <rect x="60" y="360" width="170" height="54" rx="24" fill="#E8F0FF"/>
+  <text x="145" y="396" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#1D4ED8">가점계산</text>
+  <rect x="250" y="360" width="200" height="54" rx="24" fill="#E8F0FF"/>
+  <text x="350" y="396" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#1D4ED8">신생아특공</text>
+  <rect x="470" y="360" width="180" height="54" rx="24" fill="#E8F0FF"/>
+  <text x="560" y="396" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#1D4ED8">부부중복</text>
+  <rect x="670" y="360" width="160" height="54" rx="24" fill="#E8F0FF"/>
+  <text x="750" y="396" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#1D4ED8">25만원</text>
+
+  <!-- CTA 박스 -->
+  <rect x="60" y="460" width="1080" height="85" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <text x="600" y="515" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="800" fill="#F59E0B">모르면 당첨 기회 날립니다 — 지금 확인하세요</text>
+
+  <!-- 하단 라인 -->
+  <rect x="60" y="585" width="1080" height="5" rx="2.5" fill="#F59E0B"/>
+</svg>

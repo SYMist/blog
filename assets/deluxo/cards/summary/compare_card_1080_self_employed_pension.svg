@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg)"/>
+  <text x="540" y="72" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="34" font-weight="800" fill="#F59E0B">2026 국민연금 개혁 핵심 변화</text>
+  <rect x="60" y="96" width="960" height="6" rx="3" fill="#F59E0B"/>
+
+  <!-- 보험료율 vs 소득대체율 -->
+  <rect x="60" y="120" width="460" height="260" rx="20" fill="rgba(239,68,68,0.08)"/>
+  <rect x="80" y="140" width="200" height="34" rx="17" fill="#EF4444"/>
+  <text x="180" y="164" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="800" fill="#FFF">더 내는 것 (부담)</text>
+
+  <text x="290" y="215" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#EAF2FF">보험료율</text>
+  <text x="290" y="260" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="44" font-weight="900" fill="#FFF">9% → 9.5%</text>
+  <text x="290" y="300" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">매년 +0.5%p → 2033년 13%</text>
+  <text x="290" y="335" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">자영업자 전액 본인 부담</text>
+  <text x="290" y="365" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" fill="#F59E0B">300만 기준 월 +15,000원</text>
+
+  <rect x="540" y="120" width="480" height="260" rx="20" fill="rgba(59,130,246,0.12)"/>
+  <rect x="560" y="140" width="200" height="34" rx="17" fill="#1D4ED8"/>
+  <text x="660" y="164" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" font-weight="800" fill="#FFF">더 받는 것 (혜택)</text>
+
+  <text x="780" y="215" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="700" fill="#EAF2FF">소득대체율</text>
+  <text x="780" y="260" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="44" font-weight="900" fill="#F59E0B">43% 고정</text>
+  <text x="780" y="300" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">기존 40%까지 하락 예정 → 방어</text>
+  <text x="780" y="335" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="18" fill="#EAF2FF">산정 상수 1.29 고정</text>
+  <text x="780" y="365" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" fill="#F59E0B">같은 기간 납부해도 수령액 ↑</text>
+
+  <!-- 핵심 변화 4개 -->
+  <rect x="60" y="400" width="460" height="140" rx="20" fill="rgba(245,158,11,0.08)"/>
+  <text x="290" y="440" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#F59E0B">재직자 감액 완화</text>
+  <text x="290" y="475" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#FFF">309만 → 509만 원</text>
+  <text x="290" y="510" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" fill="#EAF2FF">509만 미만 = 전액 수령 (2026.6~)</text>
+  <text x="290" y="530" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" fill="#EAF2FF">10만 명 혜택 · 월 최대 15만 원 보전</text>
+
+  <rect x="540" y="400" width="480" height="140" rx="20" fill="rgba(245,158,11,0.08)"/>
+  <text x="780" y="440" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#F59E0B">물가 연동 인상</text>
+  <text x="780" y="475" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="900" fill="#FFF">+2.1% 자동 인상</text>
+  <text x="780" y="510" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" fill="#EAF2FF">예: 1,109,180 → 1,132,470원</text>
+  <text x="780" y="530" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" fill="#EAF2FF">민간 금융에 없는 구매력 보존</text>
+
+  <rect x="60" y="560" width="460" height="140" rx="20" fill="rgba(59,130,246,0.12)"/>
+  <text x="290" y="600" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#F59E0B">크레딧 확대</text>
+  <text x="290" y="640" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="900" fill="#FFF">군 복무 6→12개월</text>
+  <text x="290" y="672" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="900" fill="#FFF">출산 첫째부터 12개월</text>
+  <text x="290" y="695" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" fill="#EAF2FF">상한 폐지 · 부부 각자 적용</text>
+
+  <rect x="540" y="560" width="480" height="140" rx="20" fill="rgba(59,130,246,0.12)"/>
+  <text x="780" y="600" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#F59E0B">저소득 지원 확대</text>
+  <text x="780" y="640" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="900" fill="#FFF">보험료 50% 지원</text>
+  <text x="780" y="672" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" font-weight="900" fill="#FFF">월 최대 45,000원</text>
+  <text x="780" y="695" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" fill="#EAF2FF">'납부재개자' 조건 삭제 · 12개월</text>
+
+  <!-- 3층 노후 설계 -->
+  <rect x="60" y="720" width="960" height="200" rx="20" fill="rgba(245,158,11,0.12)"/>
+  <text x="540" y="760" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="24" font-weight="800" fill="#F59E0B">자영업자 3층 노후 설계</text>
+
+  <rect x="100" y="785" width="260" height="110" rx="14" fill="rgba(59,130,246,0.2)"/>
+  <text x="230" y="820" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#FFF">1층 국민연금</text>
+  <text x="230" y="850" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" fill="#EAF2FF">물가 연동 · 평생 수령</text>
+  <text x="230" y="875" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" fill="#EAF2FF">소득공제 · 20년+ 할증</text>
+
+  <rect x="400" y="785" width="260" height="110" rx="14" fill="rgba(245,158,11,0.2)"/>
+  <text x="530" y="820" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#FFF">2층 노란우산공제</text>
+  <text x="530" y="850" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" fill="#EAF2FF">압류 방지 · 퇴직금</text>
+  <text x="530" y="875" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" fill="#EAF2FF">소득공제 최대 600만 원</text>
+
+  <rect x="700" y="785" width="260" height="110" rx="14" fill="rgba(255,255,255,0.08)"/>
+  <text x="830" y="820" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#FFF">3층 연금저축</text>
+  <text x="830" y="850" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" fill="#EAF2FF">세액공제 · 과세이연</text>
+  <text x="830" y="875" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" fill="#EAF2FF">소득 공백기 보충</text>
+
+  <!-- 건보 주의 -->
+  <rect x="60" y="940" width="960" height="80" rx="16" fill="rgba(239,68,68,0.08)"/>
+  <text x="540" y="975" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="20" font-weight="800" fill="#EF4444">⚠ 건보 피부양자 탈락 주의: 연금+기타소득 연 2,000만 원 초과 시 지역가입자 전환</text>
+  <text x="540" y="1005" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="16" fill="#EAF2FF">연기연금(연 7.2% 가산) 활용 또는 임의계속가입(건보) 36개월 유지 가능</text>
+
+  <rect x="60" y="1050" width="960" height="6" rx="3" fill="#F59E0B"/>
+</svg>

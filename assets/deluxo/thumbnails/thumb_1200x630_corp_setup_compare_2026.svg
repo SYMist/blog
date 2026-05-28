@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Badge -->
+  <rect x="60" y="55" width="160" height="42" rx="21" fill="#F59E0B"/>
+  <text x="140" y="83" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="800" fill="#0B1F3B" text-anchor="middle">2026 최신</text>
+
+  <!-- Left side: Title -->
+  <text x="60" y="195" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="64" font-weight="900" fill="#FFFFFF">법인 설립 비용</text>
+  <text x="60" y="270" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="64" font-weight="900" fill="#FFFFFF">절차 비교</text>
+  <text x="60" y="330" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="32" font-weight="600" fill="#EAF2FF">개인사업자 vs 1인법인 vs 가족법인</text>
+
+  <!-- Chips -->
+  <rect x="60" y="370" width="200" height="44" rx="22" fill="#E8F0FF"/>
+  <text x="160" y="399" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="700" fill="#1D4ED8" text-anchor="middle">2026 최신</text>
+
+  <rect x="272" y="370" width="240" height="44" rx="22" fill="#E8F0FF"/>
+  <text x="392" y="399" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="700" fill="#1D4ED8" text-anchor="middle">순이익 2억부터 유리</text>
+
+  <rect x="524" y="370" width="220" height="44" rx="22" fill="#E8F0FF"/>
+  <text x="634" y="399" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="700" fill="#1D4ED8" text-anchor="middle">설립비 최저 55만</text>
+
+  <!-- Vertical Divider -->
+  <line x1="780" y1="60" x2="780" y2="570" stroke="#1A3270" stroke-width="2"/>
+
+  <!-- Right side: Stats -->
+  <text x="990" y="160" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="30" font-weight="700" fill="#A0B4D0" text-anchor="middle">법인 설립 비용</text>
+  <text x="990" y="220" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="52" font-weight="900" fill="#34D399" text-anchor="middle">55~160만원</text>
+
+  <line x1="820" y1="255" x2="1160" y2="255" stroke="#1A3270" stroke-width="1.5"/>
+
+  <text x="990" y="310" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="30" font-weight="700" fill="#A0B4D0" text-anchor="middle">2억 기준 절세 효과</text>
+  <text x="990" y="375" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="52" font-weight="900" fill="#F59E0B" text-anchor="middle">3,450만원</text>
+
+  <line x1="820" y1="410" x2="1160" y2="410" stroke="#1A3270" stroke-width="1.5"/>
+
+  <text x="990" y="465" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="30" font-weight="700" fill="#A0B4D0" text-anchor="middle">법인세율 (2026)</text>
+  <text x="990" y="530" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="52" font-weight="900" fill="#34D399" text-anchor="middle">10~20%</text>
+
+  <!-- Bottom -->
+  <text x="390" y="490" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" fill="#A0B4D0" text-anchor="middle">국세청 2026년 법인세율 기준 | startbiz.go.kr</text>
+  <text x="390" y="530" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#4B6A9A" text-anchor="middle">법인 전환 결정 전 세무사 상담 권장</text>
+</svg>

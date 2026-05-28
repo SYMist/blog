@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1500" fill="url(#bg)"/>
+
+  <rect x="60" y="50" width="300" height="40" rx="20" fill="#0F766E"/>
+  <text x="210" y="77" text-anchor="middle" fill="#FFFFFF" font-size="17" font-weight="800" font-family="sans-serif">2026 백내장 렌즈 비용·실비 비교</text>
+
+  <text x="60" y="160" fill="#FFFFFF" font-size="58" font-weight="800" font-family="sans-serif">다초점 vs 단초점</text>
+  <text x="60" y="230" fill="#2DD4BF" font-size="62" font-weight="800" font-family="sans-serif">실제 부담 얼마?</text>
+  <text x="60" y="295" fill="#94A3B8" font-size="24" font-weight="600" font-family="sans-serif">렌즈 종류·실손 세대·입원 인정 여부가 결정</text>
+
+  <!-- 카드 1: 단초점 -->
+  <rect x="60" y="340" width="530" height="290" rx="16" fill="url(#card)" stroke="#86EFAC" stroke-width="2"/>
+  <text x="325" y="390" text-anchor="middle" fill="#86EFAC" font-size="18" font-weight="700" font-family="sans-serif">단초점 렌즈 (급여 DRG)</text>
+  <text x="325" y="450" text-anchor="middle" fill="#FFFFFF" font-size="50" font-weight="800" font-family="sans-serif">양안 40~240만</text>
+  <text x="325" y="495" text-anchor="middle" fill="#86EFAC" font-size="16" font-weight="700" font-family="sans-serif">건강보험 DRG 포괄수가 적용</text>
+  <text x="90" y="540" fill="#FFFFFF" font-size="15" font-weight="700" font-family="sans-serif">▸ 본인부담률 약 20%</text>
+  <text x="90" y="565" fill="#FFFFFF" font-size="15" font-weight="700" font-family="sans-serif">▸ 야간 운전·빛 번짐 없음</text>
+  <text x="90" y="600" fill="#86EFAC" font-size="16" font-weight="800" font-family="sans-serif">→ 비용 최소화 + 보험 혜택 극대화</text>
+
+  <!-- 카드 2: 다초점 -->
+  <rect x="610" y="340" width="530" height="290" rx="16" fill="url(#card)" stroke="#FCA5A5" stroke-width="2"/>
+  <text x="875" y="390" text-anchor="middle" fill="#FCA5A5" font-size="18" font-weight="700" font-family="sans-serif">다초점 렌즈 (비급여)</text>
+  <text x="875" y="450" text-anchor="middle" fill="#FFFFFF" font-size="46" font-weight="800" font-family="sans-serif">양안 500~1,200만</text>
+  <text x="875" y="495" text-anchor="middle" fill="#FCA5A5" font-size="16" font-weight="700" font-family="sans-serif">3중초점 500~1,000만 / EDOF 600~1,200만</text>
+  <text x="640" y="540" fill="#FFFFFF" font-size="15" font-weight="700" font-family="sans-serif">▸ 전액 비급여 (렌즈비 100% 자비)</text>
+  <text x="640" y="565" fill="#FFFFFF" font-size="15" font-weight="700" font-family="sans-serif">▸ 돋보기 없이 생활 가능</text>
+  <text x="640" y="600" fill="#FCA5A5" font-size="16" font-weight="800" font-family="sans-serif">→ 실손 세대·입원 인정 여부가 핵심</text>
+
+  <!-- 카드 3: 실손 세대별 보장 -->
+  <rect x="60" y="650" width="1080" height="270" rx="16" fill="url(#card)" stroke="#2DD4BF" stroke-width="2"/>
+  <text x="90" y="700" fill="#2DD4BF" font-size="18" font-weight="700" font-family="sans-serif">실손보험 세대별 다초점 보장 차이</text>
+  <text x="90" y="748" fill="#FFFFFF" font-size="17" font-weight="800" font-family="sans-serif">1·2세대</text>
+  <text x="310" y="748" fill="#86EFAC" font-size="16" font-family="sans-serif">비급여 일부 보장 가능 (심사 강화 중)</text>
+  <text x="90" y="786" fill="#FFFFFF" font-size="17" font-weight="800" font-family="sans-serif">3세대</text>
+  <text x="310" y="786" fill="#FCD34D" font-size="16" font-family="sans-serif">특약 없으면 제한적 / 입원 기준 엄격</text>
+  <text x="90" y="824" fill="#FFFFFF" font-size="17" font-weight="800" font-family="sans-serif">4세대</text>
+  <text x="310" y="824" fill="#FCA5A5" font-size="16" font-family="sans-serif">다초점 비급여 사실상 미보장 (요양급여만 보장 조항)</text>
+  <text x="90" y="872" fill="#FCD34D" font-size="16" font-weight="800" font-family="sans-serif">공통: 정액형 수술비 특약 있으면 50~100만 원 별도 청구 가능 (실손 중복 청구 OK)</text>
+  <text x="90" y="900" fill="#2DD4BF" font-size="15" font-weight="700" font-family="sans-serif">입원 인정 조건: 6시간+ 체류·의사 소견서·의학적 필요성 (2025 대법원 판례 기준)</text>
+
+  <!-- 카드 4: 시나리오 요약 -->
+  <rect x="60" y="940" width="1080" height="420" rx="16" fill="url(#card)" stroke="#0F766E" stroke-width="2"/>
+  <text x="90" y="990" fill="#2DD4BF" font-size="18" font-weight="700" font-family="sans-serif">시나리오별 실제 부담액</text>
+
+  <rect x="90" y="1010" width="480" height="120" rx="10" fill="#0F766E" fill-opacity="0.3"/>
+  <text x="330" y="1045" text-anchor="middle" fill="#86EFAC" font-size="16" font-weight="800" font-family="sans-serif">A. 단초점 + 2세대 실손 입원 인정</text>
+  <text x="330" y="1080" text-anchor="middle" fill="#FFFFFF" font-size="30" font-weight="800" font-family="sans-serif">실질 부담 10만 원</text>
+  <text x="330" y="1112" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">실손 80% + 수술비특약 100만</text>
+
+  <rect x="630" y="1010" width="480" height="120" rx="10" fill="#0F766E" fill-opacity="0.3"/>
+  <text x="870" y="1045" text-anchor="middle" fill="#FCD34D" font-size="16" font-weight="800" font-family="sans-serif">B. 단초점 + 4세대 통원 처리</text>
+  <text x="870" y="1080" text-anchor="middle" fill="#FFFFFF" font-size="30" font-weight="800" font-family="sans-serif">거의 없음/소폭 환급</text>
+  <text x="870" y="1112" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">통원 25만/회 × 2 + 특약 100만</text>
+
+  <rect x="90" y="1150" width="480" height="120" rx="10" fill="#7F1D1D" fill-opacity="0.3"/>
+  <text x="330" y="1185" text-anchor="middle" fill="#FCA5A5" font-size="16" font-weight="800" font-family="sans-serif">C. 3중초점 + 4세대 실손</text>
+  <text x="330" y="1220" text-anchor="middle" fill="#FFFFFF" font-size="30" font-weight="800" font-family="sans-serif">700만 원+ 자비</text>
+  <text x="330" y="1252" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">다초점 미보장 + 특약 100만만</text>
+
+  <rect x="630" y="1150" width="480" height="120" rx="10" fill="#0F766E" fill-opacity="0.3"/>
+  <text x="870" y="1185" text-anchor="middle" fill="#86EFAC" font-size="16" font-weight="800" font-family="sans-serif">D. 3중초점 + 2세대 실손 입원 인정</text>
+  <text x="870" y="1220" text-anchor="middle" fill="#FFFFFF" font-size="30" font-weight="800" font-family="sans-serif">약 40만 원 내외</text>
+  <text x="870" y="1252" text-anchor="middle" fill="#CBD5E1" font-size="13" font-family="sans-serif">비급여 80% + 특약 (심사 불확실)</text>
+
+  <text x="60" y="1460" fill="#64748B" font-size="14" font-family="sans-serif">essencial | 의료 silo · 심평원·금융위·대법원 판례 (2026.04 기준)</text>
+</svg>

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <circle cx="930" cy="200" r="220" fill="#1A3270" opacity="0.3"/>
+
+  <!-- 제목 -->
+  <text x="60" y="90" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="44" font-weight="900" fill="#FFFFFF">사업주 처리 1분 체크리스트</text>
+  <text x="60" y="136" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="30" fill="#34D399">가족돌봄휴직 신청 접수 시 확인 사항</text>
+  <rect x="60" y="154" width="760" height="3" rx="2" fill="#34D399"/>
+
+  <!-- 체크 1 -->
+  <rect x="60" y="174" width="960" height="90" rx="12" fill="#0D2347"/>
+  <rect x="84" y="200" width="36" height="36" rx="8" fill="#34D399"/>
+  <text x="102" y="224" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="900" fill="#0B1F3B" text-anchor="middle">✓</text>
+  <text x="140" y="207" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">신청서에 필수 기재 항목 포함 여부 확인</text>
+  <text x="140" y="250" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" fill="#A0B4D0">대상 가족 성명·생년월일 / 사유 / 개시일·종료일</text>
+
+  <!-- 체크 2 -->
+  <rect x="60" y="278" width="960" height="90" rx="12" fill="#112240"/>
+  <rect x="84" y="304" width="36" height="36" rx="8" fill="#34D399"/>
+  <text x="102" y="328" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="900" fill="#0B1F3B" text-anchor="middle">✓</text>
+  <text x="140" y="311" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">5가지 예외 사유 해당 여부 검토</text>
+  <text x="140" y="354" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" fill="#A0B4D0">근속 6개월 / 다른 가족 / 대체인력 / 중대 지장</text>
+
+  <!-- 체크 3 -->
+  <rect x="60" y="382" width="960" height="90" rx="12" fill="#0D2347"/>
+  <rect x="84" y="408" width="36" height="36" rx="8" fill="#34D399"/>
+  <text x="102" y="432" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="900" fill="#0B1F3B" text-anchor="middle">✓</text>
+  <text x="140" y="415" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">예외 사유 없으면 → 서면 허가 통보 (지체 없이)</text>
+  <text x="140" y="458" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" fill="#A0B4D0">구두 통보 지양 — 서면 기록이 분쟁 방어 핵심</text>
+
+  <!-- 체크 4 -->
+  <rect x="60" y="486" width="960" height="90" rx="12" fill="#112240"/>
+  <rect x="84" y="512" width="36" height="36" rx="8" fill="#F59E0B"/>
+  <text x="102" y="536" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="900" fill="#0B1F3B" text-anchor="middle">✓</text>
+  <text x="140" y="519" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">거부 시 → 서면 거부 사유 통보 + 대안 제시</text>
+  <text x="140" y="562" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" fill="#A0B4D0">근로시간 조정 / 시간 단축 / 탄력적 운영 등 대안 필수</text>
+
+  <!-- 체크 5 -->
+  <rect x="60" y="590" width="960" height="90" rx="12" fill="#0D2347"/>
+  <rect x="84" y="616" width="36" height="36" rx="8" fill="#F59E0B"/>
+  <text x="102" y="640" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="900" fill="#0B1F3B" text-anchor="middle">✓</text>
+  <text x="140" y="623" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">대체인력 활용 시 고용센터 구인 신청 기록 보관</text>
+  <text x="140" y="666" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" fill="#A0B4D0">구인 신청 날짜 / 지원자 현황 / 불채용 이유 서면 보관</text>
+
+  <!-- 체크 6 -->
+  <rect x="60" y="694" width="960" height="90" rx="12" fill="#112240"/>
+  <rect x="84" y="720" width="36" height="36" rx="8" fill="#34D399"/>
+  <text x="102" y="744" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="900" fill="#0B1F3B" text-anchor="middle">✓</text>
+  <text x="140" y="727" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">취업규칙 가족돌봄 조항 명시 여부 점검</text>
+  <text x="140" y="770" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" fill="#A0B4D0">신청 절차 / 급여 여부 / 복귀 처우 / 불이익 금지</text>
+
+  <!-- 결과 박스 -->
+  <rect x="60" y="798" width="960" height="120" rx="14" fill="#0D2347"/>
+  <text x="540" y="844" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="800" fill="#34D399" text-anchor="middle">6개 모두 체크 완료</text>
+  <text x="540" y="882" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#FFFFFF" text-anchor="middle">과태료·벌금 없이 안전하게 처리 완료</text>
+  <text x="540" y="910" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" fill="#A0B4D0" text-anchor="middle">문의: 고용노동부 1350 · easylaw.go.kr</text>
+
+  <!-- 출처 -->
+  <text x="540" y="1034" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="20" fill="#4A6080" text-anchor="middle">deluxo · 남녀고용평등과 일·가정 양립 지원에 관한 법률 · 2026년 5월 기준</text>
+</svg>

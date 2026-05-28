@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <rect x="60" y="60" width="280" height="60" rx="30" fill="#DC2626"/>
+  <text x="200" y="101" font-family="'Pretendard', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF" text-anchor="middle">탈락 사유 TOP 5</text>
+
+  <text x="540" y="200" font-family="'Pretendard', sans-serif" font-size="58" font-weight="900" fill="#FFFFFF" text-anchor="middle">이것부터 확인하세요</text>
+
+  <rect x="60" y="270" width="960" height="130" rx="20" fill="#1A3270"/>
+  <rect x="60" y="270" width="80" height="130" rx="20" fill="#DC2626"/>
+  <text x="100" y="350" font-family="'Pretendard', sans-serif" font-size="40" font-weight="900" fill="#FFFFFF" text-anchor="middle">1</text>
+  <text x="170" y="320" font-family="'Pretendard', sans-serif" font-size="30" font-weight="800" fill="#F59E0B">세금 체납 1원이라도 존재</text>
+  <text x="170" y="370" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF">→ 완납증명서 발급 실패 시 시스템 자동 차단</text>
+
+  <rect x="60" y="420" width="960" height="130" rx="20" fill="#1A3270"/>
+  <rect x="60" y="420" width="80" height="130" rx="20" fill="#DC2626"/>
+  <text x="100" y="500" font-family="'Pretendard', sans-serif" font-size="40" font-weight="900" fill="#FFFFFF" text-anchor="middle">2</text>
+  <text x="170" y="470" font-family="'Pretendard', sans-serif" font-size="30" font-weight="800" fill="#F59E0B">신용 기준 미달</text>
+  <text x="170" y="520" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF">→ 강원 NICE 710↑/KCB 620↑ 미달</text>
+
+  <rect x="60" y="570" width="960" height="130" rx="20" fill="#1A3270"/>
+  <rect x="60" y="570" width="80" height="130" rx="20" fill="#DC2626"/>
+  <text x="100" y="650" font-family="'Pretendard', sans-serif" font-size="40" font-weight="900" fill="#FFFFFF" text-anchor="middle">3</text>
+  <text x="170" y="620" font-family="'Pretendard', sans-serif" font-size="30" font-weight="800" fill="#F59E0B">사업장 소재지 불일치</text>
+  <text x="170" y="670" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF">→ 등록증 주소와 실제 영업지 불일치 시 탈락</text>
+
+  <rect x="60" y="720" width="960" height="130" rx="20" fill="#1A3270"/>
+  <rect x="60" y="720" width="80" height="130" rx="20" fill="#DC2626"/>
+  <text x="100" y="800" font-family="'Pretendard', sans-serif" font-size="40" font-weight="900" fill="#FFFFFF" text-anchor="middle">4</text>
+  <text x="170" y="770" font-family="'Pretendard', sans-serif" font-size="30" font-weight="800" fill="#F59E0B">선착순 예산 소진</text>
+  <text x="170" y="820" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF">→ 분기별 배정, 공고 후 1~2주 내 소진 흔함</text>
+
+  <rect x="60" y="870" width="960" height="130" rx="20" fill="#1A3270"/>
+  <rect x="60" y="870" width="80" height="130" rx="20" fill="#DC2626"/>
+  <text x="100" y="950" font-family="'Pretendard', sans-serif" font-size="40" font-weight="900" fill="#FFFFFF" text-anchor="middle">5</text>
+  <text x="170" y="920" font-family="'Pretendard', sans-serif" font-size="30" font-weight="800" fill="#F59E0B">희망리턴 교육 미수료 (울산 재기)</text>
+  <text x="170" y="970" font-family="'Pretendard', sans-serif" font-size="24" font-weight="600" fill="#EAF2FF">→ 행복드림 또는 교육 수료증 필수</text>
+</svg>

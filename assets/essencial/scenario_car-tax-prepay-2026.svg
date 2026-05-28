@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EFF6FF"/>
+      <stop offset="100%" stop-color="#F0F9FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" rx="32" fill="url(#bg3)"/>
+
+  <text x="540" y="60" font-family="sans-serif" font-size="34" font-weight="900" fill="#111827" text-anchor="middle">상황별 자동차세 납부 추천 가이드</text>
+  <text x="540" y="95" font-family="sans-serif" font-size="20" fill="#6B7280" text-anchor="middle">해당하는 상황을 찾아 최적의 납부 전략을 확인하세요</text>
+
+  <!-- 시나리오 1 -->
+  <rect x="50" y="125" width="980" height="120" rx="20" fill="#FFF" stroke="#BFDBFE" stroke-width="1.5"/>
+  <rect x="50" y="125" width="980" height="44" rx="20" fill="#1E40AF"/>
+  <rect x="50" y="149" width="980" height="20" fill="#1E40AF"/>
+  <text x="80" y="154" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFF">2,000cc 이상 대형차 보유자</text>
+  <text x="80" y="195" font-family="sans-serif" font-size="20" fill="#111827">→ <tspan font-weight="800">1월 연납 필수</tspan> — 연 2~3만 원 절약, 카드 무이자 할부 병행</text>
+  <text x="80" y="228" font-family="sans-serif" font-size="17" fill="#6B7280">그랜저 2,497cc 기준: 29,718원 절약 · NH농협 6개월 무이자 추천</text>
+
+  <!-- 시나리오 2 -->
+  <rect x="50" y="265" width="980" height="120" rx="20" fill="#FFF" stroke="#FED7AA" stroke-width="1.5"/>
+  <rect x="50" y="265" width="980" height="44" rx="20" fill="#EA580C"/>
+  <rect x="50" y="289" width="980" height="20" fill="#EA580C"/>
+  <text x="80" y="294" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFF">1월 연납을 놓친 상태 (지금 3~6월)</text>
+  <text x="80" y="335" font-family="sans-serif" font-size="20" fill="#111827">→ <tspan font-weight="800">다음 분기 연납 즉시 신청</tspan> — 3월 3.76%, 6월 2.5% 할인</text>
+  <text x="80" y="368" font-family="sans-serif" font-size="17" fill="#6B7280">늦어도 안 하는 것보다 유리 · 위택스에서 신청+납부 한 번에 처리</text>
+
+  <!-- 시나리오 3 -->
+  <rect x="50" y="405" width="980" height="120" rx="20" fill="#FFF" stroke="#BFDBFE" stroke-width="1.5"/>
+  <rect x="50" y="405" width="980" height="44" rx="20" fill="#1D4ED8"/>
+  <rect x="50" y="429" width="980" height="20" fill="#1D4ED8"/>
+  <text x="80" y="434" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFF">목돈 부담이 크다 (50만 원+)</text>
+  <text x="80" y="475" font-family="sans-serif" font-size="20" fill="#111827">→ <tspan font-weight="800">NH농협·BC·롯데 카드 무이자 할부</tspan> (최대 5~6개월)</text>
+  <text x="80" y="508" font-family="sans-serif" font-size="17" fill="#6B7280">부분 무이자로 최대 24개월 분산 가능 · 사전 신청 필수 확인</text>
+
+  <!-- 시나리오 4 -->
+  <rect x="50" y="545" width="980" height="120" rx="20" fill="#FFF" stroke="#A7F3D0" stroke-width="1.5"/>
+  <rect x="50" y="545" width="980" height="44" rx="20" fill="#059669"/>
+  <rect x="50" y="569" width="980" height="20" fill="#059669"/>
+  <text x="80" y="574" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFF">포인트·캐시백을 모으고 싶다</text>
+  <text x="80" y="615" font-family="sans-serif" font-size="20" fill="#111827">→ <tspan font-weight="800">일시불 결제</tspan> — 무이자 할부 시 포인트 적립 안 됨</text>
+  <text x="80" y="648" font-family="sans-serif" font-size="17" fill="#6B7280">연납 할인 + 포인트 적립 = 이중 혜택 · 체크카드도 0.1% 환급 가능</text>
+
+  <!-- 시나리오 5 -->
+  <rect x="50" y="685" width="980" height="120" rx="20" fill="#FFF" stroke="#A7F3D0" stroke-width="1.5"/>
+  <rect x="50" y="685" width="980" height="44" rx="20" fill="#10B981"/>
+  <rect x="50" y="709" width="980" height="20" fill="#10B981"/>
+  <text x="80" y="714" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFF">전기차 소유자</text>
+  <text x="80" y="755" font-family="sans-serif" font-size="20" fill="#111827">→ <tspan font-weight="800">1월 연납 + 전자고지 신청</tspan> — 연 13만 원 → 12.4만 원</text>
+  <text x="80" y="788" font-family="sans-serif" font-size="17" fill="#6B7280">절감액은 소폭이나 성실납세자 실적 축적 · 취득세 140만 감면과 시너지</text>
+
+  <!-- 시나리오 6 -->
+  <rect x="50" y="825" width="980" height="120" rx="20" fill="#FFF" stroke="#BFDBFE" stroke-width="1.5"/>
+  <rect x="50" y="825" width="980" height="44" rx="20" fill="#6366F1"/>
+  <rect x="50" y="849" width="980" height="20" fill="#6366F1"/>
+  <text x="80" y="854" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFF">12년 이상 오래된 차량</text>
+  <text x="80" y="895" font-family="sans-serif" font-size="20" fill="#111827">→ <tspan font-weight="800">차령 경감 50% + 1월 연납</tspan> — 신차 대비 최대 약 54% 절약</text>
+  <text x="80" y="928" font-family="sans-serif" font-size="17" fill="#6B7280">쏘나타 기준: 519,480원 → 247,849원 · 오래된 차일수록 연납 효과 극대</text>
+
+  <text x="540" y="1010" font-family="sans-serif" font-size="15" fill="#9CA3AF" text-anchor="middle">2026년 3월 기준 | 지방세법 시행령 기반</text>
+  <text x="540" y="1040" font-family="sans-serif" font-size="15" fill="#9CA3AF" text-anchor="middle">카드 프로모션·공제율은 정책에 따라 변동될 수 있습니다</text>
+</svg>

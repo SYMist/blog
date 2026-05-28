@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="700" fill="url(#bg)"/>
+
+  <text x="540" y="48" text-anchor="middle" fill="#FFFFFF" font-size="24" font-weight="800" font-family="sans-serif">양도세 비과세 5가지 시나리오 세액 매트릭스</text>
+  <text x="540" y="74" text-anchor="middle" fill="#FCD34D" font-size="14" font-family="sans-serif">양도차익 5억원 (양도가 10억·취득가 5억) · 2026.05 기준</text>
+
+  <!-- Table header -->
+  <rect x="40" y="96" width="1000" height="44" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="320" y="124" text-anchor="middle" fill="#F8FAFC" font-size="14" font-weight="800" font-family="sans-serif">시나리오</text>
+  <text x="680" y="124" text-anchor="middle" fill="#F8FAFC" font-size="14" font-weight="800" font-family="sans-serif">비과세 여부</text>
+  <text x="900" y="124" text-anchor="middle" fill="#F8FAFC" font-size="14" font-weight="800" font-family="sans-serif">예상 세액</text>
+
+  <!-- Row 1: 1주택 비과세 -->
+  <rect x="40" y="144" width="1000" height="56" fill="#15803D" fill-opacity="0.4" stroke="#15803D" stroke-width="1.5"/>
+  <text x="55" y="172" fill="#86EFAC" font-size="14" font-weight="800" font-family="sans-serif">① 1세대 1주택 (12억 이하)</text>
+  <text x="55" y="192" fill="#CBD5E1" font-size="12" font-family="sans-serif">2년 보유 + 조정지역은 2년 거주</text>
+  <text x="680" y="180" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="800" font-family="sans-serif">전액 비과세</text>
+  <text x="900" y="180" text-anchor="middle" fill="#86EFAC" font-size="18" font-weight="800" font-family="sans-serif">0원</text>
+
+  <!-- Row 2: 일시적 2주택 3년 내 -->
+  <rect x="40" y="204" width="1000" height="56" fill="#15803D" fill-opacity="0.35" stroke="#15803D" stroke-width="1.5"/>
+  <text x="55" y="232" fill="#86EFAC" font-size="14" font-weight="800" font-family="sans-serif">② 일시적 2주택 (3년 내 처분)</text>
+  <text x="55" y="252" fill="#CBD5E1" font-size="12" font-family="sans-serif">1년 경과 후 신규 취득 + 3년 내 종전 처분</text>
+  <text x="680" y="240" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="800" font-family="sans-serif">전액 비과세</text>
+  <text x="900" y="240" text-anchor="middle" fill="#86EFAC" font-size="18" font-weight="800" font-family="sans-serif">0원</text>
+
+  <!-- Row 3: 일시적 2주택 3년 초과 -->
+  <rect x="40" y="264" width="1000" height="56" fill="#EA580C" fill-opacity="0.4" stroke="#EA580C" stroke-width="1.5"/>
+  <text x="55" y="292" fill="#FDBA74" font-size="14" font-weight="800" font-family="sans-serif">③ 일시적 2주택 (3년 초과·비과세 상실)</text>
+  <text x="55" y="312" fill="#CBD5E1" font-size="12" font-family="sans-serif">3년 룰 위반 → 비과세 통째로 사라짐</text>
+  <text x="680" y="300" text-anchor="middle" fill="#FDBA74" font-size="14" font-weight="800" font-family="sans-serif">과세</text>
+  <text x="900" y="300" text-anchor="middle" fill="#FDBA74" font-size="18" font-weight="800" font-family="sans-serif">약 5,200만원</text>
+
+  <!-- Row 4: 다주택 + 가산 -->
+  <rect x="40" y="324" width="1000" height="56" fill="#DC2626" fill-opacity="0.4" stroke="#DC2626" stroke-width="1.5"/>
+  <text x="55" y="352" fill="#FCA5A5" font-size="14" font-weight="800" font-family="sans-serif">④ 다주택 + 조정지역 가산</text>
+  <text x="55" y="372" fill="#CBD5E1" font-size="12" font-family="sans-serif">2026.05.10 이후 20%p 가산 · 장기공제 제한</text>
+  <text x="680" y="360" text-anchor="middle" fill="#FCA5A5" font-size="14" font-weight="800" font-family="sans-serif">과세 + 가산</text>
+  <text x="900" y="360" text-anchor="middle" fill="#FCA5A5" font-size="18" font-weight="800" font-family="sans-serif">약 2.4억원</text>
+
+  <!-- Row 5: 12억 초과 1주택 -->
+  <rect x="40" y="384" width="1000" height="56" fill="#0e7490" fill-opacity="0.4" stroke="#0e7490" stroke-width="1.5"/>
+  <text x="55" y="412" fill="#67E8F9" font-size="14" font-weight="800" font-family="sans-serif">⑤ 12억 초과 1주택 (양도가 14억)</text>
+  <text x="55" y="432" fill="#CBD5E1" font-size="12" font-family="sans-serif">12억까지 비과세 + 초과분 14.3%만 과세</text>
+  <text x="680" y="420" text-anchor="middle" fill="#67E8F9" font-size="14" font-weight="800" font-family="sans-serif">부분 과세</text>
+  <text x="900" y="420" text-anchor="middle" fill="#67E8F9" font-size="18" font-weight="800" font-family="sans-serif">약 400만원</text>
+
+  <!-- Summary highlight -->
+  <rect x="40" y="456" width="1000" height="60" fill="#FCD34D" fill-opacity="0.2" stroke="#FCD34D" stroke-width="2"/>
+  <text x="55" y="480" fill="#FCD34D" font-size="14" font-weight="800" font-family="sans-serif">최대 격차 (① 비과세 vs ④ 다주택 가산)</text>
+  <text x="55" y="504" fill="#FFFFFF" font-size="14" font-family="sans-serif">→ 같은 양도차익 5억 · 처지에 따라 0원 ↔ 약 2.4억원 · 격차 약 2.4억원</text>
+
+  <!-- Key points -->
+  <rect x="40" y="528" width="1000" height="140" rx="10" fill="#1e293b" fill-opacity="0.6" stroke="#334155" stroke-width="1.5"/>
+  <text x="60" y="556" fill="#FCD34D" font-size="13" font-weight="700" font-family="sans-serif">핵심 결정 변수 4가지</text>
+  <text x="60" y="580" fill="#CBD5E1" font-size="12" font-family="sans-serif">① 세대 합산 주택 수 (배우자·미혼 자녀 포함)</text>
+  <text x="60" y="602" fill="#CBD5E1" font-size="12" font-family="sans-serif">② 종전 주택 보유·거주 기간 충족 여부</text>
+  <text x="60" y="624" fill="#CBD5E1" font-size="12" font-family="sans-serif">③ 일시적 2주택 시간 룰 (1년 경과·3년 처분)</text>
+  <text x="60" y="646" fill="#CBD5E1" font-size="12" font-family="sans-serif">④ 양도가액  vs  12억 한도 + 조정지역 가산 여부</text>
+
+  <text x="40" y="688" fill="#64748B" font-size="12" font-family="sans-serif">essencial | 2026.05 기준 · 장기공제·기본공제 반영 추정치 · 본인 케이스는 홈택스 계산기 또는 세무사 상담 필수</text>
+</svg>

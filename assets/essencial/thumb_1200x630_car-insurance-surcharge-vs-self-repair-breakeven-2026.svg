@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#15803D"/>
+      <stop offset="100%" stop-color="#14532d"/>
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#4c1d95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <circle cx="1080" cy="100" r="200" fill="#7C3AED" fill-opacity="0.07"/>
+  <circle cx="120" cy="540" r="160" fill="#15803D" fill-opacity="0.07"/>
+
+  <!-- Chips -->
+  <rect x="40" y="36" width="110" height="32" rx="16" fill="#7C3AED" fill-opacity="0.35" stroke="#7C3AED" stroke-width="1.5"/>
+  <text x="95" y="57" text-anchor="middle" fill="#DDD6FE" font-size="14" font-weight="700" font-family="sans-serif">보험 비교</text>
+
+  <rect x="166" y="36" width="140" height="32" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="236" y="57" text-anchor="middle" fill="#94A3B8" font-size="14" font-family="sans-serif">2026.05 기준</text>
+
+  <rect x="322" y="36" width="160" height="32" rx="16" fill="#14532d" stroke="#15803D" stroke-width="1.5"/>
+  <text x="402" y="57" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">손익분기 계산</text>
+
+  <!-- Title -->
+  <text x="600" y="136" text-anchor="middle" fill="#FFFFFF" font-size="44" font-weight="800" font-family="sans-serif">자차보험 할증 vs 자비수리</text>
+  <text x="600" y="184" text-anchor="middle" fill="#DDD6FE" font-size="28" font-weight="700" font-family="sans-serif">손익분기점 완전 계산 (2026)</text>
+
+  <!-- Key stat bar -->
+  <rect x="200" y="200" width="800" height="62" rx="12" fill="#1e293b" fill-opacity="0.9" stroke="#334155" stroke-width="1.5"/>
+  <text x="600" y="228" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">손익분기점 (연 보험료 70만원 기준)</text>
+  <text x="600" y="252" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">수리비 62만원 이하 → 자비수리 / 이상 → 보험처리</text>
+
+  <rect x="200" y="276" width="800" height="2" rx="1" fill="#7C3AED" fill-opacity="0.4"/>
+
+  <!-- Two cards -->
+  <rect x="40" y="286" width="555" height="300" rx="16" fill="url(#greenGrad)" fill-opacity="0.8" stroke="#15803D" stroke-width="2"/>
+  <text x="317" y="326" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">자비수리 (60만원 이하)</text>
+  <line x1="70" y1="340" x2="565" y2="340" stroke="#14532d" stroke-width="1.5"/>
+  <text x="317" y="380" text-anchor="middle" fill="#86EFAC" font-size="26" font-weight="800" font-family="sans-serif">보험료 변동 없음 ✅</text>
+  <line x1="70" y1="398" x2="565" y2="398" stroke="#14532d" stroke-width="1.5"/>
+  <text x="70" y="430" fill="#4ADE80" font-size="14" font-weight="700" font-family="sans-serif">✅ 무사고 할인 유지</text>
+  <text x="70" y="456" fill="#4ADE80" font-size="14" font-weight="700" font-family="sans-serif">✅ 사고 기록 없음</text>
+  <text x="70" y="482" fill="#94A3B8" font-size="14" font-family="sans-serif">❌ 수리비 즉시 전액 부담</text>
+  <rect x="70" y="498" width="465" height="30" rx="8" fill="#15803D" fill-opacity="0.4"/>
+  <text x="302" y="519" text-anchor="middle" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">→ 수리비 60만원 이하면 선택</text>
+
+  <rect x="605" y="286" width="555" height="300" rx="16" fill="url(#purpleGrad)" fill-opacity="0.8" stroke="#7C3AED" stroke-width="2"/>
+  <text x="882" y="326" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">자차보험 처리 (100만원 이상)</text>
+  <line x1="635" y1="340" x2="1130" y2="340" stroke="#4c1d95" stroke-width="1.5"/>
+  <text x="882" y="380" text-anchor="middle" fill="#DDD6FE" font-size="26" font-weight="800" font-family="sans-serif">3년 38만원+ 절약 가능</text>
+  <line x1="635" y1="398" x2="1130" y2="398" stroke="#4c1d95" stroke-width="1.5"/>
+  <text x="635" y="430" fill="#4ADE80" font-size="14" font-weight="700" font-family="sans-serif">✅ 대형 수리비 자기부담금만 납부</text>
+  <text x="635" y="456" fill="#4ADE80" font-size="14" font-weight="700" font-family="sans-serif">✅ 환입 제도로 사고 기록 삭제 가능</text>
+  <text x="635" y="482" fill="#94A3B8" font-size="14" font-family="sans-serif">❌ 3년간 보험료 약 +42만원</text>
+  <rect x="635" y="498" width="465" height="30" rx="8" fill="#7C3AED" fill-opacity="0.4"/>
+  <text x="867" y="519" text-anchor="middle" fill="#DDD6FE" font-size="13" font-weight="700" font-family="sans-serif">→ 수리비 100만원 이상이면 선택</text>
+
+  <text x="40" y="606" fill="#64748B" font-size="13" font-family="sans-serif">essencial | 보험 비교 · 2026.05 기준 · 연 보험료 70만원 기준 시뮬레이션 · 실제 값은 계약 조건에 따라 다릅니다</text>
+</svg>

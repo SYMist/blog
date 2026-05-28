@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 640">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="purpleCard" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3b0764" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#1e1b4b" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="tealCard" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#134e4a" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="640" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="540" y="48" text-anchor="middle" fill="#FFFFFF" font-size="24" font-weight="800" font-family="sans-serif">종신보험 vs 정기보험 비교 요약</text>
+  <text x="540" y="74" text-anchor="middle" fill="#A78BFA" font-size="14" font-family="sans-serif">50대 기준 · 사망보험금 1억원 · 20년납 예시 | 2026.05 기준</text>
+  <rect x="60" y="88" width="960" height="2" rx="1" fill="#7C3AED" fill-opacity="0.5"/>
+
+  <!-- Card 1: 종신보험 -->
+  <rect x="40" y="104" width="480" height="500" rx="14" fill="url(#purpleCard)" stroke="#7C3AED" stroke-width="2"/>
+  <rect x="40" y="104" width="480" height="48" rx="14" fill="#7C3AED"/>
+  <rect x="40" y="136" width="480" height="16" fill="#7C3AED"/>
+  <text x="280" y="136" text-anchor="middle" fill="#FFFFFF" font-size="19" font-weight="800" font-family="sans-serif">종신보험</text>
+  <text x="280" y="172" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">평생 보장 · 해약환급금 있음</text>
+
+  <line x1="70" y1="192" x2="490" y2="192" stroke="#334155" stroke-width="1"/>
+
+  <text x="280" y="220" text-anchor="middle" fill="#C4B5FD" font-size="13" font-weight="700" font-family="sans-serif">보험료 (50세 남성, 1억원)</text>
+  <text x="280" y="256" text-anchor="middle" fill="#FFFFFF" font-size="28" font-weight="800" font-family="sans-serif">월 12만~18만원</text>
+  <text x="280" y="278" text-anchor="middle" fill="#FCA5A5" font-size="13" font-family="sans-serif">정기보험의 2~3배</text>
+
+  <line x1="70" y1="296" x2="490" y2="296" stroke="#334155" stroke-width="1"/>
+
+  <text x="280" y="320" text-anchor="middle" fill="#C4B5FD" font-size="13" font-weight="700" font-family="sans-serif">보장 구조</text>
+  <text x="80" y="348" fill="#4ADE80" font-size="13" font-weight="700" font-family="sans-serif">✅ 평생 보장 (사망 시점 불문)</text>
+  <text x="80" y="374" fill="#4ADE80" font-size="13" font-weight="700" font-family="sans-serif">✅ 해약환급금 있음</text>
+  <text x="80" y="400" fill="#4ADE80" font-size="13" font-weight="700" font-family="sans-serif">✅ 상속·자산 이전 활용</text>
+  <text x="80" y="426" fill="#94A3B8" font-size="13" font-family="sans-serif">❌ 보험료 부담 큼</text>
+  <text x="80" y="450" fill="#94A3B8" font-size="13" font-family="sans-serif">❌ 중도해지 시 원금 손실</text>
+
+  <line x1="70" y1="468" x2="490" y2="468" stroke="#334155" stroke-width="1"/>
+
+  <text x="280" y="492" text-anchor="middle" fill="#C4B5FD" font-size="13" font-weight="700" font-family="sans-serif">추천 상황</text>
+  <text x="280" y="520" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="sans-serif">상속·장례비 목적 (소액 활용)</text>
+  <text x="280" y="544" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="sans-serif">평생 보장이 반드시 필요한 경우</text>
+  <rect x="70" y="564" width="390" height="22" rx="6" fill="#7C3AED" fill-opacity="0.2"/>
+  <text x="265" y="579" text-anchor="middle" fill="#C4B5FD" font-size="12" font-weight="700" font-family="sans-serif">50대 후반 신규 가입은 신중히!</text>
+
+  <!-- Card 2: 정기보험 -->
+  <rect x="560" y="104" width="480" height="500" rx="14" fill="url(#tealCard)" stroke="#0F766E" stroke-width="2"/>
+  <rect x="560" y="104" width="480" height="48" rx="14" fill="#0F766E"/>
+  <rect x="560" y="136" width="480" height="16" fill="#0F766E"/>
+  <text x="800" y="136" text-anchor="middle" fill="#FFFFFF" font-size="19" font-weight="800" font-family="sans-serif">정기보험</text>
+  <text x="800" y="172" text-anchor="middle" fill="#94A3B8" font-size="13" font-family="sans-serif">기간 보장 · 보험료 저렴</text>
+
+  <line x1="590" y1="192" x2="1010" y2="192" stroke="#334155" stroke-width="1"/>
+
+  <text x="800" y="220" text-anchor="middle" fill="#6EE7B7" font-size="13" font-weight="700" font-family="sans-serif">보험료 (50세 남성, 1억원)</text>
+  <text x="800" y="256" text-anchor="middle" fill="#FFFFFF" font-size="28" font-weight="800" font-family="sans-serif">월 4만~7만원</text>
+  <text x="800" y="278" text-anchor="middle" fill="#4ADE80" font-size="13" font-family="sans-serif">종신보험의 1/3 수준</text>
+
+  <line x1="590" y1="296" x2="1010" y2="296" stroke="#334155" stroke-width="1"/>
+
+  <text x="800" y="320" text-anchor="middle" fill="#6EE7B7" font-size="13" font-weight="700" font-family="sans-serif">보장 구조</text>
+  <text x="600" y="348" fill="#4ADE80" font-size="13" font-weight="700" font-family="sans-serif">✅ 보험료 저렴 (월 4만~7만원)</text>
+  <text x="600" y="374" fill="#4ADE80" font-size="13" font-weight="700" font-family="sans-serif">✅ 단순 구조 (기간+금액만 선택)</text>
+  <text x="600" y="400" fill="#4ADE80" font-size="13" font-weight="700" font-family="sans-serif">✅ 건강 우량자 추가 할인 가능</text>
+  <text x="600" y="426" fill="#94A3B8" font-size="13" font-family="sans-serif">❌ 만기 후 보장 소멸</text>
+  <text x="600" y="450" fill="#94A3B8" font-size="13" font-family="sans-serif">❌ 만기 후 재가입 보험료 급등</text>
+
+  <line x1="590" y1="468" x2="1010" y2="468" stroke="#334155" stroke-width="1"/>
+
+  <text x="800" y="492" text-anchor="middle" fill="#6EE7B7" font-size="13" font-weight="700" font-family="sans-serif">추천 상황</text>
+  <text x="800" y="520" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="sans-serif">미성년 자녀·부채 있는 50대 가장</text>
+  <text x="800" y="544" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="sans-serif">보험료 최소화 + 필요 기간만 보장</text>
+  <rect x="590" y="564" width="390" height="22" rx="6" fill="#0F766E" fill-opacity="0.2"/>
+  <text x="785" y="579" text-anchor="middle" fill="#6EE7B7" font-size="12" font-weight="700" font-family="sans-serif">자녀 독립 시점까지 기간 설정 권장</text>
+
+  <text x="40" y="622" fill="#64748B" font-size="12" font-family="sans-serif">essencial | 보험 비교 · 2026.05 기준 · 개인 상황에 따라 다를 수 있으며 가입 전 약관 확인 필요</text>
+</svg>

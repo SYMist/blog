@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- 레이블 -->
+  <rect x="60" y="52" width="260" height="44" rx="22" fill="#34D399" opacity="0.18"/>
+  <text x="190" y="80" font-family="-apple-system,sans-serif" font-size="22" font-weight="700" fill="#34D399" text-anchor="middle">건강보험·복지 제도</text>
+
+  <!-- 제목 -->
+  <text x="540" y="158" font-family="-apple-system,sans-serif" font-size="52" font-weight="900" fill="#FFFFFF" text-anchor="middle">농어업인 건강보험료 경감·지원</text>
+  <text x="540" y="210" font-family="-apple-system,sans-serif" font-size="36" font-weight="700" fill="#A0B4D0" text-anchor="middle">핵심 조건 요약 (2026)</text>
+
+  <line x1="60" y1="240" x2="1020" y2="240" stroke="#1A3270" stroke-width="2"/>
+
+  <!-- 두 혜택 박스 -->
+  <!-- 22% 경감 -->
+  <rect x="60" y="258" width="445" height="280" rx="18" fill="#0D2347"/>
+  <rect x="60" y="258" width="445" height="6" rx="3" fill="#34D399"/>
+  <text x="282" y="308" font-family="-apple-system,sans-serif" font-size="28" font-weight="900" fill="#34D399" text-anchor="middle">22% 경감</text>
+  <text x="282" y="342" font-family="-apple-system,sans-serif" font-size="20" fill="#A0B4D0" text-anchor="middle">농어촌지역 자동 적용</text>
+  <line x1="80" y1="356" x2="485" y2="356" stroke="#1A3270" stroke-width="1"/>
+  <text x="80" y="392" font-family="-apple-system,sans-serif" font-size="21" fill="#FFFFFF">✅ 군·읍·면 지역 거주</text>
+  <text x="80" y="428" font-family="-apple-system,sans-serif" font-size="21" fill="#FFFFFF">✅ 지역가입자이면 자동 적용</text>
+  <text x="80" y="464" font-family="-apple-system,sans-serif" font-size="21" fill="#FFFFFF">✅ 별도 신청 불필요</text>
+  <text x="80" y="500" font-family="-apple-system,sans-serif" font-size="21" fill="#FFFFFF">✅ 소득 기준 없음</text>
+
+  <!-- 28% 지원 -->
+  <rect x="575" y="258" width="445" height="280" rx="18" fill="#0D2347"/>
+  <rect x="575" y="258" width="445" height="6" rx="3" fill="#F59E0B"/>
+  <text x="797" y="308" font-family="-apple-system,sans-serif" font-size="28" font-weight="900" fill="#F59E0B" text-anchor="middle">28% 국고지원</text>
+  <text x="797" y="342" font-family="-apple-system,sans-serif" font-size="20" fill="#A0B4D0" text-anchor="middle">신청 필수</text>
+  <line x1="595" y1="356" x2="1000" y2="356" stroke="#1A3270" stroke-width="1"/>
+  <text x="595" y="392" font-family="-apple-system,sans-serif" font-size="21" fill="#FFFFFF">✅ 농업·축산·임업 종사자</text>
+  <text x="595" y="428" font-family="-apple-system,sans-serif" font-size="21" fill="#FFFFFF">✅ 농촌/준농촌 거주 지역가입자</text>
+  <text x="595" y="464" font-family="-apple-system,sans-serif" font-size="21" fill="#EF4444">⚠ 부과액 528,970원 미만</text>
+  <text x="595" y="500" font-family="-apple-system,sans-serif" font-size="21" fill="#FFFFFF">✅ 6개월 소급 환급 가능</text>
+
+  <!-- 중복 합산 -->
+  <rect x="60" y="556" width="960" height="70" rx="14" fill="#1A3270"/>
+  <text x="540" y="590" font-family="-apple-system,sans-serif" font-size="26" font-weight="900" fill="#FFFFFF" text-anchor="middle">두 혜택 중복 적용 가능 — 합산 최대 약 50% 절감</text>
+  <text x="540" y="616" font-family="-apple-system,sans-serif" font-size="20" fill="#A0B4D0" text-anchor="middle">22% 경감 + 28% 추가 지원 동시 적용</text>
+
+  <!-- 금액 시뮬레이션 -->
+  <rect x="60" y="644" width="960" height="200" rx="14" fill="#0D2347"/>
+  <text x="540" y="680" font-family="-apple-system,sans-serif" font-size="24" font-weight="800" fill="#FFFFFF" text-anchor="middle">월 보험료별 실납부액 예시</text>
+  <line x1="80" y1="694" x2="1000" y2="694" stroke="#1A3270" stroke-width="1"/>
+
+  <!-- 표 헤더 -->
+  <text x="200" y="720" font-family="-apple-system,sans-serif" font-size="19" fill="#A0B4D0" text-anchor="middle">원래 부과액</text>
+  <text x="480" y="720" font-family="-apple-system,sans-serif" font-size="19" fill="#34D399" text-anchor="middle">22% 경감 후</text>
+  <text x="720" y="720" font-family="-apple-system,sans-serif" font-size="19" fill="#F59E0B" text-anchor="middle">28% 추가 지원</text>
+  <text x="940" y="720" font-family="-apple-system,sans-serif" font-size="19" fill="#FFFFFF" text-anchor="middle">실 납부액</text>
+
+  <!-- 행 1 -->
+  <text x="200" y="754" font-family="-apple-system,sans-serif" font-size="22" fill="#FFFFFF" text-anchor="middle">10만 원</text>
+  <text x="480" y="754" font-family="-apple-system,sans-serif" font-size="22" fill="#34D399" text-anchor="middle">78,000원</text>
+  <text x="720" y="754" font-family="-apple-system,sans-serif" font-size="22" fill="#F59E0B" text-anchor="middle">−28,000원</text>
+  <text x="940" y="754" font-family="-apple-system,sans-serif" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="middle">~50,000원</text>
+
+  <!-- 행 2 -->
+  <text x="200" y="792" font-family="-apple-system,sans-serif" font-size="22" fill="#FFFFFF" text-anchor="middle">20만 원</text>
+  <text x="480" y="792" font-family="-apple-system,sans-serif" font-size="22" fill="#34D399" text-anchor="middle">156,000원</text>
+  <text x="720" y="792" font-family="-apple-system,sans-serif" font-size="22" fill="#F59E0B" text-anchor="middle">−56,000원</text>
+  <text x="940" y="792" font-family="-apple-system,sans-serif" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="middle">~100,000원</text>
+
+  <!-- 핵심 소급 강조 -->
+  <rect x="60" y="862" width="960" height="68" rx="14" fill="#F59E0B" opacity="0.12"/>
+  <rect x="60" y="862" width="4" height="68" rx="2" fill="#F59E0B"/>
+  <text x="540" y="898" font-family="-apple-system,sans-serif" font-size="26" font-weight="900" fill="#F59E0B" text-anchor="middle">⚠ 6개월 소급 환급 — 신청 전월부터 최대 6개월</text>
+  <text x="540" y="922" font-family="-apple-system,sans-serif" font-size="20" fill="#FFFFFF" text-anchor="middle">모른 채 납부한 보험료 최대 수십만 원 환급 가능</text>
+
+  <text x="540" y="1036" font-family="-apple-system,sans-serif" font-size="20" fill="#4B6080" text-anchor="middle">국민건강보험법 제75조 기준 | 정부24·찾기쉬운생활법령 | 2026.05 기준</text>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 배경 -->
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <!-- 타이틀 -->
+  <rect x="60" y="54" width="960" height="110" rx="16" fill="#1A0A0A" stroke="#EF4444" stroke-width="2"/>
+  <text x="540" y="100" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="34" font-weight="800" fill="#EF4444" text-anchor="middle">건강보험 피부양자 탈락</text>
+  <text x="540" y="146" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="34" font-weight="800" fill="#FFFFFF" text-anchor="middle">자주 발생하는 TOP 5 사유</text>
+
+  <!-- 탈락 사유 1 -->
+  <rect x="60" y="192" width="960" height="118" rx="14" fill="#0D2347"/>
+  <rect x="60" y="192" width="8" height="118" rx="4" fill="#EF4444"/>
+  <text x="120" y="238" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="52" font-weight="900" fill="#EF4444">01</text>
+  <text x="230" y="238" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF">연 소득 2,000만 원 초과</text>
+  <text x="230" y="290" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="23" fill="#A0B4D0">다음 해 11월 자동 지역가입자 전환 — 매년 소득 점검 필요</text>
+
+  <!-- 탈락 사유 2 -->
+  <rect x="60" y="326" width="960" height="118" rx="14" fill="#102A56"/>
+  <rect x="60" y="326" width="8" height="118" rx="4" fill="#EF4444"/>
+  <text x="120" y="372" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="52" font-weight="900" fill="#EF4444">02</text>
+  <text x="230" y="372" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF">재산세 과세표준 9억 원 초과</text>
+  <text x="230" y="424" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="23" fill="#A0B4D0">소득 무관 피부양자 자격 제외 — 고가 부동산 보유자 주의</text>
+
+  <!-- 탈락 사유 3 -->
+  <rect x="60" y="460" width="960" height="118" rx="14" fill="#0D2347"/>
+  <rect x="60" y="460" width="8" height="118" rx="4" fill="#F59E0B"/>
+  <text x="120" y="506" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="52" font-weight="900" fill="#F59E0B">03</text>
+  <text x="230" y="506" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF">사업자 등록 유지 (실소득 없어도)</text>
+  <text x="230" y="558" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="23" fill="#A0B4D0">사업소득 요건 미충족 — 불필요 사업자 폐업 후 신청 유리</text>
+
+  <!-- 탈락 사유 4 -->
+  <rect x="60" y="594" width="960" height="118" rx="14" fill="#102A56"/>
+  <rect x="60" y="594" width="8" height="118" rx="4" fill="#F59E0B"/>
+  <text x="120" y="640" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="52" font-weight="900" fill="#F59E0B">04</text>
+  <text x="230" y="640" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF">금융소득 1,000만 원 초과 미확인</text>
+  <text x="230" y="692" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="23" fill="#A0B4D0">이자·배당 1,000만 초과분은 합산소득 포함 — 계산 누락 주의</text>
+
+  <!-- 탈락 사유 5 -->
+  <rect x="60" y="728" width="960" height="118" rx="14" fill="#0D2347"/>
+  <rect x="60" y="728" width="8" height="118" rx="4" fill="#A0B4D0"/>
+  <text x="120" y="774" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="52" font-weight="900" fill="#A0B4D0">05</text>
+  <text x="230" y="774" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF">형제·자매 재산 기준 초과</text>
+  <text x="230" y="826" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="23" fill="#A0B4D0">형제·자매는 과세표준 1억 8천만 원 이하 별도 기준 적용</text>
+
+  <!-- 하단 강조 -->
+  <rect x="60" y="872" width="960" height="80" rx="16" fill="#1A3270"/>
+  <text x="540" y="920" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="800" fill="#34D399" text-anchor="middle">피부양자 탈락 전 공단(1577-1000) 상담 받으면 대부분 해결 가능</text>
+
+  <!-- 하단 출처 -->
+  <text x="540" y="990" font-family="-apple-system, 'Apple SD Gothic Neo', sans-serif" font-size="22" fill="#4A6080" text-anchor="middle">국민건강보험법 제65조 · 2026년 5월 기준 · deluxo</text>
+</svg>

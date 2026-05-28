@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <rect x="80" y="100" width="240" height="46" rx="23" fill="#0F766E"/>
+  <text x="200" y="132" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="800" font-family="sans-serif">2026 실손·관리급여</text>
+
+  <text x="80" y="220" fill="#FFFFFF" font-size="58" font-weight="800" font-family="sans-serif">도수치료 비용</text>
+  <text x="80" y="288" fill="#FFFFFF" font-size="58" font-weight="800" font-family="sans-serif">실비 총정리</text>
+  <text x="80" y="348" fill="#5EEAD4" font-size="32" font-weight="600" font-family="sans-serif">횟수·자기부담 1~5세대 비교</text>
+
+  <rect x="80" y="378" width="380" height="6" rx="3" fill="#0F766E"/>
+
+  <text x="80" y="438" fill="#5EEAD4" font-size="26" font-weight="700" font-family="sans-serif">평균 7.6만 · 최대 2,000배 편차</text>
+  <text x="80" y="475" fill="#5EEAD4" font-size="26" font-weight="700" font-family="sans-serif">5세대는 원칙적 보장 제외</text>
+
+  <!-- Big numbers grid -->
+  <rect x="80" y="525" width="430" height="170" rx="20" fill="#1e293b" stroke="#0F766E" stroke-width="3"/>
+  <text x="295" y="575" text-anchor="middle" fill="#5EEAD4" font-size="20" font-weight="700" font-family="sans-serif">전국 평균 비용</text>
+  <text x="295" y="635" text-anchor="middle" fill="#FFFFFF" font-size="48" font-weight="800" font-family="sans-serif">7.6만 원</text>
+  <text x="295" y="670" text-anchor="middle" fill="#FCD34D" font-size="18" font-weight="600" font-family="sans-serif">전년 +1.6%</text>
+
+  <rect x="540" y="525" width="430" height="170" rx="20" fill="#1e293b" stroke="#0F766E" stroke-width="3"/>
+  <text x="755" y="575" text-anchor="middle" fill="#5EEAD4" font-size="20" font-weight="700" font-family="sans-serif">5세대 비중증 자부담</text>
+  <text x="755" y="635" text-anchor="middle" fill="#FFFFFF" font-size="48" font-weight="800" font-family="sans-serif">50%</text>
+  <text x="755" y="670" text-anchor="middle" fill="#FCD34D" font-size="18" font-weight="600" font-family="sans-serif">4세대 30% → 상향</text>
+
+  <rect x="80" y="725" width="430" height="170" rx="20" fill="#1e293b" stroke="#0F766E" stroke-width="3"/>
+  <text x="295" y="775" text-anchor="middle" fill="#5EEAD4" font-size="20" font-weight="700" font-family="sans-serif">관리급여 본인부담</text>
+  <text x="295" y="835" text-anchor="middle" fill="#FFFFFF" font-size="48" font-weight="800" font-family="sans-serif">95%</text>
+  <text x="295" y="870" text-anchor="middle" fill="#FCA5A5" font-size="18" font-weight="600" font-family="sans-serif">공단 5% · 환자 95%</text>
+
+  <rect x="540" y="725" width="430" height="170" rx="20" fill="#1e293b" stroke="#0F766E" stroke-width="3"/>
+  <text x="755" y="775" text-anchor="middle" fill="#5EEAD4" font-size="20" font-weight="700" font-family="sans-serif">4세대 연간 '마지노선'</text>
+  <text x="755" y="835" text-anchor="middle" fill="#FFFFFF" font-size="44" font-weight="800" font-family="sans-serif">100만 원</text>
+  <text x="755" y="870" text-anchor="middle" fill="#F87171" font-size="18" font-weight="600" font-family="sans-serif">초과 시 할증 2~4배</text>
+
+  <text x="80" y="970" fill="#FFFFFF" font-size="26" font-weight="700" font-family="sans-serif">1~5세대 자기부담·횟수 한도 비교</text>
+  <text x="80" y="1010" fill="#5EEAD4" font-size="22" font-weight="600" font-family="sans-serif">실비 청구 성공 서류 + 호전도 기록 가이드</text>
+
+  <text x="80" y="1055" fill="#64748B" font-size="18" font-family="sans-serif">essencial | 건강·의료 silo</text>
+</svg>

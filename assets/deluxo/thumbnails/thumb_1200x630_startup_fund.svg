@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0B1F3B"/><stop offset="100%" stop-color="#102A56"/></linearGradient></defs>
+  <rect width="1200" height="630" rx="24" fill="url(#bg)"/>
+
+  <!-- Badge -->
+  <rect x="60" y="45" width="360" height="50" rx="25" fill="#F59E0B"/>
+  <text x="240" y="79" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="26" font-weight="800" fill="#0B1F3B">2026 최신 · 5.4조 편성</text>
+
+  <!-- Main Text -->
+  <text x="60" y="170" font-family="'Pretendard',sans-serif" font-size="68" font-weight="900" fill="#FFF">소상공인 창업지원금</text>
+  <text x="60" y="250" font-family="'Pretendard',sans-serif" font-size="68" font-weight="900" fill="#FFF">대출·보조금 총정리</text>
+
+  <!-- Sub Text -->
+  <text x="60" y="315" font-family="'Pretendard',sans-serif" font-size="40" font-weight="600" fill="#EAF2FF">비상환 3억 + 청년 전용 2.5% + 인천 이차보전</text>
+
+  <!-- Info Box -->
+  <rect x="60" y="345" width="1080" height="85" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <text x="600" y="392" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="36" font-weight="800" fill="#F59E0B">창업패키지 최대 3억 + 정책자금 최대 2억 + 지자체 이차보전</text>
+  <text x="600" y="422" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="22" fill="#EAF2FF">예비·초기·도약 단계별 최적 조합 한눈에 비교</text>
+
+  <!-- Chips -->
+  <rect x="60" y="465" width="190" height="54" rx="24" fill="#E8F0FF"/>
+  <text x="155" y="501" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#1D4ED8">보조금3억</text>
+  <rect x="275" y="465" width="190" height="54" rx="24" fill="#E8F0FF"/>
+  <text x="370" y="501" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#1D4ED8">대출2.5%</text>
+  <rect x="490" y="465" width="170" height="54" rx="24" fill="#E8F0FF"/>
+  <text x="575" y="501" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#1D4ED8">패키지</text>
+  <rect x="685" y="465" width="190" height="54" rx="24" fill="#E8F0FF"/>
+  <text x="780" y="501" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="28" font-weight="700" fill="#1D4ED8">교육필수</text>
+
+  <!-- CTA Box -->
+  <rect x="60" y="550" width="1080" height="50" rx="12" fill="rgba(245,158,11,0.15)"/>
+  <text x="600" y="584" text-anchor="middle" font-family="'Pretendard',sans-serif" font-size="30" font-weight="800" fill="#F59E0B">모르면 수억 원 지원금 놓칩니다 — 지금 확인하세요</text>
+
+  <!-- Bottom line -->
+  <rect x="60" y="615" width="1080" height="5" rx="2.5" fill="#F59E0B"/>
+</svg>

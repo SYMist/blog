@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1E40AF"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)" rx="32"/>
+
+  <!-- Badge -->
+  <rect x="60" y="50" width="160" height="42" rx="21" fill="#EF4444"/>
+  <text x="140" y="78" text-anchor="middle" fill="#FFF" font-size="20" font-weight="700" font-family="Pretendard,sans-serif">2026 최신</text>
+
+  <!-- Title -->
+  <text x="540" y="155" text-anchor="middle" fill="#FFFFFF" font-size="48" font-weight="900" font-family="Pretendard,sans-serif">10년 된 차</text>
+  <text x="540" y="215" text-anchor="middle" fill="#E2E8F0" font-size="40" font-weight="700" font-family="Pretendard,sans-serif">폐차 vs 수출</text>
+  <text x="540" y="260" text-anchor="middle" fill="#93C5FD" font-size="28" font-family="Pretendard,sans-serif">뭐가 더 이득인지 비교</text>
+
+  <!-- Divider -->
+  <rect x="390" y="285" width="300" height="4" rx="2" fill="url(#blue)"/>
+
+  <!-- 폐차 Card -->
+  <rect x="60" y="320" width="460" height="310" rx="20" fill="#1E293B" stroke="#F59E0B" stroke-width="2"/>
+  <rect x="60" y="320" width="460" height="55" rx="20" fill="#F59E0B"/>
+  <rect x="60" y="355" width="460" height="20" fill="#F59E0B"/>
+  <text x="290" y="357" text-anchor="middle" fill="#FFF" font-size="26" font-weight="800" font-family="Pretendard,sans-serif">폐차 (일반/조기)</text>
+
+  <text x="80" y="415" fill="#FDE68A" font-size="18" font-weight="700" font-family="Pretendard,sans-serif">예상 수익</text>
+  <text x="80" y="455" fill="#FFFFFF" font-size="36" font-weight="900" font-family="Pretendard,sans-serif">50~420만 원</text>
+  <text x="80" y="490" fill="#94A3B8" font-size="16" font-family="Pretendard,sans-serif">(보조금 + 고철 + 귀금속 포함)</text>
+
+  <text x="80" y="535" fill="#86EFAC" font-size="17" font-weight="600" font-family="Pretendard,sans-serif">✅ 모든 차량 가능</text>
+  <text x="80" y="565" fill="#86EFAC" font-size="17" font-weight="600" font-family="Pretendard,sans-serif">✅ 5등급 보조금 100% (올해 마지막)</text>
+  <text x="80" y="595" fill="#FCA5A5" font-size="17" font-weight="600" font-family="Pretendard,sans-serif">⚠ 보조금 없으면 수익 제한</text>
+
+  <!-- 수출 Card -->
+  <rect x="560" y="320" width="460" height="310" rx="20" fill="#1E293B" stroke="#3B82F6" stroke-width="2"/>
+  <rect x="560" y="320" width="460" height="55" rx="20" fill="#3B82F6"/>
+  <rect x="560" y="355" width="460" height="20" fill="#3B82F6"/>
+  <text x="790" y="357" text-anchor="middle" fill="#FFF" font-size="26" font-weight="800" font-family="Pretendard,sans-serif">중고차 수출</text>
+
+  <text x="580" y="415" fill="#93C5FD" font-size="18" font-weight="700" font-family="Pretendard,sans-serif">예상 수익</text>
+  <text x="580" y="455" fill="#FFFFFF" font-size="36" font-weight="900" font-family="Pretendard,sans-serif">150~500만 원</text>
+  <text x="580" y="490" fill="#94A3B8" font-size="16" font-family="Pretendard,sans-serif">(차종·상태에 따른 매입가)</text>
+
+  <text x="580" y="535" fill="#86EFAC" font-size="17" font-weight="600" font-family="Pretendard,sans-serif">✅ 주행거리 30만km도 OK</text>
+  <text x="580" y="565" fill="#86EFAC" font-size="17" font-weight="600" font-family="Pretendard,sans-serif">✅ 폐차 대비 100~300만 원 추가</text>
+  <text x="580" y="595" fill="#FCA5A5" font-size="17" font-weight="600" font-family="Pretendard,sans-serif">⚠ 엔진 불량 시 매입 거부</text>
+
+  <!-- Bottom: 금속 시세 -->
+  <rect x="60" y="670" width="960" height="110" rx="16" fill="#1E40AF" opacity="0.15"/>
+  <rect x="60" y="670" width="960" height="110" rx="16" stroke="#3B82F6" stroke-width="2" fill="none"/>
+  <text x="540" y="710" text-anchor="middle" fill="#93C5FD" font-size="22" font-weight="800" font-family="Pretendard,sans-serif">2026년 4월 금속 시세 — 사상 최고</text>
+  <text x="260" y="755" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="700" font-family="Pretendard,sans-serif">고철 $418.50/톤</text>
+  <text x="540" y="755" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="700" font-family="Pretendard,sans-serif">구리 16,700원/kg</text>
+  <text x="820" y="755" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="700" font-family="Pretendard,sans-serif">백금 $1,946/oz</text>
+
+  <!-- 수출 인기 차종 -->
+  <rect x="60" y="820" width="960" height="90" rx="16" fill="#1E293B"/>
+  <text x="540" y="855" text-anchor="middle" fill="#94A3B8" font-size="18" font-weight="600" font-family="Pretendard,sans-serif">수출 인기 차종 (2016년식)</text>
+  <text x="540" y="890" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="700" font-family="Pretendard,sans-serif">아반떼 | 투싼 | 스포티지 | 그랜저 | 카니발</text>
+
+  <!-- Chips -->
+  <rect x="300" y="950" width="100" height="36" rx="18" fill="#EFF6FF"/>
+  <text x="350" y="974" text-anchor="middle" fill="#1E40AF" font-size="17" font-weight="700" font-family="Pretendard,sans-serif">비교</text>
+  <rect x="420" y="950" width="100" height="36" rx="18" fill="#EFF6FF"/>
+  <text x="470" y="974" text-anchor="middle" fill="#1E40AF" font-size="17" font-weight="700" font-family="Pretendard,sans-serif">폐차</text>
+  <rect x="540" y="950" width="100" height="36" rx="18" fill="#EFF6FF"/>
+  <text x="590" y="974" text-anchor="middle" fill="#1E40AF" font-size="17" font-weight="700" font-family="Pretendard,sans-serif">수출</text>
+  <rect x="660" y="950" width="120" height="36" rx="18" fill="#EFF6FF"/>
+  <text x="720" y="974" text-anchor="middle" fill="#1E40AF" font-size="17" font-weight="700" font-family="Pretendard,sans-serif">보조금</text>
+
+  <text x="540" y="1050" text-anchor="middle" fill="#64748B" font-size="16" font-family="Pretendard,sans-serif">essencial | 2026년 4월 기준</text>
+</svg>

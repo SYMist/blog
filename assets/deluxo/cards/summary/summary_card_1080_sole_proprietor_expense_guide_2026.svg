@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1F3B"/>
+      <stop offset="100%" stop-color="#102A56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="8" fill="#34D399"/>
+
+  <!-- Title -->
+  <text x="540" y="52" font-family="-apple-system, sans-serif" font-size="26" font-weight="900" fill="#FFFFFF" text-anchor="middle">개인사업자 경비처리 핵심 항목·한도 요약</text>
+  <text x="540" y="82" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" fill="#A0B4D0" text-anchor="middle">2026년 종합소득세 (2025년 귀속) | 적격증빙 3만원 이상 필수</text>
+
+  <!-- Section 1 header: 인정 항목 -->
+  <rect x="30" y="96" width="1020" height="38" rx="8" fill="#1A3270"/>
+  <text x="60" y="121" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#34D399">✅  인정 항목</text>
+  <text x="420" y="121" font-family="-apple-system, sans-serif" font-size="15" font-weight="700" fill="#A0B4D0">한도</text>
+  <text x="700" y="121" font-family="-apple-system, sans-serif" font-size="15" font-weight="700" fill="#A0B4D0">비고</text>
+
+  <!-- Item 1: 차량 경비 -->
+  <rect x="30" y="140" width="1020" height="84" rx="8" fill="#0D2347"/>
+  <rect x="30" y="140" width="5" height="84" rx="2" fill="#34D399"/>
+  <text x="60" y="172" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">차량 경비 (업무용)</text>
+  <text x="420" y="172" font-family="-apple-system, sans-serif" font-size="20" font-weight="900" fill="#F59E0B">1,500만원/년</text>
+  <text x="60" y="200" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0">보험료·주유 영수증 보관</text>
+  <text x="420" y="200" font-family="-apple-system, sans-serif" font-size="13" fill="#34D399">2026년 상향 (기존 1,000만원) | 운행기록부 작성 시 전액</text>
+
+  <!-- Item 2: 접대비 -->
+  <rect x="30" y="230" width="1020" height="84" rx="8" fill="#1A3270"/>
+  <rect x="30" y="230" width="5" height="84" rx="2" fill="#34D399"/>
+  <text x="60" y="262" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">접대비 (기업업무추진비)</text>
+  <text x="420" y="262" font-family="-apple-system, sans-serif" font-size="20" font-weight="900" fill="#F59E0B">연 1,200만원</text>
+  <text x="60" y="290" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0">3만원+ 신용카드·세금계산서 필수</text>
+  <text x="420" y="290" font-family="-apple-system, sans-serif" font-size="13" fill="#34D399">경조사비 건당 20만원 별도 인정</text>
+
+  <!-- Item 3: 임직원 인건비 -->
+  <rect x="30" y="320" width="1020" height="84" rx="8" fill="#0D2347"/>
+  <rect x="30" y="320" width="5" height="84" rx="2" fill="#34D399"/>
+  <text x="60" y="352" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">임직원 인건비</text>
+  <text x="420" y="352" font-family="-apple-system, sans-serif" font-size="20" font-weight="900" fill="#34D399">한도 없음</text>
+  <text x="60" y="380" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0">근로계약서 + 통장이체 내역 필수</text>
+  <text x="420" y="380" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0">가족 직원도 실제 근무 입증 시 인정</text>
+
+  <!-- Item 4: 임대료·통신비·소모품 -->
+  <rect x="30" y="410" width="1020" height="84" rx="8" fill="#1A3270"/>
+  <rect x="30" y="410" width="5" height="84" rx="2" fill="#34D399"/>
+  <text x="60" y="442" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">임대료·통신비·소모품비</text>
+  <text x="420" y="442" font-family="-apple-system, sans-serif" font-size="20" font-weight="900" fill="#34D399">한도 없음</text>
+  <text x="60" y="470" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0">임대차계약서 + 청구서 보관</text>
+  <text x="420" y="470" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0">홈 오피스는 업무 면적 비율만큼 인정</text>
+
+  <!-- Item 5: 광고·홍보비 -->
+  <rect x="30" y="500" width="1020" height="84" rx="8" fill="#0D2347"/>
+  <rect x="30" y="500" width="5" height="84" rx="2" fill="#34D399"/>
+  <text x="60" y="532" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">광고·홍보비</text>
+  <text x="420" y="532" font-family="-apple-system, sans-serif" font-size="20" font-weight="900" fill="#34D399">한도 없음</text>
+  <text x="60" y="560" font-family="-apple-system, sans-serif" font-size="14" fill="#A0B4D0">세금계산서·신용카드 영수증 보관</text>
+  <text x="420" y="560" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0">온라인광고(네이버·구글 광고 등) 포함</text>
+
+  <!-- Section 2 header: 불인정 항목 -->
+  <rect x="30" y="596" width="1020" height="38" rx="8" fill="#3B1A1A"/>
+  <text x="60" y="621" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#EF4444">❌  불인정 항목 (처리 시 가산세 위험)</text>
+
+  <!-- Item 6: 대표자 급여 -->
+  <rect x="30" y="640" width="1020" height="84" rx="8" fill="#0D2347"/>
+  <rect x="30" y="640" width="5" height="84" rx="2" fill="#EF4444"/>
+  <text x="60" y="672" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">대표자 본인 급여</text>
+  <text x="60" y="700" font-family="-apple-system, sans-serif" font-size="14" fill="#EF4444">소득 자체 — 경비로 처리 불가. 법인과 달리 개인사업자는 본인 급여 불인정</text>
+
+  <!-- Item 7: 소득세·주민세·벌과금 -->
+  <rect x="30" y="730" width="1020" height="84" rx="8" fill="#1A3270"/>
+  <rect x="30" y="730" width="5" height="84" rx="2" fill="#EF4444"/>
+  <text x="60" y="762" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">소득세·주민세·벌과금·과태료</text>
+  <text x="60" y="790" font-family="-apple-system, sans-serif" font-size="14" fill="#EF4444">세금·제재금 전액 불인정 | 사업용 재산 재산세·지방세는 예외적으로 인정</text>
+
+  <!-- Item 8: 개인 생활비 -->
+  <rect x="30" y="820" width="1020" height="84" rx="8" fill="#0D2347"/>
+  <rect x="30" y="820" width="5" height="84" rx="2" fill="#EF4444"/>
+  <text x="60" y="852" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">개인 생활비·여가비</text>
+  <text x="60" y="880" font-family="-apple-system, sans-serif" font-size="14" fill="#EF4444">사업 무관 지출 불인정 — 세무조사 시 가장 자주 적발되는 항목</text>
+
+  <!-- Item 9: 무증빙 지출 -->
+  <rect x="30" y="910" width="1020" height="84" rx="8" fill="#1A3270"/>
+  <rect x="30" y="910" width="5" height="84" rx="2" fill="#EF4444"/>
+  <text x="60" y="942" font-family="-apple-system, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">무증빙 3만원+ 지출</text>
+  <text x="60" y="970" font-family="-apple-system, sans-serif" font-size="14" fill="#EF4444">적격증빙 미수취 시 지출금액의 2% 증빙불비 가산세 부과</text>
+
+  <text x="540" y="1060" font-family="-apple-system, sans-serif" font-size="13" fill="#A0B4D0" text-anchor="middle">2026년 5월 기준 | hometax.go.kr | 국세청 ☎126 | 개인 상황에 따라 다를 수 있음</text>
+  <rect x="0" y="1072" width="1080" height="8" fill="#34D399"/>
+</svg>

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#15803D"/>
+      <stop offset="100%" stop-color="#14532d"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E40AF"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <circle cx="1080" cy="100" r="200" fill="#1E40AF" fill-opacity="0.07"/>
+  <circle cx="120" cy="540" r="160" fill="#15803D" fill-opacity="0.07"/>
+
+  <!-- Chips -->
+  <rect x="40" y="36" width="90" height="32" rx="16" fill="#1E40AF" fill-opacity="0.35" stroke="#1E40AF" stroke-width="1.5"/>
+  <text x="85" y="57" text-anchor="middle" fill="#BFDBFE" font-size="14" font-weight="700" font-family="sans-serif">자동차</text>
+
+  <rect x="146" y="36" width="140" height="32" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="216" y="57" text-anchor="middle" fill="#94A3B8" font-size="14" font-family="sans-serif">2026.05 기준</text>
+
+  <rect x="302" y="36" width="170" height="32" rx="16" fill="#14532d" stroke="#15803D" stroke-width="1.5"/>
+  <text x="387" y="57" text-anchor="middle" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">옵션 회수율 분석</text>
+
+  <!-- Title -->
+  <text x="600" y="130" text-anchor="middle" fill="#FFFFFF" font-size="42" font-weight="800" font-family="sans-serif">신차 풀옵션 vs 깡통 5년 TCO</text>
+  <text x="600" y="178" text-anchor="middle" fill="#93C5FD" font-size="26" font-weight="700" font-family="sans-serif">옵션비 1,300만원 회수율 분석 (2026)</text>
+
+  <!-- Key stat bar -->
+  <rect x="200" y="198" width="800" height="62" rx="12" fill="#1e293b" fill-opacity="0.9" stroke="#334155" stroke-width="1.5"/>
+  <text x="600" y="226" text-anchor="middle" fill="#FCD34D" font-size="14" font-weight="700" font-family="sans-serif">옵션비 1,300만 → 5년 회수 650만 (회수율 50%)</text>
+  <text x="600" y="250" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">5년 TCO 차이 약 883만원 · 월 약 15만원</text>
+
+  <rect x="200" y="274" width="800" height="2" rx="1" fill="#1E40AF" fill-opacity="0.4"/>
+
+  <!-- Two cards -->
+  <rect x="40" y="284" width="555" height="300" rx="16" fill="url(#greenGrad)" fill-opacity="0.8" stroke="#15803D" stroke-width="2"/>
+  <text x="317" y="324" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">깡통 (2,346만원)</text>
+  <line x1="70" y1="338" x2="565" y2="338" stroke="#14532d" stroke-width="1.5"/>
+  <text x="317" y="378" text-anchor="middle" fill="#86EFAC" font-size="26" font-weight="800" font-family="sans-serif">5년 약 2,927만원</text>
+  <text x="317" y="406" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="700" font-family="sans-serif">월 약 49만원 · 연비 12km/L</text>
+  <line x1="70" y1="426" x2="565" y2="426" stroke="#14532d" stroke-width="1.5"/>
+  <text x="70" y="454" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">✅ 옵션비 손실 0원</text>
+  <text x="70" y="480" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">✅ 5년 절감 883만원 (월 15만)</text>
+  <text x="70" y="506" fill="#86EFAC" font-size="14" font-weight="700" font-family="sans-serif">✅ 출고 후 사제 옵션 일부 가능</text>
+  <rect x="70" y="526" width="465" height="36" rx="8" fill="#15803D" fill-opacity="0.4"/>
+  <text x="302" y="550" text-anchor="middle" fill="#86EFAC" font-size="13" font-weight="700" font-family="sans-serif">단기 보유·가성비 우선이면 선택</text>
+
+  <rect x="605" y="284" width="555" height="300" rx="16" fill="url(#blueGrad)" fill-opacity="0.8" stroke="#3B82F6" stroke-width="2"/>
+  <text x="882" y="324" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="800" font-family="sans-serif">풀옵션 (3,646만원)</text>
+  <line x1="635" y1="338" x2="1130" y2="338" stroke="#1e3a8a" stroke-width="1.5"/>
+  <text x="882" y="378" text-anchor="middle" fill="#BFDBFE" font-size="26" font-weight="800" font-family="sans-serif">5년 약 3,810만원</text>
+  <text x="882" y="406" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="700" font-family="sans-serif">월 약 64만원 · 연비 11km/L</text>
+  <line x1="635" y1="426" x2="1130" y2="426" stroke="#1e3a8a" stroke-width="1.5"/>
+  <text x="635" y="454" fill="#67E8F9" font-size="14" font-weight="700" font-family="sans-serif">✅ 안전·편의 옵션 풀 (실사용 가치)</text>
+  <text x="635" y="480" fill="#FCA5A5" font-size="14" font-weight="700" font-family="sans-serif">❌ 옵션비 650만 순손실 (회수율 50%)</text>
+  <text x="635" y="506" fill="#FCA5A5" font-size="14" font-weight="700" font-family="sans-serif">❌ 무게↑ → 연비 1km/L 감소</text>
+  <rect x="635" y="526" width="465" height="36" rx="8" fill="#1E40AF" fill-opacity="0.4"/>
+  <text x="867" y="550" text-anchor="middle" fill="#BFDBFE" font-size="13" font-weight="700" font-family="sans-serif">5년+ 장기·편의·사업자 절세 시 선택</text>
+
+  <text x="40" y="610" fill="#64748B" font-size="13" font-family="sans-serif">essencial | 자동차 · 2026.05 기준 · 인기 옵션만(430만) = 회수율 65% 최적 · 차종·옵션·중고 시세에 따라 다름</text>
+</svg>
