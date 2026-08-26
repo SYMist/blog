@@ -56,7 +56,9 @@
 
 ### ⚠️ 로그 항목 타입 선택 (ingest vs handoff) — 먼저 판단
 
-Avatar log.md에 기록할 때 **타입을 반드시 구분**한다. 잘못 고르면 다음 세션 맥락 주입이 깨진다.
+Avatar 로그에 기록할 때 **타입을 반드시 구분**한다. 잘못 고르면 다음 세션 맥락 주입이 깨진다.
+
+**기록 위치 = 볼트 `log/blog.md`** (louisville은 blog 도메인). 루트 `log.md`가 아니다 — 아래 분할 안내 참조.
 
 | 타입 | 언제 | 효과 |
 |---|---|---|
@@ -68,9 +70,10 @@ Avatar log.md에 기록할 때 **타입을 반드시 구분**한다. 잘못 고�
 - 파일 추가 없이 "작업 완료 + 남은 일" 보고인가? (사용자가 "마무리했어 / 정리해줘"라고 한 경우 포함) → **handoff**
 - 둘 다 해당하면(발행 + 세션 종료) 둘 다 작성한다.
 
-handoff 형식 (Avatar log.md 맨 위 `---` 아래에 추가):
+handoff 형식 (볼트 `log/blog.md` 맨 위 `---` 아래에 추가):
 ```
-## [YYYY-MM-DD] handoff | louisville — {제목}
+## [YYYY-MM-DD] handoff | louisville — {제목} (blog)
+^YYMMDD-blog-{k}
 
 {한 줄 맥락 — 어느 작업 세션에서 뭘 넘기는지}
 
@@ -80,7 +83,10 @@ handoff 형식 (Avatar log.md 맨 위 `---` 아래에 추가):
 **참고**: 관련 wiki/raw 링크
 ```
 
-> 🔴 **「이어서 할 일」 필드는 폐지됐다 (볼트 2026-08-23 개정).** 할 일의 정본은 볼트 `TASKS.md`다 — handoff에 목록을 다시 적으면 그 순간 사본이 되고, `log.md`는 append-only라 낡아도 못 고친다. 넘길 다음 액션이 있으면 **볼트 `TASKS.md`에 등록**하고, handoff엔 *「이번 세션이 `TASKS.md`를 어떻게 바꿨나」 한 줄*(추가·삭제 건수 + 특기사항)만 쓴다.
+> 🔴 **「이어서 할 일」 필드는 폐지됐다 (볼트 2026-08-23 개정).** 할 일의 정본은 볼트 `TASKS.md`다 — handoff에 목록을 다시 적으면 그 순간 사본이 되고, `log/`는 append-only라 낡아도 못 고친다. 넘길 다음 액션이 있으면 **볼트 `TASKS.md`에 등록**하고, handoff엔 *「이번 세션이 `TASKS.md`를 어떻게 바꿨나」 한 줄*(추가·삭제 건수 + 특기사항)만 쓴다.
+
+
+> 📁 **2026-08-26 볼트 log 분할.** `log.md`는 이제 **자동 생성 색인**이라 손으로 쓰면 다음 재생성 때 날아간다. 새 항목은 **`log/{도메인}.md` 맨 위**에 쓰고, 헤더 **다음 줄에 블록 ID** `^YYMMDD-{도메인}-{k}`를 붙인다(`k` = 그 날짜 블록의 순번, 이미 있으면 max+1 — 훅이 이걸로 통합 순서를 복원한다). 쓴 뒤 볼트에서 `.claude/hooks/build-log-index.sh`를 실행해 색인을 재생성한다.
 
 ### 발행 기록 push — `/post-next` 완료 시 (이 레포 → Avatar, **ingest**)
 
@@ -89,7 +95,7 @@ handoff 형식 (Avatar log.md 맨 위 `---` 아래에 추가):
 1. `raw/blog/tistory-{블로그명}/summaries/YYYY-MM-DD_{slug}.md` 파일 생성 (아래 형식)
    - deluxo: `raw/blog/tistory-deluxo/summaries/`
    - essencial: `raw/blog/tistory-essencial/summaries/`
-2. Avatar `log.md`에 항목 추가: `## [YYYY-MM-DD] ingest | louisville — {블로그} "{제목}" 발행`
+2. 볼트 `log/blog.md` 맨 위에 항목 추가: `## [YYYY-MM-DD] ingest | louisville — {블로그} "{제목}" 발행 (blog)` + 다음 줄 `^YYMMDD-blog-{k}` → 볼트에서 `.claude/hooks/build-log-index.sh` 실행
 
 raw/ 파일 형식 (Avatar 볼트의 기존 요약본과 동일 형식 유지):
 ```
@@ -140,7 +146,7 @@ tags: [blog/{blog-slug}, silo/{silo-slug}, cluster/{cluster-slug}]
 이 레포 = **실행 세션**(글 작성·발행·투두). 분석·지식은 **Avatar 볼트**가 보유한다.
 
 - **경계**: 데이터 분석·지식화 = Avatar / 글 발행·투두 실행 = 이 레포.
-- **작업 시작 전 참조**: Avatar `TASKS.md`(할 일 정본) + `log.md` 최신 **handoff**(맥락 복원용) + 관련 wiki. ⚠️ **둘이 어긋나면 `TASKS.md`가 이긴다** — `log.md`는 append-only라 낡아도 못 고친다.
+- **작업 시작 전 참조**: Avatar `TASKS.md`(할 일 정본) + `log/blog.md` 최신 **handoff**(맥락 복원용) + 관련 wiki. ⚠️ **둘이 어긋나면 `TASKS.md`가 이긴다** — `log/`는 append-only라 낡아도 못 고친다.
   - 전략·방향: `wiki/blog/overview.md`, `wiki/blog/seo-status.md`
   - 성과·패턴: `wiki/blog/performance.md`, `wiki/blog/what-works.md`
 - **데이터 분석은 Avatar에서**: GSC·애널리틱스 원본은 Avatar `raw/blog/`에 두고 Avatar 세션이 분석→wiki로 종합. 이 레포는 결론(wiki)을 참조해 실행만 한다.
